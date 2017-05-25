@@ -1,0 +1,11 @@
+<h1>Showing selected scenario</h1>
+
+<p>
+  Title: <%= @scenario.title %>
+</p>
+<p>
+  Description: <%= @scenario.description %>
+</p>
+
+<%= link_to "Edit this scenario", edit_scenario_path(@scenario) %><br />
+<%= link_to "Back to scenarios", scenarios_path %>

@@ -1,0 +1,23 @@
+<h1>Listing all scenarios</h1>
+<p>
+<%= link_to 'Home', root_path %>
+</p>
+<p>
+  <%= link_to "Create new scenario", new_scenario_path %>
+</p>
+<table>
+  <tr>
+    <th>Tile</th>
+    <th>Description</th>
+  </tr>
+  <% @scenarios.each do |scenario| %>
+  <tr>
+    <td><%= scenario.title %></td>
+    <td><%= scenario.description %></td>
+    <td><%= link_to 'Edit', edit_scenario_path(scenario) %></td>
+    <td><%= link_to 'Show', scenario_path(scenario) %></td>
+    <td><%= link_to 'Delete', scenarios_path(scenario), method: :delete, data: {confirm: "Are you sure?"} %></td>
+
+  </tr>
+  <% end %>
+</table>
