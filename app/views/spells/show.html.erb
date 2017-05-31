@@ -1,0 +1,11 @@
+<h1>Showing selected spell</h1>
+
+<p>
+  Name: <%= @spell.name %>
+</p>
+<p>
+  Description: <%= @spell.description %>
+</p>
+
+<%= link_to "Edit this spell", edit_spell_path(@spell) %><br />
+<%= link_to "Back to spells", spells_path %>

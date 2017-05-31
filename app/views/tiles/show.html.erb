@@ -1,0 +1,11 @@
+<h1>Showing selected tile</h1>
+
+<p>
+  Name: <%= @tile.name %>
+</p>
+<p>
+  Description: <%= @tile.description %>
+</p>
+
+<%= link_to "Edit this tile", edit_tile_path(@tile) %><br />
+<%= link_to "Back to tiles", tiles_path %>

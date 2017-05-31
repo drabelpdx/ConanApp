@@ -9,9 +9,6 @@ class ScenariosController < ApplicationController
     @scenario = Scenario.new
   end
 
-  def edit
-  end
-
   def create
     @scenario = Scenario.new(scenario_params)
     if @scenario.save
@@ -20,6 +17,9 @@ class ScenariosController < ApplicationController
     else
       render 'new'
     end
+  end
+
+  def edit
   end
 
   def update
@@ -46,6 +46,6 @@ class ScenariosController < ApplicationController
     end
 
     def scenario_params
-      params.require(:scenario).permit(:title, :description)
+      params.require(:scenario).permit(:name, :description)
     end
 end

@@ -1,5 +1,5 @@
 <% if @scenario.errors.any? %>
-<h3>The following errors prevented the article from getting created</h3>
+<h3>The following errors prevented the scenario from getting created</h3>
 <ul>
   <% @scenario.errors.full_messages.each do |msg| %>
   <li><%= msg %></li>
@@ -9,8 +9,8 @@
 
 <%= form_for @scenario do |f| %>
   <p>
-    <%= f.label :title %><br />
-    <%= f.text_field :title %>
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
   </p>
   <p>
     <%= f.label :description %><br />

@@ -1,0 +1,23 @@
+<h1>Listing all skills</h1>
+<p>
+<%= link_to 'Home', root_path %>
+</p>
+<p>
+  <%= link_to "Create new skill", new_skill_path %>
+</p>
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Description</th>
+  </tr>
+  <% @skills.each do |skill| %>
+  <tr>
+    <td><%= skill.name %></td>
+    <td><%= skill.description %></td>
+    <td><%= link_to 'Edit', edit_skill_path(skill) %></td>
+    <td><%= link_to 'Show', skill_path(skill) %></td>
+    <td><%= link_to 'Delete', skills_path(skill), method: :delete, data: {confirm: "Are you sure?"} %></td>
+
+  </tr>
+  <% end %>
+</table>

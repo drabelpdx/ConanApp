@@ -1,0 +1,11 @@
+<h1>Showing selected item</h1>
+
+<p>
+  Name: <%= @item.name %>
+</p>
+<p>
+  Description: <%= @item.description %>
+</p>
+
+<%= link_to "Edit this item", edit_item_path(@item) %><br />
+<%= link_to "Back to items", items_path %>

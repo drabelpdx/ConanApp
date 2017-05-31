@@ -1,0 +1,11 @@
+<h1>Showing selected hero</h1>
+
+<p>
+  Name: <%= @hero.name %>
+</p>
+<p>
+  Description: <%= @hero.description %>
+</p>
+
+<%= link_to "Edit this hero", edit_hero_path(@hero) %><br />
+<%= link_to "Back to heroes", heroes_path %>

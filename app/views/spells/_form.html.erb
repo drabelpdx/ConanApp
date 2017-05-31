@@ -1,0 +1,24 @@
+<% if @spell.errors.any? %>
+<h3>The following errors prevented the spell from getting created</h3>
+<ul>
+  <% @spell.errors.full_messages.each do |msg| %>
+  <li><%= msg %></li>
+  <% end %>
+</ul>
+<% end %>
+
+<%= form_for @spell do |f| %>
+  <p>
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    <%= f.label :description %><br />
+    <%= f.text_area :description %>
+  </p>
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>
+
+<%= link_to "Back to spells", spells_path %>

@@ -1,0 +1,11 @@
+<h1>Showing selected skill</h1>
+
+<p>
+  Name: <%= @skill.name %>
+</p>
+<p>
+  Description: <%= @skill.description %>
+</p>
+
+<%= link_to "Edit this skill", edit_skill_path(@skill) %><br />
+<%= link_to "Back to skills", skills_path %>

@@ -1,0 +1,11 @@
+<h1>Showing selected map</h1>
+
+<p>
+  Name: <%= @map.name %>
+</p>
+<p>
+  Description: <%= @map.description %>
+</p>
+
+<%= link_to "Edit this map", edit_map_path(@map) %><br />
+<%= link_to "Back to maps", maps_path %>

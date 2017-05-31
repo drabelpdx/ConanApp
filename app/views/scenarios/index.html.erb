@@ -7,12 +7,12 @@
 </p>
 <table>
   <tr>
-    <th>Tile</th>
+    <th>Name</th>
     <th>Description</th>
   </tr>
   <% @scenarios.each do |scenario| %>
   <tr>
-    <td><%= scenario.title %></td>
+    <td><%= scenario.name %></td>
     <td><%= scenario.description %></td>
     <td><%= link_to 'Edit', edit_scenario_path(scenario) %></td>
     <td><%= link_to 'Show', scenario_path(scenario) %></td>

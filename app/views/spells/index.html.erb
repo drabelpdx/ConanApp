@@ -1,0 +1,23 @@
+<h1>Listing all spells</h1>
+<p>
+<%= link_to 'Home', root_path %>
+</p>
+<p>
+  <%= link_to "Create new spell", new_spell_path %>
+</p>
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Description</th>
+  </tr>
+  <% @spells.each do |spell| %>
+  <tr>
+    <td><%= spell.name %></td>
+    <td><%= spell.description %></td>
+    <td><%= link_to 'Edit', edit_spell_path(spell) %></td>
+    <td><%= link_to 'Show', spell_path(spell) %></td>
+    <td><%= link_to 'Delete', spells_path(spell), method: :delete, data: {confirm: "Are you sure?"} %></td>
+
+  </tr>
+  <% end %>
+</table>

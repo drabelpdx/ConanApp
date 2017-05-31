@@ -1,0 +1,23 @@
+<h1>Listing all tiles</h1>
+<p>
+<%= link_to 'Home', root_path %>
+</p>
+<p>
+  <%= link_to "Create new tile", new_tile_path %>
+</p>
+<table>
+  <tr>
+    <th>Tile</th>
+    <th>Description</th>
+  </tr>
+  <% @tiles.each do |tile| %>
+  <tr>
+    <td><%= tile.name %></td>
+    <td><%= tile.description %></td>
+    <td><%= link_to 'Edit', edit_tile_path(tile) %></td>
+    <td><%= link_to 'Show', tile_path(tile) %></td>
+    <td><%= link_to 'Delete', tiles_path(tile), method: :delete, data: {confirm: "Are you sure?"} %></td>
+
+  </tr>
+  <% end %>
+</table>

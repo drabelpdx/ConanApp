@@ -1,0 +1,23 @@
+<h1>Listing all heros</h1>
+<p>
+<%= link_to 'Home', root_path %>
+</p>
+<p>
+  <%= link_to "Create new hero", new_hero_path %>
+</p>
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Description</th>
+  </tr>
+  <% @heroes.each do |hero| %>
+  <tr>
+    <td><%= hero.name %></td>
+    <td><%= hero.description %></td>
+    <td><%= link_to 'Edit', edit_hero_path(hero) %></td>
+    <td><%= link_to 'Show', hero_path(hero) %></td>
+    <td><%= link_to 'Delete', heroes_path(hero), method: :delete, data: {confirm: "Are you sure?"} %></td>
+
+  </tr>
+  <% end %>
+</table>

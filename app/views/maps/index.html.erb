@@ -1,0 +1,23 @@
+<h1>Listing all maps</h1>
+<p>
+<%= link_to 'Home', root_path %>
+</p>
+<p>
+  <%= link_to "Create new map", new_map_path %>
+</p>
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Description</th>
+  </tr>
+  <% @maps.each do |map| %>
+  <tr>
+    <td><%= map.name %></td>
+    <td><%= map.description %></td>
+    <td><%= link_to 'Edit', edit_map_path(map) %></td>
+    <td><%= link_to 'Show', map_path(map) %></td>
+    <td><%= link_to 'Delete', maps_path(map), method: :delete, data: {confirm: "Are you sure?"} %></td>
+
+  </tr>
+  <% end %>
+</table>
