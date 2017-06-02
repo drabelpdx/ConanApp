@@ -1,23 +1,93 @@
-<h1>Listing all items</h1>
+<h1>Items</h1>
 <p>
-<%= link_to 'Home', root_path %>
+  <%= link_to "Add an Item", new_item_path %>
 </p>
-<p>
-  <%= link_to "Create new item", new_item_path %>
-</p>
-<table>
-  <tr>
-    <th>Name</th>
-    <th>Description</th>
-  </tr>
-  <% @items.each do |item| %>
-  <tr>
-    <td><%= item.name %></td>
-    <td><%= item.description %></td>
-    <td><%= link_to 'Edit', edit_item_path(item) %></td>
-    <td><%= link_to 'Show', item_path(item) %></td>
-    <td><%= link_to 'Delete', items_path(item), method: :delete, data: {confirm: "Are you sure?"} %></td>
 
-  </tr>
-  <% end %>
-</table>
+<div class="row">
+  <div class="col-md-4 col-sm-6">
+    <div class="panel panel-info">
+      <div class="panel-heading">Core Game Items</div>
+      <table class="table">
+        <% @items.each do |item| %>
+        <% if item.origin === "Core"%>
+        <tr>
+          <td align="center"><%= link_to item.name, item_path(item) %></td>
+        </tr>
+        <% end %>
+        <% end %>
+      </table>
+    </div>
+  </div>
+  <div class="col-md-4 col-sm-6">
+    <div class="panel panel-info">
+      <div class="panel-heading">Stretch Goal Items</div>
+      <table class="table">
+        <% @items.each do |item| %>
+        <% if item.origin === "Stretch"%>
+        <tr>
+          <td align="center"><%= link_to item.name, item_path(item) %></td>
+        </tr>
+        <% end %>
+        <% end %>
+      </table>
+    </div>
+  </div>
+  <div class="col-md-4 col-sm-6">
+    <div class="panel panel-info">
+      <div class="panel-heading">Campaign Items</div>
+      <table class="table">
+        <% @items.each do |item| %>
+        <% if item.origin === "Campaign"%>
+        <tr>
+          <td align="center"><%= link_to item.name, item_path(item) %></td>
+        </tr>
+        <% end %>
+        <% end %>
+      </table>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-4 col-sm-6">
+    <div class="panel panel-info">
+      <div class="panel-heading">Nordheim Items</div>
+      <table class="table">
+        <% @items.each do |item| %>
+        <% if item.origin === "Nordheim"%>
+        <tr>
+          <td align="center"><%= link_to item.name, item_path(item) %></td>
+        </tr>
+        <% end %>
+        <% end %>
+      </table>
+    </div>
+  </div>
+  <div class="col-md-4 col-sm-6">
+    <div class="panel panel-info">
+      <div class="panel-heading">Stygia Items</div>
+      <table class="table">
+        <% @items.each do |item| %>
+        <% if item.origin === "Stygia"%>
+        <tr>
+          <td align="center"><%= link_to item.name, item_path(item) %></td>
+        </tr>
+        <% end %>
+        <% end %>
+      </table>
+    </div>
+  </div>
+  <div class="col-md-4 col-sm-6">
+    <div class="panel panel-info">
+      <div class="panel-heading">Khitai Items</div>
+      <table class="table">
+        <% @items.each do |item| %>
+        <% if item.origin === "Khitai"%>
+        <tr>
+          <td align="center"><%= link_to item.name, item_path(item) %></td>
+        </tr>
+        <% end %>
+        <% end %>
+      </table>
+    </div>
+  </div>
+</div>

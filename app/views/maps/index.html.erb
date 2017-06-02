@@ -1,23 +1,75 @@
-<h1>Listing all maps</h1>
+<h1>Maps</h1>
 <p>
-<%= link_to 'Home', root_path %>
+  <%= link_to "Add a Map", new_map_path %>
 </p>
-<p>
-  <%= link_to "Create new map", new_map_path %>
-</p>
-<table>
-  <tr>
-    <th>Name</th>
-    <th>Description</th>
-  </tr>
-  <% @maps.each do |map| %>
-  <tr>
-    <td><%= map.name %></td>
-    <td><%= map.description %></td>
-    <td><%= link_to 'Edit', edit_map_path(map) %></td>
-    <td><%= link_to 'Show', map_path(map) %></td>
-    <td><%= link_to 'Delete', maps_path(map), method: :delete, data: {confirm: "Are you sure?"} %></td>
 
-  </tr>
-  <% end %>
-</table>
+  <div class="col-md-4 col-sm-6">
+    <div class="panel panel-info">
+      <div class="panel-heading">Core Game Maps</div>
+      <table class="table">
+        <% @maps.each do |map| %>
+        <% if map.origin === "Core"%>
+        <tr>
+          <td align="center"><%= link_to map.name, map_path(map) %></td>
+        </tr>
+        <% end %>
+        <% end %>
+      </table>
+    </div>
+  </div>
+  <div class="col-md-4 col-sm-6">
+    <div class="panel panel-info">
+      <div class="panel-heading">Strech Goal Maps</div>
+      <table class="table">
+        <% @maps.each do |map| %>
+        <% if map.origin === "Stretch"%>
+        <tr>
+          <td align="center"><%= link_to map.name, map_path(map) %></td>
+        </tr>
+        <% end %>
+        <% end %>
+      </table>
+    </div>
+  </div>
+  <div class="col-md-4 col-sm-6">
+    <div class="panel panel-info">
+      <div class="panel-heading">Nordheim Maps</div>
+      <table class="table">
+        <% @maps.each do |map| %>
+        <% if map.origin === "Nordheim"%>
+        <tr>
+          <td align="center"><%= link_to map.name, map_path(map) %></td>
+        </tr>
+        <% end %>
+        <% end %>
+      </table>
+    </div>
+  </div>
+  <div class="col-md-4 col-sm-6">
+    <div class="panel panel-info">
+      <div class="panel-heading">Stygia Maps</div>
+      <table class="table">
+        <% @maps.each do |map| %>
+        <% if map.origin === "Stygia"%>
+        <tr>
+          <td align="center"><%= link_to map.name, map_path(map) %></td>
+        </tr>
+        <% end %>
+        <% end %>
+      </table>
+    </div>
+  </div>
+  <div class="col-md-4 col-sm-6">
+    <div class="panel panel-info">
+      <div class="panel-heading">Khitai Maps</div>
+      <table class="table">
+        <% @maps.each do |map| %>
+        <% if map.origin === "Khitai"%>
+        <tr>
+          <td align="center"><%= link_to map.name, map_path(map) %></td>
+        </tr>
+        <% end %>
+        <% end %>
+      </table>
+    </div>
+  </div>

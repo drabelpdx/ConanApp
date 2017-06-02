@@ -1,8 +1,9 @@
 class SkillsController < ApplicationController
   before_action :set_skill, only: [:edit, :update, :show, :destroy]
+  before_action :set_skills, only: [:index]
+
 
   def index
-    @skills = Skill.all
   end
 
   def new
@@ -46,6 +47,13 @@ class SkillsController < ApplicationController
     end
 
     def skill_params
-      params.require(:skill).permit(:name, :description)
+      params.require(:skill).permit(:name, :description, :clarification, :skill_type)
+    end
+
+    def set_skills
+      @attack = Skill.where(skill_type: 'Attack')
+      @movement = Skill.where(skill_type: 'Movement')
+      @miscellaneous = Skill.where(skill_type: 'Miscellaneous')
+      @defense = Skill.where(skill_type: 'Defense and Magic')
     end
 end

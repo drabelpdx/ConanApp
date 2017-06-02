@@ -1,11 +1,10 @@
-<h1>Showing selected spell</h1>
+<h1><%= @spell.name %></h1>
 
-<p>
-  Name: <%= @spell.name %>
-</p>
 <p>
   Description: <%= @spell.description %>
 </p>
 
 <%= link_to "Edit this spell", edit_spell_path(@spell) %><br />
+<%= link_to 'Delete', spell_path(@spell), method: :delete, data: {confirm: "Are you sure?"} %><br />
+
 <%= link_to "Back to spells", spells_path %>

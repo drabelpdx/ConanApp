@@ -1,11 +1,10 @@
-<h1>Showing selected scenario</h1>
+<h1><%= @scenario.name %></h1>
 
-<p>
-  Name: <%= @scenario.name %>
-</p>
 <p>
   Description: <%= @scenario.description %>
 </p>
 
 <%= link_to "Edit this scenario", edit_scenario_path(@scenario) %><br />
+<%= link_to 'Delete', scenario_path(@scenario), method: :delete, data: {confirm: "Are you sure?"} %><br />
+
 <%= link_to "Back to scenarios", scenarios_path %>

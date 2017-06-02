@@ -3,10 +3,10 @@ class CreateSpells < ActiveRecord::Migration
     create_table :spells do |t|
       t.string :name
       t.text :description
-      t.integer :cost
-      t.integer :limit
+      t.string :cost
+      t.string :limit
       t.string :origin
-      t.integer :count
+      t.string :count
       t.timestamp
     end
   end

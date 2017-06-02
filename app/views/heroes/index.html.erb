@@ -1,23 +1,124 @@
-<h1>Listing all heros</h1>
+<h1>Hero Sheets</h1>
 <p>
-<%= link_to 'Home', root_path %>
+  <%= link_to "Add a Hero", new_hero_path %>
 </p>
-<p>
-  <%= link_to "Create new hero", new_hero_path %>
-</p>
-<table>
-  <tr>
-    <th>Name</th>
-    <th>Description</th>
-  </tr>
-  <% @heroes.each do |hero| %>
-  <tr>
-    <td><%= hero.name %></td>
-    <td><%= hero.description %></td>
-    <td><%= link_to 'Edit', edit_hero_path(hero) %></td>
-    <td><%= link_to 'Show', hero_path(hero) %></td>
-    <td><%= link_to 'Delete', heroes_path(hero), method: :delete, data: {confirm: "Are you sure?"} %></td>
 
-  </tr>
-  <% end %>
-</table>
+  <div class="col-md-4 col-sm-6">
+    <div class="panel panel-info">
+      <div class="panel-heading">Core Game Heroes</div>
+      <table class="table">
+        <% @heroes.each do |hero| %>
+        <% if hero.origin === "Core"%>
+        <tr>
+          <td align="center"><%= link_to hero.name, hero_path(hero) %></td>
+        </tr>
+        <% end %>
+        <% end %>
+      </table>
+    </div>
+  </div>
+
+  <div class="col-md-4 col-sm-6">
+    <div class="panel panel-info">
+      <div class="panel-heading">King Pledge Heroes</div>
+      <table class="table">
+        <% @heroes.each do |hero| %>
+        <% if hero.origin === "King"%>
+        <tr>
+          <td align="center"><%= link_to hero.name, hero_path(hero) %></td>
+        </tr>
+        <% end %>
+        <% end %>
+      </table>
+    </div>
+  </div>
+
+  <div class="col-md-4 col-sm-6">
+    <div class="panel panel-info">
+      <div class="panel-heading">Nordheim Heros</div>
+      <table class="table">
+        <% @heroes.each do |hero| %>
+        <% if hero.origin === "Nordheim"%>
+        <tr>
+          <td align="center"><%= link_to hero.name, hero_path(hero) %></td>
+        </tr>
+        <% end %>
+        <% end %>
+      </table>
+    </div>
+  </div>
+
+  <div class="col-md-4 col-sm-6">
+    <div class="panel panel-info">
+      <div class="panel-heading">Stygia Heroes</div>
+      <table class="table">
+        <% @heroes.each do |hero| %>
+        <% if hero.origin === "Stygia"%>
+        <tr>
+          <td align="center"><%= link_to hero.name, hero_path(hero) %></td>
+        </tr>
+        <% end %>
+        <% end %>
+      </table>
+    </div>
+  </div>
+
+  <div class="col-md-4 col-sm-6">
+    <div class="panel panel-info">
+      <div class="panel-heading">Khitai Heroes</div>
+      <table class="table">
+        <% @heroes.each do |hero| %>
+        <% if hero.origin === "Khitai"%>
+        <tr>
+          <td align="center"><%= link_to hero.name, hero_path(hero) %></td>
+        </tr>
+        <% end %>
+        <% end %>
+      </table>
+    </div>
+  </div>
+
+  <div class="col-md-4 col-sm-6">
+    <div class="panel panel-info">
+      <div class="panel-heading">Stretch Goal Heroes</div>
+      <table class="table">
+        <% @heroes.each do |hero| %>
+        <% if hero.origin === "Stretch"%>
+        <tr>
+          <td align="center"><%= link_to hero.name, hero_path(hero) %></td>
+        </tr>
+        <% end %>
+        <% end %>
+      </table>
+    </div>
+  </div>
+
+  <div class="col-md-4 col-sm-6">
+    <div class="panel panel-info">
+      <div class="panel-heading">Stretch Goal Villains</div>
+      <table class="table">
+        <% @heroes.each do |hero| %>
+        <% if hero.origin === "Villain"%>
+        <tr>
+          <td align="center"><%= link_to hero.name, hero_path(hero) %></td>
+        </tr>
+        <% end %>
+        <% end %>
+      </table>
+    </div>
+  </div>
+
+  <div class="col-md-4 col-sm-6">
+    <div class="panel panel-info">
+      <div class="panel-heading">Add On Heroes</div>
+      <table class="table">
+        <% @heroes.each do |hero| %>
+        <% if hero.origin === "Add On"%>
+        <tr>
+          <td align="center"><%= link_to hero.name, hero_path(hero) %></td>
+        </tr>
+        <% end %>
+        <% end %>
+      </table>
+    </div>
+  </div>

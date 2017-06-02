@@ -46,6 +46,6 @@ class ScenariosController < ApplicationController
     end
 
     def scenario_params
-      params.require(:scenario).permit(:name, :description)
+      params.require(:scenario).permit(:name, :description, :origin)
     end
 end

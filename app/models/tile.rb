@@ -1,4 +1,6 @@
 class Tile < ActiveRecord::Base
+  has_many :tile_skills
+  has_many :skills, through: :tile_skills
   validates :name, presence: true, length: { minimum: 3, maximum: 50 }
   validates :description, presence: true, length: { minimum: 3, maximum: 300 }
   validates :role, presence: true, length: { minimum: 3, maximum: 50 }

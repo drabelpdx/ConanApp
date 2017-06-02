@@ -1,5 +1,7 @@
 class HeroesController < ApplicationController
   before_action :set_hero, only: [:edit, :update, :show, :destroy]
+  before_action :set_skills, only: [:new, :create, :edit, :update, :show]
+
 
   def index
     @heroes = Hero.all
@@ -49,6 +51,13 @@ class HeroesController < ApplicationController
       params.require(:hero).permit(:name, :description, :life, :encumberance,
                      :melee_dice, :melee_exertion, :range_dice, :range_exertion,
                      :movement_free, :movement_exertion, :manipulation_dice,
-                      :manipulation_exersion, :defense_dice, :origin)
+                      :manipulation_exersion, :defense_dice, :origin, skill_ids: [])
+    end
+
+    def set_skills
+      @attack = Skill.where(skill_type: 'Attack')
+      @movement = Skill.where(skill_type: 'Movement')
+      @miscellaneous = Skill.where(skill_type: 'Miscellaneous')
+      @defense = Skill.where(skill_type: 'Defense and Magic')
     end
 end

@@ -1,4 +1,6 @@
 class Hero < ActiveRecord::Base
+  has_many :hero_skills
+  has_many :skills, through: :hero_skills
   validates :name, presence: true, length: { minimum: 3, maximum: 50 }
   validates :description, presence: true, length: { minimum: 3, maximum: 300 }
   validates :life, presence: true

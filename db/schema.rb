@@ -11,21 +11,26 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170531161501) do
+ActiveRecord::Schema.define(version: 20170602170220) do
+
+  create_table "hero_skills", force: :cascade do |t|
+    t.integer "hero_id"
+    t.integer "skill_id"
+  end
 
   create_table "heroes", force: :cascade do |t|
     t.string   "name"
     t.text     "description"
-    t.integer  "life"
-    t.integer  "encumberance"
+    t.string   "life"
+    t.string   "encumberance"
     t.string   "melee_dice"
-    t.integer  "melee_exertion"
+    t.string   "melee_exertion"
     t.string   "range_dice"
-    t.integer  "range_exertion"
-    t.integer  "movement_free"
-    t.integer  "movement_exertion"
+    t.string   "range_exertion"
+    t.string   "movement_free"
+    t.string   "movement_exertion"
     t.string   "manipulation_dice"
-    t.integer  "manipulation_exersion"
+    t.string   "manipulation_exersion"
     t.string   "defense_dice"
     t.string   "origin"
     t.datetime "created_at"
@@ -35,9 +40,9 @@ ActiveRecord::Schema.define(version: 20170531161501) do
   create_table "items", force: :cascade do |t|
     t.string   "name"
     t.text     "description"
-    t.integer  "encumberance"
+    t.string   "encumberance"
     t.string   "origin"
-    t.integer  "count"
+    t.string   "count"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -54,25 +59,32 @@ ActiveRecord::Schema.define(version: 20170531161501) do
   create_table "scenarios", force: :cascade do |t|
     t.string   "name"
     t.text     "description"
+    t.string   "origin"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
   create_table "skills", force: :cascade do |t|
     t.string   "name"
-    t.text     "description"
     t.string   "skill_type"
+    t.text     "description"
+    t.text     "clarification"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
   create_table "spells", force: :cascade do |t|
-    t.string  "name"
-    t.text    "description"
-    t.integer "cost"
-    t.integer "limit"
-    t.string  "origin"
-    t.integer "count"
+    t.string "name"
+    t.text   "description"
+    t.string "cost"
+    t.string "limit"
+    t.string "origin"
+    t.string "count"
+  end
+
+  create_table "tile_skills", force: :cascade do |t|
+    t.integer "tile_id"
+    t.integer "skill_id"
   end
 
   create_table "tiles", force: :cascade do |t|
@@ -80,12 +92,12 @@ ActiveRecord::Schema.define(version: 20170531161501) do
     t.text     "description"
     t.string   "role"
     t.string   "color"
-    t.integer  "move"
-    t.integer  "armor"
+    t.string   "move"
+    t.string   "armor"
     t.string   "melee_dice"
     t.string   "range_dice"
     t.string   "origin"
-    t.integer  "count"
+    t.string   "count"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -93,10 +105,10 @@ ActiveRecord::Schema.define(version: 20170531161501) do
   create_table "users", force: :cascade do |t|
     t.string   "username"
     t.string   "email"
-    t.datetime "created_at"
-    t.datetime "updated_at"
     t.string   "password_digest"
     t.boolean  "admin",           default: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
 end

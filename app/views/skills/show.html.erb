@@ -1,11 +1,13 @@
-<h1>Showing selected skill</h1>
+<h1><%= @skill.name %></h1>
 
-<p>
-  Name: <%= @skill.name %>
-</p>
 <p>
   Description: <%= @skill.description %>
 </p>
+<p>
+  Clarification: <%= @skill.clarification %>
+</p>
 
 <%= link_to "Edit this skill", edit_skill_path(@skill) %><br />
+<%= link_to 'Delete', skill_path(@skill), method: :delete, data: {confirm: "Are you sure?"} %><br />
+
 <%= link_to "Back to skills", skills_path %>

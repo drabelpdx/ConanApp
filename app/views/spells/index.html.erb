@@ -1,23 +1,93 @@
-<h1>Listing all spells</h1>
+<h1>Spells</h1>
 <p>
-<%= link_to 'Home', root_path %>
+  <%= link_to "Add a Spell", new_spell_path %>
 </p>
-<p>
-  <%= link_to "Create new spell", new_spell_path %>
-</p>
-<table>
-  <tr>
-    <th>Name</th>
-    <th>Description</th>
-  </tr>
-  <% @spells.each do |spell| %>
-  <tr>
-    <td><%= spell.name %></td>
-    <td><%= spell.description %></td>
-    <td><%= link_to 'Edit', edit_spell_path(spell) %></td>
-    <td><%= link_to 'Show', spell_path(spell) %></td>
-    <td><%= link_to 'Delete', spells_path(spell), method: :delete, data: {confirm: "Are you sure?"} %></td>
 
-  </tr>
-  <% end %>
-</table>
+<div class="row">
+  <div class="col-md-4 col-sm-6">
+    <div class="panel panel-info">
+      <div class="panel-heading">Core Game Spells</div>
+      <table class="table">
+        <% @spells.each do |spell| %>
+        <% if spell.origin === "Core"%>
+        <tr>
+          <td align="center"><%= link_to spell.name, spell_path(spell) %></td>
+        </tr>
+        <% end %>
+        <% end %>
+      </table>
+    </div>
+  </div>
+  <div class="col-md-4 col-sm-6">
+    <div class="panel panel-info">
+      <div class="panel-heading">Stretch Goal Spells</div>
+      <table class="table">
+        <% @spells.each do |spell| %>
+        <% if spell.origin === "Stretch"%>
+        <tr>
+          <td align="center"><%= link_to spell.name, spell_path(spell) %></td>
+        </tr>
+        <% end %>
+        <% end %>
+      </table>
+    </div>
+  </div>
+  <div class="col-md-4 col-sm-6">
+    <div class="panel panel-info">
+      <div class="panel-heading">Campaign Spells</div>
+      <table class="table">
+        <% @spells.each do |spell| %>
+        <% if spell.origin === "Campaign"%>
+        <tr>
+          <td align="center"><%= link_to spell.name, spell_path(spell) %></td>
+        </tr>
+        <% end %>
+        <% end %>
+      </table>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-4 col-sm-6">
+    <div class="panel panel-info">
+      <div class="panel-heading">Nordheim Spells</div>
+      <table class="table">
+        <% @spells.each do |spell| %>
+        <% if spell.origin === "Nordheim"%>
+        <tr>
+          <td align="center"><%= link_to spell.name, spell_path(spell) %></td>
+        </tr>
+        <% end %>
+        <% end %>
+      </table>
+    </div>
+  </div>
+  <div class="col-md-4 col-sm-6">
+    <div class="panel panel-info">
+      <div class="panel-heading">Stygia Spells</div>
+      <table class="table">
+        <% @spells.each do |spell| %>
+        <% if spell.origin === "Stygia"%>
+        <tr>
+          <td align="center"><%= link_to spell.name, spell_path(spell) %></td>
+        </tr>
+        <% end %>
+        <% end %>
+      </table>
+    </div>
+  </div>
+  <div class="col-md-4 col-sm-6">
+    <div class="panel panel-info">
+      <div class="panel-heading">Khitai Spells</div>
+      <table class="table">
+        <% @spells.each do |spell| %>
+        <% if spell.origin === "Khitai"%>
+        <tr>
+          <td align="center"><%= link_to spell.name, spell_path(spell) %></td>
+        </tr>
+        <% end %>
+        <% end %>
+      </table>
+    </div>
+  </div>
+</div>

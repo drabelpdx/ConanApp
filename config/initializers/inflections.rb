@@ -1,7 +1,7 @@
 # Be sure to restart your server when you modify this file.
 
 ActiveSupport::Inflector.inflections do |inflect|
-  inflect.plural 'hero', 'heroes'
+  inflect.irregular 'hero', 'heroes'
 end
 
 # Add new inflection rules using the following format. Inflections

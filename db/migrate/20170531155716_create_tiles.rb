@@ -5,12 +5,12 @@ class CreateTiles < ActiveRecord::Migration
       t.text :description
       t.string :role
       t.string :color
-      t.integer :move
-      t.integer :armor
+      t.string :move
+      t.string :armor
       t.string :melee_dice
       t.string :range_dice
       t.string :origin
-      t.integer :count
+      t.string :count
       t.timestamps
     end
   end

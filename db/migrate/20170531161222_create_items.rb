@@ -3,9 +3,9 @@ class CreateItems < ActiveRecord::Migration
     create_table :items do |t|
       t.string :name
       t.text :description
-      t.integer :encumberance
+      t.string :encumberance
       t.string :origin
-      t.integer :count
+      t.string :count
       t.timestamps
     end
   end

@@ -1,23 +1,55 @@
-<h1>Listing all skills</h1>
+<h1>Skills</h1>
 <p>
-<%= link_to 'Home', root_path %>
+  <%= link_to "Add a Skill", new_skill_path %>
 </p>
-<p>
-  <%= link_to "Create new skill", new_skill_path %>
-</p>
-<table>
-  <tr>
-    <th>Name</th>
-    <th>Description</th>
-  </tr>
-  <% @skills.each do |skill| %>
-  <tr>
-    <td><%= skill.name %></td>
-    <td><%= skill.description %></td>
-    <td><%= link_to 'Edit', edit_skill_path(skill) %></td>
-    <td><%= link_to 'Show', skill_path(skill) %></td>
-    <td><%= link_to 'Delete', skills_path(skill), method: :delete, data: {confirm: "Are you sure?"} %></td>
 
-  </tr>
-  <% end %>
-</table>
+<div class="row">
+  <div class="col-md-3 col-sm-6">
+    <div class="panel panel-danger">
+      <div class="panel-heading">Attack Skills</div>
+      <table class="table">
+        <% @attack.each do |skill| %>
+        <tr>
+          <td align="center"><%= link_to skill.name, skill_path(skill) %></td>
+        </tr>
+        <% end %>
+      </table>
+    </div>
+  </div>
+  <div class="col-md-3 col-sm-6">
+    <div class="panel panel-success">
+      <div class="panel-heading">Movement Skills</div>
+      <table class="table">
+        <% @movement.each do |skill| %>
+        <tr>
+          <td align="center"><%= link_to skill.name, skill_path(skill) %></td>
+        </tr>
+        <% end %>
+      </table>
+    </div>
+  </div>
+  <div class="col-md-3 col-sm-6">
+    <div class="panel panel-warning">
+      <div class="panel-heading">Miscellaneous Skills</div>
+      <table class="table">
+        <% @miscellaneous.each do |skill| %>
+        <tr>
+          <td align="center"><%= link_to skill.name, skill_path(skill) %></td>
+        </tr>
+        <% end %>
+      </table>
+    </div>
+  </div>
+  <div class="col-md-3 col-sm-6">
+    <div class="panel panel-info">
+      <div class="panel-heading">Defense and Magic Skills</div>
+      <table class="table">
+        <% @defense.each do |skill| %>
+        <tr>
+          <td align="center"><%= link_to skill.name, skill_path(skill) %></td>
+        </tr>
+        <% end %>
+      </table>
+    </div>
+  </div>
+</div>

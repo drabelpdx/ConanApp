@@ -8,14 +8,49 @@
 <% end %>
 
 <%= form_for @tile do |f| %>
-  <p>
+  <div class='form-group'>
     <%= f.label :name %><br />
     <%= f.text_field :name %>
-  </p>
-  <p>
+  </div>
+  <div class='form-group'>
     <%= f.label :description %><br />
     <%= f.text_area :description %>
-  </p>
+  </div>
+  <div class='form-group'>
+    <div class="row">
+      <p>Attack Skills</p>
+      <div class='col-sm-offset-2 col-sm-8'>
+        <%= f.collection_check_boxes :skill_ids, @attack, :id, :name do |cb| %>
+        <% cb.label(class: "checkbox-inline input_checkbox") {cb.check_box(class: "checkbox") + cb.text} %>
+        <% end %>
+      </div>
+    </div>
+    <div class="row">
+      <p>Movement Skills</p>
+      <div class='col-sm-offset-2 col-sm-8'>
+        <%= f.collection_check_boxes :skill_ids, @movement, :id, :name do |cb| %>
+        <% cb.label(class: "checkbox-inline input_checkbox") {cb.check_box(class: "checkbox") + cb.text} %>
+        <% end %>
+      </div>
+    </div>
+    <div class="row">
+      <p>Miscellaneous Skills</p>
+      <div class='col-sm-offset-2 col-sm-8'>
+        <%= f.collection_check_boxes :skill_ids, @miscellaneous, :id, :name do |cb| %>
+        <% cb.label(class: "checkbox-inline input_checkbox") {cb.check_box(class: "checkbox") + cb.text} %>
+        <% end %>
+      </div>
+    </div>
+    <div class="row">
+      <p>Defense and Magic Skills</p>
+      <div class='col-sm-offset-2 col-sm-8'>
+        <%= f.collection_check_boxes :skill_ids, @defense, :id, :name do |cb| %>
+        <% cb.label(class: "checkbox-inline input_checkbox") {cb.check_box(class: "checkbox") + cb.text} %>
+        <% end %>
+      </div>
+    </div>
+  </div>
+
   <p>
     <%= f.submit %>
   </p>

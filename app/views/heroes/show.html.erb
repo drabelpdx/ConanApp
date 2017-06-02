@@ -1,11 +1,19 @@
-<h1>Showing selected hero</h1>
+<h1><%= @hero.name %></h1>
 
-<p>
-  Name: <%= @hero.name %>
-</p>
 <p>
   Description: <%= @hero.description %>
 </p>
 
+
+<% if @hero.skills.any? %>
+  <p>Skills: <% @hero.skills.each do |skill| %>
+    <%= skill.name %>
+  <% end%>
+  </p>
+<% end %>
+
+
 <%= link_to "Edit this hero", edit_hero_path(@hero) %><br />
+<%= link_to 'Delete this hero', hero_path(@hero), method: :delete, data: {confirm: "Are you sure?"} %><br />
+
 <%= link_to "Back to heroes", heroes_path %>
