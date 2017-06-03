@@ -1,13 +1,42 @@
-<h1><%= @skill.name %></h1>
 
-<p>
-  Description: <%= @skill.description %>
-</p>
-<p>
-  Clarification: <%= @skill.clarification %>
-</p>
-
-<%= link_to "Edit this skill", edit_skill_path(@skill) %><br />
-<%= link_to 'Delete', skill_path(@skill), method: :delete, data: {confirm: "Are you sure?"} %><br />
-
-<%= link_to "Back to skills", skills_path %>
+<div class="row">
+  <div class="col-md-3">
+    <div class="skills well" align="center">
+      <%= image_tag "skills/#{@skill.name}.png" %><br /><br />
+    </div>
+    <div align="center">
+      <%= link_to "Back to skills", skills_path %>
+    </div>
+  </div>
+  <div class="col-md-9">
+    <h1><%= @skill.name %></h1>
+    <p><%= @skill.description %></p><br />
+    <% if @skill.clarification != 'none' %>
+      <h4>Clarification: </h4>
+      <p><%= @skill.clarification %></p>
+    <% end %>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-6">
+    <% if @skill_heroes.any? %>
+      <h3>Heroes with this Skill: </h3>
+      <% @skill_heroes.each do |hero| %>
+        <p><%= link_to hero.name, hero_path(hero) %></p>
+      <% end%>
+    <% end %>
+  </div>
+  <div class="col-md-6">
+    <% if @skill_tiles.any? %>
+      <h3>Tiles with this Skill: </h3>
+      <% @skill_tiles.each do |tile| %>
+        <p><%= link_to tile.name, tile_path(tile) %></p>
+      <% end%>
+    <% end %>
+  </div>
+</div>
+<div class="row">
+  <br /><br />
+  <%= link_to 'Edit', edit_skill_path(@skill) %> |
+  <%= link_to 'Delete', skill_path(@skill), method: :delete, data: {confirm: "Are you sure?"} %>
+</div>

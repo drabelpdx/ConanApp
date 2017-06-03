@@ -2,7 +2,6 @@ class HeroesController < ApplicationController
   before_action :set_hero, only: [:edit, :update, :show, :destroy]
   before_action :set_skills, only: [:new, :create, :edit, :update, :show]
 
-
   def index
     @heroes = Hero.all
   end

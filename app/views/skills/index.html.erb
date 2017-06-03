@@ -10,7 +10,7 @@
       <table class="table">
         <% @attack.each do |skill| %>
         <tr>
-          <td align="center"><%= link_to skill.name, skill_path(skill) %></td>
+          <td class="thumbs"><%= image_tag "skills/#{skill.name}.png" %></td><td><%= link_to skill.name, skill_path(skill) %></td>
         </tr>
         <% end %>
       </table>
@@ -22,7 +22,7 @@
       <table class="table">
         <% @movement.each do |skill| %>
         <tr>
-          <td align="center"><%= link_to skill.name, skill_path(skill) %></td>
+          <td class="thumbs"><%= image_tag "skills/#{skill.name}.png" %></td><td><%= link_to skill.name, skill_path(skill) %></td>
         </tr>
         <% end %>
       </table>
@@ -34,7 +34,7 @@
       <table class="table">
         <% @miscellaneous.each do |skill| %>
         <tr>
-          <td align="center"><%= link_to skill.name, skill_path(skill) %></td>
+          <td class="thumbs"><%= image_tag "skills/#{skill.name}.png" %></td><td><%= link_to skill.name, skill_path(skill) %></td>
         </tr>
         <% end %>
       </table>
@@ -46,7 +46,7 @@
       <table class="table">
         <% @defense.each do |skill| %>
         <tr>
-          <td align="center"><%= link_to skill.name, skill_path(skill) %></td>
+          <td class="thumbs"><%= image_tag "skills/#{skill.name}.png" %></td><td><%= link_to skill.name, skill_path(skill) %></td>
         </tr>
         <% end %>
       </table>

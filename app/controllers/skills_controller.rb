@@ -2,7 +2,6 @@ class SkillsController < ApplicationController
   before_action :set_skill, only: [:edit, :update, :show, :destroy]
   before_action :set_skills, only: [:index]
 
-
   def index
   end
 
@@ -33,6 +32,8 @@ class SkillsController < ApplicationController
   end
 
   def show
+    @skill_heroes = @skill.heroes
+    @skill_tiles = @skill.tiles
   end
 
   def destroy

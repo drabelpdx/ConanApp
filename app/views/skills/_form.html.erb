@@ -1,24 +1,35 @@
-<% if @skill.errors.any? %>
-<h3>The following errors prevented the skill from getting created</h3>
-<ul>
-  <% @skill.errors.full_messages.each do |msg| %>
-  <li><%= msg %></li>
-  <% end %>
-</ul>
-<% end %>
-
-<%= form_for @skill do |f| %>
-  <p>
-    <%= f.label :name %><br />
-    <%= f.text_field :name %>
-  </p>
-  <p>
-    <%= f.label :description %><br />
-    <%= f.text_area :description %>
-  </p>
-  <p>
-    <%= f.submit %>
-  </p>
-<% end %>
+<%= render 'shared/errors', obj: @skill %>
+<div class='row'>
+  <div class='col-xs-12'>
+    <%= form_for(@skill, html:{class: "form-horizontal", role: "form"}) do |f| %>
+    <div class='form-group'>
+      <div class='control-label col-sm-2'>
+        <%= f.label :name %><br />
+      </div>
+      <div class='col-sm-8'>
+        <%= f.text_field :name %>
+      </div>
+    </div>
+    <div class='form-group'>
+      <div class='control-label col-sm-2'>
+        <%= f.label :description %><br />
+      </div>
+      <div class='col-sm-8'>
+        <%= f.text_area :description, rows: 5, cols: "30" %>
+      </div>
+    </div>
+    <div class='form-group'>
+      <div class='control-label col-sm-2'>
+        <%= f.label :clarification %><br />
+      </div>
+      <div class='col-sm-8'>
+        <%= f.text_area :clarification, rows: 5, cols: "30" %>
+      </div>
+      <div class='form-group'>
+        <%= f.submit %>
+      </div>
+    <% end %>
+  </div>
+</div>
 
 <%= link_to "Back to skills", skills_path %>

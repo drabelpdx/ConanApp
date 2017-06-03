@@ -1,19 +1,41 @@
-<h1><%= @hero.name %></h1>
+<div class="row">
+  <div class="col-md-2">
+    <div class="skills">
+      <%= image_tag "skills/#{@hero.name}.png" %><br /><br />
+    </div>
+    <div align="center">
+      <%= link_to "Back to heroes", heroes_path %>
+    </div>
+  </div>
+  <div class="col-md-5">
+    <h1><%= @hero.name %></h1>
+    <h3>Stats: </h3>
+    <p>Melee: <%= @hero.melee_dice %> die</p>
+    <p>Melee Exertion: <%= @hero.melee_exertion %></p>
+    <p>Range: <%= @hero.range_dice %> die</p>
+    <p>Range Exertion: <%= @hero.range_exertion %></p>
+    <p>Free Movement: <%= @hero.movement_free %></p>
+    <p>Movement Exertion: <%= @hero.movement_exertion %></p>
+    <p>Manipulation: <%= @hero.manipulation_dice %> die</p>
+    <p>Manipulation Exertion<%= @hero.manipulation_exersion %></p>
+    <p>Defense: <%= @hero.defense_dice %> die</p>
 
-<p>
-  Description: <%= @hero.description %>
-</p>
-
-
-<% if @hero.skills.any? %>
-  <p>Skills: <% @hero.skills.each do |skill| %>
-    <%= skill.name %>
-  <% end%>
-  </p>
-<% end %>
-
-
-<%= link_to "Edit this hero", edit_hero_path(@hero) %><br />
-<%= link_to 'Delete this hero', hero_path(@hero), method: :delete, data: {confirm: "Are you sure?"} %><br />
-
-<%= link_to "Back to heroes", heroes_path %>
+    <% if @hero.skills.any? %>
+      <h3>Skills: </h3>
+      <% @hero.skills.each do |skill| %>
+        <p class="thumbs"><%= image_tag "skills/#{skill.name}.png" %>
+          <%= link_to skill.name, skill_path(skill) %></p>
+      <% end%>
+    <% end %>
+  </div>
+  <div class="col-md-5">
+    <div class="well">
+      <p><%= @hero.description %></p>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <br /><br />
+  <%= link_to 'Edit', edit_hero_path(@hero) %> |
+  <%= link_to 'Delete', hero_path(@hero), method: :delete, data: {confirm: "Are you sure?"} %>
+</div>

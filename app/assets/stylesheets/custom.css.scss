@@ -23,8 +23,9 @@ $navbar-default-bg: #08088A;
 
 .jumbotron {
   background-image: asset-url('Logo_CONAN.jpg');
-  background-size:contain;
-  height: 450px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 400px;
 }
 
 .jumbotron h1 {
@@ -55,6 +56,17 @@ $navbar-default-bg: #08088A;
 .listing {
   list-style: none;
   padding-left: 0;
+}
+
+.thumbs img {
+  width: 50px;
+  height: auto;
+}
+
+.skills img {
+  width: 150px;
+  height: auto;
+  margin-top: 20px;
 }
 
 .user-title {
