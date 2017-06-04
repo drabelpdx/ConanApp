@@ -15,6 +15,7 @@ Rails.application.routes.draw do
   resources :spells
   resources :items
   resources :skills
+  resources :stories
 
   get 'signup', to: 'users#new'
   resources :users, except: [:new]

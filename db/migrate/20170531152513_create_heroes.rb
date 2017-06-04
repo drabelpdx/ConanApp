@@ -2,7 +2,9 @@ class CreateHeroes < ActiveRecord::Migration
   def change
     create_table :heroes do |t|
       t.string :name
-      t.text :description
+      t.string :description
+      t.text :quote
+      t.string :cite
       t.string :life
       t.string :encumberance
       t.string :melee_dice

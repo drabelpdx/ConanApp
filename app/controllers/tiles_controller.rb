@@ -1,9 +1,9 @@
 class TilesController < ApplicationController
   before_action :set_tile, only: [:edit, :update, :show, :destroy]
   before_action :set_skills, only: [:new, :create, :edit, :update, :show]
+  before_action :set_roles, only: [:index]
 
   def index
-    @tiles = Tile.all
   end
 
   def new
@@ -47,8 +47,9 @@ class TilesController < ApplicationController
     end
 
     def tile_params
-      params.require(:tile).permit(:name, :description, :role, :color, :move,
-                     :armor, :melee_dice, :range_dice, :origin, :count, skill_ids: [])
+      params.require(:tile).permit(:name, :description, :role, :move, :armor,
+                                   :melee_dice, :range_dice, :origin, :count,
+                                   :cost, skill_ids: [], story_ids: [])
     end
 
     def set_skills
@@ -56,5 +57,11 @@ class TilesController < ApplicationController
       @movement = Skill.where(skill_type: 'Movement')
       @miscellaneous = Skill.where(skill_type: 'Miscellaneous')
       @defense = Skill.where(skill_type: 'Defense and Magic')
+    end
+
+    def set_roles
+      @leaders = Tile.where(role: 'Leader')
+      @monsters = Tile.where(role: 'Monster')
+      @minions = Tile.where(role: 'Minion')
     end
 end

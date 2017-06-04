@@ -1,0 +1,37 @@
+
+<div class="row">
+  <div class="col-md-3">
+    <div class="skills well" align="center">
+    </div>
+    <div align="center">
+      <%= link_to "Back to stories", stories_path %>
+    </div>
+  </div>
+  <div class="col-md-9">
+    <h1><%= @story.name %></h1>
+    <p><%= @story.aka %></p><br />
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-6">
+    <% if @story_heroes.any? %>
+      <h3>Heroes that appear in this Story: </h3>
+      <% @story_heroes.each do |hero| %>
+        <p><%= link_to hero.name, hero_path(hero) %></p>
+      <% end%>
+    <% end %>
+  </div>
+  <div class="col-md-6">
+    <% if @story_tiles.any? %>
+      <h3>Tile Characters that appear in this Story: </h3>
+      <% @story_tiles.each do |tile| %>
+        <p><%= link_to tile.name, tile_path(tile) %></p>
+      <% end%>
+    <% end %>
+  </div>
+</div>
+<div class="row">
+  <br /><br />
+  <%= link_to 'Edit', edit_story_path(@story) %> |
+  <%= link_to 'Delete', story_path(@story), method: :delete, data: {confirm: "Are you sure?"} %>
+</div>

@@ -7,6 +7,7 @@ class CreateTiles < ActiveRecord::Migration
       t.string :color
       t.string :move
       t.string :armor
+      t.string :cost
       t.string :melee_dice
       t.string :range_dice
       t.string :origin

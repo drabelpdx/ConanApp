@@ -11,16 +11,23 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170602170220) do
+ActiveRecord::Schema.define(version: 20170603213842) do
 
   create_table "hero_skills", force: :cascade do |t|
     t.integer "hero_id"
     t.integer "skill_id"
   end
 
+  create_table "hero_stories", force: :cascade do |t|
+    t.integer "hero_id"
+    t.integer "story_id"
+  end
+
   create_table "heroes", force: :cascade do |t|
     t.string   "name"
-    t.text     "description"
+    t.string   "description"
+    t.text     "quote"
+    t.string   "cite"
     t.string   "life"
     t.string   "encumberance"
     t.string   "melee_dice"
@@ -82,9 +89,22 @@ ActiveRecord::Schema.define(version: 20170602170220) do
     t.string "count"
   end
 
+  create_table "stories", force: :cascade do |t|
+    t.string   "name"
+    t.string   "aka"
+    t.text     "origin"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "tile_skills", force: :cascade do |t|
     t.integer "tile_id"
     t.integer "skill_id"
+  end
+
+  create_table "tile_stories", force: :cascade do |t|
+    t.integer "tile_id"
+    t.integer "story_id"
   end
 
   create_table "tiles", force: :cascade do |t|
@@ -94,6 +114,7 @@ ActiveRecord::Schema.define(version: 20170602170220) do
     t.string   "color"
     t.string   "move"
     t.string   "armor"
+    t.string   "cost"
     t.string   "melee_dice"
     t.string   "range_dice"
     t.string   "origin"
