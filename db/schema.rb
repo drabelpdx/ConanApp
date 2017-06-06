@@ -11,7 +11,12 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170603213842) do
+ActiveRecord::Schema.define(version: 20170605233742) do
+
+  create_table "hero_scenarios", force: :cascade do |t|
+    t.integer "hero_id"
+    t.integer "scenario_id"
+  end
 
   create_table "hero_skills", force: :cascade do |t|
     t.integer "hero_id"
@@ -44,6 +49,11 @@ ActiveRecord::Schema.define(version: 20170603213842) do
     t.datetime "updated_at"
   end
 
+  create_table "item_scenarios", force: :cascade do |t|
+    t.integer "item_id"
+    t.integer "scenario_id"
+  end
+
   create_table "items", force: :cascade do |t|
     t.string   "name"
     t.text     "description"
@@ -54,21 +64,59 @@ ActiveRecord::Schema.define(version: 20170603213842) do
     t.datetime "updated_at"
   end
 
+  create_table "map_scenarios", force: :cascade do |t|
+    t.integer "map_id"
+    t.integer "scenario_id"
+  end
+
   create_table "maps", force: :cascade do |t|
     t.string   "name"
     t.text     "description"
     t.string   "flip_side"
     t.string   "origin"
+    t.text     "ruleone"
+    t.text     "ruletwo"
+    t.text     "rulethree"
+    t.text     "rulefour"
+    t.text     "rulefive"
+    t.text     "rulesix"
     t.datetime "created_at"
     t.datetime "updated_at"
+  end
+
+  create_table "scenario_spells", force: :cascade do |t|
+    t.integer "scenario_id"
+    t.integer "spell_id"
+  end
+
+  create_table "scenario_tiles", force: :cascade do |t|
+    t.integer "scenario_id"
+    t.integer "tile_id"
   end
 
   create_table "scenarios", force: :cascade do |t|
     t.string   "name"
     t.text     "description"
+    t.text     "hero_goal"
+    t.text     "overlord_goal"
+    t.text     "hero_intro"
+    t.text     "overlord_intro"
+    t.text     "ruleone"
+    t.text     "ruletwo"
+    t.text     "rulethree"
+    t.text     "rulefour"
+    t.text     "rulefive"
+    t.text     "rulesix"
+    t.text     "ruleseven"
+    t.text     "ruleeight"
     t.string   "origin"
     t.datetime "created_at"
     t.datetime "updated_at"
+  end
+
+  create_table "skill_tiles", force: :cascade do |t|
+    t.integer "skill_id"
+    t.integer "tile_id"
   end
 
   create_table "skills", force: :cascade do |t|
@@ -92,19 +140,14 @@ ActiveRecord::Schema.define(version: 20170603213842) do
   create_table "stories", force: :cascade do |t|
     t.string   "name"
     t.string   "aka"
-    t.text     "origin"
+    t.string   "origin"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  create_table "tile_skills", force: :cascade do |t|
-    t.integer "tile_id"
-    t.integer "skill_id"
-  end
-
-  create_table "tile_stories", force: :cascade do |t|
-    t.integer "tile_id"
+  create_table "story_tiles", force: :cascade do |t|
     t.integer "story_id"
+    t.integer "tile_id"
   end
 
   create_table "tiles", force: :cascade do |t|

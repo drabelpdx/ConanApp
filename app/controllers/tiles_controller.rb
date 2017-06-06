@@ -63,5 +63,8 @@ class TilesController < ApplicationController
       @leaders = Tile.where(role: 'Leader')
       @monsters = Tile.where(role: 'Monster')
       @minions = Tile.where(role: 'Minion')
+      @heroes = Tile.where(role: 'Hero')
+      @allies = Tile.where(role: 'Ally')
+
     end
 end

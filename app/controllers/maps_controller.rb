@@ -46,6 +46,8 @@ class MapsController < ApplicationController
     end
 
     def map_params
-      params.require(:map).permit(:name, :description, :flip_side)
+      params.require(:map).permit(:name, :description, :flip_side, :origin,
+                                  :ruleone, :ruletwo, :rulethree, :rulefour,
+                                  :rulefive, :rulesix)
     end
 end

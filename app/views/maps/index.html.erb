@@ -10,7 +10,8 @@
         <% @maps.each do |map| %>
         <% if map.origin === "Core"%>
         <tr>
-          <td align="center"><%= link_to map.name, map_path(map) %></td>
+          <td class="sm-maps"><%= image_tag "maps/#{map.name}.png" %></td>
+          <td><%= link_to map.name, map_path(map) %></td>
         </tr>
         <% end %>
         <% end %>
@@ -24,21 +25,21 @@
         <% @maps.each do |map| %>
         <% if map.origin === "Stretch"%>
         <tr>
-          <td align="center"><%= link_to map.name, map_path(map) %></td>
+          <td class="sm-maps"><%= image_tag "maps/#{map.name}.png" %></td>
+          <td><%= link_to map.name, map_path(map) %></td>
         </tr>
         <% end %>
         <% end %>
       </table>
     </div>
-  </div>
-  <div class="col-md-4 col-sm-6">
     <div class="panel panel-info">
       <div class="panel-heading">Nordheim Maps</div>
       <table class="table">
         <% @maps.each do |map| %>
         <% if map.origin === "Nordheim"%>
         <tr>
-          <td align="center"><%= link_to map.name, map_path(map) %></td>
+          <td class="sm-maps"><%= image_tag "maps/#{map.name}.png" %></td>
+          <td><%= link_to map.name, map_path(map) %></td>
         </tr>
         <% end %>
         <% end %>
@@ -52,7 +53,8 @@
         <% @maps.each do |map| %>
         <% if map.origin === "Stygia"%>
         <tr>
-          <td align="center"><%= link_to map.name, map_path(map) %></td>
+          <td class="sm-maps"><%= image_tag "maps/#{map.name}.png" %></td>
+          <td><%= link_to map.name, map_path(map) %></td>
         </tr>
         <% end %>
         <% end %>
@@ -66,7 +68,8 @@
         <% @maps.each do |map| %>
         <% if map.origin === "Khitai"%>
         <tr>
-          <td align="center"><%= link_to map.name, map_path(map) %></td>
+          <td class="sm-maps"><%= image_tag "maps/#{map.name}.png" %></td>
+          <td><%= link_to map.name, map_path(map) %></td>
         </tr>
         <% end %>
         <% end %>

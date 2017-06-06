@@ -9,30 +9,31 @@
     </div>
   </div>
   <div class="col-md-9">
-    <h1><%= @skill.name %></h1>
-    <p><%= @skill.description %></p><br />
-    <% if @skill.clarification != 'none' %>
-      <h4>Clarification: </h4>
-      <p><%= @skill.clarification %></p>
-    <% end %>
-  </div>
-</div>
-<div class="row">
-  <div class="col-md-6">
-    <% if @skill_heroes.any? %>
-      <h3>Heroes with this Skill: </h3>
-      <% @skill_heroes.each do |hero| %>
-        <p><%= link_to hero.name, hero_path(hero) %></p>
-      <% end%>
-    <% end %>
-  </div>
-  <div class="col-md-6">
-    <% if @skill_tiles.any? %>
-      <h3>Tiles with this Skill: </h3>
-      <% @skill_tiles.each do |tile| %>
-        <p><%= link_to tile.name, tile_path(tile) %></p>
-      <% end%>
-    <% end %>
+    <div>
+      <h1><%= @skill.name %></h1>
+      <p><%= @skill.description %></p><br />
+      <% if @skill.clarification != 'none' %>
+        <h4>Clarification: </h4>
+        <p><%= @skill.clarification %></p>
+      <% end %>
+    </div>
+    <br />
+    <div class="col-md-4">
+      <h4>Heroes with this Skill: </h4>
+      <% if @skill_heroes.any? %>
+        <% @skill_heroes.each do |hero| %>
+          <p><%= link_to hero.name, hero_path(hero) %></p>
+        <% end%>
+      <% end %>
+    </div>
+    <div class="col-md-4">
+      <h4>Tiles with this Skill: </h4>
+      <% if @skill_tiles.any? %>
+        <% @skill_tiles.each do |tile| %>
+          <p><%= link_to tile.name, tile_path(tile) %></p>
+        <% end%>
+      <% end %>
+    </div>
   </div>
 </div>
 <div class="row">

@@ -15,12 +15,32 @@
         <% end %>
       </table>
     </div>
+    <div class="panel panel-info">
+      <div class="panel-heading">Hero Tiles</div>
+      <table class="table">
+        <% @heroes.each do |tile| %>
+        <tr>
+          <td align="center"><%= link_to tile.name, tile_path(tile) %></td>
+        </tr>
+        <% end %>
+      </table>
+    </div>
   </div>
   <div class="col-md-4 col-sm-6">
     <div class="panel panel-info">
       <div class="panel-heading">Monster Tiles</div>
       <table class="table">
         <% @monsters.each do |tile| %>
+        <tr>
+          <td align="center"><%= link_to tile.name, tile_path(tile) %></td>
+        </tr>
+        <% end %>
+    </table>
+    </div>
+    <div class="panel panel-info">
+      <div class="panel-heading">Ally Tiles</div>
+      <table class="table">
+        <% @allies.each do |tile| %>
         <tr>
           <td align="center"><%= link_to tile.name, tile_path(tile) %></td>
         </tr>

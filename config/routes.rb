@@ -8,14 +8,14 @@ Rails.application.routes.draw do
   root 'pages#home'
   get 'about', to: 'pages#about'
 
-  resources :scenarios
-  resources :maps
   resources :heroes
-  resources :tiles
-  resources :spells
   resources :items
+  resources :maps
+  resources :scenarios
   resources :skills
+  resources :spells
   resources :stories
+  resources :tiles
 
   get 'signup', to: 'users#new'
   resources :users, except: [:new]

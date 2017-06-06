@@ -1,17 +1,32 @@
-<h1><%= @map.name %></h1>
-
-<p>
-  Description: <%= @map.description %>
-</p>
-<p>
-  On its flip side : <%= @map.flip_side %>
-</p>
-
-<p>
-  Came with: <%= @map.origin %>
-</p>
-
-<%= link_to "Edit this map", edit_map_path(@map) %><br />
-<%= link_to "Delete this map", map_path(@map), method: :delete, data: {confirm: "Are you sure?"} %><br />
-
-<%= link_to "Back to maps", maps_path %>
+<div class="row">
+  <div class="col-md-5">
+    <div class="maps well" align="center">
+        <%= image_tag "maps/#{@map.name}.png" %><br /><br />
+    </div>
+    <div align="center">
+      <% if @map.flip_side != 'none' %>
+        <h4>Shares a board with <%= @map.flip_side %>
+      <% end %>
+    </div><br />
+    <div align="center">
+      <%= link_to "Back to maps", maps_path %>
+    </div>
+  </div>
+  <div class="col-md-7">
+    <h1><%= @map.name %></h1>
+    <h4>Special Rules:</h4>
+      <ul>
+        <% if @map.ruleone %><li><%= @map.ruleone %></li><% end%>
+        <% if @map.ruletwo %><li><%= @map.ruletwo %></li><% end%>
+        <% if @map.rulethree %><li><%= @map.rulethree %></li><% end%>
+        <% if @map.rulefour %><li><%= @map.rulefour %></li><% end%>
+        <% if @map.rulefive %><li><%= @map.rulefive %></li><% end%>
+        <% if @map.rulesix %><li><%= @map.rulesix %></li><% end%>
+      </ul>
+  </div>
+</div>
+<div class="row">
+  <br /><br />
+  <%= link_to 'Edit', edit_map_path(@map) %> |
+  <%= link_to 'Delete', map_path(@map), method: :delete, data: {confirm: "Are you sure?"} %>
+</div>

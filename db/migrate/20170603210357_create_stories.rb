@@ -3,7 +3,7 @@ class CreateStories < ActiveRecord::Migration
     create_table :stories do |t|
       t.string :name
       t.string :aka
-      t.text :origin
+      t.string :origin
       t.timestamps
     end
   end

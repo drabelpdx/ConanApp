@@ -46,6 +46,11 @@ class ScenariosController < ApplicationController
     end
 
     def scenario_params
-      params.require(:scenario).permit(:name, :description, :origin)
+      params.require(:scenario).permit(:name, :description, :origin, :hero_goal,
+                                       :overlord_goal, :hero_intro, :overlord_intro,
+                                       :ruleone, :ruletwo, :rulethree, :rulefour,
+                                       :rulefive, :rulesix, :ruleseven, :ruleeight,
+                                        map_ids: [], hero_ids: [], tile_ids: [],
+                                        spell_ids: [], item_ids: [] )
     end
 end

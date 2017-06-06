@@ -1,9 +1,9 @@
 <div class="row">
   <div class="col-md-4">
-    <div class="skills">
-      <%= image_tag "skills/#{@hero.name}.png" %><br /><br />
-    </div>
     <div class="well">
+      <div class="skills">
+        <%= image_tag "heroes/#{@hero.name}.png" %><br /><br />
+      </div>
       <p><%= @hero.quote %></p>
       <p><%= @hero.cite %></p>
     </div>
@@ -24,45 +24,72 @@
     <h4>Player Sheet Stats: </h4>
     <table class="hero_stats">
       <tr>
-        <th>Melee</th>
-        <th>Range</th>
-        <th>Movement</th>
-        <th>Manipulation</th>
+        <th>
+          <%= image_tag "stats/life.png" %>
+          <br />Life
+        </th>
+        <th>
+          <%= image_tag "stats/melee.png" %>
+          <br />Melee
+        </th>
+        <th>
+          <%= image_tag "stats/range.png" %>
+          <br />Range
+        </th>
+        <th>
+          <%= image_tag "stats/defense.png" %>
+          <br />Defense
+        </th>
       </tr>
       <tr>
+        <td><%= @hero.life %></td>
         <td><%= @hero.melee_dice %> die</td>
         <td><%= @hero.range_dice %> die</td>
+        <td><%= @hero.defense_dice %> die</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>Exertion: <%= @hero.melee_exertion %></td>
+        <td>Exertion: <%= @hero.range_exertion %></td>
+        <td></td>
+      </tr>
+      <tr>
+        <th>
+          <%= image_tag "stats/encumbrance.png" %>
+          <br />Encumbrance
+        </th>
+        <th>
+          <%= image_tag "stats/movement.png" %>
+          <br />Movement
+        </th>
+        <th>
+          <%= image_tag "stats/manipulation.png" %>
+          <br />Manipulation
+        </th>
+
+      </tr>
+      <tr>
+        <td><%= @hero.encumberance %></td>
         <td>Free: <%= @hero.movement_free %></td>
         <td><%= @hero.manipulation_dice %> die</td>
       </tr>
       <tr>
-        <td>Exertion: <%= @hero.melee_exertion %></td>
-        <td>Exertion: <%= @hero.range_exertion %></td>
+        <td></td>
         <td>Exertion: <%= @hero.movement_exertion %></td>
         <td>Exertion: <%= @hero.manipulation_exersion %></td>
+        <td></td>
       </tr>
+      <% if @hero.skills.any? %>
       <tr>
-        <th>Defense</th>
-        <th>Life</th>
-        <th>Encumberance</th>
+        <% @hero.skills.each do |skill| %>
+          <td class="thumbs">
+            <%= link_to image_tag("skills/#{skill.name}.png"), skill_path(skill) %>
+            <br /><%= link_to skill.name, skill_path(skill) %>
+          </td>
+        <% end%>
       </tr>
-      <tr>
-        <td><%= @hero.defense_dice %> die</td>
-        <td><%= @hero.life %></td>
-        <td><%= @hero.encumberance %></td>
-      </tr>
-
+      <% end %>
     </table>
-
-
-    <% if @hero.skills.any? %>
-      <h4>Skills: </h4>
-      <% @hero.skills.each do |skill| %>
-        <p class="thumbs"><%= image_tag "skills/#{skill.name}.png" %>
-          &nbsp;&nbsp;<%= link_to skill.name, skill_path(skill) %>
-        </p>
-      <% end%>
-    <% end %>
   </div>
 </div>
 <div class="row">

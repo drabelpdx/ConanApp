@@ -5,4 +5,11 @@ module ApplicationHelper
     gravatar_url = "https://secure.gravatar.com/avatar/#{gravatar_id}?s=#{size}"
     image_tag(gravatar_url, alt: user.username, class: "img-circle")
   end
+
+  def pluralize_no_count(count, noun)
+    count = count.to_i
+    if count != 0
+      count == 1 ? "#{noun}" : "#{noun.pluralize}"
+    end
+  end
 end

@@ -63,6 +63,17 @@ $navbar-default-bg: #08088A;
   height: auto;
 }
 
+.maps img {
+  width: 400px;
+  height: auto;
+  margin-top: 20px;
+}
+
+.sm-maps img {
+  width: 100px;
+  height: auto;
+}
+
 .skills img {
   width: 150px;
   height: auto;
@@ -73,6 +84,24 @@ $navbar-default-bg: #08088A;
   padding: 15px;
   text-align: left;
   border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+.hero_stats img {
+  height: 50px;
+  width: auto;
+}
+
+.tile_stats th, td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+.tile_stats img {
+  height: 50px;
+  width: auto;
 }
 
 

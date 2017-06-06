@@ -1,16 +1,88 @@
-<h1><%= @tile.name %></h1>
+<div class="row">
+  <div class="col-md-4">
+    <div class="well">
+      <div class="skills">
+        <%= image_tag "tiles/#{@tile.name}.png" %><br /><br />
+      </div>
+      <p>quote here</p>
+      <p>cite here</p>
+    </div>
+    <div align="center">
+      <%= link_to "Back to tiles", tiles_path %>
+    </div>
+  </div>
+  <div class="col-md-8">
+    <h1><%= @tile.name %></h1>
+    <h4><%= @tile.description %></h4>
+    <h4>
+      <%= @tile.count %>  <%= @tile.origin %>  <%= @tile.role %>
+      <%= pluralize_no_count(@tile.count, 'tile') %>
+    </h4>
+    <% if @tile.stories.any? %>
+      <p>Appears in:
+        <% @tile.stories.each do |story| %>
+          <%= link_to story.name, story_path(story) %>
+        <% end%>
+      </p>
+    <% end %>
+    <br /><br />
 
-<p>
-  Description: <%= @tile.description %>
-</p>
-<% if @tile.skills.any? %>
-  <p>Skills: <% @tile.skills.each do |skill| %>
-    <%= skill.name %>
-  <% end%>
-  </p>
-<% end %>
+    <table class="tile_stats">
+      <tr>
+        <th>
+          <%= image_tag "stats/movement.png" %>
+          <br />Movement
+        </th>
+        <th>
+          <%= image_tag "stats/armor.png" %>
+          <br />Armor
+        </th>
 
-<%= link_to "Edit this tile", edit_tile_path(@tile) %><br />
-<%= link_to 'Delete', tile_path(@tile), method: :delete, data: {confirm: "Are you sure?"} %><br />
+        <% if @tile.cost %>
+          <th><%= image_tag "stats/reinforcement.png" %>
+            <br />Reinforcement Cost
+          </th>
+        <% end %>
+      </tr>
+      <tr>
+        <td><%= @tile.move %></td>
+        <td><%= @tile.armor %></td>
+        <% if @tile.cost %>
+          <td><%= @tile.cost %></td>
+        <% end %>
+      </tr>
 
-<%= link_to "Back to tiles", tiles_path %>
+      </tr>
+      <tr>
+        <th>
+          <%= image_tag "stats/melee.png" %>
+          <br />Melee
+        </th>
+        <th>
+          <%= image_tag "stats/range.png" %>
+          <br />Ranged
+        </th>
+      </tr>
+      <tr>
+        <td><%= @tile.melee_dice %></td>
+        <td><%= @tile.range_dice %></td>
+      </tr>
+
+      <% if @tile.skills.any? %>
+      <tr>
+        <% @tile.skills.each do |skill| %>
+          <td class="thumbs">
+            <%= link_to image_tag("skills/#{skill.name}.png"), skill_path(skill) %>
+            <br /><%= link_to skill.name, skill_path(skill) %>
+          </td>
+        <% end%>
+      </tr>
+      <% end %>
+    </table>
+  </div>
+</div>
+<div class="row">
+  <br /><br />
+  <%= link_to 'Edit', edit_tile_path(@tile) %> |
+  <%= link_to 'Delete', tile_path(@tile), method: :delete, data: {confirm: "Are you sure?"} %>
+</div>
