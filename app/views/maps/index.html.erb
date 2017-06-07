@@ -7,13 +7,11 @@
     <div class="panel panel-info">
       <div class="panel-heading">Core Game Maps</div>
       <table class="table">
-        <% @maps.each do |map| %>
-        <% if map.origin === "Core"%>
+        <% @core.each do |map| %>
         <tr>
           <td class="sm-maps"><%= image_tag "maps/#{map.name}.png" %></td>
           <td><%= link_to map.name, map_path(map) %></td>
         </tr>
-        <% end %>
         <% end %>
       </table>
     </div>
@@ -22,26 +20,22 @@
     <div class="panel panel-info">
       <div class="panel-heading">Strech Goal Maps</div>
       <table class="table">
-        <% @maps.each do |map| %>
-        <% if map.origin === "Stretch"%>
+        <% @stretch.each do |map| %>
         <tr>
           <td class="sm-maps"><%= image_tag "maps/#{map.name}.png" %></td>
           <td><%= link_to map.name, map_path(map) %></td>
         </tr>
-        <% end %>
         <% end %>
       </table>
     </div>
     <div class="panel panel-info">
       <div class="panel-heading">Nordheim Maps</div>
       <table class="table">
-        <% @maps.each do |map| %>
-        <% if map.origin === "Nordheim"%>
+        <% @nordheim.each do |map| %>
         <tr>
           <td class="sm-maps"><%= image_tag "maps/#{map.name}.png" %></td>
           <td><%= link_to map.name, map_path(map) %></td>
         </tr>
-        <% end %>
         <% end %>
       </table>
     </div>
@@ -50,13 +44,11 @@
     <div class="panel panel-info">
       <div class="panel-heading">Stygia Maps</div>
       <table class="table">
-        <% @maps.each do |map| %>
-        <% if map.origin === "Stygia"%>
+        <% @stygia.each do |map| %>
         <tr>
           <td class="sm-maps"><%= image_tag "maps/#{map.name}.png" %></td>
           <td><%= link_to map.name, map_path(map) %></td>
         </tr>
-        <% end %>
         <% end %>
       </table>
     </div>
@@ -65,13 +57,11 @@
     <div class="panel panel-info">
       <div class="panel-heading">Khitai Maps</div>
       <table class="table">
-        <% @maps.each do |map| %>
-        <% if map.origin === "Khitai"%>
+        <% @khitai.each do |map| %>
         <tr>
           <td class="sm-maps"><%= image_tag "maps/#{map.name}.png" %></td>
           <td><%= link_to map.name, map_path(map) %></td>
         </tr>
-        <% end %>
         <% end %>
       </table>
     </div>

@@ -26,7 +26,7 @@
       rulefive: "Wooden Huts: A character with Wall Wrecker can use it to move across the wall of one of the wooden huts.",
       rulesix: "Climbing: A character with Climb can move across boulders (Rock Token) as though they were a border by spending 2 extra movement points.",
       ruleseven: "Chests: During setup, the Overlord places 1 chest in each hut area (8 total). The asset deck contains: 2 Explosive Orb, 2 Life Potion, 1 Chainmail, 1 Crossbow, 1 Buckler, 1 Bossonian Bow.",
-      origin: "Core", map_ids: [], hero_ids: [], tile_ids: [], spell_ids: [], item_ids: [] },
+      origin: "Core Game", map_ids: [], hero_ids: [], tile_ids: [], spell_ids: [], item_ids: [] },
     { name: "Hunting the Tigress", description: "For months, the pirate ship Tigress has been scouring the waters off the coasts of Stygia and the Black Kingdoms and preying on the profitable trade of gold and ivory, much to the displeasure of King Ctesphon.
       As the Stygian fleet seems unable to put an end to the piracy, the king has promised a colossal sum to whomever can bring back Bêlit’s head.
       With Bêlit’s vessel anchored to resupply and a large portion of the crew on shore, Zaporavo, the Zingaran captain of The Vandal, takes the opportunity to attack in hopes of claiming the enormous reward and the glory that accompanies it.
@@ -48,6 +48,6 @@
       rulefour: "",
       rulefive: "",
       rulesix: "",
-      origin: "Core",
+      origin: "Core Game",
       map_ids: [], hero_ids: [], tile_ids: [], spell_ids: [], item_ids: []  }
   ])

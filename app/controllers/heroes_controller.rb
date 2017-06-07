@@ -1,10 +1,11 @@
 class HeroesController < ApplicationController
   before_action :set_hero, only: [:edit, :update, :show, :destroy]
+  before_action :set_heroes, only: [:index]
   before_action :set_skills, only: [:new, :create, :edit, :update, :show]
   before_action :set_stories, only: [:new, :create, :edit, :update, :show]
 
+
   def index
-    @heroes = Hero.all
   end
 
   def new
@@ -66,5 +67,15 @@ class HeroesController < ApplicationController
     def set_stories
       @weird = Story.where(origin: 'Weird Tales')
       @other = Story.where(origin: 'Other')
+    end
+
+    def set_heroes
+      @core = Hero.where(origin: 'Core Game')
+      @king = Hero.where(origin: 'King Pledge')
+      @stretch = Hero.where(origin: 'Stretch Goals')
+      @addon = Hero.where(origin: 'Add On')
+      @nordheim = Hero.where(origin: 'Nordheim Expansion')
+      @stygia = Hero.where(origin: 'Stygia Expansion')
+      @khitai = Hero.where(origin: 'Khitai Expansion')
     end
 end

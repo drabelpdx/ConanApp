@@ -8,7 +8,7 @@
     <div class="panel panel-info">
       <div class="panel-heading">Leader Tiles</div>
       <table class="table">
-        <% @leaders.each do |tile| %>
+        <% @leaders.sort_by {|tile| tile.name }.each do |tile| %>
         <tr>
           <td align="center"><%= link_to tile.name, tile_path(tile) %></td>
         </tr>
@@ -18,7 +18,7 @@
     <div class="panel panel-info">
       <div class="panel-heading">Hero Tiles</div>
       <table class="table">
-        <% @heroes.each do |tile| %>
+        <% @heroes.sort_by {|tile| tile.name }.each do |tile| %>
         <tr>
           <td align="center"><%= link_to tile.name, tile_path(tile) %></td>
         </tr>
@@ -30,7 +30,7 @@
     <div class="panel panel-info">
       <div class="panel-heading">Monster Tiles</div>
       <table class="table">
-        <% @monsters.each do |tile| %>
+        <% @monsters.sort_by {|tile| tile.name }.each do |tile| %>
         <tr>
           <td align="center"><%= link_to tile.name, tile_path(tile) %></td>
         </tr>
@@ -40,7 +40,7 @@
     <div class="panel panel-info">
       <div class="panel-heading">Ally Tiles</div>
       <table class="table">
-        <% @allies.each do |tile| %>
+        <% @allies.sort_by {|tile| tile.name }.each do |tile| %>
         <tr>
           <td align="center"><%= link_to tile.name, tile_path(tile) %></td>
         </tr>
@@ -52,7 +52,7 @@
     <div class="panel panel-info">
       <div class="panel-heading">Minion Tiles</div>
       <table class="table">
-        <% @minions.each do |tile| %>
+        <% @minions.sort_by {|tile| tile.name }.each do |tile| %>
         <tr>
           <td align="center"><%= link_to tile.name, tile_path(tile) %></td>
         </tr>

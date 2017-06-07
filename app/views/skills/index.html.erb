@@ -8,7 +8,7 @@
     <div class="panel panel-danger">
       <div class="panel-heading">Attack Skills</div>
       <table class="table">
-        <% @attack.each do |skill| %>
+        <% @attack.sort_by {|skill| skill.name }.each do |skill| %>
         <tr>
           <td class="thumbs"><%= image_tag "skills/#{skill.name}.png" %></td><td><%= link_to skill.name, skill_path(skill) %></td>
         </tr>
@@ -20,7 +20,7 @@
     <div class="panel panel-success">
       <div class="panel-heading">Movement Skills</div>
       <table class="table">
-        <% @movement.each do |skill| %>
+        <% @movement.sort_by {|skill| skill.name }.each do |skill| %>
         <tr>
           <td class="thumbs"><%= image_tag "skills/#{skill.name}.png" %></td><td><%= link_to skill.name, skill_path(skill) %></td>
         </tr>
@@ -32,7 +32,7 @@
     <div class="panel panel-warning">
       <div class="panel-heading">Miscellaneous Skills</div>
       <table class="table">
-        <% @miscellaneous.each do |skill| %>
+        <% @miscellaneous.sort_by {|skill| skill.name }.each do |skill| %>
         <tr>
           <td class="thumbs"><%= image_tag "skills/#{skill.name}.png" %></td><td><%= link_to skill.name, skill_path(skill) %></td>
         </tr>
@@ -44,7 +44,7 @@
     <div class="panel panel-info">
       <div class="panel-heading">Defense and Magic Skills</div>
       <table class="table">
-        <% @defense.each do |skill| %>
+        <% @defense.sort_by {|skill| skill.name }.each do |skill| %>
         <tr>
           <td class="thumbs"><%= image_tag "skills/#{skill.name}.png" %></td><td><%= link_to skill.name, skill_path(skill) %></td>
         </tr>

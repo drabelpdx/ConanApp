@@ -1,8 +1,8 @@
 class MapsController < ApplicationController
   before_action :set_map, only: [:edit, :update, :show, :destroy]
+  before_action :set_maps, only: [:index]
 
   def index
-    @maps = Map.all
   end
 
   def new
@@ -50,4 +50,12 @@ class MapsController < ApplicationController
                                   :ruleone, :ruletwo, :rulethree, :rulefour,
                                   :rulefive, :rulesix)
     end
+    def set_maps
+      @core = Map.where(origin: 'Core Game')
+      @stretch = Map.where(origin: 'Stretch Goals')
+      @nordheim = Map.where(origin: 'Nordheim Expansion')
+      @stygia = Map.where(origin: 'Stygia Expansion')
+      @khitai = Map.where(origin: 'Khitai Expansion')
+    end
+
 end
