@@ -10,7 +10,8 @@
         <% @core.each do |map| %>
         <tr>
           <td class="sm-maps">
-            <%= image_tag "#{@map.image}" %><br /><br />
+            <%= image_tag "#{map.image}" %>
+          </td>
           <td><%= link_to map.name, map_path(map) %></td>
         </tr>
         <% end %>
@@ -23,7 +24,9 @@
       <table class="table">
         <% @stretch.each do |map| %>
         <tr>
-          <td class="sm-maps"><%= image_tag "maps/#{map.name}.png" %></td>
+          <td class="sm-maps">
+            <%= image_tag "#{map.image}" %>
+          </td>
           <td><%= link_to map.name, map_path(map) %></td>
         </tr>
         <% end %>
@@ -34,7 +37,9 @@
       <table class="table">
         <% @nordheim.each do |map| %>
         <tr>
-          <td class="sm-maps"><%= image_tag "maps/#{map.name}.png" %></td>
+          <td class="sm-maps">
+            <%= image_tag "#{map.image}" %>
+          </td>
           <td><%= link_to map.name, map_path(map) %></td>
         </tr>
         <% end %>
@@ -47,7 +52,9 @@
       <table class="table">
         <% @stygia.each do |map| %>
         <tr>
-          <td class="sm-maps"><%= image_tag "maps/#{map.name}.png" %></td>
+          <td class="sm-maps">
+            <%= image_tag "#{map.image}" %>
+          </td>
           <td><%= link_to map.name, map_path(map) %></td>
         </tr>
         <% end %>
@@ -60,7 +67,9 @@
       <table class="table">
         <% @khitai.each do |map| %>
         <tr>
-          <td class="sm-maps"><%= image_tag "maps/#{map.name}.png" %></td>
+          <td class="sm-maps">
+            <%= image_tag "#{map.image}" %>
+          </td>
           <td><%= link_to map.name, map_path(map) %></td>
         </tr>
         <% end %>
