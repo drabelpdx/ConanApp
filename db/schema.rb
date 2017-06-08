@@ -74,6 +74,7 @@ ActiveRecord::Schema.define(version: 20170605233742) do
     t.text     "description"
     t.string   "flip_side"
     t.string   "origin"
+    t.string   "image"
     t.text     "ruleone"
     t.text     "ruletwo"
     t.text     "rulethree"
@@ -162,6 +163,7 @@ ActiveRecord::Schema.define(version: 20170605233742) do
     t.string   "range_dice"
     t.string   "origin"
     t.string   "count"
+    t.string   "image"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

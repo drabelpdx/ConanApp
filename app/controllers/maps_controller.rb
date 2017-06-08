@@ -47,8 +47,8 @@ class MapsController < ApplicationController
 
     def map_params
       params.require(:map).permit(:name, :description, :flip_side, :origin,
-                                  :ruleone, :ruletwo, :rulethree, :rulefour,
-                                  :rulefive, :rulesix)
+                                  :image, :ruleone, :ruletwo, :rulethree,
+                                  :rulefour, :rulefive, :rulesix)
     end
     def set_maps
       @core = Map.where(origin: 'Core Game')

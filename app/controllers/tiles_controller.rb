@@ -49,7 +49,7 @@ class TilesController < ApplicationController
     def tile_params
       params.require(:tile).permit(:name, :description, :role, :move, :armor,
                                    :melee_dice, :range_dice, :origin, :count,
-                                   :cost, skill_ids: [], story_ids: [])
+                                   :image, :cost, skill_ids: [], story_ids: [])
     end
 
     def set_skills

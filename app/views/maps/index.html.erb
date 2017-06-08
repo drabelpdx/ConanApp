@@ -9,7 +9,8 @@
       <table class="table">
         <% @core.each do |map| %>
         <tr>
-          <td class="sm-maps"><%= image_tag "maps/#{map.name}.png" %></td>
+          <td class="sm-maps">
+            <%= image_tag "#{@map.image}" %><br /><br />
           <td><%= link_to map.name, map_path(map) %></td>
         </tr>
         <% end %>

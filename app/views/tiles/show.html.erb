@@ -6,7 +6,7 @@
           <%= @tile.count %>  <%= @tile.role %>
           <%= pluralize_no_count(@tile.count, 'tile') %>
         </h4>
-        <%= image_tag "tiles/#{@tile.origin}/#{@tile.name}.png" %><br /><br />
+        <%= image_tag "#{@tile.image}" %><br /><br />
         from  <%= @tile.origin %>
 
       </div>

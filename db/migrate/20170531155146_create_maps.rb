@@ -5,6 +5,7 @@ class CreateMaps < ActiveRecord::Migration
       t.text :description
       t.string :flip_side
       t.string :origin
+      t.string :image
       t.text :ruleone
       t.text :ruletwo
       t.text :rulethree

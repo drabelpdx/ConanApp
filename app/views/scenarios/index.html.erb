@@ -9,7 +9,7 @@
       <div class="panel-heading">Core Game Scenarios</div>
       <table class="table">
         <% @scenarios.each do |scenario| %>
-        <% if scenario.origin === "Core"%>
+        <% if scenario.origin === "Core Game"%>
         <tr>
           <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
         </tr>
@@ -23,7 +23,7 @@
       <div class="panel-heading">King Pledge Scenarios</div>
       <table class="table">
         <% @scenarios.each do |scenario| %>
-        <% if scenario.origin === "King"%>
+        <% if scenario.origin === "King Pledge"%>
         <tr>
           <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
         </tr>
@@ -37,7 +37,7 @@
       <div class="panel-heading">Stretch Goal Scenarios</div>
       <table class="table">
         <% @scenarios.each do |scenario| %>
-        <% if scenario.origin === "Stretch"%>
+        <% if scenario.origin === "Stretch Goals"%>
         <tr>
           <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
         </tr>
@@ -53,7 +53,7 @@
       <div class="panel-heading">Nordheim Scenarios</div>
       <table class="table">
         <% @scenarios.each do |scenario| %>
-        <% if scenario.origin === "Nordheim"%>
+        <% if scenario.origin === "Nordheim Expansion"%>
         <tr>
           <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
         </tr>
@@ -67,7 +67,7 @@
       <div class="panel-heading">Stygia Scenarios</div>
       <table class="table">
         <% @scenarios.each do |scenario| %>
-        <% if scenario.origin === "Stygia"%>
+        <% if scenario.origin === "Stygia Expansion"%>
         <tr>
           <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
         </tr>
@@ -81,7 +81,7 @@
       <div class="panel-heading">Khitai Scenarios</div>
       <table class="table">
         <% @scenarios.each do |scenario| %>
-        <% if scenario.origin === "Khitai"%>
+        <% if scenario.origin === "Khitai Expansion"%>
         <tr>
           <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
         </tr>
@@ -97,7 +97,7 @@
       <div class="panel-heading">Add-Ons Scenarios (Monolith Website)</div>
       <table class="table">
         <% @scenarios.each do |scenario| %>
-        <% if scenario.origin === "Monolith"%>
+        <% if scenario.origin === "Monolith Addon"%>
         <tr>
           <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
         </tr>
@@ -111,7 +111,7 @@
       <div class="panel-heading">Stretch Goal Content Scenarios (Monolith Website)</div>
       <table class="table">
         <% @scenarios.each do |scenario| %>
-        <% if scenario.origin === "Monolith"%>
+        <% if scenario.origin === "Monolith Stretch"%>
         <tr>
           <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
         </tr>
@@ -125,7 +125,7 @@
       <div class="panel-heading">Other Scenarios (Monolith Website)</div>
       <table class="table">
         <% @scenarios.each do |scenario| %>
-        <% if scenario.origin === "Monolith"%>
+        <% if scenario.origin === "Monolith Other"%>
         <tr>
           <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
         </tr>
