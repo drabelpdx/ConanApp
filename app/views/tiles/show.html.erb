@@ -65,7 +65,10 @@
           <%= image_tag "stats/melee.png" %>
           <br />Melee
         </th>
-        <td><%= @tile.melee_dice %></td>
+        <td>
+          <%= image_tag "dice/#{@tile.melee_dice}.png" %><br />
+          <%= @tile.melee_dice %>
+        </td>
 
         <% end %>
         <% if @tile.range_dice != '–' %>
@@ -73,11 +76,13 @@
           <%= image_tag "stats/range.png" %>
           <br />Ranged
         </th>
-        <td><%= @tile.range_dice %></td>
+        <td>
+          <%= image_tag "dice/#{@tile.range_dice}.png" %><br />
+          <%= @tile.range_dice %>
+        </td>
 
         <% end %>
       </tr>
-
       <tr>
         <% if @tile.cost %>
           <th><%= image_tag "stats/reinforcement.png" %>

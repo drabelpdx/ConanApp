@@ -43,9 +43,18 @@
       </tr>
       <tr>
         <td><%= @hero.life %></td>
-        <td><%= @hero.melee_dice %> die</td>
-        <td><%= @hero.range_dice %> die</td>
-        <td><%= @hero.defense_dice %> die</td>
+        <td>
+          <%= image_tag "dice/#{@hero.melee_dice}.png" %><br />
+          <%= @hero.melee_dice %> die
+        </td>
+        <td>
+          <%= image_tag "dice/#{@hero.range_dice}.png" %><br />
+          <%= @hero.range_dice %> die
+        </td>
+        <td>
+          <%= image_tag "dice/#{@hero.defense_dice}.png" %><br />
+          <%= @hero.defense_dice %> die
+        </td>
       </tr>
       <tr>
         <td></td>
@@ -71,7 +80,10 @@
       <tr>
         <td><%= @hero.encumberance %></td>
         <td>Free: <%= @hero.movement_free %></td>
-        <td><%= @hero.manipulation_dice %> die</td>
+        <td>
+          <%= image_tag "dice/#{@hero.manipulation_dice}.png" %><br />
+          <%= @hero.manipulation_dice %> die
+        </td>
       </tr>
       <tr>
         <td></td>

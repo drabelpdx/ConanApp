@@ -1,83 +1,165 @@
 <% if @hero.errors.any? %>
-<h3>The following errors prevented the hero from getting created</h3>
-<ul>
-  <% @hero.errors.full_messages.each do |msg| %>
-  <li><%= msg %></li>
-  <% end %>
-</ul>
+  <h3>The following errors prevented the hero from getting created</h3>
+  <ul>
+    <% @hero.errors.full_messages.each do |msg| %>
+    <li><%= msg %></li>
+    <% end %>
+  </ul>
 <% end %>
 
 <%= form_for @hero do |f| %>
-  <div class='form-group'>
-    <%= f.label :name %><br />
-    <%= f.text_field :name %>
+  <div class="row">
+    <div class='form-group'>
+      <%= f.label :name %><br />
+      <%= f.text_field :name %>
+    </div>
+    <div class='form-group'>
+      <%= f.label :description %><br />
+      <%= f.text_field :description %>
+    </div>
+    <div class='form-group'>
+      <%= f.label :quote %><br />
+      <%= f.text_area :quote, cols: "50", rows: "5" %>
+    </div>
+    <div class='form-group'>
+      <%= f.label :cite %><br />
+      <%= f.text_field :cite %>
+    </div>
   </div>
-  <div class='form-group'>
-    <%= f.label :description %><br />
-    <%= f.text_field :description %>
+  <div class="row">
+    <div class="col-md-4 col-sm-6">
+      <div class='form-group'>
+        <%= f.label :life %><br />
+        <%= f.text_field :life %>
+      </div>
+      <div class='form-group'>
+        <%= f.label :encumberance %><br />
+        <%= f.text_field :encumberance %>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <div class='form-group'>
+        <%= f.label :movement_free %><br />
+        <%= f.text_field :movement_free %>
+      </div>
+      <div class='form-group'>
+        <%= f.label :movement_exertion %><br />
+        <%= f.text_field :movement_exertion %>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <div class='form-group'>
+        Defence Die:<br />
+        <%= f.radio_button :defense_dice, 'Red' %>
+        <%= f.label :defense_dice, 'Red', :value => 'Red' %>
+        <%= f.radio_button :defense_dice, 'Orange' %>
+        <%= f.label :defense_dice, 'Orange', :value => 'Orange' %>
+        <%= f.radio_button :defense_dice, 'Yellow' %>
+        <%= f.label :defense_dice, 'Yellow', :value => 'Yellow' %>
+      </div>
+    </div>
   </div>
+  <div class="row">
+    <div class="col-md-4 col-sm-6">
+      <div class='form-group'>
+        Melee Die:<br />
+        <%= f.radio_button :melee_dice, 'Red' %>
+        <%= f.label :melee_dice, 'Red', :value => 'Red' %>
+        <%= f.radio_button :melee_dice, 'Orange' %>
+        <%= f.label :melee_dice, 'Orange', :value => 'Orange' %>
+        <%= f.radio_button :melee_dice, 'Yellow' %>
+        <%= f.label :melee_dice, 'Yellow', :value => 'Yellow' %>
+      </div>
+      <div class='form-group'>
+        <%= f.label :melee_exertion %><br />
+        <%= f.text_field :melee_exertion %>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <div class='form-group'>
+        Range Die:<br />
+        <%= f.radio_button :range_dice, 'Red' %>
+        <%= f.label :range_dice, 'Red', :value => 'Red' %>
+        <%= f.radio_button :range_dice, 'Orange' %>
+        <%= f.label :range_dice, 'Orange', :value => 'Orange' %>
+        <%= f.radio_button :range_dice, 'Yellow' %>
+        <%= f.label :range_dice, 'Yellow', :value => 'Yellow' %>
+      </div>
+      <div class='form-group'>
+        <%= f.label :range_exertion %><br />
+        <%= f.text_field :range_exertion %>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <div class='form-group'>
+        Manipulation Die:<br />
+        <%= f.radio_button :manipulation_dice, 'Red' %>
+        <%= f.label :manipulation_dice, 'Red', :value => 'Red' %>
+        <%= f.radio_button :manipulation_dice, 'Orange' %>
+        <%= f.label :manipulation_dice, 'Orange', :value => 'Orange' %>
+        <%= f.radio_button :manipulation_dice, 'Yellow' %>
+        <%= f.label :manipulation_dice, 'Yellow', :value => 'Yellow' %>
+      </div>
+      <div class='form-group'>
+        <%= f.label :manipulation_exersion %><br />
+        <%= f.text_field :manipulation_exersion %>
+      </div>
+    </div>
+
   <div class='form-group'>
-    <%= f.label :quote %><br />
-    <%= f.text_area :quote, cols: "50", rows: "5" %>
-  </div>
-  <div class='form-group'>
-    <%= f.label :cite %><br />
-    <%= f.text_field :cite %>
-  </div>
-  <div class='form-group'>
+    <h4>Skills</h4>
     <div class="row">
-      <p>Attack Skills</p>
-      <div class='col-md-10'>
+      <div class="col-sm-2">Attack Skills:</div>
+      <div class='col-sm-8'>
         <%= f.collection_check_boxes :skill_ids, @attack, :id, :name do |cb| %>
         <% cb.label(class: "checkbox-inline input_checkbox") {cb.check_box(class: "checkbox") + cb.text} %>
         <% end %>
       </div>
     </div><br />
     <div class="row">
-      <p>Movement Skills</p>
-      <div class='col-md-10'>
+      <div class="col-sm-2">Movement Skills:</div>
+      <div class='col-sm-8'>
         <%= f.collection_check_boxes :skill_ids, @movement, :id, :name do |cb| %>
         <% cb.label(class: "checkbox-inline input_checkbox") {cb.check_box(class: "checkbox") + cb.text} %>
         <% end %>
       </div>
     </div><br />
     <div class="row">
-      <p>Miscellaneous Skills</p>
-      <div class='col-md-10'>
+      <div class="col-sm-2">Miscellaneous Skills:</div>
+      <div class='col-sm-8'>
         <%= f.collection_check_boxes :skill_ids, @miscellaneous, :id, :name do |cb| %>
         <% cb.label(class: "checkbox-inline input_checkbox") {cb.check_box(class: "checkbox") + cb.text} %>
         <% end %>
       </div>
     </div><br />
     <div class="row">
-      <p>Defense and Magic Skills</p>
-      <div class='col-md-10'>
+      <div class="col-sm-2">Defense and Magic Skills:</div>
+      <div class='col-sm-8'>
         <%= f.collection_check_boxes :skill_ids, @defense, :id, :name do |cb| %>
         <% cb.label(class: "checkbox-inline input_checkbox") {cb.check_box(class: "checkbox") + cb.text} %>
         <% end %>
       </div>
     </div>
   </div>
-
   <div class='form-group'>
+    <h4>Stories</h4>
     <div class="row">
-      <p>Weird Tales</p>
-      <div class='col-sm-offset-1 col-sm-9'>
+      <div class="col-sm-2">Weird Tales:</div>
+      <div class='col-sm-8'>
         <%= f.collection_check_boxes :story_ids, @weird, :id, :name do |cb| %>
         <% cb.label(class: "checkbox-inline input_checkbox") {cb.check_box(class: "checkbox") + cb.text} %>
         <% end %>
       </div>
-    </div>
+    </div><br />
     <div class="row">
-      <p>Other Stories</p>
-      <div class='col-sm-offset-1 col-sm-9'>
+      <div class="col-sm-2">Other Stories:</div>
+      <div class='col-sm-8'>
         <%= f.collection_check_boxes :story_ids, @other, :id, :name do |cb| %>
         <% cb.label(class: "checkbox-inline input_checkbox") {cb.check_box(class: "checkbox") + cb.text} %>
         <% end %>
       </div>
     </div>
   </div>
-
   <p>
     <%= f.submit %>
   </p>
