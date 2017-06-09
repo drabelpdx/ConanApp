@@ -1,33 +1,34 @@
-<% if @hero.errors.any? %>
-  <h3>The following errors prevented the hero from getting created</h3>
-  <ul>
-    <% @hero.errors.full_messages.each do |msg| %>
-    <li><%= msg %></li>
-    <% end %>
-  </ul>
-<% end %>
+<%= render 'shared/errors', obj: @hero %>
 
 <%= form_for @hero do |f| %>
   <div class="row">
-    <div class='form-group'>
-      <%= f.label :name %><br />
-      <%= f.text_field :name %>
+    <h3>Stats</h3>
+    <hr>
+    <div class="col-sm-6 col-md-4">
+      <div class='form-group'>
+        <%= f.label :name %><br />
+        <%= f.text_field :name %>
+      </div>
+      <div class='form-group'>
+        <%= f.label :description %><br />
+        <%= f.text_field :description %>
+      </div>
     </div>
-    <div class='form-group'>
-      <%= f.label :description %><br />
-      <%= f.text_field :description %>
+    <div class="col-sm-6 col-md-4">
+      <div class='form-group'>
+        <%= f.label :quote %><br />
+        <%= f.text_area :quote, cols: "30", rows: "5" %>
+      </div>
     </div>
-    <div class='form-group'>
-      <%= f.label :quote %><br />
-      <%= f.text_area :quote, cols: "50", rows: "5" %>
-    </div>
-    <div class='form-group'>
-      <%= f.label :cite %><br />
-      <%= f.text_field :cite %>
+    <div class="col-sm-6 col-md-4">
+      <div class='form-group'>
+        <%= f.label :cite %><br />
+        <%= f.text_field :cite %>
+      </div>
     </div>
   </div>
   <div class="row">
-    <div class="col-md-4 col-sm-6">
+    <div class="col-sm-6 col-md-4">
       <div class='form-group'>
         <%= f.label :life %><br />
         <%= f.text_field :life %>
@@ -37,7 +38,7 @@
         <%= f.text_field :encumberance %>
       </div>
     </div>
-    <div class="col-md-4 col-sm-6">
+    <div class="col-sm-6 col-md-4">
       <div class='form-group'>
         <%= f.label :movement_free %><br />
         <%= f.text_field :movement_free %>
@@ -47,7 +48,7 @@
         <%= f.text_field :movement_exertion %>
       </div>
     </div>
-    <div class="col-md-4 col-sm-6">
+    <div class="col-sm-6 col-md-4">
       <div class='form-group'>
         Defence Die:<br />
         <%= f.radio_button :defense_dice, 'Red' %>
@@ -60,7 +61,7 @@
     </div>
   </div>
   <div class="row">
-    <div class="col-md-4 col-sm-6">
+    <div class="col-sm-6 col-md-4">
       <div class='form-group'>
         Melee Die:<br />
         <%= f.radio_button :melee_dice, 'Red' %>
@@ -75,7 +76,7 @@
         <%= f.text_field :melee_exertion %>
       </div>
     </div>
-    <div class="col-md-4 col-sm-6">
+    <div class="col-sm-6 col-md-4">
       <div class='form-group'>
         Range Die:<br />
         <%= f.radio_button :range_dice, 'Red' %>
@@ -105,9 +106,12 @@
         <%= f.text_field :manipulation_exersion %>
       </div>
     </div>
+  </div>
+    <br /><br />
 
   <div class='form-group'>
-    <h4>Skills</h4>
+    <h3>Skills</h3>
+    <hr>
     <div class="row">
       <div class="col-sm-2">Attack Skills:</div>
       <div class='col-sm-8'>
@@ -140,9 +144,11 @@
         <% end %>
       </div>
     </div>
-  </div>
+  </div><br /><br />
+
   <div class='form-group'>
-    <h4>Stories</h4>
+    <h3>Stories</h3>
+    <hr>
     <div class="row">
       <div class="col-sm-2">Weird Tales:</div>
       <div class='col-sm-8'>
@@ -159,10 +165,12 @@
         <% end %>
       </div>
     </div>
-  </div>
+  </div><br /><br />
+
   <p>
     <%= f.submit %>
   </p>
 <% end %>
+<br /><br />
 
 <%= link_to "Back to heros", heroes_path %>

@@ -1,11 +1,4 @@
-<% if @scenario.errors.any? %>
-<h3>The following errors prevented the scenario from getting created</h3>
-<ul>
-  <% @scenario.errors.full_messages.each do |msg| %>
-  <li><%= msg %></li>
-  <% end %>
-</ul>
-<% end %>
+<%= render 'shared/errors', obj: @scenario %>
 
 <%= form_for @scenario do |f| %>
   <p>

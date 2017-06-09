@@ -2,6 +2,7 @@ class TilesController < ApplicationController
   before_action :set_tile, only: [:edit, :update, :show, :destroy]
   before_action :set_skills, only: [:new, :create, :edit, :update, :show]
   before_action :set_roles, only: [:index]
+  before_action :set_stories, only: [:new, :create, :edit, :update, :show]
 
   def index
   end
@@ -57,6 +58,11 @@ class TilesController < ApplicationController
       @movement = Skill.where(skill_type: 'Movement')
       @miscellaneous = Skill.where(skill_type: 'Miscellaneous')
       @defense = Skill.where(skill_type: 'Defense and Magic')
+    end
+
+    def set_stories
+      @weird = Story.where(origin: 'Weird Tales')
+      @other = Story.where(origin: 'Other')
     end
 
     def set_roles

@@ -1,11 +1,5 @@
-<% if @item.errors.any? %>
-<h3>The following errors prevented the item from getting created</h3>
-<ul>
-  <% @item.errors.full_messages.each do |msg| %>
-  <li><%= msg %></li>
-  <% end %>
-</ul>
-<% end %>
+
+<%= render 'shared/errors', obj: @item %>
 
 <%= form_for @item do |f| %>
   <p>

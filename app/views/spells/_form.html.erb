@@ -1,11 +1,4 @@
-<% if @spell.errors.any? %>
-<h3>The following errors prevented the spell from getting created</h3>
-<ul>
-  <% @spell.errors.full_messages.each do |msg| %>
-  <li><%= msg %></li>
-  <% end %>
-</ul>
-<% end %>
+<%= render 'shared/errors', obj: @spell %>
 
 <%= form_for @spell do |f| %>
   <p>
