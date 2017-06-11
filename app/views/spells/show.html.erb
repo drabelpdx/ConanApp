@@ -1,10 +1,29 @@
-<h1><%= @spell.name %></h1>
+<div class="row">
+  <div class="col-md-12">
+    <div>
+      <h1><%= @spell.name %></h1>
+      <p>Cost:  <%= @spell.cost %></p>
+      <p>Limit:  <%= @spell.limit %></p>
 
-<p>
-  Description: <%= @spell.description %>
-</p>
+      Description:  <%= @spell.description.html_safe %>
 
-<%= link_to "Edit this spell", edit_spell_path(@spell) %><br />
-<%= link_to 'Delete', spell_path(@spell), method: :delete, data: {confirm: "Are you sure?"} %><br />
+      <% if @spell.area === 'Yes' %>
+        <p>Area Effect</p>
+      <% end %>
+      <% if @spell.instant === 'Yes' %>
+        <p>Instant</p>
+      <% end %>
+      <p>Origin:  <%= @spell.origin %></p>
+      <p>Count:  <%= @spell.count %></p>
+    </div>
+    <br />
+  </div>
+</div>
 
 <%= link_to "Back to spells", spells_path %>
+
+<div class="row">
+  <br /><br />
+  <%= link_to 'Edit', edit_spell_path(@spell) %> |
+  <%= link_to 'Delete', spell_path(@spell), method: :delete, data: {confirm: "Are you sure?"} %>
+</div>

@@ -1,5 +1,6 @@
 class SpellsController < ApplicationController
   before_action :set_spell, only: [:edit, :update, :show, :destroy]
+  before_action :set_spells, only: [:index]
 
   def index
     @spells = Spell.all
@@ -45,7 +46,18 @@ class SpellsController < ApplicationController
       @spell = Spell.find(params[:id])
     end
 
+    def set_spells
+      @core = Spell.where(origin: 'Core Game')
+      @stretch = Spell.where(origin: 'Stretch Goals')
+      @nordheim = Spell.where(origin: 'Nordheim Expansion')
+      @stygia = Spell.where(origin: 'Stygia Expansion')
+      @khitai = Spell.where(origin: 'Khitai Expansion')
+      @campaign = Spell.where(origin: 'Campaign')
+
+    end
+
     def spell_params
-      params.require(:spell).permit(:name, :description)
+      params.require(:spell).permit(:name, :description, :cost, :limit, :area,
+      :instant, :origin, :count)
     end
 end

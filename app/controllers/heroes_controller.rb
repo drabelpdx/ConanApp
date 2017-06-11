@@ -51,7 +51,7 @@ class HeroesController < ApplicationController
     def hero_params
       params.require(:hero).permit(:name, :description, :quote, :cite, :life,
                                    :encumberance, :melee_dice, :melee_exertion,
-                                   :range_dice, :range_exertion, :movement_free,
+                                   :ranged_dice, :ranged_exertion, :movement_free,
                                    :movement_exertion, :manipulation_dice,
                                    :manipulation_exersion, :defense_dice,
                                    :origin, skill_ids: [], story_ids: [])

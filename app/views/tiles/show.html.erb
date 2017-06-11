@@ -71,14 +71,14 @@
         </td>
 
         <% end %>
-        <% if @tile.range_dice != '–' %>
+        <% if @tile.ranged_dice != '–' %>
         <th>
           <%= image_tag "stats/range.png" %>
           <br />Ranged
         </th>
         <td>
-          <%= image_tag "dice/#{@tile.range_dice}.png" %><br />
-          <%= @tile.range_dice %>
+          <%= image_tag "dice/#{@tile.ranged_dice}.png" %><br />
+          <%= @tile.ranged_dice %>
         </td>
 
         <% end %>

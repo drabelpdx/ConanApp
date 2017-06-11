@@ -8,12 +8,10 @@
     <div class="panel panel-info">
       <div class="panel-heading">Core Game Spells</div>
       <table class="table">
-        <% @spells.each do |spell| %>
-        <% if spell.origin === "Core"%>
-        <tr>
-          <td align="center"><%= link_to spell.name, spell_path(spell) %></td>
-        </tr>
-        <% end %>
+        <% @core.sort_by {|spell| spell.name }.each do |spell| %>
+          <tr>
+            <td align="center"><%= link_to spell.name, spell_path(spell) %></td>
+          </tr>
         <% end %>
       </table>
     </div>
@@ -22,12 +20,10 @@
     <div class="panel panel-info">
       <div class="panel-heading">Stretch Goal Spells</div>
       <table class="table">
-        <% @spells.each do |spell| %>
-        <% if spell.origin === "Stretch"%>
-        <tr>
-          <td align="center"><%= link_to spell.name, spell_path(spell) %></td>
-        </tr>
-        <% end %>
+        <% @stretch.sort_by {|spell| spell.name }.each do |spell| %>
+          <tr>
+            <td align="center"><%= link_to spell.name, spell_path(spell) %></td>
+          </tr>
         <% end %>
       </table>
     </div>
@@ -36,12 +32,10 @@
     <div class="panel panel-info">
       <div class="panel-heading">Campaign Spells</div>
       <table class="table">
-        <% @spells.each do |spell| %>
-        <% if spell.origin === "Campaign"%>
-        <tr>
-          <td align="center"><%= link_to spell.name, spell_path(spell) %></td>
-        </tr>
-        <% end %>
+        <% @campaign.sort_by {|spell| spell.name }.each do |spell| %>
+          <tr>
+            <td align="center"><%= link_to spell.name, spell_path(spell) %></td>
+          </tr>
         <% end %>
       </table>
     </div>
@@ -52,12 +46,10 @@
     <div class="panel panel-info">
       <div class="panel-heading">Nordheim Spells</div>
       <table class="table">
-        <% @spells.each do |spell| %>
-        <% if spell.origin === "Nordheim"%>
-        <tr>
-          <td align="center"><%= link_to spell.name, spell_path(spell) %></td>
-        </tr>
-        <% end %>
+        <% @nordheim.sort_by {|spell| spell.name }.each do |spell| %>
+          <tr>
+            <td align="center"><%= link_to spell.name, spell_path(spell) %></td>
+          </tr>
         <% end %>
       </table>
     </div>
@@ -66,12 +58,10 @@
     <div class="panel panel-info">
       <div class="panel-heading">Stygia Spells</div>
       <table class="table">
-        <% @spells.each do |spell| %>
-        <% if spell.origin === "Stygia"%>
-        <tr>
-          <td align="center"><%= link_to spell.name, spell_path(spell) %></td>
-        </tr>
-        <% end %>
+        <% @stygia.sort_by {|spell| spell.name }.each do |spell| %>
+          <tr>
+            <td align="center"><%= link_to spell.name, spell_path(spell) %></td>
+          </tr>
         <% end %>
       </table>
     </div>
@@ -80,12 +70,10 @@
     <div class="panel panel-info">
       <div class="panel-heading">Khitai Spells</div>
       <table class="table">
-        <% @spells.each do |spell| %>
-        <% if spell.origin === "Khitai"%>
-        <tr>
-          <td align="center"><%= link_to spell.name, spell_path(spell) %></td>
-        </tr>
-        <% end %>
+        <% @khitai.sort_by {|spell| spell.name }.each do |spell| %>
+          <tr>
+            <td align="center"><%= link_to spell.name, spell_path(spell) %></td>
+          </tr>
         <% end %>
       </table>
     </div>

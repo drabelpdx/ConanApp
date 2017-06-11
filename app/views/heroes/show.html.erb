@@ -48,8 +48,8 @@
           <%= @hero.melee_dice %> die
         </td>
         <td>
-          <%= image_tag "dice/#{@hero.range_dice}.png" %><br />
-          <%= @hero.range_dice %> die
+          <%= image_tag "dice/#{@hero.ranged_dice}.png" %><br />
+          <%= @hero.ranged_dice %> die
         </td>
         <td>
           <%= image_tag "dice/#{@hero.defense_dice}.png" %><br />
@@ -59,7 +59,7 @@
       <tr>
         <td></td>
         <td>Exertion: <%= @hero.melee_exertion %></td>
-        <td>Exertion: <%= @hero.range_exertion %></td>
+        <td>Exertion: <%= @hero.ranged_exertion %></td>
         <td></td>
       </tr>
       <tr>

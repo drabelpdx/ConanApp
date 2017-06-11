@@ -8,12 +8,10 @@
     <div class="panel panel-info">
       <div class="panel-heading">Core Game Items</div>
       <table class="table">
-        <% @items.each do |item| %>
-        <% if item.origin === "Core"%>
-        <tr>
-          <td align="center"><%= link_to item.name, item_path(item) %></td>
-        </tr>
-        <% end %>
+        <% @core.sort_by {|item| item.name }.each do |item| %>
+          <tr>
+            <td align="center"><%= link_to item.name, item_path(item) %></td>
+          </tr>
         <% end %>
       </table>
     </div>
@@ -22,12 +20,10 @@
     <div class="panel panel-info">
       <div class="panel-heading">Stretch Goal Items</div>
       <table class="table">
-        <% @items.each do |item| %>
-        <% if item.origin === "Stretch"%>
-        <tr>
-          <td align="center"><%= link_to item.name, item_path(item) %></td>
-        </tr>
-        <% end %>
+        <% @stretch.sort_by {|item| item.name }.each do |item| %>
+          <tr>
+            <td align="center"><%= link_to item.name, item_path(item) %></td>
+          </tr>
         <% end %>
       </table>
     </div>
@@ -36,12 +32,10 @@
     <div class="panel panel-info">
       <div class="panel-heading">Campaign Items</div>
       <table class="table">
-        <% @items.each do |item| %>
-        <% if item.origin === "Campaign"%>
-        <tr>
-          <td align="center"><%= link_to item.name, item_path(item) %></td>
-        </tr>
-        <% end %>
+        <% @campaign.sort_by {|item| item.name }.each do |item| %>
+          <tr>
+            <td align="center"><%= link_to item.name, item_path(item) %></td>
+          </tr>
         <% end %>
       </table>
     </div>
@@ -52,12 +46,10 @@
     <div class="panel panel-info">
       <div class="panel-heading">Nordheim Items</div>
       <table class="table">
-        <% @items.each do |item| %>
-        <% if item.origin === "Nordheim"%>
-        <tr>
-          <td align="center"><%= link_to item.name, item_path(item) %></td>
-        </tr>
-        <% end %>
+        <% @nordheim.sort_by {|item| item.name }.each do |item| %>
+          <tr>
+            <td align="center"><%= link_to item.name, item_path(item) %></td>
+          </tr>
         <% end %>
       </table>
     </div>
@@ -66,12 +58,10 @@
     <div class="panel panel-info">
       <div class="panel-heading">Stygia Items</div>
       <table class="table">
-        <% @items.each do |item| %>
-        <% if item.origin === "Stygia"%>
-        <tr>
-          <td align="center"><%= link_to item.name, item_path(item) %></td>
-        </tr>
-        <% end %>
+        <% @stygia.sort_by {|item| item.name }.each do |item| %>
+          <tr>
+            <td align="center"><%= link_to item.name, item_path(item) %></td>
+          </tr>
         <% end %>
       </table>
     </div>
@@ -80,12 +70,10 @@
     <div class="panel panel-info">
       <div class="panel-heading">Khitai Items</div>
       <table class="table">
-        <% @items.each do |item| %>
-        <% if item.origin === "Khitai"%>
-        <tr>
-          <td align="center"><%= link_to item.name, item_path(item) %></td>
-        </tr>
-        <% end %>
+        <% @khitai.sort_by {|item| item.name }.each do |item| %>
+          <tr>
+            <td align="center"><%= link_to item.name, item_path(item) %></td>
+          </tr>
         <% end %>
       </table>
     </div>

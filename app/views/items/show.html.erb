@@ -1,10 +1,36 @@
-<h1><%= @item.name %></h1>
-
-<p>
-  Description: <%= @item.description %>
-</p>
-
-<%= link_to "Edit this item", edit_item_path(@item) %><br />
-<%= link_to 'Delete', item_path(@item), method: :delete, data: {confirm: "Are you sure?"} %><br />
+<div class="row">
+  <div class="col-md-12">
+    <div>
+      <h1><%= @item.name %></h1>
+      <% if @item.encumberance != '' %>
+        <p>Encumberance:  <%= @item.encumberance %></p>
+      <% end %>
+      <% if @item.armor != '' %>
+        <p>Armor:  <%= @item.armor %></p>
+      <% end %>
+      <% if @item.melee_dice != '' %>
+        <p>Melee:  <%= @item.melee_dice %></p>
+      <% end %>
+      <% if @item.ranged_dice != '' %>
+        <p>Ranged:  <%= @item.ranged_dice %></p>
+      <% end %>
+      <% if @item.defense_dice != '' %>
+        <p>Defense:  <%= @item.defense_dice %></p>
+      <% end %>
+      <% if @item.manipulation_dice != '' %>
+        <p>Manipulation:  <%= @item.manipulation_dice %></p>
+      <% end %>
+      <p>Origin:  <%= @item.origin %></p>
+      <p>Count:  <%= @item.count %></p>
+    </div>
+    <br />
+  </div>
+</div>
 
 <%= link_to "Back to items", items_path %>
+
+<div class="row">
+  <br /><br />
+  <%= link_to 'Edit', edit_item_path(@item) %> |
+  <%= link_to 'Delete', item_path(@item), method: :delete, data: {confirm: "Are you sure?"} %>
+</div>

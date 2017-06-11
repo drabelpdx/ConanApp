@@ -9,8 +9,8 @@ class CreateHeroes < ActiveRecord::Migration
       t.string :encumberance
       t.string :melee_dice
       t.string :melee_exertion
-      t.string :range_dice
-      t.string :range_exertion
+      t.string :ranged_dice
+      t.string :ranged_exertion
       t.string :movement_free
       t.string :movement_exertion
       t.string :manipulation_dice

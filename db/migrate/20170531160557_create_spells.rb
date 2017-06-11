@@ -5,6 +5,8 @@ class CreateSpells < ActiveRecord::Migration
       t.text :description
       t.string :cost
       t.string :limit
+      t.string :area
+      t.string :instant
       t.string :origin
       t.string :count
       t.timestamp

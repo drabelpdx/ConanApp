@@ -10,7 +10,7 @@ class Tile < ActiveRecord::Base
   validates :move, presence: true
   validates :armor, presence: true
   validates :melee_dice, presence: true
-  validates :range_dice, presence: true
+  validates :ranged_dice, presence: true
   validates :origin, presence: true, length: { minimum: 3, maximum: 50 }
   validates :count, presence: true
 end

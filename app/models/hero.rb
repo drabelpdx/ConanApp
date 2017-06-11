@@ -10,8 +10,8 @@ class Hero < ActiveRecord::Base
   validates :encumberance, presence: true
   validates :melee_dice, presence: true, length: { minimum: 3, maximum: 50 }
   validates :melee_exertion, presence: true
-  validates :range_dice, presence: true, length: { minimum: 3, maximum: 50 }
-  validates :range_exertion, presence: true
+  validates :ranged_dice, presence: true, length: { minimum: 3, maximum: 50 }
+  validates :ranged_exertion, presence: true
   validates :movement_free, presence: true
   validates :movement_exertion, presence: true
   validates :manipulation_dice, presence: true, length: { minimum: 3, maximum: 50 }

@@ -9,7 +9,7 @@ class CreateTiles < ActiveRecord::Migration
       t.string :armor
       t.string :cost
       t.string :melee_dice
-      t.string :range_dice
+      t.string :ranged_dice
       t.string :origin
       t.string :count
       t.string :image
