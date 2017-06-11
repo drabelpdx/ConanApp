@@ -13,7 +13,7 @@ class StoriesController < ApplicationController
     @story = Story.new(story_params)
     if @story.save
       flash[:notice] = "Story was successfully created"
-      redirect_to stories_path(@story)
+      redirect_to story_path(@story)
     else
       render 'new'
     end
@@ -25,7 +25,7 @@ class StoriesController < ApplicationController
   def update
     if @story.update(story_params)
       flash[:notice] = "Story was successfully updated"
-      redirect_to stories_path(@story)
+      redirect_to story_path(@story)
     else
       render 'edit'
     end

@@ -15,7 +15,7 @@ class TilesController < ApplicationController
     @tile = Tile.new(tile_params)
     if @tile.save
       flash[:notice] = "Tile was successfully created"
-      redirect_to tiles_path(@tile)
+      redirect_to tile_path(@tile)
     else
       render 'new'
     end
@@ -27,7 +27,7 @@ class TilesController < ApplicationController
   def update
     if @tile.update(tile_params)
       flash[:notice] = "Tile was successfully updated"
-      redirect_to tiles_path(@tile)
+      redirect_to tile_path(@tile)
     else
       render 'edit'
     end

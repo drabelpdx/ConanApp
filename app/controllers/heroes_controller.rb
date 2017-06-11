@@ -16,7 +16,7 @@ class HeroesController < ApplicationController
     @hero = Hero.new(hero_params)
     if @hero.save
       flash[:notice] = "Hero was successfully created"
-      redirect_to heroes_path(@hero)
+      redirect_to hero_path(@hero)
     else
       render 'new'
     end
@@ -28,7 +28,7 @@ class HeroesController < ApplicationController
   def update
     if @hero.update(hero_params)
       flash[:notice] = "Hero was successfully updated"
-      redirect_to heroes_path(@hero)
+      redirect_to hero_path(@hero)
     else
       render 'edit'
     end

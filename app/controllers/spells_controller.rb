@@ -14,7 +14,7 @@ class SpellsController < ApplicationController
     @spell = Spell.new(spell_params)
     if @spell.save
       flash[:notice] = "Spell was successfully created"
-      redirect_to spells_path(@spell)
+      redirect_to spell_path(@spell)
     else
       render 'new'
     end
@@ -26,7 +26,7 @@ class SpellsController < ApplicationController
   def update
     if @spell.update(spell_params)
       flash[:notice] = "Spell was successfully updated"
-      redirect_to spells_path(@spell)
+      redirect_to spell_path(@spell)
     else
       render 'edit'
     end

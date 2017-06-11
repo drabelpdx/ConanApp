@@ -14,7 +14,7 @@ class ItemsController < ApplicationController
     @item = Item.new(item_params)
     if @item.save
       flash[:notice] = "Item was successfully created"
-      redirect_to items_path(@item)
+      redirect_to item_path(@item)
     else
       render 'new'
     end
@@ -26,7 +26,7 @@ class ItemsController < ApplicationController
   def update
     if @item.update(item_params)
       flash[:notice] = "Item was successfully updated"
-      redirect_to items_path(@item)
+      redirect_to item_path(@item)
     else
       render 'edit'
     end

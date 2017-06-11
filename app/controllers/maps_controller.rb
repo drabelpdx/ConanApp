@@ -13,7 +13,7 @@ class MapsController < ApplicationController
     @map = Map.new(map_params)
     if @map.save
       flash[:notice] = "Map was successfully created"
-      redirect_to maps_path(@map)
+      redirect_to map_path(@map)
     else
       render 'new'
     end
@@ -25,7 +25,7 @@ class MapsController < ApplicationController
   def update
     if @map.update(map_params)
       flash[:notice] = "Map was successfully updated"
-      redirect_to maps_path(@map)
+      redirect_to map_path(@map)
     else
       render 'edit'
     end

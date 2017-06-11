@@ -5,7 +5,7 @@
       <p>Cost:  <%= @spell.cost %></p>
       <p>Limit:  <%= @spell.limit %></p>
 
-      Description:  <%= @spell.description.html_safe %>
+      <p>Description:  <%= @spell.description.html_safe %></p>
 
       <% if @spell.area === 'Yes' %>
         <p>Area Effect</p>

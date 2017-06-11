@@ -1,18 +1,89 @@
-
 <%= render 'shared/errors', obj: @item %>
 
-<%= form_for @item do |f| %>
-  <p>
-    <%= f.label :name %><br />
-    <%= f.text_field :name %>
-  </p>
-  <p>
-    <%= f.label :description %><br />
-    <%= f.text_area :description %>
-  </p>
-  <p>
-    <%= f.submit %>
-  </p>
+<%= form_for(@item, html:{class: "form-horizontal", role: "form"}) do |f| %>
+  <div class='row'>
+    <div class='col-xs-12'>
+      <div class='form-group'>
+        <div class='control-label col-sm-2'>
+          <%= f.label :name %><br />
+        </div>
+        <div class='col-sm-8'>
+          <%= f.text_field :name %>
+        </div>
+      </div>
+      <div class='form-group'>
+        <div class='control-label col-sm-2'>
+          <%= f.label :encumberance %><br />
+        </div>
+        <div class='col-sm-8'>
+          <%= f.text_field :encumberance %>
+        </div>
+      </div>
+      <div class='form-group'>
+        <div class='control-label col-sm-2'>
+          <%= f.label :armor %><br />
+        </div>
+        <div class='col-sm-8'>
+          <%= f.text_field :armor %>
+        </div>
+      </div>
+      <div class='form-group'>
+        <div class='control-label col-sm-2'>
+          <%= f.label :melee_dice %><br />
+        </div>
+        <div class='col-sm-8'>
+          <%= f.text_field :melee_dice %>
+        </div>
+      </div>
+      <div class='form-group'>
+        <div class='control-label col-sm-2'>
+          <%= f.label :ranged_dice %><br />
+        </div>
+        <div class='col-sm-8'>
+          <%= f.text_field :ranged_dice %>
+        </div>
+      </div>    
+      <div class='form-group'>
+        <div class='control-label col-sm-2'>
+          <%= f.label :defense_dice %><br />
+        </div>
+        <div class='col-sm-8'>
+          <%= f.text_field :defense_dice %>
+        </div>
+      </div>
+      <div class='form-group'>
+        <div class='control-label col-sm-2'>
+          <%= f.label :manipulation_dice %><br />
+        </div>
+        <div class='col-sm-8'>
+          <%= f.text_field :manipulation_dice %>
+        </div>
+      </div>
+      <div class='form-group'>
+        <div class='control-label col-sm-2'>
+          <%= f.label :origin %><br />
+        </div>
+        <div class='col-sm-8'>
+          <%= f.text_field :origin %>
+        </div>
+      </div>
+      <div class='form-group'>
+        <div class='control-label col-sm-2'>
+          <%= f.label :count %><br />
+        </div>
+        <div class='col-sm-8'>
+          <%= f.text_field :count %>
+        </div>
+      </div>
+      <div class='form-group'>
+        <div class='control-label col-sm-2'>
+          <%= f.submit %>
+        </div>
+        <div class='col-sm-8'>
+        </dvi>
+      </div>
+    </div>
+  </div>
 <% end %>
 
 <%= link_to "Back to items", items_path %>
