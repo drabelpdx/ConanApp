@@ -16,6 +16,8 @@
     </div>
   </div>
   <div class="col-md-8">
+    <div class="well">
+
     <h1><%= @tile.name %></h1>
     <h4><%= @tile.description %></h4>
 
@@ -29,9 +31,11 @@
     <br /><br />
 
     <table class="tile_stats">
-
       <% if @tile.skills.any? %>
       <tr>
+        <th>
+          <h4>Skills:</h4>
+        </th>
         <% @tile.skills.each do |skill| %>
           <td class="thumbs">
             <%= link_to image_tag("skills/#{skill.name}.png"), skill_path(skill) %>
@@ -43,6 +47,7 @@
 
       <tr>
         <th>
+          <h4>Stats:</h4>
           <%= image_tag "stats/movement.png" %>
           <br />Movement
         </th>
@@ -95,6 +100,7 @@
       </tr>
     </table>
   </div>
+</div>
 </div>
 <div class="row">
   <br /><br />

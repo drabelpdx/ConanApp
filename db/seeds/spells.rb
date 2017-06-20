@@ -49,7 +49,7 @@
       description: "Choose a character up to 2 areas away from you. If the character does not have Blocking,
       the character cannot move during their next activation or during the Action phase in which the character is aggessive.
       Otherwise, the character loses Blocking during that turn." },
-    { name: "Lightening Storm", cost: '3', limit: '3', area: 'Yes', instant: 'No', origin: "Core Game", count: '1',
+    { name: "Lightning Storm", cost: '3', limit: '3', area: 'Yes', instant: 'No', origin: "Core Game", count: '1',
       description: "Attack an area in your line of sight; roll 2 Red dice.
       If the attack pwoer is greater than the defense power, the defender suffers damage equal to the difference." },
     { name: "Borne by the Wind", cost: '1', limit: '1', area: 'No', instant: 'No', origin: "Core Game", count: '1',

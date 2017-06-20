@@ -17,13 +17,13 @@
     <div>
       <h4>Heroes' Info: </h4>
       <p><%= @scenario.hero_goal %></p><br />
-      <p><%= @scenario.hero_intro %></p><br />
+      <p><%= @scenario.hero_intro.html_safe %></p><br />
 
     </div>
     <div>
       <h4>Overlord's: </h4>
       <p><%= @scenario.overlord_goal %></p><br />
-      <p><%= @scenario.overlord_intro %></p><br />
+      <p><%= @scenario.overlord_intro.html_safe %></p><br />
 
     </div>
     <div>

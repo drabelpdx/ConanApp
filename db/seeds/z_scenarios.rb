@@ -10,13 +10,25 @@
     { name: "In the Clutches of the Picts", description: "With the echoing war drums of the Pict tribes settled beyond the Black River and the increased frequency of incursions up to the Thunder River, many settlers flee the Conajohara territory for the safer lands of the Kingdom of Aquilonia.
       While scouting along the border to aid Valannus, the Commander of Fort Tuscelan, Conan bears witness to the massacre of a column of refugees from Velitrium. The Picts withdraw victoriously with a female prisoner who Conan recognizes as Yselda, the daughter of the city’s governor.
       The Cimmerian knows that Yselda’s life can now be measured in mere hours, as she will shortly be sacrificed on the altar of Jhebbal Sag, the Lord of Beasts. Back in Fort Tuscelan, Conan assembles a small group of experienced warriors to rescue the governor’s daughter and, at Valannus’ request, bring back the head of Zogar Sag.",
+
       hero_goal: "If one or more heroes have fled the village with Yselda and Zogar Sag’s head, Yselda is returned safely to her father; the heroes win the game.",
+
+      hero_intro: 'The game starts with the heroes\’ turn. The heroes start in the areas indicated by the setup diagram.
+      <br />Suggestions for 3 heroes:<br />
+      <a href="/heroes/2">Conan</a> (<a href="/items/1">Battle Axe</a>, <a href="/items/20">Shield</a>, <a href="/items/16">Leather Armor</a>),<br />
+      <a href="/heroes/4">Shevatas</a> (<a href="/items/15">Kris</a>, <a href="/items/14">Throwing Knives</a>),<br />
+      <a href="/heroes/3">Hadrathus</a> (<a href="/items/2">Dagger</a>, <a href="/spells/13">Teleportation</a>, <a href="/spells/7">Mitra\'s Halo</a>, <a href="/spells/15">Lightning Storm</a>). Hadrathus starts with Mitra\’s Halo cast.
+      <br /><br />Suggestions for 4 heroes:<br />
+      <a href="/heroes/1">Bêlit</a> (<a href="/items/12">Ornamental Lance</a>). Bêlit starts in the same area as any hero.
+      <br /><br />
+      After setup, each hero moves 5 gems from their Reserve zone to their Fatigue zone.',
+
       overlord_goal: "At the end of round 8, the Picts arrive in massive numbers to witness the sacrifice and the heroes can no longer escape; the Overlord wins the game.",
-      hero_intro: "The game starts with the heroes’ turn. The heroes start in the areas indicated by the setup diagram. Suggestions for 3 heroes: Conan (Battle Axe, Shield, Leather Armor), Shevatas (Kris, Throwing Knives), Hadrathus (Dagger, Teleportation, Mitra’s Halo, Lightning Storm). Hadrathus starts with Mitra’s Halo cast.
-      Suggestions for 4 heroes: Bêlit (Ornamental Lance). Bêlit starts in the same area as any hero. After setup, each hero moves 5 gems from their Reserve zone to their Fatigue zone.",
-      overlord_intro: "3 heroes: The Overlord starts with 10 gems in their Reserve zone and 3 gems in their Fatigue zone, and places the recovery token showing a recovery value of “5” in the Book of Skelos.
-      4 heroes: The Overlord starts with 11 gems in their Reserve zone and 4 in their Fatigue zone, and places the recovery token showing a recovery value of “7” in the Book of Skelos.
-      Reinforcement: 4 reinforcement points . Zogar Sag has no spell for this scenario.",
+
+      overlord_intro: '3 heroes: The Overlord starts with 10 gems in their Reserve zone and 3 gems in their Fatigue zone, and places the recovery token showing a recovery value of “5” in the Book of Skelos.<br />
+      4 heroes: The Overlord starts with 11 gems in their Reserve zone and 4 in their Fatigue zone, and places the recovery token showing a recovery value of “7” in the Book of Skelos.<br />
+      Reinforcement: 4 reinforcement points . Zogar Sag has no spell for this scenario.',
+
       ruleone: "Yselda: During setup, the Overlord secretly chooses one numbered token corresponding to a numbered hut in the setup diagram and sets it aside facedown. The first time a hero enters the chosen hut, the Overlord flips the token faceup and places Yselda’s model in the hut’s area.
       Yselda is unconscious, counts as an object with an encumbrance value of 6, and can be picked up by a hero by performing a simple manipulation. That hero takes the (Princess Token) and places it next to their character sheet. Yselda has one life point and no armor. She dies if she suffers any damage (such as an area attack).
       If she dies, the side which killed her immediately loses the game.",
