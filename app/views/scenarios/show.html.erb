@@ -13,29 +13,45 @@
       <p><%= @scenario.description %></p><br />
 
     </div>
-    <br />
     <div>
-      <h4>Heroes' Info: </h4>
+      <h3>Winning the Game:</h3>
+      <h4>Heroes</h4>
       <p><%= @scenario.hero_goal %></p><br />
+      <h4>Overlord</h4>
+      <p><%= @scenario.overlord_goal %></p><br />
+    </div>
+    <div>
+      <h3>Setup</h3>
+
+      <h4>Heroes</h4>
       <p><%= @scenario.hero_intro.html_safe %></p><br />
 
     </div>
     <div>
-      <h4>Overlord's: </h4>
-      <p><%= @scenario.overlord_goal %></p><br />
+      <h4>Overlord</h4>
       <p><%= @scenario.overlord_intro.html_safe %></p><br />
-
+      <h4>Tiles</h4>
+      <p>
+        <% @scenario.tile_ids.each do |id| %>
+          <%@id = id %>
+          <% @tile = Tile.find_by_id [@id] %>
+          <a href="/tiles/<%= id %>">
+            <%= image_tag "#{@tile.image}" %>
+          </a>
+        <% end %>
+      </p>
+      <br /><br />
     </div>
     <div>
       <h4>Special Rules: </h4>
-      <p><%= @scenario.ruleone %></p><br />
-      <p><%= @scenario.ruletwo %></p><br />
-      <p><%= @scenario.rulethree %></p><br />
-      <p><%= @scenario.rulefour %></p><br />
-      <p><%= @scenario.rulefive %></p><br />
-      <p><%= @scenario.rulesix %></p><br />
-      <p><%= @scenario.ruleseven %></p><br />
-      <p><%= @scenario.ruleeight %></p><br />
+      <p><% if@scenario.ruleone %><%= @scenario.ruleone.html_safe %><% end %></p><br />
+      <p><% if@scenario.ruletwo %><%= @scenario.ruletwo.html_safe %><% end %></p><br />
+      <p><% if@scenario.rulethree %><%= @scenario.rulethree.html_safe %><% end %></p><br />
+      <p><% if@scenario.rulefour %><%= @scenario.rulefour.html_safe %><% end %></p><br />
+      <p><% if@scenario.rulefive %><%= @scenario.rulefive.html_safe %><% end %></p><br />
+      <p><% if@scenario.rulesix %><%= @scenario.rulesix.html_safe %><% end %></p><br />
+      <p><% if@scenario.ruleseven %><%= @scenario.ruleseven.html_safe %><% end %></p><br />
+      <p><% if@scenario.ruleeight %><%= @scenario.ruleeight.html_safe %><% end %></p><br />
 
     </div>
   </div>

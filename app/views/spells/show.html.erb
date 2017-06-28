@@ -17,6 +17,14 @@
       <p>Count:  <%= @spell.count %></p>
     </div>
     <br />
+    <div class="col-md-7">
+      <h4><%= @spell.name %> appears in: </h4>
+      <% if @spell_scenarios.any? %>
+        <% @spell_scenarios.each do |scenario| %>
+          <p><%= link_to scenario.name, scenario_path(scenario) %></p>
+        <% end%>
+      <% end %>
+    </div>
   </div>
 </div>
 

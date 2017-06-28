@@ -34,6 +34,7 @@ class TilesController < ApplicationController
   end
 
   def show
+    @tile_scenarios = @tile.scenarios
   end
 
   def destroy

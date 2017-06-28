@@ -23,6 +23,14 @@
         <% if @map.rulefive %><li><%= @map.rulefive %></li><% end%>
         <% if @map.rulesix %><li><%= @map.rulesix %></li><% end%>
       </ul>
+      <div class="col-md-7">
+        <h4><%= @map.name %> appears in: </h4>
+        <% if @map_scenarios.any? %>
+          <% @map_scenarios.each do |scenario| %>
+            <p><%= link_to scenario.name, scenario_path(scenario) %></p>
+          <% end%>
+        <% end %>
+      </div>
   </div>
 </div>
 <div class="row">

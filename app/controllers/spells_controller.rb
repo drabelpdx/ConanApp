@@ -33,6 +33,7 @@ class SpellsController < ApplicationController
   end
 
   def show
+    @spell_scenarios = @spell.scenarios
   end
 
   def destroy

@@ -33,6 +33,7 @@ class ItemsController < ApplicationController
   end
 
   def show
+    @item_scenarios = @item.scenarios
   end
 
   def destroy

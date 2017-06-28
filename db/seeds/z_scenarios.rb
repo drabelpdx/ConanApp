@@ -13,11 +13,11 @@
 
       hero_goal: "If one or more heroes have fled the village with Yselda and Zogar Sag’s head, Yselda is returned safely to her father; the heroes win the game.",
 
-      hero_intro: 'The game starts with the heroes\’ turn. The heroes start in the areas indicated by the setup diagram.
+      hero_intro: 'The game starts with the heroes’ turn. The heroes start in the areas indicated by the setup diagram.
       <br />Suggestions for 3 heroes:<br />
       <a href="/heroes/2">Conan</a> (<a href="/items/1">Battle Axe</a>, <a href="/items/20">Shield</a>, <a href="/items/16">Leather Armor</a>),<br />
       <a href="/heroes/4">Shevatas</a> (<a href="/items/15">Kris</a>, <a href="/items/14">Throwing Knives</a>),<br />
-      <a href="/heroes/3">Hadrathus</a> (<a href="/items/2">Dagger</a>, <a href="/spells/13">Teleportation</a>, <a href="/spells/7">Mitra\'s Halo</a>, <a href="/spells/15">Lightning Storm</a>). Hadrathus starts with Mitra\’s Halo cast.
+      <a href="/heroes/3">Hadrathus</a> (<a href="/items/2">Dagger</a>, <a href="/spells/13">Teleportation</a>, <a href="/spells/7">Mitra\'s Halo</a>, <a href="/spells/15">Lightning Storm</a>). Hadrathus starts with Mitra’s Halo cast.
       <br /><br />Suggestions for 4 heroes:<br />
       <a href="/heroes/1">Bêlit</a> (<a href="/items/12">Ornamental Lance</a>). Bêlit starts in the same area as any hero.
       <br /><br />
@@ -27,7 +27,10 @@
 
       overlord_intro: '3 heroes: The Overlord starts with 10 gems in their Reserve zone and 3 gems in their Fatigue zone, and places the recovery token showing a recovery value of “5” in the Book of Skelos.<br />
       4 heroes: The Overlord starts with 11 gems in their Reserve zone and 4 in their Fatigue zone, and places the recovery token showing a recovery value of “7” in the Book of Skelos.<br />
-      Reinforcement: 4 reinforcement points . Zogar Sag has no spell for this scenario.',
+      <br /><br />
+      Reinforcement: 4 reinforcement points.
+      <br /><br />
+      Zogar Sag has no spell for this scenario.',
 
       ruleone: "Yselda: During setup, the Overlord secretly chooses one numbered token corresponding to a numbered hut in the setup diagram and sets it aside facedown. The first time a hero enters the chosen hut, the Overlord flips the token faceup and places Yselda’s model in the hut’s area.
       Yselda is unconscious, counts as an object with an encumbrance value of 6, and can be picked up by a hero by performing a simple manipulation. That hero takes the (Princess Token) and places it next to their character sheet. Yselda has one life point and no armor. She dies if she suffers any damage (such as an area attack).
@@ -37,8 +40,9 @@
       rulefour: "Hut Flaps: A character must spend 1 extra movement point to move across a border into or out of a hut. Moving across an opening token does not cost an extra movement point.",
       rulefive: "Wooden Huts: A character with Wall Wrecker can use it to move across the wall of one of the wooden huts.",
       rulesix: "Climbing: A character with Climb can move across boulders (Rock Token) as though they were a border by spending 2 extra movement points.",
-      ruleseven: "Chests: During setup, the Overlord places 1 chest in each hut area (8 total). The asset deck contains: 2 Explosive Orb, 2 Life Potion, 1 Chainmail, 1 Crossbow, 1 Buckler, 1 Bossonian Bow.",
-      origin: "Core Game", map_ids: [], hero_ids: [], tile_ids: [], spell_ids: [], item_ids: [] },
+      ruleseven: 'Chests: During setup, the Overlord places 1 chest in each hut area (8 total). The asset deck contains: 2 <a href="/items/5">Explosive Orb</a>, 2 <a href="/items/22">Life Potion</a>, 1 <a href="/items/17">Chainmail</a>, 1 <a href="/items/4">Crossbow</a>, 1 <a href="/items/19">Buckler</a>, 1 <a href="/items/9">Bossonian Bow</a>.',
+      origin: "Core Game", map_ids: [1], hero_ids: [1, 2, 3, 4], tile_ids: [43, 3, 47, 40, 19, 44], spell_ids: [7, 13, 15], item_ids: [1, 4, 5, 2, 12, 14, 15, 16, 17, 19, 20, 22] },
+
     { name: "Hunting the Tigress", description: "For months, the pirate ship Tigress has been scouring the waters off the coasts of Stygia and the Black Kingdoms and preying on the profitable trade of gold and ivory, much to the displeasure of King Ctesphon.
       As the Stygian fleet seems unable to put an end to the piracy, the king has promised a colossal sum to whomever can bring back Bêlit’s head.
       With Bêlit’s vessel anchored to resupply and a large portion of the crew on shore, Zaporavo, the Zingaran captain of The Vandal, takes the opportunity to attack in hopes of claiming the enormous reward and the glory that accompanies it.
@@ -55,11 +59,11 @@
       Glory to Set: Skuthus sacrifices himself to summon an Outer Dark Demon. The Overlord places the Outer Dark Demon model (6 life points) in Skuthus’ area, then Skuthus dies (This count toward completing the heroes’ objective). Then the Overlord replaces the Skuthus unit tile in the River with the Outer Dark Demon unit tile.
       Skuthus has Energy Drain and Set’s Halo. He starts with Set’s Halo cast.",
       ruleone: "Leap: If a hero, Zaporavo, or Skuthus fails to leap, the character remains in its area. If a minion or ally fails to leap, that character falls in the water and is eaten by sharks; the character dies.",
-      ruletwo: "Chests: During setup, the Overlord places 4 chests on the board as indicated by the setup diagram. The asset deck contains: 2 Life Potion, 1 Explosive Orb, 1 Empty chest.",
+      ruletwo: 'Chests: During setup, the Overlord places 4 chests on the board as indicated by the setup diagram. The asset deck contains: 2  <a href="/items/22">Life Potion</a>, 1  <a href="/items/5">Explosive Orb</a>, 1  <a href="/items/23">Empty chest</a>.',
       rulethree: "",
       rulefour: "",
       rulefive: "",
       rulesix: "",
       origin: "Core Game",
-      map_ids: [], hero_ids: [], tile_ids: [], spell_ids: [], item_ids: []  }
+      map_ids: [], hero_ids: [], tile_ids: [], spell_ids: [], item_ids: [] }
   ])

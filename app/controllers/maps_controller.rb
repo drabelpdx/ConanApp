@@ -32,6 +32,7 @@ class MapsController < ApplicationController
   end
 
   def show
+    @map_scenarios = @map.scenarios
   end
 
   def destroy

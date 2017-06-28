@@ -99,6 +99,14 @@
         <% end %>
       </tr>
     </table>
+    <div class="col-md-8">
+      <h4><%= @tile.name %> appears in: </h4>
+      <% if @tile_scenarios.any? %>
+        <% @tile_scenarios.each do |scenario| %>
+          <p><%= link_to scenario.name, scenario_path(scenario) %></p>
+        <% end%>
+      <% end %>
+    </div>
   </div>
 </div>
 </div>

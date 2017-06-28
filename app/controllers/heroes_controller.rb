@@ -35,6 +35,7 @@ class HeroesController < ApplicationController
   end
 
   def show
+    @hero_scenarios = @hero.scenarios
   end
 
   def destroy
