@@ -6,9 +6,9 @@ class CreateScenarios < ActiveRecord::Migration
       t.text :map_image
       t.text :pdf_link
       t.text :hero_goal
+      t.text :hero_setup
       t.text :overlord_goal
-      t.text :hero_intro
-      t.text :overlord_intro
+      t.text :overlord_setup
       t.text :ruleone_title
       t.text :ruleone_text
       t.text :ruletwo_title

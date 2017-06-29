@@ -1,37 +1,30 @@
 <div class="row">
   <div class="col-md-6">
     <div class="maps well" align="center">
-      <%= image_tag "#{@scenario.map_image}" %><br /><br />
-      <%= link_to "Grab the PDF here", "#{@scenario.pdf_link}", :target => "_blank" %><br />
-      <%= link_to "Back to scenarios", scenarios_path %>
+      <div>
+        <h2><%= @scenario.name %></h2>
+        <h4><%= link_to "Grab the PDF from Monolith", "#{@scenario.pdf_link}", :target => "_blank" %></h4>
+        <%= image_tag "#{@scenario.map_image}" %><br /><br />
+        <% @scenario.map_ids.each do |id| %>
+          <% @map = Map.find_by_id [id] %>
+          <h4>Use <%= link_to @map.name, map_path(@map) %> map</h4>
+        <% end %>
+        <%= link_to "Back to scenarios", scenarios_path %>
+      </div>
     </div>
   </div>
   <div class="col-md-6">
     <div>
-      <h1><%= @scenario.name %></h1>
-      <p><%= @scenario.description %></p><br />
+      <h3 align="center">Intro</h3>
+      <p><%= @scenario.description %></p>
+    </div><br />
+    <div>
+      <h3 align="center" >Winning the Game</h3>
+      <h4>Heroes</h4>
+      <%= @scenario.hero_goal %>
+      <h4>Overlord</h4>
+      <%= @scenario.overlord_goal %>
     </div>
-  </div>
-</div>
-<div class="row">
-  <div class="col-md-12">
-    <h3 align="center" >Winning the Game</h3>
-  </div>
-</div>
-<div class="row">
-  <div class="col-md-2">
-    <h4>Heroes</h4>
-  </div>
-  <div class="col-md-10">
-    <%= @scenario.hero_goal %>
-  </div>
-</div>
-<div class="row">
-  <div class="col-md-2">
-    <h4>Overlord</h4>
-  </div>
-  <div class="col-md-10">
-    <%= @scenario.overlord_goal %>
   </div>
 </div>
 <div class="row">
@@ -44,96 +37,94 @@
     <h4>Heroes</h4>
   </div>
   <div class="col-md-10">
-    <%= @scenario.hero_intro.html_safe %>
+    <%= @scenario.hero_setup.html_safe %>
   </div>
-</div>
+</div><br />
 <div class="row">
   <div class="col-md-2">
     <h4>Overlord</h4>
   </div>
   <div class="col-md-10">
-    <%= @scenario.overlord_intro.html_safe %>
+    <%= @scenario.overlord_setup.html_safe %>
   </div>
-</div>
+</div><br />
 <div class="row">
-  <div class="col-md-12">
-    <h3 align="center" >Tiles</h3>
+  <div class="col-md-2">
+    <h4>The River</h4>
   </div>
-</div>
-<div class="row">
-  <div class="s_tiles" class="col-md-12">
+  <div class="s_tiles" class="col-md-10">
     <% @scenario.tile_ids.each do |id| %>
       <% @tile = Tile.find_by_id [id] %>
       <td><%= link_to image_tag("#{@tile.image}"), tile_path(id) %></td>
     <% end %>
   </div>
-</div>
+</div><br />
 <div class="row">
   <div class="col-md-12">
     <h3 align="center" >Special Rules</h3>
   </div>
 </div>
 <div class="row">
-  <div class="col-md-3">
-    <h4><% if@scenario.ruleone_title %><%= @scenario.ruleone_title.html_safe %><% end %></h4>
+  <div align="right" class="col-md-2">
+    <strong><% if@scenario.ruleone_title %><%= @scenario.ruleone_title.html_safe %><% end %></strong>
   </div>
-  <div class="col-md-9">
+  <div class="col-md-10">
     <p><% if@scenario.ruleone_text %><%= @scenario.ruleone_text.html_safe %><% end %></p>
   </div>
 </div>
 <div class="row">
-  <div class="col-md-3">
-    <h4><% if@scenario.ruletwo_title %><%= @scenario.ruletwo_title.html_safe %><% end %></h4>
+  <div align="right" class="col-md-2">
+    <strong><% if@scenario.ruletwo_title %><%= @scenario.ruletwo_title.html_safe %><% end %></strong>
   </div>
-  <div class="col-md-9">
+  <div class="col-md-10">
     <p><% if@scenario.ruletwo_text %><%= @scenario.ruletwo_text.html_safe %><% end %></p>
   </div>
 </div>
 <div class="row">
-  <div class="col-md-3">
-    <h4><% if@scenario.rulethree_title %><%= @scenario.rulethree_title.html_safe %><% end %></h4>
+  <div align="right" class="col-md-2">
+    <strong><% if@scenario.rulethree_title %><%= @scenario.rulethree_title.html_safe %><% end %></strong>
   </div>
-  <div class="col-md-9">
+  <div class="col-md-10">
     <p><% if@scenario.rulethree_text %><%= @scenario.rulethree_text.html_safe %><% end %></p>
   </div>
 </div>
 <div class="row">
-  <div class="col-md-3">
-    <h4><% if@scenario.rulefour_title %><%= @scenario.rulefour_title.html_safe %><% end %></h4>
+  <div align="right" class="col-md-2">
+    <strong><% if@scenario.rulefour_title %><%= @scenario.rulefour_title.html_safe %><% end %></strong>
   </div>
-  <div class="col-md-9">
+  <div class="col-md-10">
     <p><% if@scenario.rulefour_text %><%= @scenario.rulefour_text.html_safe %><% end %></p>
   </div>
 </div>
 <div class="row">
-  <div class="col-md-3">
-    <h4><% if@scenario.rulefive_title %><%= @scenario.rulefive_title.html_safe %><% end %></h4>
+  <div align="right" class="col-md-2">
+    <strong><% if@scenario.rulefive_title %><%= @scenario.rulefive_title.html_safe %><% end %></strong>
   </div>
-  <div class="col-md-9">
+  <div class="col-md-10">
     <p><% if@scenario.rulefive_text %><%= @scenario.rulefive_text.html_safe %><% end %></p>
   </div>
 </div>
 <div class="row">
-  <div class="col-md-3">
-    <h4><% if@scenario.rulesix_title %><%= @scenario.rulesix_title.html_safe %><% end %></h4>
+  <div align="right" class="col-md-2">
+    <strong><% if@scenario.rulesix_title %><%= @scenario.rulesix_title.html_safe %><% end %></strong>
   </div>
-  <div class="col-md-9">
+  <div class="col-md-10">
     <p><% if@scenario.rulesix_text %><%= @scenario.rulesix_text.html_safe %><% end %></p>
   </div>
 </div>
 <div class="row">
-  <div class="col-md-3">
-    <h4><% if@scenario.ruleseven_title %><%= @scenario.ruleseven_title.html_safe %><% end %></h4>
+  <div align="right" class="col-md-2">
+    <strong><% if@scenario.ruleseven_title %><%= @scenario.ruleseven_title.html_safe %><% end %></strong>
   </div>
-  <div class="col-md-9">
+  <div class="col-md-10">
     <p><% if@scenario.ruleseven_text %><%= @scenario.ruleseven_text.html_safe %><% end %></p>
   </div>
 </div>
 <div class="row">
-  <div class="col-md-3">
-    <h4><% if@scenario.ruleeight_title %><%= @scenario.ruleeight_title.html_safe %><% end %></h4>
+  <div align="right" class="col-md-2">
+    <strong><% if@scenario.ruleeight_title %><%= @scenario.ruleeight_title.html_safe %><% end %></strong>
   </div>
-  <div class="col-md-9">
+  <div class="col-md-10">
     <p><% if@scenario.ruleeight_text %><%= @scenario.ruleeight_text.html_safe %><% end %></p>
   </div>
 </div>

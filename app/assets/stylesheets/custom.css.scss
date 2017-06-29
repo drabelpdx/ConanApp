@@ -17,6 +17,13 @@ $navbar-default-bg: #08088A;
   text-decoration: none;
 }
 
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: yellow;
+}
 .center {
   text-align: center;
 }
@@ -89,6 +96,7 @@ $navbar-default-bg: #08088A;
 .s_tiles img {
   width: 100px;
   height: auto;
+  margin-left: 10px;
 }
 
 .hero_stats th, td {
@@ -114,7 +122,6 @@ $navbar-default-bg: #08088A;
   height: 50px;
   width: auto;
 }
-
 
 .user-title {
   font-weight: bold;
