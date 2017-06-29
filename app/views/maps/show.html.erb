@@ -2,14 +2,15 @@
   <div class="col-md-5">
     <div class="maps well" align="center">
       <%= image_tag "#{@map.image}" %><br /><br />
-    </div>
-    <div align="center">
-      <% if @map.flip_side != 'none' %>
-        <h4>Shares a board with <%= @map.flip_side %>
-      <% end %>
-    </div><br />
-    <div align="center">
-      <%= link_to "Back to maps", maps_path %>
+      <div align="center">
+        <% if @map.flip_side != 'none' %>
+          <h4>Shares a board with
+            <% map = Map.find_by_name [@map.flip_side] %>
+            <%= link_to @map.flip_side, map_path(map) %>
+          </h4>
+        <% end %>
+        <br /><%= link_to "Back to maps", maps_path %>
+      </div>
     </div>
   </div>
   <div class="col-md-7">

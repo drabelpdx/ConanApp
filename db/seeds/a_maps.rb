@@ -45,10 +45,12 @@
       ruleone: "1 Water areas: A character must spend 1 extra movement point to move out of a water area. A character can move from a water area to an adjacent wood area by spending 2 extra movement points.",
       ruletwo: "2 Leap: Leaping over the water area around the altar in a single move- ment is not possible. The character must stop in the altar area before performing a second leap.",
       rulethree: "3 Wooden Huts: A character with Wall Wrecker can use it to move across the wall of one of the wooden huts." },
-    { name: 'The Frozen Battlefield', description: "The Frozen Battleground", flip_side: 'Tundra Forest',
+
+    { name: 'The Frozen Battlefield', description: "The Frozen Battleground", flip_side: 'The Tundra Forest',
       origin: 'Nordheim Expansion', image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/The+Frozen+Battlefield.png' },
-    { name: 'The Tundra Forest', description: "The Tundra Forest", flip_side: 'Frozen Battleground',
+    { name: 'The Tundra Forest', description: "The Tundra Forest", flip_side: 'The Frozen Battlefield',
       origin: 'Nordheim Expansion', image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/The+Tundra+Forest.png' },
+
     { name: 'Stygia_1', description: "Water Front", flip_side: 'Stygia_2', origin: 'Stygia Expansion',
       image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/Stygia_1.png' },
     { name: 'Stygia_2', description: "Catecombs", flip_side: 'Stygia_1', origin: 'Stygia Expansion',

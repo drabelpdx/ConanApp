@@ -10,6 +10,8 @@
     { name: "In the Clutches of the Picts", description: "With the echoing war drums of the Pict tribes settled beyond the Black River and the increased frequency of incursions up to the Thunder River, many settlers flee the Conajohara territory for the safer lands of the Kingdom of Aquilonia.
       While scouting along the border to aid Valannus, the Commander of Fort Tuscelan, Conan bears witness to the massacre of a column of refugees from Velitrium. The Picts withdraw victoriously with a female prisoner who Conan recognizes as Yselda, the daughter of the city’s governor.
       The Cimmerian knows that Yselda’s life can now be measured in mere hours, as she will shortly be sacrificed on the altar of Jhebbal Sag, the Lord of Beasts. Back in Fort Tuscelan, Conan assembles a small group of experienced warriors to rescue the governor’s daughter and, at Valannus’ request, bring back the head of Zogar Sag.",
+      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/In+the+Clutches+map.png',
+      pdf_link: 'http://www.monolithedition.com/conan-en/dans-les-griffes-des-pictes/',
 
       hero_goal: "If one or more heroes have fled the village with Yselda and Zogar Sag’s head, Yselda is returned safely to her father; the heroes win the game.",
 
@@ -32,16 +34,30 @@
       <br /><br />
       Zogar Sag has no spell for this scenario.',
 
-      ruleone: "Yselda: During setup, the Overlord secretly chooses one numbered token corresponding to a numbered hut in the setup diagram and sets it aside facedown. The first time a hero enters the chosen hut, the Overlord flips the token faceup and places Yselda’s model in the hut’s area.
+      ruleone_title: "Yselda:",
+      ruleone_text: "During setup, the Overlord secretly chooses one numbered token corresponding to a numbered hut in the setup diagram and sets it aside facedown. The first time a hero enters the chosen hut, the Overlord flips the token faceup and places Yselda’s model in the hut’s area.
       Yselda is unconscious, counts as an object with an encumbrance value of 6, and can be picked up by a hero by performing a simple manipulation. That hero takes the (Princess Token) and places it next to their character sheet. Yselda has one life point and no armor. She dies if she suffers any damage (such as an area attack).
       If she dies, the side which killed her immediately loses the game.",
-      ruletwo: "Zogar Sag: He cannot flee the village. When Zogar Sag dies, place his life point marker (Zogar Sag Token) in his area to represent his head. A hero may pick the head up by performing a simple manipulation. That hero places Zogar Sag’s life point marker next to its character sheet. Zogar Sag’s head has an encumbrance value of 2.",
-      rulethree: "Fleeing the Village: A hero can flee the village from an area at the edge of the board by spending movement points as though the hero were moving across a border and removing the hero’s model from the board. Once a hero has fled, the hero’s model cannot be returned to the board.",
-      rulefour: "Hut Flaps: A character must spend 1 extra movement point to move across a border into or out of a hut. Moving across an opening token does not cost an extra movement point.",
-      rulefive: "Wooden Huts: A character with Wall Wrecker can use it to move across the wall of one of the wooden huts.",
-      rulesix: "Climbing: A character with Climb can move across boulders (Rock Token) as though they were a border by spending 2 extra movement points.",
-      ruleseven: 'Chests: During setup, the Overlord places 1 chest in each hut area (8 total). The asset deck contains: 2 <a href="/items/5">Explosive Orb</a>, 2 <a href="/items/22">Life Potion</a>, 1 <a href="/items/17">Chainmail</a>, 1 <a href="/items/4">Crossbow</a>, 1 <a href="/items/19">Buckler</a>, 1 <a href="/items/9">Bossonian Bow</a>.',
-      origin: "Core Game", map_ids: [1], hero_ids: [1, 2, 3, 4], tile_ids: [43, 3, 47, 40, 19, 44], spell_ids: [7, 13, 15], item_ids: [1, 4, 5, 2, 12, 14, 15, 16, 17, 19, 20, 22] },
+
+      ruletwo_title: "Zogar Sag:",
+      ruletwo_text: "He cannot flee the village. When Zogar Sag dies, place his life point marker (Zogar Sag Token) in his area to represent his head. A hero may pick the head up by performing a simple manipulation. That hero places Zogar Sag’s life point marker next to its character sheet. Zogar Sag’s head has an encumbrance value of 2.",
+
+      rulethree_title: "Fleeing the Village:",
+      rulethree_text: "A hero can flee the village from an area at the edge of the board by spending movement points as though the hero were moving across a border and removing the hero’s model from the board. Once a hero has fled, the hero’s model cannot be returned to the board.",
+
+      rulefour_title: "Hut Flaps:",
+      rulefour_text: "A character must spend 1 extra movement point to move across a border into or out of a hut. Moving across an opening token does not cost an extra movement point.",
+
+      rulefive_title: "Wooden Huts:",
+      rulefive_text: "A character with Wall Wrecker can use it to move across the wall of one of the wooden huts.",
+
+      rulesix_title: "Climbing:",
+      rulesix_text: "A character with Climb can move across boulders (Rock Token) as though they were a border by spending 2 extra movement points.",
+
+      ruleseven_title: "Chests:",
+      ruleseven_text: 'During setup, the Overlord places 1 chest in each hut area (8 total). The asset deck contains: 2 <a href="/items/5">Explosive Orb</a>, 2 <a href="/items/22">Life Potion</a>, 1 <a href="/items/17">Chainmail</a>, 1 <a href="/items/4">Crossbow</a>, 1 <a href="/items/19">Buckler</a>, 1 <a href="/items/9">Bossonian Bow</a>.',
+
+      origin: "Core Game", map_ids: [1], hero_ids: [1, 2, 3, 4], tile_ids: [44, 4, 48, 41, 43, 20, 45, 1], spell_ids: [7, 13, 15], item_ids: [1, 2, 4, 5, 9, 12, 14, 15, 16, 17, 19, 20, 22] },
 
     { name: "Hunting the Tigress", description: "For months, the pirate ship Tigress has been scouring the waters off the coasts of Stygia and the Black Kingdoms and preying on the profitable trade of gold and ivory, much to the displeasure of King Ctesphon.
       As the Stygian fleet seems unable to put an end to the piracy, the king has promised a colossal sum to whomever can bring back Bêlit’s head.
@@ -58,12 +74,10 @@
       Fire at will: Each unit may perform a Ranged Attack if able.
       Glory to Set: Skuthus sacrifices himself to summon an Outer Dark Demon. The Overlord places the Outer Dark Demon model (6 life points) in Skuthus’ area, then Skuthus dies (This count toward completing the heroes’ objective). Then the Overlord replaces the Skuthus unit tile in the River with the Outer Dark Demon unit tile.
       Skuthus has Energy Drain and Set’s Halo. He starts with Set’s Halo cast.",
-      ruleone: "Leap: If a hero, Zaporavo, or Skuthus fails to leap, the character remains in its area. If a minion or ally fails to leap, that character falls in the water and is eaten by sharks; the character dies.",
-      ruletwo: 'Chests: During setup, the Overlord places 4 chests on the board as indicated by the setup diagram. The asset deck contains: 2  <a href="/items/22">Life Potion</a>, 1  <a href="/items/5">Explosive Orb</a>, 1  <a href="/items/23">Empty chest</a>.',
-      rulethree: "",
-      rulefour: "",
-      rulefive: "",
-      rulesix: "",
+      ruleone_title: "Leap:",
+      ruleone_text: "If a hero, Zaporavo, or Skuthus fails to leap, the character remains in its area. If a minion or ally fails to leap, that character falls in the water and is eaten by sharks; the character dies.",
+      ruletwo_title: "Chests:",
+      ruletwo_text: 'During setup, the Overlord places 4 chests on the board as indicated by the setup diagram. The asset deck contains: 2  <a href="/items/22">Life Potion</a>, 1  <a href="/items/5">Explosive Orb</a>, 1  <a href="/items/23">Empty chest</a>.',
       origin: "Core Game",
       map_ids: [], hero_ids: [], tile_ids: [], spell_ids: [], item_ids: [] }
   ])

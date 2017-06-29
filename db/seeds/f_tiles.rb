@@ -7,6 +7,11 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 tiles = Tile.create([
+  { name: 'Event', description: '',
+    role: 'Event', move: '–', armor: '–',
+    melee_dice: '–', ranged_dice: '–',
+    origin: 'Core Game', count: '3', skill_ids: [],
+    image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png' },
   { name: 'Captain', description: '',
     role: 'Leader', move: '3', armor: '3',
     melee_dice: 'Red, Orange', ranged_dice: '–',
@@ -504,7 +509,7 @@ tiles = Tile.create([
     image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Slasher.png' },
   { name: "Princess", description: '',
     role: 'Ally', move: '2', armor: '0',
-    melee_dice: 'Red, Orange', ranged_dice: '–',
+    melee_dice: '–', ranged_dice: '–',
     origin: 'Core Game', count: '1', skill_ids: [],
     image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Princess.png' },
   { name: "Atali", description: "The Frost-Giant's Daughter",

@@ -32,62 +32,65 @@
 
     <table class="tile_stats">
       <% if @tile.skills.any? %>
-      <tr>
-        <th>
-          <h4>Skills:</h4>
-        </th>
-        <% @tile.skills.each do |skill| %>
-          <td class="thumbs">
-            <%= link_to image_tag("skills/#{skill.name}.png"), skill_path(skill) %>
-            <br /><%= link_to skill.name, skill_path(skill) %>
-          </td>
-        <% end%>
-      </tr>
+        <tr>
+          <th>
+            <h4>Skills:</h4>
+          </th>
+          <% @tile.skills.each do |skill| %>
+            <td class="thumbs">
+              <%= link_to image_tag("skills/#{skill.name}.png"), skill_path(skill) %>
+              <br /><%= link_to skill.name, skill_path(skill) %>
+            </td>
+          <% end%>
+        </tr>
       <% end %>
-
-      <tr>
-        <th>
-          <h4>Stats:</h4>
-          <%= image_tag "stats/movement.png" %>
-          <br />Movement
-        </th>
-        <th>
-          <%= @tile.move %>
-        </th>
-      </tr>
-      <tr>
-        <th>
-          <%= image_tag "stats/armor.png" %>
-          <br />Armor
-        </th>
-        <th>
-          <%= @tile.armor %>
-        </th>
-      </tr>
+      <% if @tile.move != '–' %>
+        <tr>
+          <th>
+            <h4>Stats:</h4>
+            <%= image_tag "stats/movement.png" %>
+            <br />Movement
+          </th>
+          <th>
+            <%= @tile.move %>
+          </th>
+        </tr>
+      <% end %>
+      <% if @tile.armor != '–' %>
+        <tr>
+          <th>
+            <%= image_tag "stats/armor.png" %>
+            <br />Armor
+          </th>
+          <th>
+            <%= @tile.armor %>
+          </th>
+        </tr>
+      <% end %>
       <% if @tile.melee_dice != '–' %>
-      <tr>
-        <th>
-          <%= image_tag "stats/melee.png" %>
-          <br />Melee
-        </th>
-        <td>
-          <%= image_tag "dice/#{@tile.melee_dice}.png" %><br />
-          <%= @tile.melee_dice %>
-        </td>
-
-        <% end %>
-        <% if @tile.ranged_dice != '–' %>
-        <th>
-          <%= image_tag "stats/range.png" %>
-          <br />Ranged
-        </th>
-        <td>
-          <%= image_tag "dice/#{@tile.ranged_dice}.png" %><br />
-          <%= @tile.ranged_dice %>
-        </td>
-
-        <% end %>
-      </tr>
+        <tr>
+          <th>
+            <%= image_tag "stats/melee.png" %>
+            <br />Melee
+          </th>
+          <td>
+            <%= image_tag "dice/#{@tile.melee_dice}.png" %><br />
+            <%= @tile.melee_dice %>
+          </td>
+        </tr>
+      <% end %>
+      <% if @tile.ranged_dice != '–' %>
+        <tr>
+          <th>
+            <%= image_tag "stats/range.png" %>
+            <br />Ranged
+          </th>
+          <td>
+            <%= image_tag "dice/#{@tile.ranged_dice}.png" %><br />
+            <%= @tile.ranged_dice %>
+          </td>
+        </tr>
+      <% end %>
       <tr>
         <% if @tile.cost %>
           <th><%= image_tag "stats/reinforcement.png" %>
