@@ -2,25 +2,20 @@
   <div class="col-md-4">
     <div class="well">
       <div class="skills">
+        <h2><%= @hero.name %></h2>
+        <h4><%= @hero.description %></h4>
         <%= image_tag "heroes/#{@hero.name}.png" %><br /><br />
       </div>
-      <p><%= @hero.quote %></p>
-      <p><%= @hero.cite %></p>
-    </div>
-    <div align="center">
-      <%= link_to "Back to heroes", heroes_path %>
+        <p><%= @hero.quote %></p>
+        <p><%= @hero.cite %></p>
+      <div align="center">
+        <br /><br /><%= link_to "Back to heroes", heroes_path %>
+      </div>
     </div>
   </div>
   <div class="col-md-8">
-    <h1><%= @hero.name %></h1>
-    <p><%= @hero.description %></p>
-    <% if @hero.stories.any? %>
-      <p>Appears in:
-        <% @hero.stories.each do |story| %>
-          <%= link_to story.name, story_path(story) %>
-        <% end%>
-      </p>
-    <% end %>
+
+
     <h4>Player Sheet Stats: </h4>
     <table class="hero_stats">
       <tr>
@@ -103,15 +98,24 @@
 
 
     </table>
-    <div class="col-md-8">
-      <h4><%= @hero.name %> appears in: </h4>
+    <div class="col-md-4">
+      <br /><br />
       <% if @hero_scenarios.any? %>
+        <h4>Scenarios:</h4>
         <% @hero_scenarios.each do |scenario| %>
           <p><%= link_to scenario.name, scenario_path(scenario) %></p>
         <% end%>
       <% end %>
     </div>
-
+    <div class="col-md-4">
+      <br /><br />
+      <% if @hero.stories.any? %>
+        <h4>Stories:</h4>
+        <% @hero.stories.each do |story| %>
+          <p><%= link_to story.name, story_path(story) %></p>
+        <% end%>
+      <% end %>
+    </div>
   </div>
 </div>
 <div class="row">

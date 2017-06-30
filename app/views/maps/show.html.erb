@@ -1,37 +1,31 @@
 <div class="row">
-  <div class="col-md-5">
-    <div class="maps well" align="center">
-      <%= image_tag "#{@map.image}" %><br /><br />
-      <div align="center">
-        <% if @map.flip_side != 'none' %>
-          <h4>Shares a board with
-            <% map = Map.find_by_name [@map.flip_side] %>
-            <%= link_to @map.flip_side, map_path(map) %>
-          </h4>
-        <% end %>
-        <br /><%= link_to "Back to maps", maps_path %>
-      </div>
-    </div>
+  <div class="col-md-5 maps well" align="center">
+    <h2><%= @map.name %></h2>
+    <%= image_tag "#{@map.image}" %><br /><br />
+      <% if @map.flip_side != 'none' %>
+        <h4>Shares a board with
+          <% map = Map.find_by_name [@map.flip_side] %>
+          <%= link_to @map.flip_side, map_path(map) %>
+        </h4>
+      <% end %>
+      <%= link_to "Back to maps", maps_path %>
   </div>
   <div class="col-md-7">
-    <h1><%= @map.name %></h1>
-    <h4>Special Rules:</h4>
-      <ul>
-        <% if @map.ruleone %><li><%= @map.ruleone %></li><% end%>
-        <% if @map.ruletwo %><li><%= @map.ruletwo %></li><% end%>
-        <% if @map.rulethree %><li><%= @map.rulethree %></li><% end%>
-        <% if @map.rulefour %><li><%= @map.rulefour %></li><% end%>
-        <% if @map.rulefive %><li><%= @map.rulefive %></li><% end%>
-        <% if @map.rulesix %><li><%= @map.rulesix %></li><% end%>
-      </ul>
-      <div class="col-md-7">
-        <h4>Used with these Scenarios: </h4>
-        <% if @map_scenarios.any? %>
-          <% @map_scenarios.each do |scenario| %>
-            <p><%= link_to scenario.name, scenario_path(scenario) %></p>
-          <% end%>
-        <% end %>
-      </div>
+    <h3>Special Rules:</h3>
+      <ol>
+        <% if @map.ruleone %><li><%= @map.ruleone.html_safe %></li><% end%>
+        <% if @map.ruletwo %><li><%= @map.ruletwo.html_safe %></li><% end%>
+        <% if @map.rulethree %><li><%= @map.rulethree.html_safe %></li><% end%>
+        <% if @map.rulefour %><li><%= @map.rulefour.html_safe %></li><% end%>
+        <% if @map.rulefive %><li><%= @map.rulefive.html_safe %></li><% end%>
+        <% if @map.rulesix %><li><%= @map.rulesix.html_safe %></li><% end%>
+      </ol><br /><br />
+    <h4>Used in these Scenarios: </h4>
+      <% if @map_scenarios.any? %>
+        <% @map_scenarios.each do |scenario| %>
+          <p><%= link_to scenario.name, scenario_path(scenario) %></p>
+        <% end%>
+      <% end %>
   </div>
 </div>
 <div class="row">

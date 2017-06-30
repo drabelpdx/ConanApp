@@ -1,35 +1,25 @@
 <div class="row">
   <div class="col-md-4">
     <div class="well">
-      <div align="center" class="tiles">
+        <h2><%= @tile.name %></h2>
+        <h4><%= @tile.description %></h4>
+        <div align="center" class="tiles">
+
+        <%= image_tag "#{@tile.image}" %><br /><br />
+
         <h4>
           <%= @tile.count %>  <%= @tile.role %>
           <%= pluralize_no_count(@tile.count, 'tile') %>
         </h4>
-        <%= image_tag "#{@tile.image}" %><br /><br />
-        from  <%= @tile.origin %>
 
+        from  <%= @tile.origin %>
+        <br /><br /><%= link_to "Back to tiles", tiles_path %>
       </div>
     </div>
-    <div align="center">
-      <%= link_to "Back to tiles", tiles_path %>
-    </div>
+
   </div>
   <div class="col-md-8">
-    <div class="well">
-
-    <h1><%= @tile.name %></h1>
-    <h4><%= @tile.description %></h4>
-
-    <% if @tile.stories.any? %>
-      <p>Appears in:
-        <% @tile.stories.each do |story| %>
-          <%= link_to story.name, story_path(story) %>
-        <% end%>
-      </p>
-    <% end %>
-    <br /><br />
-
+    <h4>Tile Stats:</h4>
     <table class="tile_stats">
       <% if @tile.skills.any? %>
         <tr>
@@ -52,7 +42,7 @@
             <br />Movement
           </th>
           <th>
-            <%= @tile.move %>
+            <h3><%= @tile.move %></h3>
           </th>
         </tr>
       <% end %>
@@ -63,7 +53,7 @@
             <br />Armor
           </th>
           <th>
-            <%= @tile.armor %>
+            <h3><%= @tile.armor %></h3>
           </th>
         </tr>
       <% end %>
@@ -102,16 +92,25 @@
         <% end %>
       </tr>
     </table>
-    <div class="col-md-8">
-      <h4><%= @tile.name %> appears in: </h4>
+    <div class="col-md-4">
+      <br /><br />
       <% if @tile_scenarios.any? %>
+        <h4>Scenarios:</h4>
         <% @tile_scenarios.each do |scenario| %>
           <p><%= link_to scenario.name, scenario_path(scenario) %></p>
         <% end%>
       <% end %>
     </div>
+    <div class="col-md-4">
+      <br /><br />
+      <% if @tile.stories.any? %>
+        <h4>Stories:</h4>
+        <% @tile.stories.each do |story| %>
+          <p><%= link_to story.name, story_path(story) %></p>
+        <% end%>
+      <% end %>
+    </div>
   </div>
-</div>
 </div>
 <div class="row">
   <br /><br />
