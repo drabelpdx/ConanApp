@@ -1,5 +1,5 @@
 <div class="row">
-  <div class="col-md-5 maps well" align="center">
+  <div class="col-md-7 maps well" align="center">
     <h2><%= @map.name %></h2>
     <%= image_tag "#{@map.image}" %><br /><br />
       <% if @map.flip_side != 'none' %>
@@ -10,7 +10,7 @@
       <% end %>
       <%= link_to "Back to maps", maps_path %>
   </div>
-  <div class="col-md-7">
+  <div class="col-md-5">
     <h3>Special Rules:</h3>
       <ol>
         <% if @map.ruleone %><li><%= @map.ruleone.html_safe %></li><% end%>

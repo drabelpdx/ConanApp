@@ -71,7 +71,7 @@ $navbar-default-bg: #08088A;
 }
 
 .maps img {
-  width: 400px;
+  width: 90%;
   height: auto;
   margin-top: 20px;
 }
@@ -87,14 +87,26 @@ $navbar-default-bg: #08088A;
   margin-top: 20px;
 }
 
-.tiles img {
-  width: 200px;
+.heroes img {
+  width: 90%;
   height: auto;
   margin-top: 20px;
 }
 
-.s_tiles img {
+.scenarios img {
+  width: 90%;
+  height: auto;
+  margin-top: 20px;
+}
+
+.tiles img {
   width: 100px;
+  height: auto;
+  margin-top: 20px;
+}
+
+.sm_tiles img {
+  width: 10%;
   height: auto;
   margin-left: 10px;
 }

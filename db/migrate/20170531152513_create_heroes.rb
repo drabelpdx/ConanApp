@@ -5,6 +5,7 @@ class CreateHeroes < ActiveRecord::Migration
       t.string :description
       t.text :quote
       t.string :cite
+      t.string :hero_image
       t.string :life
       t.string :encumberance
       t.string :melee_dice

@@ -1,7 +1,7 @@
 <div class="row">
   <div class="col-md-12 well">
 
-    <div class="col-md-6">
+    <div class="col-md-4">
       <h2 align="center"><%= @scenario.name %></h2>
 
       <p><%= @scenario.description %></p>
@@ -11,7 +11,7 @@
       </div>
     </div>
 
-    <div class="col-md-6" align="center">
+    <div class="col-md-8 scenarios" align="center">
       <% @scenario.map_ids.each do |id| %>
         <% @map = Map.find_by_id [id] %>
         <h4><%= link_to @map.name, map_path(@map) %></h4>
@@ -66,7 +66,7 @@
   <div class="col-md-2">
     <h4>The River</h4>
   </div>
-  <div class="s_tiles" class="col-md-10">
+  <div class="col-md-10 sm_tiles">
     <% @scenario.tile_ids.each do |id| %>
       <% @tile = Tile.find_by_id [id] %>
       <td><%= link_to image_tag("#{@tile.image}"), tile_path(id) %></td>

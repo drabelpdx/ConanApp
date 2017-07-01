@@ -10,7 +10,7 @@
     { name: "In the Clutches of the Picts", description: "With the echoing war drums of the Pict tribes settled beyond the Black River and the increased frequency of incursions up to the Thunder River, many settlers flee the Conajohara territory for the safer lands of the Kingdom of Aquilonia.
       While scouting along the border to aid Valannus, the Commander of Fort Tuscelan, Conan bears witness to the massacre of a column of refugees from Velitrium. The Picts withdraw victoriously with a female prisoner who Conan recognizes as Yselda, the daughter of the city’s governor.
       The Cimmerian knows that Yselda’s life can now be measured in mere hours, as she will shortly be sacrificed on the altar of Jhebbal Sag, the Lord of Beasts. Back in Fort Tuscelan, Conan assembles a small group of experienced warriors to rescue the governor’s daughter and, at Valannus’ request, bring back the head of Zogar Sag.",
-      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/In+the+Clutches+map.png',
+      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/In+the+Clutches+of+the+Picts.jpg',
       pdf_link: 'http://www.monolithedition.com/conan-en/dans-les-griffes-des-pictes/',
 
       hero_goal: "If one or more heroes have fled the village with Yselda and Zogar Sag’s head, Yselda is returned safely to her father; the heroes win the game.",
@@ -54,7 +54,7 @@
       As the Stygian fleet seems unable to put an end to the piracy, the king has promised a colossal sum to whomever can bring back Bêlit’s head.
       With Bêlit’s vessel anchored to resupply and a large portion of the crew on shore, Zaporavo, the Zingaran captain of The Vandal, takes the opportunity to attack in hopes of claiming the enormous reward and the glory that accompanies it.
       Supported by a row of archers and the black magic of Skuthus, a Stygian necromancer sent by Ctesphon, the Zingaran mercenary and his troops quickly gain a foothold on the deck of the Tigress. Only Conan, Shevatas, and a handful of remaining warriors can come to Bêlit’s aid.",
-      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/Hunting+the+Tigress.png',
+      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/Hunting+the+Tigress.jpg',
       pdf_link: 'http://www.monolithedition.com/conan-en/in-the-clutches-of-the-picts/',
 
       hero_goal: "If Zaporavo and Skuthus are dead or at the end of round 8, Bêlit survives the attack; the heroes win the game.",
@@ -88,7 +88,7 @@
       After many hours spent sailing in a supernatural silence, Conan spots the black fangs of towers stretching above the trees. Choked by overgrowth, the ruins exude decadence and desolation.
       Not heeding the superstitious warnings of her men, Bêlit disembarks with her Cimmerian lover, Shevatas, and a few reluctant crewmen. In an abandoned crypt, they discover a handful of colorful gems and a strange curved knife, spurring them to press deeper into the ruins.
       In the center of the city they come upon a small fortress, its broken-down towers and crumbled walls held together by thick vegetation. Only then do they hear the echoes of a voice from beyond the grave: “Return my belongings, heathen profaners, or I shall drench the altar of Set with your blood!” Skuthus’ trap has been sprung.",
-      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/In+the+Heart+of+Darkness.png',
+      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/In+the+Heart+of+Darkness.jpg',
       pdf_link: 'http://www.monolithedition.com/conan-en/in-the-heart-of-darkness/',
 
       hero_goal: "If Skuthus dies, the trap has failed, and the heroes escape the fortress with their treasures; the heroes win the game.",
@@ -123,7 +123,7 @@
     { name: "The Final Ritual", description: "The province of Conajohara is being sacked. United clans of Picts have crossed the Black River in massive numbers, intent on slaughtering Aquilonian settlers and annihilating Fort Tuscelan. At the head of the invading forces is the shaman Zogar Sag.
       Conan and his band of scouts travel the border ceaselessly, saving all who can still be saved. In the vast swamps at the southern edge of the province, they arrive at a village as panicked settlers flee before the Pict advance. Only a courageous priestess of Mitra has remained to slow the savage warriors and prevent the coming massacre.
       Conan and his allies set to building barricades and the priestess begins a magical ritual using the six relics of her village. If she can complete the invocation, it should slow Zogar Sag’s troops and buy the fleeing settlers the time they need to survive.",
-      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/The+Final+Ritual.png',
+      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/The+Final+Ritual.jpg',
       pdf_link: 'http://www.monolithedition.com/conan-en/the-final-ritual/',
 
       hero_goal: "If the invocation marker reaches space 0 or at the end of turn 12, the ritual is complete; the heroes win the game.",
