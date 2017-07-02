@@ -1,24 +1,20 @@
 <div class="row">
-  <div class="col-md-4">
+  <div class="col-md-5">
     <div class="well">
         <h2><%= @tile.name %></h2>
         <h4><%= @tile.description %></h4>
         <div align="center" class="tiles">
-
-        <%= image_tag "#{@tile.image}" %><br /><br />
-
+        <%= image_tag "#{@tile.figure_image}" %><br /><br />
         <h4>
           <%= @tile.count %>  <%= @tile.role %>
           <%= pluralize_no_count(@tile.count, 'tile') %>
         </h4>
-
-        from  <%= @tile.origin %>
+          from  <%= @tile.origin %>
         <br /><br /><%= link_to "Back to tiles", tiles_path %>
       </div>
     </div>
-
   </div>
-  <div class="col-md-8">
+  <div class="col-md-7">
     <h4>Tile Stats:</h4>
     <table class="tile_stats">
       <% if @tile.skills.any? %>

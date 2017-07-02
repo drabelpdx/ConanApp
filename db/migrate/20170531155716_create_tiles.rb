@@ -12,7 +12,8 @@ class CreateTiles < ActiveRecord::Migration
       t.string :ranged_dice
       t.string :origin
       t.string :count
-      t.string :image
+      t.string :figure_image
+      t.string :tile_image
       t.timestamps
     end
   end
