@@ -47,7 +47,9 @@ $navbar-default-bg: #08088A;
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 15px;
   width: 450px;
-  margin: auto;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 300px;
 }
 
 .btn-xlarge {
@@ -63,6 +65,14 @@ $navbar-default-bg: #08088A;
 .listing {
   list-style: none;
   padding-left: 0;
+}
+
+#by_count {
+  display: none;
+}
+
+#by_map {
+  display: none;
 }
 
 .thumbs img {

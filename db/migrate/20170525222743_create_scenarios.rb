@@ -5,6 +5,8 @@ class CreateScenarios < ActiveRecord::Migration
       t.text :description
       t.text :map_image
       t.text :pdf_link
+      t.text :player_count
+      t.text :complexity
       t.text :hero_goal
       t.text :hero_setup
       t.text :overlord_goal
@@ -25,6 +27,10 @@ class CreateScenarios < ActiveRecord::Migration
       t.text :ruleseven_text
       t.text :ruleeight_title
       t.text :ruleeight_text
+      t.text :rulenine_title
+      t.text :rulenine_text
+      t.text :ruleten_title
+      t.text :ruleten_text
       t.string :origin
       t.timestamps
     end

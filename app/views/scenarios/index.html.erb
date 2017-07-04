@@ -3,135 +3,340 @@
   <%= link_to "Add a Scenario", new_scenario_path %>
 </p>
 
-<div class="row">
-  <div class="col-md-4 col-sm-6">
-    <div class="panel panel-info">
-      <div class="panel-heading">Core Game Scenarios</div>
-      <table class="table">
-        <% @scenarios.each do |scenario| %>
-        <% if scenario.origin === "Core Game"%>
-        <tr>
-          <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
-        </tr>
-        <% end %>
-        <% end %>
-      </table>
+<a href="" id="show_byorigin"><button class="btn btn-primary">By Origin</button></a>
+<a href="" id="show_bycount"><button class="btn btn-primary">By Player Count</button></a>
+<a href="" id="show_bymap"><button class="btn btn-primary">By Map</button></a>
+
+<div id="by_origin">
+  <div class="row">
+    <div class="col-md-4 col-sm-6">
+      <div class="panel panel-info">
+        <div class="panel-heading">Core Game Scenarios</div>
+        <table class="table">
+          <% @scenarios.each do |scenario| %>
+          <% if scenario.origin === "Core Game"%>
+          <tr>
+            <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+          </tr>
+          <% end %>
+          <% end %>
+        </table>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <div class="panel panel-info">
+        <div class="panel-heading">King Pledge Scenarios</div>
+        <table class="table">
+          <% @scenarios.each do |scenario| %>
+          <% if scenario.origin === "King Pledge"%>
+          <tr>
+            <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+          </tr>
+          <% end %>
+          <% end %>
+        </table>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <div class="panel panel-info">
+        <div class="panel-heading">Stretch Goal Scenarios</div>
+        <table class="table">
+          <% @scenarios.each do |scenario| %>
+          <% if scenario.origin === "Stretch Goals"%>
+          <tr>
+            <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+          </tr>
+          <% end %>
+          <% end %>
+        </table>
+      </div>
     </div>
   </div>
-  <div class="col-md-4 col-sm-6">
-    <div class="panel panel-info">
-      <div class="panel-heading">King Pledge Scenarios</div>
-      <table class="table">
-        <% @scenarios.each do |scenario| %>
-        <% if scenario.origin === "King Pledge"%>
-        <tr>
-          <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
-        </tr>
-        <% end %>
-        <% end %>
-      </table>
+  <div class="row">
+    <div class="col-md-4 col-sm-6">
+      <div class="panel panel-info">
+        <div class="panel-heading">Nordheim Scenarios</div>
+        <table class="table">
+          <% @scenarios.each do |scenario| %>
+          <% if scenario.origin === "Nordheim Expansion"%>
+          <tr>
+            <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+          </tr>
+          <% end %>
+          <% end %>
+        </table>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <div class="panel panel-info">
+        <div class="panel-heading">Stygia Scenarios</div>
+        <table class="table">
+          <% @scenarios.each do |scenario| %>
+          <% if scenario.origin === "Stygia Expansion"%>
+          <tr>
+            <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+          </tr>
+          <% end %>
+          <% end %>
+        </table>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <div class="panel panel-info">
+        <div class="panel-heading">Khitai Scenarios</div>
+        <table class="table">
+          <% @scenarios.each do |scenario| %>
+          <% if scenario.origin === "Khitai Expansion"%>
+          <tr>
+            <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+          </tr>
+          <% end %>
+          <% end %>
+        </table>
+      </div>
     </div>
   </div>
-  <div class="col-md-4 col-sm-6">
-    <div class="panel panel-info">
-      <div class="panel-heading">Stretch Goal Scenarios</div>
-      <table class="table">
-        <% @scenarios.each do |scenario| %>
-        <% if scenario.origin === "Stretch Goals"%>
-        <tr>
-          <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
-        </tr>
-        <% end %>
-        <% end %>
-      </table>
+  <div class="row">
+    <div class="col-md-4 col-sm-6">
+      <div class="panel panel-info">
+        <div class="panel-heading">Add-Ons Scenarios (Monolith Website)</div>
+        <table class="table">
+          <% @scenarios.each do |scenario| %>
+          <% if scenario.origin === "Monolith Addon"%>
+          <tr>
+            <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+          </tr>
+          <% end %>
+          <% end %>
+        </table>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <div class="panel panel-info">
+        <div class="panel-heading">Stretch Goal Content Scenarios (Monolith Website)</div>
+        <table class="table">
+          <% @scenarios.each do |scenario| %>
+          <% if scenario.origin === "Monolith Stretch"%>
+          <tr>
+            <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+          </tr>
+          <% end %>
+          <% end %>
+        </table>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <div class="panel panel-info">
+        <div class="panel-heading">Other Scenarios (Monolith Website)</div>
+        <table class="table">
+          <% @scenarios.each do |scenario| %>
+          <% if scenario.origin === "Monolith Other"%>
+          <tr>
+            <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+          </tr>
+          <% end %>
+          <% end %>
+        </table>
+      </div>
     </div>
   </div>
 </div>
-<div class="row">
-  <div class="col-md-4 col-sm-6">
-    <div class="panel panel-info">
-      <div class="panel-heading">Nordheim Scenarios</div>
-      <table class="table">
-        <% @scenarios.each do |scenario| %>
-        <% if scenario.origin === "Nordheim Expansion"%>
-        <tr>
-          <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
-        </tr>
-        <% end %>
-        <% end %>
-      </table>
+
+<div id="by_count">
+  <div class="row">
+    <div class="col-md-4 col-sm-6">
+      <div class="panel panel-info">
+        <div class="panel-heading">5 Player Scenarios</div>
+        <table class="table">
+          <% @scenarios.each do |scenario| %>
+          <% if scenario.player_count === "5"%>
+          <tr>
+            <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+          </tr>
+          <% end %>
+          <% end %>
+        </table>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <div class="panel panel-info">
+        <div class="panel-heading">3-4 Player Scenarios</div>
+        <table class="table">
+          <% @scenarios.each do |scenario| %>
+          <% if scenario.player_count === "3-4"%>
+          <tr>
+            <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+          </tr>
+          <% end %>
+          <% end %>
+        </table>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <div class="panel panel-info">
+        <div class="panel-heading">2-3 Player Scenarios</div>
+        <table class="table">
+          <% @scenarios.each do |scenario| %>
+          <% if scenario.player_count === "2-3"%>
+          <tr>
+            <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+          </tr>
+          <% end %>
+          <% end %>
+        </table>
+      </div>
     </div>
   </div>
-  <div class="col-md-4 col-sm-6">
-    <div class="panel panel-info">
-      <div class="panel-heading">Stygia Scenarios</div>
-      <table class="table">
-        <% @scenarios.each do |scenario| %>
-        <% if scenario.origin === "Stygia Expansion"%>
-        <tr>
-          <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
-        </tr>
-        <% end %>
-        <% end %>
-      </table>
+  <div class="row">
+    <div class="col-md-4 col-sm-6">
+      <div class="panel panel-info">
+        <div class="panel-heading">4-5 Player Scenarios</div>
+        <table class="table">
+          <% @scenarios.each do |scenario| %>
+          <% if scenario.player_count === "4-5"%>
+          <tr>
+            <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+          </tr>
+          <% end %>
+          <% end %>
+        </table>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <div class="panel panel-info">
+        <div class="panel-heading">3 Player Scenarios</div>
+        <table class="table">
+          <% @scenarios.each do |scenario| %>
+          <% if scenario.player_count === "3"%>
+          <tr>
+            <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+          </tr>
+          <% end %>
+          <% end %>
+        </table>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <div class="panel panel-info">
+        <div class="panel-heading">2 Player Scenarios</div>
+        <table class="table">
+          <% @scenarios.each do |scenario| %>
+          <% if scenario.player_count === "2"%>
+          <tr>
+            <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+          </tr>
+          <% end %>
+          <% end %>
+        </table>
+      </div>
     </div>
   </div>
-  <div class="col-md-4 col-sm-6">
-    <div class="panel panel-info">
-      <div class="panel-heading">Khitai Scenarios</div>
-      <table class="table">
-        <% @scenarios.each do |scenario| %>
-        <% if scenario.origin === "Khitai Expansion"%>
-        <tr>
-          <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
-        </tr>
-        <% end %>
-        <% end %>
-      </table>
+  <div class="row">
+    <div class="col-md-4 col-sm-6">
+      <div class="panel panel-info">
+        <div class="panel-heading">4 Player Scenarios</div>
+        <table class="table">
+          <% @scenarios.each do |scenario| %>
+          <% if scenario.player_count === "4"%>
+          <tr>
+            <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+          </tr>
+          <% end %>
+          <% end %>
+        </table>
+      </div>
     </div>
   </div>
 </div>
-<div class="row">
-  <div class="col-md-4 col-sm-6">
-    <div class="panel panel-info">
-      <div class="panel-heading">Add-Ons Scenarios (Monolith Website)</div>
-      <table class="table">
-        <% @scenarios.each do |scenario| %>
-        <% if scenario.origin === "Monolith Addon"%>
-        <tr>
-          <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
-        </tr>
-        <% end %>
-        <% end %>
-      </table>
+
+<div id="by_map">
+  <div class="row">
+    <div class="col-md-4 col-sm-6">
+      <div class="panel panel-info">
+        <div class="panel-heading">The Pict Village Map Scenarios</div>
+        <table class="table">
+          <% @scenarios.each do |scenario| %>
+          <% if scenario.map_ids.include?(1)%>
+          <tr>
+            <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+          </tr>
+          <% end %>
+          <% end %>
+        </table>
+      </div>
     </div>
-  </div>
-  <div class="col-md-4 col-sm-6">
-    <div class="panel panel-info">
-      <div class="panel-heading">Stretch Goal Content Scenarios (Monolith Website)</div>
-      <table class="table">
-        <% @scenarios.each do |scenario| %>
-        <% if scenario.origin === "Monolith Stretch"%>
-        <tr>
-          <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
-        </tr>
-        <% end %>
-        <% end %>
-      </table>
+    <div class="col-md-4 col-sm-6">
+      <div class="panel panel-info">
+        <div class="panel-heading">The Ships Map Scenarios</div>
+        <table class="table">
+          <% @scenarios.each do |scenario| %>
+          <% if scenario.map_ids.include?(2)%>
+          <tr>
+            <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+          </tr>
+          <% end %>
+          <% end %>
+        </table>
+      </div>
     </div>
-  </div>
-  <div class="col-md-4 col-sm-6">
-    <div class="panel panel-info">
-      <div class="panel-heading">Other Scenarios (Monolith Website)</div>
-      <table class="table">
-        <% @scenarios.each do |scenario| %>
-        <% if scenario.origin === "Monolith Other"%>
-        <tr>
-          <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
-        </tr>
-        <% end %>
-        <% end %>
-      </table>
+
+    <div class="col-md-4 col-sm-6">
+      <div class="panel panel-info">
+        <div class="panel-heading">The Abandoned Fort Map Scenarios</div>
+        <table class="table">
+          <% @scenarios.each do |scenario| %>
+          <% if scenario.map_ids.include?(3)%>
+          <tr>
+            <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+          </tr>
+          <% end %>
+          <% end %>
+        </table>
+      </div>
     </div>
+
+    <div class="col-md-4 col-sm-6">
+      <div class="panel panel-info">
+        <div class="panel-heading">The Inn Scenarios Map</div>
+        <table class="table">
+          <% @scenarios.each do |scenario| %>
+          <% if scenario.map_ids.include?(4)%>
+          <tr>
+            <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+          </tr>
+          <% end %>
+          <% end %>
+        </table>
+      </div>
+    </div>
+
+
   </div>
 </div>
+
+
+<script>
+  $(document).ready(function() {
+    $('a#show_byorigin').click(function(event){
+      event.preventDefault();
+      $('div#by_origin').show();
+      $('div#by_count').hide();
+      $('div#by_map').hide();
+    });
+
+    $('a#show_bycount').click(function(event){
+      event.preventDefault();
+      $('div#by_origin').hide();
+      $('div#by_count').show();
+      $('div#by_map').hide();
+    });
+
+    $('a#show_bymap').click(function(event){
+      event.preventDefault();
+      $('div#by_origin').hide();
+      $('div#by_count').hide();
+      $('div#by_map').show();
+    });
+
+  });
+</script>

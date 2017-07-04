@@ -62,7 +62,7 @@
       manipulation_dice: 'Orange', manipulation_exersion: '3',
       defense_dice: 'Orange',
       origin: 'King Pledge', skill_ids: [7, 13, 16, 21, 22], story_ids: [] },
-    { name: "N'Gora", description: "Belit's Second",
+    { name: "N'Gora", description: "Belit’s Second",
       quote: "",
       cite: "",
       hero_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/NGora.jpg',

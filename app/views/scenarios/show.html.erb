@@ -3,7 +3,8 @@
 
     <div class="col-md-4">
       <h2 align="center"><%= @scenario.name %></h2>
-
+      <h4 align="center">Players: <%= @scenario.player_count %>&nbsp;&nbsp;&nbsp;
+                         Complexity: <%= @scenario.complexity %></h4>
       <p><%= @scenario.description %></p>
       <br /><br /><br />
       <div align="center">
@@ -18,8 +19,11 @@
       <% end %>
       <%= image_tag "#{@scenario.map_image}" %>
       <br /><br />
-      <p align="center"><%= link_to "Grab the PDF for this scenario from Monolith", "#{@scenario.pdf_link}", :target => "_blank" %></p>
-
+      <p align="center">
+        <% if @scenario.pdf_link != "" %>
+          <%= link_to "Grab the PDF for this scenario from Monolith", "#{@scenario.pdf_link}", :target => "_blank" %>
+        <% end %>
+      </p>
     </div>
   </div>
 
