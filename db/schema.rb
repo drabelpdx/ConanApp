@@ -35,7 +35,7 @@ ActiveRecord::Schema.define(version: 20170605233742) do
     t.string   "cite"
     t.string   "hero_image"
     t.string   "life"
-    t.string   "encumberance"
+    t.string   "encumbrance"
     t.string   "melee_dice"
     t.string   "melee_exertion"
     t.string   "ranged_dice"
@@ -57,7 +57,7 @@ ActiveRecord::Schema.define(version: 20170605233742) do
 
   create_table "items", force: :cascade do |t|
     t.string   "name"
-    t.string   "encumberance"
+    t.string   "encumbrance"
     t.string   "origin"
     t.string   "count"
     t.string   "armor"

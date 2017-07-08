@@ -7,7 +7,7 @@ class CreateHeroes < ActiveRecord::Migration
       t.string :cite
       t.string :hero_image
       t.string :life
-      t.string :encumberance
+      t.string :encumbrance
       t.string :melee_dice
       t.string :melee_exertion
       t.string :ranged_dice

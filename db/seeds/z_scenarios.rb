@@ -78,20 +78,26 @@
       <br />The Overlord starts with 10 gems in their Reserve zone and 4 gems in their Fatigue zone, and places the recovery token showing a recovery value of “7” in the Book of Skelos.
       <br /><br /><strong>Reinforcement:</strong> 6 reinforcement points (Reinforcement Token).
       <br /><br /><strong>Fire at will:</strong> Each unit may perform a Ranged Attack if able.
-      <br /><br /><strong>Glory to Set:</strong> Skuthus sacrifices himself to summon an <a href="/tiles/22">Outer Dark Demon</a>. The Overlord places the Outer Dark Demon model (6 life points) in Skuthus’ area, then Skuthus dies (This count toward completing the heroes’ objective). Then the Overlord replaces the Skuthus unit tile in the River with the Outer Dark Demon unit tile.
+      <br /><br /><strong>Glory to Set:</strong> Skuthus sacrifices himself to summon an <a href="/tiles/22">Outer Dark Demon</a>.
+      The Overlord places the Outer Dark Demon model (6 life points) in Skuthus’ area, then Skuthus dies (This count toward completing the heroes’ objective).
+      Then the Overlord replaces the Skuthus unit tile in the River with the Outer Dark Demon unit tile.
       <br /><br /><a href="/tiles/3">Skuthus</a> has <a href="/spells/11">Energy Drain</a> and <a href="/spells/5">Set’s Halo</a>. He starts with Set’s Halo cast.',
 
       ruleone_title: "Leap:",
-      ruleone_text: 'If a hero, Zaporavo, or Skuthus fails to <a href="/skills/16">leap</a>, the character remains in its area. If a minion or ally fails to <a href="/skills/16">leap</a>, that character falls in the water and is eaten by sharks; the character dies.',
+      ruleone_text: 'If a hero, Zaporavo, or Skuthus fails to <a href="/skills/16">leap</a>, the character remains in its area.
+      If a minion or ally fails to <a href="/skills/16">leap</a>, that character falls in the water and is eaten by sharks; the character dies.',
       ruletwo_title: "Chests:",
-      ruletwo_text: 'During setup, the Overlord places 4 chests on the board as indicated by the setup diagram. The asset deck contains: 2  <a href="/items/22">Life Potion</a>, 1  <a href="/items/5">Explosive Orb</a>, 1  <a href="/items/23">Empty chest</a>.',
+      ruletwo_text: 'During setup, the Overlord places 4 chests on the board as indicated by the setup diagram. The asset deck contains: 2 <a href="/items/22">Life Potion</a>, 1 <a href="/items/5">Explosive Orb</a>, 1 <a href="/items/23">Empty chest</a>.',
 
       origin: "Core Game", map_ids: [2], hero_ids: [1, 2, 3, 4], tile_ids: [37, 57, 33, 35, 36, 1, 5, 3], spell_ids: [7, 5, 10, 11], item_ids: [2, 5, 10, 12, 14, 15, 16, 21, 22, 23] },
 
-    { name: "In the Heart of Darkness", description: "The Tigress travels the dark waters of the Zarkheba river, whose mysterious shores are covered by gloomy jungle. The Queen of the Black Coast knows that, beyond the tangled wall of vegetation, an ancient city may yet hide fabulous treasures. But legends speak of hauntings, and the local tribes carefully avoid the area.
-      After many hours spent sailing in a supernatural silence, Conan spots the black fangs of towers stretching above the trees. Choked by overgrowth, the ruins exude decadence and desolation.
-      Not heeding the superstitious warnings of her men, Bêlit disembarks with her Cimmerian lover, Shevatas, and a few reluctant crewmen. In an abandoned crypt, they discover a handful of colorful gems and a strange curved knife, spurring them to press deeper into the ruins.
-      In the center of the city they come upon a small fortress, its broken-down towers and crumbled walls held together by thick vegetation. Only then do they hear the echoes of a voice from beyond the grave: “Return my belongings, heathen profaners, or I shall drench the altar of Set with your blood!” Skuthus’ trap has been sprung.",
+    { name: "In the Heart of Darkness", description: "The Tigress travels the dark waters of the Zarkheba river, whose mysterious shores are covered by gloomy jungle.
+      The Queen of the Black Coast knows that, beyond the tangled wall of vegetation, an ancient city may yet hide fabulous treasures.
+      But legends speak of hauntings, and the local tribes carefully avoid the area. After many hours spent sailing in a supernatural silence, Conan spots the black fangs of towers stretching above the trees.
+      Choked by overgrowth, the ruins exude decadence and desolation. Not heeding the superstitious warnings of her men, Bêlit disembarks with her Cimmerian lover, Shevatas, and a few reluctant crewmen.
+      In an abandoned crypt, they discover a handful of colorful gems and a strange curved knife, spurring them to press deeper into the ruins.
+      In the center of the city they come upon a small fortress, its broken-down towers and crumbled walls held together by thick vegetation.
+      Only then do they hear the echoes of a voice from beyond the grave: “Return my belongings, heathen profaners, or I shall drench the altar of Set with your blood!” Skuthus’ trap has been sprung.",
       map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/In+the+Heart+of+Darkness.jpg',
       pdf_link: 'http://www.monolithedition.com/conan-en/in-the-heart-of-darkness/',
       player_count: "4",
@@ -126,8 +132,9 @@
 
       origin: "Core Game", map_ids: [3], hero_ids: [1, 2, 4], tile_ids: [19, 3, 57, 41, 1], spell_ids: [5, 6], item_ids: [6, 10, 12, 14, 15, 16, 20] },
 
-    { name: "The Final Ritual", description: "The province of Conajohara is being sacked. United clans of Picts have crossed the Black River in massive numbers, intent on slaughtering Aquilonian settlers and annihilating Fort Tuscelan. At the head of the invading forces is the shaman Zogar Sag.
-      Conan and his band of scouts travel the border ceaselessly, saving all who can still be saved. In the vast swamps at the southern edge of the province, they arrive at a village as panicked settlers flee before the Pict advance. Only a courageous priestess of Mitra has remained to slow the savage warriors and prevent the coming massacre.
+    { name: "The Final Ritual", description: "The province of Conajohara is being sacked. United clans of Picts have crossed the Black River in massive numbers, intent on slaughtering Aquilonian settlers and annihilating Fort Tuscelan.
+      At the head of the invading forces is the shaman Zogar Sag. Conan and his band of scouts travel the border ceaselessly, saving all who can still be saved.
+      In the vast swamps at the southern edge of the province, they arrive at a village as panicked settlers flee before the Pict advance. Only a courageous priestess of Mitra has remained to slow the savage warriors and prevent the coming massacre.
       Conan and his allies set to building barricades and the priestess begins a magical ritual using the six relics of her village. If she can complete the invocation, it should slow Zogar Sag’s troops and buy the fleeing settlers the time they need to survive.",
       map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/The+Final+Ritual.jpg',
       pdf_link: 'http://www.monolithedition.com/conan-en/the-final-ritual/',
@@ -138,7 +145,8 @@
       hero_setup: '<br /><br /><strong>Suggestions for 3 heroes:</strong>
       <br /><a href="/heroes/2">Conan</a> (<a href="/items/1">Battle Axe</a>, <a href="/items/20">Shield</a>, <a href="/items/16">Leather Armor</a>),
       <br /><a href="/heroes/4">Shevatas</a> (<a href="/items/15">Kris</a>, <a href="/items/14">Throwing Knives</a>),
-      <br /><a href="/heroes/3">Hadrathus</a> (<a href="/items/2">Dagger</a>, <a href="/spells/13">Teleportation</a>, <a href="/spells/7">Mitra’s Halo</a>, <a href="/spells/15">Lightning Storm</a>). Hadrathus does not start with Mitra’s Halo cast.
+      <br /><a href="/heroes/3">Hadrathus</a> (<a href="/items/2">Dagger</a>, <a href="/spells/13">Teleportation</a>, <a href="/spells/7">Mitra’s Halo</a>, <a href="/spells/15">Lightning Storm</a>).
+      Hadrathus does not start with Mitra’s Halo cast.
       <br /><br />After setup, each hero moves 5 gems from their Reserve zone to their Fatigue zone.',
 
       overlord_goal: "If the priestess of Mitra or all the heroes are dead, the village is overrun; the Overlord wins the game.",
@@ -147,8 +155,10 @@
       <br /><br />The Overlord starts with 12 gems in their Reserve zone and places the recovery token showing a recovery value of “5” in the Book of Skelos.
       <br /><br />When the Event tile is activated, the Overlord resolves each of the following events in order:
       <br /><br /><strong>Pict Hordes:</strong> The Overlord returns dead Pict Warrior and Pict Hunter models to the board in reinforcement areas until no more models fit in those areas.
-      <br /><br /><strong>Bestial Haste:</strong> The Overlord chooses a Pict Warrior or Pict Hunter model that was returned to the board by the previous Pict Hordes event. Each unit in that unit’s group that was returned to the board by that event gains up to 2 movement points, which the Overlord must immediately spend.
-      <br /><br /><strong>Incantation:</strong> A hero rolls 1 Yellow die for each relic on the board. These dice cannot be rerolled. For each symbol shown on a die, the hero moves the invocation marker 1 space toward the space 0 on the track.',
+      <br /><br /><strong>Bestial Haste:</strong> The Overlord chooses a Pict Warrior or Pict Hunter model that was returned to the board by the previous Pict Hordes event.
+      Each unit in that unit’s group that was returned to the board by that event gains up to 2 movement points, which the Overlord must immediately spend.
+      <br /><br /><strong>Incantation:</strong> A hero rolls 1 Yellow die for each relic on the board. These dice cannot be rerolled.
+      For each symbol shown on a die, the hero moves the invocation marker 1 space toward the space 0 on the track.',
 
       ruleone_title: "Barricades:",
       ruleone_text: 'Barricades block line of sight. A character cannot move across a barricade, but can attack a barricade as though it were an enemy character.
@@ -166,9 +176,11 @@
 
       origin: "Core Game", map_ids: [1], hero_ids: [2, 3, 4], tile_ids: [48, 4, 1, 46, 43, 45, 44], spell_ids: [7, 13, 15], item_ids: [1, 2, 14, 15, 16, 20] },
 
-    { name: "For All of Ophir’s Gold", description: "While visiting the South of the kingdom, Princess Olivia, daughter of King Ophir, is set upon by Kothian soldiers. The detachment assigned to protect her is massacred. After reaping a bloody harvest, even Conan succumbs to the overwhelming numbers and the fury of a strange man-ape.
-      Now Conan and Olivia are prisoners of Captain Arbanus, right hand of King Strabonus of Koth. In his quest to control the gold mines which feed King Ophir’s wealth, Strabonus has turned to kidnapping and extortion over costly military action. Conan paces in his cell like a caged lion.
-      His incandescent blue eyes search for any means of escape, and he rages at his failure to protect the princess. The Kothians have fallen back to an old fortification on the border of the two kingdoms. As they take defensive positions and install deadly machines of war, the Cimmerian’s brothers-in-arms mount a rescue mission.
+    { name: "For All of Ophir’s Gold", description: "While visiting the South of the kingdom, Princess Olivia, daughter of King Ophir, is set upon by Kothian soldiers.
+      The detachment assigned to protect her is massacred. After reaping a bloody harvest, even Conan succumbs to the overwhelming numbers and the fury of a strange man-ape.
+      Now Conan and Olivia are prisoners of Captain Arbanus, right hand of King Strabonus of Koth. In his quest to control the gold mines which feed King Ophir’s wealth, Strabonus has turned to kidnapping and extortion over costly military action.
+      Conan paces in his cell like a caged lion. His incandescent blue eyes search for any means of escape, and he rages at his failure to protect the princess.
+      The Kothians have fallen back to an old fortification on the border of the two kingdoms. As they take defensive positions and install deadly machines of war, the Cimmerian’s brothers-in-arms mount a rescue mission.
       King Ophir’s message is clear: his daughter must not fall into Strabonus’ hands alive.",
       map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/For+All+of+Ophirs+Gold.jpg',
       pdf_link: 'http://www.monolithedition.com/conan-en/for-all-of-ophirs-gold/',
@@ -254,8 +266,10 @@
 
       origin: "Core Game", map_ids: [4], hero_ids: [2], tile_ids: [53, 54, 1], spell_ids: [], item_ids: [5, 10, 16, 22, 23] },
 
-    { name: "Infernal Pursuit Part I", description: "Smelling a trap during a meeting with pirates from the Baracha islands, Conan flees Tortage, joining Captain Zaporavo and the crew of The Vandal. Soon, his personality and sailing prowess make him popular with the crew, and his leadership gains him the attention of Sancha, the Zingaran mercenary’s favorite.
-      Zaporavo remains wary of the Cimmerian, who he now sees as a rival. But the time is not right to settle scores as the sails of an Argosian merchant vessel appear on the horizon. The Vandal’s crew sets upon its prey, and the merchant ship offers little resistance. With the captured vessel intact, Zaporavo sets sail to the nearest Zingaran port, hoping to profit as much from the ship itself as from its cargo.
+    { name: "Infernal Pursuit Part I", description: "Smelling a trap during a meeting with pirates from the Baracha islands, Conan flees Tortage, joining Captain Zaporavo and the crew of The Vandal.
+      Soon, his personality and sailing prowess make him popular with the crew, and his leadership gains him the attention of Sancha, the Zingaran mercenary’s favorite.
+      Zaporavo remains wary of the Cimmerian, who he now sees as a rival. But the time is not right to settle scores as the sails of an Argosian merchant vessel appear on the horizon.
+      The Vandal’s crew sets upon its prey, and the merchant ship offers little resistance. With the captured vessel intact, Zaporavo sets sail to the nearest Zingaran port, hoping to profit as much from the ship itself as from its cargo.
       Aboard the Argosian ship and flanked by crew members loyal to him, Conan seizes the opportunity and incites a mutiny, hoping to take the ship and strike The Vandal while it is weakened.",
       map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/Infernal+Pursuit+Part+I.jpg',
       pdf_link: 'http://www.monolithedition.com/conan-en/infernal-pursuit/',
@@ -319,7 +333,8 @@
       origin: "Core Game", map_ids: [2], hero_ids: [2, 3], tile_ids: [], spell_ids: [], item_ids: [1, 4, 5, 11, 14, 16, 22] },
 
     { name: "Trapped like Rats", description: "Laughs and shouts ring out as ale-filled mugs are banged together. Conan and his companions celebrate, spending the remainder of the pay from their time in the army of Ophir’s kingdom.
-      They sit in the Rat’s Inn in Corinth. The city-state is ruled by Prince Murilo, whom Conan has helped in the past by eliminating a powerful rival, the red priest Nabonidus. In response to a message from the prince, Conan has arranged an unofficial meeting with Murilo at the inn. Unbeknownst to Conan and the others, the meeting is a trap. Powerful nobles, intent on overthrowing Murilo, drug the drinks and imprison the Cimmerian and his companions in lower rooms of the inn.
+      They sit in the Rat’s Inn in Corinth. The city-state is ruled by Prince Murilo, whom Conan has helped in the past by eliminating a powerful rival, the red priest Nabonidus. In response to a message from the prince, Conan has arranged an unofficial meeting with Murilo at the inn.
+      Unbeknownst to Conan and the others, the meeting is a trap. Powerful nobles, intent on overthrowing Murilo, drug the drinks and imprison the Cimmerian and his companions in lower rooms of the inn.
       The conspirators are aided by Jenna, a harlot close to Nabonidus who was humiliated by Conan. She goes to free the red priest’s creature, Thak, who has been held captive since his previous confrontation with Conan and burns with a desire for vengeance.",
       map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/Trapped+Like+Rats.jpg',
       pdf_link: 'http://www.monolithedition.com/conan-en/trapped-like-rats/',

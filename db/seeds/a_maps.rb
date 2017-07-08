@@ -23,8 +23,8 @@
     { name: 'The Abandoned Fort', description: "The Abandoned Fort", flip_side: 'The Ships',
       origin: 'Core Game', image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/The+Abandoned+Fort.jpg',
       ruleone: "Only the areas directly adjacent to the towers areas have line of sight on the tower areas.",
-      ruletwo: "The areas inside the fort do not have a roof. A character in aparapet area has line of sight on these areas and may jump into these areas.",
-      rulethree: "The nine areas at the edge of the board are adjacent to one another. A character may move through them normally to go around the aban- doned fort.",
+      ruletwo: "The areas inside the fort do not have a roof. A character in a parapet area has line of sight on these areas and may jump into these areas.",
+      rulethree: "The nine areas at the edge of the board are adjacent to one another. A character may move through them normally to go around the abandoned fort.",
       rulefour: "<strong>Lines of Sight:</strong> A character in a wall area has line of sight to each ground area within the fortress walls.",
       rulefive: '<strong>Leaping from Walls:</strong> A character can move across a parapet from a wall area to a ground area as though it were a border. The character rolls (2 Red Dice) for falling damage. If the character has <a href="/skills/16">Leap</a>, the character rolls (1 Red Die) instead. A character cannot move from a ground area to a wall area.',
       rulesix: "<strong>Rock Slide:</strong> A character can move into a rock slide area (Rock Token) from an adjacent area. The character must spend 2 extra movement points unless the character has Climbing." },
@@ -43,7 +43,7 @@
     { name: 'The Swamp', description: "The Swamp", flip_side: 'The Citadel', origin: 'Stretch Goals',
       image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/The+Swamp.jpg',
       ruleone: "<strong>Water areas:</strong> A character must spend 1 extra movement point to move out of a water area. A character can move from a water area to an adjacent wood area by spending 2 extra movement points.",
-      ruletwo: '<a href="/skills/16"><strong>Leap</strong></a>: Leaping over the water area around the altar in a single move- ment is not possible. The character must stop in the altar area before performing a second leap.',
+      ruletwo: '<a href="/skills/16"><strong>Leap</strong></a>: Leaping over the water area around the altar in a single movement is not possible. The character must stop in the altar area before performing a second leap.',
       rulethree: '<strong>Wooden Huts:</strong> A character with <a href="/skills/11">Wall Wrecker</a> can use it to move across the wall of one of the wooden huts.' },
 
     { name: 'The Frozen Battlefield', description: "The Frozen Battleground", flip_side: 'The Tundra Forest',
@@ -53,7 +53,7 @@
 
     { name: 'Stygia_1', description: "Water Front", flip_side: 'Stygia_2', origin: 'Stygia Expansion',
       image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/Stygia_1.jpg' },
-    { name: 'Stygia_2', description: "Catecombs", flip_side: 'Stygia_1', origin: 'Stygia Expansion',
+    { name: 'Stygia_2', description: "Catacombs", flip_side: 'Stygia_1', origin: 'Stygia Expansion',
       image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/Stygia_2.jpg' },
     { name: 'Khitai_1', description: "Villiage", flip_side: 'Khitai_2', origin: 'Khitai Expansion',
       image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/Khitai_1.jpg' },

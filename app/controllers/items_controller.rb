@@ -48,7 +48,7 @@ class ItemsController < ApplicationController
     end
 
     def item_params
-      params.require(:item).permit(:name, :encumberance, :origin, :count, :armor,
+      params.require(:item).permit(:name, :encumbrance, :origin, :count, :armor,
       :melee_dice, :ranged_dice, :defense_dice, :manipulation_dice)
     end
 

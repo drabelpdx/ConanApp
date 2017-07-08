@@ -7,7 +7,7 @@ class Hero < ActiveRecord::Base
   has_many :scenarios, through: :hero_scenarios
   validates :name, presence: true, length: { minimum: 3, maximum: 50 }
   validates :life, presence: true
-  validates :encumberance, presence: true
+  validates :encumbrance, presence: true
   validates :melee_dice, presence: true, length: { minimum: 3, maximum: 50 }
   validates :melee_exertion, presence: true
   validates :ranged_dice, presence: true, length: { minimum: 3, maximum: 50 }

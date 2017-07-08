@@ -71,8 +71,16 @@ $navbar-default-bg: #08088A;
   display: none;
 }
 
+#by_complexity {
+  display: none;
+}
+
 #by_map {
   display: none;
+}
+
+.hidden {
+  display: none
 }
 
 .thumbs img {

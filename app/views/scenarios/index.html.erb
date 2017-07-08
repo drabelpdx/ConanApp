@@ -2,10 +2,13 @@
 <p>
   <%= link_to "Add a Scenario", new_scenario_path %>
 </p>
-
-<a href="" id="show_byorigin"><button class="btn btn-primary">By Origin</button></a>
-<a href="" id="show_bycount"><button class="btn btn-primary">By Player Count</button></a>
-<a href="" id="show_bymap"><button class="btn btn-primary">By Map</button></a>
+<div align="center">
+  <a href="" id="show_byorigin" class="toggles"><button class="btn btn-primary active">By Origin</button></a>
+  <a href="" id="show_bycount" class="toggles"><button class="btn btn-primary">By Player Count</button></a>
+  <a href="" id="show_bycomplexity" class="toggles"><button class="btn btn-primary">By Complexity</button></a>
+  <a href="" id="show_bymap" class="toggles"><button class="btn btn-primary">By Map</button></a>
+</div>
+<hr>
 
 <div id="by_origin">
   <div class="row">
@@ -309,32 +312,94 @@
         </table>
       </div>
     </div>
-
-
   </div>
 </div>
-
+<div id="by_complexity">
+  <div class="row">
+    <div class="col-md-4 col-sm-6">
+      <div class="panel panel-info">
+        <div class="panel-heading">1 Crow</div>
+        <table class="table">
+          <% @scenarios.sort_by {|scenario| scenario.name }.each do |scenario| %>
+          <% if scenario.complexity === "1" %>
+          <tr>
+            <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+          </tr>
+          <% end %>
+          <% end %>
+        </table>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <div class="panel panel-info">
+        <div class="panel-heading">2 Crows</div>
+        <table class="table">
+          <% @scenarios.sort_by {|scenario| scenario.name }.each do |scenario| %>
+          <% if scenario.complexity === "2" %>
+          <tr>
+            <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+          </tr>
+          <% end %>
+          <% end %>
+        </table>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <div class="panel panel-info">
+        <div class="panel-heading">3 Crows</div>
+        <table class="table">
+          <% @scenarios.sort_by {|scenario| scenario.name }.each do |scenario| %>
+          <% if scenario.complexity === "3" %>
+          <tr>
+            <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+          </tr>
+          <% end %>
+          <% end %>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
 
 <script>
   $(document).ready(function() {
     $('a#show_byorigin').click(function(event){
       event.preventDefault();
-      $('div#by_origin').show();
+      $('a.toggles').children().removeClass('active');
+      $('a#show_byorigin').children().addClass('active');
       $('div#by_count').hide();
+      $('div#by_complexity').hide();
       $('div#by_map').hide();
+      $('div#by_origin').show();
     });
 
     $('a#show_bycount').click(function(event){
       event.preventDefault();
+      $('a.toggles').children().removeClass('active');
+      $('a#show_bycount').children().addClass('active');
       $('div#by_origin').hide();
-      $('div#by_count').show();
+      $('div#by_complexity').hide();
       $('div#by_map').hide();
+      $('div#by_count').show();
     });
+
+    $('a#show_bycomplexity').click(function(event){
+      event.preventDefault();
+      $('a.toggles').children().removeClass('active');
+      $('a#show_bycomplexity').children().addClass('active');
+      $('div#by_origin').hide();
+      $('div#by_count').hide();
+      $('div#by_map').hide();
+      $('div#by_complexity').show();
+    })
 
     $('a#show_bymap').click(function(event){
       event.preventDefault();
+      $('a.toggles').children().removeClass('active');
+      $('a#show_bymap').children().addClass('active');
       $('div#by_origin').hide();
       $('div#by_count').hide();
+      $('div#by_complexity').hide();
       $('div#by_map').show();
     });
 
