@@ -105,7 +105,7 @@
         <div class="panel-heading">Add-Ons Scenarios (Monolith Website)</div>
         <table class="table">
           <% @scenarios.each do |scenario| %>
-          <% if scenario.origin === "Monolith Addon"%>
+          <% if scenario.origin === "Add-Ons"%>
           <tr>
             <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
           </tr>
@@ -119,7 +119,7 @@
         <div class="panel-heading">Stretch Goal Content Scenarios (Monolith Website)</div>
         <table class="table">
           <% @scenarios.each do |scenario| %>
-          <% if scenario.origin === "Monolith Stretch"%>
+          <% if scenario.origin === "Stretch Goals +"%>
           <tr>
             <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
           </tr>
@@ -282,7 +282,6 @@
         </table>
       </div>
     </div>
-
     <div class="col-md-4 col-sm-6">
       <div class="panel panel-info">
         <div class="panel-heading">The Abandoned Fort Map Scenarios</div>
@@ -297,13 +296,40 @@
         </table>
       </div>
     </div>
-
     <div class="col-md-4 col-sm-6">
       <div class="panel panel-info">
         <div class="panel-heading">The Inn Scenarios Map</div>
         <table class="table">
           <% @scenarios.each do |scenario| %>
           <% if scenario.map_ids.include?(4)%>
+          <tr>
+            <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+          </tr>
+          <% end %>
+          <% end %>
+        </table>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <div class="panel panel-info">
+        <div class="panel-heading">The Citadel</div>
+        <table class="table">
+          <% @scenarios.each do |scenario| %>
+          <% if scenario.map_ids.include?(5)%>
+          <tr>
+            <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+          </tr>
+          <% end %>
+          <% end %>
+        </table>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <div class="panel panel-info">
+        <div class="panel-heading">The Swamp</div>
+        <table class="table">
+          <% @scenarios.each do |scenario| %>
+          <% if scenario.map_ids.include?(6)%>
           <tr>
             <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
           </tr>
