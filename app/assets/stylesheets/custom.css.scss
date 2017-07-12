@@ -24,20 +24,24 @@ $navbar-default-bg: #08088A;
 .navbar-default .navbar-nav > li > a:hover {
   color: yellow;
 }
+
 .center {
   text-align: center;
 }
 
 .jumbotron {
-  background-image: asset-url('Logo_CONAN.jpg');
+  background-image: asset-url('Conan2.jpg');
+  background-color: #fff;
   background-size: contain;
   background-repeat: no-repeat;
-  height: 400px;
+  height: 1024px;
 }
 
 .jumbotron h1 {
   color: #08088A;
-  text-align: center;
+  text-align: left;
+  margin-left: 5%;
+  margin-top: 25%;
   margin-bottom: 30px;
   letter-spacing: -1px;
   font-weight: bold;
@@ -46,16 +50,21 @@ $navbar-default-bg: #08088A;
 .jumbolabel {
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 15px;
-  width: 450px;
-  margin-left: 25%;
-  margin-right: 25%;
-  margin-top: 300px;
+  width: 400px;
+  margin-left: 0%;
+  margin-right: 10%;
+  margin-top: 20px;
 }
 
 .btn-xlarge {
   font-size: 1.7em;
   background-color: #08088A;
   border-color: #08088A;
+}
+
+.welcome {
+  margin-left: 15%;
+
 }
 
 .description {
