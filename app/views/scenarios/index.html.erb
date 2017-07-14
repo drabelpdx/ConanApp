@@ -1,13 +1,12 @@
 <h1>Scenarios</h1>
 <p>
-  Scenarios are the basis of each game. They ouline the characters, map, items and any special rules used.
-  Below is a list of released official scenarios. These can be sorted by the game box that the scenario or
+  Scenarios are the basis of each game. They outline the characters, map, items and any special rules used.
+  Below is a list of official scenarios. These can be sorted by the box that the scenario or
   the minis used came in, by the number of playes, the complexity of the special rules used, or the map the scenario is played on.
 </p>
 
-<p>
-  <%= link_to "Add a Scenario", new_scenario_path %>
-</p>
+<!-- <p><%= link_to "Add a Scenario", new_scenario_path %></p> -->
+
 <div align="center">
   <a href="" id="show_byorigin" class="toggles"><button class="btn btn-primary active">By Origin</button></a>
   <a href="" id="show_bycount" class="toggles"><button class="btn btn-primary">By Player Count</button></a>
@@ -118,7 +117,6 @@
     </div>
   </div>
   <div class="row">
-
     <div class="col-md-4 col-sm-6">
       <div class="panel panel-info">
         <div class="panel-heading">Stretch Goal Content Scenarios (Monolith Website)</div>
@@ -151,70 +149,72 @@
 </div>
 
 <div id="by_count">
-  <div class="col-md-4 col-sm-6">
-    <div class="panel panel-info">
-      <div class="panel-heading">5 Player Scenarios</div>
-      <table class="table">
-        <% @scenarios.each do |scenario| %>
-        <% if scenario.player_count === "5"%>
-        <tr>
-          <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
-        </tr>
-        <% end %>
-        <% end %>
-      </table>
+  <div class="row">
+    <div class="col-md-4 col-sm-6">
+      <div class="panel panel-info">
+        <div class="panel-heading">5 Player Scenarios</div>
+        <table class="table">
+          <% @scenarios.each do |scenario| %>
+          <% if scenario.player_count === "5"%>
+          <tr>
+            <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+          </tr>
+          <% end %>
+          <% end %>
+        </table>
+      </div>
+      <div class="panel panel-info">
+        <div class="panel-heading">4-5 Player Scenarios</div>
+        <table class="table">
+          <% @scenarios.each do |scenario| %>
+          <% if scenario.player_count === "4-5"%>
+          <tr>
+            <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+          </tr>
+          <% end %>
+          <% end %>
+        </table>
+      </div>
+      <div class="panel panel-info">
+        <div class="panel-heading">2 Player Scenarios</div>
+        <table class="table">
+          <% @scenarios.each do |scenario| %>
+          <% if scenario.player_count === "2"%>
+          <tr>
+            <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+          </tr>
+          <% end %>
+          <% end %>
+        </table>
+      </div>
     </div>
-    <div class="panel panel-info">
-      <div class="panel-heading">4-5 Player Scenarios</div>
-      <table class="table">
-        <% @scenarios.each do |scenario| %>
-        <% if scenario.player_count === "4-5"%>
-        <tr>
-          <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
-        </tr>
-        <% end %>
-        <% end %>
-      </table>
+    <div class="col-md-4 col-sm-6">
+      <div class="panel panel-info">
+        <div class="panel-heading">4 Player Scenarios</div>
+        <table class="table">
+          <% @scenarios.each do |scenario| %>
+          <% if scenario.player_count === "4"%>
+          <tr>
+            <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+          </tr>
+          <% end %>
+          <% end %>
+        </table>
+      </div>
     </div>
-    <div class="panel panel-info">
-      <div class="panel-heading">2 Player Scenarios</div>
-      <table class="table">
-        <% @scenarios.each do |scenario| %>
-        <% if scenario.player_count === "2"%>
-        <tr>
-          <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
-        </tr>
-        <% end %>
-        <% end %>
-      </table>
-    </div>
-  </div>
-  <div class="col-md-4 col-sm-6">
-    <div class="panel panel-info">
-      <div class="panel-heading">4 Player Scenarios</div>
-      <table class="table">
-        <% @scenarios.each do |scenario| %>
-        <% if scenario.player_count === "4"%>
-        <tr>
-          <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
-        </tr>
-        <% end %>
-        <% end %>
-      </table>
-    </div>
-  </div>
-  <div class="col-md-4 col-sm-6">
-    <div class="panel panel-info">
-      <div class="panel-heading">3 Player Scenarios</div>
-      <table class="table">
-        <% @scenarios.each do |scenario| %>
-        <% if scenario.player_count === "3"%>
-        <tr>
-          <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
-        </tr>
-        <% end %>
-        <% end %>
-      </table>
+    <div class="col-md-4 col-sm-6">
+      <div class="panel panel-info">
+        <div class="panel-heading">3 Player Scenarios</div>
+        <table class="table">
+          <% @scenarios.each do |scenario| %>
+          <% if scenario.player_count === "3"%>
+          <tr>
+            <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+          </tr>
+          <% end %>
+          <% end %>
+        </table>
+      </div>
     </div>
   </div>
 </div>

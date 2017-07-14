@@ -70,11 +70,11 @@
   <div class="col-md-2">
     <h4>The River</h4>
   </div>
-  <div class="col-md-10 sm_tiles">
+  <div class="col-md-10 sm_tiles"><tr>
     <% @scenario.tile_ids.each do |id| %>
       <% @tile = Tile.find_by_id [id] %>
       <td><%= link_to image_tag("#{@tile.tile_image}"), tile_path(id) %></td>
-    <% end %>
+    <% end %></tr>
   </div>
 </div><br />
 <div class="row">
