@@ -33,6 +33,15 @@
       <br /><br /><strong>Reinforcement:</strong> 4 reinforcement points.
       <br /><br /><a href="/tiles/4">Zogar Sag</a> has no spell for this scenario.',
 
+      tile1: 44,
+      tile2: 4,
+      tile3: 48,
+      tile4: 41,
+      tile5: 43,
+      tile6: 20,
+      tile7: 45,
+      tile8: 1,
+
       ruleone_title: "Yselda:",
       ruleone_text: "During setup, the Overlord secretly chooses one numbered token corresponding to a numbered hut in the setup diagram and sets it aside facedown. The first time a hero enters the chosen hut, the Overlord flips the token faceup and places Yselda’s model in the hut’s area.
       Yselda is unconscious, counts as an object with an encumbrance value of 6, and can be picked up by a hero by performing a simple manipulation. That hero takes the (Princess Token) and places it next to their character sheet. Yselda has one life point and no armor. She dies if she suffers any damage (such as an area attack).
@@ -83,6 +92,15 @@
       Then the Overlord replaces the Skuthus unit tile in the River with the Outer Dark Demon unit tile.
       <br /><br /><a href="/tiles/3">Skuthus</a> has <a href="/spells/11">Energy Drain</a> and <a href="/spells/5">Set’s Halo</a>. He starts with Set’s Halo cast.',
 
+      tile1: 37,
+      tile2: 57,
+      tile3: 33,
+      tile4: 35,
+      tile5: 36,
+      tile6: 1,
+      tile7: 5,
+      tile8: 3,
+
       ruleone_title: "Leap:",
       ruleone_text: 'If a hero, Zaporavo, or Skuthus fails to <a href="/skills/16">Leap</a>, the character remains in its area.
       If a minion or ally fails to <a href="/skills/16">Leap</a>, that character falls in the water and is eaten by sharks; the character dies.',
@@ -118,6 +136,15 @@
       <a href="/tiles/20">Giant Serpent</a> (8 life points), and <a href="/tiles/21">Khosatral Khel</a> (7 life points) are petrified and cannot be attacked until they are freed.
       The Overlord cannot free a monster if there are 2 faceup monster tiles in the River (including the <a href="/tiles/19">Dark Demon</a>).
       <br /><br /><a href="/tiles/3">Skuthus</a> has <a href="/spells/6">Set’s Bite</a>, <a href="/spells/5">Set’s Halo</a>. He starts with Set’s Halo cast.',
+
+      tile1: 19,
+      tile2: 3,
+      tile3: 57,
+      tile4: 41,
+      tile5: 1,
+      tile6: 0,
+      tile7: 0,
+      tile8: 0,
 
       ruleone_title: "Yuetshi Knife:",
       ruleone_text: 'When a hero attacks <a href="/tiles/21">Khosatral Khel</a> with the <a href="/items/6">Yuetshi Knife</a>, <a href="/tiles/21">Khosatral Khel’s</a> armor value becomes 3 for that attack.',
@@ -160,6 +187,15 @@
       <br /><br /><strong>Incantation:</strong> A hero rolls 1 Yellow die for each relic on the board. These dice cannot be rerolled.
       For each symbol shown on a die, the hero moves the invocation marker 1 space toward the space 0 on the track.',
 
+      tile1: 48,
+      tile2: 4,
+      tile3: 1,
+      tile4: 46,
+      tile5: 43,
+      tile6: 45,
+      tile7: 44,
+      tile8: 0,
+
       ruleone_title: "Barricades:",
       ruleone_text: 'Barricades block line of sight. A character cannot move across a barricade, but can attack a barricade as though it were an enemy character.
       Each barricade starts with 12 life points. When a barricade has 0 life points, remove it from the board.
@@ -199,6 +235,15 @@
       overlord_setup: 'The Overlord starts with 8 gems in their Reserve zone and 3 in their Fatigue zone, and places the recovery token showing a recovery value of “5” in the Book of Skelos.
       <br /><br /><strong>Reinforcement:</strong> 4 Reinforcement points.
       <br /><br /><strong>Rocks Fall:</strong> The Overlord chooses an area and rolls 2 Red dice. Each character in that area suffers damage equal to the number of symbols shown on the dice.',
+
+      tile1: 2,
+      tile2: 51,
+      tile3: 41,
+      tile4: 57,
+      tile5: 2,
+      tile6: 23,
+      tile7: 58,
+      tile8: 1,
 
       ruleone_title: "Olivia:",
       ruleone_text: 'Use the Princess model to represent Olivia on the game board. Olivia is unconscious, counts as an object th encumbrance value of 6, and can be picked up by a hero by performing a simple manipulation.
@@ -243,6 +288,15 @@
       <br /><br /><strong>2 priests</strong> - The Overlord chooses a Bossonian Guards tile. Each unit in that group gains up to 2 movement points, which the Overlord must immediately spend.
       <br /><br /><strong>3+ priests</strong> - Unleashed: Once per game, the Overlord places the Thak model (10 life points) in the area indicated by the setup diagram and places the Thak tile at the end of the River.
       <br /><br />The Overlord places 5 numbered tokens from 1 to 5 facedown on the game board as indicated by the setup diagram to represent priests. The priest with the lowest-numbered token can break the curse.',
+
+      tile1: 53,
+      tile2: 54,
+      tile3: 1,
+      tile4: 0,
+      tile5: 0,
+      tile6: 0,
+      tile7: 0,
+      tile8: 0,
 
       ruleone_title: "Interrogation:",
       ruleone_text: 'A hero in an area with a priest can move 1 gem from their Reserve zone to their Fatigue zone to roll 1 Red die. This roll is not affected by hindering. Resolve one of the following effects based on the number of symbols shown on the die:
@@ -291,6 +345,15 @@
       <br /><br /><strong>Rogue Wave:</strong> A huge wave rocks the ship; the Overlord rolls 1 Red die. For each symbol shown on the die, the Overlord either moves a hero up to 3 ship areas or removes a mutineering Pirate from the board. A hero cannot be moved into a water area.
       <br /><br /><strong>Turncoats:</strong> The Overlord rolls 1 Red die. For each symbol shown on the die, the Overlord replaces a mutineering Pirate model on the board with a Pirate model from off the board.',
 
+      tile1: 35,
+      tile2: 36,
+      tile3: 1,
+      tile4: 57,
+      tile5: 2,
+      tile6: 0,
+      tile7: 0,
+      tile8: 0,
+
       ruleone_title: "Mutineering Pirates:",
       ruleone_text: 'PiratemodelswithredbasesaremutineeringPirates,andareconsideredallies.MutineeringPiratescannot
       be activated using Leadership. Once per hero turn, the heroes can activate all mutineering pirates. Mutineering pirates move and attack like a unit group.',
@@ -322,6 +385,15 @@
       overlord_setup: '
       <br /><br /><strong>Reinforcement:</strong> 4 reinforcement points.
       <br /><br /><strong>Jammed Ballista:</strong> The Overlord rolls 1 Orange die. If the die shows 1 or more symbols, the Overlord chooses an area with a ballista. That ballista cannot be used on the heroes’ next turn.',
+
+      tile1: 0,
+      tile2: 0,
+      tile3: 0,
+      tile4: 0,
+      tile5: 0,
+      tile6: 0,
+      tile7: 0,
+      tile8: 0,
 
       ruleone_title: "Leap:",
       ruleone_text: 'If a hero or Zaporavo fails to <a href="/skills/16">Leap</a>, the character remains in its area. If a minion or ally fails to <a href="/skills/16">Leap</a>, the character falls in the water and is eaten by sharks; the character dies.',
@@ -359,6 +431,15 @@
       <br /><br />After setup, the Overlord takes each hero’s equipment cards, places them in different piles, and assigns each pile to an area (except room 11) by placing a token with the corresponding number facedown on each group of cards.
       The Overlord may hide the equipment in different areas but cannot split one hero’s equipment. Hadrathus keeps his spells.',
 
+      tile1: 53,
+      tile2: 54,
+      tile3: 57,
+      tile4: 2,
+      tile5: 1,
+      tile6: 0,
+      tile7: 0,
+      tile8: 0,
+
       ruleone_title: "Recovering Equipment:",
       ruleone_text: 'A hero can search a numbered area by performing a complex Manipulation with a difficulty of 1. If the hero succeeds and that hero’s starting equipment is assigned to the area, the hero takes those equipment cards and discards the facedown token to the game box.',
       ruletwo_title: "Freedom:",
@@ -379,7 +460,6 @@
       The Overlord places the green Bossonian Guards tile on the left in the River, sliding tiles to the right as needed, and replaces the recovery token in the book of Skelos with the recovery token showing a recovery value of “5.”',
       rulefive_title: "Breakout:",
       rulefive_text: 'When a hero opens the last chest on the board, that hero takes a Tools card. A hero with Tools in an area with a window can perform a complex Manipulation with a difficulty of 3. If the hero succeeds, the Tools card is discarded and the heroes’ area becomes an exit. A hero in an exit area can spend 1 movement point to escape the inn; that hero removes their figure from the board.',
-
       rulesix_title: "Walls:",
       rulesix_text: 'A character with <a href="/skills/11">Wall Wrecker</a> cannot use it to move across an outer wall of the inn or to move between areas of different elevations.',
       ruleseven_title: "Leaping From/Climbing a Balcony:",
@@ -421,6 +501,15 @@
       <br />The Overlord takes the remaining 4 <a href="/items/57">objectives</a>, 3 <a href="/items/47">Sacred Treasures</a>, and 1 <a href="/items/46">Idol of Yag-Kosha</a>, shuffles them together, and randomly places 1 card facedown in each hut area.
       <br />Then the Overlord takes 1 <a href="/items/1">Battle Axe</a>, 1 <a href="/items/19">Buckler</a>, 1 <a href="/items/2">Dagger</a>, 1 <a href="/items/10">Sword</a>, 1 <a href="/items/11">Parrying Dagger</a>,
       2 <a href="/items/45">Pictish Drinks</a>, and 1 <a href="/items/3">Javelin</a>, shuffles them together, and randomly places 1 card facedown in each hut area (2 cards total in each hut area).',
+
+      tile1: 43,
+      tile2: 46,
+      tile3: 41,
+      tile4: 48,
+      tile5: 4,
+      tile6: 1,
+      tile7: 0,
+      tile8: 0,
 
       ruleone_title: "Search:",
       ruleone_text: 'A hero in a hut area can perform a complex Manipulation to search the hut. The manipulation has no difficulty; instead, for each symbol shown on the die, the hero takes 1 facedown card in the area:
@@ -481,6 +570,15 @@
       <br /><br /><strong>Reinforcement:</strong> 4 reinforcement points.
       <br /><br /><strong>As You Wish:</strong> The Overlord may exchange the position of 2 tiles in the River.',
 
+      tile1: 36,
+      tile2: 5,
+      tile3: 58,
+      tile4: 54,
+      tile5: 1,
+      tile6: 5,
+      tile7: 2,
+      tile8: 35,
+
       ruleone_title: "Red Chest:",
       ruleone_text: 'A hero in the red chest’s area with a Key can perform a simple Manipulation to open the chest. The chest cannot otherwise be opened, and is considered an object with an encumbrance of 5. When a hero opens the chest, the hero takes a Spellbook instead of a card from the asset deck.',
       ruletwo_title: "Walls:",
@@ -525,6 +623,15 @@
       <br /><br /><strong>Reinforcement:</strong> 10 reinforcement points.
       <br /><br />Skuthus has <a href="/spells/2">Pestilential Swarm</a> and <a href="/spells/13">Teleportation</a>.',
 
+      tile1: 3,
+      tile2: 19,
+      tile3: 76,
+      tile4: 69,
+      tile5: 1,
+      tile6: 19,
+      tile7: 66,
+      tile8: 71,
+
       ruleone_title: "Doors:",
       ruleone_text: 'A hero in an area adjacent to the red door can perform a complex Manipulation with a difficulty of 5 to pick the lock. If the hero succeeds, remove the door from the board.
       A hero in an area adjacent to a non-red door can perform a complex Manipulation with a difficulty of 2 to pick the lock. If the hero succeeds, remove the door from the board.',
@@ -563,6 +670,15 @@
       <br /><br />During setup, place the energy marker on space 0 of the track.
       <br /><br /><strong>Thog’s Shadow:</strong> During the next hero turn, heroes cannot gain movement points from their movement values.',
 
+      tile1: 13,
+      tile2: 55,
+      tile3: 30,
+      tile4: 58,
+      tile5: 1,
+      tile6: 2,
+      tile7: 30,
+      tile8: 51,
+
       ruleone_title: "Black Lotus:",
       ruleone_text: 'Aftersetup,layeachBossonianGuard,BossonianArcher,andCaptainmodeldowninthemodel’sarea.Laid-down models are slumbering. Heroes cannot attack slumbering units, slumbering units do not count for hindering, and slumbering units cannot be activated. When the Overlord activates a tile, the Overlord may stand up any number of models in that group before activating units.',
       ruletwo_title: "Crowns of Xuthal:",
@@ -586,9 +702,6 @@
       origin: "King Pledge", map_ids: [3], hero_ids: [2, 3, 7], tile_ids: [13, 55, 30, 58, 1, 2, 30, 51], spell_ids: [], item_ids: [1, 11, 14, 15, 16] },
 
 
-
-
-
     { name: "Conspiracy in Khauran", description: "Khauran is a small country, wedged between the great Western states and the sultanates of the Far East. Its major city—also called Khauran—is an affluent trade center that controls many caravan routes. Like a watchtower, it stands near the river that separates the lush regions from the vast, sandy desert.
       Threatened for decades by the Shemite nomads and the Zuagir pillagers who prowl the deserts to the East, the kingdom has always relied on contingents of mercenaries from all Hyborian nations to defend itself. Though not of Hyborian blood, Conan—the mighty Cimmerian—finds himself among those troops after having pledged his sword for gold. A fitting duty for the barbarian; clashing swords with Shemites by day, and squandering his pay on wine and soft flesh in the taverns of Khauran by night.
       During a night of carousing, Conan overhears a whispered conversation regarding a conspiracy against Queen Taramis. He learns that the Captain of the Royal Guard could be leading the conspirators with the support of the King of Zamora. The Cimmerian knows that the queen rewards loyalty, but he also knows that without solid evidence, it will be impossible for him to thwart the conspiracy officially. Thus, he decides to act directly and, with the help of a few acolytes, heads toward the inn where the conspirators are ex- pected to meet, convinced that he will find evidence of their treachery.",
@@ -609,6 +722,15 @@
       overlord_setup: 'The Overlord starts with 9 gems in their Reserve zone and 3 in their Fatigue zone, and places the recovery token showing a recovery value of “5” in the Book of Skelos.
       <br /><br /><strong>Reinforcement:</strong> 4 reinforcement points.
       <br /><br /><strong>Fire at Will:</strong> Each unit may perform a Ranged Attack if able.',
+
+      tile1: 61,
+      tile2: 53,
+      tile3: 2,
+      tile4: 1,
+      tile5: 60,
+      tile6: 59,
+      tile7: 2,
+      tile8: 0,
 
       ruleone_title: "Chests:",
       ruleone_text: 'During setup, the Overlord randomly places 2 (chest) tokens numbered 1 and 2, with their chest side faceup, as indicated by the setup diagram.',
@@ -654,6 +776,15 @@
       <br /><br /><strong>Forced March:</strong> The Overlord can activate a Kushite unit tile without moving gems from their Reserve zone to their Fatigue zone. The activated Kushite unit tile is placed at the end of the River, after the event tile.
       <br /><br /> Shubba has <a href="/spells/13">Teleportation</a>, <a href="/spells/14">Set’s Possession</a>, <a href="/spells/15">Lightning Storm</a> and <a href="/spells/11">Energy Drain</a>.',
 
+      tile1: 16,
+      tile2: 17,
+      tile3: 41,
+      tile4: 1,
+      tile5: 18,
+      tile6: 15,
+      tile7: 0,
+      tile8: 0,
+
       ruleone_title: "Kushites:",
       ruleone_text: "Afari, Shafiah, Ghayoor and Shubba are considered to be Kushite units.",
       ruletwo_title: "Yag’s Orb:",
@@ -694,6 +825,15 @@
       overlord_setup: 'The Overlord starts with 5 gems in their Reserve zone and 3 in their Fatigue zone, and places the recovery token showing a recovery value of “3” in the Book of Skelos.
       <br /><br /><strong>Reinforcement:</strong> 2 reinforcement points.',
 
+      tile1: 53,
+      tile2: 57,
+      tile3: 52,
+      tile4: 2,
+      tile5: 1,
+      tile6: 23,
+      tile7: 0,
+      tile8: 0,
+
       ruleone_title: "Xuthal’s Crowns:",
       ruleone_text: 'When Yogah of Yag picks up a <a href="/items/24">Xuthal’s Crown</a>, place one gem from his Fatigue zone to the <a href="/items/24">Xuthal’s Crown</a> equipment card. If there are no gems in his Fatigue zone, take a gem from those assigned to action spaces or spell cards.
       If those are also empty, take a gem from his Reserve zone. As long as this gem is on the <a href="/items/24">Xuthal’s Crown</a> card, it is no longer available to Yogah of Yag and thus no longer counts toward his life point total.
@@ -732,6 +872,15 @@
       <br /><br /><strong>Crowd Control:</strong> see Special Rules.
       <br /><br /> Shubba has <a href="/spells/11">Energy Drain</a>, <a href="/spells/12">Mind Control</a>, and <a href="/spells/13">Teleportation</a>.',
 
+      tile1: 16,
+      tile2: 17,
+      tile3: 18,
+      tile4: 15,
+      tile5: 1,
+      tile6: 0,
+      tile7: 0,
+      tile8: 0,
+
       ruleone_title: "Artifacts:",
       ruleone_text: 'During setup, the Overlord places the artifacts, represented by the tokens (), as indicated by the setup diagram. A Kushite (Afari, Ghayor, Shafiah and Shubba) in an artifact’s area may perform a Melee Attack and roll at least 2 symbols in a single attack to destroy that artifact.
       This Melee Attack follows the same rules as any Melee Attack (Sacrifice, Circular Strike, etc.) and Bêlit’s Guards can use Sacrifice to defend the artifacts.',
@@ -768,6 +917,15 @@
       overlord_goal: "If the Overlord prevents the Captain from fleeing the citadel by the end of turn 8; the Overlord wins the game.",
       overlord_setup: 'The Overlord starts with 9 gems in their Reserve zone and 3 in their Fatigue zone, and places the recovery token showing a recovery value of “7” in the Book of Skelos.
       <br /><br /><strong>Reinforcement:</strong> 3 reinforcement points.',
+
+      tile1: 39,
+      tile2: 37,
+      tile3: 2,
+      tile4: 53,
+      tile5: 34,
+      tile6: 2,
+      tile7: 1,
+      tile8: 0,
 
       ruleone_title: "Ring:",
       ruleone_text: 'During setup 4 red gems are placed on the Ring card. These gems can be used by the hero carrying the Ring only to cast spells. When the hero carrying the Ring wants to use these red gems to cast a spell, they move them from the Ring card to the spell card. The gems used in this way must not raise the total number of gems on the spell card above its exertion limit. A hero can combine the red gems with their own gems from their Reserve zone to cast a spell. During the start phase and the end phase of each heroes’ turn, the carrier of the ring moves the red gems from the spell cards to the Ring card. The red gems of the Ring card are never counted when calculating the life points of a hero.',
@@ -813,6 +971,15 @@
       <br /><br /><strong>Reinforcement:</strong> 3 reinforcement points.
       <br /><br /><strong>Forced March</strong> The Overlord chooses a unit tile of Pict Hunters, Pict Archers or Pict Warriors. All the models of that tile can move according to their movement value. The Overlord can use the Movement benefit.',
 
+      tile1: 42,
+      tile2: 50,
+      tile3: 2,
+      tile4: 1,
+      tile5: 48,
+      tile6: 2,
+      tile7: 1,
+      tile8: 0,
+
       ruleone_title: "Bossonian Guard:",
       ruleone_text: 'Only Conan the General can use Leadership to activate the Bossonian Guards. For this scenario, Conan the General and Balthus cannot spend gems to defend the Bossonian Guards.',
       ruletwo_title: "Slasher:",
@@ -851,6 +1018,15 @@
       overlord_goal: "If the Overlord prevents the heroes from destroying the outpost and sabotaging the citadel before the end of turn 8; the Overlord wins the game.",
       overlord_setup: 'The Overlord starts with 8 gems in their Reserve zone and 4 in their Fatigue zone, and places the recovery token showing a recovery value of “7” in the Book of Skelos.
       <br /><br /><strong>Reinforcement:</strong> 4 reinforcement points (see special rules).',
+
+      tile1: 53,
+      tile2: 84,
+      tile3: 89,
+      tile4: 51,
+      tile5: 90,
+      tile6: 92,
+      tile7: 1,
+      tile8: 0,
 
       ruleone_title: "Two Fronts:",
       ruleone_text: 'During setup, the Overlord places the two boards next to each other. The action in this scenario happens in two distant locations and at two different moments in time. The events played on the citadel board happen before the action played out on the outpost board.
@@ -928,6 +1104,15 @@
       <br /><br /><strong>Reinforcement:</strong> 4 reinforcement points.
       <br /><br /> Zogar Sag has <a href="/spells/6">Set’s Bite</a>and <a href="/spells/3">Magical Dizziness</a>.',
 
+      tile1: 44,
+      tile2: 45,
+      tile3: 50,
+      tile4: 2,
+      tile5: 48,
+      tile6: 4,
+      tile7: 1,
+      tile8: 3,
+
       ruleone_title: "Dragon:",
       ruleone_text: 'The area between the 4 legs of the dragon is considered as its base with regard to occupied areas. The dragon is counted as one model when calculating hindering. During its capture the Dragon has been poisoned; during setup, the Overlord places a second Dragon tile next to the Book of Skelos with 3 (token) tokens on it to represent this. The Dragon loses 1 Red-Reroll die to its Melee Attack value per token on this Dragon tile.
       There can be a maximum of 3 tokens on the Dragon tile. A (token) token is placed on the spaces 2, 4 and 6 of the turn track. When the turn track token is placed on the (token) token, one of the tokens placed on the set aside Dragon tile is removed if possible.',
@@ -971,6 +1156,15 @@
       <br /><br /><strong>Gaining Ground:</strong> (see special rules).
       <br /><br /><strong>Reinforcement:</strong> 5 reinforcement points (see special rules).
       <br /><br /> Hyperborean Primitive has <a href="/spells/2">Pestilential Swarm</a> and <a href="/spells/36">Withering</a>.',
+
+      tile1: 8,
+      tile2: 25,
+      tile3: 1,
+      tile4: 0,
+      tile5: 0,
+      tile6: 0,
+      tile7: 0,
+      tile8: 0,
 
       ruleone_title: "Pirates, Bossonian Guards and Archers:",
       ruleone_text: 'When a pirate or a Bossonian Guard or a Bossonian Archer is killed, the Overlord replaces its model with a skeleton model that is placed in a laid down position in the area where the pirate or the guard or the archer was killed.
@@ -1030,6 +1224,15 @@
       overlord_setup: 'The Overlord starts with 7 gems in their Reserve zone and 3 in their Fatigue zone, and places the recovery token showing a recovery value of “5” in the Book of Skelos.
       <br /><br /><strong>Reinforcement:</strong> 2 reinforcement points (see special rules).',
 
+      tile1: 38,
+      tile2: 36,
+      tile3: 1,
+      tile4: 51,
+      tile5: 38,
+      tile6: 5,
+      tile7: 1,
+      tile8: 0,
+
       ruleone_title: "Sinking a Ship:",
       ruleone_text: 'Only one ship may be sunk during the scenario. There are two different ways a hero can sink a ship:
       • A hero in a reinforcement token’s area may perform a complex manipulation with a difficulty of 5 to sink that ship.
@@ -1078,6 +1281,15 @@
       <br /><br /><strong>Reinforcement:</strong> 5 reinforcement points.
       <br /><br />During setup the Overlord places the tokens numbered 1 to 3 faceup on the board as indicated by the set up diagram to represent the altars.
       <br /><br /> The Sorcerer has <a href="/spells/25">Return of the Braves</a> and <a href="/spells/7">Mitra’s Halo</a>.',
+
+      tile1: 11,
+      tile2: 76,
+      tile3: 74,
+      tile4: 11,
+      tile5: 75,
+      tile6: 65,
+      tile7: 1,
+      tile8: 0,
 
       ruleone_title: "Animal Form:",
       ruleone_text: 'At the beginning of the scenario the tiles of the Giant Spider, the Giant Scorpion and the Camel are placed next to the Book of Skelos, unbloody side faceup, these tiles are considered as being the animal form tiles.

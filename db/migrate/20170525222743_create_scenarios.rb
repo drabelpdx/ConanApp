@@ -11,6 +11,14 @@ class CreateScenarios < ActiveRecord::Migration
       t.text :hero_setup
       t.text :overlord_goal
       t.text :overlord_setup
+      t.integer :tile1
+      t.integer :tile2
+      t.integer :tile3
+      t.integer :tile4
+      t.integer :tile5
+      t.integer :tile6
+      t.integer :tile7
+      t.integer :tile8
       t.text :ruleone_title
       t.text :ruleone_text
       t.text :ruletwo_title

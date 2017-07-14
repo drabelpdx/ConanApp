@@ -50,6 +50,8 @@ class ScenariosController < ApplicationController
                                        :pdf_link, :player_count, :complexity,
                                        :hero_goal, :hero_setup,
                                        :overlord_goal, :overlord_setup,
+                                       :tile1, :tile2, :tile3, :tile4,
+                                       :tile5, :tile6, :tile7, :tile8,
                                        :ruleone_title, :ruleone_text,
                                        :ruletwo_title, :ruletwo_text,
                                        :rulethree_title, :rulethree_text,
