@@ -10,6 +10,8 @@ class CreateItems < ActiveRecord::Migration
       t.string :ranged_dice
       t.string :defense_dice
       t.string :manipulation_dice
+      t.string :role
+      t.string :description
       t.timestamps
     end
   end

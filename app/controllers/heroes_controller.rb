@@ -3,7 +3,8 @@ class HeroesController < ApplicationController
   before_action :set_heroes, only: [:index]
   before_action :set_skills, only: [:new, :create, :edit, :update, :show]
   before_action :set_stories, only: [:new, :create, :edit, :update, :show]
-
+  before_action :require_user, except: [:index, :show]
+  before_action :require_admin, except: [:index, :show]
 
   def index
   end
@@ -15,7 +16,7 @@ class HeroesController < ApplicationController
   def create
     @hero = Hero.new(hero_params)
     if @hero.save
-      flash[:notice] = "Hero was successfully created"
+      flash[:success] = "Hero was successfully created"
       redirect_to hero_path(@hero)
     else
       render 'new'
@@ -27,7 +28,7 @@ class HeroesController < ApplicationController
 
   def update
     if @hero.update(hero_params)
-      flash[:notice] = "Hero was successfully updated"
+      flash[:success] = "Hero was successfully updated"
       redirect_to hero_path(@hero)
     else
       render 'edit'
@@ -40,7 +41,7 @@ class HeroesController < ApplicationController
 
   def destroy
     @hero.destroy
-    flash[:notice] = "Hero was successfully deleted"
+    flash[:danger] = "A Hero was deleted!"
     redirect_to heroes_path
   end
 
@@ -78,5 +79,12 @@ class HeroesController < ApplicationController
       @nordheim = Hero.where(origin: 'Nordheim Expansion')
       @stygia = Hero.where(origin: 'Stygia Expansion')
       @khitai = Hero.where(origin: 'Khitai Expansion')
+    end
+
+    def require_admin
+      if logged_in? and !current_user.admin?
+        flash[:danger] = "Only admins can perform that action"
+        redirect_to root_path
+      end
     end
 end

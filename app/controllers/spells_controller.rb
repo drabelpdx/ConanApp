@@ -1,6 +1,7 @@
 class SpellsController < ApplicationController
   before_action :set_spell, only: [:edit, :update, :show, :destroy]
   before_action :set_spells, only: [:index]
+  before_action :require_admin, except: [:index, :show]
 
   def index
     @spells = Spell.all
@@ -13,7 +14,7 @@ class SpellsController < ApplicationController
   def create
     @spell = Spell.new(spell_params)
     if @spell.save
-      flash[:notice] = "Spell was successfully created"
+      flash[:success] = "Spell was successfully created"
       redirect_to spell_path(@spell)
     else
       render 'new'
@@ -25,7 +26,7 @@ class SpellsController < ApplicationController
 
   def update
     if @spell.update(spell_params)
-      flash[:notice] = "Spell was successfully updated"
+      flash[:success] = "A Spell was updated!"
       redirect_to spell_path(@spell)
     else
       render 'edit'
@@ -38,7 +39,7 @@ class SpellsController < ApplicationController
 
   def destroy
     @spell.destroy
-    flash[:notice] = "Spell was successfully deleted"
+    flash[:danger] = "Spell was successfully deleted"
     redirect_to spells_path
   end
 
@@ -60,5 +61,12 @@ class SpellsController < ApplicationController
     def spell_params
       params.require(:spell).permit(:name, :description, :cost, :limit, :area,
       :instant, :origin, :count)
+    end
+
+    def require_admin
+      if logged_in? and !current_user.admin?
+        flash[:danger] = "Only admins can perform that action"
+        redirect_to root_path
+      end
     end
 end

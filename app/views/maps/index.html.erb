@@ -1,4 +1,4 @@
-<h1>Maps</h1>
+<h1 class="map">Maps</h1>
 <p>
   The maps are organized by the box they came in: Core Game, Stretch Goals, or Expansion.
 </p>
@@ -6,7 +6,7 @@
 <!-- <p><%= link_to "Add a Map", new_map_path %></p> -->
 <div class="row">
   <div class="col-md-4 col-sm-6">
-    <div class="panel panel-info">
+    <div class="panel panel-map">
       <div class="panel-heading">Core Game Maps</div>
       <table class="table">
         <% @core.each do |map| %>
@@ -14,14 +14,14 @@
           <td class="sm-maps">
             <%= image_tag "#{map.image}" %>
           </td>
-          <td><%= link_to map.name, map_path(map) %></td>
+          <td class="map"><%= link_to map.name, map_path(map) %></td>
         </tr>
         <% end %>
       </table>
     </div>
   </div>
   <div class="col-md-4 col-sm-6">
-    <div class="panel panel-info">
+    <div class="panel panel-map">
       <div class="panel-heading">Strech Goal Maps</div>
       <table class="table">
         <% @stretch.each do |map| %>
@@ -29,44 +29,12 @@
           <td class="sm-maps">
             <%= image_tag "#{map.image}" %>
           </td>
-          <td><%= link_to map.name, map_path(map) %></td>
+          <td class="map"><%= link_to map.name, map_path(map) %></td>
         </tr>
         <% end %>
       </table>
     </div>
-  </div>
-  <div class="col-md-4 col-sm-6">
-    <div class="panel panel-info">
-      <div class="panel-heading">Nordheim Maps</div>
-      <table class="table">
-        <% @nordheim.each do |map| %>
-        <tr>
-          <td class="sm-maps">
-            <%= image_tag "#{map.image}" %>
-          </td>
-          <td><%= link_to map.name, map_path(map) %></td>
-        </tr>
-        <% end %>
-      </table>
-    </div>
-  </div>
-  <div class="col-md-4 col-sm-6">
-    <div class="panel panel-info">
-      <div class="panel-heading">Stygia Maps</div>
-      <table class="table">
-        <% @stygia.each do |map| %>
-        <tr>
-          <td class="sm-maps">
-            <%= image_tag "#{map.image}" %>
-          </td>
-          <td><%= link_to map.name, map_path(map) %></td>
-        </tr>
-        <% end %>
-      </table>
-    </div>
-  </div>
-  <div class="col-md-4 col-sm-6">
-    <div class="panel panel-info">
+    <div class="panel panel-map">
       <div class="panel-heading">Khitai Maps</div>
       <table class="table">
         <% @khitai.each do |map| %>
@@ -74,7 +42,35 @@
           <td class="sm-maps">
             <%= image_tag "#{map.image}" %>
           </td>
-          <td><%= link_to map.name, map_path(map) %></td>
+          <td class="map"><%= link_to map.name, map_path(map) %></td>
+        </tr>
+        <% end %>
+      </table>
+    </div>
+  </div>
+  <div class="col-md-4 col-sm-6">
+    <div class="panel panel-map">
+      <div class="panel-heading">Nordheim Maps</div>
+      <table class="table">
+        <% @nordheim.each do |map| %>
+        <tr>
+          <td class="sm-maps">
+            <%= image_tag "#{map.image}" %>
+          </td>
+          <td class="map"><%= link_to map.name, map_path(map) %></td>
+        </tr>
+        <% end %>
+      </table>
+    </div>
+    <div class="panel panel-map">
+      <div class="panel-heading">Stygia Maps</div>
+      <table class="table">
+        <% @stygia.each do |map| %>
+        <tr>
+          <td class="sm-maps">
+            <%= image_tag "#{map.image}" %>
+          </td>
+          <td class="map"><%= link_to map.name, map_path(map) %></td>
         </tr>
         <% end %>
       </table>

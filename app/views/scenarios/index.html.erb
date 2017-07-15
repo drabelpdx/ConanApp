@@ -1,4 +1,4 @@
-<h1>Scenarios</h1>
+<h1 class="scenario">Scenarios</h1>
 <p>
   Scenarios are the basis of each game. They outline the characters, map, items and any special rules used.
   Below is a list of official scenarios. These can be sorted by the box that the scenario or
@@ -8,10 +8,10 @@
 <!-- <p><%= link_to "Add a Scenario", new_scenario_path %></p> -->
 
 <div align="center">
-  <a href="" id="show_byorigin" class="toggles"><button class="btn btn-primary active">By Origin</button></a>
-  <a href="" id="show_bycount" class="toggles"><button class="btn btn-primary">By Player Count</button></a>
-  <a href="" id="show_bycomplexity" class="toggles"><button class="btn btn-primary">By Complexity</button></a>
-  <a href="" id="show_bymap" class="toggles"><button class="btn btn-primary">By Map</button></a>
+  <a href="" id="show_byorigin" class="toggles"><button class="btn btn-scenario active">By Origin</button></a>
+  <a href="" id="show_bycount" class="toggles"><button class="btn btn-scenario">By Player Count</button></a>
+  <a href="" id="show_bycomplexity" class="toggles"><button class="btn btn-scenario">By Complexity</button></a>
+  <a href="" id="show_bymap" class="toggles"><button class="btn btn-scenario">By Map</button></a>
 </div>
 <hr>
 
@@ -24,7 +24,7 @@
           <% @scenarios.each do |scenario| %>
           <% if scenario.origin === "Core Game"%>
           <tr>
-            <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
           </tr>
           <% end %>
           <% end %>
@@ -38,7 +38,7 @@
           <% @scenarios.each do |scenario| %>
           <% if scenario.origin === "King Pledge"%>
           <tr>
-            <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
           </tr>
           <% end %>
           <% end %>
@@ -50,7 +50,7 @@
           <% @scenarios.each do |scenario| %>
           <% if scenario.origin === "Stretch Goals"%>
           <tr>
-            <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
           </tr>
           <% end %>
           <% end %>
@@ -64,7 +64,7 @@
           <% @scenarios.each do |scenario| %>
           <% if scenario.origin === "Add-Ons"%>
           <tr>
-            <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
           </tr>
           <% end %>
           <% end %>
@@ -80,7 +80,7 @@
           <% @scenarios.each do |scenario| %>
           <% if scenario.origin === "Nordheim Expansion"%>
           <tr>
-            <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
           </tr>
           <% end %>
           <% end %>
@@ -94,7 +94,7 @@
           <% @scenarios.each do |scenario| %>
           <% if scenario.origin === "Stygia Expansion"%>
           <tr>
-            <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
           </tr>
           <% end %>
           <% end %>
@@ -108,7 +108,7 @@
           <% @scenarios.each do |scenario| %>
           <% if scenario.origin === "Khitai Expansion"%>
           <tr>
-            <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
           </tr>
           <% end %>
           <% end %>
@@ -124,7 +124,7 @@
           <% @scenarios.each do |scenario| %>
           <% if scenario.origin === "Stretch Goals +"%>
           <tr>
-            <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
           </tr>
           <% end %>
           <% end %>
@@ -138,7 +138,7 @@
           <% @scenarios.each do |scenario| %>
           <% if scenario.origin === "Monolith Other"%>
           <tr>
-            <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
           </tr>
           <% end %>
           <% end %>
@@ -157,7 +157,7 @@
           <% @scenarios.each do |scenario| %>
           <% if scenario.player_count === "5"%>
           <tr>
-            <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
           </tr>
           <% end %>
           <% end %>
@@ -169,7 +169,7 @@
           <% @scenarios.each do |scenario| %>
           <% if scenario.player_count === "4-5"%>
           <tr>
-            <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
           </tr>
           <% end %>
           <% end %>
@@ -181,7 +181,7 @@
           <% @scenarios.each do |scenario| %>
           <% if scenario.player_count === "2"%>
           <tr>
-            <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
           </tr>
           <% end %>
           <% end %>
@@ -195,7 +195,7 @@
           <% @scenarios.each do |scenario| %>
           <% if scenario.player_count === "4"%>
           <tr>
-            <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
           </tr>
           <% end %>
           <% end %>
@@ -209,7 +209,7 @@
           <% @scenarios.each do |scenario| %>
           <% if scenario.player_count === "3"%>
           <tr>
-            <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
           </tr>
           <% end %>
           <% end %>
@@ -228,7 +228,7 @@
           <% @scenarios.each do |scenario| %>
           <% if scenario.map_ids.include?(1)%>
           <tr>
-            <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
           </tr>
           <% end %>
           <% end %>
@@ -241,7 +241,7 @@
           <% @scenarios.each do |scenario| %>
           <% if scenario.map_ids.include?(2)%>
           <tr>
-            <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
           </tr>
           <% end %>
           <% end %>
@@ -255,7 +255,7 @@
           <% @scenarios.each do |scenario| %>
           <% if scenario.map_ids.include?(3)%>
           <tr>
-            <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
           </tr>
           <% end %>
           <% end %>
@@ -269,7 +269,7 @@
           <% @scenarios.each do |scenario| %>
           <% if scenario.map_ids.include?(4)%>
           <tr>
-            <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
           </tr>
           <% end %>
           <% end %>
@@ -283,7 +283,7 @@
           <% @scenarios.each do |scenario| %>
           <% if scenario.map_ids.include?(5)%>
           <tr>
-            <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
           </tr>
           <% end %>
           <% end %>
@@ -297,7 +297,7 @@
           <% @scenarios.each do |scenario| %>
           <% if scenario.map_ids.include?(6)%>
           <tr>
-            <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
           </tr>
           <% end %>
           <% end %>
@@ -315,7 +315,7 @@
           <% @scenarios.sort_by {|scenario| scenario.name }.each do |scenario| %>
           <% if scenario.complexity === "1" %>
           <tr>
-            <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
           </tr>
           <% end %>
           <% end %>
@@ -329,7 +329,7 @@
           <% @scenarios.sort_by {|scenario| scenario.name }.each do |scenario| %>
           <% if scenario.complexity === "2" %>
           <tr>
-            <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
           </tr>
           <% end %>
           <% end %>
@@ -343,7 +343,7 @@
           <% @scenarios.sort_by {|scenario| scenario.name }.each do |scenario| %>
           <% if scenario.complexity === "3" %>
           <tr>
-            <td align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
           </tr>
           <% end %>
           <% end %>

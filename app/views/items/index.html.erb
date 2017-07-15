@@ -1,80 +1,174 @@
-<h1>Items</h1>
+<h1 class="item">Items</h1>
+<p>Click on a item to read more about it and any scenarios it appears in.</P>
 
 <!-- <p><%= link_to "Add an Item", new_item_path %></p> -->
 
-<div class="row">
-  <div class="col-md-4 col-sm-6">
-    <div class="panel panel-info">
-      <div class="panel-heading">Core Game Items</div>
-      <table class="table">
-        <% @core.sort_by {|item| item.name }.each do |item| %>
-          <tr>
-            <td align="center"><%= link_to item.name, item_path(item) %></td>
-          </tr>
-        <% end %>
-      </table>
+<div align="center">
+  <a href="" id="show_byorigin" class="toggles"><button class="btn btn-item active">By Origin</button></a>
+  <a href="" id="show_bytype" class="toggles"><button class="btn btn-item">By Type</button></a>
+</div>
+<hr>
+
+<div id="by_origin">
+  <div class="row">
+    <div class="col-md-4 col-sm-6">
+      <div class="panel panel-item">
+        <div class="panel-heading">Core Game Items</div>
+        <table class="table">
+          <% @core.sort_by {|item| item.name }.each do |item| %>
+            <tr>
+              <td class="item" align="center"><%= link_to item.name, item_path(item) %></td>
+            </tr>
+          <% end %>
+        </table>
+      </div>
     </div>
-  </div>
-  <div class="col-md-4 col-sm-6">
-    <div class="panel panel-info">
-      <div class="panel-heading">Stretch Goal Items</div>
-      <table class="table">
-        <% @stretch.sort_by {|item| item.name }.each do |item| %>
-          <tr>
-            <td align="center"><%= link_to item.name, item_path(item) %></td>
-          </tr>
-        <% end %>
-      </table>
+    <div class="col-md-4 col-sm-6">
+      <div class="panel panel-item">
+        <div class="panel-heading">Stretch Goal Items</div>
+        <table class="table">
+          <% @stretch.sort_by {|item| item.name }.each do |item| %>
+            <tr>
+              <td class="item" align="center"><%= link_to item.name, item_path(item) %></td>
+            </tr>
+          <% end %>
+        </table>
+      </div>
     </div>
-  </div>
-  <div class="col-md-4 col-sm-6">
-    <div class="panel panel-info">
-      <div class="panel-heading">Campaign Items</div>
-      <table class="table">
-        <% @campaign.sort_by {|item| item.name }.each do |item| %>
-          <tr>
-            <td align="center"><%= link_to item.name, item_path(item) %></td>
-          </tr>
-        <% end %>
-      </table>
+    <div class="col-md-4 col-sm-6">
+      <div class="panel panel-item">
+        <div class="panel-heading">Campaign Items</div>
+        <table class="table">
+          <% @campaign.sort_by {|item| item.name }.each do |item| %>
+            <tr>
+              <td class="item" align="center"><%= link_to item.name, item_path(item) %></td>
+            </tr>
+          <% end %>
+        </table>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <div class="panel panel-item">
+        <div class="panel-heading">Nordheim Items</div>
+        <table class="table">
+          <% @nordheim.sort_by {|item| item.name }.each do |item| %>
+            <tr>
+              <td class="item" align="center"><%= link_to item.name, item_path(item) %></td>
+            </tr>
+          <% end %>
+        </table>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <div class="panel panel-item">
+        <div class="panel-heading">Stygia Items</div>
+        <table class="table">
+          <% @stygia.sort_by {|item| item.name }.each do |item| %>
+            <tr>
+              <td class="item" align="center"><%= link_to item.name, item_path(item) %></td>
+            </tr>
+          <% end %>
+        </table>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <div class="panel panel-item">
+        <div class="panel-heading">Khitai Items</div>
+        <table class="table">
+          <% @khitai.sort_by {|item| item.name }.each do |item| %>
+            <tr>
+              <td class="item" align="center"><%= link_to item.name, item_path(item) %></td>
+            </tr>
+          <% end %>
+        </table>
+      </div>
     </div>
   </div>
 </div>
-<div class="row">
-  <div class="col-md-4 col-sm-6">
-    <div class="panel panel-info">
-      <div class="panel-heading">Nordheim Items</div>
-      <table class="table">
-        <% @nordheim.sort_by {|item| item.name }.each do |item| %>
-          <tr>
-            <td align="center"><%= link_to item.name, item_path(item) %></td>
-          </tr>
-        <% end %>
-      </table>
+<div id="by_type">
+  <div class="row">
+    <div class="col-md-4 col-sm-6">
+      <div class="panel panel-item">
+        <div class="panel-heading">Weapons</div>
+        <table class="table">
+          <% @weapon.sort_by {|item| item.name }.each do |item| %>
+            <tr>
+              <td class="item" align="center"><%= link_to item.name, item_path(item) %></td>
+            </tr>
+          <% end %>
+        </table>
+      </div>
     </div>
-  </div>
-  <div class="col-md-4 col-sm-6">
-    <div class="panel panel-info">
-      <div class="panel-heading">Stygia Items</div>
-      <table class="table">
-        <% @stygia.sort_by {|item| item.name }.each do |item| %>
-          <tr>
-            <td align="center"><%= link_to item.name, item_path(item) %></td>
-          </tr>
-        <% end %>
-      </table>
+    <div class="col-md-4 col-sm-6">
+      <div class="panel panel-item">
+        <div class="panel-heading">Armor and Shields</div>
+        <table class="table">
+          <% @armor.sort_by {|item| item.name }.each do |item| %>
+            <tr>
+              <td class="item" align="center"><%= link_to item.name, item_path(item) %></td>
+            </tr>
+          <% end %>
+        </table>
+      </div>
     </div>
-  </div>
-  <div class="col-md-4 col-sm-6">
-    <div class="panel panel-info">
-      <div class="panel-heading">Khitai Items</div>
-      <table class="table">
-        <% @khitai.sort_by {|item| item.name }.each do |item| %>
-          <tr>
-            <td align="center"><%= link_to item.name, item_path(item) %></td>
-          </tr>
-        <% end %>
-      </table>
+    <div class="col-md-4 col-sm-6">
+      <div class="panel panel-item">
+        <div class="panel-heading">Objects</div>
+        <table class="table">
+          <% @object.sort_by {|item| item.name }.each do |item| %>
+            <tr>
+              <td class="item" align="center"><%= link_to item.name, item_path(item) %></td>
+            </tr>
+          <% end %>
+        </table>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 col-sm-6">
+        <div class="panel panel-item">
+          <div class="panel-heading">Drink</div>
+          <table class="table">
+            <% @drink.sort_by {|item| item.name }.each do |item| %>
+              <tr>
+                <td class="item" align="center"><%= link_to item.name, item_path(item) %></td>
+              </tr>
+            <% end %>
+          </table>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="panel panel-item">
+          <div class="panel-heading">Special</div>
+          <table class="table">
+            <% @special.sort_by {|item| item.name }.each do |item| %>
+              <tr>
+                <td class="item" align="center"><%= link_to item.name, item_path(item) %></td>
+              </tr>
+            <% end %>
+          </table>
+        </div>
+      </div>
     </div>
   </div>
 </div>
+
+<script>
+  $(document).ready(function() {
+    $('a#show_byorigin').click(function(event){
+      event.preventDefault();
+      $('a.toggles').children().removeClass('active');
+      $('a#show_byorigin').children().addClass('active');
+      $('div#by_type').hide();
+      $('div#by_origin').show();
+    });
+
+    $('a#show_bytype').click(function(event){
+      event.preventDefault();
+      $('a.toggles').children().removeClass('active');
+      $('a#show_bytype').children().addClass('active');
+      $('div#by_origin').hide();
+      $('div#by_type').show();
+    });
+
+  });
+</script>

@@ -1,5 +1,7 @@
 class ScenariosController < ApplicationController
   before_action :set_scenario, only: [:edit, :update, :show, :destroy]
+  before_action :require_user, except: [:index, :show]
+  before_action :require_admin, except: [:index, :show]
 
   def index
     @scenarios = Scenario.all
@@ -12,7 +14,7 @@ class ScenariosController < ApplicationController
   def create
     @scenario = Scenario.new(scenario_params)
     if @scenario.save
-      flash[:notice] = "Scenario was successfully created"
+      flash[:success] = "Scenario was successfully created"
       redirect_to scenario_path(@scenario)
     else
       render 'new'
@@ -24,7 +26,7 @@ class ScenariosController < ApplicationController
 
   def update
     if @scenario.update(scenario_params)
-      flash[:notice] = "Scenario was successfully updated"
+      flash[:success] = "Scenario was successfully updated"
       redirect_to scenario_path(@scenario)
     else
       render 'edit'
@@ -36,7 +38,7 @@ class ScenariosController < ApplicationController
 
   def destroy
     @scenario.destroy
-    flash[:notice] = "Scenario was successfully deleted"
+    flash[:danger] = "A Scenario was deleted!"
     redirect_to scenarios_path
   end
 
@@ -77,7 +79,14 @@ class ScenariosController < ApplicationController
                                        :ruletwentythree_title, :ruletwentythree_text,
                                        :ruletwentyfour_title, :ruletwentyfour_text,
                                        :ruletwentyfive_title, :ruletwentyfive_text,
-                                        map_ids: [], hero_ids: [],
-                                        tile_ids: [], spell_ids: [], item_ids: [] )
+                                        map_ids: [], hero_ids: [], tile_ids: [],
+                                        spell_ids: [], item_ids: [])
+    end
+
+    def require_admin
+      if logged_in? and !current_user.admin?
+        flash[:danger] = "Only admins can perform that action"
+        redirect_to root_path
+      end
     end
 end

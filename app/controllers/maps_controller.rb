@@ -1,6 +1,8 @@
 class MapsController < ApplicationController
   before_action :set_map, only: [:edit, :update, :show, :destroy]
   before_action :set_maps, only: [:index]
+  before_action :require_user, except: [:index, :show]
+  before_action :require_admin, except: [:index, :show]
 
   def index
   end
@@ -12,7 +14,7 @@ class MapsController < ApplicationController
   def create
     @map = Map.new(map_params)
     if @map.save
-      flash[:notice] = "Map was successfully created"
+      flash[:success] = "Map was successfully created"
       redirect_to map_path(@map)
     else
       render 'new'
@@ -24,7 +26,7 @@ class MapsController < ApplicationController
 
   def update
     if @map.update(map_params)
-      flash[:notice] = "Map was successfully updated"
+      flash[:success] = "Map was successfully updated"
       redirect_to map_path(@map)
     else
       render 'edit'
@@ -37,7 +39,7 @@ class MapsController < ApplicationController
 
   def destroy
     @map.destroy
-    flash[:notice] = "Map was successfully deleted"
+    flash[:danger] = "A Map was deleted!"
     redirect_to maps_path
   end
 
@@ -59,4 +61,10 @@ class MapsController < ApplicationController
       @khitai = Map.where(origin: 'Khitai Expansion')
     end
 
+    def require_admin
+      if logged_in? and !current_user.admin?
+        flash[:danger] = "Only admins can perform that action"
+        redirect_to root_path
+      end
+    end
 end

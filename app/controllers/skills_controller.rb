@@ -1,6 +1,8 @@
 class SkillsController < ApplicationController
   before_action :set_skill, only: [:edit, :update, :show, :destroy]
   before_action :set_skills, only: [:index]
+  before_action :require_user, except: [:index, :show]
+  before_action :require_admin, except: [:index, :show]
 
   def index
   end
@@ -12,7 +14,7 @@ class SkillsController < ApplicationController
   def create
     @skill = Skill.new(skill_params)
     if @skill.save
-      flash[:notice] = "Skill was successfully created"
+      flash[:success] = "Skill was successfully created"
       redirect_to skill_path(@skill)
     else
       render 'new'
@@ -24,7 +26,7 @@ class SkillsController < ApplicationController
 
   def update
     if @skill.update(skill_params)
-      flash[:notice] = "Skill was successfully updated"
+      flash[:success] = "Skill was successfully updated"
       redirect_to skill_path(@skill)
     else
       render 'edit'
@@ -38,7 +40,7 @@ class SkillsController < ApplicationController
 
   def destroy
     @skill.destroy
-    flash[:notice] = "Skill was successfully deleted"
+    flash[:danger] = "A Skill was deleted!"
     redirect_to skills_path
   end
 
@@ -57,5 +59,12 @@ class SkillsController < ApplicationController
       @movement = Skill.where(skill_type: 'Movement')
       @miscellaneous = Skill.where(skill_type: 'Miscellaneous')
       @defense = Skill.where(skill_type: 'Defense and Magic')
+    end
+
+    def require_admin
+      if logged_in? and !current_user.admin?
+        flash[:danger] = "Only admins can perform that action"
+        redirect_to root_path
+      end
     end
 end

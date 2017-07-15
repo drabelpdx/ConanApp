@@ -87,6 +87,131 @@ $navbar-default-bg: #08088A;
   display: none;
 }
 
+#by_type {
+  display: none;
+}
+
+.btn-scenario {
+    background-color: #d9edf7;
+    color: #31708f;
+}
+.scenario a {
+  color: #31708f;
+}
+
+h1.scenario {
+  color: #31708f;
+}
+
+.panel-map > .panel-heading {
+    background-color: #fcf8e3;
+    color: #8a6d3b;
+}
+
+.panel-map {
+    border-color: #fcf8e3;
+    color: white;
+}
+
+.map a {
+  color: #8a6d3b;
+}
+
+a.map {
+  color: #8a6d3b;
+}
+
+h1.map {
+  color: #8a6d3b;
+}
+
+.hero a {
+  color: #3c763d;
+}
+
+a.hero {
+  color: #3c763d;
+}
+
+h1.hero {
+  color: #3c763d;
+}
+
+.btn-tile {
+    background-color: #ebccd1;
+    color: #a94442;
+}
+
+.tile a {
+  color: #a94442;
+}
+
+a.tile {
+  color: #a94442;
+}
+
+h1.tile {
+  color: #a94442;
+}
+
+.panel-spell > .panel-heading {
+    background-color: #f2ccff;
+    color: #8600b3;
+}
+
+.panel-spell {
+    border-color: #f2ccff;
+    color: white;
+}
+
+.btn-spell {
+    background-color: #f2ccff;
+    color: #8600b3;
+}
+
+.spell a {
+  color: #8600b3;
+}
+
+a.spell {
+  color: #8600b3;
+}
+
+h1.spell {
+  color: #8600b3;
+}
+
+.panel-item > .panel-heading {
+    background-color: #ffebcc;
+    color: 	#DAA520;
+}
+
+.panel-item {
+    border-color:  #ffebcc;
+    color: white;
+}
+
+.btn-item {
+    background-color: #ffc266;
+    color: 	#DAA520;
+}
+
+.item a {
+  color:	#DAA520;
+}
+
+a.item {
+  color: 	#DAA520;
+}
+
+h1.item {
+  color: 	#DAA520;
+}
+
+a.skill {
+  color: 	#0000b3;
+}
+
 .hidden {
   display: none
 }

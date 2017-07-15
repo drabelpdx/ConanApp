@@ -1,80 +1,110 @@
-<h1>Spells</h1>
+<h1 class="spell">Spells</h1>
+<p>Click on a spell to read more about it and any scenarios it appears in.</P>
 
 <!-- <p><%= link_to "Add a Spell", new_spell_path %></p> -->
 
-<div class="row">
-  <div class="col-md-4 col-sm-6">
-    <div class="panel panel-info">
-      <div class="panel-heading">Core Game Spells</div>
-      <table class="table">
-        <% @core.sort_by {|spell| spell.name }.each do |spell| %>
-          <tr>
-            <td align="center"><%= link_to spell.name, spell_path(spell) %></td>
-          </tr>
-        <% end %>
-      </table>
+<div align="center">
+  <a href="" id="show_byorigin" class="toggles"><button class="btn btn-spell active">By Origin</button></a>
+  <a href="" id="show_bytype" class="toggles"><button class="btn btn-spell">By Type</button></a>
+</div>
+<hr>
+
+<div id="by_origin">
+  <div class="row">
+    <div class="col-md-4 col-sm-6">
+      <div class="panel panel-spell">
+        <div class="panel-heading">Core Game Spells</div>
+        <table class="table">
+          <% @core.sort_by {|spell| spell.name }.each do |spell| %>
+            <tr>
+              <td class="spell" align="center"><%= link_to spell.name, spell_path(spell) %></td>
+            </tr>
+          <% end %>
+        </table>
+      </div>
     </div>
-  </div>
-  <div class="col-md-4 col-sm-6">
-    <div class="panel panel-info">
-      <div class="panel-heading">Stretch Goal Spells</div>
-      <table class="table">
-        <% @stretch.sort_by {|spell| spell.name }.each do |spell| %>
-          <tr>
-            <td align="center"><%= link_to spell.name, spell_path(spell) %></td>
-          </tr>
-        <% end %>
-      </table>
+    <div class="col-md-4 col-sm-6">
+      <div class="panel panel-spell">
+        <div class="panel-heading">Stretch Goal Spells</div>
+        <table class="table">
+          <% @stretch.sort_by {|spell| spell.name }.each do |spell| %>
+            <tr>
+              <td class="spell" align="center"><%= link_to spell.name, spell_path(spell) %></td>
+            </tr>
+          <% end %>
+        </table>
+      </div>
     </div>
-  </div>
-  <div class="col-md-4 col-sm-6">
-    <div class="panel panel-info">
-      <div class="panel-heading">Campaign Spells</div>
-      <table class="table">
-        <% @campaign.sort_by {|spell| spell.name }.each do |spell| %>
-          <tr>
-            <td align="center"><%= link_to spell.name, spell_path(spell) %></td>
-          </tr>
-        <% end %>
-      </table>
+    <div class="col-md-4 col-sm-6">
+      <div class="panel panel-spell">
+        <div class="panel-heading">Campaign Spells</div>
+        <table class="table">
+          <% @campaign.sort_by {|spell| spell.name }.each do |spell| %>
+            <tr>
+              <td class="spell" align="center"><%= link_to spell.name, spell_path(spell) %></td>
+            </tr>
+          <% end %>
+        </table>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <div class="panel panel-spell">
+        <div class="panel-heading">Nordheim Spells</div>
+        <table class="table">
+          <% @nordheim.sort_by {|spell| spell.name }.each do |spell| %>
+            <tr>
+              <td class="spell" align="center"><%= link_to spell.name, spell_path(spell) %></td>
+            </tr>
+          <% end %>
+        </table>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <div class="panel panel-spell">
+        <div class="panel-heading">Stygia Spells</div>
+        <table class="table">
+          <% @stygia.sort_by {|spell| spell.name }.each do |spell| %>
+            <tr>
+              <td class="spell" align="center"><%= link_to spell.name, spell_path(spell) %></td>
+            </tr>
+          <% end %>
+        </table>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <div class="panel panel-spell">
+        <div class="panel-heading">Khitai Spells</div>
+        <table class="table">
+          <% @khitai.sort_by {|spell| spell.name }.each do |spell| %>
+            <tr>
+              <td class="spell" align="center"><%= link_to spell.name, spell_path(spell) %></td>
+            </tr>
+          <% end %>
+        </table>
+      </div>
     </div>
   </div>
 </div>
-<div class="row">
-  <div class="col-md-4 col-sm-6">
-    <div class="panel panel-info">
-      <div class="panel-heading">Nordheim Spells</div>
-      <table class="table">
-        <% @nordheim.sort_by {|spell| spell.name }.each do |spell| %>
-          <tr>
-            <td align="center"><%= link_to spell.name, spell_path(spell) %></td>
-          </tr>
-        <% end %>
-      </table>
-    </div>
-  </div>
-  <div class="col-md-4 col-sm-6">
-    <div class="panel panel-info">
-      <div class="panel-heading">Stygia Spells</div>
-      <table class="table">
-        <% @stygia.sort_by {|spell| spell.name }.each do |spell| %>
-          <tr>
-            <td align="center"><%= link_to spell.name, spell_path(spell) %></td>
-          </tr>
-        <% end %>
-      </table>
-    </div>
-  </div>
-  <div class="col-md-4 col-sm-6">
-    <div class="panel panel-info">
-      <div class="panel-heading">Khitai Spells</div>
-      <table class="table">
-        <% @khitai.sort_by {|spell| spell.name }.each do |spell| %>
-          <tr>
-            <td align="center"><%= link_to spell.name, spell_path(spell) %></td>
-          </tr>
-        <% end %>
-      </table>
-    </div>
-  </div>
+<div id="by_type">
 </div>
+
+<script>
+  $(document).ready(function() {
+    $('a#show_byorigin').click(function(event){
+      event.preventDefault();
+      $('a.toggles').children().removeClass('active');
+      $('a#show_byorigin').children().addClass('active');
+      $('div#by_type').hide();
+      $('div#by_origin').show();
+    });
+
+    $('a#show_bytype').click(function(event){
+      event.preventDefault();
+      $('a.toggles').children().removeClass('active');
+      $('a#show_bytype').children().addClass('active');
+      $('div#by_origin').hide();
+      $('div#by_type').show();
+    });
+
+  });
+</script>

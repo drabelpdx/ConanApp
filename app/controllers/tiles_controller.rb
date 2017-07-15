@@ -3,8 +3,11 @@ class TilesController < ApplicationController
   before_action :set_skills, only: [:new, :create, :edit, :update, :show]
   before_action :set_roles, only: [:index]
   before_action :set_stories, only: [:new, :create, :edit, :update, :show]
+  before_action :require_user, except: [:index, :show]
+  before_action :require_admin, except: [:index, :show]
 
   def index
+    @tiles = Tile.all
   end
 
   def new
@@ -14,7 +17,7 @@ class TilesController < ApplicationController
   def create
     @tile = Tile.new(tile_params)
     if @tile.save
-      flash[:notice] = "Tile was successfully created"
+      flash[:success] = "Tile was successfully created"
       redirect_to tile_path(@tile)
     else
       render 'new'
@@ -26,7 +29,7 @@ class TilesController < ApplicationController
 
   def update
     if @tile.update(tile_params)
-      flash[:notice] = "Tile was successfully updated"
+      flash[:success] = "Tile was successfully updated"
       redirect_to tile_path(@tile)
     else
       render 'edit'
@@ -39,7 +42,7 @@ class TilesController < ApplicationController
 
   def destroy
     @tile.destroy
-    flash[:notice] = "Tile was successfully deleted"
+    flash[:danger] = "A Tile was deleted!"
     redirect_to tiles_path
   end
 
@@ -74,5 +77,12 @@ class TilesController < ApplicationController
       @heroes = Tile.where(role: 'Hero')
       @allies = Tile.where(role: 'Ally')
 
+    end
+
+    def require_admin
+      if logged_in? and !current_user.admin?
+        flash[:danger] = "Only admins can perform that action"
+        redirect_to root_path
+      end
     end
 end

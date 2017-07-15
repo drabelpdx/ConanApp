@@ -1,56 +1,56 @@
-<h1>Hero Sheets</h1>
+<h1 class="hero">Heroes</h1>
 <p>Click on a hero to see their stats and any scenarios they appear in.</p>
 
 <!-- <p><%= link_to "Add a Hero", new_hero_path %></p> -->
 <div class="row">
   <div class="col-md-6 col-sm-6">
-    <div class="panel panel-info">
+    <div class="panel panel-success">
       <div class="panel-heading">Core Game Heroes</div>
       <table class="table">
         <% @core.each do |hero| %>
         <tr>
-          <td align="center"><%= link_to hero.name, hero_path(hero) %></td>
+          <td class="hero" align="center"><%= link_to hero.name, hero_path(hero) %></td>
         </tr>
         <% end %>
       </table>
     </div>
 
-    <div class="panel panel-info">
+    <div class="panel panel-success">
       <div class="panel-heading">King Pledge Heroes</div>
       <table class="table">
         <% @king.each do |hero| %>
         <tr>
-          <td align="center"><%= link_to hero.name, hero_path(hero) %></td>
+          <td class="hero" align="center"><%= link_to hero.name, hero_path(hero) %></td>
         </tr>
         <% end %>
       </table>
     </div>
-    <div class="panel panel-info">
+    <div class="panel panel-success">
       <div class="panel-heading">Add On Heroes</div>
       <table class="table">
         <% @addon.each do |hero| %>
         <tr>
-          <td align="center"><%= link_to hero.name, hero_path(hero) %></td>
+          <td class="hero" align="center"><%= link_to hero.name, hero_path(hero) %></td>
         </tr>
         <% end %>
       </table>
     </div>
-    <div class="panel panel-info">
+    <div class="panel panel-success">
       <div class="panel-heading">Expansion Heros</div>
       <table class="table">
         <% @nordheim.each do |hero| %>
         <tr>
-          <td align="center"><%= link_to hero.name, hero_path(hero) %> </td>
+          <td class="hero" align="center"><%= link_to hero.name, hero_path(hero) %> </td>
         </tr>
         <% end %>
         <% @stygia.each do |hero| %>
         <tr>
-          <td align="center"><%= link_to hero.name, hero_path(hero) %></td>
+          <td class="hero" align="center"><%= link_to hero.name, hero_path(hero) %></td>
         </tr>
         <% end %>
         <% @khitai.each do |hero| %>
         <tr>
-          <td align="center"><%= link_to hero.name, hero_path(hero) %></td>
+          <td class="hero" align="center"><%= link_to hero.name, hero_path(hero) %></td>
         </tr>
         <% end %>
       </table>
@@ -58,12 +58,12 @@
   </div>
 
   <div class="col-md-6 col-sm-6">
-    <div class="panel panel-info">
+    <div class="panel panel-success">
       <div class="panel-heading">Stretch Goal Heroes</div>
       <table class="table">
         <% @stretch.each do |hero| %>
         <tr>
-          <td align="center"><%= link_to hero.name, hero_path(hero) %></td>
+          <td class="hero" align="center"><%= link_to hero.name, hero_path(hero) %></td>
         </tr>
         <% end %>
       </table>
