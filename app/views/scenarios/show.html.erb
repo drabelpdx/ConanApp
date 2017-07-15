@@ -174,8 +174,11 @@
     <p><% if@scenario.ruleeight_text %><%= @scenario.ruleeight_text.html_safe %><% end %></p>
   </div>
 </div>
-<div class="row">
-  <br /><br />
-  <%= link_to 'Edit', edit_scenario_path(@scenario) %> |
-  <%= link_to 'Delete', scenario_path(@scenario), method: :delete, data: {confirm: "Are you sure?"} %>
-</div>
+
+<% if logged_in? && current_user.admin? %>
+  <div class="row">
+    <br /><br />
+    <%= link_to 'Edit', edit_scenario_path(@scenario) %> |
+    <%= link_to 'Delete', scenario_path(@scenario), method: :delete, data: {confirm: "Are you sure?"} %>
+  </div>
+<% end %>

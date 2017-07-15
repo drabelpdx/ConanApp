@@ -30,8 +30,11 @@
     <% end %>
   </div>
 </div>
-<div class="row">
-  <br /><br />
-  <%= link_to 'Edit', edit_story_path(@story) %> |
-  <%= link_to 'Delete', story_path(@story), method: :delete, data: {confirm: "Are you sure?"} %>
-</div>
+
+<% if logged_in? && current_user.admin? %>
+  <div class="row">
+    <br /><br />
+    <%= link_to 'Edit', edit_story_path(@story) %> |
+    <%= link_to 'Delete', story_path(@story), method: :delete, data: {confirm: "Are you sure?"} %>
+  </div>
+<% end %>

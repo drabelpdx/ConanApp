@@ -1,8 +1,9 @@
 <h1 class="item">Items</h1>
+<% if logged_in? && current_user.admin? %>
+  <p><%= link_to "Add an Item", new_item_path %></p>
+<% end %>
+
 <p>Click on a item to read more about it and any scenarios it appears in.</P>
-
-<!-- <p><%= link_to "Add an Item", new_item_path %></p> -->
-
 <div align="center">
   <a href="" id="show_byorigin" class="toggles"><button class="btn btn-item active">By Origin</button></a>
   <a href="" id="show_bytype" class="toggles"><button class="btn btn-item">By Type</button></a>

@@ -1,11 +1,13 @@
 <h1 class="spell">Spells</h1>
+<% if logged_in? && current_user.admin? %>
+  <p><%= link_to "Add a Spell", new_spell_path %></p>
+<% end %>
+
 <p>Click on a spell to read more about it and any scenarios it appears in.</P>
-
-<!-- <p><%= link_to "Add a Spell", new_spell_path %></p> -->
-
 <div align="center">
   <a href="" id="show_byorigin" class="toggles"><button class="btn btn-spell active">By Origin</button></a>
-  <a href="" id="show_bytype" class="toggles"><button class="btn btn-spell">By Type</button></a>
+  <a href="" id="show_bycost" class="toggles"><button class="btn btn-spell">By Cost</button></a>
+  <a href="" id="show_bytype" class="toggles"><button class="btn btn-spell">Area/Instant</button></a>
 </div>
 <hr>
 
@@ -85,7 +87,105 @@
     </div>
   </div>
 </div>
+<div id="by_cost">
+  <div class="row">
+    <div class="col-md-4 col-sm-6">
+      <div class="panel panel-spell">
+        <div class="panel-heading">1 Cost</div>
+        <table class="table">
+          <% @cost1.sort_by {|spell| spell.name }.each do |spell| %>
+            <tr>
+              <td class="spell" align="center"><%= link_to spell.name, spell_path(spell) %></td>
+            </tr>
+          <% end %>
+        </table>
+      </div>
+      <div class="panel panel-spell">
+        <div class="panel-heading">4 Cost</div>
+        <table class="table">
+          <% @cost4.sort_by {|spell| spell.name }.each do |spell| %>
+            <tr>
+              <td class="spell" align="center"><%= link_to spell.name, spell_path(spell) %></td>
+            </tr>
+          <% end %>
+        </table>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <div class="panel panel-spell">
+        <div class="panel-heading">2 Cost</div>
+        <table class="table">
+          <% @cost2.sort_by {|spell| spell.name }.each do |spell| %>
+            <tr>
+              <td class="spell" align="center"><%= link_to spell.name, spell_path(spell) %></td>
+            </tr>
+          <% end %>
+        </table>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <div class="panel panel-spell">
+        <div class="panel-heading">3 Cost</div>
+        <table class="table">
+          <% @cost3.sort_by {|spell| spell.name }.each do |spell| %>
+            <tr>
+              <td class="spell" align="center"><%= link_to spell.name, spell_path(spell) %></td>
+            </tr>
+          <% end %>
+        </table>
+      </div>
+      <div class="panel panel-spell">
+        <div class="panel-heading">X Cost</div>
+        <table class="table">
+          <% @costx.sort_by {|spell| spell.name }.each do |spell| %>
+            <tr>
+              <td class="spell" align="center"><%= link_to spell.name, spell_path(spell) %></td>
+            </tr>
+          <% end %>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
 <div id="by_type">
+  <div class="row">
+    <div class="col-md-4 col-sm-6">
+      <div class="panel panel-spell">
+        <div class="panel-heading">Area Effect Spells</div>
+        <table class="table">
+          <% @area.sort_by {|spell| spell.name }.each do |spell| %>
+            <tr>
+              <td class="spell" align="center"><%= link_to spell.name, spell_path(spell) %></td>
+            </tr>
+          <% end %>
+        </table>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <div class="panel panel-spell">
+        <div class="panel-heading">Instant Spells</div>
+        <table class="table">
+          <% @instant.sort_by {|spell| spell.name }.each do |spell| %>
+            <tr>
+              <td class="spell" align="center"><%= link_to spell.name, spell_path(spell) %></td>
+            </tr>
+          <% end %>
+        </table>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <div class="panel panel-spell">
+        <div class="panel-heading">Blank Spells</div>
+        <table class="table">
+          <% @blank.sort_by {|spell| spell.name }.each do |spell| %>
+            <tr>
+              <td class="spell" align="center"><%= link_to spell.name, spell_path(spell) %></td>
+            </tr>
+          <% end %>
+        </table>
+      </div>
+    </div>
+  </div>
 </div>
 
 <script>
@@ -94,8 +194,18 @@
       event.preventDefault();
       $('a.toggles').children().removeClass('active');
       $('a#show_byorigin').children().addClass('active');
+      $('div#by_cost').hide();
       $('div#by_type').hide();
       $('div#by_origin').show();
+    });
+
+    $('a#show_bycost').click(function(event){
+      event.preventDefault();
+      $('a.toggles').children().removeClass('active');
+      $('a#show_bycost').children().addClass('active');
+      $('div#by_origin').hide();
+      $('div#by_type').hide();
+      $('div#by_cost').show();
     });
 
     $('a#show_bytype').click(function(event){
@@ -103,6 +213,7 @@
       $('a.toggles').children().removeClass('active');
       $('a#show_bytype').children().addClass('active');
       $('div#by_origin').hide();
+      $('div#by_cost').hide();
       $('div#by_type').show();
     });
 

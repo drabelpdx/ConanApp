@@ -28,8 +28,11 @@
       <% end %>
   </div>
 </div>
-<div class="row">
-  <br /><br />
-  <%= link_to 'Edit', edit_map_path(@map) %> |
-  <%= link_to 'Delete', map_path(@map), method: :delete, data: {confirm: "Are you sure?"} %>
-</div>
+
+<% if logged_in? && current_user.admin? %>
+ <div class="row">
+   <br /><br />
+   <%= link_to 'Edit', edit_map_path(@map) %> |
+   <%= link_to 'Delete', map_path(@map), method: :delete, data: {confirm: "Are you sure?"} %>
+ </div>
+<% end %>

@@ -55,7 +55,15 @@ class SpellsController < ApplicationController
       @stygia = Spell.where(origin: 'Stygia Expansion')
       @khitai = Spell.where(origin: 'Khitai Expansion')
       @campaign = Spell.where(origin: 'Campaign')
-
+      @area = Spell.where(area: 'Yes')
+      @instant = Spell.where(instant: 'Yes')
+      @blank = Spell.where(description: 'Blank Card')
+      @cost1 = Spell.where(cost: '1')
+      @cost2 = Spell.where(cost: '2')
+      @cost3 = Spell.where(cost: '3')
+      @cost4 = Spell.where(cost: '4')
+      @cost5 = Spell.where(cost: '5')
+      @costx = Spell.where(cost: 'X')
     end
 
     def spell_params

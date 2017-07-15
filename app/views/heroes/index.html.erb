@@ -1,7 +1,9 @@
 <h1 class="hero">Heroes</h1>
-<p>Click on a hero to see their stats and any scenarios they appear in.</p>
+<% if logged_in? && current_user.admin? %>
+<p><%= link_to "Add a Hero", new_hero_path %></p>
+<% end %>
 
-<!-- <p><%= link_to "Add a Hero", new_hero_path %></p> -->
+<p>Click on a hero to see their stats and any scenarios they appear in.</p>
 <div class="row">
   <div class="col-md-6 col-sm-6">
     <div class="panel panel-success">

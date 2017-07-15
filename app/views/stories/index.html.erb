@@ -1,8 +1,9 @@
 <h1>Stories</h1>
+<% if logged_in? && current_user.admin? %>
+  <p><%= link_to "Add a Story", new_story_path %></p>
+<% end %>
+
 <p>These are the stories by Robert E. Howard of Conan and his adventures.</P>
-
-<!-- <p><%= link_to "Add a Story", new_story_path %></p> -->
-
 <div class="row">
   <div class="col-md-6 col-sm-6">
     <div class="panel panel-danger">

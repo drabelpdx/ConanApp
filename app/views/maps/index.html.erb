@@ -1,9 +1,9 @@
 <h1 class="map">Maps</h1>
-<p>
-  The maps are organized by the box they came in: Core Game, Stretch Goals, or Expansion.
-</p>
+<% if logged_in? && current_user.admin? %>
+  <p><%= link_to "Add a Map", new_map_path %></p>
+<% end %>
 
-<!-- <p><%= link_to "Add a Map", new_map_path %></p> -->
+<p>The maps are organized by the box they came in: Core Game, Stretch Goals, or Expansion.</p>
 <div class="row">
   <div class="col-md-4 col-sm-6">
     <div class="panel panel-map">

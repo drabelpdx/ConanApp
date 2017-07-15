@@ -1,7 +1,9 @@
 <h1 class="tile">Tiles</h1>
-<p>Click on a tile to see its stats and any scenarios it appears in.</P>
-<!-- <p><%= link_to "Add a Tile", new_tile_path %></p> -->
+<% if logged_in? && current_user.admin? %>
+  <p><%= link_to "Add a Tile", new_tile_path %></p>
+<% end %>
 
+<p>Click on a tile to see its stats and any scenarios it appears in.</P>
 <div align="center">
   <a href="" id="show_byorigin" class="toggles"><button class="btn btn-tile active">By Origin</button></a>
   <a href="" id="show_bytype" class="toggles"><button class="btn btn-tile">By Type</button></a>

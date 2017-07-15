@@ -1,12 +1,13 @@
 <h1 class="scenario">Scenarios</h1>
+<% if logged_in? && current_user.admin? %>
+  <p><%= link_to "Add a Scenario", new_scenario_path %></p>
+<% end %>
+
 <p>
   Scenarios are the basis of each game. They outline the characters, map, items and any special rules used.
   Below is a list of official scenarios. These can be sorted by the box that the scenario or
   the minis used came in, by the number of playes, the complexity of the special rules used, or the map the scenario is played on.
 </p>
-
-<!-- <p><%= link_to "Add a Scenario", new_scenario_path %></p> -->
-
 <div align="center">
   <a href="" id="show_byorigin" class="toggles"><button class="btn btn-scenario active">By Origin</button></a>
   <a href="" id="show_bycount" class="toggles"><button class="btn btn-scenario">By Player Count</button></a>
