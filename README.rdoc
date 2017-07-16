@@ -11,4 +11,4 @@ So far, All models, controller and pages are in. Data for Maps, Heroes, Tiles, S
 ...more to do.
 
 The app is up on heroku:
-https://conan-library.herokuapp.com/scenarios
+https://http://conan-companion.herokuapp.com

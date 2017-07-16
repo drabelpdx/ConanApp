@@ -1,23 +1,50 @@
 <div class="row">
   <div class="col-md-12">
-    <div>
-      <h1><%= @spell.name %></h1>
-      <p>Cost:  <%= @spell.cost %></p>
-      <p>Limit:  <%= @spell.limit %></p>
-
-      <p>Description:  <%= @spell.description.html_safe %></p>
-
-      <% if @spell.area === 'Yes' %>
-        <p>Area Effect</p>
-      <% end %>
-      <% if @spell.instant === 'Yes' %>
-        <p>Instant</p>
-      <% end %>
-      <p>Origin:  <%= @spell.origin %></p>
-      <p>Count:  <%= @spell.count %></p>
-    </div>
-    <br />
     <div class="col-md-7">
+      <div class="well">
+        <h1><%= @spell.name %></h1>
+
+
+
+        <table class="tile_stats">
+          <tr>
+            <th><h4>Cost:</h4></th>
+            <td><h3><%= @spell.cost %></h3></td>
+          </tr>
+          <tr>
+            <th><h4>Limit:</h4></th>
+            <td><h3><%= @spell.limit %></h3></td>
+          </tr>
+
+          <% if @spell.area === 'Yes' %>
+          <tr><td>Area Effect</td></tr>
+          <% end %>
+
+          <% if @spell.instant === 'Yes' %>
+          <tr><td>Instant</td></tr>
+          <% end %>
+
+          <tr>
+            <th><h4>Description:</h4></th>
+            <td class="thumbs"><%= @spell.description.html_safe %></td>
+          </tr>
+      </table>
+          <p>Origin:  <%= @spell.origin %></p>
+          <p>Count:  <%= @spell.count %>  </p>
+
+
+
+
+
+
+
+
+
+        <br /><br />
+        <%= link_to "Back to spells", spells_path %>
+      </div>
+    </div>
+    <div class="col-md-5">
       <h4><%= @spell.name %> appears in: </h4>
       <% if @spell_scenarios.any? %>
         <% @spell_scenarios.each do |scenario| %>
@@ -27,8 +54,6 @@
     </div>
   </div>
 </div>
-
-<%= link_to "Back to spells", spells_path %>
 
 <% if logged_in? && current_user.admin? %>
   <div class="row">

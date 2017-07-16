@@ -111,6 +111,26 @@
           <% end %>
         </table>
       </div>
+      <div class="panel panel-item">
+        <div class="panel-heading">Drink</div>
+        <table class="table">
+          <% @drink.sort_by {|item| item.name }.each do |item| %>
+            <tr>
+              <td class="item" align="center"><%= link_to item.name, item_path(item) %></td>
+            </tr>
+          <% end %>
+        </table>
+      </div>
+      <div class="panel panel-item">
+        <div class="panel-heading">Special</div>
+        <table class="table">
+          <% @special.sort_by {|item| item.name }.each do |item| %>
+            <tr>
+              <td class="item" align="center"><%= link_to item.name, item_path(item) %></td>
+            </tr>
+          <% end %>
+        </table>
+      </div>
     </div>
     <div class="col-md-4 col-sm-6">
       <div class="panel panel-item">
@@ -122,32 +142,6 @@
             </tr>
           <% end %>
         </table>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-4 col-sm-6">
-        <div class="panel panel-item">
-          <div class="panel-heading">Drink</div>
-          <table class="table">
-            <% @drink.sort_by {|item| item.name }.each do |item| %>
-              <tr>
-                <td class="item" align="center"><%= link_to item.name, item_path(item) %></td>
-              </tr>
-            <% end %>
-          </table>
-        </div>
-      </div>
-      <div class="col-md-4 col-sm-6">
-        <div class="panel panel-item">
-          <div class="panel-heading">Special</div>
-          <table class="table">
-            <% @special.sort_by {|item| item.name }.each do |item| %>
-              <tr>
-                <td class="item" align="center"><%= link_to item.name, item_path(item) %></td>
-              </tr>
-            <% end %>
-          </table>
-        </div>
       </div>
     </div>
   </div>
