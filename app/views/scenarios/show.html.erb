@@ -15,7 +15,7 @@
     <div class="col-md-8 scenarios" align="center">
       <% @scenario.map_ids.each do |id| %>
         <% @map = Map.find_by_id [id] %>
-        <h4><%= link_to @map.name, map_path(@map) %></h4>
+        <h4 class="map"><%= link_to @map.name, map_path(@map) %></h4>
       <% end %>
       <%= image_tag "#{@scenario.map_image}" %>
       <br /><br />

@@ -1,6 +1,6 @@
 <div class="row">
   <div class="col-md-7 maps well" align="center">
-    <h2><%= @map.name %></h2>
+    <h2 class="map"><%= @map.name %></h2>
     <%= image_tag "#{@map.image}" %><br /><br />
       <% if @map.flip_side != 'none' %>
         <h4>Shares a board with

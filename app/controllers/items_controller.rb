@@ -62,11 +62,11 @@ class ItemsController < ApplicationController
       @stygia = Item.where(origin: 'Stygia Expansion')
       @khitai = Item.where(origin: 'Khitai Expansion')
       @campaign = Item.where(origin: 'Campaign')
-      @weapon = Item.where(role: 'weapon')
-      @armor =Item.where(role: 'armor')
-      @object = Item.where(role: 'object')
-      @drink = Item.where(role: 'drink')
-      @special = Item.where(role: 'special')
+      @weapon = Item.where(role: 'Weapon')
+      @armor = Item.where("role = ? or role = ?", "Armor", "Shield")
+      @object = Item.where(role: 'Object')
+      @drink = Item.where(role: 'Drink')
+      @special = Item.where(role: 'Special')
     end
 
     def require_admin

@@ -1,20 +1,89 @@
 <div class="row">
+  <div class="col-md-6">
+    <div class="well">
+        <h2 class="spell"><%= @spell.name %></h2>
+        <table class="tile_stats">
+          <tr>
+            <th>Cost</th>
+            <th>Limit</th>
+            <% if @spell.area === 'Yes' %>
+              <th>Area Effect</th>
+            <% end %>
+            <% if @spell.instant === 'Yes' %>
+              <th>Instant</th>
+            <% end %>
+          </tr>
+          <tr>
+            <td><h3><%= @spell.cost %></h3></td>
+            <td><h3><%= @spell.limit %></h3></td>
+            <% if @spell.area === 'Yes' %>
+            <td><%= image_tag("misc/Area.png") %></td>
+            <% end %>
+
+            <% if @spell.instant === 'Yes' %>
+              <td><%= image_tag("misc/Instant.png") %></td>
+            <% end %>
+          </tr>
+        </table>
+        <br /><br />
+        <p><%= @spell.description %></p>
+
+        <div align="center" class="tiles">
+        <br /><br />
+
+          from  <%= @spell.origin %>
+        <br /><br /><%= link_to "Back to spells", spells_path %>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <h4>Scenarios containing <%= @spell.name %>: </h4>
+    <% if @spell_scenarios.any? %>
+      <% @spell_scenarios.each do |scenario| %>
+        <p><%= link_to scenario.name, scenario_path(scenario) %></p>
+      <% end%>
+    <% end %>
+  </div>
+</div>
+
+<% if logged_in? && current_user.admin? %>
+  <div class="row">
+    <br /><br />
+    <%= link_to 'Edit', edit_spell_path(@spell) %> |
+    <%= link_to 'Delete', spell_path(@spell), method: :delete, data: {confirm: "Are you sure?"} %>
+  </div>
+<% end %>
+
+
+
+
+
+
+
+
+<!--
+<div class="row">
   <div class="col-md-12">
     <div class="col-md-7">
       <div class="well">
+      </div>
+    </div>
+    <div class="col-md-5">
+
         <h1><%= @spell.name %></h1>
 
 
 
         <table class="tile_stats">
           <tr>
-            <th><h4>Cost:</h4></th>
-            <td><h3><%= @spell.cost %></h3></td>
+            <th><h4>Cost to Cast:</h4></th>
+            <th><h3><%= @spell.cost %></h3></th>
           </tr>
           <tr>
-            <th><h4>Limit:</h4></th>
-            <td><h3><%= @spell.limit %></h3></td>
+            <th><h4>Exertion Limit:</h4></th>
+            <th><h3><%= @spell.limit %></h3></th>
           </tr>
+
 
           <% if @spell.area === 'Yes' %>
           <tr><td>Area Effect</td></tr>
@@ -26,11 +95,10 @@
 
           <tr>
             <th><h4>Description:</h4></th>
-            <td class="thumbs"><%= @spell.description.html_safe %></td>
+            <td><%= @spell.description.html_safe %></td>
           </tr>
       </table>
           <p>Origin:  <%= @spell.origin %></p>
-          <p>Count:  <%= @spell.count %>  </p>
 
 
 
@@ -53,12 +121,4 @@
       <% end %>
     </div>
   </div>
-</div>
-
-<% if logged_in? && current_user.admin? %>
-  <div class="row">
-    <br /><br />
-    <%= link_to 'Edit', edit_spell_path(@spell) %> |
-    <%= link_to 'Delete', spell_path(@spell), method: :delete, data: {confirm: "Are you sure?"} %>
-  </div>
-<% end %>
+</div>  -->

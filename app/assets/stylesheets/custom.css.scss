@@ -63,7 +63,6 @@ $navbar-default-bg: #08088A;
 
 .welcome {
   margin-left: 15%;
-
 }
 
 .description {
@@ -108,25 +107,29 @@ h1.scenario {
 }
 
 .panel-map > .panel-heading {
-    background-color: #fcf8e3;
-    color: #8a6d3b;
+    background-color: #cccccc;
+    color: #666666;
 }
 
 .panel-map {
-    border-color: #fcf8e3;
+    border-color: #cccccc;
     color: white;
 }
 
 .map a {
-  color: #8a6d3b;
+  color: #666666;
 }
 
 a.map {
-  color: #8a6d3b;
+  color: #666666;
 }
 
 h1.map {
-  color: #8a6d3b;
+  color: #666666;
+}
+
+h2.map {
+  color: #666666;
 }
 
 .hero a {
@@ -138,6 +141,10 @@ a.hero {
 }
 
 h1.hero {
+  color: #3c763d;
+}
+
+h2.hero {
   color: #3c763d;
 }
 
@@ -155,6 +162,10 @@ a.tile {
 }
 
 h1.tile {
+  color: #a94442;
+}
+
+h2.tile {
   color: #a94442;
 }
 
@@ -185,31 +196,39 @@ h1.spell {
   color: #8600b3;
 }
 
+h2.spell {
+  color: #8600b3;
+}
+
 .panel-item > .panel-heading {
-    background-color: #ffebcc;
-    color: 	#DAA520;
+    background-color: #fcf8e3;
+    color: 	#8a6d3b;
 }
 
 .panel-item {
-    border-color:  #ffebcc;
+    border-color:  #fcf8e3;
     color: white;
 }
 
 .btn-item {
-    background-color: #ffc266;
-    color: 	#DAA520;
+    background-color: #fcf8e3;
+    color: 	#8a6d3b;
 }
 
 .item a {
-  color:	#DAA520;
+  color:	#8a6d3b;
 }
 
 a.item {
-  color: 	#DAA520;
+  color: 	#8a6d3b;
 }
 
 h1.item {
-  color: 	#DAA520;
+  color: 	#8a6d3b;
+}
+
+h2.item {
+  color: 	#8a6d3b;
 }
 
 a.skill {

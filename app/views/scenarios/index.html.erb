@@ -46,10 +46,10 @@
         </table>
       </div>
       <div class="panel panel-info">
-        <div class="panel-heading">Stretch Goal Scenarios</div>
+        <div class="panel-heading">Stretch Goal Content Scenarios (Monolith Website)</div>
         <table class="table">
           <% @scenarios.each do |scenario| %>
-          <% if scenario.origin === "Stretch Goals"%>
+          <% if scenario.origin === "Stretch Goals +"%>
           <tr>
             <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
           </tr>
@@ -73,6 +73,36 @@
       </div>
     </div>
   </div>
+
+  <!--
+  <div class="panel panel-info">
+    <div class="panel-heading">Stretch Goal Scenarios</div>
+    <table class="table">
+      <% @scenarios.each do |scenario| %>
+      <% if scenario.origin === "Stretch Goals"%>
+      <tr>
+        <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+      </tr>
+      <% end %>
+      <% end %>
+    </table>
+  </div>
+
+  <div class="col-md-4 col-sm-6">
+    <div class="panel panel-info">
+      <div class="panel-heading">Other Scenarios (Monolith Website)</div>
+      <table class="table">
+        <% @scenarios.each do |scenario| %>
+        <% if scenario.origin === "Monolith Other"%>
+        <tr>
+          <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+        </tr>
+        <% end %>
+        <% end %>
+      </table>
+    </div>
+  </div>
+
   <div class="row">
     <div class="col-md-4 col-sm-6">
       <div class="panel panel-info">
@@ -116,37 +146,8 @@
         </table>
       </div>
     </div>
-  </div>
-  <div class="row">
-    <div class="col-md-4 col-sm-6">
-      <div class="panel panel-info">
-        <div class="panel-heading">Stretch Goal Content Scenarios (Monolith Website)</div>
-        <table class="table">
-          <% @scenarios.each do |scenario| %>
-          <% if scenario.origin === "Stretch Goals +"%>
-          <tr>
-            <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
-          </tr>
-          <% end %>
-          <% end %>
-        </table>
-      </div>
-    </div>
-    <div class="col-md-4 col-sm-6">
-      <div class="panel panel-info">
-        <div class="panel-heading">Other Scenarios (Monolith Website)</div>
-        <table class="table">
-          <% @scenarios.each do |scenario| %>
-          <% if scenario.origin === "Monolith Other"%>
-          <tr>
-            <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
-          </tr>
-          <% end %>
-          <% end %>
-        </table>
-      </div>
-    </div>
-  </div>
+  </div> -->
+
 </div>
 
 <div id="by_count">
