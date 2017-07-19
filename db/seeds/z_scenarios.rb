@@ -87,7 +87,7 @@
       <br />The Overlord starts with 10 gems in their Reserve zone and 4 gems in their Fatigue zone, and places the recovery token showing a recovery value of “7” in the Book of Skelos.
       <br /><br /><strong>Reinforcement:</strong> 6 reinforcement points (Reinforcement Token).
       <br /><br /><strong>Fire at will:</strong> Each unit may perform a Ranged Attack if able.
-      <br /><br /><strong>Glory to Set:</strong> Skuthus sacrifices himself to summon an <a class="tile" href="/tiles/22">Outer Dark Demon</a>.
+      <br /><br /><strong>Glory to Set:</strong> <a class="tile" href="/tiles/3">Skuthus</a> sacrifices himself to summon an <a class="tile" href="/tiles/22">Outer Dark Demon</a>.
       The Overlord places the Outer Dark Demon model (6 life points) in Skuthus’ area, then Skuthus dies (This count toward completing the heroes’ objective).
       Then the Overlord replaces the Skuthus unit tile in the River with the Outer Dark Demon unit tile.
       <br /><br /><a class="tile" href="/tiles/3">Skuthus</a> has <a class="spell" href="/spells/11">Energy Drain</a> and <a class="spell" href="/spells/5">Set’s Halo</a>. He starts with Set’s Halo cast.',
@@ -248,17 +248,17 @@
       ruleone_title: "Olivia:",
       ruleone_text: 'Use the Princess model to represent Olivia on the game board. Olivia is unconscious, counts as an object th encumbrance value of 6, and can be picked up by a hero by performing a simple manipulation.
       That hero takes the token (Princess token) and places it next to their character sheet. Olivia has one life point and no armor. She dies if she suffers any damage (such as an area attack).
-      If she dies, the side which killed her immediately loses the game.
+      If she dies, the side which killed her immediately loses the game.',
       ruletwo_title: "Olivia’s Cell:",
-      ruletwo_text: "The Captain is Arbanus of Koth. When Arbanus dies, place a Key in the area in which he died. If a hero is in an area adjacent to the door to Olivia’s cell and has a Key, the hero can perform a simple Manipulation to remove the door from the board",
+      ruletwo_text: 'The <a class="tile" href="/tile/2">Captain</a> is Arbanus of Koth. When Arbanus dies, place a <a class="item" href="/items/30">Key</a> in the area in which he died. If a hero is in an area adjacent to the door to Olivia’s cell and has a <a class="item" href="/items/30">Key</a>, the hero can perform a simple Manipulation to remove the door from the board.',
       rulethree_title: "Conan’s Cell:",
       rulethree_text: "A hero in an area adjacent to the door to Conan’s cell can perform a complex Manipulation with a difficulty of 2 to pick the lock. If the hero succeeds, remove the door from the board.",
       rulefour_title: "Doors:",
-      rulefour_text: "A character other than a Hyena can move across a door (except the door to Olivia or Conan’s cell) as though it were a border by spending 1 additional movement point. After a character moves across a door, remove that door from the board.",
+      rulefour_text: 'A character other than a <a class="tile" href="/tiles/41">Hyena</a> can move across a door (except the door to Olivia or Conan’s cell) as though it were a border by spending 1 additional movement point. After a character moves across a door, remove that door from the board.',
       rulefive_title: "Line of Sight:",
-      rulefive_text: "A character in a wall area has line of sight to each ground area within the fort walls. An area in a tower and area outside that tower are within each other’s line of sight only if the areas are adjacent to or in the tower",
+      rulefive_text: "A character in a wall area has line of sight to each ground area within the fort walls. An area in a tower and area outside that tower are within each other’s line of sight only if the areas are adjacent to or in the tower.",
       rulesix_title: "Leaping from Walls:",
-      rulesix_text: "A character can move across a parapet from a wall area to a ground area as though it were a border. The character rolls 2 Red dice for falling damage. If the character has Leap, the character rolls 1 Red die instead',
+      rulesix_text: 'A character can move across a parapet from a wall area to a ground area as though it were a border. The character rolls 2 Red dice for falling damage. If the character has <a class="skill" href="/skills/16">Leap</a>, the character rolls 1 Red die instead.',
       ruleseven_title: " Rock Slides:",
       ruleseven_text: 'A character can move into a rock (rock token) slide area from an adjacent area. The character must spend 2 extra movement points unless the character has <a class="skill" href="/skills/19">Climb</a>.',
       ruleeight_title: "Chest:",
@@ -300,9 +300,9 @@
 
       ruleone_title: "Interrogation:",
       ruleone_text: 'A hero in an area with a priest can move 1 gem from their Reserve zone to their Fatigue zone to roll 1 Red die. This roll is not affected by hindering. Resolve one of the following effects based on the number of symbols shown on the die:
-      <br /><br />0: The priest resists interrogation; no effect.
-      <br /><br />1-2: The priest talks; if the priest can break the curse, the curse is broken. The Overlord informs the hero whether or not the curse is broken. Remove the priest’s token from the board.
-      <br /><br />3: The priest dies before talking; if the priest can break the curse, the curse is broken. The Overlord does not inform the hero whether or not the curse is broken. Remove the priest’s token from the board.',
+      <br /><br /><strong>0:</strong> The priest resists interrogation; no effect.
+      <br /><br /><strong>1-2:</strong> The priest talks; if the priest can break the curse, the curse is broken. The Overlord informs the hero whether or not the curse is broken. Remove the priest’s token from the board.
+      <br /><br /><strong>3:</strong> The priest dies before talking; if the priest can break the curse, the curse is broken. The Overlord does not inform the hero whether or not the curse is broken. Remove the priest’s token from the board.',
       ruletwo_title: "Thak’s Fury:",
       ruletwo_text: 'At the start of turn 12, the Overlord resolves the “Unleashed” event. If Conan enters Thak’s area before the “Unleashed” event has been resolved, immediately resolve it when Conan enters the area.',
       rulethree_title: "Reinforcements:",
@@ -355,8 +355,8 @@
       tile8: 0,
 
       ruleone_title: "Mutineering Pirates:",
-      ruleone_text: 'PiratemodelswithredbasesaremutineeringPirates,andareconsideredallies.MutineeringPiratescannot
-      be activated using Leadership. Once per hero turn, the heroes can activate all mutineering pirates. Mutineering pirates move and attack like a unit group.',
+      ruleone_text: 'Pirate models with red bases are mutineering Pirates, and are considered allies. Mutineering Pirates cannot be activated using Leadership.
+      Once per hero turn, the heroes can activate all mutineering pirates. Mutineering pirates move and attack like a unit group.',
       ruletwo_title: "With me!:",
       ruletwo_text: 'At the start of the heroes’ turn, Conan rolls 1 Yellow die. For each symbol shown on the die, place 1 mutineering Pirate model in Conan’s area.
       If Conan’s area is occupied, place the mutineering pirates in an adjacent area. There can be no more than 5 mutineering Pirates on the board at a time.',
@@ -446,20 +446,20 @@
       ruletwo_text: 'A hero in an area adjacent to the door to area 11 can perform a complex Manipulation with a difficulty of 5 to pick the lock. If the hero succeeds, remove the door from the board.',
       rulethree_title: "Hidden in the shadows:",
       rulethree_text: 'At night, the heroes take advantage of the darkness and the drowsiness of their jailers;
-      if the alarm has not been raised:
-        • Characters cannot perform Ranged attacks.
-        • The Overlord cannot use benefits.
-        • The Overlord can activate only 1 tile during their turn.
+      if the alarm has not been raised:<br />
+        • Characters cannot perform Ranged attacks.<br />
+        • The Overlord cannot use benefits.<br />
+        • The Overlord can activate only 1 tile during their turn.<br />
         • When a minion dies, lay the minion’s model down in the model’s area instead of removing the model from the board. If a hero is in an area with a dead minion and there are no living enemy characters in the area, the hero can perform a simple Manipulation to remove a dead minion’s model from the board.',
       rulefour_title: "Alarm!:",
-      rulefour_text: 'The alarm is raised if any of the following occurs:
-      • A character uses Wall Wrecker or an Explosive Orb.
-      • At the beginning of the Overlord’s turn, if a unit is in an area with a dead minion or a hero.
+      rulefour_text: 'The alarm is raised if any of the following occurs:<br />
+      • A character uses Wall Wrecker or an Explosive Orb.<br />
+      • At the beginning of the Overlord’s turn, if a unit is in an area with a dead minion or a hero.<br />
       • At the end of turn 4.
       When the alarm is raised, the Overlord removes all dead character’s models from the board and places 5 Bossonian Guard models with green bases in the entrance area.
       The Overlord places the green Bossonian Guards tile on the left in the River, sliding tiles to the right as needed, and replaces the recovery token in the book of Skelos with the recovery token showing a recovery value of “5.”',
       rulefive_title: "Breakout:",
-      rulefive_text: 'When a hero opens the last chest on the board, that hero takes a Tools card. A hero with Tools in an area with a window can perform a complex Manipulation with a difficulty of 3. If the hero succeeds, the Tools card is discarded and the heroes’ area becomes an exit. A hero in an exit area can spend 1 movement point to escape the inn; that hero removes their figure from the board.',
+      rulefive_text: 'When a hero opens the last chest on the board, that hero takes a <a class="item" href="/items/29">Tools</a> card. A hero with Tools in an area with a window can perform a complex Manipulation with a difficulty of 3. If the hero succeeds, the <a class="item" href="/items/29">Tools</a> card is discarded and the heroes’ area becomes an exit. A hero in an exit area can spend 1 movement point to escape the inn; that hero removes their figure from the board.',
       rulesix_title: "Walls:",
       rulesix_text: 'A character with <a class="skill" href="/skills/11">Wall Wrecker</a> cannot use it to move across an outer wall of the inn or to move between areas of different elevations.',
       ruleseven_title: "Leaping From/Climbing a Balcony:",
@@ -493,9 +493,9 @@
       overlord_goal: "At the end of turn 8, if the Overlord has more points than the heroes or is tied for most points and no hero has fled with the Idol of Yag-Kosha, the Overlord wins the game.",
       overlord_setup: 'The Overlord starts with 3 gems in their Reserve zone and 8 in their Fatigue zone, and places the recovery token showing a recovery value of “5” in the Book of Skelos.
       <br /><br /><strong>Reinforcement:</strong> 4 reinforcement points.
-      <br /><br /><strong>Siege:</strong> The Overlord rolls 1 Yellow die and resolves an effect based on the number of symbols shown on the die:
-      0 - Resolve the “Reinforcement” event.
-      1 - Place 1 flame in a hut area with a flame. An area cannot have more than 3 flames in it.
+      <br /><br /><strong>Siege:</strong> The Overlord rolls 1 Yellow die and resolves an effect based on the number of symbols shown on the die:<br />
+      0 - Resolve the “Reinforcement” event.<br />
+      1 - Place 1 flame in a hut area with a flame. An area cannot have more than 3 flames in it.<br />
       2 - The Overlord moves 3 gems from their Fatigue zone to their Reserve zone.
       <br /><br />The Overlord chooses 1 <a class="item" href="/items/57">objective card</a> (A, B, C, D, or E) and keeps it facedown.
       <br />The Overlord takes the remaining 4 <a class="item" href="/items/57">objectives</a>, 3 <a class="item" href="/items/47">Sacred Treasures</a>, and 1 <a class="item" href="/items/46">Idol of Yag-Kosha</a>, shuffles them together, and randomly places 1 card facedown in each hut area.
@@ -529,21 +529,21 @@
       rulefive_text: 'A character with <a class="skill" href="/skills/19">Climb</a> can move across boulders (rock token) as though they were a border by spending 2 extra movement points.',
       rulesix_title: "Scoring:",
       rulesix_text: 'At the end of the game, players reveal all facedown objective cards they kept. The heroes and the Overlord score points based on each kept objective card:
-      <br /><br />Card A: The heroes score 2 points if a hero fled from the upper-leftmost road area.
+      <br /><br /><strong>Card A:</strong> The heroes score 2 points if a hero fled from the upper-leftmost road area.
       <br />The Overlord scores 3 points if no hero fled from the upper-leftmost road area.
-      <br /><br />Card B: The heroes score 2 points if there are fewer than 3 flames in hut 5.
+      <br /><br /><strong>Card B:</strong> The heroes score 2 points if there are fewer than 3 flames in hut 5.
       <br />The Overlord scores 2 points if there are 3 flames in hut 5.
-      <br /><br />Card C: The heroes score 1 point for each hero who has fled.
+      <br /><br /><strong>Card C:</strong> The heroes score 1 point for each hero who has fled.
       <br />The Overlord scores 2 points for each hero on the board.
-      <br /><br />Card D: The heroes score 4 points if Zogar Sag is dead.
+      <br /><br /><strong>Card D:</strong> The heroes score 4 points if Zogar Sag is dead.
       <br />The Overlord scores 2 points if Zogar Sag is alive.
-      <br /><br />Card E: The heroes score 2 points if a hero fled with the Idol of Yag-Kosha.
+      <br /><br /><strong>Card E:</strong> The heroes score 2 points if a hero fled with the Idol of Yag-Kosha.
       <br />The Overlord scores 4 points if no hero fled with the Idol of Yag-Kosha.',
       ruleseven_title: "Fleeing the Village:",
       ruleseven_text: 'A hero can flee the village from an area at the edge of the board by spending movement points as though the hero were moving across a border and removing the hero’s model from the board.
       Once a hero has fled, the hero’s model cannot be returned to the board.',
       ruleeight_title: "Pictish Drink:",
-      ruleeight_text: 'A hero may discard this item to move 2 gems from their Fatigue zone to their Reserve zone but must also suffer 1 wound.',
+      ruleeight_text: 'A hero may discard this <a class="item" href="/items/45">item</a> to move 2 gems from their Fatigue zone to their Reserve zone but must also suffer 1 wound.',
 
       origin: "King Pledge", map_ids: [1], hero_ids: [2, 4, 7], tile_ids: [43, 46, 41, 48, 4, 1], spell_ids: [], item_ids: [1, 2, 3, 10, 11, 19, 45, 46, 47, 57] },
 
@@ -580,7 +580,7 @@
       tile8: 35,
 
       ruleone_title: "Red Chest:",
-      ruleone_text: 'A hero in the red chest’s area with a Key can perform a simple Manipulation to open the chest. The chest cannot otherwise be opened, and is considered an object with an encumbrance of 5. When a hero opens the chest, the hero takes a Spellbook instead of a card from the asset deck.',
+      ruleone_text: 'A hero in the red chest’s area with a <a class="item" href="/items/30">Key</a> can perform a simple Manipulation to open the chest. The chest cannot otherwise be opened, and is considered an object with an encumbrance of 5. When a hero opens the chest, the hero takes a <a class="item" href="/items/31">Spellbook</a> instead of a card from the asset deck.',
       ruletwo_title: "Walls:",
       ruletwo_text: 'A character with <a class="skill" href="/skills/11">Wall Wrecker</a> cannot use it to move across an outer wall of the inn or to move between areas of different elevations.',
       rulethree_title: "Leaping From/Climbing a Balcony:",
@@ -621,7 +621,7 @@
       These models can be reinforced. When the Overlord resolves a “Reinforcement” event, the Overlord can place reinforced models in any area, but can place no more than 2 per area.
       The first time the Overlord resolves a “Reinforcement” event, the Overlord gains 10 additional reinforcement points.
       <br /><br /><strong>Reinforcement:</strong> 10 reinforcement points.
-      <br /><br />Skuthus has <a class="spell" href="/spells/2">Pestilential Swarm</a> and <a class="spell" href="/spells/13">Teleportation</a>.',
+      <br /><br /><a class="tile" href="/tile/3">Skuthus</a> has <a class="spell" href="/spells/2">Pestilential Swarm</a> and <a class="spell" href="/spells/13">Teleportation</a>.',
 
       tile1: 3,
       tile2: 19,
@@ -680,7 +680,7 @@
       tile8: 51,
 
       ruleone_title: "Black Lotus:",
-      ruleone_text: 'Aftersetup,layeachBossonianGuard,BossonianArcher,andCaptainmodeldowninthemodel’sarea.Laid-down models are slumbering. Heroes cannot attack slumbering units, slumbering units do not count for hindering, and slumbering units cannot be activated. When the Overlord activates a tile, the Overlord may stand up any number of models in that group before activating units.',
+      ruleone_text: 'After setup, lay each Bossonian Guard, Bossonian Archer, and Captain model down in the model’s area. Laid-down models are slumbering. Heroes cannot attack slumbering units, slumbering units do not count for hindering, and slumbering units cannot be activated. When the Overlord activates a tile, the Overlord may stand up any number of models in that group before activating units.',
       ruletwo_title: "Crowns of Xuthal:",
       ruletwo_text: 'The first time a hero takes each <a class="item" href="/items/24">Crown of Xuthal</a>, move the turn marker 1 space toward space 15.',
       rulethree_title: "Thog:",
@@ -774,7 +774,7 @@
       overlord_setup: 'The Overlord starts with 7 gems in their Reserve zone and 5 in their Fatigue zone, and places the recovery token showing a recovery value of “7” in the Book of Skelos.
       <br /><br /><strong>Reinforcement:</strong> 5 reinforcement points.
       <br /><br /><strong>Forced March:</strong> The Overlord can activate a Kushite unit tile without moving gems from their Reserve zone to their Fatigue zone. The activated Kushite unit tile is placed at the end of the River, after the event tile.
-      <br /><br /> Shubba has <a class="spell" href="/spells/13">Teleportation</a>, <a class="spell" href="/spells/14">Set’s Possession</a>, <a class="spell" href="/spells/15">Lightning Storm</a> and <a class="spell" href="/spells/11">Energy Drain</a>.',
+      <br /><br /> <a class="tile" href="/tiles/15">Shubba</a> has <a class="spell" href="/spells/13">Teleportation</a>, <a class="spell" href="/spells/14">Set’s Possession</a>, <a class="spell" href="/spells/15">Lightning Storm</a> and <a class="spell" href="/spells/11">Energy Drain</a>.',
 
       tile1: 16,
       tile2: 17,
@@ -786,7 +786,7 @@
       tile8: 0,
 
       ruleone_title: "Kushites:",
-      ruleone_text: "Afari, Shafiah, Ghayoor and Shubba are considered to be Kushite units.",
+      ruleone_text: '<a class="tile" href="/tiles/16">Afari</a>, <a class="tile" href="/tiles/18">Shafiah</a>, <a class="tile" href="/tiles/17">Ghayoor</a> and <a class="tile" href="/tiles/15">Shubba</a> are considered to be Kushite units.',
       ruletwo_title: "Yag’s Orb:",
       ruletwo_text: 'Yag’s Orb is represented by the <a class="item" href="/items/27">Stygian Artifact</a> equipment card. It has an encumbrance value of 8. It is made from a mysterious material of incredible density glinting with a strange blue light. A Hero with the Orb card cannot <a class="skill" href="/skills/16">Leap</a> or fall. The Orb cannot be thrown.',
       rulethree_title: "Doors:",
@@ -870,7 +870,7 @@
       overlord_setup: 'The game starts with the Overlord’s turn.
       <br /><br /> The Overlord starts with 10 gems in their Reserve zone and 0 in their Fatigue zone, and places the recovery token showing a recovery value of “3” in the Book of Skelos.
       <br /><br /><strong>Crowd Control:</strong> see Special Rules.
-      <br /><br /> Shubba has <a class="spell" href="/spells/11">Energy Drain</a>, <a class="spell" href="/spells/12">Mind Control</a>, and <a class="spell" href="/spells/13">Teleportation</a>.',
+      <br /><br /> <a class="tile" href="/tiles/15">Shubba</a> has <a class="spell" href="/spells/11">Energy Drain</a>, <a class="spell" href="/spells/12">Mind Control</a>, and <a class="spell" href="/spells/13">Teleportation</a>.',
 
       tile1: 16,
       tile2: 17,
@@ -882,10 +882,10 @@
       tile8: 0,
 
       ruleone_title: "Artifacts:",
-      ruleone_text: 'During setup, the Overlord places the artifacts, represented by the tokens (), as indicated by the setup diagram. A Kushite (Afari, Ghayor, Shafiah and Shubba) in an artifact’s area may perform a Melee Attack and roll at least 2 symbols in a single attack to destroy that artifact.
-      This Melee Attack follows the same rules as any Melee Attack (Sacrifice, Circular Strike, etc.) and Bêlit’s Guards can use Sacrifice to defend the artifacts.',
+      ruleone_text: 'During setup, the Overlord places the artifacts, represented by the tokens, as indicated by the setup diagram. A Kushite (<a class="tile" href="/tiles/16">Afari</a>, <a class="tile" href="/tiles/17">Ghayor</a>, <a class="tile" href="/tiles/18">Shafiah</a> and <a class="tile" href="/tiles/15">Shubba</a>) in an artifact’s area may perform a Melee Attack and roll at least 2 symbols in a single attack to destroy that artifact.
+      This Melee Attack follows the same rules as any Melee Attack (<a class="skill" href="/skills/29">Sacrifice</a>, <a class="skill" href="/skills/4">Circular Strike</a>, etc.) and <a class="tile" href="/tiles/16">Afari</a>Bêlit’s Guards can use <a class="skill" href="/skills/29">Sacrifice</a> to defend the artifacts.',
       ruletwo_title: "Crowd Control:",
-      ruletwo_text: 'The Overlord activates up to two Bêlit’s Guards as if they were units. During these activations, the Overlord follows all rules regarding unit tile activation (movement, attack etc.) and can use benefits. The Overlord cannot use <a class="skill" href="/skills/16">Leap</a> with a Bêlit’s Guard model to <a class="skill" href="/skills/16">Leap</a> from the walls.',
+      ruletwo_text: 'The Overlord activates up to two <a class="tile" href="/tiles/16">Afari</a>Bêlit’s Guards as if they were units. During these activations, the Overlord follows all rules regarding unit tile activation (movement, attack etc.) and can use benefits. The Overlord cannot use <a class="skill" href="/skills/16">Leap</a> with a Bêlit’s Guard model to <a class="skill" href="/skills/16">Leap</a> from the walls.',
       rulethree_title: "Lines of Sight:",
       rulethree_text: 'A character in a wall area has line of sight to each ground area within the fortress walls. An area in a tower and an area outside that tower are within each other’s line of sight only if the areas are in or adjacent to the tower.',
       rulefour_title: "Leaping from Walls:",
