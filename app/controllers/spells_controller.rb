@@ -1,10 +1,11 @@
 class SpellsController < ApplicationController
   before_action :set_spell, only: [:edit, :update, :show, :destroy]
   before_action :set_spells, only: [:index]
+  before_action :require_user, except: [:index, :show]
   before_action :require_admin, except: [:index, :show]
 
   def index
-    @spells = Spell.all
+    @spells = Spell.  all
   end
 
   def new

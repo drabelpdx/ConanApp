@@ -5,7 +5,6 @@ class ItemsController < ApplicationController
   before_action :require_admin, except: [:index, :show]
 
   def index
-    @items = Item.all
   end
 
   def new

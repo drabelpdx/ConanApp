@@ -4,8 +4,8 @@
     <%= image_tag "#{@map.image}" %><br /><br />
       <% if @map.flip_side != 'none' %>
         <h4>Shares a board with
-          <% map = Map.find_by_name [@map.flip_side] %>
-          <%= link_to @map.flip_side, map_path(map) %>
+          <% @map2 = Map.find_by_name [@map.flip_side] %>
+          <%= link_to @map.flip_side, map_path(@map2) %>
         </h4>
       <% end %>
       <%= link_to "Back to maps", maps_path %>

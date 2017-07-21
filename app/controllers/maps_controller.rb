@@ -53,6 +53,7 @@ class MapsController < ApplicationController
                                   :image, :ruleone, :ruletwo, :rulethree,
                                   :rulefour, :rulefive, :rulesix)
     end
+    
     def set_maps
       @core = Map.where(origin: 'Core Game')
       @stretch = Map.where(origin: 'Stretch Goals')
