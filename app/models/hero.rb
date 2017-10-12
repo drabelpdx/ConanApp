@@ -1,4 +1,5 @@
 class Hero < ActiveRecord::Base
+  serialize :encumbrance
   has_many :hero_skills
   has_many :hero_stories
   has_many :hero_scenarios

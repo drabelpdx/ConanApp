@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170605233742) do
+ActiveRecord::Schema.define(version: 20171008195958) do
 
   create_table "hero_scenarios", force: :cascade do |t|
     t.integer "hero_id"
@@ -35,7 +35,7 @@ ActiveRecord::Schema.define(version: 20170605233742) do
     t.string   "cite"
     t.string   "hero_image"
     t.string   "life"
-    t.string   "encumbrance"
+    t.text     "encumbrance"
     t.string   "melee_dice"
     t.string   "melee_exertion"
     t.string   "ranged_dice"

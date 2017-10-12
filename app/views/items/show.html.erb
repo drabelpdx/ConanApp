@@ -1,9 +1,9 @@
 <div class="row">
   <div class="col-md-6">
     <div class="well">
-      <h2 class="item"><%= @item.name %></h2>
-      <h4><%= @item.role %></h4>
-      <table class="tile_stats">
+      <h2 class="item center"><%= @item.name %></h2>
+      <h4 align="center"><%= @item.role %></h4>
+      <table class="tile_stats" align="center">
         <% if @item.encumbrance != '' %>
           <tr>
             <th>
@@ -78,7 +78,7 @@
       </table>
       <% if @item.description != '' %>
         <br /><br />
-        <p><%= @item.description %></p>
+        <p align="center"><%= @item.description %></p>
       <% end%>
       <br /><br />
       <div align="center" class="tiles">

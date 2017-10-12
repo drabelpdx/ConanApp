@@ -1,39 +1,25 @@
 <div class="row">
-  <div class="col-md-5">
+  <div class="col-xs-12 col-md-5">
     <div class="well">
         <h2 class="tile"><%= @tile.name %></h2>
         <h4><%= @tile.description %></h4>
         <div align="center" class="tiles">
-        <%= image_tag "#{@tile.figure_image}" %><br /><br />
-        <h4>
-          <%= @tile.count %>  <%= @tile.role %>
-          <%= pluralize_no_count(@tile.count, 'tile') %>
-        </h4>
+          <%= image_tag "#{@tile.figure_image}" %><br /><br />
+          <h4>
+            <%= @tile.count %>  <%= @tile.role %>
+            <%= pluralize_no_count(@tile.count, 'tile') %>
+          </h4>
           from  <%= @tile.origin %>
-        <br /><br /><%= link_to "Back to tiles", tiles_path %>
+          <br /><br /><%= link_to "Back to tiles", tiles_path %>
+        </div>
       </div>
     </div>
-  </div>
-  <div class="col-md-7">
-    <h4>Tile Stats:</h4>
+  <div class="col-xs-6 col-md-4">
     <table class="tile_stats">
-      <% if @tile.skills.any? %>
-        <tr>
-          <th>
-            <h4>Skills:</h4>
-          </th>
-          <% @tile.skills.each do |skill| %>
-            <td class="thumbs">
-              <%= link_to image_tag("skills/#{skill.name}.png"), skill_path(skill) %>
-              <br /><%= link_to skill.name, skill_path(skill) %>
-            </td>
-          <% end%>
-        </tr>
-      <% end %>
       <% if @tile.move != '–' %>
         <tr>
+          <h4>Stats:</h4>
           <th>
-            <h4>Stats:</h4>
             <%= image_tag "stats/movement.png" %>
             <br />Movement
           </th>
@@ -88,8 +74,21 @@
         <% end %>
       </tr>
     </table>
-    <div class="col-md-4">
-      <br /><br />
+    <table>
+      <% if @tile.skills.any? %>
+        <tr>
+          <h4>Skills:</h4>
+          <% @tile.skills.each do |skill| %>
+            <td class="thumbs">
+              <%= link_to image_tag("skills/#{skill.name}.png"), skill_path(skill) %>
+              <br /><%= link_to skill.name, skill_path(skill) %>
+            </td>
+          <% end%>
+        </tr>
+      <% end %>
+    </table>
+  </div>
+    <div class="col-xs-6 col-md-3">
       <% if @tile_scenarios.any? %>
         <h4>Scenarios:</h4>
         <% @tile_scenarios.each do |scenario| %>
