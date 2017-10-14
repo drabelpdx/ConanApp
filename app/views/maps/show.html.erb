@@ -20,7 +20,7 @@
         <% if @map.rulefive %><li><%= @map.rulefive.html_safe %></li><% end%>
         <% if @map.rulesix %><li><%= @map.rulesix.html_safe %></li><% end%>
       </ol><br /><br />
-    <h4>Used in these Scenarios: </h4>
+    <h4>Scenarios played on this map: </h4>
       <% if @map_scenarios.any? %>
         <% @map_scenarios.each do |scenario| %>
           <p><%= link_to scenario.name, scenario_path(scenario) %></p>

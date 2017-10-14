@@ -1136,7 +1136,10 @@
       origin: "Add-Ons", map_ids: [1], hero_ids: [14, 18, 19], tile_ids: [44, 45, 50, 2, 48, 4, 1], spell_ids: [3, 6, 13, 33, 36], item_ids: [1, 3, 11, 16, 28, 33, 36, 43, 49] },
 
 
-    { name: "Death from the North", description: "",
+    { name: "Death from the North", description: "The keen eye of the imposing figure scrutinizes every corner of the peaceful Brythunian village. Hidden at the edge of the forest by the dense foliage, the man formulates his plan of attack while recalling the painful circumstances that have led him so far.
+      Having failed to take over his city of origin by force, he was banished and forced to flee Hyperborea on pain of death. But things could not stop there. Highly skilled in necromancy and dark magic, he is determined to use his terrifying powers to take his revenge. However he now needs an army because the golem, which he has recently crafted during a macabre ritual, is not enough to march against his former city. So it is the corpses of the inhabitants of this country that will provide him with a material of top quality.
+      Under the cover of nightfall, the Hyperborean sorcerer and his golem swoop down on the inn, the first building on the edge of the village. Faced with these defenseless villagers, the task of the renegade promises to be easy, and he will soon be able to raise his army of undead.
+      Nevertheless, he hasn’t taken Conan into account, the taciturn and dangerous Cimmerian who stays here. Who, having become a general in the Aquilonian army, has been sent on mission to Brythunia accompanied by a squadron of the Black Legion.",
       map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/Death+from+the+North.jpg',
       pdf_link: 'http://www.monolithedition.com/conan-en/death-from-the-north/',
       player_count: "4",
@@ -1259,10 +1262,12 @@
 
       origin: "Add-Ons", map_ids: [2], hero_ids: [], tile_ids: [38, 36, 1, 51, 38, 5, 1], spell_ids: [], item_ids: [2, 5, 7, 22] },
 
-    { name: "The Curse of the Shape-Shifter", description: "Bahram, the influential sorcerer in the service of the Sultan of Iranistan, has lost control of his powers. He has become a shape-shifter against his own will and no one knows whether this is a punishment from the gods or a curse picked up from his excessive studies of impious mysteries. As the evil continues to worsen, and in fear of losing his human envelope once and for all, the sorcerer has started a complex and dangerous ritual in order to lift this curse. The Sultan, on the other hand, does not wish to run any risks and has sent Prince Kerim Shah to solve the problem at his discretion; Bahram has become a danger to the ruling family and the people around him.
-      Kerim Shah is unwilling to send his best warriors to certain death so he buys the services of a band of killers in the streets of the cosmopolitan and colorful Zambula, in Turanian territory. Killers that, provided they are highly paid, have little regard for the dangers that may be incurred; a renegade from the Black Kingdoms - a taciturn barbarian from the north, and a Shemite warrior whose beauty is as dark as her blade is deadly.
+    { name: "The Curse of the Shape-Shifter", description: "Bahram, the influential sorcerer in the service of the Sultan of Iranistan, has lost control of his powers. He has become a shape-shifter against his own will and no one knows whether this is a punishment from the gods or a curse picked up from his excessive studies of impious mysteries.
+      As the evil continues to worsen, and in fear of losing his human envelope once and for all, the sorcerer has started a complex and dangerous ritual in order to lift this curse. The Sultan, on the other hand, does not wish to run any risks and has sent Prince Kerim Shah to solve the problem at his discretion;
+      Bahram has become a danger to the ruling family and the people around him. Kerim Shah is unwilling to send his best warriors to certain death so he buys the services of a band of killers in the streets of the cosmopolitan and colorful Zambula, in Turanian territory.
+      Killers that, provided they are highly paid, have little regard for the dangers that may be incurred; a renegade from the Black Kingdoms - a taciturn barbarian from the north, and a Shemite warrior whose beauty is as dark as her blade is deadly.
       Their orders are simple, find Bahram and eliminate him. However, in the face of the sorcerer’s power, the Sultan will be satisfied if the group succeeds, at the very least, in preventing his ritual thus leaving him to end his days in the form of an animal.",
-      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/The Curse+of+the+Shape-Shifter.jpg',
+      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/The+Curse+of+the+Shape-Shifter.jpg',
       pdf_link: 'http://www.monolithedition.com/conan-en/the-final-ritual/',
       player_count: "5",
       complexity: "3",
@@ -1305,7 +1310,7 @@
       1- The Overlord turns all the animal form tiles unbloody side faceup.
       2- The model that represents the Sorcerer is replaced by the model of the Sorcerer. The Sorcerer’s turn is then played in the form of the Sorcerer.
       3- While the Sorcerer is represented by the model of the Sorcerer, the characteristics of the Sorcerer tile (movement, armor, attack, spells and skills) are used for all that concerns the Sorcerer.',
-      rulefour_title: "Warding o  the curse:",
+      rulefour_title: "Warding off the curse:",
       rulefour_text: 'To ward off the curse the Overlord must sacrifice a pirate on each of the three altars. For this the pirate must be in the same area as a altars token and the Overlord must kill them using a melee attack. When a pirate is sacrificed on an altar, the altar token is removed from the board as well as the animal tile and model corresponding to the altar token (1-Camel, 2-Giant Scorpion, 3-Giant Spider). If the animal form model that must be removed from the game corresponds to the current form of the Sorcerer, it is then replaced on the board by the model of the Sorcerer.',
       rulefive_title: "Escorting the Pirates:",
       rulefive_text: 'If an Overlord unit starts its activation phase in the same area as a pirate, the Overlord can decide to move the pirate model at the same time as the activated unit. The pirate makes the same move (or part of the move) as the Overlord unit. If the Overlord uses a Movement benefit for the activated unit, the pirate can follow the unit without the Overlord moving an additional gem for the pirate’s move. At any moment of the unit’s move, the Overlord can decide that the pirate will no longer follow the unit in question and so stop the pirate. It must not be forgotten that pirates do not count for hindering.
@@ -1324,5 +1329,125 @@
       ruleeleven_text: 'During setup, the Overlord places 4 chests on the board as indicated by the setup diagram. The asset deck contains: 1 <a class="item" href="/items/1">Battle Axe</a>, 1 <a class="item" href="/items/34">Turanian Sword</a>, 1 <a class="item" href="/items/13">Tribal Mace</a>, and 1 <a class="item" href="/items/37">Zingarian Bow</a>.',
 
       origin: "Stretch Goals +", map_ids: [3], hero_ids: [9, 3, 15, 19], tile_ids: [11, 76, 74, 11, 75, 65, 1], spell_ids: [7, 25], item_ids: [1, 2, 13, 10, 11, 32, 34, 37] },
+
+
+
+    { name: "The White Witch", description: "Far from the disturbing ancestral lands occupied by the Pict people, there is a cursed place that the fierce painted warriors avoid. The territory of a solitary witch living among wolves. An Aquilonian who had long been exiled and turned towards the children of wild nature rather than towards men.
+      Yet Zelata, for such is her name, is not a disciple of black magic; and if she does not seek quarrel with the neighboring Pict clans, they nevertheless vow a superstitious fear to her. She is the White Witch coming from the East, who speaks to nature and animals as well as to spirits.
+      So, when Zelata learns that the Shaman of the Crows clan has invoked a Swamp Demon, she cannot decently stand idly by. It does not matter to her that the Pict tribes spend their time confronting each other, but the presence of such a vile and unpredictable creature is a threat she cannot tolerate. For sooner or later this abomination will attract the attention of the Friars of the Night to her existence and these gods of darkness haunting the Black Country plateaus will wish to feed on her soul and imprison it forever in the Chasm of Specters.
+      Gathering her children around her, she decides to move into action.",
+      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/The+White+Witch.jpg',
+      pdf_link: 'http://www.monolithedition.com/conan-en/white-witch/',
+      player_count: "2",
+      complexity: "1",
+
+      hero_goal: "If Zelata kills the Swamp Demon before the end of round 6, the hero wins the game.",
+      hero_setup: 'The game starts with the hero’s turn.
+      <br /><br /><strong>Suggestions for 1 hero:</strong>
+      <br /><a class="hero" href="/heroes/8">Zelata</a> (2 spells: <a class="spell" href="/spells/7">Mitra’s Halo</a> and <a class="spell" href="/spells/28">Bel’s Caress</a>) with 10 Giant Wolves. Zelata starts with Mitra’s Halo cast.
+      <br /><br />After setup, the hero moves no gems from their Reserve zone to their Fatigue zone.',
+
+      overlord_goal: "If the Overlord prevents Zelata from killing the Swamp Demon, or kills all the Giant Wolves before the end of round 6, the Overlord wins the game.",
+      overlord_setup: "Overlord starts with 7 gems in their Reserve zone and 1 in their Fatigue zone, and places the recovery token showing a recovery value of “3” in the Book of Skelos.
+      <br /><br /><strong>Reinforcement:</strong> 3 reinforcement points.
+      <br /><br /><strong>Forced march:</strong> The Overlord choses a unit tile. All the models of this unit tile may move according to their base movement value.",
+
+      tile1: 44,
+      tile2: 43,
+      tile3: 26,
+      tile4: 11,
+      tile5: 50,
+      tile6: 48,
+      tile7: 1,
+      tile8: 0,
+
+      ruleone_title: "Giant Wolf:",
+      ruleone_text: "During setup, the hero places two Giant Wolves tiles next to Zelata’s hero sheet. When Zelata uses her Leaderships kill to activate the Giant Wolves by spending one gem, she activates two Giant Wolves characters instead of one. She must move both Giant Wolves, then perform their attack. Each Giant Wolf can only be activated once per hero’s turn. The Giant Wolves follow the standard rules of the Allies for rerolls, Guard an additional movement points.
+      As soon as 5 Giant Wolves have been killed, the hero removes a Giant Wolves tile from the game. From this point on, when Zelata uses her Leadership skill to activate the Giant Wolves by spending one gem, she only activates one Giant Wolf character.",
+      ruletwo_title: "Wolf Pack:",
+      ruletwo_text: "When Zelata is in the same area as a Giant Wolf, she gains the Protected skill. When there are strictly more Giant Wolves characters than Overlord’s characters in one area:<br/>
+      • The Armor Value of the Giant Wolves is 2 against Melee attacks.<br />
+      • The Armor Value of their target in Melee attack is reduced by 1.",
+      rulethree_title: "Shaman’s Staff:",
+      rulethree_text: "During setup, the Overlord places the Withering Spell card next to the board. The character carrying the Shaman’s Staff gains the Withering spell.",
+      rulefour_title: "Censer:",
+      rulefour_text: "During setup, the Overlord places the Pestilential Swarm card next to the board. The character carrying the Censor gains the Pestilential Swarm spell.",
+      rulefive_title: "Totem:",
+      rulefive_text: "During setup, the Overlord places 4 totems as indicated on the map. If Zelata is in the same area as a Totem, she may perform a complex Manipulation of difficulty 2 to destroy that Totem. When a Totem is destroyed, the Overlord removes that Totem from the board, then the Swamp Demon suffers 2 wounds with no possible defense.",
+      rulesix_title: "Water areas:",
+      rulesix_text: "A character must spend 1 extra movement point to move out of a water area. A character can move from a water area to an adjacent wood area by spending 2 extra movement points.",
+      ruleseven_title: "Leap:",
+      ruleseven_text: "Leaping over the water area around the altar in a single movement is not possible. The character must stop in the altar area before performing a second leap.",
+      ruleeight_title: "Wooden Huts:",
+      ruleeight_text: "A character with Wall Wrecker can use it to move across the wall of one of the wooden huts.",
+      rulenine_title: "Leaping from Walls:",
+      ruleten_title: "Chests:",
+      ruleten_text: 'During setup, the Overlord places 3 chests on the board as indicated by the setup diagram. The asset deck contains: 1 <a class="item" href="/items/25">Shaman’s Staff</a>, 1 <a class="item" href="/items/55">Censer</a>, and 1 <a class="item" href="/items/22">Life Potion</a>.',
+
+      origin: "Stretch Goals +", map_ids: [6], hero_ids: [8], tile_ids: [1, 11, 26, 43, 44, 48, 50], spell_ids: [7, 28], item_ids: [22, 25, 55] },
+
+    { name: "A Lion Among Panthers", description: "The man with the broad shoulders grimaces protruding his muscles so as to break the ties that hinder him. His clothes are of quality, but of simple craftsmanship and he does not wear rings, or finery to the exception of a silver headband which encircles his head, holding his black square-cut mane.
+      No Pict would be able to recognize in him the King of Aquilonia.
+      Still, it is Conan, trying to escape the ferocious warriors of the Panther clan, who treacherously captured him the day before.
+      Weary of his royal obligations and state affairs, Conan found a pretext to get away from Tarantia and regain some of his original freedom.
+      He rode relentlessly, his lion at his side, to rejoin the still wild province of Thandara where several Aquilonian colonists settled after the fall of the Conajohara.
+      The Thandara, the one who in the old days at once stood up for Conan, when he opposed King Numedides.
+      When the Cimmerian finally breaks his bonds, he cannot help but to let go of a sonorous blasphemy, for he knows that the altar blackened by flames and stained with blood that sits in the center of the village awaits his imminent sacrifice.
+      But he also knows that he can rely on another prisoner to get himself out of a bad situation; a young man, also a captive of the Picts, reminding him tremendously of Balthus, who was his valiant brother-in-arms during the fighting on the Black River banks.",
+
+      map_image: "https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/A+Lion+Among+Panthers.jpg",
+      pdf_link: "http://www.monolithedition.com/conan-en/a-lion-among-panthers/",
+      player_count: "3",
+      complexity: "2",
+
+      hero_goal: "If at least one hero flees with three Sacred Treasures before the end of turn 7; the heroes win the game.",
+      hero_setup: 'The game starts with the heroes’ turn.
+      <br /><br /><strong>Suggestions for 2 heroes:</strong>
+      <br /><a class="hero" href="/heroes/5">Amra the Lion</a> (<a class="item" href="/items/16">Leather Armor</a>) with Conan’s Lion
+      <br /><a class="hero" href="/heroes/10">Balthus</a> (<a class="item" href="/items/16">Leather Armor</a>) with Slasher
+      <br /><br />After setup, the heroes moves no gems from their Reserve zone to their Fatigue zone.',
+
+      overlord_goal: "If the Overlord prevents the heroes from fleeing with three sacred treasures at the end of turn 7; the Overlord wins the game.",
+      overlord_setup: 'The Overlord starts with 5 gems in their Reserve zone and 5 in their Fatigue zone, and places the recovery token showing a recovery value of “5” in the Book of Skelos.
+      <br /><br /><strong>Reinforcement:</strong> 3 reinforcement points.
+      <br /><br /> <a class="tile" href="/tiles/4">Zogar Sag</a> has one spell: <a class="spell" href="/spells/6">Set’s Bite</a> for this scenario.',
+
+      tile1: 44,
+      tile2: 50,
+      tile3: 27,
+      tile4: 48,
+      tile5: 4,
+      tile6: 27,
+      tile7: 1,
+      tile8: 0,
+
+      ruleone_title: "Sacred Treasures:",
+      ruleone_text: 'The three <a class="item" href="/items/47">Sacred Treasure</a>, the <a class="item" href="/items/28">Pictish Fetish</a>, and the <a class="item" href="/items/54">Heart of Ahriman</a> are considered Sacred Treasures.
+      During setup, the Overlord places one Sacred Treasure card on the same areas as the tokens 1, 2, and 3 as well as the Pictish Fetish and the Heart of Ahriman next to the board.',
+      ruletwo_title: "Equipment:",
+      ruletwo_text: 'During setup, the Overlord places the following cards on the area 4 : 1 <a class="item" href="/items/32">Axe</a>, 1 <a class="item" href="/items/37">Zingarian Bow</a>, and 1 <a class="item" href="/items/22">Life Potion</a>.',
+      rulethree_title: "Stone:",
+      rulethree_text: "During setup, the Overlord places a Stone token in each of the stone Huts as indicated by the setup diagram. These stones are considered Equipment cards with an encumbrance value of 2. When a hero carries a stone, they no longer suffer the penalty for Melee Attack without a weapon card.",
+      rulefour_title: "Zogar Sag:",
+      rulefour_text: 'When Zogar Sag dies, the Overlord immediately places the <a class="item" href="/items/28">Pictish Fetish</a> card in Zogar Sag’s area.',
+      rulefive_title: "Forest Demon:",
+      rulefive_text: 'When the Forest Demon dies, the Overlord immediately places the <a class="item" href="/items/54">Heart of Ahriman</a> card in the Forest Demon’s area.',
+      rulesix_title: "Door:",
+      rulesix_text: "Slasher and Conan’s Lion are imprisoned. As long as the door is in play, the animals cannot be activated. Conan and Balthus cannot use their Leadership skills. The Door is considered impassable.
+      A hero in an area adjacent to the door can perform a complex Manipulation with a difficulty of 2 to remove that door from the board. The heroes may use their Leadership skills to activate Conan’s Lion and Slasher.",
+      ruleseven_title: "Slasher:",
+      ruleseven_text: "Only Balthus can activate Slasher. If Balthus dies, Slasher has no longer reason to fight and is immediately removed from the game.",
+      ruleeight_title: "Conan’s Lion:",
+      ruleeight_text: "Only Amra the Lion can activate Conan’s Lion. If Amra the Lion dies, Conan’s Lion has no longer reason to fight and is immediately removed from the game.",
+      rulenine_title: "Fleeing the Village:",
+      rulenine_text: "A model can flee the village from one of the three village entrance areas (northwest, southwest and east) by spending movement points as though the model was moving across a border. The model is then removed from the board. Once a model has fled, the model cannot be returned to the board.",
+      ruleten_title: "Flaps:",
+      ruleten_text: "To enter or leave a hut, a hero must spend 1 extra Movement point because of the Flaps. The Flaps at the entrance of each Hut block the Line of Sight.",
+      ruleeleven_title: "Climb:",
+      ruleeleven_text: "A character with Climb can move across boulders as though they were a border by spending 2 extra movement points.",
+      ruletwelve_title: "Wooden Huts:",
+      ruletwelve_text: "A character with Wall Wrecker can use it to move across the wall of one of the wooden huts.",
+
+      origin: "Stretch Goals +", map_ids: [1], hero_ids: [5, 10], tile_ids: [1, 4, 27, 44, 48, 50], spell_ids: [6], item_ids: [1, 2, 13, 10, 11, 32, 34, 37] },
 
   ])

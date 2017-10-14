@@ -1,8 +1,8 @@
-<div class="row">
+<div class="row hero-well">
   <div class="col-md-4">
-    <div class="hero-well">
-      <h2 class="hero"><%= @hero.name %></h2>
-      <h4><%= @hero.description %></h4>
+    <div class="">
+      <h2 class="hero" align="center"><%= @hero.name %></h2>
+      <h4 align="center"><%= @hero.description %></h4>
       <div align="center" class="heroes">
         <%= image_tag "#{@hero.hero_image}" %><br /><br />
       </div>
@@ -14,9 +14,8 @@
     </div>
   </div>
   <div class="col-md-8">
-
     <table class="table table-bordered hero_stats">
-      <tr class="success">
+      <tr class="warning">
         <th>
           <%= image_tag "stats/movement.png" %>
           <br />Movement
@@ -34,7 +33,7 @@
           <br />Manipulation
         </th>
       </tr>
-      <tr class="">
+      <tr class="active">
         <td><h3><%= @hero.movement_free %></h3>Free</td>
         <td>
           <%= image_tag "dice/#{@hero.melee_dice}.png" %><br />
@@ -49,16 +48,15 @@
           <%= @hero.manipulation_dice %> die
         </td>
       </tr>
-      <tr class="">
+      <tr class="active">
         <td>Exertion Limit: <h4><%= @hero.movement_exertion %></h4></td>
         <td>Exertion Limit: <h4><%= @hero.melee_exertion %></h4></td>
         <td>Exertion Limit: <h4><%= @hero.ranged_exertion %></h4></td>
         <td>Exertion Limit: <h4><%= @hero.manipulation_exersion %></h4></td>
       </tr>
     </table>
-
     <table class="table table-bordered hero_stats">
-      <tr class="success">
+      <tr class="warning">
         <th>
           <%= image_tag "stats/defense.png" %>
           <br />Defense
@@ -71,20 +69,29 @@
           <%= image_tag "stats/encumbrance.png" %>
           <br />Encumbrance
         </th>
+        <th>
+          <%= image_tag "stats/move_encum1.png" %>
+          <br />Move -1
+        </th>
+        <th>
+          <%= image_tag "stats/move_encum2.png" %>
+          <br />Move -2
+        </th>
       </tr>
-      <tr class="">
+      <tr class="active">
         <td>
           <%= image_tag "dice/#{@hero.defense_dice}.png" %><br />
           <%= @hero.defense_dice %> die
         </td>
         <td><h3><%= @hero.life %></h3></td>
         <td><h3><%= @hero.encumbrance[0] %></h3></td>
+        <td>Lost at: <h4><%= @hero.encumbrance[1] %></h4></td>
+        <td>Lost at: <h4><%= @hero.encumbrance[2] %></h4></td>
       </tr>
     </table>
-
     <% if @hero.skills.any? %>
       <table class="table table-bordered hero_stats">
-        <tr class="success">
+        <tr class="warning">
           <% @hero.skills.each do |skill| %>
             <td class="thumbs">
               <%= link_to image_tag("skills/#{skill.name}.png"), skill_path(skill) %>
@@ -92,35 +99,38 @@
             </td>
           <% end%>
         </tr>
-        <tr class="">
+        <tr class="active">
           <% @hero.skills.each_with_index do |skill, index| %>
             <td>
-              <% if @hero.encumbrance[index+1] %>
-                Lost at: <h4><%= @hero.encumbrance[index+1] %></h4>
+              <% if @hero.encumbrance[index+3] %>
+                Lost at: <h4><%= @hero.encumbrance[index+3] %></h4>
               <% end %>
             </td>
           <% end %>
         </tr>
       </table>
     <% end %>
-
-    <div class="col-md-4">
-      <% if @hero_scenarios.any? %>
-        <h4>Scenarios:</h4>
-        <% @hero_scenarios.each do |scenario| %>
-          <p><%= link_to scenario.name, scenario_path(scenario) %></p>
-        <% end%>
-      <% end %>
-    </div>
-    <div class="col-md-4">
-      <br /><br />
-      <% if @hero.stories.any? %>
-        <h4>Stories:</h4>
-        <% @hero.stories.each do |story| %>
-          <p><%= link_to story.name, story_path(story) %></p>
-        <% end%>
-      <% end %>
-    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-4">
+  </div>
+  <div class="col-md-4">
+    <% if @hero_scenarios.any? %>
+      <h4>Scenarios:</h4>
+      <% @hero_scenarios.each do |scenario| %>
+        <p><%= link_to scenario.name, scenario_path(scenario) %></p>
+      <% end%>
+    <% end %>
+  </div>
+  <div class="col-md-4">
+    <br /><br />
+    <% if @hero.stories.any? %>
+      <h4>Stories:</h4>
+      <% @hero.stories.each do |story| %>
+        <p><%= link_to story.name, story_path(story) %></p>
+      <% end%>
+    <% end %>
   </div>
 </div>
 

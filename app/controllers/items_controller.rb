@@ -62,7 +62,8 @@ class ItemsController < ApplicationController
       @khitai = Item.where(origin: 'Khitai Expansion')
       @campaign = Item.where(origin: 'Campaign')
       @weapon = Item.where(role: 'Weapon')
-      @armor = Item.where("role = ? or role = ?", "Armor", "Shield")
+      @armor = Item.where('role = ? or role = ? or role = ?', 'Armor', 'Shield',
+         'Staff')
       @object = Item.where(role: 'Object')
       @drink = Item.where(role: 'Drink')
       @special = Item.where(role: 'Special')
