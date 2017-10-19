@@ -453,7 +453,7 @@
         • When a minion dies, lay the minion’s model down in the model’s area instead of removing the model from the board. If a hero is in an area with a dead minion and there are no living enemy characters in the area, the hero can perform a simple Manipulation to remove a dead minion’s model from the board.',
       rulefour_title: "Alarm!:",
       rulefour_text: 'The alarm is raised if any of the following occurs:<br />
-      • A character uses Wall Wrecker or an Explosive Orb.<br />
+      • A character uses <a class="skill" href="/skills/11">Wall Wrecker</a> or an <a class="item" href="/items/5">Explosive Orb</a>.<br />
       • At the beginning of the Overlord’s turn, if a unit is in an area with a dead minion or a hero.<br />
       • At the end of turn 4.
       When the alarm is raised, the Overlord removes all dead character’s models from the board and places 5 Bossonian Guard models with green bases in the entrance area.
@@ -596,7 +596,7 @@
       ruleseven_title: "Chests:",
       ruleseven_text: 'During setup, the Overlord places 6 chests on the board as indicated by the setup diagram. The asset deck contains: 1 <a class="item" href="/items/30">Key</a>, 1 <a class="item" href="/items/5">Explosive Orb</a>, 1 <a class="item" href="/items/22">Life Potion</a>, 1 <a class="item" href="/items/16">Leather Armor</a>, 1 <a class="item" href="/items/23">Empty Chest</a>.',
 
-      origin: "King Pledge", map_ids: [4], hero_ids: [2, 3], tile_ids: [36, 5, 58, 54, 1, 5, 2, 35], spell_ids: [], item_ids: [5, 7, 14, 15, 16, 22, 23, 30] },
+      origin: "King Pledge", map_ids: [4], hero_ids: [2, 3], tile_ids: [36, 5, 58, 54, 1, 5, 2, 35], spell_ids: [], item_ids: [5, 7, 14, 15, 16, 22, 23, 30, 31] },
 
     { name: "In the Name of Ibis", description: "The hunt nears its end; on the limits of the kingdom of Nemedia, Conan picks up the trail of Skuthus, the sorcerer he has pursued relentlessly since Numalia.
       Hailing from Stygia, the fearsome necromancer has failed in his attempt to eliminate Kalanthes, a priest of Ibis devoted to fighting the cult of the archdemon Set. Skuthus underestimated the tenacity of the mercenaries tasked with protecting the priest. Kalanthes, wounded but alive, remains in Numalia.
@@ -646,7 +646,7 @@
       rulefive_title: "Chests:",
       rulefive_text: 'During setup, the Overlord places 8 chests on the board as indicated by the setup diagram. The asset deck contains: 2 <a class="item" href="/items/22">Life Potion</a>, 2 <a class="item" href="/items/3">Javelin</a>, 1 <a class="item" href="/items/17">Chain Mail</a>, 1 <a class="item" href="/items/4">Crossbow</a>, 1 <a class="item" href="/items/19">Buckler</a>, 1 <a class="item" href="/items/10">Sword</a>.',
 
-      origin: "King Pledge", map_ids: [4], hero_ids: [2, 3, 4], tile_ids: [3, 19, 76, 69, 1, 19, 66, 71], spell_ids: [2, 7, 13, 15], item_ids: [1, 2, 14, 15, 16, 20] },
+      origin: "King Pledge", map_ids: [4], hero_ids: [2, 3, 4], tile_ids: [3, 19, 76, 69, 1, 19, 66, 71], spell_ids: [2, 7, 13, 15], item_ids: [1, 2, 3, 4, 10, 14, 15, 16, 17, 19, 20, 22] },
 
     { name: "The Crawling Shadow", description: "Relentlessly pursued and having finally reached the Black Kingdom of Kush, the survivors of the felon prince Almuric’s army are finally annihilated in the northern desert when the jaws of the Stygian and Kushite warriors close on them.
       Conan the Cimmerian, the master thief Shevatas, and the fearsome warrior Valeria are the only survivors of the massacre. They are forced to flee through the hostile stretches of the southern end of the desert. Harried by hunger, thirst, and the cruel heat of the sun, they discover amidst the burning sands a fortification forgotten by time.
@@ -689,7 +689,6 @@
       rulefour_text: 'When Thalis performs a Melee Attack, she can attack with her <a class="item" href="/items/39">Stygian Scepter</a>, rolling the extra die indicated on the <a class="item" href="/items/39">Stygian Scepter’s</a> Melee Attack bonus. When a hero suffers damage from Thalis’ attack with a <a class="item" href="/items/39">Stygian Scepter</a>, Thog is drawn by the hero’s screams; Thog gains up to 1 movement point, which the Overlord must immediately spend.',
       rulefive_title: "Doors:",
       rulefive_text: 'A hero in an area adjacent to a door can perform a complex Manipulation with a difficulty of 2 to pick the lock. If the hero succeeds, remove the door from the board. A hero can attack a door as though it were an enemy character. If a door would suffer 5 or more damage from an attack, remove it from the board. Thalis, Bossonian Guards, and the Captain can move across a door as though it were a border.',
-
       rulesix_title: "Lines of Sight:",
       rulesix_text: 'A character in a wall area has line of sight to each ground area within the fortress walls. An area in a tower and an area outside that tower are within each other’s line of sight only if the areas are in or adjacent to the tower.',
       ruleseven_title: "Leaping from Walls:",
@@ -699,8 +698,7 @@
       rulenine_title: "Chests:",
       rulenine_text: 'During setup, the Overlord places 8 chests on the board as indicated by the setup diagram. The asset deck contains: 2 <a class="item" href="/items/24">Crown of Xuthal</a>, 2 <a class="item" href="/items/22">Life Potion</a>, 2 <a class="item" href="/items/5">Explosive Orb</a>, 1 <a class="item" href="/items/17">Chain Mail</a>, 1 <a class="item" href="/items/4">Crossbow</a>.',
 
-      origin: "King Pledge", map_ids: [3], hero_ids: [2, 3, 7], tile_ids: [13, 55, 30, 58, 1, 2, 30, 51], spell_ids: [], item_ids: [1, 11, 14, 15, 16] },
-
+      origin: "King Pledge", map_ids: [3], hero_ids: [2, 3, 7], tile_ids: [13, 55, 30, 58, 1, 2, 30, 51], spell_ids: [], item_ids: [1, 11, 14, 15, 16, 24, 39] },
 
     { name: "Conspiracy in Khauran", description: "Khauran is a small country, wedged between the great Western states and the sultanates of the Far East. Its major city—also called Khauran—is an affluent trade center that controls many caravan routes. Like a watchtower, it stands near the river that separates the lush regions from the vast, sandy desert.
       Threatened for decades by the Shemite nomads and the Zuagir pillagers who prowl the deserts to the East, the kingdom has always relied on contingents of mercenaries from all Hyborian nations to defend itself. Though not of Hyborian blood, Conan—the mighty Cimmerian—finds himself among those troops after having pledged his sword for gold. A fitting duty for the barbarian; clashing swords with Shemites by day, and squandering his pay on wine and soft flesh in the taverns of Khauran by night.
@@ -714,7 +712,7 @@
       hero_setup: 'The game starts with the heroes’ turn. The heroes start in the 1 area.
       <br /><br /><strong>Suggestions for 3 heroes:</strong>
       <br /><a class="hero" href="/heroes/2">Conan</a> (<a class="item" href="/items/17">Chain Mail</a>, <a class="item" href="/items/7">Conan’s Sword</a>, <a class="item" href="/items/16">Leather Armor</a>),
-      <br /><a class="hero" href="/heroes/1">Belit</a> (<a class="item" href="/items/16">Leather Armor</a>, <a class="item" href="/items/12">Ornamental Spear</a>),
+      <br /><a class="hero" href="/heroes/1">Bêlit</a> (<a class="item" href="/items/16">Leather Armor</a>, <a class="item" href="/items/12">Ornamental Spear</a>),
       <br /><a class="hero" href="/heroes/3">Hadrathus</a> (<a class="item" href="/items/20">Shield</a>, <a class="item" href="/items/10">Sword</a>, <a class="spell" href="/spells/7">Mitra’s Halo</a>, <a class="spell" href="/spells/15">Lightning Storm</a>). Hadrathus does not start with Mitra’s Halo cast.
       <br /><br />After setup, each hero moves 4 gems from their Reserve zone to their Fatigue zone.',
 
@@ -862,7 +860,7 @@
 
       hero_goal: "The Heroes must protect the artifacts. If there is at least one artifact on the board at the end of turn 7; the heroes win the game.",
       hero_setup: '<br /><br /><strong>Suggestions for 2 heroes:</strong>
-      <br /><a class="hero" href="/heroes/1">Belit</a> (<a class="item" href="/items/8">Halberd</a>) and 5 Belit’s Guards,
+      <br /><a class="hero" href="/heroes/1">Bêlit</a> (<a class="item" href="/items/8">Halberd</a>) and 5 Bêlit’s Guards,
       <br /><a class="hero" href="/heroes/3">Hadrathus</a> (<a class="item" href="/items/10">Sword</a>, <a class="spell" href="/spells/16">Borne by the Wind</a>, <a class="spell" href="/spells/14">Set’s Possession</a>, <a class="spell" href="/spells/15">Lightning Storm</a>).
       <br /><br />After setup, each hero moves 3 gems from their Reserve zone to their Fatigue zone.',
 
@@ -1069,8 +1067,8 @@
       rulesixteen_text: 'A character can move across a railing from a balcony area to a ground floor area as though it were a border. The character rolls 2 Yellow dice for falling damage. If the character has <a class="skill" href="/skills/16">Leap</a>, the character rolls 1 Yellow die instead. A character with Climb can move across a railing from a ground floor area to a balcony area by spending 1 extra movement point.',
       ruleseventeen_title: "Pit:",
       ruleseventeen_text: 'A character must spend 1 extra movement point to move out of the pit area.',
-      ruleeightteen_title: "Hut Flaps:",
-      ruleeightteen_text: "A character must spend 1 extra movement point to move across a border into or out of a hut. Moving across an opening token does not cost an extra movement point.",
+      ruleeighteen_title: "Hut Flaps:",
+      ruleeighteen_text: "A character must spend 1 extra movement point to move across a border into or out of a hut. Moving across an opening token does not cost an extra movement point.",
       rulenineteen_title: "Climbing:",
       rulenineteen_text: 'A character with <a class="skill" href="/skills/19">Climb</a> can move across boulders (Rock Token) as though they were a border by spending 2 extra movement points.',
       ruletwenty_title: "Wooden Huts:",
@@ -1134,7 +1132,6 @@
       ruleeight_text: 'During setup, the Overlord places 4 chests on the board as indicated by the setup diagram. The asset deck contains 2 <a class="item" href="/items/3">Javelins</a>, 1 <a class="item" href="/items/28">Pictish Fetish</a>, and 1 <a class="item" href="/items/49">Elixir</a>.',
 
       origin: "Add-Ons", map_ids: [1], hero_ids: [14, 18, 19], tile_ids: [44, 45, 50, 2, 48, 4, 1], spell_ids: [3, 6, 13, 33, 36], item_ids: [1, 3, 11, 16, 28, 33, 36, 43, 49] },
-
 
     { name: "Death from the North", description: "The keen eye of the imposing figure scrutinizes every corner of the peaceful Brythunian village. Hidden at the edge of the forest by the dense foliage, the man formulates his plan of attack while recalling the painful circumstances that have led him so far.
       Having failed to take over his city of origin by force, he was banished and forced to flee Hyperborea on pain of death. But things could not stop there. Highly skilled in necromancy and dark magic, he is determined to use his terrifying powers to take his revenge. However he now needs an army because the golem, which he has recently crafted during a macabre ritual, is not enough to march against his former city. So it is the corpses of the inhabitants of this country that will provide him with a material of top quality.
@@ -1239,7 +1236,7 @@
       ruleone_title: "Sinking a Ship:",
       ruleone_text: 'Only one ship may be sunk during the scenario. There are two different ways a hero can sink a ship:
       • A hero in a reinforcement token’s area may perform a complex manipulation with a difficulty of 5 to sink that ship.
-      • A hero can throw or drop an explosive orb on a reinforcement token’s area. The orb explodes normally and that ship sinks.
+      • A hero can throw or drop an <a class="item" href="/items/5">Explosive Orb</a> on a reinforcement token’s area. The orb explodes normally and that ship sinks.
       When a ship is sunk, the Overlord removes from the river the event tile whose number corresponds to the sunken ship. The Overlord also removes the sunken ship’s reinforcement token from the board. The Overlord can no longer use reinforcement on this area.
       All models without Swim who are present on the sunken ship are swept away with the wreck and are immediately removed from the game. The areas of the sunken ship are now considered as being water areas for the rest of the scenario.
       The chest tokens and their asset cards remain on the areas where they were previously found. As of the moment when the ship was sunk, the heroes can no longer sink another ship.',
@@ -1330,8 +1327,6 @@
 
       origin: "Stretch Goals +", map_ids: [3], hero_ids: [9, 3, 15, 19], tile_ids: [11, 76, 74, 11, 75, 65, 1], spell_ids: [7, 25], item_ids: [1, 2, 13, 10, 11, 32, 34, 37] },
 
-
-
     { name: "The White Witch", description: "Far from the disturbing ancestral lands occupied by the Pict people, there is a cursed place that the fierce painted warriors avoid. The territory of a solitary witch living among wolves. An Aquilonian who had long been exiled and turned towards the children of wild nature rather than towards men.
       Yet Zelata, for such is her name, is not a disciple of black magic; and if she does not seek quarrel with the neighboring Pict clans, they nevertheless vow a superstitious fear to her. She is the White Witch coming from the East, who speaks to nature and animals as well as to spirits.
       So, when Zelata learns that the Shaman of the Crows clan has invoked a Swamp Demon, she cannot decently stand idly by. It does not matter to her that the Pict tribes spend their time confronting each other, but the presence of such a vile and unpredictable creature is a threat she cannot tolerate. For sooner or later this abomination will attract the attention of the Friars of the Night to her existence and these gods of darkness haunting the Black Country plateaus will wish to feed on her soul and imprison it forever in the Chasm of Specters.
@@ -1361,30 +1356,29 @@
       tile7: 1,
       tile8: 0,
 
-      ruleone_title: "Giant Wolf:",
-      ruleone_text: "During setup, the hero places two Giant Wolves tiles next to Zelata’s hero sheet. When Zelata uses her Leaderships kill to activate the Giant Wolves by spending one gem, she activates two Giant Wolves characters instead of one. She must move both Giant Wolves, then perform their attack. Each Giant Wolf can only be activated once per hero’s turn. The Giant Wolves follow the standard rules of the Allies for rerolls, Guard an additional movement points.
-      As soon as 5 Giant Wolves have been killed, the hero removes a Giant Wolves tile from the game. From this point on, when Zelata uses her Leadership skill to activate the Giant Wolves by spending one gem, she only activates one Giant Wolf character.",
-      ruletwo_title: "Wolf Pack:",
-      ruletwo_text: "When Zelata is in the same area as a Giant Wolf, she gains the Protected skill. When there are strictly more Giant Wolves characters than Overlord’s characters in one area:<br/>
+      ruleone_title: 'Giant Wolf:',
+      ruleone_text: 'During setup, the hero places two Giant Wolves tiles next to Zelata’s hero sheet. When Zelata uses her Leaderships kill to activate the Giant Wolves by spending one gem, she activates two Giant Wolves characters instead of one. She must move both Giant Wolves, then perform their attack. Each Giant Wolf can only be activated once per hero’s turn. The Giant Wolves follow the standard rules of the Allies for rerolls, Guard an additional movement points.
+      As soon as 5 Giant Wolves have been killed, the hero removes a Giant Wolves tile from the game. From this point on, when Zelata uses her Leadership skill to activate the Giant Wolves by spending one gem, she only activates one Giant Wolf character.',
+      ruletwo_title: 'Wolf Pack:',
+      ruletwo_text: 'When Zelata is in the same area as a Giant Wolf, she gains the Protected skill. When there are strictly more Giant Wolves characters than Overlord’s characters in one area:<br/>
       • The Armor Value of the Giant Wolves is 2 against Melee attacks.<br />
-      • The Armor Value of their target in Melee attack is reduced by 1.",
-      rulethree_title: "Shaman’s Staff:",
-      rulethree_text: "During setup, the Overlord places the Withering Spell card next to the board. The character carrying the Shaman’s Staff gains the Withering spell.",
-      rulefour_title: "Censer:",
-      rulefour_text: "During setup, the Overlord places the Pestilential Swarm card next to the board. The character carrying the Censor gains the Pestilential Swarm spell.",
-      rulefive_title: "Totem:",
-      rulefive_text: "During setup, the Overlord places 4 totems as indicated on the map. If Zelata is in the same area as a Totem, she may perform a complex Manipulation of difficulty 2 to destroy that Totem. When a Totem is destroyed, the Overlord removes that Totem from the board, then the Swamp Demon suffers 2 wounds with no possible defense.",
-      rulesix_title: "Water areas:",
-      rulesix_text: "A character must spend 1 extra movement point to move out of a water area. A character can move from a water area to an adjacent wood area by spending 2 extra movement points.",
-      ruleseven_title: "Leap:",
-      ruleseven_text: "Leaping over the water area around the altar in a single movement is not possible. The character must stop in the altar area before performing a second leap.",
-      ruleeight_title: "Wooden Huts:",
-      ruleeight_text: "A character with Wall Wrecker can use it to move across the wall of one of the wooden huts.",
-      rulenine_title: "Leaping from Walls:",
-      ruleten_title: "Chests:",
-      ruleten_text: 'During setup, the Overlord places 3 chests on the board as indicated by the setup diagram. The asset deck contains: 1 <a class="item" href="/items/25">Shaman’s Staff</a>, 1 <a class="item" href="/items/55">Censer</a>, and 1 <a class="item" href="/items/22">Life Potion</a>.',
+      • The Armor Value of their target in Melee attack is reduced by 1.',
+      rulethree_title: 'Shaman’s Staff:',
+      rulethree_text: 'During setup, the Overlord places the <a class="spell" href="/spells/36">Withering</a> spell card next to the board. The character carrying the <a class="item" href="/items/25">Shaman’s Staff</a> gains the <a class="spell" href="/spells/36">Withering</a> spell.',
+      rulefour_title: 'Censer:',
+      rulefour_text: 'During setup, the Overlord places the <a class="spell" href="/spells/2">Pestilential Swarm</a> card next to the board. The character carrying the <a class="item" href="/items/55">Censor</a> gains the <a class="spell" href="/spells/2">Pestilential Swarm</a> spell.',
+      rulefive_title: 'Totem:',
+      rulefive_text: 'During setup, the Overlord places 4 totems as indicated on the map. If Zelata is in the same area as a Totem, she may perform a complex Manipulation of difficulty 2 to destroy that Totem. When a Totem is destroyed, the Overlord removes that Totem from the board, then the Swamp Demon suffers 2 wounds with no possible defense.',
+      rulesix_title: 'Water areas:',
+      rulesix_text: 'A character must spend 1 extra movement point to move out of a water area. A character can move from a water area to an adjacent wood area by spending 2 extra movement points.',
+      ruleseven_title: 'Leap:',
+      ruleseven_text: 'Leaping over the water area around the altar in a single movement is not possible. The character must stop in the altar area before performing a second leap.',
+      ruleeight_title: 'Wooden Huts:',
+      ruleeight_text: 'A character with <a class="skill" href="/skills/11">Wall Wrecker</a> can use it to move across the wall of one of the wooden huts.',
+      rulenine_title: 'Chests:',
+      rulenine_text: 'During setup, the Overlord places 3 chests on the board as indicated by the setup diagram. The asset deck contains: 1 <a class="item" href="/items/25">Shaman’s Staff</a>, 1 <a class="item" href="/items/55">Censer</a>, and 1 <a class="item" href="/items/22">Life Potion</a>.',
 
-      origin: "Stretch Goals +", map_ids: [6], hero_ids: [8], tile_ids: [1, 11, 26, 43, 44, 48, 50], spell_ids: [7, 28], item_ids: [22, 25, 55] },
+      origin: "Stretch Goals +", map_ids: [6], hero_ids: [8], tile_ids: [1, 11, 26, 43, 44, 48, 50], spell_ids: [7, 28], item_ids: [25, 55] },
 
     { name: "A Lion Among Panthers", description: "The man with the broad shoulders grimaces protruding his muscles so as to break the ties that hinder him. His clothes are of quality, but of simple craftsmanship and he does not wear rings, or finery to the exception of a silver headband which encircles his head, holding his black square-cut mane.
       No Pict would be able to recognize in him the King of Aquilonia.
@@ -1421,33 +1415,33 @@
       tile7: 1,
       tile8: 0,
 
-      ruleone_title: "Sacred Treasures:",
+      ruleone_title: 'Sacred Treasures:',
       ruleone_text: 'The three <a class="item" href="/items/47">Sacred Treasure</a>, the <a class="item" href="/items/28">Pictish Fetish</a>, and the <a class="item" href="/items/54">Heart of Ahriman</a> are considered Sacred Treasures.
       During setup, the Overlord places one Sacred Treasure card on the same areas as the tokens 1, 2, and 3 as well as the Pictish Fetish and the Heart of Ahriman next to the board.',
-      ruletwo_title: "Equipment:",
+      ruletwo_title: 'Equipment:',
       ruletwo_text: 'During setup, the Overlord places the following cards on the area 4 : 1 <a class="item" href="/items/32">Axe</a>, 1 <a class="item" href="/items/37">Zingarian Bow</a>, and 1 <a class="item" href="/items/22">Life Potion</a>.',
-      rulethree_title: "Stone:",
-      rulethree_text: "During setup, the Overlord places a Stone token in each of the stone Huts as indicated by the setup diagram. These stones are considered Equipment cards with an encumbrance value of 2. When a hero carries a stone, they no longer suffer the penalty for Melee Attack without a weapon card.",
-      rulefour_title: "Zogar Sag:",
+      rulethree_title: 'Stone:',
+      rulethree_text: 'During setup, the Overlord places a Stone token in each of the stone Huts as indicated by the setup diagram. These stones are considered Equipment cards with an encumbrance value of 2. When a hero carries a stone, they no longer suffer the penalty for Melee Attack without a weapon card.',
+      rulefour_title: 'Zogar Sag:',
       rulefour_text: 'When Zogar Sag dies, the Overlord immediately places the <a class="item" href="/items/28">Pictish Fetish</a> card in Zogar Sag’s area.',
-      rulefive_title: "Forest Demon:",
+      rulefive_title: 'Forest Demon:',
       rulefive_text: 'When the Forest Demon dies, the Overlord immediately places the <a class="item" href="/items/54">Heart of Ahriman</a> card in the Forest Demon’s area.',
-      rulesix_title: "Door:",
-      rulesix_text: "Slasher and Conan’s Lion are imprisoned. As long as the door is in play, the animals cannot be activated. Conan and Balthus cannot use their Leadership skills. The Door is considered impassable.
-      A hero in an area adjacent to the door can perform a complex Manipulation with a difficulty of 2 to remove that door from the board. The heroes may use their Leadership skills to activate Conan’s Lion and Slasher.",
-      ruleseven_title: "Slasher:",
-      ruleseven_text: "Only Balthus can activate Slasher. If Balthus dies, Slasher has no longer reason to fight and is immediately removed from the game.",
-      ruleeight_title: "Conan’s Lion:",
-      ruleeight_text: "Only Amra the Lion can activate Conan’s Lion. If Amra the Lion dies, Conan’s Lion has no longer reason to fight and is immediately removed from the game.",
-      rulenine_title: "Fleeing the Village:",
-      rulenine_text: "A model can flee the village from one of the three village entrance areas (northwest, southwest and east) by spending movement points as though the model was moving across a border. The model is then removed from the board. Once a model has fled, the model cannot be returned to the board.",
-      ruleten_title: "Flaps:",
-      ruleten_text: "To enter or leave a hut, a hero must spend 1 extra Movement point because of the Flaps. The Flaps at the entrance of each Hut block the Line of Sight.",
-      ruleeleven_title: "Climb:",
-      ruleeleven_text: "A character with Climb can move across boulders as though they were a border by spending 2 extra movement points.",
-      ruletwelve_title: "Wooden Huts:",
-      ruletwelve_text: "A character with Wall Wrecker can use it to move across the wall of one of the wooden huts.",
+      rulesix_title: 'Door:',
+      rulesix_text: 'Slasher and Conan’s Lion are imprisoned. As long as the door is in play, the animals cannot be activated. Conan and Balthus cannot use their Leadership skills. The Door is considered impassable.
+      A hero in an area adjacent to the door can perform a complex Manipulation with a difficulty of 2 to remove that door from the board. The heroes may use their Leadership skills to activate Conan’s Lion and Slasher.',
+      ruleseven_title: 'Slasher:',
+      ruleseven_text: 'Only Balthus can activate Slasher. If Balthus dies, Slasher has no longer reason to fight and is immediately removed from the game.',
+      ruleeight_title: 'Conan’s Lion:',
+      ruleeight_text: 'Only Amra the Lion can activate Conan’s Lion. If Amra the Lion dies, Conan’s Lion has no longer reason to fight and is immediately removed from the game.',
+      rulenine_title: 'Fleeing the Village:',
+      rulenine_text: 'A model can flee the village from one of the three village entrance areas (northwest, southwest and east) by spending movement points as though the model was moving across a border. The model is then removed from the board. Once a model has fled, the model cannot be returned to the board.',
+      ruleten_title: 'Flaps:',
+      ruleten_text: 'To enter or leave a hut, a hero must spend 1 extra Movement point because of the Flaps. The Flaps at the entrance of each Hut block the Line of Sight.',
+      ruleeleven_title: 'Climb:',
+      ruleeleven_text: 'A character with <a class="skill" href="/skills/19">Climb</a> can move across boulders as though they were a border by spending 2 extra movement points.',
+      ruletwelve_title: 'Wooden Huts:',
+      ruletwelve_text: 'A character with <a class="skill" href="/skills/11">Wall Wrecker</a> can use it to move across the wall of one of the wooden huts.',
 
-      origin: "Stretch Goals +", map_ids: [1], hero_ids: [5, 10], tile_ids: [1, 4, 27, 44, 48, 50], spell_ids: [6], item_ids: [1, 2, 13, 10, 11, 32, 34, 37] },
+      origin: "Stretch Goals +", map_ids: [1], hero_ids: [5, 10], tile_ids: [1, 4, 27, 44, 48, 50], spell_ids: [6], item_ids: [16, 22, 28, 32, 37, 47, 54] },
 
   ])

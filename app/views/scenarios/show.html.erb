@@ -12,7 +12,7 @@
             <%= link_to "Grab the PDF for this scenario from Monolith", "#{@scenario.pdf_link}", :target => "_blank" %>
           <% end %>
         </p>
-        <p><%= @scenario.description %></p>
+        <p><%= @scenario.description.html_safe %></p>
         <br /><br />
         <div align="center">
         <%= link_to "Back to scenarios", scenarios_path %>
@@ -70,35 +70,35 @@
         <tr>
           <% if @scenario.tile1 != 0 %>
             <% tile = Tile.find_by_id [@scenario.tile1] %>
-            <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile) %></td>
+            <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile), :title => "#{tile.name}" %></td>
           <% end %>
           <% if @scenario.tile2 != 0 %>
             <% tile = Tile.find_by_id [@scenario.tile2] %>
-            <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile) %></td>
+            <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile), :title => "#{tile.name}" %></td>
           <% end %>
           <% if @scenario.tile3 != 0 %>
             <% tile = Tile.find_by_id [@scenario.tile3] %>
-            <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile) %></td>
+            <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile), :title => "#{tile.name}" %></td>
           <% end %>
           <% if @scenario.tile4 != 0 %>
             <% tile = Tile.find_by_id [@scenario.tile4] %>
-            <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile) %></td>
+            <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile), :title => "#{tile.name}" %></td>
           <% end %>
           <% if @scenario.tile5 != 0 %>
             <% tile = Tile.find_by_id [@scenario.tile5] %>
-            <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile) %></td>
+            <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile), :title => "#{tile.name}" %></td>
           <% end %>
           <% if @scenario.tile6 != 0 %>
             <% tile = Tile.find_by_id [@scenario.tile6] %>
-            <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile) %></td>
+            <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile), :title => "#{tile.name}" %></td>
           <% end %>
           <% if @scenario.tile7 != 0 %>
             <% tile = Tile.find_by_id [@scenario.tile7] %>
-            <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile) %></td>
+            <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile), :title => "#{tile.name}" %></td>
           <% end %>
           <% if @scenario.tile8 != 0 %>
             <% tile = Tile.find_by_id [@scenario.tile8] %>
-            <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile) %></td>
+            <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile), :title => "#{tile.name}" %></td>
           <% end %>
         </tr>
       </div>
@@ -170,6 +170,143 @@
     </div>
     <div class="col-xs-10 col-md-10">
       <p><% if@scenario.ruleeight_text %><%= @scenario.ruleeight_text.html_safe %><% end %></p>
+    </div>
+  </div>
+  <div class="row">
+    <div align="right" class="col-xs-2 col-md-2">
+      <strong><% if@scenario.rulenine_title %><%= @scenario.rulenine_title.html_safe %><% end %></strong>
+    </div>
+    <div class="col-xs-10 col-md-10">
+      <p><% if@scenario.rulenine_text %><%= @scenario.rulenine_text.html_safe %><% end %></p>
+    </div>
+  </div>
+  <div class="row">
+    <div align="right" class="col-xs-2 col-md-2">
+      <strong><% if@scenario.ruleten_title %><%= @scenario.ruleten_title.html_safe %><% end %></strong>
+    </div>
+    <div class="col-xs-10 col-md-10">
+      <p><% if@scenario.ruleten_text %><%= @scenario.ruleten_text.html_safe %><% end %></p>
+    </div>
+  </div>
+  <div class="row">
+    <div align="right" class="col-xs-2 col-md-2">
+      <strong><% if@scenario.ruleeleven_title %><%= @scenario.ruleeleven_title.html_safe %><% end %></strong>
+    </div>
+    <div class="col-xs-10 col-md-10">
+      <p><% if@scenario.ruleeleven_text %><%= @scenario.ruleeleven_text.html_safe %><% end %></p>
+    </div>
+  </div>
+  <div class="row">
+    <div align="right" class="col-xs-2 col-md-2">
+      <strong><% if@scenario.ruletwelve_title %><%= @scenario.ruletwelve_title.html_safe %><% end %></strong>
+    </div>
+    <div class="col-xs-10 col-md-10">
+      <p><% if@scenario.ruletwelve_text %><%= @scenario.ruletwelve_text.html_safe %><% end %></p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div align="right" class="col-xs-2 col-md-2">
+      <strong><% if@scenario.rulethirteen_title %><%= @scenario.rulethirteen_title.html_safe %><% end %></strong>
+    </div>
+    <div class="col-xs-10 col-md-10">
+      <p><% if@scenario.rulethirteen_text %><%= @scenario.rulethirteen_text.html_safe %><% end %></p>
+    </div>
+  </div>
+  <div class="row">
+    <div align="right" class="col-xs-2 col-md-2">
+      <strong><% if@scenario.rulefourteen_title %><%= @scenario.rulefourteen_title.html_safe %><% end %></strong>
+    </div>
+    <div class="col-xs-10 col-md-10">
+      <p><% if@scenario.rulefourteen_text %><%= @scenario.rulefourteen_text.html_safe %><% end %></p>
+    </div>
+  </div>
+  <div class="row">
+    <div align="right" class="col-xs-2 col-md-2">
+      <strong><% if@scenario.rulefifteen_title %><%= @scenario.rulefifteen_title.html_safe %><% end %></strong>
+    </div>
+    <div class="col-xs-10 col-md-10">
+      <p><% if@scenario.rulefifteen_text %><%= @scenario.rulefifteen_text.html_safe %><% end %></p>
+    </div>
+  </div>
+  <div class="row">
+    <div align="right" class="col-xs-2 col-md-2">
+      <strong><% if@scenario.rulesixteen_title %><%= @scenario.rulesixteen_title.html_safe %><% end %></strong>
+    </div>
+    <div class="col-xs-10 col-md-10">
+      <p><% if@scenario.rulesixteen_text %><%= @scenario.rulesixteen_text.html_safe %><% end %></p>
+    </div>
+  </div>
+  <div class="row">
+    <div align="right" class="col-xs-2 col-md-2">
+      <strong><% if@scenario.ruleseventeen_title %><%= @scenario.ruleseventeen_title.html_safe %><% end %></strong>
+    </div>
+    <div class="col-xs-10 col-md-10">
+      <p><% if@scenario.ruleseventeen_text %><%= @scenario.ruleseventeen_text.html_safe %><% end %></p>
+    </div>
+  </div>
+  <div class="row">
+    <div align="right" class="col-xs-2 col-md-2">
+      <strong><% if@scenario.ruleeighteen_title %><%= @scenario.ruleeighteen_title.html_safe %><% end %></strong>
+    </div>
+    <div class="col-xs-10 col-md-10">
+      <p><% if@scenario.ruleeighteen_text %><%= @scenario.ruleeighteen_text.html_safe %><% end %></p>
+    </div>
+  </div>
+  <div class="row">
+    <div align="right" class="col-xs-2 col-md-2">
+      <strong><% if@scenario.rulenineteen_title %><%= @scenario.rulenineteen_title.html_safe %><% end %></strong>
+    </div>
+    <div class="col-xs-10 col-md-10">
+      <p><% if@scenario.rulenineteen_text %><%= @scenario.rulenineteen_text.html_safe %><% end %></p>
+    </div>
+  </div>
+  <div class="row">
+    <div align="right" class="col-xs-2 col-md-2">
+      <strong><% if@scenario.ruletwenty_title %><%= @scenario.ruletwenty_title.html_safe %><% end %></strong>
+    </div>
+    <div class="col-xs-10 col-md-10">
+      <p><% if@scenario.ruletwenty_text %><%= @scenario.ruletwenty_text.html_safe %><% end %></p>
+    </div>
+  </div>
+  <div class="row">
+    <div align="right" class="col-xs-2 col-md-2">
+      <strong><% if@scenario.ruletwentyone_title %><%= @scenario.ruletwentyone_title.html_safe %><% end %></strong>
+    </div>
+    <div class="col-xs-10 col-md-10">
+      <p><% if@scenario.ruletwentyone_text %><%= @scenario.ruletwentyone_text.html_safe %><% end %></p>
+    </div>
+  </div>
+  <div class="row">
+    <div align="right" class="col-xs-2 col-md-2">
+      <strong><% if@scenario.ruletwentytwo_title %><%= @scenario.ruletwentytwo_title.html_safe %><% end %></strong>
+    </div>
+    <div class="col-xs-10 col-md-10">
+      <p><% if@scenario.ruletwentytwo_text %><%= @scenario.ruletwentytwo_text.html_safe %><% end %></p>
+    </div>
+  </div>
+  <div class="row">
+    <div align="right" class="col-xs-2 col-md-2">
+      <strong><% if@scenario.ruletwentythree_title %><%= @scenario.ruletwentythree_title.html_safe %><% end %></strong>
+    </div>
+    <div class="col-xs-10 col-md-10">
+      <p><% if@scenario.ruletwentythree_text %><%= @scenario.ruletwentythree_text.html_safe %><% end %></p>
+    </div>
+  </div>
+  <div class="row">
+    <div align="right" class="col-xs-2 col-md-2">
+      <strong><% if@scenario.ruletwentyfour_title %><%= @scenario.ruletwentyfour_title.html_safe %><% end %></strong>
+    </div>
+    <div class="col-xs-10 col-md-10">
+      <p><% if@scenario.ruletwentyfour_text %><%= @scenario.ruletwentyfour_text.html_safe %><% end %></p>
+    </div>
+  </div>
+  <div class="row">
+    <div align="right" class="col-xs-2 col-md-2">
+      <strong><% if@scenario.ruletwentyfive_title %><%= @scenario.ruletwentyfive_title.html_safe %><% end %></strong>
+    </div>
+    <div class="col-xs-10 col-md-10">
+      <p><% if@scenario.ruletwentyfive_text %><%= @scenario.ruletwentyfive_text.html_safe %><% end %></p>
     </div>
   </div>
 </div>

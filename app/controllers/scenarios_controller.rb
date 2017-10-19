@@ -5,6 +5,11 @@ class ScenariosController < ApplicationController
 
   def index
     @scenarios = Scenario.all
+    if params[:search]
+      @scenarios = Scenario.search(params[:search]).order('created_at DESC')
+    else
+      @scenarios = Scenario.all.order('created_at DESC')
+    end
   end
 
   def new
@@ -71,7 +76,7 @@ class ScenariosController < ApplicationController
                                        :rulefifteen_title, :rulefifteen_text,
                                        :rulesixteen_title, :rulesixteen_text,
                                        :ruleseventeen_title, :ruleseventeen_text,
-                                       :ruleeightteen_title, :ruleeightteen_text,
+                                       :ruleeighteen_title, :ruleeighteen_text,
                                        :rulenineteen_title, :rulenineteen_text,
                                        :ruletwenty_title, :ruletwenty_text,
                                        :ruletwentyone_title, :ruletwentyone_text,

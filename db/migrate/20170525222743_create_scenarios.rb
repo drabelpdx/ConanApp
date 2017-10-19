@@ -53,8 +53,8 @@ class CreateScenarios < ActiveRecord::Migration
       t.text :rulesixteen_text
       t.text :ruleseventeen_title
       t.text :ruleseventeen_text
-      t.text :ruleeightteen_title
-      t.text :ruleeightteen_text
+      t.text :ruleeighteen_title
+      t.text :ruleeighteen_text
       t.text :rulenineteen_title
       t.text :rulenineteen_text
       t.text :ruletwenty_title

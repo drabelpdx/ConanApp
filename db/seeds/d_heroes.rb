@@ -7,7 +7,7 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
   heroes = Hero.create([
-    { name: 'Belit', description: "Queen of the Black Coast ",
+    { name: 'Bêlit', description: "Queen of the Black Coast ",
       quote: "",
       cite: "",
       hero_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Belit.jpg',
@@ -62,7 +62,7 @@
       manipulation_dice: 'Orange', manipulation_exersion: '3',
       defense_dice: 'Orange',
       origin: 'King Pledge', skill_ids: [13, 22, 16, 21, 7], story_ids: [] },
-    { name: "N'Gora", description: "Belit’s Second",
+    { name: "N'Gora", description: "Bêlit’s Second",
       quote: "",
       cite: "",
       hero_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/NGora.jpg',
@@ -205,7 +205,7 @@
       manipulation_dice: 'Orange', manipulation_exersion: '4',
       defense_dice: 'Yellow-Reroll',
       origin: 'Stretch Goals', skill_ids: [33, 22, 6, 26, 21], story_ids: [] },
-    { name: 'Savage Belit', description: 'Fighting Queen of the Black Coast',
+    { name: 'Savage Bêlit', description: 'Fighting Queen of the Black Coast',
       quote: "",
       cite: "",
       hero_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/SavageBelit.jpg',

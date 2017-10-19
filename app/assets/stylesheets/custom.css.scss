@@ -349,28 +349,48 @@ a.skill {
   margin-right: -5px;
 }
 
+.map-well {
+  background: #e6e6e6;
+  padding: 10px;
+  border-radius: 10px;
+}
 .hero-well {
   background: #dff0d8;
   padding: 10px;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .tile-well {
   background: #f8eded;
   padding: 10px;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .item-well {
   background: #fdf9e8;
   padding: 10px;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .spell-well {
   background: #f9e6ff;
   padding: 10px;
-  border-radius: 20px;
+  border-radius: 10px;
+}
+
+.skill-well {
+  background: #e6eeff;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.row.display-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.row.display-flex > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
 }
 
 

@@ -3,11 +3,18 @@
   <p><%= link_to "Add a Scenario", new_scenario_path %></p>
 <% end %>
 
-<p>
-  Scenarios are the basis of each game. They outline the characters, map, items and any special rules used.
-  Below is a list of official scenarios. These can be sorted by the box that the scenario or
-  the minis used came in, by the number of playes, the complexity of the special rules used, or the map the scenario is played on.
-</p>
+<% if @scenarios.blank? %>
+  <h4>There are no scenarios containing the term <%= params[:search] %>.</h4>
+<% end %>
+
+<p>Scenarios are the basis of each game. They outline the characters, map, items and any special rules used.</p>
+<p>Below is a list of official scenarios. These can be sorted by:
+  <ul>
+    <li>the <strong>box</strong> that the scenario or the minis used came in</li>
+    <li>the number of <strong>players</strong></li>
+    <li>the <strong>complexity</strong> of the special rules used</li>
+    <li>the <strong>map</strong> the scenario is played on</li>
+  </ul>
 <div align="center">
   <a href="" id="show_byorigin" class="toggles"><button class="btn btn-scenario active">By Origin</button></a>
   <a href="" id="show_bycount" class="toggles"><button class="btn btn-scenario">By Player Count</button></a>

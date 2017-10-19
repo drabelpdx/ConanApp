@@ -8,7 +8,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <%= link_to "Conan", root_path, class: "navbar-brand", id: "logo" %>
+      <%= link_to "Conan", scenarios_path, class: "navbar-brand", id: "logo" %>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -38,13 +38,14 @@
           </li>
         <% end %> -->
       </ul>
-      <!-- <form class="navbar-form navbar-left">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
-        </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form> -->
       <ul class="nav navbar-nav navbar-right">
+        <%= form_tag(scenarios_path, :method => "get", id: "search-form", :class => "navbar-form navbar-left") do %>
+          <%= text_field_tag :search, params[:search], placeholder: "Search Scenarios" %>
+          <%= submit_tag "Search", :name => nil, :class => "btn btn-default" %>
+        <% end %>
+      </ul>
+
+      <!-- <ul class="nav navbar-nav navbar-right">
         <% if logged_in? %>
         <li><%= link_to 'Log out', logout_path, method: :delete %></li>
           <li class="dropdown">
@@ -64,7 +65,7 @@
           <li><%= link_to 'Log in', login_path %></li>
           <li><%= link_to 'Sign up', signup_path %></li>
         <% end %>
-      </ul>
+      </ul> -->
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
