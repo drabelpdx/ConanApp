@@ -42,6 +42,15 @@
       tile7: 45,
       tile8: 1,
 
+      t1life: '',
+      t2life: '5',
+      t3life: '',
+      t4life: '',
+      t5life: '',
+      t6life: '8',
+      t7life: '',
+      t8life: '',
+
       ruleone_title: "Yselda:",
       ruleone_text: "During setup, the Overlord secretly chooses one numbered token corresponding to a numbered hut in the setup diagram and sets it aside facedown. The first time a hero enters the chosen hut, the Overlord flips the token faceup and places Yselda’s model in the hut’s area.
       Yselda is unconscious, counts as an object with an encumbrance value of 6, and can be picked up by a hero by performing a simple manipulation. That hero takes the (Princess Token) and places it next to their character sheet. Yselda has one life point and no armor. She dies if she suffers any damage (such as an area attack).
@@ -101,6 +110,15 @@
       tile7: 5,
       tile8: 3,
 
+      t1life: '',
+      t2life: '',
+      t3life: '',
+      t4life: '',
+      t5life: '',
+      t6life: '',
+      t7life: '8',
+      t8life: '3',
+
       ruleone_title: "Leap:",
       ruleone_text: 'If a hero, Zaporavo, or Skuthus fails to <a class="skill" href="/skills/16">Leap</a>, the character remains in its area.
       If a minion or ally fails to <a class="skill" href="/skills/16">Leap</a>, that character falls in the water and is eaten by sharks; the character dies.',
@@ -145,6 +163,15 @@
       tile6: 0,
       tile7: 0,
       tile8: 0,
+
+      t1life: '6',
+      t2life: '5',
+      t3life: '',
+      t4life: '',
+      t5life: '',
+      t6life: '',
+      t7life: '',
+      t8life: '',
 
       ruleone_title: "Yuetshi Knife:",
       ruleone_text: 'When a hero attacks <a class="tile" href="/tiles/21">Khosatral Khel</a> with the <a class="item" href="/items/6">Yuetshi Knife</a>, <a class="tile" href="/tiles/21">Khosatral Khel’s</a> armor value becomes 3 for that attack.',
@@ -196,6 +223,15 @@
       tile7: 44,
       tile8: 0,
 
+      t1life: '',
+      t2life: '6',
+      t3life: '',
+      t4life: '',
+      t5life: '',
+      t6life: '',
+      t7life: '',
+      t8life: '',
+
       ruleone_title: "Barricades:",
       ruleone_text: 'Barricades block line of sight. A character cannot move across a barricade, but can attack a barricade as though it were an enemy character.
       Each barricade starts with 12 life points. When a barricade has 0 life points, remove it from the board.
@@ -244,6 +280,15 @@
       tile6: 23,
       tile7: 58,
       tile8: 1,
+
+      t1life: '6',
+      t2life: '',
+      t3life: '',
+      t4life: '',
+      t5life: '',
+      t6life: '8',
+      t7life: '',
+      t8life: '',
 
       ruleone_title: "Olivia:",
       ruleone_text: 'Use the Princess model to represent Olivia on the game board. Olivia is unconscious, counts as an object th encumbrance value of 6, and can be picked up by a hero by performing a simple manipulation.
@@ -297,6 +342,15 @@
       tile6: 0,
       tile7: 0,
       tile8: 0,
+
+      t1life: '',
+      t2life: '',
+      t3life: '',
+      t4life: '',
+      t5life: '',
+      t6life: '',
+      t7life: '',
+      t8life: '',
 
       ruleone_title: "Interrogation:",
       ruleone_text: 'A hero in an area with a priest can move 1 gem from their Reserve zone to their Fatigue zone to roll 1 Red die. This roll is not affected by hindering. Resolve one of the following effects based on the number of symbols shown on the die:
@@ -354,6 +408,15 @@
       tile7: 0,
       tile8: 0,
 
+      t1life: '',
+      t2life: '',
+      t3life: '',
+      t4life: '',
+      t5life: '5',
+      t6life: '',
+      t7life: '',
+      t8life: '',
+
       ruleone_title: "Mutineering Pirates:",
       ruleone_text: 'Pirate models with red bases are mutineering Pirates, and are considered allies. Mutineering Pirates cannot be activated using Leadership.
       Once per hero turn, the heroes can activate all mutineering pirates. Mutineering pirates move and attack like a unit group.',
@@ -394,6 +457,15 @@
       tile6: 0,
       tile7: 0,
       tile8: 0,
+
+      t1life: '',
+      t2life: '',
+      t3life: '',
+      t4life: '',
+      t5life: '',
+      t6life: '',
+      t7life: '',
+      t8life: '',
 
       ruleone_title: "Leap:",
       ruleone_text: 'If a hero or Zaporavo fails to <a class="skill" href="/skills/16">Leap</a>, the character remains in its area. If a minion or ally fails to <a class="skill" href="/skills/16">Leap</a>, the character falls in the water and is eaten by sharks; the character dies.',
@@ -439,6 +511,15 @@
       tile6: 0,
       tile7: 0,
       tile8: 0,
+
+      t1life: '',
+      t2life: '',
+      t3life: '',
+      t4life: '3',
+      t5life: '',
+      t6life: '',
+      t7life: '',
+      t8life: '',
 
       ruleone_title: "Recovering Equipment:",
       ruleone_text: 'A hero can search a numbered area by performing a complex Manipulation with a difficulty of 1. If the hero succeeds and that hero’s starting equipment is assigned to the area, the hero takes those equipment cards and discards the facedown token to the game box.',
@@ -511,6 +592,15 @@
       tile7: 0,
       tile8: 0,
 
+      t1life: '',
+      t2life: '',
+      t3life: '',
+      t4life: '',
+      t5life: '5',
+      t6life: '',
+      t7life: '',
+      t8life: '',
+
       ruleone_title: "Search:",
       ruleone_text: 'A hero in a hut area can perform a complex Manipulation to search the hut. The manipulation has no difficulty; instead, for each symbol shown on the die, the hero takes 1 facedown card in the area:
       • If the card is an asset, the hero turns it faceup.
@@ -579,6 +669,15 @@
       tile7: 2,
       tile8: 35,
 
+      t1life: '',
+      t2life: '8',
+      t3life: '',
+      t4life: '',
+      t5life: '',
+      t6life: '',
+      t7life: '5',
+      t8life: '',
+
       ruleone_title: "Red Chest:",
       ruleone_text: 'A hero in the red chest’s area with a <a class="item" href="/items/30">Key</a> can perform a simple Manipulation to open the chest. The chest cannot otherwise be opened, and is considered an object with an encumbrance of 5. When a hero opens the chest, the hero takes a <a class="item" href="/items/31">Spellbook</a> instead of a card from the asset deck.',
       ruletwo_title: "Walls:",
@@ -632,6 +731,15 @@
       tile7: 66,
       tile8: 71,
 
+      t1life: '5',
+      t2life: '10',
+      t3life: '',
+      t4life: '',
+      t5life: '',
+      t6life: '',
+      t7life: '',
+      t8life: '',
+
       ruleone_title: "Doors:",
       ruleone_text: 'A hero in an area adjacent to the red door can perform a complex Manipulation with a difficulty of 5 to pick the lock. If the hero succeeds, remove the door from the board.
       A hero in an area adjacent to a non-red door can perform a complex Manipulation with a difficulty of 2 to pick the lock. If the hero succeeds, remove the door from the board.',
@@ -678,6 +786,15 @@
       tile6: 2,
       tile7: 30,
       tile8: 51,
+
+      t1life: '5',
+      t2life: '',
+      t3life: '10',
+      t4life: '',
+      t5life: '',
+      t6life: '',
+      t7life: '',
+      t8life: '',
 
       ruleone_title: "Black Lotus:",
       ruleone_text: 'After setup, lay each Bossonian Guard, Bossonian Archer, and Captain model down in the model’s area. Laid-down models are slumbering. Heroes cannot attack slumbering units, slumbering units do not count for hindering, and slumbering units cannot be activated. When the Overlord activates a tile, the Overlord may stand up any number of models in that group before activating units.',
@@ -729,6 +846,15 @@
       tile6: 59,
       tile7: 2,
       tile8: 0,
+
+      t1life: '',
+      t2life: '',
+      t3life: '8',
+      t4life: '',
+      t5life: '',
+      t6life: '',
+      t7life: '',
+      t8life: '',
 
       ruleone_title: "Chests:",
       ruleone_text: 'During setup, the Overlord randomly places 2 (chest) tokens numbered 1 and 2, with their chest side faceup, as indicated by the setup diagram.',
@@ -783,6 +909,15 @@
       tile7: 0,
       tile8: 0,
 
+      t1life: '6',
+      t2life: '4',
+      t3life: '',
+      t4life: '',
+      t5life: '4',
+      t6life: '6',
+      t7life: '',
+      t8life: '',
+
       ruleone_title: "Kushites:",
       ruleone_text: '<a class="tile" href="/tiles/16">Afari</a>, <a class="tile" href="/tiles/18">Shafiah</a>, <a class="tile" href="/tiles/17">Ghayoor</a> and <a class="tile" href="/tiles/15">Shubba</a> are considered to be Kushite units.',
       ruletwo_title: "Yag’s Orb:",
@@ -832,6 +967,15 @@
       tile7: 0,
       tile8: 0,
 
+      t1life: '',
+      t2life: '',
+      t3life: '',
+      t4life: '4',
+      t5life: '',
+      t6life: '6',
+      t7life: '',
+      t8life: '',
+
       ruleone_title: "Xuthal’s Crowns:",
       ruleone_text: 'When Yogah of Yag picks up a <a class="item" href="/items/24">Xuthal’s Crown</a>, place one gem from his Fatigue zone to the <a class="item" href="/items/24">Xuthal’s Crown</a> equipment card. If there are no gems in his Fatigue zone, take a gem from those assigned to action spaces or spell cards.
       If those are also empty, take a gem from his Reserve zone. As long as this gem is on the <a class="item" href="/items/24">Xuthal’s Crown</a> card, it is no longer available to Yogah of Yag and thus no longer counts toward his life point total.
@@ -879,6 +1023,15 @@
       tile7: 0,
       tile8: 0,
 
+      t1life: '5',
+      t2life: '5',
+      t3life: '5',
+      t4life: '5',
+      t5life: '',
+      t6life: '',
+      t7life: '',
+      t8life: '',
+
       ruleone_title: "Artifacts:",
       ruleone_text: 'During setup, the Overlord places the artifacts, represented by the tokens, as indicated by the setup diagram. A Kushite (<a class="tile" href="/tiles/16">Afari</a>, <a class="tile" href="/tiles/17">Ghayor</a>, <a class="tile" href="/tiles/18">Shafiah</a> and <a class="tile" href="/tiles/15">Shubba</a>) in an artifact’s area may perform a Melee Attack and roll at least 2 symbols in a single attack to destroy that artifact.
       This Melee Attack follows the same rules as any Melee Attack (<a class="skill" href="/skills/29">Sacrifice</a>, <a class="skill" href="/skills/4">Circular Strike</a>, etc.) and <a class="tile" href="/tiles/16">Afari</a>Bêlit’s Guards can use <a class="skill" href="/skills/29">Sacrifice</a> to defend the artifacts.',
@@ -924,6 +1077,15 @@
       tile6: 2,
       tile7: 1,
       tile8: 0,
+
+      t1life: '',
+      t2life: '',
+      t3life: '4',
+      t4life: '',
+      t5life: '',
+      t6life: '',
+      t7life: '',
+      t8life: '',
 
       ruleone_title: "Ring:",
       ruleone_text: 'During setup 4 red gems are placed on the Ring card. These gems can be used by the hero carrying the Ring only to cast spells. When the hero carrying the Ring wants to use these red gems to cast a spell, they move them from the Ring card to the spell card. The gems used in this way must not raise the total number of gems on the spell card above its exertion limit. A hero can combine the red gems with their own gems from their Reserve zone to cast a spell. During the start phase and the end phase of each heroes’ turn, the carrier of the ring moves the red gems from the spell cards to the Ring card. The red gems of the Ring card are never counted when calculating the life points of a hero.',
@@ -978,6 +1140,15 @@
       tile7: 1,
       tile8: 0,
 
+      t1life: '',
+      t2life: '',
+      t3life: '8',
+      t4life: '',
+      t5life: '',
+      t6life: '',
+      t7life: '',
+      t8life: '',
+
       ruleone_title: "Bossonian Guard:",
       ruleone_text: 'Only Conan the General can use Leadership to activate the Bossonian Guards. For this scenario, Conan the General and Balthus cannot spend gems to defend the Bossonian Guards.',
       ruletwo_title: "Slasher:",
@@ -1025,6 +1196,15 @@
       tile6: 92,
       tile7: 1,
       tile8: 0,
+
+      t1life: '',
+      t2life: '6',
+      t3life: '6',
+      t4life: '',
+      t5life: '6',
+      t6life: '6',
+      t7life: '',
+      t8life: '',
 
       ruleone_title: "Two Fronts:",
       ruleone_text: 'During setup, the Overlord places the two boards next to each other. The action in this scenario happens in two distant locations and at two different moments in time. The events played on the citadel board happen before the action played out on the outpost board.
@@ -1111,6 +1291,15 @@
       tile7: 1,
       tile8: 3,
 
+      t1life: '',
+      t2life: '',
+      t3life: '',
+      t4life: '15',
+      t5life: '',
+      t6life: '4',
+      t7life: '',
+      t8life: '',
+
       ruleone_title: "Dragon:",
       ruleone_text: 'The area between the 4 legs of the dragon is considered as its base with regard to occupied areas. The dragon is counted as one model when calculating hindering. During its capture the Dragon has been poisoned; during setup, the Overlord places a second Dragon tile next to the Book of Skelos with 3 (token) tokens on it to represent this. The Dragon loses 1 Red-Reroll die to its Melee Attack value per token on this Dragon tile.
       There can be a maximum of 3 tokens on the Dragon tile. A (token) token is placed on the spaces 2, 4 and 6 of the turn track. When the turn track token is placed on the (token) token, one of the tokens placed on the set aside Dragon tile is removed if possible.',
@@ -1165,6 +1354,15 @@
       tile6: 0,
       tile7: 0,
       tile8: 0,
+
+      t1life: '6',
+      t2life: '8',
+      t3life: '',
+      t4life: '',
+      t5life: '',
+      t6life: '',
+      t7life: '',
+      t8life: '',
 
       ruleone_title: "Pirates, Bossonian Guards and Archers:",
       ruleone_text: 'When a pirate or a Bossonian Guard or a Bossonian Archer is killed, the Overlord replaces its model with a skeleton model that is placed in a laid down position in the area where the pirate or the guard or the archer was killed.
@@ -1233,6 +1431,15 @@
       tile7: 1,
       tile8: 0,
 
+      t1life: '',
+      t2life: '',
+      t3life: '',
+      t4life: '',
+      t5life: '',
+      t6life: '6',
+      t7life: '',
+      t8life: '',
+
       ruleone_title: "Sinking a Ship:",
       ruleone_text: 'Only one ship may be sunk during the scenario. There are two different ways a hero can sink a ship:
       • A hero in a reinforcement token’s area may perform a complex manipulation with a difficulty of 5 to sink that ship.
@@ -1292,6 +1499,15 @@
       tile6: 65,
       tile7: 1,
       tile8: 0,
+
+      t1life: '6',
+      t2life: '',
+      t3life: '',
+      t4life: '',
+      t5life: '',
+      t6life: '',
+      t7life: '',
+      t8life: '',
 
       ruleone_title: "Animal Form:",
       ruleone_text: 'At the beginning of the scenario the tiles of the Giant Spider, the Giant Scorpion and the Camel are placed next to the Book of Skelos, unbloody side faceup, these tiles are considered as being the animal form tiles.
@@ -1356,6 +1572,15 @@
       tile7: 1,
       tile8: 0,
 
+      t1life: '',
+      t2life: '',
+      t3life: '8',
+      t4life: '',
+      t5life: '',
+      t6life: '',
+      t7life: '',
+      t8life: '',
+
       ruleone_title: 'Giant Wolf:',
       ruleone_text: 'During setup, the hero places two Giant Wolves tiles next to Zelata’s hero sheet. When Zelata uses her Leaderships kill to activate the Giant Wolves by spending one gem, she activates two Giant Wolves characters instead of one. She must move both Giant Wolves, then perform their attack. Each Giant Wolf can only be activated once per hero’s turn. The Giant Wolves follow the standard rules of the Allies for rerolls, Guard an additional movement points.
       As soon as 5 Giant Wolves have been killed, the hero removes a Giant Wolves tile from the game. From this point on, when Zelata uses her Leadership skill to activate the Giant Wolves by spending one gem, she only activates one Giant Wolf character.',
@@ -1414,6 +1639,15 @@
       tile6: 27,
       tile7: 1,
       tile8: 0,
+
+      t1life: '',
+      t2life: '',
+      t3life: '4',
+      t4life: '',
+      t5life: '4',
+      t6life: '',
+      t7life: '',
+      t8life: '',
 
       ruleone_title: 'Sacred Treasures:',
       ruleone_text: 'The three <a class="item" href="/items/47">Sacred Treasure</a>, the <a class="item" href="/items/28">Pictish Fetish</a>, and the <a class="item" href="/items/54">Heart of Ahriman</a> are considered Sacred Treasures.

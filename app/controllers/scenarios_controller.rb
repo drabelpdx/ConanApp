@@ -59,6 +59,8 @@ class ScenariosController < ApplicationController
                                        :overlord_goal, :overlord_setup,
                                        :tile1, :tile2, :tile3, :tile4,
                                        :tile5, :tile6, :tile7, :tile8,
+                                       :t1life, :t2life, :t3life, :t4life,
+                                       :t5life, :t6life, :t7life, :t8life,
                                        :ruleone_title, :ruleone_text,
                                        :ruletwo_title, :ruletwo_text,
                                        :rulethree_title, :rulethree_text,

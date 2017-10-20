@@ -14,6 +14,7 @@ class CreateTiles < ActiveRecord::Migration
       t.string :count
       t.string :figure_image
       t.string :tile_image
+      t.string :token_image
       t.timestamps
     end
   end

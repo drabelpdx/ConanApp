@@ -19,6 +19,14 @@ class CreateScenarios < ActiveRecord::Migration
       t.integer :tile6
       t.integer :tile7
       t.integer :tile8
+      t.text :t1life
+      t.text :t2life
+      t.text :t3life
+      t.text :t4life
+      t.text :t5life
+      t.text :t6life
+      t.text :t7life
+      t.text :t8life
       t.text :ruleone_title
       t.text :ruleone_text
       t.text :ruletwo_title

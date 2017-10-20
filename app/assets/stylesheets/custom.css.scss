@@ -300,10 +300,35 @@ a.skill {
   border-radius: 20px;
 }
 
-.sm_tiles img {
-  width: 10%;
+.tilestable table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    border: none;
+}
+
+.sm_tiles td {
+  border:none;
+  padding:5px;
+}
+.sm_tiles td img {
+  width: 75px;
   height: auto;
-  margin-left: 10px;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.sm_tokens td {
+  border:none;
+  padding:5px;
+  font-size: 20px;;
+}
+.sm_tokens td img {
+  width: 33%;
+  height: auto;
+  display: inline-block;
+  border-radius: 50%;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .hero_stats th, td {
