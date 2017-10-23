@@ -66,44 +66,44 @@
       <div class="col-md-2">
           <h4>The River</h4>
       </div>
-      <div class="col-md-10 tiletabel">
-      <table>
-        <tr class="sm_tiles">
-          <% if @scenario.tile1 != 0 %>
-            <% tile = Tile.find_by_id [@scenario.tile1] %>
-            <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile), :title => "#{tile.name}" %></td>
-          <% end %>
-          <% if @scenario.tile2 != 0 %>
-            <% tile = Tile.find_by_id [@scenario.tile2] %>
-            <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile), :title => "#{tile.name}" %></td>
-          <% end %>
-          <% if @scenario.tile3 != 0 %>
-            <% tile = Tile.find_by_id [@scenario.tile3] %>
-            <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile), :title => "#{tile.name}" %></td>
-          <% end %>
-          <% if @scenario.tile4 != 0 %>
-            <% tile = Tile.find_by_id [@scenario.tile4] %>
-            <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile), :title => "#{tile.name}" %></td>
-          <% end %>
-          <% if @scenario.tile5 != 0 %>
-            <% tile = Tile.find_by_id [@scenario.tile5] %>
-            <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile), :title => "#{tile.name}" %></td>
-          <% end %>
-          <% if @scenario.tile6 != 0 %>
-            <% tile = Tile.find_by_id [@scenario.tile6] %>
-            <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile), :title => "#{tile.name}" %></td>
-          <% end %>
-          <% if @scenario.tile7 != 0 %>
-            <% tile = Tile.find_by_id [@scenario.tile7] %>
-            <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile), :title => "#{tile.name}" %></td>
-          <% end %>
-          <% if @scenario.tile8 != 0 %>
-            <% tile = Tile.find_by_id [@scenario.tile8] %>
-            <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile), :title => "#{tile.name}" %></td>
-          <% end %>
-        </tr>
+      <div class="col-md-10">
+        <table class="tiletable">
+          <tr class="sm_tiles">
+            <% if @scenario.tile1 != 0 %>
+              <% tile = Tile.find_by_id [@scenario.tile1] %>
+              <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile), :title => "#{tile.name}" %></td>
+            <% end %>
+            <% if @scenario.tile2 != 0 %>
+              <% tile = Tile.find_by_id [@scenario.tile2] %>
+              <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile), :title => "#{tile.name}" %></td>
+            <% end %>
+            <% if @scenario.tile3 != 0 %>
+              <% tile = Tile.find_by_id [@scenario.tile3] %>
+              <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile), :title => "#{tile.name}" %></td>
+            <% end %>
+            <% if @scenario.tile4 != 0 %>
+              <% tile = Tile.find_by_id [@scenario.tile4] %>
+              <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile), :title => "#{tile.name}" %></td>
+            <% end %>
+            <% if @scenario.tile5 != 0 %>
+              <% tile = Tile.find_by_id [@scenario.tile5] %>
+              <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile), :title => "#{tile.name}" %></td>
+            <% end %>
+            <% if @scenario.tile6 != 0 %>
+              <% tile = Tile.find_by_id [@scenario.tile6] %>
+              <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile), :title => "#{tile.name}" %></td>
+            <% end %>
+            <% if @scenario.tile7 != 0 %>
+              <% tile = Tile.find_by_id [@scenario.tile7] %>
+              <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile), :title => "#{tile.name}" %></td>
+            <% end %>
+            <% if @scenario.tile8 != 0 %>
+              <% tile = Tile.find_by_id [@scenario.tile8] %>
+              <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile), :title => "#{tile.name}" %></td>
+            <% end %>
+          </tr>
 
-        <tr class="sm_tokens" >
+          <tr class="sm_tokens" >
             <td>
               <% if @scenario.t1life != '' %>
                 <% tile = Tile.find_by_id [@scenario.tile1] %>
@@ -152,9 +152,8 @@
                 <%= @scenario.t8life %>  <%= image_tag(tile.token_image)%>
               <% end %>
             </td>
-        </tr>
-
-      </table>
+          </tr>
+        </table>
       </div>
     </div>
   <% end %>

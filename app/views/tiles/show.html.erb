@@ -1,8 +1,14 @@
 <div class="row">
   <div class="col-xs-12 col-md-9 tile-well">
-    <div class="col-xs-12 col-md-6">
-        <h2 class="tile" align="center"><%= @tile.name %></h2>
-        <h4 align="center"><%= @tile.description %></h4>
+    <div align="center">
+      <div  class="prevnext prevnext_tile" >
+        <span class="prev"><%= link_to("<< Previous Tile", @tile.previous) if @tile.previous %></span>
+        <span aligh="center"><%= link_to "Back to tiles", tiles_path %></span>
+        <span class="next"><%= link_to("Next Tile >>", @tile.next) if @tile.next %></span>
+      </div>
+      <div class="col-xs-12 col-md-7">
+        <h2 class="tile"><%= @tile.name %></h2>
+        <h4><%= @tile.description %></h4>
         <div align="center" class="tiles">
           <%= image_tag "#{@tile.figure_image}" %><br /><br />
           <h4>
@@ -10,10 +16,12 @@
             <%= pluralize_no_count(@tile.count, 'tile') %>
           </h4>
           from  <%= @tile.origin %>
-          <br /><br /><%= link_to "Back to tiles", tiles_path %>
+          <br /><br />
         </div>
+      </div>
     </div>
-    <div class="col-xs-6 col-md-3">
+    <div class="col-xs-6 col-md-2">
+      <br />
       <table class="tile_stats">
         <% if @tile.move != '–' %>
           <tr>

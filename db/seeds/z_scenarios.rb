@@ -1004,7 +1004,7 @@
 
       hero_goal: "The Heroes must protect the artifacts. If there is at least one artifact on the board at the end of turn 7; the heroes win the game.",
       hero_setup: '<br /><br /><strong>Suggestions for 2 heroes:</strong>
-      <br /><a class="hero" href="/heroes/1">Bêlit</a> (<a class="item" href="/items/8">Halberd</a>) and 5 Bêlit’s Guards,
+      <br /><a class="hero" href="/heroes/1">Bêlit</a> (<a class="item" href="/items/8">Halberd</a>) and 5 <a class="tile" href="/tiles/94">Bêlit’s Guards</a>,
       <br /><a class="hero" href="/heroes/3">Hadrathus</a> (<a class="item" href="/items/10">Sword</a>, <a class="spell" href="/spells/16">Borne by the Wind</a>, <a class="spell" href="/spells/14">Set’s Possession</a>, <a class="spell" href="/spells/15">Lightning Storm</a>).
       <br /><br />After setup, each hero moves 3 gems from their Reserve zone to their Fatigue zone.',
 
@@ -1034,9 +1034,9 @@
 
       ruleone_title: "Artifacts:",
       ruleone_text: 'During setup, the Overlord places the artifacts, represented by the tokens, as indicated by the setup diagram. A Kushite (<a class="tile" href="/tiles/16">Afari</a>, <a class="tile" href="/tiles/17">Ghayor</a>, <a class="tile" href="/tiles/18">Shafiah</a> and <a class="tile" href="/tiles/15">Shubba</a>) in an artifact’s area may perform a Melee Attack and roll at least 2 symbols in a single attack to destroy that artifact.
-      This Melee Attack follows the same rules as any Melee Attack (<a class="skill" href="/skills/29">Sacrifice</a>, <a class="skill" href="/skills/4">Circular Strike</a>, etc.) and <a class="tile" href="/tiles/16">Afari</a>Bêlit’s Guards can use <a class="skill" href="/skills/29">Sacrifice</a> to defend the artifacts.',
+      This Melee Attack follows the same rules as any Melee Attack (<a class="skill" href="/skills/29">Sacrifice</a>, <a class="skill" href="/skills/4">Circular Strike</a>, etc.) and <a class="tile" href="/tiles/94">Bêlit’s Guards</a> can use <a class="skill" href="/skills/29">Sacrifice</a> to defend the artifacts.',
       ruletwo_title: "Crowd Control:",
-      ruletwo_text: 'The Overlord activates up to two <a class="tile" href="/tiles/16">Afari</a>Bêlit’s Guards as if they were units. During these activations, the Overlord follows all rules regarding unit tile activation (movement, attack etc.) and can use benefits. The Overlord cannot use <a class="skill" href="/skills/16">Leap</a> with a Bêlit’s Guard model to <a class="skill" href="/skills/16">Leap</a> from the walls.',
+      ruletwo_text: 'The Overlord activates up to two <a class="tile" href="/tiles/94">Bêlit’s Guards</a> as if they were units. During these activations, the Overlord follows all rules regarding unit tile activation (movement, attack etc.) and can use benefits. The Overlord cannot use <a class="skill" href="/skills/16">Leap</a> with a <a class="tile" href="/tiles/94">Bêlit’s Guard</a> model to <a class="skill" href="/skills/16">Leap</a> from the walls.',
       rulethree_title: "Lines of Sight:",
       rulethree_text: 'A character in a wall area has line of sight to each ground area within the fortress walls. An area in a tower and an area outside that tower are within each other’s line of sight only if the areas are in or adjacent to the tower.',
       rulefour_title: "Leaping from Walls:",

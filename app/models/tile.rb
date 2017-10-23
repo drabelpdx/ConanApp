@@ -9,4 +9,12 @@ class Tile < ActiveRecord::Base
   validates :role, presence: true, length: { minimum: 3, maximum: 50 }
   validates :origin, presence: true, length: { minimum: 3, maximum: 50 }
   validates :count, presence: true
+
+  def previous
+    Tile.where(["id < ?", id]).last
+  end
+
+  def next
+    Tile.where(["id > ?", id]).first
+  end
 end

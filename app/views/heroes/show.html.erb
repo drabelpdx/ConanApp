@@ -1,4 +1,11 @@
 <div class="row hero-well">
+  <div align="center">
+    <div class="prevnext prevnext_hero" >
+      <span class="prev"><%= link_to("<< Previous Hero", @hero.previous) if @hero.previous %></span>
+      <span aligh="center"><%= link_to "Back to heros", heroes_path %></span>
+      <span class="next"><%= link_to("Next Hero >>", @hero.next) if @hero.next %></span>
+    </div>
+  </div>
   <div class="col-md-4">
     <div class="">
       <h2 class="hero" align="center"><%= @hero.name %></h2>
@@ -9,11 +16,11 @@
         <p><%= @hero.quote %></p>
         <p><%= @hero.cite %></p>
       <div align="center">
-        <br /><br /><%= link_to "Back to heroes", heroes_path %>
       </div>
     </div>
   </div>
   <div class="col-md-8">
+    <br />
     <table class="table table-bordered hero_stats">
       <tr class="warning">
         <th>

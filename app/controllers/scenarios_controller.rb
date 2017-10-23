@@ -6,9 +6,9 @@ class ScenariosController < ApplicationController
   def index
     @scenarios = Scenario.all
     if params[:search]
-      @scenarios = Scenario.search(params[:search]).order('created_at DESC')
+      @scenarios = Scenario.search(params[:search]).order('created_at ASC')
     else
-      @scenarios = Scenario.all.order('created_at DESC')
+      @scenarios = Scenario.all.order('created_at ASC')
     end
   end
 

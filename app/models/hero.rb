@@ -19,4 +19,12 @@ class Hero < ActiveRecord::Base
   validates :manipulation_exersion, presence: true
   validates :defense_dice, presence: true, length: { minimum: 3, maximum: 50 }
   validates :origin, presence: true, length: { minimum: 3, maximum: 50 }
+
+  def previous
+    Hero.where(["id < ?", id]).last
+  end
+
+  def next
+    Hero.where(["id > ?", id]).first
+  end
 end

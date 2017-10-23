@@ -5,7 +5,7 @@ class SpellsController < ApplicationController
   before_action :require_admin, except: [:index, :show]
 
   def index
-    @spells = Spell.  all
+    @spells = Spell.all
   end
 
   def new

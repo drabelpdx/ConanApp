@@ -301,15 +301,18 @@ a.skill {
 }
 
 .tilestable table {
-    border-spacing: 0;
-    border-collapse: collapse;
-    border: none;
+  border-spacing: 0;
+  border-collapse: collapse;
+  border: none;
+  width: 80%;
+  table-layout: auto;
 }
 
 .sm_tiles td {
   border:none;
   padding:5px;
 }
+
 .sm_tiles td img {
   width: 75px;
   height: auto;
@@ -319,16 +322,16 @@ a.skill {
 
 .sm_tokens td {
   border:none;
-  padding:5px;
-  font-size: 20px;;
+  padding:auto;
+  font-size: 20px;
 }
+
 .sm_tokens td img {
-  width: 33%;
+  width: 40%;
   height: auto;
   display: inline-block;
   border-radius: 50%;
-  padding-top: 10px;
-  padding-bottom: 10px;
+
 }
 
 .hero_stats th, td {
@@ -379,6 +382,7 @@ a.skill {
   padding: 10px;
   border-radius: 10px;
 }
+
 .hero-well {
   background: #dff0d8;
   padding: 10px;
@@ -443,3 +447,32 @@ footer ul li {
   float:left;
   margin-left: 15px;
 }
+
+.prevnext_hero {
+  background: #3c763d;
+}
+
+.prevnext_tile {
+  background: #a94442;
+}
+
+.prevnext_item {
+  background: #8a6d3b;
+}
+
+.prevnext_spell {
+  background: #8600b3;
+}
+
+.prevnext {
+  border-radius: 5px;
+  padding: 10px;
+  color: #fff;
+}
+
+.prevnext a {
+  color: #fff;
+}
+
+.prevnext .next { float:right }
+.prevnext .prev { float:left }
