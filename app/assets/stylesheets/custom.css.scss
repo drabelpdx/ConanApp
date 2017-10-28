@@ -305,7 +305,6 @@ a.skill {
   border-collapse: collapse;
   border: none;
   width: 80%;
-  table-layout: auto;
 }
 
 .sm_tiles td {
@@ -322,16 +321,14 @@ a.skill {
 
 .sm_tokens td {
   border:none;
-  padding:auto;
   font-size: 20px;
 }
 
 .sm_tokens td img {
-  width: 40%;
-  height: auto;
+  height: 40%;
+  width: auto;
   display: inline-block;
   border-radius: 50%;
-
 }
 
 .hero_stats th, td {
@@ -417,9 +414,47 @@ a.skill {
   display: flex;
   flex-wrap: wrap;
 }
+
 .row.display-flex > [class*='col-'] {
   display: flex;
   flex-direction: column;
+}
+
+.scen_setup {
+  width: 60px;
+  height: auto;
+  border: 4px solid #b8a694;
+  border-radius: 50%;
+}
+
+.scen_token {
+  width: 30px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.scen_sq_token {
+  height: 30px;
+  width: auto;
+  border-radius: 5px;
+}
+
+.scen_event {
+  width: 50px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.scen_table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  border: none;
+}
+
+.scen_table td {
+  text-align: left;
+  border:none;
+  padding:5px;
 }
 
 

@@ -772,7 +772,7 @@ tiles = Tile.create([
     melee_dice: 'Red-Reroll', ranged_dice: '–',
     origin: 'Black Dragons', count: '1', skill_ids: [7, 29],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/BlackDragons.jpg',
-    tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Black+Dragons.png',
+    tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BlackDragons.png',
     token_image: '' },
 
   { name: "Camel", description: 'Punch a camel',
