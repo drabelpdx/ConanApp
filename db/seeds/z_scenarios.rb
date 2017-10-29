@@ -30,17 +30,25 @@
       hero_setup: '<p>The game starts with the heroes’ turn. The heroes start in
       the areas indicated by the setup diagram.</p>
       <strong>Suggestions for 3 heroes:</strong>
-      <br /><a class="hero" href="/heroes/2">Conan</a> (<a class="item" href="/items/1">Battle Axe</a>,
-        <a class="item" href="/items/20">Shield</a>, <a class="item" href="/items/16">Leather Armor</a>),
-      <br /><a class="hero" href="/heroes/4">Shevatas</a> (<a class="item" href="/items/15">Kris</a>,
-        <a class="item" href="/items/14">Throwing Knives</a>),
-      <br /><a class="hero" href="/heroes/3">Hadrathus</a> (<a class="item" href="/items/2">Dagger</a>,
-        <a class="spell" href="/spells/13">Teleportation</a>, <a class="spell" href="/spells/7">Mitra’s Halo</a>,
-        <a class="spell" href="/spells/15">Lightning Storm</a>). Hadrathus starts with Mitra’s Halo cast.
+      <br /><a class="hero" href="/heroes/2">Conan</a>
+      (<a class="item" href="/items/1">Battle Axe</a>,
+      <a class="item" href="/items/20">Shield</a>,
+      <a class="item" href="/items/16">Leather Armor</a>),
+      <br /><a class="hero" href="/heroes/4">Shevatas</a>
+      (<a class="item" href="/items/15">Kris</a>,
+      <a class="item" href="/items/14">Throwing Knives</a>),
+      <br /><a class="hero" href="/heroes/3">Hadrathus</a>
+      (<a class="item" href="/items/2">Dagger</a>,
+      <a class="spell" href="/spells/13">Teleportation</a>,
+      <a class="spell" href="/spells/7">Mitra’s Halo</a>,
+      <a class="spell" href="/spells/15">Lightning Storm</a>).
+      Hadrathus starts with Mitra’s Halo cast.
       <br /><br /><strong>Suggestions for 4 heroes:</strong>
-      <br /><a class="hero" href="/heroes/1">Bêlit</a> (<a class="item" href="/items/12">Ornamental Lance</a>).
+      <br /><a class="hero" href="/heroes/1">Bêlit</a>
+      (<a class="item" href="/items/12">Ornamental Lance</a>).
       Bêlit starts in the same area as any hero.
-      <p>After setup, each hero moves 5 gems from their Reserve zone to their Fatigue zone.</p>',
+      <p>After setup, each hero moves 5 gems from their Reserve zone to their
+      Fatigue zone.</p>',
 
       overlord_goal: "At the end of round 8, the Picts arrive in massive numbers
       to witness the sacrifice and the heroes can no longer escape; the Overlord
@@ -129,8 +137,11 @@
       1 <a class="item" href="/items/19">Buckler</a>,
       1 <a class="item" href="/items/9">Bossonian Bow</a>.',
 
-      origin: "Core Game", map_ids: [1], hero_ids: [1, 2, 3, 4],
-      tile_ids: [44, 4, 48, 41, 43, 20, 45, 1], spell_ids: [7, 13, 15],
+      origin: "Core Game",
+      map_ids: [1],
+      hero_ids: [1, 2, 3, 4],
+      tile_ids: [44, 4, 48, 41, 43, 20, 45, 1],
+      spell_ids: [7, 13, 15],
       item_ids: [1, 2, 4, 5, 9, 12, 14, 15, 16, 17, 19, 20, 22] },
 
     { name: "Hunting the Tigress", description: "<p>For months, the pirate ship
@@ -139,9 +150,10 @@
       displeasure of King Ctesphon. As the Stygian fleet seems unable to put an
       end to the piracy, the king has promised a colossal sum to whomever can
       bring back Bêlit’s head.</p>
-      <p>With Bêlit’s vessel anchored to resupply and a large portion of the crew
-      on shore, Zaporavo, the Zingaran captain of The Vandal, takes the opportunity
-      to attack in hopes of claiming the enormous reward and the glory that accompanies it.</p>
+      <p>With Bêlit’s vessel anchored to resupply and a large portion of the
+      crew on shore, Zaporavo, the Zingaran captain of The Vandal, takes the
+      opportunity to attack in hopes of claiming the enormous reward and the
+      glory that accompanies it.</p>
       <p>Supported by a row of archers and the black magic of Skuthus, a Stygian
       necromancer sent by Ctesphon, the Zingaran mercenary and his troops quickly
       gain a foothold on the deck of the Tigress. Only Conan, Shevatas, and a
@@ -159,22 +171,24 @@
       <strong>Suggestions for 3 heroes:</strong>
       <br /><a class="hero" href="/heroes/1">Bêlit</a> (required)
       (<a class="item" href="/items/12">Ornamental Lance</a>,
-        <a class="item" href="/items/21">Tribal Shield</a>),
+      <a class="item" href="/items/21">Tribal Shield</a>),
       <br /><a class="hero" href="/heroes/2">Conan</a>
       (<a class="item" href="/items/10">Sword</a>,
-        <a class="item" href="/items/16">Leather Armor</a>),
+      <a class="item" href="/items/16">Leather Armor</a>),
       <br /><a class="hero" href="/heroes/4">Shevatas</a>
       (<a class="item" href="/items/15">Kris</a>,
-        <a class="item" href="/items/14">Throwing Knives</a>),
+      <a class="item" href="/items/14">Throwing Knives</a>),
       <br /><br /><strong>Suggestions for 4 heroes:</strong>
       <br /><a class="hero" href="/heroes/3">Hadrathus</a>
       (<a class="item" href="/items/2">Dagger</a>,
-        <a class="spell" href="/spells/7">Mitra’s Halo</a>,
-        <a class="spell" href="/spells/10">Bori’s Rage</a>).
-        Hadrathus does not start with Mitra’s Halo cast.
-      <p>After setup, each hero moves 4 gems from their Reserve zone to their Fatigue zone.</p>',
+      <a class="spell" href="/spells/7">Mitra’s Halo</a>,
+      <a class="spell" href="/spells/10">Bori’s Rage</a>).
+      Hadrathus does not start with Mitra’s Halo cast.
+      <p>After setup, each hero moves 4 gems from their Reserve zone to their
+      Fatigue zone.</p>',
 
-      overlord_goal: "If Bêlit dies, the ambush is a success; the Overlord wins the game.",
+      overlord_goal: "If Bêlit dies, the ambush is a success; the Overlord wins
+      the game.",
       overlord_setup: '<strong>3 heroes:</strong>
       <br />The Overlord starts with 9 gems in their Reserve zone and 3 gems in
       their Fatigue zone, and places the recovery token showing a recovery value
@@ -236,27 +250,30 @@
       indicated by the setup diagram. The asset deck contains: 2 <a class="item" href="/items/22">Life Potion</a>,
       1 <a class="item" href="/items/5">Explosive Orb</a>, 1 <a class="item" href="/items/23">Empty chest</a>.',
 
-      origin: "Core Game", map_ids: [2], hero_ids: [1, 2, 3, 4],
-      tile_ids: [37, 57, 33, 35, 36, 1, 5, 3], spell_ids: [7, 5, 10, 11],
+      origin: "Core Game",
+      map_ids: [2],
+      hero_ids: [1, 2, 3, 4],
+      tile_ids: [37, 57, 33, 35, 36, 1, 5, 3],
+      spell_ids: [7, 5, 10, 11],
       item_ids: [2, 5, 10, 12, 14, 15, 16, 21, 22, 23] },
 
     { name: "In the Heart of Darkness", description: "<p>The Tigress travels the
-      dark waters of the Zarkheba river, whose mysterious shores are covered by gloomy jungle.
-      The Queen of the Black Coast knows that, beyond the tangled wall of vegetation,
-      an ancient city may yet hide fabulous treasures.
-      But legends speak of hauntings, and the local tribes carefully avoid the area.</p>
+      dark waters of the Zarkheba river, whose mysterious shores are covered by
+      gloomy jungle. The Queen of the Black Coast knows that, beyond the tangled
+      wall of vegetation, an ancient city may yet hide fabulous treasures. But
+      legends speak of hauntings, and the local tribes carefully avoid the area.</p>
       <p>After many hours spent sailing in a supernatural silence, Conan spots
-      the black fangs of towers stretching above the trees.
-      Choked by overgrowth, the ruins exude decadence and desolation.</p>
+      the black fangs of towers stretching above the trees. Choked by overgrowth,
+      the ruins exude decadence and desolation.</p>
       <p>Not heeding the superstitious warnings of her men, Bêlit disembarks with
-      her Cimmerian lover, Shevatas, and a few reluctant crewmen.
-      In an abandoned crypt, they discover a handful of colorful gems and a strange
-      curved knife, spurring them to press deeper into the ruins.</p>
+      her Cimmerian lover, Shevatas, and a few reluctant crewmen. In an abandoned
+      crypt, they discover a handful of colorful gems and a strange curved knife,
+      spurring them to press deeper into the ruins.</p>
       <p>In the center of the city they come upon a small fortress, its broken-down
-      towers and crumbled walls held together by thick vegetation.
-      Only then do they hear the echoes of a voice from beyond the grave:
-        “Return my belongings, heathen profaners, or I shall drench the altar of
-        Set with your blood!” Skuthus’ trap has been sprung.</p>",
+      towers and crumbled walls held together by thick vegetation. Only then do
+      they hear the echoes of a voice from beyond the grave:
+      “Return my belongings, heathen profaners, or I shall drench the altar of
+      Set with your blood!” Skuthus’ trap has been sprung.</p>",
       map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/In+the+Heart+of+Darkness.jpg',
       pdf_link: 'http://www.monolithedition.com/conan-en/in-the-heart-of-darkness/',
       player_count: "4",
@@ -267,13 +284,18 @@
       hero_setup: '<p>The  game starts with the heroes’ turn.</p>
       <p>The heroes and Bêlit’s Guards start in the areas indicated by the setup diagram.</p>
       <strong>Suggestions for 3 heroes:</strong>
-      <br /><a class="hero" href="/heroes/2">Conan</a> (<a class="item" href="/items/10">Sword</a>,
-        <a class="item" href="/items/20">Shield</a>, <a class="item" href="/items/16">Leather Armor</a>),
-      <br /><a class="hero" href="/heroes/4">Shevatas</a> (<a class="item" href="/items/15">Kris</a>,
-        <a class="item" href="/items/14">Throwing Knives</a>),
-      <br /><a class="hero" href="/heroes/1">Bêlit</a> (<a class="item" href="/items/12">Ornamental Lance</a>,
-        <a class="item" href="/items/6">Yuetshi Knife</a>),
-      <br /><br />After setup, each hero moves 5 gems from their Reserve zone to their Fatigue zone.',
+      <br /><a class="hero" href="/heroes/2">Conan</a>
+      (<a class="item" href="/items/10">Sword</a>,
+      <a class="item" href="/items/20">Shield</a>,
+      <a class="item" href="/items/16">Leather Armor</a>),
+      <br /><a class="hero" href="/heroes/4">Shevatas</a>
+      (<a class="item" href="/items/15">Kris</a>,
+      <a class="item" href="/items/14">Throwing Knives</a>),
+      <br /><a class="hero" href="/heroes/1">Bêlit</a>
+      (<a class="item" href="/items/12">Ornamental Lance</a>,
+      <a class="item" href="/items/6">Yuetshi Knife</a>),
+      <br /><br />After setup, each hero moves 5 gems from their Reserve zone to
+      their Fatigue zone.',
 
       overlord_goal: "At the end of round 8, Skuthus finishes an incantation,
       turning into a vulture and taking to the sky; the Overlord wins the game.",
@@ -327,11 +349,13 @@
       ruleone_title: "Yuetshi Knife:",
       ruleone_text: 'When a hero attacks <a class="tile" href="/tiles/21">Khosatral Khel</a>
       with the <a class="item" href="/items/6">Yuetshi Knife</a>,
-      <a class="tile" href="/tiles/21">Khosatral Khel’s</a> armor value becomes 3 for that attack.',
+      <a class="tile" href="/tiles/21">Khosatral Khel’s</a> armor value becomes
+      3 for that attack.',
       ruletwo_title: "Lines of Sight:",
       ruletwo_text: 'A character in a wall area has line of sight to each ground
       area within the fortress walls. An area in a tower and an area outside that
-      tower are within each other’s line of sight only if the areas are in or adjacent to the tower.',
+      tower are within each other’s line of sight only if the areas are in or
+      adjacent to the tower.',
       rulethree_title: "Leaping from Walls:",
       rulethree_text: 'A character can move across a parapet from a wall area to
       a ground area as though it were a border. The character rolls
@@ -344,8 +368,8 @@
       rulefour_title: "Rock Slides:",
       rulefour_text: 'A character can move into a rock slide area
       <img src="/assets/tokens/rocks.png" class="scen_token" />
-      from an adjacent area. The character must spend 2 extra movement points unless
-      the character has <a class="skill" href="/skills/19">Climb</a>.',
+      from an adjacent area. The character must spend 2 extra movement points
+      unless the character has <a class="skill" href="/skills/19">Climb</a>.',
       rulefive_title: "Chests:",
       rulefive_text: 'During setup, the Overlord places 5 chests on the board as
       indicated by the setup diagram. The asset deck contains:
@@ -353,8 +377,11 @@
       2 <a class="item" href="/items/5">Explosive Orb</a>,
       1 <a class="item" href="/items/3">Javelin</a>.',
 
-      origin: "Core Game", map_ids: [3], hero_ids: [1, 2, 4],
-      tile_ids: [19, 3, 57, 41, 1], spell_ids: [5, 6],
+      origin: "Core Game",
+      map_ids: [3],
+      hero_ids: [1, 2, 4],
+      tile_ids: [19, 3, 57, 41, 1],
+      spell_ids: [5, 6],
       item_ids: [6, 10, 12, 14, 15, 16, 20] },
 
     { name: "The Final Ritual", description: "<p>The province of Conajohara is
@@ -378,15 +405,21 @@
       hero_goal: "If the invocation marker reaches space 0 or at the end of turn 12,
       the ritual is complete; the heroes win the game.",
       hero_setup: '<br /><br /><strong>Suggestions for 3 heroes:</strong>
-      <br /><a class="hero" href="/heroes/2">Conan</a> (<a class="item" href="/items/1">Battle Axe</a>,
-        <a class="item" href="/items/20">Shield</a>, <a class="item" href="/items/16">Leather Armor</a>),
-      <br /><a class="hero" href="/heroes/4">Shevatas</a> (<a class="item" href="/items/15">Kris</a>,
-        <a class="item" href="/items/14">Throwing Knives</a>),
-      <br /><a class="hero" href="/heroes/3">Hadrathus</a> (<a class="item" href="/items/2">Dagger</a>,
-        <a class="spell" href="/spells/13">Teleportation</a>, <a class="spell" href="/spells/7">Mitra’s Halo</a>,
-        <a class="spell" href="/spells/15">Lightning Storm</a>).
+      <br /><a class="hero" href="/heroes/2">Conan</a>
+      (<a class="item" href="/items/1">Battle Axe</a>,
+      <a class="item" href="/items/20">Shield</a>,
+      <a class="item" href="/items/16">Leather Armor</a>),
+      <br /><a class="hero" href="/heroes/4">Shevatas</a>
+      (<a class="item" href="/items/15">Kris</a>,
+      <a class="item" href="/items/14">Throwing Knives</a>),
+      <br /><a class="hero" href="/heroes/3">Hadrathus</a>
+      (<a class="item" href="/items/2">Dagger</a>,
+      <a class="spell" href="/spells/13">Teleportation</a>,
+      <a class="spell" href="/spells/7">Mitra’s Halo</a>,
+      <a class="spell" href="/spells/15">Lightning Storm</a>).
       Hadrathus does not start with Mitra’s Halo cast.
-      <p>After setup, each hero moves 5 gems from their Reserve zone to their Fatigue zone.</p>',
+      <p>After setup, each hero moves 5 gems from their Reserve zone to their
+      Fatigue zone.</p>',
 
       overlord_goal: "If the priestess of Mitra or all the heroes are dead,
       the village is overrun; the Overlord wins the game.",
@@ -395,7 +428,6 @@
       <br /><br />During setup, place the invocation marker on space 10 of the track.
       <br /><br />The Overlord starts with 12 gems in their Reserve zone and places
       the recovery token showing a recovery value of “5” in the Book of Skelos.
-
       <table class="scen_table">
         <tr>
           <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
@@ -403,13 +435,14 @@
             When the Event tile is activated, the Overlord resolves each of
             the following events in order:
             <br /><strong>Pict Hordes:</strong> The Overlord returns dead Pict
-            Warrior and Pict Hunter models to the board in reinforcement areas until no
-            more models fit in those areas.
+            Warrior and Pict Hunter models to the board in reinforcement areas
+            until no more models fit in those areas.
             <br /><strong>Bestial Haste:</strong> The Overlord chooses a Pict
-            Warrior or Pict Hunter model that was returned to the board by the previous
-            Pict Hordes event.
-            Each unit in that unit’s group that was returned to the board by that event
-            gains up to 2 movement points, which the Overlord must immediately spend.
+            Warrior or Pict Hunter model that was returned to the board by the
+            previous Pict Hordes event.
+            Each unit in that unit’s group that was returned to the board by
+            that event gains up to 2 movement points, which the Overlord must
+            immediately spend.
             <br /><strong>Incantation:</strong> A hero rolls
             <img src="/assets/dice/Yellow.png" class="scen_sq_token" />
             for each relic on the board. These dice cannot be rerolled. For each
@@ -461,8 +494,11 @@
       can move across boulders <img src="/assets/tokens/rocks.png" class="scen_token" />
       as though they were a border by spending 2 extra movement points.',
 
-      origin: "Core Game", map_ids: [1], hero_ids: [2, 3, 4],
-      tile_ids: [48, 4, 1, 46, 43, 45, 44], spell_ids: [7, 13, 15],
+      origin: "Core Game",
+      map_ids: [1],
+      hero_ids: [2, 3, 4],
+      tile_ids: [48, 4, 1, 46, 43, 45, 44],
+      spell_ids: [7, 13, 15],
       item_ids: [1, 2, 14, 15, 16, 20] },
 
     { name: "For All of Ophir’s Gold", description: "<p>While visiting the South
@@ -491,21 +527,27 @@
       hero_setup: 'The game starts with the heroes’ turn. The heroes start in the
       areas indicated by the setup diagram.
       <br /><br /><strong>Suggestions for 3 heroes:</strong>
-      <br /><a class="hero" href="/heroes/2">Conan</a> (<a class="item" href="/items/1">Battle Axe</a>,
-        <a class="item" href="/items/20">Shield</a>, <a class="item" href="/items/16">Leather Armor</a>),
-      <br /><a class="hero" href="/heroes/4">Shevatas</a> (<a class="item" href="/items/15">Kris</a>,
-        <a class="item" href="/items/14">Throwing Knives</a>),
-      <br /><a class="hero" href="/heroes/3">Hadrathus</a> (<a class="item" href="/items/2">Dagger</a>,
-        <a class="spell" href="/spells/13">Teleportation</a>, <a class="spell" href="/spells/7">Mitra’s Halo</a>,
-        <a class="spell" href="/spells/15">Lightning Storm</a>). Hadrathus does not start with Mitra’s Halo cast.
-      <br /><br />After setup, each hero moves 5 gems from their Reserve zone to their Fatigue zone.',
+      <br /><a class="hero" href="/heroes/2">Conan</a>
+      (<a class="item" href="/items/1">Battle Axe</a>,
+      <a class="item" href="/items/20">Shield</a>,
+      <a class="item" href="/items/16">Leather Armor</a>),
+      <br /><a class="hero" href="/heroes/4">Shevatas</a>
+      (<a class="item" href="/items/15">Kris</a>,
+      <a class="item" href="/items/14">Throwing Knives</a>),
+      <br /><a class="hero" href="/heroes/3">Hadrathus</a>
+      (<a class="item" href="/items/2">Dagger</a>,
+      <a class="spell" href="/spells/13">Teleportation</a>,
+      <a class="spell" href="/spells/7">Mitra’s Halo</a>,
+      <a class="spell" href="/spells/15">Lightning Storm</a>).
+      Hadrathus does not start with Mitra’s Halo cast.
+      <br /><br />After setup, each hero moves 5 gems from their Reserve zone to
+      their Fatigue zone.',
 
       overlord_goal: "At the end of turn 8, the Ophirians annihilate the fort
       using trebuchets, killing all of its occupants; the Overlord wins the game.",
       overlord_setup: 'The Overlord starts with 8 gems in their Reserve zone and
       3 in their Fatigue zone, and places the recovery token showing a recovery
       value of “5” in the Book of Skelos.
-
       <table class="scen_table">
         <tr>
           <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
@@ -584,8 +626,12 @@
       2 <a class="item" href="/items/5">Explosive Orb</a>,
       1 <a class="item" href="/items/17">Chain Mail</a>,
       1 <a class="item" href="/items/4">Crossbow</a>.',
-      origin: "Core Game", map_ids: [3], hero_ids: [2, 3, 4],
-      tile_ids: [2, 51, 41, 57, 2, 23, 58, 1], spell_ids: [7, 13, 15],
+
+      origin: "Core Game",
+      map_ids: [3],
+      hero_ids: [2, 3, 4],
+      tile_ids: [2, 51, 41, 57, 2, 23, 58, 1],
+      spell_ids: [7, 13, 15],
       item_ids: [1, 2, 4, 5, 14, 15, 16, 17, 20, 22] },
 
     { name: "The Wrath of Anu", description: "<p>Two audacious thieves, a deserter
@@ -613,10 +659,11 @@
       indicated by the setup diagram.
       <br /><br /><strong>Suggestions for 1 hero:</strong>
       <br /><a class="hero" href="/heroes/2">Conan</a> (required)
-      (<a class="item" href="/items/10">Sword</a>, <a class="item" href="/items/16">Leather Armor</a>),
-      <br /><br />After setup, Conan does not move any gems from his Reserve zone
-      to his Fatigue zone. The hero plays the heroes’ stance phase as if no hero
-      had died during the game.',
+      (<a class="item" href="/items/10">Sword</a>,
+      <a class="item" href="/items/16">Leather Armor</a>),
+      <br /><br />After setup, Conan does not move any gems from his Reserve
+      zone to his Fatigue zone. The hero plays the heroes’ stance phase as if
+      no hero had died during the game.',
 
       overlord_goal: "If Conan leaves the inn and the curse has not been broken
       or if Conan dies, the curse has done its work; the Overlord wins the game.",
@@ -633,14 +680,14 @@
             <br /><strong>0 priests</strong> - Reinforcement: 2 reinforcement points
             <img src="/assets/stats/reinforcement.png" class="scen_token" /> .
             <br /><strong>1 priests</strong> - The Overlord places a Bossonian
-            Guards tile at the end of the River (max. 4) and places 2 Bossonian Guard
-            models with bases of that color in a reinforcement area.
+            Guards tile at the end of the River (max. 4) and places 2 Bossonian
+            Guard models with bases of that color in a reinforcement area.
             <br /><strong>2 priests</strong> - The Overlord chooses a Bossonian
-            Guards tile. Each unit in that group gains up to 2 movement points, which
-            the Overlord must immediately spend.
+            Guards tile. Each unit in that group gains up to 2 movement points,
+            which the Overlord must immediately spend.
             <br /><strong>3+ priests</strong> - Unleashed: Once per game, the
-            Overlord places the Thak model (10 life points) in the area indicated by
-            the setup diagram and places the Thak tile at the end of the River.
+            Overlord places the Thak model (10 life points) in the area indicated
+            by the setup diagram and places the Thak tile at the end of the River.
           </td>
         </tr>
         <tr>
@@ -723,8 +770,12 @@
       2 <a class="item" href="/items/5">Explosive Orb</a>,
       1 <a class="item" href="/items/23">Empty Chest</a>.',
 
-      origin: "Core Game", map_ids: [4], hero_ids: [2], tile_ids: [53, 54, 1],
-      spell_ids: [], item_ids: [5, 10, 16, 22, 23] },
+      origin: "Core Game",
+      map_ids: [4],
+      hero_ids: [2],
+      tile_ids: [53, 54, 1],
+      spell_ids: [],
+      item_ids: [5, 10, 16, 22, 23] },
 
     { name: "Infernal Pursuit Part I", description: "<p>Smelling a trap during a
       meeting with pirates from the Baracha islands, Conan flees Tortage, joining
@@ -751,10 +802,14 @@
       areas indicated by the setup diagram.
       <br /><br /><strong>Suggestions for 2 heroes:</strong>
       <br /><a class="hero" href="/heroes/2">Conan</a> (required)
-      (<a class="item" href="/items/1">Battle Axe</a>, <a class="item" href="/items/16">Leather Armor</a>),
-      <br /><a class="hero" href="/heroes/4">Shevatas</a> (<a class="item" href="/items/11">Parrying Dagger</a>,
-        <a class="item" href="/items/14">Throwing Knives</a>, <a class="item" href="/items/16">Leather Armor</a>),
-      <br /><br />After setup, each hero moves 4 gems from their Reserve zone to their Fatigue zone.',
+      (<a class="item" href="/items/1">Battle Axe</a>,
+      <a class="item" href="/items/16">Leather Armor</a>),
+      <br /><a class="hero" href="/heroes/4">Shevatas</a>
+      (<a class="item" href="/items/11">Parrying Dagger</a>,
+      <a class="item" href="/items/14">Throwing Knives</a>,
+      <a class="item" href="/items/16">Leather Armor</a>),
+      <br /><br />After setup, each hero moves 4 gems from their Reserve zone to
+      their Fatigue zone.',
 
       overlord_goal: "If all heroes are dead, The Vandal escapes; the Overlord
       wins the game.
@@ -766,7 +821,6 @@
       overlord_setup: 'The Overlord starts with 5 gems in their Reserve zone and
       5 in their Fatigue zone, and places the recovery token showing a recovery
       value of “3” in the Book of Skelos.
-
       <table class="scen_table">
         <tr>
           <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
@@ -807,15 +861,16 @@
 
       ruleone_title: "Mutineering Pirates:",
       ruleone_text: 'Pirate models with red bases are mutineering Pirates, and
-      are considered allies. Mutineering Pirates cannot be activated using Leadership.
-      Once per hero turn, the heroes can activate all mutineering pirates. Mutineering
-      pirates move and attack like a unit group.',
+      are considered allies. Mutineering Pirates cannot be activated using
+      Leadership. Once per hero turn, the heroes can activate all mutineering
+      pirates. Mutineering pirates move and attack like a unit group.',
       ruletwo_title: "With me!:",
       ruletwo_text: 'At the start of the heroes’ turn, Conan rolls
       <img src="/assets/dice/Yellow.png" class="scen_sq_token" />.
-      For each symbol shown on the die, place 1 mutineering Pirate model in Conan’s area.
-      If Conan’s area is occupied, place the mutineering pirates in an adjacent area.
-      There can be no more than 5 mutineering Pirates on the board at a time.',
+      For each symbol shown on the die, place 1 mutineering Pirate model in
+      Conan’s area. If Conan’s area is occupied, place the mutineering pirates
+      in an adjacent area. There can be no more than 5 mutineering Pirates on
+      the board at a time.',
       rulethree_title: "Navigation:",
       rulethree_text: 'If a hero is in a mast area or the poop deck area, there
       are more heroes and allies than units in that area, and no ally has attacked
@@ -834,8 +889,8 @@
       tile_ids: [35, 36, 1, 57, 2], spell_ids: [],
       item_ids: [1, 4, 5, 11, 14, 16, 22] },
 
-    { name: "Infernal Pursuit Part II", description: "<p><strong>This scenario can
-      be played only after Infernal Pursuit I.</strong></p>
+    { name: "Infernal Pursuit Part II", description: "<p><strong>This scenario
+      can be played only after Infernal Pursuit I.</strong></p>
       <p>At the end of Infernal Pursuit I, the Overlord places the Zaporavo model
       (7 life points) and 2 Bossonian Archer models on the board as indicated by
       the setup diagram and places each Pirate model with a green or blue base
@@ -853,13 +908,12 @@
       is overwhelmed; the heroes win the game",
       hero_setup: '',
 
-      overlord_goal: "If all the heroes are dead, The Vandal survives to sail again;
-      the Overlord wins.
+      overlord_goal: "If all the heroes are dead, The Vandal survives to sail
+      again; the Overlord wins.
         <br /><br /><strong>Destruction:</strong> The Overlord does not move the
         turn marker during the Recover phase. The turn marker represents the heroes’
         progress in destroying The Vandal.",
       overlord_setup: '
-
       <table class="scen_table">
         <tr>
           <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
@@ -909,8 +963,12 @@
       Move the turn marker 1 space toward space 8 for each symbol shown on the
       die, and no ally in the area can attack that turn',
 
-      origin: "Core Game", map_ids: [2], hero_ids: [2, 3], tile_ids: [],
-      spell_ids: [], item_ids: [1, 4, 5, 11, 14, 16, 22] },
+      origin: "Core Game",
+      map_ids: [2],
+      hero_ids: [2, 3],
+      tile_ids: [],
+      spell_ids: [],
+      item_ids: [1, 4, 5, 11, 14, 16, 22] },
 
     { name: "Trapped like Rats", description: "<p>Laughs and shouts ring out as
       ale-filled mugs are banged together. Conan and his companions celebrate,
@@ -954,7 +1012,6 @@
       overlord_setup: 'The Overlord starts with 1 gem in their Reserve zone and
       11 in their Fatigue zone, and places the recovery token showing a recovery
       value of “2” in the Book of Skelos.
-
       <table class="scen_table">
         <tr>
           <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
@@ -1075,8 +1132,11 @@
       2 <a class="item" href="/items/22">Life Potion</a>,
       2 <a class="item" href="/items/5">Explosive Orb</a>.',
 
-      origin: "Core Game", map_ids: [4], hero_ids: [2, 3, 4],
-      tile_ids: [53, 54, 57, 2, 1], spell_ids: [8, 12, 14],
+      origin: "Core Game",
+      map_ids: [4],
+      hero_ids: [2, 3, 4],
+      tile_ids: [53, 54, 57, 2, 1],
+      spell_ids: [8, 12, 14],
       item_ids: [10, 12, 15, 20] },
 
     { name: "Red Dawn", description: "<p>The situation is dire. The Aquilonian
@@ -1120,7 +1180,6 @@
       overlord_setup: 'The Overlord starts with 3 gems in their Reserve zone and
       8 in their Fatigue zone, and places the recovery token showing a recovery
       value of “5” in the Book of Skelos.
-
       <table class="scen_table">
         <tr>
           <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
@@ -1246,8 +1305,11 @@
       to move 2 gems from their Fatigue zone to their Reserve zone but must also
       suffer 1 wound.',
 
-      origin: "King Pledge", map_ids: [1], hero_ids: [2, 4, 7],
-      tile_ids: [43, 46, 41, 48, 4, 1], spell_ids: [],
+      origin: "King Pledge",
+      map_ids: [1],
+      hero_ids: [2, 4, 7],
+      tile_ids: [43, 46, 41, 48, 4, 1],
+      spell_ids: [],
       item_ids: [1, 2, 3, 10, 11, 19, 45, 46, 47, 57] },
 
     { name: "The Key of Kuthchemes", description: "<p>The rumor spreads quickly
@@ -1291,7 +1353,6 @@
       overlord_setup: 'The Overlord starts with 10 gems in their Reserve zone
       and 2 in their Fatigue zone, and places the recovery token showing a
       recovery value of “5” in the Book of Skelos.
-
       <table class="scen_table">
         <tr>
           <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
@@ -1368,8 +1429,11 @@
       1 <a class="item" href="/items/16">Leather Armor</a>,
       1 <a class="item" href="/items/23">Empty Chest</a>.',
 
-      origin: "King Pledge", map_ids: [4], hero_ids: [2, 3],
-      tile_ids: [36, 5, 58, 54, 1, 5, 2, 35], spell_ids: [],
+      origin: "King Pledge",
+      map_ids: [4],
+      hero_ids: [2, 3],
+      tile_ids: [36, 5, 58, 54, 1, 5, 2, 35],
+      spell_ids: [],
       item_ids: [5, 7, 14, 15, 16, 22, 23, 30, 31] },
 
     { name: "In the Name of Ibis", description: "<p>The hunt nears its end; on
@@ -1418,7 +1482,6 @@
       overlord_setup: 'The Overlord starts with 9 gems in their Reserve zone and
       3 in their Fatigue zone, and places the recovery token showing a recovery
       value of “5” in the Book of Skelos.
-
       <table class="scen_table">
         <tr>
           <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
@@ -1501,8 +1564,11 @@
       1 <a class="item" href="/items/19">Buckler</a>,
       1 <a class="item" href="/items/10">Sword</a>.',
 
-      origin: "King Pledge", map_ids: [4], hero_ids: [2, 3, 4],
-      tile_ids: [3, 19, 76, 69, 1, 19, 66, 71], spell_ids: [2, 7, 13, 15],
+      origin: "King Pledge",
+      map_ids: [4],
+      hero_ids: [2, 3, 4],
+      tile_ids: [3, 19, 76, 69, 1, 19, 66, 71],
+      spell_ids: [2, 7, 13, 15],
       item_ids: [1, 2, 3, 4, 10, 14, 15, 16, 17, 19, 20, 22] },
 
     { name: "The Crawling Shadow", description: "<p>Relentlessly pursued and having
@@ -1548,7 +1614,6 @@
       overlord_setup: 'The Overlord starts with 5 gems in their Reserve zone and
       5 in their Fatigue zone, and places the recovery token showing a recovery
       value of “5” in the Book of Skelos.
-
       <table class="scen_table">
         <tr>
           <td></td>
@@ -1637,8 +1702,11 @@
       1 <a class="item" href="/items/17">Chain Mail</a>,
       1 <a class="item" href="/items/4">Crossbow</a>.',
 
-      origin: "King Pledge", map_ids: [3], hero_ids: [2, 3, 7],
-      tile_ids: [13, 55, 30, 58, 1, 2, 30, 51], spell_ids: [],
+      origin: "King Pledge",
+      map_ids: [3],
+      hero_ids: [2, 3, 7],
+      tile_ids: [13, 55, 30, 58, 1, 2, 30, 51],
+      spell_ids: [],
       item_ids: [1, 11, 14, 15, 16, 24, 39] },
 
     { name: "Conspiracy in Khauran", description: "<p>Khauran is a small country,
@@ -1691,7 +1759,6 @@
       overlord_setup: 'The Overlord starts with 9 gems in their Reserve zone and
       3 in their Fatigue zone, and places the recovery token showing a recovery
       value of “5” in the Book of Skelos.
-
       <table class="scen_table">
         <tr>
           <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
@@ -1762,8 +1829,11 @@
       move across a banister from a ground floor area to a stair area by spending
       1 extra movement point.',
 
-      origin: "Add-Ons", map_ids: [4], hero_ids: [1, 2, 3],
-      tile_ids: [61, 53, 2, 1, 60, 59, 2], spell_ids: [7, 15],
+      origin: "Add-Ons",
+      map_ids: [4],
+      hero_ids: [1, 2, 3],
+      tile_ids: [61, 53, 2, 1, 60, 59, 2],
+      spell_ids: [7, 15],
       item_ids: [7, 17, 10, 12, 16, 20, 30] },
 
     { name: "Yogah’s Rebirth", description: "<p>The steep walls of the ancient
@@ -1815,7 +1885,6 @@
       overlord_setup: 'The Overlord starts with 7 gems in their Reserve zone and
       5 in their Fatigue zone, and places the recovery token showing a recovery
       value of “7” in the Book of Skelos.
-
       <table class="scen_table">
         <tr>
           <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
@@ -1903,8 +1972,11 @@
       2 <a class="item" href="/items/9">Bossonian Bow</a>, and
       1 <a class="item" href="/items/13">Tribal Mace</a>.',
 
-      origin: "Add-Ons", map_ids: [3], hero_ids: [2, 3],
-      tile_ids: [16, 17, 41, 1, 18, 15], spell_ids: [10, 11, 12, 13, 14, 15],
+      origin: "Add-Ons",
+      map_ids: [3],
+      hero_ids: [2, 3],
+      tile_ids: [16, 17, 41, 1, 18, 15],
+      spell_ids: [10, 11, 12, 13, 14, 15],
       item_ids: [9, 10, 11, 12, 13, 16, 22, 27] },
 
     { name: "Yara’s Trap", description: "<p>Yag-Kosha has escaped from centuries
@@ -1947,7 +2019,6 @@
       overlord_setup: 'The Overlord starts with 5 gems in their Reserve zone and
       3 in their Fatigue zone, and places the recovery token showing a recovery
       value of “3” in the Book of Skelos.
-
       <table class="scen_table">
         <tr>
           <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
@@ -2010,8 +2081,11 @@
       2 <a class="item" href="/items/22">Life Potions</a> and
       2 <a class="item" href="/items/24">Xuthal’s Crowns</a>.',
 
-      origin: "Add-Ons", map_ids: [1], hero_ids: [2],
-      tile_ids: [53, 57, 52, 2, 1, 23], spell_ids: [8, 14], item_ids: [8] },
+      origin: "Add-Ons",
+      map_ids: [1],
+      hero_ids: [2],
+      tile_ids: [53, 57, 52, 2, 1, 23],
+      spell_ids: [8, 14], item_ids: [8] },
 
     { name: "The Cursed Mirrors", description: "<p>The Queen of the Black Coast
       is pleased. Accompanying this priest of Asura named Hadrathus has proved
@@ -2059,7 +2133,6 @@
       <br /><br /> The Overlord starts with 10 gems in their Reserve zone and 0
       in their Fatigue zone, and places the recovery token showing a recovery
       value of “3” in the Book of Skelos.
-
       <table class="scen_table">
         <tr>
           <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
@@ -2136,8 +2209,11 @@
       area. The character must spend 2 extra movement points unless the character
       has <a class="skill" href="/skills/19">Climb</a>.',
 
-      origin: "Add-Ons", map_ids: [4], hero_ids: [1, 3],
-      tile_ids: [16, 17, 18, 15, 1], spell_ids: [11, 12, 13, 14, 15, 16],
+      origin: "Add-Ons",
+      map_ids: [4],
+      hero_ids: [1, 3],
+      tile_ids: [16, 17, 18, 15, 1],
+      spell_ids: [11, 12, 13, 14, 15, 16],
       item_ids: [8, 10] },
 
     { name: "The Zamboula Strangler", description: "<p>In the past Zamboula was
@@ -2194,7 +2270,6 @@
       overlord_setup: 'The Overlord starts with 9 gems in their Reserve zone and
       3 in their Fatigue zone, and places the recovery token showing a recovery
       value of “7” in the Book of Skelos.
-
       <table class="scen_table">
         <tr>
           <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
@@ -2290,8 +2365,11 @@
       1 <a class="item" href="/items/41">Zingarian Breastplate</a>, and
       1 <a class="item" href="/items/22">Life Potion</a>.',
 
-      origin: "Add-Ons", map_ids: [5], hero_ids: [9, 12, 18, 20],
-      tile_ids: [39, 37, 2, 53, 34, 2, 1], spell_ids: [6, 10, 15, 44],
+      origin: "Add-Ons",
+      map_ids: [5],
+      hero_ids: [9, 12, 18, 20],
+      tile_ids: [39, 37, 2, 53, 34, 2, 1],
+      spell_ids: [6, 10, 15, 44],
       item_ids: [7, 11, 35, 52] },
 
     { name: "Where the Thunder Rumbles", description: "<p>Conan and his men have
@@ -2339,7 +2417,6 @@
       <br /><br />The Overlord starts with 10 gems in their Reserve zone and 0
       in their Fatigue zone, and places the recovery token showing a recovery
       value of “5” in the Book of Skelos.
-
       <table class="scen_table">
         <tr>
           <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
@@ -2393,8 +2470,11 @@
       1 <a class="item" href="/items/5">Explosive Orb</a>, and
       1 <a class="item" href="/items/22">Life Potion</a>.',
 
-      origin: "Add-Ons", map_ids: [6], hero_ids: [10, 11],
-      tile_ids: [42, 50, 2, 1, 48, 2, 1], spell_ids: [],
+      origin: "Add-Ons",
+      map_ids: [6],
+      hero_ids: [10, 11],
+      tile_ids: [42, 50, 2, 1, 48, 2, 1],
+      spell_ids: [],
       item_ids: [3, 5, 7, 9, 11, 17, 22] },
 
     { name: "Sacrificial Heroes", description: "<p>Zingara is a proud and powerful
@@ -2455,7 +2535,6 @@
       overlord_setup: 'The Overlord starts with 8 gems in their Reserve zone and
       4 in their Fatigue zone, and places the recovery token showing a recovery
       value of “7” in the Book of Skelos.
-
       <table class="scen_table">
         <tr>
           <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
@@ -2614,8 +2693,11 @@
       1 <a class="item" href="/items/10">Sword</a>, and
       1 <a class="item" href="/items/13">Tribal Mace</a>.',
 
-      origin: "Stretch Goals +", map_ids: [1, 5], hero_ids: [22, 23, 24, 25],
-      tile_ids: [53, 84, 89, 51, 90, 92, 1], spell_ids: [5, 6, 26, 28, 34, 44],
+      origin: "Stretch Goals +",
+      map_ids: [1, 5],
+      hero_ids: [22, 23, 24, 25],
+      tile_ids: [53, 84, 89, 51, 90, 92, 1],
+      spell_ids: [5, 6, 26, 28, 34, 44],
       item_ids: [10, 11, 13, 15, 22, 25, 35, 35, 36, 43, 45, 49] },
 
     { name: "A Dragon on the Marches", description: "<p>The rumor was true. The
@@ -2668,7 +2750,6 @@
       overlord_setup: 'The Overlord starts with 8 gems in their Reserve zone and
       3 in their Fatigue zone, and places the recovery token showing a recovery
       value of “5” in the Book of Skelos.
-
       <table class="scen_table">
         <tr>
           <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
@@ -2706,7 +2787,7 @@
       ruleone_title: "Dragon:",
       ruleone_text: 'The area between the 4 legs of the dragon is considered as
       its base with regard to occupied areas. The dragon is counted as one model
-    when calculating hindering. During its capture the Dragon has been poisoned;
+      when calculating hindering. During its capture the Dragon has been poisoned;
       during setup, the Overlord places a second Dragon tile next to the Book of
       Skelos with 3 (token) tokens on it to represent this. The Dragon loses 1
       <img src="/assets/dice/Red-Reroll.png" class="scen_sq_token" /> to its
@@ -2759,7 +2840,9 @@
       1 <a class="item" href="/items/28">Pictish Fetish</a>, and
       1 <a class="item" href="/items/49">Elixir</a>.',
 
-      origin: "Add-Ons", map_ids: [1], hero_ids: [14, 18, 19],
+      origin: "Add-Ons",
+      map_ids: [1],
+      hero_ids: [14, 18, 19],
       tile_ids: [44, 45, 50, 2, 48, 4, 1],
       spell_ids: [3, 6, 13, 33, 36],
       item_ids: [1, 3, 11, 16, 28, 33, 36, 43, 49] },
@@ -2810,7 +2893,6 @@
       <br /><br />The Overlord starts with 6 gems in their Reserve zone and 0 in
       their Fatigue zone, and places the recovery token showing a recovery value
       of “3” in the Book of Skelos.
-
       <table class="scen_table">
         <tr>
           <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
@@ -2935,8 +3017,12 @@
       move across a banister from a ground floor area to a stair area by spending
       1 extra movement point.',
 
-      origin: "Stretch Goals +", map_ids: [4], hero_ids: [6, 11, 17],
-      tile_ids: [8, 25, 1], spell_ids: [2, 36], item_ids: [18, 20, 21] },
+      origin: "Stretch Goals +",
+      map_ids: [4],
+      hero_ids: [6, 11, 17],
+      tile_ids: [8, 25, 1],
+      spell_ids: [2, 36],
+      item_ids: [18, 20, 21] },
 
     { name: "The Terrible Lovers", description: "<p>The pirate ship, The Tigress,
       is anchored in the harbor waters of the great Pelishtim city of Asgalun.
@@ -2981,7 +3067,6 @@
       overlord_setup: 'The Overlord starts with 7 gems in their Reserve zone and
       3 in their Fatigue zone, and places the recovery token showing a recovery
       value of “5” in the Book of Skelos.
-
       <table class="scen_table">
         <tr>
           <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
@@ -3068,8 +3153,11 @@
       A hero must perform a complex manipulation with a difficulty of 3 to open
       a chest in a water area.',
 
-      origin: "Add-Ons", map_ids: [2], hero_ids: [],
-      tile_ids: [38, 36, 1, 51, 38, 5, 1], spell_ids: [],
+      origin: "Add-Ons",
+      map_ids: [2],
+      hero_ids: [],
+      tile_ids: [38, 36, 1, 51, 38, 5, 1],
+      spell_ids: [],
       item_ids: [2, 5, 7, 22] },
 
     { name: "The Curse of the Shape-Shifter", description: "<p><Bahram, the
@@ -3118,7 +3206,6 @@
       <br /><br />The Overlord starts with 11 gems in their Reserve zone and 0
       in their Fatigue zone, and places the recovery token showing a recovery
       value of “7” in the Book of Skelos.
-
       <table class="scen_table">
         <tr>
           <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
@@ -3255,8 +3342,11 @@
       1 <a class="item" href="/items/13">Tribal Mace</a>, and
       1 <a class="item" href="/items/37">Zingarian Bow</a>.',
 
-      origin: "Stretch Goals +", map_ids: [3], hero_ids: [9, 3, 15, 19],
-      tile_ids: [11, 76, 74, 11, 75, 65, 1], spell_ids: [7, 25],
+      origin: "Stretch Goals +",
+      map_ids: [3],
+      hero_ids: [9, 3, 15, 19],
+      tile_ids: [11, 76, 74, 11, 75, 65, 1],
+      spell_ids: [7, 25],
       item_ids: [1, 2, 13, 10, 11, 32, 34, 37] },
 
     { name: "The White Witch", description: "<p>Far from the disturbing ancestral
@@ -3299,7 +3389,6 @@
       overlord_setup: 'Overlord starts with 7 gems in their Reserve zone and 1 in
       their Fatigue zone, and places the recovery token showing a recovery value
       of “3” in the Book of Skelos.
-
       <table class="scen_table">
         <tr>
           <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
@@ -3379,8 +3468,11 @@
       1 <a class="item" href="/items/55">Censer</a>, and
       1 <a class="item" href="/items/22">Life Potion</a>.',
 
-      origin: "Stretch Goals +", map_ids: [6], hero_ids: [8],
-      tile_ids: [1, 11, 26, 43, 44, 48, 50], spell_ids: [7, 28],
+      origin: "Stretch Goals +",
+      map_ids: [6],
+      hero_ids: [8],
+      tile_ids: [1, 11, 26, 43, 44, 48, 50],
+      spell_ids: [7, 28],
       item_ids: [25, 55] },
 
     { name: "A Lion Among Panthers", description: "<p>The man with the broad
@@ -3426,7 +3518,6 @@
       overlord_setup: 'The Overlord starts with 5 gems in their Reserve zone and
       5 in their Fatigue zone, and places the recovery token showing a recovery
       value of “5” in the Book of Skelos.
-
       <table class="scen_table">
         <tr>
           <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
@@ -3516,8 +3607,11 @@
       ruletwelve_text: 'A character with <a class="skill" href="/skills/11">Wall Wrecker</a>
       can use it to move across the wall of one of the wooden huts.',
 
-      origin: "Stretch Goals +", map_ids: [1], hero_ids: [5, 10],
-      tile_ids: [1, 4, 27, 44, 48, 50], spell_ids: [6],
+      origin: "Stretch Goals +",
+      map_ids: [1],
+      hero_ids: [5, 10],
+      tile_ids: [1, 4, 27, 44, 48, 50],
+      spell_ids: [6],
       item_ids: [16, 22, 28, 32, 37, 47, 54] },
 
       { name: "The Price of Success", description: "<p>Captain Zaporavo exults!
@@ -3567,7 +3661,6 @@
         overlord_setup: 'The Overlord starts with 6 gems in their Reserve zone and
         3 in their Fatigue zone, and places the recovery token showing a recovery
         value of “5” in the Book of Skelos.
-
         <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
@@ -3654,8 +3747,11 @@
         1 <a class="item" href="/items/20">Shield</a>, and
         1 <a class="item" href="/items/34">Turanian Sword</a>.',
 
-        origin: "Stretch Goals +", map_ids: [5], hero_ids: [24],
-        tile_ids: [1, 33, 53, 58, 81, 82, 89, 92, 96, 99], spell_ids: [],
+        origin: "Stretch Goals +",
+        map_ids: [5],
+        hero_ids: [24],
+        tile_ids: [1, 33, 53, 58, 81, 82, 89, 92, 96, 99],
+        spell_ids: [],
         item_ids: [20, 22, 34, 35, 41, 56] },
 
   ])
