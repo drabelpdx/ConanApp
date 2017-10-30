@@ -11,22 +11,14 @@ class CreateScenarios < ActiveRecord::Migration
       t.text :hero_setup
       t.text :overlord_goal
       t.text :overlord_setup
-      t.integer :tile1
-      t.integer :tile2
-      t.integer :tile3
-      t.integer :tile4
-      t.integer :tile5
-      t.integer :tile6
-      t.integer :tile7
-      t.integer :tile8
-      t.text :t1life
-      t.text :t2life
-      t.text :t3life
-      t.text :t4life
-      t.text :t5life
-      t.text :t6life
-      t.text :t7life
-      t.text :t8life
+      t.string :tile1, array: true
+      t.string :tile2, array: true
+      t.string :tile3, array: true
+      t.string :tile4, array: true
+      t.string :tile5, array: true
+      t.string :tile6, array: true
+      t.string :tile7, array: true
+      t.string :tile8, array: true
       t.text :ruleone_title
       t.text :ruleone_text
       t.text :ruletwo_title

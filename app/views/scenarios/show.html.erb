@@ -61,7 +61,7 @@
     </div>
   </div><br />
 
-  <% if @scenario.tile1 != 0 %>
+  <% if @scenario.tile1[0] %>
     <div class="row river-well">
       <div class="col-md-2">
           <h4>The River</h4>
@@ -69,87 +69,103 @@
       <div class="col-md-10">
         <table class="tiletable">
           <tr class="sm_tiles">
-            <% if @scenario.tile1 != 0 %>
-              <% tile = Tile.find_by_id [@scenario.tile1] %>
+            <% if JSON.parse(@scenario.tile1)[0] !=0 %>
+              <% findTile = JSON.parse(@scenario.tile1)[0] %>
+              <% tile = Tile.find_by_id [findTile] %>
               <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile), :title => "#{tile.name}" %></td>
             <% end %>
-            <% if @scenario.tile2 != 0 %>
-              <% tile = Tile.find_by_id [@scenario.tile2] %>
+            <% if JSON.parse(@scenario.tile2)[0] !=0 %>
+              <% findTile = JSON.parse(@scenario.tile2)[0] %>
+              <% tile = Tile.find_by_id [findTile] %>
               <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile), :title => "#{tile.name}" %></td>
             <% end %>
-            <% if @scenario.tile3 != 0 %>
-              <% tile = Tile.find_by_id [@scenario.tile3] %>
+            <% if JSON.parse(@scenario.tile3)[0] !=0 %>
+              <% findTile = JSON.parse(@scenario.tile3)[0] %>
+              <% tile = Tile.find_by_id [findTile] %>
               <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile), :title => "#{tile.name}" %></td>
             <% end %>
-            <% if @scenario.tile4 != 0 %>
-              <% tile = Tile.find_by_id [@scenario.tile4] %>
+            <% if JSON.parse(@scenario.tile4)[0] !=0 %>
+              <% findTile = JSON.parse(@scenario.tile4)[0] %>
+              <% tile = Tile.find_by_id [findTile] %>
               <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile), :title => "#{tile.name}" %></td>
             <% end %>
-            <% if @scenario.tile5 != 0 %>
-              <% tile = Tile.find_by_id [@scenario.tile5] %>
+            <% if JSON.parse(@scenario.tile5)[0] !=0 %>
+              <% findTile = JSON.parse(@scenario.tile5)[0] %>
+              <% tile = Tile.find_by_id [findTile] %>
               <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile), :title => "#{tile.name}" %></td>
             <% end %>
-            <% if @scenario.tile6 != 0 %>
-              <% tile = Tile.find_by_id [@scenario.tile6] %>
+            <% if JSON.parse(@scenario.tile6)[0] !=0 %>
+              <% findTile = JSON.parse(@scenario.tile6)[0] %>
+              <% tile = Tile.find_by_id [findTile] %>
               <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile), :title => "#{tile.name}" %></td>
             <% end %>
-            <% if @scenario.tile7 != 0 %>
-              <% tile = Tile.find_by_id [@scenario.tile7] %>
+            <% if JSON.parse(@scenario.tile7)[0] !=0 %>
+              <% findTile = JSON.parse(@scenario.tile7)[0] %>
+              <% tile = Tile.find_by_id [findTile] %>
               <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile), :title => "#{tile.name}" %></td>
             <% end %>
-            <% if @scenario.tile8 != 0 %>
-              <% tile = Tile.find_by_id [@scenario.tile8] %>
+            <% if JSON.parse(@scenario.tile8)[0] !=0 %>
+              <% findTile = JSON.parse(@scenario.tile8)[0] %>
+              <% tile = Tile.find_by_id [findTile] %>
               <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile), :title => "#{tile.name}" %></td>
             <% end %>
           </tr>
 
           <tr class="sm_tokens" >
             <td>
-              <% if @scenario.t1life != '' %>
-                <% tile = Tile.find_by_id [@scenario.tile1] %>
-                <%= image_tag(tile.token_image)%><br /><%= @scenario.t1life %>
+              <% if JSON.parse(@scenario.tile1)[1] %>
+                <% findTile = JSON.parse(@scenario.tile1)[0] %>
+                <% tile = Tile.find_by_id [findTile] %>
+                <%= image_tag(tile.token_image)%><br /><%= JSON.parse(@scenario.tile1)[1] %>
               <% end %>
             </td>
             <td>
-              <% if @scenario.t2life != '' %>
-                <% tile = Tile.find_by_id [@scenario.tile2] %>
-                <%= image_tag(tile.token_image)%><br /><%= @scenario.t2life %>
+              <% if JSON.parse(@scenario.tile2)[1] %>
+                <% findTile = JSON.parse(@scenario.tile2)[0] %>
+                <% tile = Tile.find_by_id [findTile] %>
+                <%= image_tag(tile.token_image)%><br /><%= JSON.parse(@scenario.tile2)[1] %>
               <% end %>
             </td>
             <td>
-              <% if @scenario.t3life != '' %>
-                <% tile = Tile.find_by_id [@scenario.tile3] %>
-                <%= image_tag(tile.token_image)%><br /><%= @scenario.t3life %>
+              <% if JSON.parse(@scenario.tile3)[1] %>
+                <% findTile = JSON.parse(@scenario.tile3)[0] %>
+                <% tile = Tile.find_by_id [findTile] %>
+                <%= image_tag(tile.token_image)%><br /><%= JSON.parse(@scenario.tile3)[1] %>
               <% end %>
             </td>
             <td>
-              <% if @scenario.t4life != '' %>
-                <% tile = Tile.find_by_id [@scenario.tile4] %>
-                <%= image_tag(tile.token_image)%><br /><%= @scenario.t4life %>
+              <% if JSON.parse(@scenario.tile4)[1] %>
+                <% findTile = JSON.parse(@scenario.tile4)[0] %>
+                <% tile = Tile.find_by_id [findTile] %>
+                <%= image_tag(tile.token_image)%><br /><%= JSON.parse(@scenario.tile4)[1] %>
               <% end %>
             </td>
             <td>
-              <% if @scenario.t5life != '' %>
-                <% tile = Tile.find_by_id [@scenario.tile5] %>
-                <%= image_tag(tile.token_image)%><br /><%= @scenario.t5life %>
+              <% if JSON.parse(@scenario.tile5)[1] %>
+                <% findTile = JSON.parse(@scenario.tile5)[0] %>
+                <% tile = Tile.find_by_id [findTile] %>
+                <%= image_tag(tile.token_image)%><br /><%= JSON.parse(@scenario.tile5)[1] %>
               <% end %>
             </td>
             <td>
-              <% if @scenario.t6life != '' %>
-                <% tile = Tile.find_by_id [@scenario.tile6] %>
-                <%= image_tag(tile.token_image)%><br /><%= @scenario.t6life %>
+              <% if JSON.parse(@scenario.tile6)[1] %>
+                <% findTile = JSON.parse(@scenario.tile6)[0] %>
+                <% tile = Tile.find_by_id [findTile] %>
+                <%= image_tag(tile.token_image)%><br /><%= JSON.parse(@scenario.tile6)[1] %>
               <% end %>
             </td>
             <td>
-              <% if @scenario.t7life != '' %>
-                <% tile = Tile.find_by_id [@scenario.tile7] %>
-                <%= image_tag(tile.token_image)%><br /><%= @scenario.t7life %>
+              <% if JSON.parse(@scenario.tile7)[1] %>
+                <% findTile = JSON.parse(@scenario.tile7)[0] %>
+                <% tile = Tile.find_by_id [findTile] %>
+                <%= image_tag(tile.token_image)%><br /><%= JSON.parse(@scenario.tile7)[1] %>
               <% end %>
             </td>
             <td>
-              <% if @scenario.t8life != '' %>
-                <% tile = Tile.find_by_id [@scenario.tile8] %>
-                <%= image_tag(tile.token_image)%><br /><%= @scenario.t8life %>
+              <% if JSON.parse(@scenario.tile8)[1] %>
+                <% findTile = JSON.parse(@scenario.tile8)[0] %>
+                <% tile = Tile.find_by_id [findTile] %>
+                <%= image_tag(tile.token_image)%><br /><%= JSON.parse(@scenario.tile8)[1] %>
               <% end %>
             </td>
           </tr>
