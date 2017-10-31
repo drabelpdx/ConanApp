@@ -47,7 +47,7 @@
         <br /><br /><strong>Suggestions for 4 heroes:</strong>
         <br /><a class="hero" href="/heroes/1">Bêlit</a>
         (<a class="item" href="/items/12">Ornamental Lance</a>).
-        Bêlit starts in the same area as any hero.
+        Bêlit starts in the same area as any hero.<br /><br />
         <p>After setup, each hero moves 5 gems from their Reserve zone to their
         Fatigue zone.</p>',
 
@@ -165,7 +165,8 @@
         Bêlit survives the attack; the heroes win the game.",
       hero_setup: '<p>The game starts with the heroes’ turn.</p>
         <p>Bêlit and Bêlit’s Guards start in the areas indicated by the setup diagram.
-        The other heroes start in the 1 area.</p>
+        The other heroes start in the <img src="/assets/stats/1Token.png" class="scen_token" />
+        area.</p>
         <strong>Suggestions for 3 heroes:</strong>
         <br /><a class="hero" href="/heroes/1">Bêlit</a> (required)
         (<a class="item" href="/items/12">Ornamental Lance</a>,
@@ -181,7 +182,7 @@
         (<a class="item" href="/items/2">Dagger</a>,
         <a class="spell" href="/spells/7">Mitra’s Halo</a>,
         <a class="spell" href="/spells/10">Bori’s Rage</a>).
-        Hadrathus does not start with Mitra’s Halo cast.
+        Hadrathus does not start with Mitra’s Halo cast.<br /><br />
         <p>After setup, each hero moves 4 gems from their Reserve zone to their
         Fatigue zone.</p>',
 
@@ -284,9 +285,9 @@
         <a class="item" href="/items/14">Throwing Knives</a>),
         <br /><a class="hero" href="/heroes/1">Bêlit</a>
         (<a class="item" href="/items/12">Ornamental Lance</a>,
-        <a class="item" href="/items/6">Yuetshi Knife</a>),
-        <br /><br />After setup, each hero moves 5 gems from their Reserve zone to
-        their Fatigue zone.',
+        <a class="item" href="/items/6">Yuetshi Knife</a>) <br /><br />
+        <p>After setup, each hero moves 5 gems from their Reserve zone to
+        their Fatigue zone.</p>',
 
       overlord_goal: "At the end of round 8, Skuthus finishes an incantation,
         turning into a vulture and taking to the sky; the Overlord wins the game.",
@@ -388,9 +389,10 @@
       player_count: "4",
       complexity: "2",
 
-      hero_goal: "If the invocation marker reaches space 0 or at the end of turn 12,
-        the ritual is complete; the heroes win the game.",
-      hero_setup: '<br /><br /><strong>Suggestions for 3 heroes:</strong>
+      hero_goal: 'If the invocation marker <img src="/assets/tokens/invocationToken.png" class="scen_token" />
+        reaches space 0 or at the end of turn 12, the ritual is complete; the heroes win the game.',
+      hero_setup: 'The heroes start in the areas indicated by the setup diagram.
+        <br /><br /><strong>Suggestions for 3 heroes:</strong>
         <br /><a class="hero" href="/heroes/2">Conan</a>
         (<a class="item" href="/items/1">Battle Axe</a>,
         <a class="item" href="/items/20">Shield</a>,
@@ -403,18 +405,20 @@
         <a class="spell" href="/spells/13">Teleportation</a>,
         <a class="spell" href="/spells/7">Mitra’s Halo</a>,
         <a class="spell" href="/spells/15">Lightning Storm</a>).
-        Hadrathus does not start with Mitra’s Halo cast.
+        Hadrathus does not start with Mitra’s Halo cast.<br /><br />
         <p>After setup, each hero moves 5 gems from their Reserve zone to their
         Fatigue zone.</p>',
 
       overlord_goal: "If the priestess of Mitra or all the heroes are dead,
         the village is overrun; the Overlord wins the game.",
-      overlord_setup: 'The game starts with the Overlord’s turn. The heroes start
-        in the areas indicated by the setup diagram.
-        <br /><br />During setup, place the invocation marker on space 10 of the track.
+      overlord_setup: 'The game starts with the Overlord’s turn.
         <br /><br />The Overlord starts with 12 gems in their Reserve zone and places
         the recovery token showing a recovery value of “5” in the Book of Skelos.
         <table class="scen_table">
+          <tr>
+            <td><img src="/assets/tokens/invocationToken.png" class="scen_token" /></td>
+            <td>During setup, place the invocation marker on space 10 of the track.</td>
+          </tr>
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
             <td>
@@ -432,8 +436,9 @@
               <br /><strong>Incantation:</strong> A hero rolls
               <img src="/assets/dice/Yellow.png" class="scen_sq_token" />
               for each relic on the board. These dice cannot be rerolled. For each
-              symbol shown on a die, the hero moves the invocation marker 1 space
-              toward the space 0 on the track.
+              symbol shown on a die, the hero moves the invocation marker
+              <img src="/assets/tokens/invocationToken.png" class="scen_token" />
+              1 space toward the space 0 on the track.
             </td>
           </tr>
         </table>',
@@ -459,7 +464,8 @@
 
         <p><span class="special_title">Relic:</span>
         At the beginning of the Overlord‘s turn, if any units are in areas with
-        relics, remove those relics from the board.</p>
+        relics <img src="/assets/tokens/numBackToken.png" class="scen_token" />,
+        remove those relics from the board.</p>
 
         <p><span class="special_title">Priestess of Mitra:</span>
         The priestess cannot move or be attacked. At the beginning of the
@@ -521,9 +527,9 @@
         <a class="spell" href="/spells/13">Teleportation</a>,
         <a class="spell" href="/spells/7">Mitra’s Halo</a>,
         <a class="spell" href="/spells/15">Lightning Storm</a>).
-        Hadrathus does not start with Mitra’s Halo cast.
-        <br /><br />After setup, each hero moves 5 gems from their Reserve zone to
-        their Fatigue zone.',
+        Hadrathus does not start with Mitra’s Halo cast.<br /><br />
+        <p>After setup, each hero moves 5 gems from their Reserve zone to
+        their Fatigue zone.</p>',
 
       overlord_goal: "At the end of turn 8, the Ophirians annihilate the fort
         using trebuchets, killing all of its occupants; the Overlord wins the game.",
@@ -596,10 +602,10 @@
         instead.</p>
 
         <p><span class="special_title">Rock Slides:</span>
-        A character can move into a rock
-        <img src="/assets/tokens/rocks.png" class="scen_token" /> slide area
-        from an adjacent area. The character must spend 2 extra movement points
-        unless the character has <a class="skill" href="/skills/19">Climb</a>.</p>
+        A character can move into a rock slide area
+        <img src="/assets/tokens/rocks.png" class="scen_token" /> from an
+        adjacent area. The character must spend 2 extra movement points unless
+        the character has <a class="skill" href="/skills/19">Climb</a>.</p>
 
         <p><span class="special_title">Chest:</span>
         During setup, the Overlord places 6 chests on the board as indicated by
@@ -642,10 +648,10 @@
         <br /><br /><strong>Suggestions for 1 hero:</strong>
         <br /><a class="hero" href="/heroes/2">Conan</a> (required)
         (<a class="item" href="/items/10">Sword</a>,
-        <a class="item" href="/items/16">Leather Armor</a>),
-        <br /><br />After setup, Conan does not move any gems from his Reserve
-        zone to his Fatigue zone. The hero plays the heroes’ stance phase as if
-        no hero had died during the game.',
+        <a class="item" href="/items/16">Leather Armor</a>)<br /><br />
+        <p>After setup, Conan does not move any gems from his Reserve zone to
+        his Fatigue zone. The hero plays the heroes’ stance phase as if no hero
+        had died during the game.</p>',
 
       overlord_goal: "If Conan leaves the inn and the curse has not been broken
         or if Conan dies, the curse has done its work; the Overlord wins the game.",
@@ -672,8 +678,7 @@
             </td>
           </tr>
           <tr>
-            <td>
-            </td>
+            <td><img src="/assets/tokens/numBackToken.png" class="scen_token" /></td>
             <td>
               The Overlord places 5 numbered tokens from 1 to 5 facedown on
               the game board as indicated by the setup diagram to represent priests.
@@ -786,9 +791,9 @@
         <br /><a class="hero" href="/heroes/4">Shevatas</a>
         (<a class="item" href="/items/11">Parrying Dagger</a>,
         <a class="item" href="/items/14">Throwing Knives</a>,
-        <a class="item" href="/items/16">Leather Armor</a>),
-        <br /><br />After setup, each hero moves 4 gems from their Reserve zone to
-        their Fatigue zone.',
+        <a class="item" href="/items/16">Leather Armor</a>) <br /><br />
+        <p>After setup, each hero moves 4 gems from their Reserve zone to
+        their Fatigue zone.</p>',
 
       overlord_goal: "If all heroes are dead, The Vandal escapes; the Overlord
         wins the game.
@@ -862,15 +867,19 @@
       item_ids: [1, 4, 5, 11, 14, 16, 22] },
 
     { name: "Infernal Pursuit Part II",
-      description: "<p><strong>This scenario can be played only after Infernal Pursuit I.</strong></p>
-        <p>At the end of Infernal Pursuit I, the Overlord places the Zaporavo model
-        (7 life points) and 2 Bossonian Archer models on the board as indicated by
-        the setup diagram and places each Pirate model with a green or blue base
-        that is off the board into a numbered area on the board as indicated by the
-        setup diagram 1 2 3 . Turn each green and blue Pirates tile in the River
-        faceup, then place each green and blue Pirates tile that is not in the River
-        at the end of the River.</p>
-        <p>Place the Bossonian Archers and Zaporavo tiles at the end of the River.</p>",
+      description: '<p><strong>This scenario can be played only after Infernal Pursuit I.</strong></p>
+        <p>At the end of Infernal Pursuit I, the Overlord places the Zaporavo
+        model (7 life points) and 2 Bossonian Archer models on the board as
+        indicated by the setup diagram and places each Pirate model with a green
+        or blue base that is off the board into a numbered area on the board as
+        indicated by the setup diagram
+        <img src="/assets/tokens/1Token.png" class="scen_token" />
+        <img src="/assets/tokens/2Token.png" class="scen_token" />
+        <img src="/assets/tokens/3Token.png" class="scen_token" /> .
+        Turn each green and blue Pirates tile in the River faceup, then place
+        each green and blue Pirates tile that is not in the River at the end of
+        the River.</p>
+        <p>Place the Bossonian Archers and Zaporavo tiles at the end of the River.</p>',
       map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/Infernal+Pursuit+Part+II.jpg',
       pdf_link: 'http://www.monolithedition.com/conan-en/infernal-pursuit/',
       player_count: "3",
@@ -965,9 +974,9 @@
         (<a class="item" href="/items/12">Ornamental Lance</a>,
           <a class="spell" href="/spells/8">Mitra’s Healing</a>,
           <a class="spell" href="/spells/14">Set’s Possession</a>,
-          <a class="spell" href="/spells/12">Mind Control</a>).
-        <br /><br />After setup, each hero moves 3 gems from their Reserve zone to
-        their Fatigue zone.',
+          <a class="spell" href="/spells/12">Mind Control</a>) <br /><br />
+        <p>After setup, each hero moves 3 gems from their Reserve zone to
+        their Fatigue zone.</p>',
 
       overlord_goal: "At the end of turn 10, guards flood into the inn and the
         heroes are captured once again; the Overlord wins the game.",
@@ -993,7 +1002,7 @@
             </td>
           </tr>
           <tr>
-            <td>
+            <td><img src="/assets/tokens/num1Token.png" class="scen_token" />
             </td>
             <td>
               After setup, the Overlord takes each hero’s equipment cards, places
@@ -1015,7 +1024,14 @@
       tile7: [0],
       tile8: [0],
 
-      special_rules: '<p><span class="special_title">Recovering Equipment:</span>
+      special_rules: '<p><span class="special_title">Defenceless:</span>
+        After setup, the Overlord takes each hero’s equipment cards, places them
+        in different piles, and assigns each pile to an area (except room 11)
+        by placing a token with the corresponding number facedown on each group
+        of cards. The Overlord may hide the equipment in different areas but
+        cannot split one hero’s equipment. Hadrathus keeps his spells.</p>
+
+        <p><span class="special_title">Recovering Equipment:</span>
         A hero can search a numbered area by performing a complex Manipulation
         with a difficulty of 1. If the hero succeeds and that hero’s starting
         equipment is assigned to the area, the hero takes those equipment cards
@@ -1044,8 +1060,8 @@
         or an <a class="item" href="/items/5">Explosive Orb</a>.<br />
         • At the beginning of the Overlord’s turn, if a unit is in an area with
         a dead minion or a hero.<br />
-        • At the end of turn 4.
-        When the alarm is raised, the Overlord removes all dead character’s
+        • At the end of turn 4.</p>
+        <p>When the alarm is raised, the Overlord removes all dead character’s
         models from the board and places 5 Bossonian Guard models with green
         bases in the entrance area. The Overlord places the green Bossonian
         Guards tile on the left in the River, sliding tiles to the right as
@@ -1131,9 +1147,9 @@
         <br /><br /><strong>Suggestions for 3 heroes:</strong>
         <br /><a class="hero" href="/heroes/2">Conan</a>
         <br /><a class="hero" href="/heroes/4">Shevatas</a>
-        <br /><a class="hero" href="/heroes/7">Valeria</a>
-        <br /><br />After setup, each hero moves 5 gems from their Reserve zone to
-        their Fatigue zone.',
+        <br /><a class="hero" href="/heroes/7">Valeria</a> <br /><br />
+        <p>After setup, each hero moves 5 gems from their Reserve zone to
+        their Fatigue zone.</p>',
 
       overlord_goal: "At the end of turn 8, if the Overlord has more points than
         the heroes or is tied for most points and no hero has fled with the Idol
@@ -1301,9 +1317,9 @@
           <a class="item" href="/items/16">Leather Armor</a>),
         <br /><a class="hero" href="/heroes/4">Shevatas</a>
         (<a class="item" href="/items/15">Kris</a>,
-          <a class="item" href="/items/14">Throwing Knives</a>),
-        <br /><br />After setup, heroes do not move any gems from their Reserve
-        zone to their Fatigue zone.',
+          <a class="item" href="/items/14">Throwing Knives</a>) <br /><br />
+        <p>After setup, heroes do not move any gems from their Reserve
+        zone to their Fatigue zone.</p>',
 
       overlord_goal: "If all heroes are dead or at the end of turn 8, the
         fabulous treasure is out of the heroes’ reach; the Overlord wins the game.",
@@ -1428,9 +1444,9 @@
           <a class="spell" href="/spells/13">Teleportation</a>,
           <a class="spell" href="/spells/7">Mitra’s Halo</a>,
           <a class="spell" href="/spells/15">Lightning Storm</a>).
-          Hadrathus does not start with Mitra’s Halo cast.
-        <br /><br />After setup, each hero moves 5 gems from their Reserve zone to
-        their Fatigue zone.',
+          Hadrathus does not start with Mitra’s Halo cast. <br /><br />
+        <p>After setup, each hero moves 5 gems from their Reserve zone to
+        their Fatigue zone.</p>',
 
       overlord_goal: "At the end of turn 8, Skuthus escapes as his minions occupy
         the heroes; the Overlord wins the game.",
@@ -1535,9 +1551,9 @@
         feet, a beautiful but enigmatic young woman greets the weary travelers,
         introducing herself as Thalis. This fort, she explains, is an outpost of
         the vast city of Xuthal.</p>
-        <p>Thalis lavishes attention upon Conan, who obstinately refuses her advances.
-        Seeing a rival in Valeria, she captures the warrior, planning to offer her
-        as a sacrifice to Thog, the city’s god.</p>",
+        <p>Thalis lavishes attention upon Conan, who obstinately refuses her
+        advances. Seeing a rival in Valeria, she captures the warrior, planning
+        to offer her as a sacrifice to Thog, the city’s god.</p>",
       map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/The+Crawling+Shadow.jpg',
       pdf_link: '',
       player_count: "4",
@@ -1556,9 +1572,9 @@
         (<a class="item" href="/items/15">Kris</a>,
           <a class="item" href="/items/14">Throwing Knives</a>),
         <br /><a class="hero" href="/heroes/7">Valeria</a>
-        (<a class="item" href="/items/11">Perrying Dagger</a>.
-        <br /><br />After setup, Valeria moves 4 gems from her Reserve zone to her
-        Fatigue zone; Conan and Shevatas do not move any gems.',
+        (<a class="item" href="/items/11">Perrying Dagger</a>.<br /><br />
+        <p>After setup, Valeria moves 4 gems from her Reserve zone to her
+        Fatigue zone; Conan and Shevatas do not move any gems.</p>',
 
       overlord_goal: "If the energy marker is on space 15 at the end of turn 9,
         Thog reaches its full power; the Overlord wins the game.",
@@ -1639,9 +1655,10 @@
         instead.</p>
 
         <p><span class="special_title">Rock Slide:</span>
-        A character can move into a rock slide area from an adjacent area. The
-        character must spend 2 extra movement points unless the character has
-        <a class="skill" href="/skills/19">Climb</a>.</p>
+        A character can move into a rock slide area
+        <img src="/assets/tokens/rocks.png" class="scen_token" /> from an
+        adjacent area. The character must spend 2 extra movement points unless
+        the character has <a class="skill" href="/skills/19">Climb</a>.</p>
 
         <p><span class="special_title">Chests:</span>
         During setup, the Overlord places 8 chests on the board as indicated by
@@ -1701,8 +1718,8 @@
           <a class="item" href="/items/10">Sword</a>,
           <a class="spell" href="/spells/7">Mitra’s Halo</a>,
           <a class="spell" href="/spells/15">Lightning Storm</a>).
-          Hadrathus does not start with Mitra’s Halo cast.
-        <br /><br />After setup, each hero moves 4 gems from their Reserve zone to
+          Hadrathus does not start with Mitra’s Halo cast.<br /><br />
+        <p>After setup, each hero moves 4 gems from their Reserve zone to
         their Fatigue zone.',
 
       overlord_goal: "At the end of turn 7, if the Overlord has prevented the
@@ -1815,7 +1832,7 @@
         it while Shubba is still alive), and Yogah of Yag has fled the fort with
         the Orb before the end of turn 8; the heroes win.",
       hero_setup: 'The game starts with the heroes’ turn.
-        <br /><br />The heroes start in the areas indicated by the setup diagram.
+        <br />The heroes start in the areas indicated by the setup diagram.
         <br /><br /><strong>Suggestions for 3 heroes:</strong>
         <br /><a class="hero" href="/heroes/2">Conan</a>
         (<a class="item" href="/items/10">Sword</a>,
@@ -1827,9 +1844,9 @@
         <br /><a class="hero" href="/heroes/4">Yogah of Yag</a>
         (<a class="item" href="/items/12">Ornamental Spear</a>,
           <a class="spell" href="/spells/9">Gift of Life</a>,
-          <a class="spell" href="/spells/8">Mitra’s Healing</a>),
-        <br /><br />After setup, each hero moves 6 gems from their Reserve zone to
-        their Fatigue zone.',
+          <a class="spell" href="/spells/8">Mitra’s Healing</a>)<br /><br />
+        <p>After setup, each hero moves 6 gems from their Reserve zone to
+        their Fatigue zone.</p>',
 
       overlord_goal: "If Yogah dies before the end of turn 8; the Overlord wins.
         <br /><br />In any other case, both sides lose at the end of turn 8.",
@@ -1849,7 +1866,7 @@
             </td>
           </tr>
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SkuthusToken.png" class="scen_setup"></td>
+            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShubbaToken.png" class="scen_setup"></td>
             <td>
               <a class="tile" href="/tiles/15">Shubba</a> has
               <a class="spell" href="/spells/13">Teleportation</a>,
@@ -1958,12 +1975,12 @@
         <br /><a class="hero" href="/heroes/2">Yogah of Yag</a>
         (<a class="item" href="/items/8">Halberd</a>,
           <a class="spell" href="/spells/14">Set’s Possession</a>,
-          <a class="spell" href="/spells/8">Mitra’s Healing</a>),
-        <br /><br />After setup, Yogah of Yag does not move any gems from his
-        Reserve zone to his Fatigue zone.
-        The hero plays their stance phase as if one hero had died during the game.
-        They move 3 gems from their Fatigue zone to their Reserve zone when they
-        choose an aggressive stance and 6 gems when the hero is cautious.',
+          <a class="spell" href="/spells/8">Mitra’s Healing</a>)<br /><br />
+        <p>After setup, Yogah of Yag does not move any gems from his Reserve
+        zone to his Fatigue zone. The hero plays their stance phase as if one
+        hero had died during the game. They move 3 gems from their Fatigue zone
+        to their Reserve zone when they choose an aggressive stance and 6 gems
+      when the hero is cautious.</p>',
 
       overlord_goal: "If the Overlord prevents Yogah of Yag from fleeing with the
         two Xuthal’s Crowns by the end of turn 10; the Overlord wins.",
@@ -2063,7 +2080,7 @@
 
       hero_goal: "The Heroes must protect the artifacts. If there is at least
         one artifact on the board at the end of turn 7; the heroes win the game.",
-      hero_setup: '<br /><br /><strong>Suggestions for 2 heroes:</strong>
+      hero_setup: '<strong>Suggestions for 2 heroes:</strong>
         <br /><a class="hero" href="/heroes/1">Bêlit</a>
         (<a class="item" href="/items/8">Halberd</a>) and 5
         <a class="tile" href="/tiles/94">Bêlit’s Guards</a>,
@@ -2071,9 +2088,9 @@
         (<a class="item" href="/items/10">Sword</a>,
           <a class="spell" href="/spells/16">Borne by the Wind</a>,
           <a class="spell" href="/spells/14">Set’s Possession</a>,
-          <a class="spell" href="/spells/15">Lightning Storm</a>).
-        <br /><br />After setup, each hero moves 3 gems from their Reserve zone to
-        their Fatigue zone.',
+          <a class="spell" href="/spells/15">Lightning Storm</a>).<br /><br />
+        <p>After setup, each hero moves 3 gems from their Reserve zone to
+        their Fatigue zone.</p>',
 
       overlord_goal: "If the Overlord destroys the three artifacts before the end
         of turn 7; the Overlord wins.",
@@ -2089,7 +2106,7 @@
             </td>
           </tr>
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SkuthusToken.png" class="scen_setup"></td>
+            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShubbaToken.png" class="scen_setup"></td>
             <td>
               <a class="tile" href="/tiles/15">Shubba</a> has
               <a class="spell" href="/spells/11">Energy Drain</a>,
@@ -2204,9 +2221,9 @@
           <a class="spell" href="/spells/44">Hand of Death</a>,
           <a class="spell" href="/spells/15">Lightning Storm</a>,
           <a class="spell" href="/spells/6">Set’s Bite</a> and
-          <a class="spell" href="/spells/10">Bori’s Rage</a>).
-        <br /><br />After setup, each hero moves 5 gems from their Reserve zone to
-        their Fatigue zone.',
+          <a class="spell" href="/spells/10">Bori’s Rage</a>).<br /><br />
+        <p>After setup, each hero moves 5 gems from their Reserve zone to
+        their Fatigue zone.</p>',
 
       overlord_goal: "If the Overlord prevents the Captain from fleeing the
         citadel by the end of turn 8; the Overlord wins the game.",
@@ -2264,7 +2281,12 @@
         During setup, the heroes place 2 Bossonian Guard models
         without their colored base and the Captain model as well as their
         corresponding tiles beside the board. The Overlord places the Captain’s
-        life point token on space 4 of the turn track.</p>
+        life point token <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/CaptainToken.png"
+        class="scen_token"> on space 4 of the turn track.</p>
+
+        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Captain.png" class="scen_event">
+        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BossonianGuards.png" class="scen_event">
+
 
         <p><span class="special_title">Cells:</span>
         During setup, the Overlord randomly places the 3 tokens
@@ -2344,15 +2366,15 @@
 
       hero_goal: "If at least 1 Bossonian Guard is left on the board by the end
         of turn 7; the heroes win the game.",
-      hero_setup: '<br /><br /><strong>Suggestions for 2 heroes:</strong>
+      hero_setup: '<strong>Suggestions for 2 heroes:</strong>
         <br /><a class="hero" href="/heroes/11">Conan - General</a>
         (<a class="item" href="/items/7">Conan’s Sword</a> and
           <a class="item" href="/items/17">Chain Mail</a>) and 8 Bossonian Guards.
         <br /><a class="hero" href="/heroes/10">Balthus</a>
         (<a class="item" href="/items/9">Bossonian Bow</a> and
-          <a class="item" href="/items/11">Parrying Dagger</a>) and Slasher.
-        <br /><br />After setup, each hero moves 3 gems from their Reserve zone to
-        their Fatigue zone.',
+          <a class="item" href="/items/11">Parrying Dagger</a>) and Slasher. <br /><br />
+        <p>After setup, each hero moves 3 gems from their Reserve zone to
+        their Fatigue zone.</p>',
 
       overlord_goal: "If all the Bossonian Guards are killed before the end of
         turn 7; the Overlord wins the game.",
@@ -2465,9 +2487,13 @@
           <a class="spell" href="/spells/25">Return of the Braves</a>, and
           <a class="spell" href="/spells/15">Lightning Storm</a>).
         <br /><a class="hero" href="/heroes/3">Zaporavo</a>
-        (<a class="item" href="/items/35">Pirate Saber</a>) and 2 Pirates.
-        <br /><br />After setup, each hero moves 5 gems from their Reserve zone to
-        their Fatigue zone.',
+        (<a class="item" href="/items/35">Pirate Saber</a>) and 2 Pirates.<br /><br />
+
+        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/PictWarriors.png" class="scen_event">
+        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Pirates.png" class="scen_event">
+
+        <p>After setup, each hero moves 5 gems from their Reserve zone to
+        their Fatigue zone.</p>',
 
       overlord_goal: "If the Overlord prevents the heroes from destroying the
         outpost and sabotaging the citadel before the end of turn 8; the Overlord
@@ -2688,9 +2714,9 @@
           <a class="item" href="/items/36">Sacrificial Dagger</a>,
           <a class="spell" href="/spells/13">Teleportation</a>,
           <a class="spell" href="/spells/36">Withering</a>,
-          <a class="spell" href="/spells/33">Eel Skin</a>).
-        <br /><br />After setup, each hero moves 5 gems from their Reserve zone
-        to their Fatigue zone.',
+          <a class="spell" href="/spells/33">Eel Skin</a>).<br /><br />
+        <p>After setup, each hero moves 5 gems from their Reserve zone
+        to their Fatigue zone.</p>',
 
       overlord_goal: "If the Overlord prevents the Dragon from being killed before
         the end of turn 7; the Overlord wins the game.",
@@ -2821,7 +2847,7 @@
       hero_goal: "If the heroes kill the Hyperborean Primitive or prevent the
         Overlord from killing all the pirates, Bossonian guards and archers before
         the end of turn 9; the heroes win the game.",
-      hero_setup: '<br /><br /><strong>Suggestions for 3 heroes:</strong>
+      hero_setup: '<strong>Suggestions for 3 heroes:</strong>
         <br /><a class="hero" href="/heroes/2">Conan - General</a>
         (<a class="item" href="/items/18">Scale Mail</a>) with 5 pirates with no
         base and 5 Bossonian Archers with a purple base.
@@ -2829,9 +2855,9 @@
         (<a class="item" href="/items/20">Shield</a>) with 5 Bossonian Guards with
         a red base.
         <br /><a class="hero" href="/heroes/3">N’Gora</a>
-        (<a class="item" href="/items/21">Tribal Shield</a>).
-        <br /><br />After setup, each hero moves 6 gems from their Reserve zone
-        to their Fatigue zone.',
+        (<a class="item" href="/items/21">Tribal Shield</a>). <br /><br />
+        <p>After setup, each hero moves 6 gems from their Reserve zone
+        to their Fatigue zone.</p>',
 
       overlord_goal: "If the Overlord kills all the pirates, Bossonian guards
         and archers before the end of turn 9; the Overlord wins the game.",
@@ -2886,6 +2912,10 @@
         the board. The laid down skeleton models do not count for hindering and
         occupied areas.</p>
 
+        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SkeletonsPurple.png" class="scen_event">
+        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SkeletonsRed.png" class="scen_event">
+        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Skeletons.png" class="scen_event">
+
         <p><span class="special_title"> Stygian Artifact:</span>
         During setup the Overlord places the Stygian Artifact card
         next to the board.</p>
@@ -2894,6 +2924,8 @@
         During setup the Overlord places the second Bone Golem tile beside the
         Book of Skelos. When the Bone Golem is killed the Overlord places the
         Stygian Artifact card in the area where the Bone Golem was killed.</p>
+
+        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BoneGolem.png" class="scen_event">
 
         <p><span class="special_title">Hyperborean Primitive:</span>
         The Hyperborean Primitive can only be wounded by a hero carrying the
@@ -3006,9 +3038,9 @@
         <br /><a class="hero" href="/heroes/4">Bêlit Queen of the Black Coast</a>
         (<a class="item" href="/items/22">Life Potion</a>,
         <a class="item" href="/items/2">Dagger</a> and
-        <a class="item" href="/items/14">Short Sword</a>).
-        <br /><br />After setup, each hero moves 4 gems from their Reserve zone
-        to their Fatigue zone.',
+        <a class="item" href="/items/14">Short Sword</a>).<br /><br />
+        <p>After setup, each hero moves 4 gems from their Reserve zone
+        to their Fatigue zone.</p>',
 
       overlord_goal: "If the Overlord prevents the heroes from fleeing with both
         amulets before the end of turn 7, or the Overlord kills the two heroes;
@@ -3037,12 +3069,13 @@
 
       special_rules: '<p><span class="special_title">Sinking a Ship:</span>
         Only one ship may be sunk during the scenario. There are two
-        different ways a hero can sink a ship:
-        • A hero in a reinforcement token’s area may perform a complex manipulation
-        with a difficulty of 5 to sink that ship.
+        different ways a hero can sink a ship:<br />
+        • A hero in a reinforcement token’s area <img src="/assets/stats/reinforcement.png" class="scen_token" />
+        may perform a complex manipulation with a difficulty of 5 to sink that ship.
         • A hero can throw or drop an <a class="item" href="/items/5">Explosive Orb</a>
-        on a reinforcement token’s area. The orb explodes normally and that ship
-        sinks. When a ship is sunk, the Overlord removes from the river the event
+        on a reinforcement token’s area <img src="/assets/stats/reinforcement.png" class="scen_token" />.
+        The orb explodes normally and that ship sinks.</p>
+        <p>When a ship is sunk, the Overlord removes from the river the event
         tile whose number corresponds to the sunken ship. The Overlord also removes
         the sunken ship’s reinforcement token from the board. The Overlord can no
         longer use reinforcement on this area. All models without Swim who are
@@ -3134,7 +3167,7 @@
 
       hero_goal: "If the heroes kill the sorcerer, or prevent the Overlord from
         warding off the curse before the end of turn 7; the heroes win the game.",
-      hero_setup: '<br /><br /><strong>Suggestions for 3 heroes:</strong>
+      hero_setup: '<strong>Suggestions for 4 heroes:</strong>
         <br /><a class="hero" href="/heroes/13">Conan - Wanderer</a>
         (<a class="item" href="/items/32">Axe</a>)
         <br /><a class="hero" href="/heroes/19">Savage Bêlit</a>
@@ -3143,9 +3176,9 @@
         <br /><a class="hero" href="/heroes/15">Kerim Shah</a>
         (<a class="item" href="/items/10">Sword</a>)
         <br /><a class="hero" href="/heroes/9">Amboola</a>
-        (<a class="item" href="/items/2">Dagger</a>)
-        <br /><br />After setup, each hero moves 5 gems from their Reserve zone
-        to their Fatigue zone.',
+        (<a class="item" href="/items/2">Dagger</a>)<br /><br />
+        <p>After setup, each hero moves 5 gems from their Reserve zone
+        to their Fatigue zone.</p>',
 
       overlord_goal: "If the Overlord wards off the curse before the end of turn
         7; the Overlord wins the game.",
@@ -3195,6 +3228,10 @@
         next to the Book of Skelos, these models are considered as being the animal
         form models.</p>
 
+        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/GiantSpider.png" class="scen_event">
+        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/GiantScorpion.png" class="scen_event">
+        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Camel.png" class="scen_event">
+
         <p><span class="special_title">Pirate:</span>
         During setup the Overlord places the Pirate tile (orange,
         armor value 2 and movement value 2) next to the Book of Skelos. Pirates
@@ -3202,6 +3239,8 @@
         not count for hindering for either side. Pirates can only be killed by a
         melee attack performed by the Overlord troops. They do not suffer damage
         from wounds inflicted by heroes.</p>
+
+        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/PiratesOrange.png" class="scen_event">
 
         <p><span class="special_title">Curse:</span>
         If at least one of the animal form tiles is placed unbloody
@@ -3277,9 +3316,9 @@
         instead.</p>
         <p><span class="special_title">Rock Slides:</span>
         A character can move into a rock slide area
-        <img src="/assets/tokens/rocks.png" class="scen_token" /> from an adjacent
-        area. The character must spend 2 extra movement points unless the character
-        has <a class="skill" href="/skills/19">Climb</a>.</p>
+        <img src="/assets/tokens/rocks.png" class="scen_token" /> from an
+        adjacent area. The character must spend 2 extra movement points unless
+        the character has <a class="skill" href="/skills/19">Climb</a>.</p>
 
         <p><span class="special_title">Chests:</span>
         During setup, the Overlord places 4 chests on the board
@@ -3326,9 +3365,13 @@
         <br /><a class="hero" href="/heroes/8">Zelata</a>
         (2 spells: <a class="spell" href="/spells/7">Mitra’s Halo</a> and
           <a class="spell" href="/spells/28">Bel’s Caress</a>) with 10 Giant Wolves.
-          Zelata starts with Mitra’s Halo cast.
-        <br /><br />After setup, the hero moves no gems from their Reserve zone to
-        their Fatigue zone.',
+          Zelata starts with Mitra’s Halo cast.<br /><br />
+
+        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/GiantWolves.png" class="scen_event">
+        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/GiantWolves.png" class="scen_event">
+
+        <p>After setup, the hero moves no gems from their Reserve zone to
+        their Fatigue zone.</p>',
 
       overlord_goal: "If the Overlord prevents Zelata from killing the Swamp Demon,
         or kills all the Giant Wolves before the end of round 6, the Overlord wins
@@ -3457,9 +3500,13 @@
         <br /><a class="hero" href="/heroes/5">Amra the Lion</a>
         (<a class="item" href="/items/16">Leather Armor</a>) with Conan’s Lion
         <br /><a class="hero" href="/heroes/10">Balthus</a>
-        (<a class="item" href="/items/16">Leather Armor</a>) with Slasher
-        <br /><br />After setup, the heroes moves no gems from their Reserve zone
-        to their Fatigue zone.',
+        (<a class="item" href="/items/16">Leather Armor</a>) with Slasher<br /><br />
+
+        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConansLion.png" class="scen_event">
+        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Slasher.png" class="scen_event">
+
+        <p>After setup, the heroes moves no gems from their Reserve zone
+        to their Fatigue zone.</p>',
 
       overlord_goal: "If the Overlord prevents the heroes from fleeing with three
         sacred treasures at the end of turn 7; the Overlord wins the game.",
@@ -3603,9 +3650,14 @@
           <a class="item" href="/items/56">Cape</a>) with
             <a class="tile" href="/tiles/81">Amboola</a>,
             <a class="tile" href="/tiles/99">Kothian Archer</a> and 10
-            <a class="tile" href="/tiles/33">Pirates</a>
-          <br /><br />After setup, the heroes moves no gems from their Reserve zone
-          to their Fatigue zone.',
+            <a class="tile" href="/tiles/33">Pirates</a><br /><br />
+
+          <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Amboola.png" class="scen_event">
+          <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/KothianArcher.png" class="scen_event">
+          <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Pirates.png" class="scen_event">
+
+          <p>After setup, the heroes moves no gems from their Reserve zone
+          to their Fatigue zone.</p>',
 
         overlord_goal: "If the Overlord frees Conan or kills Zaporavo before the
           end of round 6; the Overlord wins the game.",
