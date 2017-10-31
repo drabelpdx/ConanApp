@@ -369,9 +369,9 @@ a.skill {
 .river-well {
   background: #bfbfbf;
   padding-top: 10px;
-  padding-bottom: 10px;
   margin-left: -5px;
   margin-right: -5px;
+  margin-bottom: -20px;
 }
 
 .map-well {
@@ -457,6 +457,12 @@ a.skill {
   padding:5px;
 }
 
+.special_title {
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 125%;
+
+}
 
 footer {
   margin-top: 45px;

@@ -83,51 +83,56 @@
       tile7: [45],
       tile8: [1],
 
-      ruleone_title: "Yselda:",
-      ruleone_text: 'During setup, the Overlord secretly chooses one numbered
-        token corresponding to a numbered hut in the setup diagram and sets it aside
+      special_rules: '<p><span class="special_title">Yselda:</span>
+        During setup, the Overlord secretly chooses one numbered token
+        corresponding to a numbered hut in the setup diagram and sets it aside
         facedown. The first time a hero enters the chosen hut, the Overlord flips
-        the token faceup and places Yselda’s model in the hut’s area.
-        Yselda is unconscious, counts as an object with an encumbrance value of 6,
-        and can be picked up by a hero by performing a simple manipulation. That
-        hero takes the
-        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ThalisToken.png"
-        class="scen_token"> and places it next to their character sheet.
-        Yselda has one life point and no armor. She dies if she suffers any damage
-        (such as an area attack).
-        If she dies, the side which killed her immediately loses the game.',
-      ruletwo_title: "Zogar Sag:",
-      ruletwo_text: 'He cannot flee the village. When Zogar Sag dies, place his
-        life point marker
-        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZogarSagToken.png"
-        class="scen_token"> in his area to represent his head. A
-        hero may pick the head up by performing a simple manipulation. That hero
-        places Zogar Sag’s life point marker next to its character sheet. Zogar
-        Sag’s head has an encumbrance value of 2.',
-      rulethree_title: "Fleeing the Village:",
-      rulethree_text: "A hero can flee the village from an area at the edge of
-        the board by spending movement points as though the hero were moving across
-        a border and removing the hero’s model from the board. Once a hero has fled,
-        the hero’s model cannot be returned to the board.",
-      rulefour_title: "Hut Flaps:",
-      rulefour_text: "A character must spend 1 extra movement point to move across
-        a border into or out of a hut. Moving across an opening token does not cost
-        an extra movement point.",
-      rulefive_title: "Wooden Huts:",
-      rulefive_text: 'A character with <a class="skill" href="/skills/11">Wall Wrecker</a>
-        can use it to move across the wall of one of the wooden huts.',
-      rulesix_title: "Climbing:",
-      rulesix_text: 'A character with <a class="skill" href="/skills/19">Climb</a>
+        the token faceup and places Yselda’s model in the hut’s area. Yselda is
+        unconscious, counts as an object with an encumbrance value of 6, and can
+        be picked up by a hero by performing a simple manipulation. That hero takes
+        the <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ThalisToken.png"
+        class="scen_token"> and places it next to their character sheet. Yselda
+        has one life point and no armor. She dies if she suffers any damage
+        (such as an area attack). If she dies, the side which killed her
+        immediately loses the game.</p>
+
+        <p><span class="special_title">Zogar Sag:</span>
+        He cannot flee the village. When Zogar Sag dies, place his life point
+        marker <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZogarSagToken.png"
+        class="scen_token"> in his area to represent his head. A hero may pick
+        the head up by performing a simple manipulation. That hero places Zogar
+        Sag’s life point marker next to its character sheet. Zogar Sag’s head
+        has an encumbrance value of 2.</p>
+
+        <p><span class="special_title">Fleeing the Village:</span>
+        A hero can flee the village from an area at the edge of the board by
+        spending movement points as though the hero were moving across a border
+        and removing the hero’s model from the board. Once a hero has fled, the
+        hero’s model cannot be returned to the board.</p>
+
+        <p><span class="special_title">Hut Flaps:</span>
+        A character must spend 1 extra movement point to move across a border
+        into or out of a hut. Moving across an opening token does not cost an
+        extra movement point.</p>
+
+        <p><span class="special_title">Wooden Huts:</span>
+        A character with <a class="skill" href="/skills/11">Wall Wrecker</a>
+        can use it to move across the wall of one of the wooden huts.</p>
+
+        <p><span class="special_title">Climbing:</span>
+        A character with <a class="skill" href="/skills/19">Climb</a>
         can move across boulders <img src="/assets/tokens/rocks.png" class="scen_token" />
-        as though they were a border by spending 2 extra movement points.',
-      ruleseven_title: "Chests:",
-      ruleseven_text: 'During setup, the Overlord places 1 chest in each hut area (8 total).
-        The asset deck contains: 2 <a class="item" href="/items/5">Explosive Orb</a>,
+        as though they were a border by spending 2 extra movement points.</p>
+
+        <p><span class="special_title">Chests:</span>
+        During setup, the Overlord places 1 chest in each hut area (8 total).
+        The asset deck contains:
+        2 <a class="item" href="/items/5">Explosive Orb</a>,
         2 <a class="item" href="/items/22">Life Potion</a>,
         1 <a class="item" href="/items/17">Chainmail</a>,
         1 <a class="item" href="/items/4">Crossbow</a>,
         1 <a class="item" href="/items/19">Buckler</a>,
-        1 <a class="item" href="/items/9">Bossonian Bow</a>.',
+        1 <a class="item" href="/items/9">Bossonian Bow</a>.</p>',
 
       origin: "Core Game",
       map_ids: [1],
@@ -223,16 +228,17 @@
       tile7: [5, 8],
       tile8: [3, 3],
 
-      ruleone_title: "Leap:",
-      ruleone_text: 'If a hero, Zaporavo, or Skuthus fails to <a class="skill" href="/skills/16">Leap</a>,
+      special_rules: '<p><span class="special_title">Leap:</span>
+        If a hero, Zaporavo, or Skuthus fails to <a class="skill" href="/skills/16">Leap</a>,
         the character remains in its area. If a minion or ally fails to <a class="skill" href="/skills/16">Leap</a>,
-        that character falls in the water and is eaten by sharks; the character dies.',
-      ruletwo_title: "Chests:",
-      ruletwo_text: 'During setup, the Overlord places 4 chests on the board as
+        that character falls in the water and is eaten by sharks; the character dies.</p>
+
+        <p><span class="special_title">Chests:</span>
+        During setup, the Overlord places 4 chests on the board as
         indicated by the setup diagram. The asset deck contains:
         2 <a class="item" href="/items/22">Life Potion</a>,
         1 <a class="item" href="/items/5">Explosive Orb</a>,
-        1 <a class="item" href="/items/23">Empty chest</a>.',
+        1 <a class="item" href="/items/23">Empty chest</a>.</p>',
 
       origin: "Core Game",
       map_ids: [2],
@@ -322,36 +328,39 @@
       tile7: [0],
       tile8: [0],
 
-      ruleone_title: "Yuetshi Knife:",
-      ruleone_text: 'When a hero attacks <a class="tile" href="/tiles/21">Khosatral Khel</a>
+      special_rules: '<p><span class="special_title">Yuetshi Knife:</span>
+        When a hero attacks <a class="tile" href="/tiles/21">Khosatral Khel</a>
         with the <a class="item" href="/items/6">Yuetshi Knife</a>,
         <a class="tile" href="/tiles/21">Khosatral Khel’s</a> armor value becomes
-        3 for that attack.',
-      ruletwo_title: "Lines of Sight:",
-      ruletwo_text: 'A character in a wall area has line of sight to each ground
-        area within the fortress walls. An area in a tower and an area outside that
-        tower are within each other’s line of sight only if the areas are in or
-        adjacent to the tower.',
-      rulethree_title: "Leaping from Walls:",
-      rulethree_text: 'A character can move across a parapet from a wall area to
-        a ground area as though it were a border. The character rolls
+        3 for that attack.</p>
+
+        <p><span class="special_title">Lines of Sight:</span>
+        A character in a wall area has line of sight to each ground area within
+        the fortress walls. An area in a tower and an area outside that tower
+        are within each other’s line of sight only if the areas are in or
+        adjacent to the tower.</p>
+
+        <p><span class="special_title">Leaping from Walls:</span>
+        A character can move across a parapet from a wall area to a ground area
+        as though it were a border. The character rolls
         <img src="/assets/dice/2 Red.png" class="scen_sq_token" />
         for falling damage. If the character has
-        <a class="skill" href="/skills/16">Leap</a>,
-        the character rolls
+        <a class="skill" href="/skills/16">Leap</a>, the character rolls
         <img src="/assets/dice/Red.png" class="scen_sq_token" />
-        1 Red die instead.',
-      rulefour_title: "Rock Slides:",
-      rulefour_text: 'A character can move into a rock slide area
+        1 Red die instead.</p>
+
+        <p><span class="special_title">Rock Slides:</span>
+        A character can move into a rock slide area
         <img src="/assets/tokens/rocks.png" class="scen_token" />
         from an adjacent area. The character must spend 2 extra movement points
-        unless the character has <a class="skill" href="/skills/19">Climb</a>.',
-      rulefive_title: "Chests:",
-      rulefive_text: 'During setup, the Overlord places 5 chests on the board as
-        indicated by the setup diagram. The asset deck contains:
+        unless the character has <a class="skill" href="/skills/19">Climb</a>.</p>
+
+        <p><span class="special_title">Chests:</span>
+        During setup, the Overlord places 5 chests on the board as indicated by
+        the setup diagram. The asset deck contains:
         2 <a class="item" href="/items/22">Life Potion</a>,
         2 <a class="item" href="/items/5">Explosive Orb</a>,
-        1 <a class="item" href="/items/3">Javelin</a>.',
+        1 <a class="item" href="/items/3">Javelin</a>.</p>',
 
       origin: "Core Game",
       map_ids: [3],
@@ -438,29 +447,34 @@
       tile7: [44],
       tile8: [0],
 
-      ruleone_title: "Barricades:",
-      ruleone_text: 'Barricades block line of sight. A character cannot move across
-        a barricade, but can attack a barricade as though it were an enemy character.
-        Each barricade starts with 12 life points. When a barricade has 0 life points,
-        remove it from the board.
-        If a unit in a group attacks a barricade, units in that group can attack
-        only that barricade during that activation.
-        If a unit in a group attacks anything other than a barricade, units in that
-        group cannot attack a barricade during that activation.',
-      ruletwo_title: "Relic:",
-      ruletwo_text: 'At the beginning of the Overlord‘s turn, if any units are in
-        areas with relics, remove those relics from the board.',
-      rulethree_title: "Priestess of Mitra:",
-      rulethree_text: 'The priestess cannot move or be attacked. At the beginning
-        of the Overlord’s turn, if any unit is in an area with the priestess, she is killed.',
-      rulefour_title: "Hut Flaps:",
-      rulefour_text: 'A character must spend 1 extra movement point to move across
-        a border into or out of a hut. Moving across an opening token does not cost
-        the extra movement point.',
-      rulefive_title: "Climbing:",
-      rulefive_text: 'A character with <a class="skill" href="/skills/19">Climb</a>
-        can move across boulders <img src="/assets/tokens/rocks.png" class="scen_token" />
-        as though they were a border by spending 2 extra movement points.',
+      special_rules: '<p><span class="special_title">Barricades:</span>
+        Barricades block line of sight. A character cannot move across a
+        barricade, but can attack a barricade as though it were an enemy
+        character. Each barricade starts with 12 life points. When a barricade
+        has 0 life points, remove it from the board. If a unit in a group attacks
+        a barricade, units in that group can attack only that barricade during
+        that activation. If a unit in a group attacks anything other than a
+        barricade, units in that group cannot attack a barricade during that
+        activation.</p>
+
+        <p><span class="special_title">Relic:</span>
+        At the beginning of the Overlord‘s turn, if any units are in areas with
+        relics, remove those relics from the board.</p>
+
+        <p><span class="special_title">Priestess of Mitra:</span>
+        The priestess cannot move or be attacked. At the beginning of the
+        Overlord’s turn, if any unit is in an area with the priestess, she is
+        killed.</p>
+
+        <p><span class="special_title">Hut Flaps:</span>
+        A character must spend 1 extra movement point to move across a border
+        into or out of a hut. Moving across an opening token does not cost
+        the extra movement point.</p>
+
+        <p><span class="special_title">Climbing:</span>
+        A character with <a class="skill" href="/skills/19">Climb</a> can move
+        across boulders <img src="/assets/tokens/rocks.png" class="scen_token" />
+        as though they were a border by spending 2 extra movement points.</p>',
 
       origin: "Core Game",
       map_ids: [1],
@@ -539,52 +553,61 @@
       tile7: [58],
       tile8: [1],
 
-      ruleone_title: "Olivia:",
-      ruleone_text: 'Use the Princess model to represent Olivia on the game board.
-        Olivia is unconscious, counts as an object th encumbrance value of 6, and
-        can be picked up by a hero by performing a simple manipulation.
-        That hero takes the token
-        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ThalisToken.png"
-        class="scen_token"> and places it next to their character sheet. Olivia has
-        one life point and no armor. She dies if she suffers any damage (such as
-        an area attack). If she dies, the side which killed her immediately loses the game.',
-      ruletwo_title: "Olivia’s Cell:",
-      ruletwo_text: 'The <a class="tile" href="/tile/2">Captain</a> is Arbanus of
-        Koth. When Arbanus dies, place a <a class="item" href="/items/30">Key</a>
-        in the area in which he died. If a hero is in an area adjacent to the door
-        to Olivia’s cell and has a <a class="item" href="/items/30">Key</a>, the
-        hero can perform a simple Manipulation to remove the door from the board.',
-      rulethree_title: "Conan’s Cell:",
-      rulethree_text: "A hero in an area adjacent to the door to Conan’s cell can
-        perform a complex Manipulation with a difficulty of 2 to pick the lock. If
-        the hero succeeds, remove the door from the board.",
-      rulefour_title: "Doors:",
-      rulefour_text: 'A character other than a <a class="tile" href="/tiles/41">Hyena</a>
-        can move across a door (except the door to Olivia or Conan’s cell) as though
-        it were a border by spending 1 additional movement point. After a character
-        moves across a door, remove that door from the board.',
-      rulefive_title: "Line of Sight:",
-      rulefive_text: "A character in a wall area has line of sight to each ground
-        area within the fort walls. An area in a tower and area outside that tower
-        are within each other’s line of sight only if the areas are adjacent to or in the tower.",
-      rulesix_title: "Leaping from Walls:",
-      rulesix_text: 'A character can move across a parapet from a wall area to a
-        ground area as though it were a border. The character rolls
-        <img src="/assets/dice/2 Red.png" class="scen_sq_token" />
-        for falling damage. If the character has <a class="skill" href="/skills/16">Leap</a>,
-        the character rolls <img src="/assets/dice/Red.png" class="scen_sq_token" /> instead.',
-      ruleseven_title: " Rock Slides:",
-      ruleseven_text: 'A character can move into a rock
+      special_rules: '<p><span class="special_title">Olivia:</span>
+        Use the Princess model to represent Olivia on the game board. Olivia is
+        unconscious, counts as an object th encumbrance value of 6, and can be
+        picked up by a hero by performing a simple manipulation. That hero takes
+        the token <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ThalisToken.png"
+        class="scen_token"> and places it next to their character sheet. Olivia
+        has one life point and no armor. She dies if she suffers any damage (such as
+        an area attack). If she dies, the side which killed her immediately loses
+        the game.</p>
+
+        <p><span class="special_title">Olivia’s Cell:</span>
+        The <a class="tile" href="/tile/2">Captain</a> is Arbanus of Koth. When
+        Arbanus dies, place a <a class="item" href="/items/30">Key</a> in the
+        area in which he died. If a hero is in an area adjacent to the door to
+        Olivia’s cell and has a <a class="item" href="/items/30">Key</a>, the
+        hero can perform a simple Manipulation to remove the door from the board.</p>
+
+        <p><span class="special_title">Conan’s Cell:</span>
+        A hero in an area adjacent to the door to Conan’s cell can perform a
+        complex Manipulation with a difficulty of 2 to pick the lock. If the
+        hero succeeds, remove the door from the board.</p>
+
+        <p><span class="special_title">Doors:</span>
+        A character other than a <a class="tile" href="/tiles/41">Hyena</a> can
+        move across a door (except the door to Olivia or Conan’s cell) as though
+        it were a border by spending 1 additional movement point. After a
+        character moves across a door, remove that door from the board.</p>
+
+        <p><span class="special_title">Line of Sight:</span>
+        A character in a wall area has line of sight to each ground area within
+        the fort walls. An area in a tower and area outside that tower are
+        within each other’s line of sight only if the areas are adjacent to or
+        in the tower.</p>
+
+        <p><span class="special_title">Leaping from Walls:</span>
+        A character can move across a parapet from a wall area to a ground area
+        as though it were a border. The character rolls
+        <img src="/assets/dice/2 Red.png" class="scen_sq_token" /> for falling
+        damage. If the character has <a class="skill" href="/skills/16">Leap</a>,
+        the character rolls <img src="/assets/dice/Red.png" class="scen_sq_token" />
+        instead.</p>
+
+        <p><span class="special_title">Rock Slides:</span>
+        A character can move into a rock
         <img src="/assets/tokens/rocks.png" class="scen_token" /> slide area
         from an adjacent area. The character must spend 2 extra movement points
-        unless the character has <a class="skill" href="/skills/19">Climb</a>.',
-      ruleeight_title: "Chest:",
-      ruleeight_text: ' During setup, the Overlord places 6 chests on the board
-        as indicated by the setup diagram. The asset deck contains:
+        unless the character has <a class="skill" href="/skills/19">Climb</a>.</p>
+
+        <p><span class="special_title">Chest:</span>
+        During setup, the Overlord places 6 chests on the board as indicated by
+        the setup diagram. The asset deck contains:
         2 <a class="item" href="/items/22">Life Potion</a>,
         2 <a class="item" href="/items/5">Explosive Orb</a>,
         1 <a class="item" href="/items/17">Chain Mail</a>,
-        1 <a class="item" href="/items/4">Crossbow</a>.',
+        1 <a class="item" href="/items/4">Crossbow</a>.</p>',
 
       origin: "Core Game",
       map_ids: [3],
@@ -668,56 +691,62 @@
       tile7: [0],
       tile8: [0],
 
-      ruleone_title: "Interrogation:",
-      ruleone_text: 'A hero in an area with a priest can move 1 gem from their
-        Reserve zone to their Fatigue zone to roll
-        <img src="/assets/dice/Red.png" class="scen_sq_token" />.
-        This roll is not affected by hindering. Resolve one of the following
-        effects based on the number of symbols shown on the die:
-        <br /><br /><strong>0:</strong> The priest resists interrogation; no effect.
-        <br /><br /><strong>1-2:</strong> The priest talks; if the priest can break
-        the curse, the curse is broken. The Overlord informs the hero whether or not
-        the curse is broken. Remove the priest’s token from the board.
-        <br /><br /><strong>3:</strong> The priest dies before talking; if the priest
-        can break the curse, the curse is broken. The Overlord does not inform the
-        hero whether or not the curse is broken. Remove the priest’s token from the board.',
-      ruletwo_title: "Thak’s Fury:",
-      ruletwo_text: 'At the start of turn 12, the Overlord resolves the “Unleashed”
-        event. If Conan enters Thak’s area before the “Unleashed” event has been resolved,
-        immediately resolve it when Conan enters the area.',
-      rulethree_title: "Reinforcements:",
-      rulethree_text: 'After a model is placed in an area with only 1 reinforcement
-        token by reinforcement or an event, remove that token from the board.',
-      rulefour_title: "Walls:",
-      rulefour_text: 'A character with <a class="skill" href="/skills/11">Wall Wrecker</a>
+      special_rules: '<p><span class="special_title">Interrogation:</span>
+        A hero in an area with a priest can move 1 gem from their Reserve zone
+        to their Fatigue zone to roll
+        <img src="/assets/dice/Red.png" class="scen_sq_token" />. This roll is
+        not affected by hindering. Resolve one of the following effects based
+        on the number of symbols shown on the die:
+        <br /><strong>0:</strong> The priest resists interrogation; no effect.
+        <br /><strong>1-2:</strong> The priest talks; if the priest can break
+        the curse, the curse is broken. The Overlord informs the hero whether or
+        not the curse is broken. Remove the priest’s token from the board.
+        <br /><strong>3:</strong> The priest dies before talking; if the
+        priest can break the curse, the curse is broken. The Overlord does not
+        inform the hero whether or not the curse is broken. Remove the priest’s
+        token from the board.</p>
+
+        <p><span class="special_title">Thak’s Fury:</span>
+        At the start of turn 12, the Overlord resolves the “Unleashed” event.
+        If Conan enters Thak’s area before the “Unleashed” event has been
+        resolved, immediately resolve it when Conan enters the area.</p>
+
+        <p><span class="special_title">Reinforcements:</span>
+        After a model is placed in an area with only 1 reinforcement token by
+        reinforcement or an event, remove that token from the board.</p>
+
+        <p><span class="special_title">Walls:</span>
+        A character with <a class="skill" href="/skills/11">Wall Wrecker</a>
         cannot use it to move across an outer wall of the inn or to move between
-        areas of different elevations.',
-      rulefive_title: "Leaping From/Climbing a Balcony:",
-      rulefive_text: 'A character can move across a railing from a balcony area
-        to a ground floor area as though it were a border. The character rolls
-        <img src="/assets/dice/2 Orange.png" class="scen_sq_token" />
-        for falling damage. If the character has
-        <a class="skill" href="/skills/16">Leap</a>, the character rolls
-        <img src="/assets/dice/Orange.png" class="scen_sq_token" /> instead.
-        A character with <a class="skill" href="/skills/19">Climb</a> can move
-        across a railing from a ground floor area to a balcony area by spending 2
-        extra movement points.',
-      rulesix_title: "Leaping From/Climbing a Stairwell:",
-      rulesix_text: 'A character can move across a banister from a stair area to
-        a ground floor area as though it were a border. The character rolls
+        areas of different elevations.</p>
+
+        <p><span class="special_title">Leaping From/Climbing a Balcony:</span>
+        A character can move across a railing from a balcony area to a ground
+        floor area as though it were a border. The character rolls
+        <img src="/assets/dice/2 Orange.png" class="scen_sq_token" /> for falling
+        damage. If the character has <a class="skill" href="/skills/16">Leap</a>,
+        the character rolls <img src="/assets/dice/Orange.png" class="scen_sq_token" />
+        instead. A character with <a class="skill" href="/skills/19">Climb</a>
+        can move across a railing from a ground floor area to a balcony area by
+        spending 2 extra movement points.</p>
+
+        <p><span class="special_title">Leaping From/Climbing a Stairwell:</span>
+        A character can move across a banister from a stair area to a ground
+        floor area as though it were a border. The character rolls
         <img src="/assets/dice/2 Yellow.png" class="scen_sq_token" />
         for falling damage.
         If the character has <a class="skill" href="/skills/16">Leap</a>, the
         character rolls <img src="/assets/dice/Yellow.png" class="scen_sq_token" />
         instead. A character with <a class="skill" href="/skills/19">Climb</a>
         can move across a banister from a ground floor area to a stair area by
-        spending 1 extra movement point.',
-      ruleseven_title: "Chests:",
-      ruleseven_text: 'During setup, the Overlord places 6 chests on the board as
-        indicated by the setup diagram. The asset deck contains:
+        spending 1 extra movement point.</p>
+
+        <p><span class="special_title">Chests:</span>
+        During setup, the Overlord places 6 chests on the board as indicated by
+        the setup diagram. The asset deck contains:
         3 <a class="item" href="/items/22">Life Potion</a>,
         2 <a class="item" href="/items/5">Explosive Orb</a>,
-        1 <a class="item" href="/items/23">Empty Chest</a>.',
+        1 <a class="item" href="/items/23">Empty Chest</a>.</p>',
 
       origin: "Core Game",
       map_ids: [4],
@@ -800,31 +829,33 @@
       tile7: [0],
       tile8: [0],
 
-      ruleone_title: "Mutineering Pirates:",
-      ruleone_text: 'Pirate models with red bases are mutineering Pirates, and
-        are considered allies. Mutineering Pirates cannot be activated using
-        Leadership. Once per hero turn, the heroes can activate all mutineering
-        pirates. Mutineering pirates move and attack like a unit group.',
-      ruletwo_title: "With me!:",
-      ruletwo_text: 'At the start of the heroes’ turn, Conan rolls
+      special_rules: '<p><span class="special_title">Mutineering Pirates:</span>
+        Pirate models with red bases are mutineering Pirates, and are considered
+        allies. Mutineering Pirates cannot be activated using Leadership. Once
+        per hero turn, the heroes can activate all mutineering pirates.
+        Mutineering pirates move and attack like a unit group.</p>
+
+        <p><span class="special_title">With me!:</span>
+        At the start of the heroes’ turn, Conan rolls
         <img src="/assets/dice/Yellow.png" class="scen_sq_token" />.
         For each symbol shown on the die, place 1 mutineering Pirate model in
         Conan’s area. If Conan’s area is occupied, place the mutineering pirates
         in an adjacent area. There can be no more than 5 mutineering Pirates on
-        the board at a time.',
-      rulethree_title: "Navigation:",
-      rulethree_text: 'If a hero is in a mast area or the poop deck area, there
-        are more heroes and allies than units in that area, and no ally has attacked
-        this turn, that hero can perform a simple Manipulation to move the turn marker
-        1 space toward space 6. If the hero does, allies
-        cannot attack that turn. Each hero can move the turn marker once per turn
-        per mast or poop deck area.',
-      rulefour_title: "Chests:",
-      rulefour_text: 'During setup, the Overlord places 4 chests on the board as
-        indicated by the setup diagram. The asset deck contains:
+        the board at a time.</p>
+
+        <p><span class="special_title">Navigation:</span>
+        If a hero is in a mast area or the poop deck area, there are more heroes
+        and allies than units in that area, and no ally has attacked this turn,
+        that hero can perform a simple Manipulation to move the turn marker 1
+        space toward space 6. If the hero does, allies cannot attack that turn.
+        Each hero can move the turn marker once per turn per mast or poop deck area.</p>
+
+        <p><span class="special_title">Chests:</span>
+        During setup, the Overlord places 4 chests on the board as indicated by
+        the setup diagram. The asset deck contains:
         2 <a class="item" href="/items/22">Life Potion</a>,
         1 <a class="item" href="/items/5">Explosive Orb</a>,
-        1 <a class="item" href="/items/4">Crossbow</a>',
+        1 <a class="item" href="/items/4">Crossbow</a></p>',
 
       origin: "Core Game", map_ids: [2], hero_ids: [2, 3],
       tile_ids: [35, 36, 1, 57, 2], spell_ids: [],
@@ -876,22 +907,23 @@
       tile7: [0],
       tile8: [0],
 
-      ruleone_title: "Leap:",
-      ruleone_text: 'If a hero or Zaporavo fails to <a class="skill" href="/skills/16">Leap</a>,
+      special_rules: '<p><span class="special_title">Leap:</span>
+        If a hero or Zaporavo fails to <a class="skill" href="/skills/16">Leap</a>,
         the character remains in its area. If a minion or ally fails to
         <a class="skill" href="/skills/16">Leap</a>, the character falls in the
-        water and is eaten by sharks; the character dies.',
-      ruletwo_title: "Ballista Fire:",
-      ruletwo_text: 'Heroes in an area with a ballista facing The Vandal can use
-        that ballista once per hero turn if the total number of heroes and allies in
-        the area is higher than the number of units in the area and no ally in the
-        area has attacked that turn.
-        To use a ballista, each hero in the ballista’s area moves 1 gem from their
-        Reserve zone to their Manipulation space, then 1 hero in the area rolls
+        water and is eaten by sharks; the character dies.</p>
+
+        <p><span class="special_title">Ballista Fire:</span>
+        Heroes in an area with a ballista facing The Vandal can use that ballista
+        once per hero turn if the total number of heroes and allies in the area
+        is higher than the number of units in the area and no ally in the area
+        has attacked that turn. To use a ballista, each hero in the ballista’s
+        area moves 1 gem from their Reserve zone to their Manipulation space,
+        then 1 hero in the area rolls
         <img src="/assets/dice/Red.png" class="scen_sq_token" /> . All heroes in
-        the area can perform Rerolls as though they rolled the die.
-        Move the turn marker 1 space toward space 8 for each symbol shown on the
-        die, and no ally in the area can attack that turn',
+        the area can perform Rerolls as though they rolled the die. Move the turn
+        marker 1 space toward space 8 for each symbol shown on the die, and no
+        ally in the area can attack that turn.</p>',
 
       origin: "Core Game",
       map_ids: [2],
@@ -983,75 +1015,82 @@
       tile7: [0],
       tile8: [0],
 
-      ruleone_title: "Recovering Equipment:",
-      ruleone_text: 'A hero can search a numbered area by performing a complex
-        Manipulation with a difficulty of 1. If the hero succeeds and that hero’s
-        starting equipment is assigned to the area, the hero takes those equipment
-        cards and discards the facedown token to the game box.',
-      ruletwo_title: "Freedom:",
-      ruletwo_text: 'A hero in an area adjacent to the door to area 11 can perform
-        a complex Manipulation with a difficulty of 5 to pick the lock.
-        If the hero succeeds, remove the door from the board.',
-      rulethree_title: "Hidden in the shadows:",
-      rulethree_text: 'At night, the heroes take advantage of the darkness and
-        the drowsiness of their jailers;
-        if the alarm has not been raised:<br />
+      special_rules: '<p><span class="special_title">Recovering Equipment:</span>
+        A hero can search a numbered area by performing a complex Manipulation
+        with a difficulty of 1. If the hero succeeds and that hero’s starting
+        equipment is assigned to the area, the hero takes those equipment cards
+        and discards the facedown token to the game box.</p>
+
+        <p><span class="special_title">Freedom:</span>
+        A hero in an area adjacent to the door to area 11 can perform a complex
+        Manipulation with a difficulty of 5 to pick the lock. If the hero
+        succeeds, remove the door from the board.</p>
+
+        <p><span class="special_title">Hidden in the shadows:</span>
+        At night, the heroes take advantage of the darkness and the drowsiness
+        of their jailers; if the alarm has not been raised:<br />
           • Characters cannot perform Ranged attacks.<br />
           • The Overlord cannot use benefits.<br />
           • The Overlord can activate only 1 tile during their turn.<br />
           • When a minion dies, lay the minion’s model down in the model’s area
           instead of removing the model from the board. If a hero is in an area
-          with a dead minion and there are no living enemy characters in the area,
-          the hero can perform a simple Manipulation to remove a dead minion’s
-          model from the board.',
-      rulefour_title: "Alarm!:",
-      rulefour_text: 'The alarm is raised if any of the following occurs:<br />
-        • A character uses <a class="skill" href="/skills/11">Wall Wrecker</a> or
-        an <a class="item" href="/items/5">Explosive Orb</a>.<br />
-        • At the beginning of the Overlord’s turn, if a unit is in an area with a
-        dead minion or a hero.<br />
+          with a dead minion and there are no living enemy characters in the
+          area, the hero can perform a simple Manipulation to remove a dead
+          minion’s model from the board.</p>
+
+        <p><span class="special_title">Alarm!:</span>
+        The alarm is raised if any of the following occurs:<br />
+        • A character uses <a class="skill" href="/skills/11">Wall Wrecker</a>
+        or an <a class="item" href="/items/5">Explosive Orb</a>.<br />
+        • At the beginning of the Overlord’s turn, if a unit is in an area with
+        a dead minion or a hero.<br />
         • At the end of turn 4.
-        When the alarm is raised, the Overlord removes all dead character’s models
-        from the board and places 5 Bossonian Guard models with green bases in the
-        entrance area. The Overlord places the green Bossonian Guards tile on the
-        left in the River, sliding tiles to the right as needed, and replaces the
-        recovery token in the book of Skelos with the recovery token showing a
-        recovery value of “5.”',
-      rulefive_title: "Breakout:",
-      rulefive_text: 'When a hero opens the last chest on the board, that hero
-        takes a <a class="item" href="/items/29">Tools</a> card. A hero with Tools
-        in an area with a window can perform a complex Manipulation with a difficulty
+        When the alarm is raised, the Overlord removes all dead character’s
+        models from the board and places 5 Bossonian Guard models with green
+        bases in the entrance area. The Overlord places the green Bossonian
+        Guards tile on the left in the River, sliding tiles to the right as
+        needed, and replaces the recovery token in the book of Skelos with the
+        recovery token showing a recovery value of “5.”</p>
+
+        <p><span class="special_title">Breakout:</span>
+        When a hero opens the last chest on the board, that hero takes a
+        <a class="item" href="/items/29">Tools</a> card. A hero with Tools in an
+        area with a window can perform a complex Manipulation with a difficulty
         of 3. If the hero succeeds, the <a class="item" href="/items/29">Tools</a>
         card is discarded and the heroes’ area becomes an exit. A hero in an exit
         area can spend 1 movement point to escape the inn; that hero removes their
-        figure from the board.',
-      rulesix_title: "Walls:",
-      rulesix_text: 'A character with <a class="skill" href="/skills/11">Wall Wrecker</a>
+        figure from the board.</p>
+
+        <p><span class="special_title">Walls:</span>
+        A character with <a class="skill" href="/skills/11">Wall Wrecker</a>
         cannot use it to move across an outer wall of the inn or to move between
-        areas of different elevations.',
-      ruleseven_title: "Leaping From/Climbing a Balcony:",
-      ruleseven_text: 'A character can move across a railing from a balcony area
-        to a ground floor area as though it were a border. The character rolls
+        areas of different elevations.</p>
+
+        <p><span class="special_title">Leaping From/Climbing a Balcony:</span>
+        A character can move across a railing from a balcony area to a ground
+        floor area as though it were a border. The character rolls
         <img src="/assets/dice/2 Orange.png" class="scen_sq_token" /> for falling
         damage. If the character has <a class="skill" href="/skills/16">Leap</a>, the
         character rolls <img src="/assets/dice/Orange.png" class="scen_sq_token" />
         instead. A character with <a class="skill" href="/skills/19">Climb</a> can
         move across a railing from a ground floor area to a balcony area by spending
-        2 extra movement points.',
-      ruleeight_title: "Leaping From/Climbing a Stairwell:",
-      ruleeight_text: 'A character can move across a banister from a stair area
-        to a ground floor area as though it were a border. The character rolls
-        <img src="/assets/dice/2 Yellow.png" class="scen_sq_token" /> for falling damage.
-        If the character has <a class="skill" href="/skills/16">Leap</a>, the character
-        rolls <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> instead.
-        A character with <a class="skill" href="/skills/19">Climb</a> can move
-        across a banister from a ground floor area to a stair area by spending 1
-        extra movement point.',
-      rulenine_title: "Chests:",
-      rulenine_text: 'During setup, the Overlord places 4 chests on the board as
-        indicated by the setup diagram. The asset deck contains:
+        2 extra movement points.</p>
+
+        <p><span class="special_title">Leaping From/Climbing a Stairwell:</span>
+        A character can move across a banister from a stair area to a ground
+        floor area as though it were a border. The character rolls
+        <img src="/assets/dice/2 Yellow.png" class="scen_sq_token" /> for falling
+        damage. If the character has <a class="skill" href="/skills/16">Leap</a>,
+        the character rolls <img src="/assets/dice/Yellow.png" class="scen_sq_token" />
+        instead. A character with <a class="skill" href="/skills/19">Climb</a>
+        can move across a banister from a ground floor area to a stair area by
+        spending 1 extra movement point.</p>
+
+        <p><span class="special_title">Chests:</span>
+        During setup, the Overlord places 4 chests on the board as indicated by
+        the setup diagram. The asset deck contains:
         2 <a class="item" href="/items/22">Life Potion</a>,
-        2 <a class="item" href="/items/5">Explosive Orb</a>.',
+        2 <a class="item" href="/items/5">Explosive Orb</a>.</p>',
 
       origin: "Core Game",
       map_ids: [4],
@@ -1151,72 +1190,76 @@
       tile7: [0],
       tile8: [0],
 
-      ruleone_title: "Search:",
-      ruleone_text: 'A hero in a hut area can perform a complex Manipulation to
-        search the hut. The manipulation has no difficulty; instead, for each
-        symbol shown on the die, the hero takes 1 facedown card in the area:
+      special_rules: '<p><span class="special_title">Search:</span>
+        A hero in a hut area can perform a complex Manipulation to search the
+        hut. The manipulation has no difficulty; instead, for each symbol shown
+        on the die, the hero takes 1 facedown card in the area:
         • If the card is an asset, the hero turns it faceup.
         • If the card is an objective, all heroes can look at it. The heroes
-        decide whether to discard the card faceup or keep the card facedown.',
-      ruletwo_title: "Burn Everything:",
-      ruletwo_text: 'When a Pict Warrior, Pict Hunter, or Zogar Sag is activated,
-        if that unit is adjacent to a hut area with no hero in it, the Overlord
-        may spend the movement points from the unit’s movement value to attempt
+        decide whether to discard the card faceup or keep the card facedown.</p>
+
+        <p><span class="special_title">Burn Everything:</span>
+        When a Pict Warrior, Pict Hunter, or Zogar Sag is activated, if that
+        unit is adjacent to a hut area with no hero in it, the Overlord may
+        spend the movement points from the unit’s movement value to attempt
         to light that hut on fire; the Overlord rolls
         <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> .
         The Overlord adds 1 flame to that hut for each symbol shown on the die;
-        use flame tokens to track the flames in an area. An area cannot have more
-        than 3 flames in it.
-        At the beginning of the hero turn, each hut area with 1 or more heroes and
-        1 or more flames in it burns; 1 hero in the area rolls
-        <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> for each flame
-        in that area. The dice cannot be rerolled.
-        Then each hero in that area suffers damage equal to the number of symbols
-        shown on the dice.
-        When a third flame is added to a hut area, discard all facedown cards in
-        that area without revealing them. Characters cannot enter an area with 3
-        flames in it.',
-      rulethree_title: "Hut Flaps:",
-      rulethree_text: 'A character must spend 1 extra movement point to move
-        across a border into or out of a hut. Moving across an opening token does
-        not cost an extra movement point.',
-      rulefour_title: "Wooden Huts:",
-      rulefour_text: 'A character with <a class="skill" href="/skills/11">Wall Wrecker</a>
-        can use it to move across the wall of one of the wooden huts.',
-      rulefive_title: "Climbing:",
-      rulefive_text: 'A character with <a class="skill" href="/skills/19">Climb</a>
+        use flame tokens to track the flames in an area. An area cannot have
+        more than 3 flames in it. At the beginning of the hero turn, each hut
+        area with 1 or more heroes and 1 or more flames in it burns; 1 hero in
+        the area rolls <img src="/assets/dice/Yellow.png" class="scen_sq_token" />
+        for each flame in that area. The dice cannot be rerolled. Then each hero
+        in that area suffers damage equal to the number of symbols shown on the
+        dice. When a third flame is added to a hut area, discard all facedown
+        cards in that area without revealing them. Characters cannot enter an
+        area with 3 flames in it.</p>
+
+        <p><span class="special_title">Hut Flaps:</span>
+        A character must spend 1 extra movement point to move across a border
+        into or out of a hut. Moving across an opening token does not cost an
+        extra movement point.</p>
+
+        <p><span class="special_title">Wooden Huts:</span>
+        A character with <a class="skill" href="/skills/11">Wall Wrecker</a>
+        can use it to move across the wall of one of the wooden huts.</p>
+
+        <p><span class="special_title">Climbing:</span>
+        A character with <a class="skill" href="/skills/19">Climb</a>
         can move across boulders <img src="/assets/tokens/rocks.png" class="scen_token" />
-        as though they were a border by spending
-        2 extra movement points.',
-      rulesix_title: "Scoring:",
-      rulesix_text: 'At the end of the game, players reveal all facedown
-        objective cards they kept. The heroes and the Overlord score points based
-        on each kept objective card:
-        <br /><br /><strong>Card A:</strong> The heroes score 2 points if a hero
+        as though they were a border by spending 2 extra movement points.</p>
+
+        <p><span class="special_title">Scoring:</span>
+        At the end of the game, players reveal all facedown objective cards they
+        kept. The heroes and the Overlord score points based on each kept
+        objective card:
+        <br /><strong>Card A:</strong> The heroes score 2 points if a hero
         fled from the upper-leftmost road area.
         <br />The Overlord scores 3 points if no hero fled from the upper-leftmost
         road area.
-        <br /><br /><strong>Card B:</strong> The heroes score 2 points if there are
-        fewer than 3 flames in hut 5.
+        <br /><strong>Card B:</strong> The heroes score 2 points if there
+        are fewer than 3 flames in hut 5.
         <br />The Overlord scores 2 points if there are 3 flames in hut 5.
-        <br /><br /><strong>Card C:</strong> The heroes score 1 point for each hero
-        who has fled.
+        <br /><strong>Card C:</strong> The heroes score 1 point for each
+        hero who has fled.
         <br />The Overlord scores 2 points for each hero on the board.
-        <br /><br /><strong>Card D:</strong> The heroes score 4 points if Zogar
+        <br /><strong>Card D:</strong> The heroes score 4 points if Zogar
         Sag is dead.
         <br />The Overlord scores 2 points if Zogar Sag is alive.
-        <br /><br /><strong>Card E:</strong> The heroes score 2 points if a hero
+        <br /><strong>Card E:</strong> The heroes score 2 points if a hero
         fled with the Idol of Yag-Kosha.
-        <br />The Overlord scores 4 points if no hero fled with the Idol of Yag-Kosha.',
-      ruleseven_title: "Fleeing the Village:",
-      ruleseven_text: 'A hero can flee the village from an area at the edge of
-        the board by spending movement points as though the hero were moving across
-        a border and removing the hero’s model from the board.
-        Once a hero has fled, the hero’s model cannot be returned to the board.',
-      ruleeight_title: "Pictish Drink:",
-      ruleeight_text: 'A hero may discard this <a class="item" href="/items/45">item</a>
-        to move 2 gems from their Fatigue zone to their Reserve zone but must also
-        suffer 1 wound.',
+        <br />The Overlord scores 4 points if no hero fled with the Idol of Yag-Kosha.</p>
+
+        <p><span class="special_title">Fleeing the Village:</span>
+        A hero can flee the village from an area at the edge of the board by
+        spending movement points as though the hero were moving across a border
+        and removing the hero’s model from the board. Once a hero has fled, the
+        hero’s model cannot be returned to the board.</p>
+
+        <p><span class="special_title">Pictish Drink:</span>
+        A hero may discard this <a class="item" href="/items/45">item</a>
+        to move 2 gems from their Fatigue zone to their Reserve zone but must
+        also suffer 1 wound.</p>',
 
       origin: "King Pledge",
       map_ids: [1],
@@ -1288,51 +1331,57 @@
       tile7: [2, 5],
       tile8: [35],
 
-      ruleone_title: "Red Chest:",
-      ruleone_text: 'A hero in the red chest’s area with a <a class="item" href="/items/30">Key</a>
+      special_rules: '<p><span class="special_title">Red Chest:</span>
+        A hero in the red chest’s area with a <a class="item" href="/items/30">Key</a>
         can perform a simple Manipulation to open the chest. The chest cannot
         otherwise be opened, and is considered an object with an encumbrance of 5.
         When a hero opens the chest, the hero takes a <a class="item" href="/items/31">Spellbook</a>
-        instead of a card from the asset deck.',
-      ruletwo_title: "Walls:",
-      ruletwo_text: 'A character with <a class="skill" href="/skills/11">Wall Wrecker</a>
+        instead of a card from the asset deck.</p>
+
+        <p><span class="special_title">Walls:</span>
+        A character with <a class="skill" href="/skills/11">Wall Wrecker</a>
         cannot use it to move across an outer wall of the inn or to move between
-        areas of different elevations.',
-      rulethree_title: "Leaping From/Climbing a Balcony:",
-      rulethree_text: 'A character can move across a railing from a balcony area
-        to a ground floor area as though it were a border. The character rolls
+        areas of different elevations.</p>
+
+        <p><span class="special_title">Leaping From/Climbing a Balcony:</span>
+        A character can move across a railing from a balcony area to a ground
+        floor area as though it were a border. The character rolls
         <img src="/assets/dice/2 Orange.png" class="scen_sq_token" /> for falling
         damage. If the character has <a class="skill" href="/skills/16">Leap</a>,
         the character rolls <img src="/assets/dice/Orange.png" class="scen_sq_token" />
         instead. A character with <a class="skill" href="/skills/19">Climb</a> can
         move across a railing from a ground floor area to a balcony area by spending
-        2 extra movement points.',
-      rulefour_title: "Leaping From/Climbing a Stairwell:",
-      rulefour_text: 'A character can move across a banister from a stair area
-        to a ground floor area as though it were a border. The character rolls
+        2 extra movement points.</p>
+
+        <p><span class="special_title">Leaping From/Climbing a Stairwell:</span>
+        A character can move across a banister from a stair area to a ground
+        floor area as though it were a border. The character rolls
         <img src="/assets/dice/2 Yellow.png" class="scen_sq_token" /> for falling
         damage. If the character has <a class="skill" href="/skills/16">Leap</a>,
         the character rolls <img src="/assets/dice/Yellow.png" class="scen_sq_token" />
         instead. A character with <a class="skill" href="/skills/19">Climb</a> can
         move across a banister from a ground floor area to a stair area by spending
-        1 extra movement point.',
-      rulefive_title: "Table:",
-      rulefive_text: 'A character in an area with an empty table can move onto
-        that table by spending 1 movement point. A character on a table rolls an
-        extra <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> for Melee
-        and Ranged Attacks',
-      rulesix_title: "Chair:",
-      rulesix_text: ' When a character performs a Melee Attack, the character
-        may remove a chair token in the character’s area from the board to roll an
-        extra <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> for that attack.',
-      ruleseven_title: "Chests:",
-      ruleseven_text: 'During setup, the Overlord places 6 chests on the board
-        as indicated by the setup diagram. The asset deck contains:
+        1 extra movement point.</p>
+
+        <p><span class="special_title">Table:</span>
+        A character in an area with an empty table can move onto that table by
+        spending 1 movement point. A character on a table rolls an extra
+        <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> for Melee
+        and Ranged Attacks</p>
+
+        <p><span class="special_title">Chair:</span>
+        When a character performs a Melee Attack, the character may remove a
+        chair token in the character’s area from the board to roll an extra
+        <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> for that attack.</p>
+
+        <p><span class="special_title">Chests:</span>
+        During setup, the Overlord places 6 chests on the board as indicated by
+        the setup diagram. The asset deck contains:
         1 <a class="item" href="/items/30">Key</a>,
         1 <a class="item" href="/items/5">Explosive Orb</a>,
         1 <a class="item" href="/items/22">Life Potion</a>,
         1 <a class="item" href="/items/16">Leather Armor</a>,
-        1 <a class="item" href="/items/23">Empty Chest</a>.',
+        1 <a class="item" href="/items/23">Empty Chest</a>.</p>',
 
       origin: "King Pledge",
       map_ids: [4],
@@ -1423,43 +1472,47 @@
       tile7: [66],
       tile8: [71],
 
-      ruleone_title: "Doors:",
-      ruleone_text: 'A hero in an area adjacent to the red door can perform a
-        complex Manipulation with a difficulty of 5 to pick the lock. If the hero
-        succeeds, remove the door from the board.
-        A hero in an area adjacent to a non-red door can perform a complex
-        Manipulation with a difficulty of 2 to pick the lock. If the hero succeeds,
-        remove the door from the board.',
-      ruletwo_title: "Walls:",
-      ruletwo_text: 'A character with <a class="skill" href="/skills/11">Wall Wrecker</a>
+      special_rules: '<p><span class="special_title">Doors:</span>
+        A hero in an area adjacent to the red door can perform a complex
+        Manipulation with a difficulty of 5 to pick the lock. If the hero
+        succeeds, remove the door from the board. A hero in an area adjacent to
+        a non-red door can perform a complex Manipulation with a difficulty of
+        2 to pick the lock. If the hero succeeds, remove the door from the board.</p>
+
+        <p><span class="special_title">Walls:</span>
+        A character with <a class="skill" href="/skills/11">Wall Wrecker</a>
         cannot use it to move across an outer wall of the inn or to move between
-        areas of different elevations.',
-      rulethree_title: "Leaping From/Climbing a Balcony:",
-      rulethree_text: 'A character can move across a railing from a balcony area
-        to a ground floor area as though it were a border. The character rolls
+        areas of different elevations.</p>
+
+        <p><span class="special_title">Leaping From/Climbing a Balcony:</span>
+        A character can move across a railing from a balcony area to a ground
+        floor area as though it were a border. The character rolls
         <img src="/assets/dice/2 Orange.png" class="scen_sq_token" /> for falling
         damage. If the character has <a class="skill" href="/skills/16">Leap</a>,
         the character rolls <img src="/assets/dice/Orange.png" class="scen_sq_token" />
         instead. A character with <a class="skill" href="/skills/19">Climb</a> can
         move across a railing from a ground floor area to a balcony area by spending
-        2 extra movement points.',
-      rulefour_title: "Leaping From/Climbing a Stairwell:",
-      rulefour_text: 'A character can move across a banister from a stair area
-        to a ground floor area as though it were a border. The character rolls
+        2 extra movement points.</p>
+
+        <p><span class="special_title">Leaping From/Climbing a Stairwell:</span>
+        A character can move across a banister from a stair area to a ground
+        floor area as though it were a border. The character rolls
         <img src="/assets/dice/2 Yellow.png" class="scen_sq_token" /> for falling
         damage. If the character has <a class="skill" href="/skills/16">Leap</a>,
         the character rolls <img src="/assets/dice/Yellow.png" class="scen_sq_token" />
         instead. A character with <a class="skill" href="/skills/19">Climb</a> can
-        move across a banister from a ground floor area to a stair area by spending 1 extra movement point.',
-      rulefive_title: "Chests:",
-      rulefive_text: 'During setup, the Overlord places 8 chests on the board as
-        indicated by the setup diagram. The asset deck contains:
+        move across a banister from a ground floor area to a stair area by
+        spending 1 extra movement point.</p>
+
+        <p><span class="special_title">Chests:</span>
+        During setup, the Overlord places 8 chests on the board as indicated by
+        the setup diagram. The asset deck contains:
         2 <a class="item" href="/items/22">Life Potion</a>,
         2 <a class="item" href="/items/3">Javelin</a>,
         1 <a class="item" href="/items/17">Chain Mail</a>,
         1 <a class="item" href="/items/4">Crossbow</a>,
         1 <a class="item" href="/items/19">Buckler</a>,
-        1 <a class="item" href="/items/10">Sword</a>.',
+        1 <a class="item" href="/items/10">Sword</a>.</p>',
 
       origin: "King Pledge",
       map_ids: [4],
@@ -1535,61 +1588,69 @@
       tile7: [30],
       tile8: [51],
 
-      ruleone_title: "Black Lotus:",
-      ruleone_text: 'After setup, lay each Bossonian Guard, Bossonian Archer,
-        and Captain model down in the model’s area. Laid-down models are slumbering.
+      special_rules: '<p><span class="special_title">Black Lotus:</span>
+        After setup, lay each Bossonian Guard, Bossonian Archer, and Captain
+        model down in the model’s area. Laid-down models are slumbering.
         Heroes cannot attack slumbering units, slumbering units do not count for
         hindering, and slumbering units cannot be activated. When the Overlord
         activates a tile, the Overlord may stand up any number of models in that
-        group before activating units.',
-      ruletwo_title: "Crowns of Xuthal:",
-      ruletwo_text: 'The first time a hero takes each <a class="item" href="/items/24">Crown of Xuthal</a>,
-        move the turn marker 1 space toward space 15.',
-      rulethree_title: "Thog:",
-      rulethree_text: 'Once during its activation, Thog can devour 1 friendly
-        character in its area; remove that character’s model from the board and
-        move the energy marker 1 space toward space 15. When Thog attacks a hero,
-        move the energy marker a number of spaces toward space 15 equal to the
-        damage a hero suffers from that attack.',
-      rulefour_title: "Stygian Scepter:",
-      rulefour_text: 'When Thalis performs a Melee Attack, she can attack with
+        group before activating units.</p>
+
+        <p><span class="special_title">Crowns of Xuthal:</span>
+        The first time a hero takes each <a class="item" href="/items/24">Crown of Xuthal</a>,
+        move the turn marker 1 space toward space 15.</p>
+
+        <p><span class="special_title">Thog:</span>
+        Once during its activation, Thog can devour 1 friendly character in its
+        area; remove that character’s model from the board and move the energy
+        marker 1 space toward space 15. When Thog attacks a hero, move the energy
+        marker a number of spaces toward space 15 equal to the damage a hero
+        suffers from that attack.</p>
+
+        <p><span class="special_title">Stygian Scepter:</span>
+        When Thalis performs a Melee Attack, she can attack with
         her <a class="item" href="/items/39">Stygian Scepter</a>, rolling the
         extra die indicated on the <a class="item" href="/items/39">Stygian Scepter’s</a>
         Melee Attack bonus. When a hero suffers damage from Thalis’ attack with a
         <a class="item" href="/items/39">Stygian Scepter</a>, Thog is drawn by the
         hero’s screams; Thog gains up to 1 movement point, which the Overlord must
-        immediately spend.',
-      rulefive_title: "Doors:",
-      rulefive_text: 'A hero in an area adjacent to a door can perform a complex
-        Manipulation with a difficulty of 2 to pick the lock. If the hero succeeds,
-        remove the door from the board. A hero can attack a door as though it were
-        an enemy character. If a door would suffer 5 or more damage from an attack,
-        remove it from the board. Thalis, Bossonian Guards, and the Captain can move
-        across a door as though it were a border.',
-      rulesix_title: "Lines of Sight:",
-      rulesix_text: 'A character in a wall area has line of sight to each ground
-        area within the fortress walls. An area in a tower and an area outside that
-        tower are within each other’s line of sight only if the areas are in or
-        adjacent to the tower.',
-      ruleseven_title: "Leaping from Walls:",
-      ruleseven_text: ' A character can move across a parapet from a wall area
-        to a ground area as though it were a border. The character rolls
+        immediately spend.</p>
+
+        <p><span class="special_title">Doors:</span>
+        A hero in an area adjacent to a door can perform a complex Manipulation
+        with a difficulty of 2 to pick the lock. If the hero succeeds, remove
+        the door from the board. A hero can attack a door as though it were an
+        enemy character. If a door would suffer 5 or more damage from an attack,
+        remove it from the board. Thalis, Bossonian Guards, and the Captain can
+        move across a door as though it were a border.</p>
+
+        <p><span class="special_title">Lines of Sight:</span>
+        A character in a wall area has line of sight to each ground area within
+        the fortress walls. An area in a tower and an area outside that tower
+        are within each other’s line of sight only if the areas are in or
+        adjacent to the tower.</p>
+
+        <p><span class="special_title">Leaping from Walls:</span>
+        A character can move across a parapet from a wall area to a ground area
+        as though it were a border. The character rolls
         <img src="/assets/dice/2 Red.png" class="scen_sq_token" /> for falling
         damage. If the character has <a class="skill" href="/skills/16">Leap</a>,
         the character rolls <img src="/assets/dice/Red.png" class="scen_sq_token" />
-        instead.',
-      ruleeight_title: "Rock Slide:",
-      ruleeight_text: 'A character can move into a rock slide area from an
-        adjacent area. The character must spend 2 extra movement points unless the
-        character has <a class="skill" href="/skills/19">Climb</a>.',
-      rulenine_title: "Chests:",
-      rulenine_text: 'During setup, the Overlord places 8 chests on the board as
-        indicated by the setup diagram. The asset deck contains:
+        instead.</p>
+
+        <p><span class="special_title">Rock Slide:</span>
+        A character can move into a rock slide area from an adjacent area. The
+        character must spend 2 extra movement points unless the character has
+        <a class="skill" href="/skills/19">Climb</a>.</p>
+
+        <p><span class="special_title">Chests:</span>
+        During setup, the Overlord places 8 chests on the board as indicated by
+        the setup diagram. The asset deck contains:
         2 <a class="item" href="/items/24">Crown of Xuthal</a>,
         2 <a class="item" href="/items/22">Life Potion</a>,
         2 <a class="item" href="/items/5">Explosive Orb</a>,
         1 <a class="item" href="/items/17">Chain Mail</a>,
-        1 <a class="item" href="/items/4">Crossbow</a>.',
+        1 <a class="item" href="/items/4">Crossbow</a>.</p>',
 
       origin: "King Pledge",
       map_ids: [3],
@@ -1670,45 +1731,53 @@
       tile7: [2],
       tile8: [0],
 
-      ruleone_title: "Chests:",
-      ruleone_text: 'During setup, the Overlord randomly places 2 (chest) tokens
-        numbered 1 and 2, with their chest side faceup, as indicated by the setup diagram.',
-      ruletwo_title: "Captain’s Key:",
-      ruletwo_text: 'When the Captain dies, place the Key card in the Captain’s area.',
-      rulethree_title: "Opening Chests:",
-      rulethree_text: 'A hero without the Captain’s key can perform a complex
-        Manipulation with a difficulty of 4 to open a chest. A hero with the Captain’s
-        key can perform a simple Manipulation instead. If the hero succeeds, the
-        chest is opened: flip that chest’s token. If the chest is numbered “1”, it
-        contains the spellbook and that hero immediately picks up the Spellbook card.
-        If the chest is numbered “2”, the chest is empty and the token is discarded.',
-      rulefour_title: "Fleeing the Inn:",
-      rulefour_text: 'A hero can flee the inn from one of the outer areas to the
-        south of the board by spending movement points as though the hero were
-        moving across a border and removing the hero’s model from the board. Once
-        a hero has fled, the hero’s model cannot be returned to the board.',
-      rulefive_title: "Walls:",
-      rulefive_text: 'A character with <a class="skill" href="/skills/11">Wall Wrecker</a>
+      special_rules: '<p><span class="special_title">Chests:</span>
+        During setup, the Overlord randomly places 2 (chest) tokens
+        numbered 1 and 2, with their chest side faceup, as indicated by the
+        setup diagram.</p>
+
+        <p><span class="special_title">Captain’s Key:</span>
+        When the Captain dies, place the Key card in the Captain’s area.</p>
+
+        <p><span class="special_title">Opening Chests:</span>
+        A hero without the Captain’s key can perform a complex Manipulation with
+        a difficulty of 4 to open a chest. A hero with the Captain’s key can
+        perform a simple Manipulation instead. If the hero succeeds, the chest
+        is opened: flip that chest’s token. If the chest is numbered “1”, it
+        contains the spellbook and that hero immediately picks up the Spellbook
+        card. If the chest is numbered “2”, the chest is empty and the token is
+        discarded.</p>
+
+        <p><span class="special_title">Fleeing the Inn:</span>
+        A hero can flee the inn from one of the outer areas to the south of the
+        board by spending movement points as though the hero were moving across
+        a border and removing the hero’s model from the board. Once a hero has
+        fled, the hero’s model cannot be returned to the board.</p>
+
+        <p><span class="special_title">Walls:</span>
+        A character with <a class="skill" href="/skills/11">Wall Wrecker</a>
         cannot use it to move across an outer wall of the inn or to move between
-        areas of different elevations.',
-      rulesix_title: "Leaping From/Climbing a Balcony:",
-      rulesix_text: 'A character can move across a railing from a balcony area
-        to a ground floor area as though it were a border. The character rolls
+        areas of different elevations.</p>
+
+        <p><span class="special_title">Leaping From/Climbing a Balcony:</span>
+        A character can move across a railing from a balcony area to a ground
+        floor area as though it were a border. The character rolls
         <img src="/assets/dice/2 Orange.png" class="scen_sq_token" /> for falling
         damage. If the character has <a class="skill" href="/skills/16">Leap</a>,
         the character rolls <img src="/assets/dice/Orange.png" class="scen_sq_token" />
         instead. A character with <a class="skill" href="/skills/19">Climb</a> can
         move across a railing from a ground floor area to a balcony area by spending
-        2 extra movement points.',
-      ruleseven_title: "Leaping From/Climbing a Stairwell:",
-      ruleseven_text: 'A character can move across a banister from a stair area
-        to a ground floor area as though it were a border. The character rolls
+        2 extra movement points.</p>
+
+        <p><span class="special_title">Leaping From/Climbing a Stairwell:</span>
+        A character can move across a banister from a stair area to a ground
+        floor area as though it were a border. The character rolls
         <img src="/assets/dice/2 Yellow.png" class="scen_sq_token" /> for falling
         damage. If the character has <a class="skill" href="/skills/16">Leap</a>,
         the character rolls <img src="/assets/dice/Yellow.png" class="scen_sq_token" />
         instead. A character with <a class="skill" href="/skills/19">Climb</a> can
         move across a banister from a ground floor area to a stair area by spending
-        1 extra movement point.',
+        1 extra movement point.</p>',
 
       origin: "Add-Ons",
       map_ids: [4],
@@ -1800,50 +1869,58 @@
       tile7: [0],
       tile8: [0],
 
-      ruleone_title: "Kushites:",
-      ruleone_text: '<a class="tile" href="/tiles/16">Afari</a>,
+      special_rules: '<p><span class="special_title">Kushites:</span>
+        <a class="tile" href="/tiles/16">Afari</a>,
         <a class="tile" href="/tiles/18">Shafiah</a>,
         <a class="tile" href="/tiles/17">Ghayoor</a> and
-        <a class="tile" href="/tiles/15">Shubba</a> are considered to be Kushite units.',
-      ruletwo_title: "Yag’s Orb:",
-      ruletwo_text: 'Yag’s Orb is represented by the <a class="item" href="/items/27">Stygian Artifact</a>
-        equipment card. It has an encumbrance value of 8. It is made from a mysterious
-        material of incredible density glinting with a strange blue light. A Hero
-        with the Orb card cannot <a class="skill" href="/skills/16">Leap</a> or fall.
-        The Orb cannot be thrown.',
-      rulethree_title: "Doors:",
-      rulethree_text: 'A character other than a Hyena can move across a door as
-        though it were a border by spending 1 additional movement point. After a
-        character moves across a door, remove that door from the board.',
-      rulefour_title: "Fleeing the Fort:",
-      rulefour_text: 'A hero can flee the fort from one of the exit areas marked
-        1 by spending movement points as though the hero were moving across a border
-        and removing the hero’s model from the board. Once a hero has fled, the hero’s
-        model cannot be returned to the board.',
-      rulefive_title: "Line of Sight:",
-      rulefive_text: 'A character in a wall area has line of sight to each ground
-        area within the fortress walls. An area in a tower and an area outside that
-        tower are within each other’s line of sight only if the areas are in or
-        adjacent to the tower.',
-      rulesix_title: "Leaping from Walls:",
-      rulesix_text: 'A character can move across a parapet from a wall area to a
+        <a class="tile" href="/tiles/15">Shubba</a> are considered to be
+        Kushite units.</p>
+
+        <p><span class="special_title">Yag’s Orb:</span>
+        Yag’s Orb is represented by the <a class="item" href="/items/27">Stygian Artifact</a>
+        equipment card. It has an encumbrance value of 8. It is made from a
+        mysterious material of incredible density glinting with a strange blue
+        light. A Hero with the Orb card cannot <a class="skill" href="/skills/16">Leap</a>
+        or fall. The Orb cannot be thrown.</p>
+
+        <p><span class="special_title">Doors:</span>
+        A character other than a Hyena can move across a door as though it were
+        a border by spending 1 additional movement point. After a character
+        moves across a door, remove that door from the board.</p>
+
+        <p><span class="special_title">Fleeing the Fort:</span>
+        A hero can flee the fort from one of the exit areas marked 1 by spending
+        movement points as though the hero were moving across a border and
+        removing the hero’s model from the board. Once a hero has fled, the
+        hero’s model cannot be returned to the board.</p>
+
+        <p><span class="special_title">Line of Sight:</span>
+        A character in a wall area has line of sight to each ground area within
+        the fortress walls. An area in a tower and an area outside that tower
+        are within each other’s line of sight only if the areas are in or
+        adjacent to the tower.</p>
+
+        <p><span class="special_title">Leaping from Walls:</span>
+        A character can move across a parapet from a wall area to a
         ground area as though it were a border. The character rolls
         <img src="/assets/dice/2 Red.png" class="scen_sq_token" /> for falling
         damage. If the character has <a class="skill" href="/skills/16">Leap</a>,
         the character rolls <img src="/assets/dice/Red.png" class="scen_sq_token" />
-        instead.',
-      ruleseven_title: "Rock Slides:",
-      ruleseven_text: 'A character can move into a rock slide area
-        <img src="/assets/tokens/rocks.png" class="scen_token" /> from an adjacent
-        area. The character must spend 2 extra movement points unless the character
-        has <a class="skill" href="/skills/19">Climb</a>.',
-      ruleeight_title: "Chests:",
-      ruleeight_text: 'During setup, the Overlord places 4 chests on the board
-        as indicated by the setup diagram. The asset deck contains:
+        instead.</p>
+
+        <p><span class="special_title">Rock Slides:</span>
+        A character can move into a rock slide area
+        <img src="/assets/tokens/rocks.png" class="scen_token" /> from an
+        adjacent area. The character must spend 2 extra movement points unless
+        the character has <a class="skill" href="/skills/19">Climb</a>.</p>
+
+        <p><span class="special_title">Chests:</span>
+        During setup, the Overlord places 4 chests on the board as indicated by
+        the setup diagram. The asset deck contains:
         1 <a class="item" href="/items/27">Stygian Artifact</a>,
         1  <a class="item" href="/items/22">Life Potion</a>,
         2 <a class="item" href="/items/9">Bossonian Bow</a>, and
-        1 <a class="item" href="/items/13">Tribal Mace</a>.',
+        1 <a class="item" href="/items/13">Tribal Mace</a>.</p>',
 
       origin: "Add-Ons",
       map_ids: [3],
@@ -1912,39 +1989,44 @@
       tile7: [0],
       tile8: [0],
 
-      ruleone_title: "Xuthal’s Crowns:",
-      ruleone_text: 'When Yogah of Yag picks up a <a class="item" href="/items/24">Xuthal’s Crown</a>,
-        place one gem from his Fatigue zone to the <a class="item" href="/items/24">Xuthal’s Crown</a>
-        equipment card. If there are no gems in his Fatigue zone, take a gem from
-        those assigned to action spaces or spell cards.
-        If those are also empty, take a gem from his Reserve zone. As long as this
-        gem is on the <a class="item" href="/items/24">Xuthal’s Crown</a> card, it
-        is no longer available to Yogah of Yag and thus no longer counts toward his
-        life point total.
-        If Yogah of Yag drops the <a class="item" href="/items/24">Xuthal’s Crown</a>,
-        move the gem to his Fatigue zone.',
-      ruletwo_title: "Hut Flaps:",
-      ruletwo_text: 'A character must spend 1 extra movement point to move across
-        a border into or out of a hut. The hut flaps at the en- trance of each hut
-        block line of sight.',
-      rulethree_title: "Climbing:",
-      rulethree_text: 'A character with <a class="skill" href="/skills/19">Climb</a>
-        can move across boulders <img src="/assets/tokens/rocks.png" class="scen_token" />
-        as though they were a border by spending 2 extra movement points.',
-      rulefour_title: "Wooden Huts:",
-      rulefour_text: 'A character with <a class="skill" href="/skills/11">Wall Wrecker</a>
-        can use it to move across the wall of one of the wooden huts.',
-      rulefive_title: "Fleeing the Village:",
-      rulefive_text: 'A hero can flee the village from one of the three village
-        entrance areas (northwest, southwest and east) by spending movement points
-        as though the hero was moving across a border. The hero’s model is then
-        removed from the board. Once a hero has fled, the hero’s model cannot be
-        returned to the board.',
-      rulesix_title: "Chests:",
-      rulesix_text: 'During setup, the Overlord places 4 chests on the board as
-        indicated by the setup diagram. The asset deck contains
+      special_rules: '<p><span class="special_title">Xuthal’s Crowns:</span>
+        When Yogah of Yag picks up a <a class="item" href="/items/24">Xuthal’s Crown</a>,
+        place one gem from his Fatigue zone to the
+        <a class="item" href="/items/24">Xuthal’s Crown</a> equipment card. If
+        there are no gems in his Fatigue zone, take a gem from those assigned to
+        action spaces or spell cards. If those are also empty, take a gem from
+        his Reserve zone. As long as this gem is on the
+        <a class="item" href="/items/24">Xuthal’s Crown</a> card, it is no longer
+        available to Yogah of Yag and thus no longer counts toward his life point
+        total. If Yogah of Yag drops the <a class="item" href="/items/24">Xuthal’s Crown</a>,
+        move the gem to his Fatigue zone.</p>
+
+        <p><span class="special_title">Hut Flaps:</span>
+        A character must spend 1 extra movement point to move across
+        a border into or out of a hut. The hut flaps at the entrance of each hut
+        block line of sight.</p>
+
+        <p><span class="special_title">Climbing:</span>
+        A character with <a class="skill" href="/skills/19">Climb</a> can move
+        across boulders <img src="/assets/tokens/rocks.png" class="scen_token" />
+        as though they were a border by spending 2 extra movement points.</p>
+
+        <p><span class="special_title">Wooden Huts:</span>
+        A character with <a class="skill" href="/skills/11">Wall Wrecker</a>
+        can use it to move across the wall of one of the wooden huts.</p>
+
+        <p><span class="special_title">Fleeing the Village:</span>
+        A hero can flee the village from one of the three village entrance areas
+        (northwest, southwest and east) by spending movement points as though
+        the hero was moving across a border. The hero’s model is then removed
+        from the board. Once a hero has fled, the hero’s model cannot be
+        returned to the board.</p>
+
+        <p><span class="special_title">Chests:</span>
+        During setup, the Overlord places 4 chests on the board as indicated by
+        the setup diagram. The asset deck contains
         2 <a class="item" href="/items/22">Life Potions</a> and
-        2 <a class="item" href="/items/24">Xuthal’s Crowns</a>.',
+        2 <a class="item" href="/items/24">Xuthal’s Crowns</a>.</p>',
 
       origin: "Add-Ons",
       map_ids: [1],
@@ -2026,45 +2108,48 @@
       tile7: [0],
       tile8: [0],
 
-      ruleone_title: "Artifacts:",
-      ruleone_text: 'During setup, the Overlord places the artifacts, represented
+      special_rules: '<p><span class="special_title">Artifacts:</span>
+        During setup, the Overlord places the artifacts, represented
         by the tokens, as indicated by the setup diagram. A Kushite
         (<a class="tile" href="/tiles/16">Afari</a>,
-          <a class="tile" href="/tiles/17">Ghayor</a>,
-          <a class="tile" href="/tiles/18">Shafiah</a> and
-          <a class="tile" href="/tiles/15">Shubba</a>) in an artifact’s area may
-          perform a Melee Attack and roll at least 2 symbols in a single attack to
-          destroy that artifact.
-        This Melee Attack follows the same rules as any Melee Attack
+        <a class="tile" href="/tiles/17">Ghayor</a>,
+        <a class="tile" href="/tiles/18">Shafiah</a> and
+        <a class="tile" href="/tiles/15">Shubba</a>) in an artifact’s area may
+        perform a Melee Attack and roll at least 2 symbols in a single attack
+        to destroy that artifact. This Melee Attack follows the same rules as
+        any Melee Attack
         (<a class="skill" href="/skills/29">Sacrifice</a>,
-          <a class="skill" href="/skills/4">Circular Strike</a>, etc.) and
-          <a class="tile" href="/tiles/94">Bêlit’s Guards</a> can use
-          <a class="skill" href="/skills/29">Sacrifice</a> to defend the artifacts.',
-      ruletwo_title: "Crowd Control:",
-      ruletwo_text: 'The Overlord activates up to two
-        <a class="tile" href="/tiles/94">Bêlit’s Guards</a> as if they were units.
-        During these activations, the Overlord follows all rules regarding unit
-        tile activation (movement, attack etc.) and can use benefits. The Overlord
-        cannot use <a class="skill" href="/skills/16">Leap</a> with a
-        <a class="tile" href="/tiles/94">Bêlit’s Guard</a> model to
-        <a class="skill" href="/skills/16">Leap</a> from the walls.',
-      rulethree_title: "Lines of Sight:",
-      rulethree_text: 'A character in a wall area has line of sight to each
-        ground area within the fortress walls. An area in a tower and an area
-        outside that tower are within each other’s line of sight only if the areas
-        are in or adjacent to the tower.',
-      rulefour_title: "Leaping from Walls:",
-      rulefour_text: 'A character can move across a parapet from a wall area to
+        <a class="skill" href="/skills/4">Circular Strike</a>, etc.) and
+        <a class="tile" href="/tiles/94">Bêlit’s Guards</a> can use
+        <a class="skill" href="/skills/29">Sacrifice</a> to defend the artifacts.</p>
+
+        <p><span class="special_title">Crowd Control:</span>
+        The Overlord activates up to two <a class="tile" href="/tiles/94">Bêlit’s Guards</a>
+        as if they were units. During these activations, the Overlord follows
+        all rules regarding unit tile activation (movement, attack etc.) and
+        can use benefits. The Overlord cannot use <a class="skill" href="/skills/16">Leap</a>
+        with a <a class="tile" href="/tiles/94">Bêlit’s Guard</a> model to
+        <a class="skill" href="/skills/16">Leap</a> from the walls.</p>
+
+        <p><span class="special_title">Lines of Sight:</span>
+        A character in a wall area has line of sight to each ground area
+        within the fortress walls. An area in a tower and an area outside
+        that tower are within each other’s line of sight only if the areas
+        are in or adjacent to the tower.</p>
+
+        <p><span class="special_title">Leaping from Walls:</span>
+        A character can move across a parapet from a wall area to
         a ground area as though it were a border. The character rolls
         <img src="/assets/dice/2 Red.png" class="scen_sq_token" /> for falling
         damage. If the character has <a class="skill" href="/skills/16">Leap</a>,
         the character rolls <img src="/assets/dice/Red.png" class="scen_sq_token" />
-        instead.',
-      rulefive_title: "Rock Slides:",
-      rulefive_text: 'A character can move into a rock slide area
-        <img src="/assets/tokens/rocks.png" class="scen_token" /> from an adjacent
-        area. The character must spend 2 extra movement points unless the character
-        has <a class="skill" href="/skills/19">Climb</a>.',
+        instead.</p>
+
+        <p><span class="special_title">Rock Slides:</span>
+        A character can move into a rock slide area
+        <img src="/assets/tokens/rocks.png" class="scen_token" /> from an
+        adjacent area. The character must spend 2 extra movement points unless
+        the character has <a class="skill" href="/skills/19">Climb</a>.</p>',
 
       origin: "Add-Ons",
       map_ids: [4],
@@ -2147,8 +2232,8 @@
       tile7: [1],
       tile8: [0],
 
-      ruleone_title: "Ring:",
-      ruleone_text: 'During setup 4 red gems are placed on the Ring card. These
+      special_rules: '<p><span class="special_title">Ring:</span>
+        During setup 4 red gems are placed on the Ring card. These
         gems can be used by the hero carrying the Ring only to cast spells. When
         the hero carrying the Ring wants to use these red gems to cast a spell,
         they move them from the Ring card to the spell card. The gems used in this
@@ -2157,13 +2242,15 @@
         their Reserve zone to cast a spell. During the start phase and the end
         phase of each heroes’ turn, the carrier of the ring moves the red gems
         from the spell cards to the Ring card. The red gems of the Ring card are
-        never counted when calculating the life points of a hero.',
-      ruletwo_title: "Baal Pteor:",
-      ruletwo_text: 'When he dies, the key he is carrying falls to the ground,
-        the Overlord then places the Key equipment card on the area where Baal-pteor
-        was. A hero can then pick it up by performing a simple Manipulation.',
-      rulethree_title: "Doors:",
-      rulethree_text: 'A hero in an area adjacent to a door can perform a complex
+        never counted when calculating the life points of a hero.</p>
+
+        <p><span class="special_title">Baal Pteor:</span>
+        When he dies, the key he is carrying falls to the ground, the Overlord
+        then places the Key equipment card on the area where Baal-pteor
+        was. A hero can then pick it up by performing a simple Manipulation.</p>
+
+        <p><span class="special_title">Doors:</span>
+        A hero in an area adjacent to a door can perform a complex
         Manipulation with a difficulty of 4 to pick the lock. If the hero succeeds,
         the door is removed from the board. A hero carrying the key can open the
         doors by performing a simple Manipulation. Overlord units can pass doors
@@ -2171,14 +2258,16 @@
         the board. The doors circled in red are shutters. They follow the same rules
         as doors regarding lock-picking. A model can never move between the two areas
         that a shutter separates, whether it is opened or not. Opening a shutter
-        simply creates a line of sight between the two areas it separates.',
-      rulefour_title: "Bossonian Guards and Captain:",
-      rulefour_text: 'During setup, the heroes place 2 Bossonian Guard models
+        simply creates a line of sight between the two areas it separates.</p>
+
+        <p><span class="special_title">Bossonian Guards and Captain:</span>
+        During setup, the heroes place 2 Bossonian Guard models
         without their colored base and the Captain model as well as their
         corresponding tiles beside the board. The Overlord places the Captain’s
-        life point token on space 4 of the turn track.',
-      rulefive_title: "Cells:",
-      rulefive_text: 'During setup, the Overlord randomly places the 3 tokens
+        life point token on space 4 of the turn track.</p>
+
+        <p><span class="special_title">Cells:</span>
+        During setup, the Overlord randomly places the 3 tokens
         numbered 1 to 3 on the board as indicated by the setup diagram. These
         tokens represent the prison cells holding the Captain and the two Bossonian
         Guards. When a hero has line of sight to an area containing a Cell token,
@@ -2186,33 +2275,37 @@
         the Cell token is replaced by a Bosso- nian Guard model without a colored
         base. If a token with the number 1 is revealed, the Cell token is replaced
         by the Captain model. The Bossonian Guard and Captain models are considered
-        as heroes’ allies. The heroes can activate them using their Leadership skill.',
-      rulesix_title: "Fleeing the citadel:",
-      rulesix_text: 'A hero or an ally can flee the citadel from an area outside
+        as heroes’ allies. The heroes can activate them using their Leadership skill.</p>
+
+        <p><span class="special_title">Fleeing the citadel:</span>
+        A hero or an ally can flee the citadel from an area outside
         the citadel to the west of the board indicated by 1 on the diagram, by
         spending movement points as though they were moving across a border. The
         model is then removed from the board. Once a hero or an ally has fled, they
-        cannot be returned to the board. The Overlord units cannot flee the citadel.',
-      ruleseven_title: "Leaping From/Climbing a Balcony:",
-      ruleseven_text: 'A character can move across a railing from a balcony area
+        cannot be returned to the board. The Overlord units cannot flee the citadel.</p>
+
+        <p><span class="special_title">Leaping From/Climbing a Balcony:</span>
+        A character can move across a railing from a balcony area
         to a ground floor area as though it were a border. The character rolls
         <img src="/assets/dice/2 Yellow.png" class="scen_sq_token" /> for falling
         damage. If the character has <a class="skill" href="/skills/16">Leap</a>,
         the character rolls <img src="/assets/dice/Yellow.png" class="scen_sq_token" />
         instead. A character with Climb can move across a railing from a ground
-        floor area to a balcony area by spending 1 extra movement point.',
-      ruleeight_title: "Pit:",
-      ruleeight_text: 'A character must spend 1 extra movement point to move out
-        of the pit area.',
-      rulenine_title: "Cellar Windows:",
-      rulenine_text: 'The cellar windows do not block line of sight.',
-      ruleten_title: "Chests:",
-      ruleten_text: 'During setup, the Overlord places 4 chests on the board as
+        floor area to a balcony area by spending 1 extra movement point.</p>
+
+        <p><span class="special_title">Pit:</span>
+        A character must spend 1 extra movement point to move out of the pit area.</p>
+
+        <p><span class="special_title">Cellar Windows:</span>
+        The cellar windows do not block line of sight.</p>
+
+        <p><span class="special_title">Chests:</span>
+        During setup, the Overlord places 4 chests on the board as
         indicated by the setup diagram. The asset deck contains:
         1 <a class="item" href="/items/5">Explosive Orb</a>,
         1 <a class="item" href="/items/32">Axe</a>,
         1 <a class="item" href="/items/41">Zingarian Breastplate</a>, and
-        1 <a class="item" href="/items/22">Life Potion</a>.',
+        1 <a class="item" href="/items/22">Life Potion</a>.></p>',
 
       origin: "Add-Ons",
       map_ids: [5],
@@ -2290,26 +2383,30 @@
       tile7: [1],
       tile8: [0],
 
-      ruleone_title: "Bossonian Guard:",
-      ruleone_text: 'Only Conan the General can use Leadership to activate the
+      special_rules: '<p><span class="special_title">Bossonian Guard:</span>
+        Only Conan the General can use Leadership to activate the
         Bossonian Guards. For this scenario, Conan the General and Balthus cannot
-        spend gems to defend the Bossonian Guards.',
-      ruletwo_title: "Slasher:",
-      ruletwo_text: 'Only Balthus can use Leadership to activate Slasher.',
-      rulethree_title: "Water:",
-      rulethree_text: 'A character must spend 1 extra movement point to move out
-        of a water area. A character can move from a water area to an adjacent wood
-        area by spending 2 extra movement points.',
-      rulefour_title: "Leap:",
-      rulefour_text: 'Leaping over the water area around the altar in a single
-        movement is not possible. The character must stop in the altar area before
-        performing a second leap.',
-      rulefive_title: "Chests:",
-      rulefive_text: 'During setup, the Overlord places 3 chests on the board as
+        spend gems to defend the Bossonian Guards.</p>
+
+        <p><span class="special_title">Slasher:</span>
+        Only Balthus can use Leadership to activate Slasher.</p>
+
+        <p><span class="special_title">Water:</span>
+        A character must spend 1 extra movement point to move out of a water
+        area. A character can move from a water area to an adjacent wood
+        area by spending 2 extra movement points.</p>
+
+        <p><span class="special_title">Leap:</span>
+        Leaping over the water area around the altar in a single movement is
+        not possible. The character must stop in the altar area before
+        performing a second leap.</p>
+
+        <p><span class="special_title">Chests:</span>
+        During setup, the Overlord places 3 chests on the board as
         indicated by the setup diagram. The asset deck contains
         1 <a class="item" href="/items/3">Javelin</a>,
         1 <a class="item" href="/items/5">Explosive Orb</a>, and
-        1 <a class="item" href="/items/22">Life Potion</a>.',
+        1 <a class="item" href="/items/22">Life Potion</a>.</p>',
 
       origin: "Add-Ons",
       map_ids: [6],
@@ -2397,115 +2494,135 @@
       tile7: [1],
       tile8: [0],
 
-      ruleone_title: "Two Fronts:",
-      ruleone_text: 'During setup, the Overlord places the two boards next to
+      special_rules: '<p><span class="special_title">Two Fronts:</span>
+        During setup, the Overlord places the two boards next to
         each other. The action in this scenario happens in two distant locations
         and at two different moments in time. The events played on the citadel board
         happen before the action played out on the outpost board.
         The resolution of certain actions on the citadel board will have an impact
         on the actions and units on the outpost board. The two boards are separate
         and are not joined. The models in an area on one board cannot move to an
-        area on the other board.',
-      ruletwo_title: "Bossonian Guards:",
-      ruletwo_text: 'When the Overlord activates the blue Bossonian Guard tile,
-        all the Bossonian Guard models with a base (of any color) are activated on
-        both game boards.
-        All the Bossonian Guards with a blue and green bases are therefore activated.
-        When the Overlord activates the gray Bossonian Guard tile, all the Bossonian
-        Guard models without a base on both boards are activated.',
-      rulethree_title: "Reinforcement:",
-      rulethree_text: 'The Overlord can bring reinforcements into play in any
-        reinforcement area, on any board. For example reinforcements can be bought
-        into play during the activation of the event tile, on the citadel board and
-        on the outpost board.',
-      rulefour_title: "Return of the Braves:",
-      rulefour_text: 'Skuthus can only reinforce Pirates. He cannot reinforce Pict Warriors.',
-      rulefive_title: "Pict Warriors:",
-      rulefive_text: 'Only Zogar Sag can use Leadership to activate and defend the Pict Warriors.',
-      rulesix_title: "Pirates:",
-      rulesix_text: 'Only Zaporavo can use Leadership to activate and defend the Pirates.',
-      ruleseven_title: "Destroying the outpost:",
-      ruleseven_text: 'The outpost is considered destroyed when the huts numbered
-        1 to 6 on the setup diagram are destroyed.',
-      ruleeight_title: "Destroying a hut:",
-      ruleeight_text: 'A hero next to, or inside, a numbered hut area can target
-        it by performing a Melee Attack. If the hero obtains at least 6 successes
+        area on the other board.</p>
+
+        <p><span class="special_title">Bossonian Guards:</span>
+        When the Overlord activates the blue Bossonian Guard tile, all the
+        Bossonian Guard models with a base (of any color) are activated on both
+        game boards. All the Bossonian Guards with a blue and green bases are
+        therefore activated. When the Overlord activates the gray Bossonian
+        Guard tile, all the Bossonian Guard models without a base on both boards
+        are activated.</p>
+
+        <p><span class="special_title">Reinforcement:</span>
+        The Overlord can bring reinforcements into play in any reinforcement
+        area, on any board. For example reinforcements can be bought into play
+        during the activation of the event tile, on the citadel board and
+        on the outpost board.</p>
+
+        <p><span class="special_title">Return of the Braves:</span>
+        Skuthus can only reinforce Pirates. He cannot reinforce Pict Warriors.</p>
+
+        <p><span class="special_title">Pict Warriors:</span>
+        Only Zogar Sag can use Leadership to activate and defend the Pict Warriors.</p>
+
+        <p><span class="special_title">Pirates:</span>
+        Only Zaporavo can use Leadership to activate and defend the Pirates.</p>
+
+        <p><span class="special_title">Destroying the outpost:</span>
+        The outpost is considered destroyed when the huts numbered
+        1 to 6 on the setup diagram are destroyed.</p>
+
+        <p><span class="special_title">Destroying a hut:</span>
+        A hero next to, or inside, a numbered hut area can target it by
+        performing a Melee Attack. If the hero obtains at least 6 successes
         during the same attack (4 successes if the maps have been stolen, see
-        Stealing the Maps special rule) the hut is destroyed.
-        If an orb is exploded in a numbered hut area, the hut is also the target
-        of the area attack.
-        An Overlord unit with Sacrifice, who is in the same area as the hero
-        attacking the hut, can use this skill to protect the hut.
-        When a hut is destroyed, the Overlord places a
-        <img src="/assets/tokens/rocks.png" class="scen_token" /> token on the hut
-        area. If a chest is in same area as a destroyed hut the Overlord removes
-        the chest token from the game. If a model is in the same area as a destroyed
-        hut they suffer an attack of <img src="/assets/dice/2 Red.png" class="scen_sq_token" />
-        with no possible reroll (all defenses are possible).',
-      rulenine_title: "Destroyed Hut:",
-      rulenine_text: 'An area with a destroyed hut completely blocks the lines
-        of sight that cross it. To enter an area with a destroyed hut costs an
-        additional movement point, with or without <a class="skill" href="/skills/19">Climb</a>.',
-      ruleten_title: "Sabotaging the Citadel:",
-      ruleten_text: 'During setup the Overlord places the tokens numbered 1 to 3
-        on the citadel board as shown on the setup diagram. The citadel is considered
-        sabotaged if the weapons are destroyed, the supplies are poisoned and the
-        outpost maps are stolen.',
-      ruleeleven_title: "Destroying the Weapons:",
-      ruleeleven_text: 'A hero in the same area as the One token can perform a
-        Melee Attack to destroy the weapons. It is not possible for the Overlord
-        units to use Sacrifice to protect the weapons. If the hero obtains at least
-        4 successes during the same attack, the weapons are destroyed. The One token
-        is then removed from the game. When the weapons are destroyed, and for the
-        rest of the game, the Melee Attack value of the Bossonian Guards on the
-        outpost board is reduced to <img src="/assets/dice/Orange.png" class="scen_sq_token" />.',
-      ruletwelve_title: "Poisoning the Supplies:",
-      ruletwelve_text: 'A hero with the Elixir equipment card and in the same
-        area as the Two token can poison the supplies by performing a simple
-        Manipulation. The Elixir card and the Two token are then removed from the
-        game. When the supplies are poisoned, and for the rest of the game, the
-        Armor value of the Bossonian Guards on the outpost board is reduced to 1.',
-      rulethirteen_title: "Stealing the Maps:",
-      rulethirteen_text: 'During setup the Overlord places the Spellbook equipment
-        card next to the citadel board. A hero in the same area as the Three token
-        can steal the maps by performing a complex Manipulation with a difficulty
-        of 3. If the hero succeeds, they take the Spellbook card and the Three
+        Stealing the Maps special rule) the hut is destroyed. If an orb is
+        exploded in a numbered hut area, the hut is also the target of the area
+        attack. An Overlord unit with Sacrifice, who is in the same area as the
+        hero attacking the hut, can use this skill to protect the hut. When a hut
+        is destroyed, the Overlord places a <img src="/assets/tokens/rocks.png" class="scen_token" />
+        token on the hut area. If a chest is in same area as a destroyed hut the
+        Overlord removes the chest token from the game. If a model is in the
+        same area as a destroyed hut they suffer an attack of
+        <img src="/assets/dice/2 Red.png" class="scen_sq_token" /> with no
+        possible reroll (all defenses are possible).</p>
+
+        <p><span class="special_title">Destroyed Hut:</span>
+        An area with a destroyed hut completely blocks the lines of sight that
+        cross it. To enter an area with a destroyed hut costs an additional
+        movement point, with or without <a class="skill" href="/skills/19">Climb</a>.</p>
+
+        <p><span class="special_title">Sabotaging the Citadel:</span>
+        During setup the Overlord places the tokens numbered 1 to 3 on the
+        citadel board as shown on the setup diagram. The citadel is considered
+        sabotaged if the weapons are destroyed, the supplies are poisoned and
+        the outpost maps are stolen.</p>
+
+        <p><span class="special_title">Destroying the Weapons:</span>
+        A hero in the same area as the One token can perform a Melee Attack to
+        destroy the weapons. It is not possible for the Overlord units to use
+        Sacrifice to protect the weapons. If the hero obtains at least 4
+        successes during the same attack, the weapons are destroyed. The One
+        token is then removed from the game. When the weapons are destroyed, and
+        for the rest of the game, the Melee Attack value of the Bossonian Guards
+        on the outpost board is reduced to
+        <img src="/assets/dice/Orange.png" class="scen_sq_token" />.</p>
+
+        <p><span class="special_title">Poisoning the Supplies:</span>
+        A hero with the Elixir equipment card and in the same area as the Two
+        token can poison the supplies by performing a simple Manipulation. The
+        Elixir card and the Two token are then removed from the game. When the
+        supplies are poisoned, and for the rest of the game, the Armor value of
+        the Bossonian Guards on the outpost board is reduced to 1.</p>
+
+        <p><span class="special_title">Stealing the Maps:</span>
+        During setup the Overlord places the Spellbook equipment card next to
+        the citadel board. A hero in the same area as the Three token can steal
+        the maps by performing a complex Manipulation with a difficulty of 3.
+        If the hero succeeds, they take the Spellbook card and the Three
         token is removed from the game. The maps are considered as stolen after
         a hero with the Spellbook card has fled the citadel. As soon as the maps
         are stolen, and for the rest of the game, the number of necessary
-        successes to destroy a hut is reduced to 4.',
-      rulefourteen_title: "Fleeing the citadel:",
-      rulefourteen_text: 'A hero can flee the citadel from an area outside the
-        citadel to the west of the board, or from one of the citadel entrance areas
-        to the north and south of the board, by spending movement points as though
-        the hero were moving across a border and removing the hero’s model from the
-        board. Once a hero has fled, the hero’s model cannot be returned to the board.',
-      rulefifteen_title: "Pictish Drink:",
-      rulefifteen_text: 'A hero may discard this item to move 2 gems from their
-        Fatigue zone to their Reserve zone but must also suffer 1 wound.',
-      rulesixteen_title: "Leaping From/Climbing a Balcony:",
-      rulesixteen_text: 'A character can move across a railing from a balcony
-        area to a ground floor area as though it were a border. The character rolls
+        successes to destroy a hut is reduced to 4.</p>
+
+        <p><span class="special_title">Fleeing the citadel:</span>
+        A hero can flee the citadel from an area outside the citadel to the west
+        of the board, or from one of the citadel entrance areas to the north and
+        south of the board, by spending movement points as though the hero were
+        moving across a border and removing the hero’s model from the board.
+        Once a hero has fled, the hero’s model cannot be returned to the board.</p>
+
+        <p><span class="special_title">Pictish Drink:</span>
+        A hero may discard this item to move 2 gems from their
+        Fatigue zone to their Reserve zone but must also suffer 1 wound.</p>
+
+        <p><span class="special_title">Leaping From/Climbing a Balcony:</span>
+        A character can move across a railing from a balcony area to a ground
+        floor area as though it were a border. The character rolls
         <img src="/assets/dice/2 Yellow.png" class="scen_sq_token" /> for falling
         damage. If the character has <a class="skill" href="/skills/16">Leap</a>,
         the character rolls <img src="/assets/dice/Yellow.png" class="scen_sq_token" />
-        instead. A character with Climb can move across a railing from a ground floor
-        area to a balcony area by spending 1 extra movement point.',
-      ruleseventeen_title: "Pit:",
-      ruleseventeen_text: 'A character must spend 1 extra movement point to move out of the pit area.',
-      ruleeighteen_title: "Hut Flaps:",
-      ruleeighteen_text: "A character must spend 1 extra movement point to move
-        across a border into or out of a hut. Moving across an opening token does
-        not cost an extra movement point.",
-      rulenineteen_title: "Climbing:",
-      rulenineteen_text: 'A character with <a class="skill" href="/skills/19">Climb</a>
+        instead. A character with Climb can move across a railing from a ground
+        floor area to a balcony area by spending 1 extra movement point.</p>
+
+        <p><span class="special_title">Pit:</span>
+        A character must spend 1 extra movement point to move out of the pit area.</p>
+
+        <p><span class="special_title">Hut Flaps:</span>
+        A character must spend 1 extra movement point to move across a border
+        into or out of a hut. Moving across an opening token does not cost an
+        extra movement point.</p>
+
+        <p><span class="special_title">Climbing:</span>
+        A character with <a class="skill" href="/skills/19">Climb</a>
         can move across boulders <img src="/assets/tokens/rocks.png" class="scen_token" />
-        as though they were a border by spending 2 extra movement points.',
-      ruletwenty_title: "Wooden Huts:",
-      ruletwenty_text: 'A character with <a class="skill" href="/skills/11">Wall Wrecker</a>
-        can use it to move across the wall of one of the wooden huts.',
-      ruletwentyone_title: "Chests:",
-      ruletwentyone_text: 'During setup, the Overlord makes 2 different Equipment
+        as though they were a border by spending 2 extra movement points.</p>
+
+        <p><span class="special_title">Wooden Huts:</span>
+        A character with <a class="skill" href="/skills/11">Wall Wrecker</a>
+        can use it to move across the wall of one of the wooden huts.</p>
+
+        <p><span class="special_title">Chests:</span>
+        During setup, the Overlord makes 2 different Equipment
         card decks. One for the chests on the citadel board, called the Citadel
         asset deck, and the other deck for the chests on the outpost board, that
         is called the Outpost asset deck.
@@ -2521,7 +2638,7 @@
         2 <a class="item" href="/items/5">Explosive Orbs</a>,
         <a class="item" href="/items/22">Life Potion</a>,
         1 <a class="item" href="/items/10">Sword</a>, and
-        1 <a class="item" href="/items/13">Tribal Mace</a>.',
+        1 <a class="item" href="/items/13">Tribal Mace</a>.</p>',
 
       origin: "Stretch Goals +",
       map_ids: [1, 5],
@@ -2605,33 +2722,36 @@
       tile7: [1],
       tile8: [3],
 
-      ruleone_title: "Dragon:",
-      ruleone_text: 'The area between the 4 legs of the dragon is considered as
-        its base with regard to occupied areas. The dragon is counted as one model
-        when calculating hindering. During its capture the Dragon has been poisoned;
-        during setup, the Overlord places a second Dragon tile next to the Book of
-        Skelos with 3 (token) tokens on it to represent this. The Dragon loses 1
-        <img src="/assets/dice/Red-Reroll.png" class="scen_sq_token" /> to its
-        Melee Attack value per token on this Dragon tile.
-        There can be a maximum of 3 tokens on the Dragon tile. A (token) token is
-        placed on the spaces 2, 4 and 6 of the turn track. When the turn track
-        token is placed on the (token) token, one of the tokens placed on the set
-        aside Dragon tile is removed if possible.',
-      ruletwo_title: "Javelin:",
-      ruletwo_text: 'The Javelins have been specially made to wound the Dragon.
-        If a hero performs a ranged attack against the Dragon with a Javelin, the
-        Dragon’s armor value is ignored. After the attack is performed, the Javelin
-        card is removed from the game, even if the attack has not been successful
-        in wounding the Dragon.',
-      rulethree_title: "Pictish Fetish:",
-      rulethree_text: 'When the Pictish Fetish is burnt, pheromones are released
+      special_rules: '<p><span class="special_title">Dragon:</span>
+        The area between the 4 legs of the dragon is considered as its base with
+        regard to occupied areas. The dragon is counted as one model when
+        calculating hindering. During its capture the Dragon has been poisoned;
+        during setup, the Overlord places a second Dragon tile next to the Book
+        of Skelos with 3 (token) tokens on it to represent this. The Dragon loses
+        1 <img src="/assets/dice/Red-Reroll.png" class="scen_sq_token" /> to its
+        Melee Attack value per token on this Dragon tile. There can be a maximum
+        of 3 tokens on the Dragon tile. A (token) token is placed on the spaces
+        2, 4 and 6 of the turn track. When the turn track token is placed on the
+        (token) token, one of the tokens placed on the set aside Dragon tile is
+        removed if possible.</p>
+
+        <p><span class="special_title">Javelin:</span>
+        The Javelins have been specially made to wound the Dragon. If a hero
+        performs a ranged attack against the Dragon with a Javelin, the Dragon’s
+        armor value is ignored. After the attack is performed, the Javelin card
+        is removed from the game, even if the attack has not been successful
+        in wounding the Dragon.</p>
+
+        <p><span class="special_title">Pictish Fetish:</span>
+        When the Pictish Fetish is burnt, pheromones are released
         into the air that have the ability to confuse Dragons. A hero with the
         Pictish Fetish in the same area as the Dragon can burn the Pictish Fetish
         by performing a simple Manipulation and confuse the Dragon. When the Dragon
         is confused, the Overlord immediately places the Dragon tile at the end of
-        the River. The Pictish Fetish is then removed from the game.',
-      rulefour_title: "Elixir:",
-      rulefour_text: 'The Elixir has been used by the Picts to poison the Dragon
+        the River. The Pictish Fetish is then removed from the game.</p>
+
+        <p><span class="special_title">Elixir:</span>
+        The Elixir has been used by the Picts to poison the Dragon
         in order to weaken it during its capture. A hero carrying the Elixir can
         apply the Elixir on one of their weapons with a simple Manipulation. If a
         hero applies the Elixir on a weapon, the Elixir card is placed under the
@@ -2642,24 +2762,28 @@
         game; the weapon is no longer considered as being poisoned. If the Dragon
         has not been wounded during the attack then nothing happens and the Elixir
         card remains with the weapon.
-        There cannot be more than 3 tokens on this Dragon tile.',
-      rulefive_title: "Hut Flaps:",
-      rulefive_text: "A character must spend 1 extra movement point to move
+        There cannot be more than 3 tokens on this Dragon tile.</p>
+
+        <p><span class="special_title">Hut Flaps:</span>
+        rulefive_text: "A character must spend 1 extra movement point to move
         across a border into or out of a hut. Moving across an opening token does
-        not cost an extra movement point.",
-      rulesix_title: "Climbing:",
-      rulesix_text: 'A character with <a class="skill" href="/skills/19">Climb</a>
+        not cost an extra movement point.</p>
+
+        <p><span class="special_title">Climbing:</span>
+        A character with <a class="skill" href="/skills/19">Climb</a>
         can move across boulders <img src="/assets/tokens/rocks.png" class="scen_token" />
-        as though they were a border by spending 2 extra movement points.',
-      ruleseven_title: "Wooden Huts:",
-      ruleseven_text: 'A character with <a class="skill" href="/skills/11">Wall Wrecker</a>
-        can use it to move across the wall of one of the wooden huts.',
-      ruleeight_title: "Chests:",
-      ruleeight_text: 'During setup, the Overlord places 4 chests on the board as
+        as though they were a border by spending 2 extra movement points.</p>
+
+        <p><span class="special_title">Wooden Huts:</span>
+        A character with <a class="skill" href="/skills/11">Wall Wrecker</a>
+        can use it to move across the wall of one of the wooden huts.</p>
+
+        <p><span class="special_title">Chests:</span>
+        During setup, the Overlord places 4 chests on the board as
         indicated by the setup diagram. The asset deck contains
         2 <a class="item" href="/items/3">Javelins</a>,
         1 <a class="item" href="/items/28">Pictish Fetish</a>, and
-        1 <a class="item" href="/items/49">Elixir</a>.',
+        1 <a class="item" href="/items/49">Elixir</a>.</p>',
 
       origin: "Add-Ons",
       map_ids: [1],
@@ -2744,42 +2868,48 @@
       tile7: [0],
       tile8: [0],
 
-      ruleone_title: "Pirates, Bossonian Guards and Archers:",
-      ruleone_text: 'When a pirate or a Bossonian Guard or a Bossonian Archer is
-        killed, the Overlord replaces its model with a skeleton model that is placed
-        in a laid down position in the area where the pirate or the guard or the
-        archer was killed.
-        If the model of the guard or archer has a base, the Overlord removes the
-        base and fixes it to the skeleton model that replaces it. The laid down
-        skeleton models do not count for hindering and occupied areas.',
-      ruletwo_title: "Skeletons:",
-      ruletwo_text: ' During setup the Overlord places the following Skeleton
-        tiles next to the Book of Skelos: (Gray and purple Skeleton tiles with an
-        Armor of 1, and a red Skeleton tile with an Armor of 0).
-        The Overlord then places 15 skeleton models next to the board. When a
-        skeleton is killed, the Overlord lays the skeleton down in its area rather
-        than removing it from the board. The laid down skeleton models do not count
-        for hindering and occupied areas.',
-      rulethree_title: " Stygian Artifact:",
-      rulethree_text: 'During setup the Overlord places the Stygian Artifact card
-        next to the board.',
-      rulefour_title: "Bone Golem:",
-      rulefour_text: 'During setup the Overlord places the second Bone Golem tile
-        beside the Book of Skelos. When the Bone
-        Golem is killed the Overlord places the Stygian Artifact card in the area
-        where the Bone Golem was killed.',
-      rulefive_title: "Hyperborean Primitive:",
-      rulefive_text: 'The Hyperborean Primitive can only be wounded by a hero
-      carrying the Stygian Artifact. The Hyperborean Primitive cannot be wounded
-        in any other way other than by a hero carrying the Stygian Artifact.',
-      rulesix_title: "Leadership:",
-      rulesix_text: 'An ally model activated by the heroes using Leadership can
-        move but cannot attack. The heroes cannot use Leadership to defend an ally.',
-      ruleseven_title: "Additional Gem Reserve:",
-      ruleseven_text: 'During setup the Overlord places 6 red gems and the second
-        Recovery Value tile beside the Book of Skelos.',
-      ruleeight_title: "Gaining Ground:",
-      ruleeight_text: 'When the Overlord activates the Event tile and resolves
+      special_rules: '<p><span class="special_title">Pirates, Bossonian Guards and Archers:</span>
+        When a pirate or a Bossonian Guard or a Bossonian Archer is killed, the
+        Overlord replaces its model with a skeleton model that is placed in a
+        laid down position in the area where the pirate or the guard or the
+        archer was killed. If the model of the guard or archer has a base, the
+        Overlord removes the base and fixes it to the skeleton model that
+        replaces it. The laid down skeleton models do not count for hindering
+        and occupied areas.</p>
+
+        <p><span class="special_title">Skeletons:</span>
+        During setup the Overlord places the following Skeleton tiles next to
+        the Book of Skelos: (Gray and purple Skeleton tiles with an Armor of 1,
+        and a red Skeleton tile with an Armor of 0). The Overlord then places
+        15 skeleton models next to the board. When a skeleton is killed, the
+        Overlord lays the skeleton down in its area rather than removing it from
+        the board. The laid down skeleton models do not count for hindering and
+        occupied areas.</p>
+
+        <p><span class="special_title"> Stygian Artifact:</span>
+        During setup the Overlord places the Stygian Artifact card
+        next to the board.</p>
+
+        <p><span class="special_title">Bone Golem:</span>
+        During setup the Overlord places the second Bone Golem tile beside the
+        Book of Skelos. When the Bone Golem is killed the Overlord places the
+        Stygian Artifact card in the area where the Bone Golem was killed.</p>
+
+        <p><span class="special_title">Hyperborean Primitive:</span>
+        The Hyperborean Primitive can only be wounded by a hero carrying the
+        Stygian Artifact. The Hyperborean Primitive cannot be wounded
+        in any other way other than by a hero carrying the Stygian Artifact.</p>
+
+        <p><span class="special_title">Leadership:</span>
+        An ally model activated by the heroes using Leadership can move but
+        cannot attack. The heroes cannot use Leadership to defend an ally.</p>
+
+        <p><span class="special_title">Additional Gem Reserve:</span>
+        During setup the Overlord places 6 red gems and the second
+        Recovery Value tile beside the Book of Skelos.</p>
+
+        <p><span class="special_title">Gaining Ground:</span>
+        When the Overlord activates the Event tile and resolves
         the Gaining Ground event, they resolve each of the
         following events in order:
         • The Overlord moves 2 gems from their Additional Gem Reserve to their
@@ -2798,37 +2928,42 @@
         can add a unit tile to the River if there is at least one model on the board
         (laid down or standing) that corresponds to this tile.
         The tiles removed from the River when the Overlord dredges the river are
-        removed from the game and cannot be returned to the game with this event',
-      rulenine_title: "Reinforcement:",
-      rulenine_text: ' The Overlord can only reinforce units whose tiles are in
-        the River. When the Overlord uses a reinforcement point, they stood up one
-        of the laid down models on the board. If a laid down model is in an occupied
-        area, the Overlord cannot reinforce it.',
-      ruleten_title: "Pictish Drink:",
-      ruleten_text: 'A hero may discard this item to move 2 gems from their
-        Fatigue zone to their Reserve zone but must also suffer 1 wound.',
-      ruleeleven_title: "Walls:",
-      ruleeleven_text: 'A character with <a class="skill" href="/skills/11">Wall Wrecker</a>
+        removed from the game and cannot be returned to the game with this event.</p>
+
+        <p><span class="special_title">Reinforcement:</span>
+        The Overlord can only reinforce units whose tiles are in the River. When
+        the Overlord uses a reinforcement point, they stood up one of the laid
+        down models on the board. If a laid down model is in an occupied area,
+        the Overlord cannot reinforce it.</p>
+
+        <p><span class="special_title">Pictish Drink:</span>
+        A hero may discard this item to move 2 gems from their
+        Fatigue zone to their Reserve zone but must also suffer 1 wound.</p>
+
+        <p><span class="special_title">Walls:</span>
+        A character with <a class="skill" href="/skills/11">Wall Wrecker</a>
         cannot use it to move across an outer wall of the inn or to move between
-        areas of different elevations.',
-      ruletwelve_title: "Leaping From/Climbing a Balcony:",
-      ruletwelve_text: 'A character can move across a railing from a balcony area
-        to a ground floor area as though it were a border. The character rolls
+        areas of different elevations.</p>
+
+        <p><span class="special_title">Leaping From/Climbing a Balcony:</span>
+        A character can move across a railing from a balcony area to a ground
+        floor area as though it were a border. The character rolls
         <img src="/assets/dice/2 Orange.png" class="scen_sq_token" /> for falling
         damage. If the character has <a class="skill" href="/skills/16">Leap</a>,
         the character rolls <img src="/assets/dice/Orange.png" class="scen_sq_token" />
         instead. A character with <a class="skill" href="/skills/19">Climb</a> can
         move across a railing from a ground floor area to a balcony area by spending
-        2 extra movement points.',
-      rulethirteen_title: "Leaping From/Climbing a Stairwell:",
-      rulethirteen_text: 'A character can move across a banister from a stair
-        area to a ground floor area as though it were a border. The character rolls
+        2 extra movement points.</p>
+
+        <p><span class="special_title">Leaping From/Climbing a Stairwell:</span>
+        A character can move across a banister from a stair area to a ground
+        floor area as though it were a border. The character rolls
         <img src="/assets/dice/2 Yellow.png" class="scen_sq_token" /> for falling
         damage. If the character has <a class="skill" href="/skills/16">Leap</a>,
         the character rolls <img src="/assets/dice/Yellow.png" class="scen_sq_token" />
         instead. A character with <a class="skill" href="/skills/19">Climb</a> can
         move across a banister from a ground floor area to a stair area by spending
-        1 extra movement point.',
+        1 extra movement point.</p>',
 
       origin: "Stretch Goals +",
       map_ids: [4],
@@ -2900,8 +3035,8 @@
       tile7: [1],
       tile8: [0],
 
-      ruleone_title: "Sinking a Ship:",
-      ruleone_text: 'Only one ship may be sunk during the scenario. There are two
+      special_rules: '<p><span class="special_title">Sinking a Ship:</span>
+        Only one ship may be sunk during the scenario. There are two
         different ways a hero can sink a ship:
         • A hero in a reinforcement token’s area may perform a complex manipulation
         with a difficulty of 5 to sink that ship.
@@ -2915,48 +3050,54 @@
         removed from the game. The areas of the sunken ship are now considered as
         being water areas for the rest of the scenario. The chest tokens and their
         asset cards remain on the areas where they were previously found. As of the
-        moment when the ship was sunk, the heroes can no longer sink another ship.',
-      ruletwo_title: "Water Area:",
-      ruletwo_text: 'A model on a water area can still fight without penalty.
+        moment when the ship was sunk, the heroes can no longer sink another ship.</p>
+
+        <p><span class="special_title">Water Area:</span>
+        A model on a water area can still fight without penalty.
         The models with Swim can move from one water area to the adjacent water
         area by spending an extra 1 movement point.
         A model on a water area can climb up onto an adjacent ship area by spending
         an extra 2 movement points. A model without Swim cannot move from one water
         area to another water area; however they can climb up onto an adjacent ship
-        area by spending an extra 2 movement points.',
-      rulethree_title: " Grapnel:",
-      rulethree_text: 'During setup, the Overlord places the Grapnel (token)
+        area by spending an extra 2 movement points.</p>
+
+        <p><span class="special_title"> Grapnel:</span>
+        During setup, the Overlord places the Grapnel (token)
         token on the board as indicated by the setup diagram. A model on a water
         zone can climb up onto an adjacent ship area that contains the Grapnel
-        token without spending additional movement points.',
-      rulefour_title: "Alarm:",
-      rulefour_text: 'During the Overlord’s turn, they can activate only 0 or 1
-        tile. As soon as a ship is sunk, the alarm is raised and the Overlord can
-        normally activate 0, 1 or 2 tiles.',
-      rulefive_title: "Reinforcement:",
-      rulefive_text: 'If all the models of an Overlord’s unit tile have been
-        killed, the Overlord can no longer bring in the models of this unit in a
-        reinforcement event.',
-      rulesix_title: "Fleeing:",
-      rulesix_text: 'The heroes must sink one of the ships to flee with the other
+        token without spending additional movement points.</p>
+
+        <p><span class="special_title">Alarm:</span>
+        During the Overlord’s turn, they can activate only 0 or 1 tile. As soon
+        as a ship is sunk, the alarm is raised and the Overlord can normally
+        activate 0, 1 or 2 tiles.</p>
+        <p><span class="special_title">Reinforcement:</span>
+        If all the models of an Overlord’s unit tile have been killed, the
+        Overlord can no longer bring in the models of this unit in a
+        reinforcement event.</p>
+
+        <p><span class="special_title">Fleeing:</span>
+        The heroes must sink one of the ships to flee with the other
         one. If at least one of the heroes, with both amulets in their possession,
         is alone on a ship (without any of the Overlord’s models present on the ship)
         at the end of a heroes’ turn, they can flee with the ship and the heroes
-        win the game.',
-      ruleseven_title: "Jump:",
-      ruleseven_text: 'If a hero or one of the Overlord’s units fails to leap,
-        they fall into the water and their model is placed in the water area above
-        which they tried to leap. The heroes or the Overlord can decide to fall
-        directly into the water without spending additional movement points. This
-        action does not require any particular skill.',
-      ruleeight_title: "Chests:",
-      ruleeight_text: 'During setup, the Overlord places 4 chests on the board
+        win the game.</p>
+
+        <p><span class="special_title">Jump:</span>
+        If a hero or one of the Overlord’s units fails to leap, they fall into
+        the water and their model is placed in the water area above which they
+        tried to leap. The heroes or the Overlord can decide to fall directly
+        into the water without spending additional movement points. This action
+        does not require any particular skill.</p>
+
+        <p><span class="special_title">Chests:</span>
+        During setup, the Overlord places 4 chests on the board
         as indicated by the setup diagram. The asset deck contains:
         1 <a class="item" href="/items/5">Explosive Orb</a>,
         1 <a class="item" href="/items/22">Life Potion </a>and
         2 <a class="item" href="/items/2">Amulets</a>.
         A hero must perform a complex manipulation with a difficulty of 3 to open
-        a chest in a water area.',
+        a chest in a water area.</p>',
 
       origin: "Add-Ons",
       map_ids: [2],
@@ -3046,22 +3187,24 @@
       tile7: [1],
       tile8: [0],
 
-      ruleone_title: "Animal Form:",
-      ruleone_text: 'At the beginning of the scenario the tiles of the Giant Spider,
+      special_rules: '<p><span class="special_title">Animal Form:</span>
+        At the beginning of the scenario the tiles of the Giant Spider,
         the Giant Scorpion and the Camel are placed next to the Book of Skelos,
         unbloody side faceup, these tiles are considered as being the animal form tiles.
         The models of the Giant Spider, the Giant Scorpion and the Camel are placed
         next to the Book of Skelos, these models are considered as being the animal
-        form models.',
-      ruletwo_title: "Pirate:",
-      ruletwo_text: 'During setup the Overlord places the Pirate tile (orange,
+        form models.</p>
+
+        <p><span class="special_title">Pirate:</span>
+        During setup the Overlord places the Pirate tile (orange,
         armor value 2 and movement value 2) next to the Book of Skelos. Pirates
         are considered neither as being heroes’ allies nor Overlord units; they do
         not count for hindering for either side. Pirates can only be killed by a
         melee attack performed by the Overlord troops. They do not suffer damage
-        from wounds inflicted by heroes.',
-      rulethree_title: "Curse:",
-      rulethree_text: 'If at least one of the animal form tiles is placed unbloody
+        from wounds inflicted by heroes.</p>
+
+        <p><span class="special_title">Curse:</span>
+        If at least one of the animal form tiles is placed unbloody
         side faceup at the beginning of each activation of the Sorcerer tile, the
         Overlord carries out the following steps:
         1- The Overlord chooses one of the animal form tiles unbloody side faceup
@@ -3084,60 +3227,67 @@
         Sorcerer. The Sorcerer’s turn is then played in the form of the Sorcerer.
         3- While the Sorcerer is represented by the model of the Sorcerer, the
         characteristics of the Sorcerer tile (movement, armor, attack, spells and
-        skills) are used for all that concerns the Sorcerer.',
-      rulefour_title: "Warding off the curse:",
-      rulefour_text: 'To ward off the curse the Overlord must sacrifice a pirate
+        skills) are used for all that concerns the Sorcerer.</p>
+
+        <p><span class="special_title">Warding off the curse:</span>
+        To ward off the curse the Overlord must sacrifice a pirate
         on each of the three altars. For this the pirate must be in the same area
         as a altars token and the Overlord must kill them using a melee attack.
         When a pirate is sacrificed on an altar, the altar token is removed from
         the board as well as the animal tile and model corresponding to the altar
         token (1-Camel, 2-Giant Scorpion, 3-Giant Spider). If the animal form model
         that must be removed from the game corresponds to the current form of the
-        Sorcerer, it is then replaced on the board by the model of the Sorcerer.',
-      rulefive_title: "Escorting the Pirates:",
-      rulefive_text: 'If an Overlord unit starts its activation phase in the same
+        Sorcerer, it is then replaced on the board by the model of the Sorcerer.</p>
+
+        <p><span class="special_title">Escorting the Pirates:</span>
+        If an Overlord unit starts its activation phase in the same
         area as a pirate, the Overlord can decide to move the pirate model at the
         same time as the activated unit. The pirate makes the same move (or part
-          of the move) as the Overlord unit. If the Overlord uses a Movement
-          benefit for the activated unit, the pirate can follow the unit without the
-          Overlord moving an additional gem for the pirate’s move. At any moment
-          of the unit’s move, the Overlord can decide that the pirate will no
-          longer follow the unit in question and so stop the pirate. It must not
-          be forgotten that pirates do not count for hindering.
-        An Overlord model can only move one pirate with them and each pirate can
-        only be moved once per tile activation.',
-      rulesix_title: "Attacking the Sorcerer:",
-      rulesix_text: 'When the Sorcerer is represented by an animal form model
-        the heroes cannot target it with an attack (Melee or Ranged).',
-      ruleseven_title: "Altar:",
-      ruleseven_text: 'A hero in the same area as an altar can perform a simple
-        Manipulation to activate the altar. If a hero activates the altar corresponding
-        to the current form of the Sorcerer (1-Camel, 2-Giant Scorpion, 3-Giant Spider)
-        then the animal form model is replaced by that of the Sorcerer.',
-      ruleeight_title: "Lines of Sight:",
-      ruleeight_text: 'A character in a wall area has line of sight to each ground
-        area within the fortress walls. An area in a tower and an area outside that
-        tower are within each other’s line of sight only if the areas are in or
-        adjacent to the tower.',
-      rulenine_title: "Leaping from Walls:",
-      rulenine_text: 'A character can move across a parapet from a wall area to
+        of the move) as the Overlord unit. If the Overlord uses a Movement
+        benefit for the activated unit, the pirate can follow the unit without the
+        Overlord moving an additional gem for the pirate’s move. At any moment
+        of the unit’s move, the Overlord can decide that the pirate will no
+        longer follow the unit in question and so stop the pirate. It must not
+        be forgotten that pirates do not count for hindering. An Overlord model
+        can only move one pirate with them and each pirate can only be moved
+        once per tile activation.</p>
+
+        <p><span class="special_title">Attacking the Sorcerer:</span>
+        When the Sorcerer is represented by an animal form model
+        the heroes cannot target it with an attack (Melee or Ranged).</p>
+
+        <p><span class="special_title">Altar:</span>
+        A hero in the same area as an altar can perform a simple Manipulation
+        to activate the altar. If a hero activates the altar corresponding
+        to the current form of the Sorcerer (1-Camel, 2-Giant Scorpion, 3-Giant
+        Spider) then the animal form model is replaced by that of the Sorcerer.</p>
+
+        <p><span class="special_title">Lines of Sight:</span>
+        A character in a wall area has line of sight to each ground
+        area within the fortress walls. An area in a tower and an area outside
+        that tower are within each other’s line of sight only if the areas are
+        in or adjacent to the tower.</p>
+
+        <p><span class="special_title">Leaping from Walls:</span>
+        A character can move across a parapet from a wall area to
         a ground area as though it were a border. The character rolls
         <img src="/assets/dice/2 Red.png" class="scen_sq_token" /> for falling
         damage. If the character has <a class="skill" href="/skills/16">Leap</a>,
         the character rolls <img src="/assets/dice/Red.png" class="scen_sq_token" />
-        instead.',
-      ruleten_title: "Rock Slides:",
-      ruleten_text: 'A character can move into a rock slide area
+        instead.</p>
+        <p><span class="special_title">Rock Slides:</span>
+        A character can move into a rock slide area
         <img src="/assets/tokens/rocks.png" class="scen_token" /> from an adjacent
         area. The character must spend 2 extra movement points unless the character
-        has <a class="skill" href="/skills/19">Climb</a>.',
-      ruleeleven_title: "Chests:",
-      ruleeleven_text: 'During setup, the Overlord places 4 chests on the board
+        has <a class="skill" href="/skills/19">Climb</a>.</p>
+
+        <p><span class="special_title">Chests:</span>
+        During setup, the Overlord places 4 chests on the board
         as indicated by the setup diagram. The asset deck contains:
         1 <a class="item" href="/items/1">Battle Axe</a>,
         1 <a class="item" href="/items/34">Turanian Sword</a>,
         1 <a class="item" href="/items/13">Tribal Mace</a>, and
-        1 <a class="item" href="/items/37">Zingarian Bow</a>.',
+        1 <a class="item" href="/items/37">Zingarian Bow</a>.</p>',
 
       origin: "Stretch Goals +",
       map_ids: [3],
@@ -3206,8 +3356,8 @@
       tile7: [1],
       tile8: [0],
 
-      ruleone_title: 'Giant Wolf:',
-      ruleone_text: 'During setup, the hero places two Giant Wolves tiles next to
+      special_rules: '<p><span class="special_title">Giant Wolf:</span>
+        During setup, the hero places two Giant Wolves tiles next to
         Zelata’s hero sheet. When Zelata uses her Leaderships kill to activate the
         Giant Wolves by spending one gem, she activates two Giant Wolves characters
         instead of one. She must move both Giant Wolves, then perform their attack.
@@ -3217,44 +3367,54 @@
         As soon as 5 Giant Wolves have been killed, the hero removes a Giant Wolves
         tile from the game. From this point on, when Zelata uses her Leadership
         skill to activate the Giant Wolves by spending one gem, she only activates
-        one Giant Wolf character.',
-      ruletwo_title: 'Wolf Pack:',
-      ruletwo_text: 'When Zelata is in the same area as a Giant Wolf, she gains
+        one Giant Wolf character.</p>
+
+        <p><span class="special_title">Wolf Pack:</span>
+        When Zelata is in the same area as a Giant Wolf, she gains
         the Protected skill. When there are strictly more Giant Wolves characters
         than Overlord’s characters in one area:<br/>
         • The Armor Value of the Giant Wolves is 2 against Melee attacks.<br />
-        • The Armor Value of their target in Melee attack is reduced by 1.',
-      rulethree_title: 'Shaman’s Staff:',
-      rulethree_text: 'During setup, the Overlord places the
+        • The Armor Value of their target in Melee attack is reduced by 1.</p>
+
+        <p><span class="special_title">Shaman’s Staff:</span>
+        During setup, the Overlord places the
         <a class="spell" href="/spells/36">Withering</a> spell card next to the board.
         The character carrying the <a class="item" href="/items/25">Shaman’s Staff</a>
-        gains the <a class="spell" href="/spells/36">Withering</a> spell.',
-      rulefour_title: 'Censer:',
-      rulefour_text: 'During setup, the Overlord places the
-        <a class="spell" href="/spells/2">Pestilential Swarm</a> card next to the board.
-        The character carrying the <a class="item" href="/items/55">Censor</a>
-        gains the <a class="spell" href="/spells/2">Pestilential Swarm</a> spell.',
-      rulefive_title: 'Totem:',
-      rulefive_text: 'During setup, the Overlord places 4 totems as indicated on
-        the map. If Zelata is in the same area as a Totem, she may perform a complex
-        Manipulation of difficulty 2 to destroy that Totem. When a Totem is destroyed, the Overlord removes that Totem from the board, then the Swamp Demon suffers 2 wounds with no possible defense.',
-      rulesix_title: 'Water areas:',
-      rulesix_text: 'A character must spend 1 extra movement point to move out of
+        gains the <a class="spell" href="/spells/36">Withering</a> spell.</p>
+
+        <p><span class="special_title">Censer:</span>
+        During setup, the Overlord places the
+        <a class="spell" href="/spells/2">Pestilential Swarm</a> card next to
+        the board. The character carrying the <a class="item" href="/items/55">Censor</a>
+        gains the <a class="spell" href="/spells/2">Pestilential Swarm</a> spell.</p>
+
+        <p><span class="special_title">Totem:</span>
+        During setup, the Overlord places 4 totems as indicated on the map. If
+        Zelata is in the same area as a Totem, she may perform a complex
+        Manipulation of difficulty 2 to destroy that Totem. When a Totem is
+        destroyed, the Overlord removes that Totem from the board, then the
+        Swamp Demon suffers 2 wounds with no possible defense.</p>
+
+        <p><span class="special_title">Water areas:</span>
+        A character must spend 1 extra movement point to move out of
         a water area. A character can move from a water area to an adjacent wood
-        area by spending 2 extra movement points.',
-      ruleseven_title: 'Leap:',
-      ruleseven_text: 'Leaping over the water area around the altar in a single
-        movement is not possible. The character must stop in the altar area before
-        performing a second leap.',
-      ruleeight_title: 'Wooden Huts:',
-      ruleeight_text: 'A character with <a class="skill" href="/skills/11">Wall Wrecker</a>
-        can use it to move across the wall of one of the wooden huts.',
-      rulenine_title: 'Chests:',
-      rulenine_text: 'During setup, the Overlord places 3 chests on the board as
+        area by spending 2 extra movement points.</p>
+
+        <p><span class="special_title">Leap:</span>
+        Leaping over the water area around the altar in a single movement is not
+        possible. The character must stop in the altar area before performing a
+        second leap.</p>
+
+        <p><span class="special_title">Wooden Huts:</span>
+        A character with <a class="skill" href="/skills/11">Wall Wrecker</a>
+        can use it to move across the wall of one of the wooden huts.</p>
+
+        <p><span class="special_title">Chests:</span>
+        During setup, the Overlord places 3 chests on the board as
         indicated by the setup diagram. The asset deck contains:
         1 <a class="item" href="/items/25">Shaman’s Staff</a>,
         1 <a class="item" href="/items/55">Censer</a>, and
-        1 <a class="item" href="/items/22">Life Potion</a>.',
+        1 <a class="item" href="/items/22">Life Potion</a>.</p>',
 
       origin: "Stretch Goals +",
       map_ids: [6],
@@ -3330,61 +3490,72 @@
       tile7: [1],
       tile8: [0],
 
-      ruleone_title: 'Sacred Treasures:',
-      ruleone_text: 'The three <a class="item" href="/items/47">Sacred Treasure</a>,
+      special_rules: '<p><span class="special_title">Sacred Treasures:</span>
+        The three <a class="item" href="/items/47">Sacred Treasure</a>,
         the <a class="item" href="/items/28">Pictish Fetish</a>, and the
         <a class="item" href="/items/54">Heart of Ahriman</a> are considered Sacred Treasures.
         During setup, the Overlord places one Sacred Treasure card on the same
         areas as the tokens 1, 2, and 3 as well as the Pictish Fetish and the Heart
-        of Ahriman next to the board.',
-      ruletwo_title: 'Equipment:',
-      ruletwo_text: 'During setup, the Overlord places the following cards on the area 4:
+        of Ahriman next to the board.</p>
+
+        <p><span class="special_title">Equipment:</span>
+        During setup, the Overlord places the following cards on the area 4:
         1 <a class="item" href="/items/32">Axe</a>,
         1 <a class="item" href="/items/37">Zingarian Bow</a>, and
-        1 <a class="item" href="/items/22">Life Potion</a>.',
-      rulethree_title: 'Stone:',
-      rulethree_text: 'During setup, the Overlord places a Stone token in each of
+        1 <a class="item" href="/items/22">Life Potion</a>.</p>
+
+        <p><span class="special_title">Stone:</span>
+        During setup, the Overlord places a Stone token in each of
         the stone Huts as indicated by the setup diagram. These stones are considered
         Equipment cards with an encumbrance value of 2. When a hero carries a stone,
-        they no longer suffer the penalty for Melee Attack without a weapon card.',
-      rulefour_title: 'Zogar Sag:',
-      rulefour_text: 'When Zogar Sag dies, the Overlord immediately places the
-        <a class="item" href="/items/28">Pictish Fetish</a> card in Zogar Sag’s area.',
-      rulefive_title: 'Forest Demon:',
-      rulefive_text: 'When the Forest Demon dies, the Overlord immediately places
-        the <a class="item" href="/items/54">Heart of Ahriman</a> card in the Forest
-        Demon’s area.',
-      rulesix_title: 'Door:',
-      rulesix_text: 'Slasher and Conan’s Lion are imprisoned. As long as the door
-        is in play, the animals cannot be activated. Conan and Balthus cannot use
-        their Leadership skills. The Door is considered impassable.
-        A hero in an area adjacent to the door can perform a complex Manipulation
-        with a difficulty of 2 to remove that door from the board. The heroes may
-        use their Leadership skills to activate Conan’s Lion and Slasher.',
-      ruleseven_title: 'Slasher:',
-      ruleseven_text: 'Only Balthus can activate Slasher. If Balthus dies, Slasher
-        has no longer reason to fight and is immediately removed from the game.',
-      ruleeight_title: 'Conan’s Lion:',
-      ruleeight_text: 'Only Amra the Lion can activate Conan’s Lion. If Amra the
-        Lion dies, Conan’s Lion has no longer reason to fight and is immediately
-        removed from the game.',
-      rulenine_title: 'Fleeing the Village:',
-      rulenine_text: 'A model can flee the village from one of the three village
-        entrance areas (northwest, southwest and east) by spending movement points
+        they no longer suffer the penalty for Melee Attack without a weapon card.</p>
+
+        <p><span class="special_title">Zogar Sag:</span>
+        When Zogar Sag dies, the Overlord immediately places the
+        <a class="item" href="/items/28">Pictish Fetish</a> card in Zogar Sag’s area.</p>
+
+        <p><span class="special_title">Forest Demon:</span>
+        When the Forest Demon dies, the Overlord immediately places the
+        <a class="item" href="/items/54">Heart of Ahriman</a> card in the Forest
+        Demon’s area.</p>
+
+        <p><span class="special_title">Door:</span>
+        Slasher and Conan’s Lion are imprisoned. As long as the door is in play,
+        the animals cannot be activated. Conan and Balthus cannot use their
+        Leadership skills. The Door is considered impassable. A hero in an area
+        adjacent to the door can perform a complex Manipulation with a
+        difficulty of 2 to remove that door from the board. The heroes may
+        use their Leadership skills to activate Conan’s Lion and Slasher.</p>
+
+        <p><span class="special_title">Slasher:</span>
+        Only Balthus can activate Slasher. If Balthus dies, Slasher has no
+        longer reason to fight and is immediately removed from the game.</p>
+
+        <p><span class="special_title">Conan’s Lion:</span>
+        Only Amra the Lion can activate Conan’s Lion. If Amra the Lion dies,
+        Conan’s Lion has no longer reason to fight and is immediately removed
+        from the game.</p>
+
+        <p><span class="special_title">Fleeing the Village:</span>
+        A model can flee the village from one of the three village entrance
+        areas (northwest, southwest and east) by spending movement points
         as though the model was moving across a border. The model is then removed
         from the board. Once a model has fled, the model cannot be returned to the
-        board.',
-      ruleten_title: 'Flaps:',
-      ruleten_text: 'To enter or leave a hut, a hero must spend 1 extra Movement
-        point because of the Flaps. The Flaps at the entrance of each Hut block the
-        Line of Sight.',
-      ruleeleven_title: 'Climb:',
-      ruleeleven_text: 'A character with <a class="skill" href="/skills/19">Climb</a>
+        board.</p>
+
+        <p><span class="special_title">Flaps:</span>
+        To enter or leave a hut, a hero must spend 1 extra Movement point
+        because of the Flaps. The Flaps at the entrance of each Hut block the
+        Line of Sight.</p>
+
+        <p><span class="special_title">Climb:</span>
+        A character with <a class="skill" href="/skills/19">Climb</a>
         can move across boulders as though they were a border by spending 2 extra
-        movement points.',
-      ruletwelve_title: 'Wooden Huts:',
-      ruletwelve_text: 'A character with <a class="skill" href="/skills/11">Wall Wrecker</a>
-        can use it to move across the wall of one of the wooden huts.',
+        movement points.</p>
+
+        <p><span class="special_title">Wooden Huts:</span>
+        A character with <a class="skill" href="/skills/11">Wall Wrecker</a>
+        can use it to move across the wall of one of the wooden huts.</p>',
 
       origin: "Stretch Goals +",
       map_ids: [1],
@@ -3465,40 +3636,47 @@
         tile7: [1],
         tile8: [0],
 
-        ruleone_title: 'Warning Fire:',
-        ruleone_text: 'During setup, the Overlord places 3 Warning Fire tokens
-          as indicated by the setup diagram. The hero in a Warning Fire token’s
-          area may perform a complex Manipulation with a difficulty of 2 to light
-          the fire. When a warning fire is lit, the hero removes the corresponding
-          token from the board.',
-        ruletwo_title: 'Activating Levers:',
-        ruletwo_text: 'During setup, the Overlord places 3 Lever tokens as
-          indicated by the setup diagram. At the end of the Overlord’s turn, if
-          there are more models of the Overlord’s side than models of the hero’s
-          side in an area with a Lever token, then that lever is activated and the
-          Overlord removes that Lever token from the board.',
-        rulethree_title: 'Sounding the Alarm:',
-        rulethree_text: 'The hero sounds the alarm when the 3 Warning Fires are lit.',
-        rulefour_title: 'Freeing Conan:',
-        rulefour_text: 'Conan is freed when the 3 levers have been activated.',
-        rulefive_title: 'Pirates:',
-        rulefive_text: 'When the Hero uses Zaporavo’s Leadership skill to activate
-          Pirates by spending one gem, they activate a Pirate model plus one model
-          per lit Warning Fire instead of a single one. They must move all the
-          activated Pirate models and then perform their attacks. Each Pirate can
-          only be activated once per hero’s turn. Regarding the purchase of Rerolls,
-          Guard and Movement Points, Pirates follow the usual rules of the Allies.',
-        rulesix_title: 'Leadership Cape:',
-        rulesix_text: 'During setup, the hero places 3 red gems on the Cape card.
-          The hero can use the gems placed on the Cape card only to activate Pirates.
-          When the hero with the Cape wants to use these red gems to activate Pirates,
-          they transfer the red gems from the Cape card to the Pirates tile. The hero
-          may use both red gems and his own energy gems to activate the Pirates.
-          During the Hero’s End/ Start Phases, the hero with the Cape transfers the
-          red gems placed on the Pirates tile to the Cape card. The red gems are
-          never taken into account when calculating a hero’s life points.',
-        ruleseven_title: 'Leaping from/Climbing a Balcony:',
-        ruleseven_text: 'A character can move across a railing from a balcony area
+        special_rules: '<p><span class="special_title">Warning Fire:</span>
+          During setup, the Overlord places 3 Warning Fire tokens as indicated
+          by the setup diagram. The hero in a Warning Fire token’s area may
+          perform a complex Manipulation with a difficulty of 2 to light the
+          fire. When a warning fire is lit, the hero removes the corresponding
+          token from the board.</p>
+
+          <p><span class="special_title">Activating Levers:</span>
+          During setup, the Overlord places 3 Lever tokens as indicated by the
+          setup diagram. At the end of the Overlord’s turn, if there are more
+          models of the Overlord’s side than models of the hero’s side in an
+          area with a Lever token, then that lever is activated and the
+          Overlord removes that Lever token from the board.</p>
+
+          <p><span class="special_title">Sounding the Alarm:</span>
+          The hero sounds the alarm when the 3 Warning Fires are lit.</p>
+
+          <p><span class="special_title">Freeing Conan:</span>
+          Conan is freed when the 3 levers have been activated.</p>
+
+          <p><span class="special_title">Pirates:</span>
+          When the Hero uses Zaporavo’s Leadership skill to activate Pirates by
+          spending one gem, they activate a Pirate model plus one model per lit
+          Warning Fire instead of a single one. They must move all the activated
+          Pirate models and then perform their attacks. Each Pirate can only be
+          activated once per hero’s turn. Regarding the purchase of Rerolls,
+          Guard and Movement Points, Pirates follow the usual rules of the Allies.</p>
+
+          <p><span class="special_title">Leadership Cape:</span>
+          During setup, the hero places 3 red gems on the Cape card. The hero
+          can use the gems placed on the Cape card only to activate Pirates.
+          When the hero with the Cape wants to use these red gems to activate
+          Pirates, they transfer the red gems from the Cape card to the Pirates
+          tile. The hero may use both red gems and his own energy gems to
+          activate the Pirates. During the Hero’s End/ Start Phases, the hero
+          with the Cape transfers the red gems placed on the Pirates tile to the
+          Cape card. The red gems are never taken into account when calculating
+          a hero’s life points.</p>
+
+          <p><span class="special_title">Leaping from/Climbing a Balcony:</span>
+          A character can move across a railing from a balcony area
           to a ground floor area as though it were a border. The character rolls
           <img src="/assets/dice/2 Orange.png" class="scen_sq_token" />
           for falling damage. If the character has
@@ -3506,16 +3684,17 @@
           <img src="/assets/dice/Orange.png" class="scen_sq_token" /> instead.
           A character with <a class="skill" href="/skills/19">Climb</a> can move
           across a railing from a ground floor area to a balcony area by spending 2
-          extra movement points.',
-        ruleeight_title: 'Pit:',
-        ruleeight_text: 'A character must spend 1 extra Movement point to move
-          out of the pit area.',
-        rulenine_title: 'Chests:',
-        rulenine_text: 'During setup, the Overlord places 3 chests on the board
+          extra movement points.</p>
+
+          <p><span class="special_title">Pit:</span>
+          A character must spend 1 extra Movement point to move out of the pit area.</p>
+
+          <p><span class="special_title">Chests:</span>
+          During setup, the Overlord places 3 chests on the board
           as indicated by the setup diagram. The asset deck contains:
           1 <a class="item" href="/items/22">Life Potion</a>,
           1 <a class="item" href="/items/20">Shield</a>, and
-          1 <a class="item" href="/items/34">Turanian Sword</a>.',
+          1 <a class="item" href="/items/34">Turanian Sword</a>.</p>',
 
         origin: "Stretch Goals +",
         map_ids: [5],
