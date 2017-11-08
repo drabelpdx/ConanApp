@@ -14,7 +14,6 @@
   <a href="" id="show_bytype" class="toggles"><button class="btn btn-tile">By Type</button></a>
 </div>
 <hr>
-
 <div id="by_origin">
   <div class="row">
     <div class="col-md-4 col-sm-6">
@@ -23,6 +22,42 @@
         <table class="table">
           <% @tiles.each do |tile| %>
           <% if tile.origin === "Core Game"%>
+          <tr>
+            <td class="tile" align="center"><%= link_to tile.name, tile_path(tile) %></td>
+          </tr>
+          <% end %>
+          <% end %>
+        </table>
+      </div>
+      <div class="panel panel-danger">
+        <div class="panel-heading">Baal Pteor Tiles</div>
+        <table class="table">
+          <% @tiles.each do |tile| %>
+          <% if tile.origin === "Baal Pteor" %>
+          <tr>
+            <td class="tile" align="center"><%= link_to tile.name, tile_path(tile) %></td>
+          </tr>
+          <% end %>
+          <% end %>
+        </table>
+      </div>
+      <div class="panel panel-danger">
+        <div class="panel-heading">Black Dragons Tiles</div>
+        <table class="table">
+          <% @tiles.each do |tile| %>
+          <% if tile.origin === "Black Dragons" %>
+          <tr>
+            <td class="tile" align="center"><%= link_to tile.name, tile_path(tile) %></td>
+          </tr>
+          <% end %>
+          <% end %>
+        </table>
+      </div>
+      <div class="panel panel-danger">
+        <div class="panel-heading">The Black Ones Tiles</div>
+        <table class="table">
+          <% @tiles.each do |tile| %>
+          <% if tile.origin === "Black Ones" %>
           <tr>
             <td class="tile" align="center"><%= link_to tile.name, tile_path(tile) %></td>
           </tr>
@@ -45,18 +80,6 @@
         </table>
       </div>
       <div class="panel panel-danger">
-        <div class="panel-heading">Black Dragons Tiles</div>
-        <table class="table">
-          <% @tiles.each do |tile| %>
-          <% if tile.origin === "Black Dragons" %>
-          <tr>
-            <td class="tile" align="center"><%= link_to tile.name, tile_path(tile) %></td>
-          </tr>
-          <% end %>
-          <% end %>
-        </table>
-      </div>
-      <div class="panel panel-danger">
         <div class="panel-heading">Crossbowmen Tiles</div>
         <table class="table">
           <% @tiles.each do |tile| %>
@@ -69,10 +92,70 @@
         </table>
       </div>
       <div class="panel panel-danger">
+        <div class="panel-heading">Demon of the Earth Tiles</div>
+        <table class="table">
+          <% @tiles.each do |tile| %>
+          <% if tile.origin === "Demon of the Earth" %>
+          <tr>
+            <td class="tile" align="center"><%= link_to tile.name, tile_path(tile) %></td>
+          </tr>
+          <% end %>
+          <% end %>
+        </table>
+      </div>
+      <div class="panel panel-danger">
+        <div class="panel-heading">Dragon Tiles</div>
+        <table class="table">
+          <% @tiles.each do |tile| %>
+          <% if tile.origin === "Dragon" %>
+          <tr>
+            <td class="tile" align="center"><%= link_to tile.name, tile_path(tile) %></td>
+          </tr>
+          <% end %>
+          <% end %>
+        </table>
+      </div>
+      <div class="panel panel-danger">
+        <div class="panel-heading">Giant Wolves Tiles</div>
+        <table class="table">
+          <% @tiles.each do |tile| %>
+          <% if tile.origin === "Giant Wolves" %>
+          <tr>
+            <td class="tile" align="center"><%= link_to tile.name, tile_path(tile) %></td>
+          </tr>
+          <% end %>
+          <% end %>
+        </table>
+      </div>
+      <div class="panel panel-danger">
         <div class="panel-heading">Kushite Witch Hunters Tiles</div>
         <table class="table">
           <% @tiles.each do |tile| %>
           <% if tile.origin === "Kushite Witch Hunters" %>
+          <tr>
+            <td class="tile" align="center"><%= link_to tile.name, tile_path(tile) %></td>
+          </tr>
+          <% end %>
+          <% end %>
+        </table>
+      </div>
+      <div class="panel panel-danger">
+        <div class="panel-heading">Paolo Parent Guest Box</div>
+        <table class="table">
+          <% @tiles.each do |tile| %>
+          <% if tile.origin === "Paolo Parent Guest Box" %>
+          <tr>
+            <td class="tile" align="center"><%= link_to tile.name, tile_path(tile) %></td>
+          </tr>
+          <% end %>
+          <% end %>
+        </table>
+      </div>
+      <div class="panel panel-danger">
+        <div class="panel-heading">Sabertooth Tiger Tiles</div>
+        <table class="table">
+          <% @tiles.each do |tile| %>
+          <% if tile.origin === "Sabertooth Tiger" %>
           <tr>
             <td class="tile" align="center"><%= link_to tile.name, tile_path(tile) %></td>
           </tr>
@@ -193,6 +276,16 @@
         <div class="panel-heading">Ally Tiles</div>
         <table class="table">
           <% @allies.sort_by {|tile| tile.name }.each do |tile| %>
+          <tr>
+            <td class="tile" align="center"><%= link_to tile.name, tile_path(tile) %></td>
+          </tr>
+          <% end %>
+      </table>
+      </div>
+      <div class="panel panel-danger">
+        <div class="panel-heading">Event Tiles</div>
+        <table class="table">
+          <% @events.sort_by {|tile| tile.name }.each do |tile| %>
           <tr>
             <td class="tile" align="center"><%= link_to tile.name, tile_path(tile) %></td>
           </tr>

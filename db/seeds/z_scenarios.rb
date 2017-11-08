@@ -7,6 +7,8 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
   scenarios = Scenario.create([
+
+    ## Core Game
     { name: "In the Clutches of the Picts",
       description: "<p>With the echoing war drums of the Pict tribes settled
         beyond the Black River and the increasedfrequency of incursions up to
@@ -34,19 +36,19 @@
         <br /><a class="hero" href="/heroes/2">Conan</a>
         (<a class="item" href="/items/1">Battle Axe</a>,
         <a class="item" href="/items/20">Shield</a>,
-        <a class="item" href="/items/16">Leather Armor</a>),
+        <a class="item" href="/items/17">Leather Armor</a>),
         <br /><a class="hero" href="/heroes/4">Shevatas</a>
-        (<a class="item" href="/items/15">Kris</a>,
-        <a class="item" href="/items/14">Throwing Knives</a>),
+        (<a class="item" href="/items/9">Kris</a>,
+        <a class="item" href="/items/13">Throwing Knives</a>),
         <br /><a class="hero" href="/heroes/3">Hadrathus</a>
-        (<a class="item" href="/items/2">Dagger</a>,
-        <a class="spell" href="/spells/13">Teleportation</a>,
-        <a class="spell" href="/spells/7">Mitra’s Halo</a>,
-        <a class="spell" href="/spells/15">Lightning Storm</a>).
+        (<a class="item" href="/items/3">Dagger</a>,
+        <a class="spell" href="/spells/16">Teleportation</a>,
+        <a class="spell" href="/spells/9">Mitra’s Halo</a>,
+        <a class="spell" href="/spells/6">Lightning Storm</a>).
         Hadrathus starts with Mitra’s Halo cast.
         <br /><br /><strong>Suggestions for 4 heroes:</strong>
         <br /><a class="hero" href="/heroes/1">Bêlit</a>
-        (<a class="item" href="/items/12">Ornamental Lance</a>).
+        (<a class="item" href="/items/10">Ornamental Spear</a>).
         Bêlit starts in the same area as any hero.<br /><br />
         <p>After setup, each hero moves 5 gems from their Reserve zone to their
         Fatigue zone.</p>',
@@ -70,17 +72,17 @@
           </tr>
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZogarSagToken.png" class="scen_setup"></td>
-            <td><a class="tile" href="/tiles/4">Zogar Sag</a> has no spell for this scenario.</td>
+            <td><a class="tile" href="/tiles/6">Zogar Sag</a> has no spell for this scenario.</td>
           </tr>
         </table>',
 
-      tile1: [44],
-      tile2: [4, 5],
-      tile3: [48],
-      tile4: [41],
-      tile5: [43],
-      tile6: [20, 8],
-      tile7: [45],
+      tile1: [25],
+      tile2: [6, 5],
+      tile3: [29],
+      tile4: [23],
+      tile5: [26],
+      tile6: [9, 8],
+      tile7: [28],
       tile8: [1],
 
       special_rules: '<p><span class="special_title">Yselda:</span>
@@ -121,25 +123,25 @@
 
         <p><span class="special_title">Climbing:</span>
         A character with <a class="skill" href="/skills/19">Climb</a>
-        can move across boulders <img src="/assets/tokens/rocks.png" class="scen_token" />
+        can move across boulders <img src="/assets/tokens/rocksToken.png" class="scen_token" />
         as though they were a border by spending 2 extra movement points.</p>
 
         <p><span class="special_title">Chests:</span>
         During setup, the Overlord places 1 chest in each hut area (8 total).
         The asset deck contains:
-        2 <a class="item" href="/items/5">Explosive Orb</a>,
+        2 <a class="item" href="/items/6">Explosive Orb</a>,
         2 <a class="item" href="/items/22">Life Potion</a>,
-        1 <a class="item" href="/items/17">Chainmail</a>,
-        1 <a class="item" href="/items/4">Crossbow</a>,
+        1 <a class="item" href="/items/16">Chainmail</a>,
+        1 <a class="item" href="/items/5">Crossbow</a>,
         1 <a class="item" href="/items/19">Buckler</a>,
-        1 <a class="item" href="/items/9">Bossonian Bow</a>.</p>',
+        1 <a class="item" href="/items/2">Bossonian Bow</a>.</p>',
 
       origin: "Core Game",
       map_ids: [1],
       hero_ids: [1, 2, 3, 4],
-      tile_ids: [44, 4, 48, 41, 43, 20, 45, 1],
-      spell_ids: [7, 13, 15],
-      item_ids: [1, 2, 4, 5, 9, 12, 14, 15, 16, 17, 19, 20, 22] },
+      tile_ids: [1, 6, 9, 23, 25, 26, 28, 29],
+      spell_ids: [6, 9, 16],
+      item_ids: [1, 2, 3, 5, 6, 9, 10, 13, 16, 17, 19, 20, 22] },
 
     { name: "Hunting the Tigress",
       description: "<p>For months, the pirate ship Tigress has been scouring the
@@ -165,23 +167,23 @@
         Bêlit survives the attack; the heroes win the game.",
       hero_setup: '<p>The game starts with the heroes’ turn.</p>
         <p>Bêlit and Bêlit’s Guards start in the areas indicated by the setup diagram.
-        The other heroes start in the <img src="/assets/stats/1Token.png" class="scen_token" />
-        area.</p>
+        The other heroes start in the
+        <img src="/assets/tokens/area1Token.png" class="scen_token" /> area.</p>
         <strong>Suggestions for 3 heroes:</strong>
         <br /><a class="hero" href="/heroes/1">Bêlit</a> (required)
-        (<a class="item" href="/items/12">Ornamental Lance</a>,
+        (<a class="item" href="/items/10">Ornamental Spear</a>,
         <a class="item" href="/items/21">Tribal Shield</a>),
         <br /><a class="hero" href="/heroes/2">Conan</a>
-        (<a class="item" href="/items/10">Sword</a>,
-        <a class="item" href="/items/16">Leather Armor</a>),
+        (<a class="item" href="/items/12">Sword</a>,
+        <a class="item" href="/items/17">Leather Armor</a>),
         <br /><a class="hero" href="/heroes/4">Shevatas</a>
-        (<a class="item" href="/items/15">Kris</a>,
-        <a class="item" href="/items/14">Throwing Knives</a>),
+        (<a class="item" href="/items/9">Kris</a>,
+        <a class="item" href="/items/13">Throwing Knives</a>),
         <br /><br /><strong>Suggestions for 4 heroes:</strong>
         <br /><a class="hero" href="/heroes/3">Hadrathus</a>
-        (<a class="item" href="/items/2">Dagger</a>,
-        <a class="spell" href="/spells/7">Mitra’s Halo</a>,
-        <a class="spell" href="/spells/10">Bori’s Rage</a>).
+        (<a class="item" href="/items/3">Dagger</a>,
+        <a class="spell" href="/spells/9">Mitra’s Halo</a>,
+        <a class="spell" href="/spells/1">Bori’s Rage</a>).
         Hadrathus does not start with Mitra’s Halo cast.<br /><br />
         <p>After setup, each hero moves 4 gems from their Reserve zone to their
         Fatigue zone.</p>',
@@ -202,8 +204,8 @@
               <strong>Reinforcement:</strong> 6 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" /> .
               <br /><strong>Fire at will:</strong> Each unit may perform a Ranged Attack if able.
-              <br /><strong>Glory to Set:</strong> <a class="tile" href="/tiles/3">Skuthus</a>
-              sacrifices himself to summon an <a class="tile" href="/tiles/22">Outer Dark Demon</a>.
+              <br /><strong>Glory to Set:</strong> <a class="tile" href="/tiles/4">Skuthus</a>
+              sacrifices himself to summon an <a class="tile" href="/tiles/11">Outer Dark Demon</a>.
               The Overlord places the Outer Dark Demon model (6 life points) in Skuthus’ area,
               then Skuthus dies (This count toward completing the heroes’ objective).
               Then the Overlord replaces the Skuthus unit tile in the River with the
@@ -213,21 +215,21 @@
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SkuthusToken.png" class="scen_setup"></td>
             <td>
-              <a class="tile" href="/tiles/3">Skuthus</a> has
-              <a class="spell" href="/spells/11">Energy Drain</a> and
-              <a class="spell" href="/spells/5">Set’s Halo</a>. He starts with Set’s Halo cast.
+              <a class="tile" href="/tiles/4">Skuthus</a> has
+              <a class="spell" href="/spells/3">Energy Drain</a> and
+              <a class="spell" href="/spells/13">Set’s Halo</a>. He starts with Set’s Halo cast.
             </td>
           </tr>
         </table>',
 
-      tile1: [37],
-      tile2: [57],
-      tile3: [33],
-      tile4: [35],
-      tile5: [36],
+      tile1: [35],
+      tile2: [15],
+      tile3: [30],
+      tile4: [32],
+      tile5: [31],
       tile6: [1],
-      tile7: [5, 8],
-      tile8: [3, 3],
+      tile7: [7, 8],
+      tile8: [4, 3],
 
       special_rules: '<p><span class="special_title">Leap:</span>
         If a hero, Zaporavo, or Skuthus fails to <a class="skill" href="/skills/16">Leap</a>,
@@ -238,15 +240,15 @@
         During setup, the Overlord places 4 chests on the board as
         indicated by the setup diagram. The asset deck contains:
         2 <a class="item" href="/items/22">Life Potion</a>,
-        1 <a class="item" href="/items/5">Explosive Orb</a>,
+        1 <a class="item" href="/items/6">Explosive Orb</a>,
         1 <a class="item" href="/items/23">Empty chest</a>.</p>',
 
       origin: "Core Game",
       map_ids: [2],
       hero_ids: [1, 2, 3, 4],
-      tile_ids: [37, 57, 33, 35, 36, 1, 5, 3],
-      spell_ids: [7, 5, 10, 11],
-      item_ids: [2, 5, 10, 12, 14, 15, 16, 21, 22, 23] },
+      tile_ids: [1, 4, 7, 15, 30, 31, 32, 35],
+      spell_ids: [1, 3, 9, 13],
+      item_ids: [3, 6, 9, 10, 12, 13, 17, 21, 22, 23] },
 
     { name: "In the Heart of Darkness",
       description: "<p>The Tigress travels the dark waters of the Zarkheba river,
@@ -277,15 +279,15 @@
         <p>The heroes and Bêlit’s Guards start in the areas indicated by the setup diagram.</p>
         <strong>Suggestions for 3 heroes:</strong>
         <br /><a class="hero" href="/heroes/2">Conan</a>
-        (<a class="item" href="/items/10">Sword</a>,
+        (<a class="item" href="/items/12">Sword</a>,
         <a class="item" href="/items/20">Shield</a>,
-        <a class="item" href="/items/16">Leather Armor</a>),
+        <a class="item" href="/items/17">Leather Armor</a>),
         <br /><a class="hero" href="/heroes/4">Shevatas</a>
-        (<a class="item" href="/items/15">Kris</a>,
-        <a class="item" href="/items/14">Throwing Knives</a>),
+        (<a class="item" href="/items/9">Kris</a>,
+        <a class="item" href="/items/13">Throwing Knives</a>),
         <br /><a class="hero" href="/heroes/1">Bêlit</a>
-        (<a class="item" href="/items/12">Ornamental Lance</a>,
-        <a class="item" href="/items/6">Yuetshi Knife</a>) <br /><br />
+        (<a class="item" href="/items/10">Ornamental Spear</a>,
+        <a class="item" href="/items/15">Yuetshi Knife</a>) <br /><br />
         <p>After setup, each hero moves 5 gems from their Reserve zone to
         their Fatigue zone.</p>',
 
@@ -302,38 +304,37 @@
               <img src="/assets/stats/reinforcement.png" class="scen_token" /> .
               <br /><strong>Freeing a Monster:</strong> The Overlord may free a
               petrified monster and add its tile to the end of the River.
-              The <a class="tile" href="/tiles/22">Outer Dark Demon</a> (6 life points),
-              <a class="tile" href="/tiles/20">Giant Serpent</a> (8 life points), and
-              <a class="tile" href="/tiles/21">Khosatral Khel</a> (7 life points) are
+              The <a class="tile" href="/tiles/11">Outer Dark Demon</a> (6 life points),
+              <a class="tile" href="/tiles/9">Giant Snake</a> (8 life points), and
+              <a class="tile" href="/tiles/10">Khosatral Khel</a> (7 life points) are
               petrified and cannot be attacked until they are freed.
               The Overlord cannot free a monster if there are 2 faceup monster tiles in
-              the River (including the <a class="tile" href="/tiles/19">Dark Demon</a>).
+              the River (including the <a class="tile" href="/tiles/8">Dark Demon</a>).
             </td>
           </tr>
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SkuthusToken.png" class="scen_setup"></td>
             <td>
-              <a class="tile" href="/tiles/3">Skuthus</a> has
-              <a class="spell" href="/spells/6">Set’s Bite</a>,
-              <a class="spell" href="/spells/5">Set’s Halo</a>. He starts with Set’s Halo cast.
+              <a class="tile" href="/tiles/4">Skuthus</a> has
+              <a class="spell" href="/spells/12">Set’s Bite</a>,
+              <a class="spell" href="/spells/13">Set’s Halo</a>. He starts with Set’s Halo cast.
             </td>
           </tr>
         </table>',
 
-      tile1: [19, 6],
-      tile2: [3, 5],
-      tile3: [57],
-      tile4: [41],
+      tile1: [8, 6],
+      tile2: [4, 5],
+      tile3: [15],
+      tile4: [23],
       tile5: [1],
       tile6: [0],
       tile7: [0],
       tile8: [0],
 
       special_rules: '<p><span class="special_title">Yuetshi Knife:</span>
-        When a hero attacks <a class="tile" href="/tiles/21">Khosatral Khel</a>
-        with the <a class="item" href="/items/6">Yuetshi Knife</a>,
-        <a class="tile" href="/tiles/21">Khosatral Khel’s</a> armor value becomes
-        3 for that attack.</p>
+        When a hero attacks <a class="tile" href="/tiles/10">Khosatral Khel</a>
+        with the <a class="item" href="/items/15">Yuetshi Knife</a>,
+        Khosatral Khel’s armor value becomes 3 for that attack.</p>
 
         <p><span class="special_title">Lines of Sight:</span>
         A character in a wall area has line of sight to each ground area within
@@ -352,7 +353,7 @@
 
         <p><span class="special_title">Rock Slides:</span>
         A character can move into a rock slide area
-        <img src="/assets/tokens/rocks.png" class="scen_token" />
+        <img src="/assets/tokens/rocksToken.png" class="scen_token" />
         from an adjacent area. The character must spend 2 extra movement points
         unless the character has <a class="skill" href="/skills/19">Climb</a>.</p>
 
@@ -360,15 +361,15 @@
         During setup, the Overlord places 5 chests on the board as indicated by
         the setup diagram. The asset deck contains:
         2 <a class="item" href="/items/22">Life Potion</a>,
-        2 <a class="item" href="/items/5">Explosive Orb</a>,
-        1 <a class="item" href="/items/3">Javelin</a>.</p>',
+        2 <a class="item" href="/items/6">Explosive Orb</a>,
+        1 <a class="item" href="/items/8">Javelin</a>.</p>',
 
       origin: "Core Game",
       map_ids: [3],
       hero_ids: [1, 2, 4],
-      tile_ids: [19, 3, 57, 41, 1],
-      spell_ids: [5, 6],
-      item_ids: [6, 10, 12, 14, 15, 16, 20] },
+      tile_ids: [1, 4, 8, 9, 10, 11, 15, 23],
+      spell_ids: [12, 13],
+      item_ids: [6, 8, 9, 10, 12, 13, 15, 17, 20, 22] },
 
     { name: "The Final Ritual",
       description: "<p>The province of Conajohara is being sacked. United clans
@@ -396,15 +397,15 @@
         <br /><a class="hero" href="/heroes/2">Conan</a>
         (<a class="item" href="/items/1">Battle Axe</a>,
         <a class="item" href="/items/20">Shield</a>,
-        <a class="item" href="/items/16">Leather Armor</a>),
+        <a class="item" href="/items/17">Leather Armor</a>),
         <br /><a class="hero" href="/heroes/4">Shevatas</a>
-        (<a class="item" href="/items/15">Kris</a>,
-        <a class="item" href="/items/14">Throwing Knives</a>),
+        (<a class="item" href="/items/9">Kris</a>,
+        <a class="item" href="/items/13">Throwing Knives</a>),
         <br /><a class="hero" href="/heroes/3">Hadrathus</a>
-        (<a class="item" href="/items/2">Dagger</a>,
-        <a class="spell" href="/spells/13">Teleportation</a>,
-        <a class="spell" href="/spells/7">Mitra’s Halo</a>,
-        <a class="spell" href="/spells/15">Lightning Storm</a>).
+        (<a class="item" href="/items/3">Dagger</a>,
+        <a class="spell" href="/spells/16">Teleportation</a>,
+        <a class="spell" href="/spells/9">Mitra’s Halo</a>,
+        <a class="spell" href="/spells/6">Lightning Storm</a>).
         Hadrathus does not start with Mitra’s Halo cast.<br /><br />
         <p>After setup, each hero moves 5 gems from their Reserve zone to their
         Fatigue zone.</p>',
@@ -443,13 +444,13 @@
           </tr>
         </table>',
 
-      tile1: [48],
-      tile2: [4, 6],
+      tile1: [29],
+      tile2: [6, 6],
       tile3: [1],
-      tile4: [46],
-      tile5: [43],
-      tile6: [45],
-      tile7: [44],
+      tile4: [27],
+      tile5: [26],
+      tile6: [28],
+      tile7: [25],
       tile8: [0],
 
       special_rules: '<p><span class="special_title">Barricades:</span>
@@ -479,15 +480,15 @@
 
         <p><span class="special_title">Climbing:</span>
         A character with <a class="skill" href="/skills/19">Climb</a> can move
-        across boulders <img src="/assets/tokens/rocks.png" class="scen_token" />
+        across boulders <img src="/assets/tokens/rocksToken.png" class="scen_token" />
         as though they were a border by spending 2 extra movement points.</p>',
 
       origin: "Core Game",
       map_ids: [1],
       hero_ids: [2, 3, 4],
-      tile_ids: [48, 4, 1, 46, 43, 45, 44],
-      spell_ids: [7, 13, 15],
-      item_ids: [1, 2, 14, 15, 16, 20] },
+      tile_ids: [1, 6, 25, 26, 27, 28, 29],
+      spell_ids: [6, 9, 16],
+      item_ids: [1, 3, 9, 13, 17, 20] },
 
     { name: "For All of Ophir’s Gold",
       description: "<p>While visiting the South of the kingdom, Princess Olivia,
@@ -518,10 +519,10 @@
         <br /><a class="hero" href="/heroes/2">Conan</a>
         (<a class="item" href="/items/1">Battle Axe</a>,
         <a class="item" href="/items/20">Shield</a>,
-        <a class="item" href="/items/16">Leather Armor</a>),
+        <a class="item" href="/items/17">Leather Armor</a>),
         <br /><a class="hero" href="/heroes/4">Shevatas</a>
-        (<a class="item" href="/items/15">Kris</a>,
-        <a class="item" href="/items/14">Throwing Knives</a>),
+        (<a class="item" href="/items/9">Kris</a>,
+        <a class="item" href="/items/13">Throwing Knives</a>),
         <br /><a class="hero" href="/heroes/3">Hadrathus</a>
         (<a class="item" href="/items/2">Dagger</a>,
         <a class="spell" href="/spells/13">Teleportation</a>,
@@ -550,13 +551,13 @@
           </tr>
         </table>',
 
-      tile1: [2, 6],
-      tile2: [51],
-      tile3: [41],
-      tile4: [57],
-      tile5: [2],
-      tile6: [23, 8],
-      tile7: [58],
+      tile1: [3, 6],
+      tile2: [17],
+      tile3: [23],
+      tile4: [15],
+      tile5: [3],
+      tile6: [12, 8],
+      tile7: [16],
       tile8: [1],
 
       special_rules: '<p><span class="special_title">Olivia:</span>
@@ -570,7 +571,7 @@
         the game.</p>
 
         <p><span class="special_title">Olivia’s Cell:</span>
-        The <a class="tile" href="/tile/2">Captain</a> is Arbanus of Koth. When
+        The <a class="tile" href="/tiles/3">Captain</a> is Arbanus of Koth. When
         Arbanus dies, place a <a class="item" href="/items/30">Key</a> in the
         area in which he died. If a hero is in an area adjacent to the door to
         Olivia’s cell and has a <a class="item" href="/items/30">Key</a>, the
@@ -582,7 +583,7 @@
         hero succeeds, remove the door from the board.</p>
 
         <p><span class="special_title">Doors:</span>
-        A character other than a <a class="tile" href="/tiles/41">Hyena</a> can
+        A character other than a <a class="tile" href="/tiles/23">Hyena</a> can
         move across a door (except the door to Olivia or Conan’s cell) as though
         it were a border by spending 1 additional movement point. After a
         character moves across a door, remove that door from the board.</p>
@@ -603,7 +604,7 @@
 
         <p><span class="special_title">Rock Slides:</span>
         A character can move into a rock slide area
-        <img src="/assets/tokens/rocks.png" class="scen_token" /> from an
+        <img src="/assets/tokens/rocksToken.png" class="scen_token" /> from an
         adjacent area. The character must spend 2 extra movement points unless
         the character has <a class="skill" href="/skills/19">Climb</a>.</p>
 
@@ -611,16 +612,16 @@
         During setup, the Overlord places 6 chests on the board as indicated by
         the setup diagram. The asset deck contains:
         2 <a class="item" href="/items/22">Life Potion</a>,
-        2 <a class="item" href="/items/5">Explosive Orb</a>,
-        1 <a class="item" href="/items/17">Chain Mail</a>,
-        1 <a class="item" href="/items/4">Crossbow</a>.</p>',
+        2 <a class="item" href="/items/6">Explosive Orb</a>,
+        1 <a class="item" href="/items/16">Chain Mail</a>,
+        1 <a class="item" href="/items/5">Crossbow</a>.</p>',
 
       origin: "Core Game",
       map_ids: [3],
       hero_ids: [2, 3, 4],
-      tile_ids: [2, 51, 41, 57, 2, 23, 58, 1],
+      tile_ids: [1, 3, 12, 15, 16, 17, 23],
       spell_ids: [7, 13, 15],
-      item_ids: [1, 2, 4, 5, 14, 15, 16, 17, 20, 22] },
+      item_ids: [1, 3, 5, 6, 9, 13, 16, 17, 20, 22 ] },
 
     { name: "The Wrath of Anu",
       description: "<p>Two audacious thieves, a deserter from Gunderland and a
@@ -647,8 +648,8 @@
         indicated by the setup diagram.
         <br /><br /><strong>Suggestions for 1 hero:</strong>
         <br /><a class="hero" href="/heroes/2">Conan</a> (required)
-        (<a class="item" href="/items/10">Sword</a>,
-        <a class="item" href="/items/16">Leather Armor</a>)<br /><br />
+        (<a class="item" href="/items/12">Sword</a>,
+        <a class="item" href="/items/17">Leather Armor</a>)<br /><br />
         <p>After setup, Conan does not move any gems from his Reserve zone to
         his Fatigue zone. The hero plays the heroes’ stance phase as if no hero
         had died during the game.</p>',
@@ -687,8 +688,8 @@
           </tr>
         </table>',
 
-      tile1: [53],
-      tile2: [54],
+      tile1: [18],
+      tile2: [22],
       tile3: [1],
       tile4: [0],
       tile5: [0],
@@ -750,15 +751,15 @@
         During setup, the Overlord places 6 chests on the board as indicated by
         the setup diagram. The asset deck contains:
         3 <a class="item" href="/items/22">Life Potion</a>,
-        2 <a class="item" href="/items/5">Explosive Orb</a>,
+        2 <a class="item" href="/items/6">Explosive Orb</a>,
         1 <a class="item" href="/items/23">Empty Chest</a>.</p>',
 
       origin: "Core Game",
       map_ids: [4],
       hero_ids: [2],
-      tile_ids: [53, 54, 1],
+      tile_ids: [1, 12, 18, 22],
       spell_ids: [],
-      item_ids: [5, 10, 16, 22, 23] },
+      item_ids: [6, 12, 17, 22, 23] },
 
     { name: "Infernal Pursuit Part I",
       description: "<p>Smelling a trap during a meeting with pirates from the
@@ -787,11 +788,11 @@
         <br /><br /><strong>Suggestions for 2 heroes:</strong>
         <br /><a class="hero" href="/heroes/2">Conan</a> (required)
         (<a class="item" href="/items/1">Battle Axe</a>,
-        <a class="item" href="/items/16">Leather Armor</a>),
+        <a class="item" href="/items/17">Leather Armor</a>),
         <br /><a class="hero" href="/heroes/4">Shevatas</a>
         (<a class="item" href="/items/11">Parrying Dagger</a>,
-        <a class="item" href="/items/14">Throwing Knives</a>,
-        <a class="item" href="/items/16">Leather Armor</a>) <br /><br />
+        <a class="item" href="/items/13">Throwing Knives</a>,
+        <a class="item" href="/items/17">Leather Armor</a>) <br /><br />
         <p>After setup, each hero moves 4 gems from their Reserve zone to
         their Fatigue zone.</p>',
 
@@ -815,8 +816,8 @@
               <br /><strong>Rogue Wave:</strong> A huge wave rocks the ship; the
               Overlord rolls <img src="/assets/dice/Red.png" class="scen_sq_token" /> .
               For each symbol shown on the die, the Overlord
-              either moves a hero up to 3 ship areas or removes a mutineering Pirate from
-              the board. A hero cannot be moved into a water area.
+              either moves a hero up to 3 ship areas or removes a mutineering
+              Pirate from the board. A hero cannot be moved into a water area.
               <br /><strong>Turncoats:</strong> The Overlord rolls
               <img src="/assets/dice/Red.png" class="scen_sq_token" /> . For each
               symbol shown on the die, the Overlord replaces a mutineering Pirate
@@ -825,20 +826,21 @@
           </tr>
         </table>',
 
-      tile1: [35],
-      tile2: [36],
+      tile1: [32],
+      tile2: [31],
       tile3: [1],
-      tile4: [57],
-      tile5: [2, 5],
+      tile4: [15],
+      tile5: [3, 5],
       tile6: [0],
       tile7: [0],
       tile8: [0],
 
       special_rules: '<p><span class="special_title">Mutineering Pirates:</span>
         Pirate models with red bases are mutineering Pirates, and are considered
-        allies. Mutineering Pirates cannot be activated using Leadership. Once
-        per hero turn, the heroes can activate all mutineering pirates.
-        Mutineering pirates move and attack like a unit group.</p>
+        allies. Mutineering <a class="tile" href="/tiles/35">Pirates</a> cannot
+        be activated using Leadership. Once per hero turn, the heroes can
+        activate all mutineering pirates. Mutineering pirates move and attack
+        like a unit group.</p>
 
         <p><span class="special_title">With me!:</span>
         At the start of the heroes’ turn, Conan rolls
@@ -859,12 +861,15 @@
         During setup, the Overlord places 4 chests on the board as indicated by
         the setup diagram. The asset deck contains:
         2 <a class="item" href="/items/22">Life Potion</a>,
-        1 <a class="item" href="/items/5">Explosive Orb</a>,
-        1 <a class="item" href="/items/4">Crossbow</a></p>',
+        1 <a class="item" href="/items/6">Explosive Orb</a>,
+        1 <a class="item" href="/items/5">Crossbow</a></p>',
 
-      origin: "Core Game", map_ids: [2], hero_ids: [2, 3],
-      tile_ids: [35, 36, 1, 57, 2], spell_ids: [],
-      item_ids: [1, 4, 5, 11, 14, 16, 22] },
+      origin: "Core Game",
+      map_ids: [2],
+      hero_ids: [2, 3],
+      tile_ids: [1, 3, 15, 32, 31, 35],
+      spell_ids: [],
+      item_ids: [1, 5, 6, 11, 13, 17, 22] },
 
     { name: "Infernal Pursuit Part II",
       description: '<p><strong>This scenario can be played only after Infernal Pursuit I.</strong></p>
@@ -873,9 +878,9 @@
         indicated by the setup diagram and places each Pirate model with a green
         or blue base that is off the board into a numbered area on the board as
         indicated by the setup diagram
-        <img src="/assets/tokens/1Token.png" class="scen_token" />
-        <img src="/assets/tokens/2Token.png" class="scen_token" />
-        <img src="/assets/tokens/3Token.png" class="scen_token" /> .
+        <img src="/assets/tokens/area1Token.png" class="scen_token" />
+        <img src="/assets/tokens/area2Token.png" class="scen_token" />
+        <img src="/assets/tokens/area3Token.png" class="scen_token" /> .
         Turn each green and blue Pirates tile in the River faceup, then place
         each green and blue Pirates tile that is not in the River at the end of
         the River.</p>
@@ -937,9 +942,9 @@
       origin: "Core Game",
       map_ids: [2],
       hero_ids: [2, 3],
-      tile_ids: [],
+      tile_ids: [1, 3, 7, 15, 32, 31, 35],
       spell_ids: [],
-      item_ids: [1, 4, 5, 11, 14, 16, 22] },
+      item_ids: [1, 11, 13, 17] },
 
     { name: "Trapped like Rats",
       description: "<p>Laughs and shouts ring out as ale-filled mugs are banged
@@ -966,15 +971,16 @@
       hero_setup: 'The game begins with the heroes’ turn. The heroes start in
         the area indicated by the setup diagram.
         <br /><br /><strong>Suggestions for 3 heroes:</strong>
-        <br /><a class="hero" href="/heroes/2">Conan</a> (<a class="item" href="/items/10">Sword</a>),
+        <br /><a class="hero" href="/heroes/2">Conan</a>
+        (<a class="item" href="/items/12">Sword</a>),
         <br /><a class="hero" href="/heroes/4">Shevatas</a>
-        (<a class="item" href="/items/15">Kris</a>,
+        (<a class="item" href="/items/9">Kris</a>,
           <a class="item" href="/items/20">Shield</a>),
         <br /><a class="hero" href="/heroes/3">Hadrathus</a>
-        (<a class="item" href="/items/12">Ornamental Lance</a>,
-          <a class="spell" href="/spells/8">Mitra’s Healing</a>,
+        (<a class="item" href="/items/10">Ornamental Spear</a>,
+          <a class="spell" href="/spells/10">Mitra’s Healing</a>,
           <a class="spell" href="/spells/14">Set’s Possession</a>,
-          <a class="spell" href="/spells/12">Mind Control</a>) <br /><br />
+          <a class="spell" href="/spells/8">Mind Control</a>) <br /><br />
         <p>After setup, each hero moves 3 gems from their Reserve zone to
         their Fatigue zone.</p>',
 
@@ -1015,10 +1021,10 @@
           </tr>
         </table>',
 
-      tile1: [53],
-      tile2: [54],
-      tile3: [57],
-      tile4: [2, 3],
+      tile1: [18],
+      tile2: [22],
+      tile3: [15],
+      tile4: [3, 3],
       tile5: [1],
       tile6: [0],
       tile7: [0],
@@ -1057,16 +1063,17 @@
         <p><span class="special_title">Alarm!:</span>
         The alarm is raised if any of the following occurs:<br />
         • A character uses <a class="skill" href="/skills/11">Wall Wrecker</a>
-        or an <a class="item" href="/items/5">Explosive Orb</a>.<br />
+        or an <a class="item" href="/items/6">Explosive Orb</a>.<br />
         • At the beginning of the Overlord’s turn, if a unit is in an area with
         a dead minion or a hero.<br />
         • At the end of turn 4.</p>
         <p>When the alarm is raised, the Overlord removes all dead character’s
         models from the board and places 5 Bossonian Guard models with green
-        bases in the entrance area. The Overlord places the green Bossonian
-        Guards tile on the left in the River, sliding tiles to the right as
-        needed, and replaces the recovery token in the book of Skelos with the
-        recovery token showing a recovery value of “5.”</p>
+        bases in the entrance area. The Overlord places the green
+        <a class="tile" href="/tiles/19">Bossonian Guards</a> tile on the left
+        in the River, sliding tiles to the right as needed, and replaces the
+        recovery token in the book of Skelos with the recovery token showing a
+        recovery value of “5.”</p>
 
         <p><span class="special_title">Breakout:</span>
         When a hero opens the last chest on the board, that hero takes a
@@ -1106,15 +1113,16 @@
         During setup, the Overlord places 4 chests on the board as indicated by
         the setup diagram. The asset deck contains:
         2 <a class="item" href="/items/22">Life Potion</a>,
-        2 <a class="item" href="/items/5">Explosive Orb</a>.</p>',
+        2 <a class="item" href="/items/6">Explosive Orb</a>.</p>',
 
       origin: "Core Game",
       map_ids: [4],
       hero_ids: [2, 3, 4],
-      tile_ids: [53, 54, 57, 2, 1],
-      spell_ids: [8, 12, 14],
-      item_ids: [10, 12, 15, 20] },
+      tile_ids: [1, 12, 15, 18, 19, 22],
+      spell_ids: [8, 10, 14],
+      item_ids: [6, 9, 10, 12, 20, 22 ] },
 
+    ## King Pledge
     { name: "Red Dawn",
       description: "<p>The situation is dire. The Aquilonian province of
         Conajohara is on the brink of collapse, drowned under the assault of
@@ -1174,34 +1182,33 @@
             </td>
           </tr>
           <tr>
+            <td><img src="/assets/tokens/bigCardAToken.png" class="scen_event" /></td>
             <td>
-            </td>
-            <td>
-            The Overlord chooses 1 <a class="item" href="/items/57">objective card</a>
+            The Overlord chooses 1 <a class="item" href="/items/58">objective card</a>
             (A, B, C, D, or E) and keeps it facedown.
-            <br />The Overlord takes the remaining 4 <a class="item" href="/items/57">objectives</a>,
-            3 <a class="item" href="/items/47">Sacred Treasures</a>, and 1
-            <a class="item" href="/items/46">Idol of Yag-Kosha</a>, shuffles them
-            together, and randomly places 1 card facedown in each hut area.
+            <br />The Overlord takes the remaining 4 objectives, 3
+            <a class="item" href="/items/55">Sacred Treasures</a>, and 1
+            <a class="item" href="/items/51">Idol of Yag-Kosha</a>, shuffles
+            them together, and randomly places 1 card facedown in each hut area.
             <br />Then the Overlord takes
             1 <a class="item" href="/items/1">Battle Axe</a>,
             1 <a class="item" href="/items/19">Buckler</a>,
-            1 <a class="item" href="/items/2">Dagger</a>,
-            1 <a class="item" href="/items/10">Sword</a>,
+            1 <a class="item" href="/items/3">Dagger</a>,
+            1 <a class="item" href="/items/12">Sword</a>,
             1 <a class="item" href="/items/11">Parrying Dagger</a>,
             2 <a class="item" href="/items/45">Pictish Drinks</a>,
-            and 1 <a class="item" href="/items/3">Javelin</a>,
+            and 1 <a class="item" href="/items/8">Javelin</a>,
             shuffles them together, and randomly places 1 card facedown in each
             hut area (2 cards total in each hut area).
             </td>
           </tr>
         </table>',
 
-      tile1: [43],
-      tile2: [46],
-      tile3: [41],
-      tile4: [48],
-      tile5: [4, 5],
+      tile1: [26],
+      tile2: [27],
+      tile3: [23],
+      tile4: [29],
+      tile5: [6, 5],
       tile6: [1],
       tile7: [0],
       tile8: [0],
@@ -1215,16 +1222,19 @@
         decide whether to discard the card faceup or keep the card facedown.</p>
 
         <p><span class="special_title">Burn Everything:</span>
-        When a Pict Warrior, Pict Hunter, or Zogar Sag is activated, if that
+        When a <a class="tile" href="/tiles/29">Pict Warrior</a>,
+        <a class="tile" href="/tiles/26">Pict Hunter</a>, or
+        <a class="tile" href="/tiles/6">Zogar Sag</a> is activated, if that
         unit is adjacent to a hut area with no hero in it, the Overlord may
         spend the movement points from the unit’s movement value to attempt
         to light that hut on fire; the Overlord rolls
         <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> .
         The Overlord adds 1 flame to that hut for each symbol shown on the die;
-        use flame tokens to track the flames in an area. An area cannot have
-        more than 3 flames in it. At the beginning of the hero turn, each hut
-        area with 1 or more heroes and 1 or more flames in it burns; 1 hero in
-        the area rolls <img src="/assets/dice/Yellow.png" class="scen_sq_token" />
+        use flame tokens <td><img src="/assets/tokens/flameToken.png" class="scen_token" />
+        to track the flames in an area. An area cannot have more than 3 flames
+        in it. At the beginning of the hero turn, each hut area with 1 or more
+        heroes and 1 or more flames in it burns; 1 hero in the area rolls
+        <img src="/assets/dice/Yellow.png" class="scen_sq_token" />
         for each flame in that area. The dice cannot be rerolled. Then each hero
         in that area suffers damage equal to the number of symbols shown on the
         dice. When a third flame is added to a hut area, discard all facedown
@@ -1242,29 +1252,44 @@
 
         <p><span class="special_title">Climbing:</span>
         A character with <a class="skill" href="/skills/19">Climb</a>
-        can move across boulders <img src="/assets/tokens/rocks.png" class="scen_token" />
+        can move across boulders <img src="/assets/tokens/rocksToken.png" class="scen_token" />
         as though they were a border by spending 2 extra movement points.</p>
 
         <p><span class="special_title">Scoring:</span>
-        At the end of the game, players reveal all facedown objective cards they
-        kept. The heroes and the Overlord score points based on each kept
-        objective card:
-        <br /><strong>Card A:</strong> The heroes score 2 points if a hero
-        fled from the upper-leftmost road area.
-        <br />The Overlord scores 3 points if no hero fled from the upper-leftmost
-        road area.
-        <br /><strong>Card B:</strong> The heroes score 2 points if there
-        are fewer than 3 flames in hut 5.
-        <br />The Overlord scores 2 points if there are 3 flames in hut 5.
-        <br /><strong>Card C:</strong> The heroes score 1 point for each
-        hero who has fled.
-        <br />The Overlord scores 2 points for each hero on the board.
-        <br /><strong>Card D:</strong> The heroes score 4 points if Zogar
-        Sag is dead.
-        <br />The Overlord scores 2 points if Zogar Sag is alive.
-        <br /><strong>Card E:</strong> The heroes score 2 points if a hero
-        fled with the Idol of Yag-Kosha.
-        <br />The Overlord scores 4 points if no hero fled with the Idol of Yag-Kosha.</p>
+        <br /><span class="special_title">Hero Scoring:</span> The heroes score
+        3 points for each Idol of Yag-Kosha or Sacred Treasure a hero fled with.
+        <br /><span class="special_title"> Overlord Scoring:</span> The Overlord
+        scores 1 point for each flame on the board.
+        <br /><span class="special_title">Objective Scoring:</span> At the end
+        of the game, players reveal all facedown objective cards they kept. The
+        heroes and the Overlord score points based on each kept objective card:
+        <table class="scen_table sm_cards">
+          <tr>
+            <td><img src="/assets/tokens/cardAToken.png" class="scen_event" /></td>
+            <td>The heroes score 2 points if a hero fled from the upper-leftmost road area.
+            <br />The Overlord scores 3 points if no hero fled from the upper-leftmost road area.</td>
+          </tr>
+          <tr>
+            <td><img src="/assets/tokens/cardBToken.png" class="scen_event" /></td>
+            <td>The heroes score 2 points if there are fewer than 3 flames in hut 5.
+            <br />The Overlord scores 2 points if there are 3 flames in hut 5.</td>
+          </tr>
+          <tr>
+            <td><img src="/assets/tokens/cardCToken.png" class="scen_event" /></td>
+            <td>The heroes score 1 point for each hero who has fled.
+            <br />The Overlord scores 2 points for each hero on the board.</td>
+          </tr>
+          <tr>
+            <td><img src="/assets/tokens/cardDToken.png" class="scen_event" /></td>
+            <td>The heroes score 4 points if Zogar Sag is dead.
+            <br />The Overlord scores 2 points if Zogar Sag is alive.</td>
+          </tr>
+          <tr>
+            <td><img src="/assets/tokens/cardEToken.png" class="scen_event" /></td>
+            <td>The heroes score 2 points if a herofled with the Idol of Yag-Kosha.
+            <br />The Overlord scores 4 points if no hero fled with the Idol of Yag-Kosha.</td>
+          </tr>
+        </table></p>
 
         <p><span class="special_title">Fleeing the Village:</span>
         A hero can flee the village from an area at the edge of the board by
@@ -1280,9 +1305,9 @@
       origin: "King Pledge",
       map_ids: [1],
       hero_ids: [2, 4, 7],
-      tile_ids: [43, 46, 41, 48, 4, 1],
+      tile_ids: [1, 6, 23, 26, 27, 29],
       spell_ids: [],
-      item_ids: [1, 2, 3, 10, 11, 19, 45, 46, 47, 57] },
+      item_ids: [1, 3, 8, 11, 12, 19, 45, 51, 55, 58] },
 
     { name: "The Key of Kuthchemes",
       description: "<p>The rumor spreads quickly amongst the thieves of Asgalun:
@@ -1313,11 +1338,11 @@
         the areas indicated by the setup diagram.
         <br /><br /><strong>Suggestions for 2 heroes:</strong>
         <br /><a class="hero" href="/heroes/2">Conan</a>
-        (<a class="item" href="/items/7">Conan‘s Sword</a>,
-          <a class="item" href="/items/16">Leather Armor</a>),
+        (<a class="item" href="/items/4">Conan‘s Sword</a>,
+          <a class="item" href="/items/17">Leather Armor</a>),
         <br /><a class="hero" href="/heroes/4">Shevatas</a>
-        (<a class="item" href="/items/15">Kris</a>,
-          <a class="item" href="/items/14">Throwing Knives</a>) <br /><br />
+        (<a class="item" href="/items/9">Kris</a>,
+          <a class="item" href="/items/13">Throwing Knives</a>) <br /><br />
         <p>After setup, heroes do not move any gems from their Reserve
         zone to their Fatigue zone.</p>',
 
@@ -1338,21 +1363,22 @@
           </tr>
         </table>',
 
-      tile1: [36],
-      tile2: [5, 8],
-      tile3: [58],
-      tile4: [54],
+      tile1: [31],
+      tile2: [7, 8],
+      tile3: [16],
+      tile4: [22],
       tile5: [1],
-      tile6: [5],
-      tile7: [2, 5],
-      tile8: [35],
+      tile6: [7],
+      tile7: [3, 5],
+      tile8: [32],
 
       special_rules: '<p><span class="special_title">Red Chest:</span>
-        A hero in the red chest’s area with a <a class="item" href="/items/30">Key</a>
+        A hero in the red chest’s area with a <a class="item" href="/items/24">Key</a>
         can perform a simple Manipulation to open the chest. The chest cannot
         otherwise be opened, and is considered an object with an encumbrance of 5.
-        When a hero opens the chest, the hero takes a <a class="item" href="/items/31">Spellbook</a>
-        instead of a card from the asset deck.</p>
+        When a hero opens the chest, the hero takes a
+        <a class="item" href="/items/28">Spellbook</a> instead of a card from
+        the asset deck.</p>
 
         <p><span class="special_title">Walls:</span>
         A character with <a class="skill" href="/skills/11">Wall Wrecker</a>
@@ -1388,23 +1414,24 @@
         <p><span class="special_title">Chair:</span>
         When a character performs a Melee Attack, the character may remove a
         chair token in the character’s area from the board to roll an extra
-        <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> for that attack.</p>
+        <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> for that
+        attack.</p>
 
         <p><span class="special_title">Chests:</span>
         During setup, the Overlord places 6 chests on the board as indicated by
         the setup diagram. The asset deck contains:
-        1 <a class="item" href="/items/30">Key</a>,
-        1 <a class="item" href="/items/5">Explosive Orb</a>,
+        1 <a class="item" href="/items/24">Key</a>,
+        1 <a class="item" href="/items/6">Explosive Orb</a>,
         1 <a class="item" href="/items/22">Life Potion</a>,
-        1 <a class="item" href="/items/16">Leather Armor</a>,
+        1 <a class="item" href="/items/17">Leather Armor</a>,
         1 <a class="item" href="/items/23">Empty Chest</a>.</p>',
 
       origin: "King Pledge",
       map_ids: [4],
-      hero_ids: [2, 3],
-      tile_ids: [36, 5, 58, 54, 1, 5, 2, 35],
+      hero_ids: [2, 4],
+      tile_ids: [1, 3, 7, 16, 22, 31, 32],
       spell_ids: [],
-      item_ids: [5, 7, 14, 15, 16, 22, 23, 30, 31] },
+      item_ids: [4, 6, 9, 13, 17, 22, 23, 24, 28] },
 
     { name: "In the Name of Ibis",
       description: "<p>The hunt nears its end; on the limits of the kingdom of
@@ -1435,15 +1462,15 @@
         <br /><a class="hero" href="/heroes/2">Conan</a>
         (<a class="item" href="/items/1">Battle Axe</a>,
           <a class="item" href="/items/20">Shield</a>,
-          <a class="item" href="/items/16">Leather Armor</a>),
+          <a class="item" href="/items/17">Leather Armor</a>),
         <br /><a class="hero" href="/heroes/4">Shevatas</a>
-        (<a class="item" href="/items/15">Kris</a>,
-          <a class="item" href="/items/14">Throwing Knives</a>),
+        (<a class="item" href="/items/9">Kris</a>,
+          <a class="item" href="/items/13">Throwing Knives</a>),
         <br /><a class="hero" href="/heroes/3">Hadrathus</a>
-        (<a class="item" href="/items/2">Dagger</a>,
-          <a class="spell" href="/spells/13">Teleportation</a>,
-          <a class="spell" href="/spells/7">Mitra’s Halo</a>,
-          <a class="spell" href="/spells/15">Lightning Storm</a>).
+        (<a class="item" href="/items/3">Dagger</a>,
+          <a class="spell" href="/spells/16">Teleportation</a>,
+          <a class="spell" href="/spells/9">Mitra’s Halo</a>,
+          <a class="spell" href="/spells/6">Lightning Storm</a>).
           Hadrathus does not start with Mitra’s Halo cast. <br /><br />
         <p>After setup, each hero moves 5 gems from their Reserve zone to
         their Fatigue zone.</p>',
@@ -1472,9 +1499,9 @@
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SkuthusToken.png" class="scen_setup"></td>
             <td>
-              <a class="tile" href="/tile/3">Skuthus</a> has
-              <a class="spell" href="/spells/2">Pestilential Swarm</a> and
-              <a class="spell" href="/spells/13">Teleportation</a>.
+              <a class="tile" href="/tiles/3">Skuthus</a> has
+              <a class="spell" href="/spells/11">Pestilential Swarm</a> and
+              <a class="spell" href="/spells/16">Teleportation</a>.
             </td>
           </tr>
         </table>',
@@ -1524,18 +1551,18 @@
         During setup, the Overlord places 8 chests on the board as indicated by
         the setup diagram. The asset deck contains:
         2 <a class="item" href="/items/22">Life Potion</a>,
-        2 <a class="item" href="/items/3">Javelin</a>,
-        1 <a class="item" href="/items/17">Chain Mail</a>,
-        1 <a class="item" href="/items/4">Crossbow</a>,
+        2 <a class="item" href="/items/8">Javelin</a>,
+        1 <a class="item" href="/items/16">Chain Mail</a>,
+        1 <a class="item" href="/items/5">Crossbow</a>,
         1 <a class="item" href="/items/19">Buckler</a>,
-        1 <a class="item" href="/items/10">Sword</a>.</p>',
+        1 <a class="item" href="/items/12">Sword</a>.</p>',
 
       origin: "King Pledge",
       map_ids: [4],
       hero_ids: [2, 3, 4],
       tile_ids: [3, 19, 76, 69, 1, 19, 66, 71],
-      spell_ids: [2, 7, 13, 15],
-      item_ids: [1, 2, 3, 4, 10, 14, 15, 16, 17, 19, 20, 22] },
+      spell_ids: [6, 9, 11, 16],
+      item_ids: [1, 3, 5, 6, 8, 9, 12, 13, 16, 17, 19, 20, 22 ] },
 
     { name: "The Crawling Shadow",
       description: "<p>Relentlessly pursued and having finally reached the Black
@@ -1567,10 +1594,10 @@
         <br /><br /><strong>Suggestions for 3 heroes:</strong>
         <br /><a class="hero" href="/heroes/2">Conan</a>
         (<a class="item" href="/items/1">Battle Axe</a>,
-          <a class="item" href="/items/16">Leather Armor</a>),
+          <a class="item" href="/items/17">Leather Armor</a>),
         <br /><a class="hero" href="/heroes/4">Shevatas</a>
-        (<a class="item" href="/items/15">Kris</a>,
-          <a class="item" href="/items/14">Throwing Knives</a>),
+        (<a class="item" href="/items/9">Kris</a>,
+          <a class="item" href="/items/13">Throwing Knives</a>),
         <br /><a class="hero" href="/heroes/7">Valeria</a>
         (<a class="item" href="/items/11">Perrying Dagger</a>.<br /><br />
         <p>After setup, Valeria moves 4 gems from her Reserve zone to her
@@ -1583,7 +1610,7 @@
         value of “5” in the Book of Skelos.
         <table class="scen_table">
           <tr>
-            <td></td>
+            <td><img src="/assets/tokens/energyToken.png" class="scen_token" /></td>
             <td>During setup, place the energy marker on space 0 of the track.</td>
           </tr>
           <tr>
@@ -1595,14 +1622,14 @@
           </tr>
         </table>',
 
-      tile1: [13, 5],
-      tile2: [55],
-      tile3: [30, 10],
-      tile4: [58],
+      tile1: [5, 5],
+      tile2: [20],
+      tile3: [36, 10],
+      tile4: [16],
       tile5: [1],
-      tile6: [2],
-      tile7: [30],
-      tile8: [51],
+      tile6: [3],
+      tile7: [36],
+      tile8: [17],
 
       special_rules: '<p><span class="special_title">Black Lotus:</span>
         After setup, lay each Bossonian Guard, Bossonian Archer, and Captain
@@ -1620,15 +1647,16 @@
         Once during its activation, Thog can devour 1 friendly character in its
         area; remove that character’s model from the board and move the energy
         marker 1 space toward space 15. When Thog attacks a hero, move the energy
-        marker a number of spaces toward space 15 equal to the damage a hero
-        suffers from that attack.</p>
+        marker <img src="/assets/tokens/energyToken.png" class="scen_token" />
+        a number of spaces toward space 15 equal to the damage a hero suffers
+        from that attack.</p>
 
         <p><span class="special_title">Stygian Scepter:</span>
         When Thalis performs a Melee Attack, she can attack with
-        her <a class="item" href="/items/39">Stygian Scepter</a>, rolling the
-        extra die indicated on the <a class="item" href="/items/39">Stygian Scepter’s</a>
+        her <a class="item" href="/items/37">Stygian Scepter</a>, rolling the
+        extra die indicated on the <a class="item" href="/items/37">Stygian Scepter’s</a>
         Melee Attack bonus. When a hero suffers damage from Thalis’ attack with a
-        <a class="item" href="/items/39">Stygian Scepter</a>, Thog is drawn by the
+        <a class="item" href="/items/37">Stygian Scepter</a>, Thog is drawn by the
         hero’s screams; Thog gains up to 1 movement point, which the Overlord must
         immediately spend.</p>
 
@@ -1656,26 +1684,28 @@
 
         <p><span class="special_title">Rock Slide:</span>
         A character can move into a rock slide area
-        <img src="/assets/tokens/rocks.png" class="scen_token" /> from an
+        <img src="/assets/tokens/rocksToken.png" class="scen_token" /> from an
         adjacent area. The character must spend 2 extra movement points unless
         the character has <a class="skill" href="/skills/19">Climb</a>.</p>
 
         <p><span class="special_title">Chests:</span>
         During setup, the Overlord places 8 chests on the board as indicated by
         the setup diagram. The asset deck contains:
-        2 <a class="item" href="/items/24">Crown of Xuthal</a>,
+        2 <a class="item" href="/items/31">Xuthal Crown</a>,
         2 <a class="item" href="/items/22">Life Potion</a>,
-        2 <a class="item" href="/items/5">Explosive Orb</a>,
-        1 <a class="item" href="/items/17">Chain Mail</a>,
-        1 <a class="item" href="/items/4">Crossbow</a>.</p>',
+        2 <a class="item" href="/items/6">Explosive Orb</a>,
+        1 <a class="item" href="/items/16">Chain Mail</a>,
+        1 <a class="item" href="/items/5">Crossbow</a>.</p>',
 
       origin: "King Pledge",
       map_ids: [3],
-      hero_ids: [2, 3, 7],
-      tile_ids: [13, 55, 30, 58, 1, 2, 30, 51],
+      hero_ids: [2, 4, 7],
+      tile_ids: [1, 3, 5, 16, 17, 20, 36],
       spell_ids: [],
-      item_ids: [1, 11, 14, 15, 16, 24, 39] },
+      item_ids: [1, 5, 6, 9, 11, 13, 16, 17, 22, 31] },
 
+
+    ## Add-Ons
     { name: "Conspiracy in Khauran",
       description: "<p>Khauran is a small country, wedged between the great
         Western states and the sultanates of the Far East. Its major city—also
@@ -1704,18 +1734,18 @@
       complexity: "1",
 
       hero_goal: "If a hero has fled the tavern with the spellbook; the heroes win the game.",
-      hero_setup: 'The game starts with the heroes’ turn. The heroes start in the 1 area.
+      hero_setup: 'The game starts with the heroes’ turn. The heroes start in the
+      <img src="/assets/tokens/area1Token.png" class="scen_token" /> area.
         <br /><br /><strong>Suggestions for 3 heroes:</strong>
         <br /><a class="hero" href="/heroes/2">Conan</a>
-        (<a class="item" href="/items/17">Chain Mail</a>,
-          <a class="item" href="/items/7">Conan’s Sword</a>,
-          <a class="item" href="/items/16">Leather Armor</a>),
+        (<a class="item" href="/items/16">Chain Mail</a>,
+          <a class="item" href="/items/4">Conan’s Sword</a>)
         <br /><a class="hero" href="/heroes/1">Bêlit</a>
-        (<a class="item" href="/items/16">Leather Armor</a>,
-          <a class="item" href="/items/12">Ornamental Spear</a>),
+        (<a class="item" href="/items/17">Leather Armor</a>,
+          <a class="item" href="/items/10">Ornamental Spear</a>),
         <br /><a class="hero" href="/heroes/3">Hadrathus</a>
         (<a class="item" href="/items/20">Shield</a>,
-          <a class="item" href="/items/10">Sword</a>,
+          <a class="item" href="/items/12">Sword</a>,
           <a class="spell" href="/spells/7">Mitra’s Halo</a>,
           <a class="spell" href="/spells/15">Lightning Storm</a>).
           Hadrathus does not start with Mitra’s Halo cast.<br /><br />
@@ -1739,22 +1769,24 @@
           </tr>
         </table>',
 
-      tile1: [61],
-      tile2: [53],
-      tile3: [2, 8],
+      tile1: [102],
+      tile2: [18],
+      tile3: [3, 8],
       tile4: [1],
-      tile5: [60],
-      tile6: [59],
-      tile7: [2],
+      tile5: [103],
+      tile6: [101],
+      tile7: [3],
       tile8: [0],
 
       special_rules: '<p><span class="special_title">Chests:</span>
-        During setup, the Overlord randomly places 2 (chest) tokens
+        During setup, the Overlord randomly places 2
+        <img src="/assets/tokens/chestToken.png" class="scen_token" /> tokens
         numbered 1 and 2, with their chest side faceup, as indicated by the
         setup diagram.</p>
 
         <p><span class="special_title">Captain’s Key:</span>
-        When the Captain dies, place the Key card in the Captain’s area.</p>
+        When the Captain dies, place the <a class="item" href="/items/24">Key</a>
+        card in the Captain’s area.</p>
 
         <p><span class="special_title">Opening Chests:</span>
         A hero without the Captain’s key can perform a complex Manipulation with
@@ -1799,9 +1831,9 @@
       origin: "Add-Ons",
       map_ids: [4],
       hero_ids: [1, 2, 3],
-      tile_ids: [61, 53, 2, 1, 60, 59, 2],
+      tile_ids: [1, 3, 18, 101, 102, 103],
       spell_ids: [7, 15],
-      item_ids: [7, 17, 10, 12, 16, 20, 30] },
+      item_ids: [4, 10, 12, 16, 17, 20, 24] },
 
     { name: "Yogah’s Rebirth",
       description: "<p>The steep walls of the ancient fortress obscure the
@@ -1835,16 +1867,16 @@
         <br />The heroes start in the areas indicated by the setup diagram.
         <br /><br /><strong>Suggestions for 3 heroes:</strong>
         <br /><a class="hero" href="/heroes/2">Conan</a>
-        (<a class="item" href="/items/10">Sword</a>,
-          <a class="item" href="/items/16">Leather Armor</a>),
+        (<a class="item" href="/items/12">Sword</a>,
+          <a class="item" href="/items/17">Leather Armor</a>),
         <br /><a class="hero" href="/heroes/3">Hadrathus</a>
         (<a class="item" href="/items/11">Parrying Dagger</a>,
-          <a class="spell" href="/spells/10">Bori’s Rage</a>,
-          <a class="spell" href="/spells/12">Mind Control</a>).
-        <br /><a class="hero" href="/heroes/4">Yogah of Yag</a>
-        (<a class="item" href="/items/12">Ornamental Spear</a>,
-          <a class="spell" href="/spells/9">Gift of Life</a>,
-          <a class="spell" href="/spells/8">Mitra’s Healing</a>)<br /><br />
+          <a class="spell" href="/spells/1">Bori’s Rage</a>,
+          <a class="spell" href="/spells/8">Mind Control</a>).
+        <br /><a class="hero" href="/heroes/27">Yogah of Yag</a>
+        (<a class="item" href="/items/10">Ornamental Spear</a>,
+          <a class="spell" href="/spells/4">Gift of Life</a>,
+          <a class="spell" href="/spells/10">Mitra’s Healing</a>)<br /><br />
         <p>After setup, each hero moves 6 gems from their Reserve zone to
         their Fatigue zone.</p>',
 
@@ -1869,32 +1901,32 @@
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShubbaToken.png" class="scen_setup"></td>
             <td>
               <a class="tile" href="/tiles/15">Shubba</a> has
-              <a class="spell" href="/spells/13">Teleportation</a>,
+              <a class="spell" href="/spells/16">Teleportation</a>,
               <a class="spell" href="/spells/14">Set’s Possession</a>,
-              <a class="spell" href="/spells/15">Lightning Storm</a> and
-              <a class="spell" href="/spells/11">Energy Drain</a>.
+              <a class="spell" href="/spells/6">Lightning Storm</a> and
+              <a class="spell" href="/spells/3">Energy Drain</a>.
             </td>
           </tr>
         </table>',
 
-      tile1: [16, 6],
-      tile2: [17, 4],
-      tile3: [41],
+      tile1: [108, 6],
+      tile2: [109, 4],
+      tile3: [23],
       tile4: [1],
-      tile5: [18, 4],
-      tile6: [15, 6],
+      tile5: [110, 4],
+      tile6: [111, 6],
       tile7: [0],
       tile8: [0],
 
       special_rules: '<p><span class="special_title">Kushites:</span>
-        <a class="tile" href="/tiles/16">Afari</a>,
-        <a class="tile" href="/tiles/18">Shafiah</a>,
-        <a class="tile" href="/tiles/17">Ghayoor</a> and
-        <a class="tile" href="/tiles/15">Shubba</a> are considered to be
+        <a class="tile" href="/tiles/108">Afari</a>,
+        <a class="tile" href="/tiles/110">Shafiah</a>,
+        <a class="tile" href="/tiles/109">Ghayoor</a> and
+        <a class="tile" href="/tiles/111">Shubba</a> are considered to be
         Kushite units.</p>
 
         <p><span class="special_title">Yag’s Orb:</span>
-        Yag’s Orb is represented by the <a class="item" href="/items/27">Stygian Artifact</a>
+        Yag’s Orb is represented by the <a class="item" href="/items/29">Stygian Artifact</a>
         equipment card. It has an encumbrance value of 8. It is made from a
         mysterious material of incredible density glinting with a strange blue
         light. A Hero with the Orb card cannot <a class="skill" href="/skills/16">Leap</a>
@@ -1927,24 +1959,24 @@
 
         <p><span class="special_title">Rock Slides:</span>
         A character can move into a rock slide area
-        <img src="/assets/tokens/rocks.png" class="scen_token" /> from an
+        <img src="/assets/tokens/rocksToken.png" class="scen_token" /> from an
         adjacent area. The character must spend 2 extra movement points unless
         the character has <a class="skill" href="/skills/19">Climb</a>.</p>
 
         <p><span class="special_title">Chests:</span>
         During setup, the Overlord places 4 chests on the board as indicated by
         the setup diagram. The asset deck contains:
-        1 <a class="item" href="/items/27">Stygian Artifact</a>,
+        1 <a class="item" href="/items/29">Stygian Artifact</a>,
         1  <a class="item" href="/items/22">Life Potion</a>,
-        2 <a class="item" href="/items/9">Bossonian Bow</a>, and
-        1 <a class="item" href="/items/13">Tribal Mace</a>.</p>',
+        2 <a class="item" href="/items/2">Bossonian Bow</a>, and
+        1 <a class="item" href="/items/14">Tribal Mace</a>.</p>',
 
       origin: "Add-Ons",
       map_ids: [3],
-      hero_ids: [2, 3],
-      tile_ids: [16, 17, 41, 1, 18, 15],
-      spell_ids: [10, 11, 12, 13, 14, 15],
-      item_ids: [9, 10, 11, 12, 13, 16, 22, 27] },
+      hero_ids: [2, 3, 27],
+      tile_ids: [1, 23, 108, 109, 110, 111],
+      spell_ids: [1, 3, 4, 6, 8, 10, 14, 16],
+      item_ids: [2, 10, 11, 12, 14, 17, 22, 29] },
 
     { name: "Yara’s Trap",
       description: "<p>Yag-Kosha has escaped from centuries of captivity and
@@ -1972,10 +2004,10 @@
         Crowns in his possession before the end of turn 10; the hero wins the game.",
       hero_setup: 'The game starts with the hero’s turn.
         <br /><br /><strong>Suggestions for 1 hero:</strong>
-        <br /><a class="hero" href="/heroes/2">Yogah of Yag</a>
-        (<a class="item" href="/items/8">Halberd</a>,
+        <br /><a class="hero" href="/heroes/27">Yogah of Yag</a>
+        (<a class="item" href="/items/7">Halberd</a>,
           <a class="spell" href="/spells/14">Set’s Possession</a>,
-          <a class="spell" href="/spells/8">Mitra’s Healing</a>)<br /><br />
+          <a class="spell" href="/spells/10">Mitra’s Healing</a>)<br /><br />
         <p>After setup, Yogah of Yag does not move any gems from his Reserve
         zone to his Fatigue zone. The hero plays their stance phase as if one
         hero had died during the game. They move 3 gems from their Fatigue zone
@@ -1997,26 +2029,25 @@
           </tr>
         </table>',
 
-      tile1: [53],
-      tile2: [57],
-      tile3: [52],
-      tile4: [2, 4],
+      tile1: [18],
+      tile2: [15],
+      tile3: [19],
+      tile4: [3, 4],
       tile5: [1],
-      tile6: [23, 6],
+      tile6: [12, 6],
       tile7: [0],
       tile8: [0],
 
       special_rules: '<p><span class="special_title">Xuthal’s Crowns:</span>
-        When Yogah of Yag picks up a <a class="item" href="/items/24">Xuthal’s Crown</a>,
-        place one gem from his Fatigue zone to the
-        <a class="item" href="/items/24">Xuthal’s Crown</a> equipment card. If
-        there are no gems in his Fatigue zone, take a gem from those assigned to
-        action spaces or spell cards. If those are also empty, take a gem from
-        his Reserve zone. As long as this gem is on the
-        <a class="item" href="/items/24">Xuthal’s Crown</a> card, it is no longer
-        available to Yogah of Yag and thus no longer counts toward his life point
-        total. If Yogah of Yag drops the <a class="item" href="/items/24">Xuthal’s Crown</a>,
-        move the gem to his Fatigue zone.</p>
+        When Yogah of Yag picks up a <a class="item" href="/items/31">Xuthal Crown</a>,
+        place one gem from his Fatigue zone to the Xuthal’s Crown equipment card.
+        If there are no gems in his Fatigue zone, take a gem from those assigned
+        to action spaces or spell cards. If those are also empty, take a gem from
+        his Reserve zone. As long as this gem is on the Xuthal’s Crown card, it
+        is no longer available to Yogah of Yag and thus no longer counts toward
+        his life point total. If Yogah of Yag drops the
+        <a class="item" href="/items/31">Xuthal Crown</a>, move the gem to his
+        Fatigue zone.</p>
 
         <p><span class="special_title">Hut Flaps:</span>
         A character must spend 1 extra movement point to move across
@@ -2025,7 +2056,7 @@
 
         <p><span class="special_title">Climbing:</span>
         A character with <a class="skill" href="/skills/19">Climb</a> can move
-        across boulders <img src="/assets/tokens/rocks.png" class="scen_token" />
+        across boulders <img src="/assets/tokens/rocksToken.png" class="scen_token" />
         as though they were a border by spending 2 extra movement points.</p>
 
         <p><span class="special_title">Wooden Huts:</span>
@@ -2043,13 +2074,13 @@
         During setup, the Overlord places 4 chests on the board as indicated by
         the setup diagram. The asset deck contains
         2 <a class="item" href="/items/22">Life Potions</a> and
-        2 <a class="item" href="/items/24">Xuthal’s Crowns</a>.</p>',
+        2 <a class="item" href="/items/31">Xuthal Crowns</a>.</p>',
 
       origin: "Add-Ons",
       map_ids: [1],
-      hero_ids: [2],
-      tile_ids: [53, 57, 52, 2, 1, 23],
-      spell_ids: [8, 14], item_ids: [8] },
+      hero_ids: [27],
+      tile_ids: [1, 3, 12, 15, 18, 19],
+      spell_ids: [10, 14], item_ids: [7, 22, 31] },
 
     { name: "The Cursed Mirrors",
       description: "<p>The Queen of the Black Coast is pleased. Accompanying
@@ -2085,10 +2116,10 @@
         (<a class="item" href="/items/8">Halberd</a>) and 5
         <a class="tile" href="/tiles/94">Bêlit’s Guards</a>,
         <br /><a class="hero" href="/heroes/3">Hadrathus</a>
-        (<a class="item" href="/items/10">Sword</a>,
-          <a class="spell" href="/spells/16">Borne by the Wind</a>,
+        (<a class="item" href="/items/12">Sword</a>,
+          <a class="spell" href="/spells/2">Borne by the Wind</a>,
           <a class="spell" href="/spells/14">Set’s Possession</a>,
-          <a class="spell" href="/spells/15">Lightning Storm</a>).<br /><br />
+          <a class="spell" href="/spells/6">Lightning Storm</a>).<br /><br />
         <p>After setup, each hero moves 3 gems from their Reserve zone to
         their Fatigue zone.</p>',
 
@@ -2108,18 +2139,18 @@
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShubbaToken.png" class="scen_setup"></td>
             <td>
-              <a class="tile" href="/tiles/15">Shubba</a> has
-              <a class="spell" href="/spells/11">Energy Drain</a>,
-              <a class="spell" href="/spells/12">Mind Control</a>, and
-              <a class="spell" href="/spells/13">Teleportation</a>.
+              <a class="tile" href="/tiles/111">Shubba</a> has
+              <a class="spell" href="/spells/3">Energy Drain</a>,
+              <a class="spell" href="/spells/8">Mind Control</a>, and
+              <a class="spell" href="/spells/16">Teleportation</a>.
             </td>
           </tr>
         </table>',
 
-      tile1: [16, 5],
-      tile2: [17, 5],
-      tile3: [18, 5],
-      tile4: [15, 5],
+      tile1: [108, 5],
+      tile2: [109, 5],
+      tile3: [110, 5],
+      tile4: [111, 5],
       tile5: [1],
       tile6: [0],
       tile7: [0],
@@ -2127,25 +2158,26 @@
 
       special_rules: '<p><span class="special_title">Artifacts:</span>
         During setup, the Overlord places the artifacts, represented
-        by the tokens, as indicated by the setup diagram. A Kushite
-        (<a class="tile" href="/tiles/16">Afari</a>,
-        <a class="tile" href="/tiles/17">Ghayor</a>,
-        <a class="tile" href="/tiles/18">Shafiah</a> and
-        <a class="tile" href="/tiles/15">Shubba</a>) in an artifact’s area may
+        by the tokens <img src="/assets/tokens/numBackToken.png" class="scen_token" />,
+        as indicated by the setup diagram. A Kushite
+        (<a class="tile" href="/tiles/108">Afari</a>,
+        <a class="tile" href="/tiles/109">Ghayor</a>,
+        <a class="tile" href="/tiles/110">Shafiah</a> and
+        <a class="tile" href="/tiles/111">Shubba</a>) in an artifact’s area may
         perform a Melee Attack and roll at least 2 symbols in a single attack
         to destroy that artifact. This Melee Attack follows the same rules as
         any Melee Attack
         (<a class="skill" href="/skills/29">Sacrifice</a>,
         <a class="skill" href="/skills/4">Circular Strike</a>, etc.) and
-        <a class="tile" href="/tiles/94">Bêlit’s Guards</a> can use
+        <a class="tile" href="/tiles/13">Bêlit’s Guards</a> can use
         <a class="skill" href="/skills/29">Sacrifice</a> to defend the artifacts.</p>
 
         <p><span class="special_title">Crowd Control:</span>
-        The Overlord activates up to two <a class="tile" href="/tiles/94">Bêlit’s Guards</a>
+        The Overlord activates up to two <a class="tile" href="/tiles/13">Bêlit’s Guards</a>
         as if they were units. During these activations, the Overlord follows
         all rules regarding unit tile activation (movement, attack etc.) and
         can use benefits. The Overlord cannot use <a class="skill" href="/skills/16">Leap</a>
-        with a <a class="tile" href="/tiles/94">Bêlit’s Guard</a> model to
+        with a <a class="tile" href="/tiles/13">Bêlit’s Guard</a> model to
         <a class="skill" href="/skills/16">Leap</a> from the walls.</p>
 
         <p><span class="special_title">Lines of Sight:</span>
@@ -2164,16 +2196,16 @@
 
         <p><span class="special_title">Rock Slides:</span>
         A character can move into a rock slide area
-        <img src="/assets/tokens/rocks.png" class="scen_token" /> from an
+        <img src="/assets/tokens/rocksToken.png" class="scen_token" /> from an
         adjacent area. The character must spend 2 extra movement points unless
         the character has <a class="skill" href="/skills/19">Climb</a>.</p>',
 
       origin: "Add-Ons",
       map_ids: [4],
       hero_ids: [1, 3],
-      tile_ids: [16, 17, 18, 15, 1],
-      spell_ids: [11, 12, 13, 14, 15, 16],
-      item_ids: [8, 10] },
+      tile_ids: [1, 108, 109, 110, 111],
+      spell_ids: [2, 3, 6, 8, 14, 16],
+      item_ids: [7, 12] },
 
     { name: "The Zamboula Strangler",
       description: "<p>In the past Zamboula was but a small trading-town, lying
@@ -2210,18 +2242,18 @@
       hero_setup: 'The game starts with the heroes’ turn.
         <br /><br /><strong>Suggestions for 4 heroes:</strong>
         <br /><a class="hero" href="/heroes/12">Conan - Mercenary</a>
-        (<a class="item" href="/items/7">Conan’s Sword</a>),
+        (<a class="item" href="/items/4">Conan’s Sword</a>),
         <br /><a class="hero" href="/heroes/9">Amboola</a>
         (<a class="item" href="/items/35">Pirate Saber</a>),
         <br /><a class="hero" href="/heroes/20">Taurus</a>
         (<a class="item" href="/items/11">Parrying Dagger</a> and
-          <a class="item" href="/items/14">Throwing Knives</a>).
+          <a class="item" href="/items/13">Throwing Knives</a>).
         <br /><a class="hero" href="/heroes/18">Pelias</a>
-        (<a class="item" href="/items/52">Ring</a>,
-          <a class="spell" href="/spells/44">Hand of Death</a>,
-          <a class="spell" href="/spells/15">Lightning Storm</a>,
-          <a class="spell" href="/spells/6">Set’s Bite</a> and
-          <a class="spell" href="/spells/10">Bori’s Rage</a>).<br /><br />
+        (<a class="item" href="/items/54">Ring</a>,
+          <a class="spell" href="/spells/35">Hand of Death</a>,
+          <a class="spell" href="/spells/6">Lightning Storm</a>,
+          <a class="spell" href="/spells/12">Set’s Bite</a> and
+          <a class="spell" href="/spells/1">Bori’s Rage</a>).<br /><br />
         <p>After setup, each hero moves 5 gems from their Reserve zone to
         their Fatigue zone.</p>',
 
@@ -2240,31 +2272,35 @@
           </tr>
         </table>',
 
-      tile1: [39],
-      tile2: [37],
-      tile3: [2, 4],
-      tile4: [53],
-      tile5: [34],
-      tile6: [2],
+      tile1: [33],
+      tile2: [35],
+      tile3: [96, 4],
+      tile4: [18],
+      tile5: [30],
+      tile6: [96],
       tile7: [1],
       tile8: [0],
 
       special_rules: '<p><span class="special_title">Ring:</span>
-        During setup 4 red gems are placed on the Ring card. These
+        During setup 4 red gems are placed on the
+        <a class="item" href="/items/54">Ring</a> card. These
         gems can be used by the hero carrying the Ring only to cast spells. When
         the hero carrying the Ring wants to use these red gems to cast a spell,
-        they move them from the Ring card to the spell card. The gems used in this
-        way must not raise the total number of gems on the spell card above its
-        exertion limit. A hero can combine the red gems with their own gems from
-        their Reserve zone to cast a spell. During the start phase and the end
-        phase of each heroes’ turn, the carrier of the ring moves the red gems
-        from the spell cards to the Ring card. The red gems of the Ring card are
-        never counted when calculating the life points of a hero.</p>
+        they move them from the <a class="item" href="/items/54">Ring</a> card
+        to the spell card. The gems used in this way must not raise the total
+        number of gems on the spell card above its exertion limit. A hero can
+        combine the red gems with their own gems from their Reserve zone to cast
+        a spell. During the start phase and the end phase of each heroes’ turn,
+        the carrier of the ring moves the red gems from the spell cards to the
+        <a class="item" href="/items/54">Ring</a> card. The red gems of the
+        <a class="item" href="/items/54">Ring</a> card are never counted when
+        calculating the life points of a hero.</p>
 
         <p><span class="special_title">Baal Pteor:</span>
         When he dies, the key he is carrying falls to the ground, the Overlord
-        then places the Key equipment card on the area where Baal-pteor
-        was. A hero can then pick it up by performing a simple Manipulation.</p>
+        then places the <a class="item" href="/items/24">Key</a> equipment card
+        on the area where <a class="tile" href="/tiles/96">Baal-pteor</a> was.
+        A hero can then pick it up by performing a simple Manipulation.</p>
 
         <p><span class="special_title">Doors:</span>
         A hero in an area adjacent to a door can perform a complex
@@ -2277,19 +2313,19 @@
         that a shutter separates, whether it is opened or not. Opening a shutter
         simply creates a line of sight between the two areas it separates.</p>
 
-        <p><span class="special_title">Bossonian Guards and Captain:</span>
-        During setup, the heroes place 2 Bossonian Guard models
-        without their colored base and the Captain model as well as their
-        corresponding tiles beside the board. The Overlord places the Captain’s
-        life point token <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/CaptainToken.png"
-        class="scen_token"> on space 4 of the turn track.</p>
+        <p><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BossonianGuards.png" class="scen_event float_tile">
+        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Captain.png" class="scen_event float_tile">
+        <span class="special_title">Bossonian Guards and Captain:</span>
+        During setup, the heroes place 2 <a class="tile" href="/tiles/17">Bossonian Guard</a>
+        models without their colored base and the <a class="tile" href="/tiles/3">Captain</a>
+        model as well as their corresponding tiles beside the board. The Overlord
+        places the Captain’s life point token
+        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/CaptainToken.png" class="scen_token">
+        on space 4 of the turn track.</p>
 
-        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Captain.png" class="scen_event">
-        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BossonianGuards.png" class="scen_event">
-
-
-        <p><span class="special_title">Cells:</span>
+        <p style="clear: both;"><span class="special_title">Cells:</span>
         During setup, the Overlord randomly places the 3 tokens
+        <img src="/assets/tokens/numBackToken.png" class="scen_token" />
         numbered 1 to 3 on the board as indicated by the setup diagram. These
         tokens represent the prison cells holding the Captain and the two Bossonian
         Guards. When a hero has line of sight to an area containing a Cell token,
@@ -2324,7 +2360,7 @@
         <p><span class="special_title">Chests:</span>
         During setup, the Overlord places 4 chests on the board as
         indicated by the setup diagram. The asset deck contains:
-        1 <a class="item" href="/items/5">Explosive Orb</a>,
+        1 <a class="item" href="/items/6">Explosive Orb</a>,
         1 <a class="item" href="/items/32">Axe</a>,
         1 <a class="item" href="/items/41">Zingarian Breastplate</a>, and
         1 <a class="item" href="/items/22">Life Potion</a>.></p>',
@@ -2332,9 +2368,9 @@
       origin: "Add-Ons",
       map_ids: [5],
       hero_ids: [9, 12, 18, 20],
-      tile_ids: [39, 37, 2, 53, 34, 2, 1],
-      spell_ids: [6, 10, 15, 44],
-      item_ids: [7, 11, 35, 52] },
+      tile_ids: [1, 3, 17, 18, 30, 33, 35, 96],
+      spell_ids: [1, 6, 12, 35],
+      item_ids: [4, 6, 11, 13, 22, 24, 35, 41, 54] },
 
     { name: "Where the Thunder Rumbles",
       description: "<p>Conan and his men have journeyed for several hours from
@@ -2368,10 +2404,10 @@
         of turn 7; the heroes win the game.",
       hero_setup: '<strong>Suggestions for 2 heroes:</strong>
         <br /><a class="hero" href="/heroes/11">Conan - General</a>
-        (<a class="item" href="/items/7">Conan’s Sword</a> and
-          <a class="item" href="/items/17">Chain Mail</a>) and 8 Bossonian Guards.
+        (<a class="item" href="/items/4">Conan’s Sword</a> and
+          <a class="item" href="/items/16">Chain Mail</a>) and 8 Bossonian Guards.
         <br /><a class="hero" href="/heroes/10">Balthus</a>
-        (<a class="item" href="/items/9">Bossonian Bow</a> and
+        (<a class="item" href="/items/2">Bossonian Bow</a> and
           <a class="item" href="/items/11">Parrying Dagger</a>) and Slasher. <br /><br />
         <p>After setup, each hero moves 3 gems from their Reserve zone to
         their Fatigue zone.</p>',
@@ -2396,22 +2432,25 @@
           </tr>
         </table>',
 
-      tile1: [42],
-      tile2: [50],
-      tile3: [2, 8],
+      tile1: [24],
+      tile2: [86],
+      tile3: [107],
       tile4: [1],
-      tile5: [48],
-      tile6: [2],
-      tile7: [1],
+      tile5: [29],
+      tile6: [107, 8],
+      tile7: [2],
       tile8: [0],
 
       special_rules: '<p><span class="special_title">Bossonian Guard:</span>
-        Only Conan the General can use Leadership to activate the
-        Bossonian Guards. For this scenario, Conan the General and Balthus cannot
-        spend gems to defend the Bossonian Guards.</p>
+        Only <a class="hero" href="/heroes/11">Conan the General</a> can use
+        Leadership to activate the Bossonian Guards. For this scenario,
+        <a class="hero" href="/heroes/11">Conan the General</a> and
+        <a class="hero" href="/heroes/10">Balthus</a>Balthus cannot spend gems
+        to defend the <a class="tile" href="/tiles/17">Bossonian Guards</a>.</p>
 
         <p><span class="special_title">Slasher:</span>
-        Only Balthus can use Leadership to activate Slasher.</p>
+        Only <a class="hero" href="/heroes/10">Balthus</a> can use Leadership to
+        activate <a class="tile" href="/tiles/75">Slasher</a>.</p>
 
         <p><span class="special_title">Water:</span>
         A character must spend 1 extra movement point to move out of a water
@@ -2426,17 +2465,23 @@
         <p><span class="special_title">Chests:</span>
         During setup, the Overlord places 3 chests on the board as
         indicated by the setup diagram. The asset deck contains
-        1 <a class="item" href="/items/3">Javelin</a>,
-        1 <a class="item" href="/items/5">Explosive Orb</a>, and
+        1 <a class="item" href="/items/8">Javelin</a>,
+        1 <a class="item" href="/items/6">Explosive Orb</a>, and
         1 <a class="item" href="/items/22">Life Potion</a>.</p>',
 
       origin: "Add-Ons",
       map_ids: [6],
       hero_ids: [10, 11],
-      tile_ids: [42, 50, 2, 1, 48, 2, 1],
+      tile_ids: [1, 2, 17, 24, 29, 75, 86, 107],
       spell_ids: [],
-      item_ids: [3, 5, 7, 9, 11, 17, 22] },
+      item_ids: [2, 4, 6, 8, 11, 16, 22] },
 
+    ## Stretch Goals
+
+    ## Stretch Goals - hard copy
+
+
+    ## Stretch Goals - online
     { name: "Sacrificial Heroes",
       description: "<p>Zingara is a proud and powerful country, bordering the
         great western sea. Yet for many years, even though the country is
@@ -2466,31 +2511,31 @@
 
       hero_goal: "If the heroes destroy the outpost or sabotage the citadel
         before the end of turn 8; the heroes win the game.",
-      hero_setup: 'The game starts with the heroes’ turn.
-        <br /><br /><strong>Suggestions for 4 heroes:</strong>
-        <br /><a class="hero" href="/heroes/2">Zogar Sag</a>
-        (<a class="item" href="/items/43">Black Staff</a>, 2
+      hero_setup: 'The game starts with the heroes’ turn.<br />
+        <p><strong>Suggestions for 4 heroes:</strong>
+
+        <br /><a class="hero" href="/heroes/25">Zogar Sag</a>
+        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/PictWarriors.png" class="scen_event float_tile">
+        (<a class="item" href="/items/42">Black Staff</a>, 2
           <a class="item" href="/items/45">Pictish Drinks</a>,
-          <a class="spell" href="/spells/34">Recall</a>,
-          <a class="spell" href="/spells/5">Set’s Halo</a>,
-          <a class="spell" href="/spells/6">Set’s Bite</a>, and
-          <a class="spell" href="/spells/28">Bel’s Caress</a>) and 2 Pict Warriors.
+          <a class="spell" href="/spells/46">Recall</a>,
+          <a class="spell" href="/spells/13">Set’s Halo</a>,
+          <a class="spell" href="/spells/12">Set’s Bite</a>, and
+          <a class="spell" href="/spells/20">Bel’s Caress</a>) and 2 Pict Warriors.
         Zogar Sag starts with Set’s Halo cast.
-        <br /><a class="hero" href="/heroes/4">Thak</a>
+        <br /><a class="hero" href="/heroes/23">Thak</a>
         (<a class="item" href="/items/11">Parrying Dagger</a>).
-        <br /><a class="hero" href="/heroes/3">Skuthus</a>
+        <br /><a class="hero" href="/heroes/22">Skuthus</a>
+        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Pirates.png" class="scen_event float_tile">
         (<a class="item" href="/items/36">Sacrificial Dagger</a>,
           <a class="item" href="/items/22">Life Potion</a>,
-          <a class="item" href="/items/49">Elixir</a>,
-          <a class="spell" href="/spells/44">Hand of Death</a>,
-          <a class="spell" href="/spells/26">Life Transfer</a>,
-          <a class="spell" href="/spells/25">Return of the Braves</a>, and
-          <a class="spell" href="/spells/15">Lightning Storm</a>).
-        <br /><a class="hero" href="/heroes/3">Zaporavo</a>
-        (<a class="item" href="/items/35">Pirate Saber</a>) and 2 Pirates.<br /><br />
-
-        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/PictWarriors.png" class="scen_event">
-        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Pirates.png" class="scen_event">
+          <a class="item" href="/items/48">Elixir</a>,
+          <a class="spell" href="/spells/35">Hand of Death</a>,
+          <a class="spell" href="/spells/41">Life Transfer</a>,
+          <a class="spell" href="/spells/47">Return of the Braves</a>, and
+          <a class="spell" href="/spells/6">Lightning Storm</a>).
+        <br /><a class="hero" href="/heroes/24">Zaporavo</a>
+        (<a class="item" href="/items/35">Pirate Saber</a>) and 2 Pirates.</p>
 
         <p>After setup, each hero moves 5 gems from their Reserve zone to
         their Fatigue zone.</p>',
@@ -2511,12 +2556,12 @@
           </tr>
         </table>',
 
-      tile1: [53],
-      tile2: [84, 6],
-      tile3: [89, 6],
-      tile4: [51],
-      tile5: [90, 6],
-      tile6: [92, 6],
+      tile1: [18],
+      tile2: [63, 6],
+      tile3: [68, 6],
+      tile4: [17],
+      tile5: [69, 6],
+      tile6: [71, 6],
       tile7: [1],
       tile8: [0],
 
@@ -2565,7 +2610,7 @@
         exploded in a numbered hut area, the hut is also the target of the area
         attack. An Overlord unit with Sacrifice, who is in the same area as the
         hero attacking the hut, can use this skill to protect the hut. When a hut
-        is destroyed, the Overlord places a <img src="/assets/tokens/rocks.png" class="scen_token" />
+        is destroyed, the Overlord places a <img src="/assets/tokens/rocksToken.png" class="scen_token" />
         token on the hut area. If a chest is in same area as a destroyed hut the
         Overlord removes the chest token from the game. If a model is in the
         same area as a destroyed hut they suffer an attack of
@@ -2584,28 +2629,33 @@
         the outpost maps are stolen.</p>
 
         <p><span class="special_title">Destroying the Weapons:</span>
-        A hero in the same area as the One token can perform a Melee Attack to
-        destroy the weapons. It is not possible for the Overlord units to use
-        Sacrifice to protect the weapons. If the hero obtains at least 4
-        successes during the same attack, the weapons are destroyed. The One
+        A hero in the same area as the <img src="/assets/tokens/num1Token.png" class="scen_token" />
+        token can perform a Melee Attack to destroy the weapons. It is not
+        possible for the Overlord units to use Sacrifice to protect the weapons.
+        If the hero obtains at least 4 successes during the same attack, the
+        weapons are destroyed. The <img src="/assets/tokens/num1Token.png" class="scen_token" />
         token is then removed from the game. When the weapons are destroyed, and
         for the rest of the game, the Melee Attack value of the Bossonian Guards
         on the outpost board is reduced to
         <img src="/assets/dice/Orange.png" class="scen_sq_token" />.</p>
 
         <p><span class="special_title">Poisoning the Supplies:</span>
-        A hero with the Elixir equipment card and in the same area as the Two
-        token can poison the supplies by performing a simple Manipulation. The
-        Elixir card and the Two token are then removed from the game. When the
-        supplies are poisoned, and for the rest of the game, the Armor value of
-        the Bossonian Guards on the outpost board is reduced to 1.</p>
+        A hero with the Elixir equipment card and in the same area as the
+        <img src="/assets/tokens/num2Token.png" class="scen_token" /> token
+        can poison the supplies by performing a simple Manipulation. The
+        Elixir card and the <img src="/assets/tokens/num2Token.png" class="scen_token" />
+        token are then removed from the game. When the supplies are poisoned,
+        and for the rest of the game, the Armor value of the Bossonian Guards on
+        the outpost board is reduced to 1.</p>
 
         <p><span class="special_title">Stealing the Maps:</span>
         During setup the Overlord places the Spellbook equipment card next to
-        the citadel board. A hero in the same area as the Three token can steal
-        the maps by performing a complex Manipulation with a difficulty of 3.
-        If the hero succeeds, they take the Spellbook card and the Three
-        token is removed from the game. The maps are considered as stolen after
+        the citadel board. A hero in the same area as the
+        <img src="/assets/tokens/num3Token.png" class="scen_token" /> token can
+        steal the maps by performing a complex Manipulation with a difficulty
+        of 3. If the hero succeeds, they take the Spellbook card and the
+        <img src="/assets/tokens/num1Token.png" class="scen_token" /> token
+        is removed from the game. The maps are considered as stolen after
         a hero with the Spellbook card has fled the citadel. As soon as the maps
         are stolen, and for the rest of the game, the number of necessary
         successes to destroy a hut is reduced to 4.</p>
@@ -2640,7 +2690,7 @@
 
         <p><span class="special_title">Climbing:</span>
         A character with <a class="skill" href="/skills/19">Climb</a>
-        can move across boulders <img src="/assets/tokens/rocks.png" class="scen_token" />
+        can move across boulders <img src="/assets/tokens/rocksToken.png" class="scen_token" />
         as though they were a border by spending 2 extra movement points.</p>
 
         <p><span class="special_title">Wooden Huts:</span>
@@ -2655,23 +2705,23 @@
         <br /><br />Citadel Chests: During setup, the Overlord places 3 chests on
         the board as indicated by the setup diagram.
         The Citadel asset deck contains:
-        1 <a class="item" href="/items/5">Explosive Orb</a>,
+        1 <a class="item" href="/items/6">Explosive Orb</a>,
         1 <a class="item" href="/items/22">Life Potion</a> and
-        1 <a class="item" href="/items/34">Turanian Sword</a>.
+        1 <a class="item" href="/items/38">Turanian Sword</a>.
         <br /><br />Outpost Chests: During setup, the Overlord places 5 chests on
         the outpost board as indicated by the setup diagram.
         The Outpost asset deck contains:
         2 <a class="item" href="/items/5">Explosive Orbs</a>,
         <a class="item" href="/items/22">Life Potion</a>,
-        1 <a class="item" href="/items/10">Sword</a>, and
-        1 <a class="item" href="/items/13">Tribal Mace</a>.</p>',
+        1 <a class="item" href="/items/12">Sword</a>, and
+        1 <a class="item" href="/items/14">Tribal Mace</a>.</p>',
 
       origin: "Stretch Goals +",
       map_ids: [1, 5],
       hero_ids: [22, 23, 24, 25],
-      tile_ids: [53, 84, 89, 51, 90, 92, 1],
-      spell_ids: [5, 6, 26, 28, 34, 44],
-      item_ids: [10, 11, 13, 15, 22, 25, 35, 35, 36, 43, 45, 49] },
+      tile_ids: [1, 17, 18, 30, 63, 68, 69, 71, 87],
+      spell_ids: [6, 12, 13, 20, 35, 41, 46, 47],
+      item_ids: [6, 11, 12, 14, 22, 35, 36, 38, 42, 45, 48, ] },
 
     { name: "A Dragon on the Marches",
       description: "<p>The rumor was true. The Pict warriors of the Eagle Clan
@@ -2703,18 +2753,19 @@
       hero_goal: "If the heroes kill the Dragon before the end of turn 7; the heroes win the game.",
       hero_setup: 'The game starts with the heroes’ turn.
         <br /><br /><strong>Suggestions for 3 heroes:</strong>
-        <br /><a class="hero" href="/heroes/2">Conan Warlord</a>
+        <br /><a class="hero" href="/heroes/14">Conan Warlord</a>
         (<a class="item" href="/items/1">Battle Axe</a> and
-          <a class="item" href="/items/16">Leather Armor</a>),
-        <br /><a class="hero" href="/heroes/4">Savage Bêlit</a>
+          <a class="item" href="/items/17">Leather Armor</a>)
+        <br /><a class="hero" href="/heroes/19">Savage Bêlit</a>
         (<a class="item" href="/items/35">Pirate Saber</a> and
-          <a class="item" href="/items/11">Parrying Dagger</a>),
-        <br /><a class="hero" href="/heroes/3">Pelias</a>
-        (<a class="item" href="/items/43">Black Staff</a>,
+          <a class="item" href="/items/11">Parrying Dagger</a>)
+        <br /><a class="hero" href="/heroes/18">Pelias</a>
+        (<a class="item" href="/items/42">Black Staff</a>,
           <a class="item" href="/items/36">Sacrificial Dagger</a>,
-          <a class="spell" href="/spells/13">Teleportation</a>,
-          <a class="spell" href="/spells/36">Withering</a>,
-          <a class="spell" href="/spells/33">Eel Skin</a>).<br /><br />
+          <a class="spell" href="/spells/16">Teleportation</a>,
+          <a class="spell" href="/spells/55">Withering</a>,
+          <a class="spell" href="/spells/30">Eel Skin</a>)<br /><br />
+
         <p>After setup, each hero moves 5 gems from their Reserve zone
         to their Fatigue zone.</p>',
 
@@ -2733,33 +2784,37 @@
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZogarSagToken.png" class="scen_setup"></td>
             <td>
               <a class="tile" href="/tiles/4">Zogar Sag</a> has
-              <a class="spell" href="/spells/6">Set’s Bite</a> and
-              <a class="spell" href="/spells/3">Magical Dizziness</a>.
+              <a class="spell" href="/spells/12">Set’s Bite</a> and
+              <a class="spell" href="/spells/7">Magical Dizziness</a>.
             </td>
           </tr>
         </table>',
 
-      tile1: [44],
-      tile2: [45],
-      tile3: [50],
-      tile4: [2, 15],
-      tile5: [48],
-      tile6: [4, 4],
+      tile1: [25],
+      tile2: [28],
+      tile3: [86],
+      tile4: [105, 15],
+      tile5: [29],
+      tile6: [6, 4],
       tile7: [1],
-      tile8: [3],
+      tile8: [0],
 
       special_rules: '<p><span class="special_title">Dragon:</span>
         The area between the 4 legs of the dragon is considered as its base with
         regard to occupied areas. The dragon is counted as one model when
         calculating hindering. During its capture the Dragon has been poisoned;
         during setup, the Overlord places a second Dragon tile next to the Book
-        of Skelos with 3 (token) tokens on it to represent this. The Dragon loses
+        of Skelos with 3 <img src="/assets/tokens/numBackToken.png" class="scen_token" />
+        tokens on it to represent this. The Dragon loses
         1 <img src="/assets/dice/Red-Reroll.png" class="scen_sq_token" /> to its
         Melee Attack value per token on this Dragon tile. There can be a maximum
-        of 3 tokens on the Dragon tile. A (token) token is placed on the spaces
-        2, 4 and 6 of the turn track. When the turn track token is placed on the
-        (token) token, one of the tokens placed on the set aside Dragon tile is
-        removed if possible.</p>
+        of 3 tokens on the Dragon tile.
+        A <img src="/assets/tokens/numBackToken.png" class="scen_token" />
+        token is placed on the spaces 2, 4 and 6 of the turn track. When the
+        turn track token is placed on the
+        <img src="/assets/tokens/numBackToken.png" class="scen_token" /> token,
+        one of the tokens placed on the set aside Dragon tile is removed if
+        possible.</p>
 
         <p><span class="special_title">Javelin:</span>
         The Javelins have been specially made to wound the Dragon. If a hero
@@ -2783,12 +2838,14 @@
         hero applies the Elixir on a weapon, the Elixir card is placed under the
         weapon card and the weapon is considered as being poisoned.
         If a hero inflicts at least one wound on the Dragon when using a poisoned
-        weapon a (token) token is placed by the Overlord on the Dragon tile that
-        has been set aside during setup. The Elixir card is then removed from the
-        game; the weapon is no longer considered as being poisoned. If the Dragon
-        has not been wounded during the attack then nothing happens and the Elixir
-        card remains with the weapon.
-        There cannot be more than 3 tokens on this Dragon tile.</p>
+        weapon a <img src="/assets/tokens/numBackToken.png" class="scen_token" />
+        token is placed by the Overlord on the Dragon tile that has been set
+        aside during setup. The Elixir card is then removed from the game; the
+        weapon is no longer considered as being poisoned. If the Dragon has not
+        been wounded during the attack then nothing happens and the Elixir card
+        remains with the weapon. There cannot be more than 3
+        <img src="/assets/tokens/numBackToken.png" class="scen_token" /> tokens
+        on this Dragon tile.</p>
 
         <p><span class="special_title">Hut Flaps:</span>
         rulefive_text: "A character must spend 1 extra movement point to move
@@ -2797,7 +2854,7 @@
 
         <p><span class="special_title">Climbing:</span>
         A character with <a class="skill" href="/skills/19">Climb</a>
-        can move across boulders <img src="/assets/tokens/rocks.png" class="scen_token" />
+        can move across boulders <img src="/assets/tokens/rocksToken.png" class="scen_token" />
         as though they were a border by spending 2 extra movement points.</p>
 
         <p><span class="special_title">Wooden Huts:</span>
@@ -2807,16 +2864,16 @@
         <p><span class="special_title">Chests:</span>
         During setup, the Overlord places 4 chests on the board as
         indicated by the setup diagram. The asset deck contains
-        2 <a class="item" href="/items/3">Javelins</a>,
-        1 <a class="item" href="/items/28">Pictish Fetish</a>, and
-        1 <a class="item" href="/items/49">Elixir</a>.</p>',
+        2 <a class="item" href="/items/8">Javelins</a>,
+        1 <a class="item" href="/items/25">Pictish Fetish</a>, and
+        1 <a class="item" href="/items/48">Elixir</a>.</p>',
 
       origin: "Add-Ons",
       map_ids: [1],
       hero_ids: [14, 18, 19],
-      tile_ids: [44, 45, 50, 2, 48, 4, 1],
-      spell_ids: [3, 6, 13, 33, 36],
-      item_ids: [1, 3, 11, 16, 28, 33, 36, 43, 49] },
+      tile_ids: [1, 6, 25, 28, 29, 86, 105],
+      spell_ids: [7, 12, 16, 30, 55],
+      item_ids: [1, 8, 11, 17, 25, 35, 36, 42, 48] },
 
     { name: "Death from the North",
       description: "<p>The keen eye of the imposing figure scrutinizes every
@@ -2848,13 +2905,13 @@
         Overlord from killing all the pirates, Bossonian guards and archers before
         the end of turn 9; the heroes win the game.",
       hero_setup: '<strong>Suggestions for 3 heroes:</strong>
-        <br /><a class="hero" href="/heroes/2">Conan - General</a>
+        <br /><a class="hero" href="/heroes/11">Conan - General</a>
         (<a class="item" href="/items/18">Scale Mail</a>) with 5 pirates with no
         base and 5 Bossonian Archers with a purple base.
-        <br /><a class="hero" href="/heroes/4">Pallantides</a>
+        <br /><a class="hero" href="/heroes/17">Pallantides</a>
         (<a class="item" href="/items/20">Shield</a>) with 5 Bossonian Guards with
         a red base.
-        <br /><a class="hero" href="/heroes/3">N’Gora</a>
+        <br /><a class="hero" href="/heroes/6">N’Gora</a>
         (<a class="item" href="/items/21">Tribal Shield</a>). <br /><br />
         <p>After setup, each hero moves 6 gems from their Reserve zone
         to their Fatigue zone.</p>',
@@ -2878,15 +2935,15 @@
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/HyperboreanPrimitiveToken.png" class="scen_setup"></td>
             <td>
-              <a class="tile" href="/tiles/8">Hyperborean Primitive</a> has
-              <a class="spell" href="/spells/2">Pestilential Swarm</a> and
-              <a class="spell" href="/spells/36">Withering</a>.
+              <a class="tile" href="/tiles/56">Hyperborean Primitive</a> has
+              <a class="spell" href="/spells/11">Pestilential Swarm</a> and
+              <a class="spell" href="/spells/55">Withering</a>.
             </td>
           </tr>
         </table>',
 
-      tile1: [8, 6],
-      tile2: [25, 8],
+      tile1: [56, 6],
+      tile2: [76, 8],
       tile3: [1],
       tile4: [0],
       tile5: [0],
@@ -2903,7 +2960,10 @@
         replaces it. The laid down skeleton models do not count for hindering
         and occupied areas.</p>
 
-        <p><span class="special_title">Skeletons:</span>
+        <p><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SkeletonsPurple.png" class="scen_event float_tile">
+        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SkeletonsRed.png" class="scen_event float_tile">
+        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Skeletons.png" class="scen_event float_tile">
+        <span class="special_title">Skeletons:</span>
         During setup the Overlord places the following Skeleton tiles next to
         the Book of Skelos: (Gray and purple Skeleton tiles with an Armor of 1,
         and a red Skeleton tile with an Armor of 0). The Overlord then places
@@ -2912,22 +2972,18 @@
         the board. The laid down skeleton models do not count for hindering and
         occupied areas.</p>
 
-        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SkeletonsPurple.png" class="scen_event">
-        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SkeletonsRed.png" class="scen_event">
-        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Skeletons.png" class="scen_event">
+        <p style="clear: both;"><span class="special_title"> Stygian Artifact:</span>
+        During setup the Overlord places the <a class="item" href="/items/29">Stygian Artifact</a>
+        card next to the board.</p>
 
-        <p><span class="special_title"> Stygian Artifact:</span>
-        During setup the Overlord places the Stygian Artifact card
-        next to the board.</p>
-
-        <p><span class="special_title">Bone Golem:</span>
+        <p><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BoneGolem.png" class="scen_event float_tile">
+        <span class="special_title">Bone Golem:</span>
         During setup the Overlord places the second Bone Golem tile beside the
         Book of Skelos. When the Bone Golem is killed the Overlord places the
-        Stygian Artifact card in the area where the Bone Golem was killed.</p>
+        <a class="item" href="/items/29">Stygian Artifact</a> card in the area
+        where the Bone Golem was killed.</p>
 
-        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BoneGolem.png" class="scen_event">
-
-        <p><span class="special_title">Hyperborean Primitive:</span>
+        <p style="clear: both;"><span class="special_title">Hyperborean Primitive:</span>
         The Hyperborean Primitive can only be wounded by a hero carrying the
         Stygian Artifact. The Hyperborean Primitive cannot be wounded
         in any other way other than by a hero carrying the Stygian Artifact.</p>
@@ -3000,9 +3056,9 @@
       origin: "Stretch Goals +",
       map_ids: [4],
       hero_ids: [6, 11, 17],
-      tile_ids: [8, 25, 1],
-      spell_ids: [2, 36],
-      item_ids: [18, 20, 21] },
+      tile_ids: [1, 16, 22, 30, 45, 49, 56, 76, 91],
+      spell_ids: [11, 55],
+      item_ids: [18, 12, 20, 21, 22, 29, 38, 39, 45] },
 
     { name: "The Terrible Lovers",
       description: "<p>The pirate ship, The Tigress, is anchored in the harbor
@@ -3033,12 +3089,11 @@
         possession before the end of turn 7; the heroes win the game.",
       hero_setup: 'The game starts with the heroes’ turn.
         <br /><br /><strong>Suggestions for 2 heroes:</strong>
-        <br /><a class="hero" href="/heroes/2">Conan the Thief</a>
-        (<a class="item" href="/items/7">Conan’s Sword</a>).
-        <br /><a class="hero" href="/heroes/4">Bêlit Queen of the Black Coast</a>
+        <br /><a class="hero" href="/heroes/31">Conan the Thief</a>
+        (<a class="item" href="/items/4">Conan’s Sword</a>).
+        <br /><a class="hero" href="/heroes/30">Bêlit Queen of the Black Coast</a>
         (<a class="item" href="/items/22">Life Potion</a>,
-        <a class="item" href="/items/2">Dagger</a> and
-        <a class="item" href="/items/14">Short Sword</a>).<br /><br />
+        <a class="item" href="/items/3">Dagger</a> and Short Sword).<br /><br />
         <p>After setup, each hero moves 4 gems from their Reserve zone
         to their Fatigue zone.</p>',
 
@@ -3058,13 +3113,13 @@
           </tr>
         </table>',
 
-      tile1: [38],
-      tile2: [36],
+      tile1: [33],
+      tile2: [31],
       tile3: [1],
-      tile4: [51],
-      tile5: [38],
-      tile6: [5, 6],
-      tile7: [1],
+      tile4: [17],
+      tile5: [32],
+      tile6: [7, 6],
+      tile7: [2],
       tile8: [0],
 
       special_rules: '<p><span class="special_title">Sinking a Ship:</span>
@@ -3126,21 +3181,20 @@
         <p><span class="special_title">Chests:</span>
         During setup, the Overlord places 4 chests on the board
         as indicated by the setup diagram. The asset deck contains:
-        1 <a class="item" href="/items/5">Explosive Orb</a>,
-        1 <a class="item" href="/items/22">Life Potion </a>and
-        2 <a class="item" href="/items/2">Amulets</a>.
+        1 <a class="item" href="/items/6">Explosive Orb</a>,
+        1 <a class="item" href="/items/22">Life Potion</a> and 2 Amulets.
         A hero must perform a complex manipulation with a difficulty of 3 to open
         a chest in a water area.</p>',
 
       origin: "Add-Ons",
       map_ids: [2],
-      hero_ids: [],
-      tile_ids: [38, 36, 1, 51, 38, 5, 1],
+      hero_ids: [30, 31],
+      tile_ids: [1, 2, 7, 17, 31, 32, 33],
       spell_ids: [],
-      item_ids: [2, 5, 7, 22] },
+      item_ids: [3, 4, 6, 22]},
 
     { name: "The Curse of the Shape-Shifter",
-      description: "<p><Bahram, the influential sorcerer in the service of the
+      description: "<p>Bahram, the influential sorcerer in the service of the
         Sultan of Iranistan, has lost control of his powers. He has become a
         shape-shifter against his own will and no one knows whether this is a
         punishment from the gods or a curse picked up from his excessive studies
@@ -3171,12 +3225,12 @@
         <br /><a class="hero" href="/heroes/13">Conan - Wanderer</a>
         (<a class="item" href="/items/32">Axe</a>)
         <br /><a class="hero" href="/heroes/19">Savage Bêlit</a>
-        (<a class="item" href="/items/2">Dagger</a> and
+        (<a class="item" href="/items/3">Dagger</a> and
           <a class="item" href="/items/11">Parrying Dagger</a>)
         <br /><a class="hero" href="/heroes/15">Kerim Shah</a>
-        (<a class="item" href="/items/10">Sword</a>)
+        (<a class="item" href="/items/12">Sword</a>)
         <br /><a class="hero" href="/heroes/9">Amboola</a>
-        (<a class="item" href="/items/2">Dagger</a>)<br /><br />
+        (<a class="item" href="/items/3">Dagger</a>)<br /><br />
         <p>After setup, each hero moves 5 gems from their Reserve zone
         to their Fatigue zone.</p>',
 
@@ -3195,7 +3249,7 @@
             </td>
           </tr>
           <tr>
-            <td></td>
+            <td><img src="/assets/tokens/num1Token.png" class="scen_token" /></td>
             <td>
               During setup the Overlord places the tokens numbered 1 to 3 faceup on
               the board as indicated by the set up diagram to represent the altars.
@@ -3204,23 +3258,26 @@
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/WarlockToken.png" class="scen_setup"></td>
             <td>
-              <a class="tile" href="/tiles/11">Warlock</a> has
-              <a class="spell" href="/spells/25">Return of the Braves</a> and
-              <a class="spell" href="/spells/7">Mitra’s Halo</a>.
+              <a class="tile" href="/tiles/59">Warlock</a> has
+              <a class="spell" href="/spells/47">Return of the Braves</a> and
+              <a class="spell" href="/spells/9">Mitra’s Halo</a>.
             </td>
           </tr>
         </table>',
 
-      tile1: [11, 6],
-      tile2: [76],
-      tile3: [74],
-      tile4: [11],
-      tile5: [75],
-      tile6: [65],
+      tile1: [59, 6],
+      tile2: [41],
+      tile3: [44],
+      tile4: [59],
+      tile5: [40],
+      tile6: [50],
       tile7: [1],
       tile8: [0],
 
-      special_rules: '<p><span class="special_title">Animal Form:</span>
+      special_rules: '<p><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Camel.png" class="scen_event float_tile">
+        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/GiantScorpion.png" class="scen_event float_tile">
+        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/GiantSpider.png" class="scen_event float_tile">
+        <span class="special_title">Animal Form:</span>
         At the beginning of the scenario the tiles of the Giant Spider,
         the Giant Scorpion and the Camel are placed next to the Book of Skelos,
         unbloody side faceup, these tiles are considered as being the animal form tiles.
@@ -3228,11 +3285,8 @@
         next to the Book of Skelos, these models are considered as being the animal
         form models.</p>
 
-        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/GiantSpider.png" class="scen_event">
-        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/GiantScorpion.png" class="scen_event">
-        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Camel.png" class="scen_event">
-
-        <p><span class="special_title">Pirate:</span>
+        <p style="clear: both;"><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/PiratesOrange.png" class="scen_event float_tile">
+        <span class="special_title">Pirate:</span>
         During setup the Overlord places the Pirate tile (orange,
         armor value 2 and movement value 2) next to the Book of Skelos. Pirates
         are considered neither as being heroes’ allies nor Overlord units; they do
@@ -3240,31 +3294,29 @@
         melee attack performed by the Overlord troops. They do not suffer damage
         from wounds inflicted by heroes.</p>
 
-        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/PiratesOrange.png" class="scen_event">
-
-        <p><span class="special_title">Curse:</span>
+        <p style="clear: both;"><span class="special_title">Curse:</span>
         If at least one of the animal form tiles is placed unbloody
         side faceup at the beginning of each activation of the Sorcerer tile, the
-        Overlord carries out the following steps:
-        1- The Overlord chooses one of the animal form tiles unbloody side faceup
-        and turns it bloody side faceup.
-        2- The model representing the Sorcerer is then replaced by the animal form
+        Overlord carries out the following steps:</p>
+        <p>1- The Overlord chooses one of the animal form tiles unbloody side faceup
+        and turns it bloody side faceup.</p>
+        <p>2- The model representing the Sorcerer is then replaced by the animal form
         model corresponding to the animal form tile that has just been turned bloody
         side faceup. This model now represents the Sorcerer. The Sorcerer’s turn
-        will be played in the current animal form.
-        3- While the Sorcerer is represented by an animal form model, all the
+        will be played in the current animal form.</p>
+        <p>3- While the Sorcerer is represented by an animal form model, all the
         characteristics of the animal form tile (movement, armor, attack and skills)
         corresponding to the animal form model that represents the Sorcerer,
         replace all the characteristics of the Sorcerer tile (movement, armor,
         attack, spells and skills). If Mitra’s Halo is activated when the Sorcerer
-        is transformed, it is automatically deactivated.
-        If all the animal form tiles are placed bloody side faceup at the beginning
+        is transformed, it is automatically deactivated.</p>
+        <p>If all the animal form tiles are placed bloody side faceup at the beginning
         of each activation of the Sorcerer tile, the Overlord carries out the
-        following steps:
-        1- The Overlord turns all the animal form tiles unbloody side faceup.
-        2- The model that represents the Sorcerer is replaced by the model of the
-        Sorcerer. The Sorcerer’s turn is then played in the form of the Sorcerer.
-        3- While the Sorcerer is represented by the model of the Sorcerer, the
+        following steps:</p>
+        <p>1- The Overlord turns all the animal form tiles unbloody side faceup.</p>
+        <p>2- The model that represents the Sorcerer is replaced by the model of the
+        Sorcerer. The Sorcerer’s turn is then played in the form of the Sorcerer.</p>
+        <p>3- While the Sorcerer is represented by the model of the Sorcerer, the
         characteristics of the Sorcerer tile (movement, armor, attack, spells and
         skills) are used for all that concerns the Sorcerer.</p>
 
@@ -3316,7 +3368,7 @@
         instead.</p>
         <p><span class="special_title">Rock Slides:</span>
         A character can move into a rock slide area
-        <img src="/assets/tokens/rocks.png" class="scen_token" /> from an
+        <img src="/assets/tokens/rocksToken.png" class="scen_token" /> from an
         adjacent area. The character must spend 2 extra movement points unless
         the character has <a class="skill" href="/skills/19">Climb</a>.</p>
 
@@ -3324,16 +3376,16 @@
         During setup, the Overlord places 4 chests on the board
         as indicated by the setup diagram. The asset deck contains:
         1 <a class="item" href="/items/1">Battle Axe</a>,
-        1 <a class="item" href="/items/34">Turanian Sword</a>,
-        1 <a class="item" href="/items/13">Tribal Mace</a>, and
-        1 <a class="item" href="/items/37">Zingarian Bow</a>.</p>',
+        1 <a class="item" href="/items/38">Turanian Sword</a>,
+        1 <a class="item" href="/items/14">Tribal Mace</a>, and
+        1 <a class="item" href="/items/40">Zingarian Bow</a>.</p>',
 
       origin: "Stretch Goals +",
       map_ids: [3],
-      hero_ids: [9, 3, 15, 19],
-      tile_ids: [11, 76, 74, 11, 75, 65, 1],
-      spell_ids: [7, 25],
-      item_ids: [1, 2, 13, 10, 11, 32, 34, 37] },
+      hero_ids: [9, 13, 15, 19],
+      tile_ids: [1, 33, 40, 41, 44, 50, 59, 73, 78, 79],
+      spell_ids: [9, 47],
+      item_ids: [1, 3, 11, 12, 14, 32, 38, 40] },
 
     { name: "The White Witch",
       description: "<p>Far from the disturbing ancestral lands occupied by the
@@ -3360,15 +3412,14 @@
       complexity: "1",
 
       hero_goal: "If Zelata kills the Swamp Demon before the end of round 6, the hero wins the game.",
-      hero_setup: 'The game starts with the hero’s turn.
-        <br /><br /><strong>Suggestions for 1 hero:</strong>
+      hero_setup: 'The game starts with the hero’s turn.<br />
+        <p><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/GiantWolves.png" class="scen_event float_tile">
+        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/GiantWolves.png" class="scen_event float_tile">
+        <br /><strong>Suggestions for 1 hero:</strong>
         <br /><a class="hero" href="/heroes/8">Zelata</a>
-        (2 spells: <a class="spell" href="/spells/7">Mitra’s Halo</a> and
-          <a class="spell" href="/spells/28">Bel’s Caress</a>) with 10 Giant Wolves.
-          Zelata starts with Mitra’s Halo cast.<br /><br />
-
-        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/GiantWolves.png" class="scen_event">
-        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/GiantWolves.png" class="scen_event">
+        (2 spells: <a class="spell" href="/spells/9">Mitra’s Halo</a> and
+          <a class="spell" href="/spells/20">Bel’s Caress</a>) with 10 Giant Wolves.
+          Zelata starts with Mitra’s Halo cast.</p>
 
         <p>After setup, the hero moves no gems from their Reserve zone to
         their Fatigue zone.</p>',
@@ -3390,12 +3441,12 @@
           </tr>
         </table>',
 
-      tile1: [44],
-      tile2: [43],
-      tile3: [26, 8],
-      tile4: [11],
-      tile5: [50],
-      tile6: [48],
+      tile1: [25],
+      tile2: [26],
+      tile3: [81, 8],
+      tile4: [86],
+      tile5: [29],
+      tile6: [81],
       tile7: [1],
       tile8: [0],
 
@@ -3432,9 +3483,10 @@
         gains the <a class="spell" href="/spells/2">Pestilential Swarm</a> spell.</p>
 
         <p><span class="special_title">Totem:</span>
-        During setup, the Overlord places 4 totems as indicated on the map. If
-        Zelata is in the same area as a Totem, she may perform a complex
-        Manipulation of difficulty 2 to destroy that Totem. When a Totem is
+        During setup, the Overlord places 4 totems
+        <img src="/assets/tokens/numBackToken.png" class="scen_token" />
+        as indicated on the map. If Zelata is in the same area as a Totem, she
+        may perform a complex Manipulation of difficulty 2 to destroy that Totem. When a Totem is
         destroyed, the Overlord removes that Totem from the board, then the
         Swamp Demon suffers 2 wounds with no possible defense.</p>
 
@@ -3455,16 +3507,16 @@
         <p><span class="special_title">Chests:</span>
         During setup, the Overlord places 3 chests on the board as
         indicated by the setup diagram. The asset deck contains:
-        1 <a class="item" href="/items/25">Shaman’s Staff</a>,
-        1 <a class="item" href="/items/55">Censer</a>, and
+        1 <a class="item" href="/items/26">Shaman’s Staff</a>,
+        1 <a class="item" href="/items/47">Censer</a>, and
         1 <a class="item" href="/items/22">Life Potion</a>.</p>',
 
       origin: "Stretch Goals +",
       map_ids: [6],
       hero_ids: [8],
-      tile_ids: [1, 11, 26, 43, 44, 48, 50],
-      spell_ids: [7, 28],
-      item_ids: [25, 55] },
+      tile_ids: [1, 25, 26, 29, 81, 86, 106],
+      spell_ids: [9, 20],
+      item_ids: [22, 26, 47] },
 
     { name: "A Lion Among Panthers",
       description: "<p>The man with the broad shoulders grimaces protruding his
@@ -3495,15 +3547,14 @@
 
       hero_goal: "If at least one hero flees with three Sacred Treasures before
         the end of turn 7; the heroes win the game.",
-      hero_setup: 'The game starts with the heroes’ turn.
-        <br /><br /><strong>Suggestions for 2 heroes:</strong>
+      hero_setup: 'The game starts with the heroes’ turn.<br />
+        <p><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Slasher.png" class="scen_event float_tile">
+        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConansLion.png" class="scen_event float_tile">
+        <br /><strong>Suggestions for 2 heroes:</strong>
         <br /><a class="hero" href="/heroes/5">Amra the Lion</a>
-        (<a class="item" href="/items/16">Leather Armor</a>) with Conan’s Lion
+        (<a class="item" href="/items/17">Leather Armor</a>) with Conan’s Lion
         <br /><a class="hero" href="/heroes/10">Balthus</a>
-        (<a class="item" href="/items/16">Leather Armor</a>) with Slasher<br /><br />
-
-        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConansLion.png" class="scen_event">
-        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Slasher.png" class="scen_event">
+        (<a class="item" href="/items/17">Leather Armor</a>) with Slasher</p>
 
         <p>After setup, the heroes moves no gems from their Reserve zone
         to their Fatigue zone.</p>',
@@ -3522,66 +3573,76 @@
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZogarSagToken.png" class="scen_setup"></td>
             <td>
-              <a class="tile" href="/tiles/4">Zogar Sag</a> has one spell
-              <a class="spell" href="/spells/6">Set’s Bite</a> for this scenario.
+              <a class="tile" href="/tiles/6">Zogar Sag</a> has one spell
+              <a class="spell" href="/spells/12">Set’s Bite</a> for this scenario.
             </td>
           </tr>
         </table>',
 
-      tile1: [44],
-      tile2: [50],
-      tile3: [27, 4],
-      tile4: [48],
-      tile5: [4, 4],
-      tile6: [27],
+      tile1: [25],
+      tile2: [86],
+      tile3: [77, 4],
+      tile4: [29],
+      tile5: [6, 4],
+      tile6: [77],
       tile7: [1],
       tile8: [0],
 
       special_rules: '<p><span class="special_title">Sacred Treasures:</span>
-        The three <a class="item" href="/items/47">Sacred Treasure</a>,
-        the <a class="item" href="/items/28">Pictish Fetish</a>, and the
-        <a class="item" href="/items/54">Heart of Ahriman</a> are considered Sacred Treasures.
+        The three <a class="item" href="/items/55">Sacred Treasure</a>,
+        the <a class="item" href="/items/25">Pictish Fetish</a>, and the
+        <a class="item" href="/items/49">Heart of Ahriman</a> are considered Sacred Treasures.
         During setup, the Overlord places one Sacred Treasure card on the same
-        areas as the tokens 1, 2, and 3 as well as the Pictish Fetish and the Heart
-        of Ahriman next to the board.</p>
+        areas as the tokens <img src="/assets/tokens/area1Token.png" class="scen_token" />,
+        <img src="/assets/tokens/area2Token.png" class="scen_token" /> and
+        <img src="/assets/tokens/area3Token.png" class="scen_token" />  as well
+        as the Pictish Fetish and the Heart of Ahriman next to the board.</p>
 
         <p><span class="special_title">Equipment:</span>
-        During setup, the Overlord places the following cards on the area 4:
+        During setup, the Overlord places the following cards on the area
+        <img src="/assets/tokens/area4Token.png" class="scen_token" />:
         1 <a class="item" href="/items/32">Axe</a>,
-        1 <a class="item" href="/items/37">Zingarian Bow</a>, and
+        1 <a class="item" href="/items/40">Zingarian Bow</a>, and
         1 <a class="item" href="/items/22">Life Potion</a>.</p>
 
         <p><span class="special_title">Stone:</span>
-        During setup, the Overlord places a Stone token in each of
+        During setup, the Overlord places a Stone token
+        <img src="/assets/tokens/rocksToken.png" class="scen_token" /> in each of
         the stone Huts as indicated by the setup diagram. These stones are considered
         Equipment cards with an encumbrance value of 2. When a hero carries a stone,
         they no longer suffer the penalty for Melee Attack without a weapon card.</p>
 
         <p><span class="special_title">Zogar Sag:</span>
-        When Zogar Sag dies, the Overlord immediately places the
-        <a class="item" href="/items/28">Pictish Fetish</a> card in Zogar Sag’s area.</p>
+        When <a class="tile" href="/tiles/6">Zogar Sag</a> dies, the Overlord
+        immediately places the <a class="item" href="/items/25">Pictish Fetish</a>
+        card in Zogar Sag’s area.</p>
 
         <p><span class="special_title">Forest Demon:</span>
-        When the Forest Demon dies, the Overlord immediately places the
-        <a class="item" href="/items/54">Heart of Ahriman</a> card in the Forest
+        When the <a class="tile" href="/tiles/77">Forest Demon</a> dies, the
+        Overlord immediately places the
+        <a class="item" href="/items/49">Heart of Ahriman</a> card in the Forest
         Demon’s area.</p>
 
         <p><span class="special_title">Door:</span>
-        Slasher and Conan’s Lion are imprisoned. As long as the door is in play,
-        the animals cannot be activated. Conan and Balthus cannot use their
-        Leadership skills. The Door is considered impassable. A hero in an area
-        adjacent to the door can perform a complex Manipulation with a
+        Slasher and Conan’s Lion are imprisoned. As long as the door
+        <img src="/assets/tokens/redDoorToken.png" class="scen_sq_token" /> is
+        in play, the animals cannot be activated. Conan and Balthus cannot use
+        their Leadership skills. The Door is considered impassable. A hero in
+        an area adjacent to the door can perform a complex Manipulation with a
         difficulty of 2 to remove that door from the board. The heroes may
         use their Leadership skills to activate Conan’s Lion and Slasher.</p>
 
         <p><span class="special_title">Slasher:</span>
-        Only Balthus can activate Slasher. If Balthus dies, Slasher has no
-        longer reason to fight and is immediately removed from the game.</p>
+        Only <a class="hero" href="/heroes/10">Balthus</a> can activate
+        <a class="tile" href="/tiles/75">Slasher</a>. If Balthus dies,
+        Slasher has no longer reason to fight and is immediately removed from
+        the game.</p>
 
         <p><span class="special_title">Conan’s Lion:</span>
-        Only Amra the Lion can activate Conan’s Lion. If Amra the Lion dies,
-        Conan’s Lion has no longer reason to fight and is immediately removed
-        from the game.</p>
+        Only <a class="hero" href="/heroes/5">Amra the Lion</a> can
+        activate <a class="tile" href="/tiles/38">Conan’s Lion</a>. If Amra the
+        Lion dies, Conan’s Lion has no longer reason to fight and is immediately
+        removed from the game.</p>
 
         <p><span class="special_title">Fleeing the Village:</span>
         A model can flee the village from one of the three village entrance
@@ -3607,9 +3668,9 @@
       origin: "Stretch Goals +",
       map_ids: [1],
       hero_ids: [5, 10],
-      tile_ids: [1, 4, 27, 44, 48, 50],
-      spell_ids: [6],
-      item_ids: [16, 22, 28, 32, 37, 47, 54] },
+      tile_ids: [1, 6, 25, 29, 38, 75, 77, 86],
+      spell_ids: [12],
+      item_ids: [17, 22, 25, 32, 40, 49, 55] },
 
       { name: "The Price of Success",
         description: "<p>Captain Zaporavo exults! He, the mercenary hired by the
@@ -3642,19 +3703,18 @@
         hero_goal: "If Zaporavo sounds the alarm before the end of round 6 or
           prevents Conan from being freed before the end of turn 6; the hero wins
           the game.",
-        hero_setup: 'The game starts with the heroes’ turn.
+        hero_setup: 'The game starts with the heroes’ turn.<br />
+          <p><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Pirates.png" class="scen_event float_tile">
+          <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/KothianArcher.png" class="scen_event float_tile">
+          <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Amboola.png" class="scen_event float_tile">
           <br /><br /><strong>Suggestion:</strong>
           <br /><a class="hero" href="/heroes/24">Zaporavo</a>
           (<a class="item" href="/items/41">Zingarian Breastplate</a>,
           <a class="item" href="/items/35">Pirate Saber</a> and
-          <a class="item" href="/items/56">Cape</a>) with
+          <a class="item" href="/items/46">Cape</a>) with
             <a class="tile" href="/tiles/81">Amboola</a>,
             <a class="tile" href="/tiles/99">Kothian Archer</a> and 10
-            <a class="tile" href="/tiles/33">Pirates</a><br /><br />
-
-          <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Amboola.png" class="scen_event">
-          <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/KothianArcher.png" class="scen_event">
-          <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Pirates.png" class="scen_event">
+            <a class="tile" href="/tiles/33">Pirates</a></p>
 
           <p>After setup, the heroes moves no gems from their Reserve zone
           to their Fatigue zone.</p>',
@@ -3679,28 +3739,32 @@
             </tr>
           </table>',
 
-        tile1: [53],
-        tile2: [96],
-        tile3: [82, 4],
-        tile4: [58],
-        tile5: [89, 4],
-        tile6: [92, 4],
+        tile1: [18],
+        tile2: [97],
+        tile3: [61, 4],
+        tile4: [16],
+        tile5: [68, 4],
+        tile6: [71, 4],
         tile7: [1],
         tile8: [0],
 
         special_rules: '<p><span class="special_title">Warning Fire:</span>
-          During setup, the Overlord places 3 Warning Fire tokens as indicated
-          by the setup diagram. The hero in a Warning Fire token’s area may
-          perform a complex Manipulation with a difficulty of 2 to light the
-          fire. When a warning fire is lit, the hero removes the corresponding
-          token from the board.</p>
+          During setup, the Overlord places 3 Warning Fire tokens
+          <img src="/assets/tokens/num1Token.png" class="scen_token" />,
+          <img src="/assets/tokens/num2Token.png" class="scen_token" />,
+          <img src="/assets/tokens/num3Token.png" class="scen_token" />
+          as indicated by the setup diagram. The hero in a Warning Fire token’s
+          area may perform a complex Manipulation with a difficulty of 2 to
+          light the fire. When a warning fire is lit, the hero removes the
+          corresponding token from the board.</p>
 
           <p><span class="special_title">Activating Levers:</span>
-          During setup, the Overlord places 3 Lever tokens as indicated by the
-          setup diagram. At the end of the Overlord’s turn, if there are more
-          models of the Overlord’s side than models of the hero’s side in an
-          area with a Lever token, then that lever is activated and the
-          Overlord removes that Lever token from the board.</p>
+          During setup, the Overlord places 3 Lever tokens
+          <img src="/assets/tokens/numBackToken.png" class="scen_token" /> as
+          indicated by the setup diagram. At the end of the Overlord’s turn, if
+          there are more models of the Overlord’s side than models of the hero’s
+          side in an area with a Lever token, then that lever is activated and
+          the Overlord removes that Lever token from the board.</p>
 
           <p><span class="special_title">Sounding the Alarm:</span>
           The hero sounds the alarm when the 3 Warning Fires are lit.</p>
@@ -3746,13 +3810,23 @@
           as indicated by the setup diagram. The asset deck contains:
           1 <a class="item" href="/items/22">Life Potion</a>,
           1 <a class="item" href="/items/20">Shield</a>, and
-          1 <a class="item" href="/items/34">Turanian Sword</a>.</p>',
+          1 <a class="item" href="/items/38">Turanian Sword</a>.</p>',
 
         origin: "Stretch Goals +",
         map_ids: [5],
         hero_ids: [24],
-        tile_ids: [1, 33, 53, 58, 81, 82, 89, 92, 96, 99],
+        tile_ids: [1, 16, 18, 30, 60, 61, 68, 71, 74, 97 ],
         spell_ids: [],
-        item_ids: [20, 22, 34, 35, 41, 56] },
+        item_ids: [20, 22, 35, 38, 41, 46] },
+
+    ## Expansions
+
+    # Nordheim
+
+    # Khitai
+
+    # Stygia
+
+    # Campaign
 
   ])

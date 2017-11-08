@@ -19,4 +19,12 @@ class Scenario < ActiveRecord::Base
            special_rules LIKE ?', "%#{search}%", "%#{search}%",
            "%#{search}%", "%#{search}%", "%#{search}%")
   end
+
+  def previous
+    Scenario.where(["id < ?", id]).last
+  end
+
+  def next
+    Scenario.where(["id > ?", id]).first
+  end
 end

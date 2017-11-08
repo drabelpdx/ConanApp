@@ -13,14 +13,7 @@
     </div>
     <div class="col-md-5">
       <h3>Special Rules:</h3>
-        <ol>
-          <% if @map.ruleone %><li><%= @map.ruleone.html_safe %></li><% end%>
-          <% if @map.ruletwo %><li><%= @map.ruletwo.html_safe %></li><% end%>
-          <% if @map.rulethree %><li><%= @map.rulethree.html_safe %></li><% end%>
-          <% if @map.rulefour %><li><%= @map.rulefour.html_safe %></li><% end%>
-          <% if @map.rulefive %><li><%= @map.rulefive.html_safe %></li><% end%>
-          <% if @map.rulesix %><li><%= @map.rulesix.html_safe %></li><% end%>
-        </ol><br /><br />
+        <% if @map.special_rules %><%= @map.special_rules.html_safe %><% end %>
     </div>
   </div>
 </div>

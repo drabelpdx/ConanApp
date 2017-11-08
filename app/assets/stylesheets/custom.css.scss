@@ -94,10 +94,15 @@ $navbar-default-bg: #08088A;
   display: none;
 }
 
+#by_tile {
+  display: none;
+}
+
 .btn-scenario {
     background-color: #d9edf7;
     color: #31708f;
 }
+
 .scenario a {
   color: #31708f;
 }
@@ -457,6 +462,22 @@ a.skill {
   padding:5px;
 }
 
+.sm_cards img {
+  width: 30px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.float_tile {
+  float:right;
+  width: 75px;
+  height: auto;
+  margin-left: 5px;
+  margin-top: -10px;
+  margin-bottom: 5px;
+}
+
+
 .special_title {
   font-weight: bold;
   text-decoration: underline;
@@ -489,20 +510,31 @@ footer ul li {
   margin-left: 15px;
 }
 
+.prevnext_scenario {
+  background: gray;
+  margin: -5px;
+  color: #fff;
+  line-height: 70px;
+}
+
 .prevnext_hero {
   background: #3c763d;
+  line-height: 30px;
 }
 
 .prevnext_tile {
   background: #a94442;
+  line-height: 30px;
 }
 
 .prevnext_item {
   background: #8a6d3b;
+  line-height: 30px;
 }
 
 .prevnext_spell {
   background: #8600b3;
+  line-height: 30px;
 }
 
 .prevnext {

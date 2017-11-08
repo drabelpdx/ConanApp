@@ -10,7 +10,17 @@
         <h2 class="tile"><%= @tile.name %></h2>
         <h4><%= @tile.description %></h4>
         <div align="center" class="tiles">
-          <%= image_tag "#{@tile.figure_image}" %><br /><br />
+          <div id="by_figure">
+            <a href="" id="show_tile" class="toggles">
+              <%= image_tag "#{@tile.figure_image}" %>
+            </a>
+          </div>
+          <div id="by_tile">
+            <a href="" id="show_figure" class="toggles">
+              <%= image_tag "#{@tile.tile_image}" %>
+            </a>
+          </div>
+          <br /><br />
           <h4>
             <%= @tile.count %>  <%= @tile.role %>
             <%= pluralize_no_count(@tile.count, 'tile') %>
@@ -121,3 +131,24 @@
     <%= link_to 'Delete', tile_path(@tile), method: :delete, data: {confirm: "Are you sure?"} %>
   </div>
 <% end %>
+
+<script>
+  $(document).ready(function() {
+    $('a#show_tile').click(function(event){
+      event.preventDefault();
+      $('a.toggles').children().removeClass('active');
+      $('a#show_tile').children().addClass('active');
+      $('div#by_figure').hide();
+      $('div#by_tile').show();
+    });
+
+    $('a#show_figure').click(function(event){
+      event.preventDefault();
+      $('a.toggles').children().removeClass('active');
+      $('a#show_figure').children().addClass('active');
+      $('div#by_tile').hide();
+      $('div#by_figure').show();
+    });
+
+  });
+</script>

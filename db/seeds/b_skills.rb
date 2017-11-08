@@ -7,6 +7,8 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
   skills = Skill.create([
+
+    ## Attack
     { name: 'Reach', skill_type: 'Attack',
       description: "This character can attack a character in an adjacent area with a Melee Attack if there is no obstacle (wall, door, bar, flap, etc.) between the characters' areas.",
       clarification: "A character with this skill still needs to have line of sight to attack an adjacent area." },
@@ -34,6 +36,8 @@
     { name: 'Precision Shot', skill_type: 'Attack',
       description: "When this character performs a Ranged Attack, the defender’s armor value is reduced by 1 for this attack.",
       clarification: "When a character with this skill performs a Ranged Attack, they automatically reduce the defender’s defense power by 1." },
+
+    ## Movement
     { name: 'Blocking', skill_type: 'Movement',
       description: "Enemy characters without Evasive cannot move out of this character’s area.",
       clarification: "none" },
@@ -64,6 +68,8 @@
     { name: 'Climb', skill_type: 'Movement',
       description: "This skill’s effect is defined by the scenario.",
       clarification: "none" },
+
+    ## Miscellaneous
     { name: 'Alchemy', skill_type: 'Miscellaneous',
       description: "This skill’s effect is defined by the scenario.",
       clarification: "none" },
@@ -91,6 +97,8 @@
     { name: 'Support', skill_type: 'Miscellaneous',
       description: "Friendly characters in this character’s area can reroll 1 extra die for each of their actions.",
       clarification: "This skill allows friendly characters in the same zone as this character to reroll a single die for free, even if that die has already rerolled (exception to the rule on page 22)." },
+
+    ## Defense and Magic
     { name: 'Sacrifice', skill_type: 'Defense and Magic',
       description: "When a friendly character in this character’s area is attacked, before dice are rolled, this character may choose to be attacked instead. This character cannot Guard for that defense.",
       clarification: "A character using this skill can defend against the incoming attack only using their Armor. That character suffers any damage from the attack to prevent the character who was initially attacked from suffering damage." },

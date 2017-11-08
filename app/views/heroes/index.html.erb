@@ -16,7 +16,18 @@
         <% end %>
       </table>
     </div>
-
+    <div class="panel panel-success">
+      <div class="panel-heading">Stretch Goal Heroes</div>
+      <table class="table">
+        <% @stretch.each do |hero| %>
+        <tr>
+          <td class="hero" align="center"><%= link_to hero.name, hero_path(hero) %></td>
+        </tr>
+        <% end %>
+      </table>
+    </div>
+  </div>
+  <div class="col-md-6 col-sm-6">
     <div class="panel panel-success">
       <div class="panel-heading">King Pledge Heroes</div>
       <table class="table">
@@ -28,9 +39,49 @@
       </table>
     </div>
     <div class="panel panel-success">
-      <div class="panel-heading">Add On Heroes</div>
+      <div class="panel-heading">Vanir Valkyrie</div>
       <table class="table">
-        <% @addon.each do |hero| %>
+        <% @valkyrie.each do |hero| %>
+        <tr>
+          <td class="hero" align="center"><%= link_to hero.name, hero_path(hero) %></td>
+        </tr>
+        <% end %>
+      </table>
+    </div>
+    <div class="panel panel-success">
+      <div class="panel-heading">Yogah of Yag</div>
+      <table class="table">
+        <% @yogah.each do |hero| %>
+        <tr>
+          <td class="hero" align="center"><%= link_to hero.name, hero_path(hero) %></td>
+        </tr>
+        <% end %>
+      </table>
+    </div>
+    <div class="panel panel-success">
+      <div class="panel-heading">Xavier Collette Box</div>
+      <table class="table">
+        <% @xavier.each do |hero| %>
+        <tr>
+          <td class="hero" align="center"><%= link_to hero.name, hero_path(hero) %></td>
+        </tr>
+        <% end %>
+      </table>
+    </div>
+    <div class="panel panel-success">
+      <div class="panel-heading">Brom Box</div>
+      <table class="table">
+        <% @brom.each do |hero| %>
+        <tr>
+          <td class="hero" align="center"><%= link_to hero.name, hero_path(hero) %></td>
+        </tr>
+        <% end %>
+      </table>
+    </div>
+    <div class="panel panel-success">
+      <div class="panel-heading">Paolo Parente Box</div>
+      <table class="table">
+        <% @paolo.each do |hero| %>
         <tr>
           <td class="hero" align="center"><%= link_to hero.name, hero_path(hero) %></td>
         </tr>
@@ -51,19 +102,6 @@
         </tr>
         <% end %>
         <% @khitai.each do |hero| %>
-        <tr>
-          <td class="hero" align="center"><%= link_to hero.name, hero_path(hero) %></td>
-        </tr>
-        <% end %>
-      </table>
-    </div>
-  </div>
-
-  <div class="col-md-6 col-sm-6">
-    <div class="panel panel-success">
-      <div class="panel-heading">Stretch Goal Heroes</div>
-      <table class="table">
-        <% @stretch.each do |hero| %>
         <tr>
           <td class="hero" align="center"><%= link_to hero.name, hero_path(hero) %></td>
         </tr>

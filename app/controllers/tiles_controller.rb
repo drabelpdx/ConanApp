@@ -76,7 +76,7 @@ class TilesController < ApplicationController
       @minions = Tile.where(role: 'Minion')
       @heroes = Tile.where(role: 'Hero')
       @allies = Tile.where(role: 'Ally')
-
+      @events = Tile.where(role: 'Event')
     end
 
     def require_admin

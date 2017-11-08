@@ -49,11 +49,10 @@ class MapsController < ApplicationController
     end
 
     def map_params
-      params.require(:map).permit(:name, :description, :flip_side, :origin,
-                                  :image, :ruleone, :ruletwo, :rulethree,
-                                  :rulefour, :rulefive, :rulesix)
+      params.require(:map).permit(:name, :description, :flip_side,
+                                  :origin, :image, :special_rules)
     end
-    
+
     def set_maps
       @core = Map.where(origin: 'Core Game')
       @stretch = Map.where(origin: 'Stretch Goals')

@@ -6,12 +6,7 @@ class CreateMaps < ActiveRecord::Migration
       t.string :flip_side
       t.string :origin
       t.string :image
-      t.text :ruleone
-      t.text :ruletwo
-      t.text :rulethree
-      t.text :rulefour
-      t.text :rulefive
-      t.text :rulesix
+      t.text :special_rules
       t.timestamps
     end
   end

@@ -82,12 +82,7 @@ ActiveRecord::Schema.define(version: 20171008195958) do
     t.string   "flip_side"
     t.string   "origin"
     t.string   "image"
-    t.text     "ruleone"
-    t.text     "ruletwo"
-    t.text     "rulethree"
-    t.text     "rulefour"
-    t.text     "rulefive"
-    t.text     "rulesix"
+    t.text     "special_rules"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
