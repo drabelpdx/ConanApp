@@ -1,4 +1,12 @@
 class Scenario < ActiveRecord::Base
+  serialize :tile1, Array
+  serialize :tile2, Array
+  serialize :tile3, Array
+  serialize :tile4, Array
+  serialize :tile5, Array
+  serialize :tile6, Array
+  serialize :tile7, Array
+  serialize :tile8, Array
   has_many :hero_scenarios
   has_many :item_scenarios
   has_many :map_scenarios
