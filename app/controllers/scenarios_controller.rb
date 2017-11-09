@@ -59,6 +59,8 @@ class ScenariosController < ApplicationController
                                        :overlord_goal, :overlord_setup,
                                        :tile1, :tile2, :tile3, :tile4,
                                        :tile5, :tile6, :tile7, :tile8,
+                                       :life1, :life2, :life3, :life4,
+                                       :life5, :life6, :life7, :life8,
                                        :special_rules, map_ids: [],
                                         hero_ids: [], tile_ids: [],
                                         spell_ids: [], item_ids: [])

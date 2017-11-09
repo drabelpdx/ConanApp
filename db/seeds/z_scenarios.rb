@@ -76,14 +76,23 @@
           </tr>
         </table>',
 
-      tile1: [25],
-      tile2: [6, 5],
-      tile3: [29],
-      tile4: [23],
-      tile5: [26],
-      tile6: [9, 8],
-      tile7: [28],
-      tile8: [1],
+      tile1: 25,
+      tile2: 6,
+      tile3: 29,
+      tile4: 23,
+      tile5: 26,
+      tile6: 9,
+      tile7: 28,
+      tile8: 1,
+
+      life1: 0,
+      life2: 5,
+      life3: 0,
+      life4: 0,
+      life5: 0,
+      life6: 8,
+      life7: 0,
+      life8: 0,
 
       special_rules: '<p><span class="special_title">Yselda:</span>
         During setup, the Overlord secretly chooses one numbered token
@@ -222,14 +231,23 @@
           </tr>
         </table>',
 
-      tile1: [35],
-      tile2: [15],
-      tile3: [30],
-      tile4: [32],
-      tile5: [31],
-      tile6: [1],
-      tile7: [7, 8],
-      tile8: [4, 3],
+      tile1: 35,
+      tile2: 15,
+      tile3: 30,
+      tile4: 32,
+      tile5: 31,
+      tile6: 1,
+      tile7: 7,
+      tile8: 4,
+
+      life1: 0,
+      life2: 0,
+      life3: 0,
+      life4: 0,
+      life5: 0,
+      life6: 0,
+      life7: 8,
+      life8: 3,
 
       special_rules: '<p><span class="special_title">Leap:</span>
         If a hero, Zaporavo, or Skuthus fails to <a class="skill" href="/skills/16">Leap</a>,
@@ -322,14 +340,23 @@
           </tr>
         </table>',
 
-      tile1: [8, 6],
-      tile2: [4, 5],
-      tile3: [15],
-      tile4: [23],
-      tile5: [1],
-      tile6: [0],
-      tile7: [0],
-      tile8: [0],
+      tile1: 8,
+      tile2: 4,
+      tile3: 15,
+      tile4: 23,
+      tile5: 1,
+      tile6: 0,
+      tile7: 0,
+      tile8: 0,
+
+      life1: 6,
+      life2: 5,
+      life3: 0,
+      life4: 0,
+      life5: 0,
+      life6: 0,
+      life7: 0,
+      life8: 0,
 
       special_rules: '<p><span class="special_title">Yuetshi Knife:</span>
         When a hero attacks <a class="tile" href="/tiles/10">Khosatral Khel</a>
@@ -444,14 +471,23 @@
           </tr>
         </table>',
 
-      tile1: [29],
-      tile2: [6, 6],
-      tile3: [1],
-      tile4: [27],
-      tile5: [26],
-      tile6: [28],
-      tile7: [25],
-      tile8: [0],
+      tile1: 29,
+      tile2: 6,
+      tile3: 1,
+      tile4: 27,
+      tile5: 26,
+      tile6: 28,
+      tile7: 25,
+      tile8: 0,
+
+      life1: 0,
+      life2: 6,
+      life3: 0,
+      life4: 0,
+      life5: 0,
+      life6: 0,
+      life7: 0,
+      life8: 0,
 
       special_rules: '<p><span class="special_title">Barricades:</span>
         Barricades block line of sight. A character cannot move across a
@@ -551,14 +587,23 @@
           </tr>
         </table>',
 
-      tile1: [3, 6],
-      tile2: [17],
-      tile3: [23],
-      tile4: [15],
-      tile5: [3],
-      tile6: [12, 8],
-      tile7: [16],
-      tile8: [1],
+      tile1: 3,
+      tile2: 17,
+      tile3: 23,
+      tile4: 15,
+      tile5: 3,
+      tile6: 12,
+      tile7: 16,
+      tile8: 1,
+
+      life1: 6,
+      life2: 0,
+      life3: 0,
+      life4: 0,
+      life5: 0,
+      life6: 8,
+      life7: 0,
+      life8: 0,
 
       special_rules: '<p><span class="special_title">Olivia:</span>
         Use the Princess model to represent Olivia on the game board. Olivia is
@@ -688,14 +733,23 @@
           </tr>
         </table>',
 
-      tile1: [18],
-      tile2: [22],
-      tile3: [1],
-      tile4: [0],
-      tile5: [0],
-      tile6: [0],
-      tile7: [0],
-      tile8: [0],
+      tile1: 18,
+      tile2: 22,
+      tile3: 1,
+      tile4: 0,
+      tile5: 0,
+      tile6: 0,
+      tile7: 0,
+      tile8: 0,
+
+      life1: 0,
+      life2: 0,
+      life3: 0,
+      life4: 0,
+      life5: 0,
+      life6: 0,
+      life7: 0,
+      life8: 0,
 
       special_rules: '<p><span class="special_title">Interrogation:</span>
         A hero in an area with a priest can move 1 gem from their Reserve zone
@@ -826,14 +880,23 @@
           </tr>
         </table>',
 
-      tile1: [32],
-      tile2: [31],
-      tile3: [1],
-      tile4: [15],
-      tile5: [3, 5],
-      tile6: [0],
-      tile7: [0],
-      tile8: [0],
+      tile1: 32,
+      tile2: 31,
+      tile3: 1,
+      tile4: 15,
+      tile5: 3,
+      tile6: 0,
+      tile7: 0,
+      tile8: 0,
+
+      life1: 0,
+      life2: 0,
+      life3: 0,
+      life4: 0,
+      life5: 5,
+      life6: 0,
+      life7: 0,
+      life8: 0,
 
       special_rules: '<p><span class="special_title">Mutineering Pirates:</span>
         Pirate models with red bases are mutineering Pirates, and are considered
@@ -912,14 +975,23 @@
           </tr>
         </table>',
 
-      tile1: [0],
-      tile2: [0],
-      tile3: [0],
-      tile4: [0],
-      tile5: [0],
-      tile6: [0],
-      tile7: [0],
-      tile8: [0],
+      tile1: 0,
+      tile2: 0,
+      tile3: 0,
+      tile4: 0,
+      tile5: 0,
+      tile6: 0,
+      tile7: 0,
+      tile8: 0,
+
+      life1: 0,
+      life2: 0,
+      life3: 0,
+      life4: 0,
+      life5: 0,
+      life6: 0,
+      life7: 0,
+      life8: 0,
 
       special_rules: '<p><span class="special_title">Leap:</span>
         If a hero or Zaporavo fails to <a class="skill" href="/skills/16">Leap</a>,
@@ -1021,14 +1093,23 @@
           </tr>
         </table>',
 
-      tile1: [18],
-      tile2: [22],
-      tile3: [15],
-      tile4: [3, 3],
-      tile5: [1],
-      tile6: [0],
-      tile7: [0],
-      tile8: [0],
+      tile1: 18,
+      tile2: 22,
+      tile3: 15,
+      tile4: 3,
+      tile5: 1,
+      tile6: 0,
+      tile7: 0,
+      tile8: 0,
+
+      life1: 0,
+      life2: 0,
+      life3: 0,
+      life4: 3,
+      life5: 0,
+      life6: 0,
+      life7: 0,
+      life8: 0,
 
       special_rules: '<p><span class="special_title">Defenceless:</span>
         After setup, the Overlord takes each hero’s equipment cards, places them
@@ -1204,14 +1285,23 @@
           </tr>
         </table>',
 
-      tile1: [26],
-      tile2: [27],
-      tile3: [23],
-      tile4: [29],
-      tile5: [6, 5],
-      tile6: [1],
-      tile7: [0],
-      tile8: [0],
+      tile1: 26,
+      tile2: 27,
+      tile3: 23,
+      tile4: 29,
+      tile5: 6,
+      tile6: 1,
+      tile7: 0,
+      tile8: 0,
+
+      life1: 0,
+      life2: 0,
+      life3: 0,
+      life4: 0,
+      life5: 5,
+      life6: 0,
+      life7: 0,
+      life8: 0,
 
       special_rules: '<p><span class="special_title">Search:</span>
         A hero in a hut area can perform a complex Manipulation to search the
@@ -1363,14 +1453,23 @@
           </tr>
         </table>',
 
-      tile1: [31],
-      tile2: [7, 8],
-      tile3: [16],
-      tile4: [22],
-      tile5: [1],
-      tile6: [7],
-      tile7: [3, 5],
-      tile8: [32],
+      tile1: 31,
+      tile2: 7,
+      tile3: 16,
+      tile4: 22,
+      tile5: 1,
+      tile6: 7,
+      tile7: 3,
+      tile8: 32,
+
+      life1: 0,
+      life2: 8,
+      life3: 0,
+      life4: 0,
+      life5: 0,
+      life6: 0,
+      life7: 5,
+      life8: 0,
 
       special_rules: '<p><span class="special_title">Red Chest:</span>
         A hero in the red chest’s area with a <a class="item" href="/items/24">Key</a>
@@ -1506,14 +1605,23 @@
           </tr>
         </table>',
 
-      tile1: [3, 5],
-      tile2: [19, 10],
-      tile3: [76],
-      tile4: [69],
-      tile5: [1],
-      tile6: [19],
-      tile7: [66],
-      tile8: [71],
+      tile1: 4,
+      tile2: 8,
+      tile3: 41,
+      tile4: 91,
+      tile5: 1,
+      tile6: 8,
+      tile7: 48,
+      tile8: 42,
+
+      life1: 5,
+      life2: 10,
+      life3: 0,
+      life4: 0,
+      life5: 0,
+      life6: 0,
+      life7: 0,
+      life8: 0,
 
       special_rules: '<p><span class="special_title">Doors:</span>
         A hero in an area adjacent to the red door can perform a complex
@@ -1622,14 +1730,23 @@
           </tr>
         </table>',
 
-      tile1: [5, 5],
-      tile2: [20],
-      tile3: [36, 10],
-      tile4: [16],
-      tile5: [1],
-      tile6: [3],
-      tile7: [36],
-      tile8: [17],
+      tile1: 5,
+      tile2: 20,
+      tile3: 36,
+      tile4: 16,
+      tile5: 1,
+      tile6: 3,
+      tile7: 36,
+      tile8: 17,
+
+      life1: 5,
+      life2: 0,
+      life3: 10,
+      life4: 0,
+      life5: 0,
+      life6: 0,
+      life7: 0,
+      life8: 0,
 
       special_rules: '<p><span class="special_title">Black Lotus:</span>
         After setup, lay each Bossonian Guard, Bossonian Archer, and Captain
@@ -1769,14 +1886,23 @@
           </tr>
         </table>',
 
-      tile1: [102],
-      tile2: [18],
-      tile3: [3, 8],
-      tile4: [1],
-      tile5: [103],
-      tile6: [101],
-      tile7: [3],
-      tile8: [0],
+      tile1: 102,
+      tile2: 18,
+      tile3: 3,
+      tile4: 1,
+      tile5: 103,
+      tile6: 101,
+      tile7: 3,
+      tile8: 0,
+
+      life1: 0,
+      life2: 0,
+      life3: 8,
+      life4: 0,
+      life5: 0,
+      life6: 0,
+      life7: 0,
+      life8: 0,
 
       special_rules: '<p><span class="special_title">Chests:</span>
         During setup, the Overlord randomly places 2
@@ -1909,14 +2035,23 @@
           </tr>
         </table>',
 
-      tile1: [108, 6],
-      tile2: [109, 4],
-      tile3: [23],
-      tile4: [1],
-      tile5: [110, 4],
-      tile6: [111, 6],
-      tile7: [0],
-      tile8: [0],
+      tile1: 108,
+      tile2: 109,
+      tile3: 23,
+      tile4: 1,
+      tile5: 110,
+      tile6: 111,
+      tile7: 0,
+      tile8: 0,
+
+      life1: 6,
+      life2: 4,
+      life3: 0,
+      life4: 0,
+      life5: 4,
+      life6: 6,
+      life7: 0,
+      life8: 0,
 
       special_rules: '<p><span class="special_title">Kushites:</span>
         <a class="tile" href="/tiles/108">Afari</a>,
@@ -2029,14 +2164,23 @@
           </tr>
         </table>',
 
-      tile1: [18],
-      tile2: [15],
-      tile3: [19],
-      tile4: [3, 4],
-      tile5: [1],
-      tile6: [12, 6],
-      tile7: [0],
-      tile8: [0],
+      tile1: 18,
+      tile2: 15,
+      tile3: 19,
+      tile4: 3,
+      tile5: 1,
+      tile6: 12,
+      tile7: 0,
+      tile8: 0,
+
+      life1: 0,
+      life2: 0,
+      life3: 0,
+      life4: 4,
+      life5: 0,
+      life6: 6,
+      life7: 0,
+      life8: 0,
 
       special_rules: '<p><span class="special_title">Xuthal’s Crowns:</span>
         When Yogah of Yag picks up a <a class="item" href="/items/31">Xuthal Crown</a>,
@@ -2147,14 +2291,23 @@
           </tr>
         </table>',
 
-      tile1: [108, 5],
-      tile2: [109, 5],
-      tile3: [110, 5],
-      tile4: [111, 5],
-      tile5: [1],
-      tile6: [0],
-      tile7: [0],
-      tile8: [0],
+      tile1: 108,
+      tile2: 109,
+      tile3: 110,
+      tile4: 111,
+      tile5: 1,
+      tile6: 0,
+      tile7: 0,
+      tile8: 0,
+
+      life1: 5,
+      life2: 5,
+      life3: 5,
+      life4: 5,
+      life5: 0,
+      life6: 0,
+      life7: 0,
+      life8: 0,
 
       special_rules: '<p><span class="special_title">Artifacts:</span>
         During setup, the Overlord places the artifacts, represented
@@ -2201,7 +2354,7 @@
         the character has <a class="skill" href="/skills/19">Climb</a>.</p>',
 
       origin: "Add-Ons",
-      map_ids: [4],
+      map_ids: [3],
       hero_ids: [1, 3],
       tile_ids: [1, 108, 109, 110, 111],
       spell_ids: [2, 3, 6, 8, 14, 16],
@@ -2272,14 +2425,23 @@
           </tr>
         </table>',
 
-      tile1: [33],
-      tile2: [35],
-      tile3: [96, 4],
-      tile4: [18],
-      tile5: [30],
-      tile6: [96],
-      tile7: [1],
-      tile8: [0],
+      tile1: 33,
+      tile2: 35,
+      tile3: 96,
+      tile4: 18,
+      tile5: 30,
+      tile6: 96,
+      tile7: 1,
+      tile8: 0,
+
+      life1: 0,
+      life2: 0,
+      life3: 4,
+      life4: 0,
+      life5: 0,
+      life6: 0,
+      life7: 0,
+      life8: 0,
 
       special_rules: '<p><span class="special_title">Ring:</span>
         During setup 4 red gems are placed on the
@@ -2432,14 +2594,23 @@
           </tr>
         </table>',
 
-      tile1: [24],
-      tile2: [86],
-      tile3: [107],
-      tile4: [1],
-      tile5: [29],
-      tile6: [107, 8],
-      tile7: [2],
-      tile8: [0],
+      tile1: 24,
+      tile2: 86,
+      tile3: 107,
+      tile4: 1,
+      tile5: 29,
+      tile6: 107,
+      tile7: 2,
+      tile8: 0,
+
+      life1: 0,
+      life2: 0,
+      life3: 0,
+      life4: 0,
+      life5: 0,
+      life6: 8,
+      life7: 0,
+      life8: 0,
 
       special_rules: '<p><span class="special_title">Bossonian Guard:</span>
         Only <a class="hero" href="/heroes/11">Conan the General</a> can use
@@ -2556,14 +2727,23 @@
           </tr>
         </table>',
 
-      tile1: [18],
-      tile2: [63, 6],
-      tile3: [68, 6],
-      tile4: [17],
-      tile5: [69, 6],
-      tile6: [71, 6],
-      tile7: [1],
-      tile8: [0],
+      tile1: 18,
+      tile2: 63,
+      tile3: 68,
+      tile4: 17,
+      tile5: 69,
+      tile6: 71,
+      tile7: 1,
+      tile8: 0,
+
+      life1: 0,
+      life2: 6,
+      life3: 6,
+      life4: 0,
+      life5: 6,
+      life6: 6,
+      life7: 0,
+      life8: 0,
 
       special_rules: '<p><span class="special_title">Two Fronts:</span>
         During setup, the Overlord places the two boards next to
@@ -2790,14 +2970,23 @@
           </tr>
         </table>',
 
-      tile1: [25],
-      tile2: [28],
-      tile3: [86],
-      tile4: [105, 15],
-      tile5: [29],
-      tile6: [6, 4],
-      tile7: [1],
-      tile8: [0],
+      tile1: 25,
+      tile2: 28,
+      tile3: 86,
+      tile4: 105,
+      tile5: 29,
+      tile6: 6,
+      tile7: 1,
+      tile8: 0,
+
+      life1: 0,
+      life2: 0,
+      life3: 0,
+      life4: 15,
+      life5: 0,
+      life6: 4,
+      life7: 0,
+      life8: 0,
 
       special_rules: '<p><span class="special_title">Dragon:</span>
         The area between the 4 legs of the dragon is considered as its base with
@@ -2942,14 +3131,23 @@
           </tr>
         </table>',
 
-      tile1: [56, 6],
-      tile2: [76, 8],
-      tile3: [1],
-      tile4: [0],
-      tile5: [0],
-      tile6: [0],
-      tile7: [0],
-      tile8: [0],
+      tile1: 56,
+      tile2: 76,
+      tile3: 1,
+      tile4: 0,
+      tile5: 0,
+      tile6: 0,
+      tile7: 0,
+      tile8: 0,
+
+      life1: 6,
+      life2: 8,
+      life3: 0,
+      life4: 0,
+      life5: 0,
+      life6: 0,
+      life7: 0,
+      life8: 0,
 
       special_rules: '<p><span class="special_title">Pirates, Bossonian Guards and Archers:</span>
         When a pirate or a Bossonian Guard or a Bossonian Archer is killed, the
@@ -3113,14 +3311,23 @@
           </tr>
         </table>',
 
-      tile1: [33],
-      tile2: [31],
-      tile3: [1],
-      tile4: [17],
-      tile5: [32],
-      tile6: [7, 6],
-      tile7: [2],
-      tile8: [0],
+      tile1: 33,
+      tile2: 31,
+      tile3: 1,
+      tile4: 17,
+      tile5: 32,
+      tile6: 7,
+      tile7: 2,
+      tile8: 0,
+
+      life1: 0,
+      life2: 0,
+      life3: 0,
+      life4: 0,
+      life5: 0,
+      life6: 6,
+      life7: 0,
+      life8: 0,
 
       special_rules: '<p><span class="special_title">Sinking a Ship:</span>
         Only one ship may be sunk during the scenario. There are two
@@ -3265,14 +3472,23 @@
           </tr>
         </table>',
 
-      tile1: [59, 6],
-      tile2: [41],
-      tile3: [44],
-      tile4: [59],
-      tile5: [40],
-      tile6: [50],
-      tile7: [1],
-      tile8: [0],
+      tile1: 59,
+      tile2: 41,
+      tile3: 44,
+      tile4: 59,
+      tile5: 40,
+      tile6: 50,
+      tile7: 1,
+      tile8: 0,
+
+      life1: 6,
+      life2: 0,
+      life3: 0,
+      life4: 0,
+      life5: 0,
+      life6: 0,
+      life7: 0,
+      life8: 0,
 
       special_rules: '<p><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Camel.png" class="scen_event float_tile">
         <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/GiantScorpion.png" class="scen_event float_tile">
@@ -3441,14 +3657,23 @@
           </tr>
         </table>',
 
-      tile1: [25],
-      tile2: [26],
-      tile3: [81, 8],
-      tile4: [86],
-      tile5: [29],
-      tile6: [81],
-      tile7: [1],
-      tile8: [0],
+      tile1: 25,
+      tile2: 26,
+      tile3: 81,
+      tile4: 86,
+      tile5: 29,
+      tile6: 81,
+      tile7: 1,
+      tile8: 0,
+
+      life1: 0,
+      life2: 0,
+      life3: 8,
+      life4: 0,
+      life5: 0,
+      life6: 0,
+      life7: 0,
+      life8: 0,
 
       special_rules: '<p><span class="special_title">Giant Wolf:</span>
         During setup, the hero places two Giant Wolves tiles next to
@@ -3579,14 +3804,23 @@
           </tr>
         </table>',
 
-      tile1: [25],
-      tile2: [86],
-      tile3: [77, 4],
-      tile4: [29],
-      tile5: [6, 4],
-      tile6: [77],
-      tile7: [1],
-      tile8: [0],
+      tile1: 25,
+      tile2: 86,
+      tile3: 77,
+      tile4: 29,
+      tile5: 6,
+      tile6: 77,
+      tile7: 1,
+      tile8: 0,
+
+      life1: 0,
+      life2: 0,
+      life3: 4,
+      life4: 0,
+      life5: 4,
+      life6: 0,
+      life7: 0,
+      life8: 0,
 
       special_rules: '<p><span class="special_title">Sacred Treasures:</span>
         The three <a class="item" href="/items/55">Sacred Treasure</a>,
@@ -3739,14 +3973,23 @@
             </tr>
           </table>',
 
-        tile1: [18],
-        tile2: [97],
-        tile3: [61, 4],
-        tile4: [16],
-        tile5: [68, 4],
-        tile6: [71, 4],
-        tile7: [1],
-        tile8: [0],
+        tile1: 18,
+        tile2: 97,
+        tile3: 61,
+        tile4: 16,
+        tile5: 68,
+        tile6: 71,
+        tile7: 1,
+        tile8: 0,
+
+        life1: 0,
+        life2: 0,
+        life3: 4,
+        life4: 0,
+        life5: 4,
+        life6: 4,
+        life7: 0,
+        life8: 0,
 
         special_rules: '<p><span class="special_title">Warning Fire:</span>
           During setup, the Overlord places 3 Warning Fire tokens
