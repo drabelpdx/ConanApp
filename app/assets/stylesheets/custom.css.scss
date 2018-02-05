@@ -240,6 +240,10 @@ a.skill {
   color: 	#0000b3;
 }
 
+h2.skill {
+  color: #0000b3;
+}
+
 .hidden {
   display: none
 }
@@ -517,6 +521,11 @@ footer ul li {
   line-height: 70px;
 }
 
+.prevnext_map {
+  background: #666666;
+  line-height: 30px;
+}
+
 .prevnext_hero {
   background: #3c763d;
   line-height: 30px;
@@ -534,6 +543,11 @@ footer ul li {
 
 .prevnext_spell {
   background: #8600b3;
+  line-height: 30px;
+}
+
+.prevnext_skill {
+  background: #0000b3;
   line-height: 30px;
 }
 

@@ -1,89 +1,89 @@
 <div class="row ">
-  <div class="col-md-7">
-    <div class="item-well">
-      <div align="center">
-        <div class="prevnext prevnext_item">
-          <span class="prev"><%= link_to("<< Previous Item", @item.previous) if @item.previous %></span>
-          <span aligh="center"><%= link_to "Back to items", items_path %></span>
-          <span class="next"><%= link_to("Next Item >>", @item.next) if @item.next %></span>
-        </div><br />
+  <div class="col-xs-12 col-md-9 item-well">
+    <div align="center">
+      <div class="prevnext prevnext_item">
+        <span class="prev"><%= link_to("<< Previous Item", @item.previous) if @item.previous %></span>
+        <span aligh="center"><%= link_to "Back to items", items_path %></span>
+        <span class="next"><%= link_to("Next Item >>", @item.next) if @item.next %></span>
+      </div>
+      <div class="col-md-7">
         <h2 class="item center"><%= @item.name %></h2>
         <h4><%= @item.role %></h4>
         from <%= @item.origin %>
-      </div><br />
-      <table class="tile_stats" align="center">
-        <% if @item.encumbrance != '' %>
-          <tr>
-            <th>
-              <%= image_tag "stats/encumbrance.png" %>
-              <br />Encumbrance
-            </th>
-            <th>
-              <h2><%= @item.encumbrance %></h2>
-            </th>
-          </tr>
-        <% end%>
-        <% if @item.armor != '' %>
-          <tr>
-            <th>
-              <%= image_tag "stats/armor.png" %>
-              <br />Armor
-            </th>
-            <td>
-              <%= image_tag "dice/#{@item.armor}.png" %><br />
-              <%= @item.armor %>
-            </td>
-          </tr>
-        <% end %>
-        <% if @item.melee_dice != '' %>
-          <tr>
-            <th>
-              <%= image_tag "stats/melee.png" %>
-              <br />Melee
-            </th>
-            <td>
-              <%= image_tag "dice/#{@item.melee_dice}.png" %><br />
-              <%= @item.melee_dice %>
-            </td>
-          </tr>
-        <% end %>
-        <% if @item.ranged_dice != '' %>
-          <tr>
-            <th>
-              <%= image_tag "stats/range.png" %>
-              <br />Ranged
-            </th>
-            <td>
-              <%= image_tag "dice/#{@item.ranged_dice}.png" %><br />
-              <%= @item.ranged_dice %>
-            </td>
-          </tr>
-        <% end %>
-        <% if @item.defense_dice != '' %>
-          <tr>
-            <th>
-              <%= image_tag "stats/defense.png" %>
-              <br />Defense
-            </th>
-            <td>
-              <%= image_tag "dice/#{@item.defense_dice}.png" %><br />
-              <%= @item.defense_dice %>
-            </td>
-          </tr>
-        <% end %>
-        <% if @item.manipulation_dice != '' %>
-          <tr>
-            <th>
-              <%= image_tag "stats/manipulation.png" %>
-              <br />Manipulation
-            </th>
-            <td>
-              <%= image_tag "dice/#{@item.manipulation_dice}.png" %><br />
-              <%= @item.manipulation_dice %>
-            </td>
-          </tr>
-        <% end %>
-      </table>
+        <br />
+        <table class="tile_stats" align="center">
+          <% if @item.encumbrance != '' %>
+            <tr>
+              <th>
+                <%= image_tag "stats/encumbrance.png" %>
+                <br />Encumbrance
+              </th>
+              <th>
+                <h2><%= @item.encumbrance %></h2>
+              </th>
+            </tr>
+          <% end%>
+          <% if @item.armor != '' %>
+            <tr>
+              <th>
+                <%= image_tag "stats/armor.png" %>
+                <br />Armor
+              </th>
+              <td>
+                <%= image_tag "dice/#{@item.armor}.png" %><br />
+                <%= @item.armor %>
+              </td>
+            </tr>
+          <% end %>
+          <% if @item.melee_dice != '' %>
+            <tr>
+              <th>
+                <%= image_tag "stats/melee.png" %>
+                <br />Melee
+              </th>
+              <td>
+                <%= image_tag "dice/#{@item.melee_dice}.png" %><br />
+                <%= @item.melee_dice %>
+              </td>
+            </tr>
+          <% end %>
+          <% if @item.ranged_dice != '' %>
+            <tr>
+              <th>
+                <%= image_tag "stats/range.png" %>
+                <br />Ranged
+              </th>
+              <td>
+                <%= image_tag "dice/#{@item.ranged_dice}.png" %><br />
+                <%= @item.ranged_dice %>
+              </td>
+            </tr>
+          <% end %>
+          <% if @item.defense_dice != '' %>
+            <tr>
+              <th>
+                <%= image_tag "stats/defense.png" %>
+                <br />Defense
+              </th>
+              <td>
+                <%= image_tag "dice/#{@item.defense_dice}.png" %><br />
+                <%= @item.defense_dice %>
+              </td>
+            </tr>
+          <% end %>
+          <% if @item.manipulation_dice != '' %>
+            <tr>
+              <th>
+                <%= image_tag "stats/manipulation.png" %>
+                <br />Manipulation
+              </th>
+              <td>
+                <%= image_tag "dice/#{@item.manipulation_dice}.png" %><br />
+                <%= @item.manipulation_dice %>
+              </td>
+            </tr>
+          <% end %>
+        </table>
       <% if @item.description != '' %>
         <br />
         <p align="center"><%= @item.description %></p>
@@ -97,15 +97,15 @@
         <br />
       </div>
     </div>
-  </div>
-
-  <div class="col-md-5">
-    <h4><%= @item.name %> appears in: </h4>
-    <% if @item_scenarios.any? %>
-      <% @item_scenarios.each do |scenario| %>
-        <p><%= link_to scenario.name, scenario_path(scenario) %></p>
-      <% end%>
-    <% end %>
+    <div class="col-md-5">
+      <% if @item_scenarios.any? %>
+        <br />
+        <h4>Appears in: </h4>
+        <% @item_scenarios.each do |scenario| %>
+          <p><%= link_to scenario.name, scenario_path(scenario) %></p>
+        <% end%>
+      <% end %>
+    </div>
   </div>
 </div>
 

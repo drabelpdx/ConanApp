@@ -6,7 +6,7 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-tiles = Tile.create([
+Tile.create([
 
   ## Core Game Tiles
   #  Event Tiles
@@ -1081,13 +1081,134 @@ tiles = Tile.create([
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AesirWarriorsRed.png',
     token_image: '' },
 
+  # Khitai Expansion
+  { name: 'Shuang Mian', description: '',
+    role: 'Leader', move: '2', armor: '1',
+    melee_dice: '2 Orange', ranged_dice: '–',
+    origin: 'Khitai Expansion', count: '2', skill_ids: [22, 33],
+    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/ShuangMian.jpg',
+    tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShuangMian.png',
+    token_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShuangMianToken.png' },
 
-  # Khitai
+  { name: 'Evil Hound', description: '',
+    role: 'Monster', move: '2', armor: '2',
+    melee_dice: '2 Red', ranged_dice: '–',
+    origin: 'Khitai Expansion', count: '2', skill_ids: [],
+    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/EvilHound.jpg',
+    tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/EvilHound.png',
+    token_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/DarkDemonToken.png' },
 
+  { name: 'Khitan Guards', description: '',
+    role: 'Minion', move: '2', armor: '1', cost: '1',
+    melee_dice: '2 Yellow', ranged_dice: '–',
+    origin: 'Khitai Expansion', count: '1', skill_ids: [10],
+    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/KhitanGuards.jpg',
+    tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/KhitanGuards.png',
+    token_image: '' },
 
+  { name: 'Khitan Guards - Red', description: '',
+    role: 'Minion', move: '2', armor: '1', cost: '1',
+    melee_dice: '2 Yellow', ranged_dice: '–',
+    origin: 'Khitai Expansion', count: '1', skill_ids: [10],
+    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/KhitanGuards.jpg',
+    tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/KhitanGuardsRed.png',
+    token_image: '' },
 
-  # Stygia
+  { name: 'Honor Guards', description: '',
+    role: 'Minion', move: '2', armor: '2', cost: '2',
+    melee_dice: '2 orange', ranged_dice: '–',
+    origin: 'Khitai Expansion', count: '1', skill_ids: [29],
+    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/HonorGuards.jpg',
+    tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/HonorGuards.png',
+    token_image: '' },
 
+  { name: 'Honor Guards - Green', description: '',
+    role: 'Minion', move: '2', armor: '2', cost: '2',
+    melee_dice: '2 orange', ranged_dice: '–',
+    origin: 'Khitai Expansion', count: '1', skill_ids: [29],
+    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/HonorGuards.jpg',
+    tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/HonorGuardsGreen.png',
+    token_image: '' },
 
+  { name: 'Javelin Throwers', description: '',
+    role: 'Minion', move: '3', armor: '1', cost: '2',
+    melee_dice: '–', ranged_dice: '2 Orange',
+    origin: 'Khitai Expansion', count: '1', skill_ids: [8],
+    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/JavelinThrowers.jpg',
+    tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/JavelinThrowers.png',
+    token_image: '' },
+
+  { name: 'Javelin Throwers - Purple', description: '',
+    role: 'Minion', move: '3', armor: '1', cost: '2',
+    melee_dice: '–', ranged_dice: '2 Orange',
+    origin: 'Khitai Expansion', count: '1', skill_ids: [8],
+    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/JavelinThrowers.jpg',
+    tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/JavelinThrowersPurple.png',
+    token_image: '' },
+
+  { name: 'Foo Dogs', description: '',
+    role: 'Minion', move: '5', armor: '2', cost: '1',
+    melee_dice: '2 Yellow', ranged_dice: '–',
+    origin: 'Khitai Expansion', count: '2', skill_ids: [7],
+    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/FooDogs.jpg',
+    tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/FooDogs.png',
+    token_image: '' },
+
+  # Stygia Expansion
+  { name: 'Thot-Amon', description: '',
+    role: 'Leader', move: '2', armor: '1',
+    melee_dice: '2 Orange', ranged_dice: '–',
+    origin: 'Stygia Expansion', count: '2', skill_ids: [33],
+    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/ThotAmon.jpg',
+    tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ThotAmon.png',
+    token_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ThotAmonToken.png' },
+
+  { name: 'Scorpion Broodmother', description: '',
+    role: 'Monster', move: '2', armor: '3',
+    melee_dice: 'Red Orange Yellow', ranged_dice: '–',
+    origin: 'Stygia Expansion', count: '2', skill_ids: [10],
+    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/ScorpionBroodmother.jpg',
+    tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ScorpionBroodmother.png',
+    token_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ScorpionBroodmotherToken.png' },
+
+  { name: 'Giant Scorpions', description: '',
+    role: 'Minion', move: '4', armor: '0',
+    melee_dice: 'Yellow', ranged_dice: '–',
+    origin: 'Stygia Expansion', count: '3', skill_ids: [27],
+    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/GiantScorpions.jpg',
+    tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/GiantScorpions.png',
+    token_image: '' },
+
+  { name: 'Eternal Guard', description: '',
+    role: 'Minion', move: '2', armor: '2', cost: '1',
+    melee_dice: 'Red Orange', ranged_dice: '–',
+    origin: 'Stygia Expansion', count: '2', skill_ids: [],
+    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/EternalGuard.jpg',
+    tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/EternalGuard.png',
+    token_image: '' },
+
+  { name: 'Eternal Guard - Blue', description: '',
+    role: 'Minion', move: '2', armor: '2', cost: '1',
+    melee_dice: 'Red Orange', ranged_dice: '–',
+    origin: 'Stygia Expansion', count: '1', skill_ids: [],
+    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/EternalGuard.jpg',
+    tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/EternalGuardBlue.png',
+    token_image: '' },
+
+  { name: 'Assassins', description: '',
+    role: 'Minion', move: '3', armor: '0', cost: '2',
+    melee_dice: '2 Red ', ranged_dice: '–',
+    origin: 'Stygia Expansion', count: '1', skill_ids: [],
+    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Assassins.jpg',
+    tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Assassins.png',
+    token_image: '' },
+
+  { name: 'Assassins  - Red', description: '',
+    role: 'Minion', move: '3', armor: '0',
+    melee_dice: '2 Red ', ranged_dice: '–',
+    origin: 'Stygia Expansion', count: '1', skill_ids: [],
+    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Assassins.jpg',
+    tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AssassinsRed.png',
+    token_image: '' }
 
 ])

@@ -6,7 +6,7 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-  skills = Skill.create([
+  Skill.create([
 
     ## Attack
     { name: 'Reach', skill_type: 'Attack',

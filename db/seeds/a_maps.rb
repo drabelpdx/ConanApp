@@ -6,7 +6,7 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-  maps = Map.create([
+  Map.create([
 
     ## Core Game
     { name: 'The Pict Village', description: "The Pict Village", flip_side: 'The Inn',
@@ -157,19 +157,22 @@
       origin: 'Nordheim Expansion', image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/The+Tundra+Forest.jpg' },
 
     # Stygia
-    { name: 'Stygia_1', description: "Water Front", flip_side: 'Stygia_2', origin: 'Stygia Expansion',
+    { name: 'The Stygian Temple', description: "Catacombs", flip_side: 'The Luxor Port', origin: 'Stygia Expansion',
       image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/Stygia_1.jpg' },
 
-    { name: 'Stygia_2', description: "Catacombs", flip_side: 'Stygia_1', origin: 'Stygia Expansion',
+    { name: 'The Luxor Port', description: "Water Front", flip_side: 'The Stygian Temple', origin: 'Stygia Expansion',
       image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/Stygia_2.jpg' },
 
     # Khitai
-    { name: 'Khitai_1', description: "Villiage", flip_side: 'Khitai_2', origin: 'Khitai Expansion',
+    { name: 'The Tower 1', description: "Tower Levels 1, 2, and 3", flip_side:
+      'The Tower 2', origin: 'Khitai Expansion',
       image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/Khitai_1.jpg' },
 
-    { name: 'Khitai_2', description: "Tower Lower", flip_side: 'Khitai_1', origin: 'Khitai Expansion',
-      image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/Khitai_2.jpg' },
+    { name: 'The Tower 2', description: "Tower Levels 0 and 4", flip_side:
+      'The Tower 1', origin: 'Khitai Expansion',
+      image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/Khitai_3.jpg' },
 
-    { name: 'Khitai_3', description: "Tower Upper", flip_side: 'none', origin: 'Khitai Expansion',
-      image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/Khitai_3.jpg' }
+    { name: 'The Khitan Village', description: "Khitai Village", flip_side:
+      'none', origin: 'Khitai Expansion',
+      image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/Khitai_2.jpg' }
   ])

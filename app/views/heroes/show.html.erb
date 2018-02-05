@@ -16,6 +16,12 @@
         <p><%= @hero.quote %></p>
         <p><%= @hero.cite %></p>
       <div align="center">
+        <% if @hero_scenarios.any? %>
+          <h4>Appears in:</h4>
+          <% @hero_scenarios.each do |scenario| %>
+            <p><%= link_to scenario.name, scenario_path(scenario) %></p>
+          <% end%>
+        <% end %>
       </div>
     </div>
   </div>

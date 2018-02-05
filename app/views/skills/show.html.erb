@@ -1,25 +1,28 @@
 <div class="row skill-well">
-  <div class="col-md-3">
-    <div class="skills" align="center">
+  <div class="skills" align="center">
+    <div  class="prevnext prevnext_skill" >
+      <span class="prev"><%= link_to("<< Previous Skill", @skill.previous) if @skill.previous %></span>
+      <span aligh="center"><%= link_to "Back to skills", skills_path %></span>
+      <span class="next"><%= link_to("Next Skill >>", @skill.next) if @skill.next %></span>
+    </div>
+    <div class="col-md-3">
       <%= image_tag "skills/#{@skill.name}.png" %><br /><br />
       <%= link_to "Back to skills", skills_path %>
     </div>
   </div>
-  <div class="col-md-9">
-    <div>
-      <h1><%= @skill.name %></h1>
-      <p><%= @skill.description %></p><br />
-      <% if @skill.clarification != 'none' %>
-        <h4>Clarification: </h4>
-        <p><%= @skill.clarification %></p>
-      <% end %>
-    </div>
+  <div class="col-md-8">
+    <h2 class="skill"><%= @skill.name %></h2>
+    <p><%= @skill.description %></p><br />
+    <% if @skill.clarification != 'none' %>
+      <h4>Clarification: </h4>
+      <p><%= @skill.clarification %></p>
+    <% end %>
     <br />
     <div class="col-md-5">
       <h4>Heroes with this Skill: </h4>
       <% if @skill_heroes.any? %>
         <% @skill_heroes.each do |hero| %>
-          <p><%= link_to hero.name, hero_path(hero) %></p>
+          <p class="hero"><%= link_to hero.name, hero_path(hero) %></p>
         <% end%>
       <% end %>
     </div>
@@ -27,10 +30,11 @@
       <h4>Tiles with this Skill: </h4>
       <% if @skill_tiles.any? %>
         <% @skill_tiles.each do |tile| %>
-          <p><%= link_to tile.name, tile_path(tile) %></p>
+          <p class="tile"><%= link_to tile.name, tile_path(tile) %></p>
         <% end%>
       <% end %>
     </div>
+  </div>
   </div>
 </div>
 

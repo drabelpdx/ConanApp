@@ -6,7 +6,7 @@
 <p>Click on a item to read more about it and any scenarios it appears in.</P>
   <p>Items can be sorted by:
       <ul>
-        <li>the <strong>box</strong> that the item card came in</li>
+        <li>the <strong>box</strong> the item card came in</li>
         <li>the <strong>type</strong> of item it is</li>
       </ul>
 <div align="center">
@@ -43,9 +43,9 @@
     </div>
     <div class="col-md-4 col-sm-6">
       <div class="panel panel-item">
-        <div class="panel-heading">Campaign Items</div>
+        <div class="panel-heading">Nordheim Items</div>
         <table class="table">
-          <% @campaign.sort_by {|item| item.name }.each do |item| %>
+          <% @nordheim.sort_by {|item| item.name }.each do |item| %>
             <tr>
               <td class="item" align="center"><%= link_to item.name, item_path(item) %></td>
             </tr>
@@ -55,9 +55,9 @@
     </div>
     <div class="col-md-4 col-sm-6">
       <div class="panel panel-item">
-        <div class="panel-heading">Nordheim Items</div>
+        <div class="panel-heading">Khitai Items</div>
         <table class="table">
-          <% @nordheim.sort_by {|item| item.name }.each do |item| %>
+          <% @khitai.sort_by {|item| item.name }.each do |item| %>
             <tr>
               <td class="item" align="center"><%= link_to item.name, item_path(item) %></td>
             </tr>
@@ -79,9 +79,9 @@
     </div>
     <div class="col-md-4 col-sm-6">
       <div class="panel panel-item">
-        <div class="panel-heading">Khitai Items</div>
+        <div class="panel-heading">Campaign Items</div>
         <table class="table">
-          <% @khitai.sort_by {|item| item.name }.each do |item| %>
+          <% @campaign.sort_by {|item| item.name }.each do |item| %>
             <tr>
               <td class="item" align="center"><%= link_to item.name, item_path(item) %></td>
             </tr>
@@ -91,6 +91,7 @@
     </div>
   </div>
 </div>
+
 <div id="by_type">
   <div class="row">
     <div class="col-md-4 col-sm-6">

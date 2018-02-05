@@ -6,7 +6,7 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-  items = Item.create([
+  Item.create([
 
     ## Core Game
     # Weapons
@@ -338,7 +338,32 @@
 
     { name: 'Trapped Chest', encumbrance: '3', origin: 'Stygia Expansion', count: '2',
       armor: '', melee_dice: '', ranged_dice: '',
-      defense_dice: '', manipulation_dice: '', role: "Object", description: "Use as outlined in scenario." }
+      defense_dice: '', manipulation_dice: '', role: "Object", description: "Use as outlined in scenario." },
+
+
+    ## Brom Box
+    # Weapon
+    { name: "Conan’s Sword", encumbrance: '2', origin: 'Brom Box', count: '1',
+      armor: '', melee_dice: 'Orange', ranged_dice: 'Orange Throw',
+      defense_dice: 'Orange', manipulation_dice: '', role: "Weapon", description: "" },
+
+    { name: 'Short Sword', encumbrance: '', origin: 'Brom Box', count: '1',
+      armor: '', melee_dice: 'Orange-Reroll', ranged_dice: '',
+      defense_dice: 'Yellow-Reroll', manipulation_dice: '', role: "Weapon", description: "" },
+
+    { name: 'Parrying Dagger', encumbrance: '1', origin: 'Brom Box', count: '1',
+      armor: '', melee_dice: 'Yellow-Reroll', ranged_dice: 'Yellow-Reroll Throw',
+      defense_dice: 'Yellow-Reroll', manipulation_dice: '', role: "Weapon", description: "" },
+
+    { name: 'Knife', encumbrance: '1', origin: 'Brom Box', count: '1',
+      armor: '', melee_dice: 'Yellow-Reroll', ranged_dice: 'Yellow Throw',
+      defense_dice: '', manipulation_dice: '', role: "Weapon", description: "" },
+
+    # Object
+    { name: 'Amulet', encumbrance: '0', origin: 'Brom Box', count: '2',
+      armor: '', melee_dice: '', ranged_dice: '',
+      defense_dice: '', manipulation_dice: '', role: "Object", description: "Use as outlined in scenario." },
+
 
     ## Campaign
     # Weapon
