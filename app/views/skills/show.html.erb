@@ -1,9 +1,9 @@
 <div class="row skill-well">
   <div class="skills" align="center">
     <div  class="prevnext prevnext_skill" >
-      <span class="prev"><%= link_to("<< Previous Skill", @skill.previous) if @skill.previous %></span>
+      <span class="prev"><%= link_to("<< " + @skill.previous.name, @skill.previous) if @skill.previous %></span>
       <span aligh="center"><%= link_to "Back to skills", skills_path %></span>
-      <span class="next"><%= link_to("Next Skill >>", @skill.next) if @skill.next %></span>
+      <span class="next"><%= link_to(@skill.next.name + " >>", @skill.next) if @skill.next %></span>
     </div>
     <div class="col-md-3">
       <%= image_tag "skills/#{@skill.name}.png" %><br /><br />

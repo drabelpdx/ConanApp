@@ -2,9 +2,9 @@
   <div class="col-xs-12 col-md-9 spell-well">
     <div align="center">
       <div class="prevnext prevnext_spell" >
-        <span class="prev"><%= link_to("<< Previous Spell", @spell.previous) if @spell.previous %></span>
+        <span class="prev"><%= link_to("<< " + @spell.previous.name, @spell.previous) if @spell.previous %></span>
         <span aligh="center"><%= link_to "Back to spells", spells_path %></span>
-        <span class="next"><%= link_to("Next Spell >>", @spell.next) if @spell.next %></span>
+        <span class="next"><%= link_to(@spell.next.name + " >>", @spell.next) if @spell.next %></span>
       </div>
       <div class="col-md-7">
         <h2 class="spell"><%= @spell.name %></h2>

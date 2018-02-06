@@ -1,9 +1,9 @@
 <div class="row hero-well">
   <div align="center">
     <div class="prevnext prevnext_hero" >
-      <span class="prev"><%= link_to("<< Previous Hero", @hero.previous) if @hero.previous %></span>
-      <span aligh="center"><%= link_to "Back to heros", heroes_path %></span>
-      <span class="next"><%= link_to("Next Hero >>", @hero.next) if @hero.next %></span>
+      <span class="prev"><%= link_to("<< " + @hero.previous.name, @hero.previous) if @hero.previous %></span>
+      <span aligh="center"><%= link_to "Back to heroes", heroes_path %></span>
+      <span class="next"><%= link_to(@hero.next.name + " >>", @hero.next) if @hero.next %></span>
     </div>
   </div>
   <div class="col-md-4">
@@ -122,27 +122,6 @@
           <% end %>
         </tr>
       </table>
-    <% end %>
-  </div>
-</div>
-<div class="row">
-  <div class="col-md-4">
-  </div>
-  <div class="col-md-4">
-    <% if @hero_scenarios.any? %>
-      <h4>Scenarios:</h4>
-      <% @hero_scenarios.each do |scenario| %>
-        <p><%= link_to scenario.name, scenario_path(scenario) %></p>
-      <% end%>
-    <% end %>
-  </div>
-  <div class="col-md-4">
-    <br /><br />
-    <% if @hero.stories.any? %>
-      <h4>Stories:</h4>
-      <% @hero.stories.each do |story| %>
-        <p><%= link_to story.name, story_path(story) %></p>
-      <% end%>
     <% end %>
   </div>
 </div>

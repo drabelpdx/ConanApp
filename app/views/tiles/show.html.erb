@@ -2,9 +2,9 @@
   <div class="col-xs-12 col-md-12 tile-well">
     <div align="center">
       <div  class="prevnext prevnext_tile" >
-        <span class="prev"><%= link_to("<< Previous Tile", @tile.previous) if @tile.previous %></span>
-        <span aligh="center"><%= link_to "Back to tiles", tiles_path %></span>
-        <span class="next"><%= link_to("Next Tile >>", @tile.next) if @tile.next %></span>
+        <span class="prev"><%= link_to("<< " +  @tile.previous.name, @tile.previous) if @tile.previous %></span>
+        <span><%= link_to "Back to tiles", tiles_path %></span>
+        <span class="next"><%= link_to(@tile.next.name + " >>", @tile.next) if @tile.next %></span>
       </div>
       <div class="col-xs-12 col-md-5">
         <h2 class="tile"><%= @tile.name %></h2>
@@ -29,96 +29,98 @@
           <br /><br />
         </div>
       </div>
-      <div class="col-xs-6 col-md-4">
-        <br />
-        <table>
-          <% if @tile.skills.any? %>
-            <tr>
-              <h4>Skills:</h4>
-              <% @tile.skills.each do |skill| %>
-                <td class="thumbs">
-                  <%= link_to image_tag("skills/#{skill.name}.png"), skill_path(skill) %>
-                  <br /><%= link_to skill.name, skill_path(skill) %>
+      <div class="col-md-7">
+        <div class="col-md-6">
+          <br />
+          <table>
+            <% if @tile.skills.any? %>
+              <tr>
+                <h4>Skills:</h4>
+                <% @tile.skills.each do |skill| %>
+                  <td class="thumbs">
+                    <%= link_to image_tag("skills/#{skill.name}.png"), skill_path(skill) %>
+                    <br /><%= link_to skill.name, skill_path(skill) %>
+                  </td>
+                <% end%>
+              </tr>
+            <% end %>
+          </table>
+          <table class="tile_stats">
+            <% if @tile.move != '–' %>
+              <tr>
+                <h4>Stats:</h4>
+                <th>
+                  <%= image_tag "stats/movement.png" %>
+                  <br />Movement
+                </th>
+                <th>
+                  <h3><%= @tile.move %></h3>
+                </th>
+              </tr>
+            <% end %>
+            <% if @tile.armor != '–' %>
+              <tr>
+                <th>
+                  <%= image_tag "stats/armor.png" %>
+                  <br />Armor
+                </th>
+                <th>
+                  <h3><%= @tile.armor %></h3>
+                </th>
+              </tr>
+            <% end %>
+            <% if @tile.melee_dice != '–' %>
+              <tr>
+                <th>
+                  <%= image_tag "stats/melee.png" %>
+                  <br />Melee
+                </th>
+                <td>
+                  <%= image_tag "dice/#{@tile.melee_dice}.png" %><br />
+                  <%= @tile.melee_dice %>
                 </td>
-              <% end%>
-            </tr>
-          <% end %>
-        </table>
-        <table class="tile_stats">
-          <% if @tile.move != '–' %>
-            <tr>
-              <h4>Stats:</h4>
-              <th>
-                <%= image_tag "stats/movement.png" %>
-                <br />Movement
-              </th>
-              <th>
-                <h3><%= @tile.move %></h3>
-              </th>
-            </tr>
-          <% end %>
-          <% if @tile.armor != '–' %>
-            <tr>
-              <th>
-                <%= image_tag "stats/armor.png" %>
-                <br />Armor
-              </th>
-              <th>
-                <h3><%= @tile.armor %></h3>
-              </th>
-            </tr>
-          <% end %>
-          <% if @tile.melee_dice != '–' %>
-            <tr>
-              <th>
-                <%= image_tag "stats/melee.png" %>
-                <br />Melee
-              </th>
-              <td>
-                <%= image_tag "dice/#{@tile.melee_dice}.png" %><br />
-                <%= @tile.melee_dice %>
-              </td>
-            </tr>
-          <% end %>
-          <% if @tile.ranged_dice != '–' %>
-            <tr>
-              <th>
-                <%= image_tag "stats/range.png" %>
-                <br />Ranged
-              </th>
-              <td>
-                <%= image_tag "dice/#{@tile.ranged_dice}.png" %><br />
-                <%= @tile.ranged_dice %>
-              </td>
-            </tr>
-          <% end %>
-          <tr>
-            <% if @tile.cost %>
-              <th><%= image_tag "stats/reinforcement.png" %>
-                <br />Reinforcement<br />Cost
-              </th>
+              </tr>
             <% end %>
-            <% if @tile.cost %>
-              <td><h3><%= @tile.cost %></h3></td>
+            <% if @tile.ranged_dice != '–' %>
+              <tr>
+                <th>
+                  <%= image_tag "stats/range.png" %>
+                  <br />Ranged
+                </th>
+                <td>
+                  <%= image_tag "dice/#{@tile.ranged_dice}.png" %><br />
+                  <%= @tile.ranged_dice %>
+                </td>
+              </tr>
             <% end %>
-          </tr>
-        </table>
-      </div>
-      <div class="col-md-3">
-       <br />
-        <% if @tile_scenarios.any? %>
-          <h4>Appears in:</h4>
-          <% @tile_scenarios.each do |scenario| %>
-            <p><%= link_to scenario.name, scenario_path(scenario) %></p>
-          <% end%>
-        <% end %>
-       <br />
-        <% if @tile.stories.any? %>
-          <h4>Stories:</h4>
-          <% @tile.stories.each do |story| %>
-            <p><%= link_to story.name, story_path(story) %></p>
-          <% end%>
-        <% end %>
+            <tr>
+              <% if @tile.cost %>
+                <th><%= image_tag "stats/reinforcement.png" %>
+                  <br />Reinforcement<br />Cost
+                </th>
+              <% end %>
+              <% if @tile.cost %>
+                <td><h3><%= @tile.cost %></h3></td>
+              <% end %>
+            </tr>
+          </table>
+        </div>
+        <div class="col-md-6">
+         <br />
+          <% if @tile_scenarios.any? %>
+            <h4>Appears in:</h4>
+            <% @tile_scenarios.each do |scenario| %>
+              <p><%= link_to scenario.name, scenario_path(scenario) %></p>
+            <% end%>
+          <% end %>
+         <br />
+          <% if @tile.stories.any? %>
+            <h4>Stories:</h4>
+            <% @tile.stories.each do |story| %>
+              <p><%= link_to story.name, story_path(story) %></p>
+            <% end%>
+          <% end %>
+        </div>
       </div>
     </div>
   </div>

@@ -2,9 +2,9 @@
   <div class="col-xs-12 col-md-9 item-well">
     <div align="center">
       <div class="prevnext prevnext_item">
-        <span class="prev"><%= link_to("<< Previous Item", @item.previous) if @item.previous %></span>
+        <span class="prev"><%= link_to("<< " + @item.previous.name, @item.previous) if @item.previous %></span>
         <span aligh="center"><%= link_to "Back to items", items_path %></span>
-        <span class="next"><%= link_to("Next Item >>", @item.next) if @item.next %></span>
+        <span class="next"><%= link_to(@item.next.name + " >>", @item.next) if @item.next %></span>
       </div>
       <div class="col-md-7">
         <h2 class="item center"><%= @item.name %></h2>

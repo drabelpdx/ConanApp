@@ -1,24 +1,15 @@
 <div class="scenario-well">
-  <div align="center">
-    <div class="row  prevnext_scenario">
-      <div class="col-md-2 prevnext">
-        <span class="prev">
-          <%= link_to("<< Previous Scenario", @scenario.previous) if @scenario.previous %>
-        </span>
-      </div>
-      <div class="col-md-8 prevnext">
-        <h2 align="center"><%= @scenario.name %></h2>
-      </div>
-      <div class="col-md-2 prevnext"
-        <span class="next">
-          <%= link_to("Next Scenario >>", @scenario.next) if @scenario.next %>
-        </span>
-      </div>
+  <div align="center" class="scenario">
+    <div class="prevnext prevnext_scenario">
+      <span class="prev"><%= link_to("<< " + @scenario.previous.name, @scenario.previous) if @scenario.previous %></span>
+      <span aligh="center"><%= link_to "Back to scenarios", scenarios_path %></span>
+      <span class="next"><%= link_to( @scenario.next.name + " >>", @scenario.next) if @scenario.next %></span>
     </div>
   </div>
   <div class="row">
     <div class="col-md-12">
       <div class="col-md-4">
+        <br />
         <h4 align="center">Players: <%= @scenario.player_count %>&nbsp;&nbsp;&nbsp;
                            Complexity: <%= @scenario.complexity %></h4>
         <p align="center">
@@ -27,12 +18,11 @@
           <% end %>
         </p>
         <p><%= @scenario.description.html_safe %></p>
-        <br /><br />
-        <div align="center">
-        <%= link_to "Back to scenarios", scenarios_path %>
-        </div>
+        <br />
       </div>
       <div class="col-md-8 scenarios" align="center">
+        <h1 align="center"><%= @scenario.name %></h1>
+
         <%= image_tag(@scenario.map_image) %>
         <% @scenario.map_ids.each do |id| %>
           <% @map = Map.find_by_id [id] %>

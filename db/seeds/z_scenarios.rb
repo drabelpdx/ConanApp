@@ -1917,7 +1917,7 @@
               When the Event tile is activated, the Overlord resolves each of the following events in order:
               <br /><strong>Impending Awakening:</strong> Move the turn tracker 1 space toward space 15.
               <br/ ><strong>Destruction:</strong> The Overlord places a water token
-              <img src="/assets/tokens/waterToken.png" class="scen_sq_token" /> in an area.
+              <img src="/assets/tokens/waterToken.png" class="scen_token" /> in an area.
               That area becomes a water area.
               <br/ ><strong>Emergence:</strong> The Overlord may move or place a
               Tentacles tile into the Event title’s previous position in the River,
