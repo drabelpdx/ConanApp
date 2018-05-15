@@ -7202,7 +7202,7 @@
             </td>
           </tr>
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Khemsa.png" class="scen_setup"></td>
+            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/KhemsaToken.png" class="scen_setup"></td>
             <td>
               Khemsa has 2 spells:
                 <a class="spell" href="/spells/1">Bori’s Rage</a> and
