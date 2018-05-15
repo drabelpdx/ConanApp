@@ -5277,9 +5277,408 @@
       spell_ids: [12],
       item_ids: [17, 22, 25, 32, 40, 49, 55] },
 
+
     ## The Last Ditch Invocation
 
+    { name: "The Last Ditch Invocation",
+      description: "<p>A satisfied smile appears on the emaciated face of Pelias
+        the Sorcerer, a mighty mage of Koth’s court. Centenary codices, discovered
+        in the pre-human ruins of the Dagoth hill, took him to Stygia on the trail
+        of the fabulous gem called the Heart of Ahriman. Joining forces with an
+        old Aquilonian who, like him, wanted to find the artefact so as to shelter
+        it; together they defeated vile servants of Set who haunted the forgotten
+        tomb in which the Heart was buried.</p>
+        <p>To regain Khorshemish, they boarded a merchant ship sailing towards Shem.
+        Suddenly, as their boat leaves the coast of Stygia, the look-out lets-out
+        an alert cry. A long mortal form appeared on starboard, a serpentine and
+        slender galley, rapidly propelled by forty oars on each side. At the top
+        of its mast, a long scarlet pennon floats. “By Ishtar!” yells the captain,
+        turning pale, “It’s the Tigress! The ship of this she-devil named Bêlit.”</p>
+        <p>The captain’s exhortations to the crew are in vain. No maneuver will prevent
+        the boarding. “We are lost, the Queen of the Black Coast gives no quarter.”
+        At these words, one glance is enough for Pelias to indicate Zelata that
+        he has no choice but to use his most power- ful invocation, but also the
+        riskier one, so that all have a chance to defend the ship, as well as their
+        lives.</p>",
+      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/The+Last+Ditch+Invocation.jpg',
+      pdf_link: 'http://www.monolithedition.com/conan-en/the-last-ditch-invocation/',
+      player_count: "3",
+      complexity: "3",
+
+      hero_goal: "If at least one Sailor is alive at the end of turn 6; the heroes
+        win the game.",
+      hero_setup: '<strong>Suggested Heroes and Equipment:</strong>
+        <br /><a class="hero" href="/heroes/11">Zelata</a>
+        (<a class="item" href="/items/3">Dagger</a>,
+          <a class="item" href="/items/43">Mitra’s Staff</a> and 4 spells:
+          <a class="spell" href="/spells/9">Mitra’s Halo</a>,
+          <a class="spell" href="/spells/1">Bori’s Rage</a>,
+          <a class="spell" href="/spells/16">Teleportation</a> and 4 spells:
+          <a class="spell" href="/spells/20">Bel’s Caress</a>) with
+          <a class="tile" href="/tiles/39">Zelata’s Wolf</a>.
+
+        <br /><a class="hero" href="/heroes/17">Pelias</a>
+        (<a class="item" href="/items/36">Sacrificial Dagger</a>,
+          <a class="item" href="/items/49">Heart of Ahriman</a> and
+          <a class="spell" href="/spells/12">Set’s Bite</a>,
+          <a class="spell" href="/spells/16">Teleportation</a>,
+          <a class="spell" href="/spells/13">Set’s Halo</a> and
+          <a class="spell" href="/spells/35">Hand of Death</a>)<br /><br />
+
+        <p>After setup, each hero moves 3 gems from their Reserve zone
+        to their Fatigue zone.</p>',
+
+      overlord_goal: "If all Sailors are dead before the end of turn 6; the
+        Overlord wins the game.",
+      overlord_setup: 'The game starts with the Overlord’s turn.
+        <br /><br />The Overlord starts with 10 gems in their Reserve zone and
+          0 in their Fatigue zone, and places the recovery token showing a value
+          of “7” in the Book of Skelos.
+        <table class="scen_table">
+          <tr>
+            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td>
+              <strong>Reinforcement:</strong> 3 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .
+              <br /><strong>Forced march:</strong> The Overlord choses a unit tile.
+                All the models of this unit tile may move according to their base
+                movement value. The Overlord can use the Movement benefit.
+            </td>
+          </tr>
+        </table>',
+
+      tile1: 89,
+      tile2: 13,
+      tile3: 1,
+      tile4: 88,
+      tile5: 66,
+      tile6: 62,
+      tile7: 2,
+      tile8: 0,
+
+      life1: 0,
+      life2: 0,
+      life3: 0,
+      life4: 0,
+      life5: 4,
+      life6: 4,
+      life7: 0,
+      life8: 0,
+
+      special_rules: '<p>
+        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Tentacles.png" class="scen_event float_tile">
+        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Thaug.png" class="scen_event float_tile">
+        <span class="special_title">Thaug:</span>
+          During setup, the heroes place the Tentacles models and the Thaug
+          model as indicated by the setup diagram. The Thaug model is placed
+          straddling the two areas to the East. These two areas are considered
+          occupied. The heroes place Thaug’s Life Point marker on the position
+          “8” of the turn track. The heroes place the Thaug’s tile next to their
+          heroes’ sheets and place 4 red gems on it. The heroes place the
+          <a class="spell" href="/spells/24">Dagon’s Attack</a> and
+          <a class="spell" href="/spells/47">Return of the Brave</a> spell cards
+          next to Thaug’s tile; these are the spells
+          <a class="tile" href="/tiles/82">Thaug</a> has.<br />
+          The heroes place the Tentacles tile next to the Thaug’s tile.
+          <a class="tile" href="/tiles/82">Thaug</a> is immediately activated if
+          it is on the board at the start of the heroes’ turn. It cannot move but
+          can perform Melee Attacks and may use the red gems on its tile to cast
+          spells.<br />
+          If <a class="tile" href="/tiles/82">Thaug</a> is on the board at the
+          end of the heroes’ turn, the heroes move the red gems from Thaug’s
+          spells to Thaug’s tile, then:<br />
+            • if there is at least on blue gem on the
+            <a class="item" href="/items/49">Heart of Ahriman</a>, the heroes
+            move this or these gems to Pelias’ Wound zone,<br />
+            • if there is no blue gem on the
+            <a class="item" href="/items/49">Heart of Ahriman</a>, then the
+            heroes remove The Thaug and Tentacles models from the game and flip
+            the <a class="item" href="/items/49">Heart of Ahriman</a> card
+            facedown.</p>
+
+        <p><span class="special_title"> Sailors:</span>
+          During setup, the heroes place the Bossonian Guards as indicated by
+          the setup diagram. They represent the Sailors. The Sailors have an
+          Armor Value of 1 and 1 Life point. Sailors cannot be activated nor
+          defended but can be the target of the heroes’ attacks as well as of
+          the Overlord Units.</p>
+
+        <p><span class="special_title">Heart of Ahriman:</span>
+          <a class="hero" href="/heroes/17">Pelias</a> cannot drop nor give the
+          <a class="item" href="/items/49">Heart of Ahriman</a>. If
+          <a class="hero" href="/heroes/17">Pelias</a> dies, the
+          <a class="item" href="/items/49">Heart of Ahriman</a> is destroyed.</p>
+
+        <p><span class="special_title">Sacrifice:</span>
+          If the <a class="item" href="/items/49">Heart of Ahriman</a> card is
+          faceup and <a class="hero" href="/heroes/17">Pelias</a> kills a Sailor
+          or a model of the Overlord using the
+          <a class="item" href="/items/36">Sacrificial Dagger</a>,
+          <a class="hero" href="/heroes/17">Pelias</a> moves one of his blue gems
+          to the <a class="item" href="/items/49">Heart of Ahriman</a> card.
+          <a class="hero" href="/heroes/17">Pelias</a> takes in priority a gem
+          from his Fatigue zone.</p>
+
+        <p><span class="special_title">Mitra’s Staff:</span>
+          <a class="hero" href="/heroes/11">Zelata</a> cannot drop nor give the
+          <a class="item" href="/items/43">Mitra’s Staff</a>. If
+          <a class="hero" href="/heroes/11">Zelata</a> dies, the
+          <a class="item" href="/items/43">Mitra’s Staff</a> is destroyed.<br />
+          During setup, the hero controlling
+          <a class="hero" href="/heroes/11">Zelata</a> places 2 red gems on the
+          <a class="item" href="/items/43">Mitra’s Staff</a> card. The hero
+          controlling <a class="hero" href="/heroes/11">Zelata</a> may use the
+          gems placed on the <a class="item" href="/items/43">Mitra’s Staff</a>
+          card only to cast spells. When the hero controlling
+          <a class="hero" href="/heroes/11">Zelata</a> uses these red gems, they
+          move them from the <a class="item" href="/items/43">Mitra’s Staff</a>
+          card to the Spell card. These gems count towards the Spell card’s
+          Exertion Limit. The hero controlling Zelata may use both red gems from
+          the <a class="item" href="/items/43">Mitra’s Staff</a> and their own
+          Energy gems to cast a spell. During the End phase of the Heroes’ turn,
+          the hero controlling Zelata moves the red gems from the Spell cards to
+          the <a class="item" href="/items/43">Mitra’s Staff</a> card. The red
+          gems of the <a class="item" href="/items/43">Mitra’s Staff</a> are
+          never taken into account when calculating Zelata’s life points.</p>
+
+        <p><span class="special_title">Spellbook:</span>
+          During the setup, the Overlord places the
+          <a class="spell" href="/spells/6">Lightning Storm</a> card next to the board.
+          When a hero picks up the <a class="item" href="/items/22">Spellbook</a>,
+          they also place the <a class="spell" href="/spells/6">Lightning Storm</a>
+          Spell card next to their hero’s sheet. That hero can now cast that spell.</p>
+
+        <p><span class="special_title">Chests:</span>
+          During setup, the Overlord places 1 chest on the board as indicated
+          by the setup diagram. The asset deck contains:
+          1 <a class="item" href="/items/22">Spellbook</a>.</p>',
+
+      origin: "Book of Set",
+      map_ids: [2],
+      hero_ids: [11, 17],
+      tile_ids: [1, 2, 13, 62, 66, 88, 89],
+      spell_ids: [1, 9, 12, 13, 16, 20, 35],
+      item_ids: [3, 36, 43, 49] },
+
+
     ## For the Blood of a Barbarian
+
+    { name: "For the Blood of a Barbarian",
+      description: "<p> Akivasha has not forgotten the vigorous barbarian of the
+        North of which she tried to feed herself in her lair, under the pyramid of
+        Khemi. She who courted death to earn life, dead so as to be able to live
+        forever, grew weary of the blood of priests or captive young men screaming
+        at her feet. determined to renew her youth with Conan’s blood, and to punish
+        the offense to Set when the Cimmerian killed one of its children and some of
+        its priests; the ancient princess left her damned lair.</p>
+        <p>After joining Tarantia and under cover of darkness, she slips into a tavern
+        where Conan is to join wizard friends to discuss with them his natural distrust
+        of the magical arts. However, all are unaware that Akivasha, hidden in the
+        shadows, has just released the most powerful and abominable sorcery from the
+        black crypts of Stygia. A terrible spell of domination forcing all the
+        occupants of the inn to obey her. Then, when the Cimmerian at last arrives,
+        her rage prevails.</p>
+        <p>Gone mad by ten thousand years of an eternal life which is only an impious
+        perversion, the fruit of Darkness and cosmic soiling; she launches into the
+        complex invocation of a swamp demon. Seeking to extricate the monster from
+        the Land of Mists so that it mate- rializes here on earth to defeat Conan
+        and exterminate all the occupants of the tavern.</p>",
+      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/For+the+Blood+of+a+Barbarian.jpg',
+      pdf_link: 'http://www.monolithedition.com/conan-en/for-the-blood-of-a-barbarian/',
+      player_count: "3",
+      complexity: "3",
+
+      hero_goal: "If the heroes prevent the invocation of the Swamp Demon, or if
+        the Swamp Demon dies before the end of turn 8; the heroes win the game.",
+      hero_setup: '
+      <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/KothianArcher.png" class="scen_event float_tile">
+      The game starts with the Heroes’ turn.
+        <br /><br /><strong>Suggested Heroes and Equipment:</strong>
+        <br /><a class="hero" href="/heroes/11">Conan - General</a>
+        (<a class="item" href="/items/4">Conan’s Sword</a> and
+          <a class="item" href="/items/18">Scale Mail</a>)
+          with the <a class="tile" href="/tiles/74">Kothian Archer</a>.
+
+        <br /><a class="hero" href="/heroes/17">Pallantides</a>
+        (<a class="item" href="/items/12">Sword</a> and
+          <a class="item" href="/items/20">Shield</a>)
+        <br /><br />
+
+        <p>After setup, each hero moves 5 gems from their Reserve zone
+        to their Fatigue zone.</p>',
+
+      overlord_goal: "If the Overlord invokes the Swamp Demon and the Swamp Demon
+        is alive at the end of turn 8; the Overlord wins the game.",
+      overlord_setup: 'The Overlord starts with 7 gems in their Reserve zone and
+        3 in their Fatigue zone, and places the recovery token showing a value
+        of “5” in the Book of Skelos.
+        <table class="scen_table">
+          <tr>
+            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td>
+              <strong>Reinforcement:</strong> 2 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .<br />
+              <strong>Domination:</strong> see Special Rules
+            </td>
+          </tr>
+          <tr>
+            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/HadrathusToken.png" class="scen_setup"></td>
+            <td>
+              <a class="tile" href="/tiles/64">Hadrathus</a> has 1 spell:
+              <a class="spell" href="/spells/6">Lightning Storm</a>.
+            </td>
+          </tr>
+          <tr>
+            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZelataToken.png" class="scen_setup"></td>
+            <td>
+              <a class="tile" href="/tiles/72">Zelata</a> has 1 spell:
+              <a class="spell" href="/spells/35">Hand of Death</a>.
+            </td>
+          </tr>
+          <tr>
+            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AgeeraToken.png" class="scen_setup"></td>
+            <td>
+              <a class="tile" href="/tiles/52">Ageera</a> has 1 spell:
+              <a class="spell" href="/spells/1">Bori’s Rage</a>.
+            </td>
+          </tr>
+          <tr>
+            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AkivashaToken.png" class="scen_setup"></td>
+            <td>
+              <a class="tile" href="/tiles/53">Akivasha</a> has 1 spell:
+              <a class="spell" href="/spells/47">Return of the Brave</a>.
+            </td>
+          </tr>
+        </table>',
+
+      tile1: 64,
+      tile2: 18,
+      tile3: 72,
+      tile4: 16,
+      tile5: 52,
+      tile6: 19,
+      tile7: 53,
+      tile8: 1,
+
+      life1: 4,
+      life2: 0,
+      life3: 4,
+      life4: 0,
+      life5: 4,
+      life6: 0,
+      life7: 4,
+      life8: 0,
+
+      special_rules: '<p>
+      <p><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SwampDemon.png" class="scen_event float_tile">
+
+      <span class="special_title">Invocation:</span>
+        At the end of turn 5, the Overlord removes from the board all their models
+        located in an area of their choice where one of their model with Spell
+        Caster is also located, including the Spell Caster’s model. The number of
+        models removed from the board corresponds to the number of life points of
+        the <a class="tile" href="/tiles/81">Swamp Demon</a>. The Overlord places
+        the Swamp Demon Life Point marker
+        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SwampDemonToken.png"
+        class="scen_token">on the corresponding position of the turn track. Then,
+        the Overlord replaces the removed Spell Caster’s tile in the River with
+        the Swamp Demon’s tile.</p>
+
+        <p><span class="special_title">Deliverance:</span>
+          A hero in the same area as one of the Sorcerers under Domination (
+          <a class="tile" href="/tiles/64">Hadrathus</a>,
+          <a class="tile" href="/tiles/72">Zelata</a> and
+          <a class="tile" href="/tiles/52">Ageera</a> at the beginning of the
+          scenario) may perform a complex Manipulation with a difficulty of 2 (
+          <a class="tile" href="/tiles/64">Hadrathus</a>,
+          <a class="tile" href="/tiles/72">Zelata</a> and
+          <a class="tile" href="/tiles/52">Ageera</a> are
+          taken into account for Hindering) to deliver the Sorcerer from Akivasha’s
+          hypnosis. When a Sorcerer is freed from Akivasha’s domination, the hero
+          who performed the complex Manipulation takes the tile corresponding to
+          the Sorcerer from the Overlord’s River as well as the Spell card linked
+          to that Sorcerer and places them next to their hero’s sheet. From that
+          moment, that Sorcerer is considered an Ally Sorcerer of the heroes and
+          is controlled by the hero who just freed them. The Life Point marker of
+          the freed Ally Sorcerer remains in the same position on the turn track.</p>
+
+        <p style="clear: both;"><span class="special_title">Ally:</span>
+          For this scenario, when a hero activates an Ally Sorcerer, that hero may
+          move one gem from their Reserve Zone to the Spell card linked to that
+          Sorcerer to cast that spell, without taking into account the cost of the
+          Spell and its exertion limit. This is the only way an Ally Sorcerer can
+          cast a spell. Each Spell can only be cast once per Ally Sorcerer’s activation
+          and each Ally Sorcerer can only be activated once per Heroes’ turn.</p>
+
+        <p><span class="special_title">Domination:</span>
+          Akivasha imposes her domination over an Ally Sorcerer of the heroes.
+          The Overlord chooses one of the Sorcerers (
+            <a class="tile" href="/tiles/64">Hadrathus</a>,
+            <a class="tile" href="/tiles/72">Zelata</a> or
+            <a class="tile" href="/tiles/52">Ageera</a>)
+          in the line of sight of <a class="tile" href="/tiles/53">Akivasha</a>,
+          takes that Ally Sorcerer’s tile from the hero and places it in their
+          River at the position of the Event tile before its activation (the Event
+          tile is still moved to the right, at the end of the River). They also
+          take the Spell card linked to that Ally Sorcerer and places it next to
+          the Book of Skelos. The Life Point marker of the Sorcerer remains in
+          the same position on the turn track and the Sorcerer is now considered
+          a Unit of the Overlord.</p>
+
+        <p style="clear: both;"><span class="special_title">Explosive Orb:</span>
+          The Overlord’s models in the area effect of the
+          <a class="item" href="/items/6">Explosive Orb</a> have their Armor Value
+          temporarily reduced to 0 to calculate the attack power of the Orb.</p>
+
+        <p><span class="special_title">Walls:</span>
+          A character with <a class="skill" href="/skills/11">Wall Wrecker</a>
+          cannot use it to move across an outer wall of the inn or to move between
+          areas of different elevations.</p>
+
+        <p><span class="special_title">Leaping From/Climbing a Balcony:</span>
+          A character can move across a railing from a balcony area to a ground
+          floor area as though it were a border. The character rolls
+          <img src="/assets/dice/2 Orange.png" class="scen_sq_token" /> for falling
+          damage. If the character has <a class="skill" href="/skills/16">Leap</a>,
+          the character rolls <img src="/assets/dice/Orange.png" class="scen_sq_token" />
+          instead. A character with <a class="skill" href="/skills/19">Climb</a> can
+          move across a railing from a ground floor area to a balcony area by spending
+          2 extra movement points.</p>
+
+        <p><span class="special_title">Leaping From/Climbing a Stairwell:</span>
+          A character can move across a banister from a stair area to a ground
+          floor area as though it were a border. The character rolls
+          <img src="/assets/dice/2 Yellow.png" class="scen_sq_token" /> for falling
+          damage. If the character has <a class="skill" href="/skills/16">Leap</a>,
+          the character rolls <img src="/assets/dice/Yellow.png" class="scen_sq_token" />
+          instead. A character with <a class="skill" href="/skills/19">Climb</a> can
+          move across a banister from a ground floor area to a stair area by spending
+          1 extra movement point.</p>
+
+        <p><span class="special_title">Bar:</span>
+          A character with or without <a class="skill" href="/skills/16">Leap</a>
+          or <a class="skill" href="/skills/19">Climb</a> may move onto the Bar areas
+          or a table area by spending 1 extra movement point. These areas provide
+          an Elevation bonus of <img src="/assets/dice/Yellow.png" class="scen_sq_token" />.
+          A character in the bar’s area or in a table’s area, with or without Reach,
+          may attack a character in an adjacent area with a Melee Attack. These
+          areas do not block line of sight. A character may exit these areas with
+          no movement penalty.</p>
+
+        <p><span class="special_title">Chests:</span>
+          During setup, the Overlord places 3 chests on the board as indicated
+          by the setup diagram. The asset deck contains:
+          1 <a class="item" href="/items/22">Life Potion</a>,
+          2 <a class="item" href="/items/2">Bossonian Bow</a>, and
+          1 <a class="item" href="/items/6">Explosive Orb</a>.</p>',
+
+      origin: "Book of Set",
+      map_ids: [4],
+      hero_ids: [11, 17],
+      tile_ids: [1, 16, 18, 19, 52, 53, 64, 72],
+      spell_ids: [1, 6, 35, 47],
+      item_ids: [2, 4, 6, 12, 18, 20, 22 ] },
+
 
     { name: "Death from the North",
       description: "<p>The keen eye of the imposing figure scrutinizes every
@@ -5926,7 +6325,197 @@
       spell_ids: [7, 12, 16, 30, 55],
       item_ids: [1, 8, 11, 17, 25, 35, 36, 42, 48] },
 
+
     ## An Ape, Several Kegs and a Girl
+
+    { name: "An Ape, Several Kegs and a Girl",
+      description: "<p>In the Khorshemish region, a small group of individuals
+      climb steep slopes flanking a decrepit fortress. Conan the Cimmerian leads
+      the way. He came to help his friend Pelias, the powerful mage of the Court
+      of Koth. The latter is accompanied by his impetuous de- fender stamping his
+      feet furiously, a young man from the Aquilonian province of Tauran. If the
+      boy seems to be a nervous wreck, it is because he fell madly in love with
+      a companion of the magus, but the latter was abducted by a vile mercenary
+      known as Constantius. This brigand is in the habit, among other misdeeds,
+      to supply the Zamorian brothels or the Turanian seraglios with the young
+      women he succeeds in abducting.</p>
+      <p>Pelias knows that unfortunately he cannot solicit the King’s help in this
+      matter, for the monarch is a miser in terms of men and mo- ney and as such
+      he has some consideration for Constantius who executes all his dirty works
+      at the cheapest price possible. This is why the magician has decided to act
+      by himself, to both help his faithful defender in finding his sweetheart
+      and punish the human being trafficker.</p>
+      As the group arrives at the gates of the citadel, he is tackled by a large
+      gray ape, obviously trained by Constantius, who uses its su- perhuman strength
+      to throw kegs filled with pitch at them. </p>",
+      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/An+Ape+Several+Kegs+and+a+Girl.jpg',
+      pdf_link: 'http://www.monolithedition.com/conan-en/an-ape-several-kegs-and-a-girl/',
+      player_count: "5",
+      complexity: "2",
+
+      hero_goal: "If Gitara flees the citadel before the end of turn 6; the heroes
+        win the game.",
+      hero_setup: 'The game starts with the heroes’ turn.
+        <br /><br /><strong>Suggested Heroes and Equipment:</strong>
+        <br /><a class="hero" href="/heroes/11">Conan - General</a>
+        (<a class="item" href="/items/4">Conan’s Sword</a>)
+        <br /><a class="hero" href="/heroes/18">Pelias</a>
+        (<a class="item" href="/items/3">Dagger</a>,
+          <a class="item" href="/items/42">Black Staff</a> and 3 Spells:
+          <a class="spell" href="/spells/12">Set’s Bite</a>
+          <a class="spell" href="/spells/13">Set’s Halo</a>, and
+          <a class="spell" href="/spells/30">Eel Skin</a>.<br />
+          Pelias starts the game with Set’s Halo activated )
+        <br /><a class="hero" href="/heroes/1">Bêlit</a>
+        (<a class="item" href="/items/10">Ornamental Spear</a>).
+        <br /><a class="hero" href="/heroes/10">Balthus</a>
+        (<a class="item" href="/items/40">Zingarian Bow</a>).<br /><br />
+        <p>After setup, each hero moves 5 gems from their Reserve zone to
+        their Fatigue zone.</p>',
+
+      overlord_goal: "If the Overlord prevents Gitara from fleeing the Citadel
+        or if Gitara dies before the end of turn 6; the Overlord wins the game.",
+      overlord_setup: 'The Overlord starts with 9 gems in their Reserve zone and
+        3 in their Fatigue zone, and places the recovery token showing a recovery
+        value of “7” in the Book of Skelos.
+        <table class="scen_table">
+          <tr>
+            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td>
+              <strong>Reinforcement:</strong> 2 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" />
+              (see special rules).
+            </td>
+          </tr>
+        </table>',
+
+      tile1: 32,
+      tile2: 80,
+      tile3: 18,
+      tile4: 89,
+      tile5: 80,
+      tile6: 54,
+      tile7: 1,
+      tile8: 0,
+
+      life1: 0,
+      life2: 0,
+      life3: 0,
+      life4: 0,
+      life5: 6,
+      life6: 4,
+      life7: 0,
+      life8: 0,
+
+      special_rules: '<p><span class="special_title">Keg of Pitch:</span>
+        If the <a class="tile" href="/tiles/80">Gray Man-Ape</a> is on the same
+        area as a Keg of Pitch token
+        <img src="/assets/tokens/kegToken.png" class="scen_token" /> to throw
+        the keg in an area in the Gray Man-Ape’s line of sight. The Overlord
+        follows the same rules for throwing an object as the heroes and rolls
+        the Melee attack Value of the
+        <a class="tile" href="/tiles/80">Gray Man-Ape</a> to determine the
+        distance of the throwing. The keg of pitch immediately explodes in the
+        area it is thrown in.<br />
+        If a model of the Overlord is in the same area as a Keg of Pitch token,
+        the Overlord may choose to replace the model’s Melee attack so that the
+        keg explodes.<br />
+        When a keg of pitch explodes, all the models in the area of the keg are
+        the target of an area attack of
+        <img src="/assets/dice/2 Red.png" class="scen_sq_token" />. The usual
+        defenses against the area attacks may be used. The Keg of Pitch token is
+        then removed from play.<br />
+        A hero in a keg of pitch’s area may perform a simple manipulation to pick
+        it up and transport it; the hero places the Keg of Pitch’s token on their
+        hero’s sheet. A keg of pitch has an encumbrance of 6. If a hero suffers
+        a wound while carrying a keg of pitch, they immediately put it down in
+        the area where the hero is located, without the keg of pitch exploding.</p>
+
+        <p><span class="special_title">Gitara’s Cell:</span>
+          The door holding <a class="tile" href="/tiles/55">Gitara</a> captive is
+          reinforced. A hero in the area next to the door token
+          <img src="/assets/tokens/redDoorToken.png" class="scen_sq_token" />
+          may perform a complex Manipulation with a difficulty of 3 to remove
+          that door from the board.</p>
+
+        <p><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Gitara.png" class="scen_event float_tile">
+        <span class="special_title">Gitara:</span>
+          During setup, the Overlord places Gitara’s tile next to the board. As
+          long as Gitara’s door remains closed,
+          <a class="tile" href="/tiles/55">Gitara</a> cannot be attacked nor be
+          wounded.<br />
+          As soon as the door is removed from the board, the heroes take the
+          Gitara tile who becomes an ally of the heroes and may be activated once
+          per Heroes’ turn. A hero with Leadership can activate
+          <a class="tile" href="/tiles/55">Gitara</a> by moving one gem from
+          their Reserve zone to their Fatigue zone. Similarly, they may purchase
+          additional Movement points for Gitara by moving gems from their Reserve
+          zone to their Fatigue zone.<br />
+          A hero in Gitara’s area gains the Bodyguard skill. Only heroes with
+          Bodyguard can spend gems to defend
+          <a class="tile" href="/tiles/55">Gitara</a> by using that skill.</p>
+
+        <p><span class="special_title">Reinforcement:</span>
+          The Overlord may bring back reinforcements in any of the areas marked
+          <img src="/assets/stats/reinforcement.png" class="scen_token" />,
+          <img src="/assets/tokens/num1Token.png" class="scen_token" /> or
+          <img src="/assets/tokens/num2Token.png" class="scen_token" />.
+          If the Overlord chooses to bring back reinforcement in the areas
+          marked <img src="/assets/tokens/num1Token.png" class="scen_token" />
+          or <img src="/assets/tokens/num2Token.png" class="scen_token" />,
+          they remove the corresponding token and replaces it with a Portcullis
+          token <img src="/assets/tokens/redDoorToken.png" class="scen_sq_token" />.
+          The portcullis is now considered lowered. The Overlord can no longer
+          bring back reinforcements in that area and the heroes can no longer
+          flee from that area.</p>
+
+        <p><span class="special_title">Destroying a Portcullis:</span>
+          A hero in the area next to a Portcullis token
+          <img src="/assets/tokens/redDoorToken.png" class="scen_sq_token" />
+          and carrying a keg of pitch may perform a complex Manipulation with a
+          difficulty of 3 to destroy the portcullis and remove that Portcullis
+          token from the board. The explosion of the keg does not cause any damage
+          to the models in that area and the Pitch of Keg token is discarded.
+          The heroes can now flee from that area.</p>
+
+        <p><span class="special_title">Fleeing the Citadel:</span>
+          A hero or an ally model can flee the citadel from one of the outer
+          areas to the west of the board by spending movement points as though
+          the model was moving across a border. The model is then removed from
+          the board. Once a model has fled, the model cannot be returned to the
+          board. The Units of the Overlord cannot flee from the citadel. A hero
+          or an ally model can flee in the same way by one of the areas marked
+          by <img src="/assets/tokens/num1Token.png" class="scen_token" /> or
+          <img src="/assets/tokens/num2Token.png" class="scen_token" /> tokens
+          on the setup diagram if that area does not contain a Portcullis token
+          <img src="/assets/tokens/redDoorToken.png" class="scen_sq_token" />.</p>
+
+        <p><span class="special_title">Leaping From/Climbing a Balcony:</span>
+          A character can move across a railing from a balcony area
+          to a ground floor area as though it were a border. The character rolls
+          <img src="/assets/dice/2 Yellow.png" class="scen_sq_token" /> for falling
+          damage. If the character has <a class="skill" href="/skills/16">Leap</a>,
+          the character rolls <img src="/assets/dice/Yellow.png" class="scen_sq_token" />
+          instead. A character with Climb can move across a railing from a ground
+          floor area to a balcony area by spending 1 extra movement point.</p>
+
+        <p><span class="special_title">Pit:</span>
+          A character must spend 1 extra movement point to move out of the pit area.</p>
+
+        <p><span class="special_title">Chests:</span>
+          During setup, the Overlord places 3 chests on the board as
+          indicated by the setup diagram. The asset deck contains:
+          1 <a class="item" href="/items/22">Life Potion</a>,
+          1 <a class="item" href="/items/17">Leather Armor</a>, and
+          1 <a class="item" href="/items/34">Mitra’s Mace</a>.</p>',
+
+      origin: "Book of Set",
+      map_ids: [5],
+      hero_ids: [1, 10, 11, 18],
+      tile_ids: [1, 18, 32, 54, 55, 80, 89],
+      spell_ids: [12, 13, 30],
+      item_ids: [3, 4, 10, 17, 22, 34, 40, 42] },
+
 
     { name: "The Zamboula Strangler",
       description: "<p>In the past Zamboula was but a small trading-town, lying
@@ -6395,7 +6984,7 @@
 
       overlord_goal: "If the Overlord wards off the curse before the end of turn
         7; the Overlord wins the game.",
-      overlord_setup: 'The The game starts with the Overlord’s turn.
+      overlord_setup: 'The game starts with the Overlord’s turn.
         <br /><br />The Overlord starts with 11 gems in their Reserve zone and 0
         in their Fatigue zone, and places the recovery token showing a recovery
         value of “7” in the Book of Skelos.
@@ -6556,6 +7145,200 @@
       item_ids: [1, 3, 11, 12, 14, 32, 38, 40] },
 
     ## The Iron Hand
+
+    { name: "The Iron Hand",
+      description: "<p>Under the low ceiling, blackened by the smoke of a sordid
+      dive engulfed in the tortuous alleys of Peshkhauri, the atmosphere suddenly
+      strains. The dark, inscrutable face of the Cimmerian colossus, with an air
+      as untamed as redoubtable, turns into a ferocious rictus. Surrounded by
+      Turanian bandits, he addresses a man standing on the balcony overlooking
+      the room: “We have fulfilled our part of the deal and braved the Kshatriyas
+      warriors in order to seize these treasure chests crucial for your intrigues
+      in Vendhya. So, by Crom, either you pay what you owe us or we shall take our
+      due!”</p>
+      <p>“Take your due?” sneers the lord of Conan and of his redoubtable comrades
+      in arms. “I have provided you with the help of this Ne- median thief standing
+      by my side, so I believe it necessary that you revise your price downwards,
+      for without him you would not have succeeded. Or maybe would you rather
+      discuss with my masters, the Black Prophets?”</p>
+      <p>The man then turns around and walks away barking: “Throw these tramps
+      out, they do not deserve the price for their services”. At these words, the
+      Turanian closest to Conan spits at his feet, but reacting swiftly, the
+      barbarian punches him in the face and breaks his jaw; true to his former
+      reputation as Iron Hand. Then the tavern soon resounds with the clatter
+      of knocked-over benches, trampling, screams and curse words in a furious fray</p>",
+      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/The+Iron+Hand.jpg',
+      pdf_link: 'http://www.monolithedition.com/conan-en/the-iron-hand/',
+      player_count: "5",
+      complexity: "3",
+
+      hero_goal: "If the heroes flee with both Treasure Chests before the end of
+        turn 7; the heroes win the game.",
+      hero_setup: 'The game starts with the heroes’ turn.<br /><br />
+
+      <strong>Suggested heroes:</strong>
+        <br /><a class="hero" href="/heroes/12">Conan - Mercenary</a>
+        <br /><a class="hero" href="/heroes/21">Constantius</a>
+        <br /><a class="hero" href="/heroes/16">Olgerd Vladislav</a>
+        <br /><a class="hero" href="/heroes/9">Amboola</a>
+        <br /><br />
+        <p>After setup, each hero moves 6 gems from their Reserve zone
+        to their Fatigue zone.</p>',
+
+      overlord_goal: "If the Overlord prevents the heroes from fleeing with both
+        Treasure Chest before the end of turn 7; the Overlord wins the game.",
+      overlord_setup: 'The Overlord starts with 7 gems in their Reserve zone and
+        4 in their Fatigue zone, and places the recovery token showing a recovery
+        value of “7” in the Book of Skelos.
+
+        <table class="scen_table">
+          <tr>
+            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td>
+              <strong>Reinforcement:</strong> The Overlord choses up to three laid
+                down models and stands them up. If a reinforced model belongs to a
+                tile flipped to its “bloodied” face, the Overlord flips that tile
+                over to its non “bloodied” face.
+            </td>
+          </tr>
+          <tr>
+            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Khemsa.png" class="scen_setup"></td>
+            <td>
+              Khemsa has 2 spells:
+                <a class="spell" href="/spells/1">Bori’s Rage</a> and
+                <a class="spell" href="/spells/37">Inversion</a>.
+            </td>
+          </tr>
+        </table>',
+
+      tile1: 33,
+      tile2: 19,
+      tile3: 70,
+      tile4: 1,
+      tile5: 30,
+      tile6: 18,
+      tile7: 57,
+      tile8: 0,
+
+      life1: 0,
+      life2: 0,
+      life3: 4,
+      life4: 0,
+      life5: 0,
+      life6: 0,
+      life7: 4,
+      life8: 0,
+
+      special_rules: '
+        <p><span class="special_title">Fist-fight:</span>
+          Heroes have no equipment in this scenario. However, they ignore penalties
+          from unarmed attacks. If a hero’s life points are reduced to zero, they
+          are considered “out of combat” and their model is laid down in their area
+          of the board. They are not considered dead (therefore, the number of gems
+          that their companions recover do not change) and they will have to declare
+          themselves Cautious during the next Heroes’ Stance Phase.<br />
+          If a Bossonian Guard or a Pirate has their life points reduced to zero,
+          they are not dead and their model is laid down in their area. If all the
+          models of a tile are laid down, the Overlord flips the tile over to its
+          « bloodied » face then places it to the right, at the end of their River.<br />
+          When <a class="tile" href="/tiles/57">Khemsa</a> or
+          <a class="tile" href="/tiles/70">Taurus</a> have their life points
+          reduced to zero, they are removed from the game and their tile is
+          flipped over to its “bloodied” face, then placed to the right, at the
+          end of their River.<br />
+          A laid down model is not taken into account for Hindering and Occupied
+          areas.</p>
+
+        <p><span class="special_title">Dredging the River: </span>
+          If the Overlord removes the Pirate or Bossonian Guard tiles when dredging
+          the River, they must then remove from the board all the laid down models
+          corresponding to the removed tile.</p>
+
+        <p><span class="special_title">Recovery of the heroes:</span>
+          When a hero declares themselves Cautious during the Heroes’ Stance phase,
+          they may choose to either move 5 gems from their Fatigue zone to their
+          Reserve zone or move all their gems from their Wound zone to their Fatigue
+          zone.</p>
+
+        <p><span class="special_title">Treasure Chests:</span>
+          During setup, the Overlord places 2 Treasure Chest tokens
+          <img src="/assets/tokens/numBackToken.png" class="scen_token" /> as
+          indicated in the setup diagram. The Treasure Chest token is considered
+          an object with an encumbrance of 10. A hero in a Treasure Chest token’s
+          area may perform a simple Manipulation to pick it up. A hero carrying
+          a treasure chest cannot perform a Melee Attack.<br />
+          If a hero carrying a treasure chest is the target of the Inversion
+          spell, they drop the treasure chest in their area, then the Inversion
+          spell is resolved.<br />
+          If a hero carrying the treasure chest is “out of combat”, they drop the
+          treasure chest in their area.</p>
+
+        <p><span class="special_title">Alcohol Cask:</span>
+          A hero in an Alcohol Cask token’s area may perform a simple Manipulation
+          to take the Alcohol Cask token
+          <img src="/assets/tokens/kegToken.png" class="scen_token" />
+          from the board and place it on their Hero’s sheet. The hero then moves
+          2 gems from their Fatigue zone to their Reserve zone (in priority move
+          the gems from the Fatigue zone, then the ones from the Action spaces
+          if the Fatigue zone is empty).</p>
+
+        <p><span class="special_title">Hangover:</span>
+          The Overlord may remove an Alcohol Cask token from a hero’s sheet to
+          force that hero to Reroll right after the free Rerolls and before any
+          Reroll actions.</p>
+
+        <p><span class="special_title">Walls:</span>
+          A character with Wall Wrecker cannot use it to move across an outer wall
+          of the inn or to move between areas of different elevations.<br />
+
+        <p><span class="special_title">Leaping From/Climbing a Balcony:</span>
+          A character can move across a railing from a balcony area to a ground
+          floor area as though it were a border. The character rolls
+          <img src="/assets/dice/2 Orange.png" class="scen_sq_token" /> for falling
+          damage. If the character has <a class="skill" href="/skills/16">Leap</a>, the
+          character rolls <img src="/assets/dice/Orange.png" class="scen_sq_token" />
+          instead. A character with <a class="skill" href="/skills/19">Climb</a> can
+          move across a railing from a ground floor area to a balcony area by spending
+          2 extra movement points.</p>
+
+        <p><span class="special_title">Leaping From/Climbing a Stairwell:</span>
+          A character can move across a banister from a stair area to a ground
+          floor area as though it were a border. The character rolls
+          <img src="/assets/dice/2 Yellow.png" class="scen_sq_token" /> for falling
+          damage. If the character has <a class="skill" href="/skills/16">Leap</a>,
+          the character rolls <img src="/assets/dice/Yellow.png" class="scen_sq_token" />
+          instead. A character with <a class="skill" href="/skills/19">Climb</a>
+          can move across a banister from a ground floor area to a stair area by
+          spending 1 extra movement point.</p>
+
+        <p><span class="special_title">Bar:</span>
+          A character with or without <a class="skill" href="/skills/16">Leap</a>
+          or <a class="skill" href="/skills/19">Climb</a> may move onto the Bar areas
+          or a table area by spending 1 extra movement point. These areas provide
+          an Elevation bonus of <img src="/assets/dice/Yellow.png" class="scen_sq_token" />.
+          A character in the bar’s area or in a table’s area, with or without Reach,
+          may attack a character in an adjacent area with a Melee Attack. These
+          areas do not block line of sight. A character may exit these areas with
+            no movement penalty.</p>
+
+        <p><span class="special_title">Bar Stools:</span>
+          A character in a chair token’s area may pick it up for free when performing
+          a Melee Attack. The chair token is immediately returned to the box and
+          that character benefits from the chair’s attack bonus of
+          <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> (in addition
+          to any weapon’s Melee Attack bonus).</p>
+
+        <p><span class="special_title">Chests:</span>
+          During setup, the Overlord places 3 chests on the board
+          as indicated by the setup diagram. The asset deck contains:
+          3 <a class="item" href="/items/6">Explosive Orbs</a>',
+
+      origin: "Book of Set",
+      map_ids: [4],
+      hero_ids: [9, 12, 16, 21],
+      tile_ids: [1, 18, 19, 30, 33, 57, 70],
+      spell_ids: [1, 37],
+      item_ids: [6] },
 
 
 

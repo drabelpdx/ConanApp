@@ -322,7 +322,7 @@ Tile.create([
     token_image: '' },
 
   { name: 'Zelata’s Wolf', description: '',
-    role: 'Minion', move: '5', armor: '2', cost: '4',
+    role: 'Ally', move: '5', armor: '2', cost: '4',
     melee_dice: '2 Orange', ranged_dice: '–',
     origin: 'King Pledge', count: '1', skill_ids: [29, 16],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/ZelataWolf.jpg',
