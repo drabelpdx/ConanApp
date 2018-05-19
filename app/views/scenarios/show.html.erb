@@ -1,3 +1,18 @@
+<div class="row">
+  <div class="small-2 large-4 columns">
+    <% if current_user %>
+      Visual Effects: <%= rating_for_user @scenario, "visual_effects" %>
+      <br>
+      Original Score: <%= rating_for @scenario, "original_score" %>
+      <br>
+      Director: <%= rating_for @scenario, "original_score" %>
+      <br>
+      Custome Design: <%= rating_for @scenario, "custome_design" %>
+    <% end %>
+  </div>
+</div>
+
+
 <div class="scenario-well">
   <div align="center" class="scenario">
     <div class="prevnext prevnext_scenario">

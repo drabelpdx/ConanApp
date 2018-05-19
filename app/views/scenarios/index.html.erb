@@ -28,7 +28,7 @@
   <div class="row">
     <div class="col-md-4 col-sm-6">
       <div class="panel panel-info">
-        <div class="panel-heading">Core Game Scenarios</div>
+        <div class="panel-heading">Core Game</div>
         <table class="table">
           <% @scenarios.each do |scenario| %>
           <% if scenario.origin === "Core Game"%>
@@ -40,7 +40,7 @@
         </table>
       </div>
       <div class="panel panel-info">
-        <div class="panel-heading">King Pledge Scenarios</div>
+        <div class="panel-heading">King Pledge</div>
         <table class="table">
           <% @scenarios.each do |scenario| %>
           <% if scenario.origin === "King Pledge"%>
@@ -52,7 +52,7 @@
         </table>
       </div>
       <div class="panel panel-info">
-        <div class="panel-heading">Stretch Goal Scenarios</div>
+        <div class="panel-heading">Stretch Goal</div>
         <table class="table">
           <% @scenarios.each do |scenario| %>
           <% if scenario.origin === "Stretch Goal"%>
@@ -124,7 +124,7 @@
   <div class="row">
     <div class="col-md-4 col-sm-6">
       <div class="panel panel-info">
-        <div class="panel-heading">2 Player Scenarios</div>
+        <div class="panel-heading">2 Players</div>
         <table class="table">
           <% @scenarios.each do |scenario| %>
           <% if scenario.player_count === "2"%>
@@ -136,7 +136,7 @@
         </table>
       </div>
       <div class="panel panel-info">
-        <div class="panel-heading">3 Player Scenarios</div>
+        <div class="panel-heading">3 Players</div>
         <table class="table">
           <% @scenarios.each do |scenario| %>
           <% if scenario.player_count === "3"%>
@@ -150,7 +150,7 @@
     </div>
     <div class="col-md-4 col-sm-6">
       <div class="panel panel-info">
-        <div class="panel-heading">4 Player Scenarios</div>
+        <div class="panel-heading">4 Players</div>
         <table class="table">
           <% @scenarios.each do |scenario| %>
           <% if scenario.player_count === "4"%>
@@ -164,7 +164,7 @@
     </div>
     <div class="col-md-4 col-sm-6">
       <div class="panel panel-info">
-        <div class="panel-heading">4-5 Player Scenarios</div>
+        <div class="panel-heading">4-5 Players</div>
         <table class="table">
           <% @scenarios.each do |scenario| %>
           <% if scenario.player_count === "4-5"%>
@@ -176,7 +176,7 @@
         </table>
       </div>
       <div class="panel panel-info">
-        <div class="panel-heading">5 Player Scenarios</div>
+        <div class="panel-heading">5 Players</div>
         <table class="table">
           <% @scenarios.each do |scenario| %>
           <% if scenario.player_count === "5"%>
@@ -195,7 +195,7 @@
   <div class="row">
     <div class="col-md-4 col-sm-6">
       <div class="panel panel-info">
-        <div class="panel-heading">The Pict Village Map Scenarios</div>
+        <div class="panel-heading">The Pict Village</div>
         <table class="table">
           <% @scenarios.each do |scenario| %>
           <% if scenario.map_ids.include?(1)%>
@@ -207,7 +207,7 @@
         </table>
       </div>
       <div class="panel panel-info">
-        <div class="panel-heading">The Ships Map Scenarios</div>
+        <div class="panel-heading">The Ships</div>
         <table class="table">
           <% @scenarios.each do |scenario| %>
           <% if scenario.map_ids.include?(2)%>
@@ -233,7 +233,7 @@
     </div>
     <div class="col-md-4 col-sm-6">
       <div class="panel panel-info">
-        <div class="panel-heading">The Abandoned Fort Map Scenarios</div>
+        <div class="panel-heading">The Abandoned Fort</div>
         <table class="table">
           <% @scenarios.each do |scenario| %>
           <% if scenario.map_ids.include?(3)%>
@@ -245,7 +245,7 @@
         </table>
       </div>
       <div class="panel panel-info">
-        <div class="panel-heading">The Inn Scenarios Map</div>
+        <div class="panel-heading">The Inn</div>
         <table class="table">
           <% @scenarios.each do |scenario| %>
           <% if scenario.map_ids.include?(4)%>
