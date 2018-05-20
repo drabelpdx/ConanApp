@@ -48,68 +48,73 @@
     </div>
   </div>
 
-  </div>
-  <div class='form-group'>
-    <h3>Skills</h3>
-    <hr>
-    <div class="row">
-      <div class="col-sm-2">Attack Skills:</div>
-      <div class='col-sm-8'>
-        <%= f.collection_check_boxes :skill_ids, @attack, :id, :name do |cb| %>
+  <div class="row">
+    <div class='form-group'>
+      <h3>Skills</h3>
+      <hr>
+      <div class="row">
+        <div class="col-sm-2">Attack Skills:</div>
+        <div class='col-sm-8'>
+          <%= f.collection_check_boxes :skill_ids, @attack, :id, :name do |cb| %>
+            <% cb.label(class: "checkbox-inline input_checkbox") {cb.check_box(class: "checkbox") + cb.text} %>
+          <% end %>
+        </div>
+      </div><br />
+      <div class="row">
+        <div class="col-sm-2">Movement Skills:</div>
+        <div class='col-sm-8'>
+          <%= f.collection_check_boxes :skill_ids, @movement, :id, :name do |cb| %>
           <% cb.label(class: "checkbox-inline input_checkbox") {cb.check_box(class: "checkbox") + cb.text} %>
-        <% end %>
-      </div>
-    </div><br />
-    <div class="row">
-      <div class="col-sm-2">Movement Skills:</div>
-      <div class='col-sm-8'>
-        <%= f.collection_check_boxes :skill_ids, @movement, :id, :name do |cb| %>
-        <% cb.label(class: "checkbox-inline input_checkbox") {cb.check_box(class: "checkbox") + cb.text} %>
-        <% end %>
-      </div>
-    </div><br />
-    <div class="row">
-      <div class="col-sm-2">Miscellaneous Skills:</div>
-      <div class='col-sm-8'>
-        <%= f.collection_check_boxes :skill_ids, @miscellaneous, :id, :name do |cb| %>
-        <% cb.label(class: "checkbox-inline input_checkbox") {cb.check_box(class: "checkbox") + cb.text} %>
-        <% end %>
-      </div>
-    </div><br />
-    <div class="row">
-      <div class="col-sm-2">Defense and Magic Skills:</div>
-      <div class='col-sm-8'>
-        <%= f.collection_check_boxes :skill_ids, @defense, :id, :name do |cb| %>
-        <% cb.label(class: "checkbox-inline input_checkbox") {cb.check_box(class: "checkbox") + cb.text} %>
-        <% end %>
-      </div>
-    </div><br /><br />
+          <% end %>
+        </div>
+      </div><br />
+      <div class="row">
+        <div class="col-sm-2">Miscellaneous Skills:</div>
+        <div class='col-sm-8'>
+          <%= f.collection_check_boxes :skill_ids, @miscellaneous, :id, :name do |cb| %>
+          <% cb.label(class: "checkbox-inline input_checkbox") {cb.check_box(class: "checkbox") + cb.text} %>
+          <% end %>
+        </div>
+      </div><br />
+      <div class="row">
+        <div class="col-sm-2">Defense and Magic Skills:</div>
+        <div class='col-sm-8'>
+          <%= f.collection_check_boxes :skill_ids, @defense, :id, :name do |cb| %>
+          <% cb.label(class: "checkbox-inline input_checkbox") {cb.check_box(class: "checkbox") + cb.text} %>
+          <% end %>
+        </div>
+      </div><br /><br />
+    </div>
   </div>
-  <div class='form-group'>
-    <h3>Stories</h3>
-    <hr>
-    <div class="row">
-      <div class="col-sm-2">Weird Tales:</div>
-      <div class='col-sm-8'>
-        <%= f.collection_check_boxes :story_ids, @weird, :id, :name do |cb| %>
-        <% cb.label(class: "checkbox-inline input_checkbox") {cb.check_box(class: "checkbox") + cb.text} %>
-        <% end %>
-      </div>
-    </div><br />
-    <div class="row">
-      <div class="col-sm-2">Other Stories:</div>
-      <div class='col-sm-8'>
-        <%= f.collection_check_boxes :story_ids, @other, :id, :name do |cb| %>
-        <% cb.label(class: "checkbox-inline input_checkbox") {cb.check_box(class: "checkbox") + cb.text} %>
-        <% end %>
+
+  <div class="row">
+    <div class='form-group'>
+      <h3>Stories</h3>
+      <hr>
+      <div class="row">
+        <div class="col-sm-2">Weird Tales:</div>
+        <div class='col-sm-8'>
+          <%= f.collection_check_boxes :story_ids, @weird, :id, :name do |cb| %>
+          <% cb.label(class: "checkbox-inline input_checkbox") {cb.check_box(class: "checkbox") + cb.text} %>
+          <% end %>
+        </div>
+      </div><br />
+      <div class="row">
+        <div class="col-sm-2">Other Stories:</div>
+        <div class='col-sm-8'>
+          <%= f.collection_check_boxes :story_ids, @other, :id, :name do |cb| %>
+          <% cb.label(class: "checkbox-inline input_checkbox") {cb.check_box(class: "checkbox") + cb.text} %>
+          <% end %>
+        </div>
       </div>
     </div>
-  </div><br /><br />
+  </div>
+  <br /><br />
 
-
-  <p>
-    <%= f.submit %>
-  </p>
+  <div>
+    <%= f.submit :class => 'btn btn-primary' %>
+  </div>
 <% end %>
 <br /><br />
+
 <%= link_to "Back to tiles", tiles_path %>

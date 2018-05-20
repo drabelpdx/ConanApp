@@ -1,146 +1,201 @@
 <%= render 'shared/errors', obj: @scenario %>
 
 <%= form_for @scenario do |f| %>
-  <p>
-    <%= f.label :name %><br />
-    <%= f.text_area :name %>
-  </p>
-  <p>
-    <%= f.label :description %><br />
-    <%= f.text_area :description %>
-  </p>
-  <p>
-    <%= f.label :map_image %><br />
-    <%= f.text_area :map_image %>
-  </p>
-  <p>
-    <%= f.label :pdf_link %><br />
-    <%= f.text_area :pdf_link %>
-  </p>
-  <p>
-    <%= f.label :player_count %><br />
-    <%= f.text_area :player_count %>
-  </p>
-  <p>
-    <%= f.label :complexity %><br />
-    <%= f.text_area :complexity %>
-  </p>
-  <p>
-    <%= f.label :hero_goal %><br />
-    <%= f.text_area :hero_goal %>
-  </p>
-  <p>
-    <%= f.label :hero_setup %><br />
-    <%= f.text_area :hero_setup %>
-  </p>
-  <p>
-    <%= f.label :overlord_goal %><br />
-    <%= f.text_area :overlord_goal %>
-  </p>
-  <p>
-    <%= f.label :overlord_setup %><br />
-    <%= f.text_area :overlord_setup %>
-  </p>
-  
-  <p>
-    <%= f.label :tile1 %><br />
-    <%= f.number_field :tile1 %>
-  </p>
-  <p>
-    <%= f.label :tile2 %><br />
-    <%= f.number_field :tile2 %>
-  </p>
-  <p>
-    <%= f.label :tile3 %><br />
-    <%= f.number_field :tile3 %>
-  </p>
-  <p>
-    <%= f.label :tile4 %><br />
-    <%= f.number_field :tile4 %>
-  </p>
-  <p>
-    <%= f.label :tile5 %><br />
-    <%= f.number_field :tile5 %>
-  </p>
-  <p>
-    <%= f.label :tile6 %><br />
-    <%= f.number_field :tile6 %>
-  </p>
-  <p>
-    <%= f.label :tile7 %><br />
-    <%= f.number_field :tile7 %>
-  </p>
-  <p>
-    <%= f.label :tile8 %><br />
-    <%= f.number_field :tile8 %>
-  </p>
 
-  <p>
-    <%= f.label :life1 %><br />
-    <%= f.number_field :life1 %>
-  </p>
-  <p>
-    <%= f.label :life2 %><br />
-    <%= f.number_field :life2 %>
-  </p>
-  <p>
-    <%= f.label :life3 %><br />
-    <%= f.number_field :life3 %>
-  </p>
-  <p>
-    <%= f.label :life4 %><br />
-    <%= f.number_field :life4 %>
-  </p>
-  <p>
-    <%= f.label :life5 %><br />
-    <%= f.number_field :life5 %>
-  </p>
-  <p>
-    <%= f.label :life6 %><br />
-    <%= f.number_field :life6 %>
-  </p>
-  <p>
-    <%= f.label :life7 %><br />
-    <%= f.number_field :life7 %>
-  </p>
-  <p>
-    <%= f.label :life8 %><br />
-    <%= f.number_field :life8 %>
-  </p>
+  <div class="row">
+    <h3>Scenario</h3>
+    <hr>
+    <div class="col-sm-6 col-md-4">
+      <div class='form-group'>
+        <%= f.label :name %><br />
+        <%= f.text_area :name, cols: "30", rows: "2" %>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-4">
+      <div class='form-group'>
+        <%= f.label :map_image %><br />
+        <%= f.text_area :map_image, cols: "30", rows: "2" %>
+      </div>
+      <div class='form-group'>
+        <%= f.label :pdf_link %><br />
+        <%= f.text_area :pdf_link, cols: "30", rows: "2" %>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-4">
+      <div class='form-group'>
+        <%= f.label :player_count %><br />
+        <%= f.text_area :player_count %>
+      </div>
+      <div class='form-group'>
+        <%= f.label :complexity %><br />
+        <%= f.text_area :complexity %>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-6 col-md-4">
+      <div class='form-group'>
+        <%= f.label :description %><br />
+        <%= f.text_area :description, cols: "80", rows: "10" %>
+      </div>
+    </div>
+  </div>
 
-  <p>
-    <%= f.label :special_rules %><br />
-    <%= f.text_area :special_rules %>
-  </p>
+  <div class="row">
+    <h3>Heroes</h3>
+    <hr>
+    <div class="col-sm-6 col-md-4">
+      <div class='form-group'>
+        <%= f.label :hero_goal %><br />
+        <%= f.text_area :hero_goal, cols: "40", rows: "10" %>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-4">
+      <div class='form-group'>
+        <%= f.label :hero_setup %><br />
+        <%= f.text_area :hero_setup, cols: "80", rows: "10" %>
+      </div>
+    </div>
+  </div>
 
-  <p>
-    <%= f.label :origin %><br />
-    <%= f.text_area :origin %>
-  </p>
-  <p>
-    <%= f.label :map_ids %><br />
-    <%= f.text_area :map_ids %>
-  </p>
-  <p>
-    <%= f.label :hero_ids %><br />
-    <%= f.text_area :hero_ids %>
-  </p>
-  <p>
-    <%= f.label :tile_ids %><br />
-    <%= f.text_area :tile_ids %>
-  </p>
-  <p>
-    <%= f.label :spell_ids %><br />
-    <%= f.text_area :spell_ids %>
-  </p>
-  <p>
-    <%= f.label :item_ids %><br />
-    <%= f.text_area :item_ids %>
-  </p>
+  <div class="row">
+    <h3>Overlord</h3>
+    <hr>
+    <div class="col-sm-6 col-md-4">
+      <div class='form-group'>
+        <%= f.label :overlord_goal %><br />
+        <%= f.text_area :overlord_goal, cols: "40", rows: "10" %>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-4">
+      <div class='form-group'>
+        <%= f.label :overlord_setup %><br />
+        <%= f.text_area :overlord_setup, cols: "80", rows: "10" %>
+      </div>
+    </div>
+  </div>
 
-  <p>
-    <%= f.submit %>
-  </p>
+  <div class="row">
+    <h3>The River</h3>
+    <hr>
+    <div class="col-sm-6 col-md-4">
+      <div class='form-group'>
+        <%= f.label :tile1 %><br />
+        <%= f.number_field :tile1 %>
+      </div>
+      <div class='form-group'>
+        <%= f.label :tile2 %><br />
+        <%= f.number_field :tile2 %>
+      </div>
+      <div class='form-group'>
+        <%= f.label :tile3 %><br />
+        <%= f.number_field :tile3 %>
+      </div>
+      <div class='form-group'>
+        <%= f.label :tile4 %><br />
+        <%= f.number_field :tile4 %>
+      </div>
+      <div class='form-group'>
+        <%= f.label :tile5 %><br />
+        <%= f.number_field :tile5 %>
+      </div>
+      <div class='form-group'>
+        <%= f.label :tile6 %><br />
+        <%= f.number_field :tile6 %>
+      </div>
+      <div class='form-group'>
+        <%= f.label :tile7 %><br />
+        <%= f.number_field :tile7 %>
+      </div>
+      <div class='form-group'>
+        <%= f.label :tile8 %><br />
+        <%= f.number_field :tile8 %>
+      </div>
+    </div>
+
+    <div class="col-sm-6 col-md-4">
+      <div class='form-group'>
+        <%= f.label :life1 %><br />
+        <%= f.number_field :life1 %>
+      </div>
+      <div class='form-group'>
+        <%= f.label :life2 %><br />
+        <%= f.number_field :life2 %>
+      </div>
+      <div class='form-group'>
+        <%= f.label :life3 %><br />
+        <%= f.number_field :life3 %>
+      </div>
+      <div class='form-group'>
+        <%= f.label :life4 %><br />
+        <%= f.number_field :life4 %>
+      </div>
+      <div class='form-group'>
+        <%= f.label :life5 %><br />
+        <%= f.number_field :life5 %>
+      </div>
+      <div class='form-group'>
+        <%= f.label :life6 %><br />
+        <%= f.number_field :life6 %>
+      </div>
+      <div class='form-group'>
+        <%= f.label :life7 %><br />
+        <%= f.number_field :life7 %>
+      </div>
+      <div class='form-group'>
+        <%= f.label :life8 %><br />
+        <%= f.number_field :life8 %>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <h3>Special Rules</h3>
+    <hr>
+    <div class="col-sm-6 col-md-8">
+      <div class='form-group'>
+        <%= f.label :special_rules %><br />
+        <%= f.text_area :special_rules, cols: "80", rows: "10" %>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <h3>The Rest</h3>
+    <hr>
+    <div class="col-sm-6 col-md-4">
+      <div class='form-group'>
+        <%= f.label :origin %><br />
+        <%= f.text_area :origin %>
+      </div>
+      <div class='form-group'>
+        <%= f.label :map_ids %><br />
+        <%= f.text_area :map_ids %>
+      </div>
+      <div class='form-group'>
+        <%= f.label :hero_ids %><br />
+        <%= f.text_area :hero_ids %>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-4">
+      <div class='form-group'>
+        <%= f.label :tile_ids %><br />
+        <%= f.text_area :tile_ids %>
+      </div>
+      <div class='form-group'>
+        <%= f.label :spell_ids %><br />
+        <%= f.text_area :spell_ids %>
+      </div>
+      <div class='form-group'>
+        <%= f.label :item_ids %><br />
+        <%= f.text_area :item_ids %>
+      </div>
+    </div>
+  </div><br />
+
+  <div>
+    <%= f.submit :class => 'btn btn-primary' %>
+  </div>
 <% end %>
-
+<br /><br />
 <%= link_to "Back to scenarios", scenarios_path %>

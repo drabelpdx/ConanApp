@@ -2,7 +2,7 @@
 
 <%= form_for @hero do |f| %>
   <div class="row">
-    <h3>Hero</h3>
+    <h3>Stats</h3>
     <hr>
     <div class="col-sm-6 col-md-4">
       <div class='form-group'>
@@ -35,8 +35,6 @@
       </div>
     </div>
   </div>
-  <h3>Stats</h3>
-  <hr
   <div class="row">
     <div class="col-sm-6 col-md-4">
       <div class='form-group'>
@@ -210,7 +208,7 @@
   </div><br /><br />
 
   <p>
-    <%= f.submit %>
+    <%= f.submit :class => 'btn btn-primary'  %>
   </p>
 <% end %>
 <br /><br />

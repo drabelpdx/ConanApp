@@ -40,15 +40,13 @@
         <%= f.label :special_rules %><br />
         <%= f.text_area :special_rules, cols: "80", rows: "10" %>
       </div>
-
     </div>
+  </div><br />
 
-  </div><br /><br />
-
-  <p>
-    <%= f.submit %>
-  </p>
-  <br /><br />
+  <div>
+    <%= f.submit :class => 'btn btn-primary'  %>
+  </div>
 <% end %>
-
+  <br /><br />
+  
 <%= link_to "Back to maps", maps_path %>
