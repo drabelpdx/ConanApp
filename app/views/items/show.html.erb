@@ -84,27 +84,28 @@
             </tr>
           <% end %>
         </table>
-      <% if @item.description != '' %>
-        <br />
-        <p align="center"><%= @item.description %></p>
-      <% end%>
-      <br />
-      <div align="center" class="tiles">
-        <h4>
-          <%= @item.count %>
-          <%= pluralize_no_count(@item.count, 'card') %>
-        </h4>
-        <br />
-      </div>
-    </div>
-    <div class="col-md-5">
-      <% if @item_scenarios.any? %>
-        <br />
-        <h4>Appears in: </h4>
-        <% @item_scenarios.each do |scenario| %>
-          <p><%= link_to scenario.name, scenario_path(scenario) %></p>
+        <% if @item.description != '' %>
+          <br />
+          <p align="center"><%= @item.description %></p>
         <% end%>
-      <% end %>
+        <br />
+        <div align="center" class="tiles">
+          <h4>
+            <%= @item.count %>
+            <%= pluralize_no_count(@item.count, 'card') %>
+          </h4>
+          <br />
+        </div>
+      </div>
+      <div class="col-md-5">
+        <% if @item_scenarios.any? %>
+          <br />
+          <h4>Appears in: </h4>
+          <% @item_scenarios.each do |scenario| %>
+            <p><%= link_to scenario.name, scenario_path(scenario) %></p>
+          <% end%>
+        <% end %>
+      </div>
     </div>
   </div>
 </div>

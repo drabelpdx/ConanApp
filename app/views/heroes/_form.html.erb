@@ -2,7 +2,7 @@
 
 <%= form_for @hero do |f| %>
   <div class="row">
-    <h3>Stats</h3>
+    <h3>Hero</h3>
     <hr>
     <div class="col-sm-6 col-md-4">
       <div class='form-group'>
@@ -16,17 +16,27 @@
     </div>
     <div class="col-sm-6 col-md-4">
       <div class='form-group'>
-        <%= f.label :quote %><br />
-        <%= f.text_area :quote, cols: "30", rows: "5" %>
+        <%= f.label :origin %><br />
+        <%= f.text_area :origin %>
+      </div>
+      <div class='form-group'>
+        <%= f.label :hero_image %><br />
+        <%= f.text_area :hero_image %>
       </div>
     </div>
     <div class="col-sm-6 col-md-4">
+      <div class='form-group'>
+        <%= f.label :quote %><br />
+        <%= f.text_area :quote, cols: "30", rows: "5" %>
+      </div>
       <div class='form-group'>
         <%= f.label :cite %><br />
         <%= f.text_field :cite %>
       </div>
     </div>
   </div>
+  <h3>Stats</h3>
+  <hr
   <div class="row">
     <div class="col-sm-6 col-md-4">
       <div class='form-group'>
@@ -53,10 +63,18 @@
         Defence Die:<br />
         <%= f.radio_button :defense_dice, 'Red' %>
         <%= f.label :defense_dice, 'Red', :value => 'Red' %>
+        <%= f.radio_button :defense_dice, 'Red-Reroll' %>
+        <%= f.label :defense_dice, 'Red-Reroll', :value => 'Red-Reroll' %>
+      </br>
         <%= f.radio_button :defense_dice, 'Orange' %>
         <%= f.label :defense_dice, 'Orange', :value => 'Orange' %>
+        <%= f.radio_button :defense_dice, 'Orange-Reroll' %>
+        <%= f.label :defense_dice, 'Orange-Reroll', :value => 'Orange-Reroll' %>
+      </br>
         <%= f.radio_button :defense_dice, 'Yellow' %>
         <%= f.label :defense_dice, 'Yellow', :value => 'Yellow' %>
+        <%= f.radio_button :defense_dice, 'Yellow-Reroll' %>
+        <%= f.label :defense_dice, 'Yellow-Reroll', :value => 'Yellow-Reroll' %>
       </div>
     </div>
   </div>
@@ -66,10 +84,18 @@
         Melee Die:<br />
         <%= f.radio_button :melee_dice, 'Red' %>
         <%= f.label :melee_dice, 'Red', :value => 'Red' %>
+        <%= f.radio_button :melee_dice, 'Red-Reroll' %>
+        <%= f.label :melee_dice, 'Red-Reroll', :value => 'Red-Reroll' %>
+      </br>
         <%= f.radio_button :melee_dice, 'Orange' %>
         <%= f.label :melee_dice, 'Orange', :value => 'Orange' %>
+        <%= f.radio_button :melee_dice, 'Orange-Reroll' %>
+        <%= f.label :melee_dice, 'Orange-Reroll', :value => 'Orange-Reroll' %>
+      </br>
         <%= f.radio_button :melee_dice, 'Yellow' %>
         <%= f.label :melee_dice, 'Yellow', :value => 'Yellow' %>
+        <%= f.radio_button :melee_dice, 'Yellow-Reroll' %>
+        <%= f.label :melee_dice, 'Yellow-Reroll', :value => 'Yellow-Reroll' %>
       </div>
       <div class='form-group'>
         <%= f.label :melee_exertion %><br />
@@ -81,10 +107,18 @@
         Range Die:<br />
         <%= f.radio_button :ranged_dice, 'Red' %>
         <%= f.label :ranged_dice, 'Red', :value => 'Red' %>
+        <%= f.radio_button :ranged_dice, 'Red-Reroll' %>
+        <%= f.label :ranged_dice, 'Red-Reroll', :value => 'Red-Reroll' %>
+      </br>
         <%= f.radio_button :ranged_dice, 'Orange' %>
         <%= f.label :ranged_dice, 'Orange', :value => 'Orange' %>
+        <%= f.radio_button :ranged_dice, 'Orange-Reroll' %>
+        <%= f.label :ranged_dice, 'Orange-Reroll', :value => 'Orange-Reroll' %>
+      </br>
         <%= f.radio_button :ranged_dice, 'Yellow' %>
         <%= f.label :ranged_dice, 'Yellow', :value => 'Yellow' %>
+        <%= f.radio_button :ranged_dice, 'Yellow-Reroll' %>
+        <%= f.label :ranged_dice, 'Yellow-Reroll', :value => 'Yellow-Reroll' %>
       </div>
       <div class='form-group'>
         <%= f.label :ranged_exertion %><br />
@@ -96,10 +130,18 @@
         Manipulation Die:<br />
         <%= f.radio_button :manipulation_dice, 'Red' %>
         <%= f.label :manipulation_dice, 'Red', :value => 'Red' %>
+        <%= f.radio_button :manipulation_dice, 'Red-Reroll' %>
+        <%= f.label :manipulation_dice, 'Red-Reroll', :value => 'Red-Reroll' %>
+      </br>
         <%= f.radio_button :manipulation_dice, 'Orange' %>
         <%= f.label :manipulation_dice, 'Orange', :value => 'Orange' %>
+        <%= f.radio_button :manipulation_dice, 'Orange-Reroll' %>
+        <%= f.label :manipulation_dice, 'Orange-Reroll', :value => 'Orange-Reroll' %>
+      </br>
         <%= f.radio_button :manipulation_dice, 'Yellow' %>
         <%= f.label :manipulation_dice, 'Yellow', :value => 'Yellow' %>
+        <%= f.radio_button :manipulation_dice, 'Yellow-Reroll' %>
+        <%= f.label :manipulation_dice, 'Yellow-Reroll', :value => 'Yellow-Reroll' %>
       </div>
       <div class='form-group'>
         <%= f.label :manipulation_exersion %><br />
