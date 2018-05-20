@@ -1,12 +1,14 @@
 Rails.application.routes.draw do
-  # The priority is based upon order of creation: first -> highest priority.
-  # See how all your routes lay out with "rake routes".
 
-  # You can have the root of your site routed with "root"
-  # root 'welcome#index'
-
-  root 'pages#home'
   get 'about', to: 'pages#about'
+
+  get 'signup', to: 'users#new'
+  get 'login', to: 'sessions#new'
+  post 'login', to: 'sessions#create'
+  delete 'logout', to: 'sessions#destroy'
+
+  get 'auth/:provider/callback', to: 'sessions#create'
+  get 'auth/failure', to: redirect('/')
 
   resources :heroes
   resources :items
@@ -17,12 +19,16 @@ Rails.application.routes.draw do
   resources :stories
   resources :tiles
 
-  get 'signup', to: 'users#new'
+  resources :sessions, only: [:create, :destroy]
   resources :users, except: [:new]
 
-  get 'login', to: 'sessions#new'
-  post 'login', to: 'sessions#create'
-  delete 'logout', to: 'sessions#destroy'
+  root 'pages#home'
+
+  # The priority is based upon order of creation: first -> highest priority.
+  # See how all your routes lay out with "rake routes".
+
+  # You can have the root of your site routed with "root"
+  # root 'welcome#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

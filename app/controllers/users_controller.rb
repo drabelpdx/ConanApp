@@ -4,7 +4,7 @@ class UsersController < ApplicationController
   before_action :require_admin, only: [:destroy]
 
   def index
-    @users = User.paginate(page: params[:page], per_page: 5)
+    @user = current_user
   end
 
   def new
@@ -16,7 +16,7 @@ class UsersController < ApplicationController
     if @user.save
       session[:user_id] = @user.id
       flash[:success] = "Welcome #{@user.username}"
-      redirect_to user_path(@user)
+      redirect_to root_path
     else
       render 'new'
     end

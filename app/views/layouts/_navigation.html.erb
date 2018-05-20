@@ -8,7 +8,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <%= link_to "Conan", scenarios_path, class: "navbar-brand", id: "logo" %>
+      <%= link_to "Conan", root_path, class: "navbar-brand", id: "logo" %>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -22,50 +22,19 @@
         <li><%= link_to "Items", items_path %></li>
         <li><%= link_to "Skills", skills_path %></li>
         <li><%= link_to "Stories", stories_path %></li>
-
-          <!-- <% if logged_in? %>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Actions <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Another action</a></li>
-              <li><a href="#">Another action</a></li>
-              <li><a href="#">Something else here</a></li>
-              <li role="separator" class="divider"></li>
-              <li><a href="#">Separated link</a></li>
-              <li role="separator" class="divider"></li>
-              <li><a href="#">One more separated link</a></li>
-            </ul>
-          </li>
-        <% end %> -->
       </ul>
+
       <ul class="nav navbar-nav navbar-right">
         <%= form_tag(scenarios_path, :method => "get", id: "search-form", :class => "navbar-form navbar-left") do %>
           <%= text_field_tag :search, params[:search], placeholder: "Search Scenarios" %>
           <%= submit_tag "Search", :name => nil, :class => "btn btn-default" %>
         <% end %>
-      </ul>
-
-      <!-- <ul class="nav navbar-nav navbar-right">
         <% if logged_in? %>
-        <li><%= link_to 'Log out', logout_path, method: :delete %></li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown"
-               role="button" aria-haspopup="true" aria-expanded="false">
-              <%= current_user.admin? ? "Admin" : "Your" %> Profile
-               <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><%= link_to "Edit Profile", edit_user_path(current_user) %></li>
-              <li><%= link_to "View Profile", user_path(current_user) %></li>
-              <li><a href="#">Something else here</a></li>
-              <li role="separator" class="divider"></li>
-              <li><a href="#">Separated link</a></li>
-            </ul>
-          </li>
+          <li><%= link_to 'Log out', logout_path, method: :delete %></li>
         <% else %>
-          <li><%= link_to 'Log in', login_path %></li>
-          <li><%= link_to 'Sign up', signup_path %></li>
+          <%= link_to (image_tag 'misc/btn_google.png'), "/auth/google_oauth2", id: "sign_in" %>
         <% end %>
-      </ul> -->
+      </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
