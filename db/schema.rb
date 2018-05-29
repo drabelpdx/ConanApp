@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171008195958) do
+ActiveRecord::Schema.define(version: 20180522025249) do
 
   create_table "hero_scenarios", force: :cascade do |t|
     t.integer "hero_id"
@@ -86,6 +86,18 @@ ActiveRecord::Schema.define(version: 20171008195958) do
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
+  create_table "ratings", force: :cascade do |t|
+    t.integer  "scenario_id"
+    t.integer  "user_id"
+    t.integer  "score",       default: 0
+    t.integer  "balance",     default: 0
+    t.datetime "created_at",              null: false
+    t.datetime "updated_at",              null: false
+  end
+
+  add_index "ratings", ["scenario_id"], name: "index_ratings_on_scenario_id"
+  add_index "ratings", ["user_id"], name: "index_ratings_on_user_id"
 
   create_table "scenario_spells", force: :cascade do |t|
     t.integer "scenario_id"

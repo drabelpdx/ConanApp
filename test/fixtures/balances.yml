@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  scenario_id: 
+  user_id: 
+  score: 1
+  default: MyString
+  0: MyString
+
+two:
+  scenario_id: 
+  user_id: 
+  score: 1
+  default: MyString
+  0: MyString

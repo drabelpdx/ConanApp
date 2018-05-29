@@ -1,0 +1,55 @@
+$('#rating').raty({
+  readOnly: true,
+  score: <%= @scenario.average_rating %>,
+  path: '/assets'
+});
+
+$('#user_rating').raty({
+  score: <%= @rating.score %>,
+  path: '/assets',
+  click: function(score, evt) {
+    $.ajax({
+      url: '/ratings/' + <%= @rating.id %>,
+      type: 'PATCH',
+      data: { score: score }
+    }).done(function (data){});
+  },
+});
+
+<% if params[:balance] %>
+
+$('#balance').raty({
+  readOnly: true,
+  single: true,
+  iconRange: [
+    { range: 1, on: 'bal1.png' },
+    { range: 2, on: 'bal2.png' },
+    { range: 3, on: 'bal3.png' },
+    { range: 4, on: 'bal4.png' },
+    { range: 5, on: 'bal5.png' }
+  ],
+  score: <%= @scenario.average_balance %>,
+  path: '/assets'
+});
+
+$('#user_balance').raty({
+  score: <%= @rating.balance %>,
+  path: '/assets',
+  single: true,
+  iconRange: [
+    { range: 1, on: 'bal1.png' },
+    { range: 2, on: 'bal2.png' },
+    { range: 3, on: 'bal3.png' },
+    { range: 4, on: 'bal4.png' },
+    { range: 5, on: 'bal5.png' }
+  ],
+  click: function(score, evt) {
+    $.ajax({
+      url: '/ratings/' + <%= @rating.id %>,
+      type: 'PATCH',
+      data: { balance: score }
+    }).done(function (data){});
+  },
+});
+
+<% end %>

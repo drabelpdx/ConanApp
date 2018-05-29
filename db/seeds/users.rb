@@ -9,5 +9,6 @@
   User.create([
     { username: 'drabelpdx', email: 'drabelpdx@gmail.com', password: 'drabelpass', admin: true},
     { username: 'bob', email: 'bob@example.com', password: 'bobpass'},
-    { username: 'bob2', email: 'bob2@example.com', password: 'bob2pass'}
+    { username: 'bob2', email: 'bob2@example.com', password: 'bob2pass'},
+    { username: 'bob3', email: 'bob3@example.com', password: 'bob3pass'}
   ])

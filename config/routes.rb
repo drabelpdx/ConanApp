@@ -18,9 +18,9 @@ Rails.application.routes.draw do
   resources :spells
   resources :stories
   resources :tiles
-
+  resources :ratings, only: :update
   resources :sessions, only: [:create, :destroy]
-  resources :users, except: [:new]
+  resources :users, except: :new
 
   root 'pages#home'
 

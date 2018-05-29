@@ -39,6 +39,17 @@ class ScenariosController < ApplicationController
   end
 
   def show
+    if current_user
+      @rating = Rating.where(scenario_id: @scenario.id, user_id: (current_user.id)).first
+      unless @rating
+        @rating = Rating.create(scenario_id: @scenario.id, user_id: (current_user.id), score: 0, balance: 3)
+      end
+    else
+      @rating = Rating.where(scenario_id: @scenario.id).first
+      unless @rating
+        @rating = Rating.create(scenario_id: @scenario.id, score: 0, balance: 3)
+      end
+    end
   end
 
   def destroy

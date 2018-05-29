@@ -1,5 +1,33 @@
-
 <div class="scenario-well">
+<div class="row">
+  <div class="col-md-8">
+    <div class="col-md-4">
+      <h4>Scenario Rating</h4>
+      <div id="rating"></div>
+      <p>Average rating:  <%= @scenario.average_rating %></p>
+      <p>Based on <%= @scenario.ratings.count %> ratings</p>
+      <br />
+      <% if logged_in? %>
+      <div id="user_rating"></div>
+      <p>Your rating:  <%= @rating.score %></p>
+      <% end %>
+    </div>
+    <div class="col-md-4">
+      <h4>Scenario Balance</h4>
+      <div id="balance"></div>
+      <p>Average balance:  <%= @scenario.average_balance %></p>
+      <p>Based on <%= @scenario.ratings.count %> ratings</p>
+      <br />
+      <% if logged_in? %>
+      <div id="user_balance"></div>
+      <p>Your balance:  <%= @rating.balance %></p>
+      <% end %>
+    </div>
+  </div>
+</div>
+
+<br />
+<br />
   <div align="center" class="scenario">
     <div class="prevnext prevnext_scenario">
       <span class="prev"><%= link_to("<< " + @scenario.previous.name, @scenario.previous) if @scenario.previous %></span>
@@ -194,3 +222,57 @@
     <%= link_to 'Delete', scenario_path(@scenario), method: :delete, data: {confirm: "Are you sure?"} %>
   </div>
 <% end %>
+
+<script>
+  $('#rating').raty({
+    readOnly: true,
+    score: <%= @scenario.average_rating %>,
+    path: '/assets'
+  });
+
+  $('#user_rating').raty({
+    score: <%= @rating.score %>,
+    path: '/assets',
+    click: function(score, evt) {
+      $.ajax({
+        url: '/ratings/' + <%= @rating.id %>,
+        type: 'PATCH',
+        data: { score: score }
+      });
+    }
+  });
+
+  $('#balance').raty({
+    readOnly: true,
+    single: true,
+    iconRange: [
+      { range: 1, on: 'bal1.png' },
+      { range: 2, on: 'bal2.png' },
+      { range: 3, on: 'bal3.png' },
+      { range: 4, on: 'bal4.png' },
+      { range: 5, on: 'bal5.png' }
+    ],
+    score: <%= @scenario.average_balance %>,
+    path: '/assets'
+  });
+
+  $('#user_balance').raty({
+    score: <%= @rating.balance %>,
+    path: '/assets',
+    single: true,
+    iconRange: [
+      { range: 1, on: 'bal1.png' },
+      { range: 2, on: 'bal2.png' },
+      { range: 3, on: 'bal3.png' },
+      { range: 4, on: 'bal4.png' },
+      { range: 5, on: 'bal5.png' }
+    ],
+    click: function(score, evt) {
+      $.ajax({
+        url: '/ratings/' + <%= @rating.id %>,
+        type: 'PATCH',
+        data: { balance: score }
+      });
+    }
+  });
+</script>

@@ -4,6 +4,7 @@ class Scenario < ActiveRecord::Base
   has_many :map_scenarios
   has_many :scenario_spells
   has_many :scenario_tiles
+  has_many :ratings
   has_many :heroes, through: :hero_scenarios
   has_many :items, through: :item_scenarios
   has_many :maps, through: :map_scenarios
@@ -18,6 +19,14 @@ class Scenario < ActiveRecord::Base
            hero_setup LIKE ? OR overlord_setup LIKE ? OR
            special_rules LIKE ?', "%#{search}%", "%#{search}%",
            "%#{search}%", "%#{search}%", "%#{search}%")
+  end
+
+  def average_balance
+    ratings.average(:balance).round
+  end
+
+  def average_rating
+    ratings.average(:score).round
   end
 
   def previous
