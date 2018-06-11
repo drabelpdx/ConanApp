@@ -602,23 +602,23 @@ footer ul li {
 }
 
 .collapsible:after {
-    content: '\02795'; /* Unicode character for "plus" sign (+) */
-    font-size: 13px;
-    color: white;
-    float: right;
-    margin-left: 5px;
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: white;
+  float: right;
+  margin-left: 5px;
 }
 
 .active:after {
-    content: "\2796"; /* Unicode character for "minus" sign (-) */
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
 
 /* Style the collapsible content. Note: hidden by default */
 .content {
-    background-color: #e6e6e6;
-    max-height: 0;
-    margin-left: 5px;
-    margin-right: 5px;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
+  background-color: #e6e6e6;
+  max-height: 0;
+  margin-left: 5px;
+  margin-right: 5px;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
 }
