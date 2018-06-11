@@ -1,33 +1,4 @@
 <div class="scenario-well">
-<div class="row">
-  <div class="col-md-8">
-    <div class="col-md-4">
-      <h4>Scenario Rating</h4>
-      <div id="rating"></div>
-      <p>Average rating:  <%= @scenario.average_rating %></p>
-      <p>Based on <%= @scenario.ratings.count %> ratings</p>
-      <br />
-      <% if logged_in? %>
-      <div id="user_rating"></div>
-      <p>Your rating:  <%= @rating.score %></p>
-      <% end %>
-    </div>
-    <div class="col-md-4">
-      <h4>Scenario Balance</h4>
-      <div id="balance"></div>
-      <p>Average balance:  <%= @scenario.average_balance %></p>
-      <p>Based on <%= @scenario.ratings.count %> ratings</p>
-      <br />
-      <% if logged_in? %>
-      <div id="user_balance"></div>
-      <p>Your balance:  <%= @rating.balance %></p>
-      <% end %>
-    </div>
-  </div>
-</div>
-
-<br />
-<br />
   <div align="center" class="scenario">
     <div class="prevnext prevnext_scenario">
       <span class="prev"><%= link_to("<< " + @scenario.previous.name, @scenario.previous) if @scenario.previous %></span>
@@ -35,6 +6,53 @@
       <span class="next"><%= link_to( @scenario.next.name + " >>", @scenario.next) if @scenario.next %></span>
     </div>
   </div>
+
+  <button class="collapsible">View Ratings</button>
+  <div class="content">
+    <div class="row">
+      <div class="col-md-6">
+        <br />
+        <div class="col-md-6">
+          <div class="s-rating-well">
+            <h5 align="center"> Rating</h5>
+            <div id="rating" align="center"></div>
+          </div><br />
+        </div>
+        <div class="col-md-6">
+          <div class="s-rating-well">
+            <h5 align="center"> Balance</h5>
+              <div id="balance" align="center"></div>
+              <p  align="center">Heroes &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Overlord</p>
+          </div><br />
+        </div>
+        <h4 align="center">Average Score</h4>
+      </div>
+      <% if logged_in? %>
+        <div class="col-md-6">
+          <br />
+          <div class="col-md-6">
+            <div class="s-rating-well">
+              <h5 align="center">Rating</h5>
+              <div id="user_rating" align="center"></div>
+            </div><br />
+          </div>
+          <div class="col-md-6">
+            <div class="s-rating-well">
+              <h5 align="center">Balance</h5>
+              <div id="user_balance" align="center"></div>
+              <p align="center">Heroes &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Overlord</p>
+            </div><br />
+          </div>
+          <h4 align="center">Your Score</h4>
+        </div>
+      <% else %>
+        <br /><br /><br /><br />
+        <p align="center">Sign in to rate this scenario</p>
+      <% end %>
+    </div>
+    <hr>
+  </div>
+
   <div class="row">
     <div class="col-md-12">
       <div class="col-md-4">
@@ -51,28 +69,12 @@
       </div>
       <div class="col-md-8 scenarios" align="center">
         <h1 align="center"><%= @scenario.name %></h1>
-
         <%= image_tag(@scenario.map_image) %>
         <% @scenario.map_ids.each do |id| %>
           <% @map = Map.find_by_id [id] %>
           <h4 class="map"><%= link_to @map.name, map_path(@map) %></h4>
         <% end %>
       </div>
-    </div>
-  </div>
-
-  <div class="row scenario">
-    <h3 align="center" >Winning the Game</h3>
-  </div>
-
-  <div class="row">
-    <div class="col-md-6">
-      <h4>Heroes</h4>
-      <%= @scenario.hero_goal.html_safe %>
-    </div>
-    <div class="col-md-6">
-      <h4>Overlord</h4>
-      <%= @scenario.overlord_goal.html_safe %>
     </div>
   </div>
 
@@ -226,6 +228,7 @@
 <script>
   $('#rating').raty({
     readOnly: true,
+    round: { down: .49, up: .5 },
     score: <%= @scenario.average_rating %>,
     path: '/assets'
   });
@@ -246,12 +249,13 @@
     readOnly: true,
     single: true,
     iconRange: [
-      { range: 1, on: 'bal1.png' },
-      { range: 2, on: 'bal2.png' },
-      { range: 3, on: 'bal3.png' },
-      { range: 4, on: 'bal4.png' },
-      { range: 5, on: 'bal5.png' }
-    ],
+          {range: 1, on: 'marker', off: 'marker-off'},
+          {range: 2, on: 'marker', off: 'marker-off'},
+          {range: 3, on: 'marker', off: 'marker-off'},
+          {range: 4, on: 'marker', off: 'marker-off'},
+          {range: 5, on: 'marker', off: 'marker-off'}
+      ],
+    hints: ['favors Heroes', 'lightly favors', 'balanced', 'lightly favors', 'favors OL'],
     score: <%= @scenario.average_balance %>,
     path: '/assets'
   });
@@ -261,12 +265,13 @@
     path: '/assets',
     single: true,
     iconRange: [
-      { range: 1, on: 'bal1.png' },
-      { range: 2, on: 'bal2.png' },
-      { range: 3, on: 'bal3.png' },
-      { range: 4, on: 'bal4.png' },
-      { range: 5, on: 'bal5.png' }
-    ],
+          {range: 1, on: 'marker', off: 'marker-off'},
+          {range: 2, on: 'marker', off: 'marker-off'},
+          {range: 3, on: 'marker', off: 'marker-off'},
+          {range: 4, on: 'marker', off: 'marker-off'},
+          {range: 5, on: 'marker', off: 'marker-off'}
+      ],
+    hints: ['favors Heroes', 'lightly favors', 'balanced', 'lightly favors', 'favors OL'],
     click: function(score, evt) {
       $.ajax({
         url: '/ratings/' + <%= @rating.id %>,
@@ -275,4 +280,19 @@
       });
     }
   });
+
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.maxHeight){
+        content.style.maxHeight = null;
+      } else {
+        content.style.maxHeight = content.scrollHeight + "px";
+      }
+    });
+  }
 </script>

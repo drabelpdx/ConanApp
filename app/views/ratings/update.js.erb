@@ -1,5 +1,6 @@
 $('#rating').raty({
   readOnly: true,
+  round: { down: .49, up: .5 },
   score: <%= @scenario.average_rating %>,
   path: '/assets'
 });
@@ -22,12 +23,13 @@ $('#balance').raty({
   readOnly: true,
   single: true,
   iconRange: [
-    { range: 1, on: 'bal1.png' },
-    { range: 2, on: 'bal2.png' },
-    { range: 3, on: 'bal3.png' },
-    { range: 4, on: 'bal4.png' },
-    { range: 5, on: 'bal5.png' }
-  ],
+        {range: 1, on: 'marker', off: 'marker-off'},
+        {range: 2, on: 'marker', off: 'marker-off'},
+        {range: 3, on: 'marker', off: 'marker-off'},
+        {range: 4, on: 'marker', off: 'marker-off'},
+        {range: 5, on: 'marker', off: 'marker-off'}
+    ],
+  hints: ['favors Heroes', 'lightly favors', 'balanced', 'lightly favors', 'favors OL'],
   score: <%= @scenario.average_balance %>,
   path: '/assets'
 });
@@ -35,14 +37,15 @@ $('#balance').raty({
 $('#user_balance').raty({
   score: <%= @rating.balance %>,
   path: '/assets',
-  single: true,
+  single: true
   iconRange: [
-    { range: 1, on: 'bal1.png' },
-    { range: 2, on: 'bal2.png' },
-    { range: 3, on: 'bal3.png' },
-    { range: 4, on: 'bal4.png' },
-    { range: 5, on: 'bal5.png' }
-  ],
+        {range: 1, on: 'marker', off: 'marker-off'},
+        {range: 2, on: 'marker', off: 'marker-off'},
+        {range: 3, on: 'marker', off: 'marker-off'},
+        {range: 4, on: 'marker', off: 'marker-off'},
+        {range: 5, on: 'marker', off: 'marker-off'}
+    ],
+  hints: ['favors Heroes', 'lightly favors', 'balanced', 'lightly favors', 'favors OL'],
   click: function(score, evt) {
     $.ajax({
       url: '/ratings/' + <%= @rating.id %>,

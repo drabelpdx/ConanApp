@@ -99,8 +99,8 @@ $navbar-default-bg: #08088A;
 }
 
 .btn-scenario {
-    background-color: #d9edf7;
-    color: #31708f;
+  background-color: #d9edf7;
+  color: #31708f;
 }
 
 .scenario a {
@@ -112,13 +112,13 @@ h1.scenario {
 }
 
 .panel-map > .panel-heading {
-    background-color: #cccccc;
-    color: #666666;
+  background-color: #cccccc;
+  color: #666666;
 }
 
 .panel-map {
-    border-color: #cccccc;
-    color: white;
+  border-color: #cccccc;
+  color: white;
 }
 
 .map a {
@@ -154,8 +154,8 @@ h2.hero {
 }
 
 .btn-tile {
-    background-color: #ebccd1;
-    color: #a94442;
+  background-color: #ebccd1;
+  color: #a94442;
 }
 
 .tile a {
@@ -175,18 +175,18 @@ h2.tile {
 }
 
 .panel-spell > .panel-heading {
-    background-color: #f2ccff;
-    color: #8600b3;
+  background-color: #f2ccff;
+  color: #8600b3;
 }
 
 .panel-spell {
-    border-color: #f2ccff;
-    color: white;
+  border-color: #f2ccff;
+  color: white;
 }
 
 .btn-spell {
-    background-color: #f2ccff;
-    color: #8600b3;
+  background-color: #f2ccff;
+  color: #8600b3;
 }
 
 .spell a {
@@ -206,18 +206,18 @@ h2.spell {
 }
 
 .panel-item > .panel-heading {
-    background-color: #fcf8e3;
-    color: 	#8a6d3b;
+  background-color: #fcf8e3;
+  color: 	#8a6d3b;
 }
 
 .panel-item {
-    border-color:  #fcf8e3;
-    color: white;
+  border-color:  #fcf8e3;
+  color: white;
 }
 
 .btn-item {
-    background-color: #fcf8e3;
-    color: 	#8a6d3b;
+  background-color: #fcf8e3;
+  color: 	#8a6d3b;
 }
 
 .item a {
@@ -296,8 +296,8 @@ h2.skill {
 .scenario h3 {
   background: gray;
   color: white;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -373,6 +373,27 @@ h2.skill {
   background: #e6e6e6;
   padding: 5px;
   border: solid gray 1px;
+}
+
+.rating-well {
+  background: #bfbfbf;
+  padding-top: 5px;
+  border-radius: 5px;
+  min-height: 175px;
+}
+
+.t-rating-well {
+  background: white;
+  padding: 5px;
+  border-radius: 10px;
+  min-height: 5px;
+}
+
+.s-rating-well {
+  background: #bfbfbf;
+  padding: 5px;
+  border-radius: 10px;
+  min-height: 100px;
 }
 
 .river-well {
@@ -486,7 +507,6 @@ h2.skill {
   font-weight: bold;
   text-decoration: underline;
   font-size: 125%;
-
 }
 
 footer {
@@ -517,7 +537,6 @@ footer ul li {
 .prevnext_scenario {
   background: gray;
   line-height: 30px;
-
 }
 
 .prevnext_map {
@@ -562,3 +581,44 @@ footer ul li {
 
 .prevnext .next { float:right }
 .prevnext .prev { float:left }
+
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #bfbfbf;
+}
+
+.collapsible:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: white;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+    background-color: #e6e6e6;
+    max-height: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
