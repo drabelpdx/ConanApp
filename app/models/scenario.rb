@@ -22,13 +22,12 @@ class Scenario < ActiveRecord::Base
   end
 
   def average_balance
-    ratings.average(:balance).round
+    ratings.average(:balance).round()
   end
 
-  def average_rating()
+  def average_rating
     count = ratings.reject { |i| i.score == 0 }
-    ratings.sum(:score) / (count.size.nonzero? || 1).round(2)
-
+    ratings.sum(:score) / (count.size.nonzero? || 1).round(1)
   end
 
   def previous

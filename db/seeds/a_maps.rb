@@ -44,7 +44,7 @@
           <li>There is a line of sight from a ship area to a water area if the
           line of sight does not cross more than one ship area, including the
           line of sight starting area. The ship areas provide an Elevation bonus
-          of (1 Yellow Die) on the water areas. There is a line of sight from a
+          of (1 Yellow die) on the water areas. There is a line of sight from a
           water area to a ship area if the line of sight does not cross more
           than one ship area, including the line of sight finishing area.</li>
         </ol>'
@@ -65,8 +65,8 @@
         of sight to each ground area within the fortress walls.</li>
         <li><strong>Leaping from Walls:</strong> A character can move across a
         parapet from a wall area to a ground area as though it were a border.
-        The character rolls (2 Red Dice) for falling damage. If the character
-        has <a href="/skills/16">Leap</a>, the character rolls (1 Red Die) instead.
+        The character rolls (2 Red dice) for falling damage. If the character
+        has <a href="/skills/16">Leap</a>, the character rolls (1 Red die) instead.
         A character cannot move from a ground area to a wall area.</li>
         <li><strong>Rock Slide:</strong> A character can move into a rock slide
         area <img src="/assets/tokens/rocksToken.png" class="scen_token" /> from
@@ -83,7 +83,7 @@
           A character with or without <a href="/skills/16">Leap</a> or
           <a href="/skills/19">Climb</a> may move onto the bar areas or a table
           area by spending 1 extra movement point. These areas provide an Elevation
-          bonus of (1 Yellow Die). A character in the bar’s area or in a table’s
+          bonus of (1 Yellow die). A character in the bar’s area or in a table’s
           area, with or without Reach, may attack a character in an adjacent area
           with a Melee Attack. These areas do not block line of sight. A character
           may exit these areas with no movement penalty.</li>
@@ -98,16 +98,16 @@
           areas of different elevations.</li>
           <li><strong>Leaping From/Climbing a Balcony:</strong> A character can
           move across a railing from a balcony area to a ground floor area as
-          though it were a border. The character rolls (2 Orange Dice) for falling
+          though it were a border. The character rolls (2 Orange dice) for falling
           damage. If the character has <a href="/skills/16">Leap</a>, the character
-          rolls (1 Orange Die) instead. A character with <a href="/skills/19">Climb</a>
+          rolls (1 Orange die) instead. A character with <a href="/skills/19">Climb</a>
           can move across a railing from a ground floor area to a balcony area by
           spending 2 extra movement points.</li>
           <li><strong>Leaping From/Climbing a Stairwell:</strong> A character can
           move across a banister from a stair area to a ground floor area as though
-          it were a border. The character rolls (2 Yellow Dice) for falling damage.
+          it were a border. The character rolls (2 Yellow dice) for falling damage.
           If the character has <a href="/skills/16">Leap</a>, the character rolls
-          (1 Yellow Die) instead. A character with <a href="/skills/19">Climb</a>
+          (1 Yellow die) instead. A character with <a href="/skills/19">Climb</a>
           can move across a banister from a ground floor area to a stair area by
           spending 1 extra movement point.</li>
         </ol>'
@@ -120,9 +120,9 @@
       <ol>
         <li><strong>Leaping From/Climbing a Balcony:</strong> A character can
         move across a railing from a balcony area to a ground floor area as
-        though it were a border. The character rolls (2 Yellow) for falling damage.
+        though it were a border. The character rolls (2 Yellow dice) for falling damage.
         If the character has <a href="/skills/16">Leap</a>, the character rolls
-        (Yellow) instead. A character with <a href="/skills/19">Climb</a> can
+        (Yellow die) instead. A character with <a href="/skills/19">Climb</a> can
         move across a railing from a ground floor area to a balcony area by
         spending 1 extra movement point.</li>
         <li><strong>Pit:</strong> A character must spend 1 extra movement point
@@ -139,9 +139,9 @@
           <li><strong>Water areas:</strong> A character must spend 1 extra
           movement point to move out of a water area. A character can move from
           a water area to an adjacent wood area by spending 2 extra movement points.</li>
-          <li><a href="/skills/16"><strong>Leap</strong></a>: Leaping over the
-          water area around the altar in a single movement is not possible. The
-          character must stop in the altar area before performing a second leap.</li>
+          <li><strong>Leap:</strong> Leaping over the water area around the altar
+          in a single movement is not possible. The character must stop in the
+          altar area before performing a second leap.</li>
           <li><strong>Wooden Huts:</strong> A character with
           <a href="/skills/11">Wall Wrecker</a> can use it to move across the
           wall of one of the wooden huts.</li>

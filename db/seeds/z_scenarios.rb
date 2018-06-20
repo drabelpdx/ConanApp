@@ -1092,7 +1092,7 @@
             <td>
               <strong>Reinforcement:</strong> 4 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" /> .
-              <br /><strong>Thak s Vengeance:</strong> If it is turn 6 or higher,
+              <br /><strong>Thak’s Vengeance:</strong> If it is turn 6 or higher,
               the Overlord rolls
               <img src="/assets/dice/3 Red.png" class="scen_sq_token" /> , then
               moves any number of gems from their Reserve zone to their Fatigue
