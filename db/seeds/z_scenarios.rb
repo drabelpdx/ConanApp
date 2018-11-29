@@ -9,6 +9,7 @@
   Scenario.create([
 
     ## Core Game
+    # In the Clutches of the Picts
     { name: "In the Clutches of the Picts",
       description: "<p>With the echoing war drums of the Pict tribes settled
         beyond the Black River and the increasedfrequency of incursions up to
@@ -134,8 +135,8 @@
         can use it to move across the wall of one of the wooden huts.</p>
 
         <p><span class="special_title">Climbing:</span>
-        A character with <a class="skill" href="/skills/19">Climb</a>
-        can move across boulders <img src="/assets/tokens/rocksToken.png" class="scen_token" />
+        A character with <a class="skill" href="/skills/19">Climb</a> can move
+        across boulders <img src="/assets/tokens/rocksToken.png" class="scen_token" />
         as though they were a border by spending 2 extra movement points.</p>
 
         <p><span class="special_title">Chests:</span>
@@ -155,6 +156,7 @@
       spell_ids: [6, 9, 16],
       item_ids: [1, 2, 3, 5, 6, 9, 10, 13, 16, 17, 19, 20, 22] },
 
+    # Hunting the Tigress
     { name: "Hunting the Tigress",
       description: "<p>For months, the pirate ship Tigress has been scouring the
         waters off the coasts of Stygia and the Black Kingdoms and preying on
@@ -274,6 +276,7 @@
       spell_ids: [1, 3, 9, 13],
       item_ids: [3, 6, 9, 10, 12, 13, 17, 21, 22, 23] },
 
+    # In the Heart of Darkness
     { name: "In the Heart of Darkness",
       description: "<p>The Tigress travels the dark waters of the Zarkheba river,
         whose mysterious shores are covered by gloomy jungle. The Queen of the
@@ -406,6 +409,7 @@
       spell_ids: [12, 13],
       item_ids: [6, 8, 9, 10, 12, 13, 15, 17, 20, 22] },
 
+    # The Final Ritual
     { name: "The Final Ritual",
       description: "<p>The province of Conajohara is being sacked. United clans
         of Picts have crossed the Black River in massive numbers, intent on
@@ -537,6 +541,7 @@
       spell_ids: [6, 9, 16],
       item_ids: [1, 3, 9, 13, 17, 20] },
 
+    # For All of Ophir’s Gold
     { name: "For All of Ophir’s Gold",
       description: "<p>While visiting the South of the kingdom, Princess Olivia,
         daughter of King Ophir, is set upon by Kothian soldiers. The detachment
@@ -682,6 +687,7 @@
       spell_ids: [7, 13, 15],
       item_ids: [1, 3, 5, 6, 9, 13, 16, 17, 20, 22 ] },
 
+    # The Wrath of Anu
     { name: "The Wrath of Anu",
       description: "<p>Two audacious thieves, a deserter from Gunderland and a
         Cimmerian Barbarian, have forged a reputation among the city-states of
@@ -832,6 +838,7 @@
       spell_ids: [],
       item_ids: [6, 12, 17, 22, 23] },
 
+    # Infernal Pursuit Part I
     { name: "Infernal Pursuit Part I",
       description: "<p>Smelling a trap during a meeting with pirates from the
         Baracha islands, Conan flees Tortage, joining Captain Zaporavo and the
@@ -954,6 +961,7 @@
       spell_ids: [],
       item_ids: [1, 5, 6, 11, 13, 17, 22] },
 
+    # Infernal Pursuit Part II
     { name: "Infernal Pursuit Part II",
       description: '<p><strong>This scenario can be played only after Infernal Pursuit I.</strong></p>
         <p>At the end of Infernal Pursuit I, the Overlord places the Zaporavo
@@ -1040,6 +1048,7 @@
       spell_ids: [],
       item_ids: [1, 11, 13, 17] },
 
+    # Trapped like Rats
     { name: "Trapped like Rats",
       description: "<p>Laughs and shouts ring out as ale-filled mugs are banged
         together. Conan and his companions celebrate, spending the remainder of
@@ -1229,6 +1238,7 @@
       item_ids: [6, 9, 10, 12, 20, 22 ] },
 
     ## King Pledge
+    # Red Dawn
     { name: "Red Dawn",
       description: "<p>The situation is dire. The Aquilonian province of
         Conajohara is on the brink of collapse, drowned under the assault of
@@ -1369,8 +1379,8 @@
         can use it to move across the wall of one of the wooden huts.</p>
 
         <p><span class="special_title">Climbing:</span>
-        A character with <a class="skill" href="/skills/19">Climb</a>
-        can move across boulders <img src="/assets/tokens/rocksToken.png" class="scen_token" />
+        A character with <a class="skill" href="/skills/19">Climb</a> can move
+        across boulders <img src="/assets/tokens/rocksToken.png" class="scen_token" />
         as though they were a border by spending 2 extra movement points.</p>
 
         <p><span class="special_title">Scoring:</span>
@@ -1427,6 +1437,7 @@
       spell_ids: [],
       item_ids: [1, 3, 8, 11, 12, 19, 45, 51, 55, 58] },
 
+    # The Key of Kuthchemes
     { name: "The Key of Kuthchemes",
       description: "<p>The rumor spreads quickly amongst the thieves of Asgalun:
         The Vandal has made port in Pelishtim and its captain, Zaporavo, has
@@ -1563,6 +1574,7 @@
       spell_ids: [],
       item_ids: [4, 6, 9, 13, 17, 22, 23, 24, 28] },
 
+    # In the Name of Ibis
     { name: "In the Name of Ibis",
       description: "<p>The hunt nears its end; on the limits of the kingdom of
         Nemedia, Conan picks up the trail of Skuthus, the sorcerer he has
@@ -1706,6 +1718,7 @@
       spell_ids: [6, 9, 11, 16],
       item_ids: [1, 3, 5, 6, 8, 9, 12, 13, 16, 17, 19, 20, 22 ] },
 
+    # The Crawling Shadow
     { name: "The Crawling Shadow",
       description: "<p>Relentlessly pursued and having finally reached the Black
         Kingdom of Kush, the survivors of the felon prince Almuric’s army are
@@ -1858,8 +1871,8 @@
       spell_ids: [],
       item_ids: [1, 5, 6, 9, 11, 13, 16, 17, 22, 31] },
 
-
     ## Stretch Goal
+    # The Thing from the Swamp
     { name: "The Thing from the Swamp",
       description: "<p>The horrific din rising above the village occupied by the
       fearsome Pict warriors leaves no room for doubt; Conan and his group of volunteers
@@ -1989,6 +2002,7 @@
       spell_ids: [6, 9, 16],
       item_ids: [1, 3, 5, 6, 8, 9, 13, 17, 20, 22, 23, 40] },
 
+      # Facing the Serpent-Specter
     { name: "Facing the Serpent-Specter",
       description: "<p>A relentless hail of arrows flies from the forest to crash
       upon the palisade of Fort Tuscelan. Hordes of naked silhouettes, covered in
@@ -2124,6 +2138,7 @@
       spell_ids: [6, 9, 16],
       item_ids: [1, 3, 9, 13, 17, 20] },
 
+      # The Serpent’s Awakening
     { name: "The Serpent’s Awakening",
       description: "<p>A hurricane of steel thunders in the pass of Shamla. The
         army of the kingdom of Khoraja, led by Conan the Cimmerian mercenary, is
@@ -2262,6 +2277,7 @@
       spell_ids: [],
       item_ids: [4, 5, 6, 9, 11, 12, 13, 16, 20, 22] },
 
+      # The Treasure of Tranicos
     { name: "The Treasure of Tranicos",
       description: "<p>Conan and his companions have been surviving for many months
       under difficult conditions in the head of the bay of Korvela, along the coast
@@ -2411,11 +2427,8 @@
       spell_ids: [],
       item_ids: [3, 11, 12, 13, 16, 17, 38] },
 
-
-      ## Expansions
-
-      # Nordheim
-
+      ## Nordheim
+      # A Red Sun Rises
     { name: "A Red Sun Rises",
       description: "<p>Across the red drifts and mail-clad forms, two figures glared
       at each other. In that utter desolation only they moved. The frosty sky was
@@ -2539,6 +2552,7 @@
       spell_ids: [],
       item_ids: [1, 9, 10, 13, 17, 59] },
 
+      # The Resurrected Horde
     { name: "The Resurrected Horde",
       description: "<p>The clangor of the swords has died away, the shouting of
       the slaughter was hushed; silence lay on the red-stained snow. The bleak
@@ -2679,6 +2693,7 @@
       spell_ids: [58],
       item_ids: [1, 9, 10, 13, 16, 17, 20, 22, 59, 61] },
 
+      # The Hammer and the Anvil
     { name: "The Hammer and the Anvil",
       description: "<p>The snow shone weirdly, now frosty blue, now icy crimson,
       now cold sliver. Through a shimmering icy realm of enchantment Conan plunged
@@ -2799,6 +2814,7 @@
       spell_ids: [58],
       item_ids: [1, 20, 59] },
 
+      # Run Till You Drop
     { name: "Run Till You Drop",
       description: "<p>Conan wheeled, to see the girl standing a short distance
       away, staring at him in wide-eyed horror, all the mockery gone from her face.
@@ -2852,7 +2868,7 @@
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event2.png" class="scen_event"></td>
             <td>
-              <strong>Revitalize:</strong>Atali may transfer 2 gems from any area
+              <strong>Revitalize:</strong> Atali may transfer 2 gems from any area
               on the game board and place them in the Overlord’s Fatigue zone.
               These 2 gems can be taken from 1 or 2 different areas.
             </td>
@@ -2946,9 +2962,8 @@
       spell_ids: [58],
       item_ids: [1, 20, 59] },
 
-
-      # Khitai
-
+      ## Khitai
+      # A Bloody Burglary
     { name: "A Bloody Burglary",
       description: "<p>Conan has reached the kingdom of Khitai and the city of
       Paikang, the town of purple towers whose sumptuous  pagodas overlook the
@@ -3138,6 +3153,7 @@
       spell_ids: [60],
       item_ids: [1, 9, 13, 62, 63, 65,69] },
 
+      # Smoke Screen
     { name: "Smoke Screen",
       description: "<p>After executing their target and planting false evidence
       to distract any investigation, Conan and his companions are ready to leave
@@ -3315,6 +3331,7 @@
       spell_ids: [],
       item_ids: [1, 9, 13, 62, 63, 65,69] },
 
+      # The Remedy
     { name: "The Remedy",
       description: "<p>Zelata the Witch has ventured beyond the lost and haunted
       jungles of the kingdom of Khitai seeking new knowledge since sorcerers from
@@ -3472,6 +3489,7 @@
       spell_ids: [59, 61],
       item_ids: [1, 2, 9, 13, 17, 62, 63, 64, 66, 67, 68, 70, 72] },
 
+      # The Magnificent Three
     { name: "The Magnificent Three",
       description: "<p>A deceptive calm covers the small town nestled in the meanders
       of the river as the peace will soon give way to the chaos of steel and battle
@@ -3600,9 +3618,8 @@
       spell_ids: [12, 13, 14],
       item_ids: [1, 9, 13, 62, 63, 65,69] },
 
-
-      # Stygia
-
+      ## Stygia
+      # The Lost King
     { name: "The Lost King",
       description: "<p>Overthrown by a conspiracy seeking to seat Valerius, the
       heir of the former king Numedides, on the throne of Aquilonia, Conan has
@@ -3806,6 +3823,7 @@
       spell_ids: [62],
       item_ids: [1, 3, 12, 73] },
 
+      # Defeat or Die
     { name: "Defeat or Die",
       description: "<p>The abomination that was lurking beneath the Stygian
       temple has been slain, but Conan is nowhere to be found. As the adventures
@@ -4002,6 +4020,7 @@
       spell_ids: [62, 63, 64],
       item_ids: [1, 3, 12, 73] },
 
+      # The Fifth Plague of Stygia
     { name: "The Fifth Plague of Stygia",
       description: "<p>Peace has returned between the kingdoms of Argos and
       Stygia where a diplomatic meeting is about to take place in the port of
@@ -4149,6 +4168,7 @@
       spell_ids: [1, 6, 9, 11, 13, 16],
       item_ids: [1, 3, 5, 6, 9, 13, 16, 17, 22] },
 
+      # The Curse of the Scorpion
     { name: "The Curse of the Scorpion",
       description: "<p>In the Port of Luxur,  three shadows sneak onto the docks
       alongside the Styx river. There are only a few hours left before the break
@@ -4310,8 +4330,8 @@
       spell_ids: [],
       item_ids: [1, 5, 6, 9, 13, 17, 22, 27, 28, 29, 73, 74, 76] },
 
-
     ## Book of Set
+    # Yara’s Trap
     { name: "Yara’s Trap",
       description: "<p>Yag-Kosha has escaped from centuries of captivity and
         torture in the hands of the mad sorcerer known as Yara, a devil in human
@@ -4425,6 +4445,7 @@
       tile_ids: [1, 3, 12, 15, 18, 19],
       spell_ids: [10, 14], item_ids: [7, 22, 31] },
 
+      # The White Witch
     { name: "The White Witch",
       description: "<p>Far from the disturbing ancestral lands occupied by the
         Pict people, there is a cursed place that the fierce painted warriors
@@ -4565,8 +4586,162 @@
       spell_ids: [9, 20],
       item_ids: [22, 26, 47] },
 
-    ## Sedition
+    # Sedition
+    { name: "Sedition",
+      description: "<p>It is in the vast steppes that separate the sea of Vilay
+      and the borders of the most oriental Hyborian kingdoms that the Kozaks arose
+      in the course of the past half century. Groups of miscreants originally formed
+      of fugitive criminals, devastated men, escaped slaves and deserters. Their
+      nationalities are as varied as their crimes. Evolving in the wild immensity
+      of the steppe and abiding only by their own laws, they have become powerful
+      enough to dare defying Yezdigerd, the Great Monarch, constantly exhausting
+      the Turkish border and retreating in the steppes when defeated.</p>
+      <p>It is at the head of such a group of vultures that Conan devotes himself
+      to the pillaging of the caravans and the harassment of the Turanian outposts,
+      but his choices are soon questioned by some of his lieutenants. While the
+      Cimmerian wishes to march on the city of Akif to punish its lord, the mighty
+      Shah Amurath, for acts of torture, mutilation, and quartering on more than
+      one Kozak comrade, his right arms prefer an easy attack on their way to the
+      Vezek outpost where the caravans pay their right of passage. Such a raid,
+      dangerless, will provide abundant loot.</p>
+      <p>As the challenging of the authority of a Kozaks’ hetman cannot be done
+      in a peaceful manner, Conan is attacked by his men. He must react so as to
+      reinstate his ascendancy and, first and foremost, escape death.</p>",
 
+      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/Sedition.jpg',
+      pdf_link: '',
+      player_count: "2",
+      complexity: "2",
+
+      hero_goal: "If Conan the Mercenary reduces the rebellion level to 0 before
+        the end of turn 7; the hero wins the game.",
+      hero_setup: 'The game starts with the hero’s turn.<br /><br />
+
+      <strong>Suggested hero and Equipment:</strong>
+        <br /><a class="hero" href="/heroes/12">Conan - Mercenary: </a>
+        (<a class="item" href="/items/12">Sword</a>)
+        <br /><br />
+        <p>After setup, the hero moves 5 gems from their Reserve zone to their Fatigue zone.</p>',
+
+      overlord_goal: "If Conan the Mercenary dies or the rebellion is not reduced
+        before the end of turn 7; the Overlord wins the game.",
+      overlord_setup: 'The Overlord starts with 6 gems in their Reserve zone and
+        2 in their Fatigue zone, and places the recovery token showing a recovery
+        value of “3” in the Book of Skelos.
+
+        <table class="scen_table">
+          <tr>
+            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td>
+              <strong>Reinforcement:</strong> 2 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .
+              <br /><strong>Overpowering Conan:</strong> (see special rules).
+            </td>
+          </tr>
+        </table>',
+
+      tile1: 33,
+      tile2: 60,
+      tile3: 18,
+      tile4: 65,
+      tile5: 16,
+      tile6: 61,
+      tile7: 1,
+      tile8: 0,
+
+      life1: 0,
+      life2: 6,
+      life3: 0,
+      life4: 4,
+      life5: 0,
+      life6: 4,
+      life7: 0,
+      life8: 0,
+
+      special_rules: '<p><span class="special_title">Recovery:</span>
+        During setup, the hero places 2 Recovery tokens
+        <img src="/assets/tokens/numBackToken.png" class="scen_token" /> next to
+        their hero’s sheet. During the hero’s Recovery phase, each Recovery token
+        <img src="/assets/tokens/numBackToken.png" class="scen_token" /> placed next
+        to their hero’s sheet counts for a dead hero in terms of Recovery.</p>
+
+        <p><span class="special_title">Rebellion Level: </span>
+        During setup, the Overlord places the Rebellion Level tokens
+        <img src="/assets/stats/reinforcement.png" class="scen_token" />
+        on the position "8" of the turn track. This represents the current
+        Rebellion Level.</p>
+        <p>The Rebellion Level is decreased by 1 if the hero kills at least two
+        models of the Overlord other than Amboola, Kerim Shah and Balthus during
+        the same hero’s turn. The Rebellion Level is each time decreased by 2 when
+        Amboola, Kerim Shah or Balthus dies. The Rebellion Level is each time
+        decreased by 1, when Conan picks up the Axe, the Chain Mail or the Cape.
+        The Rebellion Level is once increased by 1 when the hero has for the first
+        time 6 gems in their Wound zone. The Rebellion Level is increased by 1
+        when both banners are burnt.</p>
+
+        <p><span class="special_title">Legendary Equipment: </span>
+        During setup, the Overlord places as indicated by the setup diagram, the
+        following Equipment cards:
+        <a class="item" href="/items/46">Cape</a>
+        <a class="item" href="/items/16">Chain Mail</a> and
+        <a class="item" href="/items/32">Axe</a>. This is Conan’s Legendary
+        Equipment which he will have to recover to establish his authority.</p>
+
+        <p><span class="special_title">Overpowering Conan: </span>
+        When the Overlord activates this Event, they chose a tile. All models of
+        that tile immediately gain their base move value. The Overlord can use the
+        Movement benefit to purchase extra Movement points. Then, the Overlord
+        creates a dice pool with a <img src="/assets/dice/Orange.png" class="scen_sq_token" />
+        for each of their models located in the same area as the hero, then rolls
+        that dice pool. The hero can then use the guard benefit with no bonus
+        attached to the Equipment, Armors included. If the Overlord’s result is
+        superior to the hero’s, Conan bends his knees and is considered overpowered.
+        Then, the hero removes from the game one of the Recovery tokens which are
+        next to their hero’s sheet. If Conan has been overpowered, the Event
+        "Overpowering Conan" cannot be performed for the rest of the scenario.</p>
+
+        <p><span class="special_title">Banners:</span>
+        During setup, the Overlord places on the board two Banner tokens
+        <img src="/assets/tokens/numBackToken.png" class="scen_token" />
+        as indicated by the setup diagram. If Amboola, Kerim Shah or Balthus area
+        in an area with a Banner token, they can target the banner by performing
+        a Melee attack and roll at least 3 symbols; the banner is burnt and the
+        token is removed from the game. When the second banner is burnt, the hero
+        removes from the game one of the Recovery tokens next to their hero’s sheet.</p>
+
+        <p><span class="special_title">Lines of Sight:</span>
+        A character in a wall area has line of sight to each ground area
+        within the fortress walls. An area in a tower and an area outside
+        that tower are within each other’s line of sight only if the areas
+        are in or adjacent to the tower.</p>
+
+        <p><span class="special_title">Leaping from Walls:</span>
+        A character can move across a parapet from a wall area to
+        a ground area as though it were a border. The character rolls
+        <img src="/assets/dice/2 Red.png" class="scen_sq_token" /> for falling
+        damage. If the character has <a class="skill" href="/skills/16">Leap</a>,
+        the character rolls <img src="/assets/dice/Red.png" class="scen_sq_token" />
+        instead.</p>
+
+        <p><span class="special_title">Rock Slides:</span>
+        A character can move into a rock slide area
+        <img src="/assets/tokens/rocksToken.png" class="scen_token" /> from an
+        adjacent area. The character must spend 2 extra movement points unless
+        the character has <a class="skill" href="/skills/19">Climb</a>.</p>
+
+        <p><span class="special_title">Chests:</span>
+        During setup, the Overlord places 2 chests on the board
+        as indicated by the setup diagram. The asset deck contains:
+        2 <a class="item" href="/items/22">Life Potions</a>',
+
+      origin: "Book of Set",
+      map_ids: [3],
+      hero_ids: [12],
+      tile_ids: [1, 16, 18, 33, 60, 61, 65],
+      spell_ids: [],
+      item_ids: [12, 16, 22, 32, 46] },
+
+    # The Price of Success
     { name: "The Price of Success",
       description: "<p>Captain Zaporavo exults! He, the mercenary hired by the
         king of Zingara, succeeded in capturing a general of the Aquilonian
@@ -4723,6 +4898,7 @@
       spell_ids: [],
       item_ids: [20, 22, 35, 38, 41, 46] },
 
+    # The Cursed Mirrors
     { name: "The Cursed Mirrors",
       description: "<p>The Queen of the Black Coast is pleased. Accompanying
         this priest of Asura named Hadrathus has proved to be the right choice.
@@ -4857,6 +5033,7 @@
       spell_ids: [2, 3, 6, 8, 14, 16],
       item_ids: [7, 12] },
 
+    # Where the Thunder Rumbles
     { name: "Where the Thunder Rumbles",
       description: "<p>Conan and his men have journeyed for several hours from
         Velitrium, the raw, turbulent frontier town situated on the banks of
@@ -4970,8 +5147,139 @@
       spell_ids: [],
       item_ids: [2, 4, 6, 8, 11, 16, 22] },
 
-    ## Damned Resurrection
+    # Damned Resurrection
+    { name: "Damned Resurrection",
+      description: "<p>In the heart of Stygia and guided by Conan the Cimmerian,
+      the priest of Asura named Hadrathus follows on the heels of the sinister
+      King-Priest who reigned over Kuthchemes three thousand years ago. The
+      resurrection of the latter did not go unnoticed in the eyes of those who
+      watch the activity of the cult of Set. For, if today Set no longer exerts
+      a hold over the world as in the past; the return of one of its most faithful
+      and ferocious followers could announce the advent of a new dark age.</p>
+      <p>This is why the disciples of Asura decided to strike as soon as they got
+      wind of the return of Thugra Khotan. He who reigned in terror and blood,
+      sacrificing hundreds of captives to the great glory of the Serpent-God.
+      Unable to raise enough men, in the kingdom where Set is still venerated and
+      so as to put an end to the threat; the disciples of Asura chose to send the
+      best of them, accompanied by Conan; an excellent tracker and a redoubtable warrior.</p>
+      <p>It is not far from the sanctuary of Set, the oasis of Aphaka, that both
+      men join the one who is now known as Natohk. After coming back to life and
+      in a hurry to recover his terrible powers, he hid in this remote place to
+      reenergize and prepare for his return. Unfortunately, and to Hadrathus
+      greatest surprise, the vile sorcerer already has enough power to raise the
+      dead, even if to that end he must use magical artifacts.</p>",
+      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/Damned+Resurrection.jpg',
+      pdf_link: 'http://www.monolithedition.com/conan-en/019-scenario_damned_resurrection-pdf/',
+      player_count: "3",
+      complexity: "2",
 
+      hero_goal: "If the 3 altars are destroyed before the end of turn 6; the heroes win the game.",
+      hero_setup: 'The game starts with the heroes’ turn.<br /><br />
+
+      <strong>Suggested heroes and Equipment:</strong>
+        <br /><a class="hero" href="/heroes/13">Conan - Wander: </a>
+        (<a class="item" href="/items/1">Battle Axe</a> and
+        <a class="item" href="/items/17"> Leather Armor</a>)
+        <br /><a class="hero" href="/heroes/3">Hadrathus: </a>
+        (<a class="item" href="/items/43">Mitra’s Staff</a>,
+        <a class="item" href="/items/12"> Sword</a> and 4 spells:
+        <a class="spell" href="/spells/30"> Eel Skin</a>,
+        <a class="spell" href="/spells/13"> Set’s Halo</a>,
+        <a class="spell" href="/spells/20"> Bel’s Caress</a>,
+        <a class="spell" href="/spells/10"> Mitra’s Healing</a>)
+        <br /><br />
+        <p>After setup, each hero moves 3 gems from their Reserve zone
+        to their Fatigue zone.</p>',
+
+      overlord_goal: "If at least 1 altar is not destroyed at the end of turn 6; the Overlord wins the game.",
+      overlord_setup: 'The Overlord starts with 7 gems in their Reserve zone and
+        3 in their Fatigue zone, and places the recovery token showing a recovery
+        value of “5” in the Book of Skelos.
+
+        <table class="scen_table">
+          <tr>
+            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td>
+              <strong>Reinforcement:</strong> 3 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" /> (see special rules).
+            </td>
+          </tr>
+          <tr>
+            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/NatohkToken.png" class="scen_setup"></td>
+            <td>
+              Nahtok has 2 spells:
+                <a class="spell" href="/spells/12">Set’s Bite</a> and
+                <a class="spell" href="/spells/16">Teleportation</a>.
+            </td>
+          </tr>
+        </table>',
+
+      tile1: 90,
+      tile2: 84,
+      tile3: 58,
+      tile4: 1,
+      tile5: 91,
+      tile6: 44,
+      tile7: 2,
+      tile8: 0,
+
+      life1: 0,
+      life2: 0,
+      life3: 4,
+      life4: 0,
+      life5: 0,
+      life6: 0,
+      life7: 0,
+      life8: 0,
+
+      special_rules: '<p><span class="special_title">Altar:</span>
+        During setup, the Overlord places the Altars tokens
+        <img src="/assets/tokens/numBackToken.png" class="scen_token" /> as
+        indicated by the setup diagram. A hero in an Altar token’s area may
+        perform a complex Manipulation with a difficulty of 2 to destroy that
+        altar and remove that Altar token from the board.</p>
+
+        <p><span class="special_title">Skeletons: </span>
+        When a Skeleton dies, the Overlord lays the model down in its area instead
+        of removing it from the board. The model is no longer considered in play,
+        cannot be activated, does not count regarding occupied areas and when
+        calculating hindering.</p>
+
+        <p><span class="special_title">Reinforcement: </span>
+        When the Overlord uses Reinforcement, they can spend up to 3 Reinforcement
+        points only to bring back into play Skeleton models of the same tile.
+        To do so, they stand up 1 Skeleton model laid down on the board per spent
+        Reinforcement point. Therefore, in this scenario, Mummies cannot return
+        as Reinforcement.</p>
+
+        <p><span class="special_title">Hut Flaps: </span>
+        A character must spend 1 extra movement point to move across a boarder
+        into or out a hut. Moving across an opening token does not cost an extra
+        movement point.</p>
+
+        <p><span class="special_title">Climbing:</span>
+        A character with <a class="skill" href="/skills/19">Climb</a> can move
+        across boulders <img src="/assets/tokens/rocksToken.png" class="scen_token" />
+        as though they were a border by spending 2 extra movement points.</p>
+
+        <p><span class="special_title">Wooden Huts:</span>
+        A character with Wall Wrecker can use it to move across the wall of one
+        of the Wooden Huts.<br />
+
+        <p><span class="special_title">Chests:</span>
+        During setup, the Overlord places 3 chests on the board
+        as indicated by the setup diagram. The asset deck contains:
+        2 <a class="item" href="/items/22">Life Potions</a> and
+        1 <a class="item" href="/items/6">Explosive Orb</a>',
+
+      origin: "Book of Set",
+      map_ids: [1],
+      hero_ids: [3, 13],
+      tile_ids: [1, 2, 44, 58, 84, 90, 91],
+      spell_ids: [10, 12, 13, 16, 20, 30],
+      item_ids: [1, 6, 12, 17, 22, 43] },
+
+    # The Terrible Lovers
     { name: "The Terrible Lovers",
       description: "<p>The pirate ship, The Tigress, is anchored in the harbor
         waters of the great Pelishtim city of Asgalun. After a fruitful campaign
@@ -5114,6 +5422,7 @@
       spell_ids: [],
       item_ids: [3, 4, 6, 22]},
 
+    # A Lion Among Panthers
     { name: "A Lion Among Panthers",
       description: "<p>The man with the broad shoulders grimaces protruding his
         muscles so as to break the ties that hinder him. His clothes are of
@@ -5262,9 +5571,9 @@
         Line of Sight.</p>
 
         <p><span class="special_title">Climb:</span>
-        A character with <a class="skill" href="/skills/19">Climb</a>
-        can move across boulders as though they were a border by spending 2 extra
-        movement points.</p>
+        A character with <a class="skill" href="/skills/19">Climb</a> can move
+        across boulders <img src="/assets/tokens/rocksToken.png" class="scen_token" />
+        as though they were a border by spending 2 extra movement points.</p>
 
         <p><span class="special_title">Wooden Huts:</span>
         A character with <a class="skill" href="/skills/11">Wall Wrecker</a>
@@ -5277,9 +5586,7 @@
       spell_ids: [12],
       item_ids: [17, 22, 25, 32, 40, 49, 55] },
 
-
-    ## The Last Ditch Invocation
-
+    # The Last Ditch Invocation
     { name: "The Last Ditch Invocation",
       description: "<p>A satisfied smile appears on the emaciated face of Pelias
         the Sorcerer, a mighty mage of Koth’s court. Centenary codices, discovered
@@ -5460,9 +5767,7 @@
       spell_ids: [1, 9, 12, 13, 16, 20, 35],
       item_ids: [3, 36, 43, 49] },
 
-
-    ## For the Blood of a Barbarian
-
+    # For the Blood of a Barbarian
     { name: "For the Blood of a Barbarian",
       description: "<p> Akivasha has not forgotten the vigorous barbarian of the
         North of which she tried to feed herself in her lair, under the pyramid of
@@ -5679,7 +5984,7 @@
       spell_ids: [1, 6, 35, 47],
       item_ids: [2, 4, 6, 12, 18, 20, 22 ] },
 
-
+    # Death from the North
     { name: "Death from the North",
       description: "<p>The keen eye of the imposing figure scrutinizes every
         corner of the peaceful Brythunian village. Hidden at the edge of the
@@ -5874,6 +6179,7 @@
       spell_ids: [11, 55],
       item_ids: [18, 12, 20, 21, 22, 29, 38, 39, 45] },
 
+    # Conspiracy in Khauran
     { name: "Conspiracy in Khauran",
       description: "<p>Khauran is a small country, wedged between the great
         Western states and the sultanates of the Far East. Its major city—also
@@ -6012,6 +6318,7 @@
       spell_ids: [7, 15],
       item_ids: [4, 10, 12, 16, 17, 20, 24] },
 
+    # Yogah’s Rebirth
     { name: "Yogah’s Rebirth",
       description: "<p>The steep walls of the ancient fortress obscure the
         bottom of the valley. There, in the confines of the world known to
@@ -6164,6 +6471,7 @@
       spell_ids: [1, 3, 4, 6, 8, 10, 14, 16],
       item_ids: [2, 10, 11, 12, 14, 17, 22, 29] },
 
+    # A Dragon on the Marches
     { name: "A Dragon on the Marches",
       description: "<p>The rumor was true. The Pict warriors of the Eagle Clan
         have succeeded in capturing a dragon; one of the terrible primitive
@@ -6303,8 +6611,8 @@
         not cost an extra movement point.</p>
 
         <p><span class="special_title">Climbing:</span>
-        A character with <a class="skill" href="/skills/19">Climb</a>
-        can move across boulders <img src="/assets/tokens/rocksToken.png" class="scen_token" />
+        A character with <a class="skill" href="/skills/19">Climb</a> can move
+        across boulders <img src="/assets/tokens/rocksToken.png" class="scen_token" />
         as though they were a border by spending 2 extra movement points.</p>
 
         <p><span class="special_title">Wooden Huts:</span>
@@ -6325,9 +6633,7 @@
       spell_ids: [7, 12, 16, 30, 55],
       item_ids: [1, 8, 11, 17, 25, 35, 36, 42, 48] },
 
-
-    ## An Ape, Several Kegs and a Girl
-
+    # An Ape, Several Kegs and a Girl
     { name: "An Ape, Several Kegs and a Girl",
       description: "<p>In the Khorshemish region, a small group of individuals
       climb steep slopes flanking a decrepit fortress. Conan the Cimmerian leads
@@ -6516,7 +6822,7 @@
       spell_ids: [12, 13, 30],
       item_ids: [3, 4, 10, 17, 22, 34, 40, 42] },
 
-
+    # The Zamboula Strangler
     { name: "The Zamboula Strangler",
       description: "<p>In the past Zamboula was but a small trading-town, lying
         amidst a ring of oases. It was conquered by the Stygians and they built
@@ -6691,6 +6997,7 @@
       spell_ids: [1, 6, 12, 35],
       item_ids: [4, 6, 11, 13, 22, 24, 35, 41, 54] },
 
+    # Sacrificial Heroes
     { name: "Sacrificial Heroes",
       description: "<p>Zingara is a proud and powerful country, bordering the
         great western sea. Yet for many years, even though the country is
@@ -6907,8 +7214,8 @@
         extra movement point.</p>
 
         <p><span class="special_title">Climbing:</span>
-        A character with <a class="skill" href="/skills/19">Climb</a>
-        can move across boulders <img src="/assets/tokens/rocksToken.png" class="scen_token" />
+        A character with <a class="skill" href="/skills/19">Climb</a> can move
+        across boulders <img src="/assets/tokens/rocksToken.png" class="scen_token" />
         as though they were a border by spending 2 extra movement points.</p>
 
         <p><span class="special_title">Wooden Huts:</span>
@@ -6941,6 +7248,7 @@
       spell_ids: [6, 12, 13, 20, 35, 41, 46, 47],
       item_ids: [6, 11, 12, 14, 22, 35, 36, 38, 42, 45, 48, ] },
 
+    # The Curse of the Shape-Shifter
     { name: "The Curse of the Shape-Shifter",
       description: "<p>Bahram, the influential sorcerer in the service of the
         Sultan of Iranistan, has lost control of his powers. He has become a
@@ -7144,8 +7452,7 @@
       spell_ids: [9, 47],
       item_ids: [1, 3, 11, 12, 14, 32, 38, 40] },
 
-    ## The Iron Hand
-
+    # The Iron Hand
     { name: "The Iron Hand",
       description: "<p>Under the low ceiling, blackened by the smoke of a sordid
       dive engulfed in the tortuous alleys of Peshkhauri, the atmosphere suddenly
@@ -7340,8 +7647,7 @@
       spell_ids: [1, 37],
       item_ids: [6] },
 
-
-
-    # Campaign
+    ## Campaign
+    ## Monlith Website
 
   ])
