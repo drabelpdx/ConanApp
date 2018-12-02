@@ -5207,7 +5207,7 @@
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/NatohkToken.png" class="scen_setup"></td>
             <td>
-              Nahtok has 2 spells:
+              Natohk has 2 spells:
                 <a class="spell" href="/spells/12">Set’s Bite</a> and
                 <a class="spell" href="/spells/16">Teleportation</a>.
             </td>

@@ -375,24 +375,17 @@ h2.skill {
   border: solid gray 1px;
 }
 
-.rating-well {
-  background: #bfbfbf;
-  padding-top: 5px;
-  border-radius: 5px;
-  min-height: 175px;
-}
-
 .t-rating-well {
-  background: white;
-  padding: 5px;
-  border-radius: 10px;
-  min-height: 5px;
+  background: #bfbfbf;
+  padding: 2px;
+  border-radius: 5px;
+  min-height: 100px;
 }
 
 .s-rating-well {
-  background: #bfbfbf;
-  padding: 5px;
-  border-radius: 10px;
+  background: #f2f2f2;
+  padding: 2px;
+  border-radius: 5px;
   min-height: 100px;
 }
 
@@ -581,49 +574,3 @@ footer ul li {
 
 .prevnext .next { float:right }
 .prevnext .prev { float:left }
-
-
-/* Style the button that is used to open and close the collapsible content */
-.collapsible {
-  background-color: #eee;
-  color: #444;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-}
-
-/* Style the collapsible content. Note: hidden by default */
-.content {
-  background-color: #e6e6e6;
-  max-height: 0;
-  margin-left: 5px;
-  margin-right: 5px;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-}
-
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.collapsible:hover {
-  background-color: #bfbfbf;
-}
-
-.collapsible:after {
-  content: '\02795'; /* Unicode character for "plus" sign (+) */
-  font-size: 13px;
-  color: white;
-  float: right;
-  margin-left: 5px;
-}
-
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-#ratingContent.active {
-  background-color: #bfbfbf;
-}
-
-#ratingContent.active:after {
-  content: "\2796"; /* Unicode character for "minus" sign (-) */
-}
