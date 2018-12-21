@@ -30,7 +30,7 @@
         </div>
       </div>
       <div class="col-md-7">
-        <div class="col-md-6">
+        <div class="col-md-7">
           <br />
           <table>
             <% if @tile.skills.any? %>
@@ -69,27 +69,33 @@
                 </th>
               </tr>
             <% end %>
-            <% if @tile.melee_dice != '–' %>
+
+            <% if @tile.melee != '–' %>
               <tr>
                 <th>
                   <%= image_tag "stats/melee.png" %>
                   <br />Melee
                 </th>
-                <td>
-                  <%= image_tag "dice/#{@tile.melee_dice}.png" %><br />
-                  <%= @tile.melee_dice %>
+                <td class="thumbs">
+                  <% @tile.bones.each do |bone| %>
+                    <%= image_tag "dice/#{bone.name}.png" %>
+                  <% end%>
+                  <br /><%= @tile.melee %>
                 </td>
               </tr>
             <% end %>
-            <% if @tile.ranged_dice != '–' %>
+
+            <% if @tile.ranged != '–' %>
               <tr>
                 <th>
                   <%= image_tag "stats/range.png" %>
                   <br />Ranged
                 </th>
-                <td>
-                  <%= image_tag "dice/#{@tile.ranged_dice}.png" %><br />
-                  <%= @tile.ranged_dice %>
+                <td class="thumbs">
+                  <% @tile.bones.each do |bone| %>
+                    <%= image_tag "dice/#{bone.name}.png" %>
+                  <% end%>
+                  <br /><%= @tile.ranged %>
                 </td>
               </tr>
             <% end %>
@@ -105,7 +111,7 @@
             </tr>
           </table>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-5">
          <br />
           <% if @tile_scenarios.any? %>
             <h4>Appears in:</h4>

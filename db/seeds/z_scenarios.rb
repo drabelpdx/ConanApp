@@ -6,7 +6,7 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-  Scenario.create([
+  Scenario.create!([
 
     ## Core Game
     # In the Clutches of the Picts

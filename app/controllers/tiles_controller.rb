@@ -1,5 +1,6 @@
 class TilesController < ApplicationController
   before_action :set_tile, only: [:edit, :update, :show, :destroy]
+  before_action :set_bones, only: [:new, :create, :edit, :update, :show]
   before_action :set_skills, only: [:new, :create, :edit, :update, :show]
   before_action :set_roles, only: [:index]
   before_action :set_stories, only: [:new, :create, :edit, :update, :show]
@@ -53,9 +54,15 @@ class TilesController < ApplicationController
 
     def tile_params
       params.require(:tile).permit(:name, :description, :role, :move, :armor,
-                                   :melee_dice, :ranged_dice, :origin, :count,
+                                   :melee, :ranged, :origin, :count,
                                    :figure_image, :tile_image, :token_image,
-                                   :cost, skill_ids: [], story_ids: [])
+                                   :cost, bone_ids: [], skill_ids: [], story_ids: [])
+    end
+
+    def set_bones
+      @red = Bone.where(name: 'Red')
+      @orange = Bone.where(name: 'Orange')
+      @yellow = Bone.where(name: 'Yellow')
     end
 
     def set_skills

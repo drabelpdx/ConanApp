@@ -11,7 +11,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180522025249) do
+ActiveRecord::Schema.define(version: 20181221012521) do
+
+  create_table "bone_tiles", force: :cascade do |t|
+    t.integer "bone_id"
+    t.integer "tile_id"
+  end
+
+  create_table "bones", force: :cascade do |t|
+    t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "hero_scenarios", force: :cascade do |t|
     t.integer "hero_id"
@@ -188,8 +199,8 @@ ActiveRecord::Schema.define(version: 20180522025249) do
     t.string   "move"
     t.string   "armor"
     t.string   "cost"
-    t.string   "melee_dice"
-    t.string   "ranged_dice"
+    t.string   "melee"
+    t.string   "ranged"
     t.string   "origin"
     t.string   "count"
     t.string   "figure_image"

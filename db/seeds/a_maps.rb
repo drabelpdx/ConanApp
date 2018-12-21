@@ -6,7 +6,7 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-  Map.create([
+  Map.create!([
 
     ## Core Game
     { name: 'The Pict Village', description: "The Pict Village", flip_side: 'The Inn',

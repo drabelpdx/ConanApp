@@ -10,8 +10,9 @@
     <div class="col-md-12">
       <div class="col-md-4">
         <br />
-        <h4 align="center">Players: <%= @scenario.player_count %>&nbsp;&nbsp;&nbsp;
-                           Complexity: <%= @scenario.complexity %></h4>
+        <h4 align="center"><%= @scenario.player_count %>&nbsp;Players&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                           <%= @scenario.complexity %>
+                           <%= pluralize_no_count(@scenario.complexity, 'Crow') %></h4>
         <p align="center">
           <% if @scenario.pdf_link != "" %>
             <%= link_to "Grab the PDF for this scenario from Monolith", "#{@scenario.pdf_link}", :target => "_blank" %>
@@ -53,13 +54,13 @@
       <% if logged_in? %>
         <div class="col-md-6">
           <div class="t-rating-well">
-            <h5 align="center">Rate Scenario</h5>
+            <h5 align="center">Your Rating</h5>
             <div id="user_rating" align="center"></div>
           </div>
         </div>
         <div class="col-md-6">
           <div class="t-rating-well">
-            <h5 align="center">Scenario Favors</h5>
+            <h5 align="center">This Scenario Favors</h5>
             <div id="user_balance" align="center"></div>
             <p align="center">Heroes &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Overlord</p>
           </div>

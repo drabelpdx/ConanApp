@@ -6,7 +6,7 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-  Spell.create([
+  Spell.create!([
 
     ## Core Game
     { name: "Bori’s Rage", cost: '2', limit: '2', area: 'No', instant: 'No', origin: "Core Game", count: '1',

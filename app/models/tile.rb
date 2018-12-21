@@ -1,7 +1,9 @@
 class Tile < ActiveRecord::Base
+  has_many :bone_tiles
   has_many :skill_tiles
   has_many :story_tiles
   has_many :scenario_tiles
+  has_many :bones, through: :bone_tiles
   has_many :skills, through: :skill_tiles
   has_many :stories, through: :story_tiles
   has_many :scenarios, through: :scenario_tiles

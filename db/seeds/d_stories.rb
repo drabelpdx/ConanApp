@@ -6,7 +6,7 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-  Story.create([
+  Story.create!([
     { name: 'The Phoenix on the Sword', aka: '', origin: 'Weird Tales' },
     { name: 'The Scarlet Citadel', aka: '', origin: 'Weird Tales' },
     { name: 'The Tower of the Elephant', aka: '', origin: 'Weird Tales' },

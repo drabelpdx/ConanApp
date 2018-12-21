@@ -6,7 +6,7 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-  Hero.create([
+  Hero.create!([
 
     # Core Game
     { name: 'Bêlit', description: "Queen of the Black Coast ",
