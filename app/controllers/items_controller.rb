@@ -34,6 +34,7 @@ class ItemsController < ApplicationController
   end
 
   def show
+    @bone_list = Bone.all
     @item_scenarios = @item.scenarios
   end
 
@@ -50,7 +51,7 @@ class ItemsController < ApplicationController
 
     def item_params
       params.require(:item).permit(:name, :encumbrance, :origin, :count, :armor,
-      :melee_dice, :ranged_dice, :defense_dice, :manipulation_dice, :role,
+      :melee, :ranged, :defense, :dice, :manipulation, :role,
       :description)
     end
 

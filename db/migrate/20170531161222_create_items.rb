@@ -6,10 +6,11 @@ class CreateItems < ActiveRecord::Migration
       t.string :origin
       t.string :count
       t.string :armor
-      t.string :melee_dice
-      t.string :ranged_dice
-      t.string :defense_dice
-      t.string :manipulation_dice
+      t.string :melee
+      t.string :ranged
+      t.text :dice
+      t.string :defense
+      t.string :manipulation
       t.string :role
       t.string :description
       t.timestamps

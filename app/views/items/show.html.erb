@@ -23,65 +23,105 @@
               </th>
             </tr>
           <% end%>
-          <% if @item.armor != '' %>
-            <tr>
-              <th>
-                <%= image_tag "stats/armor.png" %>
-                <br />Armor
-              </th>
-              <td>
-                <%= image_tag "dice/#{@item.armor}.png" %><br />
-                <%= @item.armor %>
-              </td>
-            </tr>
-          <% end %>
-          <% if @item.melee_dice != '' %>
-            <tr>
-              <th>
-                <%= image_tag "stats/melee.png" %>
-                <br />Melee
-              </th>
-              <td>
-                <%= image_tag "dice/#{@item.melee_dice}.png" %><br />
-                <%= @item.melee_dice %>
-              </td>
-            </tr>
-          <% end %>
-          <% if @item.ranged_dice != '' %>
-            <tr>
-              <th>
-                <%= image_tag "stats/range.png" %>
-                <br />Ranged
-              </th>
-              <td>
-                <%= image_tag "dice/#{@item.ranged_dice}.png" %><br />
-                <%= @item.ranged_dice %>
-              </td>
-            </tr>
-          <% end %>
-          <% if @item.defense_dice != '' %>
-            <tr>
-              <th>
-                <%= image_tag "stats/defense.png" %>
-                <br />Defense
-              </th>
-              <td>
-                <%= image_tag "dice/#{@item.defense_dice}.png" %><br />
-                <%= @item.defense_dice %>
-              </td>
-            </tr>
-          <% end %>
-          <% if @item.manipulation_dice != '' %>
-            <tr>
-              <th>
-                <%= image_tag "stats/manipulation.png" %>
-                <br />Manipulation
-              </th>
-              <td>
-                <%= image_tag "dice/#{@item.manipulation_dice}.png" %><br />
-                <%= @item.manipulation_dice %>
-              </td>
-            </tr>
+          <% if @item.dice != '' %>
+            <% myHash = eval(@item.dice) %>
+            <% myHash.each do |key, array| %>
+              <% if "#{key}" === "armor" %>
+                <tr>
+                  <th>
+                    <%= image_tag "stats/armor.png" %>
+                    <br />Armor
+                  </th>
+                  <td>
+                    <% array.each do |die| %>
+                      <% @bone_list.each do |bone| %>
+                        <% if bone.id === die  %>
+                          <%= image_tag "dice/#{bone.name}.png" %>
+                        <% end %>
+                      <% end %>
+                    <% end %>
+                    <br />
+                    <%= @item.armor %>
+                  </td>
+                </tr>
+              <% end %>
+              <% if "#{key}" === "melee" %>
+                <tr>
+                  <th>
+                    <%= image_tag "stats/melee.png" %>
+                    <br />Melee
+                  </th>
+                  <td>
+                    <% array.each do |die| %>
+                      <% @bone_list.each do |bone| %>
+                        <% if bone.id === die  %>
+                          <%= image_tag "dice/#{bone.name}.png" %>
+                        <% end %>
+                      <% end %>
+                    <% end %>
+                    <br />
+                    <%= @item.melee %>
+                  </td>
+                </tr>
+              <% end %>
+              <% if "#{key}" === "ranged" %>
+                <tr>
+                  <th>
+                    <%= image_tag "stats/range.png" %>
+                    <br />Ranged
+                  </th>
+                  <td>
+                    <% array.each do |die| %>
+                      <% @bone_list.each do |bone| %>
+                        <% if bone.id === die  %>
+                          <%= image_tag "dice/#{bone.name}.png" %>
+                        <% end %>
+                      <% end %>
+                    <% end %>
+                    <br />
+                    <%= @item.ranged %>
+                  </td>
+                </tr>
+              <% end %>
+              <% if "#{key}" === "defense" %>
+                <tr>
+                  <th>
+                    <%= image_tag "stats/defense.png" %>
+                    <br />Defense
+                  </th>
+                  <td>
+                    <% array.each do |die| %>
+                      <% @bone_list.each do |bone| %>
+                        <% if bone.id === die  %>
+                          <%= image_tag "dice/#{bone.name}.png" %>
+                        <% end %>
+                      <% end %>
+                    <% end %>
+                    <br />
+                    <%= @item.defense %>
+                  </td>
+                </tr>
+              <% end %>
+              <% if "#{key}" === "manipulation" %>
+                <tr>
+                  <th>
+                    <%= image_tag "stats/manipulation.png" %>
+                    <br />Manipulation
+                  </th>
+                  <td>
+                    <% array.each do |die| %>
+                      <% @bone_list.each do |bone| %>
+                        <% if bone.id === die  %>
+                          <%= image_tag "dice/#{bone.name}.png" %>
+                        <% end %>
+                      <% end %>
+                    <% end %>
+                    <br />
+                    <%= @item.manipulation %>
+                  </td>
+                </tr>
+              <% end %>
+            <% end %>
           <% end %>
         </table>
         <% if @item.description != '' %>

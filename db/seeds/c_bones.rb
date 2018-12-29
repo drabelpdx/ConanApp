@@ -13,5 +13,6 @@
     { name: 'Orange-Reroll' },
     { name: 'Yellow' },
     { name: 'Yellow-Reroll' },
-    { name: 'Throw' }
+    { name: 'Throw' },
+    { name: 'Area' }
   ])

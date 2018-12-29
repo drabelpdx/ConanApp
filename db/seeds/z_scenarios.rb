@@ -382,12 +382,12 @@
 
         <p><span class="special_title">Leaping from Walls:</span>
         A character can move across a parapet from a wall area to a ground area
-        as though it were a border. The character rolls
-        <img src="/assets/dice/2 Red.png" class="scen_sq_token" />
-        for falling damage. If the character has
-        <a class="skill" href="/skills/16">Leap</a>, the character rolls
+        as though it were a border. The character rolls 2 Red
         <img src="/assets/dice/Red.png" class="scen_sq_token" />
-        1 Red die instead.</p>
+        <img src="/assets/dice/Red.png" class="scen_sq_token" />
+        dice for falling damage. If the character has
+        <a class="skill" href="/skills/16">Leap</a>, the character rolls
+        1 Red <img src="/assets/dice/Red.png" class="scen_sq_token" /> die instead.</p>
 
         <p><span class="special_title">Rock Slides:</span>
         A character can move into a rock slide area
@@ -476,10 +476,10 @@
               Each unit in that unit’s group that was returned to the board by
               that event gains up to 2 movement points, which the Overlord must
               immediately spend.
-              <br /><strong>Incantation:</strong> A hero rolls
-              <img src="/assets/dice/Yellow.png" class="scen_sq_token" />
-              for each relic on the board. These dice cannot be rerolled. For each
-              symbol shown on a die, the hero moves the invocation marker
+              <br /><strong>Incantation:</strong> A hero rolls 1 Yellow
+              <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> die
+              for each relic on the board. These dice cannot be rerolled.
+              For each symbol shown on a die, the hero moves the invocation marker
               <img src="/assets/tokens/invocationToken.png" class="scen_token" />
               1 space toward the space 0 on the track.
             </td>
@@ -599,7 +599,8 @@
               <strong>Reinforcement:</strong> 4 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" /> .
               <br /><strong>Rocks Fall:</strong> The Overlord chooses an area and
-              rolls <img src="/assets/dice/2 Red.png" class="scen_sq_token" /> .
+              rolls 2 Red <img src="/assets/dice/Red.png" class="scen_sq_token" />
+              <img src="/assets/dice/Red.png" class="scen_sq_token" /> dice.
               Each character in that area suffers damage equal to the
               number of symbols shown on the dice.
             </td>
@@ -660,11 +661,12 @@
 
         <p><span class="special_title">Leaping from Walls:</span>
         A character can move across a parapet from a wall area to a ground area
-        as though it were a border. The character rolls
-        <img src="/assets/dice/2 Red.png" class="scen_sq_token" /> for falling
-        damage. If the character has <a class="skill" href="/skills/16">Leap</a>,
-        the character rolls <img src="/assets/dice/Red.png" class="scen_sq_token" />
-        instead.</p>
+        as though it were a border. The character rolls 2 Red
+        <img src="/assets/dice/Red.png" class="scen_sq_token" />
+        <img src="/assets/dice/Red.png" class="scen_sq_token" /> dice for
+        falling damage. If the character has
+        <a class="skill" href="/skills/16">Leap</a>, the character rolls 1 Red
+        <img src="/assets/dice/Red.png" class="scen_sq_token" /> die instead.</p>
 
         <p><span class="special_title">Rock Slides:</span>
         A character can move into a rock slide area
@@ -776,10 +778,10 @@
 
       special_rules: '<p><span class="special_title">Interrogation:</span>
         A hero in an area with a priest can move 1 gem from their Reserve zone
-        to their Fatigue zone to roll
-        <img src="/assets/dice/Red.png" class="scen_sq_token" />. This roll is
-        not affected by hindering. Resolve one of the following effects based
-        on the number of symbols shown on the die:
+        to their Fatigue zone to roll 1 Red
+        <img src="/assets/dice/Red.png" class="scen_sq_token" /> die. This roll
+        is not affected by hindering. Resolve one of the following effects
+        based on the number of symbols shown on the die:
         <br /><strong>0:</strong> The priest resists interrogation; no effect.
         <br /><strong>1-2:</strong> The priest talks; if the priest can break
         the curse, the curse is broken. The Overlord informs the hero whether or
@@ -805,21 +807,24 @@
 
         <p><span class="special_title">Leaping From/Climbing a Balcony:</span>
         A character can move across a railing from a balcony area to a ground
-        floor area as though it were a border. The character rolls
-        <img src="/assets/dice/2 Orange.png" class="scen_sq_token" /> for falling
-        damage. If the character has <a class="skill" href="/skills/16">Leap</a>,
-        the character rolls <img src="/assets/dice/Orange.png" class="scen_sq_token" />
+        floor area as though it were a border. The character rolls 2 Orange
+        <img src="/assets/dice/Orange.png" class="scen_sq_token" />
+        <img src="/assets/dice/Orange.png" class="scen_sq_token" /> dice
+        for falling damage. If the character has
+        <a class="skill" href="/skills/16">Leap</a>, the character rolls 1
+        Orange <img src="/assets/dice/Orange.png" class="scen_sq_token" /> die
         instead. A character with <a class="skill" href="/skills/19">Climb</a>
         can move across a railing from a ground floor area to a balcony area by
         spending 2 extra movement points.</p>
 
         <p><span class="special_title">Leaping From/Climbing a Stairwell:</span>
         A character can move across a banister from a stair area to a ground
-        floor area as though it were a border. The character rolls
-        <img src="/assets/dice/2 Yellow.png" class="scen_sq_token" />
-        for falling damage.
-        If the character has <a class="skill" href="/skills/16">Leap</a>, the
-        character rolls <img src="/assets/dice/Yellow.png" class="scen_sq_token" />
+        floor area as though it were a border. The character rolls 2 Yellow
+        <img src="/assets/dice/Yellow.png" class="scen_sq_token" />
+        <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> dice
+        for falling damage. If the character has
+        <a class="skill" href="/skills/16">Leap</a>, the character rolls 1
+        Yellow <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> die
         instead. A character with <a class="skill" href="/skills/19">Climb</a>
         can move across a banister from a ground floor area to a stair area by
         spending 1 extra movement point.</p>
@@ -893,16 +898,16 @@
             <td>
               <strong>Reinforcement:</strong> 4 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" /> .
-              (Maximum limit of 5 Pirates for each Pirates unit tile at any one time.).
+              (Maximum limit of 5 Pirates for each Pirates unit tile at any one time)
               <br /><strong>Rogue Wave:</strong> A huge wave rocks the ship; the
-              Overlord rolls <img src="/assets/dice/Red.png" class="scen_sq_token" /> .
-              For each symbol shown on the die, the Overlord
-              either moves a hero up to 3 ship areas or removes a mutineering
-              Pirate from the board. A hero cannot be moved into a water area.
-              <br /><strong>Turncoats:</strong> The Overlord rolls
-              <img src="/assets/dice/Red.png" class="scen_sq_token" /> . For each
-              symbol shown on the die, the Overlord replaces a mutineering Pirate
-              model on the board with a Pirate model from off the board.
+              Overlord rolls 1 Red <img src="/assets/dice/Red.png" class="scen_sq_token" />
+              die. For each symbol shown on the die, the Overlord either
+              moves a hero up to 3 ship areas or removes a mutineering Pirate
+              from the board. A hero cannot be moved into a water area.
+              <br /><strong>Turncoats:</strong> The Overlord rolls 1 Red
+              <img src="/assets/dice/Red.png" class="scen_sq_token" /> die.
+              For each symbol shown on the die, the Overlord replaces a mutineering
+              Pirate model on the board with a Pirate model from off the board.
             </td>
           </tr>
         </table>',
@@ -933,8 +938,8 @@
         like a unit group.</p>
 
         <p><span class="special_title">With me!:</span>
-        At the start of the heroes’ turn, Conan rolls
-        <img src="/assets/dice/Yellow.png" class="scen_sq_token" />.
+        At the start of the heroes’ turn, Conan rolls 1 Yellow
+        <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> die.
         For each symbol shown on the die, place 1 mutineering Pirate model in
         Conan’s area. If Conan’s area is occupied, place the mutineering pirates
         in an adjacent area. There can be no more than 5 mutineering Pirates on
@@ -997,10 +1002,10 @@
             <td>
               <strong>Reinforcement:</strong> 4 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" /> .
-              <br /><strong>Jammed Ballista:</strong> The Overlord rolls
-              <img src="/assets/dice/Orange.png" class="scen_sq_token" /> .
-              If the die shows 1 or more symbols, the Overlord chooses an area with
-              a ballista. That ballista cannot be used on the heroes’ next turn.
+              <br /><strong>Jammed Ballista:</strong> The Overlord rolls 1 Orange
+              <img src="/assets/dice/Orange.png" class="scen_sq_token" /> die.
+              If the die shows 1 or more symbols, the Overlord chooses an area
+              with a ballista. That ballista cannot be used on the heroes’ next turn.
             </td>
           </tr>
         </table>',
@@ -1035,11 +1040,11 @@
         is higher than the number of units in the area and no ally in the area
         has attacked that turn. To use a ballista, each hero in the ballista’s
         area moves 1 gem from their Reserve zone to their Manipulation space,
-        then 1 hero in the area rolls
-        <img src="/assets/dice/Red.png" class="scen_sq_token" /> . All heroes in
-        the area can perform Rerolls as though they rolled the die. Move the turn
-        marker 1 space toward space 8 for each symbol shown on the die, and no
-        ally in the area can attack that turn.</p>',
+        then 1 hero in the area rolls 1 Red
+        <img src="/assets/dice/Red.png" class="scen_sq_token" /> die. All
+        heroes in the area can perform Rerolls as though they rolled the die.
+        Move the turn marker 1 space toward space 8 for each symbol shown on the
+        die, and no ally in the area can attack that turn.</p>',
 
       origin: "Core Game",
       map_ids: [2],
@@ -1102,9 +1107,11 @@
               <strong>Reinforcement:</strong> 4 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" /> .
               <br /><strong>Thak’s Vengeance:</strong> If it is turn 6 or higher,
-              the Overlord rolls
-              <img src="/assets/dice/3 Red.png" class="scen_sq_token" /> , then
-              moves any number of gems from their Reserve zone to their Fatigue
+              the Overlord rolls 3 Red
+              <img src="/assets/dice/Red.png" class="scen_sq_token" />
+              <img src="/assets/dice/Red.png" class="scen_sq_token" />
+              <img src="/assets/dice/Red.png" class="scen_sq_token" /> dice,
+              then moves any number of gems from their Reserve zone to their Fatigue
               zone. The Overlord adds up the number of symbols shown on the dice,
               then adds or subtracts 1 from the total for each gem moved.
               The Overlord places the Thak model (6 life points) in the area whose
@@ -1206,20 +1213,24 @@
 
         <p><span class="special_title">Leaping From/Climbing a Balcony:</span>
         A character can move across a railing from a balcony area to a ground
-        floor area as though it were a border. The character rolls
-        <img src="/assets/dice/2 Orange.png" class="scen_sq_token" /> for falling
-        damage. If the character has <a class="skill" href="/skills/16">Leap</a>, the
-        character rolls <img src="/assets/dice/Orange.png" class="scen_sq_token" />
-        instead. A character with <a class="skill" href="/skills/19">Climb</a> can
-        move across a railing from a ground floor area to a balcony area by spending
-        2 extra movement points.</p>
+        floor area as though it were a border. The character rolls 2 Orange
+        <img src="/assets/dice/Orange.png" class="scen_sq_token" />
+        <img src="/assets/dice/Orange.png" class="scen_sq_token" /> dice
+        for falling damage. If the character has
+        <a class="skill" href="/skills/16">Leap</a>, the character rolls 1
+        Orange <img src="/assets/dice/Orange.png" class="scen_sq_token" /> die
+        instead. A character with <a class="skill" href="/skills/19">Climb</a>
+        can move across a railing from a ground floor area to a balcony area by
+        spending 2 extra movement points.</p>
 
         <p><span class="special_title">Leaping From/Climbing a Stairwell:</span>
         A character can move across a banister from a stair area to a ground
-        floor area as though it were a border. The character rolls
-        <img src="/assets/dice/2 Yellow.png" class="scen_sq_token" /> for falling
-        damage. If the character has <a class="skill" href="/skills/16">Leap</a>,
-        the character rolls <img src="/assets/dice/Yellow.png" class="scen_sq_token" />
+        floor area as though it were a border. The character rolls 2 Yellow
+        <img src="/assets/dice/Yellow.png" class="scen_sq_token" />
+        <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> dice
+        for falling damage. If the character has
+        <a class="skill" href="/skills/16">Leap</a>, the character rolls 1
+        Yellow <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> die
         instead. A character with <a class="skill" href="/skills/19">Climb</a>
         can move across a banister from a ground floor area to a stair area by
         spending 1 extra movement point.</p>
@@ -1290,8 +1301,8 @@
             <td>
               <strong>Reinforcement:</strong> 4 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" /> .
-              <br /><strong>Siege:</strong> The Overlord rolls
-              <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> and
+              <br /><strong>Siege:</strong> The Overlord rolls 1 Yellow
+              <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> die and
               resolves an effect based on the number of symbols shown on the die:
               <br />0 - Resolve the “Reinforcement” event.
               <br />1 - Place 1 flame in a hut area with a flame. An area cannot
@@ -1355,14 +1366,14 @@
         <a class="tile" href="/tiles/6">Zogar Sag</a> is activated, if that
         unit is adjacent to a hut area with no hero in it, the Overlord may
         spend the movement points from the unit’s movement value to attempt
-        to light that hut on fire; the Overlord rolls
-        <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> .
+        to light that hut on fire; the Overlord rolls 1 Yellow
+        <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> die.
         The Overlord adds 1 flame to that hut for each symbol shown on the die;
         use flame tokens <td><img src="/assets/tokens/flameToken.png" class="scen_token" />
         to track the flames in an area. An area cannot have more than 3 flames
         in it. At the beginning of the hero turn, each hut area with 1 or more
-        heroes and 1 or more flames in it burns; 1 hero in the area rolls
-        <img src="/assets/dice/Yellow.png" class="scen_sq_token" />
+        heroes and 1 or more flames in it burns; 1 hero in the area rolls 1
+        Yellow <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> die
         for each flame in that area. The dice cannot be rerolled. Then each hero
         in that area suffers damage equal to the number of symbols shown on the
         dice. When a third flame is added to a hut area, discard all facedown
@@ -1528,35 +1539,39 @@
 
         <p><span class="special_title">Leaping From/Climbing a Balcony:</span>
         A character can move across a railing from a balcony area to a ground
-        floor area as though it were a border. The character rolls
-        <img src="/assets/dice/2 Orange.png" class="scen_sq_token" /> for falling
-        damage. If the character has <a class="skill" href="/skills/16">Leap</a>,
-        the character rolls <img src="/assets/dice/Orange.png" class="scen_sq_token" />
-        instead. A character with <a class="skill" href="/skills/19">Climb</a> can
-        move across a railing from a ground floor area to a balcony area by spending
-        2 extra movement points.</p>
+        floor area as though it were a border. The character rolls 2 Orange
+        <img src="/assets/dice/Orange.png" class="scen_sq_token" />
+        <img src="/assets/dice/Orange.png" class="scen_sq_token" /> dice
+        for falling damage. If the character has
+        <a class="skill" href="/skills/16">Leap</a>, the character rolls 1
+        Orange <img src="/assets/dice/Orange.png" class="scen_sq_token" /> die
+        instead. A character with <a class="skill" href="/skills/19">Climb</a>
+        can move across a railing from a ground floor area to a balcony area by
+        spending 2 extra movement points.</p>
 
         <p><span class="special_title">Leaping From/Climbing a Stairwell:</span>
         A character can move across a banister from a stair area to a ground
-        floor area as though it were a border. The character rolls
-        <img src="/assets/dice/2 Yellow.png" class="scen_sq_token" /> for falling
-        damage. If the character has <a class="skill" href="/skills/16">Leap</a>,
-        the character rolls <img src="/assets/dice/Yellow.png" class="scen_sq_token" />
-        instead. A character with <a class="skill" href="/skills/19">Climb</a> can
-        move across a banister from a ground floor area to a stair area by spending
-        1 extra movement point.</p>
+        floor area as though it were a border. The character rolls 2 Yellow
+        <img src="/assets/dice/Yellow.png" class="scen_sq_token" />
+        <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> dice
+        for falling damage. If the character has
+        <a class="skill" href="/skills/16">Leap</a>, the character rolls 1
+        Yellow <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> die
+        instead. A character with <a class="skill" href="/skills/19">Climb</a>
+        can move across a banister from a ground floor area to a stair area by
+        spending 1 extra movement point.</p>
 
         <p><span class="special_title">Table:</span>
         A character in an area with an empty table can move onto that table by
-        spending 1 movement point. A character on a table rolls an extra
-        <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> for Melee
-        and Ranged Attacks</p>
+        spending 1 movement point. A character on a table rolls an extra Yellow
+        <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> die for
+        Melee and Ranged Attacks</p>
 
         <p><span class="special_title">Chair:</span>
         When a character performs a Melee Attack, the character may remove a
         chair token in the character’s area from the board to roll an extra
-        <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> for that
-        attack.</p>
+        Yellow <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> die
+        for that attack.</p>
 
         <p><span class="special_title">Chests:</span>
         During setup, the Overlord places 6 chests on the board as indicated by
@@ -1683,22 +1698,26 @@
 
         <p><span class="special_title">Leaping From/Climbing a Balcony:</span>
         A character can move across a railing from a balcony area to a ground
-        floor area as though it were a border. The character rolls
-        <img src="/assets/dice/2 Orange.png" class="scen_sq_token" /> for falling
-        damage. If the character has <a class="skill" href="/skills/16">Leap</a>,
-        the character rolls <img src="/assets/dice/Orange.png" class="scen_sq_token" />
-        instead. A character with <a class="skill" href="/skills/19">Climb</a> can
-        move across a railing from a ground floor area to a balcony area by spending
-        2 extra movement points.</p>
+        floor area as though it were a border. The character rolls 2 Orange
+        <img src="/assets/dice/Orange.png" class="scen_sq_token" />
+        <img src="/assets/dice/Orange.png" class="scen_sq_token" /> dice
+        for falling damage. If the character has
+        <a class="skill" href="/skills/16">Leap</a>, the character rolls 1
+        Orange <img src="/assets/dice/Orange.png" class="scen_sq_token" /> die
+        instead. A character with <a class="skill" href="/skills/19">Climb</a>
+        can move across a railing from a ground floor area to a balcony area by
+        spending 2 extra movement points.</p>
 
         <p><span class="special_title">Leaping From/Climbing a Stairwell:</span>
         A character can move across a banister from a stair area to a ground
-        floor area as though it were a border. The character rolls
-        <img src="/assets/dice/2 Yellow.png" class="scen_sq_token" /> for falling
-        damage. If the character has <a class="skill" href="/skills/16">Leap</a>,
-        the character rolls <img src="/assets/dice/Yellow.png" class="scen_sq_token" />
-        instead. A character with <a class="skill" href="/skills/19">Climb</a> can
-        move across a banister from a ground floor area to a stair area by
+        floor area as though it were a border. The character rolls 2 Yellow
+        <img src="/assets/dice/Yellow.png" class="scen_sq_token" />
+        <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> dice
+        for falling damage. If the character has
+        <a class="skill" href="/skills/16">Leap</a>, the character rolls 1
+        Yellow <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> die
+        instead. A character with <a class="skill" href="/skills/19">Climb</a>
+        can move across a banister from a ground floor area to a stair area by
         spending 1 extra movement point.</p>
 
         <p><span class="special_title">Chests:</span>
@@ -1843,11 +1862,12 @@
 
         <p><span class="special_title">Leaping from Walls:</span>
         A character can move across a parapet from a wall area to a ground area
-        as though it were a border. The character rolls
-        <img src="/assets/dice/2 Red.png" class="scen_sq_token" /> for falling
-        damage. If the character has <a class="skill" href="/skills/16">Leap</a>,
-        the character rolls <img src="/assets/dice/Red.png" class="scen_sq_token" />
-        instead.</p>
+        as though it were a border. The character rolls 2 Red
+        <img src="/assets/dice/Red.png" class="scen_sq_token" />
+        <img src="/assets/dice/Red.png" class="scen_sq_token" /> dice for
+        falling damage. If the character has
+        <a class="skill" href="/skills/16">Leap</a>, the character rolls 1 Red
+        <img src="/assets/dice/Red.png" class="scen_sq_token" /> die instead.</p>
 
         <p><span class="special_title">Rock Slide:</span>
         A character can move into a rock slide area
@@ -1965,10 +1985,10 @@
 
         <p><span class="special_title">Pictish Fetish:</span>
         After a hero successfully opens a chest, and takes an asset card, that
-        hero rolls <img src="/assets/dice/Red.png" class="scen_sq_token" /> .
-        If the number of symbols shown on the die is equal to or greater than
-        the number of cards remaining in the asset deck, that hero also takes a
-        Pictish Fetish card.</p>
+        hero rolls 1 Red <img src="/assets/dice/Red.png" class="scen_sq_token" />
+        die. If the number of symbols shown on the die is equal to or greater
+        than the number of cards remaining in the asset deck, that hero also
+        takes a Pictish Fetish card.</p>
 
         <p><span class="special_title">Tentacle:</span>
         Instead of attacking, a tentacle can destroy a wall; place
@@ -2067,9 +2087,9 @@
               <strong>Reinforcement:</strong> 6 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" /> .
               <br /><strong>Suffocating Gas:</strong> The Overlord chooses an area
-              and rolls <img src="/assets/dice/Red.png" class="scen_sq_token" /> .
-              Each character in that area suffers damage equal to the number of
-              symbols shown on the die with no possible defense.
+              and rolls 1 Red <img src="/assets/dice/Red.png" class="scen_sq_token" />
+              die. Each character in that area suffers damage equal to the
+              number of symbols shown on the die with no possible defense.
             </td>
           </tr>
           <tr>
@@ -2196,7 +2216,9 @@
               <strong>Reinforcement:</strong> 4 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" /> .
               <br /><strong>Curse of Set:</strong> Yasmela attacks the hero carrying
-              her; the Overlord rolls <img src="/assets/dice/2 Red.png" class="scen_sq_token" /> .
+              her; the Overlord rolls 2 Red
+              <img src="/assets/dice/Red.png" class="scen_sq_token" />
+              <img src="/assets/dice/Red.png" class="scen_sq_token" /> dice.
               The hero can only dodge the attack. If the attack power is greater
               than the defense power, the hero suffers damage equal to the difference.
               <br /><strong>Strategist:</strong> The Overlord may move 1 gem from
@@ -2247,16 +2269,17 @@
         remove it from the board. Units can move across a door as though it were
         a border.</p>
 
-        <p><span class="special_title">Leaping from/Climbing a Balcony:</span>
-        A character can move across a railing from a balcony area
-        to a ground floor area as though it were a border. The character rolls
-        <img src="/assets/dice/2 Yellow.png" class="scen_sq_token" />
+        <p><span class="special_title">Leaping From/Climbing a Balcony:</span>
+        A character can move across a railing from a balcony area to a ground
+        floor area as though it were a border. The character rolls 2 Yellow
+        <img src="/assets/dice/Yellow.png" class="scen_sq_token" />
+        <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> dice
         for falling damage. If the character has
-        <a class="skill" href="/skills/16">Leap</a>, the character rolls
-        <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> instead.
-        A character with <a class="skill" href="/skills/19">Climb</a> can move
-        across a railing from a ground floor area to a balcony area by moving 2
-        gems from their Reserve zone to their Fatigue zone.</p>
+        <a class="skill" href="/skills/16">Leap</a>, the character rolls 1
+        Yellow <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> die
+        instead. A character with <a class="skill" href="/skills/19">Climb</a>
+        can move across a railing from a ground floor area to a balcony area by
+        spending 2 extra movement points.</p>
 
         <p><span class="special_title">Pit:</span>
         A character must spend 1 extra Movement point to move out of the pit area.</p>
@@ -2395,16 +2418,17 @@
         <p><span class="special_title">Sound the Horn:</span>
         If a hero dies, move the turn counter 1 space towards space 15.</p>
 
-        <p><span class="special_title">Leaping from/Climbing a Balcony:</span>
-        A character can move across a railing from a balcony area
-        to a ground floor area as though it were a border. The character rolls
-        <img src="/assets/dice/2 Yellow.png" class="scen_sq_token" />
+        <p><span class="special_title">Leaping From/Climbing a Balcony:</span>
+        A character can move across a railing from a balcony area to a ground
+        floor area as though it were a border. The character rolls 2 Yellow
+        <img src="/assets/dice/Yellow.png" class="scen_sq_token" />
+        <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> dice
         for falling damage. If the character has
-        <a class="skill" href="/skills/16">Leap</a>, the character rolls
-        <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> instead.
-        A character with <a class="skill" href="/skills/19">Climb</a> can move
-        across a railing from a ground floor area to a balcony area by moving 2
-        gems from their Reserve zone to their Fatigue zone.</p>
+        <a class="skill" href="/skills/16">Leap</a>, the character rolls 1
+        Yellow <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> die
+        instead. A character with <a class="skill" href="/skills/19">Climb</a>
+        can move across a railing from a ground floor area to a balcony area by
+        spending 2 extra movement points.</p>
 
         <p><span class="special_title">Pit:</span>
         A character must spend 1 extra Movement point to move out of the pit area.</p>
@@ -3282,12 +3306,15 @@
 
         <p><span class="special_title">Dive:</span>
         A character in an area marked with the Leap
-        <img src="/assets/icons/Leap.png" class="scen_sq_token" /> icon may leap
+        <img src="/assets/skills/Leap.png" class="scen_sq_token" /> icon may leap
         in the pond’s area of level 1 by spending 1 extra movements point. The
-        character rolls <img src="/assets/dice/2 Orange.png" class="scen_sq_token" />
+        character rolls 2 Orange
+        <img src="/assets/dice/Orange.png" class="scen_sq_token" />
+        <img src="/assets/dice/Orange.png" class="scen_sq_token" /> dice
         for falling damage with no possible defense. If the character has
-        <a class="skill" href="/skills/16">Leap</a>, the character rolls
-        <img src="/assets/dice/Orange.png" class="scen_sq_token" /> instead</p>
+        <a class="skill" href="/skills/16">Leap</a>, the character rolls 1
+        Orange <img src="/assets/dice/Orange.png" class="scen_sq_token" /> die
+        instead</p>
 
         <p><span class="special_title">Fleeing the Tower:</span>
         A hero can flee the tower from one of the outdoor areas of level 1 by
@@ -3473,7 +3500,7 @@
         <p><span class="special_title">Leap:</span>
         A character with <a class="skill" href="/skills/16">Leap</a> may leap
         over the areas marked with the Leap icon
-        <img src="/assets/icons/Leap.png" class="scen_sq_token" />. If a hero
+        <img src="/assets/skills/Leap.png" class="scen_sq_token" />. If a hero
         fails to leap, the character remains in its area.</p>
 
         <p><span class="special_title">Chests:</span>
@@ -3608,7 +3635,7 @@
         <p><span class="special_title">Leap:</span>
         A character with <a class="skill" href="/skills/16">Leap</a> may leap
         over the areas marked with the Leap icon
-        <img src="/assets/icons/Leap.png" class="scen_sq_token" />. If a hero
+        <img src="/assets/skills/Leap.png" class="scen_sq_token" />. If a hero
         fails to leap, the character remains in its area.</p>',
 
       origin: "Khitai",
@@ -3796,11 +3823,15 @@
 
         <p><span class="special_title">The Scorpion Broodmother:</span>
         When the Scorpion Broodmother tile is activated, the Overlord starts the
-        activation by rolling. For each symbol shown on the dice, the Overlord
-        may place a Giant Scorpion model in the Scorpion Broodmother’s area or
-        in an area adjacent to that area. If that area is already occupied (and
-        the model’s base cannot fir entirely in the area), the Overlord may
-        place that model in an area adjacent to the occupied area.</p>
+        activation by rolling 1 Yellow, 1 Orange, and 1 Red
+        <img src="/assets/dice/Yellow.png" class="scen_sq_token" />
+        <img src="/assets/dice/Orange.png" class="scen_sq_token" />
+        <img src="/assets/dice/Red.png" class="scen_sq_token" /> die.
+        For each symbol shown on the dice, the Overlord may place a Giant
+        Scorpion model in the Scorpion Broodmother’s area or in an area adjacent
+        to that area. If that area is already occupied (and the model’s base
+        cannot fir entirely in the area), the Overlord may place that model in
+        an area adjacent to the occupied area.</p>
 
         <p><span class="special_title">Torch:</span>
         At the beginning of their action phase, a hero in aggressive stance with
@@ -4691,11 +4722,12 @@
         When the Overlord activates this Event, they chose a tile. All models of
         that tile immediately gain their base move value. The Overlord can use the
         Movement benefit to purchase extra Movement points. Then, the Overlord
-        creates a dice pool with a <img src="/assets/dice/Orange.png" class="scen_sq_token" />
-        for each of their models located in the same area as the hero, then rolls
-        that dice pool. The hero can then use the guard benefit with no bonus
-        attached to the Equipment, Armors included. If the Overlord’s result is
-        superior to the hero’s, Conan bends his knees and is considered overpowered.
+        creates a dice pool with an Orange
+        <img src="/assets/dice/Orange.png" class="scen_sq_token" /> die for each
+        of their models located in the same area as the hero, then rolls that
+        dice pool. The hero can then use the guard benefit with no bonus attached
+        to the Equipment, Armors included. If the Overlord’s result is superior
+        to the hero’s, Conan bends his knees and is considered overpowered.
         Then, the hero removes from the game one of the Recovery tokens which are
         next to their hero’s sheet. If Conan has been overpowered, the Event
         "Overpowering Conan" cannot be performed for the rest of the scenario.</p>
@@ -4717,11 +4749,12 @@
 
         <p><span class="special_title">Leaping from Walls:</span>
         A character can move across a parapet from a wall area to
-        a ground area as though it were a border. The character rolls
-        <img src="/assets/dice/2 Red.png" class="scen_sq_token" /> for falling
-        damage. If the character has <a class="skill" href="/skills/16">Leap</a>,
-        the character rolls <img src="/assets/dice/Red.png" class="scen_sq_token" />
-        instead.</p>
+        a ground area as though it were a border. The character rolls 2 Red
+        <img src="/assets/dice/Red.png" class="scen_sq_token" />
+        <img src="/assets/dice/Red.png" class="scen_sq_token" /> dice for
+        falling damage. If the character has
+        <a class="skill" href="/skills/16">Leap</a>, the character rolls 1 Red
+        <img src="/assets/dice/Red.png" class="scen_sq_token" /> die instead.</p>
 
         <p><span class="special_title">Rock Slides:</span>
         A character can move into a rock slide area
@@ -4870,16 +4903,17 @@
         Cape card. The red gems are never taken into account when calculating
         a hero’s life points.</p>
 
-        <p><span class="special_title">Leaping from/Climbing a Balcony:</span>
-        A character can move across a railing from a balcony area
-        to a ground floor area as though it were a border. The character rolls
-        <img src="/assets/dice/2 Orange.png" class="scen_sq_token" />
+        <p><span class="special_title">Leaping From/Climbing a Balcony:</span>
+        A character can move across a railing from a balcony area to a ground
+        floor area as though it were a border. The character rolls 2 Orange
+        <img src="/assets/dice/Orange.png" class="scen_sq_token" />
+        <img src="/assets/dice/Orange.png" class="scen_sq_token" /> dice
         for falling damage. If the character has
-        <a class="skill" href="/skills/16">Leap</a>, the character rolls
-        <img src="/assets/dice/Orange.png" class="scen_sq_token" /> instead.
-        A character with <a class="skill" href="/skills/19">Climb</a> can move
-        across a railing from a ground floor area to a balcony area by spending 2
-        extra movement points.</p>
+        <a class="skill" href="/skills/16">Leap</a>, the character rolls 1
+        Orange <img src="/assets/dice/Orange.png" class="scen_sq_token" /> die
+        instead. A character with <a class="skill" href="/skills/19">Climb</a>
+        can move across a railing from a ground floor area to a balcony area by
+        spending 2 extra movement points.</p>
 
         <p><span class="special_title">Pit:</span>
         A character must spend 1 extra Movement point to move out of the pit area.</p>
@@ -5014,11 +5048,13 @@
 
         <p><span class="special_title">Leaping from Walls:</span>
         A character can move across a parapet from a wall area to
-        a ground area as though it were a border. The character rolls
-        <img src="/assets/dice/2 Red.png" class="scen_sq_token" /> for falling
-        damage. If the character has <a class="skill" href="/skills/16">Leap</a>,
-        the character rolls <img src="/assets/dice/Red.png" class="scen_sq_token" />
-        instead.</p>
+        a ground area as though it were a border. The character rolls 2 Red
+        <img src="/assets/dice/Red.png" class="scen_sq_token" />
+        <img src="/assets/dice/Red.png" class="scen_sq_token" /> dice for
+        falling damage. If the character has
+        <a class="skill" href="/skills/16">Leap</a>, the character rolls 1 Red
+        <img src="/assets/dice/Red.png" class="scen_sq_token" />
+        die instead.</p>
 
         <p><span class="special_title">Rock Slides:</span>
         A character can move into a rock slide area
@@ -5942,33 +5978,38 @@
 
         <p><span class="special_title">Leaping From/Climbing a Balcony:</span>
           A character can move across a railing from a balcony area to a ground
-          floor area as though it were a border. The character rolls
-          <img src="/assets/dice/2 Orange.png" class="scen_sq_token" /> for falling
-          damage. If the character has <a class="skill" href="/skills/16">Leap</a>,
-          the character rolls <img src="/assets/dice/Orange.png" class="scen_sq_token" />
-          instead. A character with <a class="skill" href="/skills/19">Climb</a> can
-          move across a railing from a ground floor area to a balcony area by spending
-          2 extra movement points.</p>
+          floor area as though it were a border. The character rolls 2 Orange
+          <img src="/assets/dice/Orange.png" class="scen_sq_token" />
+          <img src="/assets/dice/Orange.png" class="scen_sq_token" /> dice
+          for falling damage. If the character has
+          <a class="skill" href="/skills/16">Leap</a>, the character rolls 1
+          Orange <img src="/assets/dice/Orange.png" class="scen_sq_token" /> die
+          instead. A character with <a class="skill" href="/skills/19">Climb</a>
+          can move across a railing from a ground floor area to a balcony area by
+          spending 2 extra movement points.</p>
 
         <p><span class="special_title">Leaping From/Climbing a Stairwell:</span>
           A character can move across a banister from a stair area to a ground
-          floor area as though it were a border. The character rolls
-          <img src="/assets/dice/2 Yellow.png" class="scen_sq_token" /> for falling
-          damage. If the character has <a class="skill" href="/skills/16">Leap</a>,
-          the character rolls <img src="/assets/dice/Yellow.png" class="scen_sq_token" />
-          instead. A character with <a class="skill" href="/skills/19">Climb</a> can
-          move across a banister from a ground floor area to a stair area by spending
-          1 extra movement point.</p>
+          floor area as though it were a border. The character rolls 2 Yellow
+          <img src="/assets/dice/Yellow.png" class="scen_sq_token" />
+          <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> dice
+          for falling damage. If the character has
+          <a class="skill" href="/skills/16">Leap</a>, the character rolls 1
+          Yellow <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> die
+          instead. A character with <a class="skill" href="/skills/19">Climb</a>
+          can move across a banister from a ground floor area to a stair area by
+          spending 1 extra movement point.</p>
 
         <p><span class="special_title">Bar:</span>
           A character with or without <a class="skill" href="/skills/16">Leap</a>
           or <a class="skill" href="/skills/19">Climb</a> may move onto the Bar areas
           or a table area by spending 1 extra movement point. These areas provide
-          an Elevation bonus of <img src="/assets/dice/Yellow.png" class="scen_sq_token" />.
-          A character in the bar’s area or in a table’s area, with or without Reach,
-          may attack a character in an adjacent area with a Melee Attack. These
-          areas do not block line of sight. A character may exit these areas with
-          no movement penalty.</p>
+          an Elevation bonus of 1 Yeloow
+          <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> die. A
+          character in the bar’s area or in a table’s area, with or without
+          Reach, may attack a character in an adjacent area with a Melee Attack.
+          These areas do not block line of sight. A character may exit these
+            areas with no movement penalty.</p>
 
         <p><span class="special_title">Chests:</span>
           During setup, the Overlord places 3 chests on the board as indicated
@@ -6154,23 +6195,27 @@
 
         <p><span class="special_title">Leaping From/Climbing a Balcony:</span>
         A character can move across a railing from a balcony area to a ground
-        floor area as though it were a border. The character rolls
-        <img src="/assets/dice/2 Orange.png" class="scen_sq_token" /> for falling
-        damage. If the character has <a class="skill" href="/skills/16">Leap</a>,
-        the character rolls <img src="/assets/dice/Orange.png" class="scen_sq_token" />
-        instead. A character with <a class="skill" href="/skills/19">Climb</a> can
-        move across a railing from a ground floor area to a balcony area by spending
-        2 extra movement points.</p>
+        floor area as though it were a border. The character rolls 2 Orange
+        <img src="/assets/dice/Orange.png" class="scen_sq_token" />
+        <img src="/assets/dice/Orange.png" class="scen_sq_token" /> dice
+        for falling damage. If the character has
+        <a class="skill" href="/skills/16">Leap</a>, the character rolls 1
+        Orange <img src="/assets/dice/Orange.png" class="scen_sq_token" /> die
+        instead. A character with <a class="skill" href="/skills/19">Climb</a>
+        can move across a railing from a ground floor area to a balcony area by
+        spending 2 extra movement points.</p>
 
         <p><span class="special_title">Leaping From/Climbing a Stairwell:</span>
         A character can move across a banister from a stair area to a ground
-        floor area as though it were a border. The character rolls
-        <img src="/assets/dice/2 Yellow.png" class="scen_sq_token" /> for falling
-        damage. If the character has <a class="skill" href="/skills/16">Leap</a>,
-        the character rolls <img src="/assets/dice/Yellow.png" class="scen_sq_token" />
-        instead. A character with <a class="skill" href="/skills/19">Climb</a> can
-        move across a banister from a ground floor area to a stair area by spending
-        1 extra movement point.</p>',
+        floor area as though it were a border. The character rolls 2 Yellow
+        <img src="/assets/dice/Yellow.png" class="scen_sq_token" />
+        <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> dice
+        for falling damage. If the character has
+        <a class="skill" href="/skills/16">Leap</a>, the character rolls 1
+        Yellow <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> die
+        instead. A character with <a class="skill" href="/skills/19">Climb</a>
+        can move across a banister from a ground floor area to a stair area by
+        spending 1 extra movement point.</p>',
 
       origin: "Book of Set",
       map_ids: [4],
@@ -6293,23 +6338,27 @@
 
         <p><span class="special_title">Leaping From/Climbing a Balcony:</span>
         A character can move across a railing from a balcony area to a ground
-        floor area as though it were a border. The character rolls
-        <img src="/assets/dice/2 Orange.png" class="scen_sq_token" /> for falling
-        damage. If the character has <a class="skill" href="/skills/16">Leap</a>,
-        the character rolls <img src="/assets/dice/Orange.png" class="scen_sq_token" />
-        instead. A character with <a class="skill" href="/skills/19">Climb</a> can
-        move across a railing from a ground floor area to a balcony area by spending
-        2 extra movement points.</p>
+        floor area as though it were a border. The character rolls 2 Orange
+        <img src="/assets/dice/Orange.png" class="scen_sq_token" />
+        <img src="/assets/dice/Orange.png" class="scen_sq_token" /> dice
+        for falling damage. If the character has
+        <a class="skill" href="/skills/16">Leap</a>, the character rolls 1
+        Orange <img src="/assets/dice/Orange.png" class="scen_sq_token" /> die
+        instead. A character with <a class="skill" href="/skills/19">Climb</a>
+        can move across a railing from a ground floor area to a balcony area by
+        spending 2 extra movement points.</p>
 
         <p><span class="special_title">Leaping From/Climbing a Stairwell:</span>
         A character can move across a banister from a stair area to a ground
-        floor area as though it were a border. The character rolls
-        <img src="/assets/dice/2 Yellow.png" class="scen_sq_token" /> for falling
-        damage. If the character has <a class="skill" href="/skills/16">Leap</a>,
-        the character rolls <img src="/assets/dice/Yellow.png" class="scen_sq_token" />
-        instead. A character with <a class="skill" href="/skills/19">Climb</a> can
-        move across a banister from a ground floor area to a stair area by spending
-        1 extra movement point.</p>',
+        floor area as though it were a border. The character rolls 2 Yellow
+        <img src="/assets/dice/Yellow.png" class="scen_sq_token" />
+        <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> dice
+        for falling damage. If the character has
+        <a class="skill" href="/skills/16">Leap</a>, the character rolls 1
+        Yellow <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> die
+        instead. A character with <a class="skill" href="/skills/19">Climb</a>
+        can move across a banister from a ground floor area to a stair area by
+        spending 1 extra movement point.</p>',
 
       origin: "Book of Set",
       map_ids: [4],
@@ -6444,11 +6493,12 @@
 
         <p><span class="special_title">Leaping from Walls:</span>
         A character can move across a parapet from a wall area to a
-        ground area as though it were a border. The character rolls
-        <img src="/assets/dice/2 Red.png" class="scen_sq_token" /> for falling
-        damage. If the character has <a class="skill" href="/skills/16">Leap</a>,
-        the character rolls <img src="/assets/dice/Red.png" class="scen_sq_token" />
-        instead.</p>
+        ground area as though it were a border. The character rolls 2 Red
+        <img src="/assets/dice/Red.png" class="scen_sq_token" />
+        <img src="/assets/dice/Red.png" class="scen_sq_token" /> dice for
+        falling damage. If the character has
+        <a class="skill" href="/skills/16">Leap</a>, the character rolls 1 Red
+        <img src="/assets/dice/Red.png" class="scen_sq_token" /> die instead.</p>
 
         <p><span class="special_title">Rock Slides:</span>
         A character can move into a rock slide area
@@ -6563,10 +6613,10 @@
         calculating hindering. During its capture the Dragon has been poisoned;
         during setup, the Overlord places a second Dragon tile next to the Book
         of Skelos with 3 <img src="/assets/tokens/numBackToken.png" class="scen_token" />
-        tokens on it to represent this. The Dragon loses
-        1 <img src="/assets/dice/Red-Reroll.png" class="scen_sq_token" /> to its
-        Melee Attack value per token on this Dragon tile. There can be a maximum
-        of 3 tokens on the Dragon tile.
+        tokens on it to represent this. The Dragon loses 1 Red-Reroll
+        <img src="/assets/dice/Red-Reroll.png" class="scen_sq_token" /> die to
+        its Melee Attack value per token on this Dragon tile. There can
+        be a maximum of 3 tokens on the Dragon tile.
         A <img src="/assets/tokens/numBackToken.png" class="scen_token" />
         token is placed on the spaces 2, 4 and 6 of the turn track. When the
         turn track token is placed on the
@@ -6727,10 +6777,11 @@
         the Overlord may choose to replace the model’s Melee attack so that the
         keg explodes.<br />
         When a keg of pitch explodes, all the models in the area of the keg are
-        the target of an area attack of
-        <img src="/assets/dice/2 Red.png" class="scen_sq_token" />. The usual
-        defenses against the area attacks may be used. The Keg of Pitch token is
-        then removed from play.<br />
+        the target of an area attack of 2 Red
+        <img src="/assets/dice/Red.png" class="scen_sq_token" />
+        <img src="/assets/dice/Red.png" class="scen_sq_token" /> dice.
+        The usual defenses against the area attacks may be used. The Keg of Pitch
+        token is then removed from play.<br />
         A hero in a keg of pitch’s area may perform a simple manipulation to pick
         it up and transport it; the hero places the Keg of Pitch’s token on their
         hero’s sheet. A keg of pitch has an encumbrance of 6. If a hero suffers
@@ -6797,13 +6848,16 @@
           <img src="/assets/tokens/redDoorToken.png" class="scen_sq_token" />.</p>
 
         <p><span class="special_title">Leaping From/Climbing a Balcony:</span>
-          A character can move across a railing from a balcony area
-          to a ground floor area as though it were a border. The character rolls
-          <img src="/assets/dice/2 Yellow.png" class="scen_sq_token" /> for falling
-          damage. If the character has <a class="skill" href="/skills/16">Leap</a>,
-          the character rolls <img src="/assets/dice/Yellow.png" class="scen_sq_token" />
-          instead. A character with Climb can move across a railing from a ground
-          floor area to a balcony area by spending 1 extra movement point.</p>
+          A character can move across a railing from a balcony area to a ground
+          floor area as though it were a border. The character rolls 2 Yellow
+          <img src="/assets/dice/Yellow.png" class="scen_sq_token" />
+          <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> dice
+          for falling damage. If the character has
+          <a class="skill" href="/skills/16">Leap</a>, the character rolls 1
+          Yellow <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> die
+          instead. A character with <a class="skill" href="/skills/19">Climb</a>
+          can move across a railing from a ground floor area to a balcony area by
+          spending 2 extra movement points.</p>
 
         <p><span class="special_title">Pit:</span>
           A character must spend 1 extra movement point to move out of the pit area.</p>
@@ -6968,13 +7022,16 @@
         cannot be returned to the board. The Overlord units cannot flee the citadel.</p>
 
         <p><span class="special_title">Leaping From/Climbing a Balcony:</span>
-        A character can move across a railing from a balcony area
-        to a ground floor area as though it were a border. The character rolls
-        <img src="/assets/dice/2 Yellow.png" class="scen_sq_token" /> for falling
-        damage. If the character has <a class="skill" href="/skills/16">Leap</a>,
-        the character rolls <img src="/assets/dice/Yellow.png" class="scen_sq_token" />
-        instead. A character with Climb can move across a railing from a ground
-        floor area to a balcony area by spending 1 extra movement point.</p>
+        A character can move across a railing from a balcony area to a ground
+        floor area as though it were a border. The character rolls 2 Yellow
+        <img src="/assets/dice/Yellow.png" class="scen_sq_token" />
+        <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> dice
+        for falling damage. If the character has
+        <a class="skill" href="/skills/16">Leap</a>, the character rolls 1
+        Yellow <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> die
+        instead. A character with <a class="skill" href="/skills/19">Climb</a>
+        can move across a railing from a ground floor area to a balcony area by
+        spending 2 extra movement points.</p>
 
         <p><span class="special_title">Pit:</span>
         A character must spend 1 extra movement point to move out of the pit area.</p>
@@ -7138,9 +7195,10 @@
         is destroyed, the Overlord places a <img src="/assets/tokens/rocksToken.png" class="scen_token" />
         token on the hut area. If a chest is in same area as a destroyed hut the
         Overlord removes the chest token from the game. If a model is in the
-        same area as a destroyed hut they suffer an attack of
-        <img src="/assets/dice/2 Red.png" class="scen_sq_token" /> with no
-        possible reroll (all defenses are possible).</p>
+        same area as a destroyed hut they suffer an attack of 2 Red
+        <img src="/assets/dice/Red.png" class="scen_sq_token" />
+        <img src="/assets/dice/Red.png" class="scen_sq_token" /> dice
+        with no possible reroll (all defenses are possible).</p>
 
         <p><span class="special_title">Destroyed Hut:</span>
         An area with a destroyed hut completely blocks the lines of sight that
@@ -7161,8 +7219,8 @@
         weapons are destroyed. The <img src="/assets/tokens/num1Token.png" class="scen_token" />
         token is then removed from the game. When the weapons are destroyed, and
         for the rest of the game, the Melee Attack value of the Bossonian Guards
-        on the outpost board is reduced to
-        <img src="/assets/dice/Orange.png" class="scen_sq_token" />.</p>
+        on the outpost board is reduced to 1 Orange
+        <img src="/assets/dice/Orange.png" class="scen_sq_token" /> die.</p>
 
         <p><span class="special_title">Poisoning the Supplies:</span>
         A hero with the Elixir equipment card and in the same area as the
@@ -7198,12 +7256,15 @@
 
         <p><span class="special_title">Leaping From/Climbing a Balcony:</span>
         A character can move across a railing from a balcony area to a ground
-        floor area as though it were a border. The character rolls
-        <img src="/assets/dice/2 Yellow.png" class="scen_sq_token" /> for falling
-        damage. If the character has <a class="skill" href="/skills/16">Leap</a>,
-        the character rolls <img src="/assets/dice/Yellow.png" class="scen_sq_token" />
-        instead. A character with Climb can move across a railing from a ground
-        floor area to a balcony area by spending 1 extra movement point.</p>
+        floor area as though it were a border. The character rolls 2 Yellow
+        <img src="/assets/dice/Yellow.png" class="scen_sq_token" />
+        <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> dice
+        for falling damage. If the character has
+        <a class="skill" href="/skills/16">Leap</a>, the character rolls 1
+        Yellow <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> die
+        instead. A character with <a class="skill" href="/skills/19">Climb</a>
+        can move across a railing from a ground floor area to a balcony area by
+        spending 2 extra movement points.</p>
 
         <p><span class="special_title">Pit:</span>
         A character must spend 1 extra movement point to move out of the pit area.</p>
@@ -7426,11 +7487,13 @@
 
         <p><span class="special_title">Leaping from Walls:</span>
         A character can move across a parapet from a wall area to
-        a ground area as though it were a border. The character rolls
-        <img src="/assets/dice/2 Red.png" class="scen_sq_token" /> for falling
-        damage. If the character has <a class="skill" href="/skills/16">Leap</a>,
-        the character rolls <img src="/assets/dice/Red.png" class="scen_sq_token" />
-        instead.</p>
+        a ground area as though it were a border. The character rolls 2 Red
+        <img src="/assets/dice/Red.png" class="scen_sq_token" />
+        <img src="/assets/dice/Red.png" class="scen_sq_token" /> dice for
+        falling damage. If the character has
+        <a class="skill" href="/skills/16">Leap</a>, the character rolls 1 Red
+        <img src="/assets/dice/Red.png" class="scen_sq_token" /> die instead.</p>
+
         <p><span class="special_title">Rock Slides:</span>
         A character can move into a rock slide area
         <img src="/assets/tokens/rocksToken.png" class="scen_token" /> from an
@@ -7600,20 +7663,24 @@
 
         <p><span class="special_title">Leaping From/Climbing a Balcony:</span>
           A character can move across a railing from a balcony area to a ground
-          floor area as though it were a border. The character rolls
-          <img src="/assets/dice/2 Orange.png" class="scen_sq_token" /> for falling
-          damage. If the character has <a class="skill" href="/skills/16">Leap</a>, the
-          character rolls <img src="/assets/dice/Orange.png" class="scen_sq_token" />
-          instead. A character with <a class="skill" href="/skills/19">Climb</a> can
-          move across a railing from a ground floor area to a balcony area by spending
-          2 extra movement points.</p>
+          floor area as though it were a border. The character rolls 2 Orange
+          <img src="/assets/dice/Orange.png" class="scen_sq_token" />
+          <img src="/assets/dice/Orange.png" class="scen_sq_token" /> dice
+          for falling damage. If the character has
+          <a class="skill" href="/skills/16">Leap</a>, the character rolls 1
+          Orange <img src="/assets/dice/Orange.png" class="scen_sq_token" /> die
+          instead. A character with <a class="skill" href="/skills/19">Climb</a>
+          can move across a railing from a ground floor area to a balcony area by
+          spending 2 extra movement points.</p>
 
         <p><span class="special_title">Leaping From/Climbing a Stairwell:</span>
           A character can move across a banister from a stair area to a ground
-          floor area as though it were a border. The character rolls
-          <img src="/assets/dice/2 Yellow.png" class="scen_sq_token" /> for falling
-          damage. If the character has <a class="skill" href="/skills/16">Leap</a>,
-          the character rolls <img src="/assets/dice/Yellow.png" class="scen_sq_token" />
+          floor area as though it were a border. The character rolls 2 Yellow
+          <img src="/assets/dice/Yellow.png" class="scen_sq_token" />
+          <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> dice
+          for falling damage. If the character has
+          <a class="skill" href="/skills/16">Leap</a>, the character rolls 1
+          Yellow <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> die
           instead. A character with <a class="skill" href="/skills/19">Climb</a>
           can move across a banister from a ground floor area to a stair area by
           spending 1 extra movement point.</p>
@@ -7622,18 +7689,19 @@
           A character with or without <a class="skill" href="/skills/16">Leap</a>
           or <a class="skill" href="/skills/19">Climb</a> may move onto the Bar areas
           or a table area by spending 1 extra movement point. These areas provide
-          an Elevation bonus of <img src="/assets/dice/Yellow.png" class="scen_sq_token" />.
-          A character in the bar’s area or in a table’s area, with or without Reach,
-          may attack a character in an adjacent area with a Melee Attack. These
-          areas do not block line of sight. A character may exit these areas with
-            no movement penalty.</p>
+          an Elevation bonus of 1 Yellow
+          <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> die. A
+          character in the bar’s area or in a table’s area, with or without
+          Reach, may attack a character in an adjacent area with a Melee Attack.
+          These areas do not block line of sight. A character may exit these
+            areas with no movement penalty.</p>
 
         <p><span class="special_title">Bar Stools:</span>
           A character in a chair token’s area may pick it up for free when performing
           a Melee Attack. The chair token is immediately returned to the box and
-          that character benefits from the chair’s attack bonus of
-          <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> (in addition
-          to any weapon’s Melee Attack bonus).</p>
+          that character benefits from the chair’s attack bonus of 1 Yellow
+          <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> die
+          (in addition to any weapon’s Melee Attack bonus).</p>
 
         <p><span class="special_title">Chests:</span>
           During setup, the Overlord places 3 chests on the board

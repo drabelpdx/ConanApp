@@ -23,11 +23,11 @@ $('#balance').raty({
   readOnly: true,
   single: true,
   iconRange: [
-        {range: 1, on: 'marker', off: 'marker-off'},
-        {range: 2, on: 'marker', off: 'marker-off'},
-        {range: 3, on: 'marker', off: 'marker-off'},
-        {range: 4, on: 'marker', off: 'marker-off'},
-        {range: 5, on: 'marker', off: 'marker-off'}
+        {range: 1, on: 'misc/marker', off: 'misc/marker-off'},
+        {range: 2, on: 'misc/marker', off: 'misc/marker-off'},
+        {range: 3, on: 'misc/marker', off: 'misc/marker-off'},
+        {range: 4, on: 'misc/marker', off: 'misc/marker-off'},
+        {range: 5, on: 'misc/marker', off: 'misc/marker-off'}
     ],
   hints: ['favors Heroes', 'lightly favors', 'balanced', 'lightly favors', 'favors OL'],
   score: <%= @scenario.average_balance %>,
@@ -39,11 +39,11 @@ $('#user_balance').raty({
   path: '/assets',
   single: true,
   iconRange: [
-        {range: 1, on: 'marker', off: 'marker-off'},
-        {range: 2, on: 'marker', off: 'marker-off'},
-        {range: 3, on: 'marker', off: 'marker-off'},
-        {range: 4, on: 'marker', off: 'marker-off'},
-        {range: 5, on: 'marker', off: 'marker-off'}
+        {range: 1, on: 'misc/marker', off: 'misc/marker-off'},
+        {range: 2, on: 'misc/marker', off: 'misc/marker-off'},
+        {range: 3, on: 'misc/marker', off: 'misc/marker-off'},
+        {range: 4, on: 'misc/marker', off: 'misc/marker-off'},
+        {range: 5, on: 'misc/marker', off: 'misc/marker-off'}
     ],
   hints: ['favors Heroes', 'lightly favors', 'balanced', 'lightly favors', 'favors OL'],
   click: function(score, evt) {

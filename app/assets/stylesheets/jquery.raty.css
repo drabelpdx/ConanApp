@@ -1,4 +1,4 @@
-.cancel-on-png, .cancel-off-png, .star-on-png, .star-off-png, .star-half-png {
+.star-on-png, .star-off-png, .star-half-png {
   font-size: 2em;
 }
 
@@ -48,7 +48,7 @@
   max-width: 30px;
 }
 
-.cancel-on-png, .cancel-off-png, .star-on-png, .star-off-png, .star-half-png {
+.star-on-png, .star-off-png, .star-half-png {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: "raty";
@@ -58,14 +58,6 @@
   line-height: 1;
   speak: none;
   text-transform: none;
-}
-
-.cancel-on-png:before {
-  content: "\e600";
-}
-
-.cancel-off-png:before {
-  content: "\e601";
 }
 
 .star-on-png:before {
