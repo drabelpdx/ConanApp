@@ -61,6 +61,7 @@ class ItemsController < ApplicationController
       @nordheim = Item.where(origin: 'Nordheim Expansion')
       @stygia = Item.where(origin: 'Stygia Expansion')
       @khitai = Item.where(origin: 'Khitai Expansion')
+      @brom = Item.where(origin: 'Brom Box')
       @campaign = Item.where(origin: 'Campaign')
       @weapon = Item.where(role: 'Weapon')
       @armor = Item.where('role = ? or role = ? or role = ?', 'Armor', 'Shield',

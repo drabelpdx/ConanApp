@@ -79,9 +79,9 @@
     </div>
     <div class="col-md-4 col-sm-6">
       <div class="panel panel-item">
-        <div class="panel-heading">Campaign Items</div>
+        <div class="panel-heading">Brom Box</div>
         <table class="table">
-          <% @campaign.sort_by {|item| item.name }.each do |item| %>
+          <% @brom.sort_by {|item| item.name }.each do |item| %>
             <tr>
               <td class="item" align="center"><%= link_to item.name, item_path(item) %></td>
             </tr>

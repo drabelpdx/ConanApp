@@ -38,7 +38,7 @@
     { name: 'Explosive Orb', encumbrance: '1', origin: 'Core Game', count: '3',
       armor: '', melee: '', ranged: '',
       defense: '', manipulation: '2 Red Area', role: 'Weapon',
-      dice: { manipulation: [1, 1, 8]}, description: '' },
+      dice: { manipulation: [1, 1, 8] }, description: '' },
 
     { name: 'Halberd', encumbrance: '3', origin: 'Core Game', count: '1',
       armor: '', melee: '2 Red', ranged: '',
@@ -227,12 +227,12 @@
     { name: 'Black Staff', encumbrance: '1', origin: 'Stretch Goals', count: '1',
       armor: '', melee: '', ranged: '',
       defense: 'Yellow', manipulation: '', role: 'Staff',
-      dice: { defense: [5]}, description: '' },
+      dice: { defense: [5] }, description: '' },
 
     { name: 'Mita’s Staff', encumbrance: '2', origin: 'Stretch Goals', count: '1',
       armor: '', melee: '', ranged: '',
       defense: 'Yellow-Reroll', manipulation: '', role: 'Staff',
-      dice: { defense: [6]}, description: '' },
+      dice: { defense: [6] }, description: '' },
 
     # Drink
     { name: 'Life Potion', encumbrance: '0', origin: 'Stretch Goals', count: '1',
@@ -321,13 +321,13 @@
       defense: 'Orange', manipulation: '', role: 'Weapon',
       dice: { melee: [3], defense: [3] }, description: '' },
 
-      # Armor
+    # Armor
     { name: 'Leather Armor', encumbrance: '2', origin: 'Nordheim Expansion', count: '1',
       armor: 'Yellow', melee: '', ranged: '',
       defense: '', manipulation: '', role: 'Armor',
       dice: { armor: [5] }, description: '' },
 
-      # Object
+    # Object
     { name: 'Amulet Fragment', encumbrance: '0', origin: 'Nordheim Expansion', count: '3',
       armor: '', melee: '', ranged: '',
       defense: '', manipulation: '', role: 'Object',

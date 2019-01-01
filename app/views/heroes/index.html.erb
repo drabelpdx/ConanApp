@@ -17,6 +17,16 @@
       </table>
     </div>
     <div class="panel panel-success">
+      <div class="panel-heading">King Pledge Heroes</div>
+      <table class="table">
+        <% @king.each do |hero| %>
+        <tr>
+          <td class="hero" align="center"><%= link_to hero.name, hero_path(hero) %></td>
+        </tr>
+        <% end %>
+      </table>
+    </div>
+    <div class="panel panel-success">
       <div class="panel-heading">Stretch Goal Heroes</div>
       <table class="table">
         <% @stretch.each do |hero| %>
@@ -29,9 +39,29 @@
   </div>
   <div class="col-md-6 col-sm-6">
     <div class="panel panel-success">
-      <div class="panel-heading">King Pledge Heroes</div>
+      <div class="panel-heading">Nordheim</div>
       <table class="table">
-        <% @king.each do |hero| %>
+        <% @nordheim.each do |hero| %>
+        <tr>
+          <td class="hero" align="center"><%= link_to hero.name, hero_path(hero) %></td>
+        </tr>
+        <% end %>
+      </table>
+    </div>
+    <div class="panel panel-success">
+      <div class="panel-heading">Stygia</div>
+      <table class="table">
+        <% @stygia.each do |hero| %>
+        <tr>
+          <td class="hero" align="center"><%= link_to hero.name, hero_path(hero) %></td>
+        </tr>
+        <% end %>
+      </table>
+    </div>
+    <div class="panel panel-success">
+      <div class="panel-heading">Khitai</div>
+      <table class="table">
+        <% @khitai.each do |hero| %>
         <tr>
           <td class="hero" align="center"><%= link_to hero.name, hero_path(hero) %></td>
         </tr>
@@ -88,29 +118,5 @@
         <% end %>
       </table>
     </div>
-    <div class="panel panel-success">
-      <div class="panel-heading">Expansion Heroes</div>
-      <table class="table">
-        <% @nordheim.each do |hero| %>
-        <tr>
-          <td class="hero" align="center"><%= link_to hero.name, hero_path(hero) %> </td>
-        </tr>
-        <% end %>
-        <% @khitai.each do |hero| %>
-        <tr>
-          <td class="hero" align="center"><%= link_to hero.name, hero_path(hero) %></td>
-        </tr>
-        <% end %>
-        <% @stygia.each do |hero| %>
-        <tr>
-          <td class="hero" align="center"><%= link_to hero.name, hero_path(hero) %></td>
-        </tr>
-        <% end %>
-      </table>
-    </div>
-  </div>
-
-  <div class="col-md-4 col-sm-6">
-
   </div>
 </div>

@@ -33,6 +33,44 @@
         </ol>'
      },
 
+   { name: 'The Inn', description: "Inn", flip_side: 'The Pict Village', origin: 'Core Game',
+     image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/The+Inn.jpg',
+     special_rules: '
+       <ol>
+         <li>Apply this rule only if specified in the special rules section.<br />
+         A character with or without <a href="/skills/16">Leap</a> or
+         <a href="/skills/19">Climb</a> may move onto the bar areas or a table
+         area by spending 1 extra movement point. These areas provide an Elevation
+         bonus of (1 Yellow die). A character in the bar’s area or in a table’s
+         area, with or without Reach, may attack a character in an adjacent area
+         with a Melee Attack. These areas do not block line of sight. A character
+         may exit these areas with no movement penalty.</li>
+         <li>Apply this rule only if specified in the special rules section.<br />
+         <strong>Bar Stools:</strong> A character in a chair token’s area may
+         pick it up for free when performing a Melee Attack. The chair token is
+         immediately returned to the box and that character benefits from the
+         chair’s attack bonus as specified in the scenario (in addition to any
+         weapon’s Melee Attack bonus).</li>
+         <li><strong>Walls:</strong> A character with <a href="/skills/11">Wall Wrecker</a>
+         cannot use it to move across an outer wall of the inn or to move between
+         areas of different elevations.</li>
+         <li><strong>Leaping From/Climbing a Balcony:</strong> A character can
+         move across a railing from a balcony area to a ground floor area as
+         though it were a border. The character rolls (2 Orange dice) for falling
+         damage. If the character has <a href="/skills/16">Leap</a>, the character
+         rolls (1 Orange die) instead. A character with <a href="/skills/19">Climb</a>
+         can move across a railing from a ground floor area to a balcony area by
+         spending 2 extra movement points.</li>
+         <li><strong>Leaping From/Climbing a Stairwell:</strong> A character can
+         move across a banister from a stair area to a ground floor area as though
+         it were a border. The character rolls (2 Yellow dice) for falling damage.
+         If the character has <a href="/skills/16">Leap</a>, the character rolls
+         (1 Yellow die) instead. A character with <a href="/skills/19">Climb</a>
+         can move across a banister from a ground floor area to a stair area by
+         spending 1 extra movement point.</li>
+       </ol>'
+     },
+
     { name: 'The Ships', description: " The Ships", flip_side: 'The Abandoned Fort',
       origin: 'Core Game', image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/The+Ships.jpg',
       special_rules: '
@@ -74,44 +112,6 @@
         the character has Climbing.</li>
       </ol>'
     },
-
-    { name: 'The Inn', description: "Inn", flip_side: 'The Pict Village', origin: 'Core Game',
-      image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/The+Inn.jpg',
-      special_rules: '
-        <ol>
-          <li>Apply this rule only if specified in the special rules section.<br />
-          A character with or without <a href="/skills/16">Leap</a> or
-          <a href="/skills/19">Climb</a> may move onto the bar areas or a table
-          area by spending 1 extra movement point. These areas provide an Elevation
-          bonus of (1 Yellow die). A character in the bar’s area or in a table’s
-          area, with or without Reach, may attack a character in an adjacent area
-          with a Melee Attack. These areas do not block line of sight. A character
-          may exit these areas with no movement penalty.</li>
-          <li>Apply this rule only if specified in the special rules section.<br />
-          <strong>Bar Stools:</strong> A character in a chair token’s area may
-          pick it up for free when performing a Melee Attack. The chair token is
-          immediately returned to the box and that character benefits from the
-          chair’s attack bonus as specified in the scenario (in addition to any
-          weapon’s Melee Attack bonus).</li>
-          <li><strong>Walls:</strong> A character with <a href="/skills/11">Wall Wrecker</a>
-          cannot use it to move across an outer wall of the inn or to move between
-          areas of different elevations.</li>
-          <li><strong>Leaping From/Climbing a Balcony:</strong> A character can
-          move across a railing from a balcony area to a ground floor area as
-          though it were a border. The character rolls (2 Orange dice) for falling
-          damage. If the character has <a href="/skills/16">Leap</a>, the character
-          rolls (1 Orange die) instead. A character with <a href="/skills/19">Climb</a>
-          can move across a railing from a ground floor area to a balcony area by
-          spending 2 extra movement points.</li>
-          <li><strong>Leaping From/Climbing a Stairwell:</strong> A character can
-          move across a banister from a stair area to a ground floor area as though
-          it were a border. The character rolls (2 Yellow dice) for falling damage.
-          If the character has <a href="/skills/16">Leap</a>, the character rolls
-          (1 Yellow die) instead. A character with <a href="/skills/19">Climb</a>
-          can move across a banister from a ground floor area to a stair area by
-          spending 1 extra movement point.</li>
-        </ol>'
-      },
 
     ## Stretch Goals
     { name: 'The Citadel', description: "The Citadel", flip_side: 'The Swamp', origin: 'Stretch Goals',

@@ -70,7 +70,10 @@
       description: "Pick up an object un your line of sight with an encumbrance value of 3 or less." },
 
     { name: "Teleportation", cost: '1', limit: '', area: 'No', instant: 'No', origin: "Core Game", count: '1',
-      description: "Assign a number of gems from your Reserve zone to this card. For each gem assigned, move your model to an adjacent space." },
+      description: "Assign a number of gems from your Reserve zone to this card.
+      For each gem assigned, move your model to an adjacent space.<br /><br />
+      Clarification: A character who casts this spell is not affected by hindering
+      or by <a class='skill' href='/skills/10'>Blocking</a> to move." },
 
 
     ## Stretch Goals
@@ -200,8 +203,11 @@
       A character must spend 1 extra movement point to move out of an unstable area." },
 
     { name: "Teleportation", cost: '1', limit: '', area: 'No', instant: 'No', origin: "Stretch Goals", count: '1',
-      description: "Assign a number of gems from your Reserve zone to this card. For each gem assigned, move your model to an adjacent space." },
-
+      description: "Assign a number of gems from your Reserve zone to this card.
+      For each gem assigned, move your model to an adjacent space.<br /><br />
+      Clarification: A character who casts this spell is not affected by hindering
+      or by <a class='skill' href='/skills/10'>Blocking</a> to move." },
+      
     { name: "Warmth of Ishtar", cost: '', limit: '', area: 'No', instant: 'No', origin: "Stretch Goals", count: '1',
       description: "Blank Card" },
 
