@@ -56,6 +56,7 @@ end
 group :production do
   gem 'pg', '~> 0.18'
   gem 'rails_12factor'
+  gem 'sprockets', '~>3.7.2'
 end
 
 ruby "2.2.1"
