@@ -29,11 +29,8 @@
           <%= text_field_tag :search, params[:search], placeholder: "Search Scenarios" %>
           <%= submit_tag "Search", :name => nil, :class => "btn btn-default" %>
         <% end %>
-        <% if logged_in? %>
-          <li><%= link_to 'Log out', logout_path, method: :delete %></li>
-        <% else %>
-          <%= link_to (image_tag 'misc/btn_google.png'), "/auth/google_oauth2", id: "sign_in" %>
-        <% end %>
+
+        <!-- add login code and google button here -->
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->

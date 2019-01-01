@@ -28,7 +28,7 @@
     { name: 'Conan’s Sword', encumbrance: '2', origin: 'Core Game', count: '1',
       armor: '', melee: 'Orange', ranged: 'Orange Throw',
       defense: 'Orange', manipulation: '', role: 'Weapon',
-      dice: { melee: [3], ranged: [3, 7] }, description: '' },
+      dice: { melee: [3], ranged: [3, 7], defense: [3] }, description: '' },
 
     { name: 'Crossbow', encumbrance: '3', origin: 'Core Game', count: '1',
       armor: '', melee: '', ranged: 'Red',
@@ -423,7 +423,7 @@
       defense: 'Orange', manipulation: '', role: 'Weapon',
       dice: { melee: [3], ranged: [3, 7], defense: [3] }, description: '' },
 
-    { name: 'Short Sword', encumbrance: '', origin: 'Brom Box', count: '1',
+    { name: 'Short Sword', encumbrance: '2', origin: 'Brom Box', count: '1',
       armor: '', melee: 'Orange-Reroll', ranged: '',
       defense: 'Yellow-Reroll', manipulation: '', role: 'Weapon',
       dice: { melee: [4], defense: [6] }, description: '' },

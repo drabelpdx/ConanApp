@@ -4044,14 +4044,16 @@
         lower-left corner of each level. Six wells connect the two levels but
         only one is opened enough to let a human pass through it. During setup,
         the Overlord looks at the six well tokens
-        <img src="/assets/tokens/wellToken.png" class="scen_token" /> with a Red
-        X or a Green Checkmark and places them facedown  on level 1 of the board
-        as indicated by the setup diagram. Then the Overlord places the other six
-        well tokens on the level 0 of the board as indicated by the setup diagram.
-        A hero in an area with a facedown well may perform a complex Manipulation
-        with a difficulty of 1 to reveal it. If the well token shows a Red X, the
-        token is placed faceup in that area and the hero draws one card from the
-        asset deck. If the well token shows a Green Checkmark, the token is placed
+        <img src="/assets/tokens/wellToken.png" class="scen_token" /> with a
+        <span class="scen_x">X</span> or a <span class="scen_check">&#x2714;</span>
+        and places them facedown  on level 1 of the board as indicated by the
+        setup diagram. Then the Overlord places the other six well tokens on the
+        level 0 of the board as indicated by the setup diagram. A hero in an
+        area with a facedown well may perform a complex Manipulation
+        with a difficulty of 1 to reveal it. If the well token shows a
+        <span class="scen_x">X</span>, the token is placed faceup in that
+        area and the hero draws one card from the asset deck. If the well token
+        shows a <span class="scen_check">&#x2714;</span>, the token is placed
         faceup in that area and represents the open well.</p>
 
         <p><span class="special_title">Moving Through a Well:</span>
@@ -4101,17 +4103,20 @@
         <p><span class="special_title">Assassins:</span>
         The Assassins are stealthy. During setup, the Overlord shuffles 6 assassin tokens
         <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AssassinToken.png" class="scen_token">,
-        3 with a face showing a Red X, and 3 with a face showing a Green Checkmark,
-        and randomly places them facedown on the board as indicated by the setup
-        diagram, then looks at them secretly. The Overlord may look at the assassins
-        tokens secretly anytime during the game. When the Assassin’s tile is activated,
-        the Overlord may move all the Assassin models and all the assassin tokens as
-        if they were Assassin models. When an Assassin’s token is moved into a hero’s
-        area, or when a hero moves into an assassin token’s area, that token is
-        revealed. If the token shows a Red X, it was a decoy and that token is discarded.
-        If the token shows a Green Checkmark, the token is replaced by an Assassin model.
-        When all the Assassin models have been placed on the board, discard the remaining
-        assassin tokens. Assassin tokens do not block secret passages.</p>
+        3 with a face showing a <span class="scen_x">X</span>, and 3 with a face
+        showing a <span class="scen_check">&#x2714;</span>, and randomly places
+        them facedown on the board as indicated by the setup diagram, then looks
+        at them secretly. The Overlord may look at the assassins tokens secretly
+        anytime during the game. When the Assassin’s tile is activated, the
+        Overlord may move all the Assassin models and all the assassin tokens as
+        if they were Assassin models. When an Assassin’s token is moved into a
+        hero’s area, or when a hero moves into an assassin token’s area, that
+        token is revealed. If the token shows a <span class="scen_x">X</span>,
+        it was a decoy and that token is discarded. If the token shows a
+        <span class="scen_check">&#x2714;</span>, the token is replaced by an
+        Assassin model. When all the Assassin models have been placed on the
+        board, discard the remaining assassin tokens. Assassin tokens do not
+        block secret passages.</p>
 
         <p><span class="special_title">Water of Styx:</span>
         The water area is not accessible for this scenario.</p>
@@ -4344,17 +4349,20 @@
         <p><span class="special_title">Assassins:</span>
         The Assassins are stealthy. During setup, the Overlord shuffles 6 assassin tokens
         <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AssassinToken.png" class="scen_token">,
-        3 with a face showing a Red X, and 3 with a face showing a Green Checkmark,
-        and randomly places them facedown on the board as indicated by the setup
-        diagram, then looks at them secretly. The Overlord may look at the assassins
-        tokens secretly anytime during the game. When the Assassin’s tile is activated,
-        the Overlord may move all the Assassin models and all the assassin tokens as
-        if they were Assassin models. When an Assassin’s token is moved into a hero’s
-        area, or when a hero moves into an assassin token’s area, that token is
-        revealed. If the token shows a Red X, it was a decoy and that token is discarded.
-        If the token shows a Green Checkmark, the token is replaced by an Assassin model.
-        When all the Assassin models have been placed on the board, discard the remaining
-        assassin tokens. Assassin tokens do not block secret passages.</p>
+        3 with a face showing a <span class="scen_x">X</span>, and 3 with a face
+        showing a <span class="scen_check">&#x2714;</span>, and randomly places
+        them facedown on the board as indicated by the setup diagram, then looks
+        at them secretly. The Overlord may look at the assassins tokens secretly
+        anytime during the game. When the Assassin’s tile is activated, the
+        Overlord may move all the Assassin models and all the assassin tokens as
+        if they were Assassin models. When an Assassin’s token is moved into a
+        hero’s area, or when a hero moves into an assassin token’s area, that
+        token is revealed. If the token shows a <span class="scen_x">X</span>,
+        it was a decoy and that token is discarded. If the token shows a
+        <span class="scen_check">&#x2714;</span>, the token is replaced by an
+        Assassin model. When all the Assassin models have been placed on the
+        board, discard the remaining assassin tokens. Assassin tokens do not
+        block secret passages.</p>
 
         <p><span class="special_title">Torch:</span>
         At the beginning of their action phase, a hero in aggressive stance with
@@ -4449,12 +4457,12 @@
             <span class="setup_suggestion">Reinforcement:</span> 5 reinforcement points
             <img src="/assets/stats/reinforcement.png" class="scen_token" /> .
             <br /><br />
-            <span class="setup_suggestion">Plague of Stygia:</span> Thot-Amon unleashes the ancient
-            forces in a deluge of fire and death. The Overlord chooses an area
-            of the board other than ones located in the three buildings of the
-            city (the trading post, the barracks and the warehouse) and places
-            a flame token in that area (ignoring the number on it). Then the
-            Overlord attacks that area; roll
+            <span class="setup_suggestion">Plague of Stygia:</span> Thot-Amon
+            unleashes the ancient forces in a deluge of fire and death. The
+            Overlord chooses an area of the board other than ones located in the
+            three buildings of the city (the trading post, the barracks and the
+            warehouse) and places a flame token in that area (ignoring the number
+            on it). Then the Overlord attacks that area; roll
             <img src="/assets/dice/Red.png" class="scen_sq_token" />
             <img src="/assets/dice/Red.png" class="scen_sq_token" /> .
           </td>
