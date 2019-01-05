@@ -138,7 +138,7 @@ Tile.create!([
     role: 'Minion', move: '2', armor: '1', cost: '1',
     melee: '–', ranged: '2 Yellow-Reroll', bone_ids: [6, 6],
     origin: 'Core Game', count: '1', skill_ids: [8],
-    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/BossonianArchersPurple.jpg',
+    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/BossonianArchers.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BossonianArchersPurple.png',
     token_image: '' },
 
@@ -146,7 +146,7 @@ Tile.create!([
     role: 'Minion', move: '2', armor: '2', cost: '1',
     melee: 'Orange, Yellow', ranged: '–', bone_ids: [3, 5],
     origin: 'Core Game', count: '1', skill_ids: [29],
-    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/BossonianGuardsBlue.jpg',
+    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/BossonianGuards.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BossonianGuards.png',
     token_image: '' },
 
@@ -154,7 +154,7 @@ Tile.create!([
     role: 'Minion', move: '2', armor: '2', cost: '1',
     melee: 'Orange, Yellow', ranged: '–', bone_ids: [3, 5],
     origin: 'Core Game', count: '1', skill_ids: [29],
-    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/BossonianGuardsBlue.jpg',
+    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/BossonianGuards.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BossonianGuardsBlue.png',
     token_image: '' },
 
@@ -162,7 +162,7 @@ Tile.create!([
     role: 'Minion', move: '2', armor: '2', cost: '1',
     melee: 'Orange, Yellow', ranged: '–', bone_ids: [3, 5],
     origin: 'Core Game', count: '1', skill_ids: [29],
-    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/BossonianGuardsGreen.jpg',
+    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/BossonianGuards.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BossonianGuardsGreen.png',
     token_image: '' },
 
@@ -170,7 +170,7 @@ Tile.create!([
     role: 'Minion', move: '2', armor: '2', cost: '1',
     melee: 'Orange, Yellow', ranged: '–', bone_ids: [3, 5],
     origin: 'Core Game', count: '1', skill_ids: [29],
-    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/BossonianGuardsBlue.jpg',
+    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/BossonianGuards.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BossonianGuardsOrange.png',
     token_image: '' },
 
@@ -178,7 +178,7 @@ Tile.create!([
     role: 'Minion', move: '2', armor: '2', cost: '1',
     melee: 'Orange, Yellow', ranged: '–', bone_ids: [3, 5],
     origin: 'Core Game', count: '1', skill_ids: [29],
-    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/BossonianGuardsPurple.jpg',
+    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/BossonianGuards.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BossonianGuardsPurple.png',
     token_image: '' },
 
@@ -186,7 +186,7 @@ Tile.create!([
     role: 'Minion', move: '2', armor: '2', cost: '1',
     melee: 'Orange, Yellow', ranged: '–', bone_ids: [3, 5],
     origin: 'Core Game', count: '1', skill_ids: [29],
-    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/BossonianGuardsRed.jpg',
+    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/BossonianGuards.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BossonianGuardsRed.png',
     token_image: '' },
 
@@ -210,7 +210,7 @@ Tile.create!([
     role: 'Minion', move: '2', armor: '1', cost: '1',
     melee: '2 Yellow-Reroll', ranged: '–', bone_ids: [6, 6],
     origin: 'Core Game', count: '1', skill_ids: [16],
-    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/PictHuntersBlue.jpg',
+    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/PictHunters.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/PictHuntersBlue.png',
     token_image: '' },
 
@@ -218,7 +218,7 @@ Tile.create!([
     role: 'Minion', move: '2', armor: '1', cost: '1',
     melee: '2 Yellow-Reroll', ranged: '–', bone_ids: [6, 6],
     origin: 'Core Game', count: '1', skill_ids: [16],
-    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/PictHuntersGreen.jpg',
+    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/PictHunters.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/PictHuntersGreen.png',
     token_image: '' },
 
@@ -226,7 +226,7 @@ Tile.create!([
     role: 'Minion', move: '2', armor: '1', cost: '1',
     melee: '2 Yellow-Reroll', ranged: '–', bone_ids: [6, 6],
     origin: 'Core Game', count: '1', skill_ids: [16],
-    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/PictHuntersOrange.jpg',
+    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/PictHunters.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/PictHuntersOrange.png',
     token_image: '' },
 
@@ -234,7 +234,7 @@ Tile.create!([
     role: 'Minion', move: '2', armor: '1', cost: '1',
     melee: '2 Yellow-Reroll', ranged: '–', bone_ids: [6, 6],
     origin: 'Core Game', count: '1', skill_ids: [16],
-    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/PictHuntersRed.jpg',
+    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/PictHunters.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/PictHuntersRed.png',
     token_image: '' },
 
@@ -242,7 +242,7 @@ Tile.create!([
     role: 'Minion', move: '2', armor: '2', cost: '2',
     melee: 'Red-Reroll', ranged: '–', bone_ids: [2],
     origin: 'Core Game', count: '1', skill_ids: [10, 16],
-    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/PictWarriorsPurple.jpg',
+    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/PictWarriors.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/PictWarriorsPurple.png',
     token_image: '' },
 
@@ -250,7 +250,7 @@ Tile.create!([
     role: 'Minion', move: '3', armor: '1', cost: '1',
     melee: 'Orange', ranged: '–', bone_ids: [3],
     origin: 'Core Game', count: '1', skill_ids: [13, 16],
-    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/PiratesBlue.jpg',
+    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Pirates.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Pirates.png',
     token_image: '' },
 
@@ -258,7 +258,7 @@ Tile.create!([
     role: 'Minion', move: '3', armor: '1', cost: '1',
     melee: 'Orange', ranged: '–', bone_ids: [3],
     origin: 'Core Game', count: '1', skill_ids: [13, 16],
-    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/PiratesBlue.jpg',
+    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Pirates.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/PiratesBlue.png',
     token_image: '' },
 
@@ -266,7 +266,7 @@ Tile.create!([
     role: 'Minion', move: '3', armor: '1', cost: '1',
     melee: 'Orange', ranged: '–', bone_ids: [3],
     origin: 'Core Game', count: '1', skill_ids: [13, 16],
-    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/PiratesGreen.jpg',
+    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Pirates.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/PiratesGreen.png',
     token_image: '' },
 
@@ -274,7 +274,7 @@ Tile.create!([
     role: 'Minion', move: '3', armor: '1', cost: '1',
     melee: 'Orange', ranged: '–', bone_ids: [3],
     origin: 'Core Game', count: '1', skill_ids: [13, 16],
-    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/PiratesOrange.jpg',
+    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Pirates.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/PiratesOrange.png',
     token_image: '' },
 
@@ -282,7 +282,7 @@ Tile.create!([
     role: 'Minion', move: '3', armor: '1', cost: '1',
     melee: 'Orange', ranged: '–', bone_ids: [3],
     origin: 'Core Game', count: '1', skill_ids: [13, 16],
-    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/PiratesPurple.jpg',
+    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Pirates.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/PiratesPurple.png',
     token_image: '' },
 
@@ -290,7 +290,7 @@ Tile.create!([
     role: 'Minion', move: '3', armor: '1', cost: '1',
     melee: 'Orange', ranged: '–', bone_ids: [3],
     origin: 'Core Game', count: '1', skill_ids: [13, 16],
-    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/PiratesRed.jpg',
+    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Pirates.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/PiratesRed.png',
     token_image: '' },
 
@@ -334,7 +334,7 @@ Tile.create!([
     role: 'Minion', move: '2', armor: '2', cost: '2',
     melee: '2 Orange', ranged: '–', bone_ids: [3, 3],
     origin: 'King Pledge', count: '1', skill_ids: [26],
-    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/MummiesBlue.jpg',
+    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Mummies.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Mummies.png',
     token_image: '' },
 
@@ -342,7 +342,7 @@ Tile.create!([
     role: 'Minion', move: '2', armor: '2', cost: '2',
     melee: '2 Orange', ranged: '–', bone_ids: [3, 3],
     origin: 'King Pledge', count: '1', skill_ids: [26],
-    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/MummiesBlue.jpg',
+    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Mummies.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/MummiesBlue.png',
     token_image: '' },
 
@@ -350,7 +350,7 @@ Tile.create!([
     role: 'Minion', move: '2', armor: '2', cost: '2',
     melee: '2 Orange', ranged: '–', bone_ids: [3, 3],
     origin: 'King Pledge', count: '1', skill_ids: [26],
-    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/MummiesGreen.jpg',
+    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Mummies.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/MummiesGreen.png',
     token_image: '' },
 
@@ -358,7 +358,7 @@ Tile.create!([
     role: 'Minion', move: '2', armor: '2', cost: '2',
     melee: '2 Orange', ranged: '–', bone_ids: [3, 3],
     origin: 'King Pledge', count: '1', skill_ids: [26],
-    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/MummiesOrange.jpg',
+    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Mummies.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/MummiesOrange.png',
     token_image: '' },
 
@@ -366,7 +366,7 @@ Tile.create!([
     role: 'Minion', move: '2', armor: '2', cost: '2',
     melee: '2 Orange', ranged: '–', bone_ids: [3, 3],
     origin: 'King Pledge', count: '1', skill_ids: [26],
-    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/MummiesBlue.jpg',
+    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Mummies.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/MummiesPurple.png',
     token_image: '' },
 
@@ -374,7 +374,7 @@ Tile.create!([
     role: 'Minion', move: '2', armor: '1', cost: '1',
     melee: 'Orange-Reroll', ranged: '–', bone_ids: [4],
     origin: 'King Pledge', count: '1', skill_ids: [29],
-    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/SkeletonsBlue.jpg',
+    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Skeletons.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Skeletons.png',
     token_image: '' },
 
@@ -382,7 +382,7 @@ Tile.create!([
     role: 'Minion', move: '2', armor: '1', cost: '1',
     melee: 'Orange-Reroll', ranged: '–', bone_ids: [4],
     origin: 'King Pledge', count: '1', skill_ids: [29],
-    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/SkeletonsGreen.jpg',
+    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Skeletons.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SkeletonsGreen.png',
     token_image: '' },
 
@@ -390,7 +390,7 @@ Tile.create!([
     role: 'Minion', move: '2', armor: '1', cost: '1',
     melee: 'Orange-Reroll', ranged: '–', bone_ids: [4],
     origin: 'King Pledge', count: '1', skill_ids: [29],
-    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/SkeletonsBlue.jpg',
+    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Skeletons.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SkeletonsBlue.png',
     token_image: '' },
 
@@ -398,7 +398,7 @@ Tile.create!([
     role: 'Minion', move: '2', armor: '1', cost: '1',
     melee: 'Orange-Reroll', ranged: '–', bone_ids: [4],
     origin: 'King Pledge', count: '1', skill_ids: [29],
-    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/SkeletonsOrange.jpg',
+    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Skeletons.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SkeletonsOrange.png',
     token_image: '' },
 
@@ -406,7 +406,7 @@ Tile.create!([
     role: 'Minion', move: '2', armor: '1', cost: '1',
     melee: 'Orange-Reroll', ranged: '–', bone_ids: [4],
     origin: 'King Pledge', count: '1', skill_ids: [29],
-    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/SkeletonsPurple.jpg',
+    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Skeletons.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SkeletonsPurple.png',
     token_image: '' },
 
@@ -414,7 +414,7 @@ Tile.create!([
     role: 'Minion', move: '2', armor: '1', cost: '1',
     melee: 'Orange-Reroll', ranged: '–', bone_ids: [4],
     origin: 'King Pledge', count: '1', skill_ids: [29],
-    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/SkeletonsRed.jpg',
+    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Skeletons.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SkeletonsRed.png',
     token_image: '' },
 
@@ -685,7 +685,7 @@ Tile.create!([
     role: 'Minion', move: '2', armor: '3', cost: '2',
     melee: '2 Orange', ranged: '–', bone_ids: [3, 3],
     origin: 'Stretch Goals', count: '1', skill_ids: [],
-    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/MummiesBlue.jpg',
+    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Mummies.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/MummiesAlt.png',
     token_image: '' },
 
@@ -693,7 +693,7 @@ Tile.create!([
     role: 'Minion', move: '2', armor: '3', cost: '2',
     melee: '2 Orange', ranged: '–', bone_ids: [3, 3],
     origin: 'Stretch Goals', count: '1', skill_ids: [],
-    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/MummiesBlue.jpg',
+    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Mummies.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/MummiesBlueAlt.png',
     token_image: '' },
 
@@ -717,7 +717,7 @@ Tile.create!([
     role: 'Minion', move: '2', armor: '2', cost: '2',
     melee: 'Red-Reroll', ranged: '–', bone_ids: [2],
     origin: 'Stretch Goals', count: '1', skill_ids: [10, 16],
-    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/PictWarriorsPurple.jpg',
+    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/PictWarriors.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/PictWarriors.png',
     token_image: '' },
 
@@ -725,7 +725,7 @@ Tile.create!([
     role: 'Minion', move: '2', armor: '2', cost: '1',
     melee: '2 Yellow', ranged: '–', bone_ids: [5, 5],
     origin: 'Stretch Goals', count: '1', skill_ids: [16, 30],
-    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/PiratesBlue.jpg',
+    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Pirates.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/PiratesAlt.png',
     token_image: '' },
 
@@ -733,7 +733,7 @@ Tile.create!([
     role: 'Minion', move: '2', armor: '2', cost: '1',
     melee: '2 Yellow', ranged: '–', bone_ids: [5, 5],
     origin: 'Stretch Goals', count: '1', skill_ids: [16, 30],
-    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/PiratesOrange.jpg',
+    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Pirates.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/PiratesOrangeAlt.png',
     token_image: '' },
 
@@ -741,7 +741,7 @@ Tile.create!([
     role: 'Minion', move: '2', armor: '0', cost: '1',
     melee: 'Orange', ranged: '–', bone_ids: [3],
     origin: 'Stretch Goals', count: '1', skill_ids: [],
-    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/SkeletonsBlue.jpg',
+    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Skeletons.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SkeletonsAlt.png',
     token_image: '' },
 
@@ -749,7 +749,7 @@ Tile.create!([
     role: 'Minion', move: '2', armor: '0', cost: '1',
     melee: 'Orange', ranged: '–', bone_ids: [3],
     origin: 'Stretch Goals', count: '1', skill_ids: [],
-    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/SkeletonsRed.jpg',
+    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Skeletons.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SkeletonsRedAlt.png',
     token_image: '' },
 
@@ -843,7 +843,7 @@ Tile.create!([
     role: 'Minion', move: '2', armor: '0', cost: '3',
     melee: '–', ranged: 'Red-Reroll', bone_ids: [2],
     origin: 'Crossbowmen', count: '1', skill_ids: [8, 9],
-    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/CrossbowmenGreen.jpg',
+    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Crossbowmen.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/CrossbowmenGreen.png',
     token_image: '' },
 
@@ -851,7 +851,7 @@ Tile.create!([
     role: 'Minion', move: '2', armor: '1', cost: '2',
     melee: '–', ranged: 'Red', bone_ids: [1],
     origin: 'Crossbowmen', count: '1', skill_ids: [8, 29],
-    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/CrossbowmenRed.jpg',
+    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Crossbowmen.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/CrossbowmenRed.png',
     token_image: '' },
 
@@ -1094,7 +1094,7 @@ Tile.create!([
     role: 'Monster', move: '2', armor: '2',
     melee: '2 Red', ranged: '–', bone_ids: [1, 1],
     origin: 'Khitai Expansion', count: '2', skill_ids: [],
-    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/EvilHound.jpg',
+    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/DarkDemon.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/EvilHound.png',
     token_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/DarkDemonToken.png' },
 
