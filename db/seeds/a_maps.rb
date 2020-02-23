@@ -114,7 +114,7 @@
     },
 
     ## Stretch Goals
-    { name: 'The Citadel', description: "The Citadel", flip_side: 'The Swamp', origin: 'Stretch Goals',
+    { name: 'The Citadel', description: "The Citadel", flip_side: 'The Swamp', origin: 'Stretch Goal',
       image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/The+Citadel.jpg',
       special_rules: '
       <ol>
@@ -132,7 +132,7 @@
       </ol>'
     },
 
-    { name: 'The Swamp', description: "The Swamp", flip_side: 'The Citadel', origin: 'Stretch Goals',
+    { name: 'The Swamp', description: "The Swamp", flip_side: 'The Citadel', origin: 'Stretch Goal',
       image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/The+Swamp.jpg',
       special_rules: '
         <ol>
@@ -157,22 +157,19 @@
       origin: 'Nordheim Expansion', image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/The+Tundra+Forest.jpg' },
 
     # Stygia
-    { name: 'The Stygian Temple', description: "Catacombs", flip_side: 'The Luxor Port', origin: 'Stygia Expansion',
-      image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/Stygia_1.jpg' },
+    { name: 'The Stygian Temple', description: "Catacombs", flip_side: 'The Luxor Port',
+      origin: 'Stygia Expansion', image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/Stygia_1.jpg' },
 
-    { name: 'The Luxor Port', description: "Water Front", flip_side: 'The Stygian Temple', origin: 'Stygia Expansion',
-      image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/Stygia_2.jpg' },
+    { name: 'The Luxor Port', description: "Water Front", flip_side: 'The Stygian Temple',
+      origin: 'Stygia Expansion', image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/Stygia_2.jpg' },
 
     # Khitai
     { name: 'The Tower 1', description: "Tower Levels 1, 2, and 3", flip_side:
-      'The Tower 2', origin: 'Khitai Expansion',
-      image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/Khitai_1.jpg' },
+      'The Tower 2', origin: 'Khitai Expansion', image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/Khitai_1.jpg' },
 
     { name: 'The Tower 2', description: "Tower Levels 0 and 4", flip_side:
-      'The Tower 1', origin: 'Khitai Expansion',
-      image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/Khitai_3.jpg' },
+      'The Tower 1', origin: 'Khitai Expansion', image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/Khitai_3.jpg' },
 
     { name: 'The Khitan Village', description: "Khitai Village", flip_side:
-      'none', origin: 'Khitai Expansion',
-      image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/Khitai_2.jpg' }
+      'none', origin: 'Khitai Expansion',  image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/Khitai_2.jpg' }
   ])

@@ -81,18 +81,6 @@
         </table>
       </div>
     </div>
-    <div class="col-md-4 col-sm-6">
-      <div class="panel panel-spell">
-        <div class="panel-heading">Campaign Spells</div>
-        <table class="table">
-          <% @campaign.sort_by {|spell| spell.name }.each do |spell| %>
-            <tr>
-              <td class="spell" align="center"><%= link_to spell.name, spell_path(spell) %></td>
-            </tr>
-          <% end %>
-        </table>
-      </div>
-    </div>
   </div>
 </div>
 

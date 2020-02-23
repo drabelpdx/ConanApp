@@ -1,7 +1,6 @@
 require 'test_helper'
 
-class HeroesControllerTest < ActionController::TestCase
-
+class HeroesControllerTest < ActionDispatch::IntegrationTest
   def setup
     @hero = Hero.create(name: "Bob",
                         life: "10",
@@ -23,18 +22,18 @@ class HeroesControllerTest < ActionController::TestCase
   end
 
   test "should get heroes index" do
-    get :index
+    get heroes_path
     assert_response :success
   end
 
   test "should get new" do
     session[:user_id] = @user.id
-    get :new
+    get new_hero_path
     assert_response :success
   end
 
   test "should get show" do
-    get(:show, {'id' => @hero.id})
+    get heroes_path(@hero)
     assert_response :success
   end
 

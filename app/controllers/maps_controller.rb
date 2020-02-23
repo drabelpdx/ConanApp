@@ -55,7 +55,7 @@ class MapsController < ApplicationController
 
     def set_maps
       @core = Map.where(origin: 'Core Game')
-      @stretch = Map.where(origin: 'Stretch Goals')
+      @stretch = Map.where(origin: 'Stretch Goal')
       @nordheim = Map.where(origin: 'Nordheim Expansion')
       @stygia = Map.where(origin: 'Stygia Expansion')
       @khitai = Map.where(origin: 'Khitai Expansion')

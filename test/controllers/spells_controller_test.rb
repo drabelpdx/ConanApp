@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class SpellsControllerTest < ActionController::TestCase
+class SpellsControllerTest < ActionDispatch::IntegrationTest
 
   def setup
     @spell = Spell.create(name: "Bad Luck",
@@ -13,18 +13,18 @@ class SpellsControllerTest < ActionController::TestCase
   end
 
   test "should get spells index" do
-    get :index
+    get spells_path
     assert_response :success
   end
 
   test "should get new" do
     session[:user_id] = @user.id
-    get :new
+    get new_spell_path
     assert_response :success
   end
 
   test "should get show" do
-    get(:show, {'id' => @spell.id})
+    get spells_path(@spell)
     assert_response :success
   end
 

@@ -57,7 +57,7 @@ class ItemsController < ApplicationController
 
     def set_items
       @core = Item.where(origin: 'Core Game')
-      @stretch = Item.where(origin: 'Stretch Goals')
+      @stretch = Item.where(origin: 'Stretch Goal')
       @nordheim = Item.where(origin: 'Nordheim Expansion')
       @stygia = Item.where(origin: 'Stygia Expansion')
       @khitai = Item.where(origin: 'Khitai Expansion')

@@ -16,6 +16,7 @@
         <p><%= @hero.quote %></p>
         <p><%= @hero.cite %></p>
       <div align="center">
+        from  <%= @hero.origin %>
         <% if @hero_scenarios.any? %>
           <h4>Appears in:</h4>
           <% @hero_scenarios.each do |scenario| %>

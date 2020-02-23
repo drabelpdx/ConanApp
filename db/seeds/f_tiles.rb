@@ -296,20 +296,20 @@ Tile.create!([
 
   ## King Pledge
   # Monster
-  { name: 'Thog 1', description: '',
+  { name: 'Thog', description: '',
     role: 'Monster', move: '1', armor: '3',
     melee: '3 Red-Reroll', ranged: '–', bone_ids: [2, 2, 2],
     origin: 'King Pledge', count: '2', skill_ids: [14, 25],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Thog.jpg',
-    tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Thog1.png',
+    tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Thog.png',
     token_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ThogToken.png' },
 
-  { name: 'Thog 2', description: '',
+  { name: 'Thog - Alt', description: '',
     role: 'Monster', move: '1', armor: '3',
     melee: '3 Red-Reroll', ranged: '–', bone_ids: [2, 2, 2],
     origin: 'King Pledge', count: '2', skill_ids: [3, 25],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Thog.jpg',
-    tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Thog2.png',
+    tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ThogAlt.png',
     token_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ThogToken.png' },
 
   # Allies
@@ -933,11 +933,11 @@ Tile.create!([
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/VanirValkyrie.png',
     token_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/VanirValkyrieToken.png' },
 
-  # Paolo Parent Guest Box
+  # Paolo Parente Guest Box
   { name: 'Salome', description: 'Taramis’ Evil Sister',
     role: 'Leader', move: '2', armor: '1',
     melee: 'Yellow', ranged: '–', bone_ids: [5],
-    origin: 'Paolo Parent Guest Box', count: '2', skill_ids: [33, 32],
+    origin: 'Paolo Parente Box', count: '2', skill_ids: [33, 32],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Taramis.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Salome.png',
     token_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SalomeToken.png' },

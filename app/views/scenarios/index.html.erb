@@ -30,36 +30,30 @@
       <div class="panel panel-info">
         <div class="panel-heading">Core Game</div>
         <table class="table">
-          <% @scenarios.each do |scenario| %>
-          <% if scenario.origin === "Core Game"%>
+          <% @core.each do |scenario| %>
           <tr>
             <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
           </tr>
-          <% end %>
           <% end %>
         </table>
       </div>
       <div class="panel panel-info">
         <div class="panel-heading">King Pledge</div>
         <table class="table">
-          <% @scenarios.each do |scenario| %>
-          <% if scenario.origin === "King Pledge"%>
+          <% @king.each do |scenario| %>
           <tr>
             <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
           </tr>
-          <% end %>
           <% end %>
         </table>
       </div>
       <div class="panel panel-info">
         <div class="panel-heading">Stretch Goal</div>
         <table class="table">
-          <% @scenarios.each do |scenario| %>
-          <% if scenario.origin === "Stretch Goal"%>
+          <% @stretch.each do |scenario| %>
           <tr>
             <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
           </tr>
-          <% end %>
           <% end %>
         </table>
       </div>
@@ -69,36 +63,30 @@
       <div class="panel panel-info">
         <div class="panel-heading">Nordheim Expansion</div>
         <table class="table">
-          <% @scenarios.each do |scenario| %>
-          <% if scenario.origin === "Nordheim"%>
+          <% @nordheim.each do |scenario| %>
           <tr>
             <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
           </tr>
-          <% end %>
           <% end %>
         </table>
       </div>
       <div class="panel panel-info">
         <div class="panel-heading">Khitai Expansion</div>
         <table class="table">
-          <% @scenarios.each do |scenario| %>
-          <% if scenario.origin === "Khitai"%>
+          <% @khitai.each do |scenario| %>
           <tr>
             <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
           </tr>
-          <% end %>
           <% end %>
         </table>
       </div>
       <div class="panel panel-info">
         <div class="panel-heading">Stygia Expansion</div>
         <table class="table">
-          <% @scenarios.each do |scenario| %>
-          <% if scenario.origin === "Stygia"%>
+          <% @stygia.each do |scenario| %>
           <tr>
             <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
           </tr>
-          <% end %>
           <% end %>
         </table>
       </div>
@@ -107,12 +95,10 @@
       <div class="panel panel-info">
         <div class="panel-heading">Book of Set</div>
         <table class="table">
-          <% @scenarios.each do |scenario| %>
-          <% if scenario.origin === "Book of Set"%>
+          <% @set.each do |scenario| %>
           <tr>
             <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
           </tr>
-          <% end %>
           <% end %>
         </table>
       </div>

@@ -172,141 +172,141 @@
 
     ## Stretch Goals
     #  Weapons
-    { name: 'Axe', encumbrance: '2', origin: 'Stretch Goals', count: '1',
+    { name: 'Axe', encumbrance: '2', origin: 'Stretch Goal', count: '1',
       armor: '', melee: '2 Yellow', ranged: 'Orange Throw',
       defense: '', manipulation: '', role: 'Weapon',
       dice: { melee: [5, 5], ranged: [3, 7] }, description: '' },
 
-    { name: 'Explosive Orb', encumbrance: '1', origin: 'Stretch Goals', count: '1',
+    { name: 'Explosive Orb', encumbrance: '1', origin: 'Stretch Goal', count: '1',
       armor: '', melee: '', ranged: '',
       defense: '', manipulation: '2 Red Area', role: 'Weapon',
       dice: { manipulation: [1, 1, 8]}, description: '' },
 
-    { name: 'Mitra’s Mace', encumbrance: '2', origin: 'Stretch Goals', count: '1',
+    { name: 'Mitra’s Mace', encumbrance: '2', origin: 'Stretch Goal', count: '1',
       armor: '', melee: 'Red', ranged: '',
       defense: '', manipulation: '', role: 'Weapon',
       dice: { melee: [1] }, description: '' },
 
-    { name: 'Pirate Saber', encumbrance: '1', origin: 'Stretch Goals', count: '1',
+    { name: 'Pirate Saber', encumbrance: '1', origin: 'Stretch Goal', count: '1',
       armor: '', melee: 'Orange', ranged: 'Yellow Throw',
       defense: 'Yellow', manipulation: '', role: 'Weapon',
       dice: { melee: [3], ranged: [5, 7], defense: [5] }, description: '' },
 
-    { name: 'Sacrificial Dagger', encumbrance: '1', origin: 'Stretch Goals', count: '1',
+    { name: 'Sacrificial Dagger', encumbrance: '1', origin: 'Stretch Goal', count: '1',
       armor: '', melee: '2 Yellow', ranged: '',
       defense: '', manipulation: '', role: 'Weapon',
       dice: { melee: [5, 5] }, description: '' },
 
-    { name: 'Stygian Scepter', encumbrance: '1', origin: 'Stretch Goals', count: '1',
+    { name: 'Stygian Scepter', encumbrance: '1', origin: 'Stretch Goal', count: '1',
       armor: '', melee: 'Red-Reroll', ranged: '',
       defense: '', manipulation: '', role: 'Weapon',
       dice: { melee: [2] }, description: '' },
 
-    { name: 'Turanian Sword', encumbrance: '2', origin: 'Stretch Goals', count: '1',
+    { name: 'Turanian Sword', encumbrance: '2', origin: 'Stretch Goal', count: '1',
       armor: '', melee: 'Orange-Reroll', ranged: '',
       defense: 'Orange-Reroll', manipulation: '', role: 'Weapon',
       dice: { melee: [4], defense: [4] }, description: '' },
 
-    { name: 'Two-Handed Sword', encumbrance: '3', origin: 'Stretch Goals', count: '1',
+    { name: 'Two-Handed Sword', encumbrance: '3', origin: 'Stretch Goal', count: '1',
       armor: '', melee: 'Red-Reroll', ranged: '',
       defense: 'Orange', manipulation: '', role: 'Weapon',
       dice: { melee: [2], defense: [3] }, description: '' },
 
-    { name: 'Zingaran Bow', encumbrance: '1', origin: 'Stretch Goals', count: '1',
+    { name: 'Zingaran Bow', encumbrance: '1', origin: 'Stretch Goal', count: '1',
       armor: '', melee: '', ranged: 'Yellow-Reroll',
       defense: '', manipulation: '', role: 'Weapon',
       dice: { ranged: [6] }, description: '' },
 
     # Armor
-    { name: 'Zingaran Breastplate', encumbrance: '3', origin: 'Stretch Goals', count: '1',
+    { name: 'Zingaran Breastplate', encumbrance: '3', origin: 'Stretch Goal', count: '1',
       armor: 'Yellow-Reroll', melee: '', ranged: '',
       defense: '', manipulation: '', role: 'Armor',
       dice: { armor: [6] }, description: '' },
 
     # Staff
-    { name: 'Black Staff', encumbrance: '1', origin: 'Stretch Goals', count: '1',
+    { name: 'Black Staff', encumbrance: '1', origin: 'Stretch Goal', count: '1',
       armor: '', melee: '', ranged: '',
       defense: 'Yellow', manipulation: '', role: 'Staff',
       dice: { defense: [5] }, description: '' },
 
-    { name: 'Mita’s Staff', encumbrance: '2', origin: 'Stretch Goals', count: '1',
+    { name: 'Mita’s Staff', encumbrance: '2', origin: 'Stretch Goal', count: '1',
       armor: '', melee: '', ranged: '',
       defense: 'Yellow-Reroll', manipulation: '', role: 'Staff',
       dice: { defense: [6] }, description: '' },
 
     # Drink
-    { name: 'Life Potion', encumbrance: '0', origin: 'Stretch Goals', count: '1',
+    { name: 'Life Potion', encumbrance: '0', origin: 'Stretch Goal', count: '1',
       armor: '', melee: '', ranged: '',
       defense: '', manipulation: '', role: 'Drink',
       dice: '', description: 'Move 2 gems from your Fatigue zone or Wound zone to your Reserve zone.' },
 
-    { name: 'Pictish Drink', encumbrance: '0', origin: 'Stretch Goals', count: '2',
+    { name: 'Pictish Drink', encumbrance: '0', origin: 'Stretch Goal', count: '2',
       armor: '', melee: '', ranged: '', dice: '',
       defense: '', manipulation: '', role: 'Drink', description: 'Move 2 gems from your Fatigue zone to your Reserve zone and suffer 1 wound.' },
 
     # Object
-    { name: 'Cape', encumbrance: '2', origin: 'Stretch Goals', count: '1',
+    { name: 'Cape', encumbrance: '2', origin: 'Stretch Goal', count: '1',
       armor: '', melee: '', ranged: '',
       defense: '', manipulation: '', role: 'Object',
       dice: '', description: 'Use as outlined in scenario.' },
 
-    { name: 'Censer', encumbrance: '1', origin: 'Stretch Goals', count: '1',
+    { name: 'Censer', encumbrance: '1', origin: 'Stretch Goal', count: '1',
       armor: '', melee: '', ranged: '',
       defense: '', manipulation: '', role: 'Object',
       dice: '', description: 'Use as outlined in scenario.' },
 
-    { name: 'Elixir', encumbrance: '0', origin: 'Stretch Goals', count: '1',
+    { name: 'Elixir', encumbrance: '0', origin: 'Stretch Goal', count: '1',
       armor: '', melee: '', ranged: '',
       defense: '', manipulation: '', role: 'Object',
       dice: '', description: 'Use as outlined in scenario.' },
 
-    { name: 'Heart of Ahriman', encumbrance: '0', origin: 'Stretch Goals', count: '1',
+    { name: 'Heart of Ahriman', encumbrance: '0', origin: 'Stretch Goal', count: '1',
       armor: '', melee: '', ranged: '',
       defense: '', manipulation: '', role: 'Object',
       dice: '', description: 'Use as outlined in scenario.' },
 
-    { name: 'Hyrkanian Mirror', encumbrance: '1', origin: 'Stretch Goals', count: '1',
+    { name: 'Hyrkanian Mirror', encumbrance: '1', origin: 'Stretch Goal', count: '1',
       armor: '', melee: '', ranged: '',
       defense: '', manipulation: '', role: 'Object',
       dice: '', description: 'Use as outlined in scenario.' },
 
-    { name: 'Idol of Yag-Kosha', encumbrance: '4', origin: 'Stretch Goals', count: '1',
+    { name: 'Idol of Yag-Kosha', encumbrance: '4', origin: 'Stretch Goal', count: '1',
       armor: '', melee: '', ranged: '',
       defense: '', manipulation: '', role: 'Object',
       dice: '', description: 'Use as outlined in scenario.' },
 
-    { name: 'Phial', encumbrance: '0', origin: 'Stretch Goals', count: '1',
+    { name: 'Phial', encumbrance: '0', origin: 'Stretch Goal', count: '1',
       armor: '', melee: '', ranged: '',
       defense: '', manipulation: '', role: 'Object',
       dice: '', description: 'Use as outlined in scenario.' },
 
-    { name: 'Potion', encumbrance: '0', origin: 'Stretch Goals', count: '1',
+    { name: 'Potion', encumbrance: '0', origin: 'Stretch Goal', count: '1',
       armor: '', melee: '', ranged: '',
       defense: '', manipulation: '', role: 'Object',
       dice: '', description: 'Use as outlined in scenario.' },
 
-    { name: 'Ring', encumbrance: '0', origin: 'Stretch Goals', count: '1',
+    { name: 'Ring', encumbrance: '0', origin: 'Stretch Goal', count: '1',
       armor: '', melee: '', ranged: '',
       defense: '', manipulation: '', role: 'Object',
       dice: '', description: 'Use as outlined in scenario.' },
 
-    { name: 'Sacred Treasure', encumbrance: '3', origin: 'Stretch Goals', count: '3',
+    { name: 'Sacred Treasure', encumbrance: '3', origin: 'Stretch Goal', count: '3',
       armor: '', melee: '', ranged: '',
       defense: '', manipulation: '', role: 'Object',
       dice: '', description: 'Use as outlined in scenario.' },
 
-    { name: 'Unguent', encumbrance: '0', origin: 'Stretch Goals', count: '1',
+    { name: 'Unguent', encumbrance: '0', origin: 'Stretch Goal', count: '1',
       armor: '', melee: '', ranged: '',
       defense: '', manipulation: '', role: 'Object',
       dice: '', description: 'Use as outlined in scenario.' },
 
     # Special
-    { name: 'Blank', encumbrance: '', origin: 'Stretch Goals', count: '5',
+    { name: 'Blank', encumbrance: '', origin: 'Stretch Goal', count: '5',
       armor: '', melee: '', ranged: '',
       defense: '', manipulation: '', role: 'Special',
       dice: '', description: '' },
 
-    { name: 'Letters: A-E', encumbrance: '', origin: 'Stretch Goals', count: '5',
+    { name: 'Letters: A-E', encumbrance: '', origin: 'Stretch Goal', count: '5',
       armor: '', melee: '', ranged: '',
       defense: '', manipulation: '', role: 'Special',
       dice: '', description: 'Use as outlined in scenario.' },

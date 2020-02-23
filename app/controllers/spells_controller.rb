@@ -51,7 +51,7 @@ class SpellsController < ApplicationController
 
     def set_spells
       @core = Spell.where(origin: 'Core Game')
-      @stretch = Spell.where(origin: 'Stretch Goals')
+      @stretch = Spell.where(origin: 'Stretch Goal')
       @nordheim = Spell.where(origin: 'Nordheim Expansion')
       @stygia = Spell.where(origin: 'Stygia Expansion')
       @khitai = Spell.where(origin: 'Khitai Expansion')

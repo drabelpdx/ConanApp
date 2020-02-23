@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class MapsControllerTest < ActionController::TestCase
+class MapsControllerTest < ActionDispatch::IntegrationTest
 
   def setup
     @map = Map.create(name: "Fort",
@@ -14,18 +14,18 @@ class MapsControllerTest < ActionController::TestCase
   end
 
   test "should get maps index" do
-    get :index
+    get maps_path
     assert_response :success
   end
 
   test "should get new" do
     session[:user_id] = @user.id
-    get :new
+    get new_map_path
     assert_response :success
   end
 
   test "should get show" do
-    get(:show, {'id' => @map.id})
+    get maps_path(@map)
     assert_response :success
   end
 

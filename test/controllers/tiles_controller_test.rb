@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class TilesControllerTest < ActionController::TestCase
+class TilesControllerTest < ActionDispatch::IntegrationTest
 
   def setup
     @tile = Tile.create(name: "Captain",
@@ -14,18 +14,18 @@ class TilesControllerTest < ActionController::TestCase
   end
 
   test "should get tiles index" do
-    get :index
+    get tiles_path
     assert_response :success
   end
 
   test "should get new" do
     session[:user_id] = @user.id
-    get :new
+    get new_tile_path
     assert_response :success
   end
 
   test "should get show" do
-    get(:show, {'id' => @tile.id})
+    get tiles_path(@tile)
     assert_response :success
   end
 

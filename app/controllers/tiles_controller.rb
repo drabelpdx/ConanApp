@@ -1,5 +1,6 @@
 class TilesController < ApplicationController
   before_action :set_tile, only: [:edit, :update, :show, :destroy]
+  before_action :set_tiles, only: [:index]
   before_action :set_bones, only: [:new, :create, :edit, :update, :show]
   before_action :set_skills, only: [:new, :create, :edit, :update, :show]
   before_action :set_roles, only: [:index]
@@ -75,6 +76,29 @@ class TilesController < ApplicationController
     def set_stories
       @weird = Story.where(origin: 'Weird Tales')
       @other = Story.where(origin: 'Other')
+    end
+
+    def set_tiles
+      @core = Tile.where(origin: 'Core Game')
+      @king = Tile.where(origin: 'King Pledge')
+      @stretch = Tile.where(origin: 'Stretch Goal')
+      @valkyrie = Tile.where(origin: 'Vanir Valkyrie')
+      @yogah = Tile.where(origin: 'Yogah of Yag')
+      @baal = Tile.where(origin: 'Baal Pteor')
+      @dragons = Tile.where(origin: 'Black Dragons')
+      @blackones = Tile.where(origin: 'Black Ones')
+      @crossbowmen = Tile.where(origin: 'Crossbowmen')
+      @demon = Tile.where(origin: 'Demon of the Earth')
+      @dragon = Tile.where(origin: 'Dragon')
+      @wolves = Tile.where(origin: 'Giant Wolves')
+      @witchhunters = Tile.where(origin: 'Kushite Witch Hunters')
+      @sabertooth = Tile.where(origin: 'Sabertooth Tiger')
+      @brom = Tile.where(origin: 'Brom Box')
+      @paolo = Tile.where(origin: 'Paolo Parente Box')
+      @xavier = Tile.where(origin: 'Xavier Collette Box')
+      @nordheim = Tile.where(origin: 'Nordheim Expansion')
+      @stygia = Tile.where(origin: 'Stygia Expansion')
+      @khitai = Tile.where(origin: 'Khitai Expansion')
     end
 
     def set_roles

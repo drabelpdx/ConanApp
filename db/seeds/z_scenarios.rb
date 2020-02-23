@@ -164,6 +164,7 @@
         1 <a class="item" href="/items/2">Bossonian Bow</a>.</p>',
 
       origin: "Core Game",
+      product_ids: [1],
       map_ids: [1],
       hero_ids: [1, 2, 3, 4],
       tile_ids: [1, 6, 9, 23, 25, 26, 28, 29],
@@ -298,6 +299,7 @@
         1 <a class="item" href="/items/23">Empty chest</a>.</p>',
 
       origin: "Core Game",
+      product_ids: [1],
       map_ids: [3],
       hero_ids: [1, 2, 3, 4],
       tile_ids: [1, 4, 7, 11, 15, 30, 31, 32, 35],
@@ -443,6 +445,7 @@
         1 <a class="item" href="/items/8">Javelin</a>.</p>',
 
       origin: "Core Game",
+      product_ids: [1],
       map_ids: [4],
       hero_ids: [1, 2, 4],
       tile_ids: [1, 4, 8, 9, 10, 11, 15, 23],
@@ -585,6 +588,7 @@
         as though they were a border by spending 2 extra movement points.</p>',
 
       origin: "Core Game",
+      product_ids: [1],
       map_ids: [1],
       hero_ids: [2, 3, 4],
       tile_ids: [1, 6, 25, 26, 27, 28, 29],
@@ -744,6 +748,7 @@
         1 <a class="item" href="/items/5">Crossbow</a>.</p>',
 
       origin: "Core Game",
+      product_ids: [1],
       map_ids: [4],
       hero_ids: [2, 3, 4],
       tile_ids: [1, 3, 12, 15, 16, 17, 23],
@@ -909,6 +914,7 @@
         1 <a class="item" href="/items/23">Empty Chest</a>.</p>',
 
       origin: "Core Game",
+      product_ids: [1],
       map_ids: [2],
       hero_ids: [2],
       tile_ids: [1, 12, 18, 22],
@@ -1043,6 +1049,7 @@
         1 <a class="item" href="/items/5">Crossbow</a></p>',
 
       origin: "Core Game",
+      product_ids: [1],
       map_ids: [3],
       hero_ids: [2, 3],
       tile_ids: [1, 3, 15, 32, 31, 35],
@@ -1130,6 +1137,7 @@
         die, and no ally in the area can attack that turn.</p>',
 
       origin: "Core Game",
+      product_ids: [1],
       map_ids: [3],
       hero_ids: [2, 3],
       tile_ids: [1, 3, 7, 15, 32, 31, 35],
@@ -1336,6 +1344,7 @@
         2 <a class="item" href="/items/6">Explosive Orb</a>.</p>',
 
       origin: "Core Game",
+      product_ids: [1],
       map_ids: [2],
       hero_ids: [2, 3, 4],
       tile_ids: [1, 12, 15, 18, 19, 22],
@@ -1547,6 +1556,7 @@
         also suffer 1 wound.</p>',
 
       origin: "King Pledge",
+      product_ids: [1, 2],
       map_ids: [1],
       hero_ids: [2, 4, 7],
       tile_ids: [1, 6, 23, 26, 27, 29],
@@ -1699,6 +1709,7 @@
         1 <a class="item" href="/items/23">Empty Chest</a>.</p>',
 
       origin: "King Pledge",
+      product_ids: [1, 2],
       map_ids: [2],
       hero_ids: [2, 4],
       tile_ids: [1, 3, 7, 16, 22, 31, 32],
@@ -1858,6 +1869,7 @@
         1 <a class="item" href="/items/12">Sword</a>.</p>',
 
       origin: "King Pledge",
+      product_ids: [1, 2],
       map_ids: [2],
       hero_ids: [2, 3, 4],
       tile_ids: [1, 4, 8, 41, 42, 48, 91],
@@ -2024,6 +2036,7 @@
         1 <a class="item" href="/items/5">Crossbow</a>.</p>',
 
       origin: "King Pledge",
+      product_ids: [1, 2],
       map_ids: [4],
       hero_ids: [2, 4, 7],
       tile_ids: [1, 3, 5, 16, 17, 20, 36],
@@ -2165,9 +2178,10 @@
         1 <a class="item" href="/items/8">Javelin</a>.</p>',
 
       origin: "Stretch Goal",
+      product_ids: [1, 3],
       map_ids: [6],
       hero_ids: [2, 3, 4],
-      tile_ids: [1, 6, 23, 26, 27, 28 ],
+      tile_ids: [1, 6, 23, 26, 27, 28, 92],
       spell_ids: [6, 9, 16],
       item_ids: [1, 3, 5, 6, 8, 9, 13, 17, 20, 22, 23, 25, 40] },
 
@@ -2312,11 +2326,13 @@
         scenario.</p>',
 
       origin: "Stretch Goal",
+      product_ids: [1, 3],
       map_ids: [6],
       hero_ids: [2, 3, 4],
-      tile_ids: [1, 6, 9, 25, 26, 28, 85],
+      tile_ids: [1, 6, 9, 25, 26, 28, 86],
       spell_ids: [6, 9, 16],
       item_ids: [1, 3, 9, 13, 17, 20] },
+
 
       # The Serpent’s Awakening
     { name: "The Serpent’s Awakening",
@@ -2465,6 +2481,7 @@
         1 <a class="item" href="/items/16">Chain Mail</a>.</p>',
 
       origin: "Stretch Goal",
+      product_ids: [1, 3],
       map_ids: [5],
       hero_ids: [4, 7, 14],
       tile_ids: [1, 3, 16, 18, 19, 22, 23, 67],
@@ -2626,6 +2643,7 @@
         1 <a class="item" href="/items/7">Halberd</a>.</p>',
 
       origin: "Stretch Goal",
+      product_ids: [1, 3],
       map_ids: [5],
       hero_ids: [7, 14, 20],
       tile_ids: [1, 2, 7, 8, 18, 23, 32, 33, 35 ],
@@ -2762,7 +2780,8 @@
         a reason to fight and retreat homewards. All Warrios are immediately removed
         from the game.</p>',
 
-      origin: "Nordheim",
+      origin: "Nordheim Expansion",
+      product_ids: [1, 4],
       map_ids: [7],
       hero_ids: [1, 2, 4, 34],
       tile_ids: [1, 2, 118, 120, 123, 124, 127, 129],
@@ -2914,7 +2933,8 @@
         1 <a class="item" href="/items/16">Chain Mail</a>,
         1 <a class="item" href="/items/22">Life Potion</a></p>',
 
-      origin: "Nordheim",
+      origin: "Nordheim Expansion",
+      product_ids: [1, 4],
       map_ids: [7],
       hero_ids: [2, 4, 34],
       tile_ids: [1, 2, 8, 115, 121, 122, 125, 128],
@@ -3055,7 +3075,8 @@
         <img src="/assets/dice/Red.png" class="scen_sq_token" /> dice when
         performing Melee Attacks.</p>',
 
-      origin: "Nordheim",
+      origin: "Nordheim Expansion",
+      product_ids: [1, 4],
       map_ids: [8],
       hero_ids: [2, 34],
       tile_ids: [1, 2, 116, 117, 125, 127],
@@ -3218,7 +3239,8 @@
         2 <a class="item" href="/items/22">Life Potions</a> and
         1 <a class="item" href="/items/13">Throwing Knives</a>.</p>',
 
-      origin: "Nordheim",
+      origin: "Nordheim Expansion",
+      product_ids: [1, 4],
       map_ids: [8],
       hero_ids: [2],
       tile_ids: [1, 2, 114, 126],
@@ -3422,7 +3444,8 @@
         If the heroes successfully rob the doecuments.
         If the heroes plant the false evidence. </p>',
 
-      origin: "Khitai",
+      origin: "Khitai Expansion",
+      product_ids: [1, 5],
       map_ids: [11, 12],
       hero_ids: [2, 4, 35],
       tile_ids: [131, 132, 133, 134, 135, 136, 137, 139],
@@ -3616,7 +3639,8 @@
         The side with the most Victory Points at the end of the two scenarios win
         the campaign.</p>',
 
-      origin: "Khitai",
+      origin: "Khitai Expansion",
+      product_ids: [1, 5],
       map_ids: [11, 12],
       hero_ids: [2, 4, 35],
       tile_ids: [131, 133, 134, 135, 136, 137, 139],
@@ -3785,7 +3809,8 @@
          <a class="item" href="/items/17">Leather Armor</a> and
          <a class="item" href="/items/2">Bossonian Bow</a>.</p>',
 
-      origin: "Khitai",
+      origin: "Khitai Expansion",
+      product_ids: [1, 5],
       map_ids: [13],
       hero_ids: [2, 4, 35],
       tile_ids: [1, 131, 132, 134, 136, 138, 139],
@@ -3924,7 +3949,8 @@
         <img src="/assets/skills/Leap.png" class="scen_sq_token" />. If a hero
         fails to leap, the character remains in its area.</p>',
 
-      origin: "Khitai",
+      origin: "Khitai Expansion",
+      product_ids: [1, 5],
       map_ids: [13],
       hero_ids: [2, 3, 35],
       tile_ids: [1, 11, 131, 132, 134, 136, 138, 139],
@@ -4159,7 +4185,8 @@
         2 <a class="item" href="/items/75">Torch</a> and
         3 <a class="item" href="/items/74">Antidote</a>.</p>',
 
-      origin: "Stygia",
+      origin: "Stygia Expansion",
+      product_ids: [1, 6],
       map_ids: [9],
       hero_ids: [1, 3, 4, 36],
       tile_ids: [1, 141, 142, 143, 144, 146],
@@ -4388,7 +4415,8 @@
         2 <a class="item" href="/items/75">Torch</a> and
         2 <a class="item" href="/items/74">Antidote</a>.</p>',
 
-      origin: "Stygia",
+      origin: "Stygia Expansion",
+      product_ids: [1, 6],
       map_ids: [9],
       hero_ids: [1, 3, 4, 36],
       tile_ids: [1, 140, 142, 143, 144, 145, 146],
@@ -4561,7 +4589,8 @@
         <a class="item" href="/items/5">Crossbow</a>,
         <a class="item" href="/items/16">Chain Mail</a>.</p>',
 
-      origin: "Stygia",
+      origin: "Stygia Expansion",
+      product_ids: [1, 6],
       map_ids: [10, 2],
       hero_ids: [2, 3, 4],
       tile_ids: [1, 9, 140, 143, 145],
@@ -4749,7 +4778,8 @@
         <a class="item" href="/items/5">Crossbow</a>,
         <a class="item" href="/items/74">Antidote</a>.</p>',
 
-      origin: "Stygia",
+      origin: "Stygia Expansion",
+      product_ids: [1, 6],
       map_ids: [10],
       hero_ids: [2, 4, 36],
       tile_ids: [1, 16, 20, 141, 142, 144],
@@ -4878,6 +4908,7 @@
         2 <a class="item" href="/items/31">Xuthal Crowns</a>.</p>',
 
       origin: "Book of Set",
+      product_ids: [1],
       map_ids: [1],
       hero_ids: [27],
       tile_ids: [1, 3, 12, 15, 18, 19],
@@ -5039,6 +5070,7 @@
         1 <a class="item" href="/items/22">Life Potion</a>.</p>',
 
       origin: "Book of Set",
+      product_ids: [1],
       map_ids: [6],
       hero_ids: [8],
       tile_ids: [1, 26, 29, 81, 86, 106],
@@ -5216,6 +5248,7 @@
         2 <a class="item" href="/items/22">Life Potions</a>',
 
       origin: "Book of Set",
+      product_ids: [1],
       map_ids: [4],
       hero_ids: [12],
       tile_ids: [1, 16, 18, 33, 60, 61, 65],
@@ -5398,6 +5431,7 @@
         1 <a class="item" href="/items/38">Turanian Sword</a>.</p>',
 
       origin: "Book of Set",
+      product_ids: [1],
       map_ids: [5],
       hero_ids: [24],
       tile_ids: [1, 16, 18, 30, 60, 61, 68, 71, 74, 97 ],
@@ -5549,6 +5583,7 @@
         the character has <a class="skill" href="/skills/19">Climb</a>.</p>',
 
       origin: "Book of Set",
+      product_ids: [1],
       map_ids: [4],
       hero_ids: [1, 3],
       tile_ids: [1, 13, 108, 109, 110, 111],
@@ -5678,6 +5713,7 @@
         1 <a class="item" href="/items/22">Life Potion</a>.</p>',
 
       origin: "Book of Set",
+      product_ids: [1],
       map_ids: [6],
       hero_ids: [10, 11],
       tile_ids: [1, 2, 17, 24, 29, 75, 86, 107],
@@ -5824,6 +5860,7 @@
         1 <a class="item" href="/items/6">Explosive Orb</a>',
 
       origin: "Book of Set",
+      product_ids: [1],
       map_ids: [1],
       hero_ids: [3, 13],
       tile_ids: [1, 2, 44, 58, 84, 90, 91],
@@ -5983,6 +6020,7 @@
         a chest in a water area.</p>',
 
       origin: "Book of Set",
+      product_ids: [1],
       map_ids: [3],
       hero_ids: [30, 31],
       tile_ids: [1, 2, 7, 17, 31, 32, 33],
@@ -6165,6 +6203,7 @@
         can use it to move across the wall of one of the wooden huts.</p>',
 
       origin: "Book of Set",
+      product_ids: [1],
       map_ids: [1],
       hero_ids: [5, 10],
       tile_ids: [1, 6, 25, 29, 38, 75, 77, 86],
@@ -6359,9 +6398,10 @@
           1 <a class="item" href="/items/28">Spellbook</a>.</p>',
 
       origin: "Book of Set",
+      product_ids: [1],
       map_ids: [3],
       hero_ids: [11, 17],
-      tile_ids: [1, 2, 13, 62, 66, 88, 89],
+      tile_ids: [1, 2, 13, 62, 66, 82, 88, 89, 92],
       spell_ids: [1, 6, 9, 12, 13, 16, 20, 24, 35, 47],
       item_ids: [3, 28, 36, 43, 49] },
 
@@ -6593,6 +6633,7 @@
           1 <a class="item" href="/items/6">Explosive Orb</a>.</p>',
 
       origin: "Book of Set",
+      product_ids: [1],
       map_ids: [2],
       hero_ids: [11, 17],
       tile_ids: [1, 16, 18, 19, 52, 53, 64, 72, 81],
@@ -6812,6 +6853,7 @@
         spending 1 extra movement point.</p>',
 
       origin: "Book of Set",
+      product_ids: [1],
       map_ids: [2],
       hero_ids: [6, 11, 17],
       tile_ids: [1, 16, 22, 30, 45, 49, 56, 76, 91],
@@ -6968,6 +7010,7 @@
         spending 1 extra movement point.</p>',
 
       origin: "Book of Set",
+      product_ids: [1],
       map_ids: [2],
       hero_ids: [1, 2, 3],
       tile_ids: [1, 3, 18, 101, 102, 103],
@@ -7135,6 +7178,7 @@
         1 <a class="item" href="/items/14">Tribal Mace</a>.</p>',
 
       origin: "Book of Set",
+      product_ids: [1],
       map_ids: [4],
       hero_ids: [2, 3, 27],
       tile_ids: [1, 23, 108, 109, 110, 111],
@@ -7333,6 +7377,7 @@
         1 <a class="item" href="/items/48">Elixir</a>.</p>',
 
       origin: "Book of Set",
+      product_ids: [1],
       map_ids: [1],
       hero_ids: [14, 18, 19],
       tile_ids: [1, 6, 25, 28, 29, 86, 105],
@@ -7538,6 +7583,7 @@
           1 <a class="item" href="/items/34">Mitra’s Mace</a>.</p>',
 
       origin: "Book of Set",
+      product_ids: [1],
       map_ids: [5],
       hero_ids: [1, 10, 11, 18],
       tile_ids: [1, 18, 32, 54, 55, 80, 89],
@@ -7728,6 +7774,7 @@
         1 <a class="item" href="/items/22">Life Potion</a>.></p>',
 
       origin: "Book of Set",
+      product_ids: [1],
       map_ids: [5],
       hero_ids: [9, 12, 18, 20],
       tile_ids: [1, 3, 17, 18, 30, 33, 35, 96],
@@ -8010,6 +8057,7 @@
         1 <a class="item" href="/items/14">Tribal Mace</a>.</p>',
 
       origin: "Book of Set",
+      product_ids: [1],
       map_ids: [1, 5],
       hero_ids: [22, 23, 24, 25],
       tile_ids: [1, 17, 18, 30, 63, 68, 69, 71, 87],
@@ -8255,6 +8303,7 @@
         1 <a class="item" href="/items/40">Zingarian Bow</a>.</p>',
 
       origin: "Book of Set",
+      product_ids: [1],
       map_ids: [4],
       hero_ids: [9, 13, 15, 19],
       tile_ids: [1, 33, 40, 41, 44, 50, 59, 73, 78, 79],
@@ -8469,6 +8518,7 @@
           3 <a class="item" href="/items/6">Explosive Orbs</a>',
 
       origin: "Book of Set",
+      product_ids: [1],
       map_ids: [2],
       hero_ids: [9, 12, 16, 21],
       tile_ids: [1, 18, 19, 30, 33, 57, 70],

@@ -1,5 +1,6 @@
 class ScenariosController < ApplicationController
   before_action :set_scenario, only: [:edit, :update, :show, :destroy]
+  before_action :set_scenarios, only: [:index]
   before_action :require_user, except: [:index, :show]
   before_action :require_admin, except: [:index, :show]
 
@@ -75,6 +76,16 @@ class ScenariosController < ApplicationController
                                        :special_rules, map_ids: [],
                                         hero_ids: [], tile_ids: [],
                                         spell_ids: [], item_ids: [])
+    end
+
+    def set_scenarios
+      @core = Scenario.where(origin: 'Core Game')
+      @king = Scenario.where(origin: 'King Pledge')
+      @stretch = Scenario.where(origin: 'Stretch Goal')
+      @nordheim = Scenario.where(origin: 'Nordheim Expansion')
+      @stygia = Scenario.where(origin: 'Stygia Expansion')
+      @khitai = Scenario.where(origin: 'Khitai Expansion')
+      @set = Scenario.where(origin: 'Book of Set')
     end
 
     def require_admin

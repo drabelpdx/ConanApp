@@ -7,6 +7,7 @@
     </div>
     <div class="col-md-7 maps" align="center">
       <h2 class="map"><%= @map.name %></h2>
+      from  <%= @map.origin %>
       <%= image_tag "#{@map.image}" %><br /><br />
       <% if @map.flip_side != 'none' %>
         <h4>Shares a board with

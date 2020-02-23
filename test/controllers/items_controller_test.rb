@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class ItemsControllerTest < ActionController::TestCase
+class ItemsControllerTest < ActionDispatch::IntegrationTest
 
   def setup
     @item = Item.create(name: "Sword",
@@ -13,18 +13,18 @@ class ItemsControllerTest < ActionController::TestCase
   end
 
   test "should get items index" do
-    get :index
+    get items_path
     assert_response :success
   end
 
   test "should get new" do
     session[:user_id] = @user.id
-    get :new
+    get new_item_path
     assert_response :success
   end
 
   test "should get show" do
-    get(:show, {'id' => @item.id})
+    get items_path(@item)
     assert_response :success
   end
 
