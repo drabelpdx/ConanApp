@@ -13,6 +13,7 @@ Rails.application.routes.draw do
   resources :heroes
   resources :items
   resources :maps
+  resources :products
   resources :scenarios
   resources :skills
   resources :spells

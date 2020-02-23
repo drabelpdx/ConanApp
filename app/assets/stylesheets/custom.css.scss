@@ -244,6 +244,29 @@ h2.skill {
   color: #0000b3;
 }
 
+
+.btn-product {
+  background-color: #68b7fd;
+  color: #0275d8;
+}
+
+.product a {
+  color:	#0275d8;
+}
+
+a.product {
+  color: 	#0275d8;
+}
+
+h1.product {
+  color: 	#0275d8;
+}
+
+h2.product {
+  color: 	#0275d8;
+}
+
+
 .hidden {
   display: none
 }
@@ -271,6 +294,13 @@ h2.skill {
 }
 
 .heroes img {
+  width: 90%;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+.products img {
   width: 90%;
   height: auto;
   margin-top: 20px;
@@ -427,6 +457,12 @@ h2.skill {
   border-radius: 10px;
 }
 
+.product-well {
+  background: #e6f3ff;
+  padding: 10px;
+  border-radius: 10px;
+}
+
 .skill-well {
   background: #e6eeff;
   padding: 10px;
@@ -570,6 +606,11 @@ footer ul li {
 
 .prevnext_spell {
   background: #8600b3;
+  line-height: 30px;
+}
+
+.prevnext_product {
+  background: #0275d8;
   line-height: 30px;
 }
 

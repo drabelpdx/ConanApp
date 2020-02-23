@@ -1,0 +1,31 @@
+<div class="row">
+  <div class="col-xs-12 col-md-12 product-well">
+    <div  class="prevnext prevnext_product" align="center">
+      <span class="prev"><%= link_to("<< Previous Product", @product.previous) if @product.previous %></span>
+      <span aligh="center"><%= link_to "Back to products", products_path %></span>
+      <span class="next"><%= link_to("Next Product >>", @product.next) if @product.next %></span>
+    </div>
+    <div class="col-md-7 products" align="center">
+      <h2 class="product"><%= @product.name %></h2>
+      <p><%= @product.description %></p>
+
+      <%= link_to "Back to products", products_path %>
+    </div>
+    <div class="col-md-5">
+      <h4>Scenarios that use this product: </h4>
+        <% if @product_scenarios.any? %>
+          <% @product_scenarios.each do |scenario| %>
+            <p><%= link_to scenario.name, scenario_path(scenario) %></p>
+          <% end%>
+        <% end %>
+    </div>
+  </div>
+</div>
+
+<% if logged_in? && current_user.admin? %>
+ <div class="row">
+   <br /><br />
+   <%= link_to 'Edit', edit_product_path(@product) %> |
+   <%= link_to 'Delete', product_path(@product), method: :delete, data: {confirm: "Are you sure?"} %>
+ </div>
+<% end %>

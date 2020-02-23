@@ -20,6 +20,7 @@
         </p>
         <p><%= @scenario.description.html_safe %></p>
         <br />
+
       </div>
       <div class="col-md-8 scenarios" align="center">
         <h1 align="center"><%= @scenario.name %></h1>
@@ -29,9 +30,16 @@
           <h4 class="map"><%= link_to @map.name, map_path(@map) %></h4>
         <% end %>
       </div>
-    </div>
-  </div>
 
+    </div>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;Uses content from:
+      <% @scenario.product_ids.each do |id| %>
+        <% @product = Product.find_by_id [id] %>
+        <span class="map">
+          &nbsp;&nbsp;&nbsp;&nbsp;<%= link_to @product.name, product_path(@product) %>
+        </span>
+    <% end %>
+  </div>
   <div class="row scenario">
     <h3 align="center" >Winning the Game</h3>
   </div>
@@ -46,7 +54,6 @@
       <%= @scenario.overlord_goal.html_safe %>
     </div>
   </div>
-
 
   <div class="row scenario">
     <h3 align="center" >Setup</h3>

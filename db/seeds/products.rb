@@ -34,4 +34,19 @@
     { name: 'Giant Wolves', description: '' }, ## 18
     { name: 'Sabertooth Tiger', description: '' }, ## 19
     { name: 'Kushite Witch Hunters', description: '' }, ## 20
+
+    ### 2nd KS
+    ## Expansion Boxes
+    { name: 'Conan the Conqueror', description: '' }, ## 21
+
+    ## Add-On Boxes
+    { name: 'Tales of the Red Brotherhood', description: '' }, ## 22
+    { name: 'The Shadow Kingdom', description: '' }, ## 23
+
+    ## Tomes
+    { name: 'Legend of Devil in the Iron', description: 'Campaign Book' }, ## 24
+    { name: 'Book of Set', description: '' }, ## 25
+    { name: 'Conan: The Monolith Source Book ', description: '' }, ## 26
+    { name: 'Tome of Skelos', description: '' }, ## 27
+
   ])
