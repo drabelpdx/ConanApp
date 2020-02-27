@@ -1,8 +1,10 @@
 class Hero < ActiveRecord::Base
   serialize :encumbrance
+  has_many :hero_products
   has_many :hero_skills
   has_many :hero_stories
   has_many :hero_scenarios
+  has_many :products, through: :hero_products
   has_many :skills, through: :hero_skills
   has_many :stories, through: :hero_stories
   has_many :scenarios, through: :hero_scenarios

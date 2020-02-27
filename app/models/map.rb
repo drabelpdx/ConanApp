@@ -1,5 +1,7 @@
 class Map < ActiveRecord::Base
+  has_many :map_products
   has_many :map_scenarios
+  has_many :products, through: :map_products
   has_many :scenarios, through: :map_scenarios
   validates :name, presence: true, length: { minimum: 3, maximum: 50 }
   validates :description, presence: true, length: { minimum: 3, maximum: 300 }

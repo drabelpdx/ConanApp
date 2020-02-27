@@ -10,7 +10,8 @@
 
     ## Core Game
     { name: 'The Pict Village', description: "The Pict Village", flip_side: 'The Inn',
-      origin: 'Core Game', image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/The+Pict+Village.jpg',
+      origin: 'Core Game',
+      image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/The+Pict+Village.jpg',
       special_rules: '
         <ol>
           <li>The hut flaps at the entrance of each hut block line of sight. A
@@ -33,7 +34,8 @@
         </ol>'
      },
 
-   { name: 'The Inn', description: "Inn", flip_side: 'The Pict Village', origin: 'Core Game',
+   { name: 'The Inn', description: "Inn", flip_side: 'The Pict Village',
+     origin: 'Core Game',
      image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/The+Inn.jpg',
      special_rules: '
        <ol>
@@ -72,7 +74,8 @@
      },
 
     { name: 'The Ships', description: " The Ships", flip_side: 'The Abandoned Fort',
-      origin: 'Core Game', image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/The+Ships.jpg',
+      origin: 'Core Game',
+      image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/The+Ships.jpg',
       special_rules: '
         <ol>
           <li>A character coming out of the hold must move in the area in front
@@ -89,7 +92,8 @@
       },
 
     { name: 'The Abandoned Fort', description: "The Abandoned Fort", flip_side: 'The Ships',
-      origin: 'Core Game', image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/The+Abandoned+Fort.jpg',
+      origin: 'Core Game',
+      image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/The+Abandoned+Fort.jpg',
       special_rules: '
       <ol>
         <li>Only the areas directly adjacent to the towers areas have line of
@@ -114,7 +118,8 @@
     },
 
     ## Stretch Goals
-    { name: 'The Citadel', description: "The Citadel", flip_side: 'The Swamp', origin: 'Stretch Goal',
+    { name: 'The Citadel', description: "The Citadel", flip_side: 'The Swamp',
+      origin: 'Stretch Goal',
       image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/The+Citadel.jpg',
       special_rules: '
       <ol>
@@ -132,7 +137,8 @@
       </ol>'
     },
 
-    { name: 'The Swamp', description: "The Swamp", flip_side: 'The Citadel', origin: 'Stretch Goal',
+    { name: 'The Swamp', description: "The Swamp", flip_side: 'The Citadel',
+      origin: 'Stretch Goal',
       image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/The+Swamp.jpg',
       special_rules: '
         <ol>
@@ -151,25 +157,93 @@
     ## Expansions
     # Nordheim
     { name: 'The Frozen Battlefield', description: "The Frozen Battleground", flip_side: 'The Tundra Forest',
-      origin: 'Nordheim Expansion', image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/The+Frozen+Battlefield.jpg' },
+      origin: 'Nordheim Expansion',
+      image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/The+Frozen+Battlefield.jpg' },
 
     { name: 'The Tundra Forest', description: "The Tundra Forest", flip_side: 'The Frozen Battlefield',
-      origin: 'Nordheim Expansion', image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/The+Tundra+Forest.jpg' },
+      origin: 'Nordheim Expansion',
+      image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/The+Tundra+Forest.jpg' },
 
     # Stygia
     { name: 'The Stygian Temple', description: "Catacombs", flip_side: 'The Luxor Port',
-      origin: 'Stygia Expansion', image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/Stygia_1.jpg' },
+      origin: 'Stygia Expansion',
+      image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/Stygia_1.jpg' },
 
     { name: 'The Luxor Port', description: "Water Front", flip_side: 'The Stygian Temple',
-      origin: 'Stygia Expansion', image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/Stygia_2.jpg' },
+      origin: 'Stygia Expansion',
+      image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/Stygia_2.jpg' },
 
     # Khitai
     { name: 'The Tower 1', description: "Tower Levels 1, 2, and 3", flip_side:
-      'The Tower 2', origin: 'Khitai Expansion', image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/Khitai_1.jpg' },
+      'The Tower 2', origin: 'Khitai Expansion',
+      image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/Khitai_1.jpg' },
 
     { name: 'The Tower 2', description: "Tower Levels 0 and 4", flip_side:
-      'The Tower 1', origin: 'Khitai Expansion', image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/Khitai_3.jpg' },
+      'The Tower 1', origin: 'Khitai Expansion',
+      image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/Khitai_3.jpg' },
 
     { name: 'The Khitan Village', description: "Khitai Village", flip_side:
-      'none', origin: 'Khitai Expansion',  image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/Khitai_2.jpg' }
+      'none', origin: 'Khitai Expansion',
+      image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/Khitai_2.jpg' },
+
+    # Modiphius Tiles Sets
+    { name: 'Perilous Ruins & Forgotten Cities', description: "Modiphius Geomorphic Tiles", flip_side:
+      'none', origin: 'Modiphius Geomorphic',
+      image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/Khitai_2.jpg' },
+
+    { name: 'Forbidden Places & Pits of Horror', description: "Modiphius Geomorphic Tiles", flip_side:
+      'none', origin: 'Modiphius Geomorphic',
+      image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/Khitai_2.jpg' },
+
+    ## 2nd Kickstarter
+    # Conan the Conqueror
+
+    { name: 'Temple', description: "A Temple", flip_side:
+      'Lost Citadel', origin: 'Conan the Conqueror',
+      image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/Khitai_2.jpg' },
+
+    { name: 'Lost Citadel', description: "A Citadel", flip_side:
+      'Temple', origin: 'Conan the Conqueror',
+      image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/Khitai_2.jpg' },
+
+
+    # Tales of the Red Brotherhood
+
+    { name: 'Galley Deck', description: "Deck View of Ship", flip_side:
+      'Galley Hold', origin: 'Tales of the Red Brotherhood',
+      image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/Khitai_2.jpg' },
+
+    { name: 'Galley Hold', description: "Hold View of Ship", flip_side:
+      'Galley Deck', origin: 'Tales of the Red Brotherhood',
+      image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/Khitai_2.jpg' },
+
+    { name: 'Xebet Deck', description: "Deck View of Ship", flip_side:
+      'Xebet Hold', origin: 'Tales of the Red Brotherhood',
+      image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/Khitai_2.jpg' },
+
+    { name: 'Xebet Hold', description: "Hold View of Ship", flip_side:
+      'Xebet Deck', origin: 'Tales of the Red Brotherhood',
+      image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/Khitai_2.jpg' },
+
+
+    # The Shadow Kingdom
+
+
+    # The Hiden Chambers
+    { name: 'Mini Map 1', description: "A Secret Chamber", flip_side:
+      'Mini Map 2', origin: 'The Hiden Chambers',
+      image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/Khitai_2.jpg' },
+
+    { name: 'Mini Map 2', description: "A Secret Chamber", flip_side:
+      'Mini Map 1', origin: 'The Hiden Chambers',
+      image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/Khitai_2.jpg' },
+
+    { name: 'Mini Map 3', description: "A Secret Chamber", flip_side:
+      'Mini Map 4', origin: 'The Hiden Chambers',
+      image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/Khitai_2.jpg' },
+
+    { name: 'Mini Map 4', description: "A Secret Chamber", flip_side:
+      'Mini Map 3', origin: 'The Hiden Chambers',
+      image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/Khitai_2.jpg' }
+
   ])

@@ -34,7 +34,12 @@ class ProductsController < ApplicationController
   end
 
   def show
+    @hero_products = @product.heroes
+    @item_products = @product.items
+    @map_products = @product.maps
     @product_scenarios = @product.scenarios
+    @product_spells = @product.spells
+    @product_tiles = @product.tiles
   end
 
   def destroy

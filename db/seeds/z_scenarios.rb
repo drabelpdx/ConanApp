@@ -4908,7 +4908,7 @@
         2 <a class="item" href="/items/31">Xuthal Crowns</a>.</p>',
 
       origin: "Book of Set",
-      product_ids: [1],
+      product_ids: [1, 8, 26],
       map_ids: [1],
       hero_ids: [27],
       tile_ids: [1, 3, 12, 15, 18, 19],
@@ -5070,7 +5070,7 @@
         1 <a class="item" href="/items/22">Life Potion</a>.</p>',
 
       origin: "Book of Set",
-      product_ids: [1],
+      product_ids: [1, 2, 3, 18, 26],
       map_ids: [6],
       hero_ids: [8],
       tile_ids: [1, 26, 29, 81, 86, 106],
@@ -5248,7 +5248,7 @@
         2 <a class="item" href="/items/22">Life Potions</a>',
 
       origin: "Book of Set",
-      product_ids: [1],
+      product_ids: [1, 3, 26],
       map_ids: [4],
       hero_ids: [12],
       tile_ids: [1, 16, 18, 33, 60, 61, 65],
@@ -5431,7 +5431,7 @@
         1 <a class="item" href="/items/38">Turanian Sword</a>.</p>',
 
       origin: "Book of Set",
-      product_ids: [1],
+      product_ids: [1, 3, 13, 26],
       map_ids: [5],
       hero_ids: [24],
       tile_ids: [1, 16, 18, 30, 60, 61, 68, 71, 74, 97 ],
@@ -5583,7 +5583,7 @@
         the character has <a class="skill" href="/skills/19">Climb</a>.</p>',
 
       origin: "Book of Set",
-      product_ids: [1],
+      product_ids: [1, 20, 26],
       map_ids: [4],
       hero_ids: [1, 3],
       tile_ids: [1, 13, 108, 109, 110, 111],
@@ -5713,7 +5713,7 @@
         1 <a class="item" href="/items/22">Life Potion</a>.</p>',
 
       origin: "Book of Set",
-      product_ids: [1],
+      product_ids: [1, 3, 19, 26],
       map_ids: [6],
       hero_ids: [10, 11],
       tile_ids: [1, 2, 17, 24, 29, 75, 86, 107],
@@ -5860,7 +5860,7 @@
         1 <a class="item" href="/items/6">Explosive Orb</a>',
 
       origin: "Book of Set",
-      product_ids: [1],
+      product_ids: [1, 2, 3, 26],
       map_ids: [1],
       hero_ids: [3, 13],
       tile_ids: [1, 2, 44, 58, 84, 90, 91],
@@ -5999,9 +5999,10 @@
 
         <p><span class="special_title">Fleeing:</span>
         The heroes must sink one of the ships to flee with the other
-        one. If at least one of the heroes, with both amulets in their possession,
-        is alone on a ship (without any of the Overlord’s models present on the ship)
-        at the end of a heroes’ turn, they can flee with the ship and the heroes
+        one. If at least one of the heroes, with both
+        <a class="item" href="/items/81">amulets</a> in their possession, is alone
+        on a ship (without any of the Overlord’s models present on the ship) at
+        the end of a heroes’ turn, they can flee with the ship and the heroes
         win the game.</p>
 
         <p><span class="special_title">Jump:</span>
@@ -6015,12 +6016,13 @@
         During setup, the Overlord places 4 chests on the board
         as indicated by the setup diagram. The asset deck contains:
         1 <a class="item" href="/items/6">Explosive Orb</a>,
-        1 <a class="item" href="/items/22">Life Potion</a> and 2 Amulets.
-        A hero must perform a complex manipulation with a difficulty of 3 to open
-        a chest in a water area.</p>',
+        1 <a class="item" href="/items/22">Life Potion</a> and 2
+        <a class="item" href="/items/81">Amulets</a>. A hero must perform a
+        complex manipulation with a difficulty of 3 to open a chest in a water
+        area.</p>',
 
       origin: "Book of Set",
-      product_ids: [1],
+      product_ids: [1, 10, 26],
       map_ids: [3],
       hero_ids: [30, 31],
       tile_ids: [1, 2, 7, 17, 31, 32, 33],
@@ -6203,7 +6205,7 @@
         can use it to move across the wall of one of the wooden huts.</p>',
 
       origin: "Book of Set",
-      product_ids: [1],
+      product_ids: [1, 2, 3, 26],
       map_ids: [1],
       hero_ids: [5, 10],
       tile_ids: [1, 6, 25, 29, 38, 75, 77, 86],
@@ -6323,7 +6325,8 @@
           <a class="spell" href="/spells/47">Return of the Brave</a> spell cards
           next to Thaug’s tile; these are the spells
           <a class="tile" href="/tiles/82">Thaug</a> has.<br />
-          The heroes place the Tentacles tile next to the Thaug’s tile.
+          The heroes place the <a class="tile" href="/tiles/92">Tentacles</a>
+          tile next to the Thaug’s tile.
           <a class="tile" href="/tiles/82">Thaug</a> is immediately activated if
           it is on the board at the start of the heroes’ turn. It cannot move but
           can perform Melee Attacks and may use the red gems on its tile to cast
@@ -6398,7 +6401,7 @@
           1 <a class="item" href="/items/28">Spellbook</a>.</p>',
 
       origin: "Book of Set",
-      product_ids: [1],
+      product_ids: [1, 2, 3, 26],
       map_ids: [3],
       hero_ids: [11, 17],
       tile_ids: [1, 2, 13, 62, 66, 82, 88, 89, 92],
@@ -6633,7 +6636,7 @@
           1 <a class="item" href="/items/6">Explosive Orb</a>.</p>',
 
       origin: "Book of Set",
-      product_ids: [1],
+      product_ids: [1, 3, 26],
       map_ids: [2],
       hero_ids: [11, 17],
       tile_ids: [1, 16, 18, 19, 52, 53, 64, 72, 81],
@@ -6853,7 +6856,7 @@
         spending 1 extra movement point.</p>',
 
       origin: "Book of Set",
-      product_ids: [1],
+      product_ids: [1, 2, 3, 26],
       map_ids: [2],
       hero_ids: [6, 11, 17],
       tile_ids: [1, 16, 22, 30, 45, 49, 56, 76, 91],
@@ -7010,7 +7013,7 @@
         spending 1 extra movement point.</p>',
 
       origin: "Book of Set",
-      product_ids: [1],
+      product_ids: [1, 15, 26],
       map_ids: [2],
       hero_ids: [1, 2, 3],
       tile_ids: [1, 3, 18, 101, 102, 103],
@@ -7178,7 +7181,7 @@
         1 <a class="item" href="/items/14">Tribal Mace</a>.</p>',
 
       origin: "Book of Set",
-      product_ids: [1],
+      product_ids: [1, 8, 20, 26],
       map_ids: [4],
       hero_ids: [2, 3, 27],
       tile_ids: [1, 23, 108, 109, 110, 111],
@@ -7377,7 +7380,7 @@
         1 <a class="item" href="/items/48">Elixir</a>.</p>',
 
       origin: "Book of Set",
-      product_ids: [1],
+      product_ids: [1, 3, 17, 26],
       map_ids: [1],
       hero_ids: [14, 18, 19],
       tile_ids: [1, 6, 25, 28, 29, 86, 105],
@@ -7583,7 +7586,7 @@
           1 <a class="item" href="/items/34">Mitra’s Mace</a>.</p>',
 
       origin: "Book of Set",
-      product_ids: [1],
+      product_ids: [1, 3, 26],
       map_ids: [5],
       hero_ids: [1, 10, 11, 18],
       tile_ids: [1, 18, 32, 54, 55, 80, 89],
@@ -7774,7 +7777,7 @@
         1 <a class="item" href="/items/22">Life Potion</a>.></p>',
 
       origin: "Book of Set",
-      product_ids: [1],
+      product_ids: [1, 3, 12, 26],
       map_ids: [5],
       hero_ids: [9, 12, 18, 20],
       tile_ids: [1, 3, 17, 18, 30, 33, 35, 96],
@@ -8057,7 +8060,7 @@
         1 <a class="item" href="/items/14">Tribal Mace</a>.</p>',
 
       origin: "Book of Set",
-      product_ids: [1],
+      product_ids: [1, 3, 26],
       map_ids: [1, 5],
       hero_ids: [22, 23, 24, 25],
       tile_ids: [1, 17, 18, 30, 63, 68, 69, 71, 87],
@@ -8303,7 +8306,7 @@
         1 <a class="item" href="/items/40">Zingarian Bow</a>.</p>',
 
       origin: "Book of Set",
-      product_ids: [1],
+      product_ids: [1, 2, 3, 26],
       map_ids: [4],
       hero_ids: [9, 13, 15, 19],
       tile_ids: [1, 33, 40, 41, 44, 50, 59, 73, 78, 79],
@@ -8518,7 +8521,7 @@
           3 <a class="item" href="/items/6">Explosive Orbs</a>',
 
       origin: "Book of Set",
-      product_ids: [1],
+      product_ids: [1, 3, 26],
       map_ids: [2],
       hero_ids: [9, 12, 16, 21],
       tile_ids: [1, 18, 19, 30, 33, 57, 70],

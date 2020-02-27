@@ -35,6 +35,7 @@ class MapsController < ApplicationController
 
   def show
     @map_scenarios = @map.scenarios
+    @map_products = @map.products
   end
 
   def destroy
@@ -59,6 +60,10 @@ class MapsController < ApplicationController
       @nordheim = Map.where(origin: 'Nordheim Expansion')
       @stygia = Map.where(origin: 'Stygia Expansion')
       @khitai = Map.where(origin: 'Khitai Expansion')
+      @modiphius = Map.where(origin: 'Modiphius Geomorphic')
+      @conqueror = Map.where(origin: 'Conan the Conqueror')
+      @brotherhood = Map.where(origin: 'Tales of the Red Brotherhood')
+      @chambers = Map.where(origin: 'The Hiden Chambers')
     end
 
     def require_admin
