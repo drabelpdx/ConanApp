@@ -86,6 +86,8 @@ class ScenariosController < ApplicationController
       @stygia = Scenario.where(origin: 'Stygia Expansion')
       @khitai = Scenario.where(origin: 'Khitai Expansion')
       @set = Scenario.where(origin: 'Book of Set')
+      @legend = Scenario.where(origin: 'Legend of the Devil in Iron')
+      @sourcebook = Scenario.where(origin: 'The Monolith Sourcebook')
     end
 
     def require_admin

@@ -62,8 +62,8 @@ class ProductsController < ApplicationController
       @expansions = Product.find(4,5,6)
       @addons = Product.find(7,8,9,10,11,12,13,14,15,16,17,18,19,20)
       @expansions2 = Product.find(21)
-      @addons2 = Product.find(22,23)
-      @tomes = Product.find(24,25,26, 27)
+      @addons2 = Product.find(22,23,24)
+      @tomes = Product.find(25,26,27)
     end
 
     def require_admin

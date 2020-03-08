@@ -2,6 +2,7 @@
 
 ActiveSupport::Inflector.inflections do |inflect|
   inflect.irregular 'hero', 'heroes'
+  inflect.irregular 'story', 'stories'
 end
 
 # Add new inflection rules using the following format. Inflections

@@ -104,7 +104,7 @@
       their tile cannot be activated during the next Overlord turn." },
 
     { name: "Dagon’s Attack", cost: '1', limit: '4', area: 'No', instant: 'No', origin: "Stretch Goal", count: '1',
-      description: "Choose a Tentacle in your line of sight. Move that Tentacle up ti 3 areas, then the Tentacle may perform a Melee Attack." },
+      description: "Choose a Tentacle in your line of sight. Move that Tentacle up to 3 areas, then the Tentacle may perform a Melee Attack." },
 
     { name: "Dagon’s Awakening", cost: '', limit: '', area: 'No', instant: 'No', origin: "Stretch Goal", count: '1',
       description: "Blank Card" },
@@ -256,9 +256,18 @@
     { name: "Stone Rain", cost: 'X', limit: 'X', area: 'Yes', instant: 'No', origin: "Stygia Expansion", count: '1',
       description: "Choose an area X areas away from you with a secret passage or well token. Remove that token
       and attack that area; roll 2 Red dice. Characters cannot defend against this attack and suffer damage equal
-      to the attack power." }
+      to the attack power." },
 
 
     # Campaign
+
+    { name: "Borne by the Wind", cost: '1', limit: '1', area: 'No', instant: 'No',
+      origin: "Legend of the Devil in Iron", count: '1',
+      description: "Gain Flying until end of turn." },
+
+    { name: "Set’s Halo", cost: '2', limit: '2', area: 'No', instant: 'Yes',
+      origin: "Legend of the Devil in Iron", count: '1',
+      description: "Your armor value is increased by 1. This effect ends when you
+      change from cautious to aggressive or when your group is activated." },
 
   ])

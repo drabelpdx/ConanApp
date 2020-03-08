@@ -112,16 +112,18 @@
           </table>
         </div>
         <div class="col-md-5">
+          <h4>Appears in:</h4>
          <br />
           <% if @tile_scenarios.any? %>
-            <h4>Appears in:</h4>
+            <h5>These scenarios:</h5>
             <% @tile_scenarios.each do |scenario| %>
               <p><%= link_to scenario.name, scenario_path(scenario) %></p>
             <% end%>
+            <br />
           <% end %>
-         <br />
+
           <% if @tile.stories.any? %>
-            <h4>Stories:</h4>
+            <h5>These stories:</h5>
             <% @tile.stories.each do |story| %>
               <p><%= link_to story.name, story_path(story) %></p>
             <% end%>

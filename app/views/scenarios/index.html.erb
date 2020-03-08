@@ -38,29 +38,6 @@
         </table>
       </div>
       <div class="panel panel-info">
-        <div class="panel-heading">King Pledge</div>
-        <table class="table">
-          <% @king.each do |scenario| %>
-          <tr>
-            <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
-          </tr>
-          <% end %>
-        </table>
-      </div>
-      <div class="panel panel-info">
-        <div class="panel-heading">Stretch Goal</div>
-        <table class="table">
-          <% @stretch.each do |scenario| %>
-          <tr>
-            <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
-          </tr>
-          <% end %>
-        </table>
-      </div>
-    </div>
-
-    <div class="col-md-4 col-sm-6">
-      <div class="panel panel-info">
         <div class="panel-heading">Nordheim Expansion</div>
         <table class="table">
           <% @nordheim.each do |scenario| %>
@@ -92,6 +69,39 @@
       </div>
     </div>
     <div class="col-md-4 col-sm-6">
+      <div class="panel panel-info">
+        <div class="panel-heading">King Pledge</div>
+        <table class="table">
+          <% @king.each do |scenario| %>
+          <tr>
+            <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+          </tr>
+          <% end %>
+        </table>
+      </div>
+      <div class="panel panel-info">
+        <div class="panel-heading">Legend of the Devil in Iron</div>
+        <table class="table">
+          <% @legend.each do |scenario| %>
+          <tr>
+            <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+          </tr>
+          <% end %>
+        </table>
+      </div>
+
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <div class="panel panel-info">
+        <div class="panel-heading">Stretch Goal</div>
+        <table class="table">
+          <% @stretch.each do |scenario| %>
+          <tr>
+            <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+          </tr>
+          <% end %>
+        </table>
+      </div>
       <div class="panel panel-info">
         <div class="panel-heading">Book of Set</div>
         <table class="table">

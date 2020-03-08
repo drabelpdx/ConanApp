@@ -30,7 +30,6 @@
           <h4 class="map"><%= link_to @map.name, map_path(@map) %></h4>
         <% end %>
       </div>
-
     </div>
     <p>&nbsp;&nbsp;&nbsp;&nbsp;Uses content from:
       <% @scenario.product_ids.each do |id| %>
@@ -192,6 +191,21 @@
   <div>
     <p><%= @scenario.special_rules.html_safe %></p>
   </div>
+
+  <% if @scenario.hero_victory != '' %>
+    <div class="row scenario">
+      <h3 align="center" >Campaign Results</h3>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <%= @scenario.hero_victory.html_safe %>
+      </div>
+      <div class="col-md-6">
+        <%= @scenario.overlord_victory.html_safe %>
+      </div>
+    </div>
+  <% end %>
+
 </div>
 
 <% if logged_in? && current_user.admin? %>

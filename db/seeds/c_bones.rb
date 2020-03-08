@@ -7,12 +7,12 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
   Bone.create!([
-    { name: 'Red' },
-    { name: 'Red-Reroll' },
-    { name: 'Orange' },
-    { name: 'Orange-Reroll' },
-    { name: 'Yellow' },
-    { name: 'Yellow-Reroll' },
-    { name: 'Throw' },
-    { name: 'Area' }
+    { name: 'Red' }, #1
+    { name: 'Red-Reroll' }, #2
+    { name: 'Orange' }, #3
+    { name: 'Orange-Reroll' }, #4
+    { name: 'Yellow' }, #5
+    { name: 'Yellow-Reroll' }, #6
+    { name: 'Throw' }, #7
+    { name: 'Area' } #8
   ])

@@ -17,9 +17,9 @@
       melee_dice: 'Orange', melee_exertion: '4',
       ranged_dice: 'Yellow', ranged_exertion: '3',
       movement_free: '2', movement_exertion: '4',
-      manipulation_dice: 'Orange', manipulation_exersion: '3',
+      manipulation_dice: 'Orange', manipulation_exersion: '5',
       defense_dice: 'Yellow',
-      origin: 'Core Game', skill_ids: [13, 16, 21, 28, 6], story_ids: [] },
+      origin: 'Core Game', skill_ids: [13, 16, 21, 28, 6], story_ids: [9] },
 
     { name: 'Conan', description: 'The Cimmerian',
       quote: "",
@@ -31,7 +31,8 @@
       movement_free: '2', movement_exertion: '4',
       manipulation_dice: 'Orange', manipulation_exersion: '3',
       defense_dice: 'Orange',
-      origin: 'Core Game', skill_ids: [13, 16, 19, 11, 4], story_ids: [] },
+      origin: 'Core Game', skill_ids: [13, 16, 19, 11, 4],
+      story_ids: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25] },
 
     { name: 'Hadrathus', description: 'Acolyte',
       quote: "",
@@ -43,7 +44,7 @@
       movement_free: '2', movement_exertion: '2',
       manipulation_dice: 'Orange', manipulation_exersion: '3',
       defense_dice: 'Orange',
-      origin: 'Core Game', skill_ids: [16, 22, 33], story_ids: [] },
+      origin: 'Core Game', skill_ids: [16, 22, 33], story_ids: [16] },
 
     { name: 'Shevatas', description: 'King of Thieves',
       quote: "",
@@ -55,10 +56,10 @@
       movement_free: '3', movement_exertion: '4',
       manipulation_dice: 'Red', manipulation_exersion: '3',
       defense_dice: 'Orange',
-      origin: 'Core Game', skill_ids: [12, 30, 16, 19, 23], story_ids: [] },
+      origin: 'Core Game', skill_ids: [12, 30, 16, 19, 23], story_ids: [4] },
 
       # King Pledge
-    { name: 'Amara The Lion', description: 'King Conan',
+    { name: 'Amra The Lion', description: 'King Conan',
       quote: "",
       cite: "",
       hero_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/AmaraTheLion.jpg',
@@ -68,7 +69,7 @@
       movement_free: '2', movement_exertion: '3',
       manipulation_dice: 'Orange', manipulation_exersion: '3',
       defense_dice: 'Orange',
-      origin: 'King Pledge', skill_ids: [13, 22, 16, 21, 7], story_ids: [] },
+      origin: 'King Pledge', skill_ids: [13, 22, 16, 21, 7], story_ids: [2, 16, 18, 22, 25] },
 
     { name: "N'Gora", description: "Bêlit’s Second",
       quote: "",
@@ -80,7 +81,7 @@
       movement_free: '3', movement_exertion: '4',
       manipulation_dice: 'Orange', manipulation_exersion: '4',
       defense_dice: 'Orange',
-      origin: 'King Pledge', skill_ids: [13, 16, 19, 8, 31], story_ids: [] },
+      origin: 'King Pledge', skill_ids: [13, 16, 19, 8, 31], story_ids: [9] },
 
     { name: 'Valeria', description: 'Bad Ass',
       quote: "",
@@ -92,7 +93,7 @@
       movement_free: '2', movement_exertion: '4',
       manipulation_dice: 'Yellow', manipulation_exersion: '3',
       defense_dice: 'Orange',
-      origin: 'King Pledge', skill_ids: [16, 2, 7], story_ids: [] },
+      origin: 'King Pledge', skill_ids: [16, 2, 7], story_ids: [17] },
 
     { name: 'Zelata', description: 'The Witch',
       quote: "",
@@ -104,7 +105,7 @@
       movement_free: '2', movement_exertion: '4',
       manipulation_dice: 'Orange', manipulation_exersion: '3',
       defense_dice: 'Yellow',
-      origin: 'King Pledge', skill_ids: [16, 33, 22, 28, 20, 21], story_ids: [] },
+      origin: 'King Pledge', skill_ids: [16, 33, 22, 28, 20, 21], story_ids: [16] },
 
     # Strech Goals
     { name: 'Amboola', description: 'A Kushite Commander',
@@ -117,7 +118,7 @@
       movement_free: '2', movement_exertion: '4',
       manipulation_dice: 'Orange', manipulation_exersion: '3',
       defense_dice: 'Orange',
-      origin: 'Stretch Goal', skill_ids: [13, 16, 5, 21], story_ids: [] },
+      origin: 'Stretch Goal', skill_ids: [13, 16, 5, 21], story_ids: [25] },
 
     { name: 'Balthus', description: 'A scout and a deadeye shot',
       quote: "",
@@ -129,7 +130,7 @@
       movement_free: '3', movement_exertion: '3',
       manipulation_dice: 'Orange', manipulation_exersion: '2',
       defense_dice: 'Orange',
-      origin: 'Stretch Goal', skill_ids: [17, 13, 8, 9, 16, 21], story_ids: [] },
+      origin: 'Stretch Goal', skill_ids: [17, 13, 8, 9, 16, 21], story_ids: [14] },
 
     { name: 'Conan - General', description: "",
       quote: "",
@@ -141,7 +142,7 @@
       movement_free: '2', movement_exertion: '4',
       manipulation_dice: 'Orange', manipulation_exersion: '3',
       defense_dice: 'Orange',
-      origin: 'Stretch Goal', skill_ids: [13, 16, 19, 11, 21], story_ids: [] },
+      origin: 'Stretch Goal', skill_ids: [13, 16, 19, 11, 21], story_ids: [13] },
 
     { name: 'Conan - Mercenary', description: '',
       quote: "",
@@ -189,7 +190,7 @@
       movement_free: '2', movement_exertion: '4',
       manipulation_dice: 'Yellow', manipulation_exersion: '4',
       defense_dice: 'Orange',
-      origin: 'Stretch Goal', skill_ids: [16, 19, 30, 9, 22], story_ids: [] },
+      origin: 'Stretch Goal', skill_ids: [16, 19, 30, 9, 22], story_ids: [11] },
 
     { name: 'Olgerd Vladislav', description: 'The Tiger',
       quote: "",
@@ -201,7 +202,7 @@
       movement_free: '2', movement_exertion: '4',
       manipulation_dice: 'Yellow-Reroll', manipulation_exersion: '3',
       defense_dice: 'Orange',
-      origin: 'Stretch Goal', skill_ids: [16, 31, 9, 4], story_ids: [] },
+      origin: 'Stretch Goal', skill_ids: [16, 31, 9, 4], story_ids: [12] },
 
     { name: 'Pallantides', description: 'Captain of the Black Dragons',
       quote: "",
@@ -213,7 +214,7 @@
       movement_free: '2', movement_exertion: '4',
       manipulation_dice: 'Yellow-Reroll', manipulation_exersion: '5',
       defense_dice: 'Orange',
-      origin: 'Stretch Goal', skill_ids: [16, 9, 31, 29, 21], story_ids: [] },
+      origin: 'Stretch Goal', skill_ids: [16, 9, 31, 29, 21], story_ids: [1, 16] },
 
     { name: 'Pelias', description: 'A Dark Sorcerer',
       quote: '',
@@ -225,7 +226,7 @@
       movement_free: '2', movement_exertion: '3',
       manipulation_dice: 'Orange', manipulation_exersion: '4',
       defense_dice: 'Yellow-Reroll',
-      origin: 'Stretch Goal', skill_ids: [33, 22, 6, 26, 21], story_ids: [] },
+      origin: 'Stretch Goal', skill_ids: [33, 22, 6, 26, 21], story_ids: [2] },
 
     { name: 'Savage Bêlit', description: 'Fighting Queen of the Black Coast',
       quote: "",
@@ -237,7 +238,7 @@
       movement_free: '3', movement_exertion: '4',
       manipulation_dice: 'Orange', manipulation_exersion: '4',
       defense_dice: 'Yellow',
-      origin: 'Stretch Goal', skill_ids: [13, 2, 12, 16, 6], story_ids: [] },
+      origin: 'Stretch Goal', skill_ids: [13, 2, 12, 16, 6], story_ids: [9] },
 
     { name: 'Taurus', description: 'Prince of Thieves',
       quote: "",
@@ -249,7 +250,7 @@
       movement_free: '2', movement_exertion: '4',
       manipulation_dice: 'Red', manipulation_exersion: '4',
       defense_dice: 'Orange',
-      origin: 'Stretch Goal', skill_ids: [17, 19, 16, 5, 23], story_ids: [] },
+      origin: 'Stretch Goal', skill_ids: [17, 19, 16, 5, 23], story_ids: [3] },
 
     { name: 'Constantius', description: 'The Falcon',
       quote: "",
@@ -261,7 +262,7 @@
       movement_free: '2', movement_exertion: '4',
       manipulation_dice: 'Yellow', manipulation_exersion: '3',
       defense_dice: 'Orange',
-      origin: 'Stretch Goal', skill_ids: [31, 28, 7, 4], story_ids: [] },
+      origin: 'Stretch Goal', skill_ids: [31, 28, 7, 4], story_ids: [12] },
 
     { name: 'Skuthus', description: '',
       quote: "",
@@ -279,13 +280,13 @@
       quote: "",
       cite: "",
       hero_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Thak.jpg',
-      life: '14', encumbrance: ["11", "10", "12", "9", "10", "11"],
+      life: '14', encumbrance: ["14", "10", "12", "9", "10", "11"],
       melee_dice: 'Red-Reroll', melee_exertion: '4',
       ranged_dice: 'Yellow', ranged_exertion: '3',
       movement_free: '3', movement_exertion: '4',
       manipulation_dice: 'Yellow', manipulation_exersion: '3',
       defense_dice: 'Yellow-Reroll',
-      origin: 'Stretch Goal', skill_ids: [13, 16, 19, 2], story_ids: [] },
+      origin: 'Stretch Goal', skill_ids: [13, 16, 19, 2], story_ids: [7] },
 
     { name: 'Zaporavo', description: '',
       quote: "",
@@ -297,7 +298,7 @@
       movement_free: '3', movement_exertion: '4',
       manipulation_dice: 'Orange', manipulation_exersion: '3',
       defense_dice: 'Orange',
-      origin: 'Stretch Goal', skill_ids: [16, 5, 32, 21, 7], story_ids: [] },
+      origin: 'Stretch Goal', skill_ids: [16, 5, 32, 21, 7], story_ids: [6] },
 
     { name: 'Zogar Sag', description: 'Pict Shaman',
       quote: "",
@@ -309,7 +310,7 @@
       movement_free: '3', movement_exertion: '4',
       manipulation_dice: 'Orange', manipulation_exersion: '3',
       defense_dice: 'Orange',
-      origin: 'Stretch Goal', skill_ids: [12, 21, 32, 33], story_ids: [] },
+      origin: 'Stretch Goal', skill_ids: [12, 21, 32, 33], story_ids: [14] },
 
     ## Add-Ons
     # Vanir Valkyrie
@@ -336,7 +337,7 @@
       movement_free: '2', movement_exertion: '3',
       manipulation_dice: 'Yellow', manipulation_exersion: '3',
       defense_dice: 'Orange',
-      origin: 'Yogah of Yag', skill_ids: [33, 22, 11, 29, 6], story_ids: [] },
+      origin: 'Yogah of Yag', skill_ids: [33, 22, 11, 29, 6], story_ids: [3] },
 
     # Xavier Collette Box
     { name: 'Bêlit - The Princess', description: '',
@@ -349,7 +350,7 @@
       movement_free: '2', movement_exertion: '4',
       manipulation_dice: 'Orange', manipulation_exersion: '3',
       defense_dice: 'Yellow',
-      origin: 'Xavier Collette Box', skill_ids: [13, 2, 17, 16, 28, 6], story_ids: [] },
+      origin: 'Xavier Collette Box', skill_ids: [13, 2, 17, 16, 28, 6], story_ids: [9] },
 
     { name: 'King Conan', description: '',
       quote: "",
@@ -361,7 +362,7 @@
       movement_free: '2', movement_exertion: '3',
       manipulation_dice: 'Orange', manipulation_exersion: '3',
       defense_dice: 'Orange',
-      origin: 'Xavier Collette Box', skill_ids: [13, 16, 21, 28, 5], story_ids: [] },
+      origin: 'Xavier Collette Box', skill_ids: [13, 16, 21, 28, 5], story_ids: [1, 2, 16] },
 
     # Brom Box
     { name: 'Bêlit - Queen of the Black Coast', description: '',
@@ -374,7 +375,7 @@
       movement_free: '2', movement_exertion: '4',
       manipulation_dice: 'Orange', manipulation_exersion: '5',
       defense_dice: 'Yellow',
-      origin: 'Brom Box', skill_ids: [13, 2, 16, 28, 6], story_ids: [] },
+      origin: 'Brom Box', skill_ids: [13, 2, 16, 28, 6], story_ids: [9] },
 
     { name: 'Conan - The Thief', description: '',
       quote: "",
@@ -399,7 +400,7 @@
       movement_free: '2', movement_exertion: '3',
       manipulation_dice: 'Orange', manipulation_exersion: '4',
       defense_dice: 'Yellow',
-      origin: 'Paolo Parente Box', skill_ids: [16, 33, 22, 28, 21], story_ids: [] },
+      origin: 'Paolo Parente Box', skill_ids: [16, 33, 22, 28, 21], story_ids: [12] },
 
     { name: 'Valeria - Warrior', description: '',
       quote: "",
@@ -411,7 +412,7 @@
       movement_free: '2', movement_exertion: '4',
       manipulation_dice: 'Orange', manipulation_exersion: '3',
       defense_dice: 'Orange',
-      origin: 'Paolo Parente Box', skill_ids: [13, 2, 17, 7], story_ids: [] },
+      origin: 'Paolo Parente Box', skill_ids: [13, 2, 17, 7], story_ids: [17] },
 
 
     ## Expansions
@@ -426,7 +427,7 @@
       movement_free: '2', movement_exertion: '4',
       manipulation_dice: 'Yellow', manipulation_exersion: '3',
       defense_dice: 'Red',
-      origin: 'Nordheim Expansion', skill_ids: [19, 16, 2, 21, 10], story_ids: [] },
+      origin: 'Nordheim Expansion', skill_ids: [19, 16, 2, 21, 10], story_ids: [18] },
 
     # Khitai
     { name: 'Shentu', description: '',
@@ -452,5 +453,6 @@
       movement_free: '3', movement_exertion: '4',
       manipulation_dice: 'Red', manipulation_exersion: '3',
       defense_dice: 'Orange',
-      origin: 'Stygia Expansion', skill_ids: [2, 16, 5, 13], story_ids: [] }
+      origin: 'Stygia Expansion', skill_ids: [2, 16, 5, 13], story_ids: [] },
+
   ])

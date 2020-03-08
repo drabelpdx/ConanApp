@@ -1,17 +1,16 @@
-
-<div class="row">
-  <div class="col-md-3">
-    <div class="skills well" align="center">
-    </div>
-    <div align="center">
-      <%= link_to "Back to stories", stories_path %>
+<div class="row skill-well">
+  <div class="skills" align="center">
+    <div  class="prevnext prevnext_skill" >
+      <span class="prev"><%= link_to("<< " + @story.previous.name, @story.previous) if @story.previous %></span>
+      <span aligh="center"><%= link_to "Back to stories", stories_path %></span>
+      <span class="next"><%= link_to(@story.next.name + " >>", @story.next) if @story.next %></span>
     </div>
   </div>
   <div class="col-md-9">
     <h1><%= @story.name %></h1>
     <p><%= @story.aka %></p><br />
   </div>
-</div>
+
 <div class="row">
   <div class="col-md-6">
     <% if @story_heroes.any? %>
@@ -30,7 +29,7 @@
     <% end %>
   </div>
 </div>
-
+</div>
 <% if logged_in? && current_user.admin? %>
   <div class="row">
     <br /><br />

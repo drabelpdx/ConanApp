@@ -86,7 +86,7 @@
       dice: { melee: [4], ranged: [3, 7] }, description: '' },
 
     # Armor
-    { name: 'Chain Mail', encumbrance: '5', origin: 'Core Game', count: '1',
+    { name: 'Chain Mail', encumbrance: '3', origin: 'Core Game', count: '1',
       armor: 'Orange', melee: '', ranged: '',
       defense: '', manipulation: '', role: 'Armor',
       dice: { armor: [3] }, description: '' },
@@ -104,17 +104,17 @@
     # Shield
     { name: 'Buckler', encumbrance: '2', origin: 'Core Game', count: '1',
       armor: '', melee: '', ranged: '',
-      defense: 'Yellow', manipulation: '', role: 'Shield',
+      defense: 'Yellow', manipulation: '', role: 'Shield / Staff',
       dice: { defense: [5] }, description: '' },
 
     { name: 'Shield', encumbrance: '2', origin: 'Core Game', count: '1',
       armor: '', melee: '', ranged: '',
-      defense: 'Orange', manipulation: '', role: 'Shield',
+      defense: 'Orange', manipulation: '', role: 'Shield / Staff',
       dice: { defense: [3] }, description: '' },
 
     { name: 'Tribal Shield', encumbrance: '3', origin: 'Core Game', count: '1',
       armor: '', melee: '', ranged: '',
-      defense: 'Orange-Reroll', manipulation: '', role: 'Shield',
+      defense: 'Orange-Reroll', manipulation: '', role: 'Shield / Staff',
       dice: { defense: [4] }, description: '' },
 
     # Drink
@@ -226,23 +226,22 @@
     # Staff
     { name: 'Black Staff', encumbrance: '1', origin: 'Stretch Goal', count: '1',
       armor: '', melee: '', ranged: '',
-      defense: 'Yellow', manipulation: '', role: 'Staff',
+      defense: 'Yellow', manipulation: '', role: 'Shield / Staff',
       dice: { defense: [5] }, description: '' },
 
-    { name: 'Mita’s Staff', encumbrance: '2', origin: 'Stretch Goal', count: '1',
+    { name: 'Mitra’s Staff', encumbrance: '2', origin: 'Stretch Goal', count: '1',
       armor: '', melee: '', ranged: '',
-      defense: 'Yellow-Reroll', manipulation: '', role: 'Staff',
+      defense: 'Yellow-Reroll', manipulation: '', role: 'Shield / Staff',
       dice: { defense: [6] }, description: '' },
 
     # Drink
     { name: 'Life Potion', encumbrance: '0', origin: 'Stretch Goal', count: '1',
-      armor: '', melee: '', ranged: '',
-      defense: '', manipulation: '', role: 'Drink',
+      armor: '', melee: '', ranged: '', defense: '', manipulation: '', role: 'Drink',
       dice: '', description: 'Move 2 gems from your Fatigue zone or Wound zone to your Reserve zone.' },
 
     { name: 'Pictish Drink', encumbrance: '0', origin: 'Stretch Goal', count: '2',
-      armor: '', melee: '', ranged: '', dice: '',
-      defense: '', manipulation: '', role: 'Drink', description: 'Move 2 gems from your Fatigue zone to your Reserve zone and suffer 1 wound.' },
+      armor: '', melee: '', ranged: '', dice: '', defense: '', manipulation: '', role: 'Drink',
+      description: 'Move 2 gems from your Fatigue zone to your Reserve zone and suffer 1 wound.' },
 
     # Object
     { name: 'Cape', encumbrance: '2', origin: 'Stretch Goal', count: '1',
@@ -444,8 +443,184 @@
       defense: '', manipulation: '', role: 'Object',
       dice: '', description: 'Use as outlined in scenario.' },
 
-    ## Campaign
+
+    ## Legend of the Devil in Iron
     # Weapon
+    { name: 'Sword', encumbrance: '2', origin: 'Legend of the Devil in Iron',
+      count: '2', armor: '', melee: 'Orange-Reroll', ranged: '',
+      defense: 'Yellow-Reroll', manipulation: '', role: 'Weapon',
+      dice: { melee: [4], defense: [6] }, description: '' },
+
+    { name: 'Spear', encumbrance: '2', origin: 'Legend of the Devil in Iron',
+      count: '1', armor: '', melee: 'Orange', ranged: 'Orange Throw',
+      defense: '', manipulation: '', role: 'Weapon',
+      dice: { melee: [3], ranged: [3, 7] }, description: '' },
+
+    { name: 'Akbitana’s Claymore', encumbrance: '3', origin: 'Legend of the Devil in Iron',
+      count: '1', armor: '', melee: 'Red-Reroll', ranged: '',
+      defense: 'Orange', manipulation: '', role: 'Weapon',
+      dice: { melee: [2], defense: [3] }, description: 'Special Equipment - The bearer
+      of Akbitana’s Claymore gains the Counterattack skill.' },
+
+    { name: 'Bori’s Hammer', encumbrance: '3', origin: 'Legend of the Devil in Iron',
+      count: '1', armor: '', melee: 'Red-Reroll', ranged: '',
+      defense: '', manipulation: '', role: 'Weapon',
+      dice: { melee: [2] }, description: 'Special Equipment - The bearer
+      of Bori’s Hammer gains the Wall Wrecker skill.' },
+
+    { name: 'Phoenix Sword', encumbrance: '2', origin: 'Legend of the Devil in Iron',
+      count: '1', armor: '', melee: 'Orange-Reroll Yellow', ranged: '',
+      defense: 'Yellow-Reroll', manipulation: '', role: 'Weapon',
+      dice: { melee: [4, 5], defense: [6] }, description: 'Special Equipment' },
+
+    { name: 'Shemite Bow', encumbrance: '2', origin: 'Legend of the Devil in Iron',
+      count: '1', armor: '', melee: '', ranged: 'Orange Yellow',
+      defense: '', manipulation: '', role: 'Weapon',
+      dice: { ranged: [3, 5] }, description: 'Special Equipment' },
+
+    # Armor
+    { name: 'Leather Armor', encumbrance: '2', origin: 'Legend of the Devil in Iron',
+      count: '2', armor: 'Yellow', melee: '', ranged: '', defense: '',
+      manipulation: '', role: 'Armor', dice: { armor: [5] }, description: '' },
+
+    { name: 'Asshuri Cuirass', encumbrance: '4', origin: 'Legend of the Devil in Iron',
+      count: '1', armor: 'Red', melee: '', ranged: '', defense: '', manipulation: '',
+      role: 'Armor', dice: { armor: [1] }, description: 'Special Equipment' },
+
+    # Shield
+    { name: 'Shield of Mitra', encumbrance: '3', origin: 'Legend of the Devil in Iron',
+      count: '1', armor: '', melee: '', ranged: '', defense: 'Red', manipulation: '',
+      role: 'Shield / Staff', dice: { defense: [1] }, description: 'Special Equipment' },
+
+    # Other
+    { name: 'Kordava Boots', encumbrance: '0', origin: 'Legend of the Devil in Iron',
+      count: '1', armor: '', melee: '', ranged: '', defense: '', manipulation: '',
+      role: 'Other', dice: '', description: 'Special Equipment - Adds 1 to the
+      base movement value of the hero wearing them.' },
+
+    { name: 'Shadow Mantel', encumbrance: '0', origin: 'Legend of the Devil in Iron',
+      count: '1', armor: '', melee: '', ranged: '', defense: '', manipulation: '',
+      role: 'Other', dice: '', description: 'Special Equipment - The wearer of the
+      Shadow Mantel gains the Untouchable skill.' },
+
+    { name: 'Armbands of Bel', encumbrance: '1', origin: 'Legend of the Devil in Iron',
+      count: '1', armor: '', melee: '', ranged: '', defense: '', manipulation: '',
+      role: 'Other', dice: '', description: 'Special Equipment - Adds 1 Orange-Reroll die
+      to the manipulation skill of the hero wearing them.' },
+
+    # Drink
+    { name: 'Life Potion', encumbrance: '0', origin: 'Legend of the Devil in Iron',
+      count: '8', armor: '', melee: '', ranged: '', defense: '', manipulation: '', role: 'Drink',
+      dice: '', description: 'Move 2 gems from your Fatigue zone or Wound zone to your Reserve zone.' },
+
+    { name: 'Pictish Drink', encumbrance: '0', origin: 'Legend of the Devil in Iron',
+      count: '6', armor: '', melee: '', ranged: '', defense: '', manipulation: '', role: 'Drink',
+      dice: '', description: 'Move 2 gems from your Fatigue zone to your Reserve zone and suffer 1 wound.' },
+
     # Object
+    { name: 'Information', encumbrance: '0', origin: 'Legend of the Devil in Iron',
+      count: '1', armor: '', melee: '', ranged: '', defense: '', manipulation: '',
+      role: 'Object', dice: '', description: 'Use as outlined in scenario.' },
+
+    { name: 'Red Orb', encumbrance: '1', origin: 'Legend of the Devil in Iron',
+      count: '1', armor: '', melee: '', ranged: '', defense: '', manipulation: '',
+      role: 'Object', dice: '', description: 'Use as outlined in scenario.' },
+
+    { name: 'Green Orb', encumbrance: '1', origin: 'Legend of the Devil in Iron',
+      count: '1', armor: '', melee: '', ranged: '', defense: '', manipulation: '',
+      role: 'Object', dice: '', description: 'Use as outlined in scenario.' },
+
+    { name: 'Blue Orb', encumbrance: '1', origin: 'Legend of the Devil in Iron',
+      count: '1', armor: '', melee: '', ranged: '', defense: '', manipulation: '',
+      role: 'Object', dice: '', description: 'Use as outlined in scenario.' },
+
+    # Special
+    { name: 'Poisoned', encumbrance: '', origin: 'Legend of the Devil in Iron',
+      count: '4', armor: '', melee: '', ranged: '', defense: '', manipulation: '',
+      role: 'Special', dice: '', description: 'Use as outlined in scenario' },
+
+    { name: 'Red Orb Position 1', encumbrance: '', origin: 'Legend of the Devil in Iron',
+      count: '1', armor: '', melee: '', ranged: '', defense: '', manipulation: '',
+      role: 'Special', dice: '', description: 'Use as outlined in scenario.' },
+
+    { name: 'Red Orb Position 2', encumbrance: '', origin: 'Legend of the Devil in Iron',
+      count: '1', armor: '', melee: '', ranged: '', defense: '', manipulation: '',
+      role: 'Special', dice: '', description: 'Use as outlined in scenario.' },
+
+    { name: 'Red Orb Position 3', encumbrance: '', origin: 'Legend of the Devil in Iron',
+      count: '1', armor: '', melee: '', ranged: '', defense: '', manipulation: '',
+      role: 'Special', dice: '', description: 'Use as outlined in scenario.' },
+
+    { name: 'Green Orb Position 1', encumbrance: '', origin: 'Legend of the Devil in Iron',
+      count: '1', armor: '', melee: '', ranged: '', defense: '', manipulation: '',
+      role: 'Special', dice: '', description: 'Use as outlined in scenario.' },
+
+    { name: 'Green Orb Position 2', encumbrance: '', origin: 'Legend of the Devil in Iron',
+      count: '1', armor: '', melee: '', ranged: '', defense: '', manipulation: '',
+      role: 'Special', dice: '', description: 'Use as outlined in scenario.' },
+
+    { name: 'Green Orb Position 3', encumbrance: '', origin: 'Legend of the Devil in Iron',
+      count: '1', armor: '', melee: '', ranged: '', defense: '', manipulation: '',
+      role: 'Special', dice: '', description: 'Use as outlined in scenario.' },
+
+    { name: 'Blue Orb Position 1', encumbrance: '', origin: 'Legend of the Devil in Iron',
+      count: '1', armor: '', melee: '', ranged: '', defense: '', manipulation: '',
+      role: 'Special', dice: '', description: 'Use as outlined in scenario.' },
+
+    { name: 'Blue Orb Position 2', encumbrance: '', origin: 'Legend of the Devil in Iron',
+      count: '1', armor: '', melee: '', ranged: '', defense: '', manipulation: '',
+      role: 'Special', dice: '', description: 'Use as outlined in scenario.' },
+
+    { name: 'Blue Orb Position 3', encumbrance: '', origin: 'Legend of the Devil in Iron',
+      count: '1', armor: '', melee: '', ranged: '', defense: '', manipulation: '',
+      role: 'Special', dice: '', description: 'Use as outlined in scenario.' },
+
+    # Campaign
+    { name: 'Campaign Hero: Amra the Lion - Level 0-1', encumbrance: '', origin: 'Legend of the Devil in Iron',
+      count: '1', armor: '', melee: '', ranged: '', defense: '', manipulation: '',
+      role: 'Campaign', dice: '', description: 'Campaign Hero Card, use as oulined by Campaign.' },
+
+    { name: 'Campaign Hero: Amra the Lion - Level 2-3', encumbrance: '', origin: 'Legend of the Devil in Iron',
+      count: '1', armor: '', melee: '', ranged: '', defense: '', manipulation: '',
+      role: 'Campaign', dice: '', description: 'Campaign Hero Card, use as oulined by Campaign.' },
+
+    { name: 'Campaign Hero: Savage Bêlit - Level 0-1', encumbrance: '', origin: 'Legend of the Devil in Iron',
+      count: '1', armor: '', melee: '', ranged: '', defense: '', manipulation: '',
+      role: 'Campaign', dice: '', description: 'Campaign Hero Card, use as oulined by Campaign.' },
+
+    { name: 'Campaign Hero: Savage Bêlit - Level 2-3', encumbrance: '', origin: 'Legend of the Devil in Iron',
+      count: '1', armor: '', melee: '', ranged: '', defense: '', manipulation: '',
+      role: 'Campaign', dice: '', description: 'Campaign Hero Card, use as oulined by Campaign.' },
+
+    { name: 'Campaign Hero: N’Gora - Level 0-1', encumbrance: '', origin: 'Legend of the Devil in Iron',
+      count: '1', armor: '', melee: '', ranged: '', defense: '', manipulation: '',
+      role: 'Campaign', dice: '', description: 'Campaign Hero Card, use as oulined by Campaign.' },
+
+    { name: 'Campaign Hero: N’Gora - Level 2-3', encumbrance: '', origin: 'Legend of the Devil in Iron',
+      count: '1', armor: '', melee: '', ranged: '', defense: '', manipulation: '',
+      role: 'Campaign', dice: '', description: 'Campaign Hero Card, use as oulined by Campaign.' },
+
+    { name: 'Campaign Hero: Zelata - Level 0-1', encumbrance: '', origin: 'Legend of the Devil in Iron',
+      count: '1', armor: '', melee: '', ranged: '', defense: '', manipulation: '',
+      role: 'Campaign', dice: '', description: 'Campaign Hero Card, use as oulined by Campaign.' },
+
+    { name: 'Campaign Hero: Zelata - Level 2-3', encumbrance: '', origin: 'Legend of the Devil in Iron',
+      count: '1', armor: '', melee: '', ranged: '', defense: '', manipulation: '',
+      role: 'Campaign', dice: '', description: 'Campaign Hero Card, use as oulined by Campaign.' },
+
+    { name: 'Common gems Reserve card - Available', encumbrance: '', origin: 'Legend of the Devil in Iron',
+      count: '1', armor: '', melee: '', ranged: '', defense: '', manipulation: '',
+      role: 'Campaign', dice: '', description: 'Use as oulined by Campaign.' },
+
+    { name: 'Common gems Reserve card - Used', encumbrance: '', origin: 'Legend of the Devil in Iron',
+      count: '1', armor: '', melee: '', ranged: '', defense: '', manipulation: '',
+      role: 'Campaign', dice: '', description: 'Use as oulined by Campaign.' },
+
+    { name: 'The Legend of the Devil in Iron Card', encumbrance: '', origin: 'Legend of the Devil in Iron',
+      count: '1', armor: '', melee: '', ranged: '', defense: '', manipulation: '',
+      role: 'Campaign', dice: '', description: 'A Campaign information card to be read
+      as oulined by Campaign.' },
+
+
 
   ])

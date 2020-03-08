@@ -92,7 +92,7 @@
     ## Tomes
     { name: 'Legend of the Devil in Iron', description: '2015 Campaign Book' }, ## 25
     { name: 'Book of Set', description: 'A 2017 Tome' }, ## 26
-    { name: 'Conan: The Monolith Source Book', description: 'A crossover Tome put out by Modiphius' }, ## 27
-    { name: 'Tome of Skelos', description: 'The 2020 Kickstart Tome' }, ## 28
+    { name: 'Tome of Skelos', description: 'The 2020 Kickstart Tome' }, ## 27
+
 
   ])

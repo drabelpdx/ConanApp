@@ -1,6 +1,7 @@
 class StoriesController < ApplicationController
   before_action :set_story, only: [:edit, :update, :show, :destroy]
   before_action :set_stories, only: [:index]
+  before_action :require_user, except: [:index, :show]
   before_action :require_admin, except: [:index, :show]
 
   def index

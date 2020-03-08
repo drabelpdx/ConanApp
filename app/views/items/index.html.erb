@@ -28,32 +28,6 @@
           <% end %>
         </table>
       </div>
-    </div>
-    <div class="col-md-4 col-sm-6">
-      <div class="panel panel-item">
-        <div class="panel-heading">Stretch Goal Items</div>
-        <table class="table">
-          <% @stretch.sort_by {|item| item.name }.each do |item| %>
-            <tr>
-              <td class="item" align="center"><%= link_to item.name, item_path(item) %></td>
-            </tr>
-          <% end %>
-        </table>
-      </div>
-    </div>
-    <div class="col-md-4 col-sm-6">
-      <div class="panel panel-item">
-        <div class="panel-heading">Nordheim Items</div>
-        <table class="table">
-          <% @nordheim.sort_by {|item| item.name }.each do |item| %>
-            <tr>
-              <td class="item" align="center"><%= link_to item.name, item_path(item) %></td>
-            </tr>
-          <% end %>
-        </table>
-      </div>
-    </div>
-    <div class="col-md-4 col-sm-6">
       <div class="panel panel-item">
         <div class="panel-heading">Khitai Items</div>
         <table class="table">
@@ -67,6 +41,26 @@
     </div>
     <div class="col-md-4 col-sm-6">
       <div class="panel panel-item">
+        <div class="panel-heading">Stretch Goal Items</div>
+        <table class="table">
+          <% @stretch.sort_by {|item| item.name }.each do |item| %>
+            <tr>
+              <td class="item" align="center"><%= link_to item.name, item_path(item) %></td>
+            </tr>
+          <% end %>
+        </table>
+      </div>
+      <div class="panel panel-item">
+        <div class="panel-heading">Nordheim Items</div>
+        <table class="table">
+          <% @nordheim.sort_by {|item| item.name }.each do |item| %>
+            <tr>
+              <td class="item" align="center"><%= link_to item.name, item_path(item) %></td>
+            </tr>
+          <% end %>
+        </table>
+      </div>
+      <div class="panel panel-item">
         <div class="panel-heading">Stygia Items</div>
         <table class="table">
           <% @stygia.sort_by {|item| item.name }.each do |item| %>
@@ -76,10 +70,8 @@
           <% end %>
         </table>
       </div>
-    </div>
-    <div class="col-md-4 col-sm-6">
       <div class="panel panel-item">
-        <div class="panel-heading">Brom Box</div>
+        <div class="panel-heading">Brom Box Items</div>
         <table class="table">
           <% @brom.sort_by {|item| item.name }.each do |item| %>
             <tr>
@@ -89,6 +81,19 @@
         </table>
       </div>
     </div>
+    <div class="col-md-4 col-sm-6">
+      <div class="panel panel-item">
+        <div class="panel-heading">Legend of the Devil in Iron</div>
+        <table class="table">
+          <% @campaign.sort_by {|item| item.name }.each do |item| %>
+            <tr>
+              <td class="item" align="center"><%= link_to item.name, item_path(item) %></td>
+            </tr>
+          <% end %>
+        </table>
+      </div>
+    </div>
+
   </div>
 </div>
 
@@ -108,7 +113,7 @@
     </div>
     <div class="col-md-4 col-sm-6">
       <div class="panel panel-item">
-        <div class="panel-heading">Armor / Shields / Defensive Staves</div>
+        <div class="panel-heading">Armor / Shields / Defensive Staves / Other</div>
         <table class="table">
           <% @armor.sort_by {|item| item.name }.each do |item| %>
             <tr>
@@ -128,7 +133,7 @@
         </table>
       </div>
       <div class="panel panel-item">
-        <div class="panel-heading">Special</div>
+        <div class="panel-heading">Special / Campaign Items</div>
         <table class="table">
           <% @special.sort_by {|item| item.name }.each do |item| %>
             <tr>

@@ -75,18 +75,16 @@
     </div>
     </div>
     <div class="col-md-4">
-
       <% if @product_scenarios.any? %>
-
         <% if @product.name == "Core Game" %>
-          <h5>Scenarios that use this product alone: </h5>
+          <h5>Scenarios that use the Core Game alone: </h5>
             <% @product_scenarios.each do |scenario| %>
               <% if scenario.product_ids.length == 1 %>
                 <%= link_to scenario.name, scenario_path(scenario) %><br />
               <% end %>
             <% end %>
         <br />
-        <h5>Scenarios that use this product with others: </h5>
+        <h5>Scenarios that use the Core Game<br /> with other products: </h5>
             <% @product_scenarios.each do |scenario| %>
               <% if scenario.product_ids.length != 1 %>
                 <%= link_to scenario.name, scenario_path(scenario) %><br />

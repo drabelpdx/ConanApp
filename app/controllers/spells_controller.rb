@@ -55,7 +55,7 @@ class SpellsController < ApplicationController
       @nordheim = Spell.where(origin: 'Nordheim Expansion')
       @stygia = Spell.where(origin: 'Stygia Expansion')
       @khitai = Spell.where(origin: 'Khitai Expansion')
-      @campaign = Spell.where(origin: 'Campaign')
+      @campaign = Spell.where(origin: 'Legend of the Devil in Iron')
       @area = Spell.where(area: 'Yes')
       @instant = Spell.where(instant: 'Yes')
       @blank = Spell.where(description: 'Blank Card')

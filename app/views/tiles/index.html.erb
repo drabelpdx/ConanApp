@@ -28,16 +28,6 @@
         </table>
       </div>
       <div class="panel panel-danger">
-        <div class="panel-heading">King Pledge Tiles</div>
-        <table class="table">
-          <% @king.sort_by {|tile| tile.name }.each do |tile| %>
-          <tr>
-            <td class="tile" align="center"><%= link_to tile.name, tile_path(tile) %></td>
-          </tr>
-          <% end %>
-        </table>
-      </div>
-      <div class="panel panel-danger">
         <div class="panel-heading">Stygia Tiles</div>
         <table class="table">
           <% @stygia.sort_by {|tile| tile.name }.each do |tile| %>
@@ -47,30 +37,16 @@
           <% end %>
         </table>
       </div>
-    </div>
-    <div class="col-md-4 col-sm-6">
       <div class="panel panel-danger">
-        <div class="panel-heading">Stretch Goal Tiles</div>
+        <div class="panel-heading">The Black Ones Tiles</div>
         <table class="table">
-          <% @stretch.sort_by {|tile| tile.name }.each do |tile| %>
+          <% @blackones.each do |tile| %>
           <tr>
             <td class="tile" align="center"><%= link_to tile.name, tile_path(tile) %></td>
           </tr>
           <% end %>
-      </table>
+        </table>
       </div>
-      <div class="panel panel-danger">
-        <div class="panel-heading">Khitai Tiles</div>
-        <table class="table">
-          <% @khitai.sort_by {|tile| tile.name }.each do |tile| %>
-          <tr>
-            <td class="tile" align="center"><%= link_to tile.name, tile_path(tile) %></td>
-          </tr>
-          <% end %>
-       </table>
-     </div>
-    </div>
-    <div class="col-md-4 col-sm-6">
       <div class="panel panel-danger">
         <div class="panel-heading">Baal Pteor Tiles</div>
         <table class="table">
@@ -92,46 +68,6 @@
         </table>
       </div>
       <div class="panel panel-danger">
-        <div class="panel-heading">The Black Ones Tiles</div>
-        <table class="table">
-          <% @blackones.each do |tile| %>
-          <tr>
-            <td class="tile" align="center"><%= link_to tile.name, tile_path(tile) %></td>
-          </tr>
-          <% end %>
-        </table>
-      </div>
-      <div class="panel panel-danger">
-        <div class="panel-heading">Crossbowmen Tiles</div>
-        <table class="table">
-          <% @crossbowmen.each do |tile| %>
-          <tr>
-            <td class="tile" align="center"><%= link_to tile.name, tile_path(tile) %></td>
-          </tr>
-          <% end %>
-        </table>
-      </div>
-      <div class="panel panel-danger">
-        <div class="panel-heading">Demon of the Earth Tiles</div>
-        <table class="table">
-          <% @demon.each do |tile| %>
-          <tr>
-            <td class="tile" align="center"><%= link_to tile.name, tile_path(tile) %></td>
-          </tr>
-          <% end %>
-        </table>
-      </div>
-      <div class="panel panel-danger">
-        <div class="panel-heading">Dragon Tiles</div>
-        <table class="table">
-          <% @dragon.each do |tile| %>
-          <tr>
-            <td class="tile" align="center"><%= link_to tile.name, tile_path(tile) %></td>
-          </tr>
-          <% end %>
-        </table>
-      </div>
-      <div class="panel panel-danger">
         <div class="panel-heading">Giant Wolves Tiles</div>
         <table class="table">
           <% @wolves.each do |tile| %>
@@ -141,6 +77,101 @@
           <% end %>
         </table>
       </div>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <div class="panel panel-danger">
+        <div class="panel-heading">King Pledge Tiles</div>
+        <table class="table">
+          <% @king.sort_by {|tile| tile.name }.each do |tile| %>
+          <tr>
+            <td class="tile" align="center"><%= link_to tile.name, tile_path(tile) %></td>
+          </tr>
+          <% end %>
+        </table>
+      </div>
+      <div class="panel panel-danger">
+        <div class="panel-heading">Nordheim Tiles</div>
+        <table class="table">
+          <% @nordheim.sort_by {|tile| tile.name }.each do |tile| %>
+          <tr>
+            <td class="tile" align="center"><%= link_to tile.name, tile_path(tile) %></td>
+          </tr>
+          <% end %>
+        </table>
+      </div>
+      <div class="panel panel-danger">
+        <div class="panel-heading">Khitai Tiles</div>
+        <table class="table">
+          <% @khitai.sort_by {|tile| tile.name }.each do |tile| %>
+          <tr>
+            <td class="tile" align="center"><%= link_to tile.name, tile_path(tile) %></td>
+          </tr>
+          <% end %>
+       </table>
+     </div>
+     <div class="panel panel-danger">
+       <div class="panel-heading">Crossbowmen Tiles</div>
+       <table class="table">
+         <% @crossbowmen.each do |tile| %>
+         <tr>
+           <td class="tile" align="center"><%= link_to tile.name, tile_path(tile) %></td>
+         </tr>
+         <% end %>
+       </table>
+     </div>
+     <div class="panel panel-danger">
+       <div class="panel-heading">Demon of the Earth Tiles</div>
+       <table class="table">
+         <% @demon.each do |tile| %>
+         <tr>
+           <td class="tile" align="center"><%= link_to tile.name, tile_path(tile) %></td>
+         </tr>
+         <% end %>
+       </table>
+     </div>
+     <div class="panel panel-danger">
+       <div class="panel-heading">Dragon Tiles</div>
+       <table class="table">
+         <% @dragon.each do |tile| %>
+         <tr>
+           <td class="tile" align="center"><%= link_to tile.name, tile_path(tile) %></td>
+         </tr>
+         <% end %>
+       </table>
+     </div>
+     <div class="panel panel-danger">
+       <div class="panel-heading">Sabertooth Tiger Tiles</div>
+       <table class="table">
+         <% @sabertooth.each do |tile| %>
+         <tr>
+           <td class="tile" align="center"><%= link_to tile.name, tile_path(tile) %></td>
+         </tr>
+         <% end %>
+       </table>
+     </div>
+
+
+    </div>
+    <div class="col-md-4 col-sm-6">
+
+      <div class="panel panel-danger">
+        <div class="panel-heading">Stretch Goal Tiles</div>
+        <table class="table">
+          <% @stretch.sort_by {|tile| tile.name }.each do |tile| %>
+          <tr>
+            <td class="tile" align="center"><%= link_to tile.name, tile_path(tile) %></td>
+          </tr>
+          <% end %>
+      </table>
+      </div>
+
+
+
+
+
+
+
+
       <div class="panel panel-danger">
         <div class="panel-heading">Kushite Witch Hunters Tiles</div>
         <table class="table">
@@ -161,16 +192,7 @@
           <% end %>
         </table>
       </div>
-      <div class="panel panel-danger">
-        <div class="panel-heading">Sabertooth Tiger Tiles</div>
-        <table class="table">
-          <% @sabertooth.each do |tile| %>
-          <tr>
-            <td class="tile" align="center"><%= link_to tile.name, tile_path(tile) %></td>
-          </tr>
-          <% end %>
-        </table>
-      </div>
+
       <div class="panel panel-danger">
         <div class="panel-heading">Vanir Valkyrie Tiles</div>
         <table class="table">
@@ -181,16 +203,8 @@
           <% end %>
         </table>
       </div>
-      <div class="panel panel-danger">
-        <div class="panel-heading">Nordheim Tiles</div>
-        <table class="table">
-          <% @nordheim.sort_by {|tile| tile.name }.each do |tile| %>
-          <tr>
-            <td class="tile" align="center"><%= link_to tile.name, tile_path(tile) %></td>
-          </tr>
-          <% end %>
-        </table>
-      </div>
+
+
     </div>
   </div>
 </div>
