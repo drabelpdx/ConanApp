@@ -43,9 +43,19 @@
   </div>
   <div class="col-md-3 col-sm-6">
     <div class="panel panel-info">
-      <div class="panel-heading">Defense and Magic Skills</div>
+      <div class="panel-heading">Defense Skills</div>
       <table class="table">
         <% @defense.sort_by {|skill| skill.name }.each do |skill| %>
+        <tr>
+          <td class="thumbs"><%= image_tag "skills/#{skill.name}.png" %></td><td><%= link_to skill.name, skill_path(skill) %></td>
+        </tr>
+        <% end %>
+      </table>
+    </div>
+    <div class="panel panel-spell">
+      <div class="panel-heading ">Magic Skills</div>
+      <table class="table">
+        <% @magic.sort_by {|skill| skill.name }.each do |skill| %>
         <tr>
           <td class="thumbs"><%= image_tag "skills/#{skill.name}.png" %></td><td><%= link_to skill.name, skill_path(skill) %></td>
         </tr>

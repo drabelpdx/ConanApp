@@ -3,36 +3,34 @@
   <p><%= link_to "Add a Product", new_product_path %></p>
 <% end %>
 
+<p>First Kickstart / 2015</p>
+
 <div class="row">
   <div class="col-md-6 col-sm-6">
-    <p>First Kickstart Content / 2015</p>
-
     <div class="panel panel-primary">
       <div class="panel-heading">Core Boxes</div>
       <table class="table">
-        <% @core.each do |product| %>
+        <% @core2015.each do |product| %>
         <tr>
           <td class="product"><%= link_to product.name, product_path(product) %></td>
         </tr>
         <% end %>
       </table>
     </div>
-
     <div class="panel panel-primary">
       <div class="panel-heading">Expansions</div>
       <table class="table">
-        <% @expansions.each do |product| %>
+        <% @expansions2015.each do |product| %>
         <tr>
           <td class="product"><%= link_to product.name, product_path(product) %></td>
         </tr>
         <% end %>
       </table>
     </div>
-
     <div class="panel panel-primary">
-      <div class="panel-heading">Add-ons</div>
+      <div class="panel-heading">Books</div>
       <table class="table">
-        <% @addons.each do |product| %>
+        <% @books2015.each do |product| %>
         <tr>
           <td class="product"><%= link_to product.name, product_path(product) %></td>
         </tr>
@@ -40,43 +38,86 @@
       </table>
     </div>
   </div>
-
   <div class="col-md-6 col-sm-6">
-    <p>Second Kickstart Content / 2020</p>
-
-    <div class="panel panel-primary">
-      <div class="panel-heading">Expansions</div>
-      <table class="table">
-        <tr>
-          <td class="product"><%= link_to @expansions2.name, product_path(@expansions2) %></td>
-        </tr>
-      </table>
-    </div>
-
     <div class="panel panel-primary">
       <div class="panel-heading">Add-ons</div>
       <table class="table">
-        <% @addons2.each do |product| %>
+        <% @addons2015.each do |product| %>
         <tr>
           <td class="product"><%= link_to product.name, product_path(product) %></td>
         </tr>
         <% end %>
       </table>
     </div>
-    <p>Other Products</p>
-    <div class="panel panel-primary">
-      <div class="panel-heading">Tomes</div>
-      <table class="table">
-        <% @tomes.each do |product| %>
-        <tr>
-          <td class="product"><%= link_to product.name, product_path(product) %></td>
-        </tr>
-        <% end %>
-      </table>
-    </div>
-
   </div>
+</div>
 
+<hr>
+<p>Other Products</p>
 
+<div class="row">
+  <div class="col-md-6 col-sm-6">
+    <div class="panel panel-primary">
+      <div class="panel-heading">Books</div>
+      <table class="table">
+        <% @otherbooks.each do |product| %>
+        <tr>
+          <td class="product"><%= link_to product.name, product_path(product) %></td>
+        </tr>
+        <% end %>
+      </table>
+    </div>
+  </div>
+  <div class="col-md-6 col-sm-6">
+    <div class="panel panel-primary">
+      <div class="panel-heading">Map Tiles</div>
+      <table class="table">
+        <% @othermaps.each do |product| %>
+        <tr>
+          <td class="product"><%= link_to product.name, product_path(product) %></td>
+        </tr>
+        <% end %>
+      </table>
+    </div>
+  </div>
+</div>
 
+<hr>
+<p>Second Kickstart / 2020</p>
+
+<div class="row">
+  <div class="col-md-6 col-sm-6">
+    <div class="panel panel-primary">
+      <div class="panel-heading">Expansions</div>
+      <table class="table">
+        <% @expansions2020.each do |product| %>
+        <tr>
+          <td class="product"><%= link_to product.name, product_path(product) %></td>
+        </tr>
+        <% end %>
+      </table>
+    </div>
+    <div class="panel panel-primary">
+      <div class="panel-heading">Books</div>
+      <table class="table">
+        <% @books2020.each do |product| %>
+        <tr>
+          <td class="product"><%= link_to product.name, product_path(product) %></td>
+        </tr>
+        <% end %>
+      </table>
+    </div>
+  </div>
+  <div class="col-md-6 col-sm-6">
+    <div class="panel panel-primary">
+      <div class="panel-heading">Add-ons</div>
+      <table class="table">
+        <% @addons2020.each do |product| %>
+        <tr>
+          <td class="product"><%= link_to product.name, product_path(product) %></td>
+        </tr>
+        <% end %>
+      </table>
+    </div>
+  </div>
 </div>

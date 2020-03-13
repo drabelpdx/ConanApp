@@ -291,7 +291,7 @@
 
       special_rules: '<p><span class="special_title">Leap:</span>
         If a hero, Zaporavo, or Skuthus fails to <a class="skill" href="/skills/16">Leap</a>,
-        the character remains in its area. If a minion or ally fails to <a class="skill" href="/skills/16">Leap</a>,
+        the character remains in its area. If a minion or ally fails to leap,
         that character falls in the water and is eaten by sharks; the character dies.</p>
 
         <p><span class="special_title">Chests:</span>
@@ -716,8 +716,8 @@
         The <a class="tile" href="/tiles/3">Captain</a> is Arbanus of Koth. When
         Arbanus dies, place a <a class="item" href="/items/30">Key</a> in the
         area in which he died. If a hero is in an area adjacent to the door to
-        Olivia’s cell and has a <a class="item" href="/items/30">Key</a>, the
-        hero can perform a simple Manipulation to remove the door from the board.</p>
+        Olivia’s cell and has a Key, the hero can perform a simple Manipulation
+        to remove the door from the board.</p>
 
         <p><span class="special_title">Conan’s Cell:</span>
         A hero in an area adjacent to the door to Conan’s cell can perform a
@@ -1141,9 +1141,8 @@
 
       special_rules: '<p><span class="special_title">Leap:</span>
         If a hero or Zaporavo fails to <a class="skill" href="/skills/16">Leap</a>,
-        the character remains in its area. If a minion or ally fails to
-        <a class="skill" href="/skills/16">Leap</a>, the character falls in the
-        water and is eaten by sharks; the character dies.</p>
+        the character remains in its area. If a minion or ally fails to leap, the
+        character falls in the water and is eaten by sharks; the character dies.</p>
 
         <p><span class="special_title">Ballista Fire:</span>
         Heroes in an area with a ballista facing The Vandal can use that ballista
@@ -2027,11 +2026,10 @@
         <p><span class="special_title">Stygian Scepter:</span>
         When Thalis performs a Melee Attack, she can attack with
         her <a class="item" href="/items/37">Stygian Scepter</a>, rolling the
-        extra die indicated on the <a class="item" href="/items/37">Stygian Scepter’s</a>
-        Melee Attack bonus. When a hero suffers damage from Thalis’ attack with a
-        <a class="item" href="/items/37">Stygian Scepter</a>, Thog is drawn by the
-        hero’s screams; Thog gains up to 1 movement point, which the Overlord must
-        immediately spend.</p>
+        extra die indicated on the Stygian Scepter’s Melee Attack bonus. When a
+        hero suffers damage from Thalis’ attack with a Stygian Scepter, Thog is
+        drawn by the hero’s screams; Thog gains up to 1 movement point, which
+        the Overlord must immediately spend.</p>
 
         <p><span class="special_title">Doors:</span>
         A hero in an area adjacent to a door can perform a complex Manipulation
@@ -3268,13 +3266,11 @@
         suffers damage, the Overlord must transfer that many gems from their
         Reserve zone and place them in Atali’s area on the game board. When the
         Overlord’s Reserve zone is empty, use gems from the Overlord’s Fatigue
-        zone. If the Overlord’s Fatigue zone is also empty,
-        <a class="tile" href="/tiles/114">Atali</a> dies and the hero wins. Each
-        time <a class="tile" href="/tiles/114">Atali</a> suffers damage, the
-        Overlord may move <a class="tile" href="/tiles/114">Atali</a> to any area
-        on the board. This Move action cannot be hindered by the hero and
-        <a class="tile" href="/tiles/114">Atali</a> is not affected by the
-        movement penalty when entering Impenetrable Forest or Rocky Outcrop.</p>
+        zone. If the Overlord’s Fatigue zone is also empty, Atali dies and the
+        hero wins. Each time Atali suffers damage, the Overlord may move Atali
+        to any area on the board. This Move action cannot be hindered by the hero
+        and Atali is not affected by the movement penalty when entering
+        Impenetrable Forest or Rocky Outcrop.</p>
 
         <p><span class="special_title">Mortal Exhaustion:</span>
         Each time the Overlord uses gems to activate a tile, or uses a spell,
@@ -3404,9 +3400,9 @@
       life8: 0,
 
       special_rules: '<p><span class="special_title">Ethereal Twin:</span>
-        When Shuang Mian’s tile is activated, the Overlord may move 2 gems from
-        their Reserve zone to their Fatigue zone to create a double identical to
-        the sorcerer. The Overlord places a second life token
+        When <a class="tile" href="/tiles/131">Shuang Mian’s</a> tile is activated,
+        the Overlord may move 2 gems from their Reserve zone to their Fatigue zone
+        to create a double identical to the sorcerer. The Overlord places a second life token
         <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShuangMianToken.png" class="scen_token">
          in Shuang Mian’s area; this represents the sorcerer’s double. When Shuang
         Mian moves, the Overlord moves the life token to the same area. When Shuang
@@ -3443,8 +3439,7 @@
         <p><span class="special_title">The Master Key:</span>
         The <a class="item" href="/items/69">Tower Key</a> opens any door or
         chest in the tower. A hero in an area adjacent to a door or in the
-        chest’s area can discard the <a class="item" href="/items/69">Tower Key</a>
-        to open that door or that chest.</p>
+        chest’s area can discard the Tower Key to open that door or that chest.</p>
 
         <p><span class="special_title">False Evidence:</span>
         A hero with the <a class="item" href="/items/65">False Evidence</a>
@@ -3456,9 +3451,8 @@
         During setup, the <a class="item" href="/items/71">Warlock Documents</a>
         asset card is placed in the chest’s area on level 2 of the tower. A hero
         in that area may perform a complex Manipulation with a difficulty of 2
-        to rob the documents. If successful, that hero takes the
-        <a class="item" href="/items/71">Warlock Documents</a> asset card. This
-        validates a secondary objective of the heroes.</p>
+        to rob the documents. If successful, that hero takes the Warlock Documents
+        asset card. This validates a secondary objective of the heroes.</p>
 
         <p><span class="special_title">Table and Stairs:</span>
         The stairs provide an Elevation bonus for Ranged Attacks against an enemy
@@ -3617,9 +3611,10 @@
         A model in a level or moving into a level on fire is immediately removed from the game.</p>
 
         <p><span class="special_title">Exiting the Tower:</span><br />
-        Level 0: A character other than a Foo Dog may move across the heroes’ cell
-        door as though it were a border by spending 1 additional movement point.
-        After a character moves across that door, remove that door from the board.
+        Level 0: A character other than a <a class="tile" href="/tiles/139">Foo Dog</a>
+        may move across the heroes’ cell door as though it were a border by spending
+        1 additional movement point. After a character moves across that door, remove
+        that door from the board.
         <br /><br />
         Level 0: The portcullis is locked. A character in the area adjacent to the
         portcullis may perform a complex Manipulation with a difficulty of 2 to open
@@ -3640,19 +3635,20 @@
         on the areas of level 1 directly below them.</p>
 
         <p><span class="special_title">Shuang Mian:</span>
-        The Overlord cannot move Shuang Mian into a level on fire to prevent the
-        heroes from killing him. When Shuang Mian dies, remove his model and place
-        his life token
+        The Overlord cannot move <a class="tile" href="/tiles/131">Shuang Mian</a>
+        into a level on fire to prevent the heroes from killing him. When Shuang
+        Mian dies, remove his model and place his life token
         <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShuangMianToken.png" class="scen_token">
          in the same area. This represents his head. A hero in the head’s area
          may perform a simple manipulation to pick it up. The head has an
          encumbrance value of 2.</p>
 
         <p><span class="special_title">Call to Arms:</span>
-        When Shuang Mian’s tile is activated, the Overlord may move 2 gems from
-        their Reserve zone to their Fatigue zone to summon his loyal hound. The
-        Evil Hound’s tile must replace a facedown tile. The Evil Hound’s model
-        is place in Shuang Mian’s area or in an adjacent area and his life point token
+        When <a class="tile" href="/tiles/131">Shuang Mian’s</a> tile is activated,
+        the Overlord may move 2 gems from their Reserve zone to their Fatigue zone
+        to summon his loyal hound. The Evil Hound’s tile must replace a facedown
+        tile. The Evil Hound’s model is place in Shuang Mian’s area or in an adjacent
+        area and his life point token
         <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/DarkDemonToken.png" class="scen_token">
          is placed on space 2 of the turn track.</p>
 
@@ -3988,13 +3984,12 @@
         During setup, the Overlord places 4 artifact tokens
         <img src="/assets/tokens/numBackToken.png" class="scen_token" /> as
         indicated in the setup diagram. <a class="tile" href="/tiles/131">Shuang Mian</a>
-        uses these artifacts as a source of power.
-        When the last artifact is destroyed, <a class="tile" href="/tiles/131">Shuang Mian</a>
-        returns to his human form. Remove the <a class="tile" href="/tiles/11">Outer Dark Demon</a>
+        uses these artifacts as a source of power. When the last artifact is destroyed,
+        Shuang Mian returns to his human form. Remove the <a class="tile" href="/tiles/11">Outer Dark Demon</a>
         model, life point token
         <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/OuterDarkDemonToken.png" class="scen_token">
-         and tile from the game and replace them with the model of <a class="tile" href="/tiles/131">Shuang Mian</a> and his tile. Place Shuang
-        Mian’s life point token
+         and tile from the game and replace them with the model of Shuang Mian and his tile.
+         Place Shuang Mian’s life point token
         <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShuangMianToken.png" class="scen_token">
         on space 1 of the turn track.</p>
 
@@ -4161,9 +4156,10 @@
         A character with or without Climb in the opened well’s area may move from
         level 1 to level 0 (and the other way) by spending 2 extra movement points.
         Moving through a well takes a character’s model to the area with a well
-        token directly above or below. The Giant Scorpions may move through all
-        the wells, open or not, with no movement penalty. The Scorpion Broodmother
-        cannot move through wells.</p>
+        token directly above or below. The <a class="tile" href="/tiles/142">Giant Scorpions</a>
+        may move through all the wells, open or not, with no movement penalty. The
+        <a class="tile" href="/tiles/141">Scorpion Broodmother</a> cannot move
+        through wells.</p>
 
         <p><span class="special_title">Moving Through Secret Passages:</span>
         Each level is traversed by a network of secret passages which entrances
@@ -4174,14 +4170,14 @@
         points. To move through a secret passage, both areas with the entrance
         and the exit must be clear of enemies. The Overlord’s units and Ikhment
         know the nooks of the temple and may move through a secret passage with
-        no movement penalty. The Scorpion Broodmother cannot move through secret
-        passages</p>
+        no movement penalty. The <a class="tile" href="/tiles/141">Scorpion Broodmother</a>
+        cannot move through secret passages</p>
 
         <p><span class="special_title">Poisoned:</span>
-        When attacked by a Giant Scorpion, instead of suffering damage as usual,
-        a hero must place a number of poison tokens
-        <img src="/assets/tokens/poisonToken.png" class="scen_token" /> equal to
-        the amount of damage either on the Melee Attack or the Move space of
+        When attacked by a <a class="tile" href="/tiles/142">Giant Scorpion</a>,
+        instead of suffering damage as usual, a hero must place a number of poison
+        tokens <img src="/assets/tokens/poisonToken.png" class="scen_token" /> equal
+        to the amount of damage either on the Melee Attack or the Move space of
         their hero’s sheet. Each poison token on an action space reduces by 1
         the exertion limit of that action. When both exertion limits are reduced
         to zero, that hero immediately dies. If additional poison tokens
@@ -4193,8 +4189,8 @@
         beginning of the Action phase, whether the hero is aggressive or cautious,
         that hero may remove one poison token
         <img src="/assets/tokens/poisonToken.png" class="scen_token" /> from one
-        of the action spaces of their hero’s sheet. Ikhmet is Immune for this
-        scenario.</p>
+        of the action spaces of their hero’s sheet. <a class="hero" href="/heroes/36">Ikhmet </a>
+        is Immune for this scenario.</p>
 
         <p><span class="special_title">Darkness:</span>
         The maze of tunnels is plunged into an impenetrable darkness. There is no
@@ -4202,7 +4198,8 @@
         that requires line of sight can only be performed within a single area.</p>
 
         <p><span class="special_title">Assassins:</span>
-        The Assassins are stealthy. During setup, the Overlord shuffles 6 assassin tokens
+        The <a class="tile" href="/tiles/146">Assassins</a> are stealthy. During
+        setup, the Overlord shuffles 6 assassin tokens
         <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AssassinToken.png" class="scen_token">,
         3 with a face showing a <span class="scen_x">X</span>, and 3 with a face
         showing a <span class="scen_check">&#x2714;</span>, and randomly places
@@ -4223,10 +4220,11 @@
         The water area is not accessible for this scenario.</p>
 
         <p><span class="special_title">Body Search:</span>
-        Each time a hero kills an Eternal Guard, that hero may perform a complex
-        Manipulation with a difficulty of 1 to search that guard. If successful,
-        that hero draws a card from the asset deck. Then that Eternal Guard model
-        is removed from the board whether that hero chooses to search it or not.</p>
+        Each time a hero kills an <a class="tile" href="/tiles/144">Eternal Guard</a>,
+        that hero may perform a complex Manipulation with a difficulty of 1 to search
+        that guard. If successful, that hero draws a card from the asset deck. Then
+        that Eternal Guard model is removed from the board whether that hero chooses
+        to search it or not.</p>
 
         <p><span class="special_title">Reinforcements:</span>
         Reinforcements are placed in an area with a secret passage token in
@@ -4234,20 +4232,23 @@
         is reinforced in level 0.</p>
 
         <p><span class="special_title">The Scorpion Broodmother:</span>
-        When the Scorpion Broodmother tile is activated, the Overlord starts the
-        activation by rolling 1 Yellow, 1 Orange, and 1 Red
+        When the <a class="tile" href="/tiles/141">Scorpion Broodmother</a> tile
+        is activated, the Overlord starts the activation by rolling 1 Yellow,
+        1 Orange, and 1 Red
         <img src="/assets/dice/Yellow.png" class="scen_sq_token" />
         <img src="/assets/dice/Orange.png" class="scen_sq_token" />
         <img src="/assets/dice/Red.png" class="scen_sq_token" /> die.
-        For each symbol shown on the dice, the Overlord may place a Giant
-        Scorpion model in the Scorpion Broodmother’s area or in an area adjacent
-        to that area. If that area is already occupied (and the model’s base
-        cannot fir entirely in the area), the Overlord may place that model in
-        an area adjacent to the occupied area.</p>
+        For each symbol shown on the dice, the Overlord may place a
+        <a class="tile" href="/tiles/142">Giant Scorpion</a> model in the
+        Scorpion Broodmother’s area or in an area adjacent to that area. If that
+        area is already occupied (and the model’s base cannot fir entirely in the
+        area), the Overlord may place that model in an area adjacent to the
+        occupied area.</p>
 
         <p><span class="special_title">Torch:</span>
         At the beginning of their action phase, a hero in aggressive stance with
-        a Torch may discard it to kill all the Giant Scorpion models in that
+        a Torch may discard it to kill all the
+        <a class="tile" href="/tiles/142">Giant Scorpion</a> models in that
         hero’s area.</p>
 
         <p><span class="special_title">Antidote:</span>
@@ -4443,8 +4444,8 @@
         beginning of the Action phase, whether the hero is aggressive or cautious,
         that hero may remove one poison token
         <img src="/assets/tokens/poisonToken.png" class="scen_token" /> from one
-        of the action spaces of their hero’s sheet. Ikhmet is Immune for this
-        scenario.</p>
+        of the action spaces of their hero’s sheet. <a class="hero" href="/heroes/36">Ikhmet </a>
+        is Immune for this scenario.</p>
 
         <p><span class="special_title">Darkness:</span>
         The maze of tunnels is plunged into an impenetrable darkness. There is no
@@ -4452,7 +4453,8 @@
         that requires line of sight can only be performed within a single area.</p>
 
         <p><span class="special_title">Assassins:</span>
-        The Assassins are stealthy. During setup, the Overlord shuffles 6 assassin tokens
+        The <a class="tile" href="/tiles/146">Assassins</a> are stealthy. During
+        setup, the Overlord shuffles 6 assassin tokens
         <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AssassinToken.png" class="scen_token">,
         3 with a face showing a <span class="scen_x">X</span>, and 3 with a face
         showing a <span class="scen_check">&#x2714;</span>, and randomly places
@@ -4608,8 +4610,8 @@
         During setup, the heroes shuffle and place facedown nine tokens
         <img src="/assets/tokens/numBackToken.png" class="scen_token" /> numbered
         from 1 to 9 as indicated by the setup diagram; then they look at these
-        tokens. The two emissaries targeted by Thot-Amon are represented by the
-        tokens numbered 1 <img src="/assets/tokens/num1Token.png" class="scen_token" />
+        tokens. The two emissaries targeted by <a class="tile" href="/tiles/140">Thot-Amon</a>
+        are represented by the tokens numbered 1 <img src="/assets/tokens/num1Token.png" class="scen_token" />
         and 2 <img src="/assets/tokens/num2Token.png" class="scen_token" />.
         The emissaries cannot move and do not count for Hindering.</p>
 
@@ -4628,7 +4630,8 @@
         may Guard, use their Armor bonus and the Guard bonus of shields.</p>
 
         <p><span class="special_title">Leaping over Water:</span>
-        A character with Leap may leap over the areas marked with the Leap
+        A character with  <a class="skill" href="/skills/16">Leap</a> may leap
+        over the areas marked with the Leap
         <img src="/assets/skills/Leap.png" class="scen_sq_token" /> icon
         <img src="/assets/skills/Leap.png" class="scen_sq_token" />.
         If a hero fails to Leap, the character remains in its area.</p>
@@ -4639,7 +4642,8 @@
 
         <p><span class="special_title">Jumping into Water:</span>
         A character adjacent to a water area may move into that area with no
-        movement penalty. When a character without Swimming moves into a water
+        movement penalty. When a character without
+        <a class="skill" href="/skills/13">Swimming</a> moves into a water
         area, that character dies immediately.</p>
 
         <p><span class="special_title">Moving Back onto the Docks:</span>
@@ -4847,7 +4851,8 @@
         <a class="hero" href="/heroes/36">Ikhmet </a> is Immune for this scenario.</p>
 
         <p><span class="special_title">Antidote:</span>
-        A hero with an Antidote may discard it to remove all the poison tokens
+        A hero with an <a class="item" href="/items/74">Antidote</a> may discard
+        it to remove all the poison tokens
         <img src="/assets/tokens/poisonToken.png" class="scen_token" /> from one
         of the action spaces of their hero’s sheet.</p>
 
@@ -4963,9 +4968,8 @@
         to action spaces or spell cards. If those are also empty, take a gem from
         his Reserve zone. As long as this gem is on the Xuthal’s Crown card, it
         is no longer available to Yogah of Yag and thus no longer counts toward
-        his life point total. If Yogah of Yag drops the
-        <a class="item" href="/items/31">Xuthal Crown</a>, move the gem to his
-        Fatigue zone.</p>
+        his life point total. If Yogah of Yag drops the Xuthal Crown, move the
+        gem to his Fatigue zone.</p>
 
         <p><span class="special_title">Hut Flaps:</span>
         A character must spend 1 extra movement point to move across
@@ -4998,7 +5002,7 @@
       overlord_victory: '',
 
       origin: "Book of Set",
-      product_ids: [1, 8, 26],
+      product_ids: [1, 8, 22],
       map_ids: [1],
       hero_ids: [27],
       tile_ids: [1, 3, 12, 15, 18, 19],
@@ -5091,43 +5095,36 @@
       special_rules: '<p><span class="special_title">Giant Wolf:</span>
         During setup, the hero places two
         <a class="tile" href="/tiles/106">Giant Wolves</a> tiles next to Zelata’s
-        hero sheet. When Zelata uses her Leaderships kill to activate the
-        <a class="tile" href="/tiles/106">Giant Wolves</a> by spending one gem,
-        she activates two <a class="tile" href="/tiles/106">Giant Wolves</a>
-        characters instead of one. She must move both
-        <a class="tile" href="/tiles/106">Giant Wolves</a>, then perform their
-        attack. Each <a class="tile" href="/tiles/106">Giant Wolf</a> can only
-        be activated once per hero’s turn. The
-        <a class="tile" href="/tiles/106">Giant Wolves</a> follow the standard
-        rules of the Allies for rerolls, Guard an additional movement points.<br />
-        As soon as 5 <a class="tile" href="/tiles/106">Giant Wolves</a> have been
-        killed, the hero removes a <a class="tile" href="/tiles/106">Giant Wolves</a>
+        hero sheet. When Zelata uses her Leaderships kill to activate the Giant
+        Wolves by spending one gem, she activates two Giant Wolves characters
+        instead of one. She must move both Giant Wolves, then perform their
+        attack. Each Giant Wolf can only be activated once per hero’s turn. The
+        Giant Wolves follow the standard rules of the Allies for rerolls, Guard
+        an additional movement points.<br />
+        As soon as 5 Giant Wolves have been killed, the hero removes a Giant Wolves
         tile from the game. From this point on, when Zelata uses her Leadership
-        skill to activate the <a class="tile" href="/tiles/106">Giant Wolves</a>
-        by spending one gem, she only activates one
-        <a class="tile" href="/tiles/106">Giant Wolves</a> character.</p>
+        skill to activate the Giant Wolves by spending one gem, she only activates
+        one Giant Wolves character.</p>
 
         <p><span class="special_title">Wolf Pack:</span>
         When Zelata is in the same area as a
         <a class="tile" href="/tiles/106">Giant Wolves</a>, she gains
-        the Protected skill. When there are strictly more
-        <a class="tile" href="/tiles/106">Giant Wolves</a> characters
+        the Protected skill. When there are strictly more Giant Wolves characters
         than Overlord’s characters in one area:<br/>
-        • The Armor Value of the <a class="tile" href="/tiles/106">Giant Wolves</a>
-        is 2 against Melee attacks.<br />
+        • The Armor Value of the Giant Wolves is 2 against Melee attacks.<br />
         • The Armor Value of their target in Melee attack is reduced by 1.</p>
 
         <p><span class="special_title">Shaman’s Staff:</span>
         During setup, the Overlord places the
         <a class="spell" href="/spells/55">Withering</a> spell card next to the board.
         The character carrying the <a class="item" href="/items/26">Shaman’s Staff</a>
-        gains the <a class="spell" href="/spells/55">Withering</a> spell.</p>
+        gains the Withering spell.</p>
 
         <p><span class="special_title">Censer:</span>
         During setup, the Overlord places the
         <a class="spell" href="/spells/11">Pestilential Swarm</a> card next to
         the board. The character carrying the <a class="item" href="/items/47">Censor</a>
-        gains the <a class="spell" href="/spells/11">Pestilential Swarm</a> spell.</p>
+        gains the Pestilential Swarm spell.</p>
 
         <p><span class="special_title">Totem:</span>
         During setup, the Overlord places 4 totems
@@ -5163,7 +5160,7 @@
       overlord_victory: '',
 
       origin: "Book of Set",
-      product_ids: [1, 2, 3, 18, 26],
+      product_ids: [1, 2, 3, 18, 22],
       map_ids: [6],
       hero_ids: [8],
       tile_ids: [1, 26, 29, 81, 86, 106],
@@ -5265,11 +5262,9 @@
         <a class="tile" href="/tiles/60">Amboola</a>,
         <a class="tile" href="/tiles/65">Kerim Shah</a> and
         <a class="tile" href="/tiles/61">Balthus</a> during
-        the same hero’s turn. The Rebellion Level is each time decreased by 2 when
-        <a class="tile" href="/tiles/60">Amboola</a>,
-        <a class="tile" href="/tiles/65">Kerim Shah</a> or
-        <a class="tile" href="/tiles/61">Balthus</a> dies. The Rebellion Level
-        is each time decreased by 1, when
+        the same hero’s turn. The Rebellion Level is each time decreased by 2
+        when Amboola,Kerim Shah or Balthus dies. The Rebellion Level is each time
+        decreased by 1, when
         <a class="hero" href="/heroes/12">Conan</a>
         picks up the <a class="item" href="/items/32">Axe</a>,
         the <a class="item" href="/items/16">Chain Mail</a> or
@@ -5281,7 +5276,7 @@
         <p><span class="special_title">Legendary Equipment:</span>
         During setup, the Overlord places as indicated by the setup diagram, the
         following Equipment cards:
-        <a class="item" href="/items/46">Cape</a>
+        <a class="item" href="/items/46">Cape</a>,
         <a class="item" href="/items/16">Chain Mail</a> and
         <a class="item" href="/items/32">Axe</a>. This is Conan’s Legendary
         Equipment which he will have to recover to establish his authority.</p>
@@ -5344,7 +5339,7 @@
       overlord_victory: '',
 
       origin: "Book of Set",
-      product_ids: [1, 3, 26],
+      product_ids: [1, 3, 22],
       map_ids: [4],
       hero_ids: [12],
       tile_ids: [1, 16, 18, 33, 60, 61, 65],
@@ -5476,33 +5471,25 @@
         Conan is freed when the 3 levers have been activated.</p>
 
         <p><span class="special_title">Pirates:</span>
-        When the Hero uses Zaporavo’s Leadership skill to activate
-        <a class="tile" href="/tiles/30">Pirates</a> by spending one gem, they
-        activate a <a class="tile" href="/tiles/30">Pirates</a> model plus one
-        model per lit Warning Fire instead of a single one. They must move all
-        the activated <a class="tile" href="/tiles/30">Pirates</a> models and
-        then perform their attacks. Each
-        <a class="tile" href="/tiles/30">Pirates</a> can only be activated once
-        per hero’s turn. Regarding the purchase of Rerolls, Guard and Movement
-        Points, <a class="tile" href="/tiles/30">Pirates</a> follow the usual
-        rules of the Allies.</p>
+        When the Hero uses <a class="hero" href="/heroes/24">Zaporavo’s</a>
+        Leadership skill to activate <a class="tile" href="/tiles/30">Pirates</a>
+        by spending one gem, they activate a Pirates model plus one model per lit
+        Warning Fire instead of a single one. They must move all the activated
+        Pirates models and then perform their attacks. Each Pirate can only be
+        activated once per hero’s turn. Regarding the purchase of Rerolls, Guard
+        and Movement Points, Pirates follow the usual rules of the Allies.</p>
 
         <p><span class="special_title">Leadership Cape:</span>
         During setup, the hero places 3 red gems on the
         <a class="item" href="/items/46">Cape</a> card. The hero
-        can use the gems placed on the <a class="item" href="/items/46">Cape</a>
-        card only to activate <a class="tile" href="/tiles/30">Pirates</a>.
-        When the hero with the <a class="item" href="/items/46">Cape</a> wants to use these red gems to activate
-        <a class="tile" href="/tiles/30">Pirates</a>, they transfer the red gems
-        from the <a class="item" href="/items/46">Cape</a> card to the
-        <a class="tile" href="/tiles/30">Pirates</a> tile. The hero may use both
-        red gems and his own energy gems to activate the
-        <a class="tile" href="/tiles/30">Pirates</a>. During the Hero’s End/Start
-        Phases, the hero with the <a class="item" href="/items/46">Cape</a>
-        transfers the red gems placed on the
-        <a class="tile" href="/tiles/30">Pirates</a> tile to the
-        <a class="item" href="/items/46">Cape</a> card. The red gems are never
-        taken into account when calculating a hero’s life points.</p>
+        can use the gems placed on the Cape card only to activate
+        <a class="tile" href="/tiles/30">Pirates</a>.
+        When the hero with the Cape wants to use these red gems to activate
+        Pirates, they transfer the red gems from the Cape card to the Pirates tile.
+        The hero may use both red gems and his own energy gems to activate the
+        Pirates. During the Hero’s End/Start Phases, the hero with the Cape
+        transfers the red gems placed on the Pirates tile to the Cape card. The
+        red gems are never taken into account when calculating a hero’s life points.</p>
 
         <p><span class="special_title">Leaping From/Climbing a Balcony:</span>
         A character can move across a railing from a balcony area to a ground
@@ -5530,7 +5517,7 @@
       overlord_victory: '',
 
       origin: "Book of Set",
-      product_ids: [1, 3, 13, 26],
+      product_ids: [1, 3, 13, 22],
       map_ids: [5],
       hero_ids: [24],
       tile_ids: [1, 16, 18, 30, 60, 61, 68, 71, 74, 97 ],
@@ -5656,8 +5643,7 @@
         as if they were units. During these activations, the Overlord follows
         all rules regarding unit tile activation (movement, attack etc.) and
         can use benefits. The Overlord cannot use <a class="skill" href="/skills/16">Leap</a>
-        with a <a class="tile" href="/tiles/13">Bêlit’s Guard</a> model to
-        <a class="skill" href="/skills/16">Leap</a> from the walls.</p>
+        with a Bêlit’s Guard model to Leap from the walls.</p>
 
         <p><span class="special_title">Lines of Sight:</span>
         A character in a wall area has line of sight to each ground area
@@ -5685,7 +5671,7 @@
       overlord_victory: '',
 
       origin: "Book of Set",
-      product_ids: [1, 20, 26],
+      product_ids: [1, 20, 22],
       map_ids: [4],
       hero_ids: [1, 3],
       tile_ids: [1, 13, 108, 109, 110, 111],
@@ -5788,10 +5774,10 @@
       special_rules: '<p><span class="special_title">Bossonian Guard:</span>
         Only <a class="hero" href="/heroes/11">Conan the General</a> can use
         Leadership to activate the
-        <a class="tile" href="/tiles/17">Bossonian Guards</a>. For this
-        scenario, <a class="hero" href="/heroes/11">Conan the General</a> and
+        <a class="tile" href="/tiles/17">Bossonian Guards</a>.
+        For this scenario, Conan the General and
         <a class="hero" href="/heroes/10">Balthus</a> cannot spend gems to
-        defend the <a class="tile" href="/tiles/17">Bossonian Guards</a>.</p>
+        defend the Bossonian Guards.</p>
 
         <p><span class="special_title">Slasher:</span>
         Only <a class="hero" href="/heroes/10">Balthus</a> can use Leadership to
@@ -5818,7 +5804,7 @@
       overlord_victory: '',
 
       origin: "Book of Set",
-      product_ids: [1, 3, 19, 26],
+      product_ids: [1, 3, 19, 22],
       map_ids: [6],
       hero_ids: [10, 11],
       tile_ids: [1, 2, 17, 24, 29, 75, 86, 107],
@@ -5939,10 +5925,9 @@
         When the Overlord uses Reinforcement, they can spend up to 3 Reinforcement
         points only to bring back into play
         <a class="tile" href="/tiles/90">Skeleton</a> models of the same tile.
-        To do so, they stand up 1 <a class="tile" href="/tiles/90">Skeleton</a>
-        model laid down on the board per spent Reinforcement point. Therefore,
-        in this scenario, <a class="tile" href="/tiles/44">Mummies</a> cannot
-        return as Reinforcement.</p>
+        To do so, they stand up 1 Skeleton model laid down on the board per spent
+        Reinforcement point. Therefore, in this scenario,
+        <a class="tile" href="/tiles/44">Mummies</a> cannot return as Reinforcement.</p>
 
         <p><span class="special_title">Hut Flaps:</span>
         A character must spend 1 extra movement point to move across a boarder
@@ -5968,7 +5953,7 @@
       overlord_victory: '',
 
       origin: "Book of Set",
-      product_ids: [1, 2, 3, 26],
+      product_ids: [1, 2, 3, 22],
       map_ids: [1],
       hero_ids: [3, 13],
       tile_ids: [1, 2, 44, 58, 84, 90, 91],
@@ -6085,9 +6070,9 @@
         area to the adjacent water for 1 extra movement point. A model (with or
         without <a class="skill" href="/skills/19">Climb</a>)on a water area can
         climb up onto an adjacent ship area for 2 extra movement points. A
-        character that does not have <a class="skill" href="/skills/13">Swimming</a>
-        cannot move from one water area to another water area, but can climb up
-        onto an adjacent ship area by spending an extra 2 movement points.</p>
+        character that does not have Swimming cannot move from one water area to
+        another water area, but can climb up onto an adjacent ship area by
+        spending an extra 2 movement points.</p>
 
         <p><span class="special_title"> Grapnel:</span>
         During setup, the Overlord places the Grapnel token
@@ -6133,7 +6118,7 @@
       overlord_victory: '',
 
       origin: "Book of Set",
-      product_ids: [1, 10, 26],
+      product_ids: [1, 10, 22],
       map_ids: [3],
       hero_ids: [30, 31],
       tile_ids: [1, 2, 7, 17, 31, 32, 33],
@@ -6278,9 +6263,7 @@
         their Leadership skills. The Door is considered impassable. A hero in
         an area adjacent to the door can perform a complex Manipulation with a
         difficulty of 2 to remove that door from the board. The heroes may
-        use their Leadership skills to activate
-        <a class="tile" href="/tiles/38">Conan’s Lion</a> and
-        <a class="tile" href="/tiles/75">Slasher</a>.</p>
+        use their Leadership skills to activate Conan’s Lion and Slasher.</p>
 
         <p><span class="special_title">Slasher:</span>
         Only <a class="hero" href="/heroes/10">Balthus</a> can activate
@@ -6319,7 +6302,7 @@
       overlord_victory: '',
 
       origin: "Book of Set",
-      product_ids: [1, 2, 3, 26],
+      product_ids: [1, 2, 3, 22],
       map_ids: [1],
       hero_ids: [5, 10],
       tile_ids: [1, 6, 25, 29, 38, 75, 77, 86],
@@ -6440,22 +6423,18 @@
           next to Thaug’s tile; these are the spells
           <a class="tile" href="/tiles/82">Thaug</a> has.<br />
           The heroes place the <a class="tile" href="/tiles/92">Tentacles</a>
-          tile next to the Thaug’s tile.
-          <a class="tile" href="/tiles/82">Thaug</a> is immediately activated if
+          tile next to the Thaug’s tile. Thaug is immediately activated if
           it is on the board at the start of the heroes’ turn. It cannot move but
           can perform Melee Attacks and may use the red gems on its tile to cast
           spells.<br />
-          If <a class="tile" href="/tiles/82">Thaug</a> is on the board at the
-          end of the heroes’ turn, the heroes move the red gems from Thaug’s
-          spells to Thaug’s tile, then:<br />
+          If Thaug is on the board at the end of the heroes’ turn, the heroes move
+          the red gems from Thaug’s spells to Thaug’s tile, then:<br />
             • if there is at least on blue gem on the
             <a class="item" href="/items/49">Heart of Ahriman</a>, the heroes
             move this or these gems to Pelias’ Wound zone,<br />
-            • if there is no blue gem on the
-            <a class="item" href="/items/49">Heart of Ahriman</a>, then the
+            • if there is no blue gem on the Heart of Ahriman, then the
             heroes remove The Thaug and Tentacles models from the game and flip
-            the <a class="item" href="/items/49">Heart of Ahriman</a> card
-            facedown.</p>
+            the Heart of Ahriman card facedown.</p>
 
         <p><span class="special_title"> Sailors:</span>
           During setup, the heroes place the Bossonian Guards as indicated by
@@ -6466,48 +6445,38 @@
 
         <p><span class="special_title">Heart of Ahriman:</span>
           <a class="hero" href="/heroes/18">Pelias</a> cannot drop nor give the
-          <a class="item" href="/items/49">Heart of Ahriman</a>. If
-          <a class="hero" href="/heroes/18">Pelias</a> dies, the
-          <a class="item" href="/items/49">Heart of Ahriman</a> is destroyed.</p>
+          <a class="item" href="/items/49">Heart of Ahriman</a>. If Pelias dies,
+          the Heart of Ahriman is destroyed.</p>
 
         <p><span class="special_title">Sacrifice:</span>
           If the <a class="item" href="/items/49">Heart of Ahriman</a> card is
           faceup and <a class="hero" href="/heroes/18">Pelias</a> kills a Sailor
           or a model of the Overlord using the
-          <a class="item" href="/items/36">Sacrificial Dagger</a>,
-          <a class="hero" href="/heroes/18">Pelias</a> moves one of his blue gems
-          to the <a class="item" href="/items/49">Heart of Ahriman</a> card.
-          <a class="hero" href="/heroes/18">Pelias</a> takes in priority a gem
-          from his Fatigue zone.</p>
+          <a class="item" href="/items/36">Sacrificial Dagger</a>, Pelias moves
+          one of his blue gems to the Heart of Ahriman card. Pelias takes in
+          priority a gem from his Fatigue zone.</p>
 
         <p><span class="special_title">Mitra’s Staff:</span>
           <a class="hero" href="/heroes/8">Zelata</a> cannot drop nor give the
-          <a class="item" href="/items/43">Mitra’s Staff</a>. If
-          <a class="hero" href="/heroes/8">Zelata</a> dies, the
-          <a class="item" href="/items/43">Mitra’s Staff</a> is destroyed.<br />
-          During setup, the hero controlling
-          <a class="hero" href="/heroes/8">Zelata</a> places 2 red gems on the
-          <a class="item" href="/items/43">Mitra’s Staff</a> card. The hero
-          controlling <a class="hero" href="/heroes/8">Zelata</a> may use the
-          gems placed on the <a class="item" href="/items/43">Mitra’s Staff</a>
-          card only to cast spells. When the hero controlling
-          <a class="hero" href="/heroes/8">Zelata</a> uses these red gems, they
-          move them from the <a class="item" href="/items/43">Mitra’s Staff</a>
-          card to the Spell card. These gems count towards the Spell card’s
-          Exertion Limit. The hero controlling Zelata may use both red gems from
-          the <a class="item" href="/items/43">Mitra’s Staff</a> and their own
-          Energy gems to cast a spell. During the End phase of the Heroes’ turn,
-          the hero controlling Zelata moves the red gems from the Spell cards to
-          the <a class="item" href="/items/43">Mitra’s Staff</a> card. The red
-          gems of the <a class="item" href="/items/43">Mitra’s Staff</a> are
-          never taken into account when calculating Zelata’s life points.</p>
+          <a class="item" href="/items/43">Mitra’s Staff</a>. If Zelata dies,
+          Mitra’s Staff is destroyed.<br />
+          During setup, the hero controlling Zelata places 2 red gems on the
+          Mitra’s Staff card. The hero controlling Zelata may use the
+          gems placed on the Mitra’s Staff card only to cast spells. When the hero
+          controlling Zelata uses these red gems, they move them from the
+          Mitra’s Staff card to the Spell card. These gems count towards the Spell
+          card’s Exertion Limit. The hero controlling Zelata may use both red gems
+          from the Mitra’s Staff and their own Energy gems to cast a spell. During
+          the End phase of the Heroes’ turn, the hero controlling Zelata moves
+          the red gems from the Spell cards to the Mitra’s Staff card. The red
+          gems of the Mitra’s Staff are never taken into account when calculating
+          Zelata’s life points.</p>
 
         <p><span class="special_title">Spellbook:</span>
           During the setup, the Overlord places the
           <a class="spell" href="/spells/6">Lightning Storm</a> card next to the board.
           When a hero picks up the <a class="item" href="/items/28">Spellbook</a>,
-          they also place the <a class="spell" href="/spells/6">Lightning Storm</a>
-          Spell card next to their hero’s sheet. That hero can now cast that spell.</p>
+          they also place the Lightning Storm Spell card next to their hero’s sheet. That hero can now cast that spell.</p>
 
         <p><span class="special_title">Chests:</span>
           During setup, the Overlord places 1 chest on the board as indicated
@@ -6518,7 +6487,7 @@
       overlord_victory: '',
 
       origin: "Book of Set",
-      product_ids: [1, 2, 3, 26],
+      product_ids: [1, 2, 3, 22],
       map_ids: [3],
       hero_ids: [11, 17],
       tile_ids: [1, 2, 13, 62, 66, 82, 88, 89, 92],
@@ -6664,11 +6633,9 @@
           <a class="tile" href="/tiles/64">Hadrathus</a>,
           <a class="tile" href="/tiles/72">Zelata</a> and
           <a class="tile" href="/tiles/52">Ageera</a> at the beginning of the
-          scenario) may perform a complex Manipulation with a difficulty of 2 (
-          <a class="tile" href="/tiles/64">Hadrathus</a>,
-          <a class="tile" href="/tiles/72">Zelata</a> and
-          <a class="tile" href="/tiles/52">Ageera</a> are
-          taken into account for Hindering) to deliver the Sorcerer from Akivasha’s
+          scenario) may perform a complex Manipulation with a difficulty of 2
+          (Hadrathus, Zelata and Ageera are taken into account for Hindering) to
+          deliver the Sorcerer from <a class="tile" href="/tiles/53">Akivasha’s</a>
           hypnosis. When a Sorcerer is freed from Akivasha’s domination, the hero
           who performed the complex Manipulation takes the tile corresponding to
           the Sorcerer from the Overlord’s River as well as the Spell card linked
@@ -6756,7 +6723,7 @@
       overlord_victory: '',
 
       origin: "Book of Set",
-      product_ids: [1, 3, 26],
+      product_ids: [1, 3, 22],
       map_ids: [2],
       hero_ids: [11, 17],
       tile_ids: [1, 16, 18, 19, 52, 53, 64, 72, 81],
@@ -6979,7 +6946,7 @@
       overlord_victory: '',
 
       origin: "Book of Set",
-      product_ids: [1, 2, 3, 26],
+      product_ids: [1, 2, 3, 22],
       map_ids: [2],
       hero_ids: [6, 11, 17],
       tile_ids: [1, 16, 22, 30, 45, 49, 56, 76, 91],
@@ -7096,9 +7063,8 @@
         perform a simple Manipulation instead. If the hero succeeds, the chest
         is opened: flip that chest’s token. If the chest is numbered “1”, it
         contains the <a class="item" href="/items/28">Spellbook</a> and that hero
-        immediately picks up the <a class="item" href="/items/28">Spellbook</a>
-        card. If the chest is numbered “2”, the chest is empty and the token is
-        discarded.</p>
+        immediately picks up the Spellbook card. If the chest is numbered “2”,
+        the chest is empty and the token is discarded.</p>
 
         <p><span class="special_title">Fleeing the Inn:</span>
         A hero can flee the inn from one of the outer areas to the south of the
@@ -7139,7 +7105,7 @@
       overlord_victory: '',
 
       origin: "Book of Set",
-      product_ids: [1, 15, 26],
+      product_ids: [1, 15, 22],
       map_ids: [2],
       hero_ids: [1, 2, 3],
       tile_ids: [1, 3, 18, 101, 102, 103],
@@ -7198,7 +7164,7 @@
         </table>',
 
       overlord_goal: "If Yogah dies before the end of turn 8; the Overlord wins.
-        <br /><br />In any other case, both sides lose at the end of turn 8.",
+        <br />In any other case, both sides lose at the end of turn 8.",
 
       overlord_setup: '
         <table class="scen_table">
@@ -7310,7 +7276,7 @@
       overlord_victory: '',
 
       origin: "Book of Set",
-      product_ids: [1, 8, 20, 26],
+      product_ids: [1, 8, 20, 22],
       map_ids: [4],
       hero_ids: [2, 3, 27],
       tile_ids: [1, 23, 108, 109, 110, 111],
@@ -7417,73 +7383,52 @@
       special_rules: '<p><span class="special_title">Dragon:</span>
         The area between the 4 legs of the <a class="tile" href="/tiles/105">Dragon</a>
         is considered as its base with regard to occupied areas. The
-        <a class="tile" href="/tiles/105">Dragon</a> is counted as one model
-        when calculating hindering. During its capture the
-        <a class="tile" href="/tiles/105">Dragon</a> has been poisoned;
-        during setup, the Overlord places a second
-        <a class="tile" href="/tiles/105">Dragon</a> tile next to the Book
-        of Skelos with 3 <img src="/assets/tokens/numBackToken.png" class="scen_token" />
-        tokens on it to represent this. The
-        <a class="tile" href="/tiles/105">Dragon</a> loses 1 Red-Reroll
+        Dragon is counted as one model when calculating hindering. During its
+        capture the Dragon has been poisoned; during setup, the Overlord places a
+        second Dragon tile next to the Book of Skelos with 3
+        <img src="/assets/tokens/numBackToken.png" class="scen_token" />
+        tokens on it to represent this. The Dragon loses 1 Red-Reroll
         <img src="/assets/dice/Red-Reroll.png" class="scen_sq_token" /> die to
         its Melee Attack value per token on this Dragon tile. There can
-        be a maximum of 3 tokens on the <a class="tile" href="/tiles/105">Dragon</a>
-        tile. A <img src="/assets/tokens/numBackToken.png" class="scen_token" />
+        be a maximum of 3 tokens on the Dragon tile. A
+        <img src="/assets/tokens/numBackToken.png" class="scen_token" />
         token is placed on the spaces 2, 4 and 6 of the turn track. When the
         turn track token is placed on the
         <img src="/assets/tokens/numBackToken.png" class="scen_token" /> token,
-        one of the tokens placed on the set aside
-        <a class="tile" href="/tiles/105">Dragon</a> tile is removed if
+        one of the tokens placed on the set aside Dragon tile is removed if
         possible.</p>
 
         <p><span class="special_title">Javelin:</span>
         The <a class="item" href="/items/8">Javelins</a> have been specially
-        made to wound the
-        <a class="tile" href="/tiles/105">Dragon</a>. If a hero
-        performs a ranged attack against the
-        <a class="tile" href="/tiles/105">Dragon</a> with a
-        <a class="item" href="/items/8">Javelin</a>, the Dragon’s
-        armor value is ignored. After the attack is performed, the
-        <a class="item" href="/items/8">Javelin</a> card
+        made to wound the <a class="tile" href="/tiles/105">Dragon</a>. If a hero
+        performs a ranged attack against the Dragon with a Javelin, the Dragon’s
+        armor value is ignored. After the attack is performed, the Javelin card
         is removed from the game, even if the attack has not been successful
-        in wounding the <a class="tile" href="/tiles/105">Dragon</a>.</p>
+        in wounding the Dragon.</p>
 
         <p><span class="special_title">Pictish Fetish:</span>
         When the <a class="item" href="/items/25">Pictish Fetish</a> is burnt,
         pheromones are released into the air that have the ability to confuse
-        <a class="tile" href="/tiles/105">Dragons</a>. A hero with the
-        <a class="item" href="/items/25">Pictish Fetish</a> in the same area as
-        the <a class="tile" href="/tiles/105">Dragon</a> can burn the
-        <a class="item" href="/items/25">Pictish Fetish</a>
-        by performing a simple Manipulation and confuse the
-        <a class="tile" href="/tiles/105">Dragon</a>. When the
-        <a class="tile" href="/tiles/105">Dragon</a>
-        is confused, the Overlord immediately places the
-        <a class="tile" href="/tiles/105">Dragon</a> tile at the end of
-        the River. The <a class="item" href="/items/25">Pictish Fetish</a> is
-        then removed from the game.</p>
+        <a class="tile" href="/tiles/105">Dragons</a>. A hero with the Pictish
+        Fetish in the same area as the Dragon can burn the Pictish Fetish by
+        performing a simple Manipulation and confuse the Dragon. When the Dragon
+        is confused, the Overlord immediately places the Dragon tile at the end
+        of the River. The Pictish Fetish is then removed from the game.</p>
 
         <p><span class="special_title">Elixir:</span>
         The <a class="item" href="/items/48">Elixir</a> has been used by
         the Picts to poison the <a class="tile" href="/tiles/105">Dragon</a>
-        in order to weaken it during its capture. A hero carrying the
-        <a class="item" href="/items/48">Elixir</a> can apply the
-        <a class="item" href="/items/48">Elixir</a> on one of their weapons
-        with a simple Manipulation. If a hero applies the
-        <a class="item" href="/items/48">Elixir</a> on a weapon, the
-        <a class="item" href="/items/48">Elixir</a> card is placed under the
-        weapon card and the weapon is considered as being poisoned.
-        If a hero inflicts at least one wound on the
-        <a class="tile" href="/tiles/105">Dragon</a> when using a poisoned
+        in order to weaken it during its capture. A hero carrying the Elixir can
+        apply the Elixir on one of their weapons with a simple Manipulation. If
+        a hero applies the Elixir on a weapon, the Elixir card is placed under
+        the weapon card and the weapon is considered as being poisoned.
+        If a hero inflicts at least one wound on the Dragon when using a poisoned
         weapon a <img src="/assets/tokens/numBackToken.png" class="scen_token" />
-        token is placed by the Overlord on the
-        <a class="tile" href="/tiles/105">Dragon</a> tile that has been set
-        aside during setup. The <a class="item" href="/items/48">Elixir</a>.</p>
-        card is then removed from the game; the weapon is no longer considered
-        as being poisoned. If the <a class="tile" href="/tiles/105">Dragon</a>
+        token is placed by the Overlord on the Dragon tile that has been set
+        aside during setup. The Elixir card is then removed from the game; the
+        weapon is no longer considered as being poisoned. If the Dragon
         has not been wounded during the attack then nothing happens and the
-        <a class="item" href="/items/48">Elixir</a> card remains with the weapon.
-        There cannot be more than 3
+        Elixir card remains with the weapon. There cannot be more than 3
         <img src="/assets/tokens/numBackToken.png" class="scen_token" /> tokens
         on this Dragon tile.</p>
 
@@ -7512,7 +7457,7 @@
       overlord_victory: '',
 
       origin: "Book of Set",
-      product_ids: [1, 3, 17, 26],
+      product_ids: [1, 3, 17, 22],
       map_ids: [1],
       hero_ids: [14, 18, 19],
       tile_ids: [1, 6, 25, 28, 29, 86, 105],
@@ -7617,10 +7562,9 @@
         <img src="/assets/tokens/kegToken.png" class="scen_token" /> to throw
         the keg in an area in the Gray Man-Ape’s line of sight. The Overlord
         follows the same rules for throwing an object as the heroes and rolls
-        the Melee attack Value of the
-        <a class="tile" href="/tiles/80">Gray Man-Ape</a> to determine the
-        distance of the throwing. The keg of pitch immediately explodes in the
-        area it is thrown in.<br />
+        the Melee attack Value of the Gray Man-Ape to determine the distance of
+        the throwing. The keg of pitch immediately explodes in the area it is
+        thrown in.<br />
         If a model of the Overlord is in the same area as a Keg of Pitch token,
         the Overlord may choose to replace the model’s Melee attack so that the
         keg explodes.<br />
@@ -7646,19 +7590,17 @@
         <p><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Gitara.png" class="scen_event float_tile">
         <span class="special_title">Gitara:</span>
           During setup, the Overlord places Gitara’s tile next to the board. As
-          long as Gitara’s door remains closed,
-          <a class="tile" href="/tiles/55">Gitara</a> cannot be attacked nor be
-          wounded.<br />
+          long as Gitara’s door remains closed, <a class="tile" href="/tiles/55">Gitara</a>
+          cannot be attacked nor be wounded.<br />
           As soon as the door is removed from the board, the heroes take the
           Gitara tile who becomes an ally of the heroes and may be activated once
-          per Heroes’ turn. A hero with Leadership can activate
-          <a class="tile" href="/tiles/55">Gitara</a> by moving one gem from
-          their Reserve zone to their Fatigue zone. Similarly, they may purchase
-          additional Movement points for Gitara by moving gems from their Reserve
-          zone to their Fatigue zone.<br />
+          per Heroes’ turn. A hero with Leadership can activate Gitara by moving
+          one gem from their Reserve zone to their Fatigue zone. Similarly, they
+          may purchase additional Movement points for Gitara by moving gems from
+          their Reserve zone to their Fatigue zone.<br />
           A hero in Gitara’s area gains the Bodyguard skill. Only heroes with
-          Bodyguard can spend gems to defend
-          <a class="tile" href="/tiles/55">Gitara</a> by using that skill.</p>
+          <a class="skill" href="/skills/31">Bodyguard</a> can spend gems to defend
+          Gitara by using that skill.</p>
 
         <p><span class="special_title">Reinforcement:</span>
           The Overlord may bring back reinforcements in any of the areas marked
@@ -7721,7 +7663,7 @@
       overlord_victory: '',
 
       origin: "Book of Set",
-      product_ids: [1, 3, 26],
+      product_ids: [1, 3, 22],
       map_ids: [5],
       hero_ids: [1, 10, 11, 18],
       tile_ids: [1, 18, 32, 54, 55, 80, 89],
@@ -7826,17 +7768,15 @@
 
       special_rules: '<p><span class="special_title">Ring:</span>
         During setup 4 red gems are placed on the
-        <a class="item" href="/items/54">Ring</a> card. These
-        gems can be used by the hero carrying the Ring only to cast spells. When
-        the hero carrying the Ring wants to use these red gems to cast a spell,
-        they move them from the <a class="item" href="/items/54">Ring</a> card
-        to the spell card. The gems used in this way must not raise the total
-        number of gems on the spell card above its exertion limit. A hero can
+        <a class="item" href="/items/54">Ring</a> card. These gems can be used by
+        the hero carrying the Ring only to cast spells. When the hero carrying the
+        Ring wants to use these red gems to cast a spell, they move them from the
+        Ring card to the spell card. The gems used in this way must not raise the
+        total number of gems on the spell card above its exertion limit. A hero can
         combine the red gems with their own gems from their Reserve zone to cast
         a spell. During the start phase and the end phase of each heroes’ turn,
         the carrier of the ring moves the red gems from the spell cards to the
-        <a class="item" href="/items/54">Ring</a> card. The red gems of the
-        <a class="item" href="/items/54">Ring</a> card are never counted when
+        Ring card. The red gems of the Ring card are never counted when
         calculating the life points of a hero.</p>
 
         <p><span class="special_title">Baal Pteor:</span>
@@ -7870,13 +7810,15 @@
         During setup, the Overlord randomly places the 3 tokens
         <img src="/assets/tokens/numBackToken.png" class="scen_token" />
         numbered 1 to 3 on the board as indicated by the setup diagram. These
-        tokens represent the prison cells holding the Captain and the two Bossonian
-        Guards. When a hero has line of sight to an area containing a Cell token,
-        the hero flips that token faceup. If a token numbered 2 or 3 is revealed,
-        the Cell token is replaced by a Bosso- nian Guard model without a colored
-        base. If a token with the number 1 is revealed, the Cell token is replaced
-        by the Captain model. The Bossonian Guard and Captain models are considered
-        as heroes’ allies. The heroes can activate them using their Leadership skill.</p>
+        tokens represent the prison cells holding the
+        <a class="tile" href="/tiles/3">Captain</a> and the two
+        <a class="tile" href="/tiles/17">Bossonian Guard</a>. When a hero has
+        line of sight to an area containing a Cell token, the hero flips that
+        token faceup. If a token numbered 2 or 3 is revealed, the Cell token is
+        replaced by a Bosso- nian Guard model without a colored base. If a token
+        with the number 1 is revealed, the Cell token is replaced by the Captain
+        model. The Bossonian Guard and Captain models are considered as heroes’
+        allies. The heroes can activate them using their Leadership skill.</p>
 
         <p><span class="special_title">Fleeing the citadel:</span>
         A hero or an ally can flee the citadel from an area outside
@@ -7915,7 +7857,7 @@
       overlord_victory: '',
 
       origin: "Book of Set",
-      product_ids: [1, 3, 12, 26],
+      product_ids: [1, 3, 12, 22],
       map_ids: [5],
       hero_ids: [9, 12, 18, 20],
       tile_ids: [1, 3, 17, 18, 30, 33, 35, 96],
@@ -8040,13 +7982,11 @@
         <p><span class="special_title">Bossonian Guards:</span>
         When the Overlord activates the blue
         <a class="tile" href="/tiles/18">Bossonian Guard</a> tile, all the
-        <a class="tile" href="/tiles/18">Bossonian Guard</a> models with a base
-        (of any color) are activated on both game boards. All the
-        <a class="tile" href="/tiles/18">Bossonian Guards</a> with a blue and
-        green bases are therefore activated. When the Overlord activates the
-        gray <a class="tile" href="/tiles/17">Bossonian Guard</a> tile, all the
-        <a class="tile" href="/tiles/17">Bossonian Guard</a> models without a
-        base on both boards are activated.</p>
+        Bossonian Guard models with a base (of any color) are activated on both
+        game boards. All the Bossonian Guards with a blue and green bases are
+        therefore activated. When the Overlord activates the gray Bossonian Guard
+        tile, all the Bossonian Guard models without a base on both boards are
+        activated.</p>
 
         <p><span class="special_title">Reinforcement:</span>
         The Overlord can bring reinforcements into play in any reinforcement
@@ -8129,13 +8069,12 @@
         the citadel board. A hero in the same area as the
         <img src="/assets/tokens/num3Token.png" class="scen_token" /> token can
         steal the maps by performing a complex Manipulation with a difficulty
-        of 3. If the hero succeeds, they take the
-        <a class="item" href="/items/28">Spellbook</a> card and the
+        of 3. If the hero succeeds, they take the Spellbook card and the
         <img src="/assets/tokens/num3Token.png" class="scen_token" /> token
         is removed from the game. The maps are considered as stolen after
-        a hero with the <a class="item" href="/items/28">Spellbook</a> card has
-        fled the citadel. As soon as the maps are stolen, and for the rest of the
-        game, the number of necessary successes to destroy a hut is reduced to 4.</p>
+        a hero with the Spellbook card has fled the citadel. As soon as the maps
+        are stolen, and for the rest of the game, the number of necessary
+        successes to destroy a hut is reduced to 4.</p>
 
         <p><span class="special_title">Fleeing the citadel:</span>
         A hero can flee the citadel from an area outside the citadel to the west
@@ -8201,9 +8140,9 @@
       overlord_victory: '',
 
       origin: "Book of Set",
-      product_ids: [1, 3, 26],
+      product_ids: [1, 3, 22],
       map_ids: [1, 5],
-      hero_ids: [22, 23, 24, 25],
+      hero_ids: [22, 23, 24, 21],
       tile_ids: [1, 17, 18, 30, 63, 68, 69, 71, 87],
       spell_ids: [6, 12, 13, 20, 35, 41, 46, 47],
       item_ids: [6, 11, 12, 14, 22, 28, 35, 36, 38, 42, 45, 48, ] },
@@ -8319,21 +8258,18 @@
         <a class="tile" href="/tiles/79">Giant Spider</a>, the
         <a class="tile" href="/tiles/78">Giant Scorpion</a> and the
         <a class="tile" href="/tiles/73">Camel</a> are placed next to the Book
-        of Skelos, unbloody side faceup, these tiles are considered as being the animal form tiles.
-        The models of the
-        <a class="tile" href="/tiles/79">Giant Spider</a>, the
-        <a class="tile" href="/tiles/78">Giant Scorpion</a> and the
-        <a class="tile" href="/tiles/73">Camel</a> are placed next to the Book
-        of Skelos, these models are considered as being the animal form models.</p>
+        of Skelos, unbloody side faceup, these tiles are considered as being the
+        animal form tiles. The models of the Giant Spider, the Giant Scorpion and
+        the Camel are placed next to the Book of Skelos, these models are considered
+        as being the animal form models.</p>
 
         <p style="clear: both;"><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/PiratesOrangeAlt.png" class="scen_event float_tile">
         <span class="special_title">Pirate:</span>
         During setup the Overlord places the
         <a class="tile" href="/tiles/89">Pirate</a> tile (orange, armor value 2
         and movement value 2) next to the Book of Skelos.
-        <a class="tile" href="/tiles/89">Pirate</a> are considered neither as
-        being heroes’ allies nor Overlord units; they do not count for hindering
-        for either side. <a class="tile" href="/tiles/89">Pirate</a> can only
+        Pirates are considered neither as being heroes’ allies nor Overlord units;
+        they do not count for hindering for either side. Pirates can only
         be killed by a melee attack performed by the Overlord troops. They do
         not suffer damage from wounds inflicted by heroes.</p>
 
@@ -8344,64 +8280,53 @@
         Overlord carries out the following steps:</p>
         <p>1- The Overlord chooses one of the animal form tiles unbloody side faceup
         and turns it bloody side faceup.</p>
-        <p>2- The model representing the <a class="tile" href="/tiles/59">Warlock</a>
-        is then replaced by the animal form model corresponding to the animal
-        form tile that has just been turned bloody side faceup. This model now
-        represents the <a class="tile" href="/tiles/59">Warlock</a>. The Warlock’s
+        <p>2- The model representing the Warlock is then replaced by the animal
+        form model corresponding to the animal form tile that has just been turned
+        bloody side faceup. This model now represents the Warlock. The Warlock’s
         turn will be played in the current animal form.</p>
-        <p>3- While the <a class="tile" href="/tiles/59">Warlock</a> is
-        represented by an animal form model, all the characteristics of the
-        animal form tile (movement, armor, attack and skills)
-        corresponding to the animal form model that represents the
-        <a class="tile" href="/tiles/59">Warlock</a>, replace all the
-        characteristics of the <a class="tile" href="/tiles/59">Warlock</a> tile
-        (movement, armor, attack, spells and skills). If Mitra’s Halo is
-        activated when the <a class="tile" href="/tiles/59">Warlock</a> is
-        transformed, it is automatically deactivated.</p>
-        <p>If all the animal form tiles are placed bloody side faceup at the beginning
-        of each activation of the <a class="tile" href="/tiles/59">Warlock</a>
-        tile, the Overlord carries out the following steps:</p>
+        <p>3- While the Warlock is represented by an animal form model, all the
+        characteristics of the animal form tile (movement, armor, attack and skills)
+        corresponding to the animal form model that represents the Warlock, replace
+        all the characteristics of the Warlock tile (movement, armor, attack, spells
+        and skills). If Mitra’s Halo is activated when the Warlock is transformed,
+        it is automatically deactivated.</p>
+        <p>If all the animal form tiles are placed bloody side faceup at the
+        beginning of each activation of the Warlock tile, the Overlord carries
+        out the following steps:</p>
         <p>1- The Overlord turns all the animal form tiles unbloody side faceup.</p>
-        <p>2- The model that represents the
-        <a class="tile" href="/tiles/59">Warlock</a> is replaced by the model
-        of the <a class="tile" href="/tiles/59">Warlock</a>. The Warlock’s turn
-        is then played in the form of the <a class="tile" href="/tiles/59">Warlock</a>.</p>
-        <p>3- While the <a class="tile" href="/tiles/59">Warlock</a> is
-        represented by the model of the <a class="tile" href="/tiles/59">Warlock</a>,
-        the characteristics of the <a class="tile" href="/tiles/59">Warlock</a>
-        tile (movement, armor, attack, spells and skills) are used for all that
-        concerns the <a class="tile" href="/tiles/59">Warlock</a>.</p>
+        <p>2- The model that represents the Warlock is replaced by the model
+        of the Warlock. The Warlock’s turn is then played in the form of the Warlock.</p>
+        <p>3- While the Warlock is represented by the model of the Warlock,
+        the characteristics of the Warlock tile (movement, armor, attack, spells
+        and skills) are used for all that concerns the Warlock.</p>
 
         <p><span class="special_title">Warding off the curse:</span>
-        To ward off the curse the Overlord must sacrifice a pirate
+        To ward off the curse the Overlord must sacrifice a
+        <a class="tile" href="/tiles/89">Pirate</a>
         on each of the three altars. For this the pirate must be in the same area
         as an altar token <img src="/assets/tokens/num1Token.png" class="scen_token" />
         and the Overlord must kill them using a melee attack. When a pirate is
         sacrificed on an altar, the altar token is removed from the board as well
-        as the animal tile and model corresponding to the altar token (1-Camel,
-        2-Giant Scorpion, 3-Giant Spider). If the animal form model that must be
-        removed from the game corresponds to the current form of the Warlock,
-        it is then replaced on the board by the model of the Warlock.</p>
+        as the animal tile and model corresponding to the altar token
+        (1-<a class="tile" href="/tiles/73">Camel</a>,
+          2-<a class="tile" href="/tiles/78">Giant Scorpion</a>,
+          3-<a class="tile" href="/tiles/79">Giant Spider</a>). If the animal
+          form model that must be removed from the game corresponds to the
+          current form of the <a class="tile" href="/tiles/59">Warlock</a>, it
+          is then replaced on the board by the model of the Warlock.</p>
 
         <p><span class="special_title">Escorting the Pirates:</span>
         If an Overlord unit starts its activation phase in the same
         area as a <a class="tile" href="/tiles/89">Pirate</a>, the Overlord can
-        decide to move the <a class="tile" href="/tiles/89">Pirate</a> model at
-        the same time as the activated unit. The
-        <a class="tile" href="/tiles/89">Pirate</a> makes the same move (or part
-        of the move) as the Overlord unit. If the Overlord uses a Movement
-        benefit for the activated unit, the
-        <a class="tile" href="/tiles/89">Pirate</a> can follow the unit without
-        the Overlord moving an additional gem for the pirate’s move. At any
-        moment of the unit’s move, the Overlord can decide that the
-        <a class="tile" href="/tiles/89">Pirate</a> will no longer follow the
-        unit in question and so stop the
-        <a class="tile" href="/tiles/89">Pirate</a>. It must not be forgotten
-        that <a class="tile" href="/tiles/89">Pirates</a> do not count for
-        hindering. An Overlord model can only move one
-        <a class="tile" href="/tiles/89">Pirate</a> with them and each
-        <a class="tile" href="/tiles/89">Pirate</a> can only be moved
-        once per tile activation.</p>
+        decide to move the Pirate model at the same time as the activated unit.
+        The Pirate makes the same move (or part of the move) as the Overlord unit.
+        If the Overlord uses a Movement benefit for the activated unit, the Pirate
+        can follow the unit without the Overlord moving an additional gem for the
+        pirate’s move. At any moment of the unit’s move, the Overlord can decide
+        that the Pirate will no longer follow the unit in question and so stop the
+        Pirate. It must not be forgotten that Pirates do not count for hindering.
+        An Overlord model can only move one Pirate with them and each Pirate can
+        only be moved once per tile activation.</p>
 
         <p><span class="special_title">Attacking the Warlock:</span>
         When the <a class="tile" href="/tiles/59">Warlock</a> is represented by
@@ -8450,7 +8375,7 @@
       overlord_victory: '',
 
       origin: "Book of Set",
-      product_ids: [1, 2, 3, 26],
+      product_ids: [1, 2, 3, 22],
       map_ids: [4],
       hero_ids: [9, 13, 15, 19],
       tile_ids: [1, 33, 40, 41, 44, 50, 59, 73, 78, 79],
@@ -8668,7 +8593,7 @@
       overlord_victory: '',
 
       origin: "Book of Set",
-      product_ids: [1, 3, 26],
+      product_ids: [1, 3, 22],
       map_ids: [2],
       hero_ids: [9, 12, 16, 21],
       tile_ids: [1, 18, 19, 30, 33, 57, 70],
@@ -8699,9 +8624,9 @@
       on his knees before a captain who shouts at the newcomers, waving the weapons
       in his hands, “This tavern is closed! Leave right now you scum, it is time
       for Publio to answer to his trafficking with the enemies of Argos.”</p>",
-      map_image: '',
+      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/Uproar+in+Messantia.jpg',
       pdf_link: '',
-      player_count: "Campaign / 5",
+      player_count: "5 Campaign",
       complexity: "",
 
       hero_goal: "If the information is retrieved by freeing the informer before
@@ -8808,13 +8733,12 @@
             Alliance”</strong>.</p>',
 
       origin: "Legend of the Devil in Iron",
-      product_ids: [1, 3, 25],
+      product_ids: [1, 3, 21],
       map_ids: [2],
       hero_ids: [5, 6, 8, 19],
       tile_ids: [1, 3, 15, 17, 18, 20, 22],
       spell_ids: [],
       item_ids: [12, 17, 22] },
-
 
     # 2 The Unmasked Pirate
     { name: "The Unmasked Pirate",
@@ -8839,9 +8763,9 @@
       and you will appear before the justice of our monarch for your acts of piracy;
       there is a hussy here who claims that you are indeed the Barachan pirate who
       has a price on his head.”</p>",
-      map_image: '',
+      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/The+Unmasked+Pirate.jpg',
       pdf_link: '',
-      player_count: "Campaign / 5",
+      player_count: "5 Campaign",
       complexity: "",
 
       hero_goal: "If Gitara is killed and all the surviving heroes at this moment
@@ -8972,13 +8896,12 @@
                 Shaman”</strong>.</p>',
 
       origin: "Legend of the Devil in Iron",
-      product_ids: [1, 3, 25],
+      product_ids: [1, 3, 21],
       map_ids: [5],
       hero_ids: [5, 6, 8, 19],
       tile_ids: [1, 2, 3, 15, 18, 22, 23, 55],
       spell_ids: [],
       item_ids: [16, 22, 40] },
-
 
     # 3 An Improbable Alliance
     { name: "An Improbable Alliance",
@@ -9000,9 +8923,9 @@
         a Kushite sorcerer, a Kothian warrior and a Turanian prince.</p>
         <p>It is now necessary to enter the village in order to unmask the
         accomplice and interrogate him.</p>",
-      map_image: '',
+      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/An+Improbable+Alliance.jpg',
       pdf_link: '',
-      player_count: "Campaign / 5",
+      player_count: "5 Campaign",
       complexity: "",
 
       hero_goal: "If the hero with the information flees with the village before
@@ -9145,13 +9068,12 @@
               Shaman”</strong>.</p>',
 
       origin: "Legend of the Devil in Iron",
-      product_ids: [1, 3, 25],
+      product_ids: [1, 3, 21],
       map_ids: [1],
       hero_ids: [5, 6, 8, 19],
       tile_ids: [1, 3, 26, 28, 52, 65, 79, 87],
       spell_ids: [3],
       item_ids: [16, 22, 40] },
-
 
     # 4 When the Dead Walk
     { name: "When the Dead Walk",
@@ -9179,9 +9101,9 @@
         and a demonic laugh coming from the depths of the earth invades the devastated
         mausoleum. The soul of Skuthus is still linked to his tomb, ready to punish
         violators. A skeletal hand emerges from the ground to grab Conan’s ankle...</p>",
-        map_image: '',
+        map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/When+the+Dead+Walk.jpg',
         pdf_link: '',
-        player_count: "Campaign / 5",
+        player_count: "5 Campaign",
         complexity: "",
 
       hero_goal: "If the heroes kill Skuthus before the end of turn 8, they stop
@@ -9325,13 +9247,12 @@
                   Mad Shaman”</strong>.</p>',
 
         origin: "Legend of the Devil in Iron",
-        product_ids: [1, 2, 3, 25],
+        product_ids: [1, 2, 3, 21],
         map_ids: [4],
         hero_ids: [5, 6, 8, 19],
         tile_ids: [1, 2, 4, 45, 46, 47, 50],
         spell_ids: [12],
         item_ids: [2, 6, 16, 45] },
-
 
     # 5 The Inn of All Dangers
     { name: "The Inn of All Dangers",
@@ -9352,9 +9273,9 @@
         <p>Conan can take it no longer, persuaded that the Kothian has taken Flavia
         to the slave market of Shadizar the Perverse, it is with steel in his hand
         that he leaves in search of an answer.</p>",
-      map_image: '',
+      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/The+Inn+of+all+Dangers.jpg',
       pdf_link: '',
-      player_count: "Campaign / 5",
+      player_count: "5 Campaign",
       complexity: "",
 
       hero_goal: "If Constantius is killed, either by the Bone Golem or the heroes,
@@ -9494,13 +9415,12 @@
             Who Never Dies”</strong>.</p>',
 
       origin: "Legend of the Devil in Iron",
-      product_ids: [1, 2, 3, 25],
+      product_ids: [1, 2, 3, 21],
       map_ids: [2],
       hero_ids: [5, 6, 8, 19],
       tile_ids: [1, 4, 8, 32, 33, 35, 54],
       spell_ids: [12],
       item_ids: [6, 17, 22] },
-
 
     # 6 The Mad Shaman
     { name: "The Mad Shaman",
@@ -9521,9 +9441,9 @@
         in order to prepare for the worst.</p>
         <p>And the worst is to come, this shaman, living the life of a recluse, is
         completely mad and highly skilled in the darkest of magical arts.</p>",
-      map_image: '',
+      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/The+Mad+Shaman.jpg',
       pdf_link: '',
-      player_count: "Campaign / 5",
+      player_count: "5 Campaign",
       complexity: "",
 
       hero_goal: "If before the end of turn 7, Zogar Sag has not succeded in destroying
@@ -9644,13 +9564,12 @@
           Never Died”</strong>.</p>',
 
       origin: "Legend of the Devil in Iron",
-      product_ids: [1, 3, 25],
+      product_ids: [1, 3, 21],
       map_ids: [6],
       hero_ids: [5, 6, 8, 19],
       tile_ids: [1, 2, 6, 42, 44, 47],
       spell_ids: [26],
       item_ids: [6, 22, 39] },
-
 
     # 7 The Crook’s Hideout
     { name: "The Crook’s Hideout",
@@ -9672,9 +9591,9 @@
         <p>Conan seizes his chance. As the men of Constantius are too many in number,
         causing building to collapse could offer the Cimmerian a possiblity to approach
         the Falcon more easily in order to question him about Flavia.</p>",
-      map_image: '',
+      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/The+Crooks+Hideout.jpg',
       pdf_link: '',
-      player_count: "Campaign / 5",
+      player_count: "5 Campaign",
       complexity: "",
 
       hero_goal: "If the self-destruction is activated before the end of turn 5,
@@ -9825,13 +9744,12 @@
           Never Died”</strong>.</p>',
 
       origin: "Legend of the Devil in Iron",
-      product_ids: [1, 3, 25],
+      product_ids: [1, 3, 21],
       map_ids: [5],
       hero_ids: [5, 6, 8, 19],
       tile_ids: [1, 15, 16, 18, 19, 22, 54],
       spell_ids: [26],
       item_ids: [6, 17, 22] },
-
 
     # 8 The Treasure Chest
     { name: "The Treasure Chest",
@@ -9855,9 +9773,9 @@
         Conan, his appearance brings to mind a Hyperborean sorcerer. It is now too
         late to think about why he might have left his distant snow-covered lands to
         meet the Picts, for it is necessary to seize the chest.</p>",
-      map_image: '',
+      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/The+Treasure+Chest.jpg',
       pdf_link: '',
-      player_count: "Campaign / 5",
+      player_count: "5 Campaign",
       complexity: "",
 
       hero_goal: "If at least one hero flees the swamp with the sarcophagus before
@@ -9994,13 +9912,12 @@
           from the abyss”</strong>.</p>',
 
       origin: "Legend of the Devil in Iron",
-      product_ids: [1, 3, 25],
+      product_ids: [1, 3, 21],
       map_ids: [6],
       hero_ids: [5, 6, 8, 19],
       tile_ids: [1, 25, 26, 29, 56, 85],
       spell_ids: [26],
       item_ids: [8, 22, 45] },
-
 
     # 9 The Woman Who Never Died
     { name: "The Woman Who Never Died",
@@ -10027,9 +9944,9 @@
         tears away leaving the decrepit building which he finds his men.</p>
         <p>It is time to fight to prevent this waking nightmare from becoming their
         tomb.</p>",
-      map_image: '',
+      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/The+Woman+Who+Never+Died.jpg',
       pdf_link: '',
-      player_count: "Campaign / 5",
+      player_count: "5 Campaign",
       complexity: "",
 
       hero_goal: "If Akivasha is killed before the end of turn 7; the heroes win the game.",
@@ -10165,13 +10082,12 @@
           from the abyss”</strong>.</p>',
 
       origin: "Legend of the Devil in Iron",
-      product_ids: [1, 3, 25],
+      product_ids: [1, 3, 21],
       map_ids: [4],
       hero_ids: [5, 6, 8, 19],
       tile_ids: [1, 15, 17, 18, 22, 53],
       spell_ids: [3, 13],
       item_ids: [] },
-
 
     # 10 An Explosive Enigma
     { name: "An Explosive Enigma",
@@ -10196,9 +10112,9 @@
         <p>However, while an average person could never detect the presence of Conan’s
         group, a life spent in one of the wildest territories of this world has sharpened
         the eyes and senses of these men covered with hideous paintings.</p>",
-      map_image: '',
+      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/An+Explosive+Enigma.jpg',
       pdf_link: '',
-      player_count: "Campaign / 5",
+      player_count: "5 Campaign",
       complexity: "",
 
       hero_goal: "If the heroes manage to place the colored orbs in the correct position
@@ -10337,13 +10253,12 @@
           from the abyss”</strong>.</p>',
 
       origin: "Legend of the Devil in Iron",
-      product_ids: [1, 3, 25],
+      product_ids: [1, 3, 21],
       map_ids: [1],
       hero_ids: [5, 6, 8, 19],
       tile_ids: [1, 24, 25, 28, 56, 85],
       spell_ids: [3, 5],
       item_ids: [] },
-
 
     # 11 A Terrifying Incantation
     { name: "A Terrifying Incantation",
@@ -10368,9 +10283,9 @@
         Conan quickly understands that the monster’s appearance is the result of black
         magic. By getting rid of the sorcerer, he will surely put an end to the beast’s
         wrath.</p>",
-      map_image: '',
+      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/A+Terrifying+Incantation.jpg',
       pdf_link: '',
-      player_count: "Campaign / 5",
+      player_count: "5 Campaign",
       complexity: "",
 
       hero_goal: "If the heroes have killed Khemsa and loaded the 3 trunks of
@@ -10526,13 +10441,12 @@
           Dagger”</strong>.</p>',
 
       origin: "Legend of the Devil in Iron",
-      product_ids: [1, 3, 25],
+      product_ids: [1, 3, 21],
       map_ids: [3],
       hero_ids: [5, 6, 8, 19],
       tile_ids: [1, 11, 30, 33, 57, 93, 95],
       spell_ids: [5, 57],
       item_ids: [13, 17] },
-
 
     # 12 Approached by the Vandal
     { name: "Approached by the Vandal",
@@ -10554,9 +10468,9 @@
         gigantic mass from the dawn of time looms from the water. The situation
         is critical, but the barrels of pitch embarked before departure could make
         the difference.</p>",
-      map_image: '',
+      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/Approached+by+the+Vandal.jpg',
       pdf_link: '',
-      player_count: "Campaign / 5",
+      player_count: "5 Campaign",
       complexity: "",
 
       hero_goal: "If the heroes kill Thaug before the end of turn 7; the heroes win the game.",
@@ -10715,13 +10629,12 @@
           Dagger”</strong>.</p>',
 
       origin: "Legend of the Devil in Iron",
-      product_ids: [1, 3, 25],
+      product_ids: [1, 3, 21],
       map_ids: [3],
       hero_ids: [5, 6, 8, 19],
       tile_ids: [1, 7, 30, 57, 89, 93, 95],
       spell_ids: [5, 43],
       item_ids: [13, 17, 22] },
-
 
     # 13 The Horror from the Abyss
     { name: "The Horror from the Abyss",
@@ -10745,9 +10658,9 @@
         is dressed in an Oriental fashion and shouts out to the Cimmerian barbarian,
         “Contemplate the forces of the invisible kingdoms, for you will soon become
         one with the Abyss and you will grovel at the feet of the Master of Xapur.”</p>",
-      map_image: '',
+      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/The+Horror+from+the+Abyss.jpg',
       pdf_link: '',
-      player_count: "Campaign / 5",
+      player_count: "5 Campaign",
       complexity: "",
 
       hero_goal: "If the heroes kill Thaug before the end of turn 7; the heroes win the game.",
@@ -10891,13 +10804,12 @@
           Dagger”</strong>.</p>',
 
       origin: "Legend of the Devil in Iron",
-      product_ids: [1, 3, 25],
+      product_ids: [1, 3, 21],
       map_ids: [3],
       hero_ids: [5, 6, 8, 19],
       tile_ids: [1, 2, 30, 57, 89, 93, 95],
       spell_ids: [5, 55],
       item_ids: [13, 17, 22] },
-
 
     # 14 The Mystical Dagger
     { name: "The Mystical Dagger",
@@ -10922,9 +10834,9 @@
         eyes shining with the aura of madness. Nothing seems to stop them. The
         sorcerer then takes advantage of the scuffle to throw the dagger into the
         swamp.</p>",
-      map_image: '',
+      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/The+Mystical+Dagger.jpg',
       pdf_link: '',
-      player_count: "Campaign / 5",
+      player_count: "5 Campaign",
       complexity: "",
 
       hero_goal: "If a hero flees the swamp with the Yuetshi dagger before the
@@ -11082,13 +10994,12 @@
           side loses the campaign.</strong></p>',
 
       origin: "Legend of the Devil in Iron",
-      product_ids: [1, 3, 25],
+      product_ids: [1, 3, 21],
       map_ids: [6],
       hero_ids: [5, 6, 8, 19],
       tile_ids: [1, 23, 24, 29, 58, 81, 85],
       spell_ids: [5, 12],
       item_ids: [12, 14, 22, 45] },
-
 
     # 15 Behind the Barricades
     { name: "Behind the Barricades",
@@ -11110,9 +11021,9 @@
         <p>As he pounces on him, Conan decapitates the fanatic with a blow as quick
         as powerful. Then the mercenaries quickly erect some makeshift barricades
         using what they find in the nearest streets and huts.</p>",
-      map_image: '',
+      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/Behind+the+Barricades.jpg',
       pdf_link: '',
-      player_count: "Campaign / 5",
+      player_count: "5 Campaign",
       complexity: "",
 
       hero_goal: "If the heroes manage to get the fisherman out of the village
@@ -11247,13 +11158,12 @@
           <p><strong>The Overlord’s side earns 2 victory points.</strong></p>',
 
       origin: "Legend of the Devil in Iron",
-      product_ids: [1, 3, 25],
+      product_ids: [1, 3, 21],
       map_ids: [1],
       hero_ids: [5, 6, 8, 19],
       tile_ids: [1, 6, 29, 42, 77, 84, 85],
       spell_ids: [43, 47],
       item_ids: [] },
-
 
     # 16 The Spellbook of the Gary Man-Ape
     { name: "The Spellbook of the Gary Man-Ape",
@@ -11271,9 +11181,9 @@
         not only with the pirates who occupy the inn where the spellbook is, but
         also with a strange man ape is after the book for himself; convinced that
         its contents could enable him to take on a human form.</p>",
-      map_image: '',
+      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/The+Spellbook+of+the+Gray+Man+Ape.jpg',
       pdf_link: '',
-      player_count: "Campaign / 5",
+      player_count: "5 Campaign",
       complexity: "",
 
       hero_goal: "If a hero flees the inn with the spellbook; the heroes win the game.",
@@ -11419,13 +11329,12 @@
           <p><strong>The Overlord’s side wins 1 special gem.</strong></p>',
 
       origin: "Legend of the Devil in Iron",
-      product_ids: [1, 3, 25],
+      product_ids: [1, 3, 21],
       map_ids: [2],
       hero_ids: [5, 6, 8, 19],
       tile_ids: [1, 12, 31, 32, 35, 89],
       spell_ids: [],
       item_ids: [3, 17, 23, 28, 45] },
-
 
     # 17 The Cursed Treasures of Khawarizm
     { name: "The Cursed Treasures of Khawarizm",
@@ -11447,9 +11356,9 @@
           monstrosity with shiny and sinuous rings at the same time. The Cimmerian
           and his companions are also unaware that Jehungir’s artifacts are gorged
           with the darkest and most evil of witchcraft.</p>",
-      map_image: '',
+      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/The+Cursed+Treasures+of+Khawarizm.jpg',
       pdf_link: '',
-      player_count: "Campaign / 5",
+      player_count: "5 Campaign",
       complexity: "",
 
       hero_goal: "If a hero flees the citadel with the 3 cursed artifacts before
@@ -11573,13 +11482,12 @@
           removed from the game.</strong></p>',
 
       origin: "Legend of the Devil in Iron",
-      product_ids: [1, 3, 25],
+      product_ids: [1, 3, 21],
       map_ids: [5],
       hero_ids: [5, 6, 8, 19],
       tile_ids: [],
       spell_ids: [40],
       item_ids: [46, 50, 55] },
-
 
     # 18 The Fortress of Xapur
     { name: "The Fortress of Xapur",
@@ -11608,9 +11516,9 @@
         can still be sent back into the Abyss from which it crawled. A primitive
         rage now burns in the blue eyes of the warrior who aspires only to release
         all his impetuous and vengeful fury.</p>",
-      map_image: '',
+      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/The+Fortess+of+Xapur.jpg',
       pdf_link: '',
-      player_count: "Campaign / 5",
+      player_count: "5 Campaign",
       complexity: "",
 
       hero_goal: "If Khosatral Khel is killed before the end of turn 7; the
@@ -11713,13 +11621,12 @@
           <p><strong>The Overlord’s side wins the campaign.</strong></p>',
 
       origin: "Legend of the Devil in Iron",
-      product_ids: [1, 3, 25],
+      product_ids: [1, 3, 21],
       map_ids: [5],
       hero_ids: [5, 6, 8, 19],
       tile_ids: [1, 10, 42, 44, 84, 147],
       spell_ids: [],
       item_ids: [15] },
-
 
     # 19 The Last Dagonian
     { name: "The Last Dagonian",
@@ -11750,9 +11657,9 @@
         even the intrepid Cimmerian.</p>
         <p>At this moment, taken over by an uncontrollable fury, Conan releases all
         the ferocity of the barbarian that he never ceased to be.</p>",
-      map_image: '',
+      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/The+Last+Dagonian.jpg',
       pdf_link: '',
-      player_count: "Campaign / 5",
+      player_count: "5 Campaign",
       complexity: "",
 
       hero_goal: "If Khosatral Khel is killed, or if a hero flees the fortess with
@@ -11895,19 +11802,14 @@
             <p><strong>The Overlord’s side wins the campaign.</strong></p>',
 
       origin: "Legend of the Devil in Iron",
-      product_ids: [1, 3, 25],
+      product_ids: [1, 3, 21],
       map_ids: [4],
       hero_ids: [5, 6, 8, 19],
       tile_ids: [1, 10, 36, 44, 83],
       spell_ids: [],
       item_ids: [6, 15] },
 
-
-
-      #  <p>“”</p>
+    #  <p>“”</p>
     # return here
-
-
-  #  <p>“”</p>
 
   ])

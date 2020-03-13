@@ -98,20 +98,22 @@
       description: "Friendly characters in this character’s area can reroll 1 extra die for each of their actions.",
       clarification: "This skill allows friendly characters in the same zone as this character to reroll a single die for free, even if that die has already rerolled (exception to the rule on page 22)." },
 
-    ## Defense and Magic
-    { name: 'Sacrifice', skill_type: 'Defense and Magic',
+    ## Defense
+    { name: 'Sacrifice', skill_type: 'Defense',
       description: "When a friendly character in this character’s area is attacked, before dice are rolled, this character may choose to be attacked instead. This character cannot Guard for that defense.",
       clarification: "A character using this skill can defend against the incoming attack only using their Armor. That character suffers any damage from the attack to prevent the character who was initially attacked from suffering damage." },
-    { name: 'Untouchable', skill_type: 'Defense and Magic',
+    { name: 'Untouchable', skill_type: 'Defense',
       description: "When this character defends against a Ranged Attack, their armor value is increased by 1 of that defense.",
       clarification: "A character with this skill ignores the first rolled symbol when defending against a Ranged Attack." },
-    { name: 'Bodyguard', skill_type: 'Defense and Magic',
+    { name: 'Bodyguard', skill_type: 'Defense',
       description: "When a friendly character is in this character’s area defends, this character can parry instead of that character’s Guard action, adding the symbols shown on the dice to the character’s defense power..",
       clarification: "A character with this skill can only parry (i.e. use an equipment card to defend against that attack, like a shield); they cannot dodge (see page 11) to defend a friendly character. The attacked character cannot perform a Guard action, but they can still use their Armor in addition to their bodyguard’s defense power. Any damage is dealt to the character who was initially attacked, not the character using Bodyguard." },
-    { name: 'Protected', skill_type: 'Defense and Magic',
+    { name: 'Protected', skill_type: 'Defense',
       description: "This character can be attacked only with area attacks if there is a friendly character without Protected in their area.",
       clarification: "Two or more characters with this skill cannot protect each other." },
-    { name: 'Spell Caster', skill_type: 'Defense and Magic',
+
+    ## Magic
+    { name: 'Spell Caster', skill_type: 'Magic',
       description: "This character can have and cast spells.",
       clarification: "Whenever a character loses the Spell Caster skill (because of encumbrance for example), any active spells remain active for their specified duration." },
   ])

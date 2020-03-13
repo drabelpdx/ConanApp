@@ -53,17 +53,20 @@ class ProductsController < ApplicationController
       @product = Product.find(params[:id])
     end
 
-    def product_params
+    def product_params nn
       params.require(:product).permit(:name, :description)
     end
 
     def set_products
-      @core = Product.find(1,2,3)
-      @expansions = Product.find(4,5,6)
-      @addons = Product.find(7,8,9,10,11,12,13,14,15,16,17,18,19,20)
-      @expansions2 = Product.find(21)
-      @addons2 = Product.find(22,23,24)
-      @tomes = Product.find(25,26,27)
+      @core2015 = Product.where(origin: '2015Core')
+      @expansions2015 = Product.where(origin: '2015Expansion')
+      @addons2015 = Product.where(origin: '2015AddOn')
+      @books2015 = Product.where(origin: '2015Book')
+      @otherbooks = Product.where(origin: 'OtherBook')
+      @othermaps = Product.where(origin: 'OtherMap')
+      @expansions2020 = Product.where(origin: '2020Expansion')
+      @addons2020 = Product.where(origin: '2020AddOn')
+      @books2020 = Product.where(origin: '2020Book')
     end
 
     def require_admin

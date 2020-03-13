@@ -60,7 +60,7 @@ class MapsController < ApplicationController
       @nordheim = Map.where(origin: 'Nordheim Expansion')
       @stygia = Map.where(origin: 'Stygia Expansion')
       @khitai = Map.where(origin: 'Khitai Expansion')
-      @modiphius = Map.where(origin: 'Modiphius Geomorphic')
+      @modiphius = Map.where(origin: 'Modiphius Geomorphic Tiles')
       @conqueror = Map.where(origin: 'Conan the Conqueror')
       @brotherhood = Map.where(origin: 'Tales of the Red Brotherhood')
       @chambers = Map.where(origin: 'The Hiden Chambers')

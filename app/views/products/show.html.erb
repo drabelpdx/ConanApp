@@ -8,7 +8,7 @@
 
     <div class="col-md-8 products" align="center">
       <h2 class="product"><%= @product.name %></h2>
-      <p><%= @product.description %></p>
+      <p><%= @product.description.html_safe %></p>
       <div class="col-md-6">
         <% if @map_products.any? %>
         <div class="panel panel-map">

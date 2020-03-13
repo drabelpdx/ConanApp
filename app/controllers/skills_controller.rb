@@ -58,7 +58,8 @@ class SkillsController < ApplicationController
       @attack = Skill.where(skill_type: 'Attack')
       @movement = Skill.where(skill_type: 'Movement')
       @miscellaneous = Skill.where(skill_type: 'Miscellaneous')
-      @defense = Skill.where(skill_type: 'Defense and Magic')
+      @defense = Skill.where(skill_type: 'Defense')
+      @magic = Skill.where(skill_type: 'Magic')
     end
 
     def require_admin

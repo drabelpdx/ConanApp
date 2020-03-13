@@ -37,6 +37,19 @@
         <% end %>
       </table>
     </div>
+    <div class="panel panel-map">
+      <div class="panel-heading">Nordheim Maps</div>
+      <table class="table">
+        <% @nordheim.each do |map| %>
+        <tr>
+          <td class="sm-maps">
+            <%= image_tag "#{map.image}" %>
+          </td>
+          <td class="map"><%= link_to map.name, map_path(map) %></td>
+        </tr>
+        <% end %>
+      </table>
+    </div>
   </div>
 
   <div class="col-md-3 col-sm-6">
@@ -57,9 +70,9 @@
 
   <div class="col-md-3 col-sm-6 ">
     <div class="panel panel-map">
-      <div class="panel-heading">Nordheim Maps</div>
+      <div class="panel-heading">Stygia Maps</div>
       <table class="table">
-        <% @nordheim.each do |map| %>
+        <% @stygia.each do |map| %>
         <tr>
           <td class="sm-maps">
             <%= image_tag "#{map.image}" %>
@@ -70,9 +83,9 @@
       </table>
     </div>
     <div class="panel panel-map">
-      <div class="panel-heading">Stygia Maps</div>
+      <div class="panel-heading">Modiphius Geomorphic Tiles</div>
       <table class="table">
-        <% @stygia.each do |map| %>
+        <% @modiphius.each do |map| %>
         <tr>
           <td class="sm-maps">
             <%= image_tag "#{map.image}" %>

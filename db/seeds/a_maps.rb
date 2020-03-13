@@ -186,4 +186,15 @@
       'none', origin: 'Khitai Expansion',
       image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/Khitai_2.jpg' },
 
+    # Modiphius Geomorphic Tile Set
+    { name: 'Perilous Ruins & Forgotten Cities', description: "Set of Modiphius Geomorphic Tiles",
+      flip_side: 'none', origin: 'Modiphius Geomorphic Tiles',
+      image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/Perilous+Ruins.jpg' },
+
+    { name: 'Forbidden Places & Pits of Horror', description: "Set of Modiphius Geomorphic Tiles",
+      flip_side: 'none', origin: 'Modiphius Geomorphic Tiles',
+      image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/Forbidden+Places.jpg' },
+
+
+
   ])
