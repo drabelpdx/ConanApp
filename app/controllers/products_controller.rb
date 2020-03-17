@@ -34,12 +34,14 @@ class ProductsController < ApplicationController
   end
 
   def show
-    @hero_products = @product.heroes
-    @item_products = @product.items
-    @map_products = @product.maps
-    @product_scenarios = @product.scenarios
-    @product_spells = @product.spells
-    @product_tiles = @product.tiles
+    @hero_products = Hero.where(origin: @product.name)
+    @item_products = Item.where(origin: @product.name)
+    @map_products = Map.where(origin: @product.name)
+    @model_products = Model.where(origin: @product.name)
+    @product_scenarios = Scenario.where(origin: @product.name)
+    @product_scenarios_rest = Scenario.where.not(origin: @product.name)
+    @product_spells = Spell.where(origin: @product.name)
+    @product_tiles = Tile.where(origin: @product.name)
   end
 
   def destroy

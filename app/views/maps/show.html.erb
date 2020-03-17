@@ -1,9 +1,9 @@
 <div class="row">
   <div class="col-xs-12 col-md-12 map-well">
     <div  class="prevnext prevnext_map" align="center">
-      <span class="prev"><%= link_to("<< Previous Map", @map.previous) if @map.previous %></span>
+      <span class="prev"><%= link_to("<< " + @map.previous.name, @map.previous) if @map.previous %></span>
       <span aligh="center"><%= link_to "Back to maps", maps_path %></span>
-      <span class="next"><%= link_to("Next Map >>", @map.next) if @map.next %></span>
+      <span class="next"><%= link_to(@map.next.name + " >>", @map.next) if @map.next %></span>
     </div>
     <div class="col-md-7 maps" align="center">
       <h2 class="map"><%= @map.name %></h2>
@@ -17,15 +17,23 @@
       <% end %>
     </div>
     <div class="col-md-5">
-      <h3>Special Rules:</h3>
-        <% if @map.special_rules %><%= @map.special_rules.html_safe %><% end %>
       <br />
-      <h4>Scenarios played on this map: </h4>
-        <% if @map_scenarios.any? %>
-          <% @map_scenarios.each do |scenario| %>
-            <p><%= link_to scenario.name, scenario_path(scenario) %></p>
-          <% end%>
-        <% end %>
+      <% if @map_scenarios.any? %>
+        <div class="panel panel-map">
+          <div class="panel-heading">Scenarios that use this Map</div>
+          <table class="table">
+            <% @map_scenarios.each do |scenario| %>
+                <tr>
+                  <td class="map" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+                </tr>
+              <% end %>
+          </table>
+        </div>
+      <% end %>
+      <% if @map.special_rules %>
+        <h4>Special Rules:</h4>
+        <%= @map.special_rules.html_safe %><% end %>
+
     </div>
   </div>
 </div>

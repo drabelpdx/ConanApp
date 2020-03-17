@@ -19,20 +19,34 @@
     <% end %>
     <br />
     <div class="col-md-5">
-      <h4>Heroes with this Skill: </h4>
       <% if @skill_heroes.any? %>
-        <% @skill_heroes.each do |hero| %>
-          <p class="hero"><%= link_to hero.name, hero_path(hero) %></p>
-        <% end%>
+        <div class="panel panel-success">
+          <div class="panel-heading">Heroes with this Skill</div>
+          <table class="table">
+            <% @skill_heroes.each do |hero| %>
+                <tr>
+                  <td class="hero" align="center"><%= link_to hero.name, hero_path(hero) %></td>
+                </tr>
+              <% end %>
+          </table>
+        </div>
       <% end %>
+
     </div>
-    <div class="col-md-4">
-      <h4>Tiles with this Skill: </h4>
+    <div class="col-md-5">
       <% if @skill_tiles.any? %>
-        <% @skill_tiles.each do |tile| %>
-          <p class="tile"><%= link_to tile.name, tile_path(tile) %></p>
-        <% end%>
+        <div class="panel panel-danger">
+          <div class="panel-heading">Tiles with this Skill</div>
+          <table class="table">
+            <% @skill_tiles.each do |tile| %>
+                <tr>
+                  <td class="tile" align="center"><%= link_to tile.name, tile_path(tile) %></td>
+                </tr>
+              <% end %>
+          </table>
+        </div>
       <% end %>
+
     </div>
   </div>
 </div>

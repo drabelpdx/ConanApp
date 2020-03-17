@@ -808,27 +808,27 @@ Tile.create!([
 
   # Black Ones
   { name: 'The Black Ones', description: "",
-    role: 'Minions', move: '3', armor: '3',
+    role: 'Minion', move: '3', armor: '3',
     melee: '2 Orange', ranged: '–', bone_ids: [3, 3],
     origin: 'Black Ones', count: '1', skill_ids: [5, 26], story_ids: [6],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/BlackOnes.jpg',
-    tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BlackOnes.png',
+    tile_image: 'https://drabelpdx.s3-us-west-2.amazonaws.com/Conan/tiles/BlackOnes.png',
     token_image: '' },
 
   { name: 'The Black Ones - Green', description: "",
-    role: 'Minions', move: '3', armor: '3',
+    role: 'Minion', move: '3', armor: '3',
     melee: '2 Orange', ranged: '–', bone_ids: [3, 3],
     origin: 'Black Ones', count: '1', skill_ids: [5, 26], story_ids: [],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/BlackOnes.jpg',
-    tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BlackOnesGreen.png',
+    tile_image: 'https://drabelpdx.s3-us-west-2.amazonaws.com/Conan/tiles/BlackOnesGreen.png',
     token_image: '' },
 
   { name: 'The Black Ones - Purple', description: "",
-    role: 'Minions', move: '3', armor: '3',
+    role: 'Minion', move: '3', armor: '3',
     melee: '2 Orange', ranged: '–', bone_ids: [3, 3],
     origin: 'Black Ones', count: '1', skill_ids: [5, 26], story_ids: [],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/BlackOnes.jpg',
-    tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BlackOnesPurple.png',
+    tile_image: 'https://drabelpdx.s3-us-west-2.amazonaws.com/Conan/tiles/BlackOnesPurple.png',
     token_image: '' },
 
   # Crossbowmen
@@ -1206,7 +1206,7 @@ Tile.create!([
 
   { name: 'Assassins  - Red', description: '',
     role: 'Minion', move: '3', armor: '0',
-    melee: '2 Red', ranged: '–', bone_ids: [],
+    melee: '2 Red', ranged: '–', bone_ids: [1, 1],
     origin: 'Stygia Expansion', count: '1', skill_ids: [], story_ids: [],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Assassins.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AssassinsRed.png',

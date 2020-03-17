@@ -29,6 +29,10 @@ $navbar-default-bg: #08088A;
   text-align: center;
 }
 
+.center_all {
+  margin: auto;
+}
+
 .jumbotron {
   background-image: asset-url('Conan2.jpg');
   background-color: #fff;
@@ -94,7 +98,7 @@ $navbar-default-bg: #08088A;
   display: none;
 }
 
-#by_tile {
+#by_figure {
   display: none;
 }
 
@@ -111,6 +115,20 @@ h1.scenario {
   color: #31708f;
 }
 
+.panel-other_scenario > .panel-heading {
+  background-color: #b3b3ff;
+  color: #0000cc;
+}
+
+.panel-other_scenario {
+  border-color: #b3b3ff;
+  color: #0000cc;
+}
+
+.other_scenario a {
+  color: #0000cc;
+}
+
 .panel-map > .panel-heading {
   background-color: #cccccc;
   color: #666666;
@@ -120,6 +138,20 @@ h1.scenario {
   border-color: #cccccc;
   color: white;
 }
+
+.panel-hero {
+  border-color: #3c763d;
+  color: white;
+}
+
+.panel-hero > .panel-heading {
+  background-color: #3c763d;
+}
+
+
+
+
+
 
 .map a {
   color: #666666;
@@ -172,6 +204,71 @@ h1.tile {
 
 h2.tile {
   color: #a94442;
+}
+
+.modeltile img
+{
+  max-width: 150px;
+  margin: 10px;
+}
+
+.model_table
+{
+  float: left;
+  height: 300px;
+  margin: 0;
+  padding: 0;
+}
+
+.tr_first img
+{
+  height: 200px;
+}
+
+.tr_second td
+{
+  height: 50px;
+}
+
+.panel-model > .panel-heading {
+  background-color: #ecd9c6;
+  color: #996633;
+}
+
+.panel-model_story > .panel-heading {
+  background-color: #996633;
+  color: white;
+}
+
+.panel-model_story {
+  border-color: #ecd9c6;
+  color: white;
+}
+
+.panel-model {
+  border-color: #ecd9c6;
+  color: white;
+}
+
+.btn-model {
+  background-color: #ecd9c6;
+  color: #996633;
+}
+
+.model a {
+  color: #996633;
+}
+
+a.model {
+  color: #996633;
+}
+
+h1.model {
+  color: #996633;
+}
+
+h2.model {
+  color: #996633;
 }
 
 .panel-spell > .panel-heading {
@@ -382,6 +479,31 @@ h2.product {
   width: auto;
 }
 
+.hero_stats_mini th, td {
+  padding: 2px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+.hero_stats_mini img {
+  height: 25px;
+  width: auto;
+}
+
+.hero_stats_mini  {
+  margin: 0px;
+}
+
+.herosheet
+{
+  border: 4px solid #999999;
+  border-radius: 4px;
+
+}
+
+
+
 .tile_stats th, td {
   padding: 15px;
   text-align: left;
@@ -453,6 +575,12 @@ h2.product {
 
 .spell-well {
   background: #f9e6ff;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.model-well {
+  background: #ecd9c6;
   padding: 10px;
   border-radius: 10px;
 }
@@ -606,6 +734,11 @@ footer ul li {
 
 .prevnext_spell {
   background: #8600b3;
+  line-height: 30px;
+}
+
+.prevnext_model {
+  background: #996633;
   line-height: 30px;
 }
 

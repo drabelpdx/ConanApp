@@ -38,11 +38,18 @@
       <div class="col-md-5">
         <% if @spell_scenarios.any? %>
         <br />
-        <h4>Appears in: </h4>
-        <% @spell_scenarios.each do |scenario| %>
-            <p><%= link_to scenario.name, scenario_path(scenario) %></p>
-          <% end%>
+          <div class="panel panel-spell">
+            <div class="panel-heading">Scenarios that use this Spell</div>
+            <table class="table">
+              <% @spell_scenarios.each do |scenario| %>
+                  <tr>
+                    <td class="spell" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+                  </tr>
+                <% end %>
+            </table>
+          </div>
         <% end %>
+
       </div>
     </div>
   </div>

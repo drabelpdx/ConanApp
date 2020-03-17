@@ -1,0 +1,141 @@
+<div class="row">
+  <div class="col-xs-12 col-md-12 model-well">
+    <div align="center">
+      <div  class="prevnext prevnext_model" >
+        <span class="prev"><%= link_to("<< " +  @model.previous.name, @model.previous) if @model.previous %></span>
+        <span><%= link_to "Back to models", models_path %></span>
+        <span class="next"><%= link_to(@model.next.name + " >>", @model.next) if @model.next %></span>
+      </div>
+      <div class="col-xs-12 col-md-5">
+        <h2 class="model"><%= @model.name %></h2>
+        <h4><%= @model.description %></h4>
+        <div align="center" class="tiles">
+          <div>
+            <%= image_tag "#{@model.figure_image}" %>
+          </div>
+          <br /><br />
+          <h4>
+            <%= @model.count %>  <%= @model.role %>
+            <%= pluralize_no_count(@model.count, 'model') %>
+          </h4>
+          from  <%= @model.origin %>
+          <br /><br />
+
+          <% if @model.stories.any? %>
+          <br />
+            <div class="panel panel-model_story">
+              <div class="panel-heading">Appears in these Stories</div>
+              <table class="table">
+                <% @model.stories.each do |story| %>
+                    <tr>
+                      <td class="model" align="center"><%= link_to story.name, story_path(story) %></td>
+                    </tr>
+                  <% end %>
+              </table>
+            </div>
+          <% end %>
+        </div>
+      </div>
+
+      <div class="col-md-7">
+        <% if @model.heroes.any? %>
+        <br />
+        <h4>Hero Sheet</h4>
+        <div class="herosheet">
+          <% @model.heroes.each do |hero| %>
+          <a href="<%= hero_path(hero) %>">
+            <table class="table table-bordered hero_stats_mini">
+              <tr class="warning">
+                <th><%= image_tag "stats/melee.png" %><br />Melee</th>
+                <th><%= image_tag "stats/range.png" %><br />Range</th>
+                <th><%= image_tag "stats/defense.png" %><br />Defense</th>
+              </tr>
+              <tr class="active">
+                <td><%= hero.melee_dice %> die</td>
+                <td><%= hero.ranged_dice %> die</td>
+                <td><%= hero.defense_dice %> die</td>
+              </tr>
+              <tr class="active">
+                <td>Exertion Limit: <%= hero.melee_exertion %></td>
+                <td>Exertion Limit: <%= hero.ranged_exertion %></td>
+                <td></td>
+              </tr>
+              <tr class="warning">
+                <th><%= image_tag "stats/movement.png" %><br />Movement</th>
+                <th><%= image_tag "stats/manipulation.png" %><br />Manipulation</th>
+                <th><%= image_tag "stats/life.png" %><br />Life Points</th>
+              </tr>
+              <tr class="active">
+                <td><%= hero.movement_free %></td></td>
+                <td><%= hero.manipulation_dice %> die</td>
+                <td><%= hero.life %></td>
+              </tr>
+              <tr class="active">
+                <td>Exertion Limit:<%= hero.movement_exertion %></td>
+                <td>Exertion Limit:<%= hero.manipulation_exersion %></td>
+                <td></td>
+              </tr>
+            </table>
+
+            <table class="table table-bordered hero_stats_mini">
+              <% if hero.skills.any? %>
+                <tr class="warning">
+                  <% hero.skills.each do |skill| %>
+                    <td class="thumbs">
+                      <%= image_tag("skills/#{skill.name}.png") %>
+                      <br /><%= skill.name %>
+                    </td>
+                  <% end%>
+                </tr>
+                <tr class="active">
+                  <% hero.skills.each_with_index do |skill, index| %>
+                    <td>
+                      <% if hero.encumbrance[index+3] %>
+                        Lost at: <%= hero.encumbrance[index+3] %>
+                      <% end %>
+                    </td>
+                  <% end %>
+                </tr>
+              <% end %>
+              <tr class="warning">
+                <th><%= image_tag "stats/encumbrance.png" %><br />Encumbrance</th>
+                <th><%= image_tag "stats/move_encum1.png" %><br />Move -1</th>
+                <th><%= image_tag "stats/move_encum2.png" %><br />Move -2</th>
+              </tr>
+              <tr class="active">
+                <td>Total: <%= hero.encumbrance[0] %></td>
+                <td>Lost at: <%= hero.encumbrance[1] %></td>
+                <td>Lost at: <%= hero.encumbrance[2] %></td>
+              </tr>
+            </table>
+          <% end%>
+          </a>
+          </div>
+        <% end %>
+
+        <% if @model.tiles.any? %>
+        <br />
+          <% if @model.tiles.length > 1 %>
+            <h4>Character Tiles:</h4>
+            <% else %>
+            <h4>Character Tile:</h4>
+          <% end %>
+          <div class="modeltile">
+            <% @model.tiles.each do |tile| %>
+              <%= link_to image_tag(tile.tile_image), tile_path(tile) %>
+            <% end%>
+          </div>
+        <% end %>
+      </div>
+       <div class="col-md-2"></div>
+
+    </div>
+  </div>
+</div>
+<% if logged_in? && current_user.admin? %>
+  <div class="row">
+    <br /><br />
+    <%= link_to 'Edit', edit_model_path(@model) %> |
+    <%= link_to 'Delete', model_path(@model), method: :delete, data: {confirm: "Are you sure?"} %>
+  </div>
+<% end %>

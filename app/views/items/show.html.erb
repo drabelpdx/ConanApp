@@ -9,8 +9,6 @@
       <div class="col-md-7">
         <h2 class="item center"><%= @item.name %></h2>
         <h4><%= @item.role %></h4>
-        from <%= @item.origin %>
-        <br />
         <table class="tile_stats" align="center">
           <% if @item.encumbrance != '' %>
             <tr>
@@ -134,16 +132,23 @@
             <%= @item.count %>
             <%= pluralize_no_count(@item.count, 'card') %>
           </h4>
+          from <%= @item.origin %>
           <br />
         </div>
       </div>
       <div class="col-md-5">
         <% if @item_scenarios.any? %>
-          <br />
-          <h4>Appears in: </h4>
-          <% @item_scenarios.each do |scenario| %>
-            <p><%= link_to scenario.name, scenario_path(scenario) %></p>
-          <% end%>
+        <br />
+          <div class="panel panel-warning">
+            <div class="panel-heading">Scenarios that use this Item</div>
+            <table class="table">
+              <% @item_scenarios.each do |scenario| %>
+                  <tr>
+                    <td class="item" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+                  </tr>
+                <% end %>
+            </table>
+          </div>
         <% end %>
       </div>
     </div>

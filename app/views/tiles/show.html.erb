@@ -6,18 +6,35 @@
         <span><%= link_to "Back to tiles", tiles_path %></span>
         <span class="next"><%= link_to(@tile.next.name + " >>", @tile.next) if @tile.next %></span>
       </div>
+      <div class="col-md-4">
+        <br />
+        <table>
+          <% if @tile.skills.any? %>
+            <tr>
+              <h4>Skills:</h4>
+              <% @tile.skills.each do |skill| %>
+                <td class="thumbs">
+                  <%= link_to image_tag("skills/#{skill.name}.png"), skill_path(skill) %>
+                  <br /><%= link_to skill.name, skill_path(skill) %>
+                </td>
+              <% end%>
+            </tr>
+          <% end %>
+        </table>
+      </div>
+
       <div class="col-xs-12 col-md-5">
         <h2 class="tile"><%= @tile.name %></h2>
         <h4><%= @tile.description %></h4>
         <div align="center" class="tiles">
-          <div id="by_figure">
-            <a href="" id="show_tile" class="toggles">
-              <%= image_tag "#{@tile.figure_image}" %>
+          <div id="by_tile">
+            <a href="" id="show_figure" >
+              <%= image_tag "#{@tile.tile_image}" %>
             </a>
           </div>
-          <div id="by_tile">
-            <a href="" id="show_figure" class="toggles">
-              <%= image_tag "#{@tile.tile_image}" %>
+          <div id="by_figure">
+            <a href="" id="show_tile" >
+              <%= image_tag "#{@tile.figure_image}" %>
             </a>
           </div>
           <br /><br />
@@ -29,106 +46,21 @@
           <br /><br />
         </div>
       </div>
-      <div class="col-md-7">
-        <div class="col-md-7">
-          <br />
-          <table>
-            <% if @tile.skills.any? %>
-              <tr>
-                <h4>Skills:</h4>
-                <% @tile.skills.each do |skill| %>
-                  <td class="thumbs">
-                    <%= link_to image_tag("skills/#{skill.name}.png"), skill_path(skill) %>
-                    <br /><%= link_to skill.name, skill_path(skill) %>
-                  </td>
-                <% end%>
-              </tr>
-            <% end %>
-          </table>
-          <table class="tile_stats">
-            <% if @tile.move != '–' %>
-              <tr>
-                <h4>Stats:</h4>
-                <th>
-                  <%= image_tag "stats/movement.png" %>
-                  <br />Movement
-                </th>
-                <th>
-                  <h3><%= @tile.move %></h3>
-                </th>
-              </tr>
-            <% end %>
-            <% if @tile.armor != '–' %>
-              <tr>
-                <th>
-                  <%= image_tag "stats/armor.png" %>
-                  <br />Armor
-                </th>
-                <th>
-                  <h3><%= @tile.armor %></h3>
-                </th>
-              </tr>
-            <% end %>
 
-            <% if @tile.melee != '–' %>
-              <tr>
-                <th>
-                  <%= image_tag "stats/melee.png" %>
-                  <br />Melee
-                </th>
-                <td class="thumbs">
-                  <% @tile.bones.each do |bone| %>
-                    <%= image_tag "dice/#{bone.name}.png" %>
-                  <% end%>
-                  <br /><%= @tile.melee %>
-                </td>
-              </tr>
-            <% end %>
-
-            <% if @tile.ranged != '–' %>
-              <tr>
-                <th>
-                  <%= image_tag "stats/range.png" %>
-                  <br />Ranged
-                </th>
-                <td class="thumbs">
-                  <% @tile.bones.each do |bone| %>
-                    <%= image_tag "dice/#{bone.name}.png" %>
-                  <% end%>
-                  <br /><%= @tile.ranged %>
-                </td>
-              </tr>
-            <% end %>
-            <tr>
-              <% if @tile.cost %>
-                <th><%= image_tag "stats/reinforcement.png" %>
-                  <br />Reinforcement<br />Cost
-                </th>
+      <div class="col-md-3">
+        <br />
+        <% if @tile_scenarios.any? %>
+          <div class="panel panel-danger">
+            <div class="panel-heading">Scenarios that use this Tile</div>
+            <table class="table">
+              <% @tile_scenarios.each do |scenario| %>
+                <tr>
+                  <td class="tile" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+                </tr>
               <% end %>
-              <% if @tile.cost %>
-                <td><h3><%= @tile.cost %></h3></td>
-              <% end %>
-            </tr>
-          </table>
-        </div>
-        <div class="col-md-5">
-          <h4>Appears in:</h4>
-         <br />
-          <% if @tile_scenarios.any? %>
-            <h5>These scenarios:</h5>
-            <% @tile_scenarios.each do |scenario| %>
-              <p><%= link_to scenario.name, scenario_path(scenario) %></p>
-            <% end%>
-            <br />
-          <% end %>
-
-          <% if @tile.stories.any? %>
-            <h5>These stories:</h5>
-            <% @tile.stories.each do |story| %>
-              <p><%= link_to story.name, story_path(story) %></p>
-            <% end%>
-          <% end %>
-        </div>
+            </table>
+          </div>
+        <% end %>
       </div>
     </div>
   </div>
@@ -143,9 +75,10 @@
 
 <script>
   $(document).ready(function() {
+
     $('a#show_tile').click(function(event){
       event.preventDefault();
-      $('a.toggles').children().removeClass('active');
+
       $('a#show_tile').children().addClass('active');
       $('div#by_figure').hide();
       $('div#by_tile').show();
@@ -153,7 +86,7 @@
 
     $('a#show_figure').click(function(event){
       event.preventDefault();
-      $('a.toggles').children().removeClass('active');
+
       $('a#show_figure').children().addClass('active');
       $('div#by_tile').hide();
       $('div#by_figure').show();

@@ -34,8 +34,7 @@ class StoriesController < ApplicationController
   end
 
   def show
-    @story_heroes = @story.heroes
-    @story_tiles = @story.tiles
+    @story_models = @story.models
   end
 
   def destroy

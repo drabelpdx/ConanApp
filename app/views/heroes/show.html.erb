@@ -16,23 +16,23 @@
         <p><%= @hero.quote %></p>
         <p><%= @hero.cite %></p>
       <div align="center">
-        from  <%= @hero.origin %> <br />
+        from  <%= @hero.origin %>
 
         <% if @hero_scenarios.any? %>
-          <br />
-          <h5>Appears in these scenarios:</h5>
-          <% @hero_scenarios.each do |scenario| %>
-            <p><%= link_to scenario.name, scenario_path(scenario) %></p>
-          <% end%>
+        <br /><br />
+          <div class="panel panel-hero">
+            <div class="panel-heading">Scenarios that use this Hero</div>
+            <table class="table">
+              <% @hero_scenarios.each do |scenario| %>
+                  <tr>
+                    <td class="hero" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+                  </tr>
+                <% end %>
+            </table>
+          </div>
         <% end %>
 
-        <% if @hero.stories.any? %>
-          <br />
-          <h5>Named in these stories:</h5>
-          <% @hero.stories.each do |story| %>
-            <p><%= link_to story.name, story_path(story) %></p>
-          <% end%>
-        <% end %>
+
       </div>
     </div>
   </div>
@@ -41,17 +41,10 @@
 
     <table class="table table-bordered hero_stats">
       <tr class="warning">
-        <th>
-          <%= image_tag "stats/melee.png" %><br />Melee
-        </th>
-        <th>
-          <%= image_tag "stats/range.png" %><br />Range
-        </th>
-        <th>
-          <%= image_tag "stats/defense.png" %><br />Defense
-        </th>
+        <th><%= image_tag "stats/melee.png" %><br />Melee</th>
+        <th><%= image_tag "stats/range.png" %><br />Range</th>
+        <th><%= image_tag "stats/defense.png" %><br />Defense</th>
       </tr>
-
       <tr class="active">
         <td>
           <%= image_tag "dice/#{@hero.melee_dice}.png" %><br />
@@ -71,7 +64,6 @@
         <td>Exertion Limit: <h4><%= @hero.ranged_exertion %></h4></td>
         <td></td>
       </tr>
-
       <tr class="warning">
         <th>
           <%= image_tag "stats/movement.png" %><br />Movement
@@ -83,33 +75,23 @@
           <%= image_tag "stats/life.png" %><br />Life Points
         </th>
       </tr>
-
       <tr class="active">
-        <td>
-          <h3><%= @hero.movement_free %></h3></td>
-        </td>
+        <td><h3><%= @hero.movement_free %></h3></td>
         <td>
           <%= image_tag "dice/#{@hero.manipulation_dice}.png" %><br />
           <%= @hero.manipulation_dice %> die
         </td>
-        <td>
-          <h3><%= @hero.life %></h3>
-        </td>
+        <td><h3><%= @hero.life %></h3></td>
       </tr>
       <tr class="active">
-        <td>Exertion Limit:
-          <h4><%= @hero.movement_exertion %></h4>
-        </td>
-        <td>Exertion Limit:
-          <h4><%= @hero.manipulation_exersion %></h4>
-        </td>
+        <td>Exertion Limit:<h4><%= @hero.movement_exertion %></h4></td>
+        <td>Exertion Limit:<h4><%= @hero.manipulation_exersion %></h4></td>
         <td></td>
       </tr>
       </table>
 
       <table class="table table-bordered hero_stats">
-
-    <% if @hero.skills.any? %>
+        <% if @hero.skills.any? %>
         <tr class="warning">
           <% @hero.skills.each do |skill| %>
             <td class="thumbs">
@@ -127,28 +109,18 @@
             </td>
           <% end %>
         </tr>
-
-    <% end %>
-    <tr class="warning">
-
-      <th>
-        <%= image_tag "stats/encumbrance.png" %><br />Encumbrance
-      </th>
-      <th>
-        <%= image_tag "stats/move_encum1.png" %><br />Move -1
-      </th>
-      <th>
-        <%= image_tag "stats/move_encum2.png" %><br />Move -2
-      </th>
-    </tr>
-    <tr class="active">
-
-      <td>Total: <h4><%= @hero.encumbrance[0] %></h4></td>
-      <td>Lost at: <h4><%= @hero.encumbrance[1] %></h4></td>
-      <td>Lost at: <h4><%= @hero.encumbrance[2] %></h4></td>
-    </tr>
-  </table>
-
+      <% end %>
+      <tr class="warning">
+        <th><%= image_tag "stats/encumbrance.png" %><br />Encumbrance</th>
+        <th><%= image_tag "stats/move_encum1.png" %><br />Move -1</th>
+        <th><%= image_tag "stats/move_encum2.png" %><br />Move -2</th>
+      </tr>
+      <tr class="active">
+        <td>Total: <h4><%= @hero.encumbrance[0] %></h4></td>
+        <td>Lost at: <h4><%= @hero.encumbrance[1] %></h4></td>
+        <td>Lost at: <h4><%= @hero.encumbrance[2] %></h4></td>
+      </tr>
+    </table>
   </div>
 </div>
 

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_03_08_173830) do
+ActiveRecord::Schema.define(version: 2020_03_15_150613) do
 
   create_table "bone_tiles", force: :cascade do |t|
     t.integer "bone_id"
@@ -21,6 +21,11 @@ ActiveRecord::Schema.define(version: 2020_03_08_173830) do
     t.string "name"
     t.datetime "created_at"
     t.datetime "updated_at"
+  end
+
+  create_table "hero_models", force: :cascade do |t|
+    t.integer "hero_id"
+    t.integer "model_id"
   end
 
   create_table "hero_products", force: :cascade do |t|
@@ -111,6 +116,32 @@ ActiveRecord::Schema.define(version: 2020_03_08_173830) do
     t.text "special_rules"
     t.datetime "created_at"
     t.datetime "updated_at"
+  end
+
+  create_table "model_products", force: :cascade do |t|
+    t.integer "model_id"
+    t.integer "product_id"
+  end
+
+  create_table "model_stories", force: :cascade do |t|
+    t.integer "model_id"
+    t.integer "story_id"
+  end
+
+  create_table "model_tiles", force: :cascade do |t|
+    t.integer "model_id"
+    t.integer "tile_id"
+  end
+
+  create_table "models", force: :cascade do |t|
+    t.string "name"
+    t.text "description"
+    t.string "role"
+    t.string "origin"
+    t.string "count"
+    t.string "figure_image"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "product_scenarios", force: :cascade do |t|

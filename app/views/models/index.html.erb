@@ -1,0 +1,279 @@
+<h1 class="model">Models</h1>
+<% if logged_in? && current_user.admin? %>
+  <p><%= link_to "Add a Model", new_model_path %></p>
+<% end %>
+
+<p>Click on a model to get the count and any hero sheets or tiles that represent it.</P>
+  <p>Models can be sorted by:
+      <ul>
+        <li>the box <strong>(origin)</strong> the model came in</li>
+        <li>the <strong>type</strong> of unit the model represents</li>
+      </ul>
+<div align="center">
+  <a href="" id="show_byorigin" class="toggles"><button class="btn btn-model active">By Origin</button></a>
+  <a href="" id="show_bytype" class="toggles"><button class="btn btn-model">By Type</button></a>
+</div>
+<hr>
+<div id="by_origin">
+  <div class="row">
+    <div class="col-md-4 col-sm-6">
+      <div class="panel panel-model">
+        <div class="panel-heading">Core Game Models</div>
+        <table class="table">
+          <% @core.sort_by {|model| model.name }.each do |model| %>
+          <tr>
+            <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
+          </tr>
+          <% end %>
+        </table>
+      </div>
+
+      <div class="panel panel-model">
+        <div class="panel-heading">Baal Pteor Models</div>
+        <table class="table">
+          <% @baal.each do |model| %>
+          <tr>
+            <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
+          </tr>
+          <% end %>
+        </table>
+      </div>
+      <div class="panel panel-model">
+        <div class="panel-heading">Black Dragons Models</div>
+        <table class="table">
+          <% @dragons.each do |model| %>
+          <tr>
+            <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
+          </tr>
+          <% end %>
+        </table>
+      </div>
+      <div class="panel panel-model">
+        <div class="panel-heading">The Black Ones Models</div>
+        <table class="table">
+          <% @blackones.each do |model| %>
+          <tr>
+            <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
+          </tr>
+          <% end %>
+        </table>
+      </div>
+      <div class="panel panel-model">
+        <div class="panel-heading">Crossbowmen Models</div>
+        <table class="table">
+          <% @crossbowmen.each do |model| %>
+          <tr>
+            <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
+          </tr>
+          <% end %>
+        </table>
+      </div>
+      <div class="panel panel-model">
+        <div class="panel-heading">Demon of the Earth Models</div>
+        <table class="table">
+          <% @demon.each do |model| %>
+          <tr>
+            <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
+          </tr>
+          <% end %>
+        </table>
+      </div>
+      <div class="panel panel-model">
+        <div class="panel-heading">Dragon Models</div>
+        <table class="table">
+          <% @dragon.each do |model| %>
+          <tr>
+            <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
+          </tr>
+          <% end %>
+        </table>
+      </div>
+      <div class="panel panel-model">
+        <div class="panel-heading">Giant Wolves Models</div>
+        <table class="table">
+          <% @wolves.each do |model| %>
+          <tr>
+            <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
+          </tr>
+          <% end %>
+        </table>
+      </div>
+      <div class="panel panel-model">
+        <div class="panel-heading">Sabertooth Tiger Models</div>
+        <table class="table">
+          <% @sabertooth.each do |model| %>
+          <tr>
+            <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
+          </tr>
+          <% end %>
+        </table>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <div class="panel panel-model">
+        <div class="panel-heading">King Pledge Models</div>
+        <table class="table">
+          <% @king.sort_by {|model| model.name }.each do |model| %>
+          <tr>
+            <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
+          </tr>
+          <% end %>
+        </table>
+      </div>
+      <div class="panel panel-model">
+        <div class="panel-heading">Nordheim Models</div>
+        <table class="table">
+          <% @nordheim.sort_by {|model| model.name }.each do |model| %>
+          <tr>
+            <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
+          </tr>
+          <% end %>
+        </table>
+      </div>
+      <div class="panel panel-model">
+        <div class="panel-heading">Khitai Models</div>
+        <table class="table">
+          <% @khitai.sort_by {|model| model.name }.each do |model| %>
+          <tr>
+            <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
+          </tr>
+          <% end %>
+       </table>
+     </div>
+     <div class="panel panel-model">
+       <div class="panel-heading">Stygia Models</div>
+       <table class="table">
+         <% @stygia.sort_by {|model| model.name }.each do |model| %>
+         <tr>
+           <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
+         </tr>
+         <% end %>
+       </table>
+     </div>
+     <div class="panel panel-model">
+       <div class="panel-heading">Kushite Witch Hunters Models</div>
+       <table class="table">
+         <% @witchhunters.sort_by {|model| model.name }.each do |model| %>
+         <tr>
+           <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
+         </tr>
+         <% end %>
+       </table>
+     </div>
+     <div class="panel panel-model">
+       <div class="panel-heading">Paolo Parente Box</div>
+       <table class="table">
+         <% @paolo.each do |model| %>
+         <tr>
+           <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
+         </tr>
+         <% end %>
+       </table>
+     </div>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <div class="panel panel-model">
+        <div class="panel-heading">Stretch Goal Models</div>
+        <table class="table">
+          <% @stretch.sort_by {|model| model.name }.each do |model| %>
+          <tr>
+            <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
+          </tr>
+          <% end %>
+      </table>
+      </div>
+      <div class="panel panel-model">
+        <div class="panel-heading">Vanir Valkyrie Models</div>
+        <table class="table">
+          <% @valkyrie.each do |model| %>
+          <tr>
+            <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
+          </tr>
+          <% end %>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="by_type">
+  <div class="row">
+    <div class="col-md-4 col-sm-6">
+      <div class="panel panel-model">
+        <div class="panel-heading">Hero Models</div>
+        <table class="table">
+          <% @heroes.sort_by {|model| model.name }.each do |model| %>
+          <tr>
+            <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
+          </tr>
+          <% end %>
+        </table>
+      </div>
+      <div class="panel panel-model">
+        <div class="panel-heading">Ally Models</div>
+        <table class="table">
+          <% @allies.sort_by {|model| model.name }.each do |model| %>
+          <tr>
+            <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
+          </tr>
+          <% end %>
+      </table>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <div class="panel panel-model">
+        <div class="panel-heading">Leader Models</div>
+        <table class="table">
+          <% @leaders.sort_by {|model| model.name }.each do |model| %>
+          <tr>
+            <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
+          </tr>
+          <% end %>
+        </table>
+      </div>
+      <div class="panel panel-model">
+        <div class="panel-heading">Monster Models</div>
+        <table class="table">
+          <% @monsters.sort_by {|model| model.name }.each do |model| %>
+          <tr>
+            <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
+          </tr>
+          <% end %>
+      </table>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <div class="panel panel-model">
+        <div class="panel-heading">Minion Models</div>
+        <table class="table">
+          <% @minions.sort_by {|model| model.name }.each do |model| %>
+          <tr>
+            <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
+          </tr>
+          <% end %>
+      </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+ <script>
+   $(document).ready(function() {
+     $('a#show_byorigin').click(function(event){
+       event.preventDefault();
+       $('a.toggles').children().removeClass('active');
+       $('a#show_byorigin').children().addClass('active');
+       $('div#by_type').hide();
+       $('div#by_origin').show();
+     });
+
+     $('a#show_bytype').click(function(event){
+       event.preventDefault();
+       $('a.toggles').children().removeClass('active');
+       $('a#show_bytype').children().addClass('active');
+       $('div#by_origin').hide();
+       $('div#by_type').show();
+     });
+
+   });
+ </script>

@@ -12,7 +12,7 @@
     # In the Clutches of the Picts
     { name: "In the Clutches of the Picts",
       description: "<p>With the echoing war drums of the Pict tribes settled
-        beyond the Black River and the increasedfrequency of incursions up to
+        beyond the Black River and the increased frequency of incursions up to
         the Thunder River, many settlers flee the Conajohara territory for the
         safer lands of the Kingdom of Aquilonia.</p>
         <p>While scouting along the border to aid Valannus, the Commander of Fort
@@ -704,7 +704,7 @@
 
       special_rules: '<p><span class="special_title">Olivia:</span>
         Use the Princess model to represent Olivia on the game board. Olivia is
-        unconscious, counts as an object th encumbrance value of 6, and can be
+        unconscious, counts as an object the encumbrance value of 6, and can be
         picked up by a hero by performing a simple manipulation. That hero takes
         the Princess <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ThalisToken.png"
         class="scen_token"> token and places it next to their character sheet.
@@ -944,7 +944,7 @@
       description: "<p>Smelling a trap during a meeting with pirates from the
         Baracha islands, Conan flees Tortage, joining Captain Zaporavo and the
         crew of The Vandal. Soon, his personality and sailing prowess make him
-        popular with the crew,and his leadership gains him the attention of
+        popular with the crew, and his leadership gains him the attention of
         Sancha, the Zingaran mercenary’s favorite.</p>
         <p>Zaporavo remains wary of the Cimmerian, who he now sees as a rival.
         But the time is not right to settle scores as the sails of an Argosian
@@ -1277,7 +1277,7 @@
       life7: 0,
       life8: 0,
 
-      special_rules: '<p><span class="special_title">Defenceless:</span>
+      special_rules: '<p><span class="special_title">Defenseless:</span>
         After setup, the Overlord takes each hero’s equipment cards, places them
         in different piles, and assigns each pile to an area (except room 11)
         by placing a token with the corresponding number facedown on each group
@@ -1565,7 +1565,7 @@
           </tr>
           <tr>
             <td><img src="/assets/tokens/cardEToken.png" class="scen_event" /></td>
-            <td>The heroes score 2 points if a herofled with the Idol of Yag-Kosha.
+            <td>The heroes score 2 points if a hero fled with the Idol of Yag-Kosha.
             <br />The Overlord scores 4 points if no hero fled with the Idol of Yag-Kosha.</td>
           </tr>
         </table></p>
@@ -1585,7 +1585,7 @@
       overlord_victory: '',
 
       origin: "King Pledge",
-      product_ids: [1, 2],
+      product_ids: [1, 2, 3],
       map_ids: [1],
       hero_ids: [2, 4, 7],
       tile_ids: [1, 6, 23, 26, 27, 29],
@@ -1741,7 +1741,7 @@
       overlord_victory: '',
 
       origin: "King Pledge",
-      product_ids: [1, 2],
+      product_ids: [1],
       map_ids: [2],
       hero_ids: [2, 4],
       tile_ids: [1, 3, 7, 16, 22, 31, 32],
@@ -2073,7 +2073,7 @@
       overlord_victory: '',
 
       origin: "King Pledge",
-      product_ids: [1, 2],
+      product_ids: [1, 2, 3],
       map_ids: [4],
       hero_ids: [2, 4, 7],
       tile_ids: [1, 3, 5, 16, 17, 20, 36],
@@ -2153,7 +2153,7 @@
               That area becomes a water area.
               <br/ ><span class="setup_suggestion">Emergence:</span> The Overlord may move or place a
               Tentacles tile into the Event title’s previous position in the River,
-              then place the 3 corresponding Tentacle modles (taken from the board
+              then place the 3 corresponding Tentacle models (taken from the board
               or from the box) in the water areas of their choice on the board.
             </td>
           </tr>
@@ -2230,7 +2230,7 @@
       description: "<p>A relentless hail of arrows flies from the forest to crash
       upon the palisade of Fort Tuscelan. Hordes of naked silhouettes, covered in
       ritual paints, surround the fort. The Black River swarms with their canoes.</p>
-      <p>Howlings like wolves, hundreds of ferocious Picts surge from the edge of
+      <p>Howling like wolves, hundreds of ferocious Picts surge from the edge of
       the wood and begin an assault on the gates and the ramparts, defended under
       torchlight by Aquilonian soldiers.</p>
       <p>A group of warriors observes the scene from a distance. “Are we going to
@@ -2492,7 +2492,7 @@
         a <a class="tile" href="/tiles/18">Bossonian Guard</a> with a blue base.</p>
 
         <p><span class="special_title">Doors:</span>
-        A hero in an area adjacent to a door can perform a complex Manipluation
+        A hero in an area adjacent to a door can perform a complex Manipulation
         with a difficulty of 2 to pick the lock. If the hero succeeds, remove
         the door from the board. A hero can attack a door as though it were an
         enemy character. If a door would suffer 5 or more damage from an attack,
@@ -2527,7 +2527,7 @@
       overlord_victory: '',
 
       origin: "Stretch Goal",
-      product_ids: [1, 3],
+      product_ids: [1, 2, 3],
       map_ids: [5],
       hero_ids: [4, 7, 14],
       tile_ids: [1, 3, 16, 18, 19, 22, 23, 67],
@@ -2692,7 +2692,7 @@
       overlord_victory: '',
 
       origin: "Stretch Goal",
-      product_ids: [1, 3],
+      product_ids: [1, 2, 3],
       map_ids: [5],
       hero_ids: [7, 14, 20],
       tile_ids: [1, 2, 7, 8, 18, 23, 32, 33, 35 ],
@@ -2710,7 +2710,7 @@
       <p>Both were tall men, built like tigers. Their shields were gone, their corselets
       battered and dinted. Blood dried on their mail; their swords were stained red.
       Their horned helmets showed the marks of fierce strokes. One was beardless
-      and black-maned. The locks and beard of the other were red as the blood on
+      and black-manned. The locks and beard of the other were red as the blood on
       the sunlit snow.</p>
       <p>Robert E. Howard – The Frost-Giant’s Daughter.</p>
       <p>We all remember this classic scene, where Conan and his Aesir allies battle
@@ -2741,7 +2741,7 @@
         <a class="item" href="/items/13">Throwing Knives</a>,
         <a class="item" href="/items/17">Leather Armor</a>),
 
-        <br /><a class="hero" href="/heroes/1">Belit</a>
+        <br /><a class="hero" href="/heroes/1">Bêlit</a>
         (<a class="item" href="/items/10">Ornamental Spear</a>,
         <a class="item" href="/items/17">Leather Armor</a>),
 
@@ -2826,7 +2826,7 @@
         <p><span class="special_title">Aesir Warriors:</span>
         Only Niord can command his brethren allies. If <a class="hero" href="/heroes/34">Niord</a>
         dies, <a class="tile" href="/tiles/129">Aesir Warriors</a> no longer have
-        a reason to fight and retreat homewards. All Warrios are immediately removed
+        a reason to fight and retreat homewards. All Warriors are immediately removed
         from the game.</p>',
 
       hero_victory: '',
@@ -3150,7 +3150,7 @@
       cried. I’ll give their hearts to the wolves! You can not escape me –</p>
       <p>With a cry of fright she turned and ran fleetly. She did not laugh now,
       nor mock him over her white shoulder. She ran as for her life, and though
-      he strained every nerv e and thew, until his temples were like to burst and
+      he strained every nerve and thew, until his temples were like to burst and
       the snow swam red to his gaze, she drew away from him, dwindling in the
       witch-fire of the skies, until she was a figure no bigger than a child,
       then a dancing white flame on the snow, then a dim blur in the distance.
@@ -3248,7 +3248,7 @@
 
         <p><span class="special_title">Frost Armor:</span>
         During setup, place the Frost Armor token
-        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/FrostArmorToken.png" class="scen_setup">
+        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/FrostArmorToken.png" class="scen_token">
         on space 6 of the track sheet. This is used to track Atali’s Armor value
         during the game. Each time <a class="tile" href="/tiles/114">Atali</a>
         is hit by an attack, after suffering damage, move the Frost Armor down
@@ -3281,11 +3281,11 @@
 
         <p><span class="special_title">Escape Is the Only Option:</span>
         During setup, place the Escape token
-        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AtaliEscapeToken.png" class="scen_setup">
+        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AtaliEscapeToken.png" class="scen_token">
         on space 0 of the track sheet. Each turn <a class="hero" href="/heroes/2">Conan</a>
         does not attack <a class="tile" href="/tiles/114">Atali</a>, she gets
         away a little bit more: At the end of the hero’s turn, advance the Escape token
-        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AtaliEscapeToken.png" class="scen_setup">
+        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AtaliEscapeToken.png" class="scen_token">
         1 place. When the token reaches 4, <a class="tile" href="/tiles/114">Atali</a>
         gets away and the Overlord wins.</p>
 
@@ -3498,7 +3498,7 @@
         For each hero who died during the game.
         The heroes score 1 Victory Point:
         If the heroes win the game.
-        If the heroes successfully rob the doecuments.
+        If the heroes successfully rob the documents.
         If the heroes plant the false evidence. </p>',
 
       hero_victory: '',
@@ -3720,7 +3720,7 @@
 
       <p>Her encounter with a well-known Khitan sorcerer did not go as planned.
       Little inclined to share his knowledge, the crafty sorcerer poisoned the
-      Aquilonian witch and stole her spellbooks. Her traveling compainions reacted
+      Aquilonian witch and stole her spellbooks. Her traveling companions reacted
       promptly and tool her to the priests of Yun. Unfortunately, even they could
       not help her since the ingredients necessary to brew the remedy that might
       save her are hard to obtain.</p>
@@ -4075,7 +4075,7 @@
         <br /><br />
 
         For 4 heroes:
-        <br /><a class="hero" href="/heroes/1">Belit</a>
+        <br /><a class="hero" href="/heroes/1">Bêlit</a>
         (<a class="item" href="/items/12">Sword</a>),
         <br /><br />
         <table class="scen_table">
@@ -4313,7 +4313,7 @@
       <br /><br />
 
       For 4 heroes:
-      <br /><a class="hero" href="/heroes/1">Belit</a>
+      <br /><a class="hero" href="/heroes/1">Bêlit</a>
       (<a class="item" href="/items/12">Sword</a>).
       <br /><br />
       <table class="scen_table">
@@ -4360,7 +4360,7 @@
               Remove that token and attack that area; roll
               <img src="/assets/dice/Red.png" class="scen_sq_token" />
               <img src="/assets/dice/Red.png" class="scen_sq_token" />.
-              Chracters cannot defend against this attack and suffer damage
+              Characters cannot defend against this attack and suffer damage
               equal to the attack power.
             </td>
           </tr>
@@ -4620,7 +4620,7 @@
         All Argosseans have Protected. When an Argossean dies, its token is
         flipped faceup and discarded from the game.</p>
 
-        <p><span class="special_title">Buring Areas:</span>
+        <p><span class="special_title">Burning Areas:</span>
         When a character moves into an area with a flame token
         <img src="/assets/tokens/flameToken.png" class="scen_token" />, that
         character rolls 2 Red
@@ -4697,7 +4697,7 @@
       throughout Stygia so that the curse would never be broken. However, the
       three companions managed to discover that the artifacts have not yet been
       scattered by interrogating the priest of Set responsible for the malediction.
-      But the artifacts are well guraded and the only way to lift the curse is
+      But the artifacts are well guarded and the only way to lift the curse is
       to purify the three items by submerging them in the waters of the Styx.</p>
       <p>After ending the life of the Stygian priest, Ikhmet and his tow friends,
       Shevatas the Zamorian master-thief, and Conan the powerful Cimmerian warrior,
@@ -4886,7 +4886,7 @@
         form and the terror of the kingdom of Zamora. The peaceful alien is now
         looking for a magical gem that once belonged to his people, a jewel of
         crimson crystal called the Heart of the Elephant. Thanks to this fabulous
-        gem and the world it contains, he can be reincar- nated as Yogah of Yag
+        gem and the world it contains, he can be reincarnated as Yogah of Yag
         and end his days in peace as the last representative of his kind.</p>
         <p>However, Yara, who aspires to use the magical properties of the gem to
         enslave kings and fulfill his fiendish ambitions, has not been able to
@@ -5002,7 +5002,7 @@
       overlord_victory: '',
 
       origin: "Book of Set",
-      product_ids: [1, 8, 22],
+      product_ids: [1, 8],
       map_ids: [1],
       hero_ids: [27],
       tile_ids: [1, 3, 12, 15, 18, 19],
@@ -5160,7 +5160,7 @@
       overlord_victory: '',
 
       origin: "Book of Set",
-      product_ids: [1, 2, 3, 18, 22],
+      product_ids: [1, 2, 3, 18],
       map_ids: [6],
       hero_ids: [8],
       tile_ids: [1, 26, 29, 81, 86, 106],
@@ -5263,7 +5263,7 @@
         <a class="tile" href="/tiles/65">Kerim Shah</a> and
         <a class="tile" href="/tiles/61">Balthus</a> during
         the same hero’s turn. The Rebellion Level is each time decreased by 2
-        when Amboola,Kerim Shah or Balthus dies. The Rebellion Level is each time
+        when Amboola, Kerim Shah or Balthus dies. The Rebellion Level is each time
         decreased by 1, when
         <a class="hero" href="/heroes/12">Conan</a>
         picks up the <a class="item" href="/items/32">Axe</a>,
@@ -5339,7 +5339,7 @@
       overlord_victory: '',
 
       origin: "Book of Set",
-      product_ids: [1, 3, 22],
+      product_ids: [1, 3],
       map_ids: [4],
       hero_ids: [12],
       tile_ids: [1, 16, 18, 33, 60, 61, 65],
@@ -5357,7 +5357,7 @@
         the control of this rich region, without daring to launch into an open
         war.</p>
         <p>To put an end to the threat, the Aquilonian king decided to send an
-        army corps with at its head the barbarian of the North who un- derwent
+        army corps with at its head the barbarian of the North who underwent
         a dazzling ascent in his troops. However, the king underestimated the
         gravity of the threat, thinking only to be dealing with a group of
         cut-throats led by a renegade in search of redemption. Unless he took
@@ -5517,7 +5517,7 @@
       overlord_victory: '',
 
       origin: "Book of Set",
-      product_ids: [1, 3, 13, 22],
+      product_ids: [1, 2, 3, 13],
       map_ids: [5],
       hero_ids: [24],
       tile_ids: [1, 16, 18, 30, 60, 61, 68, 71, 74, 97 ],
@@ -5535,7 +5535,7 @@
         the Shemite devil, surrounded by a handful of her black buccaneers, has
         followed the priest through the sinister jungle in the hope of discovering
         a much more impressive bounty; she has the feeling that Hadrathus is
-        pursuing relics of immea- surable value.</p>
+        pursuing relics of immeasurable value.</p>
         <p>During his mystical research, Hadrathus has discovered that mirrors
         belonging to the wizard Tuzun Thune of ancient Valusia are still intact.
         They could help him call into question Reality as we know it, thus giving
@@ -5671,7 +5671,7 @@
       overlord_victory: '',
 
       origin: "Book of Set",
-      product_ids: [1, 20, 22],
+      product_ids: [1, 20],
       map_ids: [4],
       hero_ids: [1, 3],
       tile_ids: [1, 13, 108, 109, 110, 111],
@@ -5804,7 +5804,7 @@
       overlord_victory: '',
 
       origin: "Book of Set",
-      product_ids: [1, 3, 19, 22],
+      product_ids: [1, 3, 19],
       map_ids: [6],
       hero_ids: [10, 11],
       tile_ids: [1, 2, 17, 24, 29, 75, 86, 107],
@@ -5918,7 +5918,7 @@
         <p><span class="special_title">Skeletons:</span>
         When a <a class="tile" href="/tiles/90">Skeleton</a> dies, the Overlord
         lays the model down in its area instead of removing it from the board.
-        The model is no longer considered in play,cannot be activated, does not
+        The model is no longer considered in play, cannot be activated, does not
         count regarding occupied areas and when calculating hindering.</p>
 
         <p><span class="special_title">Reinforcement:</span>
@@ -5953,7 +5953,7 @@
       overlord_victory: '',
 
       origin: "Book of Set",
-      product_ids: [1, 2, 3, 22],
+      product_ids: [1, 2, 3],
       map_ids: [1],
       hero_ids: [3, 13],
       tile_ids: [1, 2, 44, 58, 84, 90, 91],
@@ -6065,7 +6065,7 @@
         previously found. The heroes can no longer sink the other ship.</p>
 
         <p><span class="special_title">Water Area:</span>
-        A model on a water area can still fight without penalty. Chracters with
+        A model on a water area can still fight without penalty. Characters with
         <a class="skill" href="/skills/13">Swimming</a> can move from one water
         area to the adjacent water for 1 extra movement point. A model (with or
         without <a class="skill" href="/skills/19">Climb</a>)on a water area can
@@ -6118,7 +6118,7 @@
       overlord_victory: '',
 
       origin: "Book of Set",
-      product_ids: [1, 10, 22],
+      product_ids: [1, 10],
       map_ids: [3],
       hero_ids: [30, 31],
       tile_ids: [1, 2, 7, 17, 31, 32, 33],
@@ -6302,7 +6302,7 @@
       overlord_victory: '',
 
       origin: "Book of Set",
-      product_ids: [1, 2, 3, 22],
+      product_ids: [1, 2, 3],
       map_ids: [1],
       hero_ids: [5, 10],
       tile_ids: [1, 6, 25, 29, 38, 75, 77, 86],
@@ -6315,7 +6315,7 @@
         the Sorcerer, a mighty mage of Koth’s court. Centenary codices, discovered
         in the pre-human ruins of the Dagoth hill, took him to Stygia on the trail
         of the fabulous gem called the Heart of Ahriman. Joining forces with an
-        old Aquilonian who, like him, wanted to find the artefact so as to shelter
+        old Aquilonian who, like him, wanted to find the artifact so as to shelter
         it; together they defeated vile servants of Set who haunted the forgotten
         tomb in which the Heart was buried.</p>
         <p>To regain Khorshemish, they boarded a merchant ship sailing towards Shem.
@@ -6327,7 +6327,7 @@
         <p>The captain’s exhortations to the crew are in vain. No maneuver will prevent
         the boarding. “We are lost, the Queen of the Black Coast gives no quarter.”
         At these words, one glance is enough for Pelias to indicate Zelata that
-        he has no choice but to use his most power- ful invocation, but also the
+        he has no choice but to use his most powerful invocation, but also the
         riskier one, so that all have a chance to defend the ship, as well as their
         lives.</p>",
       map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/The+Last+Ditch+Invocation.jpg',
@@ -6487,7 +6487,7 @@
       overlord_victory: '',
 
       origin: "Book of Set",
-      product_ids: [1, 2, 3, 22],
+      product_ids: [1, 2, 3],
       map_ids: [3],
       hero_ids: [11, 17],
       tile_ids: [1, 2, 13, 62, 66, 82, 88, 89, 92],
@@ -6514,7 +6514,7 @@
         <p>Gone mad by ten thousand years of an eternal life which is only an impious
         perversion, the fruit of Darkness and cosmic soiling; she launches into the
         complex invocation of a swamp demon. Seeking to extricate the monster from
-        the Land of Mists so that it mate- rializes here on earth to defeat Conan
+        the Land of Mists so that it materializes here on earth to defeat Conan
         and exterminate all the occupants of the tavern.</p>",
       map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/For+the+Blood+of+a+Barbarian.jpg',
       pdf_link: 'http://www.monolithedition.com/conan-en/for-the-blood-of-a-barbarian/',
@@ -6705,7 +6705,7 @@
           A character with or without <a class="skill" href="/skills/16">Leap</a>
           or <a class="skill" href="/skills/19">Climb</a> may move onto the Bar areas
           or a table area by spending 1 extra movement point. These areas provide
-          an Elevation bonus of 1 Yeloow
+          an Elevation bonus of 1 Yellow
           <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> die. A
           character in the bar’s area or in a table’s area, with or without
           Reach, may attack a character in an adjacent area with a Melee Attack.
@@ -6723,7 +6723,7 @@
       overlord_victory: '',
 
       origin: "Book of Set",
-      product_ids: [1, 3, 22],
+      product_ids: [1, 2, 3],
       map_ids: [2],
       hero_ids: [11, 17],
       tile_ids: [1, 16, 18, 19, 52, 53, 64, 72, 81],
@@ -6946,7 +6946,7 @@
       overlord_victory: '',
 
       origin: "Book of Set",
-      product_ids: [1, 2, 3, 22],
+      product_ids: [1, 2, 3],
       map_ids: [2],
       hero_ids: [6, 11, 17],
       tile_ids: [1, 16, 22, 30, 45, 49, 56, 76, 91],
@@ -6974,7 +6974,7 @@
         but he also knows that without solid evidence, it will be impossible for
         him to thwart the conspiracy officially. Thus, he decides to act directly
         and, with the help of a few acolytes, heads toward the inn where the
-        conspirators are ex- pected to meet, convinced that he will find evidence
+        conspirators are expected to meet, convinced that he will find evidence
         of their treachery.</p>",
       map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/Conspiracy+in+Khauran.jpg',
       pdf_link: 'http://www.monolithedition.com/conan-en/conspiracy-in-khauran/',
@@ -7105,7 +7105,7 @@
       overlord_victory: '',
 
       origin: "Book of Set",
-      product_ids: [1, 15, 22],
+      product_ids: [1, 15],
       map_ids: [2],
       hero_ids: [1, 2, 3],
       tile_ids: [1, 3, 18, 101, 102, 103],
@@ -7276,7 +7276,7 @@
       overlord_victory: '',
 
       origin: "Book of Set",
-      product_ids: [1, 8, 20, 22],
+      product_ids: [1, 8, 20],
       map_ids: [4],
       hero_ids: [2, 3, 27],
       tile_ids: [1, 23, 108, 109, 110, 111],
@@ -7457,7 +7457,7 @@
       overlord_victory: '',
 
       origin: "Book of Set",
-      product_ids: [1, 3, 17, 22],
+      product_ids: [1, 3, 17],
       map_ids: [1],
       hero_ids: [14, 18, 19],
       tile_ids: [1, 6, 25, 28, 29, 86, 105],
@@ -7477,13 +7477,13 @@
       to supply the Zamorian brothels or the Turanian seraglios with the young
       women he succeeds in abducting.</p>
       <p>Pelias knows that unfortunately he cannot solicit the King’s help in this
-      matter, for the monarch is a miser in terms of men and mo- ney and as such
+      matter, for the monarch is a miser in terms of men and money and as such
       he has some consideration for Constantius who executes all his dirty works
       at the cheapest price possible. This is why the magician has decided to act
       by himself, to both help his faithful defender in finding his sweetheart
       and punish the human being trafficker.</p>
       As the group arrives at the gates of the citadel, he is tackled by a large
-      gray ape, obviously trained by Constantius, who uses its su- perhuman strength
+      gray ape, obviously trained by Constantius, who uses its superhuman strength
       to throw kegs filled with pitch at them. </p>",
       map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/An+Ape+Several+Kegs+and+a+Girl.jpg',
       pdf_link: 'http://www.monolithedition.com/conan-en/an-ape-several-kegs-and-a-girl/',
@@ -7663,7 +7663,7 @@
       overlord_victory: '',
 
       origin: "Book of Set",
-      product_ids: [1, 3, 22],
+      product_ids: [1, 3],
       map_ids: [5],
       hero_ids: [1, 10, 11, 18],
       tile_ids: [1, 18, 32, 54, 55, 80, 89],
@@ -7815,7 +7815,7 @@
         <a class="tile" href="/tiles/17">Bossonian Guard</a>. When a hero has
         line of sight to an area containing a Cell token, the hero flips that
         token faceup. If a token numbered 2 or 3 is revealed, the Cell token is
-        replaced by a Bosso- nian Guard model without a colored base. If a token
+        replaced by a Bossonian Guard model without a colored base. If a token
         with the number 1 is revealed, the Cell token is replaced by the Captain
         model. The Bossonian Guard and Captain models are considered as heroes’
         allies. The heroes can activate them using their Leadership skill.</p>
@@ -7857,7 +7857,7 @@
       overlord_victory: '',
 
       origin: "Book of Set",
-      product_ids: [1, 3, 12, 22],
+      product_ids: [1, 3, 12],
       map_ids: [5],
       hero_ids: [9, 12, 18, 20],
       tile_ids: [1, 3, 17, 18, 30, 33, 35, 96],
@@ -8140,7 +8140,7 @@
       overlord_victory: '',
 
       origin: "Book of Set",
-      product_ids: [1, 3, 22],
+      product_ids: [1, 2, 3],
       map_ids: [1, 5],
       hero_ids: [22, 23, 24, 21],
       tile_ids: [1, 17, 18, 30, 63, 68, 69, 71, 87],
@@ -8375,7 +8375,7 @@
       overlord_victory: '',
 
       origin: "Book of Set",
-      product_ids: [1, 2, 3, 22],
+      product_ids: [1, 2, 3],
       map_ids: [4],
       hero_ids: [9, 13, 15, 19],
       tile_ids: [1, 33, 40, 41, 44, 50, 59, 73, 78, 79],
@@ -8593,7 +8593,7 @@
       overlord_victory: '',
 
       origin: "Book of Set",
-      product_ids: [1, 3, 22],
+      product_ids: [1, 3],
       map_ids: [2],
       hero_ids: [9, 12, 16, 21],
       tile_ids: [1, 18, 19, 30, 33, 57, 70],
@@ -8617,7 +8617,7 @@
       is looking for the merchant Publio. This Argosian, with whom Conan has often
       dealt in the past, is always aware of everything that happens in Messantia
       and he has no problem in dealing with, even the most detestable, bandits.</p>
-      <p>Publio can usally be found as the Silver Swordfish tavern, a cheap
+      <p>Publio can usually be found as the Silver Swordfish tavern, a cheap
       eating-house that also serves as his office. When the Cimmerian and his
       companions cross the front door, they come across an unexpected sight. The
       establishment is full of watch soldiers. Publio is there as expected, but
@@ -8667,7 +8667,7 @@
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
             <td>
-              When an event tile is activated the Overlord resolves any one of the folowing events:<br />
+              When an event tile is activated the Overlord resolves any one of the following events:<br />
               <span class="setup_suggestion">Fire at will:</span> Each unit may
               perform a Ranged Attack if able.<br />
               <span class="setup_suggestion">Forced march:</span> The Overlord
@@ -8698,7 +8698,7 @@
       special_rules: '
         <p><span class="special_title">Release the informant:</span>
           The informant is represented by the token <img src="/assets/tokens/numBackToken.png" class="scen_token" />.
-          If at the end of a heros turn there is at least one hero in the same area
+          If at the end of a heroes’ turn there is at least one hero in the same area
           as the informant and there is no Overlord model in that area, then the
           heroes release the informant and get the information they require. Neither
           side can kill the informant and he cannot move.</p>
@@ -8733,7 +8733,7 @@
             Alliance”</strong>.</p>',
 
       origin: "Legend of the Devil in Iron",
-      product_ids: [1, 3, 21],
+      product_ids: [1, 2, 3, 21],
       map_ids: [2],
       hero_ids: [5, 6, 8, 19],
       tile_ids: [1, 3, 15, 17, 18, 20, 22],
@@ -8745,7 +8745,7 @@
       description: "<p>After a short sea voyage aboard a merchant ship, Conan and
       his companions finally land in Kordava, the capital of the kingdom of Zingara
       and listed among the most sumptuous ports of the western nations.</p>
-      <p>After paying a rather hefty sum, the Cimmerianhas obtained permission from
+      <p>After paying a rather hefty sum, the Cimmerian has obtained permission from
       the city’s Provost Marshal to visit Arvad, who is being held in prison for
       theft and smuggling. Once behind the massive walls that separates the prison
       from the rest of the city, the mercenaries must leave their weapons at the
@@ -8805,7 +8805,7 @@
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
             <td>
-              When an event tile is activated the Overlord resolves any one of the folowing events:<br />
+              When an event tile is activated the Overlord resolves any one of the following events:<br />
               <span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" /><br />
               <span class="setup_suggestion">Fire at will:</span> Each unit may perform
@@ -8875,7 +8875,7 @@
 
       hero_victory: '
         <p><span class="special_title">Heroes’ Victory:</span>
-                Conan has succeded in punishing the traitor and escaping from the
+                Conan has succeeded in punishing the traitor and escaping from the
                 trap that was closing in on him. With his companions, they are now
                 out of reach of the Zingaran soldiers and ride towards the east in
                 order to join the Road of Kings.</p>
@@ -8896,7 +8896,7 @@
                 Shaman”</strong>.</p>',
 
       origin: "Legend of the Devil in Iron",
-      product_ids: [1, 3, 21],
+      product_ids: [1, 2, 3, 21],
       map_ids: [5],
       hero_ids: [5, 6, 8, 19],
       tile_ids: [1, 2, 3, 15, 18, 22, 23, 55],
@@ -8916,7 +8916,7 @@
         desolate west coast stretches for a thousand miles and is only populated
         by coastal villages of ferocious tribes.</p>
         <p>After having disembarked at Kordava, the sumptuous capital of Zingara,
-        and haveing made an exhausting journey of several days through the Pictish
+        and having made an exhausting journey of several days through the Pictish
         Wilderness; Conan and his men finally arrive at the edge of the village
         indicated in the letter. A few hours of careful surveillance enable them
         to see that several foreigners are lodging there with the painted devils;
@@ -8953,7 +8953,7 @@
       information to flee. If they succeed, the Overlord immediately wins the game.
       If the lieutenant with the information does not flee and if the heroes haven’t
       managed to find the information or if the hero with the information hasn’t
-      manged to flee at the end of turn 8; the Overlord wins the game.",
+      managed to flee at the end of turn 8; the Overlord wins the game.",
 
       overlord_setup: '
         <table class="scen_table">
@@ -8968,7 +8968,7 @@
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
             <td>
-              When an event tile is activated the Overlord resolves any one of the folowing events:<br />
+              When an event tile is activated the Overlord resolves any one of the following events:<br />
               <span class="setup_suggestion">Reinforcement:</span> 3 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" /><br />
               <span class="setup_suggestion">Tactical move:</span> The Overlord
@@ -9068,7 +9068,7 @@
               Shaman”</strong>.</p>',
 
       origin: "Legend of the Devil in Iron",
-      product_ids: [1, 3, 21],
+      product_ids: [1, 2, 3, 21],
       map_ids: [1],
       hero_ids: [5, 6, 8, 19],
       tile_ids: [1, 3, 26, 28, 52, 65, 79, 87],
@@ -9087,9 +9087,9 @@
         high priest of the snake-god Set.</p>
         <p>After several hours of extremely demanding progress in infernal heat
         through a marshy area overgrown with mangroves and lianas, and infested with
-        smakes and crocodiles, the mercenaries come across the ruin of an ancient
+        snakes and crocodiles, the mercenaries come across the ruin of an ancient
         mausoleum concealed beneath the luxuriant vegetation. Scarcely have they
-        crossed the entrance of the edifice when a ferverish-looking Stygian comes
+        crossed the entrance of the edifice when a feverish-looking Stygian comes
         out to meet them, “What are you doing here? No one knows the existence of
         this place!”</p>
         <p>An icy flash passes through the azure eyes of the Cimmerian, “Your
@@ -9143,7 +9143,7 @@
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
             <td>
-              When an event tile is activated the Overlord resolves any one of the folowing events:<br />
+              When an event tile is activated the Overlord resolves any one of the following events:<br />
               <span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" /> (see Special Rules).<br />
               <span class="setup_suggestion">Appearance of the Dark Demon:</span> see Special Rules.
@@ -9206,7 +9206,7 @@
           model is placed in the area marked
           <img src="/assets/tokens/area2Token.png" class="scen_token" /> and the
           Overlord places the Dark Demon’s Life Point marker
-          <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/DarkDemonToken.png" class="scen_setup">
+          <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/DarkDemonToken.png" class="scen_token">
           on the position “8” of the turn track.</p>
 
         <p><span class="special_title">Pictish Drink:</span>
@@ -9315,7 +9315,7 @@
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
             <td>
-              When an event tile is activated the Overlord resolves any one of the folowing events:<br />
+              When an event tile is activated the Overlord resolves any one of the following events:<br />
               <span class="setup_suggestion">Reinforcement:</span> 3 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" />.<br />
               <span class="setup_suggestion">At your command:</span> The Overlord can
@@ -9380,7 +9380,7 @@
         to the heroes’ side or the Overlord’s side. If the Bone Golum is still alive
         at the end of the scenario, DO NOT check its name on the Overlord’s Campaign
         Log. During setup, the Overlord places the Bone Golem’s Life Point marker .
-        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BoneGolemToken.png" class="scen_setup">
+        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BoneGolemToken.png" class="scen_token">
         on the position “8” of the turn track.</p>
 
         <p><span class="special_title">Chests:</span>
@@ -9424,7 +9424,7 @@
 
     # 6 The Mad Shaman
     { name: "The Mad Shaman",
-      description: "<p>Exausted, the mercenaries have finished by shaking off their
+      description: "<p>Exhausted, the mercenaries have finished by shaking off their
         pursuers, but they have sunk deep into Pictish territory, into the wild
         virgin lands far removed from civilization.</p>
         <p>Conan’s instinct and his unrivalled tracking skills have saved the group
@@ -9446,7 +9446,7 @@
       player_count: "5 Campaign",
       complexity: "",
 
-      hero_goal: "If before the end of turn 7, Zogar Sag has not succeded in destroying
+      hero_goal: "If before the end of turn 7, Zogar Sag has not succeeded in destroying
       the village, or he has been killed by the heroes; the heroes win the game.",
 
       hero_setup: '<p>The game starts with the heroes’ turn.</p>
@@ -9467,7 +9467,7 @@
           </tr>
         </table>',
 
-      overlord_goal: "If Zogar Sag has succeded in destroying the village before
+      overlord_goal: "If Zogar Sag has succeeded in destroying the village before
       the end of turn 7; the Overlord wins.",
 
       overlord_setup: '
@@ -9523,7 +9523,7 @@
         pillar supporting the village. When Zogar Sag is in a
         <img src="/assets/tokens/numBackToken.png" class="scen_token" /> token’s
         area, he can use his attack to destroy that pillar. The Overlord does not
-        roll the dice (the attack is an automatic sucess) and removes that
+        roll the dice (the attack is an automatic success) and removes that
         <img src="/assets/tokens/numBackToken.png" class="scen_token" /> token
         from the board. When the Overlord destroys the fifth pillar, the village
         collapses and it is engulfed by the swamp.</p>
@@ -9545,7 +9545,7 @@
         <p><span class="special_title">Heroes’ Victory:</span>
           After killing the shaman and making sure that there was no one else after
           them Conan decides to return to the coast. To wander any longer in this
-          immense hostile forest seems suicidal. The Cimmerian would perfer to die
+          immense hostile forest seems suicidal. The Cimmerian would prefer to die
           by trying his luck against the coastal tribes rather than between the
           teeth of a horror hidden in the shadows.</p>
           <p><strong>The heroes’ side earns 1 victory point.</strong></p>
@@ -9556,7 +9556,7 @@
         <p><span class="special_title">Overlord’s Victory:</span>
           The mercenaries manage to narrowly escape from the cursed village and Conan
           decides to quickly return to the coast. To wander any longer in this
-          immense hostile forest seems suicidal. The Cimmerian would perfer to die
+          immense hostile forest seems suicidal. The Cimmerian would prefer to die
           by trying his luck against the coastal tribes rather than between the
           teeth of a horror hidden in the shadows. </p>
           <p><strong>The Overlord’s side earns 1 victory point.</strong></p>
@@ -9564,7 +9564,7 @@
           Never Died”</strong>.</p>',
 
       origin: "Legend of the Devil in Iron",
-      product_ids: [1, 3, 21],
+      product_ids: [1, 2, 3, 21],
       map_ids: [6],
       hero_ids: [5, 6, 8, 19],
       tile_ids: [1, 2, 6, 42, 44, 47],
@@ -9589,7 +9589,7 @@
           assailants who succeed in getting over the walls. A system of levers to be
           activated makes it possible to block the different levels of the building.</p>
         <p>Conan seizes his chance. As the men of Constantius are too many in number,
-        causing building to collapse could offer the Cimmerian a possiblity to approach
+        causing building to collapse could offer the Cimmerian a possibility to approach
         the Falcon more easily in order to question him about Flavia.</p>",
       map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/The+Crooks+Hideout.jpg',
       pdf_link: '',
@@ -9697,7 +9697,7 @@
         moment when the first lever is activated. The Giant Scorpion Unit tile takes
         the last position in the river. The Overlord places the Giant Scorpion’s
         Life Point marker
-        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/GiantScorpion.png" class="scen_setup">
+        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/GiantScorpionToken.png" class="scen_token">
         on the position “6” of the turn track. The scorpion can freely get out of the pit.</p>
 
         <p><span class="special_title">Poison:</span>
@@ -9738,13 +9738,13 @@
         <p><span class="special_title">Overlord’s Victory:</span>
           As Constantius escapes, he reveals with a sardonic laugh that the princesses
           was sold to a man named Khosatral Khel, but it is too late to help her.
-          Disapointed, the mercenaries decided to return west in search of new clues.</p>
+          Disappointed, the mercenaries decided to return west in search of new clues.</p>
           <p><strong>The Overlord’s side earns 1 victory point.</strong></p>
           <p>The next scenario to be played is scenario 9, <strong>“The Woman Who
           Never Died”</strong>.</p>',
 
       origin: "Legend of the Devil in Iron",
-      product_ids: [1, 3, 21],
+      product_ids: [1, 2, 3, 21],
       map_ids: [5],
       hero_ids: [5, 6, 8, 19],
       tile_ids: [1, 15, 16, 18, 19, 22, 54],
@@ -9762,9 +9762,9 @@
         suede loincloths with feathers stuck in their black mane of hair. Fortunately
         for Conan, the progress of the Picts is greatly slowed by the weight of the
         objects they carry, overloaded with trunks and chests to be carried without
-        carts through the dense and untame forest.</p>
+        carts through the dense and untamed forest.</p>
         <p>The convoy is quickly caught up as it passes through a small ancient
-        village perchased on stilts. One of the chests immediately attracts the
+        village perched on stilts. One of the chests immediately attracts the
         attention of the Cimmerian giant, because it is particularly voluminous and
         manipulated very carefully by the painted warriors. It can only be the chest
         Constantius described.</p>
@@ -9800,7 +9800,7 @@
           </tr>
         </table>',
 
-      overlord_goal: "If the heroes have not succeded in escaping the swamp with
+      overlord_goal: "If the heroes have not succeeded in escaping the swamp with
       the sarcophagus at the end of turn 8; the Overlord wins.",
 
       overlord_setup: '
@@ -9816,7 +9816,7 @@
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
             <td>
-              When an event tile is activated the Overlord resolves any one of the folowing events:<br />
+              When an event tile is activated the Overlord resolves any one of the following events:<br />
               <span class="setup_suggestion">Reinforcement:</span> 3 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" />.<br />
               <span class="setup_suggestion">Fire at will:</span> Each unit may
@@ -9852,7 +9852,7 @@
 
       special_rules: '
         <p><span class="special_title">Carrying the sarcophagus:</span>
-        During setup, the Overlord places the sarcophagus minature in the area
+        During setup, the Overlord places the sarcophagus miniature in the area
         <img src="/assets/tokens/area2Token.png" class="scen_token" /> of the board
         as indicated by the setup diagram. A hero in the sarcophagus’ area can carry
         it by performing a simple Manipulation. Several heroes can carry the
@@ -9912,7 +9912,7 @@
           from the abyss”</strong>.</p>',
 
       origin: "Legend of the Devil in Iron",
-      product_ids: [1, 3, 21],
+      product_ids: [1, 2, 3, 21],
       map_ids: [6],
       hero_ids: [5, 6, 8, 19],
       tile_ids: [1, 25, 26, 29, 56, 85],
@@ -9930,7 +9930,7 @@
         <p>The Cimmerian emerges into a vast room with walls made of polished black
         marble arches and furnished in the style of Ancient Stygians. The place is
         lit by a candelabrum with black candles; the atmosphere oozes evil and
-        perversion. There, an imposing monolith as black as the room stands wirh a
+        perversion. There, an imposing monolith as black as the room stands with a
         text engraved at its center.</p>
         <p>(See page x The Legend of the Devil in Iron)</p>
         <p>A young girl with a voluptuous body and ivory-like skin stands at the
@@ -9984,7 +9984,7 @@
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
             <td>
-              When an event tile is activated the Overlord resolves any one of the folowing events:<br />
+              When an event tile is activated the Overlord resolves any one of the following events:<br />
               <span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" />.<br />
               <span class="setup_suggestion">Fire at will:</span> Each unit may
@@ -10082,7 +10082,7 @@
           from the abyss”</strong>.</p>',
 
       origin: "Legend of the Devil in Iron",
-      product_ids: [1, 3, 21],
+      product_ids: [1, 2, 3, 21],
       map_ids: [4],
       hero_ids: [5, 6, 8, 19],
       tile_ids: [1, 15, 17, 18, 22, 53],
@@ -10098,15 +10098,15 @@
         <p>Conan, concealed beneath the thick vegetation on top of a cliff, observes
         the tribal village below. There, the Picts are busy sorting out and storing
         many objects and equipment from all over the continent; Steel weapons, finery
-        and embroidered faberics as well as the wine of which they are particularly
+        and embroidered fabrics as well as the wine of which they are particularly
         fond.</p>
         <p>The presence of a stranger attracts the attention of the Cimmerian. A man
         with a thin body and strong bone structure, his pale complexion and reserved
         air as well as his getup leave little room for doubt; he is a sorcerer from
         Hyperborea. One of the chests seems to be the center of his attention while
         he performs a strange ritual.</p>
-        <p>The contents of the chest must be of inestimale value to be subjected to
-        what Conan interprets as a poweful magical protection spell. The formidable
+        <p>The contents of the chest must be of inestimable value to be subjected to
+        what Conan interprets as a powerful magical protection spell. The formidable
         warrior, determined to find out, establishes a quick plan of attack to get
         his hands on its contents.</p>
         <p>However, while an average person could never detect the presence of Conan’s
@@ -10118,7 +10118,7 @@
       complexity: "",
 
       hero_goal: "If the heroes manage to place the colored orbs in the correct position
-      on thier recepticles before the end of turn 8 to prevent the destruction of the
+      on their receptacles before the end of turn 8 to prevent the destruction of the
       mysterious chest; the heroes win the game.",
 
       hero_setup: '<p>The game starts with the heroes’ turn.</p>
@@ -10195,14 +10195,14 @@
       life8: 0,
 
       special_rules: '
-        <p><span class="special_title">Orbs and recepticles:</span>
+        <p><span class="special_title">Orbs and receptacles:</span>
         During setup, the Overlord places the three unnumbered Orb cards on the
-        central area, and places the 1 2, and 3 tokens representing the recepticles
+        central area, and places the 1 2, and 3 tokens representing the receptacles
         in the huts as indicated by the setup diagram.<br />
         The Overlord then takes the numbered Orb cards and secretly selects one
         card of each color with a different number on each card. The Overlord ends
         up with 3 Orb cards with different colors and numbers. These 3 cards indicate
-        the recepticle on which the heroes must place the corresponding orbs to
+        the receptacle on which the heroes must place the corresponding orbs to
         prevent the destruction of the mysterious chest. The selected cards are
         placed facedown near the Overlord. The remaining six Orb cards are shuffled
         and form the Orb card deck.</p>
@@ -10212,9 +10212,9 @@
 
         <p><span class="special_title">Opening the mysterious chest:</span>
         Picking up and dropping an orb is a simple Manipulation. When an orb is
-        dropped in the same area as recepticle, the Overlord indicates whether the
+        dropped in the same area as receptacle, the Overlord indicates whether the
         orb is correctly placed or not. An orb is correctly placed if the color of
-        the orb and the number of the recepticle corresponds to the color of the orb
+        the orb and the number of the receptacle corresponds to the color of the orb
         and the number written on one of the Orb cards set aside by the Overlord
         during setup.<br />
         If it is, the Overlord flips faceup the corresponding Orb card. Then the
@@ -10228,7 +10228,7 @@
         During setup, the Overlord places 6 chests on the board as indicated by
         the setup diagram. Each time a hero opens a chest, that chest token is
         discarded and that hero draws a card from the Orb deck. This helps the heroes
-        to eliminate the wrong combinations of orbs and recepticles.<p>',
+        to eliminate the wrong combinations of orbs and receptacles.<p>',
 
       hero_victory: '
         <p><span class="special_title">Heroes’ Victory:</span>
@@ -10243,7 +10243,7 @@
       overlord_victory: '
         <p><span class="special_title">Overlord’s Victory:</span>
           The mercenaries did not manage to open the enchanted chest, but Conan
-          nevertheless manged to seize documents that could only have come from
+          nevertheless managed to seize documents that could only have come from
           civilized countries. As his men walk through the Pictish Wilderness to
           reach Zingara, the Cimmerian warrior discovers and ancient parchment
           revealing the true nature of Khosatral Khel..</p>
@@ -10253,7 +10253,7 @@
           from the abyss”</strong>.</p>',
 
       origin: "Legend of the Devil in Iron",
-      product_ids: [1, 3, 21],
+      product_ids: [1, 2, 3, 21],
       map_ids: [1],
       hero_ids: [5, 6, 8, 19],
       tile_ids: [1, 24, 25, 28, 56, 85],
@@ -10272,12 +10272,12 @@
       </p>
         <p>On the third day of navigation, the look-out shouts a cry of alarm. A brig,
         flying the black flag, has taken chase. As Conan deploys full sail in a bid to
-        escape, a whirlpool froms under the ship, and they are soon hindered by a
+        escape, a whirlpool forms under the ship, and they are soon hindered by a
         colossal form. Horrifying tentacles emerge from the waves and whip against
         the deck, while a gigantic mass from the dawn of time looms from the water.
         Conan and his companions prepare to face the indescribable creature when the
         enemy approaches.</p>
-        <p>In the middle of the shouting prirates all waving their cutlasses stands
+        <p>In the middle of the shouting pirates all waving their cutlasses stands
         a man who seems to have nothing in common with the rest of the crew. He is
         dressed in an Oriental fashion and seems to be chanting a sinister incantation.
         Conan quickly understands that the monster’s appearance is the result of black
@@ -10326,7 +10326,7 @@
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
             <td>
-              When an event tile is activated the Overlord resolves any one of the folowing events:<br />
+              When an event tile is activated the Overlord resolves any one of the following events:<br />
               <span class="setup_suggestion">Reinforcement:</span> 3 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" /> (see Special Rules).<br />
               <span class="setup_suggestion">Tentacle Movement:</span> The Overlord can
@@ -10372,7 +10372,7 @@
       special_rules: '
         <p><span class="special_title">Thaug:</span>
         During setup, the Overlord places the Thaug model as indicated by the setup
-        diagram, straddling the two areas to the East. These two areas are consided
+        diagram, straddling the two areas to the East. These two areas are considered
         occupied. For this scenario Thaug has no life points and cannot be the
         target of an attack. There is no Unit tile for Thaug in the scenario.</p>
 
@@ -10404,7 +10404,7 @@
         cost any extra movement points and does not require any particular skill.</p>
 
         <p><span class="special_title">Water Area:</span>
-        A model on a water area can still fight without penalty. Chracters with
+        A model on a water area can still fight without penalty. Characters with
         <a class="skill" href="/skills/13">Swimming</a> can move from one water
         area to the adjacent water for 1 extra movement point. A model (with or
         without <a class="skill" href="/skills/19">Climb</a>)on a water area can
@@ -10441,7 +10441,7 @@
           Dagger”</strong>.</p>',
 
       origin: "Legend of the Devil in Iron",
-      product_ids: [1, 3, 21],
+      product_ids: [1, 2, 3, 21],
       map_ids: [3],
       hero_ids: [5, 6, 8, 19],
       tile_ids: [1, 11, 30, 33, 57, 93, 95],
@@ -10461,8 +10461,8 @@
         him predict danger even before the lookout shouts the bad news. It's the
         Vandal, the ship of Zaporavo, the Zingaran renegade. Collision is unavoidable.
         Soon, bodies fall pierced by the arrows raining down. Under the roar of Conan,
-        the sailors seize their weapons to courageoulsy face their enemies.</p>
-        <p>On the deck of the enemy ship, a seemingly oreiental sorcerer chants
+        the sailors seize their weapons to courageously face their enemies.</p>
+        <p>On the deck of the enemy ship, a seemingly oriental sorcerer chants
         sinister incantations. immediately a whirlpool is formed under the keel of
         Conan’s galleon, and Horrifying tentacles emerge from the waves, while a
         gigantic mass from the dawn of time looms from the water. The situation
@@ -10508,7 +10508,7 @@
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
             <td>
-              When an event tile is activated the Overlord resolves any one of the folowing events:<br />
+              When an event tile is activated the Overlord resolves any one of the following events:<br />
               <span class="setup_suggestion">Reinforcement:</span> 3 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" /> (see Special Rules).<br />
               <span class="setup_suggestion">Tentacle Movement:</span> The Overlord can
@@ -10548,11 +10548,11 @@
       special_rules: '
         <p><span class="special_title">Thaug:</span>
         During setup, the Overlord places the Thaug model as indicated by the setup
-        diagram, straddling the two areas to the East. These two areas are consided
+        diagram, straddling the two areas to the East. These two areas are considered
         occupied. The Overlord places Thaug’s Life Point marker
         <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ThaugToken.png"
-        class="scen_setup"> on position “12” of the turn track. Thaug can only be
-        wonded with the help of kegs of pitch. There is no Unit tile for Thaug in
+        class="scen_token"> on position “12” of the turn track. Thaug can only be
+        wounded with the help of kegs of pitch. There is no Unit tile for Thaug in
         the scenario.</p>
 
         <p><span class="special_title">Kegs of Pitch:</span>
@@ -10591,7 +10591,7 @@
         cost any extra movement points and does not require any particular skill.</p>
 
         <p><span class="special_title">Water Area:</span>
-        A model on a water area can still fight without penalty. Chracters with
+        A model on a water area can still fight without penalty. Characters with
         <a class="skill" href="/skills/13">Swimming</a> can move from one water
         area to the adjacent water for 1 extra movement point. A model (with or
         without <a class="skill" href="/skills/19">Climb</a>)on a water area can
@@ -10629,7 +10629,7 @@
           Dagger”</strong>.</p>',
 
       origin: "Legend of the Devil in Iron",
-      product_ids: [1, 3, 21],
+      product_ids: [1, 2, 3, 21],
       map_ids: [3],
       hero_ids: [5, 6, 8, 19],
       tile_ids: [1, 7, 30, 57, 89, 93, 95],
@@ -10646,14 +10646,14 @@
         he hopes to get his hands on the magic dagger. The captain is frank with
         him; he will not wait for them, because Jehungir Agha, Lord of Khawarism
         and the vassal of the powerful king Yezdigerd of Turan, has launched his
-        fleet in a vast prirate hunt.</p>
-        <p>After a few days of travel, a strange whirlpool froms under the ship’s
+        fleet in a vast pirate hunt.</p>
+        <p>After a few days of travel, a strange whirlpool forms under the ship’s
         keel and the galleon is hindered by a colossal form. Horrific tentacles
         spring forth whipping against the deck, bending and cracking the vessel as
         a gigantic mass from the dawn of time looms from the water. Conan and his
         companions prepare to face the indescribable creature when a brig appears
         alongside the mercenaries.</p>
-        <p>On the deck of the enemy’s ship, the the midst of the screaming pirates
+        <p>On the deck of the enemy’s ship, in the midst of the screaming pirates
         brandishing their sabers, stands a man who looks nothing like a sailor. He
         is dressed in an Oriental fashion and shouts out to the Cimmerian barbarian,
         “Contemplate the forces of the invisible kingdoms, for you will soon become
@@ -10698,7 +10698,7 @@
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
             <td>
-              When an event tile is activated the Overlord resolves any one of the folowing events:<br />
+              When an event tile is activated the Overlord resolves any one of the following events:<br />
               <span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" /> (see Special Rules).<br />
               <span class="setup_suggestion">Tentacle Movement:</span> The Overlord can
@@ -10738,10 +10738,10 @@
       special_rules: '
         <p><span class="special_title">Thaug:</span>
         During setup, the Overlord places the Thaug model as indicated by the setup
-        diagram, straddling the two areas to the East. These two areas are consided
+        diagram, straddling the two areas to the East. These two areas are considered
         occupied. The Overlord places Thaug’s Life Point marker
         <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ThaugToken.png"
-        class="scen_setup"> on position “12” of the turn track. When Thaug is attacked,
+        class="scen_token"> on position “12” of the turn track. When Thaug is attacked,
         its Armor Value is equal to the number of tentacle models on the board at the
         moment of the attack. There is no Unit tile for Thaug in the scenario.</p>
 
@@ -10764,7 +10764,7 @@
         cost any extra movement points and does not require any particular skill.</p>
 
         <p><span class="special_title">Water Area:</span>
-        A model on a water area can still fight without penalty. Chracters with
+        A model on a water area can still fight without penalty. Characters with
         <a class="skill" href="/skills/13">Swimming</a> can move from one water
         area to the adjacent water for 1 extra movement point. A model (with or
         without <a class="skill" href="/skills/19">Climb</a>)on a water area can
@@ -10793,7 +10793,7 @@
 
       overlord_victory: '
         <p><span class="special_title">Overlord’s Victory:</span>
-          Although the horrible creature has litteraly crushed Conan’s galleon and
+          Although the horrible creature has literally crushed Conan’s galleon and
           the sailors have been thrown into the sea, the mercenaries manage to
           escape by clinging to pieces of the wreckage. Helped by the favorable
           currents and nightfall they manage to reach the coast without Khemsa
@@ -10804,7 +10804,7 @@
           Dagger”</strong>.</p>',
 
       origin: "Legend of the Devil in Iron",
-      product_ids: [1, 3, 21],
+      product_ids: [1, 2, 3, 21],
       map_ids: [3],
       hero_ids: [5, 6, 8, 19],
       tile_ids: [1, 2, 30, 57, 89, 93, 95],
@@ -10839,7 +10839,7 @@
       player_count: "5 Campaign",
       complexity: "",
 
-      hero_goal: "If a hero flees the swamp with the Yuetshi dagger before the
+      hero_goal: "If a hero flees the swamp with the Yuetshi Knife before the
       end of turn 7; the heroes win the game.",
 
       hero_setup: '<p>The game starts with the heroes’ turn.</p>
@@ -10861,7 +10861,7 @@
         </table>',
 
       overlord_goal: "If the Overlord prevents the heroes from fleeing the swamp
-      with the Yuetshi dagger by the end of turn 7; the Overlord wins.",
+      with the Yuetshi Knife by the end of turn 7; the Overlord wins.",
 
       overlord_setup: '
         <table class="scen_table">
@@ -10876,7 +10876,7 @@
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
             <td>
-              When an event tile is activated the Overlord resolves any one of the folowing events:<br />
+              When an event tile is activated the Overlord resolves any one of the following events:<br />
               <span class="setup_suggestion">Reinforcement:</span> 5 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" />.<br />
               <span class="setup_suggestion">Fire at will:</span> Each unit may perform a Ranged Attack if able.
@@ -10917,43 +10917,40 @@
       life8: 8,
 
       special_rules: '
-        <p><span class="special_title">Thaug:</span>
-        During setup, the Overlord places the Thaug model as indicated by the setup
-        diagram, straddling the two areas to the East. These two areas are consided
-        occupied. The Overlord places Thaug’s Life Point marker
-        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ThaugToken.png"
-        class="scen_setup"> on position “12” of the turn track. When Thaug is attacked,
-        its Armor Value is equal to the number of tentacle models on the board at the
-        moment of the attack. There is no Unit tile for Thaug in the scenario.</p>
+        <p><span class="special_title">Yuetshi Knife:</span>
+        During setup and before the heroes deploy, the Overlord decides where in
+        the swamp the knife has been thrown. The Overlord secretly notes on a piece
+        of paper the number between 1 and 10 corresponding to the area of the board
+        containing the knife. The <a class="item" href="/items/15">Yuetshi knife</a>
+        lowers the Armor Value of <a class="tile" href="/tiles/10">Khosatral Khel</a>
+        to 3.</p>
 
-        <p><span class="special_title">Tentacles:</span>
-        There can never be more than one Tentacle model per area. If a leap is
-        performed over a Tentacle’s area, the difficulty of the leap is increased
-        by 1. Overlord units are also affected by this hindering.</p>
+        <p><span class="special_title">Searching the Swamp:</span>
+        A hero in a numbered swamp area can search it to find the
+        <a class="item" href="/items/15">Yuetshi knife</a> by performing a complex
+        Manipulation with a difficulty of 1. If the hero succeds, the Overlord
+        indicates whether it is the area in which the knife is located. If it is,
+        the Overlord shows the number written on a piece of paper during setup
+        and that hero picks up the Yuetshi Knife card.</p>
 
-        <p><span class="special_title">Reinforcement:</span>
-        During reinforcement the Overlord can choose to reinforce Pirates and
-        Tentacles. Pirates are reinforced normally. When reinforcing Tentacles,
-        the Overlord places their models on whichever water area they choose, on
-        the condition that there is never more than one Tentacle model per area.</p>
+        <p><span class="special_title">Interrogating a Pict:</span>
+        When a hero kills a
+        <a class="tile" href="/tiles/29">Pict Warrior</a>, a
+        <a class="tile" href="/tiles/85">Pict Archer</a> or a
+        <a class="tile" href="/tiles/24">Pict Hunter</a> in a melee attack, they
+        can perform a simple Manipulation to interrogate him. The Pict will give
+        them information to reduce their search for the knife. The Overlord
+        must then remove the number token of his choice that does not match the
+        location of the knife. Reinforcement Picts may also be interrogated. If
+        the there is only one numbered token left, it is no longer possible to
+        interrogate a Pict.</p>
 
-        <p><span class="special_title">Leap:</span>
-        If a hero’s or Overlord’s model fails to
-        <a class="skill" href="/skills/16">Leap</a>, they fall into the water and
-        their model is placed on the water area they leaped over. The heroes or
-        Overlord units can decide to fall directly into the water; this does not
-        cost any extra movement points and does not require any particular skill.</p>
-
-        <p><span class="special_title">Water Area:</span>
-        A model on a water area can still fight without penalty. Chracters with
-        <a class="skill" href="/skills/13">Swimming</a> can move from one water
-        area to the adjacent water for 1 extra movement point. A model (with or
-        without <a class="skill" href="/skills/19">Climb</a>)on a water area can
-        climb up onto an adjacent ship area for 2 extra movement points. A
-        character that does not have <a class="skill" href="/skills/13">Swimming</a>
-        cannot move from one water area to another water area, but can climb up
-        onto an adjacent ship area by spending an extra 2 movement points with or
-        without Climb.</p>
+        <p><span class="special_title">Fleeing the Swamp:</span>
+        A hero can flee the swamp from one of the areas marked
+        <img src="/assets/tokens/area1Token.png" class="scen_token" />
+        by spending movement points as though the hero was moving across a border.
+        The hero’s model is then removed from the board. Once a hero has fled,
+        the hero’s model cannot be returned to the board.</p>
 
         <p><span class="special_title">Pictish Drink:</span>
         A hero may discard this <a class="item" href="/items/45">item</a>
@@ -10970,7 +10967,7 @@
 
       hero_victory: '
         <p><span class="special_title">Heroes’ Victory:</span>
-          Conan is in possession of the Yuetshi dagger. He knows he has a chance
+          Conan is in possession of the Yuetshi Knife. He knows he has a chance
           to defeat Khosatral Khel and hopes to save Flavia. He and his companions
           are now looking for a ship to reach the island of Xapur.</p>
           <p><strong>The heroes’ side DOES NOT earns any victory points for winning
@@ -10990,11 +10987,11 @@
           his terrible power and enslave much more than Xapur.</p>
           <p><strong>If able, the heroes’ side loses 1 victory point and The
           Overlord’s side earns 1 victory point. Then replay this scenario. If
-          the heroes’ side loses this scenario a second time, then the heroes’s
+          the heroes’ side loses this scenario a second time, then the heroes’
           side loses the campaign.</strong></p>',
 
       origin: "Legend of the Devil in Iron",
-      product_ids: [1, 3, 21],
+      product_ids: [1, 2, 3, 21],
       map_ids: [6],
       hero_ids: [5, 6, 8, 19],
       tile_ids: [1, 23, 24, 29, 58, 81, 85],
@@ -11011,7 +11008,7 @@
         <p>The small group arrives in front of the primitive fishing huts where a
         strange and unnatural calm seems to reign. No hustle or bustle in the small
         central square, usually busy at this time of day. The mercenaries penetrate
-        the village and Conan already has his stell in hand when the first Yuetshi
+        the village and Conan already has his steel in hand when the first Yuetshi
         runs screaming out. They seem possessed, just as were the fisherman in the
         village where the magic dagger was hidden. While the commotion and cries
         of rage of the warriors are heard all around the village, the Cimmerian
@@ -11063,7 +11060,7 @@
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
             <td>
-              When an event tile is activated the Overlord resolves any one of the folowing events:<br />
+              When an event tile is activated the Overlord resolves any one of the following events:<br />
               <span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" />.<br />
               <span class="setup_suggestion">Wild Charge:</span> The Overlord adds 1 to the attack power
@@ -11109,7 +11106,7 @@
         The Overlord places the tokens numbered
         <img src="/assets/tokens/num1Token.png" class="scen_token" /> and
         <img src="/assets/tokens/num2Token.png" class="scen_token" /> representing
-        the barricadeson each area border as indicated by the setup diagram. They
+        the barricades on each area border as indicated by the setup diagram. They
         have the same number of life points as their number and have the an Armor
         Value of 1. A barricade prevents a character from moving across a border
         between two areas it separates. A barricade cannot be climbed or wrecked
@@ -11123,7 +11120,7 @@
         movement points) if, at the end of the heroes’ Action Phase, there is at
         least one hero model and no Overlord models in the starting area of the
         traitor. The traitor cannot move by himself, Attack or Guard and he is
-        considered on the heroes’ side reguarding hindering. The heroes can use
+        considered on the heroes’ side regarding hindering. The heroes can use
         <a class="skill" href="/skills/31">Bodyguard</a> if they have it to defend
         the traitor. The allies cannot use <a class="skill" href="/skills/29">Sacrifice</a>
         to defend the traitor.</p>
@@ -11136,7 +11133,7 @@
         returned to the board.</p>',
 
       hero_victory: '
-        <p><strong>If the Heroes do not already have the Yuetshi Dagger in Their
+        <p><strong>If the Heroes do not already have the Yuetshi Knife in Their
           possession, they immediately lose the campaign.</strong></p><br />
         <p><span class="special_title">Heroes’ Victory:</span>
           The mercenaries have saved the Yuetshi fisherman’s life. He leads them
@@ -11158,7 +11155,7 @@
           <p><strong>The Overlord’s side earns 2 victory points.</strong></p>',
 
       origin: "Legend of the Devil in Iron",
-      product_ids: [1, 3, 21],
+      product_ids: [1, 2, 3, 21],
       map_ids: [1],
       hero_ids: [5, 6, 8, 19],
       tile_ids: [1, 6, 29, 42, 77, 84, 85],
@@ -11169,7 +11166,7 @@
     { name: "The Spellbook of the Gary Man-Ape",
       description: "<p>Back in civilization, in the filthy lanes of the Khorusun
       slums, Conan thinks he can use his reputation in order to quickly find a ship
-      and crew among the crooks who squander their booty in the sorid eating-houses
+      and crew among the crooks who squander their booty in the sordid eating-houses
       bordering the waterfront.</p>
         <p>The Cimmerian finally finds common ground with a Hyrkanian buccaneer
         who is ready to sail for him, but first wants Conan to carry out a small
@@ -11221,7 +11218,7 @@
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
             <td>
-              When an event tile is activated the Overlord resolves any one of the folowing events:<br />
+              When an event tile is activated the Overlord resolves any one of the following events:<br />
               <span class="setup_suggestion">Reinforcement:</span> 3 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" />.<br />
             </td>
@@ -11263,7 +11260,7 @@
         activated Unit tile may perform this action. This action replaces the attack
         action of all of the models of the Unit tile for this activation. If the
         action is successful, the Overlord draws a card from a asset deck. The
-        Equipment cards revealed by the Overlord other than the the spellbook are
+        Equipment cards revealed by the Overlord other than the spellbook are
         discarded. If the Spellbook is revealed, then the model which has just
         opened the chest takes the spellbook and carries it with them. To represent
         this, the Spellbook card is placed under the base of that Overlord’s model.
@@ -11283,7 +11280,7 @@
         by performing a simple Manipulation. An Overlord’s model of an activated Unit
         tile in another Overlord’s model’s area may give them the spellbook if
         the Overlord moves 1 gem from their Reserve zone to their Fatigue zone.
-        The spellbook is fragil and cannot be thrown.</p>
+        The spellbook is fragile and cannot be thrown.</p>
 
         <p><span class="special_title">Fleeing the Inn:</span>
         A hero or an Overlord character can flee the inn from one of the outside
@@ -11306,11 +11303,11 @@
         1 <a class="item" href="/items/17">Leather Armor</a>.</p>',
 
       hero_victory: '
-        <p><strong>If the Heroes do not already have the Yuetshi Dagger in Their
+        <p><strong>If the Heroes do not already have the Yuetshi Knife in Their
           possession, they immediately lose the campaign.</strong></p><br />
         <p><span class="special_title">Heroes’ Victory:</span>
           After a struggle as violent as it is fierce, the mercenaries mange to
-          seize the spellbook. Their Hyrkanian sponser is satisfied; they can finally
+          seize the spellbook. Their Hyrkanian sponsor is satisfied; they can finally
           set sail to the fortress of Xapur.</p>
           <p><strong>The heroes’ side wins 1 common gem.</strong></p><br />
           <p>If the heroes have more victory points than the Overlord by the end
@@ -11325,11 +11322,11 @@
           with the blows of their scimitars; Conan believes it’s time to leave.
           It is certainly too late to recover the spellbook, but still early enough
           for new negotiations with the Hyrkanian. The confounded man will have to
-          supply his ship, of his own will or by fource.</p>
+          supply his ship, of his own will or by force.</p>
           <p><strong>The Overlord’s side wins 1 special gem.</strong></p>',
 
       origin: "Legend of the Devil in Iron",
-      product_ids: [1, 3, 21],
+      product_ids: [1, 2, 3, 21],
       map_ids: [2],
       hero_ids: [5, 6, 8, 19],
       tile_ids: [1, 12, 31, 32, 35, 89],
@@ -11398,7 +11395,7 @@
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
             <td>
-              When an event tile is activated the Overlord resolves any one of the folowing events:<br />
+              When an event tile is activated the Overlord resolves any one of the following events:<br />
               <span class="setup_suggestion">Reinforcement:</span> 3 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" />.<br />
             </td>
@@ -11458,7 +11455,7 @@
         1 <a class="item" href="/items/55">Sacred Treasure</a>.</p>',
 
       hero_victory: '
-        <p><strong>If the Heroes do not already have the Yuetshi Dagger in Their
+        <p><strong>If the Heroes do not already have the Yuetshi Knife in Their
           possession, they immediately lose the campaign.</strong></p><br />
         <p><span class="special_title">Heroes’ Victory:</span>
           After having stolen the magical objects, Conan sells them to a dark
@@ -11478,11 +11475,11 @@
           first outbound ship that is in search of cheap sailors. A few days later,
           the mercenaries steal a boat to reach the island of Xapur.</p>
           <p><strong>The Overlord selects a piece of equipment from the heroes,
-          with the exception of the Yuetshi dagger. This equipment is definitively
+          with the exception of the Yuetshi Knife. This equipment is definitively
           removed from the game.</strong></p>',
 
       origin: "Legend of the Devil in Iron",
-      product_ids: [1, 3, 21],
+      product_ids: [1, 2, 3, 21],
       map_ids: [5],
       hero_ids: [5, 6, 8, 19],
       tile_ids: [],
@@ -11516,7 +11513,7 @@
         can still be sent back into the Abyss from which it crawled. A primitive
         rage now burns in the blue eyes of the warrior who aspires only to release
         all his impetuous and vengeful fury.</p>",
-      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/The+Fortess+of+Xapur.jpg',
+      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/The+Fortress+of+Xapur.jpg',
       pdf_link: '',
       player_count: "5 Campaign",
       complexity: "",
@@ -11558,7 +11555,7 @@
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
             <td>
-              When an event tile is activated the Overlord resolves any one of the folowing events:<br />
+              When an event tile is activated the Overlord resolves any one of the following events:<br />
               <span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" /> (see Special Rules).<br />
             </td>
@@ -11593,20 +11590,20 @@
         <p><span class="special_title">Monster:</span>
         The Overlord chooses 1 monster from the list of monsters that have survived
         the previous scenarios played during the campaign (see Overlord’s Campaign
-          Log). During setup the Overlordplaces that monster’s Unit tile on the
+          Log). During setup the Overlord places that monster’s Unit tile on the
           third position of the river and the monster’s model in the area marked
           in the setup diagram. The Overlord places that monster’s Life Point marker
           on the position “8” of the turn track.</p>
 
-        <p><span class="special_title">Yuetshi Dagger:</span>
-          The  <a class="item" href="/items/15">Yuetshi dagger</a> lowers the Armor
+        <p><span class="special_title">Yuetshi Knife:</span>
+          The  <a class="item" href="/items/15">Yuetshi Knife</a> lowers the Armor
           Value of <a class="tile" href="/tiles/10">Khosatral Khel</a> to 3.</p>',
 
       hero_victory: '
         <p><span class="special_title">Heroes’ Victory:</span>
           The Devil in Iron has been returned to the Abyss and the resurrected city
           of Dagonia has disappeared. Only the ancient ruins that lend the name of
-          fortess to the island of Xapur remain. For Conan and his companions, the
+          fortress to the island of Xapur remain. For Conan and his companions, the
           atmosphere is gloomy. Not a word is uttered as the flames of the funeral
           pyre raised for the Argossian princess swirl towards the sky.</p>
           <p><strong>The heroes’ side wins the campaign.</strong></p><br />',
@@ -11616,12 +11613,12 @@
           Conan and his companions have failed completely. Khosatral Khel has
           awakened his infernal power and the rebirth of Dagonia is only the
           beginning of his cruel ambitions. The Devil in Iron reigns again as a
-          living god and he plans to make the fortess of Xapur the capital of his
+          living god and he plans to make the fortress of Xapur the capital of his
           future empire.</p>
           <p><strong>The Overlord’s side wins the campaign.</strong></p>',
 
       origin: "Legend of the Devil in Iron",
-      product_ids: [1, 3, 21],
+      product_ids: [1, 2, 3, 21],
       map_ids: [5],
       hero_ids: [5, 6, 8, 19],
       tile_ids: [1, 10, 42, 44, 84, 147],
@@ -11662,7 +11659,7 @@
       player_count: "5 Campaign",
       complexity: "",
 
-      hero_goal: "If Khosatral Khel is killed, or if a hero flees the fortess with
+      hero_goal: "If Khosatral Khel is killed, or if a hero flees the fortress with
       the princess before the end of turn 7; the heroes win the game.",
 
       hero_setup: '<p>The game starts with the heroes’ turn.</p>
@@ -11699,7 +11696,7 @@
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
             <td>
-              When an event tile is activated the Overlord resolves any one of the folowing events:<br />
+              When an event tile is activated the Overlord resolves any one of the following events:<br />
               <span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" /> (see Special Rules).<br />
             </td>
@@ -11749,14 +11746,14 @@
         and places it near their hero sheet. Flavia’s encumbrance is 7. Flavia cannot
         be killed.</p>
 
-        <p><span class="special_title">Fleeing the fortess:</span>
+        <p><span class="special_title">Fleeing the fortress:</span>
         A hero in one of the outer areas of the board can flee by spending movement
         points as though the hero were moving across a border. The hero’s model
         is then removed from the board. Once a hero has fled, the hero’s model
         cannot be returned to the board.</p>
 
-        <p><span class="special_title">Yuetshi Dagger:</span>
-        The  <a class="item" href="/items/15">Yuetshi dagger</a> lowers the Armor
+        <p><span class="special_title">Yuetshi Knife:</span>
+        The  <a class="item" href="/items/15">Yuetshi Knife</a> lowers the Armor
         Value of <a class="tile" href="/tiles/10">Khosatral Khel</a> to 3.</p>
 
         <p><span class="special_title">Chests:</span>
@@ -11769,7 +11766,7 @@
           <br /><strong>(Flavia saved and Khosatral Khel dead)</strong><br />
             Conan and his companions have triumphed. The Devil in Iron has been
             returned to the Abyss and the resurrected city of Dagonia has disappeared.
-            Only the ancient ruins that lend the name of fortess to the island of
+            Only the ancient ruins that lend the name of fortress to the island of
             Xapur remain. Flavia is safe; the mercenaries tend to their wounds as
             she emerges from the mist of terror that has poisoned her mind. As
             Conan helps the last Dagonian to rise in order to take her home to her
@@ -11787,8 +11784,8 @@
               island, a terrible metallic cry resounds like a bronze bell from the
               top of the lush cliffs. The Devil in Iron is a prisoner of his island.
               Seeing the last Dagonian escape from him, he knows that it will be
-              impossible for him to restore his full ominpotence, his magic is already
-              fading. Only time now seperates him from his return to the Abyss. </p>
+              impossible for him to restore his full omnipotence, his magic is already
+              fading. Only time now separates him from his return to the Abyss. </p>
             <p><strong>The heroes’ side wins the campaign.</strong></p><br />',
 
         overlord_victory: '
@@ -11798,11 +11795,11 @@
             of the princess, Khosatral Khel has awakened his infernal power and
             the rebirth of Dagonia is only the beginning of his cruel ambitions.
             The Devil in Iron reigns again as a living god and he plans to make
-            the fortess of Xapur the capital of his future empire.</p>
+            the fortress of Xapur the capital of his future empire.</p>
             <p><strong>The Overlord’s side wins the campaign.</strong></p>',
 
       origin: "Legend of the Devil in Iron",
-      product_ids: [1, 3, 21],
+      product_ids: [1, 2, 3, 21],
       map_ids: [4],
       hero_ids: [5, 6, 8, 19],
       tile_ids: [1, 10, 36, 44, 83],
