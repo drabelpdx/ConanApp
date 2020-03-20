@@ -1,4 +1,4 @@
-class CreateMaps < ActiveRecord::Migration[5.2.4]
+class CreateMaps < ActiveRecord::Migration[5.2]
   def change
     create_table :maps do |t|
       t.string :name

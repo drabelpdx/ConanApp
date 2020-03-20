@@ -1,4 +1,4 @@
-class CreateBones < ActiveRecord::Migration[5.2.4]
+class CreateBones < ActiveRecord::Migration[5.2]
   def change
     create_table :bones do |t|
       t.string :name

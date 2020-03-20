@@ -1,4 +1,4 @@
-class CreateTiles < ActiveRecord::Migration[5.2.4]
+class CreateTiles < ActiveRecord::Migration[5.2]
   def change
     create_table :tiles do |t|
       t.string :name

@@ -1,4 +1,4 @@
-class CreateMapScenarios < ActiveRecord::Migration[5.2.4]
+class CreateMapScenarios < ActiveRecord::Migration[5.2]
   def change
     create_table :map_scenarios do |t|
       t.integer :map_id
