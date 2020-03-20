@@ -1,4 +1,4 @@
-class CreateRatings < ActiveRecord::Migration
+class CreateRatings < ActiveRecord::Migration[5.2.4]
   def change
     create_table :ratings do |t|
       t.references :scenario, index: true, foreign_key: true

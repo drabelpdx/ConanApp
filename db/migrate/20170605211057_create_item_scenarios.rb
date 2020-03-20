@@ -1,4 +1,4 @@
-class CreateItemScenarios < ActiveRecord::Migration
+class CreateItemScenarios < ActiveRecord::Migration[5.2.4]
   def change
     create_table :item_scenarios do |t|
       t.integer :item_id

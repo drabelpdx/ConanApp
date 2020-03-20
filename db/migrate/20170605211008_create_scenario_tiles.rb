@@ -1,4 +1,4 @@
-class CreateScenarioTiles < ActiveRecord::Migration
+class CreateScenarioTiles < ActiveRecord::Migration[5.2.4]
   def change
     create_table :scenario_tiles do |t|
       t.integer :scenario_id

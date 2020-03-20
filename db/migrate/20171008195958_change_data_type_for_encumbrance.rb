@@ -1,4 +1,4 @@
-class ChangeDataTypeForEncumbrance < ActiveRecord::Migration
+class ChangeDataTypeForEncumbrance < ActiveRecord::Migration[5.2.4]
   def self.up
     change_table :heroes do |t|
       t.change :encumbrance, :text
