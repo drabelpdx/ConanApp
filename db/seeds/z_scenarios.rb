@@ -33,31 +33,77 @@
       hero_goal: "If one or more heroes have fled the village with Yselda and Zogar
         Sag’s head, Yselda is returned safely to her father; the heroes win the game.",
 
-      hero_setup: '<p>The game starts with the heroes’ turn. The heroes start in
-        the areas indicated by the setup diagram.</p>
-        <span class="setup_suggestion">Suggestions for 3 heroes:</span>
-        <br /><a class="hero" href="/heroes/2">Conan</a>
-        (<a class="item" href="/items/1">Battle Axe</a>,
-        <a class="item" href="/items/20">Shield</a>,
-        <a class="item" href="/items/17">Leather Armor</a>),
-        <br /><a class="hero" href="/heroes/4">Shevatas</a>
-        (<a class="item" href="/items/9">Kris</a>,
-        <a class="item" href="/items/13">Throwing Knives</a>),
-        <br /><a class="hero" href="/heroes/3">Hadrathus</a>
-        (<a class="item" href="/items/3">Dagger</a>,
-        <a class="spell" href="/spells/16">Teleportation</a>,
-        <a class="spell" href="/spells/9">Mitra’s Halo</a>,
-        <a class="spell" href="/spells/6">Lightning Storm</a>).
-        Hadrathus starts with Mitra’s Halo cast.
-        <br /><br /><span class="setup_suggestion">Suggestions for 4 heroes:</span>
-        <br /><a class="hero" href="/heroes/1">Bêlit</a>
-        (<a class="item" href="/items/10">Ornamental Spear</a>).
-        Bêlit starts in the same area as any hero.</p>
+      hero_setup: '
+        <table class="scen_table">
+          <tr>
+            <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+            <td>The game starts with the heroes’ turn.<br /></td>
+            <td></td>
+          </tr>
+        </table>
+
+        <table class="scen_table">
+          <tr>
+            <td><h4>3</h4></td>
+            <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanToken.png" class="scen_setup"></td>
+            <td>
+              <a class="hero" href="/heroes/2">Conan</a>
+              (<a class="item" href="/items/1">Battle Axe</a>,
+              <a class="item" href="/items/20">Shield</a>,
+              <a class="item" href="/items/17">Leather Armor</a>)
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
+            <td>
+              <a class="hero" href="/heroes/4">Shevatas</a>
+              (<a class="item" href="/items/9">Kris</a>,
+              <a class="item" href="/items/13">Throwing Knives</a>)
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/HadrathusToken.png" class="scen_setup"></td>
+            <td>
+              <a class="hero" href="/heroes/3">Hadrathus</a>
+              (<a class="item" href="/items/3">Dagger</a>,
+              <a class="spell" href="/spells/16">Teleportation</a>,
+              <a class="spell" href="/spells/9">Mitra’s Halo</a>,
+              <a class="spell" href="/spells/6">Lightning Storm</a>).
+              Hadrathus starts with Mitra’s Halo cast.
+            </td>
+            <td></td>
+          </tr>
+        </table>
+
+        <table class="scen_table">
+          <tr>
+            <td><h4>4</h4></td>
+            <td><span class="setup_suggestion">Suggested Hero and Equipment:</span><br /></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BelitToken.png" class="scen_setup"></td>
+            <td>
+              <a class="hero" href="/heroes/1">Bêlit</a>
+              (<a class="item" href="/items/10">Ornamental Spear</a>).
+              <br />Bêlit starts in the same area as any hero.
+            </td>
+            <td></td>
+          </tr>
+        </table>
+
         <table class="scen_table">
           <tr>
             <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
             <td>After setup, each hero moves 5 gems from their Reserve zone to
-            their Fatigue zone.</td>
+              their Fatigue zone.</td>
+            <td></td>
           </tr>
         </table>',
 
@@ -73,6 +119,7 @@
               The Overlord starts with 10 gems in their Reserve zone and 3 gems in
               their Fatigue zone, and places the recovery token showing a recovery value
               of “5” in the Book of Skelos.</td>
+            <td></td>
           </tr>
           <tr>
             <td><img src="/assets/tokens/redGem.png" class="scen_token" /></td>
@@ -80,17 +127,24 @@
             The Overlord starts with 11 gems in their Reserve zone and 4 in their
             Fatigue zone, and places the recovery token showing a recovery value of “7”
             in the Book of Skelos.</td>
+            <td></td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td><span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
-            <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</td>
+            <td><p>When an event tile is activated the Overlord resolves the following event:</p>
+              <p><span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
+            </td>
+            <td></td>
           </tr>
+        </table>
+        <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZogarSagToken.png" class="scen_setup"></td>
             <td><a class="tile" href="/tiles/6">Zogar Sag</a> has no spell for this scenario.</td>
+            <td></td>
           </tr>
         </table>',
 
@@ -199,31 +253,85 @@
       hero_goal: "If Zaporavo and Skuthus are dead or at the end of round 8,
         Bêlit survives the attack; the heroes win the game.",
 
-      hero_setup: '<p>The game starts with the heroes’ turn.</p>
-        <p>Bêlit and Bêlit’s Guards start in the areas indicated by the setup diagram.
-        The other heroes start in the
-        <img src="/assets/tokens/area1Token.png" class="scen_token" /> area.</p>
-        <span class="setup_suggestion">Suggestions for 3 heroes:</span>
-        <br /><a class="hero" href="/heroes/1">Bêlit</a> (required)
-        (<a class="item" href="/items/10">Ornamental Spear</a>,
-        <a class="item" href="/items/21">Tribal Shield</a>),
-        <br /><a class="hero" href="/heroes/2">Conan</a>
-        (<a class="item" href="/items/12">Sword</a>,
-        <a class="item" href="/items/17">Leather Armor</a>),
-        <br /><a class="hero" href="/heroes/4">Shevatas</a>
-        (<a class="item" href="/items/9">Kris</a>,
-        <a class="item" href="/items/13">Throwing Knives</a>),
-        <br /><br /><span class="setup_suggestion">Suggestions for 4 heroes:</span>
-        <br /><a class="hero" href="/heroes/3">Hadrathus</a>
-        (<a class="item" href="/items/3">Dagger</a>,
-        <a class="spell" href="/spells/9">Mitra’s Halo</a>,
-        <a class="spell" href="/spells/1">Bori’s Rage</a>).
-        Hadrathus does not start with Mitra’s Halo cast.<br /><br />
+      hero_setup: '
+        <table class="scen_table">
+          <tr>
+            <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+            <td>The game starts with the heroes’ turn.<br /></td>
+            <td></td>
+          </tr>
+        </table>
+
+        <table class="scen_table">
+          <tr>
+            <td><img src="/assets/tokens/area1Token.png" class="scen_token" /></td>
+            <td>Bêlit and Bêlit’s Guards start in the areas indicated by the setup diagram.
+              The other heroes start in the
+              <img src="/assets/tokens/area1Token.png" class="scen_token" /> area.</td>
+            <td></td>
+          </tr>
+        </table>
+
+        <table class="scen_table">
+          <tr>
+            <td><h4>3</h4></td>
+            <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BelitToken.png" class="scen_setup"></td>
+            <td>
+              <a class="hero" href="/heroes/1">Bêlit</a>
+              (<a class="item" href="/items/10">Ornamental Spear</a>,
+                <a class="item" href="/items/21">Tribal Shield</a>).
+            </td>
+            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BelitsGuards.png" class="scen_event"></td>
+          </tr>
+          <tr>
+            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanToken.png" class="scen_setup"></td>
+            <td>
+              <a class="hero" href="/heroes/2">Conan</a>
+              (<a class="item" href="/items/12">Sword</a>,
+              <a class="item" href="/items/17">Leather Armor</a>)
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
+            <td>
+              <a class="hero" href="/heroes/4">Shevatas</a>
+              (<a class="item" href="/items/9">Kris</a>,
+              <a class="item" href="/items/13">Throwing Knives</a>),
+            </td>
+            <td></td>
+          </tr>
+        </table>
+
+        <table class="scen_table">
+          <tr>
+            <td><h4>4</h4></td>
+            <td><span class="setup_suggestion">Suggested Hero and Equipment:</span><br /></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/HadrathusToken.png" class="scen_setup"></td>
+            <td>
+              <a class="hero" href="/heroes/3">Hadrathus</a>
+              (<a class="item" href="/items/3">Dagger</a>,
+              <a class="spell" href="/spells/9">Mitra’s Halo</a>,
+              <a class="spell" href="/spells/1">Bori’s Rage</a>).
+              <br />Hadrathus does not start with Mitra’s Halo cast.
+            </td>
+            <td></td>
+          </tr>
+        </table>
+
         <table class="scen_table">
           <tr>
             <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
             <td>After setup, each hero moves 4 gems from their Reserve zone to their Fatigue
             zone.</td>
+            <td></td>
           </tr>
         </table>',
 
@@ -237,6 +345,7 @@
               The Overlord starts with 9 gems in their Reserve zone and 3 gems in
               their Fatigue zone, and places the recovery token showing a recovery
               value of “5” in the Book of Skelos.</td>
+            <td></td>
           </tr>
           <tr>
             <td><img src="/assets/tokens/redGem.png" class="scen_token" /></td>
@@ -244,23 +353,29 @@
             The Overlord starts with 10 gems in their Reserve zone and 4 gems in
             their Fatigue zone, and places the recovery token showing a recovery value
             of “7” in the Book of Skelos.</td>
+            <td></td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td>
-              <span class="setup_suggestion">Reinforcement:</span> 6 reinforcement points
-              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .
-              <br /><span class="setup_suggestion">Fire at will:</span> Each unit may perform a Ranged Attack if able.
-              <br /><span class="setup_suggestion">Glory to Set:</span> <a class="tile" href="/tiles/4">Skuthus</a>
+            <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
+              <p><span class="setup_suggestion">Reinforcement:</span> 6 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
+              <p><span class="setup_suggestion">Fire at will:</span> Each unit may perform a Ranged Attack if able.</p>
+              <p><span class="setup_suggestion">Glory to Set:</span> <a class="tile" href="/tiles/4">Skuthus</a>
               sacrifices himself to summon an <a class="tile" href="/tiles/11">Outer Dark Demon</a>.
               The Overlord places the Outer Dark Demon model (6 life points) in Skuthus’ area,
               then Skuthus dies (This count toward completing the heroes’ objective).
               Then the Overlord replaces the Skuthus unit tile in the River with the
-              Outer Dark Demon unit tile.
+              Outer Dark Demon unit tile.</p>
+            </td>
+            <td>
+              <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/OuterDarkDemon.png" class="scen_event">
             </td>
           </tr>
+        </table>
+        <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SkuthusToken.png" class="scen_setup"></td>
             <td>
@@ -268,6 +383,7 @@
               <a class="spell" href="/spells/3">Energy Drain</a> and
               <a class="spell" href="/spells/13">Set’s Halo</a>. He starts with Set’s Halo cast.
             </td>
+            <td></td>
           </tr>
         </table>',
 
@@ -340,24 +456,58 @@
       hero_goal: "If Skuthus dies, the trap has failed, and the heroes escape the
         fortress with their treasures; the heroes win the game.",
 
-      hero_setup: '<p>The  game starts with the heroes’ turn.</p>
-        <p>The heroes and Bêlit’s Guards start in the areas indicated by the setup diagram.</p>
-        <span class="setup_suggestion">Suggestions for 3 heroes:</span>
-        <br /><a class="hero" href="/heroes/2">Conan</a>
-        (<a class="item" href="/items/12">Sword</a>,
-        <a class="item" href="/items/20">Shield</a>,
-        <a class="item" href="/items/17">Leather Armor</a>),
-        <br /><a class="hero" href="/heroes/4">Shevatas</a>
-        (<a class="item" href="/items/9">Kris</a>,
-        <a class="item" href="/items/13">Throwing Knives</a>),
-        <br /><a class="hero" href="/heroes/1">Bêlit</a>
-        (<a class="item" href="/items/10">Ornamental Spear</a>,
-        <a class="item" href="/items/15">Yuetshi Knife</a>) <br /><br />
+      hero_setup: '
+        <table class="scen_table">
+          <tr>
+            <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+            <td>The game starts with the heroes’ turn.<br /></td>
+            <td></td>
+          </tr>
+        </table>
+
+        <table class="scen_table">
+          <tr>
+            <td><h4>3</h4></td>
+            <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanToken.png" class="scen_setup"></td>
+            <td>
+              <a class="hero" href="/heroes/2">Conan</a>
+              (<a class="item" href="/items/12">Sword</a>,
+              <a class="item" href="/items/20">Shield</a>,
+              <a class="item" href="/items/17">Leather Armor</a>)
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
+            <td><a class="hero" href="/heroes/4">Shevatas</a>
+              (<a class="item" href="/items/9">Kris</a>,
+              <a class="item" href="/items/13">Throwing Knives</a>)
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BelitToken.png" class="scen_setup"></td>
+            <td>
+              <a class="hero" href="/heroes/1">Bêlit</a>
+              (<a class="item" href="/items/10">Ornamental Spear</a>,
+              <a class="item" href="/items/15">Yuetshi Knife</a>), and 2
+              <a class="tile" href="/tiles/13">Bêlit’s Guards</a>
+            </td>
+            <td>
+              <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BelitsGuards.png" class="scen_event">
+            </td>
+          </tr>
+        </table>
         <table class="scen_table">
           <tr>
             <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
             <td>After setup, each hero moves 5 gems from their Reserve zone to
             their Fatigue zone.</td>
+            <td></td>
           </tr>
         </table>',
 
@@ -371,31 +521,41 @@
             <td>The Overlord starts with 5 gems in their Reserve zone and
               5 in their Fatigue zone, and places the recovery token showing a recovery
               value of “5” in the Book of Skelos.</td>
+              <td></td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td>
-              <span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
-              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .
-              <br /><span class="setup_suggestion">Freeing a Monster:</span> The Overlord may free a
+            <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
+              <p><span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
+              <p><span class="setup_suggestion">Freeing a Monster:</span> The Overlord may free a
               petrified monster and add its tile to the end of the River.
               The <a class="tile" href="/tiles/11">Outer Dark Demon</a> (6 life points),
               <a class="tile" href="/tiles/9">Giant Snake</a> (8 life points), and
               <a class="tile" href="/tiles/10">Khosatral Khel</a> (7 life points) are
               petrified and cannot be attacked until they are freed.
               The Overlord cannot free a monster if there are 2 faceup monster tiles in
-              the River (including the <a class="tile" href="/tiles/8">Dark Demon</a>).
+              the River (including the <a class="tile" href="/tiles/8">Dark Demon</a>).</p>
+            </td>
+            <td>
+              <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/KhosatralKhel.png" class="scen_event"><br />
+              <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/GiantSnake.png" class="scen_event"><br />
+              <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/OuterDarkDemon.png" class="scen_event">
             </td>
           </tr>
+        </table>
+        <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SkuthusToken.png" class="scen_setup"></td>
             <td>
               <a class="tile" href="/tiles/4">Skuthus</a> has
               <a class="spell" href="/spells/12">Set’s Bite</a>,
-              <a class="spell" href="/spells/13">Set’s Halo</a>. He starts with Set’s Halo cast.
+              <a class="spell" href="/spells/13">Set’s Halo</a>.<br />
+              Skuthus starts with Set’s Halo cast.
             </td>
+            <td></td>
           </tr>
         </table>',
 
@@ -485,66 +645,102 @@
       hero_goal: 'If the invocation marker <img src="/assets/tokens/invocationToken.png" class="scen_token" />
         reaches space 0 or at the end of turn 12, the ritual is complete; the heroes win the game.',
 
-      hero_setup: 'The heroes start in the areas indicated by the setup diagram.
-        <br /><br /><span class="setup_suggestion">Suggestions for 3 heroes:</span>
-        <br /><a class="hero" href="/heroes/2">Conan</a>
-        (<a class="item" href="/items/1">Battle Axe</a>,
-        <a class="item" href="/items/20">Shield</a>,
-        <a class="item" href="/items/17">Leather Armor</a>),
-        <br /><a class="hero" href="/heroes/4">Shevatas</a>
-        (<a class="item" href="/items/9">Kris</a>,
-        <a class="item" href="/items/13">Throwing Knives</a>),
-        <br /><a class="hero" href="/heroes/3">Hadrathus</a>
-        (<a class="item" href="/items/3">Dagger</a>,
-        <a class="spell" href="/spells/16">Teleportation</a>,
-        <a class="spell" href="/spells/9">Mitra’s Halo</a>,
-        <a class="spell" href="/spells/6">Lightning Storm</a>).
-        Hadrathus does not start with Mitra’s Halo cast.<br /><br />
-        <table class="scen_table">
-          <tr>
-            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
-            <td>After setup, each hero moves 5 gems from their Reserve zone to
-            their Fatigue zone.</td>
-          </tr>
-        </table>',
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><h4>3</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/2">Conan</a>
+            (<a class="item" href="/items/1">Battle Axe</a>,
+            <a class="item" href="/items/20">Shield</a>,
+            <a class="item" href="/items/17">Leather Armor</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/4">Shevatas</a>
+            (<a class="item" href="/items/9">Kris</a>,
+            <a class="item" href="/items/13">Throwing Knives</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/HadrathusToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/3">Hadrathus</a>
+            (<a class="item" href="/items/3">Dagger</a>,
+            <a class="spell" href="/spells/16">Teleportation</a>,
+            <a class="spell" href="/spells/9">Mitra’s Halo</a>,
+            <a class="spell" href="/spells/6">Lightning Storm</a>).
+            Hadrathus does not start with Mitra’s Halo cast.
+          </td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each hero moves 5 gems from their Reserve zone to
+          their Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
 
       overlord_goal: "If the priestess of Mitra or all the heroes are dead,
         the village is overrun; the Overlord wins the game.",
 
-      overlord_setup: 'The game starts with the Overlord’s turn.<br /><br />
+      overlord_setup: '
+        <table class="scen_table">
+          <tr>
+            <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+            <td>The game starts with the Overlord’s turn.<br /></td>
+            <td></td>
+          </tr>
+        </table>
         <table class="scen_table">
           <tr>
             <td><img src="/assets/tokens/redGem.png" class="scen_token" /></td>
             <td>The Overlord starts with 12 gems in their Reserve zone and places
             the recovery token showing a recovery value of “5” in the Book of Skelos.</td>
+            <td></td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
             <td><img src="/assets/tokens/invocationToken.png" class="scen_token" /></td>
             <td>During setup, place the invocation marker on space 10 of the track.</td>
+            <td></td>
           </tr>
+        </table>
+        <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td>
-              When the Event tile is activated, the Overlord resolves each of
-              the following events in order:
-              <br /><span class="setup_suggestion">Pict Hordes:</span> The Overlord returns dead Pict
+            <td><p>When the Event tile is activated, the Overlord resolves each of
+              the following events in order:</p>
+              <p><span class="setup_suggestion">Pict Hordes:</span> The Overlord returns dead Pict
               Warrior and Pict Hunter models to the board in reinforcement areas
-              until no more models fit in those areas.
-              <br /><span class="setup_suggestion">Bestial Haste:</span> The Overlord chooses a Pict
+              until no more models fit in those areas.</p>
+              <p><span class="setup_suggestion">Bestial Haste:</span> The Overlord chooses a Pict
               Warrior or Pict Hunter model that was returned to the board by the
-              previous Pict Hordes event.
-              Each unit in that unit’s group that was returned to the board by
-              that event gains up to 2 movement points, which the Overlord must
-              immediately spend.
-              <br /><span class="setup_suggestion">Incantation:</span> A hero rolls 1 Yellow
+              previous Pict Hordes event. Each unit in that unit’s group that was returned to the
+              board by that event gains up to 2 movement points, which the Overlord must immediately
+              spend.</p>
+              <p><span class="setup_suggestion">Incantation:</span> A hero rolls 1 Yellow
               <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> die
               for each relic on the board. These dice cannot be rerolled.
               For each symbol shown on a die, the hero moves the invocation marker
               <img src="/assets/tokens/invocationToken.png" class="scen_token" />
-              1 space toward the space 0 on the track.
+              1 space toward the space 0 on the track.</p>
             </td>
+            <td></td>
           </tr>
         </table>',
 
@@ -633,29 +829,62 @@
 
       hero_goal: "If a hero has fled the fort with Olivia, she is free from Strabonus’ grasp; the heroes win the game.",
 
-      hero_setup: 'The game starts with the heroes’ turn. The heroes start in the
-        areas indicated by the setup diagram.
-        <br /><br /><span class="setup_suggestion">Suggestions for 3 heroes:</span>
-        <br /><a class="hero" href="/heroes/2">Conan</a>
-        (<a class="item" href="/items/1">Battle Axe</a>,
-        <a class="item" href="/items/20">Shield</a>,
-        <a class="item" href="/items/17">Leather Armor</a>),
-        <br /><a class="hero" href="/heroes/4">Shevatas</a>
-        (<a class="item" href="/items/9">Kris</a>,
-        <a class="item" href="/items/13">Throwing Knives</a>),
-        <br /><a class="hero" href="/heroes/3">Hadrathus</a>
-        (<a class="item" href="/items/3">Dagger</a>,
-        <a class="spell" href="/spells/13">Teleportation</a>,
-        <a class="spell" href="/spells/7">Mitra’s Halo</a>,
-        <a class="spell" href="/spells/15">Lightning Storm</a>).
-        Hadrathus does not start with Mitra’s Halo cast.<br /><br />
-        <table class="scen_table">
-          <tr>
-            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
-            <td>After setup, each hero moves 5 gems from their Reserve zone to
-            their Fatigue zone.</td>
-          </tr>
-        </table>',
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the heroes’ turn.<br /></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><h4>3</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/2">Conan</a>
+            (<a class="item" href="/items/1">Battle Axe</a>,
+            <a class="item" href="/items/20">Shield</a>,
+            <a class="item" href="/items/17">Leather Armor</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/4">Shevatas</a>
+            (<a class="item" href="/items/9">Kris</a>,
+            <a class="item" href="/items/13">Throwing Knives</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/HadrathusToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/3">Hadrathus</a>
+            (<a class="item" href="/items/3">Dagger</a>,
+            <a class="spell" href="/spells/13">Teleportation</a>,
+            <a class="spell" href="/spells/7">Mitra’s Halo</a>,
+            <a class="spell" href="/spells/15">Lightning Storm</a>).
+            Hadrathus does not start with Mitra’s Halo cast.
+          </td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each hero moves 5 gems from their Reserve zone to
+          their Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
 
       overlord_goal: "At the end of turn 8, the Ophirians annihilate the fort
         using trebuchets, killing all of its occupants; the Overlord wins the game.",
@@ -667,20 +896,22 @@
             <td>The Overlord starts with 8 gems in their Reserve zone and 3 in
             their Fatigue zone, and places the recovery token showing a recovery
             value of “5” in the Book of Skelos.</td>
+            <td></td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td>
-              <span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
-              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .
-              <br /><span class="setup_suggestion">Rocks Fall:</span> The Overlord chooses an area and
+            <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
+              <p><span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
+              <p><span class="setup_suggestion">Rocks Fall:</span> The Overlord chooses an area and
               rolls 2 Red <img src="/assets/dice/Red.png" class="scen_sq_token" />
               <img src="/assets/dice/Red.png" class="scen_sq_token" /> dice.
               Each character in that area suffers damage equal to the
-              number of symbols shown on the dice.
+              number of symbols shown on the dice.</p>
             </td>
+            <td></td>
           </tr>
         </table>',
 
@@ -794,20 +1025,41 @@
       hero_goal: "If Conan leaves the inn and the curse has been broken, he is
         free of the terrible hallucinations; the heroes win the game.",
 
-      hero_setup: 'The game starts with the hero’s turn. Conan starts in the areas
-        indicated by the setup diagram.
-        <br /><br /><span class="setup_suggestion">Suggestions for 1 hero:</span>
-        <br /><a class="hero" href="/heroes/2">Conan</a> (required)
-        (<a class="item" href="/items/12">Sword</a>,
-        <a class="item" href="/items/17">Leather Armor</a>)<br /><br />
-        <table class="scen_table">
-          <tr>
-            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
-            <td>After setup, Conan does not move any gems from his Reserve zone
-            to his Fatigue zone. The hero plays the heroes’ stance phase as if
-            no hero had died during the game.</td>
-          </tr>
-        </table>',
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the heroes’ turn.<br /></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><h4>1</h4></td>
+          <td><span class="setup_suggestion">Suggested Hero and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/2">Conan</a> (required)
+            (<a class="item" href="/items/12">Sword</a>,
+            <a class="item" href="/items/17">Leather Armor</a>)
+          </td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, Conan does not move any gems from his Reserve zone
+          to his Fatigue zone. The hero plays the heroes’ stance phase as if
+          no hero had died during the game.</td>
+          <td></td>
+        </tr>
+      </table>',
 
       overlord_goal: "If Conan leaves the inn and the curse has not been broken
         or if Conan dies, the curse has done its work; the Overlord wins the game.",
@@ -819,27 +1071,34 @@
             <td>The Overlord starts with 4 gems in their Reserve zone and 4 in
             their Fatigue zone, and places the recovery token showing a recovery
             value of “3” in the Book of Skelos.</td>
+            <td></td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td>
-              When the event tile is activated, the Overlord resolves one of the events
-              based on the number of priests that have been removed from the board:
-              <br /><span class="setup_suggestion">0 priests</span> - Reinforcement: 2 reinforcement points
-              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .
-              <br /><span class="setup_suggestion">1 priests</span> - The Overlord places a Bossonian
+            <td><p>When the event tile is activated, the Overlord resolves one of the events
+              based on the number of priests that have been removed from the board:</p>
+              <p><span class="setup_suggestion">0 priests</span> - Reinforcement: 2 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
+              <p><span class="setup_suggestion">1 priests</span> - The Overlord places a Bossonian
               Guards tile at the end of the River (max. 4) and places 2 Bossonian
-              Guard models with bases of that color in a reinforcement area.
-              <br /><span class="setup_suggestion">2 priests</span> - The Overlord chooses a Bossonian
+              Guard models with bases of that color in a reinforcement area.</p>
+              <p><span class="setup_suggestion">2 priests</span> - The Overlord chooses a Bossonian
               Guards tile. Each unit in that group gains up to 2 movement points,
-              which the Overlord must immediately spend.
-              <br /><span class="setup_suggestion">3+ priests</span> - Unleashed: Once per game, the
+              which the Overlord must immediately spend.</p>
+              <p><span class="setup_suggestion">3+ priests</span> - Unleashed: Once per game, the
               Overlord places the Thak model (10 life points) in the area indicated
-              by the setup diagram and places the Thak tile at the end of the River.
+              by the setup diagram and places the Thak tile at the end of the River.</p>
+            </td>
+            <td>
+            <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BossonianGuardsGreen.png" class="scen_event">
+            <br /><br />
+            <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Thak.png" class="scen_event">
             </td>
           </tr>
+        </table>
+        <table class="scen_table">
           <tr>
             <td><img src="/assets/tokens/numBackToken.png" class="scen_token" /></td>
             <td>
@@ -847,6 +1106,7 @@
               the game board as indicated by the setup diagram to represent priests.
               The priest with the lowest-numbered token can break the curse.
             </td>
+            <td></td>
           </tr>
         </table>',
 
@@ -964,23 +1224,50 @@
       hero_goal: "If the turn marker reaches space 6, the heroes’ ship catches up
         with The Vandal; start Infernal Pursuit Part II.",
 
-      hero_setup: 'The game starts with the heroes’ turn. The heroes start in the
-        areas indicated by the setup diagram.
-        <br /><br /><span class="setup_suggestion">Suggestions for 2 heroes:</span>
-        <br /><a class="hero" href="/heroes/2">Conan</a> (required)
-        (<a class="item" href="/items/1">Battle Axe</a>,
-        <a class="item" href="/items/17">Leather Armor</a>),
-        <br /><a class="hero" href="/heroes/4">Shevatas</a>
-        (<a class="item" href="/items/11">Parrying Dagger</a>,
-        <a class="item" href="/items/13">Throwing Knives</a>,
-        <a class="item" href="/items/17">Leather Armor</a>) <br /><br />
-        <table class="scen_table">
-          <tr>
-            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
-            <td>After setup, each hero moves 4 gems from their Reserve zone to
-            their Fatigue zone.</td>
-          </tr>
-        </table>',
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the heroes’ turn.<br /></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><h4>2</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/2">Conan</a> (required)
+            (<a class="item" href="/items/1">Battle Axe</a>,
+            <a class="item" href="/items/17">Leather Armor</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/4">Shevatas</a>
+            (<a class="item" href="/items/11">Parrying Dagger</a>,
+            <a class="item" href="/items/13">Throwing Knives</a>,
+            <a class="item" href="/items/17">Leather Armor</a>)
+          </td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each hero moves 4 gems from their Reserve zone to
+          their Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
 
       overlord_goal: 'If all heroes are dead, The Vandal escapes; the Overlord
         wins the game.
@@ -997,25 +1284,27 @@
             <td>The Overlord starts with 5 gems in their Reserve zone and 5 in
             their Fatigue zone, and places the recovery token showing a recovery
             value of “3” in the Book of Skelos.</td>
+            <td></td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td>
-              <span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
+            <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
+              <p><span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" /> .
-              (Maximum limit of 5 Pirates for each Pirates unit tile at any one time)
-              <br /><span class="setup_suggestion">Rogue Wave:</span> A huge wave rocks the ship; the
+              (Maximum limit of 5 Pirates for each Pirates unit tile at any one time)</p>
+              <p><span class="setup_suggestion">Rogue Wave:</span> A huge wave rocks the ship; the
               Overlord rolls 1 Red <img src="/assets/dice/Red.png" class="scen_sq_token" />
               die. For each symbol shown on the die, the Overlord either
               moves a hero up to 3 ship areas or removes a mutineering Pirate
-              from the board. A hero cannot be moved into a water area.
-              <br /><span class="setup_suggestion">Turncoats:</span> The Overlord rolls 1 Red
+              from the board. A hero cannot be moved into a water area.</p>
+              <p><span class="setup_suggestion">Turncoats:</span> The Overlord rolls 1 Red
               <img src="/assets/dice/Red.png" class="scen_sq_token" /> die.
               For each symbol shown on the die, the Overlord replaces a mutineering
-              Pirate model on the board with a Pirate model from off the board.
+              Pirate model on the board with a Pirate model from off the board.</p>
             </td>
+            <td></td>
           </tr>
         </table>',
 
@@ -1110,14 +1399,15 @@
         <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td>
-              <span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
-              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .
-              <br /><span class="setup_suggestion">Jammed Ballista:</span> The Overlord rolls 1 Orange
+            <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
+              <p><span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
+              <p><span class="setup_suggestion">Jammed Ballista:</span> The Overlord rolls 1 Orange
               <img src="/assets/dice/Orange.png" class="scen_sq_token" /> die.
               If the die shows 1 or more symbols, the Overlord chooses an area
-              with a ballista. That ballista cannot be used on the heroes’ next turn.
+              with a ballista. That ballista cannot be used on the heroes’ next turn.</p>
             </td>
+            <td></td>
           </tr>
         </table>',
 
@@ -1192,26 +1482,59 @@
       hero_goal: "If all living heroes have escaped the inn, they are free;
         the heroes win the game.",
 
-      hero_setup: 'The game begins with the heroes’ turn. The heroes start in
-        the area indicated by the setup diagram.
-        <br /><br /><span class="setup_suggestion">Suggestions for 3 heroes:</span>
-        <br /><a class="hero" href="/heroes/2">Conan</a>
-        (<a class="item" href="/items/12">Sword</a>),
-        <br /><a class="hero" href="/heroes/4">Shevatas</a>
-        (<a class="item" href="/items/9">Kris</a>,
-          <a class="item" href="/items/20">Shield</a>),
-        <br /><a class="hero" href="/heroes/3">Hadrathus</a>
-        (<a class="item" href="/items/10">Ornamental Spear</a>,
-          <a class="spell" href="/spells/10">Mitra’s Healing</a>,
-          <a class="spell" href="/spells/14">Set’s Possession</a>,
-          <a class="spell" href="/spells/8">Mind Control</a>) <br /><br />
-        <table class="scen_table">
-          <tr>
-            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
-            <td>After setup, each hero moves 3 gems from their Reserve zone to
-            their Fatigue zone.</td>
-          </tr>
-        </table>',
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the heroes’ turn.<br /></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><h4>3</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/2">Conan</a>
+            (<a class="item" href="/items/12">Sword</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/4">Shevatas</a>
+            (<a class="item" href="/items/9">Kris</a>,
+            <a class="item" href="/items/20">Shield</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/HadrathusToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/3">Hadrathus</a>
+            (<a class="item" href="/items/10">Ornamental Spear</a>,
+            <a class="spell" href="/spells/10">Mitra’s Healing</a>,
+            <a class="spell" href="/spells/14">Set’s Possession</a>,
+            <a class="spell" href="/spells/8">Mind Control</a>)
+          </td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each hero moves 3 gems from their Reserve zone to
+          their Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
 
       overlord_goal: "At the end of turn 10, guards flood into the inn and the
         heroes are captured once again; the Overlord wins the game.",
@@ -1223,15 +1546,16 @@
             <td>The Overlord starts with 1 gem in their Reserve zone and
               11 in their Fatigue zone, and places the recovery token showing a recovery
               value of “2” in the Book of Skelos.</td>
+            <td></td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td>
-              <span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
-              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .
-              <br /><span class="setup_suggestion">Thak’s Vengeance:</span> If it is turn 6 or higher,
+            <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
+              <p><span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
+              <p><span class="setup_suggestion">Thak’s Vengeance:</span> If it is turn 6 or higher,
               the Overlord rolls 3 Red
               <img src="/assets/dice/Red.png" class="scen_sq_token" />
               <img src="/assets/dice/Red.png" class="scen_sq_token" />
@@ -1242,9 +1566,12 @@
               The Overlord places the Thak model (6 life points) in the area whose
               number matches the total, and places one Thak tile third from the
               left in the River and another sixth from the left, sliding tiles to
-              the right as needed. Thak cannot be affected by the Mind Control spell.
+              the right as needed. Thak cannot be affected by the Mind Control spell.</p>
             </td>
+            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Thak.png" class="scen_event float_tile"></td>
           </tr>
+        </table>
+        <table class="scen_table">
           <tr>
             <td><img src="/assets/tokens/num1Token.png" class="scen_token" />
             </td>
@@ -1256,6 +1583,7 @@
               different areas but cannot split one hero’s equipment. Hadrathus
               keeps his spells.
             </td>
+            <td></td>
           </tr>
         </table>',
 
@@ -1408,19 +1736,52 @@
         Overlord or are tied for the most points and a hero has fled with the Idol
         of Yag-Kosha, the heroes win the game.",
 
-      hero_setup: 'The game starts with the heroes’ turn. The heroes start in
-        the areas indicated by the setup diagram.
-        <br /><br /><span class="setup_suggestion">Suggestions for 3 heroes:</span>
-        <br /><a class="hero" href="/heroes/2">Conan</a>
-        <br /><a class="hero" href="/heroes/4">Shevatas</a>
-        <br /><a class="hero" href="/heroes/7">Valeria</a> <br /><br />
-        <table class="scen_table">
-          <tr>
-            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
-            <td>After setup, each hero moves 5 gems from their Reserve zone to
-            their Fatigue zone.</td>
-          </tr>
-        </table>',
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the heroes’ turn.<br /></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><h4>3</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/2">Conan</a>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/4">Shevatas</a>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ValeriaToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/7">Valeria</a>
+          </td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each hero moves 5 gems from their Reserve zone to
+          their Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
 
       overlord_goal: "At the end of turn 8, if the Overlord has more points than
         the heroes or is tied for most points and no hero has fled with the Idol
@@ -1433,24 +1794,28 @@
             <td>The Overlord starts with 3 gems in their Reserve zone and
               8 in their Fatigue zone, and places the recovery token showing a recovery
               value of “5” in the Book of Skelos.</td>
+              <td></td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td>
-              <span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
-              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .
-              <br /><span class="setup_suggestion">Siege:</span> The Overlord rolls 1 Yellow
+            <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
+              <p><span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
+              <p><span class="setup_suggestion">Siege:</span> The Overlord rolls 1 Yellow
               <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> die and
               resolves an effect based on the number of symbols shown on the die:
               <br />0 - Resolve the “Reinforcement” event.
               <br />1 - Place 1 flame in a hut area with a flame. An area cannot
               have more than 3 flames in it.
               <br />2 - The Overlord moves 3 gems from their Fatigue zone to their
-              Reserve zone.
+              Reserve zone.</p>
             </td>
+            <td></td>
           </tr>
+        </table>
+        <table class="scen_table">
           <tr>
             <td><img src="/assets/tokens/bigCardAToken.png" class="scen_event" /></td>
             <td>
@@ -1471,6 +1836,7 @@
             shuffles them together, and randomly places 1 card facedown in each
             hut area (2 cards total in each hut area).
             </td>
+            <td></td>
           </tr>
         </table>',
 
@@ -1547,26 +1913,31 @@
             <td><img src="/assets/tokens/cardAToken.png" class="scen_event" /></td>
             <td>The heroes score 2 points if a hero fled from the upper-leftmost road area.
             <br />The Overlord scores 3 points if no hero fled from the upper-leftmost road area.</td>
+            <td></td>
           </tr>
           <tr>
             <td><img src="/assets/tokens/cardBToken.png" class="scen_event" /></td>
             <td>The heroes score 2 points if there are fewer than 3 flames in hut 5.
             <br />The Overlord scores 2 points if there are 3 flames in hut 5.</td>
+            <td></td>
           </tr>
           <tr>
             <td><img src="/assets/tokens/cardCToken.png" class="scen_event" /></td>
             <td>The heroes score 1 point for each hero who has fled.
             <br />The Overlord scores 2 points for each hero on the board.</td>
+            <td></td>
           </tr>
           <tr>
             <td><img src="/assets/tokens/cardDToken.png" class="scen_event" /></td>
             <td>The heroes score 4 points if Zogar Sag is dead.
             <br />The Overlord scores 2 points if Zogar Sag is alive.</td>
+            <td></td>
           </tr>
           <tr>
             <td><img src="/assets/tokens/cardEToken.png" class="scen_event" /></td>
             <td>The heroes score 2 points if a hero fled with the Idol of Yag-Kosha.
             <br />The Overlord scores 4 points if no hero fled with the Idol of Yag-Kosha.</td>
+            <td></td>
           </tr>
         </table></p>
 
@@ -1620,22 +1991,49 @@
         red chest, the heroes have all they need to access the promised treasure;
         the heroes win the game.",
 
-      hero_setup: 'The game starts with the heroes’ turn. The heroes start in
-        the areas indicated by the setup diagram.
-        <br /><br /><span class="setup_suggestion">Suggestions for 2 heroes:</span>
-        <br /><a class="hero" href="/heroes/2">Conan</a>
-        (<a class="item" href="/items/4">Conan‘s Sword</a>,
-          <a class="item" href="/items/17">Leather Armor</a>),
-        <br /><a class="hero" href="/heroes/4">Shevatas</a>
-        (<a class="item" href="/items/9">Kris</a>,
-          <a class="item" href="/items/13">Throwing Knives</a>) <br /><br />
-        <table class="scen_table">
-          <tr>
-            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
-            <td>After setup, heroes do not move any gems from their Reserve
-            zone to their Fatigue zone.</td>
-          </tr>
-        </table>',
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the heroes’ turn.<br /></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><h4>2</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/2">Conan</a>
+            (<a class="item" href="/items/4">Conan‘s Sword</a>,
+            <a class="item" href="/items/17">Leather Armor</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/4">Shevatas</a>
+            (<a class="item" href="/items/9">Kris</a>,
+            <a class="item" href="/items/13">Throwing Knives</a>)
+          </td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, heroes do not move any gems from their Reserve
+          zone to their Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
 
       overlord_goal: "If all heroes are dead or at the end of turn 8, the
         fabulous treasure is out of the heroes’ reach; the Overlord wins the game.",
@@ -1647,17 +2045,19 @@
             <td>The Overlord starts with 10 gems in their Reserve zone
               and 2 in their Fatigue zone, and places the recovery token showing a
               recovery value of “5” in the Book of Skelos.</td>
+            <td></td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td>
-              <span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
-              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .
-              <br /><span class="setup_suggestion">As You Wish:</span> The Overlord may exchange the
-              position of 2 tiles in the River.
+            <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
+              <p><span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
+              <p><span class="setup_suggestion">As You Wish:</span> The Overlord may exchange the
+              position of 2 tiles in the River.</p>
             </td>
+            <td></td>
           </tr>
         </table>',
 
@@ -1774,29 +2174,62 @@
 
       hero_goal: "When Skuthus dies, Kalenthes is safe; the heroes win the game.",
 
-      hero_setup: 'The game starts with the heroes’ turn. The heroes start in the
-        areas indicated by the setup diagram.
-        <br /><br /><span class="setup_suggestion">Suggestions for 3 heroes:</span>
-        <br /><a class="hero" href="/heroes/2">Conan</a>
-        (<a class="item" href="/items/1">Battle Axe</a>,
-          <a class="item" href="/items/20">Shield</a>,
-          <a class="item" href="/items/17">Leather Armor</a>),
-        <br /><a class="hero" href="/heroes/4">Shevatas</a>
-        (<a class="item" href="/items/9">Kris</a>,
-          <a class="item" href="/items/13">Throwing Knives</a>),
-        <br /><a class="hero" href="/heroes/3">Hadrathus</a>
-        (<a class="item" href="/items/3">Dagger</a>,
-          <a class="spell" href="/spells/16">Teleportation</a>,
-          <a class="spell" href="/spells/9">Mitra’s Halo</a>,
-          <a class="spell" href="/spells/6">Lightning Storm</a>).
-          Hadrathus does not start with Mitra’s Halo cast. <br /><br />
-        <table class="scen_table">
-          <tr>
-            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
-            <td>After setup, each hero moves 5 gems from their Reserve zone to
-            their Fatigue zone.</td>
-          </tr>
-        </table>',
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the heroes’ turn.<br /></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><h4>3</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/2">Conan</a>
+            (<a class="item" href="/items/1">Battle Axe</a>,
+            <a class="item" href="/items/20">Shield</a>,
+            <a class="item" href="/items/17">Leather Armor</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/4">Shevatas</a>
+            (<a class="item" href="/items/9">Kris</a>,
+            <a class="item" href="/items/13">Throwing Knives</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/HadrathusToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/3">Hadrathus</a>
+            (<a class="item" href="/items/3">Dagger</a>,
+            <a class="spell" href="/spells/16">Teleportation</a>,
+            <a class="spell" href="/spells/9">Mitra’s Halo</a>,
+            <a class="spell" href="/spells/6">Lightning Storm</a>).
+            Hadrathus does not start with Mitra’s Halo cast.
+          </td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each hero moves 5 gems from their Reserve zone to
+          their Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
 
       overlord_goal: "At the end of turn 8, Skuthus escapes as his minions occupy
         the heroes; the Overlord wins the game.",
@@ -1808,24 +2241,28 @@
             <td>The Overlord starts with 9 gems in their Reserve zone and 3 in
             their Fatigue zone, and places the recovery token showing a recovery
             value of “5” in the Book of Skelos.</td>
+            <td></td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td>
-              <span class="setup_suggestion">Undead Horde:</span> During setup, the Overlord sets
+            <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
+              <p><span class="setup_suggestion">Undead Horde:</span> During setup, the Overlord sets
               aside 5 Mummy models with blue bases, 5 Skeletons with red bases, 5
               Skeletons with orange bases, and 5 Mummies with green bases. These
               models can be reinforced. When the Overlord resolves a “Reinforcement”
               event, the Overlord can place reinforced models in any area, but can
               place no more than 2 per area. The first time the Overlord resolves
               a “Reinforcement” event, the Overlord gains 10 additional
-              reinforcement points.
-              <br /><span class="setup_suggestion">Reinforcement:</span> 10 reinforcement points
-              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .
+              reinforcement points.</p>
+              <p><span class="setup_suggestion">Reinforcement:</span> 10 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
             </td>
+            <td></td>
           </tr>
+        </table>
+        <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SkuthusToken.png" class="scen_setup"></td>
             <td>
@@ -1833,12 +2270,13 @@
               <a class="spell" href="/spells/11">Pestilential Swarm</a> and
               <a class="spell" href="/spells/16">Teleportation</a>.
             </td>
+            <td></td>
           </tr>
         </table>',
 
       tile1: 4,
       tile2: 8,
-      tile3: 41,
+      tile3: 84,
       tile4: 91,
       tile5: 1,
       tile6: 8,
@@ -1904,10 +2342,10 @@
       overlord_victory: '',
 
       origin: "King Pledge",
-      product_ids: [1, 2],
+      product_ids: [1, 2, 3],
       map_ids: [2],
       hero_ids: [2, 3, 4],
-      tile_ids: [1, 4, 8, 41, 42, 48, 91],
+      tile_ids: [1, 4, 8, 42, 48, 84, 91],
       spell_ids: [6, 9, 11, 16],
       item_ids: [1, 3, 5, 6, 8, 9, 12, 13, 16, 17, 19, 20, 22 ] },
 
@@ -1940,24 +2378,57 @@
         the end of turn 9, or when Thog dies, the heroes manage to survive; the
         heroes win the game.",
 
-      hero_setup: 'The game starts with the heroes’ turn. The heroes start in
-        the areas indicated by the setup diagram.
-        <br /><br /><span class="setup_suggestion">Suggestions for 3 heroes:</span>
-        <br /><a class="hero" href="/heroes/2">Conan</a>
-        (<a class="item" href="/items/1">Battle Axe</a>,
-          <a class="item" href="/items/17">Leather Armor</a>),
-        <br /><a class="hero" href="/heroes/4">Shevatas</a>
-        (<a class="item" href="/items/9">Kris</a>,
-          <a class="item" href="/items/13">Throwing Knives</a>),
-        <br /><a class="hero" href="/heroes/7">Valeria</a>
-        (<a class="item" href="/items/11">Perrying Dagger</a>.<br /><br />
-        <table class="scen_table">
-          <tr>
-            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
-            <td>After setup, Valeria moves 4 gems from her Reserve zone to her
-            Fatigue zone; Conan and Shevatas do not move any gems.</td>
-          </tr>
-        </table>',
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the heroes’ turn.<br /></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><h4>3</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/2">Conan</a>
+            (<a class="item" href="/items/1">Battle Axe</a>,
+            <a class="item" href="/items/17">Leather Armor</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/4">Shevatas</a>
+            (<a class="item" href="/items/9">Kris</a>,
+            <a class="item" href="/items/13">Throwing Knives</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ValeriaToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/7">Valeria</a>
+            (<a class="item" href="/items/11">Perrying Dagger</a>)
+          </td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, Valeria moves 4 gems from her Reserve zone to her
+          Fatigue zone; Conan and Shevatas do not move any gems.</td>
+          <td></td>
+        </tr>
+      </table>',
 
       overlord_goal: "If the energy marker is on space 15 at the end of turn 9,
         Thog reaches its full power; the Overlord wins the game.",
@@ -1969,19 +2440,24 @@
             <td>The Overlord starts with 5 gems in their Reserve zone and
               5 in their Fatigue zone, and places the recovery token showing a recovery
               value of “5” in the Book of Skelos.</td>
+            <td></td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
             <td><img src="/assets/tokens/energyToken.png" class="scen_token" /></td>
             <td>During setup, place the energy marker on space 0 of the track.</td>
+            <td></td>
           </tr>
+        </table>
+        <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td>
-              <span class="setup_suggestion">Thog’s Shadow:</span> During the next hero turn, heroes
-              cannot gain movement points from their movement values.
+            <td><p>When an event tile is activated the Overlord resolves the following event:</p>
+              <p><span class="setup_suggestion">Thog’s Shadow:</span> During the next hero turn, heroes
+              cannot gain movement points from their movement values.</p>
             </td>
+            <td></td>
           </tr>
         </table>',
 
@@ -2105,30 +2581,62 @@
       hero_goal: "If the charm is broken and a hero has fled the village with
       Yselda, she is saved; the heroes win the game.",
 
-      hero_setup: 'The game starts with the heroes’ turn. The heroes start in the
-        area indicated by the setup diagram.<br />
-        <br /><br /><span class="setup_suggestion">Suggestion for 3 heroes:</span>
-        <br /><a class="hero" href="/heroes/2">Conan</a>
-        (<a class="item" href="/items/1">Battle Axe</a>,
-        <a class="item" href="/items/20">Shield</a>,
-        <a class="item" href="/items/17">Leather Armor</a>),
-        <br /><a class="hero" href="/heroes/4">Shevatas</a>
-        (<a class="item" href="/items/9">Kris</a>,
-        <a class="item" href="/items/13">Throwing Knives</a>),
-        <br /><a class="hero" href="/heroes/3">Hadrathus</a>
-        (<a class="item" href="/items/3">Dagger</a>,
-        <a class="spell" href="/spells/16">Teleportation</a>,
-        <a class="spell" href="/spells/9">Mitra’s Halo</a>,
-        <a class="spell" href="/spells/6">Lightning Storm</a>).
-        Hadrathus starts with Mitra’s Halo cast.
-        <br /><br />
-        <table class="scen_table">
-          <tr>
-            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
-            <td>After setup, each hero moves 5 gems from their Reserve zone to their
-            Fatigue zone.</td>
-          </tr>
-        </table>',
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the heroes’ turn.<br /></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><h4>3</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/2">Conan</a>
+            (<a class="item" href="/items/1">Battle Axe</a>,
+            <a class="item" href="/items/20">Shield</a>,
+            <a class="item" href="/items/17">Leather Armor</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/4">Shevatas</a>
+            (<a class="item" href="/items/9">Kris</a>,
+            <a class="item" href="/items/13">Throwing Knives</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/HadrathusToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/3">Hadrathus</a>
+            (<a class="item" href="/items/3">Dagger</a>,
+            <a class="spell" href="/spells/16">Teleportation</a>,
+            <a class="spell" href="/spells/9">Mitra’s Halo</a>,
+            <a class="spell" href="/spells/6">Lightning Storm</a>).
+            Hadrathus starts with Mitra’s Halo cast.
+          </td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each hero moves 5 gems from their Reserve zone to their
+          Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
 
       overlord_goal: "At the end of turn 12, Thaug emerges from the depths of the
       swamp and devours Yselda; the Overlord wins the game.",
@@ -2140,22 +2648,23 @@
             <td>The Overlord starts with 7 gems in their Reserve zone and
               5 in their Fatigue zone, and places the recovery token showing a recovery
               value of “5” in the Book of Skelos.</td>
+            <td></td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td>
-              When the Event tile is activated, the Overlord resolves each of the following events in order:
-              <br /><span class="setup_suggestion">Impending Awakening:</span> Move the turn tracker 1 space toward space 15.
-              <br/ ><span class="setup_suggestion">Destruction:</span> The Overlord places a water token
+            <td><p>When the Event tile is activated, the Overlord resolves each of the following events in order:</p>
+              <p><span class="setup_suggestion">Impending Awakening:</span> Move the turn tracker 1 space toward space 15.</p>
+              <p><span class="setup_suggestion">Destruction:</span> The Overlord places a water token
               <img src="/assets/tokens/waterToken.png" class="scen_token" /> in an area.
-              That area becomes a water area.
-              <br/ ><span class="setup_suggestion">Emergence:</span> The Overlord may move or place a
+              That area becomes a water area.</p>
+              <p><span class="setup_suggestion">Emergence:</span> The Overlord may move or place a
               Tentacles tile into the Event title’s previous position in the River,
               then place the 3 corresponding Tentacle models (taken from the board
-              or from the box) in the water areas of their choice on the board.
+              or from the box) in the water areas of their choice on the board.</p>
             </td>
+            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Tentacles.png" class="scen_event float_tile"></td>
           </tr>
         </table>',
 
@@ -2257,30 +2766,62 @@
       board is less than 5, most of the village’s inhabitants manage to escape to
       safety; the heroes win the game. They also win by killing the Serpent.",
 
-      hero_setup: 'The game starts with the heroes’ turn. The heroes start in the
-        area indicated by the setup diagram.<br />
-        <br /><span class="setup_suggestion">Suggestion for 3 heroes:</span>
-        <br /><a class="hero" href="/heroes/2">Conan</a>
-        (<a class="item" href="/items/1">Battle Axe</a>,
-        <a class="item" href="/items/20">Shield</a>,
-        <a class="item" href="/items/17">Leather Armor</a>),
-        <br /><a class="hero" href="/heroes/4">Shevatas</a>
-        (<a class="item" href="/items/9">Kris</a>,
-        <a class="item" href="/items/13">Throwing Knives</a>),
-        <br /><a class="hero" href="/heroes/3">Hadrathus</a>
-        (<a class="item" href="/items/3">Dagger</a>,
-        <a class="spell" href="/spells/16">Teleportation</a>,
-        <a class="spell" href="/spells/9">Mitra’s Halo</a>,
-        <a class="spell" href="/spells/6">Lightning Storm</a>).
-        Hadrathus does not start with Mitra’s Halo cast.
-        <br /><br />
-        <table class="scen_table">
-          <tr>
-            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
-            <td>After setup, each hero moves 5 gems from their Reserve zone to their
-            Fatigue zone.</td>
-          </tr>
-        </table>',
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the heroes’ turn.<br /></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><h4>3</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/2">Conan</a>
+            (<a class="item" href="/items/1">Battle Axe</a>,
+            <a class="item" href="/items/20">Shield</a>,
+            <a class="item" href="/items/17">Leather Armor</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/4">Shevatas</a>
+            (<a class="item" href="/items/9">Kris</a>,
+            <a class="item" href="/items/13">Throwing Knives</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/HadrathusToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/3">Hadrathus</a>
+            (<a class="item" href="/items/3">Dagger</a>,
+            <a class="spell" href="/spells/16">Teleportation</a>,
+            <a class="spell" href="/spells/9">Mitra’s Halo</a>,
+            <a class="spell" href="/spells/6">Lightning Storm</a>).
+            Hadrathus does not start with Mitra’s Halo cast.
+          </td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each hero moves 5 gems from their Reserve zone to their
+          Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
 
       overlord_goal: "If 5 villagers have been devoured, all hope is lost;
       the Overlord wins the game.",
@@ -2292,23 +2833,28 @@
             <td>The Overlord starts with 3 gems in their Reserve zone and
               8 in their Fatigue zone, and places the recovery token showing a recovery
               value of “5” in the Book of Skelos.</td>
+            <td></td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td>
-              <span class="setup_suggestion">Reinforcement:</span> 6 reinforcement points
-              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .
-              <br /><span class="setup_suggestion">Suffocating Gas:</span> The Overlord chooses an area
+            <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
+              <p><span class="setup_suggestion">Reinforcement:</span> 6 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
+              <p><span class="setup_suggestion">Suffocating Gas:</span> The Overlord chooses an area
               and rolls 1 Red <img src="/assets/dice/Red.png" class="scen_sq_token" />
               die. Each character in that area suffers damage equal to the
-              number of symbols shown on the die with no possible defense.
+              number of symbols shown on the die with no possible defense.</p>
             </td>
+            <td></td>
           </tr>
+        </table>
+        <table class="scen_table">
           <tr>
             <td><img src="/assets/tokens/numBackToken.png" class="scen_token" /></td>
             <td>During setup, the Overlord places 13 tokens on the board representing the villagers as indicated by the setup diagram.</td>
+            <td></td>
           </tr>
         </table>',
 
@@ -2407,25 +2953,63 @@
       hero_goal: "If a hero flees with Yasmela, they are safe from harm;
       the heroes win the game.",
 
-      hero_setup: 'The game starts with the heroes’ turn. Conan Warlord starts in the area indicated by the setup diagram.<br />
-        <br /><span class="setup_suggestion">Suggestion for 3 heroes:</span>
-        <br /><a class="hero" href="/heroes/14">Conan Warlord</a>
-        (<a class="item" href="/items/4">Conan’s Sword</a>),
-        <br /><a class="hero" href="/heroes/7">Valeria</a>
-        (<a class="item" href="/items/12">Sword</a>,
-        <a class="item" href="/items/11">Parrying Dagger</a>),
-        <br /><a class="hero" href="/heroes/4">Shevatas</a>
-        (<a class="item" href="/items/9">Kris</a>,
-        <a class="item" href="/items/13">Throwing Knives</a>),
-        <br /><br />
-        <table class="scen_table">
-          <tr>
-            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
-            <td>After setup, Conan Warlord moves 5 gems from their Reserve zone to their
-            Fatigue zone and Valeria and Shevatas move 3 gems from their Reserve zone
-            to their Fatigue zone.</td>
-          </tr>
-        </table>',
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the heroes’ turn.<br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Conan Warlord starts in the area indicated by the setup diagram.</td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><h4>3</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanWarlordToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/14">Conan Warlord</a>
+            (<a class="item" href="/items/4">Conan’s Sword</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ValeriaToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/7">Valeria</a>
+            (<a class="item" href="/items/12">Sword</a>,
+            <a class="item" href="/items/11">Parrying Dagger</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/4">Shevatas</a>
+            (<a class="item" href="/items/9">Kris</a>,
+            <a class="item" href="/items/13">Throwing Knives</a>)
+          </td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, Conan Warlord moves 5 gems from their Reserve zone to their
+          Fatigue zone and Valeria and Shevatas move 3 gems from their Reserve zone
+          to their Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
 
       overlord_goal: "At the end of turn 8, Natohk is able to carry out his plans;
       the Overlord wins the game.",
@@ -2437,15 +3021,16 @@
             <td>The Overlord starts with 8 gems in their Reserve zone and
               3 in their Fatigue zone, and places the recovery token showing a recovery
               value of “5” in the Book of Skelos.</td>
+            <td></td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td>
-              <span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
-              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .
-              <br /><span class="setup_suggestion">Curse of Set:</span> Yasmela attacks the hero carrying
+            <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
+              <p><span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
+              <p><span class="setup_suggestion">Curse of Set:</span> Yasmela attacks the hero carrying
               her; the Overlord rolls 2 Red
               <img src="/assets/dice/Red.png" class="scen_sq_token" />
               <img src="/assets/dice/Red.png" class="scen_sq_token" /> dice.
@@ -2454,8 +3039,9 @@
               <br /><span class="setup_suggestion">Strategist:</span> The Overlord may move 1 gem from
               their Reserve zone to their Fatigue zone to activate another tile in
               the River, regardless of its position. That tile counts toward the 2
-              tiles the Overlord can activate each turn.
+              tiles the Overlord can activate each turn.</p>
             </td>
+            <td></td>
           </tr>
         </table>',
 
@@ -2565,29 +3151,60 @@
       hero_goal: "At the end of turn 8, the troops of the count arrive and Zaporavo’s
       plan fails; the heroes win the game.",
 
-      hero_setup: 'The game starts with the heroes’ turn. The heroes start in the area indicated by the setup diagram.<br />
-        <br /><span class="setup_suggestion">Suggestion for 3 heroes:</span>
-        <br /><a class="hero" href="/heroes/14">Conan Warlord</a>
-        (<a class="item" href="/items/3">Dagger</a>,
-        <a class="item" href="/items/16">Chain Mail</a>),
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the heroes’ turn.<br /></td>
+          <td></td>
+        </tr>
+      </table>
 
-        <br /><a class="hero" href="/heroes/7">Valeria</a>
-        (<a class="item" href="/items/12">Sword</a>,
-        <a class="item" href="/items/11">Parrying Dagger</a>),
+      <table class="scen_table">
+        <tr>
+          <td><h4>3</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanWarlordToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/14">Conan Warlord</a>
+            (<a class="item" href="/items/3">Dagger</a>,
+            <a class="item" href="/items/16">Chain Mail</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ValeriaToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/7">Valeria</a>
+            (<a class="item" href="/items/12">Sword</a>,
+            <a class="item" href="/items/11">Parrying Dagger</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/TaurusToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/20">Taurus</a>
+            (<a class="item" href="/items/38">Turanian Sword</a>,
+            <a class="item" href="/items/13">Throwing Knives</a>,
+            <a class="item" href="/items/17">Leather Armor</a>)
+          </td>
+          <td></td>
+        </tr>
+      </table>
 
-        <br /><a class="hero" href="/heroes/20">Taurus</a>
-        (<a class="item" href="/items/38">Turanian Sword</a>,
-        <a class="item" href="/items/13">Throwing Knives</a>,
-        <a class="item" href="/items/17">Leather Armor</a>),
-        <br /><br />
-        <table class="scen_table">
-          <tr>
-            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
-            <td>After setup, Conan Warlord moves 5 gems from their Reserve zone to their
-            Fatigue zone and Valeria and Taurus move 4 gems from their Reserve zone
-            to their Fatigue zone.</td>
-          </tr>
-        </table>',
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, Conan Warlord moves 5 gems from their Reserve zone to their
+          Fatigue zone and Valeria and Taurus move 4 gems from their Reserve zone
+          to their Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
 
       overlord_goal: "If units have fled with 9 or more value worth of gold bags,
       Zaporavo revels in his newfound wealth; the Overlord wins the game.",
@@ -2599,34 +3216,33 @@
             <td>The Overlord starts with 9 gems in their Reserve zone and
               2 in their Fatigue zone, and places the recovery token showing a recovery
               value of “5” in the Book of Skelos.</td>
+            <td></td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td>
-              <span class="setup_suggestion">Reinforcement:</span> 6 reinforcement points
-              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .
-
-              <br /><span class="setup_suggestion">All Hands on Deck:</span> The Overlord may move 1
+            <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
+              <p><span class="setup_suggestion">Reinforcement:</span> 6 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
+              <p><span class="setup_suggestion">All Hands on Deck:</span> The Overlord may move 1
               gem from their Reserve zone to their Fatigue zone to activate another
               tile in the River, regardless of its position. That tile does not
-              count toward the 2 tiles the Overlord can activate each turn.
-
-              <br /><span class="setup_suggestion">Human Chain:</span> The Overlord chooses a gold bag
-              in an area with a unit. Move that gold bag across a border to an
-              adjacent area with a unit. The Overlord may repeat this process with
+              count toward the 2 tiles the Overlord can activate each turn.</p>
+              <p><span class="setup_suggestion">Human Chain:</span> The Overlord chooses
+              a gold bag in an area with a unit. Move that gold bag across a border
+              to an adjacent area with a unit. The Overlord may repeat this process with
               that gold bag any number of times. Then, if the gold bag is in a
               reinforcement area, a unit in that area may pick it up and flee with
               the gold bag; remove that model from the board and set its gold bags
               aside facedown. The Overlord may move up to 2 gold bags this way per
-              activation of the Event tile.
-
-              <br /><span class="setup_suggestion">Arrival of the Dark Marauder:</span> The Overlord
+              activation of the Event tile.</p>
+              <p><span class="setup_suggestion">Arrival of the Dark Marauder:</span> The Overlord
               places a <a class="tile" href="/tiles/8">Dark Demon</a> model (6 life points) in a reinforcement area.
               This is the Dark Marauder. The Overlord replaces the event tile of
-              their choice in the River with a Dark Demon tile.
+              their choice in the River with a Dark Demon tile.</p>
             </td>
+            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/DarkDemon.png" class="scen_event float_tile"></td>
           </tr>
         </table>',
 
@@ -2729,33 +3345,68 @@
       the Aesir army arrive. If at least one hero is alive at the end of turn 8
       and score 5 victory points, the heroes win the game.",
 
-      hero_setup: 'The game starts with the heroes’ turn.
-        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AesirWarriors.png" class="scen_event float_tile">
-        <br /><br /><span class="setup_suggestion">Suggested Heroes and Equipment:</span>
-        <br /><a class="hero" href="/heroes/2">Conan</a>
-        (<a class="item" href="/items/1">Battle Axe</a>,
-        <a class="item" href="/items/17">Leather Armor</a>),
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the heroes’ turn.<br /></td>
+          <td></td>
+        </tr>
+      </table>
 
-        <br /><a class="hero" href="/heroes/4">Shevatas</a>
-        (<a class="item" href="/items/9">Kris</a>,
-        <a class="item" href="/items/13">Throwing Knives</a>,
-        <a class="item" href="/items/17">Leather Armor</a>),
+      <table class="scen_table">
+        <tr>
+          <td><h4>4</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/2">Conan</a>
+            (<a class="item" href="/items/1">Battle Axe</a>,
+            <a class="item" href="/items/17">Leather Armor</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/4">Shevatas</a>
+            (<a class="item" href="/items/9">Kris</a>,
+            <a class="item" href="/items/13">Throwing Knives</a>,
+            <a class="item" href="/items/17">Leather Armor</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BelitToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/1">Bêlit</a>
+            (<a class="item" href="/items/10">Ornamental Spear</a>,
+            <a class="item" href="/items/17">Leather Armor</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/NiordToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/34">Niord</a>
+            (<a class="item" href="/items/59">2 Aesir Blades</a>),
+            and his 5 <a class="tile" href="/tiles/129">Aesir Warriors</a>
+          </td>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AesirWarriors.png" class="scen_event"></td>
+        </tr>
+      </table>
 
-        <br /><a class="hero" href="/heroes/1">Bêlit</a>
-        (<a class="item" href="/items/10">Ornamental Spear</a>,
-        <a class="item" href="/items/17">Leather Armor</a>),
-
-        <br /><a class="hero" href="/heroes/34">Niord</a>
-        (<a class="item" href="/items/59">2 Aesir Blades</a>),
-        and his 5 <a class="tile" href="/tiles/129">Aesir Warriors</a>.
-        <br /><br />
-        <table class="scen_table">
-          <tr>
-            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
-            <td>After setup, each hero moves 4 gems from their Reserve zone to
-            their Fatigue zone.</td>
-          </tr>
-        </table>',
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each hero moves 4 gems from their Reserve zone to
+          their Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
 
       overlord_goal: "If all heroes are dead or score less than 5 victory points
       at the end of turn 8, the Overlord wins the game.",
@@ -2767,25 +3418,34 @@
             <td>The Overlord starts with 5 gems in their Reserve zone and 10 in
             their Fatigue zone, and places the recovery token showing a recovery
             value of “5” in the Book of Skelos.</td>
+          <td></td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td>
-              <span class="setup_suggestion">Reinforcement:</span> 8 reinforcement points
-              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .
+            <td><p>When Event 1 tile is activated the Overlord resolves the following event:</p>
+              <p><span class="setup_suggestion">Reinforcement:</span> 8 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
             </td>
+            <td></td>
           </tr>
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event2.png" class="scen_event"></td>
-            <td>
-              <span class="setup_suggestion">Rage:</span>The Overlord chooses one area. The Overlord may perform a Melee Attack with all their units in this area.</td>
+            <td><p>When Event 2 tile is activated the Overlord resolves any the following event:</p>
+              <p><span class="setup_suggestion">Rage:</span>The Overlord chooses one area. The Overlord may perform a Melee Attack with all their units in this area.</p></td>
+            <td></td>
           </tr>
           <tr>
           </tr>
-        </table><br /><br />
-        <p>If you do not have the Wolf models, please use the Hyenas from the Core box.</p>',
+        </table>
+        <table class="scen_table">
+          <tr>
+            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZelatasWolfToken.png" class="scen_token" /></td>
+            <td>If you do not have the Wolf models, please use the Hyenas from the Core box.</td>
+            <td></td>
+          </tr>
+        </table>',
 
       tile1: 127,
       tile2: 118,
@@ -2868,30 +3528,62 @@
 
       hero_goal: "If the Yazdigerd dies before the end of turn 8, the heroes win the game.",
 
-      hero_setup: '<span class="setup_suggestion">Suggested Heroes and Equipment:</span>
-        <br /><a class="hero" href="/heroes/2">Conan</a>
-        (<a class="item" href="/items/1">Battle Axe</a>,
-        <a class="item" href="/items/20">Shield</a>),
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the heroes’ turn.<br /></td>
+          <td></td>
+        </tr>
+      </table>
 
-        <br /><a class="hero" href="/heroes/4">Shevatas</a>
-        (<a class="item" href="/items/9">Kris</a>,
-        <a class="item" href="/items/13">Throwing Knives</a>,
-        <a class="item" href="/items/17">Leather Armor</a>),
+      <table class="scen_table">
+        <tr>
+          <td><h4>3</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/2">Conan</a>
+            (<a class="item" href="/items/1">Battle Axe</a>,
+            <a class="item" href="/items/20">Shield</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/4">Shevatas</a>
+            (<a class="item" href="/items/9">Kris</a>,
+            <a class="item" href="/items/13">Throwing Knives</a>,
+            <a class="item" href="/items/17">Leather Armor</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/NiordToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/34">Niord</a>
+            (<a class="item" href="/items/59">2 Aesir Blades</a>)
+          </td>
+          <td></td>
+        </tr>
+      </table>
 
-        <br /><a class="hero" href="/heroes/34">Niord</a>
-        (<a class="item" href="/items/59">2 Aesir Blades</a>),
-        <br /><br />
-        <table class="scen_table">
-          <tr>
-            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
-            <td>After setup, each hero moves 3 gems from their Reserve zone to
-            their Fatigue zone.</td>
-          </tr>
-        </table>',
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each hero moves 3 gems from their Reserve zone to
+          their Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
 
       overlord_goal: "If the Necromancer is still alive at the end of turn 8, the Overlord wins the game.",
 
-      overlord_setup: 'The game starts with the Overlord’s turn.<br /><br />
+      overlord_setup: 'The game starts with the Overlord’s turn.<br />
         <table class="scen_table">
           <tr>
             <td><img src="/assets/tokens/redGem.png" class="scen_token" /></td>
@@ -2900,19 +3592,24 @@
             value of “5” in the Book of Skelos. During the Overlord’s Recovery
             phase, an additional 2 gems are added to the Overlord’s Reserve zone
             taken from the gems left in the game box.</td>
+            <td></td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td>
-              <span class="setup_suggestion">Reinforcement:</span> 3 reinforcement points
-              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .
+            <td><p>When an event tile is activated the Overlord resolves the following event:</p>
+              <p><span class="setup_suggestion">Reinforcement:</span> 3 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
             </td>
+            <td></td>
           </tr>
+        </table>
+        <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SkuthusToken.png" class="scen_setup"></td>
             <td><a class="tile" href="/tiles/115">Yazdigerd</a> has the spell <a class="spell" href="/spells/58">Weight of Years</a>.</td>
+            <td></td>
           </tr>
         </table>',
 
@@ -3027,21 +3724,48 @@
 
       hero_goal: "If the 2 Giants die before the end of turn 8, the heroes win the game.",
 
-      hero_setup: 'The game starts with the heroes’ turn.<br />
-        <br /><span class="setup_suggestion">Suggested Heroes and Equipment:</span>
-        <br /><a class="hero" href="/heroes/2">Conan</a>
-        (<a class="item" href="/items/1">Battle Axe</a>,
-        <a class="item" href="/items/20">Shield</a>),
-        <br /><a class="hero" href="/heroes/34">Niord</a>
-        (<a class="item" href="/items/59">2 Aesir Blades</a>),
-        <br /><br />
-        <table class="scen_table">
-          <tr>
-            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
-            <td>After setup, each hero moves 5 gems from their Reserve zone to
-            their Fatigue zone.</td>
-          </tr>
-        </table>',
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the heroes’ turn.<br /></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><h4>2</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/2">Conan</a>
+            (<a class="item" href="/items/1">Battle Axe</a>,
+            <a class="item" href="/items/20">Shield</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/NiordToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/34">Niord</a>
+            (<a class="item" href="/items/59">2 Aesir Blades</a>)
+          </td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each hero moves 5 gems from their Reserve zone to
+          their Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
 
       overlord_goal: "If at least one Giant is still alive, valiantly defending
       their sister at the end of turn 8, the heroes are delayed and Atali escapes.",
@@ -3053,33 +3777,46 @@
             <td>The Overlord starts with 5 gems in their Reserve zone and 10 in
             their Fatigue zone, and places the recovery token showing a recovery
             value of “5” in the Book of Skelos.</td>
+            <td></td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td>
-              When an event tile is activated the Overlord resolves any one of
-              the following events:<br /><br />
-              <span class="setup_suggestion">Rabid Wolf Pack:</span> 3 reinforcement points for the
+            <td><p>When an event tile is activated the Overlord resolves any one of
+              the following events:</p>
+              <p><span class="setup_suggestion">Rabid Wolf Pack:</span> 3 reinforcement points for the
               Wolf unit, placed on one or any of the Impenetrable Forest areas.
-              (Maximum limit of 5 Wolves on the board at any one time)<br /><br />
-              <span class="setup_suggestion">Murder of Crows:</span> 2 reinforcement points for the
+              (Maximum limit of 5 Wolves on the board at any one time)</p>
+              <p><span class="setup_suggestion">Murder of Crows:</span> 2 reinforcement points for the
               Crows, placed on one or any of the Rocky Outcrop areas. (Maximum
-              limit of 5 Crows on the board at any one time)<br /><br />
-              <span class="setup_suggestion">Ice Quake:</span> An Ice Giant drives his axe into the
+              limit of 5 Crows on the board at any one time)</p>
+              <p><span class="setup_suggestion">Ice Quake:</span> An Ice Giant drives his axe into the
               ground creating a surge of icy damage. The Overlord selects a giant,
               then chooses either the area the Giant is in or an adjacent area.
               He then rolls 2 Red <img src="/assets/dice/Red.png" class="scen_sq_token" />
               <img src="/assets/dice/Red.png" class="scen_sq_token" /> dice.
               Each hero in that area must move that number of gems from their
               Reserve zone to their Fatigue zone. This effect cannot be rerolled
-              by the Overlord or defended against by the heroes.
+              by the Overlord or defended against by the heroes.</p>
             </td>
+            <td></td>
           </tr>
-        </table><br /><br />
-        <p>To differentiate the giant brothers, place the corresponding Life Point tokens on the bases.</p>
-        <p>If you do not have the Wolf models, please use the Hyenas from the Core box.</p>',
+        </table><br />
+        <table class="scen_table">
+          <tr>
+            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SeskiToken.png" class="scen_token" /></td>
+            <td>To differentiate the giant brothers, place the corresponding Life Point tokens on the bases.</td>
+            <td></td>
+          </tr>
+        </table>
+        <table class="scen_table">
+          <tr>
+            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZelatasWolfToken.png" class="scen_token" /></td>
+            <td>If you do not have the Wolf models, please use the Hyenas from the Core box.</td>
+            <td></td>
+          </tr>
+        </table>',
 
       tile1: 1,
       tile2: 117,
@@ -3167,19 +3904,45 @@
 
       hero_goal: "If Atali dies before she can escape, the hero wins the game.",
 
-      hero_setup: 'The game starts with the heroes’ turn.<br />
-        <br /><span class="setup_suggestion">Suggested Heroes and Equipment:</span>
-        <br /><a class="hero" href="/heroes/2">Conan</a>
-        (<a class="item" href="/items/1">Battle Axe</a>),
-        <br /><br />
-        <table class="scen_table">
-          <tr>
-            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
-            <td>After setup, each hero moves 4 gems from their Reserve zone to their
-            Fatigue zone. Niord has died at the hands of a frost giant. During the
-            hero’s Stance phase, Niord counts as a hero who died this game.</td>
-          </tr>
-        </table>',
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the heroes’ turn.<br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Conan starts in the area indicated by the setup diagram.</td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><h4>1</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/2">Conan</a>
+            (<a class="item" href="/items/1">Battle Axe</a>)
+          </td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each hero moves 4 gems from their Reserve zone to their
+          Fatigue zone. Niord has died at the hands of a frost giant. During the
+          hero’s Stance phase, Niord counts as a hero who died this game.</td>
+          <td></td>
+        </tr>
+      </table>',
 
       overlord_goal: "If Atali escapes or Conan dies, the Overlord wins the game.",
 
@@ -3190,30 +3953,36 @@
             <td>The Overlord starts with 5 gems in their Reserve zone and 15 in
             their Fatigue zone, and places the recovery token showing a recovery
             value of “5” in the Book of Skelos.</td>
+            <td></td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td>
-              <span class="setup_suggestion">Ice Crows:</span> Atali sways rhythmically, uttering curses,
+            <td><p>When Event 1 tile is activated the Overlord resolves the following event:</p>
+              <p><span class="setup_suggestion">Ice Crows:</span> Atali sways rhythmically, uttering curses,
               as the ice shatters around her launching a storm of sharp icy beaks.
               The Overlord can spend up to 3 reinforcement points on the Crows unit
               and place them in Atali’s area or any one adjacent area. (Maximum limit
-                of 5 Crows on the board at any one time)
+                of 5 Crows on the board at any one time)</p>
             </td>
+            <td></td>
           </tr>
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event2.png" class="scen_event"></td>
-            <td>
-              <span class="setup_suggestion">Revitalize:</span> Atali may transfer 2 gems from any area
+            <td><p>When Event 2 tile is activated the Overlord resolves the following event:</p>
+              <p><span class="setup_suggestion">Revitalize:</span> Atali may transfer 2 gems from any area
               on the game board and place them in the Overlord’s Fatigue zone.
-              These 2 gems can be taken from 1 or 2 different areas.
+              These 2 gems can be taken from 1 or 2 different areas.</p>
             </td>
+            <td></td>
           </tr>
+        </table>
+        <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AtaliToken.png" class="scen_setup"></td>
             <td><a class="tile" href="/tiles/114">Atali</a> has the spell <a class="spell" href="/spells/58">Weight of Years</a>.</td>
+            <td></td>
           </tr>
         </table>',
 
@@ -3336,30 +4105,70 @@
 
       hero_goal: "If Shuang Mian dies before the end of turn 8, the heroes win the game.",
 
-      hero_setup: 'The game starts with the heroes’ turn.<br />
-        <br /><span class="setup_suggestion">Suggested Heroes and Equipment:</span>
-        <br /><a class="hero" href="/heroes/2">Conan</a>
-        (<a class="item" href="/items/1">Battle Axe</a>),
-        <br /><a class="hero" href="/heroes/4">Shevatas</a>
-        (<a class="item" href="/items/9">Kris</a>,
-        <a class="item" href="/items/13">Throwing Knives</a>),
-        <br /><a class="hero" href="/heroes/35">Shentu</a>
-        (<a class="item" href="/items/63">Khitan Sword</a>,
-        <a class="item" href="/items/62">Khitan Short Sword</a>),
-        <br /><br />
-        During setup, the heroes freely distribute the following 2 asset cards
-        among themselves:
-        <a class="item" href="/items/69">Tower Key</a>,
-        <a class="item" href="/items/65">False Evidence</a>.
-        <br /><br />
-        <p></p>
-        <table class="scen_table">
-          <tr>
-            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
-            <td>After setup, each hero moves 5 gems from their Reserve zone to their
-            Fatigue zone.</td>
-          </tr>
-        </table>',
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the heroes’ turn.<br /></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><h4>3</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/2">Conan</a>
+            (<a class="item" href="/items/1">Battle Axe</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/4">Shevatas</a>
+            (<a class="item" href="/items/9">Kris</a>,
+            <a class="item" href="/items/13">Throwing Knives</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShentuToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/35">Shentu</a>
+            (<a class="item" href="/items/63">Khitan Sword</a>,
+            <a class="item" href="/items/62">Khitan Short Sword</a>)
+          </td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td></td>
+          <td>
+            During setup, the heroes freely distribute the following 2 asset cards
+            among themselves:
+              <a class="item" href="/items/69">Tower Key</a>,
+              <a class="item" href="/items/65">False Evidence</a>.
+          </td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each hero moves 5 gems from their Reserve zone to their
+          Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
 
       overlord_goal: "If Shuang Mian is still alive at the end of turn 8, the Overlord wins the game.",
 
@@ -3372,12 +4181,14 @@
             value of “X” in the Book of Skelos. Then the Overlord places the token
             <img src="/assets/tokens/num3Token.png" class="scen_token" /> on the
             recovery token to indicate both his recovery value and the Alert Level.</td>
+            <td></td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShuangMianToken.png" class="scen_setup"></td>
             <td><a class="tile" href="/tiles/131">Shuang Mian</a> has the spell <a class="spell" href="/spells/60">Mental Torture</a> spell.</td>
+            <td></td>
           </tr>
         </table>',
 
@@ -3544,24 +4355,57 @@
       hero_goal: "If one hero flees the tower with the head of Shuang Mian before
       the end of turn 7, the contract is fulfilled and the heroes win the game.",
 
-      hero_setup: 'The game starts with the heroes’ turn.<br />
-        <br /><span class="setup_suggestion">Suggested Heroes and Equipment:</span>
-        <br /><a class="hero" href="/heroes/2">Conan</a>
-        (<a class="item" href="/items/1">Battle Axe</a>),
-        <br /><a class="hero" href="/heroes/4">Shevatas</a>
-        (<a class="item" href="/items/9">Kris</a>,
-        <a class="item" href="/items/13">Throwing Knives</a>),
-        <br /><a class="hero" href="/heroes/35">Shentu</a>
-        (<a class="item" href="/items/63">Khitan Sword</a>,
-        <a class="item" href="/items/62">Khitan Short Sword</a>),
-        <br /><br />
-        <table class="scen_table">
-          <tr>
-            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
-            <td>After setup, each hero moves 5 gems from their Reserve zone to their
-            Fatigue zone.</td>
-          </tr>
-        </table>',
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the heroes’ turn.<br /></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><h4>3</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/2">Conan</a>
+            (<a class="item" href="/items/1">Battle Axe</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/4">Shevatas</a>
+            (<a class="item" href="/items/9">Kris</a>,
+            <a class="item" href="/items/13">Throwing Knives</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShentuToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/35">Shentu</a>
+            (<a class="item" href="/items/63">Khitan Sword</a>,
+            <a class="item" href="/items/62">Khitan Short Sword</a>)
+          </td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each hero moves 5 gems from their Reserve zone to their
+          Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
 
       overlord_goal: "If a hero has not fled the tower with the head of Shuang
       Mian at the end of turn 7, the Overlord wins the game.",
@@ -3573,6 +4417,7 @@
           <td>The Overlord starts with 5 gems in their Reserve zone and 7 in
           their Fatigue zone, and places the recovery token showing a recovery
           value of “5” in the Book of Skelos.</td>
+          <td></td>
         </tr>
       </table>',
 
@@ -3738,25 +4583,58 @@
       hero_goal: "If one or more heroes have fled the town with the 3 remedy
       ingredients before the end of turn 6, Zelata is saved and the heroes win the game.",
 
-      hero_setup: 'The game starts with the heroes’ turn.<br />
-        <br /><span class="setup_suggestion">Suggested Heroes and Equipment:</span>
-        <br /><a class="hero" href="/heroes/2">Conan</a>
-        (<a class="item" href="/items/1">Battle Axe</a>,
-        <a class="item" href="/items/17">Leather Armor</a>),
-        <br /><a class="hero" href="/heroes/4">Shevatas</a>
-        (<a class="item" href="/items/9">Kris</a>,
-        <a class="item" href="/items/13">Throwing Knives</a>),
-        <br /><a class="hero" href="/heroes/35">Shentu</a>
-        (<a class="item" href="/items/63">Khitan Sword</a>,
-        <a class="item" href="/items/62">Khitan Short Sword</a>),
-        <br /><br />
-        <table class="scen_table">
-          <tr>
-            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
-            <td>After setup, each hero moves 5 gems from their Reserve zone to their
-            Fatigue zone.</td>
-          </tr>
-        </table>',
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the heroes’ turn.<br /></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><h4>3</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/2">Conan</a>
+            (<a class="item" href="/items/1">Battle Axe</a>
+            <a class="item" href="/items/17">Leather Armor</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/4">Shevatas</a>
+            (<a class="item" href="/items/9">Kris</a>,
+            <a class="item" href="/items/13">Throwing Knives</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShentuToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/35">Shentu</a>
+            (<a class="item" href="/items/63">Khitan Sword</a>,
+            <a class="item" href="/items/62">Khitan Short Sword</a>)
+          </td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each hero moves 5 gems from their Reserve zone to their
+          Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
 
       overlord_goal: "If all heroes are dead or do not successfully flee the town
       with the 3 remedy ingredients before the end of turn 6, Zelata is doomed and
@@ -3769,31 +4647,35 @@
             <td>The Overlord starts with 5 gems in their Reserve zone and 7 in
             their Fatigue zone, and places the recovery token showing a recovery
             value of “5” in the Book of Skelos.</td>
+            <td></td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td>
-              Each of the following effects can only be resolved once per game.
+            <td><p>Each of the following effects can only be resolved once per game.
               Each time the event tile is activated, the Overlord must resolve one
               of the following effects, After both effects have been resolved,
-              the event tile has no more effect.<br /><br />
-              <span class="setup_suggestion">Earthquake:</span> The current of the river shakes the
+              the event tile has no more effect.</p>
+              <p><span class="setup_suggestion">Earthquake:</span> The current of the river shakes the
               foundations of the town knocking the heroes down. If possible, each
-              hero moves 1 gem from their Reserve zone to their Fatigue zone.<br /><br />
-              <span class="setup_suggestion">Rising Waters:</span>The waters of the river running along
+              hero moves 1 gem from their Reserve zone to their Fatigue zone.</p>
+              <p><span class="setup_suggestion">Rising Waters:</span>The waters of the river running along
               the cemetery flood the bridges. To cross the river, a character
               cannot move through the bridges areas and must use Leap or Swimming.
-              The effect ends at the beginning of the Overlord’s next turn.
+              The effect ends at the beginning of the Overlord’s next turn.</p>
             </td>
+            <td></td>
           </tr>
+        </table>
+        <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShuangMianToken.png" class="scen_setup"></td>
             <td><a class="tile" href="/tiles/131">Shuang Mian</a> has the spells
               <a class="spell" href="/spells/61">Push Back</a> and
               <a class="spell" href="/spells/59">Blaze</a>.
             </td>
+            <td></td>
           </tr>
         </table>',
 
@@ -3916,28 +4798,61 @@
       hero_goal: "If the Outer Demon or Shuang Mian dies before the end of turn 7,
       his troops flee the battlefield and the heroes win the game.",
 
-      hero_setup: 'The game starts with the heroes’ turn.<br />
-        <br /><span class="setup_suggestion">Suggested Heroes and Equipment:</span>
-        <br /><a class="hero" href="/heroes/2">Conan</a>
-        (<a class="item" href="/items/1">Battle Axe</a>,
-        <a class="item" href="/items/17">Leather Armor</a>),
-        <br /><a class="hero" href="/heroes/35">Shentu</a>
-        (<a class="item" href="/items/63">Khitan Sword</a>,
-        <a class="item" href="/items/62">Khitan Short Sword</a>),
-        <br /><a class="hero" href="/heroes/3">Hadrathus </a>
-        (<a class="item" href="/items/3">Dagger</a>,
-        and 3 spells: <a class="spell" href="/spells/12">Set’s Bite</a>,
-         <a class="spell" href="/spells/13">Set’s Halo</a>,
-         <a class="spell" href="/spells/14">Set’s Possession</a>),
-         Hadrathus does not start with Set’s Halo cast.
-        <br /><br />
-        <table class="scen_table">
-          <tr>
-            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
-            <td>After setup, each hero moves 5 gems from their Reserve zone to their
-            Fatigue zone.</td>
-          </tr>
-        </table>',
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the heroes’ turn.<br /></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><h4>3</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/2">Conan</a>
+            (<a class="item" href="/items/1">Battle Axe</a>,
+            <a class="item" href="/items/17">Leather Armor</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShentuToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/35">Shentu</a>
+            (<a class="item" href="/items/63">Khitan Sword</a>,
+            <a class="item" href="/items/62">Khitan Short Sword</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/HadrathusToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/3">Hadrathus </a>
+            (<a class="item" href="/items/3">Dagger</a>,
+            and 3 spells: <a class="spell" href="/spells/12">Set’s Bite</a>,
+            <a class="spell" href="/spells/13">Set’s Halo</a>,
+            <a class="spell" href="/spells/14">Set’s Possession</a>),
+            Hadrathus does not start with Set’s Halo cast.
+          </td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each hero moves 5 gems from their Reserve zone to their
+          Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
 
       overlord_goal: "If the Outer Dark Demon or Shuang Mian is still alive at
       the end of turn 7, his troops have the time to destroy the town and the
@@ -3950,15 +4865,17 @@
             <td>The Overlord starts with 6 gems in their Reserve zone and 5 in
             their Fatigue zone, and places the recovery token showing a recovery
             value of “5” in the Book of Skelos.</td>
+            <td></td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td>
-              <span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
-              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .
+            <td><p>When an event tile is activated the Overlord resolves the following event:</p>
+              <p><span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
             </td>
+            <td></td>
           </tr>
         </table>',
 
@@ -4061,30 +4978,78 @@
       hero_goal: "If the Scorpion Broodmother dies before the end of turn 8, the
       heroes win the game.",
 
-      hero_setup: 'The game starts with the heroes’ turn. The heroes start in the
-      <img src="/assets/tokens/area1Token.png" class="scen_token" /> area.
-        <br /><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br />
-        For 3 heroes:
-        <br /><a class="hero" href="/heroes/36">Ikhmet</a>
-        (<a class="item" href="/items/73">2 Assassin’s Dagger</a>),
-        <br /><a class="hero" href="/heroes/4">Shevatas</a>
-        (<a class="item" href="/items/1">Battle Axe</a>),
-        <br /><a class="hero" href="/heroes/3">Hadrathus </a>
-        (<a class="item" href="/items/3">Dagger</a> and
-        <a class="spell" href="/spells/62">Pass through Walls</a>),
-        <br /><br />
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the heroes’ turn.<br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="/assets/tokens/area1Token.png" class="scen_token" /></td>
+          <td>The heroes start in the
+          <img src="/assets/tokens/area1Token.png" class="scen_token" /> area.</td>
+          <td></td>
+        </tr>
+      </table>
 
-        For 4 heroes:
-        <br /><a class="hero" href="/heroes/1">Bêlit</a>
-        (<a class="item" href="/items/12">Sword</a>),
-        <br /><br />
-        <table class="scen_table">
-          <tr>
-            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
-            <td>After setup, each hero moves 3 gems from their Reserve zone to their
-            Fatigue zone.</td>
-          </tr>
-        </table>',
+      <table class="scen_table">
+        <tr>
+          <td><h4>3</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/IkhmetToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/36">Ikhmet</a>
+            (<a class="item" href="/items/73">2 Assassin’s Dagger</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/4">Shevatas</a>
+            (<a class="item" href="/items/1">Battle Axe</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/HadrathusToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/3">Hadrathus </a>
+            (<a class="item" href="/items/3">Dagger</a> and
+            <a class="spell" href="/spells/62">Pass through Walls</a>)
+          </td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><h4>4</h4></td>
+          <td><span class="setup_suggestion">Suggested Hero and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BelitToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/1">Bêlit</a>
+            (<a class="item" href="/items/12">Sword</a>)
+          </td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each hero moves 3 gems from their Reserve zone to their
+          Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
 
       overlord_goal: "If all the heroes die or if the Scorpion Broodmother is
       still alive at the end of turn 8, the Overlord wins the game.",
@@ -4097,6 +5062,7 @@
             The Overlord starts with 8 gems in their Reserve zone and 3 in their
             Fatigue zone, and places the recovery token showing a recovery value
             of ‘5’ in the Book Skelos.</td>
+            <td></td>
           </tr>
           <tr>
             <td><img src="/assets/tokens/redGem.png" class="scen_token" /></td>
@@ -4104,15 +5070,17 @@
             The Overlord starts with 9 gems in their Reserve zone and 4 in their
             Fatigue zone, and places the recovery token showing a recovery value
             of ‘7’ in the Book Skelos.</td>
+            <td></td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td>
-              <span class="setup_suggestion">Reinforcement:</span> 3 reinforcement points
-              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .
+            <td><p>When an event tile is activated the Overlord resolves the following event:</p>
+              <p><span class="setup_suggestion">Reinforcement:</span> 3 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
             </td>
+            <td></td>
           </tr>
         </table>',
 
@@ -4300,27 +5268,70 @@
       hero_goal: "If one hero flees the Stygian temple with map to Conan’s
       location before the end of turn 8, the heroes win the game.",
 
-      hero_setup: 'The game starts with the heroes’ turn.<br /><br />
-      <span class="setup_suggestion">Suggested Heroes and Equipment:</span>
-      For 3 heroes:
-      <br /><a class="hero" href="/heroes/36">Ikhmet</a>
-      (<a class="item" href="/items/73">2 Assassin’s Dagger</a>),
-      <br /><a class="hero" href="/heroes/4">Shevatas</a>
-      (<a class="item" href="/items/1">Battle Axe</a>),
-      <br /><a class="hero" href="/heroes/3">Hadrathus </a>
-      (<a class="item" href="/items/3">Dagger</a> and
-      <a class="spell" href="/spells/62">Pass through Walls</a>).
-      <br /><br />
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the heroes’ turn.<br /></td>
+          <td></td>
+        </tr>
+      </table>
 
-      For 4 heroes:
-      <br /><a class="hero" href="/heroes/1">Bêlit</a>
-      (<a class="item" href="/items/12">Sword</a>).
-      <br /><br />
+      <table class="scen_table">
+        <tr>
+          <td><h4>3</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/IkhmetToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/36">Ikhmet</a>
+            (<a class="item" href="/items/73">2 Assassin’s Dagger</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/4">Shevatas</a>
+            (<a class="item" href="/items/1">Battle Axe</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/HadrathusToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/3">Hadrathus </a>
+            (<a class="item" href="/items/3">Dagger</a> and
+            <a class="spell" href="/spells/62">Pass through Walls</a>)
+          </td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><h4>4</h4></td>
+          <td><span class="setup_suggestion">Suggested Hero and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BelitToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/1">Bêlit</a>
+            (<a class="item" href="/items/12">Sword</a>)
+          </td>
+          <td></td>
+        </tr>
+      </table>
+
       <table class="scen_table">
         <tr>
           <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
           <td>After setup, each hero moves 5 gems from their Reserve zone to their
           Fatigue zone.</td>
+          <td></td>
         </tr>
       </table>',
 
@@ -4336,6 +5347,7 @@
             The Overlord starts with 8 gems in their Reserve zone and 3 in their
             Fatigue zone, and places the recovery token showing a recovery value
             of ‘5’ in the Book Skelos.</td>
+            <td></td>
           </tr>
           <tr>
             <td><img src="/assets/tokens/redGem.png" class="scen_token" /></td>
@@ -4343,16 +5355,16 @@
             The Overlord starts with 9 gems in their Reserve zone and 4 in their
             Fatigue zone, and places the recovery token showing a recovery value
             of ‘7’ in the Book Skelos.</td>
+            <td></td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td>
-              <span class="setup_suggestion">Reinforcement:</span> 3 reinforcement points
-              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .
-              <br /><br />
-              <span class="setup_suggestion">Stone Rain:</span> The Overlord chooses an area with a
+            <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
+              <p><span class="setup_suggestion">Reinforcement:</span> 3 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
+              <p><span class="setup_suggestion">Stone Rain:</span> The Overlord chooses an area with a
               secret passage
               <img src="/assets/tokens/secretPassageToken.png" class="scen_token" />
               or well token
@@ -4361,15 +5373,19 @@
               <img src="/assets/dice/Red.png" class="scen_sq_token" />
               <img src="/assets/dice/Red.png" class="scen_sq_token" />.
               Characters cannot defend against this attack and suffer damage
-              equal to the attack power.
+              equal to the attack power.</p>
             </td>
+            <td></td>
           </tr>
+        </table>
+        <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ThotAmonToken.png" class="scen_setup"></td>
             <td><a class="tile" href="/tiles/140">Thot-Amon</a> has the spells
               <a class="spell" href="/spells/64">Stone Rain </a> and
               <a class="spell" href="/spells/63">Psychic Strike </a>.
             </td>
+            <td></td>
           </tr>
         </table>',
 
@@ -4525,30 +5541,61 @@
 
       hero_goal: "If Thot-Amon dies, the heroes win the game.",
 
-      hero_setup: 'The game starts with the heroes’ turn.<br /><br />
-      <span class="setup_suggestion">Suggested Heroes and Equipment:</span>
-        <br /><a class="hero" href="/heroes/2">Conan</a>
-        (<a class="item" href="/items/1">Battle Axe</a>,
-        <a class="item" href="/items/17">Leather Armor</a>),
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the heroes’ turn.<br /></td>
+          <td></td>
+        </tr>
+      </table>
 
-        <br /><a class="hero" href="/heroes/4">Shevatas</a>
-        (<a class="item" href="/items/9">Kris</a>,
-        <a class="item" href="/items/13">Throwing Knives</a>),
+      <table class="scen_table">
+        <tr>
+          <td><h4>3</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/2">Conan</a>
+            (<a class="item" href="/items/1">Battle Axe</a>,
+            <a class="item" href="/items/17">Leather Armor</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/4">Shevatas</a>
+            (<a class="item" href="/items/9">Kris</a>,
+            <a class="item" href="/items/13">Throwing Knives</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/HadrathusToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/3">Hadrathus </a>
+            (<a class="item" href="/items/3">Dagger</a>,
+            <a class="spell" href="/spells/16">Teleportation</a>,
+            <a class="spell" href="/spells/9">Mitra’s Halo</a>,
+            <a class="spell" href="/spells/6">Lightning Storm</a>),
+            Hadrathus starts with Mitra’s Halo cast.
+          </td>
+          <td></td>
+        </tr>
+      </table>
 
-        <br /><a class="hero" href="/heroes/3">Hadrathus </a>
-        (<a class="item" href="/items/3">Dagger</a>,
-         <a class="spell" href="/spells/16">Teleportation</a>,
-         <a class="spell" href="/spells/9">Mitra’s Halo</a>,
-         <a class="spell" href="/spells/6">Lightning Storm</a>),
-         Hadrathus starts with Mitra’s Halo cast.
-        <br /><br />
-        <table class="scen_table">
-          <tr>
-            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
-            <td>After setup, each hero moves 5 gems from their Reserve zone to their
-            Fatigue zone.</td>
-          </tr>
-        </table>',
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each hero moves 5 gems from their Reserve zone to their
+          Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
 
       overlord_goal: "If the two Argossean emissaries die, the Overlord wins the game.",
 
@@ -4559,25 +5606,28 @@
             <td>The Overlord starts with 4 gems in their Reserve zone and 8 in
             their Fatigue zone, and places the recovery token showing a recovery
             value of “5” in the Book of Skelos.</td>
+            <td></td>
           </tr>
         </table>
       <table class="scen_table">
         <tr>
           <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
-          <td>
-            <span class="setup_suggestion">Reinforcement:</span> 5 reinforcement points
-            <img src="/assets/stats/reinforcement.png" class="scen_token" /> .
-            <br /><br />
-            <span class="setup_suggestion">Plague of Stygia:</span> Thot-Amon
+          <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
+            <p><span class="setup_suggestion">Reinforcement:</span> 5 reinforcement points
+            <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
+            <p><span class="setup_suggestion">Plague of Stygia:</span> Thot-Amon
             unleashes the ancient forces in a deluge of fire and death. The
             Overlord chooses an area of the board other than ones located in the
             three buildings of the city (the trading post, the barracks and the
             warehouse) and places a flame token in that area (ignoring the number
             on it). Then the Overlord attacks that area; roll
             <img src="/assets/dice/Red.png" class="scen_sq_token" />
-            <img src="/assets/dice/Red.png" class="scen_sq_token" /> .
+            <img src="/assets/dice/Red.png" class="scen_sq_token" /> .</p>
           </td>
+          <td></td>
         </tr>
+      </table>
+      <table class="scen_table">
         <tr>
           <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ThotAmonToken.png" class="scen_setup"></td>
           <td><a class="tile" href="/tiles/140">Thot-Amon</a> has the spells
@@ -4585,6 +5635,7 @@
             <a class="spell" href="/spells/11"> Pestilential Swarm</a> and
             <a class="spell" href="/spells/1"> Bori’s Rage</a>.
           </td>
+          <td></td>
         </tr>
       </table>',
 
@@ -4632,8 +5683,7 @@
         <p><span class="special_title">Leaping over Water:</span>
         A character with  <a class="skill" href="/skills/16">Leap</a> may leap
         over the areas marked with the Leap
-        <img src="/assets/skills/Leap.png" class="scen_sq_token" /> icon
-        <img src="/assets/skills/Leap.png" class="scen_sq_token" />.
+        <img src="/assets/skills/Leap.png" class="scen_sq_token" /> icon.
         If a hero fails to Leap, the character remains in its area.</p>
 
         <p><span class="special_title">Plank:</span>
@@ -4713,24 +5763,57 @@
       the end of turn 7, the curse on Ikhmet’s village is broken, and the heroes
       win the game.",
 
-      hero_setup: 'The game starts with the heroes’ turn.<br /><br />
-      <span class="setup_suggestion">Suggested Heroes and Equipment:</span>
-        <br /><a class="hero" href="/heroes/2">Conan</a>
-        (<a class="item" href="/items/1">Battle Axe</a>,
-        <a class="item" href="/items/17">Leather Armor</a>),
-        <br /><a class="hero" href="/heroes/4">Shevatas</a>
-        (<a class="item" href="/items/9">Kris</a>,
-        <a class="item" href="/items/13">Throwing Knives</a>),
-        <br /><a class="hero" href="/heroes/36">Ikhmet </a>
-        (<a class="item" href="/items/73">2 Assassin’s Dagger</a>),
-        <br /><br />
-        <table class="scen_table">
-          <tr>
-            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
-            <td>After setup, each hero moves 5 gems from their Reserve zone to their
-            Fatigue zone.</td>
-          </tr>
-        </table>',
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the heroes’ turn.<br /></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><h4>3</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/2">Conan</a>
+            (<a class="item" href="/items/1">Battle Axe</a>,
+            <a class="item" href="/items/17">Leather Armor</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/4">Shevatas</a>
+            (<a class="item" href="/items/9">Kris</a>,
+            <a class="item" href="/items/13">Throwing Knives</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/IkhmetToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/36">Ikhmet </a>
+            (<a class="item" href="/items/73">2 Assassin’s Dagger</a>)
+          </td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each hero moves 5 gems from their Reserve zone to their
+          Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
 
       overlord_goal: "If all the heroes are dead or do not successfully submerge
       the three artifacts in the water before the end of turn 7, the Overlord wins
@@ -4743,13 +5826,13 @@
             <td>The Overlord starts with 6 gems in their Reserve zone and 3 in
             their Fatigue zone, and places the recovery token showing a recovery
             value of “5” in the Book of Skelos.</td>
+            <td></td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td>
-              <p>Each time the Overlord activates the Event tile, the Overlord
+            <td><p>Each time the Overlord activates the Event tile, the Overlord
               may use both events in any order.</p>
               <p><span class="setup_suggestion">Reinforcement:</span> 3 reinforcement
               points <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
@@ -4761,6 +5844,7 @@
               of 10 <a class="tile" href="/tiles/142">Giant Scorpions</a> on the
               board at any one time).</p>
             </td>
+            <td></td>
           </tr>
         </table>',
 
@@ -4904,22 +5988,45 @@
 
       hero_goal: "If Yogah of Yag has fled the village with the two Xuthal’s
         Crowns in his possession before the end of turn 10; the hero wins the game.",
-      hero_setup: 'The game starts with the hero’s turn.
-        <br /><br /><span class="setup_suggestion">Suggestions for 1 hero:</span>
-        <br /><a class="hero" href="/heroes/27">Yogah of Yag</a>
-        (<a class="item" href="/items/7">Halberd</a>,
-          <a class="spell" href="/spells/14">Set’s Possession</a>,
-          <a class="spell" href="/spells/10">Mitra’s Healing</a>)<br /><br />
-        <table class="scen_table">
-          <tr>
-            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
-            <td>After setup, Yogah of Yag does not move any gems from his Reserve
-            zone to his Fatigue zone. The hero plays their stance phase as if one
-            hero had died during the game. They move 3 gems from their Fatigue zone
-            to their Reserve zone when they choose an aggressive stance and 6 gems
+
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the heroes’ turn.<br /></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><h4>1</h4></td>
+          <td><span class="setup_suggestion">Suggested Hero and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/YogahYagToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/27">Yogah of Yag</a>
+            (<a class="item" href="/items/7">Halberd</a>,
+            <a class="spell" href="/spells/14">Set’s Possession</a>,
+            <a class="spell" href="/spells/10">Mitra’s Healing</a>)
+          </td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, Yogah of Yag does not move any gems from his Reserve
+          zone to his Fatigue zone. The hero plays their stance phase as if one
+          hero had died during the game. They move 3 gems from their Fatigue zone
+          to their Reserve zone when they choose an aggressive stance and 6 gems
           when the hero is cautious.</td>
-          </tr>
-        </table>',
+          <td></td>
+        </tr>
+      </table>',
 
       overlord_goal: "If the Overlord prevents Yogah of Yag from fleeing with the
         two Xuthal’s Crowns by the end of turn 10; the Overlord wins.",
@@ -4931,15 +6038,17 @@
             <td>The Overlord starts with 5 gems in their Reserve zone and 3 in
             their Fatigue zone, and places the recovery token showing a recovery
             value of “3” in the Book of Skelos.</td>
+            <td></td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td>
-              <span class="setup_suggestion">Reinforcement:</span> 2 reinforcement points
-              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .
+            <td><p>When an event tile is activated the Overlord resolves the following event:</p>
+              <p><span class="setup_suggestion">Reinforcement:</span> 2 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
             </td>
+            <td></td>
           </tr>
         </table>',
 
@@ -5034,21 +6143,45 @@
       complexity: "1",
 
       hero_goal: "If Zelata kills the Swamp Demon before the end of round 6, the hero wins the game.",
-      hero_setup: 'The game starts with the hero’s turn.<br />
-        <p><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/GiantWolves.png" class="scen_event float_tile">
-        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/GiantWolves.png" class="scen_event float_tile">
-        <br /><span class="setup_suggestion">Suggestions for 1 hero:</span>
-        <br /><a class="hero" href="/heroes/8">Zelata</a>
-        (2 spells: <a class="spell" href="/spells/9">Mitra’s Halo</a> and
-          <a class="spell" href="/spells/20">Bel’s Caress</a>) with 10 Giant Wolves.
-          Zelata starts with Mitra’s Halo cast.</p>
-        <table class="scen_table">
-          <tr>
-            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
-            <td>After setup, the hero moves no gems from their Reserve zone to
-            their Fatigue zone.</td>
-          </tr>
-        </table>',
+
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the heroes’ turn.<br /></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><h4>1</h4></td>
+          <td><span class="setup_suggestion">Suggested Hero and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZelataToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/8">Zelata</a>
+            (2 spells: <a class="spell" href="/spells/9">Mitra’s Halo</a> and
+            <a class="spell" href="/spells/20">Bel’s Caress</a>) with 10 Giant Wolves.
+            Zelata starts with Mitra’s Halo cast.</p>
+          </td>
+          <td>
+            <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/GiantWolves.png" class="scen_event">
+            <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/GiantWolves.png" class="scen_event">
+          </td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, the hero moves no gems from their Reserve zone to
+          their Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
 
       overlord_goal: "If the Overlord prevents Zelata from killing the Swamp Demon,
         or kills all the Giant Wolves before the end of round 6, the Overlord wins
@@ -5061,16 +6194,19 @@
             <td>Overlord starts with 7 gems in their Reserve zone and 1 in their
             Fatigue zone, and places the recovery token showing a recovery value
             of “3” in the Book of Skelos.</td>
+            <td></td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td>
-              <span class="setup_suggestion">Reinforcement:</span> 3 reinforcement points
-              <img src="/assets/stats/reinforcement.png" class="scen_token" />
-              <br /><span class="setup_suggestion">Forced march:</span> The Overlord choses a unit tile. All the models of this unit tile may move according to their base movement value.
+            <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
+              <p><span class="setup_suggestion">Reinforcement:</span> 3 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" /></p>
+              <p><span class="setup_suggestion">Forced march:</span> The Overlord choses a unit tile.
+              All the models of this unit tile may move according to their base movement value.</p>
             </td>
+            <td></td>
           </tr>
         </table>',
 
@@ -5196,34 +6332,64 @@
 
       hero_goal: "If Conan the Mercenary reduces the rebellion level to 0 before
         the end of turn 7; the hero wins the game.",
-      hero_setup: 'The game starts with the hero’s turn.<br /><br />
 
-      <span class="setup_suggestion">Suggested hero and Equipment:</span>
-        <br /><a class="hero" href="/heroes/12">Conan - Mercenary </a>
-        (<a class="item" href="/items/12">Sword</a>)
-        <br /><br />
-        <table class="scen_table">
-          <tr>
-            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
-            <td>After setup, the hero moves 5 gems from their Reserve zone to
-            their Fatigue zone.</td>
-          </tr>
-        </table>',
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the heroes’ turn.<br /></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><h4>1</h4></td>
+          <td><span class="setup_suggestion">Suggested Hero and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanMercenaryToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/12">Conan - Mercenary </a>
+            (<a class="item" href="/items/12">Sword</a>)
+          </td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, the hero moves 5 gems from their Reserve zone to
+          their Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
 
       overlord_goal: "If Conan the Mercenary dies or the rebellion is not reduced
         before the end of turn 7; the Overlord wins the game.",
-      overlord_setup: 'The Overlord starts with 6 gems in their Reserve zone and
-        2 in their Fatigue zone, and places the recovery token showing a recovery
-        value of “3” in the Book of Skelos.
+
+      overlord_setup: '
+        <table class="scen_table">
+          <tr>
+            <td><img src="/assets/tokens/redGem.png" class="scen_token" /></td>
+            <td>The Overlord starts with 6 gems in their Reserve zone and 2 in their
+              Fatigue zone, and places the recovery token showing a recovery
+              value of “3” in the Book of Skelos.</td>
+            <td></td>
+          </tr>
+        </table>
 
         <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td>
-              <span class="setup_suggestion">Reinforcement:</span> 2 reinforcement points
-              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .
-              <br /><span class="setup_suggestion">Overpowering Conan:</span> (see special rules).
+            <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
+              <p><span class="setup_suggestion">Reinforcement:</span> 2 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
+              <p><span class="setup_suggestion">Overpowering Conan:</span> (see special rules).</p>
             </td>
+            <td></td>
           </tr>
         </table>',
 
@@ -5378,25 +6544,49 @@
       hero_goal: "If Zaporavo sounds the alarm before the end of round 6 or
         prevents Conan from being freed before the end of turn 6; the hero wins
         the game.",
-      hero_setup: 'The game starts with the heroes’ turn.<br />
-        <p><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Pirates.png" class="scen_event float_tile">
-        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/KothianArcher.png" class="scen_event float_tile">
-        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Amboola.png" class="scen_event float_tile">
-        <br /><span class="setup_suggestion">Suggestion:</span>
-        <br /><a class="hero" href="/heroes/24">Zaporavo</a>
-        (<a class="item" href="/items/41">Zingarian Breastplate</a>,
-        <a class="item" href="/items/35">Pirate Saber</a> and
-        <a class="item" href="/items/46">Cape</a>) with
-          <a class="tile" href="/tiles/60">Amboola</a>,
-          <a class="tile" href="/tiles/74">Kothian Archer</a> and 10
-          <a class="tile" href="/tiles/30">Pirates</a></p>
-        <table class="scen_table">
-          <tr>
-            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
-            <td>After setup, the heroes moves no gems from their Reserve zone
-            to their Fatigue zone.</td>
-          </tr>
-        </table>',
+
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the heroes’ turn.<br /></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><h4>1</h4></td>
+          <td><span class="setup_suggestion">Suggested Hero and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZaporavoToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/24">Zaporavo</a>
+            (<a class="item" href="/items/41">Zingarian Breastplate</a>,
+            <a class="item" href="/items/35">Pirate Saber</a> and
+            <a class="item" href="/items/46">Cape</a>) with
+            <a class="tile" href="/tiles/60">Amboola</a>,
+            <a class="tile" href="/tiles/74">Kothian Archer</a> and 10
+            <a class="tile" href="/tiles/30">Pirates</a></p>
+          </td>
+          <td>
+            <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Pirates.png" class="scen_event">
+            <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/KothianArcher.png" class="scen_event">
+            <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Amboola.png" class="scen_event">
+          </td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, the heroes moves no gems from their Reserve zone
+          to their Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
 
       overlord_goal: "If the Overlord frees Conan or kills Zaporavo before the
         end of round 6; the Overlord wins the game.",
@@ -5408,23 +6598,25 @@
             <td>The Overlord starts with 6 gems in their Reserve zone and 3 in
             their Fatigue zone, and places the recovery token showing a recovery
             value of “5” in the Book of Skelos.</td>
+            <td></td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td>
-              <span class="setup_suggestion">Reinforcement:</span> 3 reinforcement points
-              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .
-              <br /><span class="setup_suggestion">Return of the Dragons:</span>
+            <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
+              <p><span class="setup_suggestion">Reinforcement:</span> 3 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
+              <p><span class="setup_suggestion">Return of the Dragons:</span>
               3 <a class="tile" href="/tiles/97">Black Dragons</a> come into play
-              as reinforcements.
-              <br /><span class="setup_suggestion">New Energy:</span> The Overlord
+              as reinforcements.</p>
+              <p><span class="setup_suggestion">New Energy:</span> The Overlord
               immediately activates <a class="tile" href="/tiles/71">Valeria</a>,
               <a class="tile" href="/tiles/61">Balthus</a> or
               <a class="tile" href="/tiles/68">Pallantides</a> (without moving
-              the corresponding tile in the river).
+              the corresponding tile in the river).</p>
             </td>
+            <td></td>
           </tr>
         </table>',
 
@@ -5554,45 +6746,75 @@
 
       hero_goal: "The Heroes must protect the artifacts. If there is at least
         one artifact on the board at the end of turn 7; the heroes win the game.",
+
       hero_setup: '
-      <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BelitsGuards.png" class="scen_event float_tile">
-      <span class="setup_suggestion">Suggestions for 2 heroes:</span>
-        <br /><a class="hero" href="/heroes/1">Bêlit</a>
-        (<a class="item" href="/items/7">Halberd</a>) and 5
-        <a class="tile" href="/tiles/13">Bêlit’s Guards</a>,
-        <br /><a class="hero" href="/heroes/3">Hadrathus</a>
-        (<a class="item" href="/items/12">Sword</a>,
-          <a class="spell" href="/spells/2">Borne by the Wind</a>,
-          <a class="spell" href="/spells/14">Set’s Possession</a>,
-          <a class="spell" href="/spells/6">Lightning Storm</a>).<br /><br />
-        <table class="scen_table">
-          <tr>
-            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
-            <td>After setup, each hero moves 3 gems from their Reserve zone to
-            their Fatigue zone.</td>
-          </tr>
-        </table>',
+      <table class="scen_table">
+        <tr>
+          <td><h4>2</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BelitToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/1">Bêlit</a>
+            (<a class="item" href="/items/7">Halberd</a>) and 5
+            <a class="tile" href="/tiles/13">Bêlit’s Guards</a>
+          </td>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BelitsGuards.png" class="scen_event"></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/HadrathusToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/3">Hadrathus</a>
+            (<a class="item" href="/items/12">Sword</a>,
+            <a class="spell" href="/spells/2">Borne by the Wind</a>,
+            <a class="spell" href="/spells/14">Set’s Possession</a>,
+            <a class="spell" href="/spells/6">Lightning Storm</a>)
+          </td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each hero moves 3 gems from their Reserve zone to
+          their Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
 
       overlord_goal: "If the Overlord destroys the three artifacts before the end
         of turn 7; the Overlord wins.",
 
-      overlord_setup: 'The game starts with the Overlord’s turn.
-        <br /><br />
+      overlord_setup: '
+        <table class="scen_table">
+          <tr>
+            <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+            <td>The game starts with the Overlord’s turn.<br /></td>
+            <td></td>
+          </tr>
+        </table>
         <table class="scen_table">
           <tr>
             <td><img src="/assets/tokens/redGem.png" class="scen_token" /></td>
             <td>The Overlord starts with 10 gems in their Reserve zone and 0
              in their Fatigue zone, and places the recovery token showing a recovery
              value of “3” in the Book of Skelos.</td>
+            <td></td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td>
-              <span class="setup_suggestion">Crowd Control:</span> see Special Rules.
+            <td><p>When an event tile is activated the Overlord resolves the following event:</p>
+              <p><span class="setup_suggestion">Crowd Control:</span> see Special Rules.</p>
             </td>
+            <td></td>
           </tr>
+        </table>
+        <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShubbaToken.png" class="scen_setup"></td>
             <td>
@@ -5601,6 +6823,7 @@
               <a class="spell" href="/spells/8">Mind Control</a>, and
               <a class="spell" href="/spells/16">Teleportation</a>.
             </td>
+            <td></td>
           </tr>
         </table>',
 
@@ -5709,47 +6932,77 @@
 
       hero_goal: "If at least 1 Bossonian Guard is left on the board by the end
         of turn 7; the heroes win the game.",
-      hero_setup: '<span class="setup_suggestion">Suggestions for 2 heroes:</span>
-        <br /><a class="hero" href="/heroes/11">Conan - General</a>
-        (<a class="item" href="/items/4">Conan’s Sword</a> and
-          <a class="item" href="/items/16">Chain Mail</a>) and 8
-          <a class="tile" href="/tiles/17">Bossonian Guards</a>.
-        <br /><a class="hero" href="/heroes/10">Balthus</a>
-        (<a class="item" href="/items/2">Bossonian Bow</a> and
-          <a class="item" href="/items/11">Parrying Dagger</a>) and
-          <a class="tile" href="/tiles/75">Slasher</a>. <br /><br />
-        <table class="scen_table">
-          <tr>
-            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
-            <td>After setup, each hero moves 3 gems from their Reserve zone to
-            their Fatigue zone.</td>
-          </tr>
-        </table>',
+
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><h4>2</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanGeneralToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/11">Conan - General</a>
+            (<a class="item" href="/items/4">Conan’s Sword</a> and
+            <a class="item" href="/items/16">Chain Mail</a>) and 8
+            <a class="tile" href="/tiles/17">Bossonian Guards</a>.
+          </td>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BossonianGuards.png" class="scen_event"></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BalthusToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/10">Balthus</a>
+            (<a class="item" href="/items/2">Bossonian Bow</a> and
+            <a class="item" href="/items/11">Parrying Dagger</a>) and
+            <a class="tile" href="/tiles/75">Slasher</a>
+          </td>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Slasher.png" class="scen_event"></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each hero moves 3 gems from their Reserve zone to
+          their Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
 
       overlord_goal: "If all the Bossonian Guards are killed before the end of
         turn 7; the Overlord wins the game.",
 
-      overlord_setup: 'The game starts with the Overlord’s turn.
-        <br /><br />
+      overlord_setup: '
+        <table class="scen_table">
+          <tr>
+            <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+            <td>The game starts with the Overlord’s turn.<br /></td>
+            <td></td>
+          </tr>
+        </table>
         <table class="scen_table">
           <tr>
             <td><img src="/assets/tokens/redGem.png" class="scen_token" /></td>
             <td>  The Overlord starts with 10 gems in their Reserve zone and 0
               in their Fatigue zone, and places the recovery token showing a
               recovery value of “5” in the Book of Skelos.</td>
+            <td></td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td>
-              <span class="setup_suggestion">Reinforcement:</span> 3 reinforcement points
-              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .
-              <br /><span class="setup_suggestion">Forced March</span> The Overlord chooses a unit tile
+            <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
+              <p><span class="setup_suggestion">Reinforcement:</span> 3 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
+              <p><span class="setup_suggestion">Forced March</span> The Overlord chooses a unit tile
               of Pict Hunters, Pict Archers or Pict Warriors. All the models of
               that tile can move according to their movement value. The Overlord
-              can use the Movement benefit.
+              can use the Movement benefit.</p>
             </td>
+            <td></td>
           </tr>
         </table>',
 
@@ -5838,27 +7091,54 @@
       complexity: "2",
 
       hero_goal: "If the 3 altars are destroyed before the end of turn 6; the heroes win the game.",
-      hero_setup: 'The game starts with the heroes’ turn.<br /><br />
 
-      <span class="setup_suggestion">Suggested heroes and Equipment:</span>
-        <br /><a class="hero" href="/heroes/13">Conan - Wander: </a>
-        (<a class="item" href="/items/1">Battle Axe</a> and
-        <a class="item" href="/items/17"> Leather Armor</a>)
-        <br /><a class="hero" href="/heroes/3">Hadrathus: </a>
-        (<a class="item" href="/items/43">Mitra’s Staff</a>,
-        <a class="item" href="/items/12"> Sword</a> and 4 spells:
-        <a class="spell" href="/spells/30"> Eel Skin</a>,
-        <a class="spell" href="/spells/13"> Set’s Halo</a>,
-        <a class="spell" href="/spells/20"> Bel’s Caress</a>,
-        <a class="spell" href="/spells/10"> Mitra’s Healing</a>)
-        <br /><br />
-        <table class="scen_table">
-          <tr>
-            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
-            <td>After setup, each hero moves 3 gems from their Reserve zone
-            to their Fatigue zone.</td>
-          </tr>
-        </table>',
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the heroes’ turn.<br /></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><h4>2</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanWandererToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/13">Conan - Wanderer: </a>
+            (<a class="item" href="/items/1">Battle Axe</a> and
+            <a class="item" href="/items/17"> Leather Armor</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/HadrathusToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/3">Hadrathus: </a>
+            (<a class="item" href="/items/43">Mitra’s Staff</a>,
+            <a class="item" href="/items/12"> Sword</a> and 4 spells:
+            <a class="spell" href="/spells/30"> Eel Skin</a>,
+            <a class="spell" href="/spells/13"> Set’s Halo</a>,
+            <a class="spell" href="/spells/20"> Bel’s Caress</a>,
+            <a class="spell" href="/spells/10"> Mitra’s Healing</a>)
+          </td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each hero moves 3 gems from their Reserve zone
+          to their Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
 
       overlord_goal: "If at least 1 altar is not destroyed at the end of turn 6;
       the Overlord wins the game.",
@@ -5870,16 +7150,20 @@
             <td>The Overlord starts with 7 gems in their Reserve zone and
               3 in their Fatigue zone, and places the recovery token showing a
               recovery value of “5” in the Book of Skelos.</td>
+            <td></td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td>
-              <span class="setup_suggestion">Reinforcement:</span> 3 reinforcement points
-              <img src="/assets/stats/reinforcement.png" class="scen_token" /> (see special rules).
+            <td><p>When an event tile is activated the Overlord resolves the following event:</p>
+              <p><span class="setup_suggestion">Reinforcement:</span> 3 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" /> (see special rules).</p>
             </td>
+            <td></td>
           </tr>
+        </table>
+        <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/NatohkToken.png" class="scen_setup"></td>
             <td>
@@ -5887,6 +7171,7 @@
                 <a class="spell" href="/spells/12">Set’s Bite</a> and
                 <a class="spell" href="/spells/16">Teleportation</a>.
             </td>
+            <td></td>
           </tr>
         </table>',
 
@@ -5988,21 +7273,50 @@
 
       hero_goal: "If the heroes flee with a ship and both amulets in their
         possession before the end of turn 7; the heroes win the game.",
-      hero_setup: 'The game starts with the heroes’ turn.
-        <br /><br /><span class="setup_suggestion">Suggestions for 2 heroes:</span>
-        <br /><a class="hero" href="/heroes/31">Conan the Thief</a>
-        (<a class="item" href="/items/4">Conan’s Sword</a>).
-        <br /><a class="hero" href="/heroes/30">Bêlit Queen of the Black Coast</a>
-        (<a class="item" href="/items/22">Life Potion</a>,
-        <a class="item" href="/items/3">Dagger</a> and
-        <a class="item" href="/items/78">Short Sword</a>).<br /><br />
-        <table class="scen_table">
-          <tr>
-            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
-            <td>After setup, each hero moves 4 gems from their Reserve zone
-            to their Fatigue zone.</td>
-          </tr>
-        </table>',
+
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the heroes’ turn.<br /></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><h4>2</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanThiefToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/31">Conan the Thief</a>
+            (<a class="item" href="/items/4">Conan’s Sword</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BelitQueenToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/30">Bêlit Queen of the Black Coast</a>
+            (<a class="item" href="/items/22">Life Potion</a>,
+            <a class="item" href="/items/3">Dagger</a> and
+            <a class="item" href="/items/78">Short Sword</a>)
+          </td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each hero moves 4 gems from their Reserve zone
+          to their Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
 
       overlord_goal: "If the Overlord prevents the heroes from fleeing with both
         amulets before the end of turn 7, or the Overlord kills the two heroes;
@@ -6015,15 +7329,17 @@
             <td>The Overlord starts with 7 gems in their Reserve zone and
               3 in their Fatigue zone, and places the recovery token showing a
               recovery value of “5” in the Book of Skelos.</td>
+            <td></td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td>
-              <span class="setup_suggestion">Reinforcement:</span> 2 reinforcement points
-              <img src="/assets/stats/reinforcement.png" class="scen_token" /> (see special rules).
+            <td><p>When an event tile is activated the Overlord resolves the following event:</p>
+              <p><span class="setup_suggestion">Reinforcement:</span> 2 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" /> (see special rules).</p>
             </td>
+            <td></td>
           </tr>
         </table>',
 
@@ -6155,23 +7471,50 @@
 
       hero_goal: "If at least one hero flees with three Sacred Treasures before
         the end of turn 7; the heroes win the game.",
-      hero_setup: 'The game starts with the heroes’ turn.<br />
-        <p><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Slasher.png" class="scen_event float_tile">
-        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConansLion.png" class="scen_event float_tile">
-        <br /><span class="setup_suggestion">Suggestions for 2 heroes:</span>
-        <br /><a class="hero" href="/heroes/5">Amra the Lion</a>
-        (<a class="item" href="/items/17">Leather Armor</a>) with
-         <a class="tile" href="/tiles/38">Conan’s Lion</a>
-        <br /><a class="hero" href="/heroes/10">Balthus</a>
-        (<a class="item" href="/items/17">Leather Armor</a>) with
-         <a class="tile" href="/tiles/75">Slasher</a></p>
-        <table class="scen_table">
-          <tr>
-            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
-            <td>After setup, the heroes moves no gems from their Reserve zone
-            to their Fatigue zone.</td>
-          </tr>
-        </table>',
+
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the heroes’ turn.<br /></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><h4>2</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AmraToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/5">Amra the Lion</a>
+            (<a class="item" href="/items/17">Leather Armor</a>) with
+            <a class="tile" href="/tiles/38">Conan’s Lion</a>
+          </td>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConansLion.png" class="scen_event"></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BalthusToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/10">Balthus</a>
+            (<a class="item" href="/items/17">Leather Armor</a>) with
+            <a class="tile" href="/tiles/75">Slasher</a></p>
+          </td>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Slasher.png" class="scen_event"></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, the heroes moves no gems from their Reserve zone
+          to their Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
 
       overlord_goal: "If the Overlord prevents the heroes from fleeing with three
         sacred treasures at the end of turn 7; the Overlord wins the game.",
@@ -6183,20 +7526,27 @@
             <td>The Overlord starts with 5 gems in their Reserve zone and
               5 in their Fatigue zone, and places the recovery token showing a
               recovery value of “5” in the Book of Skelos.</td>
+            <td></td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td><span class="setup_suggestion">Reinforcement:</span> 3 reinforcement points
-            <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</td>
+            <td><p>When an event tile is activated the Overlord resolves the following event:</p>
+              <p><span class="setup_suggestion">Reinforcement:</span> 3 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
+            </td>
+            <td></td>
           </tr>
+        </table>
+        <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZogarSagToken.png" class="scen_setup"></td>
             <td>
               <a class="tile" href="/tiles/6">Zogar Sag</a> has one spell
               <a class="spell" href="/spells/12">Set’s Bite</a> for this scenario.
             </td>
+            <td></td>
           </tr>
         </table>',
 
@@ -6337,56 +7687,83 @@
 
       hero_goal: "If at least one Sailor is alive at the end of turn 6; the heroes
         win the game.",
-      hero_setup: '
-      <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZelatasWolf.png" class="scen_event float_tile">
-      <span class="setup_suggestion">Suggested Heroes and Equipment:</span>
-        <br /><a class="hero" href="/heroes/8">Zelata</a>
-        (<a class="item" href="/items/3">Dagger</a>,
-          <a class="item" href="/items/43">Mitra’s Staff</a> and 4 spells:
-          <a class="spell" href="/spells/9">Mitra’s Halo</a>,
-          <a class="spell" href="/spells/1">Bori’s Rage</a>,
-          <a class="spell" href="/spells/16">Teleportation</a>, and
-          <a class="spell" href="/spells/20"> Bel’s Caress</a>) with
-          <a class="tile" href="/tiles/39">Zelata’s Wolf</a>.
 
-        <br /><a class="hero" href="/heroes/18">Pelias</a>
-        (<a class="item" href="/items/36">Sacrificial Dagger</a>,
-          <a class="item" href="/items/49">Heart of Ahriman</a> and
-          <a class="spell" href="/spells/12">Set’s Bite</a>,
-          <a class="spell" href="/spells/16">Teleportation</a>,
-          <a class="spell" href="/spells/13">Set’s Halo</a> and
-          <a class="spell" href="/spells/35">Hand of Death</a>)<br /><br />
-        <table class="scen_table">
-          <tr>
-            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
-            <td>After setup, each hero moves 3 gems from their Reserve zone
-            to their Fatigue zone.</td>
-          </tr>
-        </table>',
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><h4>2</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZelataToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/8">Zelata</a>
+            (<a class="item" href="/items/3">Dagger</a>,
+            <a class="item" href="/items/43">Mitra’s Staff</a> and 4 spells:
+            <a class="spell" href="/spells/9">Mitra’s Halo</a>,
+            <a class="spell" href="/spells/1">Bori’s Rage</a>,
+            <a class="spell" href="/spells/16">Teleportation</a>, and
+            <a class="spell" href="/spells/20"> Bel’s Caress</a>) with
+            <a class="tile" href="/tiles/39">Zelata’s Wolf</a>
+          </td>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZelatasWolf.png" class="scen_event"></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/PeliasToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/18">Pelias</a>
+            (<a class="item" href="/items/36">Sacrificial Dagger</a>,
+            <a class="item" href="/items/49">Heart of Ahriman</a> and
+            <a class="spell" href="/spells/12">Set’s Bite</a>,
+            <a class="spell" href="/spells/16">Teleportation</a>,
+            <a class="spell" href="/spells/13">Set’s Halo</a> and
+            <a class="spell" href="/spells/35">Hand of Death</a>)
+          </td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each hero moves 3 gems from their Reserve zone
+          to their Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
 
       overlord_goal: "If all Sailors are dead before the end of turn 6; the
         Overlord wins the game.",
 
-      overlord_setup: 'The game starts with the Overlord’s turn.
-        <br /><br />
+      overlord_setup: '
+        <table class="scen_table">
+          <tr>
+            <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+            <td>The game starts with the Overlord’s turn.<br /></td>
+            <td></td>
+          </tr>
+        </table>
         <table class="scen_table">
           <tr>
             <td><img src="/assets/tokens/redGem.png" class="scen_token" /></td>
             <td>The Overlord starts with 10 gems in their Reserve zone and
               0 in their Fatigue zone, and places the recovery token showing a
               value of “7” in the Book of Skelos.</td>
+            <td></td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td>
-              <span class="setup_suggestion">Reinforcement:</span> 3 reinforcement points
-              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .
-              <br /><span class="setup_suggestion">Forced march:</span> The Overlord choses a unit tile.
+            <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
+              <p><span class="setup_suggestion">Reinforcement:</span> 3 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
+              <p><span class="setup_suggestion">Forced march:</span> The Overlord choses a unit tile.
                 All the models of this unit tile may move according to their base
-                movement value. The Overlord can use the Movement benefit.
+                movement value. The Overlord can use the Movement benefit.</p>
             </td>
+            <td></td>
           </tr>
         </table>',
 
@@ -6523,26 +7900,51 @@
 
       hero_goal: "If the heroes prevent the invocation of the Swamp Demon, or if
         the Swamp Demon dies before the end of turn 8; the heroes win the game.",
-      hero_setup: '
-      <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/KothianArcher.png" class="scen_event float_tile">
-      The game starts with the Heroes’ turn.
-        <br /><br /><span class="setup_suggestion">Suggested Heroes and Equipment:</span>
-        <br /><a class="hero" href="/heroes/11">Conan - General</a>
-        (<a class="item" href="/items/4">Conan’s Sword</a> and
-          <a class="item" href="/items/18">Scale Mail</a>)
-          with the <a class="tile" href="/tiles/74">Kothian Archer</a>.
 
-        <br /><a class="hero" href="/heroes/17">Pallantides</a>
-        (<a class="item" href="/items/12">Sword</a> and
-          <a class="item" href="/items/20">Shield</a>)
-        <br /><br />
-        <table class="scen_table">
-          <tr>
-            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
-            <td>After setup, each hero moves 5 gems from their Reserve zone
-            to their Fatigue zone.</td>
-          </tr>
-        </table>',
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the heroes’ turn.<br /></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><h4>2</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanGeneralToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/11">Conan - General</a>
+            (<a class="item" href="/items/4">Conan’s Sword</a> and
+            <a class="item" href="/items/18">Scale Mail</a>)
+            with the <a class="tile" href="/tiles/74">Kothian Archer</a>
+          </td>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/KothianArcher.png" class="scen_event"></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/PallantidesToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/17">Pallantides</a>
+            (<a class="item" href="/items/12">Sword</a> and
+            <a class="item" href="/items/20">Shield</a>)
+          </td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each hero moves 5 gems from their Reserve zone
+          to their Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
 
       overlord_goal: "If the Overlord invokes the Swamp Demon and the Swamp Demon
         is alive at the end of turn 8; the Overlord wins the game.",
@@ -6554,23 +7956,28 @@
             <td>The Overlord starts with 7 gems in their Reserve zone and
               3 in their Fatigue zone, and places the recovery token showing a
               value of “5” in the Book of Skelos.</td>
+            <td></td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td>
-              <span class="setup_suggestion">Reinforcement:</span> 2 reinforcement points
-              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .<br />
-              <span class="setup_suggestion">Domination:</span> see Special Rules
+            <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
+              <p><span class="setup_suggestion">Reinforcement:</span> 2 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
+              <p><span class="setup_suggestion">Domination:</span> see Special Rules</p>
             </td>
+            <td></td>
           </tr>
+        </table>
+        <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/HadrathusToken.png" class="scen_setup"></td>
             <td>
               <a class="tile" href="/tiles/64">Hadrathus</a> has 1 spell:
               <a class="spell" href="/spells/6">Lightning Storm</a>.
             </td>
+            <td></td>
           </tr>
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZelataToken.png" class="scen_setup"></td>
@@ -6578,6 +7985,7 @@
               <a class="tile" href="/tiles/72">Zelata</a> has 1 spell:
               <a class="spell" href="/spells/35">Hand of Death</a>.
             </td>
+            <td></td>
           </tr>
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AgeeraToken.png" class="scen_setup"></td>
@@ -6585,6 +7993,7 @@
               <a class="tile" href="/tiles/52">Ageera</a> has 1 spell:
               <a class="spell" href="/spells/1">Bori’s Rage</a>.
             </td>
+            <td></td>
           </tr>
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AkivashaToken.png" class="scen_setup"></td>
@@ -6592,6 +8001,7 @@
               <a class="tile" href="/tiles/53">Akivasha</a> has 1 spell:
               <a class="spell" href="/spells/47">Return of the Brave</a>.
             </td>
+            <td></td>
           </tr>
         </table>',
 
@@ -6760,50 +8170,89 @@
       hero_goal: "If the heroes kill the Hyperborean Primitive or prevent the
         Overlord from killing all the pirates, Bossonian guards and archers before
         the end of turn 9; the heroes win the game.",
+
       hero_setup: '
-      <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BossonianGuardsRed.png" class="scen_event float_tile">
-      <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BossonianArchersPurple.png" class="scen_event float_tile">
-      <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Pirates.png" class="scen_event float_tile">
-      <span class="setup_suggestion">Suggestions for 3 heroes:</span>
-        <br /><a class="hero" href="/heroes/11">Conan - General</a>
-        (<a class="item" href="/items/18">Scale Mail</a>) with 5 pirates with no
-        base and 5 Bossonian Archers with a purple base.
-        <br /><a class="hero" href="/heroes/17">Pallantides</a>
-        (<a class="item" href="/items/20">Shield</a>) with 5 Bossonian Guards with
-        a red base.
-        <br /><a class="hero" href="/heroes/6">N’Gora</a>
-        (<a class="item" href="/items/21">Tribal Shield</a>). <br /><br />
-        <table class="scen_table">
-          <tr>
-            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
-            <td>After setup, each hero moves 6 gems from their Reserve zone
-            to their Fatigue zone.</td>
-          </tr>
-        </table>',
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the heroes’ turn.<br /></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><h4>3</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanGeneralToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/11">Conan - General</a>
+            (<a class="item" href="/items/18">Scale Mail</a>) with 5
+            <a class="tile" href="/tiles/30">Pirates</a> pirates with no base and 5
+            <a class="tile" href="/tiles/16">Bossonian Archers</a> with a purple base.
+          </td>
+          <td>
+          <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Pirates.png" class="scen_event">
+          <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BossonianArchersPurple.png" class="scen_event">
+          </td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/PallantidesToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/17">Pallantides</a>
+            (<a class="item" href="/items/20">Shield</a>) with 5
+            <a class="tile" href="/tiles/22">Bossonian Guards</a> with a red base.
+          </td>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BossonianGuardsRed.png" class="scen_event"></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/NGoraToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/6">N’Gora</a>
+            (<a class="item" href="/items/21">Tribal Shield</a>).
+          </td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each hero moves 6 gems from their Reserve zone
+          to their Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
 
       overlord_goal: "If the Overlord kills all the pirates, Bossonian guards
         and archers before the end of turn 9; the Overlord wins the game.",
 
       overlord_setup: 'The game starts with the Overlord’s turn.
-        <br /><br />
+        <br />
         <table class="scen_table">
           <tr>
             <td><img src="/assets/tokens/redGem.png" class="scen_token" /></td>
             <td>The Overlord starts with 6 gems in their Reserve zone and 0 in
             their Fatigue zone, and places the recovery token showing a recovery
             value of “3” in the Book of Skelos.</td>
+          <td></td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td>
-              When the Event tile is activated, the Overlord resolves each of the following events in order:
-              <br /><span class="setup_suggestion">Gaining Ground:</span> (see special rules).
-              <br/ ><span class="setup_suggestion">Reinforcement:</span> 5 reinforcement points
-              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .
+            <td><p>When the Event tile is activated, the Overlord resolves each of the following events in order:</p>
+              <p><span class="setup_suggestion">Gaining Ground:</span> (see special rules).</p>
+              <p><span class="setup_suggestion">Reinforcement:</span> 5 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
             </td>
+            <td></td>
           </tr>
+        </table>
+        <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/HyperboreanPrimitiveToken.png" class="scen_setup"></td>
             <td>
@@ -6811,6 +8260,7 @@
               <a class="spell" href="/spells/11">Pestilential Swarm</a> and
               <a class="spell" href="/spells/55">Withering</a>.
             </td>
+            <td></td>
           </tr>
         </table>',
 
@@ -6844,16 +8294,17 @@
         and occupied areas.</p>
 
         <p>
-        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Skeletons.png" class="scen_event float_tile">
-        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SkeletonsRed.png" class="scen_event float_tile">
+        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SkeletonsRedAlt.png" class="scen_event float_tile">
         <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SkeletonsPurple.png" class="scen_event float_tile">
+        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Skeletons.png" class="scen_event float_tile">
         <span class="special_title">Skeletons:</span>
         During setup the Overlord places the following Skeleton tiles next to
-        the Book of Skelos: (Gray and purple Skeleton tiles with an Armor of 1,
-        and a red Skeleton tile with an Armor of 0). The Overlord then places
-        15 skeleton models next to the board. When a skeleton is killed, the
-        Overlord lays the skeleton down in its area rather than removing it from
-        the board. The laid down skeleton models do not count for hindering and
+        the Book of Skelos: (<a class="tile" href="/tiles/45">Gray</a> and
+        <a class="tile" href="/tiles/49">purple Skeleton</a> tiles with an Armor of 1,
+        and a <a class="tile" href="/tiles/91">red Skeleton</a> tile with an Armor of 0).
+        The Overlord then places 15 skeleton models next to the board. When a skeleton
+        is killed, the Overlord lays the skeleton down in its area rather than removing
+        it from the board. The laid down skeleton models do not count for hindering and
         occupied areas.</p>
 
         <p style="clear: both;"><span class="special_title"> Stygian Artifact:</span>
@@ -6982,28 +8433,62 @@
       complexity: "1",
 
       hero_goal: "If a hero has fled the tavern with the spellbook; the heroes win the game.",
-      hero_setup: 'The game starts with the heroes’ turn. The heroes start in the
-      <img src="/assets/tokens/area1Token.png" class="scen_token" /> area.
-        <br /><span class="setup_suggestion">Suggestions for 3 heroes:</span>
-        <br /><a class="hero" href="/heroes/2">Conan</a>
-        (<a class="item" href="/items/16">Chain Mail</a>,
-          <a class="item" href="/items/4">Conan’s Sword</a>)
-        <br /><a class="hero" href="/heroes/1">Bêlit</a>
-        (<a class="item" href="/items/17">Leather Armor</a>,
-          <a class="item" href="/items/10">Ornamental Spear</a>),
-        <br /><a class="hero" href="/heroes/3">Hadrathus</a>
-        (<a class="item" href="/items/20">Shield</a>,
-          <a class="item" href="/items/12">Sword</a>,
-          <a class="spell" href="/spells/9">Mitra’s Halo</a>,
-          <a class="spell" href="/spells/6">Lightning Storm</a>).
-          Hadrathus does not start with Mitra’s Halo cast.<br /><br />
-        <table class="scen_table">
-          <tr>
-            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
-            <td>After setup, each hero moves 4 gems from their Reserve zone to
-            their Fatigue zone.</td>
-          </tr>
-        </table>',
+
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the heroes’ turn.<br /></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><h4>3</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/2">Conan</a>
+            (<a class="item" href="/items/16">Chain Mail</a>,
+            <a class="item" href="/items/4">Conan’s Sword</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BelitToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/1">Bêlit</a>
+            (<a class="item" href="/items/17">Leather Armor</a>,
+            <a class="item" href="/items/10">Ornamental Spear</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/HadrathusToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/3">Hadrathus</a>
+            (<a class="item" href="/items/20">Shield</a>,
+            <a class="item" href="/items/12">Sword</a>,
+            <a class="spell" href="/spells/9">Mitra’s Halo</a>,
+            <a class="spell" href="/spells/6">Lightning Storm</a>).
+            Hadrathus does not start with Mitra’s Halo cast.
+          </td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each hero moves 4 gems from their Reserve zone to
+          their Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
 
       overlord_goal: "At the end of turn 7, if the Overlord has prevented the
         heroes from fleeing the tavern with the spellbook; the Overlord wins the game.",
@@ -7015,17 +8500,19 @@
             <td>The Overlord starts with 9 gems in their Reserve zone and
               3 in their Fatigue zone, and places the recovery token showing a
               recovery value of “5” in the Book of Skelos.</td>
+              <td></td
           </tr>
         </table>
         <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td>
-              <span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
-              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .
-              <br /><span class="setup_suggestion">Fire at Will:</span> Each unit may perform a Ranged
-              Attack if able.
+            <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
+              <p><span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
+              <p><span class="setup_suggestion">Fire at Will:</span> Each unit may perform a Ranged
+              Attack if able.</p>
             </td>
+            <td></td
           </tr>
         </table>',
 
@@ -7141,27 +8628,61 @@
       hero_goal: "If Shubba dies (the Orb is linked to Shubba. Yogah cannot use
         it while Shubba is still alive), and Yogah of Yag has fled the fort with
         the Orb before the end of turn 8; the heroes win.",
-      hero_setup: 'The game starts with the heroes’ turn.
-        <br />The heroes start in the areas indicated by the setup diagram.
-        <br /><br /><span class="setup_suggestion">Suggestions for 3 heroes:</span>
-        <br /><a class="hero" href="/heroes/2">Conan</a>
-        (<a class="item" href="/items/12">Sword</a>,
-          <a class="item" href="/items/17">Leather Armor</a>),
-        <br /><a class="hero" href="/heroes/3">Hadrathus</a>
-        (<a class="item" href="/items/11">Parrying Dagger</a>,
-          <a class="spell" href="/spells/1">Bori’s Rage</a>,
-          <a class="spell" href="/spells/8">Mind Control</a>).
-        <br /><a class="hero" href="/heroes/27">Yogah of Yag</a>
-        (<a class="item" href="/items/10">Ornamental Spear</a>,
-          <a class="spell" href="/spells/4">Gift of Life</a>,
-          <a class="spell" href="/spells/10">Mitra’s Healing</a>)<br /><br />
-        <table class="scen_table">
-          <tr>
-            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
-            <td>After setup, each hero moves 6 gems from their Reserve zone to
-            their Fatigue zone.</td>
-          </tr>
-        </table>',
+
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the heroes’ turn.<br /></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><h4>3</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/2">Conan</a>
+            (<a class="item" href="/items/12">Sword</a>,
+            <a class="item" href="/items/17">Leather Armor</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/HadrathusToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/3">Hadrathus</a>
+            (<a class="item" href="/items/11">Parrying Dagger</a>,
+            <a class="spell" href="/spells/1">Bori’s Rage</a>,
+            <a class="spell" href="/spells/8">Mind Control</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/YogahYagToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/27">Yogah of Yag</a>
+            (<a class="item" href="/items/10">Ornamental Spear</a>,
+            <a class="spell" href="/spells/4">Gift of Life</a>,
+            <a class="spell" href="/spells/10">Mitra’s Healing</a>)
+          </td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each hero moves 6 gems from their Reserve zone to
+          their Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
 
       overlord_goal: "If Yogah dies before the end of turn 8; the Overlord wins.
         <br />In any other case, both sides lose at the end of turn 8.",
@@ -7173,20 +8694,24 @@
             <td>The Overlord starts with 7 gems in their Reserve zone and
               5 in their Fatigue zone, and places the recovery token showing a
               recovery value of “7” in the Book of Skelos.</td>
+            <td></td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td>
-              <span class="setup_suggestion">Reinforcement:</span> 5 reinforcement points
-              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .
-              <br /><span class="setup_suggestion">Forced March:</span> The Overlord can activate a
+            <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
+              <p><span class="setup_suggestion">Reinforcement:</span> 5 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
+              <p><span class="setup_suggestion">Forced March:</span> The Overlord can activate a
               Kushite unit tile without moving gems from their Reserve zone to their
               Fatigue zone. The activated Kushite unit tile is placed at the end of
-              the River, after the event tile.
+              the River, after the event tile.</p>
             </td>
+            <td></td>
           </tr>
+        </table>
+        <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShubbaToken.png" class="scen_setup"></td>
             <td>
@@ -7196,6 +8721,7 @@
               <a class="spell" href="/spells/6">Lightning Storm</a> and
               <a class="spell" href="/spells/3">Energy Drain</a>.
             </td>
+            <td></td>
           </tr>
         </table>',
 
@@ -7312,27 +8838,62 @@
       complexity: "2",
 
       hero_goal: "If the heroes kill the Dragon before the end of turn 7; the heroes win the game.",
-      hero_setup: 'The game starts with the heroes’ turn.
-        <br /><br /><span class="setup_suggestion">Suggestions for 3 heroes:</span>
-        <br /><a class="hero" href="/heroes/14">Conan Warlord</a>
-        (<a class="item" href="/items/1">Battle Axe</a> and
-          <a class="item" href="/items/17">Leather Armor</a>)
-        <br /><a class="hero" href="/heroes/19">Savage Bêlit</a>
-        (<a class="item" href="/items/35">Pirate Saber</a> and
-          <a class="item" href="/items/11">Parrying Dagger</a>)
-        <br /><a class="hero" href="/heroes/18">Pelias</a>
-        (<a class="item" href="/items/42">Black Staff</a>,
-          <a class="item" href="/items/36">Sacrificial Dagger</a>,
-          <a class="spell" href="/spells/16">Teleportation</a>,
-          <a class="spell" href="/spells/55">Withering</a>,
-          <a class="spell" href="/spells/30">Eel Skin</a>)<br /><br />
-        <table class="scen_table">
-          <tr>
-            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
-            <td>After setup, each hero moves 5 gems from their Reserve zone
-            to their Fatigue zone.</td>
-          </tr>
-        </table>',
+
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the heroes’ turn.<br /></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><h4>3</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanWarlordToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/14">Conan Warlord</a>
+            (<a class="item" href="/items/1">Battle Axe</a> and
+            <a class="item" href="/items/17">Leather Armor</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SavageBelitToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/19">Savage Bêlit</a>
+            (<a class="item" href="/items/35">Pirate Saber</a> and
+            <a class="item" href="/items/11">Parrying Dagger</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/PeliasToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/18">Pelias</a>
+            (<a class="item" href="/items/42">Black Staff</a>,
+            <a class="item" href="/items/36">Sacrificial Dagger</a>,
+            <a class="spell" href="/spells/16">Teleportation</a>,
+            <a class="spell" href="/spells/55">Withering</a>,
+            <a class="spell" href="/spells/30">Eel Skin</a>)
+          </td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each hero moves 5 gems from their Reserve zone
+          to their Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
 
       overlord_goal: "If the Overlord prevents the Dragon from being killed before
         the end of turn 7; the Overlord wins the game.",
@@ -7344,14 +8905,20 @@
             <td>The Overlord starts with 8 gems in their Reserve zone and
               3 in their Fatigue zone, and places the recovery token showing a
               recovery value of “5” in the Book of Skelos.</td>
+            <td></td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td><span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
-            <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</td>
+            <td><p>When an event tile is activated the Overlord resolves the following event:</p>
+              <p><span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
+            </td>
+            <td></td>
           </tr>
+        </table>
+        <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZogarSagToken.png" class="scen_setup"></td>
             <td>
@@ -7359,6 +8926,7 @@
               <a class="spell" href="/spells/12">Set’s Bite</a> and
               <a class="spell" href="/spells/7">Magical Dizziness</a>.
             </td>
+            <td></td>
           </tr>
         </table>',
 
@@ -7492,28 +9060,69 @@
 
       hero_goal: "If Gitara flees the citadel before the end of turn 6; the heroes
         win the game.",
-      hero_setup: 'The game starts with the heroes’ turn.
-        <br /><br /><span class="setup_suggestion">Suggested Heroes and Equipment:</span>
-        <br /><a class="hero" href="/heroes/11">Conan - General</a>
-        (<a class="item" href="/items/4">Conan’s Sword</a>)
-        <br /><a class="hero" href="/heroes/18">Pelias</a>
-        (<a class="item" href="/items/3">Dagger</a>,
-          <a class="item" href="/items/42">Black Staff</a> and 3 Spells:
-          <a class="spell" href="/spells/12">Set’s Bite</a>
-          <a class="spell" href="/spells/13">Set’s Halo</a>, and
-          <a class="spell" href="/spells/30">Eel Skin</a>.<br />
-          Pelias starts the game with Set’s Halo activated )
-        <br /><a class="hero" href="/heroes/1">Bêlit</a>
-        (<a class="item" href="/items/10">Ornamental Spear</a>).
-        <br /><a class="hero" href="/heroes/10">Balthus</a>
-        (<a class="item" href="/items/40">Zingarian Bow</a>).<br /><br />
-        <table class="scen_table">
-          <tr>
-            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
-            <td>After setup, each hero moves 5 gems from their Reserve zone to
-            their Fatigue zone.</td>
-          </tr>
-        </table>',
+
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the heroes’ turn.<br /></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><h4>4</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanGeneralToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/11">Conan - General</a>
+            (<a class="item" href="/items/4">Conan’s Sword</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/PeliasToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/18">Pelias</a>
+            (<a class="item" href="/items/3">Dagger</a>,
+            <a class="item" href="/items/42">Black Staff</a> and 3 Spells:
+            <a class="spell" href="/spells/12">Set’s Bite</a>
+            <a class="spell" href="/spells/13">Set’s Halo</a>, and
+            <a class="spell" href="/spells/30">Eel Skin</a>.<br />
+            Pelias starts the game with Set’s Halo activated)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BelitToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/1">Bêlit</a>
+            (<a class="item" href="/items/10">Ornamental Spear</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BalthusToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/10">Balthus</a>
+            (<a class="item" href="/items/40">Zingarian Bow</a>)
+          </td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each hero moves 5 gems from their Reserve zone to
+          their Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
 
       overlord_goal: "If the Overlord prevents Gitara from fleeing the Citadel
         or if Gitara dies before the end of turn 6; the Overlord wins the game.",
@@ -7525,16 +9134,17 @@
             <td>The Overlord starts with 9 gems in their Reserve zone and
               3 in their Fatigue zone, and places the recovery token showing a
               recovery value of “7” in the Book of Skelos.</td>
+            <td></td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td>
-              <span class="setup_suggestion">Reinforcement:</span> 2 reinforcement points
-              <img src="/assets/stats/reinforcement.png" class="scen_token" />
-              (see special rules).
+            <td><p>When an event tile is activated the Overlord resolves the following event:</p>
+              <p><span class="setup_suggestion">Reinforcement:</span> 2 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" /> (see special rules).</p>
             </td>
+            <td></td>
           </tr>
         </table>',
 
@@ -7703,28 +9313,69 @@
 
       hero_goal: "If the heroes help the Captain flee the citadel before the end
         of turn 8; the heroes win the game.",
-      hero_setup: 'The game starts with the heroes’ turn.
-        <br /><br /><span class="setup_suggestion">Suggestions for 4 heroes:</span>
-        <br /><a class="hero" href="/heroes/12">Conan - Mercenary</a>
-        (<a class="item" href="/items/4">Conan’s Sword</a>),
-        <br /><a class="hero" href="/heroes/9">Amboola</a>
-        (<a class="item" href="/items/35">Pirate Saber</a>),
-        <br /><a class="hero" href="/heroes/20">Taurus</a>
-        (<a class="item" href="/items/11">Parrying Dagger</a> and
-          <a class="item" href="/items/13">Throwing Knives</a>).
-        <br /><a class="hero" href="/heroes/18">Pelias</a>
-        (<a class="item" href="/items/54">Ring</a>,
-          <a class="spell" href="/spells/35">Hand of Death</a>,
-          <a class="spell" href="/spells/6">Lightning Storm</a>,
-          <a class="spell" href="/spells/12">Set’s Bite</a> and
-          <a class="spell" href="/spells/1">Bori’s Rage</a>).<br /><br />
-        <table class="scen_table">
-          <tr>
-            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
-            <td>After setup, each hero moves 5 gems from their Reserve zone to
-            their Fatigue zone.</td>
-          </tr>
-        </table>',
+
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the heroes’ turn.<br /></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><h4>4</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanMercenaryToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/12">Conan - Mercenary</a>
+            (<a class="item" href="/items/4">Conan’s Sword</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AmboolaToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/9">Amboola</a>
+            (<a class="item" href="/items/35">Pirate Saber</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/TaurusToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/20">Taurus</a>
+            (<a class="item" href="/items/11">Parrying Dagger</a> and
+            <a class="item" href="/items/13">Throwing Knives</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/PeliasToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/18">Pelias</a>
+            (<a class="item" href="/items/54">Ring</a>,
+            <a class="spell" href="/spells/35">Hand of Death</a>,
+            <a class="spell" href="/spells/6">Lightning Storm</a>,
+            <a class="spell" href="/spells/12">Set’s Bite</a> and
+            <a class="spell" href="/spells/1">Bori’s Rage</a>)
+          </td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each hero moves 5 gems from their Reserve zone to
+          their Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
 
       overlord_goal: "If the Overlord prevents the Captain from fleeing the
         citadel by the end of turn 8; the Overlord wins the game.",
@@ -7736,15 +9387,17 @@
             <td>The Overlord starts with 9 gems in their Reserve zone and
               3 in their Fatigue zone, and places the recovery token showing a
               recovery value of “7” in the Book of Skelos.</td>
+            <td></td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td>
-              <span class="setup_suggestion">Reinforcement:</span> 3 reinforcement points
-              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .
+            <td><p>When an event tile is activated the Overlord resolves the following event:</p>
+              <p><span class="setup_suggestion">Reinforcement:</span> 3 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
             </td>
+            <td></td>
           </tr>
         </table>',
 
@@ -7894,39 +9547,78 @@
 
       hero_goal: "If the heroes destroy the outpost or sabotage the citadel
         before the end of turn 8; the heroes win the game.",
-      hero_setup: 'The game starts with the heroes’ turn.<br /><br />
-        <p><span class="setup_suggestion">Suggestions for 4 heroes:</span>
-        <br /><a class="hero" href="/heroes/25">Zogar Sag</a>
-        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/PictWarriors.png" class="scen_event float_tile">
-        (<a class="item" href="/items/42">Black Staff</a>, 2
-          <a class="item" href="/items/45">Pictish Drinks</a>,
-          <a class="spell" href="/spells/46">Recall</a>,
-          <a class="spell" href="/spells/13">Set’s Halo</a>,
-          <a class="spell" href="/spells/12">Set’s Bite</a>, and
-          <a class="spell" href="/spells/20">Bel’s Caress</a>) and 2
-          <a class="tile" href="/tiles/87">Pict Warriors</a>.
-        Zogar Sag starts with Set’s Halo cast.
-        <br /><a class="hero" href="/heroes/23">Thak</a>
-        (<a class="item" href="/items/11">Parrying Dagger</a>).
-        <br /><a class="hero" href="/heroes/22">Skuthus</a>
-        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Pirates.png" class="scen_event float_tile">
-        (<a class="item" href="/items/36">Sacrificial Dagger</a>,
-          <a class="item" href="/items/22">Life Potion</a>,
-          <a class="item" href="/items/48">Elixir</a>,
-          <a class="spell" href="/spells/35">Hand of Death</a>,
-          <a class="spell" href="/spells/41">Life Transfer</a>,
-          <a class="spell" href="/spells/47">Return of the Braves</a>, and
-          <a class="spell" href="/spells/6">Lightning Storm</a>).
-        <br /><a class="hero" href="/heroes/24">Zaporavo</a>
-        (<a class="item" href="/items/35">Pirate Saber</a>) and 2
-         <a class="tile" href="/tiles/30">Pirates</a>.</p>
-        <table class="scen_table">
-          <tr>
-            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
-            <td>After setup, each hero moves 5 gems from their Reserve zone to
-            their Fatigue zone.</td>
-          </tr>
-        </table>',
+
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the heroes’ turn.<br /></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><h4>4</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZogarSagToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/25">Zogar Sag</a>
+            (<a class="item" href="/items/42">Black Staff</a>, 2
+            <a class="item" href="/items/45">Pictish Drinks</a>,
+            <a class="spell" href="/spells/46">Recall</a>,
+            <a class="spell" href="/spells/13">Set’s Halo</a>,
+            <a class="spell" href="/spells/12">Set’s Bite</a>, and
+            <a class="spell" href="/spells/20">Bel’s Caress</a>) and 2
+            <a class="tile" href="/tiles/87">Pict Warriors</a>.
+            Zogar Sag starts with Set’s Halo cast.
+          </td>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/PictWarriors.png" class="scen_event"></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ThakToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/23">Thak</a>
+            (<a class="item" href="/items/11">Parrying Dagger</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SkuthusToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/22">Skuthus</a>
+            (<a class="item" href="/items/36">Sacrificial Dagger</a>,
+            <a class="item" href="/items/22">Life Potion</a>,
+            <a class="item" href="/items/48">Elixir</a>,
+            <a class="spell" href="/spells/35">Hand of Death</a>,
+            <a class="spell" href="/spells/41">Life Transfer</a>,
+            <a class="spell" href="/spells/47">Return of the Braves</a>, and
+            <a class="spell" href="/spells/6">Lightning Storm</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZaporavoToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/24">Zaporavo</a>
+            (<a class="item" href="/items/35">Pirate Saber</a>) and 2
+            <a class="tile" href="/tiles/30">Pirates</a>
+          </td>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Pirates.png" class="scen_event"></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each hero moves 5 gems from their Reserve zone to
+          their Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
 
       overlord_goal: "If the Overlord prevents the heroes from destroying the
         outpost and sabotaging the citadel before the end of turn 8; the Overlord
@@ -7939,15 +9631,17 @@
             <td>The Overlord starts with 8 gems in their Reserve zone and
               4 in their Fatigue zone, and places the recovery token showing a
               recovery value of “7” in the Book of Skelos.</td>
+              <td></td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td>
-              <span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
-              <img src="/assets/stats/reinforcement.png" class="scen_token" /> (see special rules).
+            <td><p>When an event tile is activated the Overlord resolves the following event:</p>
+              <p><span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" /> (see special rules).</p>
             </td>
+            <td></td>
           </tr>
         </table>',
 
@@ -8176,52 +9870,99 @@
 
       hero_goal: "If the heroes kill the Warlock, or prevent the Overlord from
         warding off the curse before the end of turn 7; the heroes win the game.",
-      hero_setup: '<span class="setup_suggestion">Suggestions for 4 heroes:</span>
-        <br /><a class="hero" href="/heroes/13">Conan - Wanderer</a>
-        (<a class="item" href="/items/32">Axe</a>)
-        <br /><a class="hero" href="/heroes/19">Savage Bêlit</a>
-        (<a class="item" href="/items/3">Dagger</a> and
-          <a class="item" href="/items/11">Parrying Dagger</a>)
-        <br /><a class="hero" href="/heroes/15">Kerim Shah</a>
-        (<a class="item" href="/items/12">Sword</a>)
-        <br /><a class="hero" href="/heroes/9">Amboola</a>
-        (<a class="item" href="/items/3">Dagger</a>)<br /><br />
-        <table class="scen_table">
-          <tr>
-            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
-            <td>After setup, each hero moves 5 gems from their Reserve zone
-            to their Fatigue zone.</td>
-          </tr>
-        </table>',
+
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><h4>4</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanWandererToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/13">Conan - Wanderer</a>
+            (<a class="item" href="/items/32">Axe</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SavageBelitToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/19">Savage Bêlit</a>
+            (<a class="item" href="/items/3">Dagger</a> and
+            <a class="item" href="/items/11">Parrying Dagger</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/KerimShahToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/15">Kerim Shah</a>
+            (<a class="item" href="/items/12">Sword</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AmboolaToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/9">Amboola</a>
+            (<a class="item" href="/items/3">Dagger</a>)
+          </td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each hero moves 5 gems from their Reserve zone
+          to their Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
 
       overlord_goal: "If the Overlord wards off the curse before the end of turn
         7; the Overlord wins the game.",
 
-      overlord_setup: 'The game starts with the Overlord’s turn.
-        <br /><br />
+      overlord_setup: '
+        <table class="scen_table">
+          <tr>
+            <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+            <td>The game starts with the Overlord’s turn.<br /></td>
+            <td></td>
+          </tr>
+        </table>
         <table class="scen_table">
           <tr>
             <td><img src="/assets/tokens/redGem.png" class="scen_token" /></td>
             <td>The Overlord starts with 11 gems in their Reserve zone and 0
             in their Fatigue zone, and places the recovery token showing a
             recovery value of “7” in the Book of Skelos.</td>
+            <td></td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td>
-              <span class="setup_suggestion">Reinforcement:</span> 5 reinforcement points
-              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .
+            <td><p>When an event tile is activated the Overlord resolves the following event:</p>
+              <p><span class="setup_suggestion">Reinforcement:</span> 5 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
             </td>
+            <td></td>
           </tr>
+        </table>
+        <table class="scen_table">
           <tr>
             <td><img src="/assets/tokens/num1Token.png" class="scen_token" /></td>
             <td>
               During setup the Overlord places the tokens numbered 1 to 3 faceup on
               the board as indicated by the set up diagram to represent the altars.
             </td>
+            <td></td>
           </tr>
+        </table>
+        <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/WarlockToken.png" class="scen_setup"></td>
             <td>
@@ -8229,14 +9970,15 @@
               <a class="spell" href="/spells/47">Return of the Braves</a> and
               <a class="spell" href="/spells/9">Mitra’s Halo</a>.
             </td>
+            <td></td>
           </tr>
         </table>',
 
       tile1: 59,
-      tile2: 41,
+      tile2: 84,
       tile3: 44,
       tile4: 59,
-      tile5: 40,
+      tile5: 83,
       tile6: 50,
       tile7: 1,
       tile8: 0,
@@ -8378,7 +10120,7 @@
       product_ids: [1, 2, 3],
       map_ids: [4],
       hero_ids: [9, 13, 15, 19],
-      tile_ids: [1, 33, 40, 41, 44, 50, 59, 73, 78, 79],
+      tile_ids: [1, 33, 44, 50, 59, 73, 78, 79, 83, 84],
       spell_ids: [9, 47],
       item_ids: [1, 3, 11, 12, 14, 32, 38, 40] },
 
@@ -8411,20 +10153,60 @@
 
       hero_goal: "If the heroes flee with both Treasure Chests before the end of
         turn 7; the heroes win the game.",
-      hero_setup: 'The game starts with the heroes’ turn.<br />
-        <br /><span class="setup_suggestion">Suggested heroes:</span>
-        <br /><a class="hero" href="/heroes/12">Conan - Mercenary</a>
-        <br /><a class="hero" href="/heroes/21">Constantius</a>
-        <br /><a class="hero" href="/heroes/16">Olgerd Vladislav</a>
-        <br /><a class="hero" href="/heroes/9">Amboola</a>
-        <br /><br />
-        <table class="scen_table">
-          <tr>
-            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
-            <td>After setup, each hero moves 6 gems from their Reserve zone
-            to their Fatigue zone.</td>
-          </tr>
-        </table>',
+
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the heroes’ turn.<br /></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><h4>4</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanMercenaryToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/12">Conan - Mercenary</a>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConstantiusToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/21">Constantius</a>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/OlgerdVladislavToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/16">Olgerd Vladislav</a>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AmboolaToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/9">Amboola</a>
+          </td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each hero moves 6 gems from their Reserve zone
+          to their Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
 
       overlord_goal: "If the Overlord prevents the heroes from fleeing with both
         Treasure Chest before the end of turn 7; the Overlord wins the game.",
@@ -8436,18 +10218,22 @@
             <td>The Overlord starts with 7 gems in their Reserve zone and 4 in
             their Fatigue zone, and places the recovery token showing a recovery
             value of “7” in the Book of Skelos.</td>
+            <td></td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td>
-              <span class="setup_suggestion">Reinforcement:</span> The Overlord choses up to three laid
+            <td><p>When an event tile is activated the Overlord resolves the following event:</p>
+              <p><span class="setup_suggestion">Reinforcement:</span> The Overlord choses up to three laid
                 down models and stands them up. If a reinforced model belongs to a
                 tile flipped to its “bloodied” face, the Overlord flips that tile
-                over to its non “bloodied” face.
+                over to its non “bloodied” face.</p>
             </td>
+            <td></td>
           </tr>
+        </table>
+        <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/KhemsaToken.png" class="scen_setup"></td>
             <td>
@@ -8455,6 +10241,7 @@
                 <a class="spell" href="/spells/1">Bori’s Rage</a> and
                 <a class="spell" href="/spells/37">Inversion</a>.
             </td>
+            <td></td>
           </tr>
         </table>',
 
@@ -8632,24 +10419,70 @@
       hero_goal: "If the information is retrieved by freeing the informer before
       he is executed at the end of turn 6; the heroes win the game.",
 
-      hero_setup: '<p>The game starts with the heroes’ turn.</p>
-        <p>The heroes may deploy as they choose in the areas
-        <img src="/assets/tokens/area1Token.png" class="scen_token" /> and
-        <img src="/assets/tokens/area2Token.png" class="scen_token" />.</p>
-        <br /><span class="setup_suggestion">Campaign heroes:</span>
-        <br />Follow Campaign Rules for level and starting equipment
-        <br /><a class="hero" href="/heroes/5">Amra the Lion</a>
-        <br /><a class="hero" href="/heroes/8">Zelata</a>
-        <br /><a class="hero" href="/heroes/19">Savage Bêlit</a>
-        <br /><a class="hero" href="/heroes/6">N’Gora</a>
-        <br /><br />
-        <table class="scen_table">
-          <tr>
-            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
-            <td>After setup, each hero moves 4 gems from their Reserve zone to their Fatigue
-            zone.</td>
-          </tr>
-        </table>',
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the heroes’ turn.<br /></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/area1Token.png" class="scen_token" /></td>
+          <td>The heroes may deploy as they choose  <br />in the areas marked
+          <img src="/assets/tokens/area1Token.png" class="scen_token" /> and
+          <img src="/assets/tokens/area2Token.png" class="scen_token" /></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><h4>4</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br />
+          Follow Campaign Rules for level and starting equipment</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AmraToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/5">Amra the Lion</a>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZelataToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/8">Zelata</a>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SavageBelitToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/19">Savage Bêlit</a>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/NGoraToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/6">N’Gora</a>
+          </td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each hero moves 4 gems from their Reserve zone to their Fatigue
+          zone.</td>
+          <td></td>
+        </tr>
+      </table>',
 
       overlord_goal: "If the heroes are prevented from freeing the informer
       before the end of turn 6; the Overlord wins.",
@@ -8661,19 +10494,20 @@
             <td>The Overlord starts with 12 gems in their Reserve zone and 3 in
             their Fatigue zone, and places the recovery token showing a recovery
             value of “5” in the Book of Skelos.</td>
+            <td></td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td>
-              When an event tile is activated the Overlord resolves any one of the following events:<br />
-              <span class="setup_suggestion">Fire at will:</span> Each unit may
-              perform a Ranged Attack if able.<br />
-              <span class="setup_suggestion">Forced march:</span> The Overlord
+            <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
+              <p><span class="setup_suggestion">Fire at will:</span> Each unit may
+              perform a Ranged Attack if able.</p>
+              <p><span class="setup_suggestion">Forced march:</span> The Overlord
               choses a unit tile. All the models of this unit tile may move according
-              to their base movement value. The Overlord can use the Movement benefit.
+              to their base movement value. The Overlord can use the Movement benefit.</p>
             </td>
+            <td></td>
           </tr>
         </table>',
 
@@ -8771,23 +10605,69 @@
       hero_goal: "If Gitara is killed and all the surviving heroes at this moment
       flee the citadel before the end of turn 7; the heroes win the game.",
 
-      hero_setup: '<p>The game starts with the heroes’ turn.</p>
-        <p>The heroes start in the area
-        <img src="/assets/tokens/area1Token.png" class="scen_token" />.</p>
-        <br /><span class="setup_suggestion">Campaign heroes:</span>
-        <br />Follow Campaign Rules for level and starting equipment
-        <br /><a class="hero" href="/heroes/5">Amra the Lion</a>
-        <br /><a class="hero" href="/heroes/8">Zelata</a>
-        <br /><a class="hero" href="/heroes/19">Savage Bêlit</a>
-        <br /><a class="hero" href="/heroes/6">N’Gora</a>
-        <br /><br />
-        <table class="scen_table">
-          <tr>
-            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
-            <td>After setup, each hero moves 4 gems from their Reserve zone to
-            their Fatigue zone.</td>
-          </tr>
-        </table>',
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the heroes’ turn.<br /></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/area1Token.png" class="scen_token" /></td>
+          <td>The heroes start in the area marked
+          <img src="/assets/tokens/area1Token.png" class="scen_token" /></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><h4>4</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br />
+          Follow Campaign Rules for level and starting equipment</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AmraToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/5">Amra the Lion</a>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZelataToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/8">Zelata</a>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SavageBelitToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/19">Savage Bêlit</a>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/NGoraToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/6">N’Gora</a>
+          </td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each hero moves 4 gems from their Reserve zone to
+          their Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
 
       overlord_goal: "Either if one of heroes is killed after Gitara’s death, or
       if Gitara is still alive at the end of turn 7; the Overlord wins.",
@@ -8799,18 +10679,19 @@
             <td>The Overlord starts with 11 gems in their Reserve zone and 3 in
             their Fatigue zone, and places the recovery token showing a recovery
             value of “5” in the Book of Skelos.</td>
+            <td></td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td>
-              When an event tile is activated the Overlord resolves any one of the following events:<br />
-              <span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
-              <img src="/assets/stats/reinforcement.png" class="scen_token" /><br />
-              <span class="setup_suggestion">Fire at will:</span> Each unit may perform
-              a Ranged Attack if able.
+            <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
+              <p><span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" /></p>
+              <p><span class="setup_suggestion">Fire at will:</span> Each unit may perform
+              a Ranged Attack if able.</p>
             </td>
+            <td></td>
           </tr>
         </table>',
 
@@ -8931,23 +10812,69 @@
       hero_goal: "If the hero with the information flees with the village before
       the end of turn 8; the heroes win the game.",
 
-      hero_setup: '<p>The game starts with the heroes’ turn.</p>
-        <p>The heroes start in the area
-        <img src="/assets/tokens/area1Token.png" class="scen_token" />.</p>
-        <br /><span class="setup_suggestion">Campaign heroes:</span>
-        <br />Follow Campaign Rules for level and starting equipment
-        <br /><a class="hero" href="/heroes/5">Amra the Lion</a>
-        <br /><a class="hero" href="/heroes/8">Zelata</a>
-        <br /><a class="hero" href="/heroes/19">Savage Bêlit</a>
-        <br /><a class="hero" href="/heroes/6">N’Gora</a>
-        <br /><br />
-        <table class="scen_table">
-          <tr>
-            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
-            <td>After setup, each hero moves 5 gems from their Reserve zone to
-            their Fatigue zone.</td>
-          </tr>
-        </table>',
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the heroes’ turn.<br /></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/area1Token.png" class="scen_token" /></td>
+          <td>The heroes start in the area marked
+          <img src="/assets/tokens/area1Token.png" class="scen_token" /></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><h4>4</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br />
+          Follow Campaign Rules for level and starting equipment</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AmraToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/5">Amra the Lion</a>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZelataToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/8">Zelata</a>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SavageBelitToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/19">Savage Bêlit</a>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/NGoraToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/6">N’Gora</a>
+          </td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each hero moves 5 gems from their Reserve zone to
+          their Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
 
       overlord_goal: "From turn 6 the Overlord can help the lieutenant with the
       information to flee. If they succeed, the Overlord immediately wins the game.
@@ -8962,23 +10889,26 @@
             <td>The Overlord starts with 12 gems in their Reserve zone and
             2 in their Fatigue zone, and places the recovery token showing a
             recovery value of “7” in the Book of Skelos.</td>
+            <td></td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td>
-              When an event tile is activated the Overlord resolves any one of the following events:<br />
-              <span class="setup_suggestion">Reinforcement:</span> 3 reinforcement points
-              <img src="/assets/stats/reinforcement.png" class="scen_token" /><br />
-              <span class="setup_suggestion">Tactical move:</span> The Overlord
+            <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
+              <p><span class="setup_suggestion">Reinforcement:</span> 3 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" /></p>
+              <p><span class="setup_suggestion">Tactical move:</span> The Overlord
               gains 4 movement points to be used immediately. They can only be
               shared however the Overlord wishes between all his lieutenants
               (<a class="tile" href="/tiles/3">Captain</a>,
               <a class="tile" href="/tiles/65">Kerim Shah</a> and
-              <a class="tile" href="/tiles/52">Ageera</a>).
+              <a class="tile" href="/tiles/52">Ageera</a>).</p>
             </td>
+            <td></td>
           </tr>
+        </table>
+        <table class="scen_table">
           <tr>
             <td>
               <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SkuthusToken.png" class="scen_setup"></td>
@@ -8986,12 +10916,16 @@
               <a class="tile" href="/tiles/52">Ageera</a> has
               <a class="spell" href="/spells/3">Energy Drain</a>.
             </td>
-          </tr>
-          <tr>
             <td></td>
+          </tr>
+        </table>
+        <table class="scen_table">
+          <tr>
+            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/GiantSpiderToken.png" class="scen_setup"></td>
             <td>If the <a class="tile" href="/tiles/79">Giant Spider</a> is still
             alive at the end of the scenario, check its name on the Overlord’s
             Campaign Log.</td>
+            <td></td>
           </tr>
         </table>',
 
@@ -9109,23 +11043,69 @@
       hero_goal: "If the heroes kill Skuthus before the end of turn 8, they stop
         the evil curse; the heroes win the game.",
 
-        hero_setup: '<p>The game starts with the heroes’ turn.</p>
-          <p>The heroes start in the area
-          <img src="/assets/tokens/area1Token.png" class="scen_token" />.</p>
-          <br /><span class="setup_suggestion">Campaign heroes:</span>
-          <br />Follow Campaign Rules for level and starting equipment
-          <br /><a class="hero" href="/heroes/5">Amra the Lion</a>
-          <br /><a class="hero" href="/heroes/8">Zelata</a>
-          <br /><a class="hero" href="/heroes/19">Savage Bêlit</a>
-          <br /><a class="hero" href="/heroes/6">N’Gora</a>
-          <br /><br />
-          <table class="scen_table">
-            <tr>
-              <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
-              <td>After setup, each hero moves 5 gems from their Reserve zone to
-              their Fatigue zone.</td>
-            </tr>
-          </table>',
+      hero_setup: '
+        <table class="scen_table">
+          <tr>
+            <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+            <td>The game starts with the heroes’ turn.<br /></td>
+            <td></td>
+          </tr>
+        </table>
+
+        <table class="scen_table">
+          <tr>
+            <td><img src="/assets/tokens/area1Token.png" class="scen_token" /></td>
+            <td>The heroes start in the area marked
+            <img src="/assets/tokens/area1Token.png" class="scen_token" /></td>
+            <td></td>
+          </tr>
+        </table>
+
+        <table class="scen_table">
+          <tr>
+            <td><h4>4</h4></td>
+            <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br />
+            Follow Campaign Rules for level and starting equipment</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AmraToken.png" class="scen_setup"></td>
+            <td>
+              <a class="hero" href="/heroes/5">Amra the Lion</a>
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZelataToken.png" class="scen_setup"></td>
+            <td>
+              <a class="hero" href="/heroes/8">Zelata</a>
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SavageBelitToken.png" class="scen_setup"></td>
+            <td>
+              <a class="hero" href="/heroes/19">Savage Bêlit</a>
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/NGoraToken.png" class="scen_setup"></td>
+            <td>
+              <a class="hero" href="/heroes/6">N’Gora</a>
+            </td>
+            <td></td>
+          </tr>
+        </table>
+
+        <table class="scen_table">
+          <tr>
+            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+            <td>After setup, each hero moves 5 gems from their Reserve zone to
+            their Fatigue zone.</td>
+            <td></td>
+          </tr>
+        </table>',
 
       overlord_goal: "If Skuthus is still alive at the end of turn 8; the
         Overlord wins.",
@@ -9137,30 +11117,37 @@
             <td>The Overlord starts with 11 gems in their Reserve zone and 3 in
               their Fatigue zone, and places the recovery token showing a recovery
               value of “7” in the Book of Skelos.</td>
+              <td></td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td>
-              When an event tile is activated the Overlord resolves any one of the following events:<br />
-              <span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
-              <img src="/assets/stats/reinforcement.png" class="scen_token" /> (see Special Rules).<br />
-              <span class="setup_suggestion">Appearance of the Dark Demon:</span> see Special Rules.
+            <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
+              <p><span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" /> (see Special Rules).</p>
+              <p><span class="setup_suggestion">Appearance of the Dark Demon:</span> see Special Rules.</p>
             </td>
+            <td></td>
           </tr>
+        </table>
+        <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SkuthusToken.png" class="scen_setup"></td>
             <td>
                 <a class="tile" href="/tiles/4">Skuthus</a> has
                 <a class="spell" href="/spells/12">Set’s Bite</a>.
             </td>
-          </tr>
-          <tr>
             <td></td>
+          </tr>
+        </table>
+        <table class="scen_table">
+          <tr>
+            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/DarkDemonToken.png" class="scen_setup"></td>
             <td>If the <a class="tile" href="/tiles/8">Dark Demon</a> has been summoned
             and is still alive at the end of the scenario, check its name on the Overlord’s
             Campaign Log.</td>
+            <td></td>
           </tr>
         </table>',
 
@@ -9197,8 +11184,8 @@
         <p><span class="special_title">Skuthus’ Life Force:</span>
           When Skuthus is attacked, his Armor Value is equal to the number of
           skeleton models on the board.</p>
-
         <p><span class="special_title">Appearance of the Dark Demon:</span>
+        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/DarkDemon.png" class="scen_event float_tile">
           Skuthus summons an evil creature that has been lurking around since well
           before the Atlantis civilization and the erection of this fort. The
           Overlord replaces the Event tile furthest on the left in the river with
@@ -9281,23 +11268,69 @@
       hero_goal: "If Constantius is killed, either by the Bone Golem or the heroes,
         before the end of turn 8; the heroes win the game.",
 
-      hero_setup: '<p>The game starts with the heroes’ turn.</p>
-        <p>The heroes start in the area
-        <img src="/assets/tokens/area1Token.png" class="scen_token" />.</p>
-        <br /><span class="setup_suggestion">Campaign heroes:</span>
-        <br />Follow Campaign Rules for level and starting equipment
-        <br /><a class="hero" href="/heroes/5">Amra the Lion</a>
-        <br /><a class="hero" href="/heroes/8">Zelata</a>
-        <br /><a class="hero" href="/heroes/19">Savage Bêlit</a>
-        <br /><a class="hero" href="/heroes/6">N’Gora</a>
-        <br /><br />
-        <table class="scen_table">
-          <tr>
-            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
-            <td>After setup, each hero moves 4 gems from their Reserve zone to
-            their Fatigue zone.</td>
-          </tr>
-        </table>',
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the heroes’ turn.<br /></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/area1Token.png" class="scen_token" /></td>
+          <td>The heroes start in the area marked
+          <img src="/assets/tokens/area1Token.png" class="scen_token" />.</td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><h4>4</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br />
+          Follow Campaign Rules for level and starting equipment</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AmraToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/5">Amra the Lion</a>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZelataToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/8">Zelata</a>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SavageBelitToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/19">Savage Bêlit</a>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/NGoraToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/6">N’Gora</a>
+          </td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each hero moves 4 gems from their Reserve zone to
+          their Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
 
       overlord_goal: "If Constantius is still alive at the end of turn 8; the
         Overlord wins.",
@@ -9309,26 +11342,30 @@
             <td>The Overlord starts with 9 gems in their Reserve zone and 3 in
               their Fatigue zone, and places the recovery token showing a recovery
               value of “7” in the Book of Skelos.</td>
+            <td></td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td>
-              When an event tile is activated the Overlord resolves any one of the following events:<br />
-              <span class="setup_suggestion">Reinforcement:</span> 3 reinforcement points
-              <img src="/assets/stats/reinforcement.png" class="scen_token" />.<br />
-              <span class="setup_suggestion">At your command:</span> The Overlord can
-              invert two tiles in the river.
+            <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
+              <p><span class="setup_suggestion">Reinforcement:</span> 3 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" />.</p>
+              <p><span class="setup_suggestion">At your command:</span> The Overlord can
+              invert two tiles in the river.</p>
             </td>
+            <td></td>
           </tr>
-        <tr>
-          <td></td>
-          <td>If the <a class="tile" href="/tiles/8">Bone Golum</a> is still alive
-          at the end of the scenario, DO NOT check its name on the Overlord’s
-          Campaign Log.</td>
-        </tr>
-      </table>',
+        </table>
+        <table class="scen_table">
+          <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BoneGolemToken.png" class="scen_setup"></td>
+            <td>If the <a class="tile" href="/tiles/8">Bone Golum</a> is still alive
+            at the end of the scenario, DO NOT check its name on the Overlord’s
+            Campaign Log.</td>
+            <td></td>
+          </tr>
+        </table>',
 
       tile1: 35,
       tile2: 33,
@@ -9374,6 +11411,7 @@
         activation by the Overlord as described above.</p>
 
         <p><span class="special_title">Bone Golem:</span>
+        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BoneGolem.png" class="scen_event float_tile">
         The <a class="tile" href="/tiles/76">Bone Golem</a> is not allied to any camp.
         The attacks of the Bone Golum cannot be improved in any way and no Benefit
         can be used for it. Killing the Bone Golum does not give any experience points
@@ -9449,23 +11487,69 @@
       hero_goal: "If before the end of turn 7, Zogar Sag has not succeeded in destroying
       the village, or he has been killed by the heroes; the heroes win the game.",
 
-      hero_setup: '<p>The game starts with the heroes’ turn.</p>
-        <p>The heroes start in the area
-        <img src="/assets/tokens/area1Token.png" class="scen_token" />.</p>
-        <br /><span class="setup_suggestion">Campaign heroes:</span>
-        <br />Follow Campaign Rules for level and starting equipment
-        <br /><a class="hero" href="/heroes/5">Amra the Lion</a>
-        <br /><a class="hero" href="/heroes/8">Zelata</a>
-        <br /><a class="hero" href="/heroes/19">Savage Bêlit</a>
-        <br /><a class="hero" href="/heroes/6">N’Gora</a>
-        <br /><br />
-        <table class="scen_table">
-          <tr>
-            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
-            <td>After setup, each hero moves 4 gems from their Reserve zone to
-            their Fatigue zone.</td>
-          </tr>
-        </table>',
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the heroes’ turn.<br /></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/area1Token.png" class="scen_token" /></td>
+          <td>The heroes start in the area marked
+          <img src="/assets/tokens/area1Token.png" class="scen_token" />.</td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><h4>4</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br />
+          Follow Campaign Rules for level and starting equipment</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AmraToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/5">Amra the Lion</a>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZelataToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/8">Zelata</a>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SavageBelitToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/19">Savage Bêlit</a>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/NGoraToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/6">N’Gora</a>
+          </td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each hero moves 4 gems from their Reserve zone to
+          their Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
 
       overlord_goal: "If Zogar Sag has succeeded in destroying the village before
       the end of turn 7; the Overlord wins.",
@@ -9477,23 +11561,27 @@
             <td>The Overlord starts with 10 gems in their Reserve zone and 2 in
             their Fatigue zone, and places the recovery token showing a recovery
             value of “7” in the Book of Skelos.</td>
+            <td></td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td>
-              When an event tile is activated the Overlord resolves the folowing event:<br />
-              <span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
-              <img src="/assets/stats/reinforcement.png" class="scen_token" /> (see Special Rules).<br />
+            <td><p>When an event tile is activated the Overlord resolves the folowing event:</p>
+              <p><span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" /> (see Special Rules).</p>
             </td>
+            <td></td>
           </tr>
+        </table>
+        <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZogarSagToken.png" class="scen_setup"></td>
             <td>
               <a class="tile" href="/tiles/6">Zogar Sag</a> has
               <a class="spell" href="/spells/26">Deceleration</a>.
             </td>
+            <td></td>
           </tr>
         </table>',
 
@@ -9599,23 +11687,69 @@
       hero_goal: "If the self-destruction is activated before the end of turn 5,
       and the surviving heroes flee the citadel; the heroes win the game.",
 
-      hero_setup: '<p>The game starts with the heroes’ turn.</p>
-        <p>The heroes start in the area
-        <img src="/assets/tokens/area1Token.png" class="scen_token" />.</p>
-        <br /><span class="setup_suggestion">Campaign heroes:</span>
-        <br />Follow Campaign Rules for level and starting equipment
-        <br /><a class="hero" href="/heroes/5">Amra the Lion</a>
-        <br /><a class="hero" href="/heroes/8">Zelata</a>
-        <br /><a class="hero" href="/heroes/19">Savage Bêlit</a>
-        <br /><a class="hero" href="/heroes/6">N’Gora</a>
-        <br /><br />
-        <table class="scen_table">
-          <tr>
-            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
-            <td>After setup, each hero moves 4 gems from their Reserve zone to
-            their Fatigue zone.</td>
-          </tr>
-        </table>',
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the heroes’ turn.<br /></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/area1Token.png" class="scen_token" /></td>
+          <td>The heroes start in the area marked
+          <img src="/assets/tokens/area1Token.png" class="scen_token" />.</td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><h4>4</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br />
+          Follow Campaign Rules for level and starting equipment</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AmraToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/5">Amra the Lion</a>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZelataToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/8">Zelata</a>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SavageBelitToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/19">Savage Bêlit</a>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/NGoraToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/6">N’Gora</a>
+          </td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each hero moves 4 gems from their Reserve zone to
+          their Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
 
       overlord_goal: "If the heroes have not activated the self-destruction before
       the end of turn 5, or the Overlord kills a hero after they have activated the
@@ -9628,24 +11762,28 @@
             <td>The Overlord starts with 10 gems in their Reserve zone and 2 in
             their Fatigue zone, and places the recovery token showing a recovery
             value of “7” in the Book of Skelos.</td>
+            <td></td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td>
-              When an event tile is activated the Overlord resolves the folowing event:<br />
-              <span class="setup_suggestion">Reinforcement:</span> 3 reinforcement points
-              <img src="/assets/stats/reinforcement.png" class="scen_token" />.<br />
-              <span class="setup_suggestion">Fire at will:</span> Each unit may
-              perform a Ranged Attack if able.<br />
+            <td><p>When an event tile is activated the Overlord resolves the folowing event:</p>
+              <p><span class="setup_suggestion">Reinforcement:</span> 3 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" />.</p>
+              <p><span class="setup_suggestion">Fire at will:</span> Each unit may
+              perform a Ranged Attack if able.</p>
             </td>
-          </tr>
-          <tr>
             <td></td>
+          </tr>
+        </table>
+        <table class="scen_table">
+          <tr>
+            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/GiantScorpionToken.png" class="scen_setup"></td>
             <td>If the <a class="tile" href="/tiles/78">Giant Scorpion</a> is still
             alive at the end of the scenario, check its name on the Overlord’s
             Campaign Log.</td>
+            <td></td>
           </tr>
         </table>',
 
@@ -9692,6 +11830,7 @@
         </p>
 
         <p><span class="special_title">Giant Scorpion:</span>
+        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/GiantScorpion.png" class="scen_event float_tile">
         The Giant Scorpion appears in the area marked
         <img src="/assets/tokens/area2Token.png" class="scen_token" /> from the
         moment when the first lever is activated. The Giant Scorpion Unit tile takes
@@ -9781,24 +11920,70 @@
       hero_goal: "If at least one hero flees the swamp with the sarcophagus before
       the end of turn 8; the heroes win the game.",
 
-      hero_setup: '<p>The game starts with the heroes’ turn.</p>
-        <p>The heroes start in the area
-        <img src="/assets/tokens/area2Token.png" class="scen_token" />. The heroes
-        start carrying the sarcophagus (see Special Rules “Carrying the sarcophagus”).</p>
-        <br /><span class="setup_suggestion">Campaign heroes:</span>
-        <br />Follow Campaign Rules for level and starting equipment
-        <br /><a class="hero" href="/heroes/5">Amra the Lion</a>
-        <br /><a class="hero" href="/heroes/8">Zelata</a>
-        <br /><a class="hero" href="/heroes/19">Savage Bêlit</a>
-        <br /><a class="hero" href="/heroes/6">N’Gora</a>
-        <br /><br />
-        <table class="scen_table">
-          <tr>
-            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
-            <td>After setup, each hero moves 4 gems from their Reserve zone to
-            their Fatigue zone.</td>
-          </tr>
-        </table>',
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the heroes’ turn.<br /></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/area2Token.png" class="scen_token" /></td>
+          <td>The heroes start in the area marked
+          <img src="/assets/tokens/area2Token.png" class="scen_token" />. The heroes
+          start carrying the sarcophagus (see Special Rules “Carrying the sarcophagus”).</td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><h4>4</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br />
+          Follow Campaign Rules for level and starting equipment</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AmraToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/5">Amra the Lion</a>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZelataToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/8">Zelata</a>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SavageBelitToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/19">Savage Bêlit</a>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/NGoraToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/6">N’Gora</a>
+          </td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each hero moves 4 gems from their Reserve zone to
+          their Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
 
       overlord_goal: "If the heroes have not succeeded in escaping the swamp with
       the sarcophagus at the end of turn 8; the Overlord wins.",
@@ -9810,25 +11995,29 @@
             <td>The Overlord starts with 9 gems in their Reserve zone and 3 in
             their Fatigue zone, and places the recovery token showing a recovery
             value of “7” in the Book of Skelos.</td>
+            <td></td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td>
-              When an event tile is activated the Overlord resolves any one of the following events:<br />
-              <span class="setup_suggestion">Reinforcement:</span> 3 reinforcement points
-              <img src="/assets/stats/reinforcement.png" class="scen_token" />.<br />
-              <span class="setup_suggestion">Fire at will:</span> Each unit may
-              perform a Ranged Attack if able.<br />
+            <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
+              <p><span class="setup_suggestion">Reinforcement:</span> 3 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" />.</p>
+              <p><span class="setup_suggestion">Fire at will:</span> Each unit may
+              perform a Ranged Attack if able.</p>
             </td>
+            <td></td>
           </tr>
+        </table>
+        <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/HyperboreanPrimitiveToken.png" class="scen_setup"></td>
             <td>
               <a class="tile" href="/tiles/56">Hyperborean Primitive</a> has
               <a class="spell" href="/spells/26">Deceleration</a>.
             </td>
+            <td></td>
           </tr>
         </table>',
 
@@ -9951,23 +12140,69 @@
 
       hero_goal: "If Akivasha is killed before the end of turn 7; the heroes win the game.",
 
-      hero_setup: '<p>The game starts with the heroes’ turn.</p>
-        <p>The heroes deploy freely in the areas marked
-        <img src="/assets/tokens/area3Token.png" class="scen_token" />.</p>
-        <br /><span class="setup_suggestion">Campaign heroes:</span>
-        <br />Follow Campaign Rules for level and starting equipment
-        <br /><a class="hero" href="/heroes/5">Amra the Lion</a>
-        <br /><a class="hero" href="/heroes/8">Zelata</a>
-        <br /><a class="hero" href="/heroes/19">Savage Bêlit</a>
-        <br /><a class="hero" href="/heroes/6">N’Gora</a>
-        <br /><br />
-        <table class="scen_table">
-          <tr>
-            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
-            <td>After setup, each hero moves 6 gems from their Reserve zone to
-            their Fatigue zone.</td>
-          </tr>
-        </table>',
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the heroes’ turn.<br /></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/area3Token.png" class="scen_token" /></td>
+          <td>The heroes deploy freely in the areas marked
+          <img src="/assets/tokens/area3Token.png" class="scen_token" /></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><h4>4</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br />
+          Follow Campaign Rules for level and starting equipment</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AmraToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/5">Amra the Lion</a>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZelataToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/8">Zelata</a>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SavageBelitToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/19">Savage Bêlit</a>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/NGoraToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/6">N’Gora</a>
+          </td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each hero moves 6 gems from their Reserve zone to
+          their Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
 
       overlord_goal: "If Akivasha is still alive the end of turn 7; the Overlord wins.",
 
@@ -9978,20 +12213,23 @@
             <td>The Overlord starts with 9 gems in their Reserve zone and 3 in
             their Fatigue zone, and places the recovery token showing a recovery
             value of “7” in the Book of Skelos.</td>
+            <td></td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td>
-              When an event tile is activated the Overlord resolves any one of the following events:<br />
-              <span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
-              <img src="/assets/stats/reinforcement.png" class="scen_token" />.<br />
-              <span class="setup_suggestion">Fire at will:</span> Each unit may
-              perform a Ranged Attack if able.<br />
-              <span class="setup_suggestion">Invocating the creature:</span> See Special Rules.<br />
+            <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
+              <p><span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" />.</p>
+              <p><span class="setup_suggestion">Fire at will:</span> Each unit may
+              perform a Ranged Attack if able.</p>
+              <p><span class="setup_suggestion">Invocating the creature:</span> See Special Rules.</p>
             </td>
+            <td></td>
           </tr>
+        </table>
+        <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AkivashaToken.png" class="scen_setup"></td>
             <td>
@@ -9999,12 +12237,16 @@
               <a class="spell" href="/spells/3">Energy Drain</a>
               <a class="spell" href="/spells/13">Set’s Halo</a>.
             </td>
-          </tr>
-          <tr>
             <td></td>
+          </tr>
+        </table>
+        <table class="scen_table">
+          <tr>
+            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/GrayManApeToken.png" class="scen_setup"></td>
             <td>If the <a class="tile" href="/tiles/80">Gray Man-Ape</a> is
             invocated and is still alive at the end of the scenario, check its
             name on the Overlord’s Campaign Log.</td>
+            <td></td>
           </tr>
         </table>',
 
@@ -10033,6 +12275,7 @@
         <a class="skill" href="/skills/32">Protected</a>.</p>
 
         <p><span class="special_title">Invocating the creature:</span>
+        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/GrayManApe.png" class="scen_event float_tile">
         The Overlord chooses a <a class="tile" href="/tiles/19">Bossonian Guards</a>
         or <a class="tile" href="/tiles/15">Archers</a> Unit tile from their river.
         All the models of that tile are sacrificed and removed from the game, this
@@ -10121,23 +12364,69 @@
       on their receptacles before the end of turn 8 to prevent the destruction of the
       mysterious chest; the heroes win the game.",
 
-      hero_setup: '<p>The game starts with the heroes’ turn.</p>
-        <p>The heroes deploy freely in the areas marked
-        <img src="/assets/tokens/area1Token.png" class="scen_token" />.</p>
-        <br /><span class="setup_suggestion">Campaign heroes:</span>
-        <br />Follow Campaign Rules for level and starting equipment
-        <br /><a class="hero" href="/heroes/5">Amra the Lion</a>
-        <br /><a class="hero" href="/heroes/8">Zelata</a>
-        <br /><a class="hero" href="/heroes/19">Savage Bêlit</a>
-        <br /><a class="hero" href="/heroes/6">N’Gora</a>
-        <br /><br />
-        <table class="scen_table">
-          <tr>
-            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
-            <td>After setup, each hero moves 4 gems from their Reserve zone to
-            their Fatigue zone.</td>
-          </tr>
-        </table>',
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the heroes’ turn.<br /></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/area1Token.png" class="scen_token" /></td>
+          <td>The heroes deploy freely in the areas marked
+          <img src="/assets/tokens/area1Token.png" class="scen_token" /></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><h4>4</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br />
+          Follow Campaign Rules for level and starting equipment</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AmraToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/5">Amra the Lion</a>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZelataToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/8">Zelata</a>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SavageBelitToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/19">Savage Bêlit</a>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/NGoraToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/6">N’Gora</a>
+          </td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each hero moves 4 gems from their Reserve zone to
+          their Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
 
       overlord_goal: "If the heroes have not prevented the destruction of the mysterious
       chest by the end of turn 8; the Overlord wins.",
@@ -10149,17 +12438,20 @@
             <td>The Overlord starts with 10 gems in their Reserve zone and 2 in
             their Fatigue zone, and places the recovery token showing a recovery
             value of “7” in the Book of Skelos.</td>
+            <td></td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td>
-              When an event tile is activated the Overlord resolves the folowing event:<br />
-              <span class="setup_suggestion">Reinforcement:</span> 3 reinforcement points
-              <img src="/assets/stats/reinforcement.png" class="scen_token" />.<br />
+            <td><p>When an event tile is activated the Overlord resolves the folowing event:</p>
+              <p><span class="setup_suggestion">Reinforcement:</span> 3 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" />.</p>
             </td>
+            <td></td>
           </tr>
+        </table>
+        <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/HyperboreanPrimitiveToken.png" class="scen_setup"></td>
             <td>
@@ -10167,12 +12459,16 @@
               <a class="spell" href="/spells/3">Energy Drain</a>
               <a class="spell" href="/spells/5">Kiss of Death</a>.
             </td>
-          </tr>
-          <tr>
             <td></td>
+          </tr>
+        </table>
+        <table class="scen_table">
+          <tr>
+            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/GrayManApeToken.png" class="scen_setup"></td>
             <td>If the <a class="tile" href="/tiles/80">Gray Man-Ape</a> is still
             alive at the end of the scenario, check its name on the Overlord’s Campaign
             Log.</td>
+            <td></td>
           </tr>
         </table>',
 
@@ -10291,23 +12587,69 @@
       hero_goal: "If the heroes have killed Khemsa and loaded the 3 trunks of
       supplies onto their ship before the end of turn 7; the heroes win the game.",
 
-      hero_setup: '<p>The game starts with the heroes’ turn.</p>
-        <p>The heroes deploy freely in the areas marked
-        <img src="/assets/tokens/area1Token.png" class="scen_token" />.</p>
-        <br /><span class="setup_suggestion">Campaign heroes:</span>
-        <br />Follow Campaign Rules for level and starting equipment
-        <br /><a class="hero" href="/heroes/5">Amra the Lion</a>
-        <br /><a class="hero" href="/heroes/8">Zelata</a>
-        <br /><a class="hero" href="/heroes/19">Savage Bêlit</a>
-        <br /><a class="hero" href="/heroes/6">N’Gora</a>
-        <br /><br />
-        <table class="scen_table">
-          <tr>
-            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
-            <td>After setup, each hero moves 4 gems from their Reserve zone to
-            their Fatigue zone.</td>
-          </tr>
-        </table>',
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the heroes’ turn.<br /></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/area1Token.png" class="scen_token" /></td>
+          <td>The heroes deploy freely in the areas marked
+          <img src="/assets/tokens/area1Token.png" class="scen_token" /></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><h4>4</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br />
+          Follow Campaign Rules for level and starting equipment</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AmraToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/5">Amra the Lion</a>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZelataToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/8">Zelata</a>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SavageBelitToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/19">Savage Bêlit</a>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/NGoraToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/6">N’Gora</a>
+          </td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each hero moves 4 gems from their Reserve zone to
+          their Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
 
       overlord_goal: "If by the end of turn 7, Khemsa is still alive, or the Overlord
       prevents the heroes from loading the 3 trunks of supplies onto their ship;
@@ -10320,21 +12662,24 @@
             <td>The Overlord starts with 9 gems in their Reserve zone and 3 in
             their Fatigue zone, and places the recovery token showing a recovery
             value of “7” in the Book of Skelos.</td>
+            <td></td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td>
-              When an event tile is activated the Overlord resolves any one of the following events:<br />
-              <span class="setup_suggestion">Reinforcement:</span> 3 reinforcement points
-              <img src="/assets/stats/reinforcement.png" class="scen_token" /> (see Special Rules).<br />
-              <span class="setup_suggestion">Tentacle Movement:</span> The Overlord can
+            <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
+              <p><span class="setup_suggestion">Reinforcement:</span> 3 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" /> (see Special Rules).</p>
+              <p><span class="setup_suggestion">Tentacle Movement:</span> The Overlord can
               remove up to two Tentacles models from the board and then places them on any
               water area on the board (provided all Tentacle restrictions for this scenario
-                are met).
+                are met).<p>
             </td>
+            <td></td>
           </tr>
+        <table>
+        <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/KhemsaToken.png" class="scen_setup"></td>
             <td>
@@ -10342,12 +12687,16 @@
               <a class="spell" href="/spells/57">Ymir’s Rage</a>
               <a class="spell" href="/spells/5">Kiss of Death</a>.
             </td>
-          </tr>
-          <tr>
             <td></td>
+          </tr>
+        </table>
+        <table class="scen_table">
+          <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/OuterDarkDemonToken.png" class="scen_setup"></td>
             <td>If the <a class="tile" href="/tiles/11">Outer Dark Demon</a> is still
             alive at the end of the scenario, check its name on the Overlord’s Campaign
             Log.</td>
+            <td></td>
           </tr>
         </table>',
 
@@ -10476,22 +12825,68 @@
       hero_goal: "If the heroes kill Thaug before the end of turn 7; the heroes win the game.",
 
       hero_setup: '
-        <p>The heroes deploy freely in the areas marked
-        <img src="/assets/tokens/area1Token.png" class="scen_token" />.</p>
-        <br /><span class="setup_suggestion">Campaign heroes:</span>
-        <br />Follow Campaign Rules for level and starting equipment
-        <br /><a class="hero" href="/heroes/5">Amra the Lion</a>
-        <br /><a class="hero" href="/heroes/8">Zelata</a>
-        <br /><a class="hero" href="/heroes/19">Savage Bêlit</a>
-        <br /><a class="hero" href="/heroes/6">N’Gora</a>
-        <br /><br />
-        <table class="scen_table">
-          <tr>
-            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
-            <td>After setup, each hero moves 4 gems from their Reserve zone to
-            their Fatigue zone.</td>
-          </tr>
-        </table>',
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the heroes’ turn.<br /></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/area1Token.png" class="scen_token" /></td>
+          <td>The heroes deploy freely in the areas marked
+          <img src="/assets/tokens/area1Token.png" class="scen_token" /></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><h4>4</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br />
+          Follow Campaign Rules for level and starting equipment</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AmraToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/5">Amra the Lion</a>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZelataToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/8">Zelata</a>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SavageBelitToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/19">Savage Bêlit</a>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/NGoraToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/6">N’Gora</a>
+          </td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each hero moves 4 gems from their Reserve zone to
+          their Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
 
       overlord_goal: "If Thaug is still alive by the end of turn 7; the Overlord wins the game.",
 
@@ -10502,21 +12897,24 @@
             <td>The Overlord starts with 12 gems in their Reserve zone and 0 in
             their Fatigue zone, and places the recovery token showing a recovery
             value of “7” in the Book of Skelos.</td>
+            <td></td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td>
-              When an event tile is activated the Overlord resolves any one of the following events:<br />
-              <span class="setup_suggestion">Reinforcement:</span> 3 reinforcement points
-              <img src="/assets/stats/reinforcement.png" class="scen_token" /> (see Special Rules).<br />
-              <span class="setup_suggestion">Tentacle Movement:</span> The Overlord can
+            <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
+              <p><span class="setup_suggestion">Reinforcement:</span> 3 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" /> (see Special Rules).</p>
+              <p><span class="setup_suggestion">Tentacle Movement:</span> The Overlord can
               remove up to two Tentacles models from the board and then places them on any
               water area on the board (provided all Tentacle restrictions for this scenario
-                are met).
+                are met).</p>
             </td>
+            <td></td>
           </tr>
+        </table>
+        <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/KhemsaToken.png" class="scen_setup"></td>
             <td>
@@ -10524,6 +12922,7 @@
               <a class="spell" href="/spells/43">Magic Block</a>
               <a class="spell" href="/spells/5">Kiss of Death</a>.
             </td>
+            <td></td>
           </tr>
         </table>',
 
@@ -10666,22 +13065,68 @@
       hero_goal: "If the heroes kill Thaug before the end of turn 7; the heroes win the game.",
 
       hero_setup: '
-        <p>The heroes deploy freely in the areas marked
-        <img src="/assets/tokens/area1Token.png" class="scen_token" />.</p>
-        <br /><span class="setup_suggestion">Campaign heroes:</span>
-        <br />Follow Campaign Rules for level and starting equipment
-        <br /><a class="hero" href="/heroes/5">Amra the Lion</a>
-        <br /><a class="hero" href="/heroes/8">Zelata</a>
-        <br /><a class="hero" href="/heroes/19">Savage Bêlit</a>
-        <br /><a class="hero" href="/heroes/6">N’Gora</a>
-        <br /><br />
-        <table class="scen_table">
-          <tr>
-            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
-            <td>After setup, each hero moves 4 gems from their Reserve zone to
-            their Fatigue zone.</td>
-          </tr>
-        </table>',
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the heroes’ turn.<br /></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/area1Token.png" class="scen_token" /></td>
+          <td>The heroes deploy freely in the areas marked
+          <img src="/assets/tokens/area1Token.png" class="scen_token" /></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><h4>4</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br />
+          Follow Campaign Rules for level and starting equipment</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AmraToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/5">Amra the Lion</a>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZelataToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/8">Zelata</a>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SavageBelitToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/19">Savage Bêlit</a>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/NGoraToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/6">N’Gora</a>
+          </td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each hero moves 4 gems from their Reserve zone to
+          their Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
 
       overlord_goal: "If Thaug is still alive by the end of turn 7; the Overlord wins the game.",
 
@@ -10692,21 +13137,24 @@
             <td>The Overlord starts with 12 gems in their Reserve zone and 0 in
             their Fatigue zone, and places the recovery token showing a recovery
             value of “7” in the Book of Skelos.</td>
+            <td></td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td>
-              When an event tile is activated the Overlord resolves any one of the following events:<br />
-              <span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
-              <img src="/assets/stats/reinforcement.png" class="scen_token" /> (see Special Rules).<br />
-              <span class="setup_suggestion">Tentacle Movement:</span> The Overlord can
+            <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
+              <p><span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" /> (see Special Rules).</p>
+              <p><span class="setup_suggestion">Tentacle Movement:</span> The Overlord can
               remove up to two Tentacles models from the board and then places them on any
               water area on the board (provided all Tentacle restrictions for this scenario
-                are met).
+                are met).</p>
             </td>
+            <td></td>
           </tr>
+        </table>
+        <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/KhemsaToken.png" class="scen_setup"></td>
             <td>
@@ -10714,6 +13162,7 @@
               <a class="spell" href="/spells/55">Withering</a>
               <a class="spell" href="/spells/5">Kiss of Death</a>.
             </td>
+            <td></td>
           </tr>
         </table>',
 
@@ -10842,23 +13291,69 @@
       hero_goal: "If a hero flees the swamp with the Yuetshi Knife before the
       end of turn 7; the heroes win the game.",
 
-      hero_setup: '<p>The game starts with the heroes’ turn.</p>
-        <p>The heroes deploy freely in the areas marked
-        <img src="/assets/tokens/area1Token.png" class="scen_token" />.</p>
-        <br /><span class="setup_suggestion">Campaign heroes:</span>
-        <br />Follow Campaign Rules for level and starting equipment
-        <br /><a class="hero" href="/heroes/5">Amra the Lion</a>
-        <br /><a class="hero" href="/heroes/8">Zelata</a>
-        <br /><a class="hero" href="/heroes/19">Savage Bêlit</a>
-        <br /><a class="hero" href="/heroes/6">N’Gora</a>
-        <br /><br />
-        <table class="scen_table">
-          <tr>
-            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
-            <td>After setup, each hero moves 4 gems from their Reserve zone to
-            their Fatigue zone.</td>
-          </tr>
-        </table>',
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the heroes’ turn.<br /></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/area1Token.png" class="scen_token" /></td>
+          <td>The heroes deploy freely in the areas marked
+          <img src="/assets/tokens/area1Token.png" class="scen_token" /></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><h4>4</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br />
+          Follow Campaign Rules for level and starting equipment</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AmraToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/5">Amra the Lion</a>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZelataToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/8">Zelata</a>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SavageBelitToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/19">Savage Bêlit</a>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/NGoraToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/6">N’Gora</a>
+          </td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each hero moves 4 gems from their Reserve zone to
+          their Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
 
       overlord_goal: "If the Overlord prevents the heroes from fleeing the swamp
       with the Yuetshi Knife by the end of turn 7; the Overlord wins.",
@@ -10870,18 +13365,21 @@
             <td>The Overlord starts with 8 gems in their Reserve zone and 4 in
             their Fatigue zone, and places the recovery token showing a recovery
             value of “7” in the Book of Skelos.</td>
+            <td></td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td>
-              When an event tile is activated the Overlord resolves any one of the following events:<br />
-              <span class="setup_suggestion">Reinforcement:</span> 5 reinforcement points
-              <img src="/assets/stats/reinforcement.png" class="scen_token" />.<br />
-              <span class="setup_suggestion">Fire at will:</span> Each unit may perform a Ranged Attack if able.
+            <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
+              <p><span class="setup_suggestion">Reinforcement:</span> 5 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" />.</p>
+              <p><span class="setup_suggestion">Fire at will:</span> Each unit may perform a Ranged Attack if able.</p>
             </td>
+            <td></td>
           </tr>
+        </table>
+        <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/NatohkToken.png" class="scen_setup"></td>
             <td>
@@ -10889,12 +13387,16 @@
               <a class="spell" href="/spells/12">Set’s Bite</a>
               <a class="spell" href="/spells/5">Kiss of Death</a>.
             </td>
-          </tr>
-          <tr>
             <td></td>
+          </tr>
+        </table>
+        <table class="scen_table">
+          <tr>
+            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SwampDemonToken.png" class="scen_setup"></td>
             <td>If the <a class="tile" href="/tiles/81">Swamp Demon</a> is still
             alive at the end of the scenario, check its name on the Overlord’s Campaign
             Log.</td>
+            <td></td>
           </tr>
         </table>',
 
@@ -11027,46 +13529,94 @@
       before the end of turn 7; the heroes win the game.",
 
       hero_setup: '
-        <p>The heroes deploy freely in the areas marked
-        <img src="/assets/tokens/area1Token.png" class="scen_token" />.</p>
-        <br /><span class="setup_suggestion">Campaign heroes:</span>
-        <br />Follow Campaign Rules for level and starting equipment
-        <br /><a class="hero" href="/heroes/5">Amra the Lion</a>
-        <br /><a class="hero" href="/heroes/8">Zelata</a>
-        <br /><a class="hero" href="/heroes/19">Savage Bêlit</a>
-        <br /><a class="hero" href="/heroes/6">N’Gora</a>
-        <br /><br />
-        <table class="scen_table">
-          <tr>
-            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
-            <td>After setup, each hero moves 4 gems from their Reserve zone to
-            their Fatigue zone.</td>
-          </tr>
-        </table>',
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/area1Token.png" class="scen_token" /></td>
+          <td>The heroes start in the area marked
+          <img src="/assets/tokens/area1Token.png" class="scen_token" /></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><h4>4</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br />
+          Follow Campaign Rules for level and starting equipment</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AmraToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/5">Amra the Lion</a>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZelataToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/8">Zelata</a>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SavageBelitToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/19">Savage Bêlit</a>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/NGoraToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/6">N’Gora</a>
+          </td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each hero moves 4 gems from their Reserve zone to
+          their Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
 
       overlord_goal: "If the Overlord kills the fisherman or the fisherman is still
       in the village by the end of turn 7; the Overlord wins.",
 
-      overlord_setup: '<p>The game starts with the Overlord’s turn.</p>
+      overlord_setup: '
+        <table class="scen_table">
+          <tr>
+            <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+            <td>The game starts with the Overlord’s turn.<br /></td>
+            <td></td>
+          </tr>
+        </table>
         <table class="scen_table">
           <tr>
             <td><img src="/assets/tokens/redGem.png" class="scen_token" /></td>
             <td>The Overlord starts with 11 gems in their Reserve zone and 2 in
             their Fatigue zone, and places the recovery token showing a recovery
             value of “7” in the Book of Skelos.</td>
+            <td></td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td>
-              When an event tile is activated the Overlord resolves any one of the following events:<br />
-              <span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
-              <img src="/assets/stats/reinforcement.png" class="scen_token" />.<br />
-              <span class="setup_suggestion">Wild Charge:</span> The Overlord adds 1 to the attack power
-              against the barricades of the next Unit tile activated this turn.
+            <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
+              <p><span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" />.</p>
+              <p><span class="setup_suggestion">Wild Charge:</span> The Overlord adds 1 to the attack power
+              against the barricades of the next Unit tile activated this turn.</p>
             </td>
+            <td></td>
           </tr>
+        </table>
+        <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZogarSagToken.png" class="scen_setup"></td>
             <td>
@@ -11074,12 +13624,16 @@
               <a class="spell" href="/spells/43">Magic Block</a>
               <a class="spell" href="/spells/47">Return of the Brave</a>.
             </td>
-          </tr>
-          <tr>
             <td></td>
+          </tr>
+        </table>
+        <table class="scen_table">
+          <tr>
+            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ForestDemonToken.png" class="scen_setup"></td>
             <td>If the <a class="tile" href="/tiles/77">Forest Demon</a> is still
             alive at the end of the scenario, check its name on the Overlord’s Campaign
             Log.</td>
+            <td></td>
           </tr>
         </table>',
 
@@ -11162,8 +13716,8 @@
       spell_ids: [43, 47],
       item_ids: [] },
 
-    # 16 The Spellbook of the Gary Man-Ape
-    { name: "The Spellbook of the Gary Man-Ape",
+    # 16 The Spellbook of the Gray Man-Ape
+    { name: "The Spellbook of the Gray Man-Ape",
       description: "<p>Back in civilization, in the filthy lanes of the Khorusun
       slums, Conan thinks he can use his reputation in order to quickly find a ship
       and crew among the crooks who squander their booty in the sordid eating-houses
@@ -11185,23 +13739,69 @@
 
       hero_goal: "If a hero flees the inn with the spellbook; the heroes win the game.",
 
-      hero_setup: '<p>The game starts with the heroes’ turn.</p>
-        <p>The heroes start in the areas marked
-        <img src="/assets/tokens/area1Token.png" class="scen_token" />.</p>
-        <br /><span class="setup_suggestion">Campaign heroes:</span>
-        <br />Follow Campaign Rules for level and starting equipment
-        <br /><a class="hero" href="/heroes/5">Amra the Lion</a>
-        <br /><a class="hero" href="/heroes/8">Zelata</a>
-        <br /><a class="hero" href="/heroes/19">Savage Bêlit</a>
-        <br /><a class="hero" href="/heroes/6">N’Gora</a>
-        <br /><br />
-        <table class="scen_table">
-          <tr>
-            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
-            <td>After setup, each hero moves 4 gems from their Reserve zone to
-            their Fatigue zone.</td>
-          </tr>
-        </table>',
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the heroes’ turn.<br /></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/area1Token.png" class="scen_token" /></td>
+          <td>The heroes start in the area marked
+          <img src="/assets/tokens/area1Token.png" class="scen_token" /></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><h4>4</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br />
+          Follow Campaign Rules for level and starting equipment</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AmraToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/5">Amra the Lion</a>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZelataToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/8">Zelata</a>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SavageBelitToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/19">Savage Bêlit</a>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/NGoraToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/6">N’Gora</a>
+          </td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each hero moves 4 gems from their Reserve zone to
+          their Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
 
       overlord_goal: "If an Overlord model flees the inn with the spellboook; the Overlord wins.",
 
@@ -11212,22 +13812,26 @@
             <td>The Overlord starts with 11 gems in their Reserve zone and 2 in
             their Fatigue zone, and places the recovery token showing a recovery
             value of “7” in the Book of Skelos.</td>
+            <td></td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td>
-              When an event tile is activated the Overlord resolves any one of the following events:<br />
-              <span class="setup_suggestion">Reinforcement:</span> 3 reinforcement points
-              <img src="/assets/stats/reinforcement.png" class="scen_token" />.<br />
+            <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
+              <p><span class="setup_suggestion">Reinforcement:</span> 3 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" />.</p>
             </td>
-          </tr>
-          <tr>
             <td></td>
+          </tr>
+        </table>
+        <table class="scen_table">
+          <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ThakToken.png" class="scen_setup"></td>
             <td>If the <a class="tile" href="/tiles/12">Thak</a> is still alive
             at the end of the scenario, check its name on the Overlord’s Campaign
             Log.</td>
+            <td></td>
           </tr>
         </table>',
 
@@ -11361,23 +13965,69 @@
       hero_goal: "If a hero flees the citadel with the 3 cursed artifacts before
       the end of turn 7; the heroes win the game.",
 
-      hero_setup: '<p>The game starts with the heroes’ turn.</p>
-        <p>The heroes start in the area marked
-        <img src="/assets/tokens/area1Token.png" class="scen_token" />.</p>
-        <br /><span class="setup_suggestion">Campaign heroes:</span>
-        <br />Follow Campaign Rules for level and starting equipment
-        <br /><a class="hero" href="/heroes/5">Amra the Lion</a>
-        <br /><a class="hero" href="/heroes/8">Zelata</a>
-        <br /><a class="hero" href="/heroes/19">Savage Bêlit</a>
-        <br /><a class="hero" href="/heroes/6">N’Gora</a>
-        <br /><br />
-        <table class="scen_table">
-          <tr>
-            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
-            <td>After setup, each hero moves 4 gems from their Reserve zone to
-            their Fatigue zone.</td>
-          </tr>
-        </table>',
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the heroes’ turn.<br /></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/area1Token.png" class="scen_token" /></td>
+          <td>The heroes start in the area marked
+          <img src="/assets/tokens/area1Token.png" class="scen_token" /></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><h4>4</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br />
+          Follow Campaign Rules for level and starting equipment</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AmraToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/5">Amra the Lion</a>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZelataToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/8">Zelata</a>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SavageBelitToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/19">Savage Bêlit</a>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/NGoraToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/6">N’Gora</a>
+          </td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each hero moves 4 gems from their Reserve zone to
+          their Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
 
       overlord_goal: "If heroes have not succeeded in fleeing with the 3 cursed
       artifacts at the end of turn 7; the Overlord wins.",
@@ -11389,29 +14039,36 @@
             <td>The Overlord starts with 9 gems in their Reserve zone and 3 in
             their Fatigue zone, and places the recovery token showing a recovery
             value of “7” in the Book of Skelos.</td>
+            <td></td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td>
-              When an event tile is activated the Overlord resolves any one of the following events:<br />
-              <span class="setup_suggestion">Reinforcement:</span> 3 reinforcement points
-              <img src="/assets/stats/reinforcement.png" class="scen_token" />.<br />
+            <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
+              <p><span class="setup_suggestion">Reinforcement:</span> 3 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" />.</p>
             </td>
+            <td></td>
           </tr>
+        </table>
+        <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/WarlockToken.png" class="scen_setup"></td>
             <td>
               <a class="tile" href="/tiles/59">Warlock</a> has
               <a class="spell" href="/spells/40">Lethal Cloud</a>.
             </td>
-          </tr>
-          <tr>
             <td></td>
+          </tr>
+        </table>
+        <table class="scen_table">
+          <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/GiantSnakeToken.png" class="scen_setup"></td>
             <td>If the <a class="tile" href="/tiles/9">Giant Snake</a> is still alive
             at the end of the scenario, check its name on the Overlord’s Campaign
             Log.</td>
+            <td></td>
           </tr>
         </table>',
 
@@ -11521,23 +14178,69 @@
       hero_goal: "If Khosatral Khel is killed before the end of turn 7; the
       heroes win the game.",
 
-      hero_setup: '<p>The game starts with the heroes’ turn.</p>
-        <p>The heroes start in the area marked
-        <img src="/assets/tokens/area1Token.png" class="scen_token" />.</p>
-        <br /><span class="setup_suggestion">Campaign heroes:</span>
-        <br />Follow Campaign Rules for level and starting equipment
-        <br /><a class="hero" href="/heroes/5">Amra the Lion</a>
-        <br /><a class="hero" href="/heroes/8">Zelata</a>
-        <br /><a class="hero" href="/heroes/19">Savage Bêlit</a>
-        <br /><a class="hero" href="/heroes/6">N’Gora</a>
-        <br /><br />
-        <table class="scen_table">
-          <tr>
-            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
-            <td>After setup, each hero moves 3 gems from their Reserve zone to
-            their Fatigue zone.</td>
-          </tr>
-        </table>',
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the heroes’ turn.<br /></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/area1Token.png" class="scen_token" /></td>
+          <td>The heroes start in the area marked
+          <img src="/assets/tokens/area1Token.png" class="scen_token" /></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><h4>4</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br />
+          Follow Campaign Rules for level and starting equipment</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AmraToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/5">Amra the Lion</a>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZelataToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/8">Zelata</a>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SavageBelitToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/19">Savage Bêlit</a>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/NGoraToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/6">N’Gora</a>
+          </td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each hero moves 3 gems from their Reserve zone to
+          their Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
 
       overlord_goal: "If Khosatral Khel is still alive at the end of turn 7; the
       Overlord wins.",
@@ -11549,16 +14252,17 @@
             <td>The Overlord starts with 9 gems in their Reserve zone and 3 in
             their Fatigue zone, and places the recovery token showing a recovery
             value of “5” in the Book of Skelos.</td>
+            <td></td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td>
-              When an event tile is activated the Overlord resolves any one of the following events:<br />
-              <span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
-              <img src="/assets/stats/reinforcement.png" class="scen_token" /> (see Special Rules).<br />
+            <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
+              <p><span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" /> (see Special Rules).</p>
             </td>
+            <td></td>
           </tr>
         </table>',
 
@@ -11662,23 +14366,69 @@
       hero_goal: "If Khosatral Khel is killed, or if a hero flees the fortress with
       the princess before the end of turn 7; the heroes win the game.",
 
-      hero_setup: '<p>The game starts with the heroes’ turn.</p>
-        <p>The heroes start in the area marked
-        <img src="/assets/tokens/area1Token.png" class="scen_token" />.</p>
-        <br /><span class="setup_suggestion">Campaign heroes:</span>
-        <br />Follow Campaign Rules for level and starting equipment
-        <br /><a class="hero" href="/heroes/5">Amra the Lion</a>
-        <br /><a class="hero" href="/heroes/8">Zelata</a>
-        <br /><a class="hero" href="/heroes/19">Savage Bêlit</a>
-        <br /><a class="hero" href="/heroes/6">N’Gora</a>
-        <br /><br />
-        <table class="scen_table">
-          <tr>
-            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
-            <td>After setup, each hero moves 4 gems from their Reserve zone to
-            their Fatigue zone.</td>
-          </tr>
-        </table>',
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the heroes’ turn.<br /></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/area1Token.png" class="scen_token" /></td>
+          <td>The heroes start in the area marked
+          <img src="/assets/tokens/area1Token.png" class="scen_token" /></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><h4>4</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br />
+          Follow Campaign Rules for level and starting equipment</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AmraToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/5">Amra the Lion</a>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZelataToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/8">Zelata</a>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SavageBelitToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/19">Savage Bêlit</a>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/NGoraToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/6">N’Gora</a>
+          </td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each hero moves 4 gems from their Reserve zone to
+          their Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
 
       overlord_goal: "If Khosatral Khel is still alive and the heroes have not
       fled with the princess at the end of turn 7; the Overlord wins.",
@@ -11690,16 +14440,17 @@
             <td>The Overlord starts with 8 gems in their Reserve zone and 4 in
             their Fatigue zone, and places the recovery token showing a recovery
             value of “7” in the Book of Skelos.</td>
+            <td></td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
             <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td>
-              When an event tile is activated the Overlord resolves any one of the following events:<br />
-              <span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
-              <img src="/assets/stats/reinforcement.png" class="scen_token" /> (see Special Rules).<br />
+            <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
+              <p><span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" /> (see Special Rules).</p>
             </td>
+            <td></td>
           </tr>
         </table>',
 
@@ -11806,7 +14557,6 @@
       spell_ids: [],
       item_ids: [6, 15] },
 
-    #  <p>“”</p>
     # return here
 
   ])

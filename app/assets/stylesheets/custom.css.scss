@@ -312,6 +312,18 @@ h2.spell {
   color: white;
 }
 
+.panel-item-show > .panel-heading {
+  background-color: #fbf3d0;
+  color: 	#8a6d3b;
+}
+
+.panel-item-show {
+  border-color:  #fbf3d0;
+  color: white;
+}
+
+
+
 .btn-item {
   background-color: #fcf8e3;
   color: 	#8a6d3b;
@@ -648,18 +660,62 @@ h2.product {
   border-spacing: 0;
   border-collapse: collapse;
   border: none;
+    margin-top: 10px;
 }
 
 .scen_table td {
   text-align: left;
   border:none;
   padding:5px;
+  background-color: #d9d9d9;
+  width: 400px;
+}
+
+.scen_table tr > td:first-child {
+  background-color: #bfbfbf;
+  text-align: center;
+  width: 70px;
+}
+
+.scen_table tr > td:last-child {
+  text-align: left;
+  width: 70px;
+}
+
+.scen_table tr > td > h4 {
+  margin-top: -3px;
+  margin-bottom: -3px;
+}
+
+.scen_table tr > td > h3 {
+  margin-top: -3px;
+  margin-bottom: -3px;
 }
 
 .sm_cards img {
   width: 30px;
   height: auto;
   border-radius: 5px;
+}
+
+.sm_cards td {
+  text-align: left;
+  border:none;
+  padding:5px;
+  background-color:  #e6e6e6;
+  width: 600px;
+}
+
+.sm_cards tr > td:first-child {
+  text-align: center;
+  background-color:  #e6e6e6;
+  width: 70px;
+}
+
+.sm_cards tr > td:last-child {
+  text-align: center;
+  background-color:  #e6e6e6;
+  width: 70px;
 }
 
 .float_tile {

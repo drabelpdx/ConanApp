@@ -56,7 +56,7 @@ class TilesController < ApplicationController
       params.require(:tile).permit(:name, :description, :role, :move, :armor,
                                    :melee, :ranged, :origin, :count,
                                    :figure_image, :tile_image, :token_image,
-                                   :cost, bone_ids: [], skill_ids: [], story_ids: [])
+                                   :cost, bone_ids: [], skill_ids: [])
     end
 
     def set_bones

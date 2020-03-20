@@ -2,7 +2,6 @@ class HeroesController < ApplicationController
   before_action :set_hero, only: [:edit, :update, :show, :destroy]
   before_action :set_heroes, only: [:index]
   before_action :set_skills, only: [:new, :create, :edit, :update, :show]
-  before_action :set_stories, only: [:new, :create, :edit, :update, :show]
   before_action :require_user, except: [:index, :show]
   before_action :require_admin, except: [:index, :show]
 
@@ -56,7 +55,7 @@ class HeroesController < ApplicationController
                                    :ranged_dice, :ranged_exertion, :movement_free,
                                    :movement_exertion, :manipulation_dice,
                                    :manipulation_exersion, :defense_dice,
-                                   :origin, skill_ids: [], story_ids: [])
+                                   :origin, skill_ids: [])
     end
 
     def set_skills
@@ -64,11 +63,6 @@ class HeroesController < ApplicationController
       @movement = Skill.where(skill_type: 'Movement')
       @miscellaneous = Skill.where(skill_type: 'Miscellaneous')
       @defense = Skill.where(skill_type: 'Defense and Magic')
-    end
-
-    def set_stories
-      @weird = Story.where(origin: 'Weird Tales')
-      @other = Story.where(origin: 'Other')
     end
 
     def set_heroes

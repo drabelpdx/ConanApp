@@ -12,6 +12,7 @@
     { name: 'The Pict Village', description: "The Pict Village", flip_side: 'The Inn',
       origin: 'Core Game',
       image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/The+Pict+Village.jpg',
+      los: 'https://the-overlord.com/index.php?/conan/lignes-de-vues/ligne-de-vue-village/',
       special_rules: '
         <ol>
           <li>The hut flaps at the entrance of each hut block line of sight. A
@@ -31,12 +32,13 @@
           <a href="/skills/19">Climb</a> can move across boulders
           <img src="/assets/tokens/rocksToken.png" class="scen_token" />
           as though they were a border by spending 2 extra movement points.</li>
-        </ol>'
+        </ol>',
      },
 
    { name: 'The Inn', description: "Inn", flip_side: 'The Pict Village',
      origin: 'Core Game',
      image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/The+Inn.jpg',
+     los: 'https://the-overlord.com/index.php?/conan/lignes-de-vues/ligne-de-vue-taverne/',
      special_rules: '
        <ol>
          <li>Apply this rule only if specified in the special rules section.<br />
@@ -76,6 +78,7 @@
     { name: 'The Ships', description: " The Ships", flip_side: 'The Abandoned Fort',
       origin: 'Core Game',
       image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/The+Ships.jpg',
+      los: 'https://the-overlord.com/index.php?/conan/lignes-de-vues/ligne-de-vue-bateau/',
       special_rules: '
         <ol>
           <li>A character coming out of the hold must move in the area in front
@@ -94,6 +97,7 @@
     { name: 'The Abandoned Fort', description: "The Abandoned Fort", flip_side: 'The Ships',
       origin: 'Core Game',
       image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/The+Abandoned+Fort.jpg',
+      los: 'https://the-overlord.com/index.php?/conan/lignes-de-vues/ligne-de-vue-forteresse/',
       special_rules: '
       <ol>
         <li>Only the areas directly adjacent to the towers areas have line of
@@ -121,6 +125,7 @@
     { name: 'The Citadel', description: "The Citadel", flip_side: 'The Swamp',
       origin: 'Stretch Goal',
       image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/The+Citadel.jpg',
+      los: 'https://the-overlord.com/index.php?/conan/lignes-de-vues/ligne-de-vue-citadelle/',
       special_rules: '
       <ol>
         <li><strong>Leaping From/Climbing a Balcony:</strong> A character can
@@ -140,6 +145,7 @@
     { name: 'The Swamp', description: "The Swamp", flip_side: 'The Citadel',
       origin: 'Stretch Goal',
       image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/The+Swamp.jpg',
+      los: 'https://the-overlord.com/index.php?/conan/lignes-de-vues/ligne-de-vue-marais/',
       special_rules: '
         <ol>
           <li><strong>Water areas:</strong> A character must spend 1 extra
@@ -158,43 +164,59 @@
     # Nordheim
     { name: 'The Frozen Battlefield', description: "The Frozen Battleground", flip_side: 'The Tundra Forest',
       origin: 'Nordheim Expansion',
-      image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/The+Frozen+Battlefield.jpg' },
+      image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/The+Frozen+Battlefield.jpg',
+      los: 'https://the-overlord.com/index.php?/conan/lignes-de-vues/ligne-de-vue-tertre/'
+    },
 
     { name: 'The Tundra Forest', description: "The Tundra Forest", flip_side: 'The Frozen Battlefield',
       origin: 'Nordheim Expansion',
-      image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/The+Tundra+Forest.jpg' },
+      image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/The+Tundra+Forest.jpg',
+      los: 'https://the-overlord.com/index.php?/conan/lignes-de-vues/ligne-de-vue-foret/'
+    },
 
     # Stygia
     { name: 'The Stygian Temple', description: "Catacombs", flip_side: 'The Luxor Port',
       origin: 'Stygia Expansion',
-      image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/Stygia_1.jpg' },
+      image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/Stygia_1.jpg',
+      los: 'https://the-overlord.com/index.php?/conan/lignes-de-vues/ligne-de-vue-grotte/'
+    },
 
     { name: 'The Luxor Port', description: "Water Front", flip_side: 'The Stygian Temple',
       origin: 'Stygia Expansion',
-      image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/Stygia_2.jpg' },
+      image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/Stygia_2.jpg',
+      los: 'https://the-overlord.com/index.php?/conan/lignes-de-vues/ligne-de-vue-port/'
+    },
 
     # Khitai
     { name: 'The Tower 1', description: "Tower Levels 1, 2, and 3", flip_side:
       'The Tower 2', origin: 'Khitai Expansion',
-      image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/Khitai_1.jpg' },
+      image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/Khitai_1.jpg',
+      los: 'https://the-overlord.com/index.php?/conan/lignes-de-vues/ligne-de-vue-tour/'
+    },
 
     { name: 'The Tower 2', description: "Tower Levels 0 and 4", flip_side:
       'The Tower 1', origin: 'Khitai Expansion',
-      image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/Khitai_3.jpg' },
+      image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/Khitai_3.jpg',
+      los: 'https://the-overlord.com/index.php?/conan/lignes-de-vues/ligne-de-vue-tour/'
+    },
 
     { name: 'The Khitan Village', description: "Khitai Village", flip_side:
       'none', origin: 'Khitai Expansion',
-      image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/Khitai_2.jpg' },
+      image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/Khitai_2.jpg',
+      los: 'https://the-overlord.com/index.php?/conan/lignes-de-vues/ligne-de-vue-souk/'
+    },
 
     # Modiphius Geomorphic Tile Set
     { name: 'Perilous Ruins & Forgotten Cities', description: "Set of Modiphius Geomorphic Tiles",
       flip_side: 'none', origin: 'Modiphius Geomorphic Tiles',
-      image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/Perilous+Ruins.jpg' },
+      image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/Perilous+Ruins.jpg',
+      los: '',
+    },
 
     { name: 'Forbidden Places & Pits of Horror', description: "Set of Modiphius Geomorphic Tiles",
       flip_side: 'none', origin: 'Modiphius Geomorphic Tiles',
-      image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/Forbidden+Places.jpg' },
-
-
+      image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/maps/Forbidden+Places.jpg',
+      los: '',
+    },
 
   ])

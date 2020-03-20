@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_03_15_150613) do
+ActiveRecord::Schema.define(version: 2020_03_20_001018) do
 
   create_table "bone_tiles", force: :cascade do |t|
     t.integer "bone_id"
@@ -116,6 +116,7 @@ ActiveRecord::Schema.define(version: 2020_03_15_150613) do
     t.text "special_rules"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string "los"
   end
 
   create_table "model_products", force: :cascade do |t|
