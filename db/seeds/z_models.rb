@@ -465,14 +465,14 @@ Model.create!([
 
   # Black Ones
   { name: 'The Black Ones', description: "",
-    role: 'Minions', origin: 'Black Ones', count: '5',
+    role: 'Minions', origin: 'Black Ones', count: '10',
     hero_ids: [], tile_ids: [98, 99, 100], story_ids: [6],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/BlackOnes.jpg',
   },
 
   # Crossbowmen
   { name: 'Crossbowmen', description: '',
-    role: 'Minion', origin: 'Crossbowmen', count: '5',
+    role: 'Minion', origin: 'Crossbowmen', count: '10',
     hero_ids: [], tile_ids: [101, 102, 103], story_ids: [],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Crossbowmen.jpg',
   },
@@ -493,7 +493,7 @@ Model.create!([
 
   # Giant Wolves
   { name: 'Giant Wolves', description: '',
-    role: 'Minion', origin: 'Giant Wolves', count: '5',
+    role: 'Minion', origin: 'Giant Wolves', count: '10',
     hero_ids: [], tile_ids: [106, 127], story_ids: [],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/ZelataWolf.jpg',
   },
