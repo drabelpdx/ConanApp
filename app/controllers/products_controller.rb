@@ -26,7 +26,7 @@ class ProductsController < ApplicationController
 
   def update
     if @product.update(product_params)
-      flash[:success] = "Skill was successfully updated"
+      flash[:success] = "Product was successfully updated"
       redirect_to product_path(@product)
     else
       render 'edit'
@@ -51,12 +51,12 @@ class ProductsController < ApplicationController
   end
 
   private
-    def set_product
-      @product = Product.find(params[:id])
+    def product_params
+      params.require(:product).permit(:name, :description, :origin)
     end
 
-    def product_params nn
-      params.require(:product).permit(:name, :description)
+    def set_product
+      @product = Product.find(params[:id])
     end
 
     def set_products

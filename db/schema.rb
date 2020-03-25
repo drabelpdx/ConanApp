@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_03_20_001018) do
+ActiveRecord::Schema.define(version: 2020_03_24_184122) do
 
   create_table "bone_tiles", force: :cascade do |t|
     t.integer "bone_id"
@@ -279,6 +279,7 @@ ActiveRecord::Schema.define(version: 2020_03_20_001018) do
     t.string "token_image"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.text "dice"
   end
 
   create_table "users", force: :cascade do |t|

@@ -1,6 +1,11 @@
 class ScenariosController < ApplicationController
+  before_action :set_heroes, only: [:new, :edit, :update, :show, :destroy]
+  before_action :set_items, only: [:new, :edit, :update, :show, :destroy]
+  before_action :set_maps, only: [:new, :edit, :update, :show, :destroy]
   before_action :set_scenario, only: [:edit, :update, :show, :destroy]
   before_action :set_scenarios, only: [:index]
+  before_action :set_spells, only: [:new, :edit, :update, :show, :destroy]
+  before_action :set_tiles, only: [:new, :edit, :update, :show, :destroy]
   before_action :require_user, except: [:index, :show]
   before_action :require_admin, except: [:index, :show]
 
@@ -60,8 +65,29 @@ class ScenariosController < ApplicationController
   end
 
   private
+    def set_heroes
+      @heroes = Hero.all
+    end
+
+    def set_items
+      @weapons = Item.where(role: 'Weapon')
+      @armors = Item.where('role = ? or role = ? or role = ?',
+        'Armor', 'Shield / Staff', 'Other')
+      @objects = Item.where(role: 'Object')
+      @drinks = Item.where(role: 'Drink')
+      @specials = Item.where('role = ? or role = ?', 'Special', 'Campaign')
+    end
+
+    def set_maps
+      @maps = Map.all
+    end
+
     def set_scenario
       @scenario = Scenario.find(params[:id])
+    end
+
+    def set_spells
+      @spells = Spell.all
     end
 
     def scenario_params
@@ -88,6 +114,15 @@ class ScenariosController < ApplicationController
       @set = Scenario.where(origin: 'Book of Set')
       @legend = Scenario.where(origin: 'Legend of the Devil in Iron')
       @sourcebook = Scenario.where(origin: 'The Monolith Sourcebook')
+    end
+
+    def set_tiles
+      @leaders_tile = Tile.where(role: 'Leader')
+      @monsters_tile = Tile.where(role: 'Monster')
+      @minions_tile = Tile.where(role: 'Minion')
+      @heroes_tile = Tile.where(role: 'Hero')
+      @allies_tile = Tile.where(role: 'Ally')
+      @events_tile = Tile.where(role: 'Event')
     end
 
     def require_admin

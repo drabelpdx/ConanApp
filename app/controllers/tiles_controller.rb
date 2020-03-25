@@ -26,6 +26,7 @@ class TilesController < ApplicationController
   end
 
   def edit
+    @tile = Tile.find(params[:id])
   end
 
   def update
@@ -56,20 +57,20 @@ class TilesController < ApplicationController
       params.require(:tile).permit(:name, :description, :role, :move, :armor,
                                    :melee, :ranged, :origin, :count,
                                    :figure_image, :tile_image, :token_image,
-                                   :cost, bone_ids: [], skill_ids: [])
+                                   :cost, :dice, bone_ids: [], skill_ids: [])
     end
 
     def set_bones
-      @red = Bone.where(name: 'Red')
-      @orange = Bone.where(name: 'Orange')
-      @yellow = Bone.where(name: 'Yellow')
+      @bones = Bone.all
+
     end
 
     def set_skills
       @attack = Skill.where(skill_type: 'Attack')
       @movement = Skill.where(skill_type: 'Movement')
       @miscellaneous = Skill.where(skill_type: 'Miscellaneous')
-      @defense = Skill.where(skill_type: 'Defense and Magic')
+      @defense = Skill.where(skill_type: 'Defense')
+      @magic = Skill.where(skill_type: 'Magic')
     end
 
     def set_tiles

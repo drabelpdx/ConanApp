@@ -1,7 +1,10 @@
 class ModelsController < ApplicationController
+  before_action :set_heroes, only: [:new, :edit, :update, :show, :destroy]
   before_action :set_model, only: [:edit, :update, :show, :destroy]
   before_action :set_models, only: [:index]
   before_action :set_roles, only: [:index]
+  before_action :set_stories, only: [:new, :edit, :update, :show, :destroy]
+  before_action :set_tiles, only: [:new, :edit, :update, :show, :destroy]
   before_action :require_user, except: [:index, :show]
   before_action :require_admin, except: [:index, :show]
 
@@ -45,6 +48,10 @@ class ModelsController < ApplicationController
   end
 
   private
+    def set_heroes
+      @heroes = Hero.all
+    end
+
     def set_model
       @model = Model.find(params[:id])
     end
@@ -85,6 +92,20 @@ class ModelsController < ApplicationController
       @heroes = Model.where(role: 'Hero')
       @allies = Model.where(role: 'Ally')
       @events = Model.where(role: 'Event')
+    end
+
+    def set_stories
+      @weird = Story.where(origin: 'Weird Tales')
+      @other = Story.where(origin: 'Other')
+    end
+
+    def set_tiles
+      @leaders_tile = Tile.where(role: 'Leader')
+      @monsters_tile = Tile.where(role: 'Monster')
+      @minions_tile = Tile.where(role: 'Minion')
+      @heroes_tile = Tile.where(role: 'Hero')
+      @allies_tile = Tile.where(role: 'Ally')
+      @events_tile = Tile.where(role: 'Event')
     end
 
     def require_admin

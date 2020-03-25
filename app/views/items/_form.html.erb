@@ -13,6 +13,14 @@
       </div>
       <div class='form-group'>
         <div class='control-label col-sm-2'>
+          <%= f.label :role %><br />
+        </div>
+        <div class='col-sm-8'>
+          <%= f.text_field :role %>
+        </div>
+      </div>
+      <div class='form-group'>
+        <div class='control-label col-sm-2'>
           <%= f.label :encumbrance %><br />
         </div>
         <div class='col-sm-8'>
@@ -29,34 +37,42 @@
       </div>
       <div class='form-group'>
         <div class='control-label col-sm-2'>
-          <%= f.label :melee_dice %><br />
+          <%= f.label :melee %><br />
         </div>
         <div class='col-sm-8'>
-          <%= f.text_field :melee_dice %>
+          <%= f.text_field :melee %>
         </div>
       </div>
       <div class='form-group'>
         <div class='control-label col-sm-2'>
-          <%= f.label :ranged_dice %><br />
+          <%= f.label :ranged %><br />
         </div>
         <div class='col-sm-8'>
-          <%= f.text_field :ranged_dice %>
+          <%= f.text_field :ranged %>
         </div>
       </div>
       <div class='form-group'>
         <div class='control-label col-sm-2'>
-          <%= f.label :defense_dice %><br />
+          <%= f.label :defense %><br />
         </div>
         <div class='col-sm-8'>
-          <%= f.text_field :defense_dice %>
+          <%= f.text_field :defense %>
         </div>
       </div>
       <div class='form-group'>
         <div class='control-label col-sm-2'>
-          <%= f.label :manipulation_dice %><br />
+          <%= f.label :manipulation %><br />
         </div>
         <div class='col-sm-8'>
-          <%= f.text_field :manipulation_dice %>
+          <%= f.text_field :manipulation %>
+        </div>
+      </div>
+      <div class='form-group'>
+        <div class='control-label col-sm-2'>
+          <%= f.label :dice %><br />
+        </div>
+        <div class='col-sm-8'>
+          <%= f.text_field :dice %>
         </div>
       </div>
       <div class='form-group'>
