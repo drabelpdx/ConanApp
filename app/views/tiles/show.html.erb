@@ -21,6 +21,72 @@
             </tr>
           <% end %>
         </table>
+        <br />
+        <table class="tile_stats">
+   <% if @tile.move != '-' %>
+     <tr>
+       <h4>Stats:</h4>
+       <th>
+         <%= image_tag "stats/movement.png" %>
+         <br />Movement
+       </th>
+       <th>
+         <h3><%= @tile.move %></h3>
+       </th>
+     </tr>
+   <% end %>
+   <% if @tile.armor != '-' %>
+     <tr>
+       <th>
+         <%= image_tag "stats/armor.png" %>
+         <br />Armor
+       </th>
+       <th>
+         <h3><%= @tile.armor %></h3>
+       </th>
+     </tr>
+   <% end %>
+
+   <% if @tile.melee != '-' %>
+     <tr>
+       <th>
+         <%= image_tag "stats/melee.png" %>
+         <br />Melee
+       </th>
+       <td class="thumbs">
+         <% @tile.bones.each do |bone| %>
+           <%= image_tag "dice/#{bone.name}.png" %>
+         <% end%>
+         <br /><%= @tile.melee %>
+       </td>
+     </tr>
+   <% end %>
+
+   <% if @tile.ranged != '-' %>
+     <tr>
+       <th>
+         <%= image_tag "stats/range.png" %>
+         <br />Ranged
+       </th>
+       <td class="thumbs">
+         <% @tile.bones.each do |bone| %>
+           <%= image_tag "dice/#{bone.name}.png" %>
+         <% end%>
+         <br /><%= @tile.ranged %>
+       </td>
+     </tr>
+   <% end %>
+   <tr>
+     <% if @tile.cost %>
+       <th><%= image_tag "stats/reinforcement.png" %>
+         <br />Reinforcement<br />Cost
+       </th>
+     <% end %>
+     <% if @tile.cost %>
+       <td><h3><%= @tile.cost %></h3></td>
+     <% end %>
+   </tr>
+ </table>
       </div>
 
       <div class="col-xs-12 col-md-5">

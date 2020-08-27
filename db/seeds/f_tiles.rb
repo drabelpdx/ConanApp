@@ -11,16 +11,16 @@ Tile.create!([
   ## Core Game Tiles
   #  Event Tiles
   { name: 'Event 1', description: '',
-    role: 'Event', move: '–', armor: '–',
-    melee: '–', ranged: '–', bone_ids: [], dice: {},
+    role: 'Event', move: '-', armor: '-',
+    melee: '-', ranged: '-', bone_ids: [], dice: {},
     origin: 'Core Game', count: '1', skill_ids: [],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png',
     token_image: '' },
 
   { name: 'Event 2', description: '',
-    role: 'Event', move: '–', armor: '–',
-    melee: '–', ranged: '–', bone_ids: [], dice: {},
+    role: 'Event', move: '-', armor: '-',
+    melee: '-', ranged: '-', bone_ids: [], dice: {},
     origin: 'Core Game', count: '1', skill_ids: [],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event2.png',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event2.png',
@@ -29,7 +29,7 @@ Tile.create!([
   # Leader Tiles
   { name: 'Captain', description: '',
     role: 'Leader', move: '3', armor: '3',
-    melee: 'Red, Orange', ranged: '–', bone_ids: [1, 3], dice: { melee: [1 ,3] },
+    melee: 'Red, Orange', ranged: '-', bone_ids: [1, 3], dice: { melee: [1 ,3] },
     origin: 'Core Game', count: '2', skill_ids: [28, 29],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Captain.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Captain.png',
@@ -37,7 +37,7 @@ Tile.create!([
 
   { name: 'Skuthus', description: '',
     role: 'Leader', move: '2', armor: '1',
-    melee: 'Yellow', ranged: '–', bone_ids: [5], dice: { melee: [5] },
+    melee: 'Yellow', ranged: '-', bone_ids: [5], dice: { melee: [5] },
     origin: 'Core Game', count: '2', skill_ids: [32, 33],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Skuthus.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Skuthus.png',
@@ -45,7 +45,7 @@ Tile.create!([
 
   { name: 'Thalis', description: '',
     role: 'Leader', move: '3', armor: '2',
-    melee: 'Yellow-Reroll', ranged: '–', bone_ids: [6], dice: { melee: [6] },
+    melee: 'Yellow-Reroll', ranged: '-', bone_ids: [6], dice: { melee: [6] },
     origin: 'Core Game', count: '1', skill_ids: [24, 28],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Princess.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Thalis.png',
@@ -53,7 +53,7 @@ Tile.create!([
 
   { name: 'Zogar Sag', description: 'Pict Shaman',
     role: 'Leader', move: '3', armor: '3',
-    melee: '2 Orange-Reroll', ranged: '–', bone_ids: [4, 4], dice: { melee: [4, 4] },
+    melee: '2 Orange-Reroll', ranged: '-', bone_ids: [4, 4], dice: { melee: [4, 4] },
     origin: 'Core Game', count: '2', skill_ids: [33],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/ZogarSag.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZogarSag.png',
@@ -61,7 +61,7 @@ Tile.create!([
 
   { name: 'Zaporavo', description: '',
     role: 'Leader', move: '2', armor: '3',
-    melee: '2 Red-Reroll', ranged: '–', bone_ids: [2, 2], dice: { melee: [2, 2] },
+    melee: '2 Red-Reroll', ranged: '-', bone_ids: [2, 2], dice: { melee: [2, 2] },
     origin: 'Core Game', count: '2', skill_ids: [16, 28],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Zaporavo.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Zaporavo.png',
@@ -70,7 +70,7 @@ Tile.create!([
   # Monsters
   { name: 'Dark Demon', description: '',
     role: 'Monster', move: '3', armor: '3',
-    melee: '3 Red-Reroll', ranged: '–', bone_ids: [2, 2, 2], dice: { melee: [2, 2, 2] },
+    melee: '3 Red-Reroll', ranged: '-', bone_ids: [2, 2, 2], dice: { melee: [2, 2, 2] },
     origin: 'Core Game', count: '2', skill_ids: [10, 26],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/DarkDemon.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/DarkDemon.png',
@@ -78,7 +78,7 @@ Tile.create!([
 
   { name: 'Giant Snake', description: '',
     role: 'Monster', move: '3', armor: '3',
-    melee: '3 Orange-Reroll', ranged: '–', bone_ids: [4, 4, 4], dice: { melee: [4, 4, 4] },
+    melee: '3 Orange-Reroll', ranged: '-', bone_ids: [4, 4, 4], dice: { melee: [4, 4, 4] },
     origin: 'Core Game', count: '2', skill_ids: [10, 11],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/GiantSnake.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/GiantSnake.png',
@@ -86,7 +86,7 @@ Tile.create!([
 
   { name: 'Khosatral Khel', description: '',
     role: 'Monster', move: '3', armor: '12',
-    melee: '3 Red', ranged: '–', bone_ids: [1, 1, 1], dice: { melee: [1, 1, 1] },
+    melee: '3 Red', ranged: '-', bone_ids: [1, 1, 1], dice: { melee: [1, 1, 1] },
     origin: 'Core Game', count: '2', skill_ids: [4, 11],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/KhosatralKhel.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/KhosatralKhel.png',
@@ -94,7 +94,7 @@ Tile.create!([
 
   { name: 'Outer Dark Demon', description: '',
     role: 'Monster', move: '8', armor: '3',
-    melee: '2 Red-Reroll', ranged: '–', bone_ids: [2, 2], dice: { melee: [2, 2] },
+    melee: '2 Red-Reroll', ranged: '-', bone_ids: [2, 2], dice: { melee: [2, 2] },
     origin: 'Core Game', count: '2', skill_ids: [12, 18],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/OuterDarkDemon.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/OuterDarkDemon.png',
@@ -102,7 +102,7 @@ Tile.create!([
 
   { name: 'Thak', description: '',
     role: 'Monster', move: '3', armor: '3',
-    melee: '2 Red-Reroll', ranged: '–', bone_ids: [2, 2], dice: { melee: [2, 2] },
+    melee: '2 Red-Reroll', ranged: '-', bone_ids: [2, 2], dice: { melee: [2, 2] },
     origin: 'Core Game', count: '2', skill_ids: [10],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Thak.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Thak.png',
@@ -111,7 +111,7 @@ Tile.create!([
   # Ally
   { name: "Bêlit's Guards", description: '',
     role: 'Ally', move: '3', armor: '1', cost: '1',
-    melee: 'Orange-Reroll', ranged: '–', bone_ids: [4], dice: { melee: [4] },
+    melee: 'Orange-Reroll', ranged: '-', bone_ids: [4], dice: { melee: [4] },
     origin: 'Core Game', count: '1', skill_ids: [16, 29],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/BelitsGuards.jpg',
     tile_image: "https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BelitsGuards.png",
@@ -119,7 +119,7 @@ Tile.create!([
 
   { name: 'Princess', description: '',
     role: 'Ally', move: '2', armor: '0',
-    melee: '–', ranged: '–', bone_ids: [], dice: {},
+    melee: '-', ranged: '-', bone_ids: [], dice: {},
     origin: 'Core Game', count: '1', skill_ids: [],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Princess.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Princess.png',
@@ -128,7 +128,7 @@ Tile.create!([
   # Minions
   { name: 'Bossonian Archers', description: '',
     role: 'Minion', move: '2', armor: '1', cost: '1',
-    melee: '–', ranged: '2 Yellow-Reroll', bone_ids: [6, 6], dice: { ranged: [6, 6] },
+    melee: '-', ranged: '2 Yellow-Reroll', bone_ids: [6, 6], dice: { ranged: [6, 6] },
     origin: 'Core Game', count: '1', skill_ids: [8],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/BossonianArchers.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BossonianArchers.png',
@@ -136,7 +136,7 @@ Tile.create!([
 
   { name: 'Bossonian Archers - Purple', description: '',
     role: 'Minion', move: '2', armor: '1', cost: '1',
-    melee: '–', ranged: '2 Yellow-Reroll', bone_ids: [6, 6], dice: { melee: [6, 6] },
+    melee: '-', ranged: '2 Yellow-Reroll', bone_ids: [6, 6], dice: { melee: [6, 6] },
     origin: 'Core Game', count: '1', skill_ids: [8],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/BossonianArchers.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BossonianArchersPurple.png',
@@ -144,7 +144,7 @@ Tile.create!([
 
   { name: 'Bossonian Guards', description: '',
     role: 'Minion', move: '2', armor: '2', cost: '1',
-    melee: 'Orange, Yellow', ranged: '–', bone_ids: [3, 5], dice: { melee: [3, 5] },
+    melee: 'Orange, Yellow', ranged: '-', bone_ids: [3, 5], dice: { melee: [3, 5] },
     origin: 'Core Game', count: '1', skill_ids: [29],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/BossonianGuards.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BossonianGuards.png',
@@ -152,7 +152,7 @@ Tile.create!([
 
   { name: 'Bossonian Guards - Blue', description: '',
     role: 'Minion', move: '2', armor: '2', cost: '1',
-    melee: 'Orange, Yellow', ranged: '–', bone_ids: [3, 5], dice: { melee: [3, 5] },
+    melee: 'Orange, Yellow', ranged: '-', bone_ids: [3, 5], dice: { melee: [3, 5] },
     origin: 'Core Game', count: '1', skill_ids: [29],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/BossonianGuards.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BossonianGuardsBlue.png',
@@ -160,7 +160,7 @@ Tile.create!([
 
   { name: 'Bossonian Guards - Green', description: '',
     role: 'Minion', move: '2', armor: '2', cost: '1',
-    melee: 'Orange, Yellow', ranged: '–', bone_ids: [3, 5], dice: { melee: [3, 5] },
+    melee: 'Orange, Yellow', ranged: '-', bone_ids: [3, 5], dice: { melee: [3, 5] },
     origin: 'Core Game', count: '1', skill_ids: [29],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/BossonianGuards.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BossonianGuardsGreen.png',
@@ -168,7 +168,7 @@ Tile.create!([
 
   { name: 'Bossonian Guards - Orange', description: '',
     role: 'Minion', move: '2', armor: '2', cost: '1',
-    melee: 'Orange, Yellow', ranged: '–', bone_ids: [3, 5], dice: { melee: [3, 5] },
+    melee: 'Orange, Yellow', ranged: '-', bone_ids: [3, 5], dice: { melee: [3, 5] },
     origin: 'Core Game', count: '1', skill_ids: [29],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/BossonianGuards.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BossonianGuardsOrange.png',
@@ -176,7 +176,7 @@ Tile.create!([
 
   { name: 'Bossonian Guards - Purple', description: '',
     role: 'Minion', move: '2', armor: '2', cost: '1',
-    melee: 'Orange, Yellow', ranged: '–', bone_ids: [3, 5], dice: { melee: [3, 5] },
+    melee: 'Orange, Yellow', ranged: '-', bone_ids: [3, 5], dice: { melee: [3, 5] },
     origin: 'Core Game', count: '1', skill_ids: [29],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/BossonianGuards.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BossonianGuardsPurple.png',
@@ -184,7 +184,7 @@ Tile.create!([
 
   { name: 'Bossonian Guards - Red', description: '',
     role: 'Minion', move: '2', armor: '2', cost: '1',
-    melee: 'Orange, Yellow', ranged: '–', bone_ids: [3, 5], dice: { melee: [3, 5] },
+    melee: 'Orange, Yellow', ranged: '-', bone_ids: [3, 5], dice: { melee: [3, 5] },
     origin: 'Core Game', count: '1', skill_ids: [29],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/BossonianGuards.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BossonianGuardsRed.png',
@@ -192,7 +192,7 @@ Tile.create!([
 
   { name: 'Hyenas', description: '',
     role: 'Minion', move: '5', armor: '0', cost: '1',
-    melee: 'Orange', ranged: '–', bone_ids: [3], dice: { melee: [3] },
+    melee: 'Orange', ranged: '-', bone_ids: [3], dice: { melee: [3] },
     origin: 'Core Game', count: '2', skill_ids: [12, 16],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Hyenas.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Hyenas.png',
@@ -200,7 +200,7 @@ Tile.create!([
 
   { name: 'Pict Hunters', description: '',
     role: 'Minion', move: '2', armor: '1', cost: '1',
-    melee: '2 Yellow-Reroll', ranged: '–', bone_ids: [6, 6], dice: { melee: [6, 6] },
+    melee: '2 Yellow-Reroll', ranged: '-', bone_ids: [6, 6], dice: { melee: [6, 6] },
     origin: 'Core Game', count: '1', skill_ids: [16],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/PictHunters.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/PictHunters.png',
@@ -208,7 +208,7 @@ Tile.create!([
 
   { name: 'Pict Hunters - Blue', description: '',
     role: 'Minion', move: '2', armor: '1', cost: '1',
-    melee: '2 Yellow-Reroll', ranged: '–', bone_ids: [6, 6], dice: { melee: [6, 6] },
+    melee: '2 Yellow-Reroll', ranged: '-', bone_ids: [6, 6], dice: { melee: [6, 6] },
     origin: 'Core Game', count: '1', skill_ids: [16],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/PictHunters.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/PictHuntersBlue.png',
@@ -216,7 +216,7 @@ Tile.create!([
 
   { name: 'Pict Hunters - Green', description: '',
     role: 'Minion', move: '2', armor: '1', cost: '1',
-    melee: '2 Yellow-Reroll', ranged: '–', bone_ids: [6, 6], dice: { melee: [6, 6] },
+    melee: '2 Yellow-Reroll', ranged: '-', bone_ids: [6, 6], dice: { melee: [6, 6] },
     origin: 'Core Game', count: '1', skill_ids: [16],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/PictHunters.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/PictHuntersGreen.png',
@@ -224,7 +224,7 @@ Tile.create!([
 
   { name: 'Pict Hunters - Orange', description: '',
     role: 'Minion', move: '2', armor: '1', cost: '1',
-    melee: '2 Yellow-Reroll', ranged: '–', bone_ids: [6, 6], dice: { melee: [6, 6] },
+    melee: '2 Yellow-Reroll', ranged: '-', bone_ids: [6, 6], dice: { melee: [6, 6] },
     origin: 'Core Game', count: '1', skill_ids: [16],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/PictHunters.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/PictHuntersOrange.png',
@@ -232,7 +232,7 @@ Tile.create!([
 
   { name: 'Pict Hunters - Red', description: '',
     role: 'Minion', move: '2', armor: '1', cost: '1',
-    melee: '2 Yellow-Reroll', ranged: '–', bone_ids: [6, 6], dice: { melee: [6, 6] },
+    melee: '2 Yellow-Reroll', ranged: '-', bone_ids: [6, 6], dice: { melee: [6, 6] },
     origin: 'Core Game', count: '1', skill_ids: [16],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/PictHunters.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/PictHuntersRed.png',
@@ -240,7 +240,7 @@ Tile.create!([
 
   { name: 'Pict Warriors - Purple', description: '',
     role: 'Minion', move: '2', armor: '2', cost: '2',
-    melee: 'Red-Reroll', ranged: '–', bone_ids: [2], dice: { melee: [2] },
+    melee: 'Red-Reroll', ranged: '-', bone_ids: [2], dice: { melee: [2] },
     origin: 'Core Game', count: '1', skill_ids: [10, 16],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/PictWarriors.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/PictWarriorsPurple.png',
@@ -248,7 +248,7 @@ Tile.create!([
 
   { name: 'Pirates', description: '',
     role: 'Minion', move: '3', armor: '1', cost: '1',
-    melee: 'Orange', ranged: '–', bone_ids: [3],  dice: { melee: [3] },
+    melee: 'Orange', ranged: '-', bone_ids: [3],  dice: { melee: [3] },
     origin: 'Core Game', count: '1', skill_ids: [13, 16],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Pirates.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Pirates.png',
@@ -256,7 +256,7 @@ Tile.create!([
 
   { name: 'Pirates - Blue', description: '',
     role: 'Minion', move: '3', armor: '1', cost: '1',
-    melee: 'Orange', ranged: '–', bone_ids: [3], dice: { melee: [3] },
+    melee: 'Orange', ranged: '-', bone_ids: [3], dice: { melee: [3] },
     origin: 'Core Game', count: '1', skill_ids: [13, 16],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Pirates.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/PiratesBlue.png',
@@ -264,7 +264,7 @@ Tile.create!([
 
   { name: 'Pirates - Green', description: '',
     role: 'Minion', move: '3', armor: '1', cost: '1',
-    melee: 'Orange', ranged: '–', bone_ids: [3], dice: { melee: [3] },
+    melee: 'Orange', ranged: '-', bone_ids: [3], dice: { melee: [3] },
     origin: 'Core Game', count: '1', skill_ids: [13, 16],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Pirates.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/PiratesGreen.png',
@@ -272,7 +272,7 @@ Tile.create!([
 
   { name: 'Pirates - Orange', description: '',
     role: 'Minion', move: '3', armor: '1', cost: '1',
-    melee: 'Orange', ranged: '–', bone_ids: [3], dice: { melee: [3] },
+    melee: 'Orange', ranged: '-', bone_ids: [3], dice: { melee: [3] },
     origin: 'Core Game', count: '1', skill_ids: [13, 16],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Pirates.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/PiratesOrange.png',
@@ -280,7 +280,7 @@ Tile.create!([
 
   { name: 'Pirates - Purple', description: '',
     role: 'Minion', move: '3', armor: '1', cost: '1',
-    melee: 'Orange', ranged: '–', bone_ids: [3], dice: { melee: [3] },
+    melee: 'Orange', ranged: '-', bone_ids: [3], dice: { melee: [3] },
     origin: 'Core Game', count: '1', skill_ids: [13, 16],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Pirates.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/PiratesPurple.png',
@@ -288,7 +288,7 @@ Tile.create!([
 
   { name: 'Pirates - Red', description: '',
     role: 'Minion', move: '3', armor: '1', cost: '1',
-    melee: 'Orange', ranged: '–', bone_ids: [3], dice: { melee: [3] },
+    melee: 'Orange', ranged: '-', bone_ids: [3], dice: { melee: [3] },
     origin: 'Core Game', count: '1', skill_ids: [13, 16],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Pirates.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/PiratesRed.png',
@@ -298,7 +298,7 @@ Tile.create!([
   # Monster
   { name: 'Thog', description: '',
     role: 'Monster', move: '1', armor: '3',
-    melee: '3 Red-Reroll', ranged: '–', bone_ids: [2, 2, 2], dice: { melee: [2, 2, 2] },
+    melee: '3 Red-Reroll', ranged: '-', bone_ids: [2, 2, 2], dice: { melee: [2, 2, 2] },
     origin: 'King Pledge', count: '2', skill_ids: [14, 25],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Thog.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Thog.png',
@@ -306,7 +306,7 @@ Tile.create!([
 
   { name: 'Thog - Alt', description: '',
     role: 'Monster', move: '1', armor: '3',
-    melee: '3 Red-Reroll', ranged: '–', bone_ids: [2, 2, 2], dice: { melee: [2, 2, 2] },
+    melee: '3 Red-Reroll', ranged: '-', bone_ids: [2, 2, 2], dice: { melee: [2, 2, 2] },
     origin: 'King Pledge', count: '2', skill_ids: [3, 25],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Thog.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ThogAlt.png',
@@ -315,7 +315,7 @@ Tile.create!([
   # Allies
   { name: 'Conan’s Lion', description: '',
     role: 'Ally', move: '4', armor: '3', cost: '4',
-    melee: '2 Red', ranged: '–', bone_ids: [1, 1], dice: { melee: [1, 1] },
+    melee: '2 Red', ranged: '-', bone_ids: [1, 1], dice: { melee: [1, 1] },
     origin: 'King Pledge', count: '1', skill_ids: [16, 17],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/AmaraLion.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConansLion.png',
@@ -323,7 +323,7 @@ Tile.create!([
 
   { name: 'Zelata’s Wolf', description: '',
     role: 'Ally', move: '5', armor: '2', cost: '4',
-    melee: '2 Orange', ranged: '–', bone_ids: [3, 3], dice: { melee: [3, 3] },
+    melee: '2 Orange', ranged: '-', bone_ids: [3, 3], dice: { melee: [3, 3] },
     origin: 'King Pledge', count: '1', skill_ids: [29, 16],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/ZelataWolf.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZelatasWolf.png',
@@ -332,7 +332,7 @@ Tile.create!([
   # Minions
   { name: 'Mummies', description: '',
     role: 'Minion', move: '2', armor: '2', cost: '2',
-    melee: '2 Orange', ranged: '–', bone_ids: [3, 3], dice: { melee: [3, 3] },
+    melee: '2 Orange', ranged: '-', bone_ids: [3, 3], dice: { melee: [3, 3] },
     origin: 'King Pledge', count: '1', skill_ids: [26],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Mummies.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Mummies.png',
@@ -340,7 +340,7 @@ Tile.create!([
 
   { name: 'Mummies - Blue', description: '',
     role: 'Minion', move: '2', armor: '2', cost: '2',
-    melee: '2 Orange', ranged: '–', bone_ids: [3, 3], dice: { melee: [3, 3] },
+    melee: '2 Orange', ranged: '-', bone_ids: [3, 3], dice: { melee: [3, 3] },
     origin: 'King Pledge', count: '1', skill_ids: [26],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Mummies.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/MummiesBlue.png',
@@ -348,7 +348,7 @@ Tile.create!([
 
   { name: 'Mummies - Green', description: '',
     role: 'Minion', move: '2', armor: '2', cost: '2',
-    melee: '2 Orange', ranged: '–', bone_ids: [3, 3], dice: { melee: [3, 3] },
+    melee: '2 Orange', ranged: '-', bone_ids: [3, 3], dice: { melee: [3, 3] },
     origin: 'King Pledge', count: '1', skill_ids: [26],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Mummies.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/MummiesGreen.png',
@@ -356,7 +356,7 @@ Tile.create!([
 
   { name: 'Mummies - Orange', description: '',
     role: 'Minion', move: '2', armor: '2', cost: '2',
-    melee: '2 Orange', ranged: '–', bone_ids: [3, 3], dice: { melee: [3, 3] },
+    melee: '2 Orange', ranged: '-', bone_ids: [3, 3], dice: { melee: [3, 3] },
     origin: 'King Pledge', count: '1', skill_ids: [26],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Mummies.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/MummiesOrange.png',
@@ -364,7 +364,7 @@ Tile.create!([
 
   { name: 'Mummies - Purple', description: '',
     role: 'Minion', move: '2', armor: '2', cost: '2',
-    melee: '2 Orange', ranged: '–', bone_ids: [3, 3], dice: { melee: [3, 3] },
+    melee: '2 Orange', ranged: '-', bone_ids: [3, 3], dice: { melee: [3, 3] },
     origin: 'King Pledge', count: '1', skill_ids: [26],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Mummies.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/MummiesPurple.png',
@@ -372,7 +372,7 @@ Tile.create!([
 
   { name: 'Skeletons', description: '',
     role: 'Minion', move: '2', armor: '1', cost: '1',
-    melee: 'Orange-Reroll', ranged: '–', bone_ids: [4], dice: { melee: [4] },
+    melee: 'Orange-Reroll', ranged: '-', bone_ids: [4], dice: { melee: [4] },
     origin: 'King Pledge', count: '1', skill_ids: [29],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Skeletons.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Skeletons.png',
@@ -380,7 +380,7 @@ Tile.create!([
 
   { name: 'Skeletons - Green', description: '',
     role: 'Minion', move: '2', armor: '1', cost: '1',
-    melee: 'Orange-Reroll', ranged: '–', bone_ids: [4], dice: { melee: [4] },
+    melee: 'Orange-Reroll', ranged: '-', bone_ids: [4], dice: { melee: [4] },
     origin: 'King Pledge', count: '1', skill_ids: [29],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Skeletons.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SkeletonsGreen.png',
@@ -388,7 +388,7 @@ Tile.create!([
 
   { name: 'Skeletons - Blue', description: '',
     role: 'Minion', move: '2', armor: '1', cost: '1',
-    melee: 'Orange-Reroll', ranged: '–', bone_ids: [4], dice: { melee: [4] },
+    melee: 'Orange-Reroll', ranged: '-', bone_ids: [4], dice: { melee: [4] },
     origin: 'King Pledge', count: '1', skill_ids: [29],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Skeletons.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SkeletonsBlue.png',
@@ -396,7 +396,7 @@ Tile.create!([
 
   { name: 'Skeletons - Orange', description: '',
     role: 'Minion', move: '2', armor: '1', cost: '1',
-    melee: 'Orange-Reroll', ranged: '–', bone_ids: [4], dice: { melee: [4] },
+    melee: 'Orange-Reroll', ranged: '-', bone_ids: [4], dice: { melee: [4] },
     origin: 'King Pledge', count: '1', skill_ids: [29],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Skeletons.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SkeletonsOrange.png',
@@ -404,7 +404,7 @@ Tile.create!([
 
   { name: 'Skeletons - Purple', description: '',
     role: 'Minion', move: '2', armor: '1', cost: '1',
-    melee: 'Orange-Reroll', ranged: '–', bone_ids: [4], dice: { melee: [4] },
+    melee: 'Orange-Reroll', ranged: '-', bone_ids: [4], dice: { melee: [4] },
     origin: 'King Pledge', count: '1', skill_ids: [29],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Skeletons.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SkeletonsPurple.png',
@@ -412,7 +412,7 @@ Tile.create!([
 
   { name: 'Skeletons - Red', description: '',
     role: 'Minion', move: '2', armor: '1', cost: '1',
-    melee: 'Orange-Reroll', ranged: '–', bone_ids: [4], dice: { melee: [4] },
+    melee: 'Orange-Reroll', ranged: '-', bone_ids: [4], dice: { melee: [4] },
     origin: 'King Pledge', count: '1', skill_ids: [29],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Skeletons.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SkeletonsRed.png',
@@ -421,8 +421,8 @@ Tile.create!([
   ## Stretch Goal Tiles
   #  Event Tiles
   { name: 'Event 3', description: '',
-    role: 'Event', move: '–', armor: '–',
-    melee: '–', ranged: '–', bone_ids: [],
+    role: 'Event', move: '-', armor: '-',
+    melee: '-', ranged: '-', bone_ids: [],
     origin: 'Stretch Goal', count: '1', skill_ids: [], dice: {},
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event2.png',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event2.png',
@@ -431,7 +431,7 @@ Tile.create!([
   # Leaders
   { name: 'Ageera', description: 'Witch Hunter Finder',
     role: 'Leader', move: '3', armor: '2',
-    melee: 'Red, Orange', ranged: '–', bone_ids: [1, 3], dice: { melee: [1, 3] },
+    melee: 'Red, Orange', ranged: '-', bone_ids: [1, 3], dice: { melee: [1, 3] },
     origin: 'Stretch Goal', count: '2', skill_ids: [16, 33],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Ageera.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Ageera.png',
@@ -439,7 +439,7 @@ Tile.create!([
 
   { name: 'Akivasha', description: 'Stygian Priestess turned Vampire',
     role: 'Leader', move: '2', armor: '2',
-    melee: 'Orange-Reroll, Orange', ranged: '–', bone_ids: [4, 3], dice: { melee: [4, 3] },
+    melee: 'Orange-Reroll, Orange', ranged: '-', bone_ids: [4, 3], dice: { melee: [4, 3] },
     origin: 'Stretch Goal', count: '2', skill_ids: [6, 33],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Akivasha.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Akivasha.png',
@@ -447,7 +447,7 @@ Tile.create!([
 
   { name: 'Constantius', description: 'The Falcon',
     role: 'Leader', move: '3', armor: '3',
-    melee: 'Red, Orange', ranged: '–', bone_ids: [1, 3], dice: { melee: [1, 3] },
+    melee: 'Red, Orange', ranged: '-', bone_ids: [1, 3], dice: { melee: [1, 3] },
     origin: 'Stretch Goal', count: '2', skill_ids: [7, 28],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Constantius.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Constantius.png',
@@ -455,7 +455,7 @@ Tile.create!([
 
   { name: 'Gitara', description: '',
     role: 'Leader', move: '2', armor: '1',
-    melee: '3 Yellow-Reroll', ranged: '–', bone_ids: [6, 6, 6], dice: { melee: [6, 6, 6] },
+    melee: '3 Yellow-Reroll', ranged: '-', bone_ids: [6, 6, 6], dice: { melee: [6, 6, 6] },
     origin: 'Stretch Goal', count: '2', skill_ids: [17, 29],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Gitara.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Gitara.png',
@@ -463,7 +463,7 @@ Tile.create!([
 
   { name: 'Hyperborean Primitive', description: '',
     role: 'Leader', move: '3', armor: '3',
-    melee: '2 Orange, Yellow', ranged: '–', bone_ids: [3, 3, 5], dice: { melee: [3, 3, 5] },
+    melee: '2 Orange, Yellow', ranged: '-', bone_ids: [3, 3, 5], dice: { melee: [3, 3, 5] },
     origin: 'Stretch Goal', count: '2', skill_ids: [26, 33],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/HyperboreanPrimitive.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/HyperboreanPrimitive.png' ,
@@ -471,7 +471,7 @@ Tile.create!([
 
   { name: 'Khemsa', description: 'A Black Circle Adept',
     role: 'Leader', move: '2', armor: '2',
-    melee: '2 Orange', ranged: '–', bone_ids: [3, 3], dice: { melee: [3, 3] },
+    melee: '2 Orange', ranged: '-', bone_ids: [3, 3], dice: { melee: [3, 3] },
     origin: 'Stretch Goal', count: '2', skill_ids: [22, 33],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Khemsa.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Khemsa.png',
@@ -479,7 +479,7 @@ Tile.create!([
 
   { name: 'Natohk', description: 'Stygian Sorceror Thugra Khotan',
     role: 'Leader', move: '3', armor: '2',
-    melee: 'Orange, Yellow', ranged: '–', bone_ids: [3, 5], dice: { melee: [3, 5] },
+    melee: 'Orange, Yellow', ranged: '-', bone_ids: [3, 5], dice: { melee: [3, 5] },
     origin: 'Stretch Goal', count: '2', skill_ids: [22, 33],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Natohk.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Natohk.png',
@@ -487,7 +487,7 @@ Tile.create!([
 
   { name: 'Warlock', description: '',
     role: 'Leader', move: '2', armor: '2',
-    melee: 'Orange-Reroll, Orange', ranged: '–', bone_ids: [4, 3], dice: { melee: [4, 3] },
+    melee: 'Orange-Reroll, Orange', ranged: '-', bone_ids: [4, 3], dice: { melee: [4, 3] },
     origin: 'Stretch Goal', count: '2', skill_ids: [32, 33],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Warlock.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Warlock.png',
@@ -496,7 +496,7 @@ Tile.create!([
   # Heroes
   { name: 'Amboola', description: 'A Kushite Commander',
     role: 'Hero', move: '2', armor: '3',
-    melee: '2 Orange-Reroll', ranged: '–', bone_ids: [4, 4], dice: { melee: [4, 4] },
+    melee: '2 Orange-Reroll', ranged: '-', bone_ids: [4, 4], dice: { melee: [4, 4] },
     origin: 'Stretch Goal', count: '1', skill_ids: [5, 28,],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Amboola.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Amboola.png',
@@ -504,7 +504,7 @@ Tile.create!([
 
   { name: 'Balthus', description: 'A scout and a deadeye shot',
     role: 'Hero', move: '3', armor: '1',
-    melee: '–', ranged: 'Red-Reroll, Orange-Reroll', bone_ids: [2, 4],  dice: { ranged: [2, 4] },
+    melee: '-', ranged: 'Red-Reroll, Orange-Reroll', bone_ids: [2, 4],  dice: { ranged: [2, 4] },
     origin: 'Stretch Goal', count: '1', skill_ids: [8, 9],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Balthus.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Balthus.png',
@@ -512,7 +512,7 @@ Tile.create!([
 
   { name: 'Bêlit', description: 'Queen of the Black Coast',
     role: 'Hero', move: '3', armor: '1',
-    melee: '2 Orange', ranged: '–', bone_ids: [3, 3], dice: { melee: [3, 3] },
+    melee: '2 Orange', ranged: '-', bone_ids: [3, 3], dice: { melee: [3, 3] },
     origin: 'Stretch Goal', count: '1', skill_ids: [6, 32],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Belit.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Belit.png',
@@ -520,7 +520,7 @@ Tile.create!([
 
   { name: 'Conan', description: '',
     role: 'Hero', move: '3', armor: '3',
-    melee: '3 Red', ranged: '–', bone_ids: [1, 1, 1], dice: { melee: [1, 1, 1] },
+    melee: '3 Red', ranged: '-', bone_ids: [1, 1, 1], dice: { melee: [1, 1, 1] },
     origin: 'Stretch Goal', count: '2', skill_ids: [4, 11],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Conan.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Conan.png',
@@ -528,7 +528,7 @@ Tile.create!([
 
   { name: 'Hadrathus', description: '',
     role: 'Hero', move: '2', armor: '2',
-    melee: '–', ranged: '2 Yellow', bone_ids: [5, 5], dice: { ranged: [5, 5] },
+    melee: '-', ranged: '2 Yellow', bone_ids: [5, 5], dice: { ranged: [5, 5] },
     origin: 'Stretch Goal', count: '1', skill_ids: [22, 33],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Hadrathus.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Hadrathus.png',
@@ -536,7 +536,7 @@ Tile.create!([
 
   { name: 'Kerim Shah', description: 'A Turanian Prince',
     role: 'Hero', move: '2', armor: '2',
-    melee: '–', ranged: '2 Orange', bone_ids: [3, 3], dice: { ranged: [3, 3] },
+    melee: '-', ranged: '2 Orange', bone_ids: [3, 3], dice: { ranged: [3, 3] },
     origin: 'Stretch Goal', count: '1', skill_ids: [9, 32],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/KerimShah.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/KerimShah.png',
@@ -544,7 +544,7 @@ Tile.create!([
 
   { name: "N'Gora", description: '',
     role: 'Hero', move: '2', armor: '3',
-    melee: '–', ranged: '2 Red', bone_ids: [1, 1], dice: { ranged: [1, 1] },
+    melee: '-', ranged: '2 Red', bone_ids: [1, 1], dice: { ranged: [1, 1] },
     origin: 'Stretch Goal', count: '1', skill_ids: [8, 29],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/NGora.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/NGora.png',
@@ -552,7 +552,7 @@ Tile.create!([
 
   { name: 'Olgerd Vladislav', description: 'The Tiger',
     role: 'Hero', move: '2', armor: '3',
-    melee: '2 Red-Reroll', ranged: '–', bone_ids: [2, 2], dice: { melee: [2, 2] },
+    melee: '2 Red-Reroll', ranged: '-', bone_ids: [2, 2], dice: { melee: [2, 2] },
     origin: 'Stretch Goal', count: '1', skill_ids: [4, 10],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/OlgerdVladislav.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/OlgerdVladislav.png',
@@ -560,7 +560,7 @@ Tile.create!([
 
   { name: 'Pallantides', description: 'Captain of the Black Dragons',
     role: 'Hero', move: '2', armor: '3',
-    melee: 'Red-Reroll, Red', ranged: '–', bone_ids: [2, 1], dice: { melee: [2, 1] },
+    melee: 'Red-Reroll, Red', ranged: '-', bone_ids: [2, 1], dice: { melee: [2, 1] },
     origin: 'Stretch Goal', count: '1', skill_ids: [28, 29],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Pallantides.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Pallantides.png',
@@ -568,7 +568,7 @@ Tile.create!([
 
   { name: 'Shevatas', description: '',
     role: 'Hero', move: '3', armor: '2',
-    melee: '–', ranged: '2 Orange', bone_ids: [3, 3], dice: { ranged: [3, 3] },
+    melee: '-', ranged: '2 Orange', bone_ids: [3, 3], dice: { ranged: [3, 3] },
     origin: 'Stretch Goal', count: '1', skill_ids: [12, 30],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Shevatas.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Shevatas.png',
@@ -576,7 +576,7 @@ Tile.create!([
 
   { name: 'Taurus', description: 'Prince of Thieves',
     role: 'Hero', move: '3', armor: '2',
-    melee: 'Orange-Reroll, Orange', ranged: '–', bone_ids: [4, 3], dice: { melee: [4, 3] },
+    melee: 'Orange-Reroll, Orange', ranged: '-', bone_ids: [4, 3], dice: { melee: [4, 3] },
     origin: 'Stretch Goal', count: '1', skill_ids: [5, 12],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Taurus.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Taurus.png',
@@ -584,7 +584,7 @@ Tile.create!([
 
   { name: 'Valeria', description: '',
     role: 'Hero', move: '3', armor: '2',
-    melee: '2 Orange-Reroll', ranged: '–', bone_ids: [4, 4], dice: { melee: [4, 4] },
+    melee: '2 Orange-Reroll', ranged: '-', bone_ids: [4, 4], dice: { melee: [4, 4] },
     origin: 'Stretch Goal', count: '1', skill_ids: [7, 17],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Valeria.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Valeria.png',
@@ -592,7 +592,7 @@ Tile.create!([
 
   { name: 'Zelata', description: '',
     role: 'Hero', move: '2', armor: '1',
-    melee: 'Yellow-Reroll, Yellow', ranged: '–', bone_ids: [6, 5], dice: { melee: [6, 5] },
+    melee: 'Yellow-Reroll, Yellow', ranged: '-', bone_ids: [6, 5], dice: { melee: [6, 5] },
     origin: 'Stretch Goal', count: '1', skill_ids: [28, 33],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Zelata.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Zelata.png',
@@ -601,7 +601,7 @@ Tile.create!([
   # Ally
   { name: 'Camel', description: 'Punch a camel',
     role: 'Ally', move: '4', armor: '2',
-    melee: 'Yellow', ranged: '–', bone_ids: [5], dice: { melee: [5] },
+    melee: 'Yellow', ranged: '-', bone_ids: [5], dice: { melee: [5] },
     origin: 'Stretch Goal', count: '1', skill_ids: [],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Camel.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Camel.png',
@@ -609,7 +609,7 @@ Tile.create!([
 
   { name: 'Kothian Archer', description: '',
     role: 'Ally', move: '3', armor: '2',
-    melee: '–', ranged: 'Red', bone_ids: [1], dice: { ranged: [1] },
+    melee: '-', ranged: 'Red', bone_ids: [1], dice: { ranged: [1] },
     origin: 'Stretch Goal', count: '1', skill_ids: [8, 9],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/KothianArcher.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/KothianArcher.png',
@@ -617,7 +617,7 @@ Tile.create!([
 
   { name: 'Slasher', description: 'Balthus’ dog and ally',
     role: 'Ally', move: '5', armor: '3',
-    melee: 'Red, Orange', ranged: '–', bone_ids: [1, 3], dice: { melee: [1, 3] },
+    melee: 'Red, Orange', ranged: '-', bone_ids: [1, 3], dice: { melee: [1, 3] },
     origin: 'Stretch Goal', count: '1', skill_ids: [12, 29],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Slasher.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Slasher.png',
@@ -626,7 +626,7 @@ Tile.create!([
   # Monsters
   { name: 'Bone Golem', description: '',
     role: 'Monster', move: '3', armor: '2',
-    melee: '3 Red', ranged: '–', bone_ids: [1, 1, 1], dice: { melee: [1, 1, 1] },
+    melee: '3 Red', ranged: '-', bone_ids: [1, 1, 1], dice: { melee: [1, 1, 1] },
     origin: 'Stretch Goal', count: '2', skill_ids: [11, 25],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/BoneGolem.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BoneGolem.png',
@@ -634,7 +634,7 @@ Tile.create!([
 
   { name: 'Forest Demon', description: '',
     role: 'Monster', move: '3', armor: '2',
-    melee: '3 Orange', ranged: '–', bone_ids: [3, 3, 3], dice: { melee: [3, 3, 3] },
+    melee: '3 Orange', ranged: '-', bone_ids: [3, 3, 3], dice: { melee: [3, 3, 3] },
     origin: 'Stretch Goal', count: '2', skill_ids: [5, 10],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/ForestDemon.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ForestDemon.png',
@@ -642,7 +642,7 @@ Tile.create!([
 
   { name: 'Giant Scorpion', description: '',
     role: 'Monster', move: '3', armor: '2',
-    melee: '3 Orange', ranged: '–', bone_ids: [3, 3, 3], dice: { melee: [3, 3, 3] },
+    melee: '3 Orange', ranged: '-', bone_ids: [3, 3, 3], dice: { melee: [3, 3, 3] },
     origin: 'Stretch Goal', count: '2', skill_ids: [27],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/GiantScorpion.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/GiantScorpion.png',
@@ -650,7 +650,7 @@ Tile.create!([
 
   { name: 'Giant Spider', description: '',
     role: 'Monster', move: '4', armor: '2',
-    melee: 'Red-Reroll, 2 Yellow', ranged: '–', bone_ids: [2, 5, 5], dice: { melee: [2, 5, 5] },
+    melee: 'Red-Reroll, 2 Yellow', ranged: '-', bone_ids: [2, 5, 5], dice: { melee: [2, 5, 5] },
     origin: 'Stretch Goal', count: '2', skill_ids: [15, 19],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/GiantSpider.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/GiantSpider.png',
@@ -658,7 +658,7 @@ Tile.create!([
 
   { name: 'Gray Man-Ape', description: '',
     role: 'Monster', move: '3', armor: '3',
-    melee: 'Red, 2 Orange', ranged: '–', bone_ids: [1, 3, 3], dice: { melee: [1, 3, 3] },
+    melee: 'Red, 2 Orange', ranged: '-', bone_ids: [1, 3, 3], dice: { melee: [1, 3, 3] },
     origin: 'Stretch Goal', count: '2', skill_ids: [10, 19],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/GrayManApe.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/GrayManApe.png',
@@ -666,7 +666,7 @@ Tile.create!([
 
   { name: 'Swamp Demon', description: '',
     role: 'Monster', move: '2', armor: '2',
-    melee: '2 Red-Reroll, Orange-Reroll', ranged: '–', bone_ids: [2, 2, 4], dice: { melee: [2, 2, 4] },
+    melee: '2 Red-Reroll, Orange-Reroll', ranged: '-', bone_ids: [2, 2, 4], dice: { melee: [2, 2, 4] },
     origin: 'Stretch Goal', count: '2', skill_ids: [25, 26],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/SwampDemon.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SwampDemon.png',
@@ -674,7 +674,7 @@ Tile.create!([
 
   { name: 'Thaug', description: '',
     role: 'Monster', move: '0', armor: '8',
-    melee: '4 Red-Reroll', ranged: '–', bone_ids: [2, 2, 2, 2], dice: { melee: [2, 2, 2, 2] },
+    melee: '4 Red-Reroll', ranged: '-', bone_ids: [2, 2, 2, 2], dice: { melee: [2, 2, 2, 2] },
     origin: 'Stretch Goal', count: '2', skill_ids: [25, 33],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Thaug.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Thaug.png',
@@ -683,7 +683,7 @@ Tile.create!([
   # Minions
   { name: 'Mummies - Alt', description: '',
     role: 'Minion', move: '2', armor: '3', cost: '2',
-    melee: '2 Orange', ranged: '–', bone_ids: [3, 3], dice: { melee: [3, 3] },
+    melee: '2 Orange', ranged: '-', bone_ids: [3, 3], dice: { melee: [3, 3] },
     origin: 'Stretch Goal', count: '1', skill_ids: [],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Mummies.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/MummiesAlt.png',
@@ -691,7 +691,7 @@ Tile.create!([
 
   { name: 'Mummies - Blue Alt', description: '',
     role: 'Minion', move: '2', armor: '3', cost: '2',
-    melee: '2 Orange', ranged: '–', bone_ids: [3, 3], dice: { melee: [3, 3] },
+    melee: '2 Orange', ranged: '-', bone_ids: [3, 3], dice: { melee: [3, 3] },
     origin: 'Stretch Goal', count: '1', skill_ids: [],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Mummies.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/MummiesBlueAlt.png',
@@ -699,7 +699,7 @@ Tile.create!([
 
   { name: 'Pict Archers', description: '',
     role: 'Minion', move: '2', armor: '1', cost: '2',
-    melee: '–', ranged: 'Yellow, Yellow-Reroll', bone_ids: [5, 6], dice: { ranged: [5, 6] },
+    melee: '-', ranged: 'Yellow, Yellow-Reroll', bone_ids: [5, 6], dice: { ranged: [5, 6] },
     origin: 'Stretch Goal', count: '1', skill_ids: [16, 30],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/PictArchers.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/PictArchers.png',
@@ -707,7 +707,7 @@ Tile.create!([
 
   { name: 'Pict Archers - Orange', description: '',
     role: 'Minion', move: '2', armor: '1', cost: '2',
-    melee: '–', ranged: 'Yellow, Yellow-Reroll', bone_ids: [5, 6], dice: { ranged: [5, 6] },
+    melee: '-', ranged: 'Yellow, Yellow-Reroll', bone_ids: [5, 6], dice: { ranged: [5, 6] },
     origin: 'Stretch Goal', count: '1', skill_ids: [16, 30],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/PictArchers.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/PictArchersOrange.png',
@@ -715,7 +715,7 @@ Tile.create!([
 
   { name: 'Pict Warriors', description: '',
     role: 'Minion', move: '2', armor: '2', cost: '2',
-    melee: 'Red-Reroll', ranged: '–', bone_ids: [2], dice: { melee: [2] },
+    melee: 'Red-Reroll', ranged: '-', bone_ids: [2], dice: { melee: [2] },
     origin: 'Stretch Goal', count: '1', skill_ids: [10, 16],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/PictWarriors.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/PictWarriors.png',
@@ -723,7 +723,7 @@ Tile.create!([
 
   { name: 'Pirates - Alt', description: '',
     role: 'Minion', move: '2', armor: '2', cost: '1',
-    melee: '2 Yellow', ranged: '–', bone_ids: [5, 5], dice: { melee: [5, 5] },
+    melee: '2 Yellow', ranged: '-', bone_ids: [5, 5], dice: { melee: [5, 5] },
     origin: 'Stretch Goal', count: '1', skill_ids: [16, 30],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Pirates.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/PiratesAlt.png',
@@ -731,7 +731,7 @@ Tile.create!([
 
   { name: 'Pirates - Orange Alt', description: '',
     role: 'Minion', move: '2', armor: '2', cost: '1',
-    melee: '2 Yellow', ranged: '–', bone_ids: [5, 5], dice: { melee: [5, 5] },
+    melee: '2 Yellow', ranged: '-', bone_ids: [5, 5], dice: { melee: [5, 5] },
     origin: 'Stretch Goal', count: '1', skill_ids: [16, 30],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Pirates.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/PiratesOrangeAlt.png',
@@ -739,7 +739,7 @@ Tile.create!([
 
   { name: 'Skeletons - Alt', description: '',
     role: 'Minion', move: '2', armor: '0', cost: '1',
-    melee: 'Orange', ranged: '–', bone_ids: [3], dice: { melee: [3] },
+    melee: 'Orange', ranged: '-', bone_ids: [3], dice: { melee: [3] },
     origin: 'Stretch Goal', count: '1', skill_ids: [],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Skeletons.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SkeletonsAlt.png',
@@ -747,7 +747,7 @@ Tile.create!([
 
   { name: 'Skeletons - Red Alt', description: '',
     role: 'Minion', move: '2', armor: '0', cost: '1',
-    melee: 'Orange', ranged: '–', bone_ids: [3], dice: { melee: [3] },
+    melee: 'Orange', ranged: '-', bone_ids: [3], dice: { melee: [3] },
     origin: 'Stretch Goal', count: '1', skill_ids: [],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Skeletons.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SkeletonsRedAlt.png',
@@ -755,7 +755,7 @@ Tile.create!([
 
   { name: 'Tentacles', description: '',
     role: 'Minion', move: '0', armor: '2', cost: '2',
-    melee: 'Orange-Reroll, Orange', ranged: '–', bone_ids: [4, 3], dice: { melee: [4, 3] },
+    melee: 'Orange-Reroll, Orange', ranged: '-', bone_ids: [4, 3], dice: { melee: [4, 3] },
     origin: 'Stretch Goal', count: '1', skill_ids: [1, 3],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Tentacles.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Tentacles.png',
@@ -763,7 +763,7 @@ Tile.create!([
 
   { name: 'Tentacles - Blue', description: '',
     role: 'Minion', move: '0', armor: '2', cost: '2',
-    melee: 'Orange-Reroll, Orange', ranged: '–', bone_ids: [4, 3], dice: { melee: [4, 3] },
+    melee: 'Orange-Reroll, Orange', ranged: '-', bone_ids: [4, 3], dice: { melee: [4, 3] },
     origin: 'Stretch Goal', count: '1', skill_ids: [1, 3],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Tentacles.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/TentaclesBlue.png',
@@ -771,7 +771,7 @@ Tile.create!([
 
   { name: 'Tentacles - Orange', description: '',
     role: 'Minion', move: '0', armor: '2', cost: '2',
-    melee: 'Orange-Reroll, Orange', ranged: '–', bone_ids: [4, 3], dice: { melee: [4, 3] },
+    melee: 'Orange-Reroll, Orange', ranged: '-', bone_ids: [4, 3], dice: { melee: [4, 3] },
     origin: 'Stretch Goal', count: '1', skill_ids: [1, 3],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Tentacles.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/TentaclesOrange.png',
@@ -779,7 +779,7 @@ Tile.create!([
 
   { name: 'Tentacles - Red', description: '',
     role: 'Minion', move: '0', armor: '2', cost: '2',
-    melee: 'Orange-Reroll, Orange', ranged: '–', bone_ids: [4, 3], dice: { melee: [4, 3] },
+    melee: 'Orange-Reroll, Orange', ranged: '-', bone_ids: [4, 3], dice: { melee: [4, 3] },
     origin: 'Stretch Goal', count: '1', skill_ids: [1, 3],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Tentacles.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/TentaclesRed.png',
@@ -790,7 +790,7 @@ Tile.create!([
   # Baal Pteor
   { name: 'Baal Pteor', description: '',
     role: 'Leader', move: '2', armor: '3',
-    melee: 'Red-Reroll, 2 Red', ranged: '–', bone_ids: [2, 1, 1], dice: { melee: [2, 1, 1] },
+    melee: 'Red-Reroll, 2 Red', ranged: '-', bone_ids: [2, 1, 1], dice: { melee: [2, 1, 1] },
     origin: 'Baal Pteor', count: '2', skill_ids: [10, 5],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/BaalPteor.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BaalPteor.png',
@@ -799,7 +799,7 @@ Tile.create!([
   # Black Dragons
   { name: 'Black Dragons', description: "King Conan's personal bodyguard",
     role: 'Ally', move: '2', armor: '2',
-    melee: 'Red-Reroll', ranged: '–', bone_ids: [2], dice: { melee: [2] },
+    melee: 'Red-Reroll', ranged: '-', bone_ids: [2], dice: { melee: [2] },
     origin: 'Black Dragons', count: '1', skill_ids: [7, 29],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/BlackDragons.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BlackDragons.png',
@@ -808,7 +808,7 @@ Tile.create!([
   # Black Ones
   { name: 'The Black Ones', description: "",
     role: 'Minion', move: '3', armor: '3',
-    melee: '2 Orange', ranged: '–', bone_ids: [3, 3], dice: { melee: [3, 3] },
+    melee: '2 Orange', ranged: '-', bone_ids: [3, 3], dice: { melee: [3, 3] },
     origin: 'Black Ones', count: '1', skill_ids: [5, 26],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/BlackOnes.jpg',
     tile_image: 'https://drabelpdx.s3-us-west-2.amazonaws.com/Conan/tiles/BlackOnes.png',
@@ -816,7 +816,7 @@ Tile.create!([
 
   { name: 'The Black Ones - Green', description: "",
     role: 'Minion', move: '3', armor: '3',
-    melee: '2 Orange', ranged: '–', bone_ids: [3, 3], dice: { melee: [3, 3] },
+    melee: '2 Orange', ranged: '-', bone_ids: [3, 3], dice: { melee: [3, 3] },
     origin: 'Black Ones', count: '1', skill_ids: [5, 26],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/BlackOnes.jpg',
     tile_image: 'https://drabelpdx.s3-us-west-2.amazonaws.com/Conan/tiles/BlackOnesGreen.png',
@@ -824,7 +824,7 @@ Tile.create!([
 
   { name: 'The Black Ones - Purple', description: "",
     role: 'Minion', move: '3', armor: '3',
-    melee: '2 Orange', ranged: '–', bone_ids: [3, 3], dice: { melee: [3, 3] },
+    melee: '2 Orange', ranged: '-', bone_ids: [3, 3], dice: { melee: [3, 3] },
     origin: 'Black Ones', count: '1', skill_ids: [5, 26],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/BlackOnes.jpg',
     tile_image: 'https://drabelpdx.s3-us-west-2.amazonaws.com/Conan/tiles/BlackOnesPurple.png',
@@ -833,7 +833,7 @@ Tile.create!([
   # Crossbowmen
   { name: 'Crossbowmen', description: '',
     role: 'Minion', move: '2', armor: '1', cost: '2',
-    melee: '–', ranged: 'Red', bone_ids: [1], dice: { ranged: [1] },
+    melee: '-', ranged: 'Red', bone_ids: [1], dice: { ranged: [1] },
     origin: 'Crossbowmen', count: '1', skill_ids: [8, 29],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Crossbowmen.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Crossbowmen.png',
@@ -841,7 +841,7 @@ Tile.create!([
 
   { name: 'Crossbowmen - Green', description: 'An elite troop of sharpshooters',
     role: 'Minion', move: '2', armor: '0', cost: '3',
-    melee: '–', ranged: 'Red-Reroll', bone_ids: [2], dice: { ranged: [2] },
+    melee: '-', ranged: 'Red-Reroll', bone_ids: [2], dice: { ranged: [2] },
     origin: 'Crossbowmen', count: '1', skill_ids: [8, 9],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Crossbowmen.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/CrossbowmenGreen.png',
@@ -849,7 +849,7 @@ Tile.create!([
 
   { name: 'Crossbowmen - Red', description: '',
     role: 'Minion', move: '2', armor: '1', cost: '2',
-    melee: '–', ranged: 'Red', bone_ids: [1], dice: { ranged: [1] },
+    melee: '-', ranged: 'Red', bone_ids: [1], dice: { ranged: [1] },
     origin: 'Crossbowmen', count: '1', skill_ids: [8, 29],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Crossbowmen.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/CrossbowmenRed.png',
@@ -858,7 +858,7 @@ Tile.create!([
   # Demon of the Earth
   { name: 'Demon of the Earth', description: '',
     role: 'Monster', move: '2', armor: '3',
-    melee: '4 Orange', ranged: '–', bone_ids: [3, 3, 3, 3], dice: { melee: [3, 3, 3, 3] },
+    melee: '4 Orange', ranged: '-', bone_ids: [3, 3, 3, 3], dice: { melee: [3, 3, 3, 3] },
     origin: 'Demon of the Earth', count: '2', skill_ids: [11, 10],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/DemonEarth.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/DemonEarth.png',
@@ -867,7 +867,7 @@ Tile.create!([
   # Dragon
   { name: 'Dragon', description: '',
     role: 'Monster', move: '3', armor: '5',
-    melee: '4 Red-Reroll', ranged: '–', bone_ids: [2, 2, 2, 2], dice: { melee: [2, 2, 2, 2] },
+    melee: '4 Red-Reroll', ranged: '-', bone_ids: [2, 2, 2, 2], dice: { melee: [2, 2, 2, 2] },
     origin: 'Dragon', count: '2', skill_ids: [11, 10],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Dragon.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Dragon.png',
@@ -876,7 +876,7 @@ Tile.create!([
   # Giant Wolves
   { name: 'Giant Wolves', description: '',
     role: 'Minion', move: '5', armor: '1', cost: '2',
-    melee: 'Red', ranged: '–', bone_ids: [1], dice: { melee: [1] },
+    melee: 'Red', ranged: '-', bone_ids: [1], dice: { melee: [1] },
     origin: 'Giant Wolves', count: '3', skill_ids: [12, 16],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/ZelataWolf.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/GiantWolves.png',
@@ -885,7 +885,7 @@ Tile.create!([
   # Sabertooth Tiger
   { name: 'Sabertooth Tiger', description: '',
     role: 'Monster', move: '4', armor: '1',
-    melee: 'Red, Orange', ranged: '–', bone_ids: [1, 3], dice: { melee: [1, 3] },
+    melee: 'Red, Orange', ranged: '-', bone_ids: [1, 3], dice: { melee: [1, 3] },
     origin: 'Sabertooth Tiger', count: '2', skill_ids: [16],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/SabertoothTiger.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SabertoothTiger.png',
@@ -894,7 +894,7 @@ Tile.create!([
   # Witch Hunters Add-Ons
   { name: 'Afari', description: 'Witch Hunter Warlord',
     role: 'Leader', move: '2', armor: '3',
-    melee: '2 Red', ranged: '–', bone_ids: [1, 1], dice: { melee: [1, 1] },
+    melee: '2 Red', ranged: '-', bone_ids: [1, 1], dice: { melee: [1, 1] },
     origin: 'Kushite Witch Hunters', count: '1', skill_ids: [5, 7],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Afari.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Afari.png',
@@ -902,7 +902,7 @@ Tile.create!([
 
   { name: 'Ghayoor', description: 'Witch Hunter Bodyguard',
     role: 'Leader', move: '2', armor: '3',
-    melee: '2 Orange', ranged: '–', bone_ids: [3, 3], dice: { melee: [3, 3] },
+    melee: '2 Orange', ranged: '-', bone_ids: [3, 3], dice: { melee: [3, 3] },
     origin: 'Kushite Witch Hunters', count: '1', skill_ids: [5, 29],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Ghayoor.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Ghayoor.png',
@@ -910,7 +910,7 @@ Tile.create!([
 
   { name: 'Shafiah', description: 'Witch Hunter Bodyguard',
     role: 'Leader', move: '2', armor: '3',
-    melee: '2 Orange', ranged: '–', bone_ids: [3, 3], dice: { melee: [3, 3] },
+    melee: '2 Orange', ranged: '-', bone_ids: [3, 3], dice: { melee: [3, 3] },
     origin: 'Kushite Witch Hunters', count: '1', skill_ids: [5, 29],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Shafiah.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Shafiah.png',
@@ -918,7 +918,7 @@ Tile.create!([
 
   { name: 'Shubba', description: 'Witch Hunter Sorcerer',
     role: 'Leader', move: '2', armor: '1',
-    melee: '2 Yellow', ranged: '–', bone_ids: [5, 5], dice: { melee: [5, 5] },
+    melee: '2 Yellow', ranged: '-', bone_ids: [5, 5], dice: { melee: [5, 5] },
     origin: 'Kushite Witch Hunters', count: '1', skill_ids: [22, 33],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Shubba.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Shubba.png',
@@ -927,7 +927,7 @@ Tile.create!([
   # Vanir Valkyrie
   { name: 'Vanir Valkyrie', description: 'Not Red Sonja',
     role: 'Hero', move: '3', armor: '3',
-    melee: '3 Orange-Reroll', ranged: '–', bone_ids: [4, 4, 4], dice: { melee: [4, 4, 4] },
+    melee: '3 Orange-Reroll', ranged: '-', bone_ids: [4, 4, 4], dice: { melee: [4, 4, 4] },
     origin: 'Vanir Valkyrie', count: '2', skill_ids: [5, 12],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/VanirValkyrie.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/VanirValkyrie.png',
@@ -936,7 +936,7 @@ Tile.create!([
   # Paolo Parente Guest Box
   { name: 'Salome', description: 'Taramis’ Evil Sister',
     role: 'Leader', move: '2', armor: '1',
-    melee: 'Yellow', ranged: '–', bone_ids: [5], dice: { melee: [5] },
+    melee: 'Yellow', ranged: '-', bone_ids: [5], dice: { melee: [5] },
     origin: 'Paolo Parente Box', count: '2', skill_ids: [33, 32],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Taramis.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Salome.png',
@@ -947,7 +947,7 @@ Tile.create!([
   # Nordheim Expansion
   { name: 'Atali', description: 'The Frost-Giant’s Daughter',
     role: 'Leader', move: '3', armor: '0',
-    melee: 'Yellow', ranged: '–', bone_ids: [5], dice: { melee: [5] },
+    melee: 'Yellow', ranged: '-', bone_ids: [5], dice: { melee: [5] },
     origin: 'Nordheim Expansion', count: '3', skill_ids: [33],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Atali.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Atali.png',
@@ -955,7 +955,7 @@ Tile.create!([
 
   { name: 'Yazdigerd', description: '',
     role: 'Leader', move: '2', armor: '2',
-    melee: 'Yellow', ranged: '–', bone_ids: [5], dice: { melee: [5] },
+    melee: 'Yellow', ranged: '-', bone_ids: [5], dice: { melee: [5] },
     origin: 'Nordheim Expansion', count: '2', skill_ids: [33],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Skuthus.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Yazdigerd.png',
@@ -963,7 +963,7 @@ Tile.create!([
 
   { name: 'Nijgor', description: 'Atali’s Brother',
     role: 'Monster', move: '3', armor: '1',
-    melee: '2 Red', ranged: '–', bone_ids: [1, 1], dice: { melee: [1, 1] },
+    melee: '2 Red', ranged: '-', bone_ids: [1, 1], dice: { melee: [1, 1] },
     origin: 'Nordheim Expansion', count: '2', skill_ids: [25],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Nijgor.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Nijgor.png',
@@ -971,7 +971,7 @@ Tile.create!([
 
   { name: 'Seski', description: 'Atali’s Brother',
     role: 'Monster', move: '2', armor: '2',
-    melee: '2 Red', ranged: '–', bone_ids: [1, 1], dice: { melee: [1, 1] },
+    melee: '2 Red', ranged: '-', bone_ids: [1, 1], dice: { melee: [1, 1] },
     origin: 'Nordheim Expansion', count: '2', skill_ids: [25],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Seski.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Seski.png',
@@ -979,7 +979,7 @@ Tile.create!([
 
   { name: 'Vanir Warriors', description: '',
     role: 'Minion', move: '2', armor: '1', cost: '1',
-    melee: '2 Yellow-Reroll', ranged: '–', bone_ids: [6, 6], dice: { melee: [6, 6] },
+    melee: '2 Yellow-Reroll', ranged: '-', bone_ids: [6, 6], dice: { melee: [6, 6] },
     origin: 'Nordheim Expansion', count: '1', skill_ids: [],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/VanirWarriors.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/VanirWarriors.png',
@@ -987,7 +987,7 @@ Tile.create!([
 
   { name: 'Vanir Warriors - Blue', description: '',
     role: 'Minion', move: '2', armor: '1', cost: '1',
-    melee: '2 Yellow-Reroll', ranged: '–', bone_ids: [6, 6], dice: { melee: [6, 6] },
+    melee: '2 Yellow-Reroll', ranged: '-', bone_ids: [6, 6], dice: { melee: [6, 6] },
     origin: 'Nordheim Expansion', count: '1', skill_ids: [5],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/VanirWarriors.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/VanirWarriorsBlue.png',
@@ -995,7 +995,7 @@ Tile.create!([
 
   { name: 'Vanir Warriors - Purple', description: '',
     role: 'Minion', move: '2', armor: '1', cost: '1',
-    melee: '2 Yellow-Reroll', ranged: '–', bone_ids: [6, 6], dice: { melee: [6, 6] },
+    melee: '2 Yellow-Reroll', ranged: '-', bone_ids: [6, 6], dice: { melee: [6, 6] },
     origin: 'Nordheim Expansion', count: '1', skill_ids: [5],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/VanirWarriors.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/VanirWarriorsPurple.png',
@@ -1003,7 +1003,7 @@ Tile.create!([
 
   { name: 'Vanir Zombies - Green', description: '',
     role: 'Minion', move: '1', armor: '1', cost: '1',
-    melee: 'Orange', ranged: '–', bone_ids: [3], dice: { melee: [3] },
+    melee: 'Orange', ranged: '-', bone_ids: [3], dice: { melee: [3] },
     origin: 'Nordheim Expansion', count: '1', skill_ids: [3],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/VanirWarriors.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/VanirZombiesGreen.png',
@@ -1011,7 +1011,7 @@ Tile.create!([
 
   { name: 'Vanir Zombies - Red', description: '',
     role: 'Minion', move: '1', armor: '1', cost: '1',
-    melee: 'Orange', ranged: '–', bone_ids: [3], dice: { melee: [3] },
+    melee: 'Orange', ranged: '-', bone_ids: [3], dice: { melee: [3] },
     origin: 'Nordheim Expansion', count: '1', skill_ids: [3],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/VanirWarriors.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/VanirZombiesRed.png',
@@ -1019,7 +1019,7 @@ Tile.create!([
 
   { name: 'Vanir Primitives', description: '',
     role: 'Minion', move: '2', armor: '1', cost: '1',
-    melee: '2 Orange', ranged: '–', bone_ids: [3, 3], dice: { melee: [3, 3] },
+    melee: '2 Orange', ranged: '-', bone_ids: [3, 3], dice: { melee: [3, 3] },
     origin: 'Nordheim Expansion', count: '1', skill_ids: [],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/PictHunters.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/VanirPrimitives.png',
@@ -1027,7 +1027,7 @@ Tile.create!([
 
   { name: 'Vanir Primitives - Red', description: '',
     role: 'Minion', move: '2', armor: '1', cost: '1',
-    melee: '2 Orange', ranged: '–', bone_ids: [3, 3], dice: { melee: [3, 3] },
+    melee: '2 Orange', ranged: '-', bone_ids: [3, 3], dice: { melee: [3, 3] },
     origin: 'Nordheim Expansion', count: '1', skill_ids: [],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/PictHunters.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/VanirPrimitivesRed.png',
@@ -1035,7 +1035,7 @@ Tile.create!([
 
   { name: 'Crows', description: '',
     role: 'Minion', move: '5', armor: '1', cost: '1',
-    melee: 'Yellow', ranged: '–', bone_ids: [5], dice: { melee: [5] },
+    melee: 'Yellow', ranged: '-', bone_ids: [5], dice: { melee: [5] },
     origin: 'Nordheim Expansion', count: '1', skill_ids: [18, 26],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Crows.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Crows.png',
@@ -1043,7 +1043,7 @@ Tile.create!([
 
   { name: 'Crows - Red', description: '',
     role: 'Minion', move: '5', armor: '1', cost: '1',
-    melee: 'Yellow', ranged: '–', bone_ids: [5], dice: { melee: [5] },
+    melee: 'Yellow', ranged: '-', bone_ids: [5], dice: { melee: [5] },
     origin: 'Nordheim Expansion', count: '1', skill_ids: [18, 26],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Crows.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/CrowsRed.png',
@@ -1051,7 +1051,7 @@ Tile.create!([
 
   { name: 'Wolves', description: '',
     role: 'Minion', move: '5', armor: '0', cost: '1',
-    melee: 'Orange', ranged: '–', bone_ids: [3], dice: { melee: [3] },
+    melee: 'Orange', ranged: '-', bone_ids: [3], dice: { melee: [3] },
     origin: 'Nordheim Expansion', count: '1', skill_ids: [12, 16],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/ZelataWolf.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Wolves.png',
@@ -1059,7 +1059,7 @@ Tile.create!([
 
   { name: 'Aesir Zombies - Purple', description: '',
     role: 'Minion', move: '2', armor: '2', cost: '3',
-    melee: 'Red', ranged: '–', bone_ids: [1], dice: { melee: [1] },
+    melee: 'Red', ranged: '-', bone_ids: [1], dice: { melee: [1] },
     origin: 'Nordheim Expansion', count: '1', skill_ids: [7, 10],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/AesirWarriors.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AesirZombiesPurple.png',
@@ -1067,7 +1067,7 @@ Tile.create!([
 
   { name: 'Aesir Warriors', description: '',
     role: 'Ally', move: '2', armor: '2', cost: '1',
-    melee: 'Orange, Yellow', ranged: '–', bone_ids: [3, 5], dice: { melee: [3, 5] },
+    melee: 'Orange, Yellow', ranged: '-', bone_ids: [3, 5], dice: { melee: [3, 5] },
     origin: 'Nordheim Expansion', count: '1', skill_ids: [],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/AesirWarriors.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AesirWarriors.png',
@@ -1075,7 +1075,7 @@ Tile.create!([
 
   { name: 'Aesir Warriors - Red', description: '',
     role: 'Ally', move: '2', armor: '0', cost: '1',
-    melee: 'Orange', ranged: '–', bone_ids: [3], dice: { melee: [3] },
+    melee: 'Orange', ranged: '-', bone_ids: [3], dice: { melee: [3] },
     origin: 'Nordheim Expansion', count: '1', skill_ids: [12],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/AesirWarriors.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AesirWarriorsRed.png',
@@ -1084,7 +1084,7 @@ Tile.create!([
   # Khitai Expansion
   { name: 'Shuang Mian', description: '',
     role: 'Leader', move: '2', armor: '1',
-    melee: '2 Orange', ranged: '–', bone_ids: [3, 3], dice: { melee: [3, 3] },
+    melee: '2 Orange', ranged: '-', bone_ids: [3, 3], dice: { melee: [3, 3] },
     origin: 'Khitai Expansion', count: '2', skill_ids: [22, 33],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/ShuangMian.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShuangMian.png',
@@ -1092,7 +1092,7 @@ Tile.create!([
 
   { name: 'Evil Hound', description: '',
     role: 'Monster', move: '2', armor: '2',
-    melee: '2 Red', ranged: '–', bone_ids: [1, 1], dice: { melee: [1, 1] },
+    melee: '2 Red', ranged: '-', bone_ids: [1, 1], dice: { melee: [1, 1] },
     origin: 'Khitai Expansion', count: '2', skill_ids: [],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/DarkDemon.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/EvilHound.png',
@@ -1100,7 +1100,7 @@ Tile.create!([
 
   { name: 'Khitan Guards', description: '',
     role: 'Minion', move: '2', armor: '1', cost: '1',
-    melee: '2 Yellow', ranged: '–', bone_ids: [5, 5], dice: { melee: [5, 5] },
+    melee: '2 Yellow', ranged: '-', bone_ids: [5, 5], dice: { melee: [5, 5] },
     origin: 'Khitai Expansion', count: '1', skill_ids: [10],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/KhitanGuards.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/KhitanGuards.png',
@@ -1108,7 +1108,7 @@ Tile.create!([
 
   { name: 'Khitan Guards - Red', description: '',
     role: 'Minion', move: '2', armor: '1', cost: '1',
-    melee: '2 Yellow', ranged: '–', bone_ids: [5, 5], dice: { melee: [5, 5] },
+    melee: '2 Yellow', ranged: '-', bone_ids: [5, 5], dice: { melee: [5, 5] },
     origin: 'Khitai Expansion', count: '1', skill_ids: [10],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/KhitanGuards.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/KhitanGuardsRed.png',
@@ -1116,7 +1116,7 @@ Tile.create!([
 
   { name: 'Honor Guards', description: '',
     role: 'Minion', move: '2', armor: '2', cost: '2',
-    melee: '2 Orange', ranged: '–', bone_ids: [3, 3], dice: { melee: [3, 3] },
+    melee: '2 Orange', ranged: '-', bone_ids: [3, 3], dice: { melee: [3, 3] },
     origin: 'Khitai Expansion', count: '1', skill_ids: [29],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/HonorGuards.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/HonorGuards.png',
@@ -1124,7 +1124,7 @@ Tile.create!([
 
   { name: 'Honor Guards - Green', description: '',
     role: 'Minion', move: '2', armor: '2', cost: '2',
-    melee: '2 Orange', ranged: '–', bone_ids: [3, 3], dice: { melee: [3, 3] },
+    melee: '2 Orange', ranged: '-', bone_ids: [3, 3], dice: { melee: [3, 3] },
     origin: 'Khitai Expansion', count: '1', skill_ids: [29],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/HonorGuards.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/HonorGuardsGreen.png',
@@ -1132,7 +1132,7 @@ Tile.create!([
 
   { name: 'Javelin Throwers', description: '',
     role: 'Minion', move: '3', armor: '1', cost: '2',
-    melee: '–', ranged: '2 Orange', bone_ids: [3, 3], dice: { ranged: [3, 3] },
+    melee: '-', ranged: '2 Orange', bone_ids: [3, 3], dice: { ranged: [3, 3] },
     origin: 'Khitai Expansion', count: '1', skill_ids: [8],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/JavelinThrowers.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/JavelinThrowers.png',
@@ -1140,7 +1140,7 @@ Tile.create!([
 
   { name: 'Javelin Throwers - Purple', description: '',
     role: 'Minion', move: '3', armor: '1', cost: '2',
-    melee: '–', ranged: '2 Orange', bone_ids: [3, 3], dice: { ranged: [3, 3] },
+    melee: '-', ranged: '2 Orange', bone_ids: [3, 3], dice: { ranged: [3, 3] },
     origin: 'Khitai Expansion', count: '1', skill_ids: [8],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/JavelinThrowers.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/JavelinThrowersPurple.png',
@@ -1148,7 +1148,7 @@ Tile.create!([
 
   { name: 'Foo Dogs', description: '',
     role: 'Minion', move: '5', armor: '2', cost: '1',
-    melee: '2 Yellow', ranged: '–', bone_ids: [5, 5], dice: { melee: [5, 5] },
+    melee: '2 Yellow', ranged: '-', bone_ids: [5, 5], dice: { melee: [5, 5] },
     origin: 'Khitai Expansion', count: '2', skill_ids: [7],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/FooDogs.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/FooDogs.png',
@@ -1157,7 +1157,7 @@ Tile.create!([
   # Stygia Expansion
   { name: 'Thoth-Amon', description: '',
     role: 'Leader', move: '2', armor: '1',
-    melee: '2 Orange', ranged: '–', bone_ids: [3, 3], dice: { melee: [3, 3] },
+    melee: '2 Orange', ranged: '-', bone_ids: [3, 3], dice: { melee: [3, 3] },
     origin: 'Stygia Expansion', count: '2', skill_ids: [33],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/ThotAmon.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ThotAmon.png',
@@ -1165,7 +1165,7 @@ Tile.create!([
 
   { name: 'Scorpion Broodmother', description: '',
     role: 'Monster', move: '2', armor: '3',
-    melee: 'Red, Orange, Yellow', ranged: '–', bone_ids: [1, 3, 5], dice: { melee: [1, 3, 5] },
+    melee: 'Red, Orange, Yellow', ranged: '-', bone_ids: [1, 3, 5], dice: { melee: [1, 3, 5] },
     origin: 'Stygia Expansion', count: '2', skill_ids: [10],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/ScorpionBroodmother.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ScorpionBroodmother.png',
@@ -1173,7 +1173,7 @@ Tile.create!([
 
   { name: 'Giant Scorpions', description: '',
     role: 'Minion', move: '4', armor: '0',
-    melee: 'Yellow', ranged: '–', bone_ids: [5], dice: { melee: [5] },
+    melee: 'Yellow', ranged: '-', bone_ids: [5], dice: { melee: [5] },
     origin: 'Stygia Expansion', count: '3', skill_ids: [27],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/GiantScorpions.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/GiantScorpions.png',
@@ -1181,7 +1181,7 @@ Tile.create!([
 
   { name: 'Eternal Guard', description: '',
     role: 'Minion', move: '2', armor: '2', cost: '1',
-    melee: 'Red, Orange', ranged: '–', bone_ids: [1, 3], dice: { melee: [1, 3] },
+    melee: 'Red, Orange', ranged: '-', bone_ids: [1, 3], dice: { melee: [1, 3] },
     origin: 'Stygia Expansion', count: '2', skill_ids: [],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/EternalGuard.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/EternalGuard.png',
@@ -1189,7 +1189,7 @@ Tile.create!([
 
   { name: 'Eternal Guard - Blue', description: '',
     role: 'Minion', move: '2', armor: '2', cost: '1',
-    melee: 'Red, Orange', ranged: '–', bone_ids: [1, 3], dice: { melee: [1, 3] },
+    melee: 'Red, Orange', ranged: '-', bone_ids: [1, 3], dice: { melee: [1, 3] },
     origin: 'Stygia Expansion', count: '1', skill_ids: [],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/EternalGuard.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/EternalGuardBlue.png',
@@ -1197,7 +1197,7 @@ Tile.create!([
 
   { name: 'Assassins', description: '',
     role: 'Minion', move: '3', armor: '0', cost: '2',
-    melee: '2 Red', ranged: '–', bone_ids: [1, 1], dice: { melee: [1, 1] },
+    melee: '2 Red', ranged: '-', bone_ids: [1, 1], dice: { melee: [1, 1] },
     origin: 'Stygia Expansion', count: '1', skill_ids: [],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Assassins.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Assassins.png',
@@ -1205,7 +1205,7 @@ Tile.create!([
 
   { name: 'Assassins  - Red', description: '',
     role: 'Minion', move: '3', armor: '0',
-    melee: '2 Red', ranged: '–', bone_ids: [1, 1], dice: { melee: [1, 1] },
+    melee: '2 Red', ranged: '-', bone_ids: [1, 1], dice: { melee: [1, 1] },
     origin: 'Stygia Expansion', count: '1', skill_ids: [],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/Assassins.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AssassinsRed.png',
@@ -1213,8 +1213,8 @@ Tile.create!([
 
   { name: 'Unknown Monster', description: '',
     role: 'Place Holder', move: '-', armor: '-',
-    melee: '-', ranged: '–', bone_ids: [], dice: {},
-    origin: 'None', count: '1', skill_ids: [],
+    melee: '-', ranged: '-', bone_ids: [], dice: {},
+    origin: 'None', count: '0', skill_ids: [],
     figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/UnknownMonster.png',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/UnknownMonster.png',
     token_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/UnknownMonsterToken.png' },

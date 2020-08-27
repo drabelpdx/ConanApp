@@ -94,6 +94,11 @@ $navbar-default-bg: #08088A;
   display: none;
 }
 
+#by_stat {
+  display: none;
+}
+
+
 #by_cost {
   display: none;
 }
@@ -148,11 +153,6 @@ h1.scenario {
   background-color: #3c763d;
 }
 
-
-
-
-
-
 .map a {
   color: #666666;
 }
@@ -167,6 +167,11 @@ h1.map {
 
 h2.map {
   color: #666666;
+}
+
+.btn-hero {
+  background-color: #d6e9c6;
+  color: #3c763d;
 }
 
 .hero a {
@@ -247,7 +252,7 @@ h2.tile {
 
 .panel-model {
   border-color: #ecd9c6;
-  color: white;
+  color: #996633;
 }
 
 .btn-model {
@@ -278,7 +283,7 @@ h2.model {
 
 .panel-spell {
   border-color: #f2ccff;
-  color: white;
+  color: #8600b3;
 }
 
 .btn-spell {
@@ -321,7 +326,6 @@ h2.spell {
   border-color:  #fbf3d0;
   color: white;
 }
-
 
 
 .btn-item {
@@ -377,7 +381,42 @@ h2.product {
 
 
 .hidden {
-  display: none
+  display: none;
+}
+
+.stats img {
+  width: 25px;
+  height: auto;
+}
+
+.stats th {
+  padding: 5px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  text-align: center;
+ }
+
+.tilestats th {
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+ }
+
+ .herostats th {
+   color: #3c763d;
+   background-color: #dff0d8;
+   border-color: #d6e9c6;
+  }
+
+.modelstats th {
+  background-color: #ecd9c6;
+  color: #996633;
+}
+
+.spellstats th {
+  background-color: #f2ccff;
+  color: #8600b3;
 }
 
 .thumbs img {

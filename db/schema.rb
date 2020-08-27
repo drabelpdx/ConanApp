@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_03_24_184122) do
+ActiveRecord::Schema.define(version: 2020_08_26_231229) do
 
   create_table "bone_tiles", force: :cascade do |t|
     t.integer "bone_id"
@@ -68,6 +68,7 @@ ActiveRecord::Schema.define(version: 2020_03_24_184122) do
     t.string "origin"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string "hero_sheet"
   end
 
   create_table "item_products", force: :cascade do |t|

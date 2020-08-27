@@ -41,76 +41,83 @@
         <% if @model.heroes.any? %>
         <br />
         <h4>Hero Sheet</h4>
-        <div class="herosheet">
           <% @model.heroes.each do |hero| %>
-          <a href="<%= hero_path(hero) %>">
-            <table class="table table-bordered hero_stats_mini">
-              <tr class="warning">
-                <th><%= image_tag "stats/melee.png" %><br />Melee</th>
-                <th><%= image_tag "stats/range.png" %><br />Range</th>
-                <th><%= image_tag "stats/defense.png" %><br />Defense</th>
-              </tr>
-              <tr class="active">
-                <td><%= hero.melee_dice %> die</td>
-                <td><%= hero.ranged_dice %> die</td>
-                <td><%= hero.defense_dice %> die</td>
-              </tr>
-              <tr class="active">
-                <td>Exertion Limit: <%= hero.melee_exertion %></td>
-                <td>Exertion Limit: <%= hero.ranged_exertion %></td>
-                <td></td>
-              </tr>
-              <tr class="warning">
-                <th><%= image_tag "stats/movement.png" %><br />Movement</th>
-                <th><%= image_tag "stats/manipulation.png" %><br />Manipulation</th>
-                <th><%= image_tag "stats/life.png" %><br />Life Points</th>
-              </tr>
-              <tr class="active">
-                <td><%= hero.movement_free %></td></td>
-                <td><%= hero.manipulation_dice %> die</td>
-                <td><%= hero.life %></td>
-              </tr>
-              <tr class="active">
-                <td>Exertion Limit:<%= hero.movement_exertion %></td>
-                <td>Exertion Limit:<%= hero.manipulation_exersion %></td>
-                <td></td>
-              </tr>
-            </table>
+          <% if hero.hero_sheet != '' %>
+            <%= link_to image_tag(hero.hero_sheet), hero_path(hero) %>
+            <br /><br />
+          <% else %>
 
-            <table class="table table-bordered hero_stats_mini">
-              <% if hero.skills.any? %>
-                <tr class="warning">
-                  <% hero.skills.each do |skill| %>
-                    <td class="thumbs">
-                      <%= image_tag("skills/#{skill.name}.png") %>
-                      <br /><%= skill.name %>
-                    </td>
-                  <% end%>
-                </tr>
-                <tr class="active">
-                  <% hero.skills.each_with_index do |skill, index| %>
-                    <td>
-                      <% if hero.encumbrance[index+3] %>
-                        Lost at: <%= hero.encumbrance[index+3] %>
+            <div class="herosheet">
+              <a href="<%= hero_path(hero) %>">
+                <table class="table table-bordered hero_stats_mini">
+                  <tr class="warning">
+                    <th><%= image_tag "stats/melee.png" %><br />Melee</th>
+                    <th><%= image_tag "stats/range.png" %><br />Range</th>
+                    <th><%= image_tag "stats/defense.png" %><br />Defense</th>
+                  </tr>
+                  <tr class="active">
+                    <td><%= hero.melee_dice %> die</td>
+                    <td><%= hero.ranged_dice %> die</td>
+                    <td><%= hero.defense_dice %> die</td>
+                  </tr>
+                  <tr class="active">
+                    <td>Exertion Limit: <%= hero.melee_exertion %></td>
+                    <td>Exertion Limit: <%= hero.ranged_exertion %></td>
+                    <td></td>
+                  </tr>
+                  <tr class="warning">
+                    <th><%= image_tag "stats/movement.png" %><br />Movement</th>
+                    <th><%= image_tag "stats/manipulation.png" %><br />Manipulation</th>
+                    <th><%= image_tag "stats/life.png" %><br />Life Points</th>
+                  </tr>
+                  <tr class="active">
+                    <td><%= hero.movement_free %></td></td>
+                    <td><%= hero.manipulation_dice %> die</td>
+                    <td><%= hero.life %></td>
+                  </tr>
+                  <tr class="active">
+                    <td>Exertion Limit:<%= hero.movement_exertion %></td>
+                    <td>Exertion Limit:<%= hero.manipulation_exersion %></td>
+                    <td></td>
+                  </tr>
+                </table>
+
+                <table class="table table-bordered hero_stats_mini">
+                  <% if hero.skills.any? %>
+                    <tr class="warning">
+                      <% hero.skills.each do |skill| %>
+                        <td class="thumbs">
+                          <%= image_tag("skills/#{skill.name}.png") %>
+                          <br /><%= skill.name %>
+                        </td>
+                      <% end%>
+                    </tr>
+                    <tr class="active">
+                      <% hero.skills.each_with_index do |skill, index| %>
+                        <td>
+                          <% if hero.encumbrance[index+3] %>
+                            Lost at: <%= hero.encumbrance[index+3] %>
+                          <% end %>
+                        </td>
                       <% end %>
-                    </td>
+                    </tr>
                   <% end %>
-                </tr>
-              <% end %>
-              <tr class="warning">
-                <th><%= image_tag "stats/encumbrance.png" %><br />Encumbrance</th>
-                <th><%= image_tag "stats/move_encum1.png" %><br />Move -1</th>
-                <th><%= image_tag "stats/move_encum2.png" %><br />Move -2</th>
-              </tr>
-              <tr class="active">
-                <td>Total: <%= hero.encumbrance[0] %></td>
-                <td>Lost at: <%= hero.encumbrance[1] %></td>
-                <td>Lost at: <%= hero.encumbrance[2] %></td>
-              </tr>
-            </table>
-          <% end%>
-          </a>
+                  <tr class="warning">
+                    <th><%= image_tag "stats/encumbrance.png" %><br />Encumbrance</th>
+                    <th><%= image_tag "stats/move_encum1.png" %><br />Move -1</th>
+                    <th><%= image_tag "stats/move_encum2.png" %><br />Move -2</th>
+                  </tr>
+                  <tr class="active">
+                    <td>Total: <%= hero.encumbrance[0] %></td>
+                    <td>Lost at: <%= hero.encumbrance[1] %></td>
+                    <td>Lost at: <%= hero.encumbrance[2] %></td>
+                  </tr>
+                </table>
+                <% end%>
+              </a>
           </div>
+        <% end %>
+
         <% end %>
 
         <% if @model.tiles.any? %>

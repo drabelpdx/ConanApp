@@ -4,7 +4,17 @@
 <% end %>
 
 <p>Click on a hero to see their stats and any scenarios they appear in.</p>
-<div class="row">
+<p>Tiles can be sorted by:
+    <ul>
+      <li>the box <strong>(origin)</strong> the sheet came in</li>
+      <li><strong>All</strong> heroes listed with their stats</li>
+    </ul>
+<div align="center">
+  <a href="" id="show_byorigin" class="toggles"><button class="btn btn-hero active">By Origin</button></a>
+  <a href="" id="show_bystat" class="toggles"><button class="btn btn-hero">All / Stats</button></a>
+</div>
+<hr>
+<div class="row" id="by_origin">
   <div class="col-md-6 col-sm-6">
     <div class="panel panel-success">
       <div class="panel-heading">Core Game Heroes</div>
@@ -120,3 +130,64 @@
     </div>
   </div>
 </div>
+
+<div class="row" id="by_stat">
+  <div class="panel panel-success">
+    <div class="panel-heading">All Heroes / Stats</div>
+    <table class="table stats herostats">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Melee (e)</th>
+          <th>Ranged (e)</th>
+          <th>Defense</th>
+          <th>Move (e)</th>
+          <th>Manipu (e)</th>
+          <th>Life</th>
+          <th>Encumb</th>
+          <th>Skills</th>
+        </tr>
+      </thead>
+      <% @heroes.sort_by {|hero| hero.name }.each do |hero| %>
+        <tr>
+          <td class="hero"><%= link_to hero.name, hero_path(hero) %></td>
+          <td class="stats"><%= image_tag "dice/#{hero.melee_dice}.png", :title => hero.melee_dice %> &nbsp;&nbsp;<%= hero.melee_exertion %></td>
+          <td class="stats"><%= image_tag "dice/#{hero.ranged_dice}.png", :title => hero.ranged_dice %> &nbsp;&nbsp;<%= hero.ranged_exertion %></td>
+          <td class="stats"><%= image_tag "dice/#{hero.defense_dice}.png", :title => hero.defense_dice %></td>
+          <td><%= hero.movement_free %> &nbsp;(<%= hero.movement_exertion %>)</td>
+          <td class="stats"><%= image_tag "dice/#{hero.manipulation_dice}.png", :title => hero.manipulation_dice %> &nbsp;&nbsp;<%= hero.manipulation_exersion %></td>
+          <td><%= hero.life %></td>
+          <td><%= hero.encumbrance[0] %></td>
+          <td class="stats"><% if hero.skills.any? %>
+            <% hero.skills.each do |skill| %>
+              <%= link_to image_tag("skills/#{skill.name}.png", :title => "#{skill.name}"), skill_path(skill) %>
+              <% end%>
+            <% end%>
+          </td>
+        </tr>
+      <% end %>
+    </table>
+  </div>
+  <p>(e) = Exertion Limit</p>
+</div>
+
+<script>
+  $(document).ready(function() {
+    $('a#show_byorigin').click(function(event){
+      event.preventDefault();
+      $('a.toggles').children().removeClass('active');
+      $('a#show_byorigin').children().addClass('active');
+      $('div#by_stat').hide();
+      $('div#by_origin').show();
+    });
+
+    $('a#show_bystat').click(function(event){
+      event.preventDefault();
+      $('a.toggles').children().removeClass('active');
+      $('a#show_bystat').children().addClass('active');
+      $('div#by_origin').hide();
+      $('div#by_stat').show();
+    });
+  });
+
+</script>

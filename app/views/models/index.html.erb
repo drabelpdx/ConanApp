@@ -8,10 +8,13 @@
       <ul>
         <li>the box <strong>(origin)</strong> the model came in</li>
         <li>the <strong>type</strong> of unit the model represents</li>
+        <li><strong>All</strong> models listed with their stats</li>
       </ul>
 <div align="center">
   <a href="" id="show_byorigin" class="toggles"><button class="btn btn-model active">By Origin</button></a>
   <a href="" id="show_bytype" class="toggles"><button class="btn btn-model">By Type</button></a>
+  <a href="" id="show_bystat" class="toggles"><button class="btn btn-model">All / Stats</button></a>
+
 </div>
 <hr>
 <div id="by_origin">
@@ -257,6 +260,39 @@
   </div>
 </div>
 
+<div id="by_stat">
+  <div class="row">
+    <div class="col-md-1 col-sm-1"></div>
+    <div class="col-md-10 col-sm-6">
+      <div class="panel panel-model">
+        <div class="panel-heading">All Models / Stats</div>
+          <table class="table stats modelstats">
+            <thead>
+              <tr>
+                <th>Character/Model Name</th>
+                <th># of Models</th>
+                <th>Role</th>
+                <th>Origin</th>
+                <th>Character Tile(s)</th>
+                <th>Hero Sheet</th>
+              </tr>
+            </thead>
+            <% @models.sort_by {|model| model.name }.each do |model| %>
+              <tr>
+                <td class="model"><%= link_to model.name, model_path(model) %></td>
+                <td><%= model.count %></td>
+                <td><%= model.role %></td>
+                <td><%= model.origin %></td>
+                <td><% if model.tiles.any? %> &#x2714; <% end %></td>
+                <td><% if model.heroes.any? %> &#x2714; <% end %></td>
+              </tr>
+          <% end %>
+        </table>
+      </div></div>
+      <div class="col-md-1 col-sm-1"></div>
+    </div>
+  </div>
+
  <script>
    $(document).ready(function() {
      $('a#show_byorigin').click(function(event){
@@ -264,6 +300,7 @@
        $('a.toggles').children().removeClass('active');
        $('a#show_byorigin').children().addClass('active');
        $('div#by_type').hide();
+       $('div#by_stat').hide();
        $('div#by_origin').show();
      });
 
@@ -272,8 +309,19 @@
        $('a.toggles').children().removeClass('active');
        $('a#show_bytype').children().addClass('active');
        $('div#by_origin').hide();
+       $('div#by_stat').hide();
        $('div#by_type').show();
      });
 
+     $('a#show_bystat').click(function(event){
+       event.preventDefault();
+       $('a.toggles').children().removeClass('active');
+       $('a#show_bystat').children().addClass('active');
+       $('div#by_origin').hide();
+       $('div#by_type').hide();
+       $('div#by_stat').show();
+     });
+
    });
+
  </script>

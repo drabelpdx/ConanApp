@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '5.2.4'
+gem 'rails', '5.2.4.3'
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '3.1.13'
 gem 'bootstrap-will_paginate', '1.0.0'
@@ -54,4 +54,4 @@ group :production do
   gem 'sprockets', '3.7.2'
 end
 
-ruby "2.5.1"
+ruby "2.7.1"

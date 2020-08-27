@@ -9,12 +9,15 @@
       <li>the box <strong>(origin)</strong> that the spell card came in</li>
       <li>the <strong>cost</strong> to cast it</li>
       <li>if it is an <strong>instant</strong>, <strong>area effect</strong>, or <strong>blank</strong> spell</li>
+      <li><strong>All</strong> spells listed with their stats</li>
     </ul>
 
 <div align="center">
   <a href="" id="show_byorigin" class="toggles"><button class="btn btn-spell active">By Origin</button></a>
   <a href="" id="show_bycost" class="toggles"><button class="btn btn-spell">By Cost</button></a>
   <a href="" id="show_bytype" class="toggles"><button class="btn btn-spell">Area/Instant</button></a>
+  <a href="" id="show_bystat" class="toggles"><button class="btn btn-spell">All / Stats</button></a>
+
 </div>
 <hr>
 
@@ -198,6 +201,41 @@
   </div>
 </div>
 
+<div id="by_stat">
+  <div class="row">
+    <div class="col-md-2 col-sm-2"></div>
+    <div class="col-md-8 col-sm-6">
+      <div class="panel panel-spell">
+        <div class="panel-heading">All Spells / Stats</div>
+          <table class="table stats spellstats">
+            <thead>
+              <tr>
+                <th>Spell Name</th>
+                <th>Cost</th>
+                <th>Limit</th>
+                <th>Instant</th>
+                <th>Area</th>
+                <th>Blank</th>
+                <th>Origin</th>
+              </tr>
+            </thead>
+            <% @spells.sort_by {|spell| spell.name }.each do |spell| %>
+              <tr>
+                <td class="spell"><%= link_to spell.name, spell_path(spell) %></td>
+                <td><% if spell.cost != '' %> <%= spell.cost %><% else %> - <% end %> </td>
+                <td><% if spell.limit != '' %> <%= spell.limit %><% else %> - <% end %> </td>
+                <td><% if spell.instant == 'Yes' %> &#x2714; <% else %> - <% end %></td>
+                <td><% if spell.area == 'Yes' %> &#x2714; <% else %> - <% end %></td>
+                <td><% if spell.description == 'Blank Card' %> &#x2714; <% else %> - <% end %></td>
+                <td><%= spell.origin %></td>
+              </tr>
+          <% end %>
+        </table>
+      </div></div>
+      <div class="col-md-2 col-sm-2"></div>
+    </div>
+  </div>
+
 <script>
   $(document).ready(function() {
     $('a#show_byorigin').click(function(event){
@@ -206,6 +244,7 @@
       $('a#show_byorigin').children().addClass('active');
       $('div#by_cost').hide();
       $('div#by_type').hide();
+      $('div#by_stat').hide();
       $('div#by_origin').show();
     });
 
@@ -215,6 +254,7 @@
       $('a#show_bycost').children().addClass('active');
       $('div#by_origin').hide();
       $('div#by_type').hide();
+      $('div#by_stat').hide();
       $('div#by_cost').show();
     });
 
@@ -224,7 +264,18 @@
       $('a#show_bytype').children().addClass('active');
       $('div#by_origin').hide();
       $('div#by_cost').hide();
+      $('div#by_stat').hide();
       $('div#by_type').show();
+    });
+
+    $('a#show_bystat').click(function(event){
+      event.preventDefault();
+      $('a.toggles').children().removeClass('active');
+      $('a#show_bystat').children().addClass('active');
+      $('div#by_origin').hide();
+      $('div#by_cost').hide();
+      $('div#by_type').hide();
+      $('div#by_stat').show();
     });
 
   });

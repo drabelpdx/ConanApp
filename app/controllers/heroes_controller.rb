@@ -6,6 +6,7 @@ class HeroesController < ApplicationController
   before_action :require_admin, except: [:index, :show]
 
   def index
+    @heroes = Hero.all
   end
 
   def new

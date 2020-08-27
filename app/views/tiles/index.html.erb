@@ -8,10 +8,12 @@
       <ul>
         <li>the box <strong>(origin)</strong> the tile came in</li>
         <li>the <strong>type</strong> of unit the tile represents</li>
+        <li><strong>All</strong> tiles listed with their stats</li>
       </ul>
 <div align="center">
   <a href="" id="show_byorigin" class="toggles"><button class="btn btn-tile active">By Origin</button></a>
   <a href="" id="show_bytype" class="toggles"><button class="btn btn-tile">By Type</button></a>
+  <a href="" id="show_bystat" class="toggles"><button class="btn btn-tile">All / Stats</button></a>
 </div>
 <hr>
 <div id="by_origin">
@@ -149,11 +151,8 @@
          <% end %>
        </table>
      </div>
-
-
     </div>
     <div class="col-md-4 col-sm-6">
-
       <div class="panel panel-danger">
         <div class="panel-heading">Stretch Goal Tiles</div>
         <table class="table">
@@ -164,14 +163,6 @@
           <% end %>
       </table>
       </div>
-
-
-
-
-
-
-
-
       <div class="panel panel-danger">
         <div class="panel-heading">Kushite Witch Hunters Tiles</div>
         <table class="table">
@@ -192,7 +183,6 @@
           <% end %>
         </table>
       </div>
-
       <div class="panel panel-danger">
         <div class="panel-heading">Vanir Valkyrie Tiles</div>
         <table class="table">
@@ -203,8 +193,6 @@
           <% end %>
         </table>
       </div>
-
-
     </div>
   </div>
 </div>
@@ -280,6 +268,55 @@
   </div>
 </div>
 
+
+<div id="by_stat">
+  <div class="row">
+      <div class="panel panel-danger">
+        <div class="panel-heading">All Tiles / Stats</div>
+          <table class="table stats tilestats">
+            <thead>
+              <tr>
+                <th>Character/<br />Tile Name</th>
+                <th>Number<br />of Tiles</th>
+                <th>Move<br /> Value</th>
+                <th>Armor<br /> Value</th>
+                <th>Melee<br /> Dice</th>
+                <th>Ranged<br /> Dice</th>
+                <th>Reinforce<br /> Cost</th>
+                <th>Character<br />Skills</th>
+              </tr>
+            </thead>
+            <% @tiles.sort_by {|tile| tile.name }.each do |tile| %>
+              <tr>
+                <td class="tile"><%= link_to tile.name, tile_path(tile) %></td>
+                <td><%= tile.count %></td>
+                <td><% if tile.move != nil %><%= tile.move %><% else %>-<% end %></td>
+                <td><% if tile.armor != nil %><%= tile.armor %><% else %>-<% end %></td>
+                <td class="stats"><% if tile.melee != '-' %>
+                  <% tile.bones.each do |bone| %>
+                    <%= image_tag "dice/#{bone.name}.png", :title => "#{bone.name}" %>
+                    <% end%><% else %> --
+                  <% end%></td>
+                <td class="stats"><% if tile.ranged != '-' %>
+                  <% tile.bones.each do |bone| %>
+                    <%= image_tag "dice/#{bone.name}.png", :title => "#{bone.name}" %>
+                    <% end%><% else %> --
+                  <% end%>
+                </td>
+                <td><% if tile.cost != nil %><%= tile.cost %><% else %> - <% end %></td>
+                <td class="stats"><% if tile.skills.any? %>
+                  <% tile.skills.each do |skill| %>
+                      <%= link_to image_tag("skills/#{skill.name}.png", :title => "#{skill.name}"), skill_path(skill) %>
+                      <% end%><% else %> --
+                  <% end%>
+                </td>
+              </tr>
+          <% end %>
+        </table>
+      </div>
+    </div>
+  </div>
+
  <script>
    $(document).ready(function() {
      $('a#show_byorigin').click(function(event){
@@ -287,6 +324,7 @@
        $('a.toggles').children().removeClass('active');
        $('a#show_byorigin').children().addClass('active');
        $('div#by_type').hide();
+       $('div#by_stat').hide();
        $('div#by_origin').show();
      });
 
@@ -295,8 +333,18 @@
        $('a.toggles').children().removeClass('active');
        $('a#show_bytype').children().addClass('active');
        $('div#by_origin').hide();
+       $('div#by_stat').hide();
        $('div#by_type').show();
      });
 
+     $('a#show_bystat').click(function(event){
+       event.preventDefault();
+       $('a.toggles').children().removeClass('active');
+       $('a#show_bystat').children().addClass('active');
+       $('div#by_origin').hide();
+       $('div#by_type').hide();
+       $('div#by_stat').show();
+     });
    });
+
  </script>
