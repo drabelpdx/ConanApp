@@ -40,7 +40,7 @@
       <div class="col-md-7">
         <% if @model.heroes.any? %>
         <br />
-        <h4>Hero Sheet</h4>
+        <h4>Used with this Hero Sheet</h4>
           <% @model.heroes.each do |hero| %>
           <% if hero.hero_sheet != '' %>
             <%= link_to image_tag(hero.hero_sheet), hero_path(hero) %>
@@ -123,9 +123,9 @@
         <% if @model.tiles.any? %>
         <br />
           <% if @model.tiles.length > 1 %>
-            <h4>Character Tiles:</h4>
+            <h4>Used with these Character Tiles</h4>
             <% else %>
-            <h4>Character Tile:</h4>
+            <h4>Used with this Character Tile</h4>
           <% end %>
           <div class="modeltile">
             <% @model.tiles.each do |tile| %>
