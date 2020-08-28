@@ -168,14 +168,15 @@
             <thead>
               <tr>
                 <th>Item/Card<br />Name</th>
-                <th>Type<br />&nbsp;</th>
-                <th>Number<br />of Cards</th>
-                <th>Encumbrance<br />Value</th>
-                <th>Armor<br /> Dice</th>
-                <th>Melee<br /> Dice</th>
-                <th>Ranged<br /> Dice</th>
-                <th>Defense<br /> Dice</th>
-                <th>Manipulation<br />Dice</th>
+                <th>Item<br />Type</th>
+                <th># of<br />Cards</th>
+                <th>Encumb<br />Value</th>
+                <th>Armor<br />Dice</th>
+                <th>Melee<br />Dice</th>
+                <th>Ranged<br />Dice</th>
+                <th>Can be<br />Thrown</th>
+                <th>Defense<br />Dice</th>
+                <th>Damage<br />Dice</th>
                 <th>Origin<br />&nbsp;</th>
               </tr>
             </thead>
@@ -226,11 +227,27 @@
                     <% myHash.each do |key, array| %>
                       <% if "#{key}" === "ranged" %>
                         <% array.each do |die| %>
-                          <% @bone_list.each do |bone| %>
-                            <% if bone.id === die  %>
-                              <%= image_tag "dice/#{bone.name}.png", :title => "#{bone.name}" %>
+                          <% if die != 7 %>
+                            <% @bone_list.each do |bone| %>
+                              <% if bone.id === die %>
+                                <%= image_tag "dice/#{bone.name}.png", :title => "#{bone.name}" %>
+                              <% end %>
                             <% end %>
                           <% end %>
+                        <% end %>
+                      <% end %>
+                    <% end %>
+                  <% else %>--
+                  <% end %>
+                </td>
+                <td class="stats">
+                  <% if item.ranged != '' %>
+                    <% myHash = eval(item.dice) %>
+                    <% myHash.each do |key, array| %>
+                      <% if "#{key}" === "ranged" %>
+                        <% if array.include? 7 %>
+                            &#x2714;
+                        <% else %>--
                         <% end %>
                       <% end %>
                     <% end %>
@@ -261,7 +278,7 @@
                       <% if "#{key}" === "manipulation" %>
                         <% array.each do |die| %>
                           <% @bone_list.each do |bone| %>
-                            <% if bone.id === die  %>
+                            <% if bone.id === die && die != 8  %>
                               <%= image_tag "dice/#{bone.name}.png", :title => "#{bone.name}" %>
                             <% end %>
                           <% end %>

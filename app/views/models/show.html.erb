@@ -39,12 +39,12 @@
 
       <div class="col-md-7">
         <% if @model.heroes.any? %>
-        <br />
-        <h4>Used with this Hero Sheet</h4>
+          <br />
+          <h5>Hero Sheet for <%= @model.name %></h5>
           <% @model.heroes.each do |hero| %>
           <% if hero.hero_sheet != '' %>
             <%= link_to image_tag(hero.hero_sheet), hero_path(hero) %>
-            <br /><br />
+            <br /><br /><br />
           <% else %>
 
             <div class="herosheet">
@@ -123,9 +123,9 @@
         <% if @model.tiles.any? %>
         <br />
           <% if @model.tiles.length > 1 %>
-            <h4>Used with these Character Tiles</h4>
+            <h5>Character Tiles for <%= @model.name %></h5>
             <% else %>
-            <h4>Used with this Character Tile</h4>
+            <h5>Character Tile for <%= @model.name %></h5>
           <% end %>
           <div class="modeltile">
             <% @model.tiles.each do |tile| %>

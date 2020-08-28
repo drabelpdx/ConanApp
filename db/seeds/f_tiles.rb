@@ -317,7 +317,7 @@ Tile.create!([
     role: 'Ally', move: '4', armor: '3', cost: '4',
     melee: '2 Red', ranged: '-', bone_ids: [1, 1], dice: { melee: [1, 1] },
     origin: 'King Pledge', count: '1', skill_ids: [16, 17],
-    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/AmaraLion.jpg',
+    figure_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/figures/ConansLion.jpg',
     tile_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConansLion.png',
     token_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConansLionToken.png' },
 
