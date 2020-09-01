@@ -33,8 +33,6 @@
         <% end %>
         <% if logged_in? %>
           <li><%= link_to 'Log out', logout_path, method: :delete %></li>
-        <% else %>
-          <li><%= link_to 'Sign In', login_path %></li>
         <% end %>
 
         <!-- add login code and google button here -->
