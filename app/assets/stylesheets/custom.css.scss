@@ -486,8 +486,8 @@ h2.product {
 }
 
 .tiles img {
-  width: 90%;
-  height: auto;
+  height: 370px;
+  width: auto;
   margin-top: 20px;
   border-radius: 20px;
 }
@@ -500,12 +500,14 @@ h2.product {
 }
 
 .sm_tiles td {
+  width: 10%;
+
   border:none;
   padding:5px;
 }
 
 .sm_tiles td img {
-  width: 75px;
+  width: 90%;
   height: auto;
   display: inline-block;
   border-radius: 5px;
@@ -513,13 +515,12 @@ h2.product {
 
 .sm_tokens td {
   border:none;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .sm_tokens td img {
-  width: 40%;
+  width: 40px;
   height: auto;
-  display: inline-block;
   border-radius: 50%;
 }
 
@@ -557,8 +558,6 @@ h2.product {
   border-radius: 4px;
 
 }
-
-
 
 .tile_stats th, td {
   padding: 15px;
