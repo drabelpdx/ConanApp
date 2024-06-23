@@ -72,12 +72,14 @@ class HeroesController < ApplicationController
       @stretch = Hero.where(origin: 'Stretch Goal')
       @valkyrie = Hero.where(origin: 'Vanir Valkyrie')
       @yogah = Hero.where(origin: 'Yogah of Yag')
-      @xavier = Hero.where(origin: 'Xavier Collette Box')
-      @brom = Hero.where(origin: 'Brom Box')
-      @paolo = Hero.where(origin: 'Paolo Parente Box')
-      @nordheim = Hero.where(origin: 'Nordheim Expansion')
-      @stygia = Hero.where(origin: 'Stygia Expansion')
-      @khitai = Hero.where(origin: 'Khitai Expansion')
+      @xavier = Hero.where(origin: 'Xavier Collette Guest Box')
+      @brom = Hero.where(origin: 'Brom Guest Box')
+      @paolo = Hero.where(origin: 'Paolo Parente Guest Box')
+      @nordheim = Hero.where(origin: 'Nordheim')
+      @stygia = Hero.where(origin: 'Stygia')
+      @khitai = Hero.where(origin: 'Khitai')
+      @conqueror = Hero.where(origin: 'Conan the Conqueror')
+      @shadow = Hero.where(origin: 'The Shadow Kingdom')
     end
 
     def require_admin

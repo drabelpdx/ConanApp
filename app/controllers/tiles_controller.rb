@@ -57,7 +57,7 @@ class TilesController < ApplicationController
       params.require(:tile).permit(:name, :description, :role, :move, :armor,
                                    :melee, :ranged, :origin, :count,
                                    :figure_image, :tile_image, :token_image,
-                                   :cost, :dice, bone_ids: [], skill_ids: [])
+                                   :correction, :cost, :dice, bone_ids: [], skill_ids: [])
     end
 
     def set_bones
@@ -77,9 +77,15 @@ class TilesController < ApplicationController
       @core = Tile.where(origin: 'Core Game')
       @king = Tile.where(origin: 'King Pledge')
       @stretch = Tile.where(origin: 'Stretch Goal')
-      @valkyrie = Tile.where(origin: 'Vanir Valkyrie')
-      @yogah = Tile.where(origin: 'Yogah of Yag')
-      @baal = Tile.where(origin: 'Baal Pteor')
+      @nordheim = Tile.where(origin: 'Nordheim')
+      @stygia = Tile.where(origin: 'Stygia')
+      @khitai = Tile.where(origin: 'Khitai')
+
+      @brom = Tile.where(origin: 'Brom Guest Box')
+      @paolo = Tile.where(origin: 'Paolo Parente Guest Box')
+      @xavier = Tile.where(origin: 'Xavier Collette Guest Box')
+
+      @baal = Tile.where(origin: 'Baal-pteor')
       @dragons = Tile.where(origin: 'Black Dragons')
       @blackones = Tile.where(origin: 'Black Ones')
       @crossbowmen = Tile.where(origin: 'Crossbowmen')
@@ -88,21 +94,17 @@ class TilesController < ApplicationController
       @wolves = Tile.where(origin: 'Giant Wolves')
       @witchhunters = Tile.where(origin: 'Kushite Witch Hunters')
       @sabertooth = Tile.where(origin: 'Sabertooth Tiger')
-      @brom = Tile.where(origin: 'Brom Box')
-      @paolo = Tile.where(origin: 'Paolo Parente Box')
-      @xavier = Tile.where(origin: 'Xavier Collette Box')
-      @nordheim = Tile.where(origin: 'Nordheim Expansion')
-      @stygia = Tile.where(origin: 'Stygia Expansion')
-      @khitai = Tile.where(origin: 'Khitai Expansion')
+      @valkyrie = Tile.where(origin: 'Vanir Valkyrie')
+      @yogah = Tile.where(origin: 'Yogah of Yag')
+
+      @conqueror = Tile.where(origin: 'Conan the Conqueror')
     end
 
     def set_roles
+      @events = Tile.where(role: 'Event')
       @leaders = Tile.where(role: 'Leader')
       @monsters = Tile.where(role: 'Monster')
       @minions = Tile.where(role: 'Minion')
-      @heroes = Tile.where(role: 'Hero')
-      @allies = Tile.where(role: 'Ally')
-      @events = Tile.where(role: 'Event')
     end
 
     def require_admin

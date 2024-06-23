@@ -3,7 +3,6 @@ class ModelsController < ApplicationController
   before_action :set_model, only: [:edit, :update, :show, :destroy]
   before_action :set_models, only: [:index]
   before_action :set_roles, only: [:index]
-  before_action :set_stories, only: [:new, :edit, :update, :show, :destroy]
   before_action :set_tiles, only: [:new, :edit, :update, :show, :destroy]
   before_action :require_user, except: [:index, :show]
   before_action :require_admin, except: [:index, :show]
@@ -59,15 +58,20 @@ class ModelsController < ApplicationController
     def model_params
       params.require(:model).permit(:name, :description, :role, :origin, :count,
                                    :figure_image, hero_ids: [], tile_ides: [],
-                                   story_ids: [])
+                                   )
     end
 
     def set_models
       @core = Model.where(origin: 'Core Game')
       @king = Model.where(origin: 'King Pledge')
       @stretch = Model.where(origin: 'Stretch Goal')
-      @valkyrie = Model.where(origin: 'Vanir Valkyrie')
-      @yogah = Model.where(origin: 'Yogah of Yag')
+      @nordheim = Model.where(origin: 'Nordheim')
+      @stygia = Model.where(origin: 'Stygia')
+      @khitai = Model.where(origin: 'Khitai')
+      @brom = Model.where(origin: 'Brom Guest Box')
+      @paolo = Model.where(origin: 'Paolo Parente Guest Box')
+      @xavier = Model.where(origin: 'Xavier Collette Guest Box')
+
       @baal = Model.where(origin: 'Baal Pteor')
       @dragons = Model.where(origin: 'Black Dragons')
       @blackones = Model.where(origin: 'Black Ones')
@@ -77,12 +81,12 @@ class ModelsController < ApplicationController
       @wolves = Model.where(origin: 'Giant Wolves')
       @witchhunters = Model.where(origin: 'Kushite Witch Hunters')
       @sabertooth = Model.where(origin: 'Sabertooth Tiger')
-      @brom = Model.where(origin: 'Brom Box')
-      @paolo = Model.where(origin: 'Paolo Parente Box')
-      @xavier = Model.where(origin: 'Xavier Collette Box')
-      @nordheim = Model.where(origin: 'Nordheim Expansion')
-      @stygia = Model.where(origin: 'Stygia Expansion')
-      @khitai = Model.where(origin: 'Khitai Expansion')
+      @valkyrie = Model.where(origin: 'Vanir Valkyrie')
+      @yogah = Model.where(origin: 'Yogah of Yag')
+
+      @conqueror = Model.where(origin: 'Conan the Conqueror')
+      @conquerorsg = Model.where(origin: 'Conan the Conqueror Stretch Goal')
+      @shadow = Model.where(origin: 'The Shadow Kingdom')
     end
 
     def set_roles
@@ -90,13 +94,6 @@ class ModelsController < ApplicationController
       @monsters = Model.where(role: 'Monster')
       @minions = Model.where(role: 'Minion')
       @heroes = Model.where(role: 'Hero')
-      @allies = Model.where(role: 'Ally')
-      @events = Model.where(role: 'Event')
-    end
-
-    def set_stories
-      @weird = Story.where(origin: 'Weird Tales')
-      @other = Story.where(origin: 'Other')
     end
 
     def set_tiles
@@ -104,7 +101,6 @@ class ModelsController < ApplicationController
       @monsters_tile = Tile.where(role: 'Monster')
       @minions_tile = Tile.where(role: 'Minion')
       @heroes_tile = Tile.where(role: 'Hero')
-      @allies_tile = Tile.where(role: 'Ally')
       @events_tile = Tile.where(role: 'Event')
     end
 

@@ -25,8 +25,8 @@
         warriors to rescue the governor’s daughter and, at Valannus’ request,
         bring back the head of Zogar Sag.</p>",
 
-      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/In+the+Clutches+of+the+Picts.jpg',
-      pdf_link: 'http://www.monolithedition.com/conan-en/dans-les-griffes-des-pictes/',
+      map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/In+the+Clutches+of+the+Picts.jpg',
+      pdf_link: '',
       player_count: "4-5",
       complexity: "1",
 
@@ -37,11 +37,11 @@
         <table class="scen_table">
           <tr>
             <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
-            <td>The game starts with the heroes’ turn.<br /></td>
+            <td>The game starts with the heroes’ turn.  The heroes start in the areas
+            indicated by the setup diagram.</td>
             <td></td>
           </tr>
         </table>
-
         <table class="scen_table">
           <tr>
             <td><h4>3</h4></td>
@@ -49,7 +49,7 @@
             <td></td>
           </tr>
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanToken.png" class="scen_setup"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ConanToken.png" class="scen_setup"></td>
             <td>
               <a class="hero" href="/heroes/2">Conan</a>
               (<a class="item" href="/items/1">Battle Axe</a>,
@@ -59,7 +59,7 @@
             <td></td>
           </tr>
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
             <td>
               <a class="hero" href="/heroes/4">Shevatas</a>
               (<a class="item" href="/items/9">Kris</a>,
@@ -68,7 +68,7 @@
             <td></td>
           </tr>
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/HadrathusToken.png" class="scen_setup"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/HadrathusToken.png" class="scen_setup"></td>
             <td>
               <a class="hero" href="/heroes/3">Hadrathus</a>
               (<a class="item" href="/items/3">Dagger</a>,
@@ -88,7 +88,7 @@
             <td></td>
           </tr>
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BelitToken.png" class="scen_setup"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/BelitToken.png" class="scen_setup"></td>
             <td>
               <a class="hero" href="/heroes/1">Bêlit</a>
               (<a class="item" href="/items/10">Ornamental Spear</a>).
@@ -132,7 +132,7 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
             <td><p>When an event tile is activated the Overlord resolves the following event:</p>
               <p><span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
@@ -142,18 +142,28 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZogarSagToken.png" class="scen_setup"></td>
-            <td><a class="tile" href="/tiles/6">Zogar Sag</a> has no spell for this scenario.</td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ZogarSagToken.png" class="scen_setup"></td>
+            <td><a class="tile" href="/tiles/8">Zogar Sag</a> has no spell for this scenario.</td>
+            <td></td>
+          </tr>
+        </table>
+        <table class="scen_table">
+          <tr>
+            <td></td>
+            <td>
+              If you do not have the <a class="model" href="/models/64">Pict Warriors</a> models (purple base),
+              you may use the <a class="model" href="/models/19">Pict Hunters</a> models to represent them on the board.
+            </td>
             <td></td>
           </tr>
         </table>',
 
       tile1: 25,
-      tile2: 6,
+      tile2: 8,
       tile3: 29,
       tile4: 23,
       tile5: 26,
-      tile6: 9,
+      tile6: 10,
       tile7: 28,
       tile8: 1,
 
@@ -173,7 +183,7 @@
         the token faceup and places Yselda’s model in the hut’s area. Yselda is
         unconscious, counts as an object with an encumbrance value of 6, and can
         be picked up by a hero by performing a simple manipulation. That hero takes
-        the <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ThalisToken.png"
+        the <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ThalisToken.png"
         class="scen_token"> and places it next to their character sheet. Yselda
         has one life point and no armor. She dies if she suffers any damage
         (such as an area attack). If she dies, the side which killed her
@@ -181,7 +191,7 @@
 
         <p><span class="special_title">Zogar Sag:</span>
         He cannot flee the village. When Zogar Sag dies, place his life point
-        marker <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZogarSagToken.png"
+        marker <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ZogarSagToken.png"
         class="scen_token"> in his area to represent his head. A hero may pick
         the head up by performing a simple manipulation. That hero places Zogar
         Sag’s life point marker next to its character sheet. Zogar Sag’s head
@@ -210,12 +220,12 @@
         <p><span class="special_title">Chests:</span>
         During setup, the Overlord places 1 chest in each hut area (8 total).
         The asset deck contains:
-        2 <a class="item" href="/items/6">Explosive Orb</a>,
-        2 <a class="item" href="/items/22">Life Potion</a>,
-        1 <a class="item" href="/items/16">Chainmail</a>,
-        1 <a class="item" href="/items/5">Crossbow</a>,
-        1 <a class="item" href="/items/19">Buckler</a>,
-        1 <a class="item" href="/items/2">Bossonian Bow</a>.</p>',
+        2&nbsp;<a class="item" href="/items/6">Explosive Orb</a>,
+        2&nbsp;<a class="item" href="/items/22">Life Potion</a>,
+        1&nbsp;<a class="item" href="/items/16">Chainmail</a>,
+        1&nbsp;<a class="item" href="/items/5">Crossbow</a>,
+        1&nbsp;<a class="item" href="/items/19">Buckler</a>,
+        1&nbsp;<a class="item" href="/items/2">Bossonian Bow</a>.</p>',
 
       hero_victory: '',
       overlord_victory: '',
@@ -224,9 +234,10 @@
       product_ids: [1],
       map_ids: [1],
       hero_ids: [1, 2, 3, 4],
-      tile_ids: [1, 6, 9, 23, 25, 26, 28, 29],
-      spell_ids: [6, 9, 16],
-      item_ids: [1, 2, 3, 5, 6, 9, 10, 13, 16, 17, 19, 20, 22] },
+      tile_ids: [1, 8, 10, 23, 25, 26, 28, 29],
+      spell_ids: [6, 9, 16, 48],
+      item_ids: [1, 2, 3, 5, 6, 33, 9, 10, 13, 16, 17, 77, 97, 19, 20, 22, 44, 103] },
+
 
     # Hunting the Tigress
     { name: "Hunting the Tigress",
@@ -245,8 +256,8 @@
         troops quickly gain a foothold on the deck of the Tigress. Only Conan,
         Shevatas, and a handful of remaining warriors can come to Bêlit’s aid.</p>",
 
-      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/Hunting+the+Tigress.jpg',
-      pdf_link: 'http://www.monolithedition.com/conan-en/in-the-clutches-of-the-picts/',
+      map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Hunting+the+Tigress.jpg',
+      pdf_link: '',
       player_count: "4-5",
       complexity: "1",
 
@@ -257,21 +268,19 @@
         <table class="scen_table">
           <tr>
             <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
-            <td>The game starts with the heroes’ turn.<br /></td>
+            <td>The game starts with the heroes’ turn.  Bêlit and Bêlit’s Guards
+            start in the areas indicated by the setup diagram.</td>
             <td></td>
           </tr>
         </table>
-
         <table class="scen_table">
           <tr>
             <td><img src="/assets/tokens/area1Token.png" class="scen_token" /></td>
-            <td>Bêlit and Bêlit’s Guards start in the areas indicated by the setup diagram.
-              The other heroes start in the
+            <td>The other heroes start in the
               <img src="/assets/tokens/area1Token.png" class="scen_token" /> area.</td>
             <td></td>
           </tr>
         </table>
-
         <table class="scen_table">
           <tr>
             <td><h4>3</h4></td>
@@ -279,16 +288,18 @@
             <td></td>
           </tr>
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BelitToken.png" class="scen_setup"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/BelitToken.png" class="scen_setup"></td>
             <td>
               <a class="hero" href="/heroes/1">Bêlit</a>
               (<a class="item" href="/items/10">Ornamental Spear</a>,
-                <a class="item" href="/items/21">Tribal Shield</a>).
+                <a class="item" href="/items/21">Tribal Shield</a>) and 5<a class="tile" href="/tiles/14"> Bêlit’s Guards</a>.
             </td>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BelitsGuards.png" class="scen_event"></td>
+            <td>
+              <a class="tile" href="/tiles/14"><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/BelitsGuards.jpg" class="scen_event"></a>
+            </td>
           </tr>
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanToken.png" class="scen_setup"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ConanToken.png" class="scen_setup"></td>
             <td>
               <a class="hero" href="/heroes/2">Conan</a>
               (<a class="item" href="/items/12">Sword</a>,
@@ -297,7 +308,7 @@
             <td></td>
           </tr>
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
             <td>
               <a class="hero" href="/heroes/4">Shevatas</a>
               (<a class="item" href="/items/9">Kris</a>,
@@ -314,7 +325,7 @@
             <td></td>
           </tr>
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/HadrathusToken.png" class="scen_setup"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/HadrathusToken.png" class="scen_setup"></td>
             <td>
               <a class="hero" href="/heroes/3">Hadrathus</a>
               (<a class="item" href="/items/3">Dagger</a>,
@@ -358,28 +369,27 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
             <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
               <p><span class="setup_suggestion">Reinforcement:</span> 6 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
               <p><span class="setup_suggestion">Fire at will:</span> Each unit may perform a Ranged Attack if able.</p>
-              <p><span class="setup_suggestion">Glory to Set:</span> <a class="tile" href="/tiles/4">Skuthus</a>
-              sacrifices himself to summon an <a class="tile" href="/tiles/11">Outer Dark Demon</a>.
+              <p><span class="setup_suggestion">Glory to Set:</span> Skuthus sacrifices himself to summon an Outer Dark Demon.
               The Overlord places the Outer Dark Demon model (6 life points) in Skuthus’ area,
               then Skuthus dies (This count toward completing the heroes’ objective).
-              Then the Overlord replaces the Skuthus unit tile in the River with the
-              Outer Dark Demon unit tile.</p>
+              Then the Overlord replaces the <a class="tile" href="/tiles/5">Skuthus</a> unit tile in
+              the River with the <a class="tile" href="/tiles/12">Outer Dark Demon</a> unit tile.</p>
             </td>
             <td>
-              <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/OuterDarkDemon.png" class="scen_event">
+              <a class="tile" href="/tiles/12"><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/OuterDarkDemon.jpg" class="scen_event"></a>
             </td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SkuthusToken.png" class="scen_setup"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/SkuthusToken.png" class="scen_setup"></td>
             <td>
-              <a class="tile" href="/tiles/4">Skuthus</a> has
+              <a class="tile" href="/tiles/5">Skuthus</a> has
               <a class="spell" href="/spells/3">Energy Drain</a> and
               <a class="spell" href="/spells/13">Set’s Halo</a>. He starts with Set’s Halo cast.
             </td>
@@ -394,7 +404,7 @@
       tile5: 31,
       tile6: 1,
       tile7: 7,
-      tile8: 4,
+      tile8: 5,
 
       life1: 0,
       life2: 0,
@@ -413,9 +423,9 @@
         <p><span class="special_title">Chests:</span>
         During setup, the Overlord places 4 chests on the board as
         indicated by the setup diagram. The asset deck contains:
-        2 <a class="item" href="/items/22">Life Potion</a>,
-        1 <a class="item" href="/items/6">Explosive Orb</a>,
-        1 <a class="item" href="/items/23">Empty chest</a>.</p>',
+        2&nbsp;<a class="item" href="/items/22">Life Potion</a>,
+        1&nbsp;<a class="item" href="/items/6">Explosive Orb</a>,
+        1&nbsp;<a class="item" href="/items/23">Empty chest</a>.</p>',
 
       hero_victory: '',
       overlord_victory: '',
@@ -424,9 +434,10 @@
       product_ids: [1],
       map_ids: [3],
       hero_ids: [1, 2, 3, 4],
-      tile_ids: [1, 4, 7, 11, 15, 30, 31, 32, 35],
-      spell_ids: [1, 3, 9, 13],
-      item_ids: [3, 6, 9, 10, 12, 13, 17, 21, 22, 23] },
+      tile_ids: [1, 5, 7, 12, 14, 15, 30, 31, 32, 35],
+      spell_ids: [1, 3, 9, 13, 66],
+      item_ids: [3, 6, 33, 9, 10, 12, 91, 13, 17, 77, 97, 21, 22, 44, 103, 23] },
+
 
     # In the Heart of Darkness
     { name: "In the Heart of Darkness",
@@ -448,8 +459,8 @@
         “Return my belongings, heathen profaners, or I shall drench the altar of
         Set with your blood!” Skuthus’ trap has been sprung.</p>",
 
-      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/In+the+Heart+of+Darkness.jpg',
-      pdf_link: 'http://www.monolithedition.com/conan-en/in-the-heart-of-darkness/',
+      map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/In+the+Heart+of+Darkness.jpg',
+      pdf_link: '',
       player_count: "4",
       complexity: "2",
 
@@ -460,11 +471,11 @@
         <table class="scen_table">
           <tr>
             <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
-            <td>The game starts with the heroes’ turn.<br /></td>
+            <td>The game starts with the heroes’ turn.  The heroes and Bêlit’s Guards
+            start in the areas indicated by the setup diagram.</td>
             <td></td>
           </tr>
         </table>
-
         <table class="scen_table">
           <tr>
             <td><h4>3</h4></td>
@@ -472,7 +483,7 @@
             <td></td>
           </tr>
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanToken.png" class="scen_setup"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ConanToken.png" class="scen_setup"></td>
             <td>
               <a class="hero" href="/heroes/2">Conan</a>
               (<a class="item" href="/items/12">Sword</a>,
@@ -482,7 +493,7 @@
             <td></td>
           </tr>
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
             <td><a class="hero" href="/heroes/4">Shevatas</a>
               (<a class="item" href="/items/9">Kris</a>,
               <a class="item" href="/items/13">Throwing Knives</a>)
@@ -490,15 +501,15 @@
             <td></td>
           </tr>
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BelitToken.png" class="scen_setup"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/BelitToken.png" class="scen_setup"></td>
             <td>
               <a class="hero" href="/heroes/1">Bêlit</a>
               (<a class="item" href="/items/10">Ornamental Spear</a>,
               <a class="item" href="/items/15">Yuetshi Knife</a>), and 2
-              <a class="tile" href="/tiles/13">Bêlit’s Guards</a>
+              <a class="tile" href="/tiles/14">Bêlit’s Guards</a>
             </td>
             <td>
-              <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BelitsGuards.png" class="scen_event">
+            <a class="tile" href="/tiles/14"><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/BelitsGuards.jpg" class="scen_event"></a>
             </td>
           </tr>
         </table>
@@ -526,31 +537,31 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
             <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
               <p><span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
               <p><span class="setup_suggestion">Freeing a Monster:</span> The Overlord may free a
               petrified monster and add its tile to the end of the River.
-              The <a class="tile" href="/tiles/11">Outer Dark Demon</a> (6 life points),
-              <a class="tile" href="/tiles/9">Giant Snake</a> (8 life points), and
-              <a class="tile" href="/tiles/10">Khosatral Khel</a> (7 life points) are
+              The <a class="tile" href="/tiles/12">Outer Dark Demon</a> (6 life points),
+              <a class="tile" href="/tiles/10">Giant Snake</a> (8 life points), and
+              <a class="tile" href="/tiles/11">Khosatral Khel</a> (7 life points) are
               petrified and cannot be attacked until they are freed.
               The Overlord cannot free a monster if there are 2 faceup monster tiles in
-              the River (including the <a class="tile" href="/tiles/8">Dark Demon</a>).</p>
+              the River (including the <a class="tile" href="/tiles/9">Dark Demon</a>).</p>
             </td>
             <td>
-              <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/KhosatralKhel.png" class="scen_event"><br />
-              <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/GiantSnake.png" class="scen_event"><br />
-              <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/OuterDarkDemon.png" class="scen_event">
+            <a class="tile" href="/tiles/12"><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/OuterDarkDemon.jpg" class="scen_event"></a><br />
+            <a class="tile" href="/tiles/11"><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/KhosatralKhel.jpg" class="scen_event"></a><br />
+            <a class="tile" href="/tiles/10"><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/GiantSnake.jpg" class="scen_event"></a>
             </td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SkuthusToken.png" class="scen_setup"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/SkuthusToken.png" class="scen_setup"></td>
             <td>
-              <a class="tile" href="/tiles/4">Skuthus</a> has
+              <a class="tile" href="/tiles/5">Skuthus</a> has
               <a class="spell" href="/spells/12">Set’s Bite</a>,
               <a class="spell" href="/spells/13">Set’s Halo</a>.<br />
               Skuthus starts with Set’s Halo cast.
@@ -559,8 +570,8 @@
           </tr>
         </table>',
 
-      tile1: 8,
-      tile2: 4,
+      tile1: 9,
+      tile2: 5,
       tile3: 15,
       tile4: 23,
       tile5: 1,
@@ -578,7 +589,7 @@
       life8: 0,
 
       special_rules: '<p><span class="special_title">Yuetshi Knife:</span>
-        When a hero attacks <a class="tile" href="/tiles/10">Khosatral Khel</a>
+        When a hero attacks <a class="tile" href="/tiles/11">Khosatral Khel</a>
         with the <a class="item" href="/items/15">Yuetshi Knife</a>,
         Khosatral Khel’s armor value becomes 3 for that attack.</p>
 
@@ -606,9 +617,9 @@
         <p><span class="special_title">Chests:</span>
         During setup, the Overlord places 5 chests on the board as indicated by
         the setup diagram. The asset deck contains:
-        2 <a class="item" href="/items/22">Life Potion</a>,
-        2 <a class="item" href="/items/6">Explosive Orb</a>,
-        1 <a class="item" href="/items/8">Javelin</a>.</p>',
+        2&nbsp;<a class="item" href="/items/22">Life Potion</a>,
+        2&nbsp;<a class="item" href="/items/6">Explosive Orb</a>,
+        1&nbsp;<a class="item" href="/items/8">Javelin</a>.</p>',
 
       hero_victory: '',
       overlord_victory: '',
@@ -617,9 +628,10 @@
       product_ids: [1],
       map_ids: [4],
       hero_ids: [1, 2, 4],
-      tile_ids: [1, 4, 8, 9, 10, 11, 15, 23],
-      spell_ids: [12, 13],
-      item_ids: [6, 8, 9, 10, 12, 13, 15, 17, 20, 22] },
+      tile_ids: [1, 5, 9, 10, 11, 12, 14, 15, 23],
+      spell_ids: [12, 13, 66],
+      item_ids: [6, 33, 8, 9, 10, 12, 91, 13, 15, 17, 77, 97, 20, 22, 44, 103] },
+
 
     # The Final Ritual
     { name: "The Final Ritual",
@@ -637,8 +649,8 @@
         the invocation, it should slow Zogar Sag’s troops and buy the fleeing
         settlers the time they need to survive.</p>",
 
-      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/The+Final+Ritual.jpg',
-      pdf_link: 'http://www.monolithedition.com/conan-en/the-final-ritual/',
+      map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Final+Ritual.jpg',
+      pdf_link: '',
       player_count: "4",
       complexity: "2",
 
@@ -648,12 +660,19 @@
       hero_setup: '
       <table class="scen_table">
         <tr>
+          <td></td>
+          <td>The heroes start in the areas indicated by the setup diagram.</td>
+          <td></td>
+        </tr>
+      </table>
+      <table class="scen_table">
+        <tr>
           <td><h4>3</h4></td>
           <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ConanToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/2">Conan</a>
             (<a class="item" href="/items/1">Battle Axe</a>,
@@ -663,7 +682,7 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/4">Shevatas</a>
             (<a class="item" href="/items/9">Kris</a>,
@@ -672,7 +691,7 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/HadrathusToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/HadrathusToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/3">Hadrathus</a>
             (<a class="item" href="/items/3">Dagger</a>,
@@ -701,7 +720,15 @@
         <table class="scen_table">
           <tr>
             <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
-            <td>The game starts with the Overlord’s turn.<br /></td>
+            <td>The game starts with the Overlord’s turn. The heroes start in the areas
+            indicated by the setup diagram.</td>
+            <td></td>
+          </tr>
+        </table>
+        <table class="scen_table">
+          <tr>
+            <td><img src="/assets/tokens/invocationToken.png" class="scen_token" /></td>
+            <td>During setup, place the invocation marker on space 10 of the track.</td>
             <td></td>
           </tr>
         </table>
@@ -715,14 +742,7 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="/assets/tokens/invocationToken.png" class="scen_token" /></td>
-            <td>During setup, place the invocation marker on space 10 of the track.</td>
-            <td></td>
-          </tr>
-        </table>
-        <table class="scen_table">
-          <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
             <td><p>When the Event tile is activated, the Overlord resolves each of
               the following events in order:</p>
               <p><span class="setup_suggestion">Pict Hordes:</span> The Overlord returns dead Pict
@@ -742,10 +762,18 @@
             </td>
             <td></td>
           </tr>
+        </table>
+        <table class="scen_table">
+          <tr>
+          <td></td>
+          <td>If you do not have the <a class="model" href="/models/64">Pict Warriors</a> models (purple base),
+            you may use the <a class="model" href="/models/19">Pict Hunters</a> models to represent them on the board.</td>
+          <td></td>
+          </tr>
         </table>',
 
       tile1: 29,
-      tile2: 6,
+      tile2: 8,
       tile3: 1,
       tile4: 27,
       tile5: 26,
@@ -799,9 +827,10 @@
       product_ids: [1],
       map_ids: [1],
       hero_ids: [2, 3, 4],
-      tile_ids: [1, 6, 25, 26, 27, 28, 29],
-      spell_ids: [6, 9, 16],
-      item_ids: [1, 3, 9, 13, 17, 20] },
+      tile_ids: [1, 8, 25, 26, 27, 28, 29],
+      spell_ids: [6, 9, 16, 48],
+      item_ids: [1, 3, 9, 13, 17, 77, 97, 20] },
+
 
     # For All of Ophir’s Gold
     { name: "For All of Ophir’s Gold",
@@ -822,8 +851,8 @@
         King Ophir’s message is clear: his daughter must not fall into Strabonus’
         hands alive.</p>",
 
-      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/For+All+of+Ophirs+Gold.jpg',
-      pdf_link: 'http://www.monolithedition.com/conan-en/for-all-of-ophirs-gold/',
+      map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/For+All+of+Ophirs+Gold.jpg',
+      pdf_link: '',
       player_count: "4",
       complexity: "2",
 
@@ -833,11 +862,11 @@
       <table class="scen_table">
         <tr>
           <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
-          <td>The game starts with the heroes’ turn.<br /></td>
+          <td>The game starts with the heroes’ turn.  The heroes start in the areas
+          indicated by the setup diagram.</td>
           <td></td>
         </tr>
       </table>
-
       <table class="scen_table">
         <tr>
           <td><h4>3</h4></td>
@@ -845,7 +874,7 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ConanToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/2">Conan</a>
             (<a class="item" href="/items/1">Battle Axe</a>,
@@ -855,7 +884,7 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/4">Shevatas</a>
             (<a class="item" href="/items/9">Kris</a>,
@@ -864,16 +893,16 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/HadrathusToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/HadrathusToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/3">Hadrathus</a>
             (<a class="item" href="/items/3">Dagger</a>,
-            <a class="spell" href="/spells/13">Teleportation</a>,
-            <a class="spell" href="/spells/7">Mitra’s Halo</a>,
-            <a class="spell" href="/spells/15">Lightning Storm</a>).
+            <a class="spell" href="/spells/16">Teleportation</a>,
+            <a class="spell" href="/spells/9">Mitra’s Halo</a>,
+            <a class="spell" href="/spells/6">Lightning Storm</a>).
             Hadrathus does not start with Mitra’s Halo cast.
-          </td>
-          <td></td>
+            </td>
+            <td></td>
         </tr>
       </table>
 
@@ -901,7 +930,7 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
             <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
               <p><span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
@@ -920,7 +949,7 @@
       tile3: 23,
       tile4: 15,
       tile5: 3,
-      tile6: 12,
+      tile6: 13,
       tile7: 16,
       tile8: 1,
 
@@ -937,7 +966,7 @@
         Use the Princess model to represent Olivia on the game board. Olivia is
         unconscious, counts as an object the encumbrance value of 6, and can be
         picked up by a hero by performing a simple manipulation. That hero takes
-        the Princess <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ThalisToken.png"
+        the Princess <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ThalisToken.png"
         class="scen_token"> token and places it next to their character sheet.
         Olivia has one life point and no armor. She dies if she suffers any
         damage (such as an area attack). If she dies, the side which killed her
@@ -945,7 +974,7 @@
 
         <p><span class="special_title">Olivia’s Cell:</span>
         The <a class="tile" href="/tiles/3">Captain</a> is Arbanus of Koth. When
-        Arbanus dies, place a <a class="item" href="/items/30">Key</a> in the
+        Arbanus dies, place a <a class="item" href="/items/24">Key</a> in the
         area in which he died. If a hero is in an area adjacent to the door to
         Olivia’s cell and has a Key, the hero can perform a simple Manipulation
         to remove the door from the board.</p>
@@ -985,10 +1014,10 @@
         <p><span class="special_title">Chest:</span>
         During setup, the Overlord places 6 chests on the board as indicated by
         the setup diagram. The asset deck contains:
-        2 <a class="item" href="/items/22">Life Potion</a>,
-        2 <a class="item" href="/items/6">Explosive Orb</a>,
-        1 <a class="item" href="/items/16">Chain Mail</a>,
-        1 <a class="item" href="/items/5">Crossbow</a>.</p>',
+        2&nbsp;<a class="item" href="/items/22">Life Potion</a>,
+        2&nbsp;<a class="item" href="/items/6">Explosive Orb</a>,
+        1&nbsp;<a class="item" href="/items/16">Chain Mail</a>,
+        1&nbsp;<a class="item" href="/items/5">Crossbow</a>.</p>',
 
       hero_victory: '',
       overlord_victory: '',
@@ -997,9 +1026,10 @@
       product_ids: [1],
       map_ids: [4],
       hero_ids: [2, 3, 4],
-      tile_ids: [1, 3, 12, 15, 16, 17, 23],
-      spell_ids: [7, 13, 15],
-      item_ids: [1, 3, 5, 6, 9, 13, 16, 17, 20, 22 ] },
+      tile_ids: [1, 3, 13, 15, 16, 17, 23],
+      spell_ids: [6, 9, 16, 48],
+      item_ids: [1, 3, 5, 6, 33, 9, 13, 16, 17, 77, 97, 20, 22, 44, 103] },
+
 
     # The Wrath of Anu
     { name: "The Wrath of Anu",
@@ -1017,8 +1047,8 @@
         their escort of soldiers, and the strange man-ape they parade along the way
         make a stop at an inn.</p>",
 
-      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/The+Wrath+of+Anu.jpg',
-      pdf_link: 'http://www.monolithedition.com/conan-en/the-wrath-of-anu/',
+      map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Wrath+of+Anu.jpg',
+      pdf_link: '',
       player_count: "2",
       complexity: "3",
 
@@ -1029,11 +1059,11 @@
       <table class="scen_table">
         <tr>
           <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
-          <td>The game starts with the heroes’ turn.<br /></td>
+          <td>The game starts with the heroes’ turn.  Conan starts in the area
+          indicated by the setup diagram.</td>
           <td></td>
         </tr>
       </table>
-
       <table class="scen_table">
         <tr>
           <td><h4>1</h4></td>
@@ -1041,7 +1071,7 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ConanToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/2">Conan</a> (required)
             (<a class="item" href="/items/12">Sword</a>,
@@ -1050,7 +1080,6 @@
           <td></td>
         </tr>
       </table>
-
       <table class="scen_table">
         <tr>
           <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
@@ -1076,7 +1105,7 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
             <td><p>When the event tile is activated, the Overlord resolves one of the events
               based on the number of priests that have been removed from the board:</p>
               <p><span class="setup_suggestion">0 priests</span> - Reinforcement: 2 reinforcement points
@@ -1092,9 +1121,9 @@
               by the setup diagram and places the Thak tile at the end of the River.</p>
             </td>
             <td>
-            <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BossonianGuardsGreen.png" class="scen_event">
-            <br /><br />
-            <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Thak.png" class="scen_event">
+            <a class="tile" href="/tiles/19"><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/BossonianGuardsGreen.jpg" class="scen_event"></a><br /><br />
+            <a class="tile" href="/tiles/20"><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/BossonianGuardsOrange.jpg" class="scen_event"></a><br /><br />
+            <a class="tile" href="/tiles/13"><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Thak.jpg" class="scen_event"></a>
             </td>
           </tr>
         </table>
@@ -1133,15 +1162,17 @@
         to their Fatigue zone to roll 1 Red
         <img src="/assets/dice/Red.png" class="scen_sq_token" /> die. This roll
         is not affected by hindering. Resolve one of the following effects
-        based on the number of symbols shown on the die:
-        <br /><strong>0:</strong> The priest resists interrogation; no effect.
-        <br /><strong>1-2:</strong> The priest talks; if the priest can break
-        the curse, the curse is broken. The Overlord informs the hero whether or
-        not the curse is broken. Remove the priest’s token from the board.
-        <br /><strong>3:</strong> The priest dies before talking; if the
-        priest can break the curse, the curse is broken. The Overlord does not
-        inform the hero whether or not the curse is broken. Remove the priest’s
-        token from the board.</p>
+        based on the number of symbols shown on the die:<br />
+        <ul>
+          <li><strong>0:</strong> The priest resists interrogation; no effect.</li>
+          <li><strong>1-2:</strong> The priest talks; if the priest can break
+          the curse, the curse is broken. The Overlord informs the hero whether or
+          not the curse is broken. Remove the priest’s token from the board.</li>
+          <li><strong>3:</strong> The priest dies before talking; if the
+          priest can break the curse, the curse is broken. The Overlord does not
+          inform the hero whether or not the curse is broken. Remove the priest’s
+          token from the board.</li>
+        </ul></p>
 
         <p><span class="special_title">Thak’s Fury:</span>
         At the start of turn 12, the Overlord resolves the “Unleashed” event.
@@ -1184,9 +1215,9 @@
         <p><span class="special_title">Chests:</span>
         During setup, the Overlord places 6 chests on the board as indicated by
         the setup diagram. The asset deck contains:
-        3 <a class="item" href="/items/22">Life Potion</a>,
-        2 <a class="item" href="/items/6">Explosive Orb</a>,
-        1 <a class="item" href="/items/23">Empty Chest</a>.</p>',
+        3&nbsp;<a class="item" href="/items/22">Life Potion</a>,
+        2&nbsp;<a class="item" href="/items/6">Explosive Orb</a>,
+        1&nbsp;<a class="item" href="/items/23">Empty Chest</a>.</p>',
 
       hero_victory: '',
       overlord_victory: '',
@@ -1195,9 +1226,10 @@
       product_ids: [1],
       map_ids: [2],
       hero_ids: [2],
-      tile_ids: [1, 12, 18, 22],
+      tile_ids: [1, 13, 18, 19, 20, 22],
       spell_ids: [],
-      item_ids: [6, 12, 17, 22, 23] },
+      item_ids: [6, 33, 12, 91, 17, 77, 97, 22, 44, 103, 23] },
+
 
     # Infernal Pursuit Part I
     { name: "Infernal Pursuit Part I",
@@ -1216,8 +1248,8 @@
         seizes the opportunity and incites a mutiny, hoping to take the ship and
         strike The Vandal while it is weakened.</p>",
 
-      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/Infernal+Pursuit+Part+I.jpg',
-      pdf_link: 'http://www.monolithedition.com/conan-en/infernal-pursuit/',
+      map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Infernal+Pursuit+Part+I.jpg',
+      pdf_link: '',
       player_count: "3",
       complexity: "3",
 
@@ -1228,11 +1260,11 @@
       <table class="scen_table">
         <tr>
           <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
-          <td>The game starts with the heroes’ turn.<br /></td>
+          <td>The game starts with the heroes’ turn.  The heroes start in the areas
+          indicated by the setup diagram.</td>
           <td></td>
         </tr>
       </table>
-
       <table class="scen_table">
         <tr>
           <td><h4>2</h4></td>
@@ -1240,7 +1272,7 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ConanToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/2">Conan</a> (required)
             (<a class="item" href="/items/1">Battle Axe</a>,
@@ -1249,7 +1281,7 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/4">Shevatas</a>
             (<a class="item" href="/items/11">Parrying Dagger</a>,
@@ -1289,7 +1321,7 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
             <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
               <p><span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" /> .
@@ -1328,10 +1360,9 @@
 
       special_rules: '<p><span class="special_title">Mutineering Pirates:</span>
         Pirate models with red bases are mutineering Pirates, and are considered
-        allies. Mutineering <a class="tile" href="/tiles/35">Pirates</a> cannot
-        be activated using Leadership. Once per hero turn, the heroes can
-        activate all mutineering pirates. Mutineering pirates move and attack
-        like a unit group.</p>
+        allies. Mutineering Pirates cannot be activated using Leadership. Once per
+        hero turn, the heroes can activate all mutineering pirates. Mutineering
+        pirates move and attack like a unit group.</p>
 
         <p><span class="special_title">With me!:</span>
         At the start of the heroes’ turn, Conan rolls 1 Yellow
@@ -1351,9 +1382,9 @@
         <p><span class="special_title">Chests:</span>
         During setup, the Overlord places 4 chests on the board as indicated by
         the setup diagram. The asset deck contains:
-        2 <a class="item" href="/items/22">Life Potion</a>,
-        1 <a class="item" href="/items/6">Explosive Orb</a>,
-        1 <a class="item" href="/items/5">Crossbow</a></p>',
+        2&nbsp;<a class="item" href="/items/22">Life Potion</a>,
+        1&nbsp;<a class="item" href="/items/6">Explosive Orb</a>,
+        1&nbsp;<a class="item" href="/items/5">Crossbow</a></p>',
 
       hero_victory: '',
       overlord_victory: '',
@@ -1362,9 +1393,10 @@
       product_ids: [1],
       map_ids: [3],
       hero_ids: [2, 3],
-      tile_ids: [1, 3, 15, 32, 31, 35],
+      tile_ids: [1, 3, 15, 31, 32],
       spell_ids: [],
-      item_ids: [1, 5, 6, 11, 13, 17, 22] },
+      item_ids: [1, 5, 6, 33, 11, 87, 13, 17, 77, 97, 22, 44, 103] },
+
 
     # Infernal Pursuit Part II
     { name: "Infernal Pursuit Part II",
@@ -1382,8 +1414,8 @@
         the River.</p>
         <p>Place the Bossonian Archers and Zaporavo tiles at the end of the River.</p>',
 
-      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/Infernal+Pursuit+Part+II.jpg',
-      pdf_link: 'http://www.monolithedition.com/conan-en/infernal-pursuit/',
+      map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Infernal+Pursuit+Part+II.jpg',
+      pdf_link: '',
       player_count: "3",
       complexity: "3",
 
@@ -1398,7 +1430,7 @@
       overlord_setup: '
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
             <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
               <p><span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
@@ -1453,9 +1485,10 @@
       product_ids: [1],
       map_ids: [3],
       hero_ids: [2, 3],
-      tile_ids: [1, 3, 7, 15, 32, 31, 35],
+      tile_ids: [1, 3, 7, 15, 31, 32],
       spell_ids: [],
-      item_ids: [1, 11, 13, 17] },
+      item_ids: [1, 5, 6, 33, 11, 87, 13, 17, 77, 97, 22, 44, 103] },
+
 
     # Trapped like Rats
     { name: "Trapped like Rats",
@@ -1474,8 +1507,8 @@
         has been held captive since his previous confrontation with Conan and burns
         with a desire for vengeance.</p>",
 
-      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/Trapped+Like+Rats.jpg',
-      pdf_link: 'http://www.monolithedition.com/conan-en/trapped-like-rats/',
+      map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Trapped+Like+Rats.jpg',
+      pdf_link: '',
       player_count: "4",
       complexity: "3",
 
@@ -1486,11 +1519,11 @@
       <table class="scen_table">
         <tr>
           <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
-          <td>The game starts with the heroes’ turn.<br /></td>
+          <td>The game starts with the heroes’ turn.  The heroes start in the areas
+          indicated by the setup diagram.</td>
           <td></td>
         </tr>
       </table>
-
       <table class="scen_table">
         <tr>
           <td><h4>3</h4></td>
@@ -1498,7 +1531,7 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ConanToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/2">Conan</a>
             (<a class="item" href="/items/12">Sword</a>)
@@ -1506,7 +1539,7 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/4">Shevatas</a>
             (<a class="item" href="/items/9">Kris</a>,
@@ -1515,7 +1548,7 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/HadrathusToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/HadrathusToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/3">Hadrathus</a>
             (<a class="item" href="/items/10">Ornamental Spear</a>,
@@ -1551,7 +1584,7 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
             <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
               <p><span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
@@ -1564,11 +1597,12 @@
               zone. The Overlord adds up the number of symbols shown on the dice,
               then adds or subtracts 1 from the total for each gem moved.
               The Overlord places the Thak model (6 life points) in the area whose
-              number matches the total, and places one Thak tile third from the
-              left in the River and another sixth from the left, sliding tiles to
-              the right as needed. Thak cannot be affected by the Mind Control spell.</p>
+              number matches the total, and places one <a class="tile" href="/tiles/13">Thak</a>
+              tile third from the left in the River and another sixth from the left, sliding
+              tiles to the right as needed. Thak cannot be affected by the Mind Control spell.</p>
             </td>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Thak.png" class="scen_event float_tile"></td>
+            <td>
+            <a class="tile" href="/tiles/13"><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Thak.jpg" class="scen_event"></a></td>
           </tr>
         </table>
         <table class="scen_table">
@@ -1605,14 +1639,7 @@
       life7: 0,
       life8: 0,
 
-      special_rules: '<p><span class="special_title">Defenseless:</span>
-        After setup, the Overlord takes each hero’s equipment cards, places them
-        in different piles, and assigns each pile to an area (except room 11)
-        by placing a token with the corresponding number facedown on each group
-        of cards. The Overlord may hide the equipment in different areas but
-        cannot split one hero’s equipment. Hadrathus keeps his spells.</p>
-
-        <p><span class="special_title">Recovering Equipment:</span>
+      special_rules: '<p><span class="special_title">Recovering Equipment:</span>
         A hero can search a numbered area by performing a complex Manipulation
         with a difficulty of 1. If the hero succeeds and that hero’s starting
         equipment is assigned to the area, the hero takes those equipment cards
@@ -1626,22 +1653,28 @@
         <p><span class="special_title">Hidden in the shadows:</span>
         At night, the heroes take advantage of the darkness and the drowsiness
         of their jailers; if the alarm has not been raised:<br />
-          • Characters cannot perform Ranged attacks.<br />
-          • The Overlord cannot use benefits.<br />
-          • The Overlord can activate only 1 tile during their turn.<br />
-          • When a minion dies, lay the minion’s model down in the model’s area
+        <ul>
+          <li>Characters cannot perform Ranged attacks.</li>
+          <li>The Overlord cannot use benefits.</li>
+          <li>The Overlord can activate only 1 tile during their turn.</li>
+          <li>When a minion dies, lay the minion’s model down in the model’s area
           instead of removing the model from the board. If a hero is in an area
           with a dead minion and there are no living enemy characters in the
           area, the hero can perform a simple Manipulation to remove a dead
-          minion’s model from the board.</p>
+          minion’s model from the board.</li>
+        </ul></p>
 
         <p><span class="special_title">Alarm!:</span>
         The alarm is raised if any of the following occurs:<br />
-        • A character uses <a class="skill" href="/skills/11">Wall Wrecker</a>
-        or an <a class="item" href="/items/6">Explosive Orb</a>.<br />
-        • At the beginning of the Overlord’s turn, if a unit is in an area with
-        a dead minion or a hero.<br />
-        • At the end of turn 4.</p>
+        <a class="tile" href="/tiles/19"><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/BossonianGuardsGreen.jpg" class="scen_event float_tile"></a>
+        <ul>
+          <li>A character uses <a class="skill" href="/skills/11">Wall Wrecker</a>
+          or an <a class="item" href="/items/6">Explosive Orb</a>.</li>
+          <li>At the beginning of the Overlord’s turn, if a unit is in an area with
+          a dead minion or a hero.</li>
+          <li>At the end of turn 4.</li>
+        </ul></p>
+
         <p>When the alarm is raised, the Overlord removes all dead character’s
         models from the board and places 5 Bossonian Guard models with green
         bases in the entrance area. The Overlord places the green
@@ -1654,10 +1687,9 @@
         When a hero opens the last chest on the board, that hero takes a
         <a class="item" href="/items/30">Tools</a> card. A hero with Tools in an
         area with a window can perform a complex Manipulation with a difficulty
-        of 3. If the hero succeeds, the <a class="item" href="/items/30">Tools</a>
-        card is discarded and the heroes’ area becomes an exit. A hero in an exit
-        area can spend 1 movement point to escape the inn; that hero removes their
-        figure from the board.</p>
+        of 3. If the hero succeeds, the Tools card is discarded and the heroes’
+        area becomes an exit. A hero in an exit area can spend 1 movement point to
+        escape the inn; that hero removes their figure from the board.</p>
 
         <p><span class="special_title">Walls:</span>
         A character with <a class="skill" href="/skills/11">Wall Wrecker</a>
@@ -1691,8 +1723,8 @@
         <p><span class="special_title">Chests:</span>
         During setup, the Overlord places 4 chests on the board as indicated by
         the setup diagram. The asset deck contains:
-        2 <a class="item" href="/items/22">Life Potion</a>,
-        2 <a class="item" href="/items/6">Explosive Orb</a>.</p>',
+        2&nbsp;<a class="item" href="/items/22">Life Potion</a>,
+        2&nbsp;<a class="item" href="/items/6">Explosive Orb</a>.</p>',
 
       hero_victory: '',
       overlord_victory: '',
@@ -1701,9 +1733,10 @@
       product_ids: [1],
       map_ids: [2],
       hero_ids: [2, 3, 4],
-      tile_ids: [1, 12, 15, 18, 19, 22],
+      tile_ids: [1, 3, 15, 18, 19, 22],
       spell_ids: [8, 10, 14],
-      item_ids: [6, 9, 10, 12, 20, 22, 30 ] },
+      item_ids: [6, 33, 9, 10, 12, 91, 20, 22, 44, 103, 30] },
+
 
     ## King Pledge
     # Red Dawn
@@ -1727,7 +1760,7 @@
         has not dulled his instinct, however, and he is awake before the first Pict
         manages to slip into the village.</p>",
 
-      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/Red+Dawn.jpg',
+      map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Red+Dawn.jpg',
       pdf_link: '',
       player_count: "4",
       complexity: "3",
@@ -1740,11 +1773,11 @@
       <table class="scen_table">
         <tr>
           <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
-          <td>The game starts with the heroes’ turn.<br /></td>
+          <td>The game starts with the heroes’ turn.  The heroes start in the areas
+          indicated by the setup diagram.</td>
           <td></td>
         </tr>
       </table>
-
       <table class="scen_table">
         <tr>
           <td><h4>3</h4></td>
@@ -1752,21 +1785,21 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ConanToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/2">Conan</a>
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/4">Shevatas</a>
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ValeriaToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ValeriaToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/7">Valeria</a>
           </td>
@@ -1799,7 +1832,7 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
             <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
               <p><span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
@@ -1819,24 +1852,37 @@
           <tr>
             <td><img src="/assets/tokens/bigCardAToken.png" class="scen_event" /></td>
             <td>
-            The Overlord chooses 1 <a class="item" href="/items/58">objective card</a>
-            (A, B, C, D, or E) and keeps it facedown.
-            <br />The Overlord takes the remaining 4 objectives, 3
-            <a class="item" href="/items/55">Sacred Treasures</a>, and 1
-            <a class="item" href="/items/51">Idol of Yag-Kosha</a>, shuffles
+            The Overlord chooses 1 objective card
+            (<a class="item" href="/items/59">A</a>,
+            <a class="item" href="/items/60">B</a>,
+            <a class="item" href="/items/61">C</a>,
+            <a class="item" href="/items/62">D</a>,
+            <a class="item" href="/items/63">E</a>)
+            and keeps it facedown.
+            <br />The Overlord takes the remaining 4 objectives,
+            3&nbsp;<a class="item" href="/items/55">Sacred Treasures</a>,
+            and 1&nbsp;<a class="item" href="/items/51">Idol of Yag-Kosha</a>, shuffles
             them together, and randomly places 1 card facedown in each hut area.
             <br />Then the Overlord takes
-            1 <a class="item" href="/items/1">Battle Axe</a>,
-            1 <a class="item" href="/items/19">Buckler</a>,
-            1 <a class="item" href="/items/3">Dagger</a>,
-            1 <a class="item" href="/items/12">Sword</a>,
-            1 <a class="item" href="/items/11">Parrying Dagger</a>,
-            2 <a class="item" href="/items/45">Pictish Drinks</a>,
-            and 1 <a class="item" href="/items/8">Javelin</a>,
+            1&nbsp;<a class="item" href="/items/1">Battle Axe</a>,
+            1&nbsp;<a class="item" href="/items/19">Buckler</a>,
+            1&nbsp;<a class="item" href="/items/3">Dagger</a>,
+            1&nbsp;<a class="item" href="/items/12">Sword</a>,
+            1&nbsp;<a class="item" href="/items/11">Parrying Dagger</a>,
+            2&nbsp;<a class="item" href="/items/45">Pictish Drinks</a>,
+            and 1&nbsp;<a class="item" href="/items/8">Javelin</a>,
             shuffles them together, and randomly places 1 card facedown in each
             hut area (2 cards total in each hut area).
             </td>
             <td></td>
+          </tr>
+        </table>
+        <table class="scen_table">
+          <tr>
+          <td></td>
+          <td>If you do not have the <a class="model" href="/models/64">Pict Warriors</a> models (purple base),
+            you may use the <a class="model" href="/models/19">Pict Hunters</a> models to represent them on the board.</td>
+          <td></td>
           </tr>
         </table>',
 
@@ -1844,7 +1890,7 @@
       tile2: 27,
       tile3: 23,
       tile4: 29,
-      tile5: 6,
+      tile5: 8,
       tile6: 1,
       tile7: 0,
       tile8: 0,
@@ -1867,15 +1913,13 @@
         decide whether to discard the card faceup or keep the card facedown.</p>
 
         <p><span class="special_title">Burn Everything:</span>
-        When a <a class="tile" href="/tiles/29">Pict Warrior</a>,
-        <a class="tile" href="/tiles/26">Pict Hunter</a>, or
-        <a class="tile" href="/tiles/6">Zogar Sag</a> is activated, if that
+        When a Pict Warrior, Pict Hunter, or Zogar Sag</a> is activated, if that
         unit is adjacent to a hut area with no hero in it, the Overlord may
         spend the movement points from the unit’s movement value to attempt
         to light that hut on fire; the Overlord rolls 1 Yellow
         <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> die.
         The Overlord adds 1 flame to that hut for each symbol shown on the die;
-        use flame tokens <td><img src="/assets/tokens/flameToken.png" class="scen_token" />
+        use flame tokens <img src="/assets/tokens/flameToken.png" class="scen_token" />
         to track the flames in an area. An area cannot have more than 3 flames
         in it. At the beginning of the hero turn, each hut area with 1 or more
         heroes and 1 or more flames in it burns; 1 hero in the area rolls 1
@@ -1959,9 +2003,10 @@
       product_ids: [1, 2, 3],
       map_ids: [1],
       hero_ids: [2, 4, 7],
-      tile_ids: [1, 6, 23, 26, 27, 29],
+      tile_ids: [1, 8, 23, 26, 27, 29],
       spell_ids: [],
-      item_ids: [1, 3, 8, 11, 12, 19, 45, 51, 55, 58] },
+      item_ids: [1, 3, 8, 11, 87, 12, 91, 19, 45, 104, 51, 55, 56, 57, 58, 59, 60, 61, 62, 63] },
+
 
     # The Key of Kuthchemes
     { name: "The Key of Kuthchemes",
@@ -1982,7 +2027,7 @@
         <p>When Zaporavo realizes the identity of the pair of newcomers, the inn
         turns into a death trap.</p>",
 
-      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/The+Key+of+Kuthchemes.jpg',
+      map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Key+of+Kuthchemes.jpg',
       pdf_link: '',
       player_count: "3",
       complexity: "2",
@@ -1995,11 +2040,11 @@
       <table class="scen_table">
         <tr>
           <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
-          <td>The game starts with the heroes’ turn.<br /></td>
+          <td>The game starts with the heroes’ turn.  The heroes start in the areas
+          indicated by the setup diagram.</td>
           <td></td>
         </tr>
       </table>
-
       <table class="scen_table">
         <tr>
           <td><h4>2</h4></td>
@@ -2007,7 +2052,7 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ConanToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/2">Conan</a>
             (<a class="item" href="/items/4">Conan‘s Sword</a>,
@@ -2016,7 +2061,7 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/4">Shevatas</a>
             (<a class="item" href="/items/9">Kris</a>,
@@ -2050,7 +2095,7 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
             <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
               <p><span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
@@ -2131,11 +2176,11 @@
         <p><span class="special_title">Chests:</span>
         During setup, the Overlord places 6 chests on the board as indicated by
         the setup diagram. The asset deck contains:
-        1 <a class="item" href="/items/24">Key</a>,
-        1 <a class="item" href="/items/6">Explosive Orb</a>,
-        1 <a class="item" href="/items/22">Life Potion</a>,
-        1 <a class="item" href="/items/17">Leather Armor</a>,
-        1 <a class="item" href="/items/23">Empty Chest</a>.</p>',
+        1&nbsp;<a class="item" href="/items/24">Key</a>,
+        1&nbsp;<a class="item" href="/items/6">Explosive Orb</a>,
+        1&nbsp;<a class="item" href="/items/22">Life Potion</a>,
+        1&nbsp;<a class="item" href="/items/17">Leather Armor</a>,
+        1&nbsp;<a class="item" href="/items/23">Empty Chest</a>.</p>',
 
       hero_victory: '',
       overlord_victory: '',
@@ -2146,7 +2191,8 @@
       hero_ids: [2, 4],
       tile_ids: [1, 3, 7, 16, 22, 31, 32],
       spell_ids: [],
-      item_ids: [4, 6, 9, 13, 17, 22, 23, 24, 28] },
+      item_ids: [4, 85, 6, 33, 9, 13, 17, 77, 97, 22, 44, 103, 23, 24, 28] },
+
 
     # In the Name of Ibis
     { name: "In the Name of Ibis",
@@ -2167,22 +2213,22 @@
         buzz around him, he laughs cruelly, confident that soon nothing will stand
         between him and Kalanthes.</p>",
 
-      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/In+the+Name+of+Ibis.jpg',
+      map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/In+the+Name+of+Ibis.jpg',
       pdf_link: '',
       player_count: "4",
       complexity: "2",
 
-      hero_goal: "When Skuthus dies, Kalenthes is safe; the heroes win the game.",
+      hero_goal: "When Skuthus dies, Kalanthes is safe; the heroes win the game.",
 
       hero_setup: '
       <table class="scen_table">
         <tr>
           <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
-          <td>The game starts with the heroes’ turn.<br /></td>
+          <td>The game starts with the heroes’ turn.  The heroes start in the areas
+          indicated by the setup diagram.</td>
           <td></td>
         </tr>
       </table>
-
       <table class="scen_table">
         <tr>
           <td><h4>3</h4></td>
@@ -2190,7 +2236,7 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ConanToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/2">Conan</a>
             (<a class="item" href="/items/1">Battle Axe</a>,
@@ -2200,7 +2246,7 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/4">Shevatas</a>
             (<a class="item" href="/items/9">Kris</a>,
@@ -2209,7 +2255,7 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/HadrathusToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/HadrathusToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/3">Hadrathus</a>
             (<a class="item" href="/items/3">Dagger</a>,
@@ -2246,7 +2292,7 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
             <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
               <p><span class="setup_suggestion">Undead Horde:</span> During setup, the Overlord sets
               aside 5 Mummy models with blue bases, 5 Skeletons with red bases, 5
@@ -2264,9 +2310,9 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SkuthusToken.png" class="scen_setup"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/SkuthusToken.png" class="scen_setup"></td>
             <td>
-              <a class="tile" href="/tiles/4">Skuthus</a> has
+              <a class="tile" href="/tiles/5">Skuthus</a> has
               <a class="spell" href="/spells/11">Pestilential Swarm</a> and
               <a class="spell" href="/spells/16">Teleportation</a>.
             </td>
@@ -2274,12 +2320,12 @@
           </tr>
         </table>',
 
-      tile1: 4,
-      tile2: 8,
-      tile3: 84,
+      tile1: 5,
+      tile2: 9,
+      tile3: 41,
       tile4: 91,
       tile5: 1,
-      tile6: 8,
+      tile6: 9,
       tile7: 48,
       tile8: 42,
 
@@ -2331,12 +2377,12 @@
         <p><span class="special_title">Chests:</span>
         During setup, the Overlord places 8 chests on the board as indicated by
         the setup diagram. The asset deck contains:
-        2 <a class="item" href="/items/22">Life Potion</a>,
-        2 <a class="item" href="/items/8">Javelin</a>,
-        1 <a class="item" href="/items/16">Chain Mail</a>,
-        1 <a class="item" href="/items/5">Crossbow</a>,
-        1 <a class="item" href="/items/19">Buckler</a>,
-        1 <a class="item" href="/items/12">Sword</a>.</p>',
+        2&nbsp;<a class="item" href="/items/22">Life Potion</a>,
+        2&nbsp;<a class="item" href="/items/8">Javelin</a>,
+        1&nbsp;<a class="item" href="/items/16">Chain Mail</a>,
+        1&nbsp;<a class="item" href="/items/5">Crossbow</a>,
+        1&nbsp;<a class="item" href="/items/19">Buckler</a>,
+        1&nbsp;<a class="item" href="/items/12">Sword</a>.</p>',
 
       hero_victory: '',
       overlord_victory: '',
@@ -2345,9 +2391,9 @@
       product_ids: [1, 2, 3],
       map_ids: [2],
       hero_ids: [2, 3, 4],
-      tile_ids: [1, 4, 8, 42, 48, 84, 91],
-      spell_ids: [6, 9, 11, 16],
-      item_ids: [1, 3, 5, 6, 8, 9, 12, 13, 16, 17, 19, 20, 22 ] },
+      tile_ids: [1, 5, 9, 41, 42, 48, 91],
+      spell_ids: [6, 9, 11, 16, 48],
+      item_ids: [1, 3, 5, 6, 33, 8, 9, 12, 91, 13, 16, 17, 77, 97, 19, 20, 22, 44, 103] },
 
 
     # The Crawling Shadow
@@ -2369,7 +2415,7 @@
         advances. Seeing a rival in Valeria, she captures the warrior, planning
         to offer her as a sacrifice to Thog, the city’s god.</p>",
 
-      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/The+Crawling+Shadow.jpg',
+      map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Crawling+Shadow.jpg',
       pdf_link: '',
       player_count: "4",
       complexity: "2",
@@ -2382,11 +2428,11 @@
       <table class="scen_table">
         <tr>
           <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
-          <td>The game starts with the heroes’ turn.<br /></td>
+          <td>The game starts with the heroes’ turn.  The heroes start in the areas
+          indicated by the setup diagram.</td>
           <td></td>
         </tr>
       </table>
-
       <table class="scen_table">
         <tr>
           <td><h4>3</h4></td>
@@ -2394,7 +2440,7 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ConanToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/2">Conan</a>
             (<a class="item" href="/items/1">Battle Axe</a>,
@@ -2403,19 +2449,19 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/4">Shevatas</a>
             (<a class="item" href="/items/9">Kris</a>,
             <a class="item" href="/items/13">Throwing Knives</a>)
           </td>
           <td></td>
-        </tr>
+        </tr
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ValeriaToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ValeriaToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/7">Valeria</a>
-            (<a class="item" href="/items/11">Perrying Dagger</a>)
+            (<a class="item" href="/items/11">Parrying Dagger</a>)
           </td>
           <td></td>
         </tr>
@@ -2452,7 +2498,7 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
             <td><p>When an event tile is activated the Overlord resolves the following event:</p>
               <p><span class="setup_suggestion">Thog’s Shadow:</span> During the next hero turn, heroes
               cannot gain movement points from their movement values.</p>
@@ -2461,13 +2507,13 @@
           </tr>
         </table>',
 
-      tile1: 5,
+      tile1: 6,
       tile2: 20,
-      tile3: 36,
+      tile3: 37,
       tile4: 16,
       tile5: 1,
       tile6: 3,
-      tile7: 36,
+      tile7: 37,
       tile8: 17,
 
       life1: 5,
@@ -2539,11 +2585,11 @@
         <p><span class="special_title">Chests:</span>
         During setup, the Overlord places 8 chests on the board as indicated by
         the setup diagram. The asset deck contains:
-        2 <a class="item" href="/items/31">Xuthal Crown</a>,
-        2 <a class="item" href="/items/22">Life Potion</a>,
-        2 <a class="item" href="/items/6">Explosive Orb</a>,
-        1 <a class="item" href="/items/16">Chain Mail</a>,
-        1 <a class="item" href="/items/5">Crossbow</a>.</p>',
+        2&nbsp;<a class="item" href="/items/31">Xuthal Crown</a>,
+        2&nbsp;<a class="item" href="/items/22">Life Potion</a>,
+        2&nbsp;<a class="item" href="/items/6">Explosive Orb</a>,
+        1&nbsp;<a class="item" href="/items/16">Chain Mail</a>,
+        1&nbsp;<a class="item" href="/items/5">Crossbow</a>.</p>',
 
       hero_victory: '',
       overlord_victory: '',
@@ -2552,9 +2598,10 @@
       product_ids: [1, 2, 3],
       map_ids: [4],
       hero_ids: [2, 4, 7],
-      tile_ids: [1, 3, 5, 16, 17, 20, 36],
+      tile_ids: [1, 3, 6, 16, 17, 20, 37],
       spell_ids: [],
-      item_ids: [1, 5, 6, 9, 11, 13, 16, 17, 22, 31, 37] },
+      item_ids: [1, 5, 6, 33, 9, 11, 87, 13, 16, 17, 77, 97, 22, 44, 103, 31, 37] },
+
 
     ## Stretch Goal
     # The Thing from the Swamp
@@ -2573,8 +2620,8 @@
       Jhebbal Sag and their ability to control all manner of beasts. But does he
       know that the most powerful of them can also call upon ancient, nightmarish creatures?</p>",
 
-      map_image: "https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/The+Thing+from+the+Swamp.jpg",
-      pdf_link: "",
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Thing+from+the+Swamp.jpg",
+      pdf_link: '',
       player_count: "4",
       complexity: "2",
 
@@ -2585,11 +2632,11 @@
       <table class="scen_table">
         <tr>
           <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
-          <td>The game starts with the heroes’ turn.<br /></td>
+          <td>The game starts with the heroes’ turn.  The heroes start in the areas
+          indicated by the setup diagram.</td>
           <td></td>
         </tr>
       </table>
-
       <table class="scen_table">
         <tr>
           <td><h4>3</h4></td>
@@ -2597,7 +2644,7 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ConanToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/2">Conan</a>
             (<a class="item" href="/items/1">Battle Axe</a>,
@@ -2607,7 +2654,7 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/4">Shevatas</a>
             (<a class="item" href="/items/9">Kris</a>,
@@ -2616,7 +2663,7 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/HadrathusToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/HadrathusToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/3">Hadrathus</a>
             (<a class="item" href="/items/3">Dagger</a>,
@@ -2653,7 +2700,7 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
             <td><p>When the Event tile is activated, the Overlord resolves each of the following events in order:</p>
               <p><span class="setup_suggestion">Impending Awakening:</span> Move the turn tracker 1 space toward space 15.</p>
               <p><span class="setup_suggestion">Destruction:</span> The Overlord places a water token
@@ -2664,7 +2711,8 @@
               then place the 3 corresponding Tentacle models (taken from the board
               or from the box) in the water areas of their choice on the board.</p>
             </td>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Tentacles.png" class="scen_event float_tile"></td>
+            <td>
+            <a class="tile" href="/tiles/92"><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Tentacles.jpg" class="scen_event"></a></td>
           </tr>
         </table>',
 
@@ -2673,7 +2721,7 @@
       tile3: 28,
       tile4: 1,
       tile5: 27,
-      tile6: 6,
+      tile6: 8,
       tile7: 0,
       tile8: 0,
 
@@ -2688,8 +2736,8 @@
 
       special_rules: '<p><span class="special_title">Magical Charm:</span>
         If a hero takes the <a class="item" href="/items/25">Pictish Fetish</a>
-        or <a class="tile" href="/tiles/6">Zogar Sag</a> dies, the charm is broken
-        and Yselda counts as an object with an encumbrance value of 6.</p>
+        or Zogar Sag dies, the charm is broken and Yselda counts as an object
+        with an encumbrance value of 6.</p>
 
         <p><span class="special_title">Pictish Fetish:</span>
         After a hero successfully opens a chest, and takes an asset card, that
@@ -2709,19 +2757,19 @@
         2 extra movement points.</p>
 
         <p><span class="special_title">Leap:</span>
-        Leaping over the water area around the alter in a single movement is not
-        possible. The character must stop in the alter area before performing a
+        Leaping over the water area around the altar in a single movement is not
+        possible. The character must stop in the altar area before performing a
         second leap.</p>
 
         <p><span class="special_title">Chests:</span>
         During setup, the Overlord places 8 chests on the board
         as indicated by the setup diagram. The asset deck contains:
-        2 <a class="item" href="/items/22">Life Potion</a>,
-        1 <a class="item" href="/items/6">Explosive Orb</a>,
-        1 <a class="item" href="/items/40">Zingaran Bow</a>,
-        1 <a class="item" href="/items/5">Crossbow</a>,
-        2 <a class="item" href="/items/23">Empty Chest</a>, and
-        1 <a class="item" href="/items/8">Javelin</a>.</p>',
+        2&nbsp;<a class="item" href="/items/22">Life Potion</a>,
+        1&nbsp;<a class="item" href="/items/6">Explosive Orb</a>,
+        1&nbsp;<a class="item" href="/items/40">Zingaran Bow</a>,
+        1&nbsp;<a class="item" href="/items/5">Crossbow</a>,
+        2&nbsp;<a class="item" href="/items/23">Empty Chest</a>, and
+        1&nbsp;<a class="item" href="/items/8">Javelin</a>.</p>',
 
       hero_victory: '',
       overlord_victory: '',
@@ -2730,9 +2778,10 @@
       product_ids: [1, 3],
       map_ids: [6],
       hero_ids: [2, 3, 4],
-      tile_ids: [1, 6, 23, 26, 27, 28, 92],
-      spell_ids: [6, 9, 16],
-      item_ids: [1, 3, 5, 6, 8, 9, 13, 17, 20, 22, 23, 25, 40] },
+      tile_ids: [1, 8, 23, 26, 27, 28, 92],
+      spell_ids: [6, 9, 16, 48],
+      item_ids: [1, 3, 5, 6, 33, 8, 9, 13, 17, 77, 97, 20, 22, 44, 103, 23, 25, 40] },
+
 
       # Facing the Serpent-Specter
     { name: "Facing the Serpent-Specter",
@@ -2757,8 +2806,8 @@
       later, a legendary monster appears – a creature known to have disappeared
       long ago: the terrifying Serpent-Specter.</p>",
 
-      map_image: "https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/Facing+the+Serpent+Specter.jpg",
-      pdf_link: "",
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Facing+the+Serpent+Specter.jpg",
+      pdf_link: '',
       player_count: "4",
       complexity: "2",
 
@@ -2769,20 +2818,12 @@
       hero_setup: '
       <table class="scen_table">
         <tr>
-          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
-          <td>The game starts with the heroes’ turn.<br /></td>
-          <td></td>
-        </tr>
-      </table>
-
-      <table class="scen_table">
-        <tr>
           <td><h4>3</h4></td>
           <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ConanToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/2">Conan</a>
             (<a class="item" href="/items/1">Battle Axe</a>,
@@ -2792,7 +2833,7 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/4">Shevatas</a>
             (<a class="item" href="/items/9">Kris</a>,
@@ -2801,7 +2842,7 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/HadrathusToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/HadrathusToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/3">Hadrathus</a>
             (<a class="item" href="/items/3">Dagger</a>,
@@ -2827,6 +2868,14 @@
       the Overlord wins the game.",
 
       overlord_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the Overload’s turn. The heroes start in the areas
+          indicated by the setup diagram.</td>
+          <td></td>
+        </tr>
+      </table>
         <table class="scen_table">
           <tr>
             <td><img src="/assets/tokens/redGem.png" class="scen_token" /></td>
@@ -2838,7 +2887,7 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
             <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
               <p><span class="setup_suggestion">Reinforcement:</span> 6 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
@@ -2860,12 +2909,12 @@
 
       tile1: 26,
       tile2: 28,
-      tile3: 6,
-      tile4: 9,
+      tile3: 8,
+      tile4: 10,
       tile5: 25,
       tile6: 86,
       tile7: 1,
-      tile8: 9,
+      tile8: 10,
 
       life1: 0,
       life2: 0,
@@ -2903,8 +2952,8 @@
         2 extra movement points.</p>
 
         <p><span class="special_title">Leap:</span>
-        Leaping over the water area around the alter in a single movement is not
-        possible. The character must stop in the alter area before performing a
+        Leaping over the water area around the altar in a single movement is not
+        possible. The character must stop in the altar area before performing a
         second leap.</p>
 
         <p><span class="special_title">Deep Water:</span>
@@ -2918,9 +2967,9 @@
       product_ids: [1, 3],
       map_ids: [6],
       hero_ids: [2, 3, 4],
-      tile_ids: [1, 6, 9, 25, 26, 28, 86],
-      spell_ids: [6, 9, 16],
-      item_ids: [1, 3, 9, 13, 17, 20] },
+      tile_ids: [1, 8, 10, 25, 26, 28, 86],
+      spell_ids: [6, 9, 16, 48],
+      item_ids: [1, 3, 9, 13, 17, 77, 97, 20] },
 
 
       # The Serpent’s Awakening
@@ -2945,8 +2994,8 @@
         honor of Set, the serpent-god of Stygia, and feasting on the princess’
         soul. But no cell can hold Conan for long.</p>",
 
-      map_image: "https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/The+Serpents+Awakening.jpg",
-      pdf_link: "",
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Serpents+Awakening.jpg",
+      pdf_link: '',
       player_count: "4",
       complexity: "2",
 
@@ -2957,16 +3006,11 @@
       <table class="scen_table">
         <tr>
           <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
-          <td>The game starts with the heroes’ turn.<br /></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>Conan Warlord starts in the area indicated by the setup diagram.</td>
+          <td>The game starts with the heroes’ turn.  Conan Warlord starts in the area
+          indicated by the setup diagram.</td>
           <td></td>
         </tr>
       </table>
-
       <table class="scen_table">
         <tr>
           <td><h4>3</h4></td>
@@ -2974,7 +3018,7 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanWarlordToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ConanWarlordToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/14">Conan Warlord</a>
             (<a class="item" href="/items/4">Conan’s Sword</a>)
@@ -2982,7 +3026,7 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ValeriaToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ValeriaToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/7">Valeria</a>
             (<a class="item" href="/items/12">Sword</a>,
@@ -2991,7 +3035,7 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/4">Shevatas</a>
             (<a class="item" href="/items/9">Kris</a>,
@@ -3026,7 +3070,7 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
             <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
               <p><span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
@@ -3073,9 +3117,8 @@
         spending movement points as though the hero were moving across a border.</p>
 
         <p><span class="special_title">Infiltration:</span>
-        At the start of the first turn, place the <a class="hero" href="/heroes/7">Valeria</a>
-        and <a class="hero" href="/heroes/4">Shevatas</a> models in any area with
-        a <a class="tile" href="/tiles/18">Bossonian Guard</a> with a blue base.</p>
+        At the start of the first turn, place the Valeria and Shevatas models in any
+        area with a Bossonian Guard with a blue base.</p>
 
         <p><span class="special_title">Doors:</span>
         A hero in an area adjacent to a door can perform a complex Manipulation
@@ -3103,11 +3146,11 @@
         <p><span class="special_title">Chests:</span>
         During setup, the Overlord places 6 chests on the board
         as indicated by the setup diagram. The asset deck contains:
-        2 <a class="item" href="/items/22">Life Potion</a>,
-        1 <a class="item" href="/items/6">Explosive Orb</a>,
-        1 <a class="item" href="/items/5">Crossbow</a>,
-        2 <a class="item" href="/items/20">Shield</a>, and
-        1 <a class="item" href="/items/16">Chain Mail</a>.</p>',
+        2&nbsp;<a class="item" href="/items/22">Life Potion</a>,
+        1&nbsp;<a class="item" href="/items/6">Explosive Orb</a>,
+        1&nbsp;<a class="item" href="/items/5">Crossbow</a>,
+        1&nbsp;<a class="item" href="/items/20">Shield</a>, and
+        1&nbsp;<a class="item" href="/items/16">Chain Mail</a>.</p>',
 
       hero_victory: '',
       overlord_victory: '',
@@ -3118,7 +3161,8 @@
       hero_ids: [4, 7, 14],
       tile_ids: [1, 3, 16, 18, 19, 22, 23, 67],
       spell_ids: [],
-      item_ids: [4, 5, 6, 9, 11, 12, 13, 16, 20, 22] },
+      item_ids: [4, 85, 5, 6, 33, 9, 11, 87, 12, 91, 13, 16, 20, 22, 44, 103] },
+
 
       # The Treasure of Tranicos
     { name: "The Treasure of Tranicos",
@@ -3143,8 +3187,8 @@
       to hide themselves, but Conan is captured and tossed in a pit filled with
       hyenas.</p>",
 
-      map_image: "https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/The+Treasure+of+Tranicos.jpg",
-      pdf_link: "",
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Treasure+of+Tranicos.jpg",
+      pdf_link: '',
       player_count: "4",
       complexity: "3",
 
@@ -3155,11 +3199,11 @@
       <table class="scen_table">
         <tr>
           <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
-          <td>The game starts with the heroes’ turn.<br /></td>
+          <td>The game starts with the heroes’ turn.  The heroes start in the areas
+          indicated by the setup diagram.</td>
           <td></td>
         </tr>
       </table>
-
       <table class="scen_table">
         <tr>
           <td><h4>3</h4></td>
@@ -3167,7 +3211,7 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanWarlordToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ConanWarlordToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/14">Conan Warlord</a>
             (<a class="item" href="/items/3">Dagger</a>,
@@ -3176,7 +3220,7 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ValeriaToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ValeriaToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/7">Valeria</a>
             (<a class="item" href="/items/12">Sword</a>,
@@ -3185,9 +3229,9 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/TaurusToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/TaurusToken.png" class="scen_setup"></td>
           <td>
-            <a class="hero" href="/heroes/20">Taurus</a>
+            <a class="hero" href="/heroes/21">Taurus</a>
             (<a class="item" href="/items/38">Turanian Sword</a>,
             <a class="item" href="/items/13">Throwing Knives</a>,
             <a class="item" href="/items/17">Leather Armor</a>)
@@ -3221,7 +3265,7 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
             <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
               <p><span class="setup_suggestion">Reinforcement:</span> 6 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
@@ -3238,11 +3282,13 @@
               aside facedown. The Overlord may move up to 2 gold bags this way per
               activation of the Event tile.</p>
               <p><span class="setup_suggestion">Arrival of the Dark Marauder:</span> The Overlord
-              places a <a class="tile" href="/tiles/8">Dark Demon</a> model (6 life points) in a reinforcement area.
-              This is the Dark Marauder. The Overlord replaces the event tile of
-              their choice in the River with a Dark Demon tile.</p>
+              places a Dark Demon model (6 life points) in a reinforcement area. This is the Dark
+              Marauder. The Overlord replaces the event tile of their choice in the River with a
+              <a class="tile" href="/tiles/9">Dark Demon</a> tile.</p>
             </td>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/DarkDemon.png" class="scen_event float_tile"></td>
+            <td>
+            <br /><br /><br /><br />
+            <a class="tile" href="/tiles/9"><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/DarkDemon.jpg" class="scen_event"></a></td>
           </tr>
         </table>',
 
@@ -3296,13 +3342,13 @@
         <p><span class="special_title">Chests:</span>
         During setup, the Overlord places 8 chests on the board
         as indicated by the setup diagram. The asset deck contains:
-        2 <a class="item" href="/items/22">Life Potion</a>,
-        1 <a class="item" href="/items/3">Dagger</a>,
-        1 <a class="item" href="/items/6">Explosive Orb</a>,
-        1 <a class="item" href="/items/5">Crossbow</a>,
-        1 <a class="item" href="/items/4">Conan’s Sword</a>,
-        1 <a class="item" href="/items/32">Axe</a>, and
-        1 <a class="item" href="/items/7">Halberd</a>.</p>',
+        2&nbsp;<a class="item" href="/items/22">Life Potion</a>,
+        1&nbsp;<a class="item" href="/items/3">Dagger</a>,
+        1&nbsp;<a class="item" href="/items/6">Explosive Orb</a>,
+        1&nbsp;<a class="item" href="/items/5">Crossbow</a>,
+        1&nbsp;<a class="item" href="/items/4">Conan’s Sword</a>,
+        1&nbsp;<a class="item" href="/items/32">Axe</a>, and
+        1&nbsp;<a class="item" href="/items/7">Halberd</a>.</p>',
 
       hero_victory: '',
       overlord_victory: '',
@@ -3310,10 +3356,11 @@
       origin: "Stretch Goal",
       product_ids: [1, 2, 3],
       map_ids: [5],
-      hero_ids: [7, 14, 20],
-      tile_ids: [1, 2, 7, 8, 18, 23, 32, 33, 35 ],
+      hero_ids: [7, 14, 21],
+      tile_ids: [1, 2, 7, 9, 18, 23, 32, 33, 35],
       spell_ids: [],
-      item_ids: [3, 4, 5, 6, 7, 11, 12, 13, 16, 17, 22, 32, 38] },
+      item_ids: [3, 4, 85, 5, 6, 33, 7, 11, 87, 12, 91, 13, 16, 17, 77, 97, 22, 44, 103, 32, 38] },
+
 
       ## Nordheim
       # A Red Sun Rises
@@ -3336,8 +3383,8 @@
       Relive the epic battles: Aesir raiders from Wulfhere fight in the name of
       Ymir against the Wolves of Bragi of Vanaheim.</p>",
 
-      map_image: "https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/A+Red+Sun+Rises.jpg",
-      pdf_link: "",
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/A+Red+Sun+Rises.jpg",
+      pdf_link: '',
       player_count: "5",
       complexity: "2",
 
@@ -3361,7 +3408,7 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ConanToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/2">Conan</a>
             (<a class="item" href="/items/1">Battle Axe</a>,
@@ -3370,7 +3417,7 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/4">Shevatas</a>
             (<a class="item" href="/items/9">Kris</a>,
@@ -3380,7 +3427,7 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BelitToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/BelitToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/1">Bêlit</a>
             (<a class="item" href="/items/10">Ornamental Spear</a>,
@@ -3389,13 +3436,13 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/NiordToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/NiordToken.png" class="scen_setup"></td>
           <td>
-            <a class="hero" href="/heroes/34">Niord</a>
-            (<a class="item" href="/items/59">2 Aesir Blades</a>),
-            and his 5 <a class="tile" href="/tiles/129">Aesir Warriors</a>
+            <a class="hero" href="/heroes/27">Niord</a>
+            (2&nbsp;<a class="item" href="/items/76">Aesir Blades</a>),
+            and his 5&nbsp;<a class="tile" href="/tiles/109">Aesir Warriors</a>
           </td>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AesirWarriors.png" class="scen_event"></td>
+          <td><a class="tile" href="/tiles/109"><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/AesirWarriors.jpg" class="scen_event"></a></td>
         </tr>
       </table>
 
@@ -3423,7 +3470,7 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
             <td><p>When Event 1 tile is activated the Overlord resolves the following event:</p>
               <p><span class="setup_suggestion">Reinforcement:</span> 8 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
@@ -3431,8 +3478,8 @@
             <td></td>
           </tr>
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event2.png" class="scen_event"></td>
-            <td><p>When Event 2 tile is activated the Overlord resolves any the following event:</p>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event2.png" class="scen_event"></td>
+            <td><p>When Event 2 tile is activated the Overlord resolves the following event:</p>
               <p><span class="setup_suggestion">Rage:</span>The Overlord chooses one area. The Overlord may perform a Melee Attack with all their units in this area.</p></td>
             <td></td>
           </tr>
@@ -3441,18 +3488,21 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZelatasWolfToken.png" class="scen_token" /></td>
-            <td>If you do not have the Wolf models, please use the Hyenas from the Core box.</td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ZelatasWolfToken.png" class="scen_token" /></td>
+            <td>
+              If you do not have the <a class="model" href="/models/97">Wolf</a> models,
+              please use the <a class="model" href="/models/18">Hyenas</a> from the Core box.
+            </td>
             <td></td>
           </tr>
         </table>',
 
-      tile1: 127,
-      tile2: 118,
-      tile3: 123,
-      tile4: 120,
+      tile1: 121,
+      tile2: 116,
+      tile3: 114,
+      tile4: 118,
       tile5: 1,
-      tile6: 124,
+      tile6: 115,
       tile7: 2,
       tile8: 0,
 
@@ -3470,8 +3520,8 @@
         gem to the Movement point total. This gem is placed in the hero’s Move space,
         but does not add a movement point. This effect occurs once per Move action
         regardless of how many areas the hero moves through.
-        <a class="hero" href="/heroes/34">Niord</a>,
-        <a class="tile" href="/tiles/129">Aesir Warriors</a>
+        <a class="hero" href="/heroes/27">Niord</a>,
+        <a class="tile" href="/tiles/109">Aesir Warriors</a>
         and the Overlord’s units are not affected.</p>
 
         <p><span class="special_title">That’s Not a Mountain:</span>
@@ -3480,25 +3530,25 @@
         board (the 3 areas where the heroes start the game).</p>
 
         <p><span class="special_title">Scoring Victory Points:</span>
-        At the end of 8, each hero or <a class="tile" href="/tiles/129">Aesir Warrior</a>
-        in a level 2 or 3 area indicated on the setup diagram equals 1 victory point.</p>
+        At the end of 8, each hero or Aesir Warrior in a level 2 or 3 area indicated
+        on the setup diagram equals 1 victory point.</p>
 
         <p><span class="special_title">Aesir Warriors:</span>
-        Only Niord can command his brethren allies. If <a class="hero" href="/heroes/34">Niord</a>
-        dies, <a class="tile" href="/tiles/129">Aesir Warriors</a> no longer have
-        a reason to fight and retreat homewards. All Warriors are immediately removed
-        from the game.</p>',
+        Only Niord can command his brethren allies. If Niord dies, Aesir Warriors no
+        longer have a reason to fight and retreat homewards. All Warriors are immediately
+        removed from the game.</p>',
 
       hero_victory: '',
       overlord_victory: '',
 
-      origin: "Nordheim Expansion",
-      product_ids: [1, 4],
-      map_ids: [7],
-      hero_ids: [1, 2, 4, 34],
-      tile_ids: [1, 2, 118, 120, 123, 124, 127, 129],
+      origin: "Nordheim",
+      product_ids: [1, 5],
+      map_ids: [10],
+      hero_ids: [1, 2, 4, 27],
+      tile_ids: [1, 2, 109, 114, 115, 116, 118, 121],
       spell_ids: [],
-      item_ids: [1, 9, 10, 13, 17, 59] },
+      item_ids: [1, 9, 10, 13, 17, 77, 97, 76] },
+
 
       # The Resurrected Horde
     { name: "The Resurrected Horde",
@@ -3521,8 +3571,8 @@
       necromancer and his undead horde, awakened by the crash of combat and the smell
       of blood and ruin.</p>",
 
-      map_image: "https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/The+Resurrected+Horde.jpg",
-      pdf_link: "",
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Resurrected+Horde.jpg",
+      pdf_link: '',
       player_count: "4",
       complexity: "2",
 
@@ -3531,20 +3581,12 @@
       hero_setup: '
       <table class="scen_table">
         <tr>
-          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
-          <td>The game starts with the heroes’ turn.<br /></td>
-          <td></td>
-        </tr>
-      </table>
-
-      <table class="scen_table">
-        <tr>
           <td><h4>3</h4></td>
           <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ConanToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/2">Conan</a>
             (<a class="item" href="/items/1">Battle Axe</a>,
@@ -3553,7 +3595,7 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/4">Shevatas</a>
             (<a class="item" href="/items/9">Kris</a>,
@@ -3563,10 +3605,10 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/NiordToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/NiordToken.png" class="scen_setup"></td>
           <td>
-            <a class="hero" href="/heroes/34">Niord</a>
-            (<a class="item" href="/items/59">2 Aesir Blades</a>)
+            <a class="hero" href="/heroes/27">Niord</a>
+            (2&nbsp;<a class="item" href="/items/76">Aesir Blades</a>)
           </td>
           <td></td>
         </tr>
@@ -3583,7 +3625,14 @@
 
       overlord_goal: "If the Necromancer is still alive at the end of turn 8, the Overlord wins the game.",
 
-      overlord_setup: 'The game starts with the Overlord’s turn.<br />
+      overlord_setup: '
+        <table class="scen_table">
+          <tr>
+            <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+            <td>The game starts with the Overlord’s turn.</td>
+            <td></td>
+          </tr>
+        </table>
         <table class="scen_table">
           <tr>
             <td><img src="/assets/tokens/redGem.png" class="scen_token" /></td>
@@ -3597,7 +3646,7 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
             <td><p>When an event tile is activated the Overlord resolves the following event:</p>
               <p><span class="setup_suggestion">Reinforcement:</span> 3 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
@@ -3607,19 +3656,19 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SkuthusToken.png" class="scen_setup"></td>
-            <td><a class="tile" href="/tiles/115">Yazdigerd</a> has the spell <a class="spell" href="/spells/58">Weight of Years</a>.</td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/SkuthusToken.png" class="scen_setup"></td>
+            <td><a class="tile" href="/tiles/106">Yazdigerd</a> has the spell <a class="spell" href="/spells/61">Weight of Years</a>.</td>
             <td></td>
           </tr>
         </table>',
 
-      tile1: 122,
-      tile2: 125,
+      tile1: 120,
+      tile2: 112,
       tile3: 1,
-      tile4: 115,
-      tile5: 128,
-      tile6: 121,
-      tile7: 8,
+      tile4: 106,
+      tile5: 111,
+      tile6: 119,
+      tile7: 9,
       tile8: 2,
 
       life1: 0,
@@ -3632,8 +3681,7 @@
       life8: 0,
 
       special_rules: '<p><span class="special_title">Bad Omens:</span>
-        All <a class="tile" href="/tiles/125">Crow</a> miniatures benefit from
-        the <a class="skill" href="/skills/32">Protected Skill</a>.</p>
+        All Crow miniatures benefit from the <a class="skill" href="/skills/32">Protected Skill</a>.</p>
 
         <p><span class="special_title">Concentration Required:</span>
         The Necromancer cannot move and must remain within his starting area.</p>
@@ -3643,7 +3691,7 @@
         gem to the Movement point total. This gem is placed in the hero’s Move space,
         but does not add a movement point. This effect occurs once per Move action
         regardless of how many areas the hero moves through.
-        <a class="hero" href="/heroes/34">Niord</a> and the Overlord’s units are
+        <a class="hero" href="/heroes/27">Niord</a> and the Overlord’s units are
         not affected.</p>
 
         <p><span class="special_title">That’s Not a Mountain:</span>
@@ -3652,14 +3700,13 @@
         board (the 3 areas where the heroes start the game).</p>
 
         <p><span class="special_title">3-way Split:</span>
-        Place the 3 <a class="item" href="/items/61">Amulet Fragment</a>, cards
+        Place the 3&nbsp;<a class="item" href="/items/78">Amulet Fragment</a>, cards
         face up next to the game board. The players must find and gather the 3
         fragments of the Soul of the Necromancer amulet in order to be able to
         inflict damage to Yazdigerd. The heroes must search through the piles of
         corpses (the 3 areas where the heroes start the game) in order to find
         the amulet fragments. When the heroes find the third fragment, they
-        immediately put the amulet together and
-        <a class="tile" href="/tiles/115">Yazdigerd</a> can suffer damage.
+        immediately put the amulet together and Yazdigerd can suffer damage.
         The heroes do not need to be in the same area and putting the Amulet
         together is a free action</p>
 
@@ -3672,26 +3719,27 @@
         <a class="item" href="/items/22">Life Potion</a>. Searching a pile of
         corpses is a complex Manipulation with a Difficulty 2. When a hero
         successfully searches a pile of corpses, this hero takes an
-        <a class="item" href="/items/61">Amulet Fragment</a> card and draws a
+        <a class="item" href="/items/78">Amulet Fragment</a> card and draws a
         card from the Pile of Corpses asset deck. Each pile of corpses can be
         successfully searched once per game.</p>
 
         <p><span class="special_title">Pile of Corpses:</span>
         The asset deck contains:
-        1 <a class="item" href="/items/10">Ornamental Spear</a>,
-        1 <a class="item" href="/items/16">Chain Mail</a>,
-        1 <a class="item" href="/items/22">Life Potion</a></p>',
+        1&nbsp;<a class="item" href="/items/10">Ornamental Spear</a>,
+        1&nbsp;<a class="item" href="/items/16">Chain Mail</a>,
+        1&nbsp;<a class="item" href="/items/22">Life Potion</a></p>',
 
       hero_victory: '',
       overlord_victory: '',
 
-      origin: "Nordheim Expansion",
-      product_ids: [1, 4],
-      map_ids: [7],
-      hero_ids: [2, 4, 34],
-      tile_ids: [1, 2, 8, 115, 121, 122, 125, 128],
-      spell_ids: [58],
-      item_ids: [1, 9, 10, 13, 16, 17, 20, 22, 59, 61] },
+      origin: "Nordheim",
+      product_ids: [1, 5],
+      map_ids: [10],
+      hero_ids: [2, 4, 27],
+      tile_ids: [1, 2, 9, 106, 111, 112, 119, 120],
+      spell_ids: [61],
+      item_ids: [1, 9, 10, 13, 16, 17, 77, 97, 20, 22, 44, 103, 76, 78, 79, 80] },
+
 
       # The Hammer and the Anvil
     { name: "The Hammer and the Anvil",
@@ -3717,8 +3765,8 @@
       have chased her through the frozen northern lands only to fall into the trap
       set up by her brothers.</p>",
 
-      map_image: "https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/The+Hammer+and+the+Anvil.jpg",
-      pdf_link: "",
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Hammer+and+the+Anvil.jpg",
+      pdf_link: '',
       player_count: "3",
       complexity: "2",
 
@@ -3740,7 +3788,7 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ConanToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/2">Conan</a>
             (<a class="item" href="/items/1">Battle Axe</a>,
@@ -3749,10 +3797,10 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/NiordToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/NiordToken.png" class="scen_setup"></td>
           <td>
-            <a class="hero" href="/heroes/34">Niord</a>
-            (<a class="item" href="/items/59">2 Aesir Blades</a>)
+            <a class="hero" href="/heroes/27">Niord</a>
+            (2&nbsp;<a class="item" href="/items/76">Aesir Blades</a>)
           </td>
           <td></td>
         </tr>
@@ -3782,7 +3830,7 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
             <td><p>When an event tile is activated the Overlord resolves any one of
               the following events:</p>
               <p><span class="setup_suggestion">Rabid Wolf Pack:</span> 3 reinforcement points for the
@@ -3802,28 +3850,31 @@
             </td>
             <td></td>
           </tr>
-        </table><br />
+        </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SeskiToken.png" class="scen_token" /></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/SeskiToken.png" class="scen_token" /></td>
             <td>To differentiate the giant brothers, place the corresponding Life Point tokens on the bases.</td>
             <td></td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZelatasWolfToken.png" class="scen_token" /></td>
-            <td>If you do not have the Wolf models, please use the Hyenas from the Core box.</td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ZelatasWolfToken.png" class="scen_token" /></td>
+            <td>
+              If you do not have the <a class="model" href="/models/97">Wolf</a> models,
+              please use the <a class="model" href="/models/18">Hyenas</a> from the Core box.
+            </td>
             <td></td>
           </tr>
         </table>',
 
       tile1: 1,
-      tile2: 117,
+      tile2: 108,
       tile3: 2,
-      tile4: 116,
-      tile5: 127,
-      tile6: 125,
+      tile4: 107,
+      tile5: 121,
+      tile6: 113,
       tile7: 0,
       tile8: 0,
 
@@ -3848,8 +3899,7 @@
         does not cost any extra movement points.</p>
 
         <p><span class="special_title">Stone Heart:</span>
-        <a class="hero" href="/heroes/2">Conan</a> is not affected by the
-        <a class="skill" href="/skills/25">Horror Skill</a>.</p>
+        Conan is not affected by the <a class="skill" href="/skills/25">Horror Skill</a>.</p>
 
         <p><span class="special_title">As the Mighty Fall:</span>
         Giants are powerful but weaken when injured. If a Giant’s Life Point total
@@ -3870,13 +3920,14 @@
       hero_victory: '',
       overlord_victory: '',
 
-      origin: "Nordheim Expansion",
-      product_ids: [1, 4],
-      map_ids: [8],
-      hero_ids: [2, 34],
-      tile_ids: [1, 2, 116, 117, 125, 127],
+      origin: "Nordheim",
+      product_ids: [1, 5],
+      map_ids: [11],
+      hero_ids: [2, 27],
+      tile_ids: [1, 2, 107, 108, 113, 121],
       spell_ids: [],
-      item_ids: [1, 20, 59] },
+      item_ids: [1, 20, 76] },
+
 
       # Run Till You Drop
     { name: "Run Till You Drop",
@@ -3897,8 +3948,8 @@
       <p>Niord is dead. The Frost Giants are slain. Nothing stands between Conan and
       Ymir’s daughter. Who will prevail? The powerful Cimmerian or the blazing Atali</p>",
 
-      map_image: "https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/Run+Till+You+Drop.jpg",
-      pdf_link: "",
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Run+Till+You+Drop.jpg",
+      pdf_link: '',
       player_count: "2",
       complexity: "2",
 
@@ -3911,13 +3962,7 @@
           <td>The game starts with the heroes’ turn.<br /></td>
           <td></td>
         </tr>
-        <tr>
-          <td></td>
-          <td>Conan starts in the area indicated by the setup diagram.</td>
-          <td></td>
-        </tr>
       </table>
-
       <table class="scen_table">
         <tr>
           <td><h4>1</h4></td>
@@ -3925,7 +3970,7 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ConanToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/2">Conan</a>
             (<a class="item" href="/items/1">Battle Axe</a>)
@@ -3958,7 +4003,7 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
             <td><p>When Event 1 tile is activated the Overlord resolves the following event:</p>
               <p><span class="setup_suggestion">Ice Crows:</span> Atali sways rhythmically, uttering curses,
               as the ice shatters around her launching a storm of sharp icy beaks.
@@ -3969,7 +4014,7 @@
             <td></td>
           </tr>
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event2.png" class="scen_event"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event2.png" class="scen_event"></td>
             <td><p>When Event 2 tile is activated the Overlord resolves the following event:</p>
               <p><span class="setup_suggestion">Revitalize:</span> Atali may transfer 2 gems from any area
               on the game board and place them in the Overlord’s Fatigue zone.
@@ -3980,18 +4025,18 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AtaliToken.png" class="scen_setup"></td>
-            <td><a class="tile" href="/tiles/114">Atali</a> has the spell <a class="spell" href="/spells/58">Weight of Years</a>.</td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/AtaliToken.png" class="scen_setup"></td>
+            <td><a class="tile" href="/tiles/105">Atali</a> has the spell <a class="spell" href="/spells/61">Weight of Years</a>.</td>
             <td></td>
           </tr>
         </table>',
 
-      tile1: 126,
-      tile2: 114,
+      tile1: 113,
+      tile2: 105,
       tile3: 1,
-      tile4: 114,
+      tile4: 105,
       tile5: 2,
-      tile6: 114,
+      tile6: 105,
       tile7: 0,
       tile8: 0,
 
@@ -4017,27 +4062,25 @@
 
         <p><span class="special_title">Frost Armor:</span>
         During setup, place the Frost Armor token
-        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/FrostArmorToken.png" class="scen_token">
+        <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/FrostArmorToken.png" class="scen_token">
         on space 6 of the track sheet. This is used to track Atali’s Armor value
-        during the game. Each time <a class="tile" href="/tiles/114">Atali</a>
+        during the game. Each time <a class="tile" href="/tiles/105">Atali</a>
         is hit by an attack, after suffering damage, move the Frost Armor down
         one space toward 0.</p>
 
         <p><span class="special_title">Life Trail:</span>
         At the start of each Overlord’s turn before the Recovery Phase, if
-        <a class="tile" href="/tiles/114">Atali</a> is in an area where at least
-        1 gem is placed, the Overlord must transfer 1 gem from their Reserve zone
-        to that area of the game board.</p>
+        Atali is in an area where at least 1 gem is placed, the Overlord must
+        transfer 1 gem from their Reserve zone to that area of the game board.</p>
 
         <p><span class="special_title">A Weakening Magic:</span>
         Atali’s Life Points are represented by the gems in the Overlord’s Reserve
-        and Fatigue zones. When <a class="tile" href="/tiles/114">Atali</a>
-        suffers damage, the Overlord must transfer that many gems from their
-        Reserve zone and place them in Atali’s area on the game board. When the
-        Overlord’s Reserve zone is empty, use gems from the Overlord’s Fatigue
-        zone. If the Overlord’s Fatigue zone is also empty, Atali dies and the
-        hero wins. Each time Atali suffers damage, the Overlord may move Atali
-        to any area on the board. This Move action cannot be hindered by the hero
+        and Fatigue zones. When Atali suffers damage, the Overlord must transfer
+        that many gems from their Reserve zone and place them in Atali’s area on
+        the game board. When the Overlord’s Reserve zone is empty, use gems from the
+        Overlord’s Fatigue zone. If the Overlord’s Fatigue zone is also empty, Atali
+        dies and the hero wins. Each time Atali suffers damage, the Overlord may move
+        Atali to any area on the board. This Move action cannot be hindered by the hero
         and Atali is not affected by the movement penalty when entering
         Impenetrable Forest or Rocky Outcrop.</p>
 
@@ -4050,36 +4093,35 @@
 
         <p><span class="special_title">Escape Is the Only Option:</span>
         During setup, place the Escape token
-        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AtaliEscapeToken.png" class="scen_token">
-        on space 0 of the track sheet. Each turn <a class="hero" href="/heroes/2">Conan</a>
-        does not attack <a class="tile" href="/tiles/114">Atali</a>, she gets
+        <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/AtaliEscapeToken.png" class="scen_token">
+        on space 0 of the track sheet. Each turn Conan does not attack Atali, she gets
         away a little bit more: At the end of the hero’s turn, advance the Escape token
-        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AtaliEscapeToken.png" class="scen_token">
-        1 place. When the token reaches 4, <a class="tile" href="/tiles/114">Atali</a>
-        gets away and the Overlord wins.</p>
+        <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/AtaliEscapeToken.png" class="scen_token">
+        1 place. When the token reaches 4, Atali gets away and the Overlord wins.</p>
 
         <p><span class="special_title">Chests:</span>
         During setup, the Overlord places 3 chests on the board as indicated by
         the setup diagram. The asset deck contains:
-        2 <a class="item" href="/items/22">Life Potions</a> and
-        1 <a class="item" href="/items/13">Throwing Knives</a>.</p>',
+        2&nbsp;<a class="item" href="/items/22">Life Potions</a> and
+        1&nbsp;<a class="item" href="/items/13">Throwing Knives</a>.</p>',
 
       hero_victory: '',
       overlord_victory: '',
 
-      origin: "Nordheim Expansion",
-      product_ids: [1, 4],
-      map_ids: [8],
+      origin: "Nordheim",
+      product_ids: [1, 5],
+      map_ids: [11],
       hero_ids: [2],
-      tile_ids: [1, 2, 114, 126],
-      spell_ids: [58],
-      item_ids: [1, 13, 22] },
+      tile_ids: [1, 2, 113, 105],
+      spell_ids: [61],
+      item_ids: [1, 13, 22, 44, 103] },
+
 
       ## Khitai
       # A Bloody Burglary
     { name: "A Bloody Burglary",
       description: "<p>Conan has reached the kingdom of Khitai and the city of
-      Paikang, the town of purple towers whose sumptuous  pagodas overlook the
+      Paikang, the town of purple towers whose sumptuous pagodas overlook the
       bamboo jungles adorned with lianas.</p>
       <p>The Cimmerian has ventured deep into the East, through the vast Hyrkanian
       steppe to escape from the Turanian army. He is one of the only survivors
@@ -4098,8 +4140,8 @@
       Shuang Mian was assassinated out of revenge. In the darkest hour of the night,
       the small group gets closer to the tower </p>",
 
-      map_image: "https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/A+Bloody+Burglary.jpg",
-      pdf_link: "",
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/A+Bloody+Burglary.jpg",
+      pdf_link: '',
       player_count: "4",
       complexity: "2",
 
@@ -4121,7 +4163,7 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ConanToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/2">Conan</a>
             (<a class="item" href="/items/1">Battle Axe</a>)
@@ -4129,7 +4171,7 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/4">Shevatas</a>
             (<a class="item" href="/items/9">Kris</a>,
@@ -4138,11 +4180,11 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShentuToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ShentuToken.png" class="scen_setup"></td>
           <td>
-            <a class="hero" href="/heroes/35">Shentu</a>
-            (<a class="item" href="/items/63">Khitan Sword</a>,
-            <a class="item" href="/items/62">Khitan Short Sword</a>)
+            <a class="hero" href="/heroes/26">Shentu</a>
+            (<a class="item" href="/items/66">Khitan Sword</a>,
+            <a class="item" href="/items/65">Khitan Short Sword</a>)
           </td>
           <td></td>
         </tr>
@@ -4154,8 +4196,8 @@
           <td>
             During setup, the heroes freely distribute the following 2 asset cards
             among themselves:
-              <a class="item" href="/items/69">Tower Key</a>,
-              <a class="item" href="/items/65">False Evidence</a>.
+              <a class="item" href="/items/72">Tower Key</a>,
+              <a class="item" href="/items/68">False Evidence</a>.
           </td>
           <td></td>
         </tr>
@@ -4186,20 +4228,20 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShuangMianToken.png" class="scen_setup"></td>
-            <td><a class="tile" href="/tiles/131">Shuang Mian</a> has the spell <a class="spell" href="/spells/60">Mental Torture</a> spell.</td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ShuangMianToken.png" class="scen_setup"></td>
+            <td><a class="tile" href="/tiles/96">Shuang Mian</a> has the spell <a class="spell" href="/spells/59">Mental Torture</a> spell.</td>
             <td></td>
           </tr>
         </table>',
 
-      tile1: 134,
-      tile2: 139,
-      tile3: 133,
-      tile4: 137,
-      tile5: 136,
-      tile6: 132,
-      tile7: 131,
-      tile8: 135,
+      tile1: 104,
+      tile2: 98,
+      tile3: 103,
+      tile4: 101,
+      tile5: 100,
+      tile6: 97,
+      tile7: 96,
+      tile8: 99,
 
       life1: 0,
       life2: 0,
@@ -4211,10 +4253,10 @@
       life8: 0,
 
       special_rules: '<p><span class="special_title">Ethereal Twin:</span>
-        When <a class="tile" href="/tiles/131">Shuang Mian’s</a> tile is activated,
-        the Overlord may move 2 gems from their Reserve zone to their Fatigue zone
-        to create a double identical to the sorcerer. The Overlord places a second life token
-        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShuangMianToken.png" class="scen_token">
+        When Shuang Mian’s tile is activated, the Overlord may move 2 gems from their
+        Reserve zone to their Fatigue zone to create a double identical to the sorcerer.
+        The Overlord places a second life token
+        <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ShuangMianToken.png" class="scen_token">
          in Shuang Mian’s area; this represents the sorcerer’s double. When Shuang
         Mian moves, the Overlord moves the life token to the same area. When Shuang
         Mian is attacked, after the attack power is determined, the Overlord
@@ -4248,18 +4290,18 @@
         recovery token with a numbered token of a value equal to the new Alert Level</p>
 
         <p><span class="special_title">The Master Key:</span>
-        The <a class="item" href="/items/69">Tower Key</a> opens any door or
+        The <a class="item" href="/items/72">Tower Key</a> opens any door or
         chest in the tower. A hero in an area adjacent to a door or in the
         chest’s area can discard the Tower Key to open that door or that chest.</p>
 
         <p><span class="special_title">False Evidence:</span>
-        A hero with the <a class="item" href="/items/65">False Evidence</a>
+        A hero with the <a class="item" href="/items/68">False Evidence</a>
         asset card in the chest’s area on level 4 of the tower, may place that
         card in the area by performing a simple Manipulation. This validates a
         secondary objective for the heroes.</p>
 
         <p><span class="special_title">Shuang Mian’s Documents:</span>
-        During setup, the <a class="item" href="/items/71">Warlock Documents</a>
+        During setup, the <a class="item" href="/items/74">Warlock Documents</a>
         asset card is placed in the chest’s area on level 2 of the tower. A hero
         in that area may perform a complex Manipulation with a difficulty of 2
         to rob the documents. If successful, that hero takes the Warlock Documents
@@ -4290,11 +4332,10 @@
         Overlord’s units other than the Foo Dogs may move through those doors freely.</p>
 
         <p><span class="special_title">Windows:</span>
-        During setup, place 3 <img src="/assets/tokens/rocksToken.png" class="scen_token" />
+        During setup, place 3&nbsp;<img src="/assets/tokens/rocksToken.png" class="scen_token" />
         tokens as indicated by the setup diagram. These windows are sealed off
-        and cannot be opened, even with the <a class="item" href="/items/69">Tower Key</a>.
-        The windows on levels 2 and 3 have line of sight on the areas of level 1 directly
-        below them.</p>
+        and cannot be opened, even with the Tower Key. The windows on levels 2 and 3 have
+        line of sight on the areas of level 1 directly below them.</p>
 
         <p><span class="special_title">Stone Wall:</span>
         A character with <a class="skill" href="/skills/11">Wall Wrecker</a>
@@ -4303,25 +4344,31 @@
         <p><span class="special_title">End of Game Scoring:</span>
         The Heroes and the Overlord keep track of the Victory Points earned at
         the end of the scenario to play the following scenario, Smoke Screen, as
-        a 2-scenario campaign.
+        a 2-scenario campaign.<br /><br />
         The Overlord scores 1 Victory Point:
-        If the Overlord wins the game.
-        For each hero who died during the game.
+        <ul>
+          <li>If the Overlord wins the game.</li>
+          <li>For each hero who died during the game.</li>
+        </ul>
+        <br />
         The heroes score 1 Victory Point:
-        If the heroes win the game.
-        If the heroes successfully rob the documents.
-        If the heroes plant the false evidence. </p>',
+        <ul>
+          <li>If the heroes win the game.</li>
+          <li>If the heroes successfully rob the documents.</li>
+          <li>If the heroes plant the false evidence.</li>
+        </ul></p>',
 
       hero_victory: '',
       overlord_victory: '',
 
-      origin: "Khitai Expansion",
-      product_ids: [1, 5],
-      map_ids: [11, 12],
-      hero_ids: [2, 4, 35],
-      tile_ids: [131, 132, 133, 134, 135, 136, 137, 139],
-      spell_ids: [60],
-      item_ids: [1, 9, 13, 62, 63, 65, 69, 71] },
+      origin: "Khitai",
+      product_ids: [1, 4],
+      map_ids: [7, 8],
+      hero_ids: [2, 4, 26],
+      tile_ids: [96, 97, 98, 99, 100, 101, 103, 104],
+      spell_ids: [59],
+      item_ids: [1, 9, 13, 65, 66, 68, 72, 74] },
+
 
       # Smoke Screen
     { name: "Smoke Screen",
@@ -4347,8 +4394,8 @@
       but he gives out a ferocious battle cry as he leaps in the flames, his axe
       in hand, determined to finish the contract.</p>",
 
-      map_image: "https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/Smoke+Screen.jpg",
-      pdf_link: "",
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Smoke+Screen.jpg",
+      pdf_link: '',
       player_count: "2",
       complexity: "2",
 
@@ -4371,7 +4418,7 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ConanToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/2">Conan</a>
             (<a class="item" href="/items/1">Battle Axe</a>)
@@ -4379,7 +4426,7 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/4">Shevatas</a>
             (<a class="item" href="/items/9">Kris</a>,
@@ -4388,11 +4435,11 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShentuToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ShentuToken.png" class="scen_setup"></td>
           <td>
-            <a class="hero" href="/heroes/35">Shentu</a>
-            (<a class="item" href="/items/63">Khitan Sword</a>,
-            <a class="item" href="/items/62">Khitan Short Sword</a>)
+            <a class="hero" href="/heroes/26">Shentu</a>
+            (<a class="item" href="/items/66">Khitan Sword</a>,
+            <a class="item" href="/items/65">Khitan Short Sword</a>)
           </td>
           <td></td>
         </tr>
@@ -4421,13 +4468,13 @@
         </tr>
       </table>',
 
-      tile1: 139,
-      tile2: 134,
-      tile3: 137,
-      tile4: 133,
-      tile5: 136,
-      tile6: 131,
-      tile7: 135,
+      tile1: 98,
+      tile2: 104,
+      tile3: 101,
+      tile4: 103,
+      tile5: 100,
+      tile6: 96,
+      tile7: 99,
       tile8: 0,
 
       life1: 0,
@@ -4447,25 +4494,29 @@
 
         <p><span class="special_title">The Towering Inferno:</span>
         The fire progresses upward after the End phase of the heroes’ turn:<br />
-        At the end of turn 1, the level 0 is on fire<br />
-        At the end of turn 3, the level 1 is on fire<br />
-        At the end of turn 5, the level 2 is on fire<br />
-        At the end of turn 6, the level 3 is on fire<br />
-        At the end of turn 7, the level 4 is on fire and the whole tower is burning in flames.
-        <br /><br />
+        <ul>
+          <li>At the end of turn 1, the level 0 is on fire</li>
+          <li>At the end of turn 3, the level 1 is on fire</li>
+          <li>At the end of turn 5, the level 2 is on fire</li>
+          <li>At the end of turn 6, the level 3 is on fire</li>
+          <li>At the end of turn 7, the level 4 is on fire and the whole tower is burning in flames.</li>
+        </ul>
+
         A model in a level or moving into a level on fire is immediately removed from the game.</p>
 
         <p><span class="special_title">Exiting the Tower:</span><br />
-        Level 0: A character other than a <a class="tile" href="/tiles/139">Foo Dog</a>
-        may move across the heroes’ cell door as though it were a border by spending
-        1 additional movement point. After a character moves across that door, remove
-        that door from the board.
-        <br /><br />
-        Level 0: The portcullis is locked. A character in the area adjacent to the
-        portcullis may perform a complex Manipulation with a difficulty of 2 to open
-        it. Once opened a character can move through it with no movement penalty.
-        <br /><br />
-        Level 1: A character cannot move across the main doors.</p>
+
+        <ul>
+          <li>Level 0: A character other than a Foo Dog may move across the heroes’ cell door
+          as though it were a border by spending 1 additional movement point. After a
+          character moves across that door, remove that door from the board.</li>
+          <li>Level 0: The portcullis is locked. A character in the area adjacent to the
+          portcullis may perform a complex Manipulation with a difficulty of 2 to open
+          it. Once opened a character can move through it with no movement penalty.</li>
+          <li>Level 1: A character cannot move across the main doors.</li>
+        </ul>
+
+        </p>
 
         <p><span class="special_title">Climbing:</span>
         A character with Climb may move from level 2 to level 3 (and the other way)
@@ -4474,27 +4525,27 @@
         cannot reach level 1 by climbing because of the flames.</p>
 
         <p><span class="special_title">Windows:</span>
-        During setup, place 2 <img src="/assets/tokens/rocksToken.png" class="scen_token" />
+        During setup, place 2&nbsp;<img src="/assets/tokens/rocksToken.png" class="scen_token" />
         tokens as indicated by the setup diagram. These windows are sealed off
         and cannot be opened. The windows on levels 2 and 3 have line of sight
         on the areas of level 1 directly below them.</p>
 
         <p><span class="special_title">Shuang Mian:</span>
-        The Overlord cannot move <a class="tile" href="/tiles/131">Shuang Mian</a>
-        into a level on fire to prevent the heroes from killing him. When Shuang
-        Mian dies, remove his model and place his life token
-        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShuangMianToken.png" class="scen_token">
-         in the same area. This represents his head. A hero in the head’s area
+        The Overlord cannot move Shuang Mian into a level on fire to prevent the
+        heroes from killing him. When Shuang Mian dies, remove his model and place
+        his life token
+        <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ShuangMianToken.png" class="scen_token">
+          in the same area. This represents his head. A hero in the head’s area
          may perform a simple manipulation to pick it up. The head has an
          encumbrance value of 2.</p>
 
         <p><span class="special_title">Call to Arms:</span>
-        When <a class="tile" href="/tiles/131">Shuang Mian’s</a> tile is activated,
+        When Shuang Mian’s tile is activated,
         the Overlord may move 2 gems from their Reserve zone to their Fatigue zone
         to summon his loyal hound. The Evil Hound’s tile must replace a facedown
         tile. The Evil Hound’s model is place in Shuang Mian’s area or in an adjacent
         area and his life point token
-        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/DarkDemonToken.png" class="scen_token">
+        <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/DarkDemonToken.png" class="scen_token">
          is placed on space 2 of the turn track.</p>
 
         <p><span class="special_title">Dive:</span>
@@ -4535,27 +4586,32 @@
         the end of this scenario and add them to the previous scenario, A Bloody
         Burglary, to determine the winner of the 2-scenario campaign.
         <br /><br />
-        The Overlord scores 1 Victory Point:<br />
-        If the Overlord wins the game.<br />
-        For each hero who died during the game.
-        <br /><br />
-        The heroes score 1 Victory Point:<br />
-        If the heroes win the game.<br />
-        For each hero who retrieves his whole starting Equipment in the tower.
-        <br /><br />
+        The Overlord scores 1 Victory Point:
+        <ul>
+          <li>If the Overlord wins the game.</li>
+          <li>For each hero who died during the game.</li>
+        </ul>
+
+        The heroes score 1 Victory Point:
+        <ul>
+          <li>If the heroes win the game.</li>
+          <li>For each hero who retrieves his whole starting Equipment in the tower.</li>
+        </ul>
+
         The side with the most Victory Points at the end of the two scenarios win
         the campaign.</p>',
 
       hero_victory: '',
       overlord_victory: '',
 
-      origin: "Khitai Expansion",
-      product_ids: [1, 5],
-      map_ids: [11, 12],
-      hero_ids: [2, 4, 35],
-      tile_ids: [131, 133, 134, 135, 136, 137, 139],
+      origin: "Khitai",
+      product_ids: [1, 4],
+      map_ids: [7, 8],
+      hero_ids: [2, 4, 26],
+      tile_ids: [96, 98, 99, 100, 101, 103, 104],
       spell_ids: [],
-      item_ids: [1, 9, 13, 62, 63, 65,69] },
+      item_ids: [1, 9, 13, 65, 66] },
+
 
       # The Remedy
     { name: "The Remedy",
@@ -4575,8 +4631,17 @@
       be easy because the sorcerer is constantly under the heavy protection of a
       detachment of mercenaries who serve him as his personal guard.</p>",
 
-      map_image: "https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/The+Remedy.jpg",
-      pdf_link: "",
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Remedy.jpg",
+      pdf_link: '
+        <p>The gray Khitan Guard on the lower right side of the board should be red.</p>
+        <p>The Evil Hound (not a Foo Dog) starts in the area with Shuang Mian.</p>
+        <p><strong>Item Cards:</strong> The item cards placed on the board are:
+        (top) <a class="item" href="/items/69">Ginger</a> and
+        <a class="item" href="/items/67">Black Lotus</a>,
+        (center) <a class="item" href="/items/73">Toxic Mushrooms</a> and
+        <a class="item" href="/items/71">Toad Mucus</a>,
+        and (lower right) <a class="item" href="/items/70">Saltpeter</a></p>',
+
       player_count: "4",
       complexity: "2",
 
@@ -4599,7 +4664,7 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ConanToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/2">Conan</a>
             (<a class="item" href="/items/1">Battle Axe</a>
@@ -4608,7 +4673,7 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/4">Shevatas</a>
             (<a class="item" href="/items/9">Kris</a>,
@@ -4617,11 +4682,11 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShentuToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ShentuToken.png" class="scen_setup"></td>
           <td>
-            <a class="hero" href="/heroes/35">Shentu</a>
-            (<a class="item" href="/items/63">Khitan Sword</a>,
-            <a class="item" href="/items/62">Khitan Short Sword</a>)
+            <a class="hero" href="/heroes/26">Shentu</a>
+            (<a class="item" href="/items/66">Khitan Sword</a>,
+            <a class="item" href="/items/65">Khitan Short Sword</a>)
           </td>
           <td></td>
         </tr>
@@ -4652,7 +4717,7 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
             <td><p>Each of the following effects can only be resolved once per game.
               Each time the event tile is activated, the Overlord must resolve one
               of the following effects, After both effects have been resolved,
@@ -4670,22 +4735,22 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShuangMianToken.png" class="scen_setup"></td>
-            <td><a class="tile" href="/tiles/131">Shuang Mian</a> has the spells
-              <a class="spell" href="/spells/61">Push Back</a> and
-              <a class="spell" href="/spells/59">Blaze</a>.
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ShuangMianToken.png" class="scen_setup"></td>
+            <td><a class="tile" href="/tiles/96">Shuang Mian</a> has the spells
+              <a class="spell" href="/spells/60">Push Back</a> and
+              <a class="spell" href="/spells/58">Blaze</a>.
             </td>
             <td></td>
           </tr>
         </table>',
 
-      tile1: 136,
-      tile2: 139,
-      tile3: 131,
-      tile4: 132,
-      tile5: 134,
+      tile1: 100,
+      tile2: 98,
+      tile3: 96,
+      tile4: 97,
+      tile5: 104,
       tile6: 1,
-      tile7: 138,
+      tile7: 102,
       tile8: 0,
 
       life1: 0,
@@ -4700,12 +4765,12 @@
       special_rules: '<p><span class="special_title">The Remedy Ingredients:</span>
         During setup, the heroes form an ingredient deck with 1 copy of the
         following cards:
-        <a class="item" href="/items/64">Black Lotus</a>,
-        <a class="item" href="/items/70">Toxic Mushrooms</a>,
-        <a class="item" href="/items/67">Saltpeter</a>,
-        <a class="item" href="/items/66">Ginger</a>,
-        <a class="item" href="/items/68">Toad Mucus</a>,
-        <a class="item" href="/items/72">Warlock’s Blood</a>.
+        <a class="item" href="/items/67">Black Lotus</a>,
+        <a class="item" href="/items/73">Toxic Mushrooms</a>,
+        <a class="item" href="/items/70">Saltpeter</a>,
+        <a class="item" href="/items/69">Ginger</a>,
+        <a class="item" href="/items/71">Toad Mucus</a>,
+        <a class="item" href="/items/75">Warlock’s Blood</a>.
         The heroes secretly draw and look at 3 cards from that ingredient deck
         and place them face down next to the board. These are the ingredients the
         heroes have to collect to save Zelata. The rest of the ingredient deck
@@ -4714,15 +4779,14 @@
         in the setup diagram.</p>
 
         <p><span class="special_title">The Blood of the Warlock:</span>
-        The first time Shuand Mian loses at least 1 life point from a Melee Attack,
-        place the card <a class="item" href="/items/72">Warlock’s Blood</a> in
+        The first time Shuang Mian loses at least 1 life point from a Melee Attack,
+        place the card <a class="item" href="/items/75">Warlock’s Blood</a> in
         Shuang Mian’s area. It can be picked up by performing a simple Manipulation.</p>
 
         <p><span class="special_title">Collecting Ingredients:</span>
         A hero in an ingredient’s area (except the Warlock’s Blood) may perform
         a complex Manipulation with a difficulty of 2 to find it in the room. That
-        hero immediately picks up that ingredient.
-        <a class="item" href="/items/72">Warlock’s Blood</a> and the urns
+        hero immediately picks up that ingredient. Warlock’s Blood and the urns
         containing the ingredients are fragile and cannot be thrown. The heroes
         may give or pick up an ingredient.</p>
 
@@ -4759,13 +4823,14 @@
       hero_victory: '',
       overlord_victory: '',
 
-      origin: "Khitai Expansion",
-      product_ids: [1, 5],
-      map_ids: [13],
-      hero_ids: [2, 4, 35],
-      tile_ids: [1, 131, 132, 134, 136, 138, 139],
-      spell_ids: [59, 61],
-      item_ids: [1, 2, 9, 13, 17, 62, 63, 64, 66, 67, 68, 70, 72] },
+      origin: "Khitai",
+      product_ids: [1, 4],
+      map_ids: [9],
+      hero_ids: [2, 4, 26],
+      tile_ids: [1, 96, 97, 98, 100, 102, 104],
+      spell_ids: [58, 60],
+      item_ids: [1, 2, 17, 77, 97, 9, 13, 65, 66, 67, 69, 70, 71, 73, 75] },
+
 
       # The Magnificent Three
     { name: "The Magnificent Three",
@@ -4790,8 +4855,8 @@
       corners of the town. It will be very difficult to eliminate the sorcerer
       without destroying the artifacts first.</p>",
 
-      map_image: "https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/The+Magnificent+Three.jpg",
-      pdf_link: "",
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Magnificent+Three.jpg",
+      pdf_link: '',
       player_count: "4",
       complexity: "2",
 
@@ -4814,7 +4879,7 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ConanToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/2">Conan</a>
             (<a class="item" href="/items/1">Battle Axe</a>,
@@ -4823,16 +4888,16 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShentuToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ShentuToken.png" class="scen_setup"></td>
           <td>
-            <a class="hero" href="/heroes/35">Shentu</a>
-            (<a class="item" href="/items/63">Khitan Sword</a>,
-            <a class="item" href="/items/62">Khitan Short Sword</a>)
+            <a class="hero" href="/heroes/26">Shentu</a>
+            (<a class="item" href="/items/66">Khitan Sword</a>,
+            <a class="item" href="/items/65">Khitan Short Sword</a>)
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/HadrathusToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/HadrathusToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/3">Hadrathus </a>
             (<a class="item" href="/items/3">Dagger</a>,
@@ -4870,7 +4935,7 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
             <td><p>When an event tile is activated the Overlord resolves the following event:</p>
               <p><span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
@@ -4879,13 +4944,13 @@
           </tr>
         </table>',
 
-      tile1: 11,
-      tile2: 136,
+      tile1: 12,
+      tile2: 100,
       tile3: 1,
-      tile4: 132,
-      tile5: 134,
-      tile6: 138,
-      tile7: 139,
+      tile4: 97,
+      tile5: 104,
+      tile6: 102,
+      tile7: 98,
       tile8: 0,
 
       life1: 12,
@@ -4900,14 +4965,13 @@
       special_rules: '<p><span class="special_title">Source of Power:</span>
         During setup, the Overlord places 4 artifact tokens
         <img src="/assets/tokens/numBackToken.png" class="scen_token" /> as
-        indicated in the setup diagram. <a class="tile" href="/tiles/131">Shuang Mian</a>
-        uses these artifacts as a source of power. When the last artifact is destroyed,
-        Shuang Mian returns to his human form. Remove the <a class="tile" href="/tiles/11">Outer Dark Demon</a>
-        model, life point token
-        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/OuterDarkDemonToken.png" class="scen_token">
-         and tile from the game and replace them with the model of Shuang Mian and his tile.
+        indicated in the setup diagram. Shuang Mian uses these artifacts as a source of power.
+        When the last artifact is destroyed, Shuang Mian returns to his human form. Remove
+        the Outer Dark Demon model, life point token
+        <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/OuterDarkDemonToken.png" class="scen_token">
+          and tile from the game and replace them with the model of Shuang Mian and his tile.
          Place Shuang Mian’s life point token
-        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShuangMianToken.png" class="scen_token">
+        <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ShuangMianToken.png" class="scen_token">
         on space 1 of the turn track.</p>
 
         <p><span class="special_title">Destroy an Artifact:</span>
@@ -4936,13 +5000,14 @@
       hero_victory: '',
       overlord_victory: '',
 
-      origin: "Khitai Expansion",
-      product_ids: [1, 5],
-      map_ids: [13],
-      hero_ids: [2, 3, 35],
-      tile_ids: [1, 11, 131, 132, 134, 136, 138, 139],
-      spell_ids: [12, 13, 14],
-      item_ids: [1, 9, 13, 62, 63, 65,69] },
+      origin: "Khitai",
+      product_ids: [1, 4],
+      map_ids: [9],
+      hero_ids: [2, 3, 26],
+      tile_ids: [1, 12, 97, 98, 100, 102, 104],
+      spell_ids: [12, 13, 66, 14],
+      item_ids: [1, 3, 17, 77, 97, 65, 66] },
+
 
       ## Stygia
       # The Lost King
@@ -4970,8 +5035,8 @@
       in the shadows of the mysterious Stygian temples. But who knows what looms
       in the dark depths of the underground tunnels in which the heroes just entered.</p>",
 
-      map_image: "https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/The+Lost+King.jpg",
-      pdf_link: "",
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Lost+King.jpg",
+      pdf_link: '',
       player_count: "4-5",
       complexity: "3",
 
@@ -4985,6 +5050,9 @@
           <td>The game starts with the heroes’ turn.<br /></td>
           <td></td>
         </tr>
+      </table>
+
+      <table class="scen_table">
         <tr>
           <td><img src="/assets/tokens/area1Token.png" class="scen_token" /></td>
           <td>The heroes start in the
@@ -5000,15 +5068,15 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/IkhmetToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/IkhmetToken.png" class="scen_setup"></td>
           <td>
-            <a class="hero" href="/heroes/36">Ikhmet</a>
-            (<a class="item" href="/items/73">2 Assassin’s Dagger</a>)
+            <a class="hero" href="/heroes/28">Ikhmet</a>
+            (2&nbsp;<a class="item" href="/items/81">Assassin’s Dagger</a>)
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/4">Shevatas</a>
             (<a class="item" href="/items/1">Battle Axe</a>)
@@ -5016,7 +5084,7 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/HadrathusToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/HadrathusToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/3">Hadrathus </a>
             (<a class="item" href="/items/3">Dagger</a> and
@@ -5025,7 +5093,6 @@
           <td></td>
         </tr>
       </table>
-
       <table class="scen_table">
         <tr>
           <td><h4>4</h4></td>
@@ -5033,7 +5100,7 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BelitToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/BelitToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/1">Bêlit</a>
             (<a class="item" href="/items/12">Sword</a>)
@@ -5061,7 +5128,7 @@
             <td><span class="setup_suggestion">3 heroes:</span>
             The Overlord starts with 8 gems in their Reserve zone and 3 in their
             Fatigue zone, and places the recovery token showing a recovery value
-            of ‘5’ in the Book Skelos.</td>
+            of “5” in the Book Skelos.</td>
             <td></td>
           </tr>
           <tr>
@@ -5069,13 +5136,13 @@
             <td><span class="setup_suggestion">4 heroes:</span>
             The Overlord starts with 9 gems in their Reserve zone and 4 in their
             Fatigue zone, and places the recovery token showing a recovery value
-            of ‘7’ in the Book Skelos.</td>
+            of “7” in the Book Skelos.</td>
             <td></td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
             <td><p>When an event tile is activated the Overlord resolves the following event:</p>
               <p><span class="setup_suggestion">Reinforcement:</span> 3 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
@@ -5084,13 +5151,13 @@
           </tr>
         </table>',
 
-      tile1: 144,
-      tile2: 142,
-      tile3: 146,
-      tile4: 143,
-      tile5: 141,
+      tile1: 127,
+      tile2: 128,
+      tile3: 125,
+      tile4: 126,
+      tile5: 123,
       tile6: 1,
-      tile7: 142,
+      tile7: 128,
       tile8: 0,
 
       life1: 0,
@@ -5124,28 +5191,25 @@
         A character with or without Climb in the opened well’s area may move from
         level 1 to level 0 (and the other way) by spending 2 extra movement points.
         Moving through a well takes a character’s model to the area with a well
-        token directly above or below. The <a class="tile" href="/tiles/142">Giant Scorpions</a>
-        may move through all the wells, open or not, with no movement penalty. The
-        <a class="tile" href="/tiles/141">Scorpion Broodmother</a> cannot move
-        through wells.</p>
+        token directly above or below. The Giant Scorpions
+        may move through all the wells, open or not, with no movement penalty.
+        The Scorpion Broodmother cannot move through wells.</p>
 
         <p><span class="special_title">Moving Through Secret Passages:</span>
         Each level is traversed by a network of secret passages which entrances
         are represented by secret passage tokens
-        <img src="/assets/tokens/secretPassageToken.png" class="scen_token" />.
+        <img src="/assets/tokens/secretPassageStygiaToken.png" class="scen_token" />.
         A character in an area with a secret passage may move to another area
         with a secret passage of the same level by spending 2 extra movement
         points. To move through a secret passage, both areas with the entrance
-        and the exit must be clear of enemies. The Overlord’s units and Ikhment
+        and the exit must be clear of enemies. The Overlord’s units and Ikhmet
         know the nooks of the temple and may move through a secret passage with
-        no movement penalty. The <a class="tile" href="/tiles/141">Scorpion Broodmother</a>
-        cannot move through secret passages</p>
+        no movement penalty. The Scorpion Broodmother cannot move through secret passages</p>
 
         <p><span class="special_title">Poisoned:</span>
-        When attacked by a <a class="tile" href="/tiles/142">Giant Scorpion</a>,
-        instead of suffering damage as usual, a hero must place a number of poison
-        tokens <img src="/assets/tokens/poisonToken.png" class="scen_token" /> equal
-        to the amount of damage either on the Melee Attack or the Move space of
+        When attacked by a Giant Scorpion, instead of suffering damage as usual, a
+        hero must place a number of poison tokens <img src="/assets/tokens/poisonToken.png" class="scen_token" />
+        equal to the amount of damage either on the Melee Attack or the Move space of
         their hero’s sheet. Each poison token on an action space reduces by 1
         the exertion limit of that action. When both exertion limits are reduced
         to zero, that hero immediately dies. If additional poison tokens
@@ -5162,13 +5226,12 @@
 
         <p><span class="special_title">Darkness:</span>
         The maze of tunnels is plunged into an impenetrable darkness. There is no
-        line of sight between tow different areas of the whole board. Each action
+        line of sight between two different areas of the whole board. Each action
         that requires line of sight can only be performed within a single area.</p>
 
         <p><span class="special_title">Assassins:</span>
-        The <a class="tile" href="/tiles/146">Assassins</a> are stealthy. During
-        setup, the Overlord shuffles 6 assassin tokens
-        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AssassinToken.png" class="scen_token">,
+        The Assassins are stealthy. During setup, the Overlord shuffles 6 assassin tokens
+        <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/AssassinToken.png" class="scen_token">,
         3 with a face showing a <span class="scen_x">X</span>, and 3 with a face
         showing a <span class="scen_check">&#x2714;</span>, and randomly places
         them facedown on the board as indicated by the setup diagram, then looks
@@ -5188,11 +5251,10 @@
         The water area is not accessible for this scenario.</p>
 
         <p><span class="special_title">Body Search:</span>
-        Each time a hero kills an <a class="tile" href="/tiles/144">Eternal Guard</a>,
-        that hero may perform a complex Manipulation with a difficulty of 1 to search
-        that guard. If successful, that hero draws a card from the asset deck. Then
-        that Eternal Guard model is removed from the board whether that hero chooses
-        to search it or not.</p>
+        Each time a hero kills an Eternal Guard, that hero may perform a complex
+        Manipulation with a difficulty of 1 to search that guard. If successful,
+        that hero draws a card from the asset deck. Then that Eternal Guard model
+        is removed from the board whether that hero chooses to search it or not.</p>
 
         <p><span class="special_title">Reinforcements:</span>
         Reinforcements are placed in an area with a secret passage token in
@@ -5200,23 +5262,20 @@
         is reinforced in level 0.</p>
 
         <p><span class="special_title">The Scorpion Broodmother:</span>
-        When the <a class="tile" href="/tiles/141">Scorpion Broodmother</a> tile
-        is activated, the Overlord starts the activation by rolling 1 Yellow,
-        1 Orange, and 1 Red
+        When the Scorpion Broodmother tile is activated, the Overlord starts the
+        activation by rolling 1 Yellow, 1 Orange, and 1 Red
         <img src="/assets/dice/Yellow.png" class="scen_sq_token" />
         <img src="/assets/dice/Orange.png" class="scen_sq_token" />
         <img src="/assets/dice/Red.png" class="scen_sq_token" /> die.
         For each symbol shown on the dice, the Overlord may place a
-        <a class="tile" href="/tiles/142">Giant Scorpion</a> model in the
-        Scorpion Broodmother’s area or in an area adjacent to that area. If that
-        area is already occupied (and the model’s base cannot fir entirely in the
-        area), the Overlord may place that model in an area adjacent to the
-        occupied area.</p>
+        Giant Scorpion model in the Scorpion Broodmother’s area or in an area
+        adjacent to that area. If that area is already occupied (and the model’s
+        base cannot fir entirely in the area), the Overlord may place that model
+        in an area adjacent to the occupied area.</p>
 
         <p><span class="special_title">Torch:</span>
         At the beginning of their action phase, a hero in aggressive stance with
-        a Torch may discard it to kill all the
-        <a class="tile" href="/tiles/142">Giant Scorpion</a> models in that
+        a Torch may discard it to kill all the Giant Scorpion models in that
         hero’s area.</p>
 
         <p><span class="special_title">Antidote:</span>
@@ -5226,19 +5285,20 @@
 
         <p><span class="special_title">Chests:</span>
         The asset deck contains:
-        2 <a class="item" href="/items/75">Torch</a> and
-        3 <a class="item" href="/items/74">Antidote</a>.</p>',
+        2&nbsp;<a class="item" href="/items/83">Torch</a> and
+        3&nbsp;<a class="item" href="/items/82">Antidote</a>.</p>',
 
       hero_victory: '',
       overlord_victory: '',
 
-      origin: "Stygia Expansion",
+      origin: "Stygia",
       product_ids: [1, 6],
-      map_ids: [9],
-      hero_ids: [1, 3, 4, 36],
-      tile_ids: [1, 141, 142, 143, 144, 146],
+      map_ids: [12],
+      hero_ids: [1, 3, 4, 28],
+      tile_ids: [1, 123, 125, 126, 127, 128],
       spell_ids: [62],
-      item_ids: [1, 3, 12, 73, 74, 75] },
+      item_ids: [1, 3, 12, 91, 81, 82, 83] },
+
 
       # Defeat or Die
     { name: "Defeat or Die",
@@ -5260,8 +5320,9 @@
       friends, the choice is simple if they want to save him: Defeat Thot-Amon
       or die.</p>",
 
-      map_image: "https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/Defeat+or+Die.jpg",
-      pdf_link: "",
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Defeat+or+Die.jpg",
+      pdf_link: '
+        <p>There should not be a second Red Assassins tile at the end of the River.</p>',
       player_count: "4-5",
       complexity: "3",
 
@@ -5284,15 +5345,15 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/IkhmetToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/IkhmetToken.png" class="scen_setup"></td>
           <td>
-            <a class="hero" href="/heroes/36">Ikhmet</a>
-            (<a class="item" href="/items/73">2 Assassin’s Dagger</a>)
+            <a class="hero" href="/heroes/28">Ikhmet</a>
+            (2&nbsp;<a class="item" href="/items/81">Assassin’s Dagger</a>)
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/4">Shevatas</a>
             (<a class="item" href="/items/1">Battle Axe</a>)
@@ -5300,7 +5361,7 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/HadrathusToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/HadrathusToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/3">Hadrathus </a>
             (<a class="item" href="/items/3">Dagger</a> and
@@ -5309,7 +5370,6 @@
           <td></td>
         </tr>
       </table>
-
       <table class="scen_table">
         <tr>
           <td><h4>4</h4></td>
@@ -5317,7 +5377,7 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BelitToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/BelitToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/1">Bêlit</a>
             (<a class="item" href="/items/12">Sword</a>)
@@ -5346,7 +5406,7 @@
             <td><span class="setup_suggestion">3 heroes:</span>
             The Overlord starts with 8 gems in their Reserve zone and 3 in their
             Fatigue zone, and places the recovery token showing a recovery value
-            of ‘5’ in the Book Skelos.</td>
+            of “5” in the Book Skelos.</td>
             <td></td>
           </tr>
           <tr>
@@ -5354,19 +5414,19 @@
             <td><span class="setup_suggestion">4 heroes:</span>
             The Overlord starts with 9 gems in their Reserve zone and 4 in their
             Fatigue zone, and places the recovery token showing a recovery value
-            of ‘7’ in the Book Skelos.</td>
+            of “7” in the Book Skelos.</td>
             <td></td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
             <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
               <p><span class="setup_suggestion">Reinforcement:</span> 3 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
               <p><span class="setup_suggestion">Stone Rain:</span> The Overlord chooses an area with a
               secret passage
-              <img src="/assets/tokens/secretPassageToken.png" class="scen_token" />
+              <img src="/assets/tokens/secretPassageStygiaToken.png" class="scen_token" />
               or well token
               <img src="/assets/tokens/wellToken.png" class="scen_token" />.
               Remove that token and attack that area; roll
@@ -5380,8 +5440,8 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ThotAmonToken.png" class="scen_setup"></td>
-            <td><a class="tile" href="/tiles/140">Thot-Amon</a> has the spells
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ThotAmonToken.png" class="scen_setup"></td>
+            <td><a class="tile" href="/tiles/122">Thot-Amon</a> has the spells
               <a class="spell" href="/spells/64">Stone Rain </a> and
               <a class="spell" href="/spells/63">Psychic Strike </a>.
             </td>
@@ -5389,14 +5449,14 @@
           </tr>
         </table>',
 
-      tile1: 142,
-      tile2: 145,
-      tile3: 143,
-      tile4: 140,
-      tile5: 142,
-      tile6: 144,
+      tile1: 128,
+      tile2: 125,
+      tile3: 126,
+      tile4: 122,
+      tile5: 128,
+      tile6: 127,
       tile7: 1,
-      tile8: 146,
+      tile8: 0,
 
       life1: 0,
       life2: 0,
@@ -5413,7 +5473,7 @@
         Thot-Amon’s area to represent the map to Conan’s location.</p>
 
         <p><span class="special_title">Body Search:</span>
-        Each time a hero kills an <a class="tile" href="/tiles/143">Eternal Guard</a>,
+        Each time a hero kills an Eternal Guard,
         that hero may perform a complex Manipulation with a difficulty of 1 to
         search that guard. If successful, that hero draws a card from the asset
         deck. Then that Eternal Guard model is removed from the board whether
@@ -5429,23 +5489,22 @@
         in the opened well’s area may move from level 1 to level 0 (and the other
         way) by spending 2 extra movement points. Moving through a well takes a
         character’s model to the area with a well token directly above or below.
-        The <a class="tile" href="/tiles/142">Giant Scorpions</a> may move
-        through all the wells, open or not, with no
+        The Giant Scorpions may move through all the wells, open or not, with no
         movement penalty.</p>
 
         <p><span class="special_title">Moving Through Secret Passages:</span>
         Each level is traversed by a network of secret passages which entrances
         are represented by secret passage tokens
-        <img src="/assets/tokens/secretPassageToken.png" class="scen_token" />.
+        <img src="/assets/tokens/secretPassageStygiaToken.png" class="scen_token" />.
         A character in an area with a secret passage may move to another area
         with a secret passage of the same level by spending 2 extra movement
         points. To move through a secret passage, both areas with the entrance
-        and the exit must be clear of enemies. The Overlord’s units and Ikhment
+        and the exit must be clear of enemies. The Overlord’s units and Ikhmet
         know the nooks of the temple and may move through a secret passage with
         no movement penalty.</p>
 
         <p><span class="special_title">Poisoned:</span>
-        When attacked by a <a class="tile" href="/tiles/142">Giant Scorpion</a>,
+        When attacked by a Giant Scorpion,
         instead of suffering damage as usual a hero must place a number of poison
         tokens <img src="/assets/tokens/poisonToken.png" class="scen_token" />
         equal to the amount of damage either on the Melee Attack or the Move space
@@ -5465,13 +5524,12 @@
 
         <p><span class="special_title">Darkness:</span>
         The maze of tunnels is plunged into an impenetrable darkness. There is no
-        line of sight between tow different areas of the whole board. Each action
+        line of sight between two different areas of the whole board. Each action
         that requires line of sight can only be performed within a single area.</p>
 
         <p><span class="special_title">Assassins:</span>
-        The <a class="tile" href="/tiles/146">Assassins</a> are stealthy. During
-        setup, the Overlord shuffles 6 assassin tokens
-        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AssassinToken.png" class="scen_token">,
+        The Assassins are stealthy. During setup, the Overlord shuffles 6 assassin tokens
+        <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/AssassinToken.png" class="scen_token">,
         3 with a face showing a <span class="scen_x">X</span>, and 3 with a face
         showing a <span class="scen_check">&#x2714;</span>, and randomly places
         them facedown on the board as indicated by the setup diagram, then looks
@@ -5489,8 +5547,7 @@
 
         <p><span class="special_title">Torch:</span>
         At the beginning of their action phase, a hero in aggressive stance with
-        a Torch may discard it to kill all the
-        <a class="tile" href="/tiles/142">Giant Scorpion</a> models in that
+        a Torch may discard it to kill all the Giant Scorpion models in that
         hero’s area.</p>
 
         <p><span class="special_title">Reinforcements:</span>
@@ -5508,19 +5565,20 @@
 
         <p><span class="special_title">Chests:</span>
         The asset deck contains:
-        2 <a class="item" href="/items/75">Torch</a> and
-        2 <a class="item" href="/items/74">Antidote</a>.</p>',
+        2&nbsp;<a class="item" href="/items/83">Torch</a> and
+        2&nbsp;<a class="item" href="/items/82">Antidote</a>.</p>',
 
       hero_victory: '',
       overlord_victory: '',
 
-      origin: "Stygia Expansion",
+      origin: "Stygia",
       product_ids: [1, 6],
-      map_ids: [9],
-      hero_ids: [1, 3, 4, 36],
-      tile_ids: [1, 140, 142, 143, 144, 145, 146],
+      map_ids: [12],
+      hero_ids: [1, 3, 4, 28],
+      tile_ids: [1, 122, 125, 126, 127, 128],
       spell_ids: [62, 63, 64],
-      item_ids: [1, 3, 12, 28, 73, 74, 75] },
+      item_ids: [1, 3, 12, 91, 81, 82, 83] },
+
 
       # The Fifth Plague of Stygia
     { name: "The Fifth Plague of Stygia",
@@ -5534,8 +5592,8 @@
       that among the emissaries’ escort is a tenacious Cimmerian mercenary, always
       prompt to punish disloyalty.</p>",
 
-      map_image: "https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/The+Fifth+Plague+of+Stygia.jpg",
-      pdf_link: "",
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Fifth+Plague+of+Stygia.jpg",
+      pdf_link: '',
       player_count: "4",
       complexity: "2",
 
@@ -5557,7 +5615,7 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ConanToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/2">Conan</a>
             (<a class="item" href="/items/1">Battle Axe</a>,
@@ -5566,7 +5624,7 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/4">Shevatas</a>
             (<a class="item" href="/items/9">Kris</a>,
@@ -5575,7 +5633,7 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/HadrathusToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/HadrathusToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/3">Hadrathus </a>
             (<a class="item" href="/items/3">Dagger</a>,
@@ -5611,7 +5669,7 @@
         </table>
       <table class="scen_table">
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
           <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
             <p><span class="setup_suggestion">Reinforcement:</span> 5 reinforcement points
             <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
@@ -5629,8 +5687,8 @@
       </table>
       <table class="scen_table">
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ThotAmonToken.png" class="scen_setup"></td>
-          <td><a class="tile" href="/tiles/140">Thot-Amon</a> has the spells
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ThotAmonToken.png" class="scen_setup"></td>
+          <td><a class="tile" href="/tiles/122">Thot-Amon</a> has the spells
             <a class="spell" href="/spells/13"> Set’s Halo</a>,
             <a class="spell" href="/spells/11"> Pestilential Swarm</a> and
             <a class="spell" href="/spells/1"> Bori’s Rage</a>.
@@ -5639,13 +5697,13 @@
         </tr>
       </table>',
 
-      tile1: 143,
-      tile2: 145,
-      tile3: 9,
-      tile4: 143,
+      tile1: 126,
+      tile2: 124,
+      tile3: 10,
+      tile4: 126,
       tile5: 1,
-      tile6: 9,
-      tile7: 140,
+      tile6: 10,
+      tile7: 122,
       tile8: 0,
 
       life1: 0,
@@ -5661,9 +5719,9 @@
         During setup, the heroes shuffle and place facedown nine tokens
         <img src="/assets/tokens/numBackToken.png" class="scen_token" /> numbered
         from 1 to 9 as indicated by the setup diagram; then they look at these
-        tokens. The two emissaries targeted by <a class="tile" href="/tiles/140">Thot-Amon</a>
-        are represented by the tokens numbered 1 <img src="/assets/tokens/num1Token.png" class="scen_token" />
-        and 2 <img src="/assets/tokens/num2Token.png" class="scen_token" />.
+        tokens. The two emissaries targeted by Thot-Amon are represented by the
+        tokens numbered 1&nbsp;<img src="/assets/tokens/num1Token.png" class="scen_token" />
+        and 2&nbsp;<img src="/assets/tokens/num2Token.png" class="scen_token" />.
         The emissaries cannot move and do not count for Hindering.</p>
 
         <p><span class="special_title">Killing an Emissary:</span>
@@ -5727,35 +5785,36 @@
       hero_victory: '',
       overlord_victory: '',
 
-      origin: "Stygia Expansion",
+      origin: "Stygia",
       product_ids: [1, 6],
-      map_ids: [10, 3],
+      map_ids: [13, 3],
       hero_ids: [2, 3, 4],
-      tile_ids: [1, 9, 140, 143, 145],
-      spell_ids: [1, 6, 9, 11, 13, 16],
-      item_ids: [1, 3, 5, 6, 9, 13, 16, 17, 22] },
+      tile_ids: [1, 10, 122, 124, 126],
+      spell_ids: [1, 6, 9, 11, 13, 66, 16, 48],
+      item_ids: [1, 3, 5, 6, 33, 9, 13, 16, 17, 77, 97, 22, 44, 103] },
+
 
       # The Curse of the Scorpion
     { name: "The Curse of the Scorpion",
-      description: "<p>In the Port of Luxur,  three shadows sneak onto the docks
+      description: "<p>In the Port of Luxur, three shadows sneak onto the docks
       alongside the Styx river. There are only a few hours left before the break
       of dawn, and the discreet marauders have yet to lay hands on the items they
       are looking for: three artifacts that were used to cast a dark cruel curse
       on the village of one of them, Ikhmet, the Stygian renegade. That is the
-      price to pay for questioning  the absolute authority of the priests of Set.</p>
+      price to pay for questioning the absolute authority of the priests of Set.</p>
       <p>The items have been brought to the port city to be spread and hidden
       throughout Stygia so that the curse would never be broken. However, the
       three companions managed to discover that the artifacts have not yet been
       scattered by interrogating the priest of Set responsible for the malediction.
       But the artifacts are well guarded and the only way to lift the curse is
       to purify the three items by submerging them in the waters of the Styx.</p>
-      <p>After ending the life of the Stygian priest, Ikhmet and his tow friends,
+      <p>After ending the life of the Stygian priest, Ikhmet and his two friends,
       Shevatas the Zamorian master-thief, and Conan the powerful Cimmerian warrior,
       journeyed to the port of Luxur to steal the evil artifacts and plunge them
       into the river.</p>",
 
-      map_image: "https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/The+Curse+of+the+Scorpion.jpg",
-      pdf_link: "",
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Curse+of+the+Scorpion.jpg",
+      pdf_link: '',
       player_count: "4",
       complexity: "2",
 
@@ -5779,7 +5838,7 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ConanToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/2">Conan</a>
             (<a class="item" href="/items/1">Battle Axe</a>,
@@ -5788,7 +5847,7 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/4">Shevatas</a>
             (<a class="item" href="/items/9">Kris</a>,
@@ -5797,10 +5856,10 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/IkhmetToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/IkhmetToken.png" class="scen_setup"></td>
           <td>
-            <a class="hero" href="/heroes/36">Ikhmet </a>
-            (<a class="item" href="/items/73">2 Assassin’s Dagger</a>)
+            <a class="hero" href="/heroes/28">Ikhmet </a>
+            (2&nbsp;<a class="item" href="/items/81">Assassin’s Dagger</a>)
           </td>
           <td></td>
         </tr>
@@ -5831,18 +5890,17 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
             <td><p>Each time the Overlord activates the Event tile, the Overlord
               may use both events in any order.</p>
               <p><span class="setup_suggestion">Reinforcement:</span> 3 reinforcement
               points <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
               <p><span class="setup_suggestion">Surge of Scorpions:</span> The Overlord
-              may place up to 6 <a class="tile" href="/tiles/142">Giant Scorpion</a>
+              may place up to 6 <a class="tile" href="/tiles/128">Giant Scorpion</a>
               models in any area of the board except the rooftops and the stairs
               on the left side of the board. Those 6 Giant Scorpion models can be
               those killed during the scenario or taken from the box (maximum limit
-              of 10 <a class="tile" href="/tiles/142">Giant Scorpions</a> on the
-              board at any one time).</p>
+              of 10 Giant Scorpions on the board at any one time).</p>
             </td>
             <td></td>
           </tr>
@@ -5850,11 +5908,11 @@
 
       tile1: 16,
       tile2: 20,
-      tile3: 141,
+      tile3: 123,
       tile4: 1,
-      tile5: 142,
-      tile6: 144,
-      tile7: 141,
+      tile5: 128,
+      tile6: 127,
+      tile7: 123,
       tile8: 0,
 
       life1: 0,
@@ -5867,7 +5925,7 @@
       life8: 0,
 
       special_rules: '<p><span class="special_title">Scorpion Broodmother Movement:</span>
-        The <a class="tile" href="/tiles/141">Scorpion Broodmother</a> can sidle in
+        The <a class="tile" href="/tiles/123">Scorpion Broodmother</a> can sidle in
         the narrow streets and the buildings of the city. Its model can be placed
         in any of the areas of the board, even if its base encroaches on the
         adjacent areas.</p>
@@ -5883,7 +5941,7 @@
         into a water area to submerge that artifact.</p>
 
         <p><span class="special_title">Trapped Chest:</span>
-        When a hero draws the <a class="item" href="/items/76">Trapped Chest</a>
+        When a hero draws the <a class="item" href="/items/84">Trapped Chest</a>
         from the asset deck, the trap is triggered. Discard that card and attack
         the hero’s area; roll 1 Red
         <img src="/assets/dice/Red.png" class="scen_sq_token" /> die.</p>
@@ -5902,11 +5960,11 @@
         The areas located on the roof top of the building on the left side of the
         board provide an elevation bonus, including on the stairs area. A character
         may jump from these areas to areas of the street level. That character
-        rolls 2 Orange
+        rolls
         <img src="/assets/dice/Orange.png" class="scen_sq_token" />
-        <img src="/assets/dice/Orange.png" class="scen_sq_token" /> dice for
-        falling damage. If that character has Leap, that character rolls 1 Orange
-        <img src="/assets/dice/Orange.png" class="scen_sq_token" /> die. A character
+        <img src="/assets/dice/Orange.png" class="scen_sq_token" /> for
+        falling damage. If that character has Leap, that character rolls
+        <img src="/assets/dice/Orange.png" class="scen_sq_token" /> . A character
         cannot move onto the roof top areas directly from the street level except
         when moving through the stairs areas.</p>
 
@@ -5916,7 +5974,7 @@
         side of the board.</p>
 
         <p><span class="special_title">Poisoned:</span>
-        When attacked by a <a class="tile" href="/tiles/142">Giant Scorpion</a>,
+        When attacked by a Giant Scorpion,
         instead of suffering damage as usual, a hero must place a number of poison
         tokens <img src="/assets/tokens/poisonToken.png" class="scen_token" />
         equal to the amount of damage either on the Melee Attack or the Move space
@@ -5935,7 +5993,7 @@
         <a class="hero" href="/heroes/36">Ikhmet </a> is Immune for this scenario.</p>
 
         <p><span class="special_title">Antidote:</span>
-        A hero with an <a class="item" href="/items/74">Antidote</a> may discard
+        A hero with an <a class="item" href="/items/82">Antidote</a> may discard
         it to remove all the poison tokens
         <img src="/assets/tokens/poisonToken.png" class="scen_token" /> from one
         of the action spaces of their hero’s sheet.</p>
@@ -5946,21 +6004,22 @@
         <a class="item" href="/items/29">Stygian Artifact</a>,
         <a class="item" href="/items/28">Spellbook</a>,
         <a class="item" href="/items/22">Life Potion</a>,
-        <a class="item" href="/items/76">Trapped Chest</a>,
+        <a class="item" href="/items/84">Trapped Chest</a>,
         <a class="item" href="/items/6">Explosive Orb</a>,
         <a class="item" href="/items/5">Crossbow</a>,
-        <a class="item" href="/items/74">Antidote</a>.</p>',
+        <a class="item" href="/items/82">Antidote</a>.</p>',
 
       hero_victory: '',
       overlord_victory: '',
 
-      origin: "Stygia Expansion",
+      origin: "Stygia",
       product_ids: [1, 6],
-      map_ids: [10],
-      hero_ids: [2, 4, 36],
-      tile_ids: [1, 16, 20, 141, 142, 144],
+      map_ids: [13],
+      hero_ids: [2, 4, 28],
+      tile_ids: [1, 16, 20, 123, 127, 128],
       spell_ids: [],
-      item_ids: [1, 5, 6, 9, 13, 17, 22, 27, 28, 29, 73, 74, 76] },
+      item_ids: [1, 5, 6, 33, 9, 13, 17, 77, 97, 22, 44, 103, 27, 28, 29, 81, 82] },
+
 
     ## Book of Set
     # Yara’s Trap
@@ -5981,8 +6040,8 @@
         <p>Yag-Kosha has no other choice. If he wishes to leave this world which is
         not his own, and prevent Yara from getting what he wants, he must recover
         the Heart of the Elephant.</p>",
-      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/Yaras+Trap.jpg',
-      pdf_link: 'http://www.monolithedition.com/conan-en/yaras-trap/',
+      map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Yaras+Trap.jpg',
+      pdf_link: '',
       player_count: "2",
       complexity: "1",
 
@@ -6005,9 +6064,9 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/YogahYagToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/YogahYagToken.png" class="scen_setup"></td>
           <td>
-            <a class="hero" href="/heroes/27">Yogah of Yag</a>
+            <a class="hero" href="/heroes/36">Yogah of Yag</a>
             (<a class="item" href="/items/7">Halberd</a>,
             <a class="spell" href="/spells/14">Set’s Possession</a>,
             <a class="spell" href="/spells/10">Mitra’s Healing</a>)
@@ -6043,7 +6102,7 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
             <td><p>When an event tile is activated the Overlord resolves the following event:</p>
               <p><span class="setup_suggestion">Reinforcement:</span> 2 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
@@ -6057,7 +6116,7 @@
       tile3: 19,
       tile4: 3,
       tile5: 1,
-      tile6: 12,
+      tile6: 13,
       tile7: 0,
       tile8: 0,
 
@@ -6104,18 +6163,18 @@
         <p><span class="special_title">Chests:</span>
         During setup, the Overlord places 4 chests on the board as indicated by
         the setup diagram. The asset deck contains
-        2 <a class="item" href="/items/22">Life Potions</a> and
-        2 <a class="item" href="/items/31">Xuthal Crowns</a>.</p>',
+        2&nbsp;<a class="item" href="/items/22">Life Potions</a> and
+        2&nbsp;<a class="item" href="/items/31">Xuthal Crowns</a>.</p>',
 
       hero_victory: '',
       overlord_victory: '',
 
       origin: "Book of Set",
-      product_ids: [1, 8],
+      product_ids: [1, 20, 22],
       map_ids: [1],
-      hero_ids: [27],
-      tile_ids: [1, 3, 12, 15, 18, 19],
-      spell_ids: [10, 14], item_ids: [7, 22, 31] },
+      hero_ids: [36],
+      tile_ids: [1, 3, 13, 15, 18, 19],
+      spell_ids: [10, 14], item_ids: [7, 22, 44, 103, 31] },
 
       # The White Witch
     { name: "The White Witch",
@@ -6137,8 +6196,8 @@
         haunting the Black Country plateaus will wish to feed on her soul and
         imprison it forever in the Chasm of Specters.</p>
       <p>Gathering her children around her, she decides to move into action.</p>",
-      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/The+White+Witch.jpg',
-      pdf_link: 'http://www.monolithedition.com/conan-en/white-witch/',
+      map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+White+Witch.jpg',
+      pdf_link: '',
       player_count: "2",
       complexity: "1",
 
@@ -6160,16 +6219,17 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZelataToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ZelataToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/8">Zelata</a>
             (2 spells: <a class="spell" href="/spells/9">Mitra’s Halo</a> and
-            <a class="spell" href="/spells/20">Bel’s Caress</a>) with 10 Giant Wolves.
+            <a class="spell" href="/spells/20">Bel’s Caress</a>) with 10
+            <a class="tile" href="/tiles/140">Giant Wolves</a>.
             Zelata starts with Mitra’s Halo cast.</p>
           </td>
           <td>
-            <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/GiantWolves.png" class="scen_event">
-            <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/GiantWolves.png" class="scen_event">
+            <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/GiantWolves.jpg" class="scen_event">
+            <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/GiantWolves.jpg" class="scen_event">
           </td>
         </tr>
       </table>
@@ -6199,7 +6259,7 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
             <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
               <p><span class="setup_suggestion">Reinforcement:</span> 3 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" /></p>
@@ -6230,7 +6290,7 @@
 
       special_rules: '<p><span class="special_title">Giant Wolf:</span>
         During setup, the hero places two
-        <a class="tile" href="/tiles/106">Giant Wolves</a> tiles next to Zelata’s
+        <a class="tile" href="/tiles/140">Giant Wolves</a> tiles next to Zelata’s
         hero sheet. When Zelata uses her Leaderships kill to activate the Giant
         Wolves by spending one gem, she activates two Giant Wolves characters
         instead of one. She must move both Giant Wolves, then perform their
@@ -6243,16 +6303,17 @@
         one Giant Wolves character.</p>
 
         <p><span class="special_title">Wolf Pack:</span>
-        When Zelata is in the same area as a
-        <a class="tile" href="/tiles/106">Giant Wolves</a>, she gains
+        When Zelata is in the same area as a Giant Wolves, she gains
         the Protected skill. When there are strictly more Giant Wolves characters
         than Overlord’s characters in one area:<br/>
-        • The Armor Value of the Giant Wolves is 2 against Melee attacks.<br />
-        • The Armor Value of their target in Melee attack is reduced by 1.</p>
+        <ul>
+          <li>The Armor Value of the Giant Wolves is 2 against Melee attacks.</li>
+          <li>The Armor Value of their target in Melee attack is reduced by 1.</li>
+        </ul> </p>
 
         <p><span class="special_title">Shaman’s Staff:</span>
         During setup, the Overlord places the
-        <a class="spell" href="/spells/55">Withering</a> spell card next to the board.
+        <a class="spell" href="/spells/49">Withering</a> spell card next to the board.
         The character carrying the <a class="item" href="/items/26">Shaman’s Staff</a>
         gains the Withering spell.</p>
 
@@ -6288,20 +6349,21 @@
         <p><span class="special_title">Chests:</span>
         During setup, the Overlord places 3 chests on the board as
         indicated by the setup diagram. The asset deck contains:
-        1 <a class="item" href="/items/26">Shaman’s Staff</a>,
-        1 <a class="item" href="/items/47">Censer</a>, and
-        1 <a class="item" href="/items/22">Life Potion</a>.</p>',
+        1&nbsp;<a class="item" href="/items/26">Shaman’s Staff</a>,
+        1&nbsp;<a class="item" href="/items/47">Censer</a>, and
+        1&nbsp;<a class="item" href="/items/22">Life Potion</a>.</p>',
 
       hero_victory: '',
       overlord_victory: '',
 
       origin: "Book of Set",
-      product_ids: [1, 2, 3, 18],
+      product_ids: [1, 2, 3, 14, 22],
       map_ids: [6],
       hero_ids: [8],
-      tile_ids: [1, 26, 29, 81, 86, 106],
-      spell_ids: [9, 11, 20, 55],
-      item_ids: [22, 26, 47] },
+      tile_ids: [1, 25, 26, 29, 81, 86, 140],
+      spell_ids: [9, 11, 20, 49],
+      item_ids: [22, 44, 103, 26, 47] },
+
 
     # Sedition
     { name: "Sedition",
@@ -6319,14 +6381,18 @@
       Cimmerian wishes to march on the city of Akif to punish its lord, the mighty
       Shah Amurath, for acts of torture, mutilation, and quartering on more than
       one Kozak comrade, his right arms prefer an easy attack on their way to the
-      Vezek outpost where the caravans pay their right of passage. Such a raid,
+      Vezek outpost where the caravans pay their rite of passage. Such a raid,
       dangerless, will provide abundant loot.</p>
       <p>As the challenging of the authority of a Kozaks’ hetman cannot be done
       in a peaceful manner, Conan is attacked by his men. He must react so as to
       reinstate his ascendancy and, first and foremost, escape death.</p>",
 
-      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/Sedition.jpg',
-      pdf_link: 'http://www.monolithedition.com/conan-en/sedition/',
+      map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Sedition.jpg',
+      pdf_link: '
+      <p><strong>Item Cards:</strong> The item cards placed on the board (clockwise from upper right) are:
+      <a class="item" href="/items/46">Cape</a>
+      <a class="item" href="/items/16">Chain Mail</a>, and
+      <a class="item" href="/items/32">Axe</a></p>',
       player_count: "2",
       complexity: "2",
 
@@ -6349,9 +6415,9 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanMercenaryToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ConanMercenaryToken.png" class="scen_setup"></td>
           <td>
-            <a class="hero" href="/heroes/12">Conan - Mercenary </a>
+            <a class="hero" href="/heroes/12">Conan Mercenary </a>
             (<a class="item" href="/items/12">Sword</a>)
           </td>
           <td></td>
@@ -6383,7 +6449,7 @@
 
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
             <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
               <p><span class="setup_suggestion">Reinforcement:</span> 2 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
@@ -6394,11 +6460,11 @@
         </table>',
 
       tile1: 33,
-      tile2: 60,
+      tile2: 54,
       tile3: 18,
-      tile4: 65,
+      tile4: 62,
       tile5: 16,
-      tile6: 61,
+      tile6: 55,
       tile7: 1,
       tile8: 0,
 
@@ -6425,9 +6491,9 @@
         Rebellion Level.</p>
         <p>The Rebellion Level is decreased by 1 if the hero kills at least two
         models of the Overlord other than
-        <a class="tile" href="/tiles/60">Amboola</a>,
-        <a class="tile" href="/tiles/65">Kerim Shah</a> and
-        <a class="tile" href="/tiles/61">Balthus</a> during
+        <a class="tile" href="/tiles/54">Amboola</a>,
+        <a class="tile" href="/tiles/62">Kerim Shah</a> and
+        <a class="tile" href="/tiles/55">Balthus</a> during
         the same hero’s turn. The Rebellion Level is each time decreased by 2
         when Amboola, Kerim Shah or Balthus dies. The Rebellion Level is each time
         decreased by 1, when
@@ -6456,24 +6522,20 @@
         of their models located in the same area as the hero, then rolls that
         dice pool. The hero can then use the guard benefit with no bonus attached
         to the Equipment, Armors included. If the Overlord’s result is superior
-        to the hero’s, <a class="hero" href="/heroes/12">Conan</a> bends his
-        knees and is considered overpowered. Then, the hero removes from the
-        game one of the Recovery tokens which are next to their hero’s sheet. If
-        <a class="hero" href="/heroes/12">Conan</a> has been overpowered, the
+        to the hero’s, Conan bends his knees and is considered overpowered. Then,
+        the hero removes from the game one of the Recovery tokens which are next
+        to their hero’s sheet. If Conan has been overpowered, the
         Event "Overpowering Conan" cannot be performed for the rest of the
         scenario.</p>
 
         <p><span class="special_title">Banners:</span>
         During setup, the Overlord places on the board two Banner tokens
         <img src="/assets/tokens/numBackToken.png" class="scen_token" />
-        as indicated by the setup diagram. If
-        <a class="tile" href="/tiles/60">Amboola</a>,
-        <a class="tile" href="/tiles/65">Kerim Shah</a> or
-        <a class="tile" href="/tiles/61">Balthus</a> area in an area with a
-        Banner token, they can target the banner by performing a Melee attack
-        and roll at least 3 symbols; the banner is burnt and the token is removed
-        from the game. When the second banner is burnt, the hero removes from the
-        game one of the Recovery tokens next to their hero’s sheet.</p>
+        as indicated by the setup diagram. If Amboola, Kerim Shah or Balthus are
+        in an area with a Banner token, they can target the banner by performing
+        a Melee attack and roll at least 3 symbols; the banner is burnt and the
+        token is removed from the game. When the second banner is burnt, the hero
+        removes from the game one of the Recovery tokens next to their hero’s sheet.</p>
 
         <p><span class="special_title">Lines of Sight:</span>
         A character in a wall area has line of sight to each ground area
@@ -6499,18 +6561,19 @@
         <p><span class="special_title">Chests:</span>
         During setup, the Overlord places 2 chests on the board
         as indicated by the setup diagram. The asset deck contains:
-        2 <a class="item" href="/items/22">Life Potions</a>',
+        2&nbsp;<a class="item" href="/items/22">Life Potions</a>',
 
       hero_victory: '',
       overlord_victory: '',
 
       origin: "Book of Set",
-      product_ids: [1, 3],
+      product_ids: [1, 3, 22],
       map_ids: [4],
       hero_ids: [12],
-      tile_ids: [1, 16, 18, 33, 60, 61, 65],
+      tile_ids: [1, 16, 18, 33, 55, 54, 62],
       spell_ids: [],
-      item_ids: [12, 16, 22, 32, 46] },
+      item_ids: [12, 91, 16, 22, 44, 103, 32, 46] },
+
 
     # The Price of Success
     { name: "The Price of Success",
@@ -6534,10 +6597,10 @@
         had become too cumbersome, some loyal of Conan decided to go to the
         fortress where he was detained. But Zaporavo had anticipated such a
         reaction, and had provided for a warning system so as to be able to
-        gather the Zingarian troops stationed not far from his lair.</p>",
+        gather the Zingaran troops stationed not far from his lair.</p>",
 
-      map_image: "https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/The+Price+of+Success.jpg",
-      pdf_link: "http://www.monolithedition.com/conan-en/the-price-of-success/",
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Price+of+Success.jpg",
+      pdf_link: '',
       player_count: "2",
       complexity: "2",
 
@@ -6561,20 +6624,20 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZaporavoToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ZaporavoToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/24">Zaporavo</a>
-            (<a class="item" href="/items/41">Zingarian Breastplate</a>,
+            (<a class="item" href="/items/41">Zingaran Breastplate</a>,
             <a class="item" href="/items/35">Pirate Saber</a> and
             <a class="item" href="/items/46">Cape</a>) with
-            <a class="tile" href="/tiles/60">Amboola</a>,
-            <a class="tile" href="/tiles/74">Kothian Archer</a> and 10
+            <a class="tile" href="/tiles/54">Amboola</a>,
+            <a class="tile" href="/tiles/64">Kothian Archer</a> and 10
             <a class="tile" href="/tiles/30">Pirates</a></p>
           </td>
           <td>
-            <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Pirates.png" class="scen_event">
-            <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/KothianArcher.png" class="scen_event">
-            <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Amboola.png" class="scen_event">
+            <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Amboola.jpg" class="scen_event">
+            <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/KothianArcher.jpg" class="scen_event">
+            <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Pirates.jpg" class="scen_event">
           </td>
         </tr>
       </table>
@@ -6603,16 +6666,16 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
             <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
               <p><span class="setup_suggestion">Reinforcement:</span> 3 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
               <p><span class="setup_suggestion">Return of the Dragons:</span>
-              3 <a class="tile" href="/tiles/97">Black Dragons</a> come into play
+              3&nbsp;<a class="tile" href="/tiles/131">Black Dragons</a> come into play
               as reinforcements.</p>
               <p><span class="setup_suggestion">New Energy:</span> The Overlord
               immediately activates <a class="tile" href="/tiles/71">Valeria</a>,
-              <a class="tile" href="/tiles/61">Balthus</a> or
+              <a class="tile" href="/tiles/55">Balthus</a> or
               <a class="tile" href="/tiles/68">Pallantides</a> (without moving
               the corresponding tile in the river).</p>
             </td>
@@ -6621,8 +6684,8 @@
         </table>',
 
       tile1: 18,
-      tile2: 97,
-      tile3: 61,
+      tile2: 131,
+      tile3: 55,
       tile4: 16,
       tile5: 68,
       tile6: 71,
@@ -6674,8 +6737,7 @@
         <p><span class="special_title">Leadership Cape:</span>
         During setup, the hero places 3 red gems on the
         <a class="item" href="/items/46">Cape</a> card. The hero
-        can use the gems placed on the Cape card only to activate
-        <a class="tile" href="/tiles/30">Pirates</a>.
+        can use the gems placed on the Cape card only to activate Pirates.
         When the hero with the Cape wants to use these red gems to activate
         Pirates, they transfer the red gems from the Cape card to the Pirates tile.
         The hero may use both red gems and his own energy gems to activate the
@@ -6701,20 +6763,21 @@
         <p><span class="special_title">Chests:</span>
         During setup, the Overlord places 3 chests on the board
         as indicated by the setup diagram. The asset deck contains:
-        1 <a class="item" href="/items/22">Life Potion</a>,
-        1 <a class="item" href="/items/20">Shield</a>, and
-        1 <a class="item" href="/items/38">Turanian Sword</a>.</p>',
+        1&nbsp;<a class="item" href="/items/22">Life Potion</a>,
+        1&nbsp;<a class="item" href="/items/20">Shield</a>, and
+        1&nbsp;<a class="item" href="/items/38">Turanian Sword</a>.</p>',
 
       hero_victory: '',
       overlord_victory: '',
 
       origin: "Book of Set",
-      product_ids: [1, 2, 3, 13],
+      product_ids: [1, 3, 8, 22],
       map_ids: [5],
       hero_ids: [24],
-      tile_ids: [1, 16, 18, 30, 60, 61, 68, 71, 74, 97 ],
+      tile_ids: [1, 16, 18, 30, 54, 55, 64, 68, 71, 131],
       spell_ids: [],
-      item_ids: [20, 22, 35, 38, 41, 46] },
+      item_ids: [20, 22, 44, 103, 35, 38, 41, 46] },
+
 
     # The Cursed Mirrors
     { name: "The Cursed Mirrors",
@@ -6739,8 +6802,8 @@
         Ageera has sent his fanatical hunters on their trail. Ageera, who spends
         his life chasing and slaughtering all demon-summoning sorcerers, intends
         to destroy the sacrilegious relics and chastise the heretics.</p>",
-      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/The+Cursed+Mirrors.jpg',
-      pdf_link: 'http://www.monolithedition.com/conan-en/the-cursed-mirrors/',
+      map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Cursed+Mirrors.jpg',
+      pdf_link: '',
       player_count: "3",
       complexity: "1",
 
@@ -6755,16 +6818,16 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BelitToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/BelitToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/1">Bêlit</a>
             (<a class="item" href="/items/7">Halberd</a>) and 5
-            <a class="tile" href="/tiles/13">Bêlit’s Guards</a>
+            <a class="tile" href="/tiles/14">Bêlit’s Guards</a>
           </td>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BelitsGuards.png" class="scen_event"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/BelitsGuards.jpg" class="scen_event"></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/HadrathusToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/HadrathusToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/3">Hadrathus</a>
             (<a class="item" href="/items/12">Sword</a>,
@@ -6807,7 +6870,7 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
             <td><p>When an event tile is activated the Overlord resolves the following event:</p>
               <p><span class="setup_suggestion">Crowd Control:</span> see Special Rules.</p>
             </td>
@@ -6816,9 +6879,9 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShubbaToken.png" class="scen_setup"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ShubbaToken.png" class="scen_setup"></td>
             <td>
-              <a class="tile" href="/tiles/111">Shubba</a> has
+              <a class="tile" href="/tiles/144">Shubba</a> has
               <a class="spell" href="/spells/3">Energy Drain</a>,
               <a class="spell" href="/spells/8">Mind Control</a>, and
               <a class="spell" href="/spells/16">Teleportation</a>.
@@ -6827,10 +6890,10 @@
           </tr>
         </table>',
 
-      tile1: 108,
-      tile2: 109,
-      tile3: 110,
-      tile4: 111,
+      tile1: 141,
+      tile2: 142,
+      tile3: 143,
+      tile4: 144,
       tile5: 1,
       tile6: 0,
       tile7: 0,
@@ -6849,20 +6912,20 @@
         During setup, the Overlord places the artifacts, represented
         by the tokens <img src="/assets/tokens/numBackToken.png" class="scen_token" />,
         as indicated by the setup diagram. A Kushite
-        (<a class="tile" href="/tiles/108">Afari</a>,
-        <a class="tile" href="/tiles/109">Ghayor</a>,
-        <a class="tile" href="/tiles/110">Shafiah</a> and
-        <a class="tile" href="/tiles/111">Shubba</a>) in an artifact’s area may
+        (<a class="tile" href="/tiles/141">Afari</a>,
+        <a class="tile" href="/tiles/142">Ghayoor</a>,
+        <a class="tile" href="/tiles/143">Shafiah</a> and
+        <a class="tile" href="/tiles/144">Shubba</a>) in an artifact’s area may
         perform a Melee Attack and roll at least 2 symbols in a single attack
         to destroy that artifact. This Melee Attack follows the same rules as
         any Melee Attack
         (<a class="skill" href="/skills/29">Sacrifice</a>,
         <a class="skill" href="/skills/4">Circular Strike</a>, etc.) and
-        <a class="tile" href="/tiles/13">Bêlit’s Guards</a> can use
+        <a class="tile" href="/tiles/14">Bêlit’s Guards</a> can use
         <a class="skill" href="/skills/29">Sacrifice</a> to defend the artifacts.</p>
 
         <p><span class="special_title">Crowd Control:</span>
-        The Overlord activates up to two <a class="tile" href="/tiles/13">Bêlit’s Guards</a>
+        The Overlord activates up to two <a class="tile" href="/tiles/14">Bêlit’s Guards</a>
         as if they were units. During these activations, the Overlord follows
         all rules regarding unit tile activation (movement, attack etc.) and
         can use benefits. The Overlord cannot use <a class="skill" href="/skills/16">Leap</a>
@@ -6894,12 +6957,13 @@
       overlord_victory: '',
 
       origin: "Book of Set",
-      product_ids: [1, 20],
+      product_ids: [1, 15, 22],
       map_ids: [4],
       hero_ids: [1, 3],
-      tile_ids: [1, 13, 108, 109, 110, 111],
-      spell_ids: [2, 3, 6, 8, 14, 16],
-      item_ids: [7, 12] },
+      tile_ids: [1, 14, 141, 142, 143, 144],
+      spell_ids: [2, 65, 3, 6, 8, 14, 16, 48],
+      item_ids: [7, 12, 91] },
+
 
     # Where the Thunder Rumbles
     { name: "Where the Thunder Rumbles",
@@ -6925,8 +6989,8 @@
         <p>Suddenly the blood of the Cimmerian freezes as the incarnation of a
         nightmarish legend with its spectral-hued coat pads into the village. A
         creature almost as big as a bear and with demonic ferocity... a sabertooth tiger.</p>",
-      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/Where+the+Thunder+Rumbles.jpg',
-      pdf_link: 'http://www.monolithedition.com/conan-en/where-the-thunder-rumbles/',
+      map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Where+the+Thunder+Rumbles.jpg',
+      pdf_link: '',
       player_count: "3",
       complexity: "1",
 
@@ -6941,27 +7005,26 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanGeneralToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ConanGeneralToken.png" class="scen_setup"></td>
           <td>
-            <a class="hero" href="/heroes/11">Conan - General</a>
+            <a class="hero" href="/heroes/11">Conan the General</a>
             (<a class="item" href="/items/4">Conan’s Sword</a> and
             <a class="item" href="/items/16">Chain Mail</a>) and 8
             <a class="tile" href="/tiles/17">Bossonian Guards</a>.
           </td>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BossonianGuards.png" class="scen_event"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/BossonianGuards.jpg" class="scen_event"></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BalthusToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/BalthusToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/10">Balthus</a>
             (<a class="item" href="/items/2">Bossonian Bow</a> and
             <a class="item" href="/items/11">Parrying Dagger</a>) and
-            <a class="tile" href="/tiles/75">Slasher</a>
+            <a class="tile" href="/tiles/80">Slasher</a>
           </td>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Slasher.png" class="scen_event"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Slasher.jpg" class="scen_event"></td>
         </tr>
       </table>
-
       <table class="scen_table">
         <tr>
           <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
@@ -6993,12 +7056,13 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
             <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
               <p><span class="setup_suggestion">Reinforcement:</span> 3 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
               <p><span class="setup_suggestion">Forced March</span> The Overlord chooses a unit tile
-              of Pict Hunters, Pict Archers or Pict Warriors. All the models of
+              of <a class="tile" href="/tiles/24">Pict Hunters</a>, <a class="tile" href="/tiles/86">Pict Archers</a>,
+              or <a class="tile" href="/tiles/29">Pict Warriors</a>. All the models of
               that tile can move according to their movement value. The Overlord
               can use the Movement benefit.</p>
             </td>
@@ -7008,10 +7072,10 @@
 
       tile1: 24,
       tile2: 86,
-      tile3: 107,
+      tile3: 146,
       tile4: 1,
       tile5: 29,
-      tile6: 107,
+      tile6: 146,
       tile7: 2,
       tile8: 0,
 
@@ -7028,13 +7092,12 @@
         Only <a class="hero" href="/heroes/11">Conan the General</a> can use
         Leadership to activate the
         <a class="tile" href="/tiles/17">Bossonian Guards</a>.
-        For this scenario, Conan the General and
-        <a class="hero" href="/heroes/10">Balthus</a> cannot spend gems to
+        For this scenario, Conan the General and Balthus cannot spend gems to
         defend the Bossonian Guards.</p>
 
         <p><span class="special_title">Slasher:</span>
         Only <a class="hero" href="/heroes/10">Balthus</a> can use Leadership to
-        activate <a class="tile" href="/tiles/75">Slasher</a>.</p>
+        activate <a class="tile" href="/tiles/80">Slasher</a>.</p>
 
         <p><span class="special_title">Water:</span>
         A character must spend 1 extra movement point to move out of a water
@@ -7049,20 +7112,21 @@
         <p><span class="special_title">Chests:</span>
         During setup, the Overlord places 3 chests on the board as
         indicated by the setup diagram. The asset deck contains
-        1 <a class="item" href="/items/8">Javelin</a>,
-        1 <a class="item" href="/items/6">Explosive Orb</a>, and
-        1 <a class="item" href="/items/22">Life Potion</a>.</p>',
+        1&nbsp;<a class="item" href="/items/8">Javelin</a>,
+        1&nbsp;<a class="item" href="/items/6">Explosive Orb</a>, and
+        1&nbsp;<a class="item" href="/items/22">Life Potion</a>.</p>',
 
       hero_victory: '',
       overlord_victory: '',
 
       origin: "Book of Set",
-      product_ids: [1, 3, 19],
+      product_ids: [1, 3, 17, 22],
       map_ids: [6],
       hero_ids: [10, 11],
-      tile_ids: [1, 2, 17, 24, 29, 75, 86, 107],
+      tile_ids: [1, 2, 17, 24, 29, 80, 86, 146],
       spell_ids: [],
-      item_ids: [2, 4, 6, 8, 11, 16, 22] },
+      item_ids: [2, 4, 85, 6, 33, 8, 11, 87, 16, 22, 44, 103] },
+
 
     # Damned Resurrection
     { name: "Damned Resurrection",
@@ -7085,8 +7149,8 @@
       reenergize and prepare for his return. Unfortunately, and to Hadrathus
       greatest surprise, the vile sorcerer already has enough power to raise the
       dead, even if to that end he must use magical artifacts.</p>",
-      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/Damned+Resurrection.jpg',
-      pdf_link: 'http://www.monolithedition.com/conan-en/019-scenario_damned_resurrection-pdf/',
+      map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Damned+Resurrection.jpg',
+      pdf_link: '',
       player_count: "3",
       complexity: "2",
 
@@ -7108,21 +7172,21 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanWandererToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ConanWandererToken.png" class="scen_setup"></td>
           <td>
-            <a class="hero" href="/heroes/13">Conan - Wanderer: </a>
+            <a class="hero" href="/heroes/13">Conan the Wanderer: </a>
             (<a class="item" href="/items/1">Battle Axe</a> and
             <a class="item" href="/items/17"> Leather Armor</a>)
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/HadrathusToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/HadrathusToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/3">Hadrathus: </a>
             (<a class="item" href="/items/43">Mitra’s Staff</a>,
             <a class="item" href="/items/12"> Sword</a> and 4 spells:
-            <a class="spell" href="/spells/30"> Eel Skin</a>,
+            <a class="spell" href="/spells/29"> Eel Skin</a>,
             <a class="spell" href="/spells/13"> Set’s Halo</a>,
             <a class="spell" href="/spells/20"> Bel’s Caress</a>,
             <a class="spell" href="/spells/10"> Mitra’s Healing</a>)
@@ -7155,7 +7219,7 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
             <td><p>When an event tile is activated the Overlord resolves the following event:</p>
               <p><span class="setup_suggestion">Reinforcement:</span> 3 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" /> (see special rules).</p>
@@ -7165,9 +7229,9 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/NatohkToken.png" class="scen_setup"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/NatohkToken.png" class="scen_setup"></td>
             <td>
-            <a class="tile" href="/tiles/58">Natohk</a> has 2 spells:
+            <a class="tile" href="/tiles/66">Natohk</a> has 2 spells:
                 <a class="spell" href="/spells/12">Set’s Bite</a> and
                 <a class="spell" href="/spells/16">Teleportation</a>.
             </td>
@@ -7176,8 +7240,8 @@
         </table>',
 
       tile1: 90,
-      tile2: 84,
-      tile3: 58,
+      tile2: 41,
+      tile3: 66,
       tile4: 1,
       tile5: 91,
       tile6: 44,
@@ -7212,7 +7276,7 @@
         <a class="tile" href="/tiles/90">Skeleton</a> models of the same tile.
         To do so, they stand up 1 Skeleton model laid down on the board per spent
         Reinforcement point. Therefore, in this scenario,
-        <a class="tile" href="/tiles/44">Mummies</a> cannot return as Reinforcement.</p>
+        <a class="tile" href="/tiles/41">Mummies</a> cannot return as Reinforcement.</p>
 
         <p><span class="special_title">Hut Flaps:</span>
         A character must spend 1 extra movement point to move across a boarder
@@ -7231,19 +7295,20 @@
         <p><span class="special_title">Chests:</span>
         During setup, the Overlord places 3 chests on the board
         as indicated by the setup diagram. The asset deck contains:
-        2 <a class="item" href="/items/22">Life Potions</a> and
-        1 <a class="item" href="/items/6">Explosive Orb</a>',
+        2&nbsp;<a class="item" href="/items/22">Life Potions</a> and
+        1&nbsp;<a class="item" href="/items/6">Explosive Orb</a>',
 
       hero_victory: '',
       overlord_victory: '',
 
       origin: "Book of Set",
-      product_ids: [1, 2, 3],
+      product_ids: [1, 2, 3, 22],
       map_ids: [1],
       hero_ids: [3, 13],
-      tile_ids: [1, 2, 44, 58, 84, 90, 91],
-      spell_ids: [10, 12, 13, 16, 20, 30],
-      item_ids: [1, 6, 12, 17, 22, 43] },
+      tile_ids: [1, 2, 41, 44, 66, 90, 91],
+      spell_ids: [10, 12, 13, 66, 16, 48, 20, 29],
+      item_ids: [1, 6, 33, 12, 91, 17, 77, 97, 22, 44, 103, 43] },
+
 
     # The Terrible Lovers
     { name: "The Terrible Lovers",
@@ -7256,7 +7321,7 @@
         <p>After days of drunkenness, spent in the company of the worst scoundrels
         hanging around in the most disreputable port alleys of Asgalun; the two
         terrible lovers have learned a secret. There are two carracks flying the
-        Zingarian flag among the ships anchored in the port that are carrying an
+        Zingaran flag among the ships anchored in the port that are carrying an
         exceptional treasure - two finely worked amulets that belonged to the
         monarchs of the ancient kingdom of Acheron. The jewels represent a fabulous
         fortune.</p>
@@ -7266,8 +7331,8 @@
         steal the amulets, sink one of the ships to cause con- fusion and finally
         block the harbor entrance with the second ship to prevent any attempt of
         pursuit. The Tigress is waiting for them close by and ready to sail.</p>",
-      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/The+Terrible+Lovers.jpg',
-      pdf_link: 'http://www.monolithedition.com/conan-en/the-terrible-lovers/',
+      map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Terrible+Lovers.jpg',
+      pdf_link: '',
       player_count: "3",
       complexity: "2",
 
@@ -7290,20 +7355,20 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanThiefToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ConanThiefToken.png" class="scen_setup"></td>
           <td>
-            <a class="hero" href="/heroes/31">Conan the Thief</a>
+            <a class="hero" href="/heroes/30">Conan the Thief</a>
             (<a class="item" href="/items/4">Conan’s Sword</a>)
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BelitQueenToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/BelitQueenToken.png" class="scen_setup"></td>
           <td>
-            <a class="hero" href="/heroes/30">Bêlit Queen of the Black Coast</a>
+            <a class="hero" href="/heroes/29">Bêlit Queen of the Black Coast</a>
             (<a class="item" href="/items/22">Life Potion</a>,
             <a class="item" href="/items/3">Dagger</a> and
-            <a class="item" href="/items/78">Short Sword</a>)
+            <a class="item" href="/items/86">Short Sword</a>)
           </td>
           <td></td>
         </tr>
@@ -7334,7 +7399,7 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
             <td><p>When an event tile is activated the Overlord resolves the following event:</p>
               <p><span class="setup_suggestion">Reinforcement:</span> 2 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" /> (see special rules).</p>
@@ -7366,7 +7431,7 @@
         ways a hero can sink a ship:<br />
         • A hero in a reinforcement token’s area <img src="/assets/stats/reinforcement.png" class="scen_token" />
         may perform a complex manipulation with a difficulty of 5 to sink that ship.<br />
-        • A hero can throw or drop an <a class="item" href="/items/5">Explosive Orb</a>
+        • A hero can throw or drop an <a class="item" href="/items/6">Explosive Orb</a>
         on a reinforcement token’s area <img src="/assets/stats/reinforcement.png" class="scen_token" />.
         The orb explodes normally and that ship sinks.</p>
         <p>When a ship is sunk, the Overlord removes from the river the event
@@ -7409,7 +7474,7 @@
         <p><span class="special_title">Fleeing:</span>
         The heroes must sink one of the ships to flee with the other
         one. If at least one of the heroes, with both
-        <a class="item" href="/items/81">amulets</a> in their possession, is alone
+        <a class="item" href="/items/89">amulets</a> in their possession, is alone
         on a ship (without any of the Overlord’s models present on the ship) at
         the end of a heroes’ turn, they can flee with the ship and the heroes
         win the game.</p>
@@ -7424,9 +7489,9 @@
         <p><span class="special_title">Chests:</span>
         During setup, the Overlord places 4 chests on the board
         as indicated by the setup diagram. The asset deck contains:
-        1 <a class="item" href="/items/6">Explosive Orb</a>,
-        1 <a class="item" href="/items/22">Life Potion</a> and 2
-        <a class="item" href="/items/81">Amulets</a>. A hero must perform a
+        1&nbsp;<a class="item" href="/items/6">Explosive Orb</a>,
+        1&nbsp;<a class="item" href="/items/22">Life Potion</a> and 2
+        <a class="item" href="/items/89">Amulets</a>. A hero must perform a
         complex manipulation with a difficulty of 3 to open a chest in a water
         area.</p>',
 
@@ -7434,12 +7499,13 @@
       overlord_victory: '',
 
       origin: "Book of Set",
-      product_ids: [1, 10],
+      product_ids: [1, 10, 22],
       map_ids: [3],
-      hero_ids: [30, 31],
+      hero_ids: [29, 30],
       tile_ids: [1, 2, 7, 17, 31, 32, 33],
       spell_ids: [],
-      item_ids: [3, 4, 6, 22]},
+      item_ids: [3, 4, 85, 6, 33, 22, 44, 103, 86, 89, 90]},
+
 
     # A Lion Among Panthers
     { name: "A Lion Among Panthers",
@@ -7464,8 +7530,8 @@
         to get himself out of a bad situation; a young man, also a captive of the
         Picts, reminding him tremendously of Balthus, who was his valiant
         brother-in-arms during the fighting on the Black River banks.</p>",
-      map_image: "https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/A+Lion+Among+Panthers.jpg",
-      pdf_link: "http://www.monolithedition.com/conan-en/a-lion-among-panthers/",
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/A+Lion+Among+Panthers.jpg",
+      pdf_link: '',
       player_count: "3",
       complexity: "2",
 
@@ -7488,22 +7554,22 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AmraToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/AmraToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/5">Amra the Lion</a>
             (<a class="item" href="/items/17">Leather Armor</a>) with
-            <a class="tile" href="/tiles/38">Conan’s Lion</a>
+            <a class="tile" href="/tiles/36">Conan’s Lion</a>
           </td>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConansLion.png" class="scen_event"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ConansLion.png" class="scen_event"></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BalthusToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/BalthusToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/10">Balthus</a>
             (<a class="item" href="/items/17">Leather Armor</a>) with
-            <a class="tile" href="/tiles/75">Slasher</a></p>
+            <a class="tile" href="/tiles/80">Slasher</a></p>
           </td>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Slasher.png" class="scen_event"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Slasher.png" class="scen_event"></td>
         </tr>
       </table>
 
@@ -7531,7 +7597,7 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
             <td><p>When an event tile is activated the Overlord resolves the following event:</p>
               <p><span class="setup_suggestion">Reinforcement:</span> 3 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
@@ -7541,9 +7607,9 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZogarSagToken.png" class="scen_setup"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ZogarSagToken.png" class="scen_setup"></td>
             <td>
-              <a class="tile" href="/tiles/6">Zogar Sag</a> has one spell
+              <a class="tile" href="/tiles/8">Zogar Sag</a> has one spell
               <a class="spell" href="/spells/12">Set’s Bite</a> for this scenario.
             </td>
             <td></td>
@@ -7552,10 +7618,10 @@
 
       tile1: 25,
       tile2: 86,
-      tile3: 77,
+      tile3: 76,
       tile4: 29,
-      tile5: 6,
-      tile6: 77,
+      tile5: 8,
+      tile6: 76,
       tile7: 1,
       tile8: 0,
 
@@ -7581,9 +7647,9 @@
         <p><span class="special_title">Equipment:</span>
         During setup, the Overlord places the following cards on the area
         <img src="/assets/tokens/area4Token.png" class="scen_token" />:
-        1 <a class="item" href="/items/32">Axe</a>,
-        1 <a class="item" href="/items/40">Zingarian Bow</a>, and
-        1 <a class="item" href="/items/22">Life Potion</a>.</p>
+        1&nbsp;<a class="item" href="/items/32">Axe</a>,
+        1&nbsp;<a class="item" href="/items/40">Zingaran Bow</a>, and
+        1&nbsp;<a class="item" href="/items/22">Life Potion</a>.</p>
 
         <p><span class="special_title">Stone:</span>
         During setup, the Overlord places a Stone token
@@ -7593,19 +7659,19 @@
         they no longer suffer the penalty for Melee Attack without a weapon card.</p>
 
         <p><span class="special_title">Zogar Sag:</span>
-        When <a class="tile" href="/tiles/6">Zogar Sag</a> dies, the Overlord
+        When <a class="tile" href="/tiles/8">Zogar Sag</a> dies, the Overlord
         immediately places the <a class="item" href="/items/25">Pictish Fetish</a>
         card in Zogar Sag’s area.</p>
 
         <p><span class="special_title">Forest Demon:</span>
-        When the <a class="tile" href="/tiles/77">Forest Demon</a> dies, the
+        When the <a class="tile" href="/tiles/76">Forest Demon</a> dies, the
         Overlord immediately places the
         <a class="item" href="/items/49">Heart of Ahriman</a> card in the Forest
         Demon’s area.</p>
 
         <p><span class="special_title">Door:</span>
-        <a class="tile" href="/tiles/75">Slasher</a> and
-        <a class="tile" href="/tiles/38">Conan’s Lion</a> are imprisoned. As
+        <a class="tile" href="/tiles/80">Slasher</a> and
+        <a class="tile" href="/tiles/36">Conan’s Lion</a> are imprisoned. As
         long as the door <img src="/assets/tokens/redDoorToken.png" class="scen_sq_token" />
         is in play, the animals cannot be activated.
         <a class="hero" href="/heroes/5">Amra the Lion</a> and
@@ -7617,13 +7683,13 @@
 
         <p><span class="special_title">Slasher:</span>
         Only <a class="hero" href="/heroes/10">Balthus</a> can activate
-        <a class="tile" href="/tiles/75">Slasher</a>. If Balthus dies,
+        <a class="tile" href="/tiles/80">Slasher</a>. If Balthus dies,
         Slasher has no longer reason to fight and is immediately removed from
         the game.</p>
 
         <p><span class="special_title">Conan’s Lion:</span>
         Only <a class="hero" href="/heroes/5">Amra the Lion</a> can
-        activate <a class="tile" href="/tiles/38">Conan’s Lion</a>. If Amra the
+        activate <a class="tile" href="/tiles/36">Conan’s Lion</a>. If Amra the
         Lion dies, Conan’s Lion has no longer reason to fight and is immediately
         removed from the game.</p>
 
@@ -7652,12 +7718,13 @@
       overlord_victory: '',
 
       origin: "Book of Set",
-      product_ids: [1, 2, 3],
+      product_ids: [1, 2, 3, 22],
       map_ids: [1],
       hero_ids: [5, 10],
-      tile_ids: [1, 6, 25, 29, 38, 75, 77, 86],
+      tile_ids: [1, 8, 25, 29, 36, 76, 80, 86],
       spell_ids: [12],
-      item_ids: [17, 22, 25, 32, 40, 49, 55] },
+      item_ids: [17, 77, 97, 22, 44, 103, 25, 32, 40, 49, 55, 56, 57] },
+
 
     # The Last Ditch Invocation
     { name: "The Last Ditch Invocation",
@@ -7680,8 +7747,8 @@
         he has no choice but to use his most powerful invocation, but also the
         riskier one, so that all have a chance to defend the ship, as well as their
         lives.</p>",
-      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/The+Last+Ditch+Invocation.jpg',
-      pdf_link: 'http://www.monolithedition.com/conan-en/the-last-ditch-invocation/',
+      map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Last+Ditch+Invocation.jpg',
+      pdf_link: '',
       player_count: "3",
       complexity: "3",
 
@@ -7696,7 +7763,7 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZelataToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ZelataToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/8">Zelata</a>
             (<a class="item" href="/items/3">Dagger</a>,
@@ -7707,18 +7774,18 @@
             <a class="spell" href="/spells/20"> Bel’s Caress</a>) with
             <a class="tile" href="/tiles/39">Zelata’s Wolf</a>
           </td>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZelatasWolf.png" class="scen_event"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ZelatasWolf.jpg" class="scen_event"></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/PeliasToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/PeliasToken.png" class="scen_setup"></td>
           <td>
-            <a class="hero" href="/heroes/18">Pelias</a>
+            <a class="hero" href="/heroes/19">Pelias</a>
             (<a class="item" href="/items/36">Sacrificial Dagger</a>,
             <a class="item" href="/items/49">Heart of Ahriman</a> and
             <a class="spell" href="/spells/12">Set’s Bite</a>,
             <a class="spell" href="/spells/16">Teleportation</a>,
             <a class="spell" href="/spells/13">Set’s Halo</a> and
-            <a class="spell" href="/spells/35">Hand of Death</a>)
+            <a class="spell" href="/spells/33">Hand of Death</a>)
           </td>
           <td></td>
         </tr>
@@ -7755,7 +7822,7 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
             <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
               <p><span class="setup_suggestion">Reinforcement:</span> 3 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
@@ -7768,11 +7835,11 @@
         </table>',
 
       tile1: 89,
-      tile2: 13,
+      tile2: 14,
       tile3: 1,
-      tile4: 88,
-      tile5: 66,
-      tile6: 62,
+      tile4: 30,
+      tile5: 65,
+      tile6: 56,
       tile7: 2,
       tile8: 0,
 
@@ -7786,8 +7853,8 @@
       life8: 0,
 
       special_rules: '<p>
-        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Tentacles.png" class="scen_event float_tile">
-        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Thaug.png" class="scen_event float_tile">
+        <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Tentacles.jpg" class="scen_event float_tile">
+        <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Thaug.jpg" class="scen_event float_tile">
         <span class="special_title">Thaug:</span>
           During setup, the heroes place the Tentacles models and the Thaug
           model as indicated by the setup diagram. The Thaug model is placed
@@ -7796,9 +7863,9 @@
           “8” of the turn track. The heroes place the Thaug’s tile next to their
           heroes’ sheets and place 4 red gems on it. The heroes place the
           <a class="spell" href="/spells/24">Dagon’s Attack</a> and
-          <a class="spell" href="/spells/47">Return of the Brave</a> spell cards
+          <a class="spell" href="/spells/43">Return of the Brave</a> spell cards
           next to Thaug’s tile; these are the spells
-          <a class="tile" href="/tiles/82">Thaug</a> has.<br />
+          <a class="tile" href="/tiles/82">Thaug</a> has.<br /><br />
           The heroes place the <a class="tile" href="/tiles/92">Tentacles</a>
           tile next to the Thaug’s tile. Thaug is immediately activated if
           it is on the board at the start of the heroes’ turn. It cannot move but
@@ -7806,12 +7873,14 @@
           spells.<br />
           If Thaug is on the board at the end of the heroes’ turn, the heroes move
           the red gems from Thaug’s spells to Thaug’s tile, then:<br />
-            • if there is at least on blue gem on the
+          <ul>
+            <li>if there is at least on blue gem on the
             <a class="item" href="/items/49">Heart of Ahriman</a>, the heroes
-            move this or these gems to Pelias’ Wound zone,<br />
-            • if there is no blue gem on the Heart of Ahriman, then the
+            move this or these gems to Pelias’ Wound zone,</li>
+            <li>if there is no blue gem on the Heart of Ahriman, then the
             heroes remove The Thaug and Tentacles models from the game and flip
-            the Heart of Ahriman card facedown.</p>
+            the Heart of Ahriman card facedown.</li>
+          </ul></p>
 
         <p><span class="special_title"> Sailors:</span>
           During setup, the heroes place the Bossonian Guards as indicated by
@@ -7821,13 +7890,12 @@
           the Overlord Units.</p>
 
         <p><span class="special_title">Heart of Ahriman:</span>
-          <a class="hero" href="/heroes/18">Pelias</a> cannot drop nor give the
+          <a class="hero" href="/heroes/19">Pelias</a> cannot drop nor give the
           <a class="item" href="/items/49">Heart of Ahriman</a>. If Pelias dies,
           the Heart of Ahriman is destroyed.</p>
 
         <p><span class="special_title">Sacrifice:</span>
-          If the <a class="item" href="/items/49">Heart of Ahriman</a> card is
-          faceup and <a class="hero" href="/heroes/18">Pelias</a> kills a Sailor
+          If the Heart of Ahriman card is faceup and Pelias kills a Sailor
           or a model of the Overlord using the
           <a class="item" href="/items/36">Sacrificial Dagger</a>, Pelias moves
           one of his blue gems to the Heart of Ahriman card. Pelias takes in
@@ -7858,17 +7926,17 @@
         <p><span class="special_title">Chests:</span>
           During setup, the Overlord places 1 chest on the board as indicated
           by the setup diagram. The asset deck contains:
-          1 <a class="item" href="/items/28">Spellbook</a>.</p>',
+          1&nbsp;<a class="item" href="/items/28">Spellbook</a>.</p>',
 
       hero_victory: '',
       overlord_victory: '',
 
       origin: "Book of Set",
-      product_ids: [1, 2, 3],
+      product_ids: [1, 2, 3, 22],
       map_ids: [3],
-      hero_ids: [11, 17],
-      tile_ids: [1, 2, 13, 62, 66, 82, 88, 89, 92],
-      spell_ids: [1, 6, 9, 12, 13, 16, 20, 24, 35, 47],
+      hero_ids: [8, 19],
+      tile_ids: [1, 2, 14, 30, 56, 65, 82, 89, 90, 92],
+      spell_ids: [1, 6, 9, 12, 13, 66, 16, 48, 20, 24, 33, 43],
       item_ids: [3, 28, 36, 43, 49] },
 
 
@@ -7893,8 +7961,8 @@
         complex invocation of a swamp demon. Seeking to extricate the monster from
         the Land of Mists so that it materializes here on earth to defeat Conan
         and exterminate all the occupants of the tavern.</p>",
-      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/For+the+Blood+of+a+Barbarian.jpg',
-      pdf_link: 'http://www.monolithedition.com/conan-en/for-the-blood-of-a-barbarian/',
+      map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/For+the+Blood+of+a+Barbarian.jpg',
+      pdf_link: '',
       player_count: "3",
       complexity: "3",
 
@@ -7917,19 +7985,19 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanGeneralToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ConanGeneralToken.png" class="scen_setup"></td>
           <td>
-            <a class="hero" href="/heroes/11">Conan - General</a>
+            <a class="hero" href="/heroes/11">Conan the General</a>
             (<a class="item" href="/items/4">Conan’s Sword</a> and
             <a class="item" href="/items/18">Scale Mail</a>)
-            with the <a class="tile" href="/tiles/74">Kothian Archer</a>
+            with the <a class="tile" href="/tiles/64">Kothian Archer</a>
           </td>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/KothianArcher.png" class="scen_event"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/KothianArcher.jpg" class="scen_event"></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/PallantidesToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/PallantidesToken.png" class="scen_setup"></td>
           <td>
-            <a class="hero" href="/heroes/17">Pallantides</a>
+            <a class="hero" href="/heroes/18">Pallantides</a>
             (<a class="item" href="/items/12">Sword</a> and
             <a class="item" href="/items/20">Shield</a>)
           </td>
@@ -7961,7 +8029,7 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
             <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
               <p><span class="setup_suggestion">Reinforcement:</span> 2 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
@@ -7972,23 +8040,23 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/HadrathusToken.png" class="scen_setup"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/HadrathusToken.png" class="scen_setup"></td>
             <td>
-              <a class="tile" href="/tiles/64">Hadrathus</a> has 1 spell:
+              <a class="tile" href="/tiles/60">Hadrathus</a> has 1 spell:
               <a class="spell" href="/spells/6">Lightning Storm</a>.
             </td>
             <td></td>
           </tr>
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZelataToken.png" class="scen_setup"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ZelataToken.png" class="scen_setup"></td>
             <td>
-              <a class="tile" href="/tiles/72">Zelata</a> has 1 spell:
-              <a class="spell" href="/spells/35">Hand of Death</a>.
+              <a class="tile" href="/tiles/73">Zelata</a> has 1 spell:
+              <a class="spell" href="/spells/33">Hand of Death</a>.
             </td>
             <td></td>
           </tr>
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AgeeraToken.png" class="scen_setup"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/AgeeraToken.png" class="scen_setup"></td>
             <td>
               <a class="tile" href="/tiles/52">Ageera</a> has 1 spell:
               <a class="spell" href="/spells/1">Bori’s Rage</a>.
@@ -7996,18 +8064,18 @@
             <td></td>
           </tr>
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AkivashaToken.png" class="scen_setup"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/AkivashaToken.png" class="scen_setup"></td>
             <td>
               <a class="tile" href="/tiles/53">Akivasha</a> has 1 spell:
-              <a class="spell" href="/spells/47">Return of the Brave</a>.
+              <a class="spell" href="/spells/43">Return of the Brave</a>.
             </td>
             <td></td>
           </tr>
         </table>',
 
-      tile1: 64,
+      tile1: 60,
       tile2: 18,
-      tile3: 72,
+      tile3: 73,
       tile4: 16,
       tile5: 52,
       tile6: 19,
@@ -8024,7 +8092,7 @@
       life8: 0,
 
       special_rules: '<p>
-      <p><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SwampDemon.png" class="scen_event float_tile">
+      <p><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/SwampDemon.jpg" class="scen_event float_tile">
 
       <span class="special_title">Invocation:</span>
         At the end of turn 5, the Overlord removes from the board all their models
@@ -8033,15 +8101,15 @@
         models removed from the board corresponds to the number of life points of
         the <a class="tile" href="/tiles/81">Swamp Demon</a>. The Overlord places
         the Swamp Demon Life Point marker
-        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SwampDemonToken.png"
+        <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/SwampDemonToken.png"
         class="scen_token">on the corresponding position of the turn track. Then,
         the Overlord replaces the removed Spell Caster’s tile in the River with
         the Swamp Demon’s tile.</p>
 
         <p><span class="special_title">Deliverance:</span>
           A hero in the same area as one of the Sorcerers under Domination (
-          <a class="tile" href="/tiles/64">Hadrathus</a>,
-          <a class="tile" href="/tiles/72">Zelata</a> and
+          <a class="tile" href="/tiles/60">Hadrathus</a>,
+          <a class="tile" href="/tiles/73">Zelata</a> and
           <a class="tile" href="/tiles/52">Ageera</a> at the beginning of the
           scenario) may perform a complex Manipulation with a difficulty of 2
           (Hadrathus, Zelata and Ageera are taken into account for Hindering) to
@@ -8064,11 +8132,8 @@
 
         <p><span class="special_title">Domination:</span>
           Akivasha imposes her domination over an Ally Sorcerer of the heroes.
-          The Overlord chooses one of the Sorcerers (
-            <a class="tile" href="/tiles/64">Hadrathus</a>,
-            <a class="tile" href="/tiles/72">Zelata</a> or
-            <a class="tile" href="/tiles/52">Ageera</a>)
-          in the line of sight of <a class="tile" href="/tiles/53">Akivasha</a>,
+          The Overlord chooses one of the Sorcerers (Hadrathus, Zelata or Ageera)
+          in the line of sight of Akivasha,
           takes that Ally Sorcerer’s tile from the hero and places it in their
           River at the position of the Event tile before its activation (the Event
           tile is still moved to the right, at the end of the River). They also
@@ -8125,20 +8190,21 @@
         <p><span class="special_title">Chests:</span>
           During setup, the Overlord places 3 chests on the board as indicated
           by the setup diagram. The asset deck contains:
-          1 <a class="item" href="/items/22">Life Potion</a>,
-          2 <a class="item" href="/items/2">Bossonian Bow</a>, and
-          1 <a class="item" href="/items/6">Explosive Orb</a>.</p>',
+          1&nbsp;<a class="item" href="/items/22">Life Potion</a>,
+          2&nbsp;<a class="item" href="/items/2">Bossonian Bow</a>, and
+          1&nbsp;<a class="item" href="/items/6">Explosive Orb</a>.</p>',
 
       hero_victory: '',
       overlord_victory: '',
 
       origin: "Book of Set",
-      product_ids: [1, 2, 3],
+      product_ids: [1, 3, 22],
       map_ids: [2],
-      hero_ids: [11, 17],
-      tile_ids: [1, 16, 18, 19, 52, 53, 64, 72, 81],
-      spell_ids: [1, 6, 35, 47],
-      item_ids: [2, 4, 6, 12, 18, 20, 22 ] },
+      hero_ids: [11, 18],
+      tile_ids: [1, 16, 18, 19, 52, 53, 60, 64, 73, 81],
+      spell_ids: [1, 6, 33, 43],
+      item_ids: [2, 4, 85, 6, 33, 12, 91, 18, 20, 22, 44, 103] },
+
 
     # Death from the North
     { name: "Death from the North",
@@ -8162,8 +8228,15 @@
         dangerous Cimmerian who stays here. Who, having become a general in the
         Aquilonian army, has been sent on mission to Brythunia accompanied by a
         squadron of the Black Legion.</p>",
-      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/Death+from+the+North.jpg',
-      pdf_link: 'http://www.monolithedition.com/conan-en/death-from-the-north/',
+      map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Death+from+the+North.jpg',
+      pdf_link: '
+      <p><strong>Item Cards:</strong> The item cards placed on the board (clockwise from upper left) are:
+      <a class="item" href="/items/39">Two-Handed Sword</a>
+      <a class="item" href="/items/45">Pictish Drink</a>,
+      <a class="item" href="/items/12">Sword</a>,
+      <a class="item" href="/items/22">Life Potion</a>,
+      <a class="item" href="/items/38">Turanian Sword</a>, and
+      <a class="item" href="/items/45">Pictish Drink</a></p>',
       player_count: "4",
       complexity: "3",
 
@@ -8174,42 +8247,34 @@
       hero_setup: '
       <table class="scen_table">
         <tr>
-          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
-          <td>The game starts with the heroes’ turn.<br /></td>
-          <td></td>
-        </tr>
-      </table>
-
-      <table class="scen_table">
-        <tr>
           <td><h4>3</h4></td>
           <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanGeneralToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ConanGeneralToken.png" class="scen_setup"></td>
           <td>
-            <a class="hero" href="/heroes/11">Conan - General</a>
+            <a class="hero" href="/heroes/11">Conan the General</a>
             (<a class="item" href="/items/18">Scale Mail</a>) with 5
             <a class="tile" href="/tiles/30">Pirates</a> pirates with no base and 5
             <a class="tile" href="/tiles/16">Bossonian Archers</a> with a purple base.
           </td>
           <td>
-          <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Pirates.png" class="scen_event">
-          <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BossonianArchersPurple.png" class="scen_event">
+          <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Pirates.jpg" class="scen_event">
+          <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/BossonianArchersPurple.jpg" class="scen_event">
           </td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/PallantidesToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/PallantidesToken.png" class="scen_setup"></td>
           <td>
-            <a class="hero" href="/heroes/17">Pallantides</a>
+            <a class="hero" href="/heroes/18">Pallantides</a>
             (<a class="item" href="/items/20">Shield</a>) with 5
             <a class="tile" href="/tiles/22">Bossonian Guards</a> with a red base.
           </td>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BossonianGuardsRed.png" class="scen_event"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/BossonianGuardsRed.jpg" class="scen_event"></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/NGoraToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/NGoraToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/6">N’Gora</a>
             (<a class="item" href="/items/21">Tribal Shield</a>).
@@ -8230,8 +8295,14 @@
       overlord_goal: "If the Overlord kills all the pirates, Bossonian guards
         and archers before the end of turn 9; the Overlord wins the game.",
 
-      overlord_setup: 'The game starts with the Overlord’s turn.
-        <br />
+      overlord_setup: '
+        <table class="scen_table">
+          <tr>
+            <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+            <td>The game starts with the Overlord’s turn.<br /></td>
+            <td></td>
+          </tr>
+        </table>
         <table class="scen_table">
           <tr>
             <td><img src="/assets/tokens/redGem.png" class="scen_token" /></td>
@@ -8243,7 +8314,7 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
             <td><p>When the Event tile is activated, the Overlord resolves each of the following events in order:</p>
               <p><span class="setup_suggestion">Gaining Ground:</span> (see special rules).</p>
               <p><span class="setup_suggestion">Reinforcement:</span> 5 reinforcement points
@@ -8254,18 +8325,18 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/HyperboreanPrimitiveToken.png" class="scen_setup"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/HyperboreanPrimitiveToken.png" class="scen_setup"></td>
             <td>
-              <a class="tile" href="/tiles/56">Hyperborean Primitive</a> has
+              <a class="tile" href="/tiles/61">Hyperborean Primitive</a> has
               <a class="spell" href="/spells/11">Pestilential Swarm</a> and
-              <a class="spell" href="/spells/55">Withering</a>.
+              <a class="spell" href="/spells/49">Withering</a>.
             </td>
             <td></td>
           </tr>
         </table>',
 
-      tile1: 56,
-      tile2: 76,
+      tile1: 61,
+      tile2: 74,
       tile3: 1,
       tile4: 0,
       tile5: 0,
@@ -8294,14 +8365,14 @@
         and occupied areas.</p>
 
         <p>
-        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SkeletonsRedAlt.png" class="scen_event float_tile">
-        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SkeletonsPurple.png" class="scen_event float_tile">
-        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Skeletons.png" class="scen_event float_tile">
+        <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/SkeletonsRedAlt.jpg" class="scen_event float_tile">
+        <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/SkeletonsPurple.jpg" class="scen_event float_tile">
+        <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Skeletons.jpg" class="scen_event float_tile">
         <span class="special_title">Skeletons:</span>
         During setup the Overlord places the following Skeleton tiles next to
         the Book of Skelos: (<a class="tile" href="/tiles/45">Gray</a> and
-        <a class="tile" href="/tiles/49">purple Skeleton</a> tiles with an Armor of 1,
-        and a <a class="tile" href="/tiles/91">red Skeleton</a> tile with an Armor of 0).
+        <a class="tile" href="/tiles/49">Purple Skeleton</a> tiles with an Armor of 1,
+        and a <a class="tile" href="/tiles/91">Red Skeleton</a> tile with an Armor of 0).
         The Overlord then places 15 skeleton models next to the board. When a skeleton
         is killed, the Overlord lays the skeleton down in its area rather than removing
         it from the board. The laid down skeleton models do not count for hindering and
@@ -8311,17 +8382,15 @@
         During setup the Overlord places the <a class="item" href="/items/29">Stygian Artifact</a>
         card next to the board.</p>
 
-        <p><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BoneGolem.png" class="scen_event float_tile">
+        <p><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/BoneGolem.jpg" class="scen_event float_tile">
         <span class="special_title">Bone Golem:</span>
-        During setup the Overlord places the second Bone Golem tile beside the
-        Book of Skelos. When the Bone Golem is killed the Overlord places the
-        <a class="item" href="/items/29">Stygian Artifact</a> card in the area
-        where the Bone Golem was killed.</p>
+        During setup the Overlord places the second <a class="tile" href="/tiles/74">Bone Golem
+        </a> tile beside the Book of Skelos. When the Bone Golem is killed the Overlord places the
+        Stygian Artifact card in the area where the Bone Golem was killed.</p>
 
         <p style="clear: both;"><span class="special_title">Hyperborean Primitive:</span>
-        The Hyperborean Primitive can only be wounded by a hero carrying the
-        <a class="item" href="/items/29">Stygian Artifact</a>. The Hyperborean
-        Primitive cannot be wounded in any other way other than by a hero
+        The Hyperborean Primitive can only be wounded by a hero carrying the Stygian Artifact.
+        The Hyperborean Primitive cannot be wounded in any other way other than by a hero
         carrying the Stygian Artifact.</p>
 
         <p><span class="special_title">Leadership:</span>
@@ -8335,25 +8404,28 @@
         <p><span class="special_title">Gaining Ground:</span>
         When the Overlord activates the <a class="tile" href="/tiles/1">Event</a>
         tile and resolves the Gaining Ground event, they resolve each of the
-        following events in order:<br /><br />
-        • The Overlord moves 2 gems from their Additional Gem Reserve to their
+        following events in order:<br />
+        <ul>
+          <li>The Overlord moves 2 gems from their Additional Gem Reserve to their
         Fatigue zone. If there are not enough gems in the Additional gem reserve,
         the Overlord does not move any gems to their Fatigue zone. The gems used
         to dredge the river are removed from the game and cannot be returned to the
-        game with this event.<br /><br />
-        • The Recovery value of the Overlord is increased. If the Overlord’s
+        game with this event.</li><br />
+          <li>The Recovery value of the Overlord is increased. If the Overlord’s
         Recovery value is “3”, they place the Recovery Value tile with a value of
         “5” on the Book of Skelos. If the Overlord’s Recovery value is “5”, they
         place the Recovery Value tile with a value of “7” on the Book of Skelos.
-        If the Overlord’s Recovery value is “7”, the Recovery Value tile is not changed.<br /><br />
-        • A tile is chosen by the Overlord from the tiles put aside during setup
+        If the Overlord’s Recovery value is “7”, the Recovery Value tile is not
+        changed.</li><br />
+          <li>A tile is chosen by the Overlord from the tiles put aside during setup
         and it is added to the end of the River. The Overlord cannot add a tile to
         the River if all the tiles set aside have already been added. The Overlord
         can add a unit tile to the River if there is at least one model on the board
-        (laid down or standing) that corresponds to this tile.<br /><br />
+        (laid down or standing) that corresponds to this tile.
+        <br /><br />
         The tiles removed from the River when the Overlord dredges the river are
-        removed from the game and cannot be returned to the game with this event.</p>
-
+        removed from the game and cannot be returned to the game with this event.</li>
+        </ul></p>
         <p><span class="special_title">Reinforcement:</span>
         The Overlord can only reinforce units whose tiles are in the River. When
         the Overlord uses a reinforcement point, they stood up one of the laid
@@ -8397,12 +8469,12 @@
       overlord_victory: '',
 
       origin: "Book of Set",
-      product_ids: [1, 2, 3],
+      product_ids: [1, 2, 3, 22],
       map_ids: [2],
-      hero_ids: [6, 11, 17],
-      tile_ids: [1, 16, 22, 30, 45, 49, 56, 76, 91],
-      spell_ids: [11, 55],
-      item_ids: [18, 12, 20, 21, 22, 29, 38, 39, 45] },
+      hero_ids: [6, 11, 18],
+      tile_ids: [1, 16, 22, 30, 45, 49, 61, 74, 91],
+      spell_ids: [11, 49],
+      item_ids: [18, 12, 91, 20, 21, 22, 44, 103, 29, 38, 39, 45, 104] },
 
     # Conspiracy in Khauran
     { name: "Conspiracy in Khauran",
@@ -8427,8 +8499,11 @@
         and, with the help of a few acolytes, heads toward the inn where the
         conspirators are expected to meet, convinced that he will find evidence
         of their treachery.</p>",
-      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/Conspiracy+in+Khauran.jpg',
-      pdf_link: 'http://www.monolithedition.com/conan-en/conspiracy-in-khauran/',
+      map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Conspiracy+in+Khauran.jpg',
+      pdf_link: '
+      <p><strong>Item Cards:</strong> The item cards placed on the board are:
+      <a class="item" href="/items/22">Life Potion</a>, and
+      <a class="item" href="/items/5">Crossbow</a></p>',
       player_count: "4",
       complexity: "1",
 
@@ -8442,7 +8517,14 @@
           <td></td>
         </tr>
       </table>
-
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/area1Token.png" class="scen_token" /></td>
+          <td>The heroes start in the
+            <img src="/assets/tokens/area1Token.png" class="scen_token" /> area.</td>
+          <td></td>
+        </tr>
+      </table>
       <table class="scen_table">
         <tr>
           <td><h4>3</h4></td>
@@ -8450,7 +8532,7 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ConanToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/2">Conan</a>
             (<a class="item" href="/items/16">Chain Mail</a>,
@@ -8459,7 +8541,7 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BelitToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/BelitToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/1">Bêlit</a>
             (<a class="item" href="/items/17">Leather Armor</a>,
@@ -8468,7 +8550,7 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/HadrathusToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/HadrathusToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/3">Hadrathus</a>
             (<a class="item" href="/items/20">Shield</a>,
@@ -8505,7 +8587,7 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
             <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
               <p><span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
@@ -8516,12 +8598,12 @@
           </tr>
         </table>',
 
-      tile1: 102,
+      tile1: 136,
       tile2: 18,
       tile3: 3,
       tile4: 1,
-      tile5: 103,
-      tile6: 101,
+      tile5: 137,
+      tile6: 135,
       tile7: 3,
       tile8: 0,
 
@@ -8592,12 +8674,13 @@
       overlord_victory: '',
 
       origin: "Book of Set",
-      product_ids: [1, 15],
+      product_ids: [1, 11, 22],
       map_ids: [2],
       hero_ids: [1, 2, 3],
-      tile_ids: [1, 3, 18, 101, 102, 103],
+      tile_ids: [1, 3, 18, 135, 136, 137],
       spell_ids: [6, 9],
-      item_ids: [4, 10, 12, 16, 17, 20, 24, 28] },
+      item_ids: [4, 85, 10, 12, 91, 16, 17, 77, 97, 20, 24, 28] },
+
 
     # Yogah’s Rebirth
     { name: "Yogah’s Rebirth",
@@ -8620,8 +8703,8 @@
         witch hunters, the Kushites. Being well-trained in the art of ensnaring
         their prey before slaying them without further ado, these witch hunters
         are determined to destroy the strange creature they believe to be a demon.</p>",
-      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/Yogahs+Rebirth.jpg',
-      pdf_link: 'http://www.monolithedition.com/conan-en/yogahs-rebirth/',
+      map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Yogahs+Rebirth.jpg',
+      pdf_link: '',
       player_count: "4",
       complexity: "2",
 
@@ -8633,11 +8716,11 @@
       <table class="scen_table">
         <tr>
           <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
-          <td>The game starts with the heroes’ turn.<br /></td>
+          <td>The game starts with the heroes’ turn.  The heroes start in the areas
+          indicated by the setup diagram.</td>
           <td></td>
         </tr>
       </table>
-
       <table class="scen_table">
         <tr>
           <td><h4>3</h4></td>
@@ -8645,7 +8728,7 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ConanToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/2">Conan</a>
             (<a class="item" href="/items/12">Sword</a>,
@@ -8654,7 +8737,7 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/HadrathusToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/HadrathusToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/3">Hadrathus</a>
             (<a class="item" href="/items/11">Parrying Dagger</a>,
@@ -8664,9 +8747,9 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/YogahYagToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/YogahYagToken.png" class="scen_setup"></td>
           <td>
-            <a class="hero" href="/heroes/27">Yogah of Yag</a>
+            <a class="hero" href="/heroes/36">Yogah of Yag</a>
             (<a class="item" href="/items/10">Ornamental Spear</a>,
             <a class="spell" href="/spells/4">Gift of Life</a>,
             <a class="spell" href="/spells/10">Mitra’s Healing</a>)
@@ -8699,7 +8782,7 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
             <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
               <p><span class="setup_suggestion">Reinforcement:</span> 5 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
@@ -8713,9 +8796,9 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ShubbaToken.png" class="scen_setup"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ShubbaToken.png" class="scen_setup"></td>
             <td>
-              <a class="tile" href="/tiles/111">Shubba</a> has
+              <a class="tile" href="/tiles/144">Shubba</a> has
               <a class="spell" href="/spells/16">Teleportation</a>,
               <a class="spell" href="/spells/14">Set’s Possession</a>,
               <a class="spell" href="/spells/6">Lightning Storm</a> and
@@ -8725,12 +8808,12 @@
           </tr>
         </table>',
 
-      tile1: 108,
-      tile2: 109,
+      tile1: 141,
+      tile2: 142,
       tile3: 23,
       tile4: 1,
-      tile5: 110,
-      tile6: 111,
+      tile5: 143,
+      tile6: 144,
       tile7: 0,
       tile8: 0,
 
@@ -8744,10 +8827,10 @@
       life8: 0,
 
       special_rules: '<p><span class="special_title">Kushites:</span>
-        <a class="tile" href="/tiles/108">Afari</a>,
-        <a class="tile" href="/tiles/110">Shafiah</a>,
-        <a class="tile" href="/tiles/109">Ghayoor</a> and
-        <a class="tile" href="/tiles/111">Shubba</a> are considered to be
+        <a class="tile" href="/tiles/141">Afari</a>,
+        <a class="tile" href="/tiles/143">Shafiah</a>,
+        <a class="tile" href="/tiles/142">Ghayoor</a> and
+        <a class="tile" href="/tiles/144">Shubba</a> are considered to be
         Kushite units.</p>
 
         <p><span class="special_title">Yag’s Orb:</span>
@@ -8793,21 +8876,22 @@
         <p><span class="special_title">Chests:</span>
         During setup, the Overlord places 4 chests on the board as indicated by
         the setup diagram. The asset deck contains:
-        1 <a class="item" href="/items/29">Stygian Artifact</a>,
-        1 <a class="item" href="/items/22">Life Potion</a>,
-        1 <a class="item" href="/items/2">Bossonian Bow</a>, and
-        1 <a class="item" href="/items/14">Tribal Mace</a>.</p>',
+        1&nbsp;<a class="item" href="/items/29">Stygian Artifact</a>,
+        1&nbsp;<a class="item" href="/items/22">Life Potion</a>,
+        1&nbsp;<a class="item" href="/items/2">Bossonian Bow</a>, and
+        1&nbsp;<a class="item" href="/items/14">Tribal Mace</a>.</p>',
 
       hero_victory: '',
       overlord_victory: '',
 
       origin: "Book of Set",
-      product_ids: [1, 8, 20],
+      product_ids: [1, 15, 20, 22],
       map_ids: [4],
-      hero_ids: [2, 3, 27],
-      tile_ids: [1, 23, 108, 109, 110, 111],
-      spell_ids: [1, 3, 4, 6, 8, 10, 14, 16],
-      item_ids: [2, 10, 11, 12, 14, 17, 22, 29] },
+      hero_ids: [2, 3, 36],
+      tile_ids: [1, 23, 141, 142, 143, 144],
+      spell_ids: [1, 3, 4, 6, 8, 10, 14, 16, 48],
+      item_ids: [2, 10, 11, 87, 12, 91, 14, 17, 77, 97, 22, 44, 103, 29] },
+
 
     # A Dragon on the Marches
     { name: "A Dragon on the Marches",
@@ -8832,8 +8916,8 @@
         with a vast contingent; the Cimmerian has chosen to form a small squadron
         of elite who are reckless enough to face the wild beast and the painted
         warriors on their own territory.</p>",
-      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/A Dragon+on+the+Marches.jpg',
-      pdf_link: 'http://www.monolithedition.com/conan-en/a-dragon-on-the-marches/',
+      map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/A Dragon+on+the+Marches.jpg',
+      pdf_link: '',
       player_count: "4",
       complexity: "2",
 
@@ -8855,7 +8939,7 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanWarlordToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ConanWarlordToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/14">Conan Warlord</a>
             (<a class="item" href="/items/1">Battle Axe</a> and
@@ -8864,23 +8948,23 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SavageBelitToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/SavageBelitToken.png" class="scen_setup"></td>
           <td>
-            <a class="hero" href="/heroes/19">Savage Bêlit</a>
+            <a class="hero" href="/heroes/20">Savage Bêlit</a>
             (<a class="item" href="/items/35">Pirate Saber</a> and
             <a class="item" href="/items/11">Parrying Dagger</a>)
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/PeliasToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/PeliasToken.png" class="scen_setup"></td>
           <td>
-            <a class="hero" href="/heroes/18">Pelias</a>
+            <a class="hero" href="/heroes/19">Pelias</a>
             (<a class="item" href="/items/42">Black Staff</a>,
             <a class="item" href="/items/36">Sacrificial Dagger</a>,
             <a class="spell" href="/spells/16">Teleportation</a>,
-            <a class="spell" href="/spells/55">Withering</a>,
-            <a class="spell" href="/spells/30">Eel Skin</a>)
+            <a class="spell" href="/spells/49">Withering</a>,
+            <a class="spell" href="/spells/29">Eel Skin</a>)
           </td>
           <td></td>
         </tr>
@@ -8910,7 +8994,7 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
             <td><p>When an event tile is activated the Overlord resolves the following event:</p>
               <p><span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
@@ -8920,9 +9004,9 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZogarSagToken.png" class="scen_setup"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ZogarSagToken.png" class="scen_setup"></td>
             <td>
-              <a class="tile" href="/tiles/6">Zogar Sag</a> has
+              <a class="tile" href="/tiles/8">Zogar Sag</a> has
               <a class="spell" href="/spells/12">Set’s Bite</a> and
               <a class="spell" href="/spells/7">Magical Dizziness</a>.
             </td>
@@ -8933,9 +9017,9 @@
       tile1: 25,
       tile2: 28,
       tile3: 86,
-      tile4: 105,
+      tile4: 139,
       tile5: 29,
-      tile6: 6,
+      tile6: 8,
       tile7: 1,
       tile8: 0,
 
@@ -8949,7 +9033,7 @@
       life8: 0,
 
       special_rules: '<p><span class="special_title">Dragon:</span>
-        The area between the 4 legs of the <a class="tile" href="/tiles/105">Dragon</a>
+        The area between the 4 legs of the <a class="tile" href="/tiles/139">Dragon</a>
         is considered as its base with regard to occupied areas. The
         Dragon is counted as one model when calculating hindering. During its
         capture the Dragon has been poisoned; during setup, the Overlord places a
@@ -8968,7 +9052,7 @@
 
         <p><span class="special_title">Javelin:</span>
         The <a class="item" href="/items/8">Javelins</a> have been specially
-        made to wound the <a class="tile" href="/tiles/105">Dragon</a>. If a hero
+        made to wound the Dragon. If a hero
         performs a ranged attack against the Dragon with a Javelin, the Dragon’s
         armor value is ignored. After the attack is performed, the Javelin card
         is removed from the game, even if the attack has not been successful
@@ -8977,7 +9061,7 @@
         <p><span class="special_title">Pictish Fetish:</span>
         When the <a class="item" href="/items/25">Pictish Fetish</a> is burnt,
         pheromones are released into the air that have the ability to confuse
-        <a class="tile" href="/tiles/105">Dragons</a>. A hero with the Pictish
+        Dragons. A hero with the Pictish
         Fetish in the same area as the Dragon can burn the Pictish Fetish by
         performing a simple Manipulation and confuse the Dragon. When the Dragon
         is confused, the Overlord immediately places the Dragon tile at the end
@@ -8985,7 +9069,7 @@
 
         <p><span class="special_title">Elixir:</span>
         The <a class="item" href="/items/48">Elixir</a> has been used by
-        the Picts to poison the <a class="tile" href="/tiles/105">Dragon</a>
+        the Picts to poison the Dragon
         in order to weaken it during its capture. A hero carrying the Elixir can
         apply the Elixir on one of their weapons with a simple Manipulation. If
         a hero applies the Elixir on a weapon, the Elixir card is placed under
@@ -9017,20 +9101,21 @@
         <p><span class="special_title">Chests:</span>
         During setup, the Overlord places 4 chests on the board as
         indicated by the setup diagram. The asset deck contains
-        2 <a class="item" href="/items/8">Javelins</a>,
-        1 <a class="item" href="/items/25">Pictish Fetish</a>, and
-        1 <a class="item" href="/items/48">Elixir</a>.</p>',
+        2&nbsp;<a class="item" href="/items/8">Javelins</a>,
+        1&nbsp;<a class="item" href="/items/25">Pictish Fetish</a>, and
+        1&nbsp;<a class="item" href="/items/48">Elixir</a>.</p>',
 
       hero_victory: '',
       overlord_victory: '',
 
       origin: "Book of Set",
-      product_ids: [1, 3, 17],
+      product_ids: [1, 3, 13, 22],
       map_ids: [1],
       hero_ids: [14, 18, 19],
-      tile_ids: [1, 6, 25, 28, 29, 86, 105],
-      spell_ids: [7, 12, 16, 30, 55],
-      item_ids: [1, 8, 11, 17, 25, 35, 36, 42, 48] },
+      tile_ids: [1, 8, 25, 28, 29, 86, 139],
+      spell_ids: [7, 12, 16, 48, 29, 49],
+      item_ids: [1, 8, 11, 87, 17, 77, 97, 25, 35, 36, 42, 48] },
+
 
     # An Ape, Several Kegs and a Girl
     { name: "An Ape, Several Kegs and a Girl",
@@ -9053,8 +9138,8 @@
       As the group arrives at the gates of the citadel, he is tackled by a large
       gray ape, obviously trained by Constantius, who uses its superhuman strength
       to throw kegs filled with pitch at them. </p>",
-      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/An+Ape+Several+Kegs+and+a+Girl.jpg',
-      pdf_link: 'http://www.monolithedition.com/conan-en/an-ape-several-kegs-and-a-girl/',
+      map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/An+Ape+Several+Kegs+and+a+Girl.jpg',
+      pdf_link: '',
       player_count: "5",
       complexity: "2",
 
@@ -9077,28 +9162,28 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanGeneralToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ConanGeneralToken.png" class="scen_setup"></td>
           <td>
-            <a class="hero" href="/heroes/11">Conan - General</a>
+            <a class="hero" href="/heroes/11">Conan the General</a>
             (<a class="item" href="/items/4">Conan’s Sword</a>)
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/PeliasToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/PeliasToken.png" class="scen_setup"></td>
           <td>
-            <a class="hero" href="/heroes/18">Pelias</a>
+            <a class="hero" href="/heroes/19">Pelias</a>
             (<a class="item" href="/items/3">Dagger</a>,
             <a class="item" href="/items/42">Black Staff</a> and 3 Spells:
             <a class="spell" href="/spells/12">Set’s Bite</a>
             <a class="spell" href="/spells/13">Set’s Halo</a>, and
-            <a class="spell" href="/spells/30">Eel Skin</a>.<br />
+            <a class="spell" href="/spells/29">Eel Skin</a>.
             Pelias starts the game with Set’s Halo activated)
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BelitToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/BelitToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/1">Bêlit</a>
             (<a class="item" href="/items/10">Ornamental Spear</a>)
@@ -9106,10 +9191,10 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BalthusToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/BalthusToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/10">Balthus</a>
-            (<a class="item" href="/items/40">Zingarian Bow</a>)
+            (<a class="item" href="/items/40">Zingaran Bow</a>)
           </td>
           <td></td>
         </tr>
@@ -9139,7 +9224,7 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
             <td><p>When an event tile is activated the Overlord resolves the following event:</p>
               <p><span class="setup_suggestion">Reinforcement:</span> 2 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" /> (see special rules).</p>
@@ -9149,11 +9234,11 @@
         </table>',
 
       tile1: 32,
-      tile2: 80,
+      tile2: 79,
       tile3: 18,
       tile4: 89,
-      tile5: 80,
-      tile6: 54,
+      tile5: 79,
+      tile6: 58,
       tile7: 1,
       tile8: 0,
 
@@ -9167,7 +9252,7 @@
       life8: 0,
 
       special_rules: '<p><span class="special_title">Keg of Pitch:</span>
-        If the <a class="tile" href="/tiles/80">Gray Man-Ape</a> is on the same
+        If the <a class="tile" href="/tiles/79">Gray Man-Ape</a> is on the same
         area as a Keg of Pitch token
         <img src="/assets/tokens/kegToken.png" class="scen_token" /> to throw
         the keg in an area in the Gray Man-Ape’s line of sight. The Overlord
@@ -9191,17 +9276,16 @@
         the area where the hero is located, without the keg of pitch exploding.</p>
 
         <p><span class="special_title">Gitara’s Cell:</span>
-          The door holding <a class="tile" href="/tiles/55">Gitara</a> captive is
+          The door holding <a class="tile" href="/tiles/59">Gitara</a> captive is
           reinforced. A hero in the area next to the door token
           <img src="/assets/tokens/redDoorToken.png" class="scen_sq_token" />
           may perform a complex Manipulation with a difficulty of 3 to remove
           that door from the board.</p>
 
-        <p><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Gitara.png" class="scen_event float_tile">
+        <p><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Gitara.png" class="scen_event float_tile">
         <span class="special_title">Gitara:</span>
           During setup, the Overlord places Gitara’s tile next to the board. As
-          long as Gitara’s door remains closed, <a class="tile" href="/tiles/55">Gitara</a>
-          cannot be attacked nor be wounded.<br />
+          long as Gitara’s door remains closed, Gitara cannot be attacked nor be wounded.<br />
           As soon as the door is removed from the board, the heroes take the
           Gitara tile who becomes an ally of the heroes and may be activated once
           per Heroes’ turn. A hero with Leadership can activate Gitara by moving
@@ -9265,20 +9349,21 @@
         <p><span class="special_title">Chests:</span>
           During setup, the Overlord places 3 chests on the board as
           indicated by the setup diagram. The asset deck contains:
-          1 <a class="item" href="/items/22">Life Potion</a>,
-          1 <a class="item" href="/items/17">Leather Armor</a>, and
-          1 <a class="item" href="/items/34">Mitra’s Mace</a>.</p>',
+          1&nbsp;<a class="item" href="/items/22">Life Potion</a>,
+          1&nbsp;<a class="item" href="/items/17">Leather Armor</a>, and
+          1&nbsp;<a class="item" href="/items/34">Mitra’s Mace</a>.</p>',
 
       hero_victory: '',
       overlord_victory: '',
 
       origin: "Book of Set",
-      product_ids: [1, 3],
+      product_ids: [1, 3, 22],
       map_ids: [5],
-      hero_ids: [1, 10, 11, 18],
-      tile_ids: [1, 18, 32, 54, 55, 80, 89],
-      spell_ids: [12, 13, 30],
-      item_ids: [3, 4, 10, 17, 22, 34, 40, 42] },
+      hero_ids: [1, 10, 11, 19],
+      tile_ids: [1, 18, 32, 58, 59, 79, 89],
+      spell_ids: [12, 13, 66, 29],
+      item_ids: [3, 4, 85, 10, 17, 77, 97, 22, 44, 103, 34, 40, 42] },
+
 
     # The Zamboula Strangler
     { name: "The Zamboula Strangler",
@@ -9305,9 +9390,9 @@
         avoids him.</p>
         <p>The mercenaries have no choice but to try to get the captain out of the
         citadel where he is being held by Totrasmek’s evil servant, the lethal and
-        colossal strangler known as Baal Pteor.</p>",
-      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/The+Zamboula+Strangler.jpg',
-      pdf_link: 'http://www.monolithedition.com/conan-en/the-zamboula-strangler/',
+        colossal strangler known as Baal-pteor.</p>",
+      map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Zamboula+Strangler.jpg',
+      pdf_link: '',
       player_count: "5",
       complexity: "2",
 
@@ -9330,15 +9415,15 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanMercenaryToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ConanMercenaryToken.png" class="scen_setup"></td>
           <td>
-            <a class="hero" href="/heroes/12">Conan - Mercenary</a>
+            <a class="hero" href="/heroes/12">Conan Mercenary</a>
             (<a class="item" href="/items/4">Conan’s Sword</a>)
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AmboolaToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/AmboolaToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/9">Amboola</a>
             (<a class="item" href="/items/35">Pirate Saber</a>)
@@ -9346,20 +9431,20 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/TaurusToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/TaurusToken.png" class="scen_setup"></td>
           <td>
-            <a class="hero" href="/heroes/20">Taurus</a>
+            <a class="hero" href="/heroes/21">Taurus</a>
             (<a class="item" href="/items/11">Parrying Dagger</a> and
             <a class="item" href="/items/13">Throwing Knives</a>)
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/PeliasToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/PeliasToken.png" class="scen_setup"></td>
           <td>
-            <a class="hero" href="/heroes/18">Pelias</a>
+            <a class="hero" href="/heroes/19">Pelias</a>
             (<a class="item" href="/items/54">Ring</a>,
-            <a class="spell" href="/spells/35">Hand of Death</a>,
+            <a class="spell" href="/spells/33">Hand of Death</a>,
             <a class="spell" href="/spells/6">Lightning Storm</a>,
             <a class="spell" href="/spells/12">Set’s Bite</a> and
             <a class="spell" href="/spells/1">Bori’s Rage</a>)
@@ -9392,7 +9477,7 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
             <td><p>When an event tile is activated the Overlord resolves the following event:</p>
               <p><span class="setup_suggestion">Reinforcement:</span> 3 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
@@ -9401,12 +9486,12 @@
           </tr>
         </table>',
 
-      tile1: 33,
+      tile1: 89,
       tile2: 35,
-      tile3: 96,
+      tile3: 130,
       tile4: 18,
-      tile5: 30,
-      tile6: 96,
+      tile5: 88,
+      tile6: 130,
       tile7: 1,
       tile8: 0,
 
@@ -9432,10 +9517,10 @@
         Ring card. The red gems of the Ring card are never counted when
         calculating the life points of a hero.</p>
 
-        <p><span class="special_title">Baal Pteor:</span>
+        <p><span class="special_title">Baal-pteor:</span>
         When he dies, the key he is carrying falls to the ground, the Overlord
         then places the <a class="item" href="/items/24">Key</a> equipment card
-        on the area where <a class="tile" href="/tiles/96">Baal-pteor</a> was.
+        on the area where <a class="tile" href="/tiles/130">Baal-pteor</a> was.
         A hero can then pick it up by performing a simple Manipulation.</p>
 
         <p><span class="special_title">Doors:</span>
@@ -9449,28 +9534,27 @@
         that a shutter separates, whether it is opened or not. Opening a shutter
         simply creates a line of sight between the two areas it separates.</p>
 
-        <p><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BossonianGuards.png" class="scen_event float_tile">
-        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Captain.png" class="scen_event float_tile">
+        <p><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/BossonianGuards.png" class="scen_event float_tile">
+        <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Captain.png" class="scen_event float_tile">
         <span class="special_title">Bossonian Guards and Captain:</span>
-        During setup, the heroes place 2 <a class="tile" href="/tiles/17">Bossonian Guard</a>
+        During setup, the heroes place 2&nbsp;<a class="tile" href="/tiles/17">Bossonian Guards</a>
         models without their colored base and the <a class="tile" href="/tiles/3">Captain</a>
         model as well as their corresponding tiles beside the board. The Overlord
         places the Captain’s life point token
-        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/CaptainToken.png" class="scen_token">
+        <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/CaptainToken.png" class="scen_token">
         on space 4 of the turn track.</p>
 
         <p style="clear: both;"><span class="special_title">Cells:</span>
         During setup, the Overlord randomly places the 3 tokens
         <img src="/assets/tokens/numBackToken.png" class="scen_token" />
         numbered 1 to 3 on the board as indicated by the setup diagram. These
-        tokens represent the prison cells holding the
-        <a class="tile" href="/tiles/3">Captain</a> and the two
-        <a class="tile" href="/tiles/17">Bossonian Guard</a>. When a hero has
+        tokens represent the prison cells holding the Captain and the two
+        Bossonian Guards. When a hero has
         line of sight to an area containing a Cell token, the hero flips that
         token faceup. If a token numbered 2 or 3 is revealed, the Cell token is
         replaced by a Bossonian Guard model without a colored base. If a token
         with the number 1 is revealed, the Cell token is replaced by the Captain
-        model. The Bossonian Guard and Captain models are considered as heroes’
+        model. The Bossonian Guards and Captain models are considered as heroes’
         allies. The heroes can activate them using their Leadership skill.</p>
 
         <p><span class="special_title">Fleeing the citadel:</span>
@@ -9501,21 +9585,22 @@
         <p><span class="special_title">Chests:</span>
         During setup, the Overlord places 4 chests on the board as
         indicated by the setup diagram. The asset deck contains:
-        1 <a class="item" href="/items/6">Explosive Orb</a>,
-        1 <a class="item" href="/items/32">Axe</a>,
-        1 <a class="item" href="/items/41">Zingarian Breastplate</a>, and
-        1 <a class="item" href="/items/22">Life Potion</a>.></p>',
+        1&nbsp;<a class="item" href="/items/6">Explosive Orb</a>,
+        1&nbsp;<a class="item" href="/items/32">Axe</a>,
+        1&nbsp;<a class="item" href="/items/41">Zingaran Breastplate</a>, and
+        1&nbsp;<a class="item" href="/items/22">Life Potion</a>.</p>',
 
       hero_victory: '',
       overlord_victory: '',
 
       origin: "Book of Set",
-      product_ids: [1, 3, 12],
+      product_ids: [1, 3, 7, 22],
       map_ids: [5],
-      hero_ids: [9, 12, 18, 20],
-      tile_ids: [1, 3, 17, 18, 30, 33, 35, 96],
-      spell_ids: [1, 6, 12, 35],
-      item_ids: [4, 6, 11, 13, 22, 24, 35, 41, 54] },
+      hero_ids: [9, 12, 19, 21],
+      tile_ids: [1, 3, 17, 18, 35, 88, 89, 130],
+      spell_ids: [1, 6, 12, 33],
+      item_ids: [4, 85, 6, 33, 11, 87, 13, 22, 44, 103, 24, 32, 35, 41, 54] },
+
 
     # Sacrificial Heroes
     { name: "Sacrificial Heroes",
@@ -9540,8 +9625,8 @@
         intends to destroy the main Aquilonian border post and to eradicate the
         garrison occupying the citadel built nearby. A mission more than perilous,
         but one that will assure him fortune and glory.</p>",
-      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/Sacrificial+Heroes.jpg',
-      pdf_link: 'http://www.monolithedition.com/conan-en/sacrificial-heroes/',
+      map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Sacrificial+Heroes.jpg',
+      pdf_link: '',
       player_count: "5",
       complexity: "3",
 
@@ -9564,22 +9649,22 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZogarSagToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ZogarSagToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/25">Zogar Sag</a>
             (<a class="item" href="/items/42">Black Staff</a>, 2
             <a class="item" href="/items/45">Pictish Drinks</a>,
-            <a class="spell" href="/spells/46">Recall</a>,
+            <a class="spell" href="/spells/42">Recall</a>,
             <a class="spell" href="/spells/13">Set’s Halo</a>,
             <a class="spell" href="/spells/12">Set’s Bite</a>, and
             <a class="spell" href="/spells/20">Bel’s Caress</a>) and 2
-            <a class="tile" href="/tiles/87">Pict Warriors</a>.
+            <a class="tile" href="/tiles/87">Pict Warriors</a>.<br />
             Zogar Sag starts with Set’s Halo cast.
           </td>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/PictWarriors.png" class="scen_event"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/PictWarriors.jpg" class="scen_event"></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ThakToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ThakToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/23">Thak</a>
             (<a class="item" href="/items/11">Parrying Dagger</a>)
@@ -9587,34 +9672,34 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SkuthusToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/SkuthusToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/22">Skuthus</a>
             (<a class="item" href="/items/36">Sacrificial Dagger</a>,
             <a class="item" href="/items/22">Life Potion</a>,
             <a class="item" href="/items/48">Elixir</a>,
-            <a class="spell" href="/spells/35">Hand of Death</a>,
-            <a class="spell" href="/spells/41">Life Transfer</a>,
-            <a class="spell" href="/spells/47">Return of the Braves</a>, and
+            <a class="spell" href="/spells/33">Hand of Death</a>,
+            <a class="spell" href="/spells/37">Life Transfer</a>,
+            <a class="spell" href="/spells/43">Return of the Braves</a>, and
             <a class="spell" href="/spells/6">Lightning Storm</a>)
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZaporavoToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ZaporavoToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/24">Zaporavo</a>
             (<a class="item" href="/items/35">Pirate Saber</a>) and 2
-            <a class="tile" href="/tiles/30">Pirates</a>
+            <a class="tile" href="/tiles/88">Pirates</a>
           </td>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Pirates.png" class="scen_event"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/PiratesAlt.jpg" class="scen_event"></td>
         </tr>
       </table>
 
       <table class="scen_table">
         <tr>
           <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
-          <td>After setup, each hero moves 5 gems from their Reserve zone to
+          <td>After setup, each hero moves 4 gems from their Reserve zone to
           their Fatigue zone.</td>
           <td></td>
         </tr>
@@ -9636,7 +9721,7 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
             <td><p>When an event tile is activated the Overlord resolves the following event:</p>
               <p><span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" /> (see special rules).</p>
@@ -9646,7 +9731,7 @@
         </table>',
 
       tile1: 18,
-      tile2: 63,
+      tile2: 57,
       tile3: 68,
       tile4: 17,
       tile5: 69,
@@ -9690,7 +9775,7 @@
 
         <p><span class="special_title">Return of the Braves:</span>
         <a class="hero" href="/heroes/22">Skuthus</a> can only reinforce
-        <a class="tile" href="/tiles/30">Pirates</a>. He cannot reinforce
+        <a class="tile" href="/tiles/88">Pirates</a>. He cannot reinforce
         Pict Warriors.</p>
 
         <p><span class="special_title">Pict Warriors:</span>
@@ -9700,7 +9785,7 @@
 
         <p><span class="special_title">Pirates:</span>
         Only <a class="hero" href="/heroes/24">Zaporavo</a> can use Leadership
-        to activate and defend the <a class="tile" href="/tiles/30">Pirates</a>.</p>
+        to activate and defend the <a class="tile" href="/tiles/88">Pirates</a>.</p>
 
         <p><span class="special_title">Destroying the outpost:</span>
         The outpost is considered destroyed when the huts numbered
@@ -9819,27 +9904,28 @@
         <br /><br />Citadel Chests: During setup, the Overlord places 3 chests on
         the board as indicated by the setup diagram.
         The Citadel asset deck contains:
-        1 <a class="item" href="/items/6">Explosive Orb</a>,
-        1 <a class="item" href="/items/22">Life Potion</a> and
-        1 <a class="item" href="/items/38">Turanian Sword</a>.
+        1&nbsp;<a class="item" href="/items/6">Explosive Orb</a>,
+        1&nbsp;<a class="item" href="/items/22">Life Potion</a> and
+        1&nbsp;<a class="item" href="/items/38">Turanian Sword</a>.
         <br /><br />Outpost Chests: During setup, the Overlord places 5 chests on
         the outpost board as indicated by the setup diagram.
         The Outpost asset deck contains:
-        2 <a class="item" href="/items/5">Explosive Orbs</a>,
+        2&nbsp;<a class="item" href="/items/6">Explosive Orbs</a>,
         <a class="item" href="/items/22">Life Potion</a>,
-        1 <a class="item" href="/items/12">Sword</a>, and
-        1 <a class="item" href="/items/14">Tribal Mace</a>.</p>',
+        1&nbsp;<a class="item" href="/items/12">Sword</a>, and
+        1&nbsp;<a class="item" href="/items/14">Tribal Mace</a>.</p>',
 
       hero_victory: '',
       overlord_victory: '',
 
       origin: "Book of Set",
-      product_ids: [1, 2, 3],
+      product_ids: [1, 3, 22],
       map_ids: [1, 5],
       hero_ids: [22, 23, 24, 21],
-      tile_ids: [1, 17, 18, 30, 63, 68, 69, 71, 87],
-      spell_ids: [6, 12, 13, 20, 35, 41, 46, 47],
-      item_ids: [6, 11, 12, 14, 22, 28, 35, 36, 38, 42, 45, 48, ] },
+      tile_ids: [1, 17, 18, 57, 68, 69, 71, 87, 88],
+      spell_ids: [6, 12, 13, 66, 20, 33, 37, 42, 43],
+      item_ids: [6, 33, 11, 87, 12, 91, 14, 22, 44, 103, 28, 35, 36, 38, 42, 45, 104, 48] },
+
 
     # The Curse of the Shape-Shifter
     { name: "The Curse of the Shape-Shifter",
@@ -9863,8 +9949,8 @@
         face of the warlock’s power, the Sultan will be satisfied if the group
         succeeds, at the very least, in preventing his ritual thus leaving him to
         end his days in the form of an animal.</p>",
-      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/The+Curse+of+the+Shape-Shifter.jpg',
-      pdf_link: 'http://www.monolithedition.com/conan-en/the-curse-of-the-shape-shifter/',
+      map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Curse+of+the+Shape-Shifter.jpg',
+      pdf_link: '',
       player_count: "5",
       complexity: "3",
 
@@ -9879,32 +9965,32 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanWandererToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ConanWandererToken.png" class="scen_setup"></td>
           <td>
-            <a class="hero" href="/heroes/13">Conan - Wanderer</a>
+            <a class="hero" href="/heroes/13">Conan the Wanderer</a>
             (<a class="item" href="/items/32">Axe</a>)
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SavageBelitToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/SavageBelitToken.png" class="scen_setup"></td>
           <td>
-            <a class="hero" href="/heroes/19">Savage Bêlit</a>
+            <a class="hero" href="/heroes/20">Savage Bêlit</a>
             (<a class="item" href="/items/3">Dagger</a> and
             <a class="item" href="/items/11">Parrying Dagger</a>)
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/KerimShahToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/KerimShahToken.png" class="scen_setup"></td>
           <td>
-            <a class="hero" href="/heroes/15">Kerim Shah</a>
+            <a class="hero" href="/heroes/16">Kerim Shah</a>
             (<a class="item" href="/items/12">Sword</a>)
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AmboolaToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/AmboolaToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/9">Amboola</a>
             (<a class="item" href="/items/3">Dagger</a>)
@@ -9944,7 +10030,7 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
             <td><p>When an event tile is activated the Overlord resolves the following event:</p>
               <p><span class="setup_suggestion">Reinforcement:</span> 5 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
@@ -9964,20 +10050,20 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/WarlockToken.png" class="scen_setup"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/WarlockToken.png" class="scen_setup"></td>
             <td>
-              <a class="tile" href="/tiles/59">Warlock</a> has
-              <a class="spell" href="/spells/47">Return of the Braves</a> and
+              <a class="tile" href="/tiles/72">Warlock</a> has
+              <a class="spell" href="/spells/43">Return of the Braves</a> and
               <a class="spell" href="/spells/9">Mitra’s Halo</a>.
             </td>
             <td></td>
           </tr>
         </table>',
 
-      tile1: 59,
+      tile1: 72,
       tile2: 84,
       tile3: 44,
-      tile4: 59,
+      tile4: 72,
       tile5: 83,
       tile6: 50,
       tile7: 1,
@@ -9992,20 +10078,19 @@
       life7: 0,
       life8: 0,
 
-      special_rules: '<p><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Camel.png" class="scen_event float_tile">
-        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/GiantScorpion.png" class="scen_event float_tile">
-        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/GiantSpider.png" class="scen_event float_tile">
+      special_rules: '<p><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Camel.jpg" class="scen_event float_tile">
+        <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/GiantScorpion.jpg" class="scen_event float_tile">
+        <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/GiantSpider.jpg" class="scen_event float_tile">
         <span class="special_title">Animal Form:</span>
         At the beginning of the scenario the tiles of the
-        <a class="tile" href="/tiles/79">Giant Spider</a>, the
-        <a class="tile" href="/tiles/78">Giant Scorpion</a> and the
-        <a class="tile" href="/tiles/73">Camel</a> are placed next to the Book
+        <a class="tile" href="/tiles/78">Giant Spider</a>, the
+        <a class="tile" href="/tiles/77">Giant Scorpion</a> and the
+        <a class="tile" href="/tiles/75">Camel</a> are placed next to the Book
         of Skelos, unbloody side faceup, these tiles are considered as being the
         animal form tiles. The models of the Giant Spider, the Giant Scorpion and
         the Camel are placed next to the Book of Skelos, these models are considered
         as being the animal form models.</p>
-
-        <p style="clear: both;"><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/PiratesOrangeAlt.png" class="scen_event float_tile">
+        <p style="clear: both;"><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/PiratesOrangeAlt.jpg" class="scen_event float_tile">
         <span class="special_title">Pirate:</span>
         During setup the Overlord places the
         <a class="tile" href="/tiles/89">Pirate</a> tile (orange, armor value 2
@@ -10018,48 +10103,51 @@
         <p style="clear: both;"><span class="special_title">Curse:</span>
         If at least one of the animal form tiles is placed unbloody
         side faceup at the beginning of each activation of the
-        <a class="tile" href="/tiles/59">Warlock</a> tile, the
+        <a class="tile" href="/tiles/72">Warlock</a> tile, the
         Overlord carries out the following steps:</p>
-        <p>1- The Overlord chooses one of the animal form tiles unbloody side faceup
-        and turns it bloody side faceup.</p>
-        <p>2- The model representing the Warlock is then replaced by the animal
+        <ol>
+          <li>The Overlord chooses one of the animal form tiles unbloody side faceup
+        and turns it bloody side faceup.</li><br />
+          <li>The model representing the Warlock is then replaced by the animal
         form model corresponding to the animal form tile that has just been turned
         bloody side faceup. This model now represents the Warlock. The Warlock’s
-        turn will be played in the current animal form.</p>
-        <p>3- While the Warlock is represented by an animal form model, all the
+        turn will be played in the current animal form.</li><br />
+          <li>While the Warlock is represented by an animal form model, all the
         characteristics of the animal form tile (movement, armor, attack and skills)
         corresponding to the animal form model that represents the Warlock, replace
         all the characteristics of the Warlock tile (movement, armor, attack, spells
         and skills). If Mitra’s Halo is activated when the Warlock is transformed,
-        it is automatically deactivated.</p>
+        it is automatically deactivated.</li>
+        </ol>
+
         <p>If all the animal form tiles are placed bloody side faceup at the
         beginning of each activation of the Warlock tile, the Overlord carries
         out the following steps:</p>
-        <p>1- The Overlord turns all the animal form tiles unbloody side faceup.</p>
-        <p>2- The model that represents the Warlock is replaced by the model
-        of the Warlock. The Warlock’s turn is then played in the form of the Warlock.</p>
-        <p>3- While the Warlock is represented by the model of the Warlock,
+
+        <ol>
+          <li>The Overlord turns all the animal form tiles unbloody side faceup.</li><br />
+          <li>The model that represents the Warlock is replaced by the model
+        of the Warlock. The Warlock’s turn is then played in the form of the Warlock.</li><br />
+          <li>While the Warlock is represented by the model of the Warlock,
         the characteristics of the Warlock tile (movement, armor, attack, spells
-        and skills) are used for all that concerns the Warlock.</p>
+        and skills) are used for all that concerns the Warlock.</li>
+        </ol>
 
         <p><span class="special_title">Warding off the curse:</span>
-        To ward off the curse the Overlord must sacrifice a
-        <a class="tile" href="/tiles/89">Pirate</a>
+        To ward off the curse the Overlord must sacrifice a Pirate
         on each of the three altars. For this the pirate must be in the same area
         as an altar token <img src="/assets/tokens/num1Token.png" class="scen_token" />
         and the Overlord must kill them using a melee attack. When a pirate is
         sacrificed on an altar, the altar token is removed from the board as well
         as the animal tile and model corresponding to the altar token
-        (1-<a class="tile" href="/tiles/73">Camel</a>,
-          2-<a class="tile" href="/tiles/78">Giant Scorpion</a>,
-          3-<a class="tile" href="/tiles/79">Giant Spider</a>). If the animal
+        (1-Camel, 2-Giant Scorpion, 3-Giant Spider). If the animal
           form model that must be removed from the game corresponds to the
-          current form of the <a class="tile" href="/tiles/59">Warlock</a>, it
+          current form of the Warlock, it
           is then replaced on the board by the model of the Warlock.</p>
 
         <p><span class="special_title">Escorting the Pirates:</span>
         If an Overlord unit starts its activation phase in the same
-        area as a <a class="tile" href="/tiles/89">Pirate</a>, the Overlord can
+        area as a Pirate, the Overlord can
         decide to move the Pirate model at the same time as the activated unit.
         The Pirate makes the same move (or part of the move) as the Overlord unit.
         If the Overlord uses a Movement benefit for the activated unit, the Pirate
@@ -10071,18 +10159,15 @@
         only be moved once per tile activation.</p>
 
         <p><span class="special_title">Attacking the Warlock:</span>
-        When the <a class="tile" href="/tiles/59">Warlock</a> is represented by
+        When the Warlock is represented by
         an animal form model the heroes cannot target it with an attack (Melee
         or Ranged).</p>
 
         <p><span class="special_title">Altar:</span>
         A hero in the same area as an altar can perform a simple Manipulation
         to activate the altar. If a hero activates the altar corresponding
-        to the current form of the <a class="tile" href="/tiles/59">Warlock</a>
-        (1-<a class="tile" href="/tiles/73">Camel</a>,
-          2-<a class="tile" href="/tiles/78">Giant Scorpion</a>,
-          3-<a class="tile" href="/tiles/79">Giant Spider</a>) then the animal
-          form model is replaced by that of the Warlock.</p>
+        to the current form of the Warlock (1-Camel, 2-Giant Scorpion,
+        3-Giant Spider) then the animal form model is replaced by that of the Warlock.</p>
 
         <p><span class="special_title">Lines of Sight:</span>
         A character in a wall area has line of sight to each ground
@@ -10108,21 +10193,22 @@
         <p><span class="special_title">Chests:</span>
         During setup, the Overlord places 4 chests on the board
         as indicated by the setup diagram. The asset deck contains:
-        1 <a class="item" href="/items/1">Battle Axe</a>,
-        1 <a class="item" href="/items/38">Turanian Sword</a>,
-        1 <a class="item" href="/items/14">Tribal Mace</a>, and
-        1 <a class="item" href="/items/40">Zingarian Bow</a>.</p>',
+        1&nbsp;<a class="item" href="/items/1">Battle Axe</a>,
+        1&nbsp;<a class="item" href="/items/38">Turanian Sword</a>,
+        1&nbsp;<a class="item" href="/items/14">Tribal Mace</a>, and
+        1&nbsp;<a class="item" href="/items/40">Zingaran Bow</a>.</p>',
 
       hero_victory: '',
       overlord_victory: '',
 
       origin: "Book of Set",
-      product_ids: [1, 2, 3],
+      product_ids: [1, 2, 3, 22],
       map_ids: [4],
-      hero_ids: [9, 13, 15, 19],
-      tile_ids: [1, 33, 44, 50, 59, 73, 78, 79, 83, 84],
-      spell_ids: [9, 47],
-      item_ids: [1, 3, 11, 12, 14, 32, 38, 40] },
+      hero_ids: [9, 13, 16, 20],
+      tile_ids: [1, 44, 50, 72, 75, 77, 78, 83, 84, 89],
+      spell_ids: [9, 43],
+      item_ids: [1, 3, 11, 87, 12, 91, 14, 32, 38, 40] },
+
 
     # The Iron Hand
     { name: "The Iron Hand",
@@ -10146,8 +10232,8 @@
       barbarian punches him in the face and breaks his jaw; true to his former
       reputation as Iron Hand. Then the tavern soon resounds with the clatter
       of knocked-over benches, trampling, screams and curse words in a furious fray</p>",
-      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/The+Iron+Hand.jpg',
-      pdf_link: 'http://www.monolithedition.com/conan-en/the-iron-hand/',
+      map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Iron+Hand.jpg',
+      pdf_link: '',
       player_count: "5",
       complexity: "3",
 
@@ -10170,28 +10256,28 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConanMercenaryToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ConanMercenaryToken.png" class="scen_setup"></td>
           <td>
-            <a class="hero" href="/heroes/12">Conan - Mercenary</a>
+            <a class="hero" href="/heroes/12">Conan Mercenary</a>
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ConstantiusToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ConstantiusToken.png" class="scen_setup"></td>
           <td>
-            <a class="hero" href="/heroes/21">Constantius</a>
+            <a class="hero" href="/heroes/15">Constantius</a>
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/OlgerdVladislavToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/OlgerdVladislavToken.png" class="scen_setup"></td>
           <td>
-            <a class="hero" href="/heroes/16">Olgerd Vladislav</a>
+            <a class="hero" href="/heroes/17">Olgerd Vladislav</a>
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AmboolaToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/AmboolaToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/9">Amboola</a>
           </td>
@@ -10223,7 +10309,7 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
             <td><p>When an event tile is activated the Overlord resolves the following event:</p>
               <p><span class="setup_suggestion">Reinforcement:</span> The Overlord choses up to three laid
                 down models and stands them up. If a reinforced model belongs to a
@@ -10235,11 +10321,11 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/KhemsaToken.png" class="scen_setup"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/KhemsaToken.png" class="scen_setup"></td>
             <td>
-              <a class="tile" href="/tiles/57">Khemsa</a> has 2 spells:
+              <a class="tile" href="/tiles/63">Khemsa</a> has 2 spells:
                 <a class="spell" href="/spells/1">Bori’s Rage</a> and
-                <a class="spell" href="/spells/37">Inversion</a>.
+                <a class="spell" href="/spells/34">Inversion</a>.
             </td>
             <td></td>
           </tr>
@@ -10251,7 +10337,7 @@
       tile4: 1,
       tile5: 30,
       tile6: 18,
-      tile7: 57,
+      tile7: 63,
       tile8: 0,
 
       life1: 0,
@@ -10277,7 +10363,7 @@
           their area. If all the models of a tile are laid down, the Overlord
           flips the tile over to its « bloodied » face then places it to the
           right, at the end of their River.<br />
-          When <a class="tile" href="/tiles/57">Khemsa</a> or
+          When <a class="tile" href="/tiles/63">Khemsa</a> or
           <a class="tile" href="/tiles/70">Taurus</a> have their life points
           reduced to zero, they are removed from the game and their tile is
           flipped over to its “bloodied” face, then placed to the right, at the
@@ -10286,8 +10372,7 @@
           areas.</p>
 
         <p><span class="special_title">Dredging the River:</span>
-          If the Overlord removes the <a class="tile" href="/tiles/33">Pirate</a>
-          or <a class="tile" href="/tiles/19">Bossonian Guard</a> tiles when
+          If the Overlord removes the Pirate or Bossonian Guard tiles when
           dredging the River, they must then remove from the board all the laid
           down models corresponding to the removed tile.</p>
 
@@ -10374,22 +10459,21 @@
         <p><span class="special_title">Chests:</span>
           During setup, the Overlord places 3 chests on the board
           as indicated by the setup diagram. The asset deck contains:
-          3 <a class="item" href="/items/6">Explosive Orbs</a>',
+          3&nbsp;<a class="item" href="/items/6">Explosive Orbs</a>',
 
       hero_victory: '',
       overlord_victory: '',
 
       origin: "Book of Set",
-      product_ids: [1, 3],
+      product_ids: [1, 3, 22],
       map_ids: [2],
-      hero_ids: [9, 12, 16, 21],
-      tile_ids: [1, 18, 19, 30, 33, 57, 70],
-      spell_ids: [1, 37],
-      item_ids: [6] },
+      hero_ids: [9, 12, 15, 17],
+      tile_ids: [1, 18, 19, 30, 33, 63, 70],
+      spell_ids: [1, 34],
+      item_ids: [6, 33] },
 
 
     ## Begin Campaigns
-
     ## Devil in Iron
     # 1 Uproar in Messantia
     { name: "Uproar in Messantia",
@@ -10411,10 +10495,10 @@
       on his knees before a captain who shouts at the newcomers, waving the weapons
       in his hands, “This tavern is closed! Leave right now you scum, it is time
       for Publio to answer to his trafficking with the enemies of Argos.”</p>",
-      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/Uproar+in+Messantia.jpg',
+      map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Uproar+in+Messantia.jpg',
       pdf_link: '',
-      player_count: "5 Campaign",
-      complexity: "",
+      player_count: "5",
+      complexity: "Campaign",
 
       hero_goal: "If the information is retrieved by freeing the informer before
       he is executed at the end of turn 6; the heroes win the game.",
@@ -10446,28 +10530,28 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AmraToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/AmraToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/5">Amra the Lion</a>
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZelataToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ZelataToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/8">Zelata</a>
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SavageBelitToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/SavageBelitToken.png" class="scen_setup"></td>
           <td>
-            <a class="hero" href="/heroes/19">Savage Bêlit</a>
+            <a class="hero" href="/heroes/20">Savage Bêlit</a>
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/NGoraToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/NGoraToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/6">N’Gora</a>
           </td>
@@ -10499,7 +10583,7 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
             <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
               <p><span class="setup_suggestion">Fire at will:</span> Each unit may
               perform a Ranged Attack if able.</p>
@@ -10539,9 +10623,9 @@
         <p><span class="special_title">Chests:</span>
           During setup, the Overlord places 3 chests on the board
           as indicated by the setup diagram. The asset deck contains:
-          1 <a class="item" href="/items/22">Life Potion</a>,
-          1 <a class="item" href="/items/12">Sword</a> and
-          1 <a class="item" href="/items/17">Leather Armor</a>,</p>',
+          1&nbsp;<a class="item" href="/items/22">Life Potion</a>,
+          1&nbsp;<a class="item" href="/items/12">Sword</a> and
+          1&nbsp;<a class="item" href="/items/17">Leather Armor</a>,</p>',
 
       hero_victory: '
         <p><span class="special_title">Heroes’ Victory:</span>
@@ -10569,10 +10653,10 @@
       origin: "Legend of the Devil in Iron",
       product_ids: [1, 2, 3, 21],
       map_ids: [2],
-      hero_ids: [5, 6, 8, 19],
+      hero_ids: [5, 6, 8, 20],
       tile_ids: [1, 3, 15, 17, 18, 20, 22],
       spell_ids: [],
-      item_ids: [12, 17, 22] },
+      item_ids: [12, 91, 17, 77, 97, 22, 44, 45, 103, 104] },
 
     # 2 The Unmasked Pirate
     { name: "The Unmasked Pirate",
@@ -10597,10 +10681,10 @@
       and you will appear before the justice of our monarch for your acts of piracy;
       there is a hussy here who claims that you are indeed the Barachan pirate who
       has a price on his head.”</p>",
-      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/The+Unmasked+Pirate.jpg',
+      map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Unmasked+Pirate.jpg',
       pdf_link: '',
-      player_count: "5 Campaign",
-      complexity: "",
+      player_count: "5",
+      complexity: "Campaign",
 
       hero_goal: "If Gitara is killed and all the surviving heroes at this moment
       flee the citadel before the end of turn 7; the heroes win the game.",
@@ -10631,28 +10715,28 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AmraToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/AmraToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/5">Amra the Lion</a>
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZelataToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ZelataToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/8">Zelata</a>
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SavageBelitToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/SavageBelitToken.png" class="scen_setup"></td>
           <td>
-            <a class="hero" href="/heroes/19">Savage Bêlit</a>
+            <a class="hero" href="/heroes/20">Savage Bêlit</a>
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/NGoraToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/NGoraToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/6">N’Gora</a>
           </td>
@@ -10684,7 +10768,7 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
             <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
               <p><span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" /></p>
@@ -10700,7 +10784,7 @@
       tile3: 1,
       tile4: 22,
       tile5: 3,
-      tile6: 55,
+      tile6: 59,
       tile7: 18,
       tile8: 2,
 
@@ -10715,7 +10799,7 @@
 
       special_rules: '
         <p><span class="special_title">Gitara:</span>
-          For this scenario, the Overlord cannot get <a class="tile" href="/tiles/55">Gitara</a>
+          For this scenario, the Overlord cannot get <a class="tile" href="/tiles/59">Gitara</a>
           out of the citadel. Gitara has <a class="skill" href="/skills/32">Protected</a>
           for this scenario. Do not forget the <a class="skill" href="/skills/29">Sacrifice</a>
             skill of the <a class="tile" href="/tiles/18">Bossonian Guards</a> and
@@ -10724,14 +10808,14 @@
         <p><span class="special_title">Disarmed:</span>
           The heroes start the game without their equipment of an encumbrance greater
           than or equal to 1. The Overlord gathers the heroes’ equipment cards with
-          an encumbrance greater that or equal to 1 and places them face up in the
+          an encumbrance greater than or equal to 1 and places them face up in the
           area marked <img src="/assets/tokens/numBackToken.png" class="scen_token" />.
           A hero in an equipment area can pick it up by performing a simple
           Manipulation. Do not forget that any equipment card still on the board
           at the end of a scenario is lost.</p>
 
         <p><span class="special_title">Death of Gitara:</span>
-          When <a class="tile" href="/tiles/55">Gitara</a> dies, if the
+          When <a class="tile" href="/tiles/59">Gitara</a> dies, if the
           <a class="tile" href="/tiles/3">Captain</a> is still alive, he shouts
           in rage and immediately recovers 3 life point (maximum of 6 life points
           for the Captain) and is immediately activated for free during the heroes’
@@ -10750,9 +10834,9 @@
         <p><span class="special_title">Chests:</span>
           During setup, the Overlord places 3 chests on the board
           as indicated by the setup diagram. The asset deck contains:
-          1 <a class="item" href="/items/22">Life Potion</a>,
-          1 <a class="item" href="/items/40">Zingaran Bow</a> and
-          1 <a class="item" href="/items/16">Chain Mail</a>.</p>',
+          1&nbsp;<a class="item" href="/items/22">Life Potion</a>,
+          1&nbsp;<a class="item" href="/items/40">Zingaran Bow</a> and
+          1&nbsp;<a class="item" href="/items/16">Chain Mail</a>.</p>',
 
       hero_victory: '
         <p><span class="special_title">Heroes’ Victory:</span>
@@ -10779,10 +10863,10 @@
       origin: "Legend of the Devil in Iron",
       product_ids: [1, 2, 3, 21],
       map_ids: [5],
-      hero_ids: [5, 6, 8, 19],
-      tile_ids: [1, 2, 3, 15, 18, 22, 23, 55],
+      hero_ids: [5, 6, 8, 20],
+      tile_ids: [1, 2, 3, 15, 18, 22, 23, 59],
       spell_ids: [],
-      item_ids: [16, 22, 40] },
+      item_ids: [16, 22, 44, 103, 40] },
 
     # 3 An Improbable Alliance
     { name: "An Improbable Alliance",
@@ -10804,10 +10888,10 @@
         a Kushite sorcerer, a Kothian warrior and a Turanian prince.</p>
         <p>It is now necessary to enter the village in order to unmask the
         accomplice and interrogate him.</p>",
-      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/An+Improbable+Alliance.jpg',
+      map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/An+Improbable+Alliance.jpg',
       pdf_link: '',
-      player_count: "5 Campaign",
-      complexity: "",
+      player_count: "5",
+      complexity: "Campaign",
 
       hero_goal: "If the hero with the information flees with the village before
       the end of turn 8; the heroes win the game.",
@@ -10838,28 +10922,28 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AmraToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/AmraToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/5">Amra the Lion</a>
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZelataToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ZelataToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/8">Zelata</a>
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SavageBelitToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/SavageBelitToken.png" class="scen_setup"></td>
           <td>
-            <a class="hero" href="/heroes/19">Savage Bêlit</a>
+            <a class="hero" href="/heroes/20">Savage Bêlit</a>
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/NGoraToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/NGoraToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/6">N’Gora</a>
           </td>
@@ -10894,7 +10978,7 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
             <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
               <p><span class="setup_suggestion">Reinforcement:</span> 3 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" /></p>
@@ -10902,7 +10986,7 @@
               gains 4 movement points to be used immediately. They can only be
               shared however the Overlord wishes between all his lieutenants
               (<a class="tile" href="/tiles/3">Captain</a>,
-              <a class="tile" href="/tiles/65">Kerim Shah</a> and
+              <a class="tile" href="/tiles/62">Kerim Shah</a> and
               <a class="tile" href="/tiles/52">Ageera</a>).</p>
             </td>
             <td></td>
@@ -10911,7 +10995,7 @@
         <table class="scen_table">
           <tr>
             <td>
-              <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SkuthusToken.png" class="scen_setup"></td>
+              <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/AgeeraToken.png" class="scen_setup"></td>
             <td>
               <a class="tile" href="/tiles/52">Ageera</a> has
               <a class="spell" href="/spells/3">Energy Drain</a>.
@@ -10921,8 +11005,8 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/GiantSpiderToken.png" class="scen_setup"></td>
-            <td>If the <a class="tile" href="/tiles/79">Giant Spider</a> is still
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/GiantSpiderToken.png" class="scen_setup"></td>
+            <td>If the <a class="tile" href="/tiles/78">Giant Spider</a> is still
             alive at the end of the scenario, check its name on the Overlord’s
             Campaign Log.</td>
             <td></td>
@@ -10931,12 +11015,12 @@
 
       tile1: 28,
       tile2: 26,
-      tile3: 87,
+      tile3: 29,
       tile4: 1,
       tile5: 3,
-      tile6: 65,
+      tile6: 62,
       tile7: 52,
-      tile8: 79,
+      tile8: 78,
 
       life1: 0,
       life2: 0,
@@ -10949,11 +11033,11 @@
 
       special_rules: '
         <p><span class="special_title">Information:</span>
-        <a class="tile" href="/tiles/65">Kerim Shah</a> and
+        <a class="tile" href="/tiles/62">Kerim Shah</a> and
         <a class="tile" href="/tiles/52">Ageera</a> are the potential information
         carriers. During setup, the Overlord mixes two tokens numbered "1" and "2".
         Each token corresponds to a lieutenant:<br />
-        <img src="/assets/tokens/num1Token.png" class="scen_token" />: Agreea <br />
+        <img src="/assets/tokens/num1Token.png" class="scen_token" />: Ageera  <br />
         <img src="/assets/tokens/num2Token.png" class="scen_token" />: Kerim Shah <br />
         The Overlord randomly chooses one of these tokens, looks at it without showing
         it to the heroes, and places it facedown in front of them. This token indicates
@@ -10963,7 +11047,7 @@
         To extract the information from a lieutenant, the heroes must kill the
         Lieutenant. The Overlord then reveals if they were the information carrier.
         If it was the information carrier, the Overlord replaces the information
-        carrier’s model with the <a class="item" href="/items/30">Information</a>
+        carrier’s model with the <a class="item" href="/items/105">Information</a>
         card in the same area. A hero in the Information card’s area can pick it
         up by performing a simple Manipulation.</p>
 
@@ -10977,9 +11061,9 @@
         <p><span class="special_title">Chests:</span>
           During setup, the Overlord places 3 chests on the board
           as indicated by the setup diagram. The asset deck contains:
-          1 <a class="item" href="/items/22">Life Potion</a>,
-          1 <a class="item" href="/items/40">Zingaran Bow</a> and
-          1 <a class="item" href="/items/16">Chain Mail</a>.</p>',
+          1&nbsp;<a class="item" href="/items/22">Life Potion</a>,
+          1&nbsp;<a class="item" href="/items/40">Zingaran Bow</a> and
+          1&nbsp;<a class="item" href="/items/16">Chain Mail</a>.</p>',
 
       hero_victory: '
         <p><span class="special_title">Heroes’ Victory:</span>
@@ -11004,10 +11088,10 @@
       origin: "Legend of the Devil in Iron",
       product_ids: [1, 2, 3, 21],
       map_ids: [1],
-      hero_ids: [5, 6, 8, 19],
-      tile_ids: [1, 3, 26, 28, 52, 65, 79, 87],
+      hero_ids: [5, 6, 8, 20],
+      tile_ids: [1, 3, 26, 28, 29, 52, 62, 78],
       spell_ids: [3],
-      item_ids: [16, 22, 40] },
+      item_ids: [16, 22, 44, 103, 40, 105] },
 
     # 4 When the Dead Walk
     { name: "When the Dead Walk",
@@ -11035,10 +11119,10 @@
         and a demonic laugh coming from the depths of the earth invades the devastated
         mausoleum. The soul of Skuthus is still linked to his tomb, ready to punish
         violators. A skeletal hand emerges from the ground to grab Conan’s ankle...</p>",
-        map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/When+the+Dead+Walk.jpg',
+        map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/When+the+Dead+Walk.jpg',
         pdf_link: '',
-        player_count: "5 Campaign",
-        complexity: "",
+        player_count: "5",
+        complexity: "Campaign",
 
       hero_goal: "If the heroes kill Skuthus before the end of turn 8, they stop
         the evil curse; the heroes win the game.",
@@ -11069,28 +11153,28 @@
             <td></td>
           </tr>
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AmraToken.png" class="scen_setup"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/AmraToken.png" class="scen_setup"></td>
             <td>
               <a class="hero" href="/heroes/5">Amra the Lion</a>
             </td>
             <td></td>
           </tr>
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZelataToken.png" class="scen_setup"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ZelataToken.png" class="scen_setup"></td>
             <td>
               <a class="hero" href="/heroes/8">Zelata</a>
             </td>
             <td></td>
           </tr>
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SavageBelitToken.png" class="scen_setup"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/SavageBelitToken.png" class="scen_setup"></td>
             <td>
-              <a class="hero" href="/heroes/19">Savage Bêlit</a>
+              <a class="hero" href="/heroes/20">Savage Bêlit</a>
             </td>
             <td></td>
           </tr>
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/NGoraToken.png" class="scen_setup"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/NGoraToken.png" class="scen_setup"></td>
             <td>
               <a class="hero" href="/heroes/6">N’Gora</a>
             </td>
@@ -11122,7 +11206,7 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
             <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
               <p><span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" /> (see Special Rules).</p>
@@ -11133,9 +11217,9 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SkuthusToken.png" class="scen_setup"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/SkuthusToken.png" class="scen_setup"></td>
             <td>
-                <a class="tile" href="/tiles/4">Skuthus</a> has
+                <a class="tile" href="/tiles/5">Skuthus</a> has
                 <a class="spell" href="/spells/12">Set’s Bite</a>.
             </td>
             <td></td>
@@ -11143,8 +11227,8 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/DarkDemonToken.png" class="scen_setup"></td>
-            <td>If the <a class="tile" href="/tiles/8">Dark Demon</a> has been summoned
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/DarkDemonToken.png" class="scen_setup"></td>
+            <td>If the <a class="tile" href="/tiles/9">Dark Demon</a> has been summoned
             and is still alive at the end of the scenario, check its name on the Overlord’s
             Campaign Log.</td>
             <td></td>
@@ -11154,7 +11238,7 @@
       tile1: 50,
       tile2: 47,
       tile3: 1,
-      tile4: 4,
+      tile4: 5,
       tile5: 46,
       tile6: 45,
       tile7: 2,
@@ -11184,16 +11268,17 @@
         <p><span class="special_title">Skuthus’ Life Force:</span>
           When Skuthus is attacked, his Armor Value is equal to the number of
           skeleton models on the board.</p>
+
         <p><span class="special_title">Appearance of the Dark Demon:</span>
-        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/DarkDemon.png" class="scen_event float_tile">
+        <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/DarkDemon.jpg" class="scen_event float_tile">
           Skuthus summons an evil creature that has been lurking around since well
           before the Atlantis civilization and the erection of this fort. The
           Overlord replaces the Event tile furthest on the left in the river with
-          the <a class="tile" href="/tiles/8">Dark Demon</a> tile. The Dark Demon’s
+          the <a class="tile" href="/tiles/9">Dark Demon</a> tile. The Dark Demon’s
           model is placed in the area marked
           <img src="/assets/tokens/area2Token.png" class="scen_token" /> and the
           Overlord places the Dark Demon’s Life Point marker
-          <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/DarkDemonToken.png" class="scen_token">
+          <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/DarkDemonToken.png" class="scen_token">
           on the position “8” of the turn track.</p>
 
         <p><span class="special_title">Pictish Drink:</span>
@@ -11204,10 +11289,10 @@
         <p><span class="special_title">Chests:</span>
           During setup, the Overlord places 4 chests on the board
           as indicated by the setup diagram. The asset deck contains:
-          1 <a class="item" href="/items/2">Bossonian Bow</a>,
-          1 <a class="item" href="/items/16">Chain Mail</a>,
-          1 <a class="item" href="/items/45">Pictish Drink</a> and
-          1 <a class="item" href="/items/6">Explosive Orb</a>,</p>',
+          1&nbsp;<a class="item" href="/items/2">Bossonian Bow</a>,
+          1&nbsp;<a class="item" href="/items/16">Chain Mail</a>,
+          1&nbsp;<a class="item" href="/items/45">Pictish Drink</a> and
+          1&nbsp;<a class="item" href="/items/6">Explosive Orb</a>,</p>',
 
       hero_victory: '
               <p><span class="special_title">Heroes’ Victory:</span>
@@ -11236,10 +11321,11 @@
         origin: "Legend of the Devil in Iron",
         product_ids: [1, 2, 3, 21],
         map_ids: [4],
-        hero_ids: [5, 6, 8, 19],
-        tile_ids: [1, 2, 4, 45, 46, 47, 50],
+        hero_ids: [5, 6, 8, 20],
+        tile_ids: [1, 2, 5, 9, 45, 46, 47, 50],
         spell_ids: [12],
-        item_ids: [2, 6, 16, 45] },
+        item_ids: [2, 6, 33, 16, 45, 104] },
+
 
     # 5 The Inn of All Dangers
     { name: "The Inn of All Dangers",
@@ -11260,10 +11346,10 @@
         <p>Conan can take it no longer, persuaded that the Kothian has taken Flavia
         to the slave market of Shadizar the Perverse, it is with steel in his hand
         that he leaves in search of an answer.</p>",
-      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/The+Inn+of+all+Dangers.jpg',
+      map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Inn+of+all+Dangers.jpg',
       pdf_link: '',
-      player_count: "5 Campaign",
-      complexity: "",
+      player_count: "5",
+      complexity: "Campaign",
 
       hero_goal: "If Constantius is killed, either by the Bone Golem or the heroes,
         before the end of turn 8; the heroes win the game.",
@@ -11294,28 +11380,28 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AmraToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/AmraToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/5">Amra the Lion</a>
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZelataToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ZelataToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/8">Zelata</a>
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SavageBelitToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/SavageBelitToken.png" class="scen_setup"></td>
           <td>
-            <a class="hero" href="/heroes/19">Savage Bêlit</a>
+            <a class="hero" href="/heroes/20">Savage Bêlit</a>
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/NGoraToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/NGoraToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/6">N’Gora</a>
           </td>
@@ -11347,7 +11433,7 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
             <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
               <p><span class="setup_suggestion">Reinforcement:</span> 3 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" />.</p>
@@ -11359,8 +11445,8 @@
         </table>
         <table class="scen_table">
           <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BoneGolemToken.png" class="scen_setup"></td>
-            <td>If the <a class="tile" href="/tiles/8">Bone Golum</a> is still alive
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/BoneGolemToken.png" class="scen_setup"></td>
+            <td>If the <a class="tile" href="/tiles/74">Bone Golem</a> is still alive
             at the end of the scenario, DO NOT check its name on the Overlord’s
             Campaign Log.</td>
             <td></td>
@@ -11369,10 +11455,10 @@
 
       tile1: 35,
       tile2: 33,
-      tile3: 54,
+      tile3: 58,
       tile4: 31,
       tile5: 32,
-      tile6: 54,
+      tile6: 58,
       tile7: 1,
       tile8: 0,
 
@@ -11387,46 +11473,46 @@
 
       special_rules: '
         <p><span class="special_title">Constantius:</span>
-        The Overlord cannot remove <a class="tile" href="/tiles/54">Constantius</a>
+        The Overlord cannot remove <a class="tile" href="/tiles/58">Constantius</a>
         from the inn.</p>
 
-        <p><span class="special_title">The Golum is unleashed:</span>
+        <p><span class="special_title">The Golem is unleashed:</span>
         After the heroes’ start phase and after the Overlord’s Recovery phase, roll .
         <img src="/assets/dice/Red.png" class="scen_sq_token" /> that cannot be rerolled.
-        <br />- On a result of 0: The Bone Golum catches its breath and is not
+        <br />- On a result of 0: The Bone Golem catches its breath and is not
         active for this turn.
-        <br />- On a result of 1: The Bone Golum is active, controlled by the Overlord,
-        and attacks the heroes. The Bone Golum moves in the direction of the nearest
+        <br />- On a result of 1: The Bone Golem is active, controlled by the Overlord,
+        and attacks the heroes. The Bone Golem moves in the direction of the nearest
         hero and performs an attack if it can. If it is already in an area with a
         hero model it attacks that hero. If several heroes are nearest or in the
-        same area and can be attacked, the Overlord chooses the target of The Bone Golum.
-        <br />- On a result of 2: The Bone Golum is active, controlled by the heroes
-        and attacks the Overlord’s units. The Bone Golum moves in the direction of
+        same area and can be attacked, the Overlord chooses the target of The Bone Golem.
+        <br />- On a result of 2: The Bone Golem is active, controlled by the heroes
+        and attacks the Overlord’s units. The Bone Golem moves in the direction of
         the nearest Overlord model and performs an attack if it can. If it is already
         in an area with an Overlord model it attacks that model. If several models
         are nearest or in the same area and can be attacked, the heroes choose the
-        target of The Bone Golum.
-        <br />- On a result of 3: The Bone Golum becomes enraged and is active twice.
+        target of The Bone Golem.
+        <br />- On a result of 3: The Bone Golem becomes enraged and is active twice.
         it is controlled on the first activation by the heroes, and on the second
         activation by the Overlord as described above.</p>
 
         <p><span class="special_title">Bone Golem:</span>
-        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BoneGolem.png" class="scen_event float_tile">
-        The <a class="tile" href="/tiles/76">Bone Golem</a> is not allied to any camp.
-        The attacks of the Bone Golum cannot be improved in any way and no Benefit
-        can be used for it. Killing the Bone Golum does not give any experience points
-        to the heroes’ side or the Overlord’s side. If the Bone Golum is still alive
+        <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/BoneGolem.jpg" class="scen_event float_tile">
+        The <a class="tile" href="/tiles/74">Bone Golem</a> is not allied to any camp.
+        The attacks of the Bone Golem cannot be improved in any way and no Benefit
+        can be used for it. Killing the Bone Golem does not give any experience points
+        to the heroes’ side or the Overlord’s side. If the Bone Golem is still alive
         at the end of the scenario, DO NOT check its name on the Overlord’s Campaign
         Log. During setup, the Overlord places the Bone Golem’s Life Point marker .
-        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BoneGolemToken.png" class="scen_token">
+        <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/BoneGolemToken.png" class="scen_token">
         on the position “8” of the turn track.</p>
 
         <p><span class="special_title">Chests:</span>
         During setup, the Overlord places 3 chests on the board
         as indicated by the setup diagram. The asset deck contains:
-        1 <a class="item" href="/items/22">Life Potion</a>,
-        1 <a class="item" href="/items/6">Explosive Orb</a> and
-        1 <a class="item" href="/items/17">Leather Armor</a>,</p>',
+        1&nbsp;<a class="item" href="/items/22">Life Potion</a>,
+        1&nbsp;<a class="item" href="/items/6">Explosive Orb</a> and
+        1&nbsp;<a class="item" href="/items/17">Leather Armor</a>,</p>',
 
       hero_victory: '
         <p><span class="special_title">Heroes’ Victory:</span>
@@ -11455,10 +11541,10 @@
       origin: "Legend of the Devil in Iron",
       product_ids: [1, 2, 3, 21],
       map_ids: [2],
-      hero_ids: [5, 6, 8, 19],
-      tile_ids: [1, 4, 8, 32, 33, 35, 54],
-      spell_ids: [12],
-      item_ids: [6, 17, 22] },
+      hero_ids: [5, 6, 8, 20],
+      tile_ids: [1, 31, 32, 33, 35, 58, 74],
+      spell_ids: [],
+      item_ids: [6, 33, 17, 77, 97, 22, 44, 103] },
 
     # 6 The Mad Shaman
     { name: "The Mad Shaman",
@@ -11479,10 +11565,10 @@
         in order to prepare for the worst.</p>
         <p>And the worst is to come, this shaman, living the life of a recluse, is
         completely mad and highly skilled in the darkest of magical arts.</p>",
-      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/The+Mad+Shaman.jpg',
+      map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Mad+Shaman.jpg',
       pdf_link: '',
-      player_count: "5 Campaign",
-      complexity: "",
+      player_count: "5",
+      complexity: "Campaign",
 
       hero_goal: "If before the end of turn 7, Zogar Sag has not succeeded in destroying
       the village, or he has been killed by the heroes; the heroes win the game.",
@@ -11513,28 +11599,28 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AmraToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/AmraToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/5">Amra the Lion</a>
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZelataToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ZelataToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/8">Zelata</a>
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SavageBelitToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/SavageBelitToken.png" class="scen_setup"></td>
           <td>
-            <a class="hero" href="/heroes/19">Savage Bêlit</a>
+            <a class="hero" href="/heroes/20">Savage Bêlit</a>
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/NGoraToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/NGoraToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/6">N’Gora</a>
           </td>
@@ -11566,8 +11652,8 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td><p>When an event tile is activated the Overlord resolves the folowing event:</p>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><p>When an event tile is activated the Overlord resolves the following  event:</p>
               <p><span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" /> (see Special Rules).</p>
             </td>
@@ -11576,21 +11662,21 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZogarSagToken.png" class="scen_setup"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ZogarSagToken.png" class="scen_setup"></td>
             <td>
-              <a class="tile" href="/tiles/6">Zogar Sag</a> has
-              <a class="spell" href="/spells/26">Deceleration</a>.
+              <a class="tile" href="/tiles/8">Zogar Sag</a> has
+              <a class="spell" href="/spells/25">Deceleration</a>.
             </td>
             <td></td>
           </tr>
         </table>',
 
-      tile1: 6,
+      tile1: 8,
       tile2: 47,
       tile3: 1,
       tile4: 42,
       tile5: 44,
-      tile6: 6,
+      tile6: 8,
       tile7: 2,
       tile8: 0,
 
@@ -11618,16 +11704,16 @@
 
         <p><span class="special_title">Reinforcements:</span>
         The reinforced models can come into play in any area of the board. The Overlord
-        cannot bring more that one model into play in the same area during a Reinforcement
+        cannot bring more than one model into play in the same area during a Reinforcement
         event regardless of the number of Overlord models already present in that area.
         However, the occupied area rule must be respected.</p>
 
         <p><span class="special_title">Chests:</span>
         During setup, the Overlord places 4 chests on the board
         as indicated by the setup diagram. The asset deck contains:
-        2 <a class="item" href="/items/22">Life Potions</a>,
-        1 <a class="item" href="/items/39">Two-handed Sword</a> and
-        1 <a class="item" href="/items/6">Explosive Orb</a>.</p>',
+        2&nbsp;<a class="item" href="/items/22">Life Potions</a>,
+        1&nbsp;<a class="item" href="/items/39">Two-handed Sword</a> and
+        1&nbsp;<a class="item" href="/items/6">Explosive Orb</a>.</p>',
 
       hero_victory: '
         <p><span class="special_title">Heroes’ Victory:</span>
@@ -11654,10 +11740,10 @@
       origin: "Legend of the Devil in Iron",
       product_ids: [1, 2, 3, 21],
       map_ids: [6],
-      hero_ids: [5, 6, 8, 19],
-      tile_ids: [1, 2, 6, 42, 44, 47],
-      spell_ids: [26],
-      item_ids: [6, 22, 39] },
+      hero_ids: [5, 6, 8, 20],
+      tile_ids: [1, 2, 8, 42, 44, 47],
+      spell_ids: [25],
+      item_ids: [6, 33, 22, 44, 103, 39] },
 
     # 7 The Crook’s Hideout
     { name: "The Crook’s Hideout",
@@ -11679,10 +11765,10 @@
         <p>Conan seizes his chance. As the men of Constantius are too many in number,
         causing building to collapse could offer the Cimmerian a possibility to approach
         the Falcon more easily in order to question him about Flavia.</p>",
-      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/The+Crooks+Hideout.jpg',
+      map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Crooks+Hideout.jpg',
       pdf_link: '',
-      player_count: "5 Campaign",
-      complexity: "",
+      player_count: "5",
+      complexity: "Campaign",
 
       hero_goal: "If the self-destruction is activated before the end of turn 5,
       and the surviving heroes flee the citadel; the heroes win the game.",
@@ -11713,28 +11799,28 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AmraToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/AmraToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/5">Amra the Lion</a>
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZelataToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ZelataToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/8">Zelata</a>
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SavageBelitToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/SavageBelitToken.png" class="scen_setup"></td>
           <td>
-            <a class="hero" href="/heroes/19">Savage Bêlit</a>
+            <a class="hero" href="/heroes/20">Savage Bêlit</a>
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/NGoraToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/NGoraToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/6">N’Gora</a>
           </td>
@@ -11767,8 +11853,8 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td><p>When an event tile is activated the Overlord resolves the folowing event:</p>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><p>When an event tile is activated the Overlord resolves the following  event:</p>
               <p><span class="setup_suggestion">Reinforcement:</span> 3 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" />.</p>
               <p><span class="setup_suggestion">Fire at will:</span> Each unit may
@@ -11779,8 +11865,8 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/GiantScorpionToken.png" class="scen_setup"></td>
-            <td>If the <a class="tile" href="/tiles/78">Giant Scorpion</a> is still
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/GiantScorpionToken.png" class="scen_setup"></td>
+            <td>If the <a class="tile" href="/tiles/77">Giant Scorpion</a> is still
             alive at the end of the scenario, check its name on the Overlord’s
             Campaign Log.</td>
             <td></td>
@@ -11789,7 +11875,7 @@
 
       tile1: 22,
       tile2: 15,
-      tile3: 54,
+      tile3: 58,
       tile4: 16,
       tile5: 18,
       tile6: 19,
@@ -11830,13 +11916,13 @@
         </p>
 
         <p><span class="special_title">Giant Scorpion:</span>
-        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/GiantScorpion.png" class="scen_event float_tile">
+        <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/GiantScorpion.jpg" class="scen_event float_tile">
         The Giant Scorpion appears in the area marked
         <img src="/assets/tokens/area2Token.png" class="scen_token" /> from the
         moment when the first lever is activated. The Giant Scorpion Unit tile takes
         the last position in the river. The Overlord places the Giant Scorpion’s
         Life Point marker
-        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/GiantScorpionToken.png" class="scen_token">
+        <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/GiantScorpionToken.png" class="scen_token">
         on the position “6” of the turn track. The scorpion can freely get out of the pit.</p>
 
         <p><span class="special_title">Poison:</span>
@@ -11859,9 +11945,9 @@
         <p><span class="special_title">Chests:</span>
         During setup, the Overlord places 4 chests on the board
         as indicated by the setup diagram. The asset deck contains:
-        2 <a class="item" href="/items/22">Life Potions</a>,
-        1 <a class="item" href="/items/17">Leather Armor</a> and
-        1 <a class="item" href="/items/6">Explosive Orb</a>,</p>',
+        2&nbsp;<a class="item" href="/items/22">Life Potions</a>,
+        1&nbsp;<a class="item" href="/items/17">Leather Armor</a> and
+        1&nbsp;<a class="item" href="/items/6">Explosive Orb</a>,</p>',
 
       hero_victory: '
         <p><span class="special_title">Heroes’ Victory:</span>
@@ -11885,10 +11971,10 @@
       origin: "Legend of the Devil in Iron",
       product_ids: [1, 2, 3, 21],
       map_ids: [5],
-      hero_ids: [5, 6, 8, 19],
-      tile_ids: [1, 15, 16, 18, 19, 22, 54],
+      hero_ids: [5, 6, 8, 20],
+      tile_ids: [1, 15, 16, 18, 19, 22, 58, 77],
       spell_ids: [26],
-      item_ids: [6, 17, 22] },
+      item_ids: [6, 33, 17, 77, 97, 22, 44, 103] },
 
     # 8 The Treasure Chest
     { name: "The Treasure Chest",
@@ -11912,10 +11998,10 @@
         Conan, his appearance brings to mind a Hyperborean sorcerer. It is now too
         late to think about why he might have left his distant snow-covered lands to
         meet the Picts, for it is necessary to seize the chest.</p>",
-      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/The+Treasure+Chest.jpg',
+      map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Treasure+Chest.jpg',
       pdf_link: '',
-      player_count: "5 Campaign",
-      complexity: "",
+      player_count: "5",
+      complexity: "Campaign",
 
       hero_goal: "If at least one hero flees the swamp with the sarcophagus before
       the end of turn 8; the heroes win the game.",
@@ -11947,28 +12033,28 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AmraToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/AmraToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/5">Amra the Lion</a>
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZelataToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ZelataToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/8">Zelata</a>
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SavageBelitToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/SavageBelitToken.png" class="scen_setup"></td>
           <td>
-            <a class="hero" href="/heroes/19">Savage Bêlit</a>
+            <a class="hero" href="/heroes/20">Savage Bêlit</a>
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/NGoraToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/NGoraToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/6">N’Gora</a>
           </td>
@@ -12000,7 +12086,7 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
             <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
               <p><span class="setup_suggestion">Reinforcement:</span> 3 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" />.</p>
@@ -12012,10 +12098,10 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/HyperboreanPrimitiveToken.png" class="scen_setup"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/HyperboreanPrimitiveToken.png" class="scen_setup"></td>
             <td>
-              <a class="tile" href="/tiles/56">Hyperborean Primitive</a> has
-              <a class="spell" href="/spells/26">Deceleration</a>.
+              <a class="tile" href="/tiles/61">Hyperborean Primitive</a> has
+              <a class="spell" href="/spells/25">Deceleration</a>.
             </td>
             <td></td>
           </tr>
@@ -12024,9 +12110,9 @@
       tile1: 29,
       tile2: 26,
       tile3: 25,
-      tile4: 56,
+      tile4: 61,
       tile5: 85,
-      tile6: 56,
+      tile6: 61,
       tile7: 1,
       tile8: 0,
 
@@ -12073,9 +12159,9 @@
         <p><span class="special_title">Chests:</span>
         During setup, the Overlord places 5 chests on the board
         as indicated by the setup diagram. The asset deck contains:
-        1 <a class="item" href="/items/8">Javelin</a>,
-        2 <a class="item" href="/items/22">Life Potions</a> and
-        2 <a class="item" href="/items/45">Pictish Drink</a>.</p>',
+        1&nbsp;<a class="item" href="/items/8">Javelin</a>,
+        2&nbsp;<a class="item" href="/items/22">Life Potions</a> and
+        2&nbsp;<a class="item" href="/items/45">Pictish Drink</a>.</p>',
 
       hero_victory: '
         <p><span class="special_title">Heroes’ Victory:</span>
@@ -12103,10 +12189,10 @@
       origin: "Legend of the Devil in Iron",
       product_ids: [1, 2, 3, 21],
       map_ids: [6],
-      hero_ids: [5, 6, 8, 19],
-      tile_ids: [1, 25, 26, 29, 56, 85],
-      spell_ids: [26],
-      item_ids: [8, 22, 45] },
+      hero_ids: [5, 6, 8, 20],
+      tile_ids: [1, 25, 26, 29, 61, 85],
+      spell_ids: [25],
+      item_ids: [8, 22, 44, 45, 103, 104] },
 
     # 9 The Woman Who Never Died
     { name: "The Woman Who Never Died",
@@ -12133,10 +12219,10 @@
         tears away leaving the decrepit building which he finds his men.</p>
         <p>It is time to fight to prevent this waking nightmare from becoming their
         tomb.</p>",
-      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/The+Woman+Who+Never+Died.jpg',
+      map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Woman+Who+Never+Died.jpg',
       pdf_link: '',
-      player_count: "5 Campaign",
-      complexity: "",
+      player_count: "5",
+      complexity: "Campaign",
 
       hero_goal: "If Akivasha is killed before the end of turn 7; the heroes win the game.",
 
@@ -12166,28 +12252,28 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AmraToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/AmraToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/5">Amra the Lion</a>
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZelataToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ZelataToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/8">Zelata</a>
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SavageBelitToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/SavageBelitToken.png" class="scen_setup"></td>
           <td>
-            <a class="hero" href="/heroes/19">Savage Bêlit</a>
+            <a class="hero" href="/heroes/20">Savage Bêlit</a>
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/NGoraToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/NGoraToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/6">N’Gora</a>
           </td>
@@ -12218,7 +12304,7 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
             <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
               <p><span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" />.</p>
@@ -12231,10 +12317,10 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AkivashaToken.png" class="scen_setup"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/AkivashaToken.png" class="scen_setup"></td>
             <td>
               <a class="tile" href="/tiles/53">Akivasha</a> has
-              <a class="spell" href="/spells/3">Energy Drain</a>
+              <a class="spell" href="/spells/3">Energy Drain</a> and
               <a class="spell" href="/spells/13">Set’s Halo</a>.
             </td>
             <td></td>
@@ -12242,8 +12328,8 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/GrayManApeToken.png" class="scen_setup"></td>
-            <td>If the <a class="tile" href="/tiles/80">Gray Man-Ape</a> is
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/GrayManApeToken.png" class="scen_setup"></td>
+            <td>If the <a class="tile" href="/tiles/79">Gray Man-Ape</a> is
             invocated and is still alive at the end of the scenario, check its
             name on the Overlord’s Campaign Log.</td>
             <td></td>
@@ -12275,17 +12361,17 @@
         <a class="skill" href="/skills/32">Protected</a>.</p>
 
         <p><span class="special_title">Invocating the creature:</span>
-        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/GrayManApe.png" class="scen_event float_tile">
+        <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/GrayManApe.jpg" class="scen_event float_tile">
         The Overlord chooses a <a class="tile" href="/tiles/19">Bossonian Guards</a>
         or <a class="tile" href="/tiles/15">Archers</a> Unit tile from their river.
         All the models of that tile are sacrificed and removed from the game, this
         is the blood price demanded by Set. The Overlord removes the Event tile from
-        the game. The first tile of the <a class="tile" href="/tiles/19">Gray Man-Ape</a>
+        the game. The first tile of the <a class="tile" href="/tiles/79">Gray Man-Ape</a>
         replaces the sacrificed Unit tile and the second one is placed at the end of
         the river. The Gray Man-Ape’s model is placed in one of the sacrificed model’s
         area. Each sacrificed model adds 3 life points to the Gray Man-Ape’s Life
         Point marker
-        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/GrayManApeToken.png"
+        <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/GrayManApeToken.png"
         class="scen_token">on the according position of the turn track.</p>
 
         <p><span class="special_title">Destruction of the Chest:</span>
@@ -12327,9 +12413,9 @@
       origin: "Legend of the Devil in Iron",
       product_ids: [1, 2, 3, 21],
       map_ids: [4],
-      hero_ids: [5, 6, 8, 19],
-      tile_ids: [1, 15, 17, 18, 22, 53],
-      spell_ids: [3, 13],
+      hero_ids: [5, 6, 8, 20],
+      tile_ids: [1, 15, 17, 18, 22, 53, 79],
+      spell_ids: [3, 13, 66],
       item_ids: [] },
 
     # 10 An Explosive Enigma
@@ -12355,10 +12441,10 @@
         <p>However, while an average person could never detect the presence of Conan’s
         group, a life spent in one of the wildest territories of this world has sharpened
         the eyes and senses of these men covered with hideous paintings.</p>",
-      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/An+Explosive+Enigma.jpg',
+      map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/An+Explosive+Enigma.jpg',
       pdf_link: '',
-      player_count: "5 Campaign",
-      complexity: "",
+      player_count: "5",
+      complexity: "Campaign",
 
       hero_goal: "If the heroes manage to place the colored orbs in the correct position
       on their receptacles before the end of turn 8 to prevent the destruction of the
@@ -12390,28 +12476,28 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AmraToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/AmraToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/5">Amra the Lion</a>
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZelataToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ZelataToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/8">Zelata</a>
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SavageBelitToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/SavageBelitToken.png" class="scen_setup"></td>
           <td>
-            <a class="hero" href="/heroes/19">Savage Bêlit</a>
+            <a class="hero" href="/heroes/20">Savage Bêlit</a>
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/NGoraToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/NGoraToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/6">N’Gora</a>
           </td>
@@ -12443,8 +12529,8 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td><p>When an event tile is activated the Overlord resolves the folowing event:</p>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><p>When an event tile is activated the Overlord resolves the following  event:</p>
               <p><span class="setup_suggestion">Reinforcement:</span> 3 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" />.</p>
             </td>
@@ -12453,10 +12539,10 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/HyperboreanPrimitiveToken.png" class="scen_setup"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/HyperboreanPrimitiveToken.png" class="scen_setup"></td>
             <td>
-              <a class="tile" href="/tiles/56">Hyperborean Primitive</a> has
-              <a class="spell" href="/spells/3">Energy Drain</a>
+              <a class="tile" href="/tiles/61">Hyperborean Primitive</a> has
+              <a class="spell" href="/spells/3">Energy Drain</a> and
               <a class="spell" href="/spells/5">Kiss of Death</a>.
             </td>
             <td></td>
@@ -12464,8 +12550,8 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/GrayManApeToken.png" class="scen_setup"></td>
-            <td>If the <a class="tile" href="/tiles/80">Gray Man-Ape</a> is still
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/GrayManApeToken.png" class="scen_setup"></td>
+            <td>If the <a class="tile" href="/tiles/79">Gray Man-Ape</a> is still
             alive at the end of the scenario, check its name on the Overlord’s Campaign
             Log.</td>
             <td></td>
@@ -12476,9 +12562,9 @@
       tile2: 24,
       tile3: 25,
       tile4: 85,
-      tile5: 56,
+      tile5: 61,
       tile6: 1,
-      tile7: 80,
+      tile7: 79,
       tile8: 0,
 
       life1: 0,
@@ -12530,7 +12616,7 @@
         <p><span class="special_title">Heroes’ Victory:</span>
           Besides the loot, the weapons and equipment contained in the chest, Conan
           discovers an ancient parchment revealing the true nature of the being
-          know as Khosatral Khel.</p>
+          known as Khosatral Khel.</p>
           <p><strong>Read the card “The Legend of the Devil in Iron”.</strong></p>
           <p><strong>The heroes’ side earns 1 victory point.</strong></p>
           <p>The next scenario to be played is scenario 11, <strong>“Approached
@@ -12551,8 +12637,8 @@
       origin: "Legend of the Devil in Iron",
       product_ids: [1, 2, 3, 21],
       map_ids: [1],
-      hero_ids: [5, 6, 8, 19],
-      tile_ids: [1, 24, 25, 28, 56, 85],
+      hero_ids: [5, 6, 8, 20],
+      tile_ids: [1, 24, 25, 28, 61, 79, 85],
       spell_ids: [3, 5],
       item_ids: [] },
 
@@ -12579,10 +12665,10 @@
         Conan quickly understands that the monster’s appearance is the result of black
         magic. By getting rid of the sorcerer, he will surely put an end to the beast’s
         wrath.</p>",
-      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/A+Terrifying+Incantation.jpg',
+      map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/A+Terrifying+Incantation.jpg',
       pdf_link: '',
-      player_count: "5 Campaign",
-      complexity: "",
+      player_count: "5",
+      complexity: "Campaign",
 
       hero_goal: "If the heroes have killed Khemsa and loaded the 3 trunks of
       supplies onto their ship before the end of turn 7; the heroes win the game.",
@@ -12613,28 +12699,28 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AmraToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/AmraToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/5">Amra the Lion</a>
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZelataToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ZelataToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/8">Zelata</a>
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SavageBelitToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/SavageBelitToken.png" class="scen_setup"></td>
           <td>
-            <a class="hero" href="/heroes/19">Savage Bêlit</a>
+            <a class="hero" href="/heroes/20">Savage Bêlit</a>
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/NGoraToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/NGoraToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/6">N’Gora</a>
           </td>
@@ -12667,7 +12753,7 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
             <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
               <p><span class="setup_suggestion">Reinforcement:</span> 3 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" /> (see Special Rules).</p>
@@ -12681,10 +12767,10 @@
         <table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/KhemsaToken.png" class="scen_setup"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/KhemsaToken.png" class="scen_setup"></td>
             <td>
-              <a class="tile" href="/tiles/57">Khemsa</a> has
-              <a class="spell" href="/spells/57">Ymir’s Rage</a>
+              <a class="tile" href="/tiles/63">Khemsa</a> has
+              <a class="spell" href="/spells/51">Ymir’s Rage</a> and
               <a class="spell" href="/spells/5">Kiss of Death</a>.
             </td>
             <td></td>
@@ -12692,8 +12778,8 @@
         </table>
         <table class="scen_table">
           <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/OuterDarkDemonToken.png" class="scen_setup"></td>
-            <td>If the <a class="tile" href="/tiles/11">Outer Dark Demon</a> is still
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/OuterDarkDemonToken.png" class="scen_setup"></td>
+            <td>If the <a class="tile" href="/tiles/12">Outer Dark Demon</a> is still
             alive at the end of the scenario, check its name on the Overlord’s Campaign
             Log.</td>
             <td></td>
@@ -12704,9 +12790,9 @@
       tile2: 95,
       tile3: 33,
       tile4: 93,
-      tile5: 11,
+      tile5: 12,
       tile6: 1,
-      tile7: 57,
+      tile7: 63,
       tile8: 0,
 
       life1: 0,
@@ -12766,8 +12852,8 @@
         <p><span class="special_title">Chests:</span>
         During setup, the Overlord places 2 chests on the board
         as indicated by the setup diagram. The asset deck contains:
-        1 <a class="item" href="/items/17">Leather Armor</a> and
-        1 <a class="item" href="/items/13">Throwing Knives</a>.</p>',
+        1&nbsp;<a class="item" href="/items/17">Leather Armor</a> and
+        1&nbsp;<a class="item" href="/items/13">Throwing Knives</a>.</p>',
 
       hero_victory: '
         <p><span class="special_title">Heroes’ Victory:</span>
@@ -12792,10 +12878,10 @@
       origin: "Legend of the Devil in Iron",
       product_ids: [1, 2, 3, 21],
       map_ids: [3],
-      hero_ids: [5, 6, 8, 19],
-      tile_ids: [1, 11, 30, 33, 57, 93, 95],
-      spell_ids: [5, 57],
-      item_ids: [13, 17] },
+      hero_ids: [5, 6, 8, 20],
+      tile_ids: [1, 12, 30, 33, 63, 93, 95],
+      spell_ids: [5, 51],
+      item_ids: [13, 17, 77, 97] },
 
     # 12 Approached by the Vandal
     { name: "Approached by the Vandal",
@@ -12817,22 +12903,14 @@
         gigantic mass from the dawn of time looms from the water. The situation
         is critical, but the barrels of pitch embarked before departure could make
         the difference.</p>",
-      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/Approached+by+the+Vandal.jpg',
+      map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Approached+by+the+Vandal.jpg',
       pdf_link: '',
-      player_count: "5 Campaign",
-      complexity: "",
+      player_count: "5",
+      complexity: "Campaign",
 
       hero_goal: "If the heroes kill Thaug before the end of turn 7; the heroes win the game.",
 
       hero_setup: '
-      <table class="scen_table">
-        <tr>
-          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
-          <td>The game starts with the heroes’ turn.<br /></td>
-          <td></td>
-        </tr>
-      </table>
-
       <table class="scen_table">
         <tr>
           <td><img src="/assets/tokens/area1Token.png" class="scen_token" /></td>
@@ -12850,28 +12928,28 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AmraToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/AmraToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/5">Amra the Lion</a>
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZelataToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ZelataToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/8">Zelata</a>
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SavageBelitToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/SavageBelitToken.png" class="scen_setup"></td>
           <td>
-            <a class="hero" href="/heroes/19">Savage Bêlit</a>
+            <a class="hero" href="/heroes/20">Savage Bêlit</a>
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/NGoraToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/NGoraToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/6">N’Gora</a>
           </td>
@@ -12890,7 +12968,14 @@
 
       overlord_goal: "If Thaug is still alive by the end of turn 7; the Overlord wins the game.",
 
-      overlord_setup: '<p>The game starts with the Overlord’s turn.</p>
+      overlord_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the Overlord’s turn.</td>
+          <td></td>
+        </tr>
+      </table>
         <table class="scen_table">
           <tr>
             <td><img src="/assets/tokens/redGem.png" class="scen_token" /></td>
@@ -12902,7 +12987,7 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
             <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
               <p><span class="setup_suggestion">Reinforcement:</span> 3 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" /> (see Special Rules).</p>
@@ -12916,10 +13001,10 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/KhemsaToken.png" class="scen_setup"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/KhemsaToken.png" class="scen_setup"></td>
             <td>
-              <a class="tile" href="/tiles/57">Khemsa</a> has
-              <a class="spell" href="/spells/43">Magic Block</a>
+              <a class="tile" href="/tiles/63">Khemsa</a> has
+              <a class="spell" href="/spells/39">Magic Block</a> and
               <a class="spell" href="/spells/5">Kiss of Death</a>.
             </td>
             <td></td>
@@ -12929,9 +13014,9 @@
       tile1: 30,
       tile2: 89,
       tile3: 95,
-      tile4: 93,
-      tile5: 1,
-      tile6: 57,
+      tile4: 1,
+      tile5: 93,
+      tile6: 63,
       tile7: 7,
       tile8: 0,
 
@@ -12949,7 +13034,7 @@
         During setup, the Overlord places the Thaug model as indicated by the setup
         diagram, straddling the two areas to the East. These two areas are considered
         occupied. The Overlord places Thaug’s Life Point marker
-        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ThaugToken.png"
+        <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ThaugToken.png"
         class="scen_token"> on position “12” of the turn track. Thaug can only be
         wounded with the help of kegs of pitch. There is no Unit tile for Thaug in
         the scenario.</p>
@@ -13003,9 +13088,9 @@
         <p><span class="special_title">Chests:</span>
         During setup, the Overlord places 4 chests on the board
         as indicated by the setup diagram. The asset deck contains:
-        2 <a class="item" href="/items/22">Life Potions</a>,
-        1 <a class="item" href="/items/17">Leather Armor</a> and
-        1 <a class="item" href="/items/13">Throwing Knives</a>.</p>',
+        2&nbsp;<a class="item" href="/items/22">Life Potions</a>,
+        1&nbsp;<a class="item" href="/items/17">Leather Armor</a> and
+        1&nbsp;<a class="item" href="/items/13">Throwing Knives</a>.</p>',
 
       hero_victory: '
         <p><span class="special_title">Heroes’ Victory:</span>
@@ -13030,10 +13115,10 @@
       origin: "Legend of the Devil in Iron",
       product_ids: [1, 2, 3, 21],
       map_ids: [3],
-      hero_ids: [5, 6, 8, 19],
-      tile_ids: [1, 7, 30, 57, 89, 93, 95],
-      spell_ids: [5, 43],
-      item_ids: [13, 17, 22] },
+      hero_ids: [5, 6, 8, 20],
+      tile_ids: [1, 7, 30, 63, 89, 93, 95],
+      spell_ids: [5, 39],
+      item_ids: [13, 17, 77, 97, 22, 44, 103] },
 
     # 13 The Horror from the Abyss
     { name: "The Horror from the Abyss",
@@ -13057,22 +13142,14 @@
         is dressed in an Oriental fashion and shouts out to the Cimmerian barbarian,
         “Contemplate the forces of the invisible kingdoms, for you will soon become
         one with the Abyss and you will grovel at the feet of the Master of Xapur.”</p>",
-      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/The+Horror+from+the+Abyss.jpg',
+      map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Horror+from+the+Abyss.jpg',
       pdf_link: '',
-      player_count: "5 Campaign",
-      complexity: "",
+      player_count: "5",
+      complexity: "Campaign",
 
       hero_goal: "If the heroes kill Thaug before the end of turn 7; the heroes win the game.",
 
       hero_setup: '
-      <table class="scen_table">
-        <tr>
-          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
-          <td>The game starts with the heroes’ turn.<br /></td>
-          <td></td>
-        </tr>
-      </table>
-
       <table class="scen_table">
         <tr>
           <td><img src="/assets/tokens/area1Token.png" class="scen_token" /></td>
@@ -13090,28 +13167,28 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AmraToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/AmraToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/5">Amra the Lion</a>
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZelataToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ZelataToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/8">Zelata</a>
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SavageBelitToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/SavageBelitToken.png" class="scen_setup"></td>
           <td>
-            <a class="hero" href="/heroes/19">Savage Bêlit</a>
+            <a class="hero" href="/heroes/20">Savage Bêlit</a>
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/NGoraToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/NGoraToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/6">N’Gora</a>
           </td>
@@ -13130,7 +13207,14 @@
 
       overlord_goal: "If Thaug is still alive by the end of turn 7; the Overlord wins the game.",
 
-      overlord_setup: '<p>The game starts with the Overlord’s turn.</p>
+      overlord_setup: '
+        <table class="scen_table">
+          <tr>
+            <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+            <td>The game starts with the Overlord’s turn.</td>
+            <td></td>
+          </tr>
+        </table>
         <table class="scen_table">
           <tr>
             <td><img src="/assets/tokens/redGem.png" class="scen_token" /></td>
@@ -13142,7 +13226,7 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
             <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
               <p><span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" /> (see Special Rules).</p>
@@ -13156,10 +13240,10 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/KhemsaToken.png" class="scen_setup"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/KhemsaToken.png" class="scen_setup"></td>
             <td>
-              <a class="tile" href="/tiles/57">Khemsa</a> has
-              <a class="spell" href="/spells/55">Withering</a>
+              <a class="tile" href="/tiles/63">Khemsa</a> has
+              <a class="spell" href="/spells/49">Withering</a> and
               <a class="spell" href="/spells/5">Kiss of Death</a>.
             </td>
             <td></td>
@@ -13171,7 +13255,7 @@
       tile3: 89,
       tile4: 1,
       tile5: 93,
-      tile6: 57,
+      tile6: 63,
       tile7: 2,
       tile8: 0,
 
@@ -13189,7 +13273,7 @@
         During setup, the Overlord places the Thaug model as indicated by the setup
         diagram, straddling the two areas to the East. These two areas are considered
         occupied. The Overlord places Thaug’s Life Point marker
-        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ThaugToken.png"
+        <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ThaugToken.png"
         class="scen_token"> on position “12” of the turn track. When Thaug is attacked,
         its Armor Value is equal to the number of tentacle models on the board at the
         moment of the attack. There is no Unit tile for Thaug in the scenario.</p>
@@ -13226,13 +13310,13 @@
         <p><span class="special_title">Chests:</span>
         During setup, the Overlord places 4 chests on the board
         as indicated by the setup diagram. The asset deck contains:
-        2 <a class="item" href="/items/22">Life Potions</a>,
-        1 <a class="item" href="/items/17">Leather Armor</a> and
-        1 <a class="item" href="/items/13">Throwing Knives</a>.</p>',
+        2&nbsp;<a class="item" href="/items/22">Life Potions</a>,
+        1&nbsp;<a class="item" href="/items/17">Leather Armor</a> and
+        1&nbsp;<a class="item" href="/items/13">Throwing Knives</a>.</p>',
 
       hero_victory: '
         <p><span class="special_title">Heroes’ Victory:</span>
-          The mercenaries have overcome the horror rom the abyss and their ship,
+          The mercenaries have overcome the horror from the abyss and their ship,
           once again with the wind filling its sails, moves away from Khemsa’s
           vessel. They can now continue their journey toward the region inhabited
           by the Yuetshi.</p>
@@ -13255,10 +13339,10 @@
       origin: "Legend of the Devil in Iron",
       product_ids: [1, 2, 3, 21],
       map_ids: [3],
-      hero_ids: [5, 6, 8, 19],
-      tile_ids: [1, 2, 30, 57, 89, 93, 95],
-      spell_ids: [5, 55],
-      item_ids: [13, 17, 22] },
+      hero_ids: [5, 6, 8, 20],
+      tile_ids: [1, 2, 30, 63, 89, 93, 95],
+      spell_ids: [5, 49],
+      item_ids: [13, 17, 77, 97, 22, 44, 103] },
 
     # 14 The Mystical Dagger
     { name: "The Mystical Dagger",
@@ -13283,10 +13367,10 @@
         eyes shining with the aura of madness. Nothing seems to stop them. The
         sorcerer then takes advantage of the scuffle to throw the dagger into the
         swamp.</p>",
-      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/The+Mystical+Dagger.jpg',
+      map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Mystical+Dagger.jpg',
       pdf_link: '',
-      player_count: "5 Campaign",
-      complexity: "",
+      player_count: "5",
+      complexity: "Campaign",
 
       hero_goal: "If a hero flees the swamp with the Yuetshi Knife before the
       end of turn 7; the heroes win the game.",
@@ -13317,28 +13401,28 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AmraToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/AmraToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/5">Amra the Lion</a>
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZelataToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ZelataToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/8">Zelata</a>
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SavageBelitToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/SavageBelitToken.png" class="scen_setup"></td>
           <td>
-            <a class="hero" href="/heroes/19">Savage Bêlit</a>
+            <a class="hero" href="/heroes/20">Savage Bêlit</a>
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/NGoraToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/NGoraToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/6">N’Gora</a>
           </td>
@@ -13370,7 +13454,7 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
             <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
               <p><span class="setup_suggestion">Reinforcement:</span> 5 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" />.</p>
@@ -13381,10 +13465,10 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/NatohkToken.png" class="scen_setup"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/NatohkToken.png" class="scen_setup"></td>
             <td>
-              <a class="tile" href="/tiles/58">Natohk</a> has
-              <a class="spell" href="/spells/12">Set’s Bite</a>
+              <a class="tile" href="/tiles/66">Natohk</a> has
+              <a class="spell" href="/spells/12">Set’s Bite</a> and
               <a class="spell" href="/spells/5">Kiss of Death</a>.
             </td>
             <td></td>
@@ -13392,7 +13476,7 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SwampDemonToken.png" class="scen_setup"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/SwampDemonToken.png" class="scen_setup"></td>
             <td>If the <a class="tile" href="/tiles/81">Swamp Demon</a> is still
             alive at the end of the scenario, check its name on the Overlord’s Campaign
             Log.</td>
@@ -13406,7 +13490,7 @@
       tile4: 23,
       tile5: 81,
       tile6: 1,
-      tile7: 58,
+      tile7: 66,
       tile8: 81,
 
       life1: 0,
@@ -13424,13 +13508,13 @@
         the swamp the knife has been thrown. The Overlord secretly notes on a piece
         of paper the number between 1 and 10 corresponding to the area of the board
         containing the knife. The <a class="item" href="/items/15">Yuetshi knife</a>
-        lowers the Armor Value of <a class="tile" href="/tiles/10">Khosatral Khel</a>
+        lowers the Armor Value of <a class="tile" href="/tiles/11">Khosatral Khel</a>
         to 3.</p>
 
         <p><span class="special_title">Searching the Swamp:</span>
         A hero in a numbered swamp area can search it to find the
         <a class="item" href="/items/15">Yuetshi knife</a> by performing a complex
-        Manipulation with a difficulty of 1. If the hero succeds, the Overlord
+        Manipulation with a difficulty of 1. If the hero succeeds, the Overlord
         indicates whether it is the area in which the knife is located. If it is,
         the Overlord shows the number written on a piece of paper during setup
         and that hero picks up the Yuetshi Knife card.</p>
@@ -13444,7 +13528,7 @@
         them information to reduce their search for the knife. The Overlord
         must then remove the number token of his choice that does not match the
         location of the knife. Reinforcement Picts may also be interrogated. If
-        the there is only one numbered token left, it is no longer possible to
+        there is only one numbered token left, it is no longer possible to
         interrogate a Pict.</p>
 
         <p><span class="special_title">Fleeing the Swamp:</span>
@@ -13462,10 +13546,10 @@
         <p><span class="special_title">Chests:</span>
         During setup, the Overlord places 6 chests on the board
         as indicated by the setup diagram. The asset deck contains:
-        2 <a class="item" href="/items/22">Life Potions</a>,
-        2 <a class="item" href="/items/45">Pictish Drink</a>,
-        1 <a class="item" href="/items/14">Tribal Mace</a> and
-        1 <a class="item" href="/items/12">Sword</a>.</p>',
+        2&nbsp;<a class="item" href="/items/22">Life Potions</a>,
+        2&nbsp;<a class="item" href="/items/45">Pictish Drink</a>,
+        1&nbsp;<a class="item" href="/items/14">Tribal Mace</a> and
+        1&nbsp;<a class="item" href="/items/12">Sword</a>.</p>',
 
       hero_victory: '
         <p><span class="special_title">Heroes’ Victory:</span>
@@ -13495,10 +13579,10 @@
       origin: "Legend of the Devil in Iron",
       product_ids: [1, 2, 3, 21],
       map_ids: [6],
-      hero_ids: [5, 6, 8, 19],
-      tile_ids: [1, 23, 24, 29, 58, 81, 85],
+      hero_ids: [5, 6, 8, 20],
+      tile_ids: [1, 23, 24, 29, 66, 81, 85],
       spell_ids: [5, 12],
-      item_ids: [12, 14, 22, 45] },
+      item_ids: [12, 91, 14, 22, 44, 45, 103, 104] },
 
     # 15 Behind the Barricades
     { name: "Behind the Barricades",
@@ -13520,10 +13604,10 @@
         <p>As he pounces on him, Conan decapitates the fanatic with a blow as quick
         as powerful. Then the mercenaries quickly erect some makeshift barricades
         using what they find in the nearest streets and huts.</p>",
-      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/Behind+the+Barricades.jpg',
+      map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Behind+the+Barricades.jpg',
       pdf_link: '',
-      player_count: "5 Campaign",
-      complexity: "",
+      player_count: "5",
+      complexity: "Campaign",
 
       hero_goal: "If the heroes manage to get the fisherman out of the village
       before the end of turn 7; the heroes win the game.",
@@ -13546,28 +13630,28 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AmraToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/AmraToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/5">Amra the Lion</a>
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZelataToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ZelataToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/8">Zelata</a>
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SavageBelitToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/SavageBelitToken.png" class="scen_setup"></td>
           <td>
-            <a class="hero" href="/heroes/19">Savage Bêlit</a>
+            <a class="hero" href="/heroes/20">Savage Bêlit</a>
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/NGoraToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/NGoraToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/6">N’Gora</a>
           </td>
@@ -13606,7 +13690,7 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
             <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
               <p><span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" />.</p>
@@ -13618,19 +13702,19 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZogarSagToken.png" class="scen_setup"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ZogarSagToken.png" class="scen_setup"></td>
             <td>
-              <a class="tile" href="/tiles/6">Zogar Sag</a> has
-              <a class="spell" href="/spells/43">Magic Block</a>
-              <a class="spell" href="/spells/47">Return of the Brave</a>.
+              <a class="tile" href="/tiles/8">Zogar Sag</a> has
+              <a class="spell" href="/spells/39">Magic Block</a> and
+              <a class="spell" href="/spells/43">Return of the Brave</a>.
             </td>
             <td></td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ForestDemonToken.png" class="scen_setup"></td>
-            <td>If the <a class="tile" href="/tiles/77">Forest Demon</a> is still
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ForestDemonToken.png" class="scen_setup"></td>
+            <td>If the <a class="tile" href="/tiles/76">Forest Demon</a> is still
             alive at the end of the scenario, check its name on the Overlord’s Campaign
             Log.</td>
             <td></td>
@@ -13642,8 +13726,8 @@
       tile3: 29,
       tile4: 85,
       tile5: 1,
-      tile6: 77,
-      tile7: 6,
+      tile6: 76,
+      tile7: 8,
       tile8: 0,
 
       life1: 0,
@@ -13668,7 +13752,7 @@
 
         <p><span class="special_title">Traitor:</span>
         Use Balthus’ model to represent the traitor and place the life point marker
-        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/BalthusToken.png" class="scen_token" />
+        <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/BalthusToken.png" class="scen_token" />
         on the position “4” of the turn track. The traitor has 3 movement points
         and an armor value of 1. The heroes can move the traitor (using his 3
         movement points) if, at the end of the heroes’ Action Phase, there is at
@@ -13711,9 +13795,9 @@
       origin: "Legend of the Devil in Iron",
       product_ids: [1, 2, 3, 21],
       map_ids: [1],
-      hero_ids: [5, 6, 8, 19],
-      tile_ids: [1, 6, 29, 42, 77, 84, 85],
-      spell_ids: [43, 47],
+      hero_ids: [5, 6, 8, 20],
+      tile_ids: [1, 8, 29, 42, 76, 84, 85],
+      spell_ids: [39, 43],
       item_ids: [] },
 
     # 16 The Spellbook of the Gray Man-Ape
@@ -13732,10 +13816,10 @@
         not only with the pirates who occupy the inn where the spellbook is, but
         also with a strange man ape is after the book for himself; convinced that
         its contents could enable him to take on a human form.</p>",
-      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/The+Spellbook+of+the+Gray+Man+Ape.jpg',
+      map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Spellbook+of+the+Gray+Man+Ape.jpg',
       pdf_link: '',
-      player_count: "5 Campaign",
-      complexity: "",
+      player_count: "5",
+      complexity: "Campaign",
 
       hero_goal: "If a hero flees the inn with the spellbook; the heroes win the game.",
 
@@ -13765,28 +13849,28 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AmraToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/AmraToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/5">Amra the Lion</a>
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZelataToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ZelataToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/8">Zelata</a>
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SavageBelitToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/SavageBelitToken.png" class="scen_setup"></td>
           <td>
-            <a class="hero" href="/heroes/19">Savage Bêlit</a>
+            <a class="hero" href="/heroes/20">Savage Bêlit</a>
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/NGoraToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/NGoraToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/6">N’Gora</a>
           </td>
@@ -13803,7 +13887,7 @@
         </tr>
       </table>',
 
-      overlord_goal: "If an Overlord model flees the inn with the spellboook; the Overlord wins.",
+      overlord_goal: "If an Overlord model flees the inn with the spellbook; the Overlord wins.",
 
       overlord_setup: '
         <table class="scen_table">
@@ -13817,7 +13901,7 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
             <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
               <p><span class="setup_suggestion">Reinforcement:</span> 3 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" />.</p>
@@ -13827,8 +13911,8 @@
         </table>
         <table class="scen_table">
           <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ThakToken.png" class="scen_setup"></td>
-            <td>If the <a class="tile" href="/tiles/12">Thak</a> is still alive
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ThakToken.png" class="scen_setup"></td>
+            <td>If the <a class="tile" href="/tiles/13">Thak</a> is still alive
             at the end of the scenario, check its name on the Overlord’s Campaign
             Log.</td>
             <td></td>
@@ -13839,7 +13923,7 @@
       tile2: 32,
       tile3: 31,
       tile4: 89,
-      tile5: 12,
+      tile5: 13,
       tile6: 1,
       tile7: 0,
       tile8: 0,
@@ -13863,7 +13947,7 @@
         attack characteristics to perform a complex Manipulation. Each model of the
         activated Unit tile may perform this action. This action replaces the attack
         action of all of the models of the Unit tile for this activation. If the
-        action is successful, the Overlord draws a card from a asset deck. The
+        action is successful, the Overlord draws a card from the asset deck. The
         Equipment cards revealed by the Overlord other than the spellbook are
         discarded. If the Spellbook is revealed, then the model which has just
         opened the chest takes the spellbook and carries it with them. To represent
@@ -13900,11 +13984,11 @@
         <p><span class="special_title">Chests:</span>
         During setup, the Overlord places 6 chests on the board
         as indicated by the setup diagram. The asset deck contains:
-        1 <a class="item" href="/items/28">Spellbook</a>,
-        1 <a class="item" href="/items/23">Empty chest</a>,
-        2 <a class="item" href="/items/45">Pictish Drink</a>,
-        1 <a class="item" href="/items/3">Dagger</a> and
-        1 <a class="item" href="/items/17">Leather Armor</a>.</p>',
+        1&nbsp;<a class="item" href="/items/28">Spellbook</a>,
+        1&nbsp;<a class="item" href="/items/23">Empty chest</a>,
+        2&nbsp;<a class="item" href="/items/45">Pictish Drink</a>,
+        1&nbsp;<a class="item" href="/items/3">Dagger</a> and
+        1&nbsp;<a class="item" href="/items/17">Leather Armor</a>.</p>',
 
       hero_victory: '
         <p><strong>If the Heroes do not already have the Yuetshi Knife in Their
@@ -13932,10 +14016,10 @@
       origin: "Legend of the Devil in Iron",
       product_ids: [1, 2, 3, 21],
       map_ids: [2],
-      hero_ids: [5, 6, 8, 19],
-      tile_ids: [1, 12, 31, 32, 35, 89],
+      hero_ids: [5, 6, 8, 20],
+      tile_ids: [1, 13, 31, 32, 35, 89],
       spell_ids: [],
-      item_ids: [3, 17, 23, 28, 45] },
+      item_ids: [3, 17, 77, 97, 23, 28, 45, 104] },
 
     # 17 The Cursed Treasures of Khawarizm
     { name: "The Cursed Treasures of Khawarizm",
@@ -13957,10 +14041,10 @@
           monstrosity with shiny and sinuous rings at the same time. The Cimmerian
           and his companions are also unaware that Jehungir’s artifacts are gorged
           with the darkest and most evil of witchcraft.</p>",
-      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/The+Cursed+Treasures+of+Khawarizm.jpg',
+      map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Cursed+Treasures+of+Khawarizm.jpg',
       pdf_link: '',
-      player_count: "5 Campaign",
-      complexity: "",
+      player_count: "5",
+      complexity: "Campaign",
 
       hero_goal: "If a hero flees the citadel with the 3 cursed artifacts before
       the end of turn 7; the heroes win the game.",
@@ -13991,28 +14075,28 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AmraToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/AmraToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/5">Amra the Lion</a>
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZelataToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ZelataToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/8">Zelata</a>
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SavageBelitToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/SavageBelitToken.png" class="scen_setup"></td>
           <td>
-            <a class="hero" href="/heroes/19">Savage Bêlit</a>
+            <a class="hero" href="/heroes/20">Savage Bêlit</a>
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/NGoraToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/NGoraToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/6">N’Gora</a>
           </td>
@@ -14044,7 +14128,7 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
             <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
               <p><span class="setup_suggestion">Reinforcement:</span> 3 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" />.</p>
@@ -14054,18 +14138,18 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/WarlockToken.png" class="scen_setup"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/WarlockToken.png" class="scen_setup"></td>
             <td>
-              <a class="tile" href="/tiles/59">Warlock</a> has
-              <a class="spell" href="/spells/40">Lethal Cloud</a>.
+              <a class="tile" href="/tiles/72">Warlock</a> has
+              <a class="spell" href="/spells/36">Lethal Cloud</a>.
             </td>
             <td></td>
           </tr>
         </table>
         <table class="scen_table">
           <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/GiantSnakeToken.png" class="scen_setup"></td>
-            <td>If the <a class="tile" href="/tiles/9">Giant Snake</a> is still alive
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/GiantSnakeToken.png" class="scen_setup"></td>
+            <td>If the <a class="tile" href="/tiles/10">Giant Snake</a> is still alive
             at the end of the scenario, check its name on the Overlord’s Campaign
             Log.</td>
             <td></td>
@@ -14074,11 +14158,11 @@
 
       tile1: 22,
       tile2: 18,
-      tile3: 59,
+      tile3: 72,
       tile4: 16,
-      tile5: 9,
+      tile5: 10,
       tile6: 1,
-      tile7: 9,
+      tile7: 10,
       tile8: 0,
 
       life1: 0,
@@ -14107,9 +14191,9 @@
         During setup, the Overlord places 3 chests on the board
         as indicated by the setup diagram. The asset deck contains the following
         three cursed artifacts:
-        1 <a class="item" href="/items/50">Hyrkanian Mirror</a>,
-        1 <a class="item" href="/items/46">Cape</a> and
-        1 <a class="item" href="/items/55">Sacred Treasure</a>.</p>',
+        1&nbsp;<a class="item" href="/items/50">Hyrkanian Mirror</a>,
+        1&nbsp;<a class="item" href="/items/46">Cape</a> and
+        1&nbsp;<a class="item" href="/items/55">Sacred Treasure</a>.</p>',
 
       hero_victory: '
         <p><strong>If the Heroes do not already have the Yuetshi Knife in Their
@@ -14138,10 +14222,10 @@
       origin: "Legend of the Devil in Iron",
       product_ids: [1, 2, 3, 21],
       map_ids: [5],
-      hero_ids: [5, 6, 8, 19],
-      tile_ids: [],
-      spell_ids: [40],
-      item_ids: [46, 50, 55] },
+      hero_ids: [5, 6, 8, 20],
+      tile_ids: [1, 10, 16, 18, 22, 72],
+      spell_ids: [36],
+      item_ids: [46, 50, 55, 56, 57] },
 
     # 18 The Fortress of Xapur
     { name: "The Fortress of Xapur",
@@ -14157,23 +14241,23 @@
         <p>Dagonia is being resurrected through a strange and incomprehensible
         magic. Thanks to the blood of Flavia, the distant descendant of the last
         Dagonians, Khosatral Khel can completely unleash his power and enslave
-        much more that just Xapur!</p>
+        much more than just Xapur!</p>
         <p>The mercenaries rush to the center of the city and see a man whose
         shoulders span is just as monstrous as the impressive muscles of his limbs.
         He is dressed in sandals, a skirt and a large grainy leather belt. His
         square-cut hair is held back by a golden ring while a dark fire seems to
         consume the eyes of a face devoid of weakness and pity.</p>
         <p>The Cimmerian understands with horror that it is too late. Flavia is dead.
-        Khosatral Khel had shed her blood upon an evil alter during his ungodly
+        Khosatral Khel had shed her blood upon an evil altar during his ungodly
         ritual.</p>
         <p>Conan had failed his mission, but he knows that the iron-skinned demon
         can still be sent back into the Abyss from which it crawled. A primitive
         rage now burns in the blue eyes of the warrior who aspires only to release
         all his impetuous and vengeful fury.</p>",
-      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/The+Fortress+of+Xapur.jpg',
+      map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Fortress+of+Xapur.jpg',
       pdf_link: '',
-      player_count: "5 Campaign",
-      complexity: "",
+      player_count: "5",
+      complexity: "Campaign",
 
       hero_goal: "If Khosatral Khel is killed before the end of turn 7; the
       heroes win the game.",
@@ -14204,28 +14288,28 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AmraToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/AmraToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/5">Amra the Lion</a>
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZelataToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ZelataToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/8">Zelata</a>
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SavageBelitToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/SavageBelitToken.png" class="scen_setup"></td>
           <td>
-            <a class="hero" href="/heroes/19">Savage Bêlit</a>
+            <a class="hero" href="/heroes/20">Savage Bêlit</a>
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/NGoraToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/NGoraToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/6">N’Gora</a>
           </td>
@@ -14257,7 +14341,7 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
             <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
               <p><span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" /> (see Special Rules).</p>
@@ -14268,11 +14352,11 @@
 
       tile1: 42,
       tile2: 44,
-      tile3: 147,
+      tile3: 129,
       tile4: 84,
-      tile5: 10,
+      tile5: 11,
       tile6: 1,
-      tile7: 10,
+      tile7: 11,
       tile8: 0,
 
       life1: 0,
@@ -14287,7 +14371,7 @@
       special_rules: '
         <p><span class="special_title">Reinforcements:</span>
         The reinforced Mummies can come into play in any area of the board. The Overlord
-        cannot bring more that two models into play in the same area during a Reinforcement
+        cannot bring more than two models into play in the same area during a Reinforcement
         event regardless of the number of Overlord models already present in that area.
         However, the occupied area rule must be respected.</p>
 
@@ -14301,7 +14385,7 @@
 
         <p><span class="special_title">Yuetshi Knife:</span>
           The  <a class="item" href="/items/15">Yuetshi Knife</a> lowers the Armor
-          Value of <a class="tile" href="/tiles/10">Khosatral Khel</a> to 3.</p>',
+          Value of <a class="tile" href="/tiles/11">Khosatral Khel</a> to 3.</p>',
 
       hero_victory: '
         <p><span class="special_title">Heroes’ Victory:</span>
@@ -14324,8 +14408,8 @@
       origin: "Legend of the Devil in Iron",
       product_ids: [1, 2, 3, 21],
       map_ids: [5],
-      hero_ids: [5, 6, 8, 19],
-      tile_ids: [1, 10, 42, 44, 84, 147],
+      hero_ids: [5, 6, 8, 20],
+      tile_ids: [1, 11, 42, 44, 84, 129],
       spell_ids: [],
       item_ids: [15] },
 
@@ -14358,10 +14442,10 @@
         even the intrepid Cimmerian.</p>
         <p>At this moment, taken over by an uncontrollable fury, Conan releases all
         the ferocity of the barbarian that he never ceased to be.</p>",
-      map_image: 'https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/scenarios/The+Last+Dagonian.jpg',
+      map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Last+Dagonian.jpg',
       pdf_link: '',
-      player_count: "5 Campaign",
-      complexity: "",
+      player_count: "5",
+      complexity: "Campaign",
 
       hero_goal: "If Khosatral Khel is killed, or if a hero flees the fortress with
       the princess before the end of turn 7; the heroes win the game.",
@@ -14392,28 +14476,28 @@
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/AmraToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/AmraToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/5">Amra the Lion</a>
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ZelataToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ZelataToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/8">Zelata</a>
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/SavageBelitToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/SavageBelitToken.png" class="scen_setup"></td>
           <td>
-            <a class="hero" href="/heroes/19">Savage Bêlit</a>
+            <a class="hero" href="/heroes/20">Savage Bêlit</a>
           </td>
           <td></td>
         </tr>
         <tr>
-          <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/NGoraToken.png" class="scen_setup"></td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/NGoraToken.png" class="scen_setup"></td>
           <td>
             <a class="hero" href="/heroes/6">N’Gora</a>
           </td>
@@ -14445,7 +14529,7 @@
         </table>
         <table class="scen_table">
           <tr>
-            <td><img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
             <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
               <p><span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
               <img src="/assets/stats/reinforcement.png" class="scen_token" /> (see Special Rules).</p>
@@ -14455,12 +14539,12 @@
         </table>',
 
       tile1: 44,
-      tile2: 10,
+      tile2: 11,
       tile3: 83,
-      tile4: 36,
+      tile4: 37,
       tile5: 1,
-      tile6: 10,
-      tile7: 36,
+      tile6: 11,
+      tile7: 37,
       tile8: 0,
 
       life1: 0,
@@ -14475,7 +14559,7 @@
       special_rules: '
         <p><span class="special_title">Reinforcements:</span>
         The reinforced Mummies can come into play in any area of the board. The Overlord
-        cannot bring more that two models into play in the same area during a Reinforcement
+        cannot bring more than two models into play in the same area during a Reinforcement
         event regardless of the number of Overlord models already present in that area.
         However, the occupied area rule must be respected.</p>
 
@@ -14493,7 +14577,7 @@
         Flavia is represented by the princess’s model. Flavia is unconscious and is
         locked in the South East tower behind a locked door. A hero in Flavia’s
         area may perform a simple Manipulation to carry her. The hero the takes the
-        <img src="https://s3-us-west-2.amazonaws.com/drabelpdx/Conan/tiles/ThalisToken.png" class="scen_token" />
+        <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ThalisToken.png" class="scen_token" />
         and places it near their hero sheet. Flavia’s encumbrance is 7. Flavia cannot
         be killed.</p>
 
@@ -14505,12 +14589,12 @@
 
         <p><span class="special_title">Yuetshi Knife:</span>
         The  <a class="item" href="/items/15">Yuetshi Knife</a> lowers the Armor
-        Value of <a class="tile" href="/tiles/10">Khosatral Khel</a> to 3.</p>
+        Value of <a class="tile" href="/tiles/11">Khosatral Khel</a> to 3.</p>
 
         <p><span class="special_title">Chests:</span>
         During setup, the Overlord places 1 chest on the board
         as indicated by the setup diagram. The asset deck contains
-        1 <a class="item" href="/items/6">Explosive Orb</a>.</p>',
+        1&nbsp;<a class="item" href="/items/6">Explosive Orb</a>.</p>',
 
         hero_victory: '
           <p><span class="special_title">Heroes’ Victory:</span>
@@ -14552,10 +14636,3062 @@
       origin: "Legend of the Devil in Iron",
       product_ids: [1, 2, 3, 21],
       map_ids: [4],
-      hero_ids: [5, 6, 8, 19],
-      tile_ids: [1, 10, 36, 44, 83],
+      hero_ids: [5, 6, 8, 20],
+      tile_ids: [1, 11, 37, 44, 83],
       spell_ids: [],
-      item_ids: [6, 15] },
+      item_ids: [6, 33, 15] },
+
+
+
+      ## Conan the Conqueror
+      # In The Halls Of The Dead
+    { name: "In the Halls of the Dead",
+      description: "<p>With Akivasha's cruel kiss drying on his neck, Conan the Cimmerian
+      plunges deeper into the nighted halls of the dead. But what brings the King of Aquilonia
+      to these labyrinthine depths beneath black-walled Khemi? After all, a man of the north has
+      as much cause to visit a Stygian city as a wolf does a pit of snakes. But somewhere in this
+      crypt, among the remains of long-dead kings, queens, and generals of ancient Stygia, lies
+      the heart of Ahriman--an uncanny bloodstone of the Acheronian Empire and King Conan's only
+      hope of regaining his throne.</p>
+      <p>Knowing the Heart is near, he stalks closer, noting the black robes and flashing blades of
+      the acolytes surrounding an altar. On top of this lie the mummified remains of Thothmekri--an
+      adept of the Black Ring--stirring with unnatural life, bathed in the ruby glow of a great jewel
+      burning upon his breast. One of the robed priests looms over the altar, chanting strange words
+      and raising his hands in exultation...</p>
+      <p>But the incantation is never finished.</p>",
+
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/In+the+Halls+of+the+Dead.jpg",
+      pdf_link: '
+        <p><strong>Thotmekri:</strong> As long as Conan has not removed the jewel
+        from his body, Thothmekri cannot perform Move actions, but he can perform any other type of action
+        (such as Casting a spell).</p>
+          <p><strong>Item Cards:</strong> The item cards placed on the board (left to right) are:
+          <a class="item" href="/items/24">Key</a>, <a class="item" href="/items/22">Life Potion</a>,
+          and <a class="item" href="/items/8">Javelin</a></p>',
+
+      player_count: "3",
+      complexity: "1",
+
+      hero_goal: 'The Heroes win the game if Conan and Thothmekri reach area
+      <img src="/assets/tokens/flameToken.png" class="scen_token" /> before the end of turn 8.',
+
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the heroes’ turn.  The heroes start in the areas
+          indicated by the setup diagram.</td>
+          <td></td>
+        </tr>
+      </table>
+      <table class="scen_table">
+        <tr>
+          <td><h4>2</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ConanthePirateToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/39">Conan the Pirate</a>
+            (<a class="item" href="/items/132">Atlantean Axe</a>,
+              <a class="item" href="/items/16">Chain Mail</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/XaltotunToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/45">Xaltotun</a>
+            (<a class="item" href="/items/11">Parrying Dagger</a>, Spells:
+              <a class="spell" href="/spells/71">Yamir’s Retribution</a>,
+              <a class="spell" href="/spells/72">Yog’s Hunger</a>,
+              <a class="spell" href="/spells/10">Mitra’s Healing</a>,
+              <a class="spell" href="/spells/15">Telekinesis</a>,
+              <a class="spell" href="/spells/13">Set’s Halo</a>) <br />
+              Xaltotun starts with Set’s Halo cast.
+          </td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each hero moves 0 gems from their Reserve zone to their Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
+
+      overlord_goal: 'The Overlord wins the game immediately if they kill at least one Hero,
+      or if both Heroes have NOT reached area <img src="/assets/tokens/flameToken.png" class="scen_token" />
+      by the end of turn 8.',
+
+      overlord_setup: '
+        <table class="scen_table">
+          <tr>
+            <td><img src="/assets/tokens/redGem.png" class="scen_token" /></td>
+            <td>The Overlord starts with 6 gems in their Reserve zone and 2 in their
+            Fatigue zone, and places the recovery token showing a recovery value
+            of “3” in the Book Skelos.</td>
+            <td></td>
+          </tr>
+        </table>
+        <table class="scen_table">
+          <tr>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><p>When an event tile is activated the Overlord may complete <b>one or both</b> parts of the Event
+            <b>in the following sequence.</b></p>
+              <p><span class="setup_suggestion">Reinforcements:</span> The Overlord gains 4 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
+              <p><span class="setup_suggestion">Crumbling Crypt:</span> This crypt is ancient and unstable. When the
+              Event is activated, after any reinforcements have been placed, place a Boulder <img src="/assets/tokens/rocksToken.png" class="scen_token" />
+              or a Web <img src="/assets/tokens/webToken.png" class="scen_token" /> token in any area
+              to denote falling debris. All units in that area suffer 1 unavoidable damage. Any unit leaving an area with
+              a Boulder/Web token must spend an additional movement point for each Boulder/Web token in the area. This is
+              not considered Hindering. Xaltotun may target Boulder/Web tokens using the Telekinesis spell as if the token
+              was an item, but rather than giving the token to Xaltotun as you would an item, remove the token from play.
+              </p>
+            </td>
+            <td></td>
+          </tr>
+        </table>
+        <table class="scen_table">
+            <tr>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/substitution.png" class="scen_setup"></td>
+            <td><p><span class="setup_suggestion">Substitution:</span> <br />
+            <a class="tile" href="/tiles/138">Demon of the Earth</a> can be substituted for the Giant Snake.</p></td>
+            <td></td>
+          </tr>
+        </table>',
+
+      tile1: 174,
+      tile2: 171,
+      tile3: 1,
+      tile4: 176,
+      tile5: 10,
+      tile6: 0,
+      tile7: 0,
+      tile8: 0,
+
+      life1: 0,
+      life2: 0,
+      life3: 0,
+      life4: 0,
+      life5: 7,
+      life6: 0,
+      life7: 0,
+      life8: 0,
+
+      special_rules: '<p><span class="special_title">Thothmekri:</span> Use Xaltotun’s
+      Hero sheet to represent Thothmekri, a mummified high priest of Set. As the scenario
+      begins, the Heart of Ahriman has just been placed on his breast and he has partially
+      returned to life. Thus, he is unable to leave the area in which he begins play until
+      Conan enters and performs a simple Manipulation to wrest the jewel from his body. Once
+      the jewel has been removed, Thothmekri can move freely. The Heart of Ahriman has no
+      other mechanical purpose in this scenario. Players may wish to use an alternative
+      miniature to represent Thothmekri such as Natohk, Thoth-Amon, or a Mummy, but that is
+      purely optional.</p>
+
+        <p><span class="special_title">Key/Door:</span> Both doors require the key to open.
+        A Hero with the key may open a door by performing a simple Manipulation.</p>
+
+        <p><span class="special_title">The Barricade:</span> The Barricade (palisade token) is
+        destroyed after it receives 3 damage. Alternatively, Conan may use Wall-wrecker to pass
+        through. Once he is on the other side, remove the palisade token.</p>',
+
+      hero_victory: '',
+      overlord_victory: '',
+
+      origin: "Tome of Skelos",
+      product_ids: [1, 23, 25],
+      map_ids: [14],
+      hero_ids: [39, 45],
+      tile_ids: [1, 10, 171, 174, 176],
+      spell_ids: [10, 13, 66, 15, 71, 72],
+      item_ids: [8, 11, 87, 16, 132, 22, 24] },
+
+
+      # The Staggering Gods
+    { name: "The Staggering Gods",
+      description: "<p>The echo of an earth-shattering explosion fades as chunks of rubble
+      smashed and ricocheted into the courtyard. Thick smoke billowed from the gaping hole
+      that moments ago was a fortified iron gate. “Steal yourselves, men!” Conan called from
+      the opposite ramparts. Nervous soldiers, plastered with dust and soot, slowly rose from
+      cover and tightened the grip of their weapons.</p>
+      <p>A green aura glowed in the tower behind them as sorcerers recited ancient incantations.
+      As the light reached the granite statue of Mitra in the courtyard below, debris dislodged
+      from joints dormant for centuries. The divine fury of a benevolent deity pushed beyond the
+      limits of mercy slowly came to life, incarnate in living stone. Conan loathed sorcery, but
+      these were desperate times.</p>
+      <p>As the dust cloud thinned, an enormous slithering horror loomed where the iron gate once
+      stood. All the horror of Acheron manifest itself in that writhing mound of flesh. The avatar
+      of Yog, the cannibal god, lashed out with its greedy tentacles, snatching soldiers and dashing
+      their brains upon the walls.</p>
+      <p>Conan stood upon the wall, senses reeling as the horrid entity trundled into the courtyard.
+       “Crom,” he gasped, fighting to quash the urge to flee that welled up in any man when confronted
+       with such extraterrestrial otherness. Thews tightened, his senses cleared. He knew what to do.
+        Drawing his sword, Conan shouted, “Courage, men! There’s nothing in the Universe that cold steel
+        won’t cut.”</p>",
+
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Staggering+Gods.jpg",
+      pdf_link: '
+        <p><strong>Divine Fury:</strong> When the Manifestation of Mitra uses Wall Wrecker with this special rule, it can push the
+        Manifestation of Yog to an adjacent area of its choice, even if it has to go through a stone wall (see
+        Staggering Gods special rule). This can on ly happen in this specific case.
+        Apart from that, normal Allies’ Activatio n rules apply (cost in gems) as well as normal Wall Wrecker rules (cost
+        in movement points), and the Manifestation of Mitra is affected by Hindering. Divine Fury occurs during the
+        movement of the Manifestation of Mitra, which can then perform a normal attack. Divine Fury only reduces
+        the Manifestation of Yog’s Armor value, it does not cause damage.</p>
+        <p><strong>Ethereal Attack:</strong> When the Manifestation of Yog uses Intangible with this special rule, this does not cost gems
+        (unless the Overlord spends gems for a Movement Benefit ). For example, if the Manifestation of Yog is in an
+        area adjacent to the Manifestation of Mitra, this will only cost 1 movement point.
+        See also Clarification o n Divine Fury, above.</p>
+        <p><strong>“There’s nothing in the Universe cold steel won’t cut”:</strong> Once reduced to 0, Armor remains at 2 for the rest of the game and cannot be reduced by
+        Divine Fury or E thereal Attack. But Divine Fury and Ethereal Attack can still be used to push a Manifestation.</p>
+        <p><strong>Yog’s Hunger:</strong> This special rule no longer applies after the Manifestation of Mitra’s Armor value is reduced to 0
+        and reset to 2. However, Yog’s Hunger can still be used normally on any enemy unit .</p>
+        <p><strong>Rockslide Areas:</strong> This special rule replaces the standard game board rule.</p>',
+      player_count: "4",
+      complexity: "2",
+
+      hero_goal: "The Heroes win the game if they kill the Manifestation of Yog.",
+
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><h4>3</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ConantheConquerorToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/38">Conan the Conqueror</a>
+            (<a class="item" href="/items/4">Conan’s Sword</a>,
+            <a class="item" href="/items/18">Scale Mail</a>), Commands
+            2&nbsp;<a class="tile" href="/tiles/166">Ballista Pirates</a>,
+            2&nbsp;<a class="tile" href="/tiles/17">Bossonian Guards</a>
+          </td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/BallistaPirates.jpg" class="scen_event">
+          <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/BossonianGuards.jpg" class="scen_event">
+          </td>
+        </tr>
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/HadrathusToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/3">Hadrathus</a>
+            (<a class="item" href="/items/137">Nemedian Poniard</a> and
+            <a class="spell" href="/spells/71">Ymir’s Retribution</a>)
+          </td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ManifestationofMitra.jpg" class="scen_event"></td>
+        </tr>
+
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/NYagaToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/41">N’Yaga</a>
+            (<a class="item" href="/items/10">Ornamental Spear</a>,
+            <a class="spell" href="/spells/7">Magical Dizziness</a>,
+            and <a class="spell" href="/spells/10">Mitra’s Healing</a>)
+          </td>
+          <td>9 <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ManifestationofMitraToken.png" class="setup_event"></td>
+        </tr>
+      </table>
+      <table class="scen_table">
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/substitution.png" class="scen_setup"></td>
+          <td><p><span class="setup_suggestion">Substitutions:</span> <br />
+          <a class="hero" href="/heroes/19">Pelias</a> or
+          <a class="hero" href="/heroes/8">Zelata</a> can substitute for N’Yaga or Hadrathus.<br />
+          <a class="hero" href="/heroes/11">Conan the General</a> or
+          <a class="hero" href="/heroes/5">Amra</a> can substitute for Conan.</p></td>
+          <td></td>
+        </tr>
+      </table>
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each hero moves 4 gems from their Reserve zone to their Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
+
+      overlord_goal: "The Overlord wins if they kill the Manifestation of Mitra.",
+
+      overlord_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the Overlord’s turn.  The heroes start in the areas
+          indicated by the setup diagram.</td>
+          <td></td>
+        </tr>
+      </table>
+
+        <table class="scen_table">
+          <tr>
+            <td><img src="/assets/tokens/redGem.png" class="scen_token" /></td>
+            <td>The Overlord starts with 10 gems in their Reserve zone and 0 gems in
+            their Fatigue zone, and places the recovery token showing a recovery value
+            of “5” in the Book Skelos.</td>
+            <td></td>
+          </tr>
+        </table>
+        <table class="scen_table">
+          <tr>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><p>When an event tile is activated the Overlord resolves the following event:</p>
+              <p><span class="setup_suggestion">Relentless Fanatics:</span> The Overlord get 6 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" /> . Only 1 miniature may be placed in a
+              Reinforcement area. All reinforcements may immediately move using their movement points. The Overlord
+              may not spend gems to increase this move. </p>
+            </td>
+            <td></td>
+          </tr>
+        </table>
+        <table class="scen_table">
+          <tr>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/XaltotunToken.png" class="scen_setup"></td>
+            <td><a class="tile" href="/tiles/155">Xaltotun</a> has
+            <a class="spell" href="/spells/72">Yog’s Hunger</a>,
+            <a class="spell" href="/spells/68">Rending the Veil</a>,
+            and <a class="spell" href="/spells/70">Whirlwind</a>.</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/substitution.png" class="scen_setup"></td>
+            <td><p><span class="setup_suggestion">Substitution:</span> <br />
+            The <a class="tile" href="/tiles/72">Warlock</a> can substitute for Xaltotun.</p></td>
+            <td></td>
+          </tr>
+        </table>',
+
+      tile1: 176,
+      tile2: 159,
+      tile3: 155,
+      tile4: 175,
+      tile5: 159,
+      tile6: 1,
+      tile7: 0,
+      tile8: 0,
+
+      life1: 0,
+      life2: 13,
+      life3: 4,
+      life4: 0,
+      life5: 0,
+      life6: 0,
+      life7: 0,
+      life8: 0,
+
+      special_rules: '<p><span class="special_title">Aura of Mitra:</span> To activate the
+      <a class="tile" href="/tiles/158">Manifestation of Mitra</a> as an Ally (using normal Ally rules)
+      or use the Guard action for the Manifestation of Mitra, a Hero must have Spell Caster and
+        be in the area with the energy marker <img src="/assets/tokens/energyToken.png" class="scen_token" /> .
+        Only one Hero may activate the Manifestation of Mitra per turn.</p>
+
+        <p><span class="special_title">Divine Fury:</span>
+        The Hero activating the Manifestation of Mitra can use its Wall Wrecker skill
+        (spending gems as necessary) to attack the Manifestation of Yog. Roll the Manifestation
+        of Mitra’s Attack dice. Each die with at least 2 symbols deducts 1 point from the
+        Manifestation of Yog’s amor value. Then the Hero moves the Manifestation of Yog into
+        an adjacent area of their choice, regardless of the damage.</p>
+
+        <p><span class="special_title">Ethereal Attack:</span>
+        Once per turn, the Manifestation of Yog can use its intangible skill to attack the
+        Manifestation of Mitra when moving into or out of an area with the Manifestation of Mitra.
+        Roll the Manifestation of Yog’s Attack dice. Each die with at least 2 symbols deducts 1
+        from the Manifestation of Mitra’s Armor value. Then the Overlord moves Manifestation of Mitra
+        into an adjacent area of their choice, regardless of the damage.</p>
+
+        <p><span class="special_title">Staggering Gods:</span>
+        When a Manifestation is forced into a parapet area marked
+        <img src="/assets/tokens/areaPToken.png" class="scen_token" />
+        by another Manifestation, place
+        a Boulder <img src="/assets/tokens/rocksToken.png" class="scen_token" /> token in the area.
+        It is now considered a Rockslide area. Only 1 <img src="/assets/tokens/rocksToken.png" class="scen_token" />
+        can be placed in the area. Place a Wrecked Wall <img src="/assets/tokens/brokenWallToken.png" class="scen_token" />
+        token on any courtyard wall, door, tower wall border that was crossed.</p>
+
+        <p><span class="special_title">Guard Action:</span>
+        The Overlord and the Hero commanding a Manifestation may spend gems to Guard against
+        damage to their Manifestation’s Armor value. During a Guard action, each die that shows
+        2 symbols reduces the amount of Armor damage received by 1.</p>
+
+        <p><span class="special_title">Fortified Doors:</span>
+        Door cost 1 extra movement point to move through. Remove the door token after it is
+        moved through.</p>
+
+        <p><span class="special_title">There’s nothing in the Universe that cold steel won’t cut:</span>
+        A Manifestation cannot be damaged until its Armor value has been reduced to 0. At that point,
+        reset its Amor value to 2 and now it may be damaged normally by any unit.</p>
+
+        <p><span class="special_title">Yog’s Hunger:</span>
+        Damage from Yog’s Hunger directly reduces the Manifestation of Mitra’s Armor value by
+        the number of symbols rolled.</p>
+
+        <p><span class="special_title">Rock Slides:</span>
+        A character can move into a rock slide area
+        <img src="/assets/tokens/rocksToken.png" class="scen_token" /> from an
+        adjacent area. The character must spend 2 extra movement points unless
+        the character has <a class="skill" href="/skills/19">Climb</a>.</p>
+
+        <p><span class="special_title">Chest:</span>
+        During setup, the Overlord places 4 chests on the board as indicated by
+        the setup diagram. The asset deck contains:
+        2&nbsp;<a class="item" href="/items/136">Heavy Spear</a>,
+        2&nbsp;<a class="item" href="/items/133">Conan’s Great Sword</a>,
+        1&nbsp;<a class="item" href="/items/139">Spiked Mace</a>,
+        1&nbsp;<a class="item" href="/items/135">Khitan Staff</a>.</p>',
+
+      hero_victory: '',
+      overlord_victory: '',
+
+      origin: "Tome of Skelos",
+      product_ids: [1, 23, 25],
+      map_ids: [4],
+      hero_ids: [3, 38, 41],
+      tile_ids: [1, 17, 155, 158, 159, 166, 175, 176],
+      spell_ids: [7, 10, 68, 70, 71, 72],
+      item_ids: [4, 85, 10, 18, 133, 135, 136, 137, 139] },
+
+
+      # The Devil Take That Woman
+    { name: "The Devil Take that Woman",
+      description: "<p>The doomed crew had made a bold stand. They lay, feathered thoroughly with
+      pirate arrows. Heavily armed mercenaries and port thugs were boarding the sinking ship
+      ready to claim their prize; a stowaway Vendhyan princess.</p>
+      <p>Conan and his companions had embarked on a ship sailing from Ahgrapur and, not
+      two days into the voyage, the stowaway was discovered. She told a harrowing tale of
+      escaping the relentless advances of a petty noble, the satrap of an insignificant
+      city state.</p>
+      <p>The princess fled, using her jewelry and her charm to reach Ahgrapur. Out of jewels
+      and out of ideas she had stolen onto the ship only to be discovered amidst the cargo.
+      Shortly thereafter black sails appeared on the horizon. A slaver’s ship, out of Khawarism,
+      in dogged pursuit.</p>
+      <p>The jilted suitor had spent enough money, or enough sorcery, to convince these sea dogs
+      to spill their lives in his service. Their glazed eyes strongly suggested sorcery.</p>
+      <p>Conan quickly realized the pirates’ objective; the princess. He wrenched his sword free
+      from a twitching pirate corpse and cursed; “The devil take that woman and my blade will take
+      the rest!” </p>",
+
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Devil+Take+that+Woman.jpg",
+      pdf_link: '',
+      player_count: "4",
+      complexity: "1",
+
+      hero_goal: "The Heroes win if the Princess is on the ship that the Heroes start the game on at
+      the end of turn 6. <br /><br />
+      The Princess wins if she is in a water area at the end of turn 6. She is equally disgusted with both sides.",
+
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><h4>3</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ConanthePirateToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/39">Conan the Pirate</a>
+            (<a class="item" href="/items/133">Conan’s Great Sword</a>,
+              <a class="item" href="/items/19">Buckler</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/BelitToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/1">Bêlit</a>
+            (<a class="item" href="/items/140">Zamorian Chain</a>,
+              <a class="item" href="/items/137">Nemedian Poniard</a>,
+              <a class="item" href="/items/16">Chain Mail</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/4">Shevatas</a>
+            (<a class="item" href="/items/134">Cutlass</a>,
+            <a class="item" href="/items/13">Throwing Knives</a>)
+          </td>
+          <td></td>
+        </tr>
+      </table>
+      <table class="scen_table">
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/substitution.png" class="scen_setup"></td>
+          <td><p><span class="setup_suggestion">Substitutions:</span> <br />
+          <a class="hero" href="/heroes/7">Valeria</a> or
+          <a class="hero" href="/heroes/9">Amboola</a> can substitute for Bêlit.<br />
+          <a class="hero" href="/heroes/46">Zenobia</a> can substitute for Shevatas.</p></td>
+          <td></td>
+        </tr>
+      </table>
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each hero moves 0 gems from their Reserve zone to their Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
+
+      overlord_goal: "The Overlord wins if the Princess is on the ship that Skuthus starts
+      the game on at the end of turn 6.",
+
+      overlord_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the Overlord’s turn.  The heroes start in the areas
+          indicated by the setup diagram.</td>
+          <td></td>
+        </tr>
+      </table>
+
+        <table class="scen_table">
+          <tr>
+            <td><img src="/assets/tokens/redGem.png" class="scen_token" /></td>
+            <td>The Overlord starts with 3 gems in their Reserve zone and 7 in their
+            Fatigue zone, and places the recovery token showing a recovery value
+            of “5” in the Book Skelos.</td>
+            <td></td>
+          </tr>
+        </table>
+        <table class="scen_table">
+          <tr>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><p>When an event tile is activated the Overlord resolves the following event:</p>
+              <p><span class="setup_suggestion">Reinforcement:</span> The Overlord gains 3 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
+            </td>
+            <td></td>
+          </tr>
+        </table>
+        <table class="scen_table">
+          <tr>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/SkuthusToken.png" class="scen_setup"></td>
+            <td><a class="tile" href="/tiles/5">Skuthus</a> has the following Spells:
+            <a class="spell" href="/spells/15">Telekinesis</a> and <a class="spell" href="/spells/8">Mind Control</a>.</td>
+            <td></td>
+            </tr>
+          <tr>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/substitution.png" class="scen_setup"></td>
+            <td><p><span class="setup_suggestion">Substitution:</span> <br />
+            The Overlord may substitute <a class="tile" href="/tiles/63">Khemsa</a> (with 7 Life Points) for Skuthus.</p></td>
+            <td></td>
+          </tr>
+        </table>',
+
+      tile1: 30,
+      tile2: 170,
+      tile3: 177,
+      tile4: 5,
+      tile5: 1,
+      tile6: 0,
+      tile7: 0,
+      tile8: 0,
+
+      life1: 0,
+      life2: 6,
+      life3: 0,
+      life4: 4,
+      life5: 0,
+      life6: 0,
+      life7: 0,
+      life8: 0,
+
+      special_rules: '<p><span class="special_title">Set Up:</span> Place 3 Wrecked
+        Wall tokens and Anchor equipment card on the as indicated on the set-up diagram.
+        Place the Princess tile on the table for reference.</p>
+
+        <p><span class="special_title">Princess:</span> On the Heroes’ turn, a player may
+        move the Princess using the movement points listed on her tile if there are no
+        Overlord units in her area. Her movement may not be increased by a Movement Bonus.
+        <b>The Princess may never be attacked</b>.</p>
+
+        <p><span class="special_title">Rescuing the Princess:</span> A Hero in the same area
+        as the Princess may use a simple manipulation to pick her up and carry her. Give the
+        Princess’ Life Point token to the Hero that is carrying her. The Princess has an
+        encumbrance value of 3.</p>
+
+        <p><span class="special_title">Capturing the Princess:</span> Whenever an Overlord unit
+         moves into the Princess’ area, The Princess is automatically captured and is immediately
+         moved along with the Overlord unit. If a Hero was carrying the Princess, they must give
+         her life point token to the Overlord.</p>
+
+        <p><span class="special_title">Leap:</span> Any character with the <a class="skill" href="/skills/16">Leap</a>
+        skill may move the Princess with them when they perform a Leap. If a character fails their
+        Leap, place them (and the Princess, if they were carrying her) into the area that they were
+        trying to Leap across.</p>
+
+        <p><span class="special_title">Telekinesis:</span> Skuthus can use Telekinesis to move the
+        Princess, even if she is being carried, into any area adjacent to her present position or
+        to move the Princess across a Leap area.</p>
+
+        <p><span class="special_title">Elite Ballista:</span> When the Elite Ballista attacks place
+        a Wall Wrecker token in the ship area of the Hero that was targeted.</p>
+
+        <p><span class="special_title">Wall Wrecker Tokens:</span> An area with a Wall Wrecker token
+        does not cost extra to move into, however it costs 2 extra movement points to leave. If a
+        character has Swimming it only costs 1 extra movement point. A character may also use their
+        Leap (1) skill to move across the area. Only 1 Wall Wrecker token may be in any area. Wall
+        Wrecker tokens are not limited to those available; use other tokens as needed.
+        </p>
+
+        <p><span class="special_title">Water Areas:</span> The Water areas around the Ships do
+        not cost extra to move into, however it costs 2 extra movement points to move out of. If a
+        character has the Swim skill it only costs 1 extra movement point. The Princess can be moved
+        into a Water area.</p>
+
+        <p><span class="special_title">Chests:</span>
+        The asset deck contains: <a class="item" href="/items/143">Spiked Shield</a>
+        and 3&nbsp;<a class="item" href="/items/22">Life Potion</a>.</p>',
+
+      hero_victory: '',
+      overlord_victory: '',
+
+      origin: "Tome of Skelos",
+      product_ids: [1, 23, 25],
+      map_ids: [3],
+      hero_ids: [1, 4, 39],
+      tile_ids: [1, 5, 30, 170, 177],
+      spell_ids: [8, 15],
+      item_ids: [13, 16, 19, 22, 44, 103, 133, 134, 137, 140, 143] },
+
+
+      # The Riddle Of Diplomacy
+    { name: "The Riddle of Diplomacy",
+      description: "<p>“Before Arus, well-meaning servant of Mitra, came unto the Picts
+      there existed no word for “subtlety” in the Pictish tongue.” - The Nemedian Chronicles</p>
+      <br />
+      <p>Gorm and his tribal warriors have traveled down the Black River into the Zingaran borderland.
+      The Pict leader is young and fierce, but his heart desires iron weapons, for such a thing would
+      surely secure his hold on power. In some unnamed town, he lurks outside a ramshackle inn with
+      three highly trained mercenaries on a special mission: kidnap a Cimmerian who is said to have
+      knowledge of weaponsmithing.</p>
+      <p>Gorm learned of the weaponsmith from another Cimmerian, a wanderer looking to make a quick
+      handful of coins. To aid them in capturing the man alive, Gorm enlisted the aid of another
+      mercenary, a devotee of a mysterious sect specializing in unarmed combat. The final mercenary,
+      a woman claiming royal blood who rebelled against the pampered life to become a rogue, had
+      already entered the inn, promising to persuade the Cimmerian to come willingly or sedate him
+      if that failed.</p>
+      <p>“Where is the signal?” Gorm growled, fingering his mace.</p>
+      <p>“Patience, Gorm,” the warrior replied. “She has only been inside a moment.”</p>
+      <p>“The woman takes too long - we take what we want, NOW!” With a roar, the Pictish chief
+      charged the door, shattering it inwards to the surprise of the pirates gathered therein, and
+      to the dismay of Octavia among then, separated from her allies.</p>",
+
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Riddle+of+Diplomacy.jpg",
+      pdf_link: '',
+      player_count: "5",
+      complexity: "2",
+
+      hero_goal: "The Heroes win if they exit the board with Conan the Pirate alive, at the end of turn 7.",
+
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the heroes’ turn.  The heroes start in the areas
+          indicated by the setup diagram.</td>
+          <td></td>
+        </tr>
+      </table>
+      <table class="scen_table">
+        <tr>
+          <td><h4>4</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/GormToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/40">Gorm</a>
+            (<a class="item" href="/items/139">Spiked Mace</a>,
+              <a class="item" href="/items/14">Tribal Mace</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/BaalPteorConquerorToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/37">Baal-pteor</a>
+            (<a class="item" href="/items/145">Caestus</a>,
+              <a class="item" href="/items/19">Buckler</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>
+            <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ThalisToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/43">Octavia </a>
+            (<a class="item" href="/items/134">Cutlass</a>,
+              <a class="item" href="/items/137">Nemedian Poniard</a>)
+          </td>
+          <td></td>
+          </tr>
+          <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ConanToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/2">Conan </a>
+            (<a class="item" href="/items/4">Conan’s Sword</a>,
+              <a class="item" href="/items/140">Zamorian Chain</a>)
+          </td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each hero moves 4 gems from their Reserve zone to their Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
+
+      overlord_goal: "The Overlord wins if Conan the Pirate is still on the game board at
+      the end of turn 7 OR if all the Heroes are dead by the end of turn 7.",
+
+      overlord_setup: '
+        <table class="scen_table">
+          <tr>
+            <td><img src="/assets/tokens/redGem.png" class="scen_token" /></td>
+            <td>The Overlord starts with 7 gems in their Reserve zone and 5 in their
+            Fatigue zone, and places the recovery token showing a recovery value
+            of “5” in the Book Skelos.</td>
+            <td></td>
+          </tr>
+        </table>
+        <table class="scen_table">
+          <tr>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><p>When an event tile is activated the Overlord resolves the following event:</p>
+              <p><span class="setup_suggestion">Reinforcement:</span> The Overlord gains 4 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
+            </td>
+            <td></td>
+          </tr>
+        </table>',
+
+      tile1: 31,
+      tile2: 178,
+      tile3: 7,
+      tile4: 1,
+      tile5: 166,
+      tile6: 30,
+      tile7: 177,
+      tile8: 150,
+
+      life1: 0,
+      life2: 0,
+      life3: 10,
+      life4: 0,
+      life5: 0,
+      life6: 0,
+      life7: 0,
+      life8: 10,
+
+      special_rules: '<p><span class="special_title">Take Him Alive:</span> Conan the
+      Pirate represents the Cimmerian weaponsmith. Conan the Pirate may be damaged as
+      normal until his final life point, which must be dealt via unarmed combat to render
+      him unconscious. If not, the Heroes fail. Once unconscious, a Hero may pick him up
+      with a simple Manipulation. Conan the Pirate’s encumbrance value is 6.</p>
+
+      <table class="rules_table table_left">
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/HaunterofthePits.jpg" class="rules_token"><br />
+          6&nbsp;<img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/HaunterofthePitsToken.png" class="scen_token"></td>
+          <td><span class="special_title">Bestial Invasion:</span> The Haunter of the Pits,
+          captured by the pirates for a Zingaran collector of rare wildlife, is agitated by
+          the sounds of battle. At the beginning of every Overlord turn, before any other
+          action, he will attack the interior door. Only reroll blank results. The door has
+          1 armor and 5 life points.<br />
+          At the start of every Overlord turn after the door is destroyed, the Overlord and
+          one of the Players rolls <img src="/assets/dice/Red.png" class="scen_sq_token" />
+          with no rerolls allowed. The highest result wins
+          (ties go to the Overlord) and controls the Haunter until the beginning of the next
+          Overlord turn. For the entire round, the Haunter of the Pits acts a unit for its
+          controller.<br />
+          The Haunter of the Pits activation does not count toward normal activations for the
+          Overlord and does not require any gem expenditure to activate as an Ally. Neither side
+          may spend gems on Bonuses/Benefits (Movement, Guard, or Rerolls).</td>
+        </tr>
+      </table>
+
+      <table class="rules_table table_right">
+        <tr>
+          <td><span class="special_title">Jhebbal Sag’s Song:</span> The
+          <img src="/assets/tokens/numBackToken.png" class="scen_token" /> token denotes a beast hide
+          strung up on stakes by the wall. This beast hide was the Haunter’s mate, but was killed
+          for sport. A Hero may perform a complex Manipulation with a difficulty of 2 to take the
+          hide and wear it. Give this player the Mantle of Gullah equipment card. A Hero wearing
+          the Mantle of Gullah may perform a complex Manipulation with a difficulty of 2 to create
+          grunting sounds that will allow the player to control the Haunter of the Pits for the
+          round; this must be done at the start of every Overlord turn before any other action.
+          The Hero’s stance does not matter for this action and line of site is not required. If
+          the complex Manipulation is failed, proceed to the die roll for control.</td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/MantleofGullah.jpg" class="rules_token"></td>
+        </tr>
+      </table>
+
+        <p><span class="special_title">Game Board Rules:</span> Standard game board rules
+        apply, including the table and bar rule (see game board rules). In addition, the
+        red door cannot be opened by any means.</p>
+
+        <p><span class="special_title">Doors:</span> A unit may spend 1 movement point to
+        open the door to the rooms that contain the pirates.</p>
+
+        <p><span class="special_title">Chests:</span>
+        The asset deck contains:
+        2&nbsp;<a class="item" href="/items/22">Life Potions</a>,
+        1&nbsp;<a class="item" href="/items/13">Throwing Knives</a>,and
+        1&nbsp;<a class="item" href="/items/20">Shield</a>.</p>',
+
+      hero_victory: '',
+      overlord_victory: '',
+
+      origin: "Tome of Skelos",
+      product_ids: [1, 23, 25],
+      map_ids: [2],
+      hero_ids: [2, 37, 40, 43],
+      tile_ids: [1, 7, 30, 31, 150, 166, 177, 178],
+      spell_ids: [],
+      item_ids: [4, 85, 13, 14, 19, 20, 22, 44, 103, 134, 137, 139, 140, 145] },
+
+
+      # Corruption Of The Phoenix
+    { name: "Corruption of the Phoenix",
+      description: "<p>Vile sorcery has transformed the emblem of the immortal phoenix,
+      which broods forever over the tomb of Epemitreus, into an encircling serpent,
+      causing darkness to fall across the civilized kingdoms.</p>
+      <p>The once pure idols of Holy Mitra have been animated and bent to the evil will
+      of the serpent god, Set. Hundreds of priests and worshipers fell to these monstrous
+      statues.</p>
+      <p>After escaping one such attack while worshiping, the Nemedian priestess Octavia
+      received a vision from Mitra, telling her to venture to the black heart of Mount
+      Golamira and slay the avatar of the corrupted idol and the sorcerer whose magic
+      keeps it alive. Calling on her friend Conan and a few allies, Octavia now makes
+      hates to Aquilonia to halt the effects of the spell before the dark magic of a
+      lunar eclipse renders the spell permanent.</p>",
+
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Corruption+of+the+Phoenix.jpg",
+      pdf_link: '',
+      player_count: "5",
+      complexity: "1",
+
+      hero_goal: "The Heroes win the game if Xaltotun and the corrupted Manifestation of
+      Mitra are killed by the end of turn 8.",
+
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the heroes’ turn. The heroes start in the areas
+          indicated by the setup diagram.</td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><h4>4</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ConanthePirateToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/39">Conan the Pirate</a>
+            (<a class="item" href="/items/132">Atlantean Axe</a>,
+              <a class="item" href="/items/16">Chain Mail</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/BaalPteorConquerorToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/37">Baal-pteor</a>
+            (<a class="item" href="/items/12">Sword</a>,
+              <a class="item" href="/items/138">Net</a>,
+              <a class="item" href="/items/17">Leather Armor</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ThalisToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/43">Octavia </a>
+            (<a class="item" href="/items/142">Stygian Cloak</a>,
+              <a class="item" href="/items/134">Cutlass</a>,
+              <a class="item" href="/items/3">Dagger</a>,
+              <a class="item" href="/items/13">Throwing Knives</a>,)
+          </td>
+          <td></td>
+          </tr>
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/NYagaToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/41">N’Yaga </a>
+            (<a class="item" href="/items/11">Parrying Dagger</a>,
+              <a class="item" href="/items/29">Stygian Artifact</a>,
+            <a class="spell" href="/spells/10">Mitra’s Healing</a>,
+            <a class="spell" href="/spells/71">Ymir’s Retribution</a>,
+            <a class="spell" href="/spells/70">Whirlwind</a>)
+          </td>
+          <td></td>
+        </tr>
+      </table>
+      <table class="scen_table">
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/substitution.png" class="scen_setup"></td>
+          <td><p><span class="setup_suggestion">Substitutions:</span><br />
+            <a class="hero" href="/heroes/30">Conan the Thief</a> or
+            <a class="hero" href="/heroes/14">Conan the Warlord</a> can substitute for Conan the Pirate.<br />
+            <a class="hero" href="/heroes/17">Olgerd Vladislav</a> can substitute for Baal-pteor.<br />
+            <a class="hero" href="/heroes/32">Valeria Warrior </a> can substitute for Octavia.</p>
+          </td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each hero moves 5 gems from their Reserve zone to their Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
+
+      overlord_goal: "The Overlord wins if Xaltotun and the corrupted Manifestation of
+      Mitra are still alive by the end of turn 8.",
+
+      overlord_setup: '
+        <table class="scen_table">
+          <tr>
+            <td><img src="/assets/tokens/redGem.png" class="scen_token" /></td>
+            <td>The Overlord starts with 4 gems in their Reserve zone and 8 in their
+            Fatigue zone, and places the recovery token showing a recovery value
+            of “5” in the Book Skelos.</td>
+            <td></td>
+          </tr>
+        </table>
+        <table class="scen_table">
+          <tr>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><p>When an event tile is activated the Overlord resolves the following event:</p>
+              <p><span class="setup_suggestion">Reinforcement:</span> The Overlord gains 4
+              reinforcement points<img src="/assets/stats/reinforcement.png" class="scen_token" /> .
+              Reinforced Deep Ones spawn in the area with the well <img src="/assets/tokens/wellToken.png" class="scen_token" /> .
+              Reinforced Ghouls and Khitan Acolytes spawn as normal.</p>
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/XaltotunToken.png" class="scen_setup"></td>
+            <td><a class="tile" href="/tiles/155">Xaltotun</a> has the following Spells:
+            <a class="spell" href="/spells/12">Set’s Bite</a>,
+            <a class="spell" href="/spells/13">Set’s Halo</a>, and
+            <a class="spell" href="/spells/3">Energy Drain</a>.</td>
+            <td></td>
+          </tr>
+        </table>',
+
+      tile1: 171,
+      tile2: 155,
+      tile3: 168,
+      tile4: 175,
+      tile5: 1,
+      tile6: 158,
+      tile7: 0,
+      tile8: 0,
+
+      life1: 0,
+      life2: 4,
+      life3: 0,
+      life4: 0,
+      life5: 0,
+      life6: 12,
+      life7: 0,
+      life8: 0,
+
+      special_rules: '<p><span class="special_title">Altars:</span> A Hero holding
+      the Stygian Artifact in an area with an altar token
+      <img src="/assets/tokens/numBackToken.png" class="scen_token" /> may attempt a
+      complex Manipulation with a difficulty of 1 to destroy the altar. Place the token
+      on the Manifestation of Mitra’s tile. For each token on the Manifestation of Mitra,
+      reduce its Armor by 2.</p>
+
+        <p><span class="special_title">Doors (Heroes):</span> All doors require a
+        complex Manipulation with a difficulty of 2 (or Wall Wrecker) to open.</p>
+
+        <p><span class="special_title">Doors (Overlord):</span> All doors require
+        one additional movement point to move through. <b>Do not remove the door</b>.</p>
+
+        <p><span class="special_title">Poison:</span> When attacked by a Deep One,
+        instead of suffering damage as usual, a Hero must place a number of poison
+        tokens <img src="/assets/tokens/poisonToken.png" class="scen_token" />
+        equal to the amount of damage on the Melee Attack or the Move space
+        of their Hero’s sheet. Each poison on an action space reduces by 1 the exertion
+        limit of that action. When both exertion limits are reduced to zero, that
+        Hero immediately dies. If additional poison tokens are needed, you can use
+        any other token to represent them.</p>
+
+        <p><span class="special_title">Life Potions:</span> When consuming a  life
+        Potion, the Hero may choose to either remove all poison tokens on their Hero
+        sheet or recover gems as usual.</p>
+
+        <p><span class="special_title">Game Bord Rules:</span> Standard game board
+        rules apply.</p>
+
+        <p><span class="special_title">Chests:</span>
+        Chests require a complex Manipulation with a difficulty of 1 to open.
+        The asset deck contains:
+        <a class="item" href="/items/135">Khitan Staff</a>,
+        <a class="item" href="/items/136">Heavy Spear</a>,
+        <a class="item" href="/items/5">Crossbow</a>,
+        <a class="item" href="/items/22">Life Potion</a>.</p>',
+
+      hero_victory: '',
+      overlord_victory: '',
+
+      origin: "Tome of Skelos",
+      product_ids: [1, 23, 25],
+      map_ids: [4],
+      hero_ids: [37, 39, 41, 43],
+      tile_ids: [1, 155, 158, 168, 171, 175],
+      spell_ids: [3, 10, 12, 13, 66, 70, 71],
+      item_ids: [3, 5, 11, 87, 12, 91, 13, 16, 17, 77, 97, 22, 44, 103, 29, 132, 134, 135, 136, 138, 142] },
+
+
+      # Shadow From Acheron
+    { name: "Shadow from Acheron",
+      description: "<p>N’Yaga, once a companion of Conan’s, has awakened an ancient
+      evil by meddling with the Heart of Ahriman. Now, he is in the thrall of Xaltotun
+      and must help the ancient Pythonian in his quest for vengeance. Accompanied by
+      Baal-pteor and Shevatas from beyond the grave, this group of once-dead villains
+      enter the forbidden temple of Asura to kill Hadrathus and exact their revenge.</p>
+      <p>Hadrathus knows the deadly power held within that glowing gem, and magically
+      seals himself in his chambers. From there, he coordinates the temple’s traps and
+      defenses while the high priestess and her faithful acolytes fend off the intruders.</p>",
+
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Shadow+from+Acheron.jpg",
+      pdf_link: '
+      <p><strong>Xaltotun [...] 2 Bossonian Guards (Blue), 2 Bossonian Guards (Red):</strong>
+      The Guards’ colour has no influence in this scenario; the standard Allies rules apply.</p>
+      <p><strong>Doors:</strong> An Overlord unit moved by a Hero via Mind Control spell cannot
+      open a door for 1 extra movement point as if it were controlled by the Overlord</p>
+      <p><strong>Khitan Acolytes / Attack from Beyond:</strong> A unit that uses the Attack from Beyond
+      skill can do so against any unit within Melee range, regardless of the cause of its death (it may
+      have been killed by an enemy miniature, by a fall, or any other cause). This applies to all scenarios,
+      unless otherwise specified</p>',
+      player_count: "5",
+      complexity: "2",
+
+      hero_goal: "The Heroes win if Xaltotun enters the room containing Hadrathus while
+      in possession of the Stygian Artifact (Heart of Ahriman) before the end of turn 7.",
+
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the heroes’ turn. The heroes start in the areas
+          indicated by the setup diagram.</td>
+          <td></td>
+        </tr>
+      </table>
+      <table class="scen_table">
+        <tr>
+          <td><h4>4</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/XaltotunToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/45">Xaltotun </a>
+            (<a class="item" href="/items/29">Stygian Artifact</a>,
+              <a class="item" href="/items/11">Parrying Dagger</a>,
+              <a class="spell" href="/spells/13">Set’s Halo</a>,
+              <a class="spell" href="/spells/8">Mind Control</a>),
+              2&nbsp;<a class="tile" href="/tiles/18">Bossonian Guards (Blue)</a>,
+              2&nbsp;<a class="tile" href="/tiles/22">Bossonian Guards (Red)</a>
+          </td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/BossonianGuardsBlue.jpg" class="scen_event">
+          <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/BossonianGuardsRed.jpg" class="scen_event"></td>
+        </tr>
+        <tr>
+        <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/BaalPteorConquerorToken.png" class="scen_setup"></td>
+        <td>
+          <a class="hero" href="/heroes/37">Baal-pteor</a>
+          (<a class="item" href="/items/16">Chain Mail</a>,
+            <a class="item" href="/items/130">Akbitanan Sword</a>)
+        </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/4">Shevatas</a>
+            (<a class="item" href="/items/17">Leather Armor</a>,
+              <a class="item" href="/items/134">Cutlass</a>,
+            <a class="item" href="/items/137">Nemedian Poniard</a>,
+            <a class="item" href="/items/13">Throwing Knives</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/NYagaToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/41">N’Yaga </a>
+            (<a class="item" href="/items/14">Tribal Mace</a>,
+              <a class="spell" href="/spells/10">Mitra’s Healing</a>,
+              <a class="spell" href="/spells/70">Whirlwind</a>,
+              <a class="spell" href="/spells/72">Yog’s Hunger</a>)
+          </td>
+          <td></td>
+        </tr>
+      </table>
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each hero moves 5 gems from their Reserve zone to their Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
+
+      overlord_goal: "The Overlord wins if Xaltotun is prevented from entering the
+      room containing Hadrathus while in possession of the Stygian Artifact (Heart
+      of Ahriman) until the end of turn 7 <b>OR</b> Xaltotun is killed before the end
+      of turn 7.",
+
+      overlord_setup: '
+        <table class="scen_table">
+          <tr>
+            <td><img src="/assets/tokens/redGem.png" class="scen_token" /></td>
+            <td>The Overlord starts with 6 gems in their Reserve zone and 6 in their
+            Fatigue zone, and places the recovery token showing a recovery value
+            of “5” in the Book Skelos.</td>
+            <td></td>
+          </tr>
+        </table>
+        <table class="scen_table">
+          <tr>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
+
+            <td><p>When an event tile is activated the Overlord resolves any one of the following events:</p>
+              <p><span class="setup_suggestion">Reinforcement:</span> The Overlord gains 4 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
+
+              <p><span class="setup_suggestion">Collapse:</span> Rubble falls from the ceiling,
+              dealing <img src="/assets/dice/Orange-Reroll.png" class="scen_sq_token" />
+              <img src="/assets/dice/Orange-Reroll.png" class="scen_sq_token" />
+              <img src="/assets/dice/Orange-Reroll.png" class="scen_sq_token" />
+              damage to everyone in the area. The area now
+              requires 1 extra movement point to enter and exit for anyone without Climb. Use
+              a Boulder token to mark these areas. The Overlord has 3 tokens to use.</p>
+              <img src="/assets/tokens/rocksToken.png" class="scen_token" />
+              <img src="/assets/tokens/rocksToken.png" class="scen_token" />
+              <img src="/assets/tokens/rocksToken.png" class="scen_token" />
+
+              <p><span class="setup_suggestion">Barricade:</span> A barricade token falls
+              from the ceiling that blocks movement and lines of sight until it is destroyed
+              or opened via Wall Wrecker. Place a barricade token on the border of any area
+              or doorway. Barricades extend across the entire border, no matter how long,
+              and never cover more than one border, no matter how short. Barricades have 2
+              armor, 4 health, and are removed from the game when destroyed. The Overlord
+              has 3 tokens to use.</p>
+              <img src="/assets/tokens/barricade.png" class="barricade_token" />
+              <img src="/assets/tokens/barricade.png" class="barricade_token" />
+              <img src="/assets/tokens/barricade.png" class="barricade_token" />
+
+              <p><span class="setup_suggestion">Animated Statue of Asura:</span> Add the Manifestation
+              of Mitra tile to the end of the River. It may now be activated.</p>
+            </td>
+            <td></td>
+          </tr>
+        </table>',
+
+      tile1: 175,
+      tile2: 1,
+      tile3: 176,
+      tile4: 2,
+      tile5: 6,
+      tile6: 181,
+      tile7: 158,
+      tile8: 0,
+
+      life1: 0,
+      life2: 0,
+      life3: 0,
+      life4: 0,
+      life5: 1,
+      life6: 0,
+      life7: 15,
+      life8: 0,
+
+      special_rules: '<p><span class="special_title">Hadrathus:</span> Hadrathus does
+      not activate or move.</p>
+
+        <p><span class="special_title">Thalis:</span> When Thalis activates, she may
+        steal the Stygian Artifact from anyone in her area (or pick it up from the floor),
+        but she must immediately give it to an Acolyte in her area or adjacent area or
+        else she drops it. Fascination protects her from all spell effects.</p>
+
+        <p><span class="special_title">Climbing:</span>
+        A character with <a class="skill" href="/skills/19">Climb</a> can move
+        through an area with a Boulder token as though it were a normal area.</p>
+
+        <p><span class="special_title">Doors:</span> All doors require a complex
+        Manipulation with a difficulty of 4 (or Wall Wrecker) to open, except for
+        the door leading to Hadrathus, which can only be opened with the Key. Overlord
+        units can move through a door by removing it for 1 extra movement point.</p>
+
+        <p><span class="special_title">Manifestation of Mitra:</span> The Manifestation
+        of Mitra represents a statue of Asura. Until the statue is animated through
+        an event, it does not activate, cannot be harmed, and does not count toward
+        hindering.</p>
+
+        <p><span class="special_title">Acolytes:</span> Cannot trade or pick up the
+        Stygian Artifact, but may carry it if given by Thalis. If killed, an Acolyte
+        carrying the Stygian Artifact will drop it in the area where he was killed.</p>
+
+        <p><span class="special_title">Game Board Rules:</span> Standard game board
+        rules apply.</p>
+
+        <p><span class="special_title">Moving Through Secret Passages:</span></p>
+
+        <p><span class="special_title">Chests:</span>
+        The asset deck contains:
+        <a class="item" href="/items/24">Key</a>,
+        <a class="item" href="/items/23">Empty Chest</a>,
+        <a class="item" href="/items/22">Life Potion</a>.</p>',
+
+      hero_victory: '',
+      overlord_victory: '',
+
+      origin: "Tome of Skelos",
+      product_ids: [1, 23, 25],
+      map_ids: [15],
+      hero_ids: [4, 37, 41, 45],
+      tile_ids: [1, 2, 6, 18, 22, 158, 175, 176],
+      spell_ids: [8, 10, 13, 66, 70, 72],
+      item_ids: [11, 87, 13, 14, 16, 17, 77, 97, 22, 44, 103, 23, 24, 29, 130, 134, 137] },
+
+
+      # Ambush In Akanu
+    { name: "Ambush in Akanu",
+      description: "<p>The wizard Xaltotun has captured Korum-ta, the son of Gorm, a
+      powerful Pict chieftain, and is holding him hostage in exchange for the Panther
+      clan joining Xaltotun’s growing army. Angered beyond rage, Gorm did something no
+      Pictish chief had done before: he reached out to the king of Aquilonia to form
+      an alliance on condition that the Aquilonians help rescue Korum-ta.</p>
+      <p>King Conan and Queen Zenobia, eager for peace on their western front, travel
+      with their retinue to Akanu in the western region of the Bossonian Marches where
+      their spies indicated activity in an old abandoned fortress. Sure enough, they
+      find Korum-ta unguarded save for a mystical field of energy imprisoning him. </p>
+      <p>It isn’t long before Gorm arrives with his army of Pict hunters, and together
+      they attempt to solve the riddle of releasing Korum-ta. Just as Gorm’s scouts
+      call out their discovery of three altars in the fortress towers, beasts scale
+      the ramparts and slaughter all but those in the courtyard.</p>
+      <p>From the collapsed tower, Xaltotun’s voice echoes out. “Your disobedience has
+      cost me an army, Gorm, but gained me something better. Revenge! Conan, there will
+      be no escape this time!”</p>",
+
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Ambush+in+Akanu.jpg",
+      pdf_link: '
+      <p><strong>Game Board Rules:</strong> The Nameless Horror can stop on any area if it is alone on it. It can cross any un-occupied area
+      even if it is not alone on it (see Large Miniatures - Tome of Skelos p.3), and it has the Flying skill. It can stop
+      on an area with other miniatures , if the area is large enough to hold all of them ( see Occupied Areas –
+      Heroes’ Book p.22)</p>',
+      player_count: "5-6",
+      complexity: "2",
+
+      hero_goal: "The Heroes win if one or more Heroes have fled the Abandoned Fort
+      with Korum-ta before the end of turn 8.",
+
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><h4>4</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ConantheConquerorToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/38">Conan the Conqueror</a>
+            (<a class="item" href="/items/132">Atlantean Axe</a>,
+             <a class="item" href="/items/141">Mantle of Gullahr</a>,
+             <a class="item" href="/items/143">Spiked Shield</a>)
+          </td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/EliteBallista.jpg" class="scen_event"></td>
+        </tr>
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ZenobiaToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/46">Zenobia</a>
+            (<a class="item" href="/items/134">Cutlass</a>,
+             <a class="item" href="/items/17">Leather Armor</a>,
+             <a class="item" href="/items/13">Throwing Knives</a>)
+          </td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/BossonianGuards.jpg" class="scen_event"></td>
+        </tr>
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/GormToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/40">Gorm</a>
+            (<a class="item" href="/items/12">Sword</a>,
+             <a class="item" href="/items/139">Spiked Mace</a>,
+             <a class="item" href="/items/16">Chain Mail</a>)
+          </td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/PictHunters.jpg" class="scen_event"></td>
+        </tr>
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/HadrathusToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/3">Hadrathus </a>
+            (<a class="item" href="/items/11">Parrying Dagger</a>,
+            <a class="item" href="/items/142">Stygian Cloak</a>,
+            <a class="spell" href="/spells/72">Yog’s Hunger</a>,
+            <a class="spell" href="/spells/9">Mitra’s Halo</a>,
+            <a class="spell" href="/spells/68">Rending the Veil</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><span class="setup_suggestion">Allies</span><br />
+            (<a class="tile" href="/tiles/170">Elite Ballista</a>,
+              3&nbsp;<a class="tile" href="/tiles/17">Bossonian Guards</a>
+              3&nbsp;<a class="tile" href="/tiles/24">Pict Hunters</a>)
+          </td>
+          <td></td>
+        </tr>
+      </table>
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each hero moves 3 gems from their Reserve zone to their Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
+
+      overlord_goal: "The Overlord wins if Korum-ta remains in the Abandoned Fort at
+      the end of turn 8. A massive force of Ghouls overwhelm the Heroes.",
+
+      overlord_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the Overlord’s turn. The heroes start in the areas
+          indicated by the setup diagram.</td>
+          <td></td>
+        </tr>
+      </table>
+        <table class="scen_table">
+          <tr>
+            <td><img src="/assets/tokens/redGem.png" class="scen_token" /></td>
+            <td>The Overlord starts with 4 gems in their Reserve zone and 6 in their
+            Fatigue zone, and places the recovery token showing a recovery value
+            of “5” in the Book Skelos.</td>
+            <td></td>
+          </tr>
+        </table>
+        <table class="scen_table">
+          <tr>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><p>When an event tile is activated the Overlord resolves the following event:</p>
+              <p><span class="setup_suggestion">Reinforcement:</span> 6 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/XaltotunToken.png" class="scen_setup"></td>
+            <td><a class="tile" href="/tiles/155">Xaltotun</a> has
+            <a class="spell" href="/spells/69">Summon Demon</a> (Nameless Horror) and
+            <a class="spell" href="/spells/71">Ymir’s Retribution</a>.</td>
+            <td></td>
+          </tr>
+        </table>
+        <table class="scen_table">
+          <tr>
+            <td></td>
+            <td><span class="setup_suggestion">Dark Hero</span><br />
+              Once summoned, the <a class="hero" href="/heroes/42">Nameless Horror</a> is
+              controlled by either the Overlord or a sixth player. Use the Nameless Horror Hero
+              sheet rather than an Overlord tile. If the Nameless Horror is controlled by a sixth player,
+              that player is a member of the Overlord’s and shares the Overlord’s win
+              condition.
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+              <img src="https://drabelpdx.s3-us-west-2.amazonaws.com/Conan/heroes/NamelessHorrorSheet.jpg" class="scen_sheet">
+            </td>
+            <td></td>
+          </tr>
+        </table>',
+
+      tile1: 171,
+      tile2: 155,
+      tile3: 175,
+      tile4: 167,
+      tile5: 1,
+      tile6: 0,
+      tile7: 0,
+      tile8: 0,
+
+      life1: 0,
+      life2: 6,
+      life3: 0,
+      life4: 0,
+      life5: 0,
+      life6: 0,
+      life7: 0,
+      life8: 0,
+
+      special_rules: '<p><span class="special_title">Energy Prison:</span> Korum-ta
+      is imprisoned in an energy field <img src="/assets/tokens/energyToken.png" class="scen_token" />.
+      To remove the energy field, the Heroes must
+      release the three spells maintaining its power. To release a spell, a Hero must
+      be in the area of the spell’s source <img src="/assets/tokens/numBackToken.png" class="scen_token" />
+      and spend 1 gem on a simple Manipulation.
+      Once all three spells have been released, remove the energy field token and place
+      a Pict Hunter miniature with a red base in the area to represent Korum-ta.</p>
+
+        <p><span class="special_title">Korum-ta:</span> Korum-ta is unconscious, counts
+        as an object with an encumbrance value of 6, and can be picked up by a Hero
+        with a simple manipulation. Korum-ta has 2 life points, 1 armor, and cannot
+        be targeted while being carried.</p>
+
+        <p><span class="special_title">Summoning the Nameless Horror:</span> When
+        Xaltotun summons the Nameless Horror, place the model in Xaltotun’s area.
+        Whenever the Nameless Horror is summoned, it has all its gems in its Reserve
+        zone. The Nameless Horror is dismissed at the end of the round unless the
+        Overlord leaves 2 gems on the Summon Demon card. The Overlord can dismiss
+        the Nameless Horror at any time by moving those gems to the Fatigue zone.
+        If the Nameless Horror is dismissed or dies, it drops any objects it was
+        carrying in its area.</p>
+
+        <p><span class="special_title">Activating the Nameless Horror:</span> After
+        the Overlord finishes their turn each Round, the Nameless Horror takes its
+        turn. The Nameless Horror does not suffer the effects of unarmed penalty,
+        but may equip and use weapons like a Hero. The Nameless Horror does not recover
+        gems as normal. Instead, it must use a free action during its activation to
+        consume an Overlord-controlled minion it can access with its Reach skill.
+        Each minion consumed in this manner restores 1 gem from its Fatigue zone to
+        its Reserve zone. There is no limit to the number of times the Nameless Horror
+        can use this free action. Consumed minions may NOT use Attack from Beyond.
+        Remove consumed minions from the game board once eaten.</p>
+
+        <p><span class="special_title">Doors:</span> A Hero in an area adjacent to a
+        door can perform a complex Manipulation with a difficulty of 3 to pick the
+        lock. Overlord units may freely move through doors. In either case, whenever
+        any unit moves through a door, remove the door from the game board.</p>
+
+        <p><span class="special_title">Fleeing the Abandoned Fort:</span>
+        A hero can flee the Abandoned Fort from an area at the edge of the game board
+        by spending movement points as though moving across a border and removing the
+        Hero’s miniature from the game board. Once a Hero has fled, the Hero’s miniature
+        cannot be returned to the game board.</p>
+
+        <p><span class="special_title">Game Board Rules:</span> Standard game board rules
+        apply. Despite its base size, the Nameless Horror can fit into any area. Refer
+        to the Heroes’ Book or the Map clarification for Falling Damage if jumping from
+        the fort walls.</p>
+
+        <p><span class="special_title">Chests:</span>
+        The asset deck contains:
+        1&nbsp;<a class="item" href="/items/131">Anchor</a>,
+        1&nbsp;<a class="item" href="/items/135">Khitan Staff</a> and
+        1&nbsp;<a class="item" href="/items/137">Nemedian Poniard</a>.</p>',
+
+      hero_victory: '',
+      overlord_victory: '',
+
+      origin: "Tome of Skelos",
+      product_ids: [1, 23, 25],
+      map_ids: [4],
+      hero_ids: [3, 38, 40, 42, 46],
+      tile_ids: [1, 17, 24, 155, 167, 170, 171, 175],
+      spell_ids: [9, 68, 69, 71, 72],
+      item_ids: [11, 87, 12, 91, 13, 16, 17, 77, 97, 131, 132, 134, 135, 137, 139, 141, 142, 143] },
+
+
+
+      # ‘’
+      # “”
+      #Hidden Chambers
+      # Depths Of The Lost Citadel
+    { name: "Depths of the Lost Citadel",
+      description: "<p>The siren song of ancient treasure lured the crew of the Tigress
+      onto a fog shrouded cove. The fabled Citadel of Dagon brooded above, built into
+      the jagged cliffs. The ship suddenly struck a reef. Bêlit cursed. Obviously, a trap.
+      She should have been more cautious.</p>
+      <p>The crew worked into the night to free the ship. Suddenly, a hideous screech bellowed
+      out from above followed by a terrible flapping of wings. A hapless crewman cried out
+      and disappeared aloft, into the fog.</p>
+      <p>Bêlit and Conan quickly made for shore with a small, terrified crew. They tracked the
+      winged horror to a cliff side cave. A smooth, algae covered stairway led down and opened
+      up into a sprawling gallery. A foul temple of Dagon, reeking of sea creatures and leaking
+      pungent water from every crack in the ceiling. Oily torchlight flickered, reflecting off
+      the hijacked treasure of centuries of ships wrecked on the reefs. Forgetting the danger,
+      the crew gasped in astonishment and started toward the treasure.</p>
+      <p>“Caution fools!” Conan hissed, but it was too late. The crew wandered into the depths
+      of the citadel, filling their pouches with loot. It was then Conan noticed the bulbous fish
+      eyes peering at them from the dank corners of the temple. Then the screech of the Winged One
+      filled the gallery</p>
+      <p>Conan turned to flee the gallery. Bêlit shook off his hand clutching her wrist. The
+      madness of greed burned in the Pirate Queen’s eyes. She would not leave until she had enough
+      gold to pay her crew...or replace them.</p>",
+
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Depths+of+the+Lost+Citadel.jpg",
+      pdf_link: '',
+      player_count: "4-5",
+      complexity: "3",
+
+      hero_goal: "The Heroes win if they bring 9 points of treasure to their starting area OR
+      Baal-pteor is killed. <br />
+      <br /><br />
+      If both Heroes are killed and none of the above
+      conditions are met, the game ends in a tie.",
+
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the heroes’ turn.  The heroes start in the areas
+          indicated by the setup diagram.</td>
+          <td></td>
+        </tr>
+      </table>
+      <table class="scen_table">
+        <tr>
+          <td><h4>2</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ConanthePirateToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/39">Conan the Pirate</a>
+            (<a class="item" href="/items/134">Cutlass</a>,
+             <a class="item" href="/items/138">Net</a>,
+             <a class="item" href="/items/142">Stygian Cloak</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/BelitToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/1">Bêlit</a>
+            (<a class="item" href="/items/140">Zamorian Chain</a>,
+             <a class="item" href="/items/17">Leather Armor</a>,
+             <a class="item" href="/items/144">Dagon’s Circlet</a>)
+          </td>
+          <td></td>
+        </tr>
+      </table>
+      <table class="scen_table">
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/substitution.png" class="scen_setup"></td>
+          <td><p><span class="setup_suggestion">Substitutions:</span><br />
+            For thematic reasons you may wish to use the Heroes and Equipment cards
+            from the Brom Guest Box. In that case, use the substitution suggestions
+            below. In addition, both Heroes are considered to have the Leadership skill.
+            <ul>
+            <li><a class="hero" href="/heroes/30">Conan the Thief</a> (<a class="item" href="/items/86">Short Sword</a>,
+                         <a class="item" href="/items/138">Net</a>,
+                         <a class="item" href="/items/142">Stygian Cloak</a>)</li>
+            <li><a class="hero" href="/heroes/29">Bêlit, Queen of the Black Coast</a> (<a class="item" href="/items/140">Zamorian Chain</a>,
+                         <a class="item" href="/items/17">Leather Armor</a>,
+                         <a class="item" href="/items/144">Dagon’s Circlet</a>)</li>
+            </ul></p>
+          </td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each hero moves 4 gems from their Reserve zone to their
+          Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
+
+      overlord_goal: "The Overlord wins if 6 Pirates are sacrificed OR 1 Hero is
+      Constricted and killed by Baal-pteor.",
+
+      overlord_setup: '
+        <table class="scen_table">
+          <tr>
+            <td><img src="/assets/tokens/redGem.png" class="scen_token" /></td>
+            <td>The Overlord starts with 3 gems in their Reserve zone and 3 in their
+              Fatigue zone, and places the recovery token showing a recovery value
+              of “3” in the Book Skelos.</td>
+            <td></td>
+          </tr>
+        </table>
+        <table class="scen_table">
+          <tr>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td>
+              <p>When an event tile is activated the Overlord resolves the following event:</p>
+              <p><span class="setup_suggestion">Lurkers:</span> Reinforce 2 Deep Ones or 1 Deep
+              Champion
+              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
+
+              <p><span class="setup_suggestion">Water Rise:</span> Place a Water token in an
+              area adjacent to another Water token. Tokens are not limited to those available;
+              use any other token as needed.</p>
+
+              <p><span class="setup_suggestion">The Strangler:</span> Activate Baal-pteor.</p>
+            </td>
+            <td></td>
+          </tr>
+        </table>
+        <table class="scen_table">
+          <tr>
+            <td></td>
+            <td><span class="setup_suggestion">Dark Hero</span><br />
+              The Winged One is controlled by either the Overlord or a fourth player.
+              The Winged One starts in the area indicated by the setup diagram.
+              The Winged One follows the normal rules for a Hero but activates at
+              any point during the Overlord’s turn. The Winged One is considered an
+              Overlord unit and cannot attack Overlord Minions or pick up Treasure tokens.<br />
+              <ul>
+                <li>The Winged One (<a class="item" href="/items/145">Caestus</a>)</li>
+              </ul>
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+              <img src="https://drabelpdx.s3-us-west-2.amazonaws.com/Conan/heroes/WingedOneSheet.jpg" class="scen_sheet">
+            </td>
+            <td></td>
+          </tr>
+        </table>
+        <table class="scen_table">
+          <tr>
+            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+            <td>After setup, the Winged One moves 4 gems from its Reserve zone to its Fatigue zone.</td>
+            <td></td>
+          </tr>
+        </table>',
+
+      tile1: 168,
+      tile2: 169,
+      tile3: 148,
+      tile4: 1,
+      tile5: 0,
+      tile6: 0,
+      tile7: 0,
+      tile8: 0,
+
+      life1: 0,
+      life2: 1,
+      life3: 4,
+      life4: 0,
+      life5: 0,
+      life6: 0,
+      life7: 0,
+      life8: 0,
+
+      special_rules: '<p><span class="special_title">Treasure:</span> During setup, the Overlord
+      shuffles together four Treasure tokens <img src="/assets/tokens/chestToken.png" class="scen_token" />
+      with the number <img src="/assets/tokens/num1Token.png" class="scen_token" />
+      and four Treasure tokens with the number <img src="/assets/tokens/num2Token.png" class="scen_token" />
+      and randomly places the Treasure tokens as indicated on the setup diagram. A Hero must use a simple
+      Manipulation to pick up a Treasure token. A Treasure token’s encumbrance value and point value
+      are the number printed on them. A Treasure token may be dropped at any time and is placed in
+      the area if a character is killed.</p>
+
+        <p><span class="special_title">Game Board Rules:</span> Standard game board rules apply.
+        A unit may move between an area with a numbered Trap Door token
+        <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tokens/TrapDoor.jpg" class="scen_sq_token" />
+        and the corresponding Hidden
+        Chamber as if it were a normal border. A unit may move between the area that contains the
+        yellow-bordered trap door and ANY Hidden Chamber. These areas are considered adjacent and
+        have line of sight to each other. Leaving an area with a Water token
+        <img src="/assets/tokens/waterToken.png" class="scen_token" /> costs 2 extra movement
+        points to leave, 1 extra for a character with Swimming. Overlord units are not affected by
+        Water areas.</p>
+
+        <p><span class="special_title">Alchemy</span> The Winged One may move 1 gem from its Reserve
+        zone to its Wound zone to gain Evasive until the end of the Overlord’s turn.</p>
+
+        <p><span class="special_title">Door:</span> To open the door, a Hero must use the Wall
+        Wrecker skill on it. A Hero with Flying may cross the border with the Door token, but
+        do not remove the token.</p>
+
+        <p><span class="special_title">Water Traps:</span> When a Treasure token with the number
+        <img src="/assets/tokens/num2Token.png" class="scen_token" /> is flipped over, place a Water
+        token <img src="/assets/tokens/waterToken.png" class="scen_token" /> in the area.</p>
+
+        <p><span class="special_title">Greedy Pirates:</span> The Pirates are entranced by the
+        piles of treasure. They cannot activate or move, and do not count for hindering. Heroes
+        may only use Leadership for Guard actions, and only on pirates who are NOT already poisoned.</p>
+
+        <p><span class="special_title">Poison Skill:</span> When a Deep One or a Deep One Champion
+        kills a Pirate, do not remove it from the game. Instead, place a Poison token
+        <img src="/assets/tokens/poisonToken.png" class="scen_token" /> on it. Only
+        a Pirate with a Poison token may be picked up and carried by the Winged One.</p>
+
+        <p><span class="special_title">Demented Devotion:</span> All Overlord units are determined
+        to sacrifice to Dagon. They cannot attack a Hero until all the Pirates have Poison tokens.
+        If the Winged One is killed, the Overlord no longer has to poison the Pirates and may attack
+        the Heroes normally.</p>
+
+        <p><span class="special_title">Sacrifice of Dagon:</span> The Winged One must bring victims
+        to the temple Strangler, Baal-pteor, for sacrifice. The Winged One may use a simple Manipulation
+        to pick up a Pirate with a Poison token. Each Pirate has an encumbrance value of 3.</p>
+
+        <p><span class="special_title">Altar of Dagon:</span> The area marked
+        <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tokens/AlterDagon.jpg" class="scen_token" />
+        is the Altar of Dagon.
+        Baal-pteor must attack a Pirate with a Poison token on the Altar of Dagon and trigger the
+        Constricted skill. If successful, remove the Pirate from the game and count them toward the
+        Overlord victory. If Baal-pteor kills a Pirate in any other manner, or fails to trigger the
+        Constricted skill, do not count them toward the Overlord victory. <b>If the Winged One is killed,
+        Baal-pteor may sacrifice Pirates with a Poison token outside of the altar room.</b></p>',
+
+      hero_victory: '',
+      overlord_victory: '',
+
+      origin: "Tome of Skelos",
+      product_ids: [1, 23, 25, 28],
+      map_ids: [14],
+      hero_ids: [1, 39, 44],
+      tile_ids: [1, 148, 168, 169],
+      spell_ids: [],
+      item_ids: [17, 77, 97, 86, 134, 138, 140, 142, 144, 145] },
+
+
+
+      # ‘’
+      # “”
+      #Tales of the Red Brotherhood
+      # The Mutiny
+    { name: "The Mutiny",
+      description: "<p>After opting not to attend a night-time rendezvous which he suspected
+      of being an ambush, and fleeing the Baracha Island city of Tortage, Conan finds himself
+      enlisted in the infamous Captain Zaporavo’s crew. Throughout several weeks aboard the Wastrel,
+      vessel of the former Zingaran grandee turned renegade and freebooter, the Cimmerian’s
+      personality, military prowess, and seamanship have made him very popular with the crew.
+      He has gained influence and is viewed as the true leader of the ship. While Zaporavo has
+      underestimated this Northern barbarian, he remains nonetheless wary of the man he now
+      views as a rival who must be taken out. Shortly after the easy capture of a peaceful
+      merchant ship flying the Kingdom of Argos’s flag, the Zingaran captain decides to   </p>
+      <p></p>
+      <p></p>
+      <p></p>",
+
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Mutiny.jpg",
+      pdf_link: '',
+      player_count: "4",
+      complexity: "2",
+
+      hero_goal: "If the ...",
+
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the heroes’ turn.<br /></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><h4>3</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ConanthePirateToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/39">Conan the Pirate</a>
+            (<a class="item" href="/items/132">Atlantean Axe</a>,
+              <a class="item" href="/items/17">Leather Armor</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/4">Shevatas</a>
+            (<a class="item" href="/items/11">Parrying Dagger</a>,
+              <a class="item" href="/items/5">Crossbow</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/HadrathusToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/3">Hadrathus </a>
+            (<a class="item" href="/items/9">Kris</a> and 3 spells:
+            <a class="spell" href="/spells/1">Bori’s Rage</a>,
+            <a class="spell" href="/spells/11">Pestilential Swarm</a>,
+            <a class="spell" href="/spells/10">Mitra’s Healing</a>)
+          </td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each hero moves 4 gems from their Reserve zone to their
+          Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
+
+      overlord_goal: "If the ...",
+
+      overlord_setup: '
+        <table class="scen_table">
+          <tr>
+            <td><img src="/assets/tokens/redGem.png" class="scen_token" /></td>
+            <td>The Overlord starts with 8 gems in their Reserve zone and 4 in their
+            Fatigue zone, and places the recovery token showing a recovery value
+            of X where X equals 4 in the Book Skelos.</td>
+            <td></td>
+          </tr>
+        </table>
+        <table class="scen_table">
+          <tr>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><p>When an event tile is activated the Overlord resolves the following event:</p>
+              <p><span class="setup_suggestion">Reinforcement:</span> 3 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
+            </td>
+            <td></td>
+          </tr>
+        </table>',
+
+      tile1: 31,
+      tile2: 177,
+      tile3: 7,
+      tile4: 35,
+      tile5: 166,
+      tile6: 1,
+      tile7: 7,
+      tile8: 32,
+
+      life1: 0,
+      life2: 0,
+      life3: 7,
+      life4: 0,
+      life5: 0,
+      life6: 0,
+      life7: 0,
+      life8: 0,
+
+      special_rules: '<p><span class="special_title">Slaves:</span> The numbered tokens
+      <img src="/assets/tokens/numBackToken.png" class="scen_token" /> represent the slaves.
+      During setup, the Overlord choose where to deploy the tokens (numbered 1 through 11)
+      number side down, as shown in the setup diagram.</p>
+
+      <p>When a Hero enters an area occupied by a slave token, flip the token face up.
+       If the number is odd, it represents a slave. If the number is even, there are no
+       slaves in that location. Remove the token from the board.</p>
+
+        <p><span class="special_title">Free Slaves:</span> A Hero can free slaves within
+        a slave token area. To do so, they must perform a complex Manipulation with a
+        difficulty of 2 (4 if shackled). If a Hero has the Tools equipment card, they
+        use a complex Manipulation with a difficulty of 1. If a Hero has the Key equipment
+        card, they use a simple Manipulation. The Lock-picking skill can be used as usual.</p>
+
+        <p><span class="special_title">Shackling:</span> An Overlord character in a hidden
+        slave token area (number side down) can replace an Attack action with shackling.
+        In this case, the slave token is turned over to reveal the numbered side. The base
+        difficulty required to Free Slaves for this token becomes a difficulty of 4.</p>
+
+        <p><span class="special_title">Guardian of the Keys:</span> Captain Zaporavo has the
+        key to free the slaves. Once he is killed, the Key equipment card falls to the ground.
+        A Hero can pick it up using a simple Manipulation.</p>
+
+        <p><span class="special_title">Chests:</span>
+        3 chest tokens are placed as shown on the setup diagram. The asset deck
+        contains:
+        <a class="item" href="/items/22">Life Potion</a>,
+        <a class="item" href="/items/131">Anchor</a>, and
+        <a class="item" href="/items/30">Tools</a>.</p>',
+
+      hero_victory: '',
+      overlord_victory: '',
+
+      origin: "Tales of the Red Brotherhood",
+      product_ids: [1, 23, 26],
+      map_ids: [16, 19],
+      hero_ids: [3, 4, 39],
+      tile_ids: [1, 7, 31, 32, 35, 166, 177],
+      spell_ids: [1, 10, 11],
+      item_ids: [5, 9, 11, 87, 17, 77, 97, 22, 44, 103, 30, 131, 132] },
+
+
+      # Theft on the High Seas
+    { name: "Theft on the High Seas",
+      description: "<p>The Tigress scours the seas and the coastal villages tremble.
+      Preposterous legends tell of how the sea witch found a companion, a man of iron
+      whose wrath rivals that of a wounded lion. When survivors of the plundered Stygian
+      ships pronounce the names of Bêlit and Conan, they cast curses. However, the Tigress
+      continues to roam the seas, devastating the southern coasts, but does not hesitate
+      to venture further north, even beyond the lands of Shem. </p>
+      <p>There, unaware of the terrible, lurking threat, a ship flying the royal banner
+      of Aquilonia sails toward the Khorotas River, its destination the province of Poitain.
+      The vessel’s precious cargo, originally from the Kingdom of Kush, surely explains the
+      one thing that separates it from all others who sail within these waters: A large
+      garrison of Bossonian soldiers equipped to counter any act of piracy and to scuttle
+      the ship in case of failure. The sun is just rising when the lookout gives a shout of
+      warning. A long deadly shape approaches from the starboard side: A serpentine,
+      tapering galley with a raised deck extending from bow to stern. Forty oars on each
+      side propel it quickly through the water. At the very top of the mast floats a long
+      scarlet pennant, ominous emblem of the queen of fire, steel, and carnage...along with
+      her terrible Cimmerian lover.</p>",
+
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Theft+on+the+High+Seas.jpg",
+      pdf_link: '',
+      player_count: "4",
+      complexity: "2",
+
+      hero_goal: "The Heroes win IF they steal 5 Treasures and stow them in the two rowboats on
+      the Main Deck before the end of turn 8.",
+
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the heroes’ turn.<br /></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><h4>3</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ConanthePirateToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/39">Conan the Pirate</a>
+            (<a class="item" href="/items/132">Atlantean Axe</a>,
+              <a class="item" href="/items/17">Leather Armor</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/BelitToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/1">Bêlit</a>
+            (<a class="item" href="/items/10">Ornamental Spear</a>,
+             <a class="item" href="/items/21">Tribal Shield</a>,
+             )
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/NYagaToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/41">N’Yaga</a>
+            (<a class="item" href="/items/14">Tribal Mace</a>,
+            <a class="spell" href="/spells/2">Borne by the Wind</a>,
+            and <a class="spell" href="/spells/72">Yog’s Hunger</a>)
+          </td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each hero moves 4 gems from their Reserve zone to their
+          Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
+
+      overlord_goal: "The Overlord wins IF the Heroes have stolen fewer than 5 Treasures
+      before the end of turn 8 OR the Overlord scuttles 5 hull sections (see special rules)
+      before the end of turn 7.",
+
+      overlord_setup: '
+        <table class="scen_table">
+          <tr>
+            <td><img src="/assets/tokens/redGem.png" class="scen_token" /></td>
+            <td>The Overlord starts with 8 gems in their Reserve zone and 4 in their
+            Fatigue zone, and places the recovery token showing a recovery value
+            of X where X equals 4 in the Book Skelos.</td>
+            <td></td>
+          </tr>
+        </table>
+        <table class="scen_table">
+          <tr>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><p>When the event tile is activated the Overlord carries out the events in the following sequence:</p>
+              <p><span class="setup_suggestion">Reinforcement:</span> 3 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
+              <p><span class="setup_suggestion">Violent Roll:</span> A strong wind causes the ship to pitch. Choose and
+              lay down a Hero miniature or an Ally in that area. The next time the Hero activates, they stand up but lose
+              their base movement points. If any Ally is activated, the Ally loses their base movement points.</p>
+            </td>
+            <td></td>
+          </tr>
+        </table>',
+
+      tile1: 17,
+      tile2: 22,
+      tile3: 15,
+      tile4: 3,
+      tile5: 1,
+      tile6: 19,
+      tile7: 166,
+      tile8: 3,
+
+      life1: 0,
+      life2: 0,
+      life3: 0,
+      life4: 6,
+      life5: 0,
+      life6: 0,
+      life7: 0,
+      life8: 0,
+
+      special_rules: '<p><span class="special_title">Treasures:</span> Treasure tokens
+      <img src="/assets/tokens/chestToken.png" class="scen_token" /> represent riches being
+      transported on the vessel. Heroes add up the Treasure tokens they’ve acquired at the
+      end of the game.</p>
+
+        <p><span class="special_title">Retrieve a Treasure:</span> A Hero or Ally in an area
+        with a Treasure token may retrieve a treasure. Heroes carry out a simple manipulation.
+        Allies lose their attack action. The player picks up the token and places it under
+        their miniature’s base. This token moves with the miniature. Treasure tokens may be dropped,
+        but may not be thrown or caught. A Hero or Ally may only pick up one Treasure token at a time.</p>
+
+        <p><span class="special_title">Steal a Treasure:</span> A Hero or Ally in possession of
+        a Treasure token in an area with a rowboat (shown on the game board) OR an adjacent area
+        if the area with the Treasure token is occupied, successfully steals the treasure and puts
+        it in the rowboat. Remove the token from the game board and place it next to the Hero’s sheet.</p>
+
+        <p><span class="special_title">Scuttle the Ship:</span> An Overlord unit already in an area
+        with a token <img src="/assets/tokens/numBackToken.png" class="scen_token" /> may help scuttle
+        the ship by spending its movement AND attack actions to damage a section of the hull. Once a
+        section of the hull has been damaged, flip the token so the number side is facing up to indicate
+        the hull has been damaged. If 5 hull sections have been damaged when the Overlord finishes a turn,
+        the game ends at the end of turn 7.</p>',
+
+      hero_victory: '',
+      overlord_victory: '',
+
+      origin: "Tales of the Red Brotherhood",
+      product_ids: [1, 23, 26],
+      map_ids: [18, 17],
+      hero_ids: [1, 39, 41],
+      tile_ids: [1, 3, 15, 17, 19, 22, 166],
+      spell_ids: [2, 65, 72],
+      item_ids: [10, 14, 17, 77, 97, 21, 132] },
+
+
+      # The Curse of the Deep (Part 1)
+    { name: "The Curse of the Deep (Part 1)",
+      description: "<p>Xaltotun has awakened. He who was the High Priest of the Set
+      religion of Python in the ancient Kingdom of Acheron has come back to life.
+      In the three thousand years since the fall of Acheron, his destiny has inexorably
+      linked to an extraordinary jewel which some claim is the veritable heart of a
+      god, while others believe it to be a star fallen from the sky: The Heart of Ahriman.
+      Exiled to Stygia, then mummified through the evil arts of the priests of Set,
+      Xaltotun hid the heart in a haunted cave before his death and built a small temple
+      above it. Three times the temple was rebuilt, growing ever bigger and more
+      sumptuous, though its original purpose was forgotten. Mankind lost all knowledge
+      of the hidden symbol, and only the sacred books and arcane works retained its
+      memory. However, no secret lasts forever. The heart was finally stolen by bold
+      thieves; a band of pirates, followers of the code of the Red Brotherhood and led
+      by a Cimmerian warrior as fearsome as he was fearless. But today these scoundrels
+      will pay the price of their daring, the price of blood, for Xaltotun cannot let
+      such an insult go unpunished. After recruiting a crew and a band of fierce Pictish
+      mercenaries, the former High Priest of Set has taken off in pursuit of the desecrators
+      and intends to recover his precious artifact, no matter the cost.</p>",
+
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Curse+of+the+Deep+Part+1.jpg",
+      pdf_link: '
+        <p><strong>Chests:</strong> There are 3 chests on the setup diagram, but their contents are not indicated
+        in the scenario.</p>',
+      player_count: "4",
+      complexity: "2",
+
+      hero_goal: "The Heroes win if the Overlord has dredged 4 or more unit tiles before
+      the end of turn 8.",
+
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the heroes’ turn.<br /></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><h4>3</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/XaltotunToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/45">Xaltotun </a>
+            (<a class="item" href="/items/142">Stygian Cloak</a>,
+              <a class="item" href="/items/9">Kris</a>,
+              <a class="spell" href="/spells/69">Summon Demon</a>,
+              <a class="spell" href="/spells/67">Changing Destiny</a>),
+              with 2&nbsp;<a class="tile" href="/tiles/178">Pirate Archers (Black)</a>,
+          </td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/PirateArchersBlack.jpg" class="scen_event"></td>
+        </tr>
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/GormToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/40">Gorm</a>
+            (<a class="item" href="/items/139">Spiked Mace</a>,
+              <a class="item" href="/items/143">Spiked Shield</a>),
+              with 2&nbsp;<a class="tile" href="/tiles/25">Pict Hunters (Blue)</a>,
+          </td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/PictHuntersBlue.jpg" class="scen_event"></td>
+        </tr>
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/NamelessHorrorToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/42">Nameless Horror </a>
+          </td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each hero moves 5 gems from their Reserve zone to their
+          Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
+
+      overlord_goal: "The Overlord wins IF fewer than 4 unit tiles have been dredged
+      before the end of turn 8.",
+
+      overlord_setup: '
+        <table class="scen_table">
+          <tr>
+            <td><img src="/assets/tokens/redGem.png" class="scen_token" /></td>
+            <td>The Overlord starts with 10 gems in their Reserve zone and 3 in their
+            Fatigue zone, and places the recovery token showing a recovery value
+            of “5” in the Book Skelos.</td>
+            <td></td>
+          </tr>
+        </table>
+        <table class="scen_table">
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
+          <td><p>When the event tile is activated the Overlord carries out the events in the following sequence:</p>
+            <p><span class="setup_suggestion">Reinforcement:</span> 4 reinforcement points
+            <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
+            <p><span class="setup_suggestion">Sea Legs:</span> The crewmembers, who know their boat inside out, can
+            predict even the slightest shift in the deck. The Overlord chooses a tile. Each of the tile’s characters
+            can move unimpeded by hindering, and are not affected by skills that affect movement until the end of
+            the turn.</p>
+          </td>
+          <td></td>
+        </tr>
+        </table>
+        <table class="scen_table">
+          <tr>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/NYagaToken.png" class="scen_setup"></td>
+            <td><a class="tile" href="/tiles/152">N’Yaga</a> has 2 spells:
+            <a class="spell" href="/spells/72">Yog’s Hunger</a> and
+            <a class="spell" href="/spells/3">Energy Drain</a>.</td>
+            <td></td>
+          </tr>
+        </table>',
+
+      tile1: 30,
+      tile2: 166,
+      tile3: 14,
+      tile4: 150,
+      tile5: 1,
+      tile6: 33,
+      tile7: 177,
+      tile8: 152,
+
+      life1: 0,
+      life2: 0,
+      life3: 0,
+      life4: 8,
+      life5: 0,
+      life6: 0,
+      life7: 0,
+      life8: 6,
+
+      special_rules: '
+      <p><span class="special_title">Kill Them All:</span> When an Overlord
+      tile becomes a dead tile, it can no longer use Reinforcement points.</p>
+
+      <p><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ServantofAhriman.jpg" class="scen_event float_tile">
+      <span class="special_title">Dredging the River:</span> As soon as a tile is
+      dead, the Overlord must immediately dredge the river.</p>
+
+      <p><span class="special_title">Servant of Ahriman:</span> When Xaltotun uses his Summon Demon spell,
+      he call a <a class="tile" href="/tiles/162">Servant of Ahriman</a>, who has 1 life point.</p>
+
+      <p><span class="special_title">Chests:</span>
+      3 chest tokens are placed as shown on the setup diagram. The asset deck contains:
+      <a class="item" href="/items/14">Tribal Mace</a>,
+      <a class="item" href="/items/12">Sword</a>, and
+      <a class="item" href="/items/23">Empty Chest</a>.</p>',
+
+      hero_victory: '',
+      overlord_victory: '',
+
+      origin: "Tales of the Red Brotherhood",
+      product_ids: [1, 23, 26],
+      map_ids: [16, 18],
+      hero_ids: [40, 42, 45],
+      tile_ids: [1, 14, 25, 30, 33, 150, 152, 162, 166, 177, 178],
+      spell_ids: [3, 23, 67, 69, 72],
+      item_ids: [9, 12, 91, 14, 23, 139, 142, 143] },
+
+
+      # The Curse of the Deep (Part 2)
+    { name: "The Curse of the Deep (Part 2)",
+      description: "<p>Xaltotun exults. He has located the Heart of Ahriman and the
+      almighty power of its dark sorcery. Driven mad over nearly three thousand years
+      during which his soul was held behind the gates of hell, he now has only one
+      ambition: to resurrect the black and ancient empire, during which he stacked
+      heads to the glory of Set, to build pyramids in Python’s great square, while the
+      kings returned from the West with their booty and prisoners. In order to set his
+      dark plans into motion and initiate the resurrection of Acheron, the former High
+      Priest sails into the open sea to perform an unholy ceremony designed to summon
+      the most fearsome perils from the deep. Abyssal Allies destined to form the
+      foundation of an army that will enable to overthrow all opposition from the
+      Hyborian Kingdoms.</p>
+      <p>Blinded by his desire for power and literally hypnotized by the jewel’s
+      supernatural brilliance, Xaltotun was, however, over-confident. He clearly
+      underestimated the Cimmerian who stole the Heart and his desire for revenge,
+      his desire to take back what he considered to be his, driven also by the greed
+      of his lover, the stubborn and cruel pirate captain--Bêlit. As Xaltotun begins
+      his ritual, his ship is boarded by vengeful pirates, out for blood.</p>",
+
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Curse+of+the+Deep+Part+2.jpg",
+      pdf_link: '',
+      player_count: "4",
+      complexity: "2",
+
+      hero_goal: "The Heroes win IF Xaltotun is killed and the ritual is thwarted by
+      acquiring at least 4 ritual tokens before the end of turn 8.",
+
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the heroes’ turn.<br /></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><h4>3</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ConanthePirateToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/39">Conan the Pirate</a>
+            (<a class="item" href="/items/132">Atlantean Axe</a>,
+              <a class="item" href="/items/17">Leather Armor</a>),
+              with 2&nbsp;<a class="tile" href="/tiles/177">Pirate Archers</a>,
+          </td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/PirateArchers.jpg" class="scen_event"></td>
+        </tr>
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/BelitToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/1">Bêlit</a>
+            (<a class="item" href="/items/10">Ornamental Spear</a>,
+             <a class="item" href="/items/21">Tribal Shield</a>),
+             with 2&nbsp;<a class="tile" href="/tiles/14">Bêlit’s Guards</a>,
+         </td>
+         <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/BelitsGuards.jpg" class="scen_event"></td>
+        </tr>
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/NYagaToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/41">N’Yaga</a>
+            (<a class="item" href="/items/15">Yuetshi Knife</a>,
+            <a class="spell" href="/spells/10">Mitra’s Healing</a>,
+            and <a class="spell" href="/spells/8">Mind Control</a>)
+          </td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each hero moves 4 gems from their Reserve zone to their
+          Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
+
+      overlord_goal: "The Overlord wins IF 3 or more ritual tokens remain on the game
+      board at the end of turn 8. The ritual begins, nothing can stop it.",
+
+      overlord_setup: '
+        <table class="scen_table">
+          <tr>
+            <td><img src="/assets/tokens/redGem.png" class="scen_token" /></td>
+            <td>The Overlord starts with 8 gems in their Reserve zone and 4 in their
+            Fatigue zone, and places the recovery token showing a recovery value
+            of X where X equals 4 in the Book Skelos.</td>
+            <td></td>
+          </tr>
+        </table>
+        <table class="scen_table">
+          <tr>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><p>When the event tile is activated the Overlord carries out the events in the following sequence:</p>
+              <p><span class="setup_suggestion">Reinforcement:</span> 3 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
+              <p><span class="setup_suggestion">Loss of Bearings:</span> Disoriented by the ritual, the Heroes are overcome
+              by strange visions. Each Hero receives one less gem in their next stance phase..</p>
+            </td>
+            <td></td>
+          </tr>
+        </table>
+        <table class="scen_table">
+          <tr>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/XaltotunToken.png" class="scen_setup"></td>
+            <td><a class="tile" href="/tiles/155">Xaltotun</a> has 2 spells:
+            <a class="spell" href="/spells/2">Borne by the Wind</a> and
+            <a class="spell" href="/spells/72">Yog’s Hunger</a>.</td>
+            <td></td>
+          </tr>
+        </table>',
+
+      tile1: 171,
+      tile2: 155,
+      tile3: 31,
+      tile4: 162,
+      tile5: 173,
+      tile6: 1,
+      tile7: 155,
+      tile8: 32,
+
+      life1: 0,
+      life2: 6,
+      life3: 0,
+      life4: 3,
+      life5: 0,
+      life6: 0,
+      life7: 0,
+      life8: 0,
+
+      special_rules: '
+        <p><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/DeepOnes.jpg" class="scen_event float_tile">
+        <span class="special_title">Coming from all Directions:</span> The Deep Ones tile
+          is placed next to the Book of Skelos. These miniatures are placed as shown on the map
+          and are under control of the Overlord. No more than 4 Deep Ones may be in play at any
+          one time. Book of Skelos Benefits cannot be applied to this tile. After the turn marker’s
+          progress phase and just before the activation phase, do the following in this order:
+            <ul>
+              <li>Place a Deep Ones miniature in a Reinforcement zone (if you have any in reserve),</li>
+              <li>Carry out a full Deep Ones activation. This does not count as one of the two possible
+              activations during the Overlord’s turn.</li>
+            </ul></p>
+
+      <p><span class="special_title">Poison Skill:</span> The Deep Ones unit tile has the Poison
+      skill. Its effects is as follows: Smells that are foreign to this world disturb the senses.
+      A Hero, Ally, or Overlord character may not re-roll in a Deep Ones area.</p>
+
+      <p><span class="special_title">Ritual:</span> Generic tokens <img src="/assets/tokens/numBackToken.png" class="scen_token" />
+      represent locations where artifacts are used to fuel the ritual. Heroes who have acquired
+      tokens add them up at the end of the game.</p>
+
+      <p><span class="special_title">Preventing a Ritual:</span> A Hero or Ally in an area with
+      a Ritual token may attempt to prevent the ritual. To do so, they perform a complex Manipulation
+      with a difficulty of 2. If successful, the token is removed from the board and placed next to
+      the Hero’s sheet.</p>',
+
+      hero_victory: '',
+      overlord_victory: '',
+
+      origin: "Tales of the Red Brotherhood",
+      product_ids: [1, 23, 26],
+      map_ids: [18, 16],
+      hero_ids: [1, 39, 41],
+      tile_ids: [1, 14, 31, 32, 155, 162, 171, 173, 177],
+      spell_ids: [2, 65, 8, 10, 72],
+      item_ids: [10, 15, 17, 77, 97, 21, 132,] },
+
+
+      # The Shadow Kingdom
+      # Shadows Linger
+    { name: "Shadows Linger",
+      description: "<p>Kull had hoped the threat was over. He tried to ignore the blank
+      stares and slack jaws of his Red Slayers. He told himself the men were merely
+      exhausted from their skirmish with the rebels. After all, on the journey home,
+      the only sleep they’d gotten was in the saddle. Kull was tired, too--tired
+      enough to ignore the gnawing suspicion that something was wrong.</p>
+      <p>But when Brule arrived in the dead of night, Kull knew he could no longer ignore
+      his own intuition. Brule was not known to make jests, and Kull had learned hard
+      lessons why he should always trust the Pict’s instincts. The Serpent-men had
+      returned, and Thulsa Doom was now their leader. Worse yet, Kull knew the snakes
+      were already hiding among his guards, wearing the flesh of men like clothes.</p>
+      <p>He needed to act swiftly--needed to locate an old trinket and make sure all of
+      his men were indeed...men.</p>
+      <p></p>",
+
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Shadows+Linger.jpg",
+      pdf_link: '',
+      player_count: "3",
+      complexity: "2",
+
+      hero_goal: "The Heroes win immediately once they’ve acquired the Serpent Armlet AND
+      there are no Serpent-men on the board.",
+
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the heroes’ turn.<br /></td>
+          <td></td>
+        </tr>
+      </table>
+      <table class="scen_table">
+        <tr>
+          <td><h4>2</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/KingKullToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/48">King Kull</a>
+            (<a class="item" href="/items/132">Atlantean Axe</a>,
+              <a class="item" href="/items/17">Leather Armor</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/BruleToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/47">Brule</a>
+            (<a class="item" href="/items/134">Cutlass</a>,
+              <a class="item" href="/items/8">Javelin</a>,
+             <a class="item" href="/items/17">Leather Armor</a>)
+          </td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, Heroes do not move any gems from their Reserve zone to their
+          Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
+
+      overlord_goal: "The Overlord wins if all Heroes are killed OR if there is at
+      least one Serpent-man on the board at the end of turn 8.",
+
+      overlord_setup: '
+        <table class="scen_table">
+          <tr>
+            <td><img src="/assets/tokens/redGem.png" class="scen_token" /></td>
+            <td>The Overlord starts with 9 gems in their Reserve zone and 0 in their
+            Fatigue zone, and places the recovery token showing a recovery value
+            of “3” in the Book Skelos.</td>
+            <td></td>
+          </tr>
+        </table>
+
+        <table class="scen_table">
+          <tr>
+            <td><img src="/assets/tokens/numBackToken.png" class="scen_token" /></td>
+            <td>During setup, the Overlord selects the
+            <img src="/assets/tokens/numBackToken.png" class="scen_token" />
+            tokens numbered 1 through 3, and places one in each room (as shown on the
+            setup diagram), number side down.
+            </td>
+            <td></td>
+          </tr>
+        </table>
+
+        <table class="scen_table">
+          <tr>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><p>When an event tile is activated the Overlord resolves the following event:</p>
+              <p><span class="setup_suggestion">The Serpents Manifest:</span> Replace up to 4 Bossonian
+              Guards with Serpent-men. You may not have more than 5 Serpent-men of a single tile
+              type on the board at one time. You may never have more than 10 Serpent-men
+              on the board at once.</p>
+            </td>
+            <td></td>
+          </tr>
+        </table>
+        <table class="scen_table">
+          <tr>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ThulsaDoomToken.png" class="scen_setup"></td>
+            <td><a class="tile" href="/tiles/153">Thulsa Doom</a> has 2 spells:
+            <a class="spell" href="/spells/70">Whirlwind</a> and
+            <a class="spell" href="/spells/16">Teleportation</a>.</td>
+            <td></td>
+          </tr>
+        </table>',
+
+      tile1: 1,
+      tile2: 153,
+      tile3: 179,
+      tile4: 180,
+      tile5: 0,
+      tile6: 0,
+      tile7: 0,
+      tile8: 0,
+
+      life1: 0,
+      life2: 3,
+      life3: 0,
+      life4: 0,
+      life5: 0,
+      life6: 0,
+      life7: 0,
+      life8: 0,
+
+      special_rules: '<p><span class="special_title">Tokens:</span> When a Hero enters
+      a room containing a <img src="/assets/tokens/numBackToken.png" class="scen_token" />
+      token, flip the token. Each token represents something different. The
+      <img src="/assets/tokens/num1Token.png" class="scen_token" /> token represents the
+      Serpent Armlet, the <img src="/assets/tokens/num2Token.png" class="scen_token" /> token
+      represents the Portcullis Lever, and the <img src="/assets/tokens/num3Token.png" class="scen_token" />
+      token represents nothing but a waste of time.</p>
+
+        <p><span class="special_title">The Serpent Armlet:</span> The Heroes need to
+        acquire the Serpent Armlet to win the game, but it also provides a bonus. Heroes
+        in the same area as the Armlet may ignore Jinx and Protected (the Armlet does not
+        need to be equipped). When the <img src="/assets/tokens/num1Token.png" class="scen_token" />
+        token is revealed, replace it with the Halo of Mitra token. Once a Hero spends 1 for a
+        simple Manipulation to pick up this item, place this token around their base. It has
+        zero weight (encumbrance) and may be thrown, passed, or dropped like any other item.</p>
+
+        <p><span class="special_title">The Portcullis Lever:</span> When the
+        <img src="/assets/tokens/num2Token.png" class="scen_token" /> token is revealed, Heroes
+        may pull the Portcullis Lever to seal off the castle and trap all trespassers. To do
+        so they must be in the same area as the <img src="/assets/tokens/num2Token.png" class="scen_token" />
+        token and spend 1 for a simple Manipulation. When they do this, all areas highlighted in
+        yellow can no longer be crossed or accessed by any means. Use whichever tokens you wish
+        to denote this. Any miniatures (including Bossonian Guards) in these blocked zones are trapped.
+        Immediately remove them from the board, and place any Serpent-men back in the Overlord’s
+        pool; they may be brought back via the Event tile. Thulsa Doom is the exception. If he is
+        trapped in any of these areas, he must use his Teleportation spell to cross over any
+        blocked areas.</p>
+
+        <p><span class="special_title">The Guards:</span> The Bossonian Guards represent Kull’s
+        elite fighting men, the Red Slayers. Under Thulsa Doom’s spell they are in a catatonic
+        state, unable to move or speak, making it easy for Serpent-men to usurp their identities.
+        For game play purposes, they are used by the Overlord to replace with Serpent-men. For all
+        other purposes, they may be ignored. Guards are ignored for the purpose of determining
+        Whirlwind damage. Bossonian Guards do not count for determining victory conditions; if all
+        Serpent-men have been removed from the board, but there are still Bossonian Guards, the Heroes
+        still win.</p>
+
+        <p><span class="special_title">Chests:</span>
+        During setup, the Overlord places 2 chest tokens on the board as indicated by the
+        setup diagram. The asset deck contains:
+        <a class="item" href="/items/13">Throwing Knives</a>, and
+        <a class="item" href="/items/22">Life Potion</a>.</p>',
+
+      hero_victory: '',
+      overlord_victory: '',
+
+      origin: "The Shadow Kingdom",
+      product_ids: [1, 23, 27],
+      map_ids: [15],
+      hero_ids: [47, 48],
+      tile_ids: [1, 153, 179, 180],
+      spell_ids: [16, 48, 70],
+      item_ids: [8, 13, 17, 77, 97, 22, 44, 103, 132, 134] },
+
+
+      # The Serpent’s Coils
+    { name: "The Serpent’s Coils",
+      description: "<p>King Conan had suffered more threats than he had wounds to his flesh.
+      Some arrived on the quivering lips of Nemedian heralds; others were carried by the
+      beat of Pictish drums. After the Year of the Dragon had ended and Conan managed
+      to recover his throne from the most formidable foe he’d ever faced, he hoped for
+      peace. Nay, he demanded peace!</p>
+      <p>But when his closest advisor arrived in his chamber with two emissaries from
+      an unnamed kingdom--two men who claimed to have stepped out of the mists of
+      time--Conan knew peace would remain a distant memory. Why couldn’t it be the
+      Nemedians again or even the Stygians? By Crom, he’d welcome a wave of howling
+      Picts, if it meant avoiding the plots of sorcerers or devils from the Outer Dark!</p>
+      <p>It would not be so simple, however. The advisors brought news that Conan’s
+      scouts and spies reported having seen King Conan and Queen Zenobia at an inn less
+      than a day’s ride from Tarantia, apparently parleying with sworn enemies of Aquilonia.
+      Knowing that he and the queen had not left his keep of a fortnight, Conan bristled
+      at the implication. He would find out who dared usurp their royal identities and
+      how they did it. And what of these strangers from the past? What brought them here,
+      and why would they offer him aid? Sighing wearily, Conan reached for his goblet of
+      wine and drained it in a single gulp. “Find your tongues, then,” he said.</p>",
+
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Serpents+Coils.jpg",
+      pdf_link: '',
+      player_count: "5",
+      complexity: "3",
+
+      hero_goal: "The Heroes win if they find the secret stairs, destroy the venom
+      barrels and kill the imposter Conan and Zenobia before the end of turn 8.",
+
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the heroes’ turn.<br /></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><h4>4</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ConantheConquerorToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/38">Conan the Conqueror</a>
+            (<a class="item" href="/items/139">Spiked Mace</a>,
+             <a class="item" href="/items/18">Scale Mail</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ZenobiaToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/46">Zenobia</a>
+            (<a class="item" href="/items/9">Kris</a>,
+             <a class="item" href="/items/17">Leather Armor</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/KingKullToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/48">King Kull</a>
+            (<a class="item" href="/items/130">Akbitanan Sword</a>,
+              <a class="item" href="/items/16">Chain Mail</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/BruleToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/47">Brule</a>
+            (<a class="item" href="/items/134">Cutlass</a>,
+              <a class="item" href="/items/138">Net</a>,
+             <a class="item" href="/items/17">Leather Armor</a>,
+              <a class="item" href="/items/13">Throwing Knives</a>)
+          </td>
+          <td></td>
+        </tr>
+      </table>
+      <table class="scen_table">
+        <tr>
+        <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/substitution.png" class="scen_setup"></td>
+          <td><p><span class="setup_suggestion">Substitutions:</span> <br />
+          <a class="hero" href="/heroes/34">King Conan</a> or
+          <a class="hero" href="/heroes/5">Amra the Lion</a> may be substituted for Conan the Conqueror.<br />
+          <a class="hero" href="/heroes/43">Octavia</a> or
+          <a class="hero" href="/heroes/4">Shevatas</a> may be substituted for Zenobia.<br />
+          <a class="hero" href="/heroes/6">N’Gora</a> may be substituted for King Kull.<br />
+          <a class="hero" href="/heroes/10">Balthus</a> may be substituted for Brule.</p></td>
+          <td></td>
+        </tr>
+      </table>
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>The Heroes start with NO gems in their Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
+
+      overlord_goal: "The Overlord wind if all four Heroes are killed OR if the Heroes
+      fail to meet their objectives.",
+
+      overlord_setup: '
+        <table class="scen_table">
+          <tr>
+            <td><img src="/assets/tokens/redGem.png" class="scen_token" /></td>
+            <td>The Overlord starts with 5 gems in their Reserve zone and 5 in their
+            Fatigue zone, and places the recovery token showing a recovery value
+            of “5” in the Book Skelos.</td>
+            <td></td>
+          </tr>
+        </table>
+        <table class="scen_table">
+          <tr>
+            <td></td>
+            <td><p>The Overlord will use the Princess miniature and Zenobia tile to
+            represent the imposter Zenobia. Randomly place
+            1&nbsp;<img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tokens/SecretPassageOpen.jpg" class="scen_token" />&nbsp;
+             2&nbsp;<img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tokens/SecretPassageBlocked.jpg" class="scen_token" />&nbsp;
+            face down in the areas indicated. Place the Son of Set tile and the Giant Snake tile in the Overlord’s
+            area (but not in the River).</p></td>
+            <td></td>
+          </tr>
+        </table>
+        <table class="scen_table">
+          <tr>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><p><span class="setup_suggestion">Serpent Strike occurs in the following order:</span></p>
+              <ol>
+                <li>Replace any laid down Bossonian Guard or Khitan Acolyte miniature with previously
+                killed Serpent-men miniatures. If a Serpent-men tile was flipped, turn it back over.
+                No more 5 Green Serpent-men and 5 Beige Serpent-men miniatures may be on the board.
+                If a tile has been dredged, the miniature cannot be returned to the board.</li>
+                <li>Activate the Son of Set (2 Life Points)</li>
+                <li>Activate the Giant Snake (2 Life Points)</li>
+                <li>If the Son of Set or the Giant Snake has been killed the Overlord may remove
+                the Conan the Pirate or Zenobia’s laid down miniature and tile from the board
+                to return one of the snakes (2 Life Points) to the area the laid down miniature
+                was in. If there isn’t enough room in the area, you may place the miniature in an
+                adjacent area. This is usable once per Event activation. Remove the Event
+                tile if all the associated miniatures are off the board.</li>
+              </ol>
+            </td>
+            <td></td>
+          </tr>
+        </table>
+        <table class="scen_table">
+          <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/substitution.png" class="scen_setup"></td>
+            <td><p><span class="setup_suggestion">Substitutions:</span> <br />
+            <a class="tile" href="/tiles/131">Black Dragons</a> may be substituted for Bossonian Guards.<br />
+            <a class="tile" href="/tiles/138">Demon of Earth</a> may be substituted for the Giant Snake.<br />
+            <a class="tile" href="/tiles/161">Scourge of Set</a> may be substituted for the Son of Set.</p></td>
+            <td></td>
+          </tr>
+        </table>',
+
+      tile1: 16,
+      tile2: 180,
+      tile3: 174,
+      tile4: 1,
+      tile5: 156,
+      tile6: 179,
+      tile7: 150,
+      tile8: 0,
+
+      life1: 0,
+      life2: 0,
+      life3: 0,
+      life4: 0,
+      life5: 7,
+      life6: 0,
+      life7: 7,
+      life8: 0,
+
+      special_rules: '<p><span class="special_title">Map Notes:</span> Normal map rules
+      apply (see game board rules on page 5 of the Tome of Skelos). The red door is
+      considered part of the wall and may not be used. Chair combat bonus
+      (<img src="/assets/dice/Yellow.png" class="scen_sq_token" />) and
+      tabletop/bartop elevation bonuses apply.</p>
+
+        <p><span class="special_title">Oversized Units:</span> The Giant Snake and Son
+        of Set follow the rules for Oversized units on page 3 of the Tome of Skelos.</p>
+
+        <p><span class="special_title">Bar Top Areas:</span> The Giant Snake and Son
+        of Set do not pay the extra movement point to enter a bar top area. When either
+        snake enters a bar top area, place a Wrecked Wall token. This area is now
+        treated as a normal area.</p>
+
+        <p><span class="special_title">Secret Stairs:</span> When a Hero enters a room
+        with a <img src="/assets/tokens/secretPassageToken.png" class="scen_token" />,
+        flip it over. If it has the
+        <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tokens/SecretPassageOpen.jpg" class="scen_token" />,
+        the Hidden Stairs have been discovered.
+        If a <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tokens/SecretPassageBlocked.jpg" class="scen_token" />
+        is shown, replace the <img src="/assets/tokens/secretPassageToken.png" class="scen_token" />
+        with a <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tokens/PitToken.jpg" class="scen_event" />.
+        A Hero that discovers a <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tokens/PitToken.jpg" class="scen_event" />
+        suffers 1 <img src="/assets/dice/Red.png" class="scen_sq_token" /> (no rerolls)
+        of damage that cannot be defended. A Hero with Leap can avoid the damage by rolling
+        2 or more on 1 <img src="/assets/dice/Red.png" class="scen_sq_token" />.</p>
+
+        <p><span class="special_title">Pit Trap:</span> It costs 1 extra movement point
+        to move out of an area with a Pit token, unless a Hero has the Climb skill. Overlord
+        units are not affected by Pit tokens.</p>
+
+        <p><span class="special_title">Serpentine Deception:</span> When Conan the Pirate,
+        Zenobia, a Bossonian Guard or Khitan Acolyte is killed, lay its miniature down
+        in the area. (See Event) If all miniatures of a tile are laid down, flip the tile.</p>
+
+        <p><span class="special_title">Net:</span> A Bossonian Guard of Khitan Acolyte
+        with a <img src="/assets/tokens/webToken.png" class="scen_token" /> are removed from
+        the board when they are killed.</p>
+
+        <p><span class="special_title">Venom Barrels:</span> <img src="/assets/tokens/kegToken.png" class="scen_token" />
+        may be destroyed with a complex Manipulation with a difficulty of 4. A Hero may add
+        the dice bonus from 1 of their Melee weapons.</p>
+
+        <p><span class="special_title">Poison:</span> A character with the Poison skill
+        rolls 1 extra <img src="/assets/dice/Yellow.png" class="scen_sq_token" />
+        when performing a Melee Attack.</p>
+
+        <p><span class="special_title">Doors:</span> Require a complex Manipulation of
+        2 to open. Overlord units can move through them for 1 extra movement point and
+        remove the door.</p>
+
+        <p><span class="special_title">Chests:</span>
+        Require a simple Manipulation to open. The asset deck contains:
+        <a class="item" href="/items/137">Nemedian Poniard</a>,
+        <a class="item" href="/items/136">Heavy Spear</a>,
+        <a class="item" href="/items/132">Atlantean Axe</a>,
+        2&nbsp;<a class="item" href="/items/22">Life Potion</a>, and
+        <a class="item" href="/items/133">Conan’s Great Sword</a>.</p>',
+
+      hero_victory: '',
+      overlord_victory: '',
+
+      origin: "The Shadow Kingdom",
+      product_ids: [1, 23, 27],
+      map_ids: [2],
+      hero_ids: [38, 46, 47, 48],
+      tile_ids: [1, 16, 150, 156, 174, 179, 180],
+      spell_ids: [],
+      item_ids: [9, 13, 16, 17, 77, 97, 18, 22, 44, 103, 130, 132, 133, 134, 136, 137, 138, 139] },
+
+
+      # Night of the Kings
+    { name: "Night of the Kings",
+      description: "<p>The two men from the mists--two warriors who claimed to hail
+      from the days before the oceans drank Altantis--had proven themselves allies
+      to the King. Conan only came to trust others after they’d proven themselves in
+      battle, and these two managed more than that--their knowledge of these snakes
+      that speak had probably saved his life and that of his queen’s. With the strangers’
+      help, and the few men he could still trust, Conan managed to drive the foe into
+      hiding within the untamed forests to the south. Conan himself had seen what horrors
+      lair within that dark wilderness, and had heard tales of abandoned cities and ruins
+      scattered there.</p>
+      <p>After tracking his quarry to a crumbling temple deep within the forest, Conan
+      knew the snakes had nowhere left to slither. Mitra willing, he and his men would
+      breach the entrance and wash the floors in serpents’ blood. But Conan knew Thulsa
+      Doom would have had time to prepare for their coming. It was time to don harness
+      and sharpen their wits as keenly as their blades.</p>",
+
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Night+of+the+Kings.jpg",
+      pdf_link: '
+      <p><strong>Plate Armor:</strong>
+      The scenario (as written) calls for Conan to wear Plate Armor. There is no Plate Armor in the game. I’ve chosen
+      to equip him with Scale Mail (Armor: <img src="/assets/dice/Red.png" class="scen_sq_token" />, Encumbrance: 5).
+      The <a class="item" href="/items/98">Asshuri Cuirass</a>
+      (Armor: <img src="/assets/dice/Red.png" class="scen_sq_token" />, Encumbrance: 4) may also be available to you.</p>',
+      player_count: "4",
+      complexity: "2",
+
+      hero_goal: "The Heroes win, once Thulsa Doom’s skull has been burned.",
+
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the heroes’ turn.<br /></td>
+          <td></td>
+        </tr>
+      </table>
+      <table class="scen_table">
+        <tr>
+          <td><h4>3</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ConantheConquerorToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/38">Conan the Conqueror</a>
+            (<a class="item" href="/items/18">Scale Mail</a>,
+             <a class="item" href="/items/133">Conan’s Great Sword</a>)
+             with 3&nbsp;<a class="tile" href="/tiles/17">Bossonian Guards</a>,
+         </td>
+         <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/BossonianGuards.jpg" class="scen_event"></td>
+        </tr>
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/KingKullToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/48">King Kull</a>
+            (<a class="item" href="/items/132">Atlantean Axe</a>,
+              <a class="item" href="/items/16">Chain Mail</a>)
+              with 3&nbsp;<a class="tile" href="/tiles/15">Bossonian Archers</a>,
+          </td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/BossonianArchers.jpg" class="scen_event"></td>
+        </tr>
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/BruleToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/47">Brule</a>
+            (<a class="item" href="/items/130">Akbitanan Sword</a>,
+              <a class="item" href="/items/13">Throwing Knives</a>,
+             <a class="item" href="/items/17">Leather Armor</a>)
+          </td>
+          <td></td>
+        </tr>
+      </table>
+      <table class="scen_table">
+        <tr>
+        <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/substitution.png" class="scen_setup"></td>
+          <td><p><span class="setup_suggestion">Substitutions:</span> <br />
+            3 <a class="tile" href="/tiles/131">Black Dragons</a> may be substituted for 3 Bossonian Guards.<br />
+            2 <a class="tile" href="/tiles/136">Crossbowmen (Green)</a> may be substituted for 3 Bossonian Archers.</p></td>
+          <td></td>
+        </tr>
+      </table>
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each hero moves 4 gems from their Reserve zone to their
+          Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
+
+      overlord_goal: "The Overlord wins if all the Heroes are killed OR if Thulsa Doom’s
+      skull has not been burned by the end of turn 8.",
+
+      overlord_setup: '
+        <table class="scen_table">
+          <tr>
+            <td><img src="/assets/tokens/redGem.png" class="scen_token" /></td>
+            <td>The Overlord starts with 8 gems in their Reserve zone and 4 in their
+            Fatigue zone, and places the recovery token showing a recovery value
+            of “5” in the Book Skelos.</td>
+            <td></td>
+          </tr>
+        </table>
+        <table class="scen_table">
+          <tr>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><p>When either Event tile is activated, the Overlord may choose one of the 3 options below:</p>
+              <p><span class="setup_suggestion">Reinforcement:</span> 5 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
+              <p><span class="setup_suggestion">Aura of Doom:</span> Choose a Hero. That hero must
+              move 2 gems from their Reserve zone to their Fatigue zone. Heroes can only move gems
+              if they have them. This effect does not cause wounds. This Event option is still
+              available if Thulsa Doom has been killed as his infernal essence yet lingers until his
+              skull is destroyed.</p>
+              <p><span class="setup_suggestion">Raise the Scourge:</span> Activate the Scourge of Set.
+              When activating the Scourge during this Event, do not move its tile in the River.</p>
+            </td>
+            <td></td>
+          </tr>
+        </table>
+        <table class="scen_table">
+          <tr>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ThulsaDoomToken.png" class="scen_setup"></td>
+            <td><a class="tile" href="/tiles/153">Thulsa Doom</a> has 2 spells:
+            <a class="spell" href="/spells/72">Yog’s Hunger</a> and
+            <a class="spell" href="/spells/13">Set’s Halo</a>.</td>
+            <td></td>
+          </tr>
+        </table>',
+
+      tile1: 176,
+      tile2: 179,
+      tile3: 1,
+      tile4: 171,
+      tile5: 153,
+      tile6: 161,
+      tile7: 2,
+      tile8: 0,
+
+      life1: 0,
+      life2: 0,
+      life3: 0,
+      life4: 0,
+      life5: 10,
+      life6: 10,
+      life7: 0,
+      life8: 0,
+
+      special_rules: '<p><span class="special_title">The Serpent Armlet:</span> All Heroes
+      in the area with the Serpent Armlet may ignore Jinx. In addition, Heroes in adjacent
+      areas benefit from the Serpent Armlet’s effect if the area with the Armlet is occupied.
+      The Serpent Armlet has an encumbrance value of 0 and is subject to the same rules as
+      other items for passing, throwing, dropping, etc. Use the Mitra’s Halo token to
+      represent the Serpent Armlet. <u>NOTE:</u> The Armlet does not need to be equipped by a
+      Hero to confer its benefits.</p>
+
+        <p><span class="special_title">The Scourge of Set:</span> The Scourge of Set is an
+        abomination created by the necromantic sorcery of Thulsa Doom. During its creation,
+        Doom bestowed some of his immortal essence to the beast and is therefore part of it.
+        As long as the Scourge of Set is alive, Doom may neither targeted or harmed by any
+        attacks. Once the Scourge has been killed, Doom may be targeted normally. The Scourge
+        of Set has 10 Life Points. For this scenario the Scourge of Set is considered an
+        Oversized unit (see page 3 in the Tome of Skelos).</p>
+
+        <p><span class="special_title">Thulsa Doom:</span> Thulsa Doom cannot be targeted by
+        an attack until the Scourge of Set has been killed. He may still activate and affect
+        Heroes with his Skills as normal. Thulsa Doom has 10 Life Points. When Thulsa Doom is
+        killed, remove his miniature and replace it with the
+        <img src="/assets/tokens/flameToken.png" class="scen_token" /> token, which represents
+        his skull. The skull has 1 weight (encumbrance) and is subject to the same rules as other
+        items (for passing, throwing, dropping, etc.). Thulsa Doom has the Attack from Beyond skill
+        for this scenario.</p>
+
+        <p><span class="special_title">Destroying the Skull of Thulsa Doom:</span> Being an
+        immortal necromancer, Doom can only be destroyed if his skull is obliterated. To do
+        this, the Heroes must place it in the area containing the large brazier at the top of
+        the stairs (marked on the diagram with <img src="/assets/tokens/energyToken.png" class="scen_token" />).
+        It may be dropped or thrown into the area. As soon as it’s there, the Heroes win the game.</p>
+
+        <p><span class="special_title">Bossonian Troops:</span> Both Conan and Kull have allies
+        they may command via the Leadership skill. Though they have been assigned their own
+        tiles, they may activate one another’s allies. To avoid confusion over which hero’s
+        gems have been used to activate the tiles, you may want to use red gems for Conan’s
+        Hero Sheet and blue gems for Kull’s.</p>',
+
+      hero_victory: '',
+      overlord_victory: '',
+
+      origin: "The Shadow Kingdom",
+      product_ids: [1, 23, 27],
+      map_ids: [14],
+      hero_ids: [38, 47, 48],
+      tile_ids: [1, 2, 15, 17, 153, 161, 171, 176, 179],
+      spell_ids: [13, 66, 72],
+      item_ids: [13, 16, 17, 77, 97, 18, 130, 132, 133] },
+
+
 
     # return here
 

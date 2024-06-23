@@ -15,12 +15,11 @@ Rails.application.routes.draw do
   resources :maps
   resources :models
   resources :products
+  resources :resources
   resources :scenarios
   resources :skills
   resources :spells
-  resources :stories
   resources :tiles
-  resources :ratings, only: :update
   resources :sessions, only: [:create, :destroy]
   resources :users, except: :new
 

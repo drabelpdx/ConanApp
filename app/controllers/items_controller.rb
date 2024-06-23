@@ -54,17 +54,18 @@ class ItemsController < ApplicationController
     def item_params
       params.require(:item).permit(:name, :encumbrance, :origin, :count, :armor,
       :melee, :ranged, :defense, :dice, :manipulation, :role,
-      :description)
+      :description, :image, :correction)
     end
 
     def set_items
       @core = Item.where(origin: 'Core Game')
       @stretch = Item.where(origin: 'Stretch Goal')
-      @nordheim = Item.where(origin: 'Nordheim Expansion')
-      @stygia = Item.where(origin: 'Stygia Expansion')
-      @khitai = Item.where(origin: 'Khitai Expansion')
-      @brom = Item.where(origin: 'Brom Box')
+      @nordheim = Item.where(origin: 'Nordheim')
+      @stygia = Item.where(origin: 'Stygia')
+      @khitai = Item.where(origin: 'Khitai')
+      @brom = Item.where(origin: 'Brom Guest Box')
       @campaign = Item.where(origin: 'Legend of the Devil in Iron')
+      @conqueror = Item.where(origin: 'Conan the Conqueror')
       @weapon = Item.where(role: 'Weapon')
       @armor = Item.where('role = ? or role = ? or role = ?',
         'Armor', 'Shield / Staff', 'Other')

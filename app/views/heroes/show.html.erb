@@ -1,25 +1,17 @@
-<div class="row hero-well">
-  <div align="center">
-    <div class="prevnext prevnext_hero" >
-      <span class="prev"><%= link_to("<< " + @hero.previous.name, @hero.previous) if @hero.previous %></span>
-      <span aligh="center"><%= link_to "Back to heroes", heroes_path %></span>
-      <span class="next"><%= link_to(@hero.next.name + " >>", @hero.next) if @hero.next %></span>
-    </div>
-  </div>
-  <div class="col-md-4">
-    <div class="">
-      <h2 class="hero" align="center"><%= @hero.name %></h2>
-      <h4 align="center"><%= @hero.description %></h4>
-      <div align="center" class="heroes">
-        <%= image_tag "#{@hero.hero_image}" %><br /><br />
+<div class="row ">
+  <div class="col-xs-12 col-md-12 hero-well">
+    <div align="center">
+      <div class="prevnext prevnext_hero" >
+        <span class="prev"><%= link_to("<< " + @hero.previous.name, @hero.previous) if @hero.previous %></span>
+        <span class="center-span"><%= link_to "Back to heroes", heroes_path %></span>
+        <span class="next"><%= link_to(@hero.next.name + " >>", @hero.next) if @hero.next %></span>
       </div>
-        <p><%= @hero.quote %></p>
-        <p><%= @hero.cite %></p>
-      <div align="center">
-        from  <%= @hero.origin %>
 
-        <% if @hero_scenarios.any? %>
-        <br /><br />
+      <div class="col-md-3">
+        <div align="center" class="heroes">
+          <p><%= @hero.quote %></p>
+          <p><%= @hero.cite %></p>
+          <br />
           <div class="panel panel-hero">
             <div class="panel-heading">Scenarios that use this Hero</div>
             <table class="table">
@@ -30,97 +22,36 @@
                 <% end %>
             </table>
           </div>
-        <% end %>
+        </div>
+      </div>
+
+      <div class="col-md-9">
+        <div align="center">
+          <h2 class="hero" align="center"><%= @hero.name %></h2>
+          <%= image_tag "#{@hero.hero_sheet}" %><br /><br />
+          from  <%= @hero.origin %>
+        </div>
+
+        <br />
+        <table>
+          <% if @hero.skills.any? %>
+            <tr>
+              <td><h4>Skills:</h4></td>
+            <% @hero.skills.each do |skill| %>
+                <td class="thumbs">
+                  <%= link_to image_tag("skills/#{skill.name}.png"), skill_path(skill) %>
+                  <br /><%= link_to skill.name, skill_path(skill) %>
+                </td>
+            <% end%>
+            </tr>
+          <% end %>
+        </table>
 
 
       </div>
+
+
     </div>
-  </div>
-  <div class="col-md-8">
-    <br />
-
-    <table class="table table-bordered hero_stats">
-      <tr class="warning">
-        <th><%= image_tag "stats/melee.png" %><br />Melee</th>
-        <th><%= image_tag "stats/range.png" %><br />Range</th>
-        <th><%= image_tag "stats/defense.png" %><br />Defense</th>
-      </tr>
-      <tr class="active">
-        <td>
-          <%= image_tag "dice/#{@hero.melee_dice}.png" %><br />
-          <%= @hero.melee_dice %> die
-        </td>
-        <td>
-          <%= image_tag "dice/#{@hero.ranged_dice}.png" %><br />
-          <%= @hero.ranged_dice %> die
-        </td>
-        <td>
-          <%= image_tag "dice/#{@hero.defense_dice}.png" %><br />
-          <%= @hero.defense_dice %> die
-        </td>
-      </tr>
-      <tr class="active">
-        <td>Exertion Limit: <h4><%= @hero.melee_exertion %></h4></td>
-        <td>Exertion Limit: <h4><%= @hero.ranged_exertion %></h4></td>
-        <td></td>
-      </tr>
-      <tr class="warning">
-        <th>
-          <%= image_tag "stats/movement.png" %><br />Movement
-        </th>
-        <th>
-          <%= image_tag "stats/manipulation.png" %><br />Manipulation
-        </th>
-        <th>
-          <%= image_tag "stats/life.png" %><br />Life Points
-        </th>
-      </tr>
-      <tr class="active">
-        <td><h3><%= @hero.movement_free %></h3></td>
-        <td>
-          <%= image_tag "dice/#{@hero.manipulation_dice}.png" %><br />
-          <%= @hero.manipulation_dice %> die
-        </td>
-        <td><h3><%= @hero.life %></h3></td>
-      </tr>
-      <tr class="active">
-        <td>Exertion Limit:<h4><%= @hero.movement_exertion %></h4></td>
-        <td>Exertion Limit:<h4><%= @hero.manipulation_exersion %></h4></td>
-        <td></td>
-      </tr>
-      </table>
-
-      <table class="table table-bordered hero_stats">
-        <% if @hero.skills.any? %>
-        <tr class="warning">
-          <% @hero.skills.each do |skill| %>
-            <td class="thumbs">
-              <%= link_to image_tag("skills/#{skill.name}.png"), skill_path(skill) %>
-              <br /><%= link_to skill.name, skill_path(skill) %>
-            </td>
-          <% end%>
-        </tr>
-        <tr class="active">
-          <% @hero.skills.each_with_index do |skill, index| %>
-            <td>
-              <% if @hero.encumbrance[index+3] %>
-                Lost at: <h4><%= @hero.encumbrance[index+3] %></h4>
-              <% end %>
-            </td>
-          <% end %>
-        </tr>
-      <% end %>
-      <tr class="warning">
-        <th><%= image_tag "stats/encumbrance.png" %><br />Encumbrance</th>
-        <th><%= image_tag "stats/move_encum1.png" %><br />Move -1</th>
-        <th><%= image_tag "stats/move_encum2.png" %><br />Move -2</th>
-      </tr>
-      <tr class="active">
-        <td>Total: <h4><%= @hero.encumbrance[0] %></h4></td>
-        <td>Lost at: <h4><%= @hero.encumbrance[1] %></h4></td>
-        <td>Lost at: <h4><%= @hero.encumbrance[2] %></h4></td>
-      </tr>
-    </table>
   </div>
 </div>
 

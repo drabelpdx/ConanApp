@@ -2,7 +2,7 @@
   <div align="center" class="scenario">
     <div class="prevnext prevnext_scenario">
       <span class="prev"><%= link_to("<< " + @scenario.previous.name, @scenario.previous) if @scenario.previous %></span>
-      <span aligh="center"><%= link_to "Back to scenarios", scenarios_path %></span>
+      <span class="center-span"><%= link_to "Back to scenarios", scenarios_path %></span>
       <span class="next"><%= link_to( @scenario.next.name + " >>", @scenario.next) if @scenario.next %></span>
     </div>
   </div>
@@ -11,19 +11,20 @@
       <div class="col-md-4">
         <br />
         <h4 align="center"><%= @scenario.player_count %>&nbsp;Players&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                           <%= @scenario.complexity %>
-                           <%= pluralize_no_count(@scenario.complexity, 'Crow') %></h4>
+                           <% if @scenario.complexity != "-" && @scenario.complexity !="Campaign"%>
+                            <%= @scenario.complexity %>
+                            <%= pluralize_no_count(@scenario.complexity, 'Crow') %>
+                           <% end %></h4>
         <p align="center">
-          <% if @scenario.pdf_link != "" %>
-            <%= link_to "Grab the PDF for this scenario from Monolith", @scenario.pdf_link, :target => "_blank" %>
-          <% end %>
         </p>
         <p><%= @scenario.description.html_safe %></p>
         <br />
-
       </div>
       <div class="col-md-8 scenarios" align="center">
         <h1 align="center"><%= @scenario.name %></h1>
+        <% if @scenario.origin === "Legend of the Devil in Iron" %>
+          <h4 align="center">Campaign: Legend of the Devil in Iron</h4>
+        <% end %>
         <%= image_tag(@scenario.map_image) %>
         <% @scenario.map_ids.each do |id| %>
           <% @map = Map.find_by_id [id] %>
@@ -127,56 +128,64 @@
               <% if @scenario.life1 !=0 %>
                 <% findTile = @scenario.tile1 %>
                 <% tile = Tile.find_by_id [findTile] %>
-                <%= image_tag(tile.token_image)%><br /><%= @scenario.life1 %>
+                <%= image_tag(tile.token_image)%><br />
+                <%= @scenario.life1 %>
               <% end %>
             </td>
             <td>
               <% if @scenario.life2 !=0 %>
                 <% findTile = @scenario.tile2 %>
                 <% tile = Tile.find_by_id [findTile] %>
-                <%= image_tag(tile.token_image)%><br /><%= @scenario.life2 %>
+                <%= image_tag(tile.token_image)%><br />
+                <%= @scenario.life2 %>
               <% end %>
             </td>
             <td>
               <% if @scenario.life3 !=0 %>
                 <% findTile = @scenario.tile3 %>
                 <% tile = Tile.find_by_id [findTile] %>
-                <%= image_tag(tile.token_image)%><br /><%= @scenario.life3 %>
+                <%= image_tag(tile.token_image)%><br />
+                <%= @scenario.life3 %>
               <% end %>
             </td>
             <td>
               <% if @scenario.life4 !=0 %>
                 <% findTile = @scenario.tile4 %>
                 <% tile = Tile.find_by_id [findTile] %>
-                <%= image_tag(tile.token_image)%><br /><%= @scenario.life4 %>
+                <%= image_tag(tile.token_image)%><br />
+                <%= @scenario.life4 %>
               <% end %>
             </td>
             <td>
               <% if @scenario.life5 !=0 %>
                 <% findTile = @scenario.tile5 %>
                 <% tile = Tile.find_by_id [findTile] %>
-                <%= image_tag(tile.token_image)%><br /><%= @scenario.life5 %>
+                <%= image_tag(tile.token_image)%><br />
+                <%= @scenario.life5 %>
               <% end %>
             </td>
             <td>
               <% if @scenario.life6 !=0 %>
                 <% findTile = @scenario.tile6 %>
                 <% tile = Tile.find_by_id [findTile] %>
-                <%= image_tag(tile.token_image)%><br /><%= @scenario.life6 %>
+                <%= image_tag(tile.token_image)%><br />
+                <%= @scenario.life6 %>
               <% end %>
             </td>
             <td>
               <% if @scenario.life7 !=0 %>
                 <% findTile = @scenario.tile7 %>
                 <% tile = Tile.find_by_id [findTile] %>
-                <%= image_tag(tile.token_image)%><br /><%= @scenario.life7 %>
+                <%= image_tag(tile.token_image)%><br />
+                <%= @scenario.life7 %>
               <% end %>
             </td>
             <td>
               <% if @scenario.life8 !=0 %>
                 <% findTile = @scenario.tile8 %>
                 <% tile = Tile.find_by_id [findTile] %>
-                <%= image_tag(tile.token_image)%><br /><%= @scenario.life8 %>
+                <%= image_tag(tile.token_image)%><br />
+                <%= @scenario.life8 %>
               <% end %>
             </td>
           </tr>
@@ -206,6 +215,14 @@
     </div>
   <% end %>
 
+  <% if @scenario.pdf_link != '' %>
+    <div class="row scenario">
+      <h3 align="center" >Corrections / Clarifications</h3>
+    </div>
+      <%= @scenario.pdf_link.html_safe %>
+    </div>
+  <% end %>
+
 </div>
 
 <% if logged_in? && current_user.admin? %>
@@ -215,75 +232,3 @@
     <%= link_to 'Delete', scenario_path(@scenario), method: :delete, data: {confirm: "Are you sure?"} %>
   </div>
 <% end %>
-
-<script>
-  $('#rating').raty({
-    readOnly: true,
-    round: { down: .49, up: .5 },
-    score: <%= @scenario.average_rating %>,
-    path: '/assets'
-  });
-
-  $('#user_rating').raty({
-    score: <%= @rating.score %>,
-    path: '/assets',
-    click: function(score, evt) {
-      $.ajax({
-        url: '/ratings/' + <%= @rating.id %>,
-        type: 'PATCH',
-        data: { score: score }
-      });
-    }
-  });
-
-  $('#balance').raty({
-    readOnly: true,
-    single: true,
-    iconRange: [
-          {range: 1, on: 'misc/marker', off: 'misc/marker-off'},
-          {range: 2, on: 'misc/marker', off: 'misc/marker-off'},
-          {range: 3, on: 'misc/marker', off: 'misc/marker-off'},
-          {range: 4, on: 'misc/marker', off: 'misc/marker-off'},
-          {range: 5, on: 'misc/marker', off: 'misc/marker-off'}
-      ],
-    hints: ['favors Heroes', 'lightly favors', 'balanced', 'lightly favors', 'favors OL'],
-    score: <%= @scenario.average_balance %>,
-    path: '/assets'
-  });
-
-  $('#user_balance').raty({
-    score: <%= @rating.balance %>,
-    path: '/assets',
-    single: true,
-    iconRange: [
-          {range: 1, on: 'misc/marker', off: 'misc/marker-off'},
-          {range: 2, on: 'misc/marker', off: 'misc/marker-off'},
-          {range: 3, on: 'misc/marker', off: 'misc/marker-off'},
-          {range: 4, on: 'misc/marker', off: 'misc/marker-off'},
-          {range: 5, on: 'misc/marker', off: 'misc/marker-off'}
-      ],
-    hints: ['favors Heroes', 'lightly favors', 'balanced', 'lightly favors', 'favors OL'],
-    click: function(score, evt) {
-      $.ajax({
-        url: '/ratings/' + <%= @rating.id %>,
-        type: 'PATCH',
-        data: { balance: score }
-      });
-    }
-  });
-
-  var coll = document.getElementsByClassName("collapsible");
-  var i;
-
-  for (i = 0; i < coll.length; i++) {
-    coll[i].addEventListener("click", function() {
-      this.classList.toggle("active");
-      var content = this.nextElementSibling;
-      if (content.style.maxHeight){
-        content.style.maxHeight = null;
-      } else {
-        content.style.maxHeight = content.scrollHeight + "px";
-      }
-    });
-  }
-</script>

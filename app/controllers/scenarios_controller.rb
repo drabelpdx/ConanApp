@@ -44,20 +44,6 @@ class ScenariosController < ApplicationController
     end
   end
 
-  def show
-    if current_user
-      @rating = Rating.where(scenario_id: @scenario.id, user_id: (current_user.id)).first
-      unless @rating
-        @rating = Rating.create(scenario_id: @scenario.id, user_id: (current_user.id), score: 0, balance: 3)
-      end
-    else
-      @rating = Rating.where(scenario_id: @scenario.id).first
-      unless @rating
-        @rating = Rating.create(scenario_id: @scenario.id, score: 0, balance: 3)
-      end
-    end
-  end
-
   def destroy
     @scenario.destroy
     flash[:danger] = "A Scenario was deleted!"
@@ -108,20 +94,22 @@ class ScenariosController < ApplicationController
       @core = Scenario.where(origin: 'Core Game')
       @king = Scenario.where(origin: 'King Pledge')
       @stretch = Scenario.where(origin: 'Stretch Goal')
-      @nordheim = Scenario.where(origin: 'Nordheim Expansion')
-      @stygia = Scenario.where(origin: 'Stygia Expansion')
-      @khitai = Scenario.where(origin: 'Khitai Expansion')
+      @nordheim = Scenario.where(origin: 'Nordheim')
+      @stygia = Scenario.where(origin: 'Stygia')
+      @khitai = Scenario.where(origin: 'Khitai')
       @set = Scenario.where(origin: 'Book of Set')
       @legend = Scenario.where(origin: 'Legend of the Devil in Iron')
-      @sourcebook = Scenario.where(origin: 'The Monolith Sourcebook')
+      @skelos = Scenario.where(origin: 'Tome of Skelos')
+      @skelosCamp = Scenario.where(origin: 'Tome of Skelos: Campaign')
+      @brotherhood = Scenario.where(origin: 'Tales of the Red Brotherhood')
+      @shadow = Scenario.where(origin: 'The Shadow Kingdom')
+
     end
 
     def set_tiles
       @leaders_tile = Tile.where(role: 'Leader')
       @monsters_tile = Tile.where(role: 'Monster')
       @minions_tile = Tile.where(role: 'Minion')
-      @heroes_tile = Tile.where(role: 'Hero')
-      @allies_tile = Tile.where(role: 'Ally')
       @events_tile = Tile.where(role: 'Event')
     end
 

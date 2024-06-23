@@ -1,9 +1,9 @@
-<h1 class="product">Products</h1>
+<h1>Products</h1>
 <% if logged_in? && current_user.admin? %>
   <p><%= link_to "Add a Product", new_product_path %></p>
 <% end %>
 
-<p>First Kickstart / 2015</p>
+<p>2015 / First Kickstarter</p>
 
 <div class="row">
   <div class="col-md-6 col-sm-6">
@@ -53,26 +53,14 @@
 </div>
 
 <hr>
-<p>Other Products</p>
+<p>2017</p>
 
 <div class="row">
   <div class="col-md-6 col-sm-6">
     <div class="panel panel-primary">
       <div class="panel-heading">Books</div>
       <table class="table">
-        <% @otherbooks.each do |product| %>
-        <tr>
-          <td class="product"><%= link_to product.name, product_path(product) %></td>
-        </tr>
-        <% end %>
-      </table>
-    </div>
-  </div>
-  <div class="col-md-6 col-sm-6">
-    <div class="panel panel-primary">
-      <div class="panel-heading">Map Tiles</div>
-      <table class="table">
-        <% @othermaps.each do |product| %>
+        <% @books2017.each do |product| %>
         <tr>
           <td class="product"><%= link_to product.name, product_path(product) %></td>
         </tr>
@@ -83,7 +71,7 @@
 </div>
 
 <hr>
-<p>Second Kickstart / 2020</p>
+<p>2020 / Conqueror</p>
 
 <div class="row">
   <div class="col-md-6 col-sm-6">

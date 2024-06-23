@@ -1,143 +1,13 @@
 <div class="row ">
-  <div class="col-xs-12 col-md-9 item-well">
+  <div class="col-xs-12 col-md-12 item-well">
     <div align="center">
       <div class="prevnext prevnext_item">
         <span class="prev"><%= link_to("<< " + @item.previous.name, @item.previous) if @item.previous %></span>
-        <span aligh="center"><%= link_to "Back to items", items_path %></span>
+        <span class="center-span"><%= link_to "Back to items", items_path %></span>
         <span class="next"><%= link_to(@item.next.name + " >>", @item.next) if @item.next %></span>
       </div>
-      <div class="col-md-7">
-        <h2 class="item center"><%= @item.name %></h2>
-        <h4><%= @item.role %></h4>
-        <table class="tile_stats" align="center">
-          <% if @item.encumbrance != '' %>
-            <tr>
-              <th>
-                <%= image_tag "stats/encumbrance.png" %>
-                <br />Encumbrance
-              </th>
-              <th>
-                <h2><%= @item.encumbrance %></h2>
-              </th>
-            </tr>
-          <% end%>
-          <% if @item.dice != '' %>
-            <% myHash = eval(@item.dice) %>
-            <% myHash.each do |key, array| %>
-              <% if "#{key}" === "armor" %>
-                <tr>
-                  <th>
-                    <%= image_tag "stats/armor.png" %>
-                    <br />Armor
-                  </th>
-                  <td>
-                    <% array.each do |die| %>
-                      <% @bone_list.each do |bone| %>
-                        <% if bone.id === die  %>
-                          <%= image_tag "dice/#{bone.name}.png" %>
-                        <% end %>
-                      <% end %>
-                    <% end %>
-                    <br />
-                    <%= @item.armor %>
-                  </td>
-                </tr>
-              <% end %>
-              <% if "#{key}" === "melee" %>
-                <tr>
-                  <th>
-                    <%= image_tag "stats/melee.png" %>
-                    <br />Melee
-                  </th>
-                  <td>
-                    <% array.each do |die| %>
-                      <% @bone_list.each do |bone| %>
-                        <% if bone.id === die  %>
-                          <%= image_tag "dice/#{bone.name}.png" %>
-                        <% end %>
-                      <% end %>
-                    <% end %>
-                    <br />
-                    <%= @item.melee %>
-                  </td>
-                </tr>
-              <% end %>
-              <% if "#{key}" === "ranged" %>
-                <tr>
-                  <th>
-                    <%= image_tag "stats/range.png" %>
-                    <br />Ranged
-                  </th>
-                  <td>
-                    <% array.each do |die| %>
-                      <% @bone_list.each do |bone| %>
-                        <% if bone.id === die  %>
-                          <%= image_tag "dice/#{bone.name}.png" %>
-                        <% end %>
-                      <% end %>
-                    <% end %>
-                    <br />
-                    <%= @item.ranged %>
-                  </td>
-                </tr>
-              <% end %>
-              <% if "#{key}" === "defense" %>
-                <tr>
-                  <th>
-                    <%= image_tag "stats/defense.png" %>
-                    <br />Defense
-                  </th>
-                  <td>
-                    <% array.each do |die| %>
-                      <% @bone_list.each do |bone| %>
-                        <% if bone.id === die  %>
-                          <%= image_tag "dice/#{bone.name}.png" %>
-                        <% end %>
-                      <% end %>
-                    <% end %>
-                    <br />
-                    <%= @item.defense %>
-                  </td>
-                </tr>
-              <% end %>
-              <% if "#{key}" === "manipulation" %>
-                <tr>
-                  <th>
-                    <%= image_tag "stats/manipulation.png" %>
-                    <br />Manipulation
-                  </th>
-                  <td>
-                    <% array.each do |die| %>
-                      <% @bone_list.each do |bone| %>
-                        <% if bone.id === die  %>
-                          <%= image_tag "dice/#{bone.name}.png" %>
-                        <% end %>
-                      <% end %>
-                    <% end %>
-                    <br />
-                    <%= @item.manipulation %>
-                  </td>
-                </tr>
-              <% end %>
-            <% end %>
-          <% end %>
-        </table>
-        <% if @item.description != '' %>
-          <br />
-          <p align="center"><%= @item.description %></p>
-        <% end%>
-        <br />
-        <div align="center" class="tiles">
-          <h4>
-            <%= @item.count %>
-            <%= pluralize_no_count(@item.count, 'card') %>
-          </h4>
-          from <%= @item.origin %>
-          <br />
-        </div>
-      </div>
-      <div class="col-md-5">
-        <% if @item_scenarios.any? %>
+
+      <div class="col-md-3">
         <br />
           <div class="panel panel-item-show">
             <div class="panel-heading">Scenarios that use this Item</div>
@@ -149,8 +19,28 @@
                 <% end %>
             </table>
           </div>
+      </div>
+
+      <div class="col-xs-12 col-md-6">
+        <div align="center" class="item itemImage">
+            <br />
+            <%= image_tag "#{@item.image}" %>
+            <br /><br />
+            <h4>
+              <%= @item.count %>  <%= pluralize_no_count(@item.count, 'card') %>
+            </h4>
+            from  <%= @item.origin %>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <br />
+        <% if @item.correction != '' %>
+            <h4>Correction / Clarification:</h4>
+            <%= sanitize @item.correction %>
         <% end %>
       </div>
+
     </div>
   </div>
 </div>

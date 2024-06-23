@@ -1,4 +1,4 @@
-<h1 class="scenario">Scenarios</h1>
+<h1>Scenarios</h1>
 <% if logged_in? && current_user.admin? %>
   <p><%= link_to "Add a Scenario", new_scenario_path %></p>
 <% end %>
@@ -7,191 +7,417 @@
   <h4>There are no scenarios containing the term <%= params[:search] %>.</h4>
 <% end %>
 
-<p>Scenarios are the basis of each game. They outline the characters, map, items and any special rules used.</p>
-<p>Below is a list of official <%= link_to "Monolith", "http://www.monolithedition.com/conan-en/scenarios/", :target => "_blank" %> scenarios. These can be sorted by:
+<p>Scenarios are the basis of each game. They outline the characters, map, items and any special rules used.<br />
+Below is a list of Adventure Mode scenarios that shipped with Monolith products. </p>
 
+<p>Scenarios can be sorted by:</p>
   <ul>
     <li>the box or book (<strong>origin</strong>) the scenario came in</li>
-    <li>the number of <strong>players</strong> it plays</li>
-    <li>the <strong>complexity</strong> of the special rules used</li>
     <li>the <strong>map</strong> the scenario is played on</li>
+    <li>the number of <strong>players</strong> it plays</li>
+    <li>the number of <strong>crows</strong> / complexity of special rules</li>
+    <li>all scenario <strong>names</strong> in alphabetical order</li>
   </ul>
 <div align="center">
   <a href="" id="show_byorigin" class="toggles"><button class="btn btn-scenario active">By Origin</button></a>
-  <a href="" id="show_bycount" class="toggles"><button class="btn btn-scenario">By Player Count</button></a>
-  <a href="" id="show_bycomplexity" class="toggles"><button class="btn btn-scenario">By Complexity</button></a>
   <a href="" id="show_bymap" class="toggles"><button class="btn btn-scenario">By Map</button></a>
+  <a href="" id="show_bycount" class="toggles"><button class="btn btn-scenario">By Player Count</button></a>
+  <a href="" id="show_bycomplexity" class="toggles"><button class="btn btn-scenario">By Crow Count</button></a>
+  <a href="" id="show_byname" class="toggles"><button class="btn btn-scenario">By Name</button></a>
 </div>
 <hr>
 
 <div id="by_origin">
-  <div class="row">
-    <div class="col-md-4 col-sm-6">
-      <div class="panel panel-info">
-        <div class="panel-heading">Core Game</div>
-        <table class="table">
+  <div class="card">
+    <div class="card-header" id="headingCore">
+      <button class="btn btn-link" data-toggle="collapse" data-target="#collapseCore">
+      &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Core Game</button>
+    </div>
+    <div class="card-body panel panel-info">
+      <div id="collapseCore" class="collapse in">
+        <table class="table stats scenariostats">
+          <thead>
+            <tr>
+              <th class="w30">Scenario</th>
+              <th class="w20">Map</th>
+              <th class="w15">Players</th>
+              <th class="w15">Crows</th>
+              <th class="w20">Origin</th>
+            </tr>
+          </thead>
           <% @core.each do |scenario| %>
           <tr>
-            <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
-          </tr>
-          <% end %>
-        </table>
-      </div>
-      <div class="panel panel-info">
-        <div class="panel-heading">Nordheim Expansion</div>
-        <table class="table">
-          <% @nordheim.each do |scenario| %>
-          <tr>
-            <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
-          </tr>
-          <% end %>
-        </table>
-      </div>
-      <div class="panel panel-info">
-        <div class="panel-heading">Khitai Expansion</div>
-        <table class="table">
-          <% @khitai.each do |scenario| %>
-          <tr>
-            <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
-          </tr>
-          <% end %>
-        </table>
-      </div>
-      <div class="panel panel-info">
-        <div class="panel-heading">Stygia Expansion</div>
-        <table class="table">
-          <% @stygia.each do |scenario| %>
-          <tr>
-            <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
-          </tr>
-          <% end %>
-        </table>
-      </div>
-    </div>
-    <div class="col-md-4 col-sm-6">
-      <div class="panel panel-info">
-        <div class="panel-heading">King Pledge</div>
-        <table class="table">
-          <% @king.each do |scenario| %>
-          <tr>
-            <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
-          </tr>
-          <% end %>
-        </table>
-      </div>
-      <div class="panel panel-info">
-        <div class="panel-heading">Legend of the Devil in Iron</div>
-        <table class="table">
-          <% @legend.each do |scenario| %>
-          <tr>
-            <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
-          </tr>
-          <% end %>
-        </table>
-      </div>
-
-    </div>
-    <div class="col-md-4 col-sm-6">
-      <div class="panel panel-info">
-        <div class="panel-heading">Stretch Goal</div>
-        <table class="table">
-          <% @stretch.each do |scenario| %>
-          <tr>
-            <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
-          </tr>
-          <% end %>
-        </table>
-      </div>
-      <div class="panel panel-info">
-        <div class="panel-heading">Book of Set</div>
-        <table class="table">
-          <% @set.each do |scenario| %>
-          <tr>
-            <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td class="scenario"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td>
+              <% scenario.maps.each do |map| %>
+              <%= map.name %>
+              <br />
+              <% end %>
+            </td>
+            <td><%= scenario.player_count  %></td>
+            <td><%= scenario.complexity %></td>
+            <td>Core Game</td>
           </tr>
           <% end %>
         </table>
       </div>
     </div>
   </div>
-</div>
 
-<div id="by_count">
-  <div class="row">
-    <div class="col-md-4 col-sm-6">
-      <div class="panel panel-info">
-        <div class="panel-heading">2 Players</div>
-        <table class="table">
-          <% @scenarios.each do |scenario| %>
-          <% if scenario.player_count === "2"%>
+  <div class="card">
+    <div class="card-header" id="headingKing">
+      <button class="btn btn-link" data-toggle="collapse" data-target="#collapseKing">
+      &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;King Pledge</button>
+    </div>
+    <div class="panel panel-info">
+      <div id="collapseKing" class="collapse in">
+        <table class="table stats scenariostats">
+          <thead>
+            <tr>
+              <th class="w30">Scenario</th>
+              <th class="w20">Map</th>
+              <th class="w15">Players</th>
+              <th class="w15">Crows</th>
+              <th class="w20">Origin</th>
+            </tr>
+          </thead>
+          <% @king.each do |scenario| %>
           <tr>
-            <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td class="scenario"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td>
+              <% scenario.maps.each do |map| %>
+              <%= map.name %>
+              <br />
+              <% end %>
+            </td>
+            <td><%= scenario.player_count  %></td>
+            <td><%= scenario.complexity %></td>
+            <td>King Pledge</td>
           </tr>
-          <% end %>
-          <% end %>
-        </table>
-      </div>
-      <div class="panel panel-info">
-        <div class="panel-heading">3 Players</div>
-        <table class="table">
-          <% @scenarios.each do |scenario| %>
-          <% if scenario.player_count === "3"%>
-          <tr>
-            <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
-          </tr>
-          <% end %>
           <% end %>
         </table>
       </div>
     </div>
-    <div class="col-md-4 col-sm-6">
-      <div class="panel panel-info">
-        <div class="panel-heading">4 Players</div>
-        <table class="table">
-          <% @scenarios.each do |scenario| %>
-          <% if scenario.player_count === "4"%>
+  </div>
+
+  <div class="card">
+    <div class="card-header" id="headingStretch">
+      <button class="btn btn-link" data-toggle="collapse" data-target="#collapseStretch">
+      &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Stretch Goal</button>
+    </div>
+    <div class="panel panel-info">
+      <div id="collapseStretch" class="collapse in">
+        <table class="table stats scenariostats">
+          <thead>
+            <tr>
+              <th class="w30">Scenario</th>
+              <th class="w20">Map</th>
+              <th class="w15">Players</th>
+              <th class="w15">Crows</th>
+              <th class="w20">Origin</th>
+            </tr>
+          </thead>
+          <% @stretch.each do |scenario| %>
           <tr>
-            <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td class="scenario"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td>
+              <% scenario.maps.each do |map| %>
+              <%= map.name %>
+              <br />
+              <% end %>
+            </td>
+            <td><%= scenario.player_count  %></td>
+            <td><%= scenario.complexity %></td>
+            <td>Stretch Goal</td>
           </tr>
-          <% end %>
-          <% end %>
-        </table>
-      </div>
-      <div class="panel panel-info">
-        <div class="panel-heading">4-5 Players</div>
-        <table class="table">
-          <% @scenarios.each do |scenario| %>
-          <% if scenario.player_count === "4-5"%>
-          <tr>
-            <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
-          </tr>
-          <% end %>
           <% end %>
         </table>
       </div>
     </div>
-    <div class="col-md-4 col-sm-6">
-      <div class="panel panel-info">
-        <div class="panel-heading">5 Players</div>
-        <table class="table">
-          <% @scenarios.each do |scenario| %>
-          <% if scenario.player_count === "5"%>
+  </div>
+
+  <div class="card">
+    <div class="card-header" id="headingNordheim">
+      <button class="btn btn-link" data-toggle="collapse" data-target="#collapseNordheim">
+      &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Nordheim Expansion</button>
+    </div>
+    <div class="panel panel-info">
+      <div id="collapseNordheim" class="collapse in">
+        <table class="table stats scenariostats">
+          <thead>
+            <tr>
+              <th class="w30">Scenario</th>
+              <th class="w20">Map</th>
+              <th class="w15">Players</th>
+              <th class="w15">Crows</th>
+              <th class="w20">Origin</th>
+            </tr>
+          </thead>
+          <% @nordheim.each do |scenario| %>
           <tr>
-            <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td class="scenario"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td>
+              <% scenario.maps.each do |map| %>
+              <%= map.name %>
+              <br />
+              <% end %>
+            </td>
+            <td><%= scenario.player_count  %></td>
+            <td><%= scenario.complexity %></td>
+            <td>Nordheim Expansion</td>
           </tr>
-          <% end %>
           <% end %>
         </table>
       </div>
-      <div class="panel panel-info">
-        <div class="panel-heading">5 Campaign Players</div>
-        <table class="table">
-          <% @scenarios.each do |scenario| %>
-          <% if scenario.player_count === "5 Campaign"%>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header" id="headingKhitai">
+      <button class="btn btn-link" data-toggle="collapse" data-target="#collapseKhitai">
+      &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Khitai Expansion</button>
+    </div>
+    <div class="panel panel-info">
+      <div id="collapseKhitai" class="collapse in">
+        <table class="table stats scenariostats">
+          <thead>
+            <tr>
+              <th class="w30">Scenario</th>
+              <th class="w20">Map</th>
+              <th class="w15">Players</th>
+              <th class="w15">Crows</th>
+              <th class="w20">Origin</th>
+            </tr>
+          </thead>
+          <% @khitai.each do |scenario| %>
           <tr>
-            <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td class="scenario"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td>
+              <% scenario.maps.each do |map| %>
+              <%= map.name %>
+              <br />
+              <% end %>
+            </td>
+            <td><%= scenario.player_count  %></td>
+            <td><%= scenario.complexity %></td>
+            <td>Khitai Expansion</td>
           </tr>
           <% end %>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header" id="headingStygia">
+      <button class="btn btn-link" data-toggle="collapse" data-target="#collapseStygia">
+      &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Stygia Expansion</button>
+    </div>
+    <div class="panel panel-info">
+      <div id="collapseStygia" class="collapse in">
+        <table class="table stats scenariostats">
+          <thead>
+            <tr>
+              <th class="w30">Scenario</th>
+              <th class="w20">Map</th>
+              <th class="w15">Players</th>
+              <th class="w15">Crows</th>
+              <th class="w20">Origin</th>
+            </tr>
+          </thead>
+          <% @stygia.each do |scenario| %>
+          <tr>
+            <td class="scenario"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td>
+              <% scenario.maps.each do |map| %>
+              <%= map.name %>
+              <br />
+              <% end %>
+            </td>
+            <td><%= scenario.player_count  %></td>
+            <td><%= scenario.complexity %></td>
+            <td>Stygia Expansion</td>
+          </tr>
+          <% end %>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header" id="headingSet">
+      <button class="btn btn-link" data-toggle="collapse" data-target="#collapseSet">
+      &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Book of Set</button>
+    </div>
+    <div class="panel panel-info">
+      <div id="collapseSet" class="collapse in">
+        <table class="table stats scenariostats">
+          <thead>
+            <tr>
+              <th class="w30">Scenario</th>
+              <th class="w20">Map</th>
+              <th class="w15">Players</th>
+              <th class="w15">Crows</th>
+              <th class="w20">Origin</th>
+            </tr>
+          </thead>
+          <% @set.each do |scenario| %>
+          <tr>
+            <td class="scenario"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td>
+              <% scenario.maps.each do |map| %>
+              <%= map.name %>
+              <br />
+              <% end %>
+            </td>
+            <td><%= scenario.player_count  %></td>
+            <td><%= scenario.complexity %></td>
+            <td>Book of Set</td>
+          </tr>
+          <% end %>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header" id="headingLegend">
+      <button class="btn btn-link" data-toggle="collapse" data-target="#collapseLegend" >
+      &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Legend of the Devil in Iron</button>
+    </div>
+    <div class="panel panel-info">
+      <div id="collapseLegend" class="collapse in">
+        <table class="table stats scenariostats">
+          <thead>
+            <tr>
+              <th class="w30">Scenario</th>
+              <th class="w20">Map</th>
+              <th class="w15">Players</th>
+              <th class="w15">Crows</th>
+              <th class="w20">Origin</th>
+            </tr>
+          </thead>
+          <% @legend.each do |scenario| %>
+          <tr>
+            <td class="scenario"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td>
+              <% scenario.maps.each do |map| %>
+              <%= map.name %>
+              <br />
+              <% end %>
+            </td>
+            <td><%= scenario.player_count  %></td>
+            <td><%= scenario.complexity %></td>
+            <td>Legend of the Devil in Iron</td>
+          </tr>
+          <% end %>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header" id="headingSkelos">
+      <button class="btn btn-link" data-toggle="collapse" data-target="#collapseSkelos">
+      &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Tome of Skelos</button>
+    </div>
+    <div class="panel panel-info">
+      <div id="collapseSkelos" class="collapse in">
+        <table class="table stats scenariostats">
+          <thead>
+            <tr>
+              <th class="w30">Scenario</th>
+              <th class="w20">Map</th>
+              <th class="w15">Players</th>
+              <th class="w15">Crows</th>
+              <th class="w20">Origin</th>
+            </tr>
+          </thead>
+          <% @skelos.each do |scenario| %>
+          <tr>
+            <td class="scenario"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td>
+              <% scenario.maps.each do |map| %>
+              <%= map.name %>
+              <br />
+              <% end %>
+            </td>
+            <td><%= scenario.player_count  %></td>
+            <td><%= scenario.complexity %></td>
+            <td>Tome of Skelos</td>
+          </tr>
+          <% end %>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header" id="headingBrotherhood">
+      <button class="btn btn-link" data-toggle="collapse" data-target="#collapseBrotherhood">
+      &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Tales of the Red Brotherhood</button>
+    </div>
+    <div class="panel panel-info">
+      <div id="collapseBrotherhood" class="collapse in">
+        <table class="table stats scenariostats">
+          <thead>
+            <tr>
+              <th class="w30">Scenario</th>
+              <th class="w20">Map</th>
+              <th class="w15">Players</th>
+              <th class="w15">Campaign</th>
+              <th class="w20">Origin</th>
+            </tr>
+          </thead>
+          <% @brotherhood.each do |scenario| %>
+          <tr>
+            <td class="scenario"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td>
+              <% scenario.maps.each do |map| %>
+              <%= map.name %>
+              <br />
+              <% end %>
+            </td>
+            <td><%= scenario.player_count  %></td>
+            <td><%= scenario.complexity %></td>
+            <td>Tales of the Red Brotherhood</td>
+          </tr>
+          <% end %>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header" id="headingShadow">
+      <button class="btn btn-link" data-toggle="collapse" data-target="#collapseShadow">
+      &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;The Shadow kingdom</button>
+    </div>
+    <div class="panel panel-info">
+      <div id="collapseShadow" class="collapse in">
+        <table class="table stats scenariostats">
+          <thead>
+            <tr>
+              <th class="w30">Scenario</th>
+              <th class="w20">Map</th>
+              <th class="w15">Players</th>
+              <th class="w15">Campaign</th>
+              <th class="w20">Origin</th>
+            </tr>
+          </thead>
+          <% @shadow.each do |scenario| %>
+          <tr>
+            <td class="scenario"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td>
+              <% scenario.maps.each do |map| %>
+              <%= map.name %>
+              <br />
+              <% end %>
+            </td>
+            <td><%= scenario.player_count  %></td>
+            <td><%= scenario.complexity %></td>
+            <td>The Shadow kingdom</td>
+          </tr>
           <% end %>
         </table>
       </div>
@@ -200,151 +426,493 @@
 </div>
 
 <div id="by_map">
-  <div class="row">
-    <div class="col-md-4 col-sm-6">
-      <div class="panel panel-info">
-        <div class="panel-heading">The Pict Village</div>
-        <table class="table">
+  <div class="card">
+    <div class="card-header" id="headingPict">
+      <button class="btn btn-link" data-toggle="collapse" data-target="#collapsePict">
+      &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Pict Village</button>
+    </div>
+    <div class="panel panel-info">
+      <div id="collapsePict" class="collapse in">
+        <table class="table stats scenariostats">
+          <thead>
+            <tr>
+              <th class="w30">Scenario</th>
+              <th class="w20">Origin</th>
+              <th class="w15">Players</th>
+              <th class="w15">Crows/Campaign</th>
+              <th class="w20">Map</th>
+            </tr>
+          </thead>
           <% @scenarios.each do |scenario| %>
           <% if scenario.map_ids.include?(1)%>
           <tr>
-            <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td class="scenario"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td><%= scenario.origin %></td>
+            <td><%= scenario.player_count %></td>
+            <td><%= scenario.complexity %></td>
+            <td>Pict Village</td>
           </tr>
           <% end %>
           <% end %>
         </table>
       </div>
-      <div class="panel panel-info">
-        <div class="panel-heading">The Ships</div>
-        <table class="table">
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header" id="headingInn">
+      <button class="btn btn-link" data-toggle="collapse" data-target="#collapseInn">
+      &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Inn</button>
+    </div>
+    <div class="panel panel-info">
+      <div id="collapseInn" class="collapse in">
+        <table class="table stats scenariostats">
+          <thead>
+            <tr>
+              <th class="w30">Scenario</th>
+              <th class="w20">Origin</th>
+              <th class="w15">Players</th>
+              <th class="w15">Crows/Campaign</th>
+              <th class="w20">Map</th>
+            </tr>
+          </thead>
           <% @scenarios.each do |scenario| %>
           <% if scenario.map_ids.include?(2)%>
           <tr>
-            <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
-          </tr>
-          <% end %>
-          <% end %>
-        </table>
-      </div>
-      <div class="panel panel-info">
-        <div class="panel-heading">The Frozen Battlefield</div>
-        <table class="table">
-          <% @scenarios.each do |scenario| %>
-          <% if scenario.map_ids.include?(7)%>
-          <tr>
-            <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
-          </tr>
-          <% end %>
-          <% end %>
-        </table>
-      </div>
-      <div class="panel panel-info">
-        <div class="panel-heading">The Tundra Forest</div>
-        <table class="table">
-          <% @scenarios.each do |scenario| %>
-          <% if scenario.map_ids.include?(8)%>
-          <tr>
-            <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td class="scenario"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td><%= scenario.origin %></td>
+            <td><%= scenario.player_count %></td>
+            <td><%= scenario.complexity %></td>
+            <td>Inn</td>
           </tr>
           <% end %>
           <% end %>
         </table>
       </div>
     </div>
-    <div class="col-md-4 col-sm-6">
-      <div class="panel panel-info">
-        <div class="panel-heading">The Abandoned Fort</div>
-        <table class="table">
+  </div>
+
+  <div class="card">
+    <div class="card-header" id="headingShips">
+      <button class="btn btn-link" data-toggle="collapse" data-target="#collapseShips">
+      &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Ships</button>
+    </div>
+    <div class="panel panel-info">
+      <div id="collapseShips" class="collapse in">
+        <table class="table stats scenariostats">
+          <thead>
+            <tr>
+              <th class="w30">Scenario</th>
+              <th class="w20">Origin</th>
+              <th class="w15">Players</th>
+              <th class="w15">Crows/Campaign</th>
+              <th class="w20">Map</th>
+            </tr>
+          </thead>
           <% @scenarios.each do |scenario| %>
           <% if scenario.map_ids.include?(3)%>
           <tr>
-            <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
-          </tr>
-          <% end %>
-          <% end %>
-        </table>
-      </div>
-      <div class="panel panel-info">
-        <div class="panel-heading">The Inn</div>
-        <table class="table">
-          <% @scenarios.each do |scenario| %>
-          <% if scenario.map_ids.include?(4)%>
-          <tr>
-            <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
-          </tr>
-          <% end %>
-          <% end %>
-        </table>
-      </div>
-      <div class="panel panel-info">
-        <div class="panel-heading">Khitai Tower</div>
-        <table class="table">
-          <% @scenarios.each do |scenario| %>
-          <% if scenario.map_ids.include?(11 || 12)%>
-          <tr>
-            <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
-          </tr>
-          <% end %>
-          <% end %>
-        </table>
-      </div>
-      <div class="panel panel-info">
-        <div class="panel-heading">Khitai Village</div>
-        <table class="table">
-          <% @scenarios.each do |scenario| %>
-          <% if scenario.map_ids.include?(13)%>
-          <tr>
-            <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td class="scenario"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td><%= scenario.origin %></td>
+            <td><%= scenario.player_count %></td>
+            <td><%= scenario.complexity %></td>
+            <td>Ships</td>
           </tr>
           <% end %>
           <% end %>
         </table>
       </div>
     </div>
-    <div class="col-md-4 col-sm-6">
-      <div class="panel panel-info">
-        <div class="panel-heading">The Citadel</div>
-        <table class="table">
+  </div>
+
+  <div class="card">
+    <div class="card-header" id="headingFort">
+      <button class="btn btn-link" data-toggle="collapse" data-target="#collapseFort">
+      &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Abandoned Fort</button>
+    </div>
+    <div class="panel panel-info">
+      <div id="collapseFort" class="collapse in">
+        <table class="table stats scenariostats">
+          <thead>
+            <tr>
+              <th class="w30">Scenario</th>
+              <th class="w20">Origin</th>
+              <th class="w15">Players</th>
+              <th class="w15">Crows/Campaign</th>
+              <th class="w20">Map</th>
+            </tr>
+          </thead>
+          <% @scenarios.each do |scenario| %>
+          <% if scenario.map_ids.include?(4)%>
+          <tr>
+            <td class="scenario"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td><%= scenario.origin %></td>
+            <td><%= scenario.player_count %></td>
+            <td><%= scenario.complexity %></td>
+            <td>Abandoned Fort</td>
+          </tr>
+          <% end %>
+          <% end %>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header" id="headingCitadel">
+      <button class="btn btn-link" data-toggle="collapse" data-target="#collapseCitadel">
+      &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Citadel</button>
+    </div>
+    <div class="panel panel-info">
+      <div id="collapseCitadel" class="collapse in">
+        <table class="table stats scenariostats">
+          <thead>
+            <tr>
+              <th class="w30">Scenario</th>
+              <th class="w20">Origin</th>
+              <th class="w15">Players</th>
+              <th class="w15">Crows/Campaign</th>
+              <th class="w20">Map</th>
+            </tr>
+          </thead>
           <% @scenarios.each do |scenario| %>
           <% if scenario.map_ids.include?(5)%>
           <tr>
-            <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td class="scenario"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td><%= scenario.origin %></td>
+            <td><%= scenario.player_count %></td>
+            <td><%= scenario.complexity %></td>
+            <td>Citadel</td>
           </tr>
           <% end %>
           <% end %>
         </table>
       </div>
-      <div class="panel panel-info">
-        <div class="panel-heading">The Swamp</div>
-        <table class="table">
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header" id="headingSwamp">
+      <button class="btn btn-link" data-toggle="collapse" data-target="#collapseSwamp">
+      &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Swamp</button>
+    </div>
+    <div class="panel panel-info">
+      <div id="collapseSwamp" class="collapse in">
+        <table class="table stats scenariostats">
+          <thead>
+            <tr>
+              <th class="w30">Scenario</th>
+              <th class="w20">Origin</th>
+              <th class="w15">Players</th>
+              <th class="w15">Crows/Campaign</th>
+              <th class="w20">Map</th>
+            </tr>
+          </thead>
           <% @scenarios.each do |scenario| %>
           <% if scenario.map_ids.include?(6)%>
           <tr>
-            <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td class="scenario"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td><%= scenario.origin %></td>
+            <td><%= scenario.player_count %></td>
+            <td><%= scenario.complexity %></td>
+            <td>Swamp</td>
           </tr>
           <% end %>
           <% end %>
         </table>
       </div>
-      <div class="panel panel-info">
-        <div class="panel-heading">Stygia Temple</div>
-        <table class="table">
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header" id="headingTower1">
+      <button class="btn btn-link" data-toggle="collapse" data-target="#collapseTower1">
+      &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Khitai Tower 1</button>
+    </div>
+    <div class="panel panel-info">
+      <div id="collapseTower1" class="collapse in">
+        <table class="table stats scenariostats">
+          <thead>
+            <tr>
+              <th class="w30">Scenario</th>
+              <th class="w20">Origin</th>
+              <th class="w15">Players</th>
+              <th class="w15">Crows/Campaign</th>
+              <th class="w20">Map</th>
+            </tr>
+          </thead>
+          <% @scenarios.each do |scenario| %>
+          <% if scenario.map_ids.include?(7)%>
+          <tr>
+            <td class="scenario"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td><%= scenario.origin %></td>
+            <td><%= scenario.player_count %></td>
+            <td><%= scenario.complexity %></td>
+            <td>Khitai Tower 1</td>
+          </tr>
+          <% end %>
+          <% end %>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header" id="headingTower2">
+      <button class="btn btn-link" data-toggle="collapse" data-target="#collapseTower2">
+      &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Khitai Tower 2</button>
+    </div>
+    <div class="panel panel-info">
+      <div id="collapseTower2" class="collapse in">
+        <table class="table stats scenariostats">
+          <thead>
+            <tr>
+              <th class="w30">Scenario</th>
+              <th class="w20">Origin</th>
+              <th class="w15">Players</th>
+              <th class="w15">Crows/Campaign</th>
+              <th class="w20">Map</th>
+            </tr>
+          </thead>
+          <% @scenarios.each do |scenario| %>
+          <% if scenario.map_ids.include?(8)%>
+          <tr>
+            <td class="scenario"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td><%= scenario.origin %></td>
+            <td><%= scenario.player_count %></td>
+            <td><%= scenario.complexity %></td>
+            <td>Khitai Tower 2</td>
+          </tr>
+          <% end %>
+          <% end %>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header" id="headingKhitan">
+      <button class="btn btn-link" data-toggle="collapse" data-target="#collapseKhitan">
+      &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Khitai Village</button>
+    </div>
+    <div class="panel panel-info">
+      <div id="collapseKhitan" class="collapse in">
+        <table class="table stats scenariostats">
+          <thead>
+            <tr>
+              <th class="w30">Scenario</th>
+              <th class="w20">Origin</th>
+              <th class="w15">Players</th>
+              <th class="w15">Crows/Campaign</th>
+              <th class="w20">Map</th>
+            </tr>
+          </thead>
           <% @scenarios.each do |scenario| %>
           <% if scenario.map_ids.include?(9)%>
           <tr>
-            <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td class="scenario"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td><%= scenario.origin %></td>
+            <td><%= scenario.player_count %></td>
+            <td><%= scenario.complexity %></td>
+            <td>Khitai Village</td>
           </tr>
           <% end %>
           <% end %>
         </table>
       </div>
-      <div class="panel panel-info">
-        <div class="panel-heading">Luxur Port</div>
-        <table class="table">
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header" id="headingFrozen">
+      <button class="btn btn-link" data-toggle="collapse" data-target="#collapseFrozen">
+      &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Nordheim Mound</button>
+    </div>
+    <div class="panel panel-info">
+      <div id="collapseFrozen" class="collapse in">
+        <table class="table stats scenariostats">
+          <thead>
+            <tr>
+              <th class="w30">Scenario</th>
+              <th class="w20">Origin</th>
+              <th class="w15">Players</th>
+              <th class="w15">Crows/Campaign</th>
+              <th class="w20">Map</th>
+            </tr>
+          </thead>
           <% @scenarios.each do |scenario| %>
           <% if scenario.map_ids.include?(10)%>
           <tr>
-            <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td class="scenario"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td><%= scenario.origin %></td>
+            <td><%= scenario.player_count %></td>
+            <td><%= scenario.complexity %></td>
+            <td>Nordheim Mound</td>
+          </tr>
+          <% end %>
+          <% end %>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header" id="headingForest">
+      <button class="btn btn-link" data-toggle="collapse" data-target="#collapseForest">
+      &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Nordheim Forest</button>
+    </div>
+    <div class="panel panel-info">
+      <div id="collapseForest" class="collapse in">
+        <table class="table stats scenariostats">
+          <thead>
+            <tr>
+              <th class="w30">Scenario</th>
+              <th class="w20">Origin</th>
+              <th class="w15">Players</th>
+              <th class="w15">Crows/Campaign</th>
+              <th class="w20">Map</th>
+            </tr>
+          </thead>
+          <% @scenarios.each do |scenario| %>
+          <% if scenario.map_ids.include?(11)%>
+          <tr>
+            <td class="scenario"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td><%= scenario.origin %></td>
+            <td><%= scenario.player_count %></td>
+            <td><%= scenario.complexity %></td>
+            <td>Nordheim Forest</td>
+          </tr>
+          <% end %>
+          <% end %>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header" id="headingTemple">
+      <button class="btn btn-link" data-toggle="collapse" data-target="#collapseTemple">
+      &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Stygia Underground</button>
+    </div>
+    <div class="panel panel-info">
+      <div id="collapseTemple" class="collapse in">
+        <table class="table stats scenariostats">
+          <thead>
+            <tr>
+              <th class="w30">Scenario</th>
+              <th class="w20">Origin</th>
+              <th class="w15">Players</th>
+              <th class="w15">Crows/Campaign</th>
+              <th class="w20">Map</th>
+            </tr>
+          </thead>
+          <% @scenarios.each do |scenario| %>
+          <% if scenario.map_ids.include?(12)%>
+          <tr>
+            <td class="scenario"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td><%= scenario.origin %></td>
+            <td><%= scenario.player_count %></td>
+            <td><%= scenario.complexity %></td>
+            <td>Stygia Underground</td>
+          </tr>
+          <% end %>
+          <% end %>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header" id="headingLuxor">
+      <button class="btn btn-link" data-toggle="collapse" data-target="#collapseLuxor">
+      &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Stygia Port</button>
+    </div>
+    <div class="panel panel-info">
+      <div id="collapseLuxor" class="collapse in">
+        <table class="table stats scenariostats">
+          <thead>
+            <tr>
+              <th class="w30">Scenario</th>
+              <th class="w20">Origin</th>
+              <th class="w15">Players</th>
+              <th class="w15">Crows/Campaign</th>
+              <th class="w20">Map</th>
+            </tr>
+          </thead>
+          <% @scenarios.each do |scenario| %>
+          <% if scenario.map_ids.include?(13)%>
+          <tr>
+            <td class="scenario"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td><%= scenario.origin %></td>
+            <td><%= scenario.player_count %></td>
+            <td><%= scenario.complexity %></td>
+            <td>Stygia Port</td>
+          </tr>
+          <% end %>
+          <% end %>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header" id="headingTemple2">
+      <button class="btn btn-link" data-toggle="collapse" data-target="#collapseTemple2">
+      &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Conqueror Temple</button>
+    </div>
+    <div class="panel panel-info">
+      <div id="collapseTemple2" class="collapse in">
+        <table class="table stats scenariostats">
+          <thead>
+            <tr>
+              <th class="w30">Scenario</th>
+              <th class="w20">Origin</th>
+              <th class="w15">Players</th>
+              <th class="w15">Crows/Campaign</th>
+              <th class="w20">Map</th>
+            </tr>
+          </thead>
+          <% @scenarios.each do |scenario| %>
+          <% if scenario.map_ids.include?(14)%>
+          <tr>
+            <td class="scenario"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td><%= scenario.origin %></td>
+            <td><%= scenario.player_count %></td>
+            <td><%= scenario.complexity %></td>
+            <td>Conqueror Temple</td>
+          </tr>
+          <% end %>
+          <% end %>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header" id="headingCitadel2">
+      <button class="btn btn-link" data-toggle="collapse" data-target="#collapseCitadel2"">
+      &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Conqueror Citadel</button>
+    </div>
+    <div class="panel panel-info">
+      <div id="collapseCitadel2" class="collapse in">
+        <table class="table stats scenariostats">
+          <thead>
+            <tr>
+              <th class="w30">Scenario</th>
+              <th class="w20">Origin</th>
+              <th class="w15">Players</th>
+              <th class="w15">Crows/Campaign</th>
+              <th class="w20">Map</th>
+            </tr>
+          </thead>
+          <% @scenarios.each do |scenario| %>
+          <% if scenario.map_ids.include?(15)%>
+          <tr>
+            <td class="scenario"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td><%= scenario.origin %></td>
+            <td><%= scenario.player_count %></td>
+            <td><%= scenario.complexity %></td>
+            <td>Conqueror Citadel</td>
           </tr>
           <% end %>
           <% end %>
@@ -353,84 +921,427 @@
     </div>
   </div>
 </div>
+
+<div id="by_count">
+  <div class="card">
+    <div class="card-header" id="heading2p">
+      <button class="btn btn-link" data-toggle="collapse" data-target="#collapse2p">
+      &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;2 Players</button>
+    </div>
+    <div class="panel panel-info">
+      <div id="collapse2p" class="collapse in">
+        <table class="table stats scenariostats">
+          <thead>
+            <tr>
+              <th class="w30">Scenario</th>
+              <th class="w20">Origin</th>
+              <th class="w20">Map</th>
+              <th class="w15">Crows</th>
+              <th class="w15">Players</th>
+            </tr>
+          </thead>
+          <% @scenarios.each do |scenario| %>
+          <% if scenario.player_count === "2"%>
+          <tr>
+            <td class="scenario"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td><%= scenario.origin %></td>
+            <td>
+              <% scenario.maps.each do |map| %>
+              <%= map.name %>
+              <br />
+              <% end %>
+            </td>
+            <td><%= scenario.complexity %></td>
+            <td><%= scenario.player_count %></td>
+          </tr>
+          <% end %>
+          <% end %>
+        </table>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="heading3p">
+      <button class="btn btn-link" data-toggle="collapse" data-target="#collapse3p">
+      &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;3 Players</button>
+    </div>
+    <div class="panel panel-info">
+      <div id="collapse3p" class="collapse in">
+        <table class="table stats scenariostats">
+          <thead>
+            <tr>
+              <th class="w30">Scenario</th>
+              <th class="w20">Origin</th>
+              <th class="w20">Map</th>
+              <th class="w15">Crows</th>
+              <th class="w15">Players</th>
+            </tr>
+          </thead>
+          <% @scenarios.each do |scenario| %>
+          <% if scenario.player_count === "3"%>
+          <tr>
+            <td class="scenario"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td><%= scenario.origin %></td>
+            <td>
+              <% scenario.maps.each do |map| %>
+              <%= map.name %>
+              <br />
+              <% end %>
+            </td>
+            <td><%= scenario.complexity %></td>
+            <td><%= scenario.player_count %></td>
+          </tr>
+          <% end %>
+          <% end %>
+        </table>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="heading4p">
+      <button class="btn btn-link" data-toggle="collapse" data-target="#collapse4p">
+      &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;4 Players</button>
+    </div>
+    <div class="panel panel-info">
+      <div id="collapse4p" class="collapse in">
+        <table class="table stats scenariostats">
+          <thead>
+            <tr>
+              <th class="w30">Scenario</th>
+              <th class="w20">Origin</th>
+              <th class="w20">Map</th>
+              <th class="w15">Crows/Campaign</th>
+              <th class="w15">Players</th>
+            </tr>
+          </thead>
+          <% @scenarios.each do |scenario| %>
+          <% if scenario.player_count === "4"%>
+          <tr>
+            <td class="scenario"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td><%= scenario.origin %></td>
+            <td>
+              <% scenario.maps.each do |map| %>
+              <%= map.name %>
+              <br />
+              <% end %>
+            </td>
+            <td><%= scenario.complexity %></td>
+            <td><%= scenario.player_count %></td>
+          </tr>
+          <% end %>
+          <% end %>
+        </table>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id=heading45p">
+      <button class="btn btn-link" data-toggle="collapse" data-target="#collapse45p">
+      &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;4-5 Players</button>
+    </div>
+    <div class="panel panel-info">
+      <div id="collapse45p" class="collapse in">
+        <table class="table stats scenariostats">
+          <thead>
+            <tr>
+              <th class="w30">Scenario</th>
+              <th class="w20">Origin</th>
+              <th class="w20">Map</th>
+              <th class="w15">Crows/Campaign</th>
+              <th class="w15">Players</th>
+            </tr>
+          </thead>
+          <% @scenarios.each do |scenario| %>
+          <% if scenario.player_count === "4-5"%>
+          <tr>
+            <td class="scenario"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td><%= scenario.origin %></td>
+            <td>
+              <% scenario.maps.each do |map| %>
+              <%= map.name %>
+              <br />
+              <% end %>
+            </td>
+            <td><%= scenario.complexity %></td>
+            <td><%= scenario.player_count %></td>
+          </tr>
+          <% end %>
+          <% end %>
+        </table>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="heading5p">
+      <button class="btn btn-link" data-toggle="collapse" data-target="#collapse5p">
+      &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;5 Players</button>
+    </div>
+    <div class="panel panel-info">
+      <div id="collapse5p" class="collapse in">
+        <table class="table stats scenariostats">
+          <thead>
+            <tr>
+              <th class="w30">Scenario</th>
+              <th class="w20">Origin</th>
+              <th class="w20">Map</th>
+              <th class="w15">Crows/Campaign</th>
+              <th class="w15">Players</th>
+            </tr>
+          </thead>
+          <% @scenarios.each do |scenario| %>
+          <% if scenario.player_count === "5" && scenario.complexity != "Campaign"%>
+          <tr>
+            <td class="scenario"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td><%= scenario.origin %></td>
+            <td>
+              <% scenario.maps.each do |map| %>
+              <%= map.name %>
+              <br />
+              <% end %>
+            </td>
+            <td><%= scenario.complexity %></td>
+            <td><%= scenario.player_count %></td>
+          </tr>
+          <% end %>
+          <% end %>
+        </table>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="heading5cp">
+      <button class="btn btn-link" data-toggle="collapse" data-target="#collapse5cp">
+      &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;5 Campaign Players</button>
+    </div>
+    <div class="panel panel-info">
+      <div id="collapse5cp" class="collapse in">
+        <table class="table stats scenariostats">
+          <thead>
+            <tr>
+              <th class="w30">Scenario</th>
+              <th class="w20">Origin</th>
+              <th class="w20">Map</th>
+              <th class="w15">Crows/Campaign</th>
+              <th class="w15">Players</th>
+            </tr>
+          </thead>
+          <% @scenarios.each do |scenario| %>
+          <% if scenario.player_count === "5" && scenario.complexity === "Campaign"%>
+          <tr>
+            <td class="scenario"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td><%= scenario.origin %></td>
+            <td>
+              <% scenario.maps.each do |map| %>
+              <%= map.name %>
+              <br />
+              <% end %>
+            </td>
+            <td><%= scenario.complexity %></td>
+            <td><%= scenario.player_count %></td>
+          </tr>
+          <% end %>
+          <% end %>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div id="by_complexity">
-  <div class="row">
-    <div class="col-md-4 col-sm-6">
-      <div class="panel panel-info">
-        <div class="panel-heading">1 Crow</div>
-        <table class="table">
-          <% @scenarios.sort_by {|scenario| scenario.name }.each do |scenario| %>
+  <div class="card">
+    <div class="card-header" id="heading1c">
+      <button class="btn btn-link" data-toggle="collapse" data-target="#collapse1c">
+      &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;1 Crow</button>
+    </div>
+    <div class="panel panel-info">
+      <div id="collapse1c" class="collapse in">
+        <table class="table stats scenariostats">
+          <thead>
+            <tr>
+              <th class="w30">Scenario</th>
+              <th class="w20">Origin</th>
+              <th class="w20">Map</th>
+              <th class="w15">Players</th>
+              <th class="w15">Crows</th>
+            </tr>
+          </thead>
+          <% @scenarios.each do |scenario| %>
           <% if scenario.complexity === "1" %>
           <tr>
-            <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td class="scenario"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td><%= scenario.origin %></td>
+            <td>
+              <% scenario.maps.each do |map| %>
+              <%= map.name %>
+              <br />
+              <% end %>
+            </td>
+            <td><%= scenario.player_count %></td>
+            <td><%= scenario.complexity %></td>
           </tr>
           <% end %>
           <% end %>
         </table>
       </div>
     </div>
-    <div class="col-md-4 col-sm-6">
-      <div class="panel panel-info">
-        <div class="panel-heading">2 Crows</div>
-        <table class="table">
-          <% @scenarios.sort_by {|scenario| scenario.name }.each do |scenario| %>
+  </div>
+  <div class="card">
+    <div class="card-header" id="heading2c">
+      <button class="btn btn-link" data-toggle="collapse" data-target="#collapse2c">
+      &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;2 Crows</button>
+    </div>
+    <div class="panel panel-info">
+      <div id="collapse2c" class="collapse in">
+        <table class="table stats scenariostats">
+          <thead>
+            <tr>
+              <th class="w30">Scenario</th>
+              <th class="w20">Origin</th>
+              <th class="w20">Map</th>
+              <th class="w15">Players</th>
+              <th class="w15">Crows</th>
+            </tr>
+          </thead>
+          <% @scenarios.each do |scenario| %>
           <% if scenario.complexity === "2" %>
           <tr>
-            <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td class="scenario"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td><%= scenario.origin %></td>
+            <td>
+              <% scenario.maps.each do |map| %>
+              <%= map.name %>
+              <br />
+              <% end %>
+            </td>
+            <td><%= scenario.player_count %></td>
+            <td><%= scenario.complexity %></td>
           </tr>
           <% end %>
           <% end %>
         </table>
       </div>
     </div>
-    <div class="col-md-4 col-sm-6">
-      <div class="panel panel-info">
-        <div class="panel-heading">3 Crows</div>
-        <table class="table">
-          <% @scenarios.sort_by {|scenario| scenario.name }.each do |scenario| %>
+  </div>
+  <div class="card">
+    <div class="card-header" id="heading3c">
+      <button class="btn btn-link" data-toggle="collapse" data-target="#collapse3c">
+      &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;3 Crows</button>
+    </div>
+    <div class="panel panel-info">
+      <div id="collapse3c" class="collapse in">
+        <table class="table stats scenariostats">
+          <thead>
+            <tr>
+              <th class="w30">Scenario</th>
+              <th class="w20">Origin</th>
+              <th class="w20">Map</th>
+              <th class="w15">Players</th>
+              <th class="w15">Crows</th>
+            </tr>
+          </thead>
+          <% @scenarios.each do |scenario| %>
           <% if scenario.complexity === "3" %>
           <tr>
-            <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td class="scenario"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td><%= scenario.origin %></td>
+            <td>
+              <% scenario.maps.each do |map| %>
+              <%= map.name %>
+              <br />
+              <% end %>
+            </td>
+            <td><%= scenario.player_count %></td>
+            <td><%= scenario.complexity %></td>
           </tr>
           <% end %>
           <% end %>
         </table>
       </div>
     </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="heading0c">
+      <button class="btn btn-link" data-toggle="collapse" data-target="#collapse0c">
+      &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Campaign</button>
+    </div>
+    <div class="panel panel-info">
+      <div id="collapse0c" class="collapse in">
+        <table class="table stats scenariostats">
+          <thead>
+            <tr>
+              <th class="w30">Scenario</th>
+              <th class="w20">Origin</th>
+              <th class="w20">Map</th>
+              <th class="w15">Players</th>
+              <th class="w15">Crows</th>
+            </tr>
+          </thead>
+          <% @scenarios.each do |scenario| %>
+          <% if scenario.complexity === "Campaign" %>
+          <tr>
+            <td class="scenario"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td><%= scenario.origin %></td>
+            <td>
+              <% scenario.maps.each do |map| %>
+              <%= map.name %>
+              <br />
+              <% end %>
+            </td>
+            <td><%= scenario.player_count %></td>
+            <td><%= scenario.complexity %></td>
+          </tr>
+          <% end %>
+          <% end %>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="by_name">
+  <div class="panel panel-info">
+    <div class="panel-heading">By Name</div>
+    <table class="table stats scenariostats">
+      <thead>
+        <tr>
+          <th class="w30">Scenario</th>
+          <th class="w20">Origin</th>
+          <th class="w20">Map</th>
+          <th class="w15">Players</th>
+          <th class="w15">Crows</th>
+        </tr>
+      </thead>
+      <% @scenarios.sort_by {|scenario| scenario.name }.each do |scenario| %>
+        <tr>
+          <td class="scenario"><%= link_to scenario.name, scenario_path(scenario) %></td>
+          <td><%= scenario.origin %></td>
+          <td>
+            <% scenario.maps.each do |map| %>
+            <%= map.name %>
+            <br />
+            <% end %>
+          </td>
+          <td><%= scenario.player_count  %></td>
+          <td><%= scenario.complexity %></td>
+        </tr>
+      <% end %>
+    </table>
   </div>
 </div>
 
 <script>
   $(document).ready(function() {
+
     $('a#show_byorigin').click(function(event){
       event.preventDefault();
       $('a.toggles').children().removeClass('active');
       $('a#show_byorigin').children().addClass('active');
+      $('div#by_map').hide();
       $('div#by_count').hide();
       $('div#by_complexity').hide();
-      $('div#by_map').hide();
+      $('div#by_name').hide();
       $('div#by_origin').show();
     });
-
-    $('a#show_bycount').click(function(event){
-      event.preventDefault();
-      $('a.toggles').children().removeClass('active');
-      $('a#show_bycount').children().addClass('active');
-      $('div#by_origin').hide();
-      $('div#by_complexity').hide();
-      $('div#by_map').hide();
-      $('div#by_count').show();
-    });
-
-    $('a#show_bycomplexity').click(function(event){
-      event.preventDefault();
-      $('a.toggles').children().removeClass('active');
-      $('a#show_bycomplexity').children().addClass('active');
-      $('div#by_origin').hide();
-      $('div#by_count').hide();
-      $('div#by_map').hide();
-      $('div#by_complexity').show();
-    })
 
     $('a#show_bymap').click(function(event){
       event.preventDefault();
@@ -439,8 +1350,41 @@
       $('div#by_origin').hide();
       $('div#by_count').hide();
       $('div#by_complexity').hide();
+      $('div#by_name').hide();
       $('div#by_map').show();
     });
 
+    $('a#show_bycount').click(function(event){
+      event.preventDefault();
+      $('a.toggles').children().removeClass('active');
+      $('a#show_bycount').children().addClass('active');
+      $('div#by_origin').hide();
+      $('div#by_map').hide();
+      $('div#by_complexity').hide();
+      $('div#by_name').hide();
+      $('div#by_count').show();
+    });
+
+    $('a#show_bycomplexity').click(function(event){
+      event.preventDefault();
+      $('a.toggles').children().removeClass('active');
+      $('a#show_bycomplexity').children().addClass('active');
+      $('div#by_origin').hide();
+      $('div#by_map').hide();
+      $('div#by_count').hide();
+      $('div#by_name').hide();
+      $('div#by_complexity').show();
+    })
+
+    $('a#show_byname').click(function(event){
+      event.preventDefault();
+      $('a.toggles').children().removeClass('active');
+      $('a#show_byname').children().addClass('active');
+      $('div#by_origin').hide();
+      $('div#by_map').hide();
+      $('div#by_count').hide();
+      $('div#by_complexity').hide();
+      $('div#by_name').show();
+    });
   });
 </script>

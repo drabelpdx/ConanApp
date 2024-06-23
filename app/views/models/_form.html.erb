@@ -95,29 +95,6 @@
       </div>
     </div>
   </div>
-
-  <div class="row">
-    <div class='form-group'>
-      <h3>Story Ids</h3>
-      <hr>
-      <div class="row">
-        <div class="col-sm-2">Weird Tales:</div>
-        <div class='col-sm-8'>
-          <%= f.collection_check_boxes :story_ids, @weird, :id, :name do |cb| %>
-          <% cb.label(class: "checkbox-inline input_checkbox") {cb.check_box(class: "checkbox") + cb.text} %>
-          <% end %>
-        </div>
-      </div><br />
-      <div class="row">
-        <div class="col-sm-2">Other Stories:</div>
-        <div class='col-sm-8'>
-          <%= f.collection_check_boxes :story_ids, @other, :id, :name do |cb| %>
-          <% cb.label(class: "checkbox-inline input_checkbox") {cb.check_box(class: "checkbox") + cb.text} %>
-          <% end %>
-        </div>
-      </div>
-    </div>
-  </div>
   <br /><br />
 
   <div>

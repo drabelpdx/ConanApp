@@ -64,6 +64,7 @@ class ProductsController < ApplicationController
       @expansions2015 = Product.where(origin: '2015Expansion')
       @addons2015 = Product.where(origin: '2015AddOn')
       @books2015 = Product.where(origin: '2015Book')
+      @books2017 = Product.where(origin: '2017Book')
       @otherbooks = Product.where(origin: 'OtherBook')
       @othermaps = Product.where(origin: 'OtherMap')
       @expansions2020 = Product.where(origin: '2020Expansion')

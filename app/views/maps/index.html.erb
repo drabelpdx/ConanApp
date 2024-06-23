@@ -1,100 +1,217 @@
-<h1 class="map">Maps</h1>
+<h1>Maps</h1>
 <% if logged_in? && current_user.admin? %>
   <p><%= link_to "Add a Map", new_map_path %></p>
 <% end %>
 
 <p>The maps are organized by the box they came in: Core Game, Stretch Goal, or Expansion.</p>
 
-<div class="row display-flex">
+<div class="row">
+  <div class="col-md-6 col-sm-8">
+    <div class="card">
+      <div class="card-header" id="headingCore">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseCore">
+        &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Core Game</button>
+      </div>
+      <div class="card-body panel panel-success">
+        <div id="collapseCore" class="collapse in">
+          <table class="table stats mapstats">
+            <thead>
+              <tr>
+                <th>&nbsp;</th>
+                <th>Map</th>
+                <th>Scenarios</th>
+              </tr>
+            </thead>
+            <% @core.each do |map| %>
+            <tr>
+              <td class="sm-maps">
+                <%= image_tag "#{map.image}" %>
+              </td>
+              <td class="map"><%= link_to map.name, map_path(map) %></td>
+              <td><%= map.scenarios.count  %></td>
+            </tr>
+            <% end %>
+          </table>
+        </div>
+      </div>
+    </div>
 
-  <div class="col-md-3 col-sm-6">
-    <div class="panel panel-map">
-      <div class="panel-heading">Core Game Maps</div>
-      <table class="table">
-        <% @core.each do |map| %>
-        <tr>
-          <td class="sm-maps">
-            <%= image_tag "#{map.image}" %>
-          </td>
-          <td class="map"><%= link_to map.name, map_path(map) %></td>
-        </tr>
-        <% end %>
-      </table>
+    <div class="card">
+      <div class="card-header" id="headingStretch">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseStretch">
+        &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Stretch Goal</button>
+      </div>
+      <div class="card-body panel panel-success">
+        <div id="collapseStretch" class="collapse in">
+          <table class="table stats mapstats">
+            <thead>
+              <tr>
+                <th>&nbsp;</th>
+                <th>Map</th>
+                <th>Scenarios</th>
+              </tr>
+            </thead>
+            <% @stretch.each do |map| %>
+            <tr>
+              <td class="sm-maps">
+                <%= image_tag "#{map.image}" %>
+              </td>
+              <td class="map"><%= link_to map.name, map_path(map) %></td>
+              <td><%= map.scenarios.count  %></td>
+            </tr>
+            <% end %>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header" id="headingKhitai">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseKhitai">
+        &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Khitai</button>
+      </div>
+      <div class="card-body panel panel-success">
+        <div id="collapseKhitai" class="collapse in">
+          <table class="table stats mapstats">
+            <thead>
+              <tr>
+                <th>&nbsp;</th>
+                <th>Map</th>
+                <th>Scenarios</th>
+              </tr>
+            </thead>
+            <% @khitai.each do |map| %>
+            <tr>
+              <td class="sm-maps">
+                <%= image_tag "#{map.image}" %>
+              </td>
+              <td class="map"><%= link_to map.name, map_path(map) %></td>
+              <td><%= map.scenarios.count  %></td>
+            </tr>
+            <% end %>
+          </table>
+        </div>
+      </div>
     </div>
   </div>
 
-  <div class="col-md-3 col-sm-6">
-    <div class="panel panel-map">
-      <div class="panel-heading">Strech Goal Maps</div>
-      <table class="table">
-        <% @stretch.each do |map| %>
-        <tr>
-          <td class="sm-maps">
-            <%= image_tag "#{map.image}" %>
-          </td>
-          <td class="map"><%= link_to map.name, map_path(map) %></td>
-        </tr>
-        <% end %>
-      </table>
-    </div>
-    <div class="panel panel-map">
-      <div class="panel-heading">Nordheim Maps</div>
-      <table class="table">
-        <% @nordheim.each do |map| %>
-        <tr>
-          <td class="sm-maps">
-            <%= image_tag "#{map.image}" %>
-          </td>
-          <td class="map"><%= link_to map.name, map_path(map) %></td>
-        </tr>
-        <% end %>
-      </table>
-    </div>
-  </div>
+  <div class="col-md-6 col-sm-8">
 
-  <div class="col-md-3 col-sm-6">
-    <div class="panel panel-map">
-      <div class="panel-heading">Khitai Maps</div>
-      <table class="table">
-        <% @khitai.each do |map| %>
-        <tr>
-          <td class="sm-maps">
-            <%= image_tag "#{map.image}" %>
-          </td>
-          <td class="map"><%= link_to map.name, map_path(map) %></td>
-        </tr>
-        <% end %>
-      </table>
+    <div class="card">
+      <div class="card-header" id="headingNordheim">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseNordheim">
+        &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Nordheim</button>
+      </div>
+      <div class="card-body panel panel-success">
+        <div id="collapseNordheim" class="collapse in">
+          <table class="table stats mapstats">
+            <thead>
+              <tr>
+                <th>&nbsp;</th>
+                <th>Map</th>
+                <th>Scenarios</th>
+              </tr>
+            </thead>
+            <% @nordheim.each do |map| %>
+            <tr>
+              <td class="sm-maps">
+                <%= image_tag "#{map.image}" %>
+              </td>
+              <td class="map"><%= link_to map.name, map_path(map) %></td>
+              <td><%= map.scenarios.count  %></td>
+            </tr>
+            <% end %>
+          </table>
+        </div>
+      </div>
     </div>
-  </div>
 
-  <div class="col-md-3 col-sm-6 ">
-    <div class="panel panel-map">
-      <div class="panel-heading">Stygia Maps</div>
-      <table class="table">
-        <% @stygia.each do |map| %>
-        <tr>
-          <td class="sm-maps">
-            <%= image_tag "#{map.image}" %>
-          </td>
-          <td class="map"><%= link_to map.name, map_path(map) %></td>
-        </tr>
-        <% end %>
-      </table>
+    <div class="card">
+      <div class="card-header" id="headingStygia">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseStygia">
+        &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Stygia</button>
+      </div>
+      <div class="card-body panel panel-success">
+        <div id="collapseStygia" class="collapse in">
+          <table class="table stats mapstats">
+            <thead>
+              <tr>
+                <th>&nbsp;</th>
+                <th>Map</th>
+                <th>Scenarios</th>
+              </tr>
+            </thead>
+            <% @stygia.each do |map| %>
+            <tr>
+              <td class="sm-maps">
+                <%= image_tag "#{map.image}" %>
+              </td>
+              <td class="map"><%= link_to map.name, map_path(map) %></td>
+              <td><%= map.scenarios.count  %></td>
+            </tr>
+            <% end %>
+          </table>
+        </div>
+      </div>
     </div>
-    <div class="panel panel-map">
-      <div class="panel-heading">Modiphius Geomorphic Tiles</div>
-      <table class="table">
-        <% @modiphius.each do |map| %>
-        <tr>
-          <td class="sm-maps">
-            <%= image_tag "#{map.image}" %>
-          </td>
-          <td class="map"><%= link_to map.name, map_path(map) %></td>
-        </tr>
-        <% end %>
-      </table>
-    </div>
-  </div>
 
+    <div class="card">
+      <div class="card-header" id="headingConqueror">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseConqueror">
+        &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Conan the Conqueror</button>
+      </div>
+      <div class="card-body panel panel-success">
+        <div id="collapseConqueror" class="collapse in">
+          <table class="table stats mapstats">
+            <thead>
+              <tr>
+                <th>&nbsp;</th>
+                <th>Map</th>
+                <th>Scenarios</th>
+              </tr>
+            </thead>
+            <% @conqueror.each do |map| %>
+            <tr>
+              <td class="sm-maps">
+                <%= image_tag "#{map.image}" %>
+              </td>
+              <td class="map"><%= link_to map.name, map_path(map) %></td>
+              <td><%= map.scenarios.count  %></td>
+            </tr>
+            <% end %>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header" id="headingBrotherhood">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseBrotherhood">
+        &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Tales of the Red Brotherhood</button>
+      </div>
+      <div class="card-body panel panel-success">
+        <div id="collapseBrotherhood" class="collapse in">
+          <table class="table stats mapstats">
+            <thead>
+              <tr>
+                <th>&nbsp;</th>
+                <th>Map</th>
+                <th>Scenarios</th>
+              </tr>
+            </thead>
+            <% @brotherhood.each do |map| %>
+            <tr>
+              <td class="sm-maps">
+                <%= image_tag "#{map.image}" %>
+              </td>
+              <td class="map"><%= link_to map.name, map_path(map) %></td>
+              <td><%= map.scenarios.count  %></td>
+            </tr>
+            <% end %>
+          </table>
+        </div>
+      </div>
+    </div>
+
+  </div>
 </div>

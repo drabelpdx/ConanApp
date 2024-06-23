@@ -57,13 +57,12 @@ class MapsController < ApplicationController
     def set_maps
       @core = Map.where(origin: 'Core Game')
       @stretch = Map.where(origin: 'Stretch Goal')
-      @nordheim = Map.where(origin: 'Nordheim Expansion')
-      @stygia = Map.where(origin: 'Stygia Expansion')
-      @khitai = Map.where(origin: 'Khitai Expansion')
-      @modiphius = Map.where(origin: 'Modiphius Geomorphic Tiles')
+      @nordheim = Map.where(origin: 'Nordheim')
+      @stygia = Map.where(origin: 'Stygia')
+      @khitai = Map.where(origin: 'Khitai')
       @conqueror = Map.where(origin: 'Conan the Conqueror')
       @brotherhood = Map.where(origin: 'Tales of the Red Brotherhood')
-      @chambers = Map.where(origin: 'The Hiden Chambers')
+      @chambers = Map.where(origin: 'Hiden Chambers')
     end
 
     def require_admin

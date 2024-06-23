@@ -64,7 +64,7 @@
       clarification: "none" },
     { name: 'Flying', skill_type: 'Movement',
       description: "This character can spend 2 movement points to move from 1 area adjacent to a leap area to another area adjacent to the leap area. This character can spend 1 movement point to move across an obstacle.",
-      clarification: "none" },
+      clarification: "For the Tome of Skelos: Flying allows a character to fly over the elements of the scenery. Flight ignores the movement contstraints and penalties of terrain, and is not affected by hindering." },
     { name: 'Climb', skill_type: 'Movement',
       description: "This skill’s effect is defined by the scenario.",
       clarification: "none" },

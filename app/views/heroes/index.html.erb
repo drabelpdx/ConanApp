@@ -1,139 +1,363 @@
-<h1 class="hero">Hero Sheets</h1>
+<h1>Hero Sheets</h1>
 <% if logged_in? && current_user.admin? %>
 <p><%= link_to "Add a Hero", new_hero_path %></p>
 <% end %>
 
 <p>Click on a hero to see their stats and any scenarios they appear in.</p>
-<p>Tiles can be sorted by:
+<p>Heroes can be sorted by:</p>
     <ul>
-      <li>the box <strong>(origin)</strong> the sheet came in</li>
-      <li><strong>All</strong> heroes listed with their stats</li>
+      <li>the box (<strong>origin</strong>) the sheet came in</li>
+      <li>hero <strong>name</strong> with their stats</li>
     </ul>
 <div align="center">
   <a href="" id="show_byorigin" class="toggles"><button class="btn btn-hero active">By Origin</button></a>
-  <a href="" id="show_bystat" class="toggles"><button class="btn btn-hero">All / Stats</button></a>
+  <a href="" id="show_bystat" class="toggles"><button class="btn btn-hero">Name / Stats</button></a>
 </div>
 <hr>
-<div class="row" id="by_origin">
-  <div class="col-md-6 col-sm-6">
-    <div class="panel panel-success">
-      <div class="panel-heading">Core Game Heroes</div>
-      <table class="table">
-        <% @core.each do |hero| %>
-        <tr>
-          <td class="hero" align="center"><%= link_to hero.name, hero_path(hero) %></td>
-        </tr>
-        <% end %>
-      </table>
+<div id="by_origin">
+  <div class="row">
+    <div class="col-md-4 col-sm-4">
+
+      <div class="card">
+        <div class="card-header" id="headingCore">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseCore">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Core Game</button>
+        </div>
+        <div class="card-body panel panel-success">
+          <div id="collapseCore" class="collapse in">
+            <table class="table stats herostats">
+              <thead>
+                <tr>
+                  <th class="w60">Hero</th>
+                  <th class="w40">Scenarios</th>
+                </tr>
+              </thead>
+              <% @core.each do |hero| %>
+              <tr>
+                <td class="hero" align="center"><%= link_to hero.name, hero_path(hero) %></td>
+                <td><%= hero.scenarios.count  %></td>
+              </tr>
+              <% end %>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingKing">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseKing">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;King Pledge</button>
+        </div>
+        <div class="card-body panel panel-success">
+          <div id="collapseKing" class="collapse in">
+            <table class="table stats herostats">
+              <thead>
+                <tr>
+                  <th class="w60">Hero</th>
+                  <th class="w40">Scenarios</th>
+                </tr>
+              </thead>
+              <% @king.each do |hero| %>
+              <tr>
+                <td class="hero" align="center"><%= link_to hero.name, hero_path(hero) %></td>
+                <td><%= hero.scenarios.count  %></td>
+              </tr>
+              <% end %>
+            </table>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="card">
+        <div class="card-header" id="headingConqueror">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseConqueror">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Conan the Conqueror</button>
+        </div>
+        <div class="card-body panel panel-success">
+          <div id="collapseConqueror" class="collapse in">
+            <table class="table stats herostats">
+              <thead>
+                <tr>
+                  <th class="w60">Hero</th>
+                  <th class="w40">Scenarios</th>
+                </tr>
+              </thead>
+              <% @conqueror.each do |hero| %>
+              <tr>
+                <td class="hero" align="center"><%= link_to hero.name, hero_path(hero) %></td>
+                <td><%= hero.scenarios.count  %></td>
+              </tr>
+              <% end %>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingShadow">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseShadow">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;The Shadow Kingdom</button>
+        </div>
+        <div class="card-body panel panel-success">
+          <div id="collapseShadow" class="collapse in">
+            <table class="table stats herostats">
+              <thead>
+                <tr>
+                  <th class="w60">Hero</th>
+                  <th class="w40">Scenarios</th>
+                </tr>
+              </thead>
+              <% @shadow.each do |hero| %>
+              <tr>
+                <td class="hero" align="center"><%= link_to hero.name, hero_path(hero) %></td>
+                <td><%= hero.scenarios.count  %></td>
+              </tr>
+              <% end %>
+            </table>
+          </div>
+        </div>
+      </div>
+
     </div>
-    <div class="panel panel-success">
-      <div class="panel-heading">King Pledge Heroes</div>
-      <table class="table">
-        <% @king.each do |hero| %>
-        <tr>
-          <td class="hero" align="center"><%= link_to hero.name, hero_path(hero) %></td>
-        </tr>
-        <% end %>
-      </table>
+
+    <div class="col-md-4 col-sm-4">
+      <div class="card">
+        <div class="card-header" id="headingKhitai">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseKhitai">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Khitai</button>
+        </div>
+        <div class="card-body panel panel-success">
+          <div id="collapseKhitai" class="collapse in">
+            <table class="table stats herostats">
+              <thead>
+                <tr>
+                  <th class="w60">Hero</th>
+                  <th class="w40">Scenarios</th>
+                </tr>
+              </thead>
+              <% @khitai.each do |hero| %>
+              <tr>
+                <td class="hero" align="center"><%= link_to hero.name, hero_path(hero) %></td>
+                <td><%= hero.scenarios.count  %></td>
+              </tr>
+              <% end %>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingNordheim">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseNordheim">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Nordheim</button>
+        </div>
+        <div class="card-body panel panel-success">
+          <div id="collapseNordheim" class="collapse in">
+            <table class="table stats herostats">
+              <thead>
+                <tr>
+                  <th class="w60">Hero</th>
+                  <th class="w40">Scenarios</th>
+                </tr>
+              </thead>
+              <% @nordheim.each do |hero| %>
+              <tr>
+                <td class="hero" align="center"><%= link_to hero.name, hero_path(hero) %></td>
+                <td><%= hero.scenarios.count  %></td>
+              </tr>
+              <% end %>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingStygia">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseStygia">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Stygia</button>
+        </div>
+        <div class="card-body panel panel-success">
+          <div id="collapseStygia" class="collapse in">
+            <table class="table stats herostats">
+              <thead>
+                <tr>
+                  <th class="w60">Hero</th>
+                  <th class="w40">Scenarios</th>
+                </tr>
+              </thead>
+              <% @stygia.each do |hero| %>
+              <tr>
+                <td class="hero" align="center"><%= link_to hero.name, hero_path(hero) %></td>
+                <td><%= hero.scenarios.count  %></td>
+              </tr>
+              <% end %>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingBrom">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseBrom">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Brom Box</button>
+        </div>
+        <div class="card-body panel panel-success">
+          <div id="collapseBrom" class="collapse in">
+            <table class="table stats herostats">
+              <thead>
+                <tr>
+                  <th class="w60">Hero</th>
+                  <th class="w40">Scenarios</th>
+                </tr>
+              </thead>
+              <% @brom.each do |hero| %>
+              <tr>
+                <td class="hero" align="center"><%= link_to hero.name, hero_path(hero) %></td>
+                <td><%= hero.scenarios.count  %></td>
+              </tr>
+              <% end %>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingPaolo">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapsePaolo">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Paolo Parente Box</button>
+        </div>
+        <div class="card-body panel panel-success">
+          <div id="collapsePaolo" class="collapse in">
+            <table class="table stats herostats">
+              <thead>
+                <tr>
+                  <th class="w60">Hero</th>
+                  <th class="w40">Scenarios</th>
+                </tr>
+              </thead>
+              <% @paolo.each do |hero| %>
+              <tr>
+                <td class="hero" align="center"><%= link_to hero.name, hero_path(hero) %></td>
+                <td><%= hero.scenarios.count  %></td>
+              </tr>
+              <% end %>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingXavier">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseXavier">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Xavier Collette Box</button>
+        </div>
+        <div class="card-body panel panel-success">
+          <div id="collapseXavier" class="collapse in">
+            <table class="table stats herostats">
+              <thead>
+                <tr>
+                  <th class="w60">Hero</th>
+                  <th class="w40">Scenarios</th>
+                </tr>
+              </thead>
+              <% @xavier.each do |hero| %>
+              <tr>
+                <td class="hero" align="center"><%= link_to hero.name, hero_path(hero) %></td>
+                <td><%= hero.scenarios.count  %></td>
+              </tr>
+              <% end %>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingValkyrie">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseValkyrie">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Vanir Valkyrie</button>
+        </div>
+        <div class="card-body panel panel-success">
+          <div id="collapseValkyrie" class="collapse in">
+            <table class="table stats herostats">
+              <thead>
+                <tr>
+                  <th class="w60">Hero</th>
+                  <th class="w40">Scenarios</th>
+                </tr>
+              </thead>
+              <% @valkyrie.each do |hero| %>
+              <tr>
+                <td class="hero" align="center"><%= link_to hero.name, hero_path(hero) %></td>
+                <td><%= hero.scenarios.count  %></td>
+              </tr>
+              <% end %>
+            </table>
+          </div>
+        </div>
+      </div>
+
     </div>
-    <div class="panel panel-success">
-      <div class="panel-heading">Stretch Goal Heroes</div>
-      <table class="table">
-        <% @stretch.each do |hero| %>
-        <tr>
-          <td class="hero" align="center"><%= link_to hero.name, hero_path(hero) %></td>
-        </tr>
-        <% end %>
-      </table>
-    </div>
-  </div>
-  <div class="col-md-6 col-sm-6">
-    <div class="panel panel-success">
-      <div class="panel-heading">Nordheim</div>
-      <table class="table">
-        <% @nordheim.each do |hero| %>
-        <tr>
-          <td class="hero" align="center"><%= link_to hero.name, hero_path(hero) %></td>
-        </tr>
-        <% end %>
-      </table>
-    </div>
-    <div class="panel panel-success">
-      <div class="panel-heading">Stygia</div>
-      <table class="table">
-        <% @stygia.each do |hero| %>
-        <tr>
-          <td class="hero" align="center"><%= link_to hero.name, hero_path(hero) %></td>
-        </tr>
-        <% end %>
-      </table>
-    </div>
-    <div class="panel panel-success">
-      <div class="panel-heading">Khitai</div>
-      <table class="table">
-        <% @khitai.each do |hero| %>
-        <tr>
-          <td class="hero" align="center"><%= link_to hero.name, hero_path(hero) %></td>
-        </tr>
-        <% end %>
-      </table>
-    </div>
-    <div class="panel panel-success">
-      <div class="panel-heading">Vanir Valkyrie</div>
-      <table class="table">
-        <% @valkyrie.each do |hero| %>
-        <tr>
-          <td class="hero" align="center"><%= link_to hero.name, hero_path(hero) %></td>
-        </tr>
-        <% end %>
-      </table>
-    </div>
-    <div class="panel panel-success">
-      <div class="panel-heading">Yogah of Yag</div>
-      <table class="table">
-        <% @yogah.each do |hero| %>
-        <tr>
-          <td class="hero" align="center"><%= link_to hero.name, hero_path(hero) %></td>
-        </tr>
-        <% end %>
-      </table>
-    </div>
-    <div class="panel panel-success">
-      <div class="panel-heading">Xavier Collette Box</div>
-      <table class="table">
-        <% @xavier.each do |hero| %>
-        <tr>
-          <td class="hero" align="center"><%= link_to hero.name, hero_path(hero) %></td>
-        </tr>
-        <% end %>
-      </table>
-    </div>
-    <div class="panel panel-success">
-      <div class="panel-heading">Brom Box</div>
-      <table class="table">
-        <% @brom.each do |hero| %>
-        <tr>
-          <td class="hero" align="center"><%= link_to hero.name, hero_path(hero) %></td>
-        </tr>
-        <% end %>
-      </table>
-    </div>
-    <div class="panel panel-success">
-      <div class="panel-heading">Paolo Parente Box</div>
-      <table class="table">
-        <% @paolo.each do |hero| %>
-        <tr>
-          <td class="hero" align="center"><%= link_to hero.name, hero_path(hero) %></td>
-        </tr>
-        <% end %>
-      </table>
+
+    <div class="col-md-4 col-sm-4">
+
+      <div class="card">
+        <div class="card-header" id="headingStretch">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseStretch">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Stretch Goal</button>
+        </div>
+        <div class="card-body panel panel-success">
+          <div id="collapseStretch" class="collapse in">
+            <table class="table stats herostats">
+              <thead>
+                <tr>
+                  <th class="w60">Hero</th>
+                  <th class="w40">Scenarios</th>
+                </tr>
+              </thead>
+              <% @stretch.each do |hero| %>
+              <tr>
+                <td class="hero" align="center"><%= link_to hero.name, hero_path(hero) %></td>
+                <td><%= hero.scenarios.count  %></td>
+              </tr>
+              <% end %>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingYogah">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseYogah">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Yogah of Yag</button>
+        </div>
+        <div class="card-body panel panel-success">
+          <div id="collapseYogah" class="collapse in">
+            <table class="table stats herostats">
+              <thead>
+                <tr>
+                  <th class="w60">Hero</th>
+                  <th class="w40">Scenarios</th>
+                </tr>
+              </thead>
+              <% @yogah.each do |hero| %>
+              <tr>
+                <td class="hero" align="center"><%= link_to hero.name, hero_path(hero) %></td>
+                <td><%= hero.scenarios.count  %></td>
+              </tr>
+              <% end %>
+            </table>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
 </div>
 
-<div class="row" id="by_stat">
+<div id="by_stat">
   <div class="panel panel-success">
-    <div class="panel-heading">All Heroes / Stats</div>
+    <div class="panel-heading">Name / Stats</div>
     <table class="table stats herostats">
       <thead>
         <tr>

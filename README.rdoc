@@ -1,14 +1,11 @@
 == README
 
-This is my Conan app (in progress).
+This is my Conan app.
 
 It displays and cross-references information related to Monolith's boardgame Conan.
 
-Ideally, a Scenario is fed by details from all the other sections. A user can follow links from the Scenario page back to the details' page for more information.
+A Scenario is fed by details from all the other sections. A user can follow links from the Scenario page back to the details' page for more information.
 
-So far, All models, controller and pages are in. Data for Maps, Heroes, Tiles, Spell, Items, Skills and Stories are in.
-
-...more to do.
 
 The app is up on heroku:
 https://conan-companion.herokuapp.com

@@ -4,7 +4,7 @@ class Spell < ActiveRecord::Base
   has_many :products, through: :product_spells
   has_many :scenarios, through: :scenario_spells
   validates :name, presence: true, length: { minimum: 3, maximum: 50 }
-  validates :description, presence: true, length: { minimum: 3, maximum: 300 }
+  validates :description, presence: true, length: { minimum: 3, maximum: 400 }
   validates :origin, presence: true, length: { minimum: 3, maximum: 50 }
 
   def previous

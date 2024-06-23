@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_08_26_231229) do
+ActiveRecord::Schema.define(version: 2024_05_26_182130) do
 
   create_table "bone_tiles", force: :cascade do |t|
     t.integer "bone_id"
@@ -19,18 +19,13 @@ ActiveRecord::Schema.define(version: 2020_08_26_231229) do
 
   create_table "bones", force: :cascade do |t|
     t.string "name"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "hero_models", force: :cascade do |t|
     t.integer "hero_id"
     t.integer "model_id"
-  end
-
-  create_table "hero_products", force: :cascade do |t|
-    t.integer "hero_id"
-    t.integer "product_id"
   end
 
   create_table "hero_scenarios", force: :cascade do |t|
@@ -66,14 +61,9 @@ ActiveRecord::Schema.define(version: 2020_08_26_231229) do
     t.string "manipulation_exersion"
     t.string "defense_dice"
     t.string "origin"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
     t.string "hero_sheet"
-  end
-
-  create_table "item_products", force: :cascade do |t|
-    t.integer "item_id"
-    t.integer "product_id"
   end
 
   create_table "item_scenarios", force: :cascade do |t|
@@ -94,13 +84,10 @@ ActiveRecord::Schema.define(version: 2020_08_26_231229) do
     t.string "manipulation"
     t.string "role"
     t.string "description"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  create_table "map_products", force: :cascade do |t|
-    t.integer "map_id"
-    t.integer "product_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.string "image"
+    t.string "correction"
   end
 
   create_table "map_scenarios", force: :cascade do |t|
@@ -115,8 +102,8 @@ ActiveRecord::Schema.define(version: 2020_08_26_231229) do
     t.string "origin"
     t.string "image"
     t.text "special_rules"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
     t.string "los"
   end
 
@@ -151,14 +138,9 @@ ActiveRecord::Schema.define(version: 2020_08_26_231229) do
     t.integer "scenario_id"
   end
 
-  create_table "product_spells", force: :cascade do |t|
+  create_table "product_tokens", force: :cascade do |t|
     t.integer "product_id"
-    t.integer "spell_id"
-  end
-
-  create_table "product_tiles", force: :cascade do |t|
-    t.integer "product_id"
-    t.integer "tile_id"
+    t.integer "token_id"
   end
 
   create_table "products", force: :cascade do |t|
@@ -167,6 +149,7 @@ ActiveRecord::Schema.define(version: 2020_08_26_231229) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "origin"
+    t.string "image"
   end
 
   create_table "ratings", force: :cascade do |t|
@@ -180,6 +163,16 @@ ActiveRecord::Schema.define(version: 2020_08_26_231229) do
     t.index ["user_id"], name: "index_ratings_on_user_id"
   end
 
+  create_table "resources", force: :cascade do |t|
+    t.string "name"
+    t.text "description"
+    t.string "resource_image"
+    t.string "resource_link"
+    t.string "origin"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "scenario_spells", force: :cascade do |t|
     t.integer "scenario_id"
     t.integer "spell_id"
@@ -188,6 +181,11 @@ ActiveRecord::Schema.define(version: 2020_08_26_231229) do
   create_table "scenario_tiles", force: :cascade do |t|
     t.integer "scenario_id"
     t.integer "tile_id"
+  end
+
+  create_table "scenario_tokens", force: :cascade do |t|
+    t.integer "scenario_id"
+    t.integer "token_id"
   end
 
   create_table "scenarios", force: :cascade do |t|
@@ -219,8 +217,8 @@ ActiveRecord::Schema.define(version: 2020_08_26_231229) do
     t.integer "life8"
     t.text "special_rules"
     t.string "origin"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
     t.text "hero_victory"
     t.text "overlord_victory"
   end
@@ -235,8 +233,8 @@ ActiveRecord::Schema.define(version: 2020_08_26_231229) do
     t.string "skill_type"
     t.text "description"
     t.text "clarification"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "spells", force: :cascade do |t|
@@ -248,14 +246,16 @@ ActiveRecord::Schema.define(version: 2020_08_26_231229) do
     t.string "instant"
     t.string "origin"
     t.string "count"
+    t.string "image"
+    t.string "correction"
   end
 
   create_table "stories", force: :cascade do |t|
     t.string "name"
     t.string "aka"
     t.string "origin"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "story_tiles", force: :cascade do |t|
@@ -278,9 +278,22 @@ ActiveRecord::Schema.define(version: 2020_08_26_231229) do
     t.string "figure_image"
     t.string "tile_image"
     t.string "token_image"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
     t.text "dice"
+    t.string "correction"
+  end
+
+  create_table "tokens", force: :cascade do |t|
+    t.string "name"
+    t.text "description"
+    t.string "origin"
+    t.string "count"
+    t.string "front_image"
+    t.string "back_image"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.string "role"
   end
 
   create_table "users", force: :cascade do |t|
@@ -293,8 +306,8 @@ ActiveRecord::Schema.define(version: 2020_08_26_231229) do
     t.string "oauth_token"
     t.datetime "oauth_expires_at"
     t.boolean "admin", default: false
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
 end

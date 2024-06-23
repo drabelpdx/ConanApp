@@ -1,0 +1,32 @@
+<%= render 'shared/errors', obj: @resource %>
+
+<%= form_for @resource do |f| %>
+  <div class="row">
+    <h3>General Info</h3>
+    <hr>
+    <div class="col-sm-6 col-md-4">
+      <div class='form-group'>
+        <%= f.label :name %><br />
+        <%= f.text_field :name %>
+      </div>
+      <div class='form-group'>
+        <%= f.label :origin %><br />
+        <%= f.text_field :origin %>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-4">
+      <div class='form-group'>
+        <%= f.label :description %><br />
+        <%= f.text_field :description %>
+      </div>
+    </div>
+  </div>
+  <br /><br />
+
+  <div>
+    <%= f.submit :class => 'btn btn-primary'  %>
+  </div>
+<% end %>
+  <br /><br />
+
+<%= link_to "Back to resources", resources_path %>

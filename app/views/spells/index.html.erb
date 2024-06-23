@@ -1,201 +1,455 @@
-<h1 class="spell">Spell Cards</h1>
+<h1>Spell Cards</h1>
 <% if logged_in? && current_user.admin? %>
   <p><%= link_to "Add a Spell", new_spell_path %></p>
 <% end %>
 
-<p>Click on a spell to read more about it and any scenarios it appears in.</P>
-<p>Spells can be sorted by:
+<p>Click on a spell to see the card and any scenarios it appears in.</p>
+<p>Spells can be sorted by:</p>
     <ul>
-      <li>the box <strong>(origin)</strong> that the spell card came in</li>
+      <li>the box (<strong>origin</strong>) that the spell card came in</li>
       <li>the <strong>cost</strong> to cast it</li>
       <li>if it is an <strong>instant</strong>, <strong>area effect</strong>, or <strong>blank</strong> spell</li>
-      <li><strong>All</strong> spells listed with their stats</li>
+      <li>spell <strong>name</strong> listed with their stats</li>
     </ul>
 
 <div align="center">
   <a href="" id="show_byorigin" class="toggles"><button class="btn btn-spell active">By Origin</button></a>
   <a href="" id="show_bycost" class="toggles"><button class="btn btn-spell">By Cost</button></a>
   <a href="" id="show_bytype" class="toggles"><button class="btn btn-spell">Area/Instant</button></a>
-  <a href="" id="show_bystat" class="toggles"><button class="btn btn-spell">All / Stats</button></a>
+  <a href="" id="show_bystat" class="toggles"><button class="btn btn-spell">Name / Stats</button></a>
 
 </div>
 <hr>
 
+
+
 <div id="by_origin">
   <div class="row">
-    <div class="col-md-4 col-sm-6">
-      <div class="panel panel-spell">
-        <div class="panel-heading">Core Game Spells</div>
-        <table class="table">
-          <% @core.sort_by {|spell| spell.name }.each do |spell| %>
-            <tr>
-              <td class="spell" align="center"><%= link_to spell.name, spell_path(spell) %></td>
-            </tr>
-          <% end %>
-        </table>
+    <div class="col-md-6 col-sm-8">
+
+      <div class="card">
+        <div class="card-header" id="headingCore">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseCore">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Core Game</button>
+        </div>
+        <div class="card-body">
+          <div id="collapseCore" class="collapse in">
+            <table class="table stats spellstats">
+              <thead>
+                <tr>
+                  <th class="w50">Spell</th>
+                  <th class="w25">Cost</th>
+                  <th class="w25">Scenarios</th>
+                </tr>
+              </thead>
+              <% @core.each do |spell| %>
+              <tr>
+                <td class="spell" align="center"><%= link_to spell.name, spell_path(spell) %></td>
+                <td><%= spell.cost %></td>
+                <td><%= spell.scenarios.count %></td>
+              </tr>
+              <% end %>
+            </table>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="col-md-4 col-sm-6">
-      <div class="panel panel-spell">
-        <div class="panel-heading">Stretch Goal Spells</div>
-        <table class="table">
-          <% @stretch.sort_by {|spell| spell.name }.each do |spell| %>
-            <tr>
-              <td class="spell" align="center"><%= link_to spell.name, spell_path(spell) %></td>
-            </tr>
-          <% end %>
-        </table>
+
+      <div class="card">
+        <div class="card-header" id="headingKhitai">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseKhitai">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Khitai</button>
+        </div>
+        <div class="card-body">
+          <div id="collapseKhitai" class="collapse in">
+            <table class="table stats spellstats">
+              <thead>
+                <tr>
+                  <th class="w50">Spell</th>
+                  <th class="w25">Cost</th>
+                  <th class="w25">Scenarios</th>
+                </tr>
+              </thead>
+              <% @khitai.each do |spell| %>
+              <tr>
+                <td class="spell" align="center"><%= link_to spell.name, spell_path(spell) %></td>
+                <td><%= spell.cost %></td>
+                <td><%= spell.scenarios.count %></td>
+              </tr>
+              <% end %>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingNordheim">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseNordheim">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Nordheim</button>
+        </div>
+        <div class="card-body">
+          <div id="collapseNordheim" class="collapse in">
+            <table class="table stats spellstats">
+              <thead>
+                <tr>
+                  <th class="w50">Spell</th>
+                  <th class="w25">Cost</th>
+                  <th class="w25">Scenarios</th>
+                </tr>
+              </thead>
+              <% @nordheim.each do |spell| %>
+              <tr>
+                <td class="spell" align="center"><%= link_to spell.name, spell_path(spell) %></td>
+                <td><%= spell.cost %></td>
+                <td><%= spell.scenarios.count %></td>
+              </tr>
+              <% end %>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingStygia">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseStygia">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Stygia</button>
+        </div>
+        <div class="card-body">
+          <div id="collapseStygia" class="collapse in">
+            <table class="table stats spellstats">
+              <thead>
+                <tr>
+                  <th class="w50">Spell</th>
+                  <th class="w25">Cost</th>
+                  <th class="w25">Scenarios</th>
+                </tr>
+              </thead>
+              <% @stygia.each do |spell| %>
+              <tr>
+                <td class="spell" align="center"><%= link_to spell.name, spell_path(spell) %></td>
+                <td><%= spell.cost %></td>
+                <td><%= spell.scenarios.count %></td>
+              </tr>
+              <% end %>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingCampaign">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseCampaign">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Campaign</button>
+        </div>
+        <div class="card-body">
+          <div id="collapseCampaign" class="collapse in">
+            <table class="table stats spellstats">
+              <thead>
+                <tr>
+                  <th class="w50">Spell</th>
+                  <th class="w25">Cost</th>
+                  <th class="w25">Scenarios</th>
+                </tr>
+              </thead>
+              <% @campaign.each do |spell| %>
+              <tr>
+                <td class="spell" align="center"><%= link_to spell.name, spell_path(spell) %></td>
+                <td><%= spell.cost %></td>
+                <td><%= spell.scenarios.count %></td>
+              </tr>
+              <% end %>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingConqueror">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseConqueror">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Conan the Conqueror</button>
+        </div>
+        <div class="card-body">
+          <div id="collapseConqueror" class="collapse in">
+            <table class="table stats spellstats">
+              <thead>
+                <tr>
+                  <th class="w50">Spell</th>
+                  <th class="w25">Cost</th>
+                  <th class="w25">Scenarios</th>
+                </tr>
+              </thead>
+              <% @conqueror.each do |spell| %>
+              <tr>
+                <td class="spell" align="center"><%= link_to spell.name, spell_path(spell) %></td>
+                <td><%= spell.cost %></td>
+                <td><%= spell.scenarios.count %></td>
+              </tr>
+              <% end %>
+            </table>
+          </div>
+        </div>
       </div>
     </div>
 
-    <div class="col-md-4 col-sm-6">
-      <div class="panel panel-spell">
-        <div class="panel-heading">Nordheim Spells</div>
-        <table class="table">
-          <% @nordheim.sort_by {|spell| spell.name }.each do |spell| %>
-            <tr>
-              <td class="spell" align="center"><%= link_to spell.name, spell_path(spell) %></td>
-            </tr>
-          <% end %>
-        </table>
-      </div>
-    </div>
-    <div class="col-md-4 col-sm-6">
-      <div class="panel panel-spell">
-        <div class="panel-heading">Khitai Spells</div>
-        <table class="table">
-          <% @khitai.sort_by {|spell| spell.name }.each do |spell| %>
-            <tr>
-              <td class="spell" align="center"><%= link_to spell.name, spell_path(spell) %></td>
-            </tr>
-          <% end %>
-        </table>
-      </div>
-    </div>
-    <div class="col-md-4 col-sm-6">
-      <div class="panel panel-spell">
-        <div class="panel-heading">Stygia Spells</div>
-        <table class="table">
-          <% @stygia.sort_by {|spell| spell.name }.each do |spell| %>
-            <tr>
-              <td class="spell" align="center"><%= link_to spell.name, spell_path(spell) %></td>
-            </tr>
-          <% end %>
-        </table>
-      </div>
-    </div>
-    <div class="col-md-4 col-sm-6">
-      <div class="panel panel-spell">
-        <div class="panel-heading">Legend of the Devil in Iron Spells</div>
-        <table class="table">
-          <% @campaign.sort_by {|spell| spell.name }.each do |spell| %>
-            <tr>
-              <td class="spell" align="center"><%= link_to spell.name, spell_path(spell) %></td>
-            </tr>
-          <% end %>
-        </table>
+    <div class="col-md-6 col-sm-8">
+      <div class="card">
+        <div class="card-header" id="headingStretch">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseStretch">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Stretch Goal</button>
+        </div>
+        <div class="card-body">
+          <div id="collapseStretch" class="collapse in">
+            <table class="table stats spellstats">
+              <thead>
+                <tr>
+                  <th class="w50">Spell</th>
+                  <th class="w25">Cost</th>
+                  <th class="w25">Scenarios</th>
+                </tr>
+              </thead>
+              <% @stretch.each do |spell| %>
+              <tr>
+                <td class="spell" align="center"><%= link_to spell.name, spell_path(spell) %></td>
+                <td><%= spell.cost %></td>
+                <td><%= spell.scenarios.count %></td>
+              </tr>
+              <% end %>
+            </table>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </div>
+
 
 <div id="by_cost">
   <div class="row">
-    <div class="col-md-4 col-sm-6">
-      <div class="panel panel-spell">
-        <div class="panel-heading">1 Cost</div>
-        <table class="table">
-          <% @cost1.sort_by {|spell| spell.name }.each do |spell| %>
-            <tr>
-              <td class="spell" align="center"><%= link_to spell.name, spell_path(spell) %></td>
-            </tr>
-          <% end %>
-        </table>
+    <div class="col-md-6 col-sm-8">
+      <div class="card">
+        <div class="card-header" id="heading1">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapse1">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;1</button>
+        </div>
+        <div class="card-body">
+          <div id="collapse1" class="collapse in">
+            <table class="table stats spellstats">
+              <thead>
+                <tr>
+                  <th class="w40">Spell</th>
+                  <th class="w40">Origin</th>
+                  <th class="w20">Scenarios</th>
+                </tr>
+              </thead>
+              <% @cost1.each do |spell| %>
+              <tr>
+                <td class="spell" align="center"><%= link_to spell.name, spell_path(spell) %></td>
+                <td><%= spell.origin %></td>
+                <td><%= spell.scenarios.count %></td>
+              </tr>
+              <% end %>
+            </table>
+          </div>
+        </div>
       </div>
-      <div class="panel panel-spell">
-        <div class="panel-heading">4 Cost</div>
-        <table class="table">
-          <% @cost4.sort_by {|spell| spell.name }.each do |spell| %>
-            <tr>
-              <td class="spell" align="center"><%= link_to spell.name, spell_path(spell) %></td>
-            </tr>
-          <% end %>
-        </table>
+
+      <div class="card">
+        <div class="card-header" id="heading3">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapse3">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;3</button>
+        </div>
+        <div class="card-body">
+          <div id="collapse3" class="collapse in">
+            <table class="table stats spellstats">
+              <thead>
+                <tr>
+                  <th class="w40">Spell</th>
+                  <th class="w40">Origin</th>
+                  <th class="w20">Scenarios</th>
+                </tr>
+              </thead>
+              <% @cost3.each do |spell| %>
+              <tr>
+                <td class="spell" align="center"><%= link_to spell.name, spell_path(spell) %></td>
+                <td><%= spell.origin %></td>
+                <td><%= spell.scenarios.count %></td>
+              </tr>
+              <% end %>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingX">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseX">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;X</button>
+        </div>
+        <div class="card-body">
+          <div id="collapseX" class="collapse in">
+            <table class="table stats spellstats">
+              <thead>
+                <tr>
+                  <th class="w40">Spell</th>
+                  <th class="w40">Origin</th>
+                  <th class="w20">Scenarios</th>
+                </tr>
+              </thead>
+              <% @costx.each do |spell| %>
+              <tr>
+                <td class="spell" align="center"><%= link_to spell.name, spell_path(spell) %></td>
+                <td><%= spell.origin %></td>
+                <td><%= spell.scenarios.count %></td>
+              </tr>
+              <% end %>
+            </table>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="col-md-4 col-sm-6">
-      <div class="panel panel-spell">
-        <div class="panel-heading">2 Cost</div>
-        <table class="table">
-          <% @cost2.sort_by {|spell| spell.name }.each do |spell| %>
-            <tr>
-              <td class="spell" align="center"><%= link_to spell.name, spell_path(spell) %></td>
-            </tr>
-          <% end %>
-        </table>
+
+    <div class="col-md-6 col-sm-8">
+      <div class="card">
+        <div class="card-header" id="heading2">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapse2">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;2</button>
+        </div>
+        <div class="card-body">
+          <div id="collapse2" class="collapse in">
+            <table class="table stats spellstats">
+              <thead>
+                <tr>
+                  <th class="w40">Spell</th>
+                  <th class="w40">Origin</th>
+                  <th class="w20">Scenarios</th>
+                </tr>
+              </thead>
+              <% @cost2.each do |spell| %>
+              <tr>
+                <td class="spell" align="center"><%= link_to spell.name, spell_path(spell) %></td>
+                <td><%= spell.origin %></td>
+                <td><%= spell.scenarios.count %></td>
+              </tr>
+              <% end %>
+            </table>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="col-md-4 col-sm-6">
-      <div class="panel panel-spell">
-        <div class="panel-heading">3 Cost</div>
-        <table class="table">
-          <% @cost3.sort_by {|spell| spell.name }.each do |spell| %>
-            <tr>
-              <td class="spell" align="center"><%= link_to spell.name, spell_path(spell) %></td>
-            </tr>
-          <% end %>
-        </table>
-      </div>
-      <div class="panel panel-spell">
-        <div class="panel-heading">X Cost</div>
-        <table class="table">
-          <% @costx.sort_by {|spell| spell.name }.each do |spell| %>
-            <tr>
-              <td class="spell" align="center"><%= link_to spell.name, spell_path(spell) %></td>
-            </tr>
-          <% end %>
-        </table>
+
+      <div class="card">
+        <div class="card-header" id="heading4">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapse4">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;4</button>
+        </div>
+        <div class="card-body">
+          <div id="collapse4" class="collapse in">
+            <table class="table stats spellstats">
+              <thead>
+                <tr>
+                  <th class="w40">Spell</th>
+                  <th class="w40">Origin</th>
+                  <th class="w20">Scenarios</th>
+                </tr>
+              </thead>
+              <% @cost4.each do |spell| %>
+              <tr>
+                <td class="spell" align="center"><%= link_to spell.name, spell_path(spell) %></td>
+                <td><%= spell.origin %></td>
+                <td><%= spell.scenarios.count %></td>
+              </tr>
+              <% end %>
+            </table>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </div>
 
+
 <div id="by_type">
   <div class="row">
-    <div class="col-md-4 col-sm-6">
-      <div class="panel panel-spell">
-        <div class="panel-heading">Area Effect Spells</div>
-        <table class="table">
-          <% @area.sort_by {|spell| spell.name }.each do |spell| %>
-            <tr>
-              <td class="spell" align="center"><%= link_to spell.name, spell_path(spell) %></td>
-            </tr>
-          <% end %>
-        </table>
+    <div class="col-md-6 col-sm-8">
+      <div class="card">
+        <div class="card-header" id="headingArea">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseArea">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Area Effect</button>
+        </div>
+        <div class="card-body">
+          <div id="collapseArea" class="collapse in">
+            <table class="table stats spellstats">
+              <thead>
+                <tr>
+                  <th class="w40">Spell</th>
+                  <th class="w40">Origin</th>
+                  <th class="w20">Scenarios</th>
+                </tr>
+              </thead>
+              <% @area.each do |spell| %>
+              <tr>
+                <td class="spell" align="center"><%= link_to spell.name, spell_path(spell) %></td>
+                <td><%= spell.origin %></td>
+                <td><%= spell.scenarios.count %></td>
+              </tr>
+              <% end %>
+            </table>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="col-md-4 col-sm-6">
-      <div class="panel panel-spell">
-        <div class="panel-heading">Instant Spells</div>
-        <table class="table">
-          <% @instant.sort_by {|spell| spell.name }.each do |spell| %>
-            <tr>
-              <td class="spell" align="center"><%= link_to spell.name, spell_path(spell) %></td>
-            </tr>
-          <% end %>
-        </table>
+
+    <div class="col-md-6 col-sm-8">
+      <div class="card">
+        <div class="card-header" id="headingInstant">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseInstant">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Instant</button>
+        </div>
+        <div class="card-body">
+          <div id="collapseInstant" class="collapse in">
+            <table class="table stats spellstats">
+              <thead>
+                <tr>
+                  <th class="w40">Spell</th>
+                  <th class="w40">Origin</th>
+                  <th class="w20">Scenarios</th>
+                </tr>
+              </thead>
+              <% @instant.each do |spell| %>
+              <tr>
+                <td class="spell" align="center"><%= link_to spell.name, spell_path(spell) %></td>
+                <td><%= spell.origin %></td>
+                <td><%= spell.scenarios.count %></td>
+              </tr>
+              <% end %>
+            </table>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="col-md-4 col-sm-6">
-      <div class="panel panel-spell">
-        <div class="panel-heading">Blank Spells</div>
-        <table class="table">
-          <% @blank.sort_by {|spell| spell.name }.each do |spell| %>
-            <tr>
-              <td class="spell" align="center"><%= link_to spell.name, spell_path(spell) %></td>
-            </tr>
-          <% end %>
-        </table>
+
+      <div class="card">
+        <div class="card-header" id="headingBlank">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseBlank">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Blank</button>
+        </div>
+        <div class="card-body">
+          <div id="collapseBlank" class="collapse in">
+            <table class="table stats spellstats">
+              <thead>
+                <tr>
+                  <th class="w40">Spell</th>
+                  <th class="w40">Origin</th>
+                  <th class="w20">Scenarios</th>
+                </tr>
+              </thead>
+              <% @blank.each do |spell| %>
+              <tr>
+                <td class="spell" align="center"><%= link_to spell.name, spell_path(spell) %></td>
+                <td><%= spell.origin %></td>
+                <td><%= spell.scenarios.count %></td>
+              </tr>
+              <% end %>
+            </table>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -206,7 +460,7 @@
     <div class="col-md-2 col-sm-2"></div>
     <div class="col-md-8 col-sm-6">
       <div class="panel panel-spell">
-        <div class="panel-heading">All Spells / Stats</div>
+        <div class="panel-heading">Name / Stats</div>
           <table class="table stats spellstats">
             <thead>
               <tr>

@@ -1,43 +1,15 @@
 <div class="row ">
-  <div class="col-xs-12 col-md-9 spell-well">
+  <div class="col-xs-12 col-md-12 spell-well">
     <div align="center">
       <div class="prevnext prevnext_spell" >
         <span class="prev"><%= link_to("<< " + @spell.previous.name, @spell.previous) if @spell.previous %></span>
-        <span aligh="center"><%= link_to "Back to spells", spells_path %></span>
+        <span class="center-span"><%= link_to "Back to spells", spells_path %></span>
         <span class="next"><%= link_to(@spell.next.name + " >>", @spell.next) if @spell.next %></span>
       </div>
-      <div class="col-md-7">
-        <h2 class="spell"><%= @spell.name %></h2>
-        from  <%= @spell.origin %>
-        <br />
-        <table class="tile_stats" align="center">
-          <tr>
-            <th>Cost</th>
-            <th>Limit</th>
-            <% if @spell.area === 'Yes' %>
-              <th>Area Effect</th>
-            <% end %>
-            <% if @spell.instant === 'Yes' %>
-              <th>Instant</th>
-            <% end %>
-          </tr>
-          <tr>
-            <td><h3><%= @spell.cost %></h3></td>
-            <td><h3><%= @spell.limit %></h3></td>
-            <% if @spell.area === 'Yes' %>
-            <td><%= image_tag("icons/Area.png") %></td>
-            <% end %>
 
-            <% if @spell.instant === 'Yes' %>
-              <td><%= image_tag("icons/Instant.png") %></td>
-            <% end %>
-          </tr>
-        </table><br />
-        <p><%= @spell.description.html_safe %></p>
-      </div>
-      <div class="col-md-5">
-        <% if @spell_scenarios.any? %>
+      <div class="col-md-3">
         <br />
+
           <div class="panel panel-spell">
             <div class="panel-heading">Scenarios that use this Spell</div>
             <table class="table">
@@ -48,9 +20,25 @@
                 <% end %>
             </table>
           </div>
-        <% end %>
-
       </div>
+
+      <div class="col-xs-12 col-md-6">
+        <div align="center" class="spell spellImage">
+            <br />
+            <%= image_tag "#{@spell.image}" %>
+        </div>
+        <br />
+        from  <%= @spell.origin %>
+      </div>
+
+      <div class="col-md-3">
+        <br />
+        <% if @spell.correction != '' %>
+            <h4>Correction / Clarification:</h4>
+            <%= sanitize @spell.correction %>
+        <% end %>
+      </div>
+
     </div>
   </div>
 </div>

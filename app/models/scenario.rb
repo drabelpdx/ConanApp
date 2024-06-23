@@ -5,7 +5,6 @@ class Scenario < ActiveRecord::Base
   has_many :product_scenarios
   has_many :scenario_spells
   has_many :scenario_tiles
-  has_many :ratings
   has_many :heroes, through: :hero_scenarios
   has_many :items, through: :item_scenarios
   has_many :maps, through: :map_scenarios
@@ -21,15 +20,6 @@ class Scenario < ActiveRecord::Base
            hero_setup LIKE ? OR overlord_setup LIKE ? OR
            special_rules LIKE ?', "%#{search}%", "%#{search}%",
            "%#{search}%", "%#{search}%", "%#{search}%")
-  end
-
-  def average_balance
-    ratings.average(:balance).round()
-  end
-
-  def average_rating
-    count = ratings.reject { |i| i.score == 0 }
-    ratings.sum(:score) / (count.size.nonzero? || 1).round(1)
   end
 
   def previous

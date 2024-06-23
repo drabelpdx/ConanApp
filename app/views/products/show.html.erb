@@ -2,146 +2,132 @@
   <div align="center">
     <div class="prevnext prevnext_product" >
       <span class="prev"><%= link_to("<< " + @product.previous.name, @product.previous) if @product.previous %></span>
-      <span aligh="center"><%= link_to "Back to Products", products_path %></span>
+      <span class="center-span"><%= link_to "Back to Products", products_path %></span>
       <span class="next"><%= link_to(@product.next.name + " >>", @product.next) if @product.next %></span>
     </div>
     <div class="row">
       <div class="col-md-12 products" align="center">
         <h2 class="product"><%= @product.name %></h2>
         <p><%= @product.description.html_safe %></p>
+        <%= image_tag "#{@product.image}" %>
+        <br /><br />
       </div>
     </div>
-
-    <div class="col-md-8 products" align="center">
-      <div class="col-md-6">
-
-        <% if @map_products.any? %>
-        <div class="panel panel-map">
-          <div class="panel-heading">Maps</div>
-          <table class="table">
-            <% @map_products.each do |map| %>
-              <tr>
-                <td class="map"><%= link_to map.name, map_path(map) %></td>
-              </tr>
-            <% end %>
-          </table>
-        </div>
-        <% end %>
-
-        <% if @model_products.any? %>
-        <div class="panel panel-model">
-          <div class="panel-heading">Models</div>
-          <table class="table">
-            <% @model_products.each do |model| %>
-              <tr>
-                <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
-              </tr>
-            <% end %>
-          </table>
-        </div>
-        <% end %>
-
-        <% if @item_products.any? %>
-        <div class="panel panel-item">
-          <div class="panel-heading">Item Cards</div>
-          <table class="table">
-            <% @item_products.sort_by {|item| item.name }.each do |item| %>
-              <tr>
-                <td class="item" align="center"><%= link_to item.name, item_path(item) %></td>
-              </tr>
-            <% end %>
-          </table>
-        </div>
-        <% end %>
-      </div>
-
-      <div class="col-md-6">
-
-        <% if @hero_products.any? %>
-        <div class="panel panel-success">
-          <div class="panel-heading">Hero Sheets</div>
-          <table class="table">
-            <% @hero_products.each do |hero| %>
-              <tr>
-                <td class="hero" align="center"><%= link_to hero.name, hero_path(hero) %></td>
-              </tr>
-            <% end %>
-          </table>
-        </div>
-        <% end %>
-
-        <% if @product_tiles.any? %>
-          <div class="panel panel-danger">
-            <div class="panel-heading">Character Tiles</div>
-              <table class="table">
-                <% @product_tiles.sort_by {|tile| tile.name }.each do |tile| %>
-                  <tr>
-                    <td class="tile" align="center"><%= link_to tile.name, tile_path(tile) %></td>
-                  </tr>
-                <% end %>
-              </table>
-          </div>
-        <% end %>
-
-        <% if @product_spells.any? %>
-          <div class="panel panel-spell">
-            <div class="panel-heading">Spell Cards</div>
-              <table class="table">
-                <% @product_spells.sort_by {|spell| spell.name }.each do |spell| %>
-                  <tr>
-                    <td class="spell" align="center"><%= link_to spell.name, spell_path(spell) %></td>
-                  </tr>
-                <% end %>
-              </table>
-          </div>
-        <% end %>
-      </div>
-    </div>
-
-    <div class="col-md-4">
-      <% if @product_scenarios.any? %>
-        <div class="panel panel-info">
-          <div class="panel-heading">Scenarios</div>
-          <table class="table">
-            <% @product_scenarios.each do |scenario| %>
-            <tr>
-              <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
-            </tr>
-            <% end %>
-          </table>
-        </div>
-
-        <% if (@product.scenarios.length > @product_scenarios.length) %>
-          <div class="panel panel-other_scenario">
-            <div class="panel-heading">Other Scenarios that use this product</div>
+    <div class="row">
+      <div class="col-md-12 products" align="center">
+        <div class="col-md-4">
+          <% if @model_products.any? %>
+          <div class="panel panel-model">
+            <div class="panel-heading">Models</div>
             <table class="table">
-              <% @product.scenarios.each do |scenario| %>
-                <% if scenario.origin != @product.name %>
-                  <tr>
-                    <td class="other_scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
-                  </tr>
-                <% end %>
+              <% @model_products.each do |model| %>
+                <tr>
+                  <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
+                </tr>
               <% end %>
             </table>
           </div>
-        <% end %>
+          <% end %>
 
-      <% else %>
-        <% if @product.scenarios.any? %>
-          <div class="panel panel-other_scenario">
-            <div class="panel-heading">Scenarios that use this product</div>
+          <% if @item_products.any? %>
+          <div class="panel panel-item">
+            <div class="panel-heading">Item Cards</div>
             <table class="table">
-              <% @product.scenarios.each do |scenario| %>
-                <% if scenario.origin != @product.name %>
-                  <tr>
-                    <td class="other_scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
-                  </tr>
-                <% end %>
+              <% @item_products.sort_by {|item| item.name }.each do |item| %>
+                <tr>
+                  <td class="item" align="center"><%= link_to item.name, item_path(item) %></td>
+                </tr>
               <% end %>
             </table>
           </div>
-        <% end %>
-      <% end %>
+          <% end %>
+        </div>
+
+        <div class="col-md-4">
+          <% if @hero_products.any? %>
+          <div class="panel panel-success">
+            <div class="panel-heading">Hero Sheets</div>
+            <table class="table">
+              <% @hero_products.each do |hero| %>
+                <tr>
+                  <td class="hero" align="center"><%= link_to hero.name, hero_path(hero) %></td>
+                </tr>
+              <% end %>
+            </table>
+          </div>
+          <% end %>
+
+          <% if @product_tiles.any? %>
+            <div class="panel panel-danger">
+              <div class="panel-heading">Character Tiles</div>
+                <table class="table">
+                  <% @product_tiles.sort_by {|tile| tile.name }.each do |tile| %>
+                    <tr>
+                      <td class="tile" align="center"><%= link_to tile.name, tile_path(tile) %></td>
+                    </tr>
+                  <% end %>
+                </table>
+            </div>
+          <% end %>
+        </div>
+
+        <div class="col-md-4">
+          <% if @product_scenarios.any? %>
+            <div class="panel panel-info">
+              <div class="panel-heading">Scenarios</div>
+              <table class="table">
+                <% @product_scenarios.each do |scenario| %>
+                <tr>
+                  <td class="scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+                </tr>
+                <% end %>
+              </table>
+            </div>
+          <% else %>
+            <% if @product.scenarios.any? %>
+              <div class="panel panel-other_scenario">
+                <div class="panel-heading">Scenarios that use this product</div>
+                <table class="table">
+                  <% @product.scenarios.each do |scenario| %>
+                    <% if scenario.origin != @product.name %>
+                      <tr>
+                        <td class="other_scenario" align="center"><%= link_to scenario.name, scenario_path(scenario) %></td>
+                      </tr>
+                    <% end %>
+                  <% end %>
+                </table>
+              </div>
+            <% end %>
+          <% end %>
+
+          <% if @map_products.any? %>
+          <div class="panel panel-map">
+            <div class="panel-heading">Maps</div>
+            <table class="table">
+              <% @map_products.each do |map| %>
+                <tr>
+                  <td class="map"><%= link_to map.name, map_path(map) %></td>
+                </tr>
+              <% end %>
+            </table>
+          </div>
+          <% end %>
+
+          <% if @product_spells.any? %>
+            <div class="panel panel-spell">
+              <div class="panel-heading">Spell Cards</div>
+                <table class="table">
+                  <% @product_spells.sort_by {|spell| spell.name }.each do |spell| %>
+                    <tr>
+                      <td class="spell" align="center"><%= link_to spell.name, spell_path(spell) %></td>
+                    </tr>
+                  <% end %>
+                </table>
+            </div>
+          <% end %>
+        </div>
+
+      </div>
     </div>
   </div>
 </div>

@@ -3,114 +3,8 @@
     <div align="center">
       <div  class="prevnext prevnext_tile" >
         <span class="prev"><%= link_to("<< " +  @tile.previous.name, @tile.previous) if @tile.previous %></span>
-        <span><%= link_to "Back to tiles", tiles_path %></span>
+        <span class="center-span"><%= link_to "Back to tiles", tiles_path %></span>
         <span class="next"><%= link_to(@tile.next.name + " >>", @tile.next) if @tile.next %></span>
-      </div>
-      <div class="col-md-4">
-        <br />
-        <table>
-          <% if @tile.skills.any? %>
-            <tr>
-              <h4>Skills:</h4>
-              <% @tile.skills.each do |skill| %>
-                <td class="thumbs">
-                  <%= link_to image_tag("skills/#{skill.name}.png"), skill_path(skill) %>
-                  <br /><%= link_to skill.name, skill_path(skill) %>
-                </td>
-              <% end%>
-            </tr>
-          <% end %>
-        </table>
-        <br />
-        <table class="tile_stats">
-   <% if @tile.move != '-' %>
-     <tr>
-       <h4>Stats:</h4>
-       <th>
-         <%= image_tag "stats/movement.png" %>
-         <br />Movement
-       </th>
-       <th>
-         <h3><%= @tile.move %></h3>
-       </th>
-     </tr>
-   <% end %>
-   <% if @tile.armor != '-' %>
-     <tr>
-       <th>
-         <%= image_tag "stats/armor.png" %>
-         <br />Armor
-       </th>
-       <th>
-         <h3><%= @tile.armor %></h3>
-       </th>
-     </tr>
-   <% end %>
-
-   <% if @tile.melee != '-' %>
-     <tr>
-       <th>
-         <%= image_tag "stats/melee.png" %>
-         <br />Melee
-       </th>
-       <td class="thumbs">
-         <% @tile.bones.each do |bone| %>
-           <%= image_tag "dice/#{bone.name}.png" %>
-         <% end%>
-         <br /><%= @tile.melee %>
-       </td>
-     </tr>
-   <% end %>
-
-   <% if @tile.ranged != '-' %>
-     <tr>
-       <th>
-         <%= image_tag "stats/range.png" %>
-         <br />Ranged
-       </th>
-       <td class="thumbs">
-         <% @tile.bones.each do |bone| %>
-           <%= image_tag "dice/#{bone.name}.png" %>
-         <% end%>
-         <br /><%= @tile.ranged %>
-       </td>
-     </tr>
-   <% end %>
-   <tr>
-     <% if @tile.cost %>
-       <th><%= image_tag "stats/reinforcement.png" %>
-         <br />Reinforcement<br />Cost
-       </th>
-     <% end %>
-     <% if @tile.cost %>
-       <td><h3><%= @tile.cost %></h3></td>
-     <% end %>
-   </tr>
- </table>
-      </div>
-
-      <div class="col-xs-12 col-md-5">
-        <h2 class="tile"><%= @tile.name %></h2>
-        <h4><%= @tile.description %></h4>
-        <div align="center" class="tiles">
-          <div id="by_tile">
-            <a href="" id="show_figure" >
-              <%= image_tag "#{@tile.tile_image}" %>
-            </a>
-          </div>
-          <div id="by_figure">
-            <a href="" id="show_tile" >
-              <%= image_tag "#{@tile.figure_image}" %>
-            </a>
-          </div>
-          <br /><br />
-          <h4>
-            <%= @tile.count %>  <%= @tile.role %>
-            <%= pluralize_no_count(@tile.count, 'tile') %>
-          </h4>
-          from  <%= @tile.origin %>
-          <br /><br />
-        </div>
       </div>
 
       <div class="col-md-3">
@@ -126,6 +20,44 @@
               <% end %>
             </table>
           </div>
+        <% end %>
+      </div>
+
+      <div class="col-xs-12 col-md-6">
+        <h2 class="tile"><%= @tile.name %></h2>
+        <div align="center" class="tiles">
+          <div id="by_tile">
+            <a href="" id="show_figure" >
+              <%= image_tag "#{@tile.tile_image}" %>
+            </a>
+          </div>
+          <div id="by_figure">
+            <a href="" id="show_tile" >
+              <%= image_tag "#{@tile.figure_image}" %>
+            </a>
+          </div>
+          <h4>
+            <%= @tile.count %>  <%= pluralize_no_count(@tile.count, 'tile') %>
+          </h4>
+          from  <%= @tile.origin %>
+        </div>
+      </div>
+
+      <div class="col-md-3 thumbs">
+        <br />
+          <% if @tile.skills.any? %>
+              <h4>Skills:</h4>
+              <% @tile.skills.each do |skill| %>
+                  <%= link_to image_tag("skills/#{skill.name}.png"), skill_path(skill) %>
+                  <br /><%= link_to skill.name, skill_path(skill) %>
+                  <br /><br />
+              <% end%>
+          <% end %>
+        <br />
+        <br />
+        <% if @tile.correction != '' %>
+            <h4>Correction:</h4>
+            <%= sanitize @tile.correction %>
         <% end %>
       </div>
     </div>

@@ -16,25 +16,20 @@
       <ul class="nav navbar-nav">
         <li><%= link_to "Scenerios", scenarios_path %></li>
         <li><%= link_to "Maps", maps_path %></li>
+        <li><%= link_to "Models", models_path %></li>
         <li><%= link_to "Heroes", heroes_path %></li>
         <li><%= link_to "Tiles", tiles_path %></li>
-        <li><%= link_to "Spells", spells_path %></li>
         <li><%= link_to "Items", items_path %></li>
-        <li><%= link_to "Models", models_path %></li>
+        <li><%= link_to "Spells", spells_path %></li>
         <li><%= link_to "Skills", skills_path %></li>
-        <li><%= link_to "Stories", stories_path %></li>
         <li><%= link_to "Products", products_path %></li>
+        <li><%= link_to "Resources", resources_path %></li>
       </ul>
 
       <ul class="nav navbar-nav navbar-right">
-        <%= form_tag(scenarios_path, :method => "get", id: "search-form", :class => "navbar-form navbar-left") do %>
-          <%= text_field_tag :search, params[:search], placeholder: "Search Scenarios" %>
-          <%= submit_tag "Search", :name => nil, :class => "btn btn-default" %>
-        <% end %>
         <% if logged_in? %>
           <li><%= link_to 'Log out', logout_path, method: :delete %></li>
         <% end %>
-
         <!-- add login code and google button here -->
       </ul>
     </div><!-- /.navbar-collapse -->

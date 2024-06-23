@@ -1,0 +1,23 @@
+<div class="row resource-well">
+  <div align="center">
+    <div class="prevnext prevnext_resource" >
+      <span class="prev"><%= link_to("<< " + @resource.previous.name, @resource.previous) if @resource.previous %></span>
+      <span aligh="center"><%= link_to "Back to Resources", resources_path %></span>
+      <span class="next"><%= link_to(@resource.next.name + " >>", @resource.next) if @resource.next %></span>
+    </div>
+    <div class="row">
+      <div class="col-md-12 resources" align="center">
+        <h2 class="resource"><%= @resource.name %></h2>
+        <p><%= @resource.description.html_safe %></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<% if logged_in? && current_user.admin? %>
+ <div class="row">
+   <br /><br />
+   <%= link_to 'Edit', edit_resource_path(@resource) %> |
+   <%= link_to 'Delete', resource_path(@resource), method: :delete, data: {confirm: "Are you sure?"} %>
+ </div>
+<% end %>

@@ -52,10 +52,11 @@ class SpellsController < ApplicationController
     def set_spells
       @core = Spell.where(origin: 'Core Game')
       @stretch = Spell.where(origin: 'Stretch Goal')
-      @nordheim = Spell.where(origin: 'Nordheim Expansion')
-      @stygia = Spell.where(origin: 'Stygia Expansion')
-      @khitai = Spell.where(origin: 'Khitai Expansion')
+      @nordheim = Spell.where(origin: 'Nordheim')
+      @stygia = Spell.where(origin: 'Stygia')
+      @khitai = Spell.where(origin: 'Khitai')
       @campaign = Spell.where(origin: 'Legend of the Devil in Iron')
+      @conqueror = Spell.where(origin: 'Conan the Conqueror')
       @area = Spell.where(area: 'Yes')
       @instant = Spell.where(instant: 'Yes')
       @blank = Spell.where(description: 'Blank Card')
@@ -69,7 +70,7 @@ class SpellsController < ApplicationController
 
     def spell_params
       params.require(:spell).permit(:name, :description, :cost, :limit, :area,
-      :instant, :origin, :count)
+      :instant, :origin, :count, :image, :correction)
     end
 
     def require_admin

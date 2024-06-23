@@ -1,271 +1,777 @@
-<h1 class="model">Models</h1>
+<h1>Models</h1>
 <% if logged_in? && current_user.admin? %>
   <p><%= link_to "Add a Model", new_model_path %></p>
 <% end %>
 
-<p>Click on a model to get the count and any hero sheets or character tiles that represent it.</P>
-  <p>Models can be sorted by:
+<p>Click on a model to see any hero sheets or character tiles it represents in scenarios.</p>
+  <p>Models can be sorted by:</p>
       <ul>
-        <li>the box <strong>(origin)</strong> the model came in</li>
+        <li>the box (<strong>origin</strong>) the model came in</li>
         <li>the <strong>type</strong> of unit the model represents</li>
-        <li><strong>All</strong> models listed with their stats</li>
+        <li>model <strong>name</strong> listed with their stats</li>
       </ul>
 <div align="center">
   <a href="" id="show_byorigin" class="toggles"><button class="btn btn-model active">By Origin</button></a>
   <a href="" id="show_bytype" class="toggles"><button class="btn btn-model">By Type</button></a>
-  <a href="" id="show_bystat" class="toggles"><button class="btn btn-model">All / Stats</button></a>
-
+  <a href="" id="show_bystat" class="toggles"><button class="btn btn-model">Name / Stats</button></a>
 </div>
 <hr>
 <div id="by_origin">
   <div class="row">
-    <div class="col-md-4 col-sm-6">
-      <div class="panel panel-model">
-        <div class="panel-heading">Core Game Models</div>
-        <table class="table">
-          <% @core.sort_by {|model| model.name }.each do |model| %>
-          <tr>
-            <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
-          </tr>
-          <% end %>
-        </table>
+
+    <div class="col-md-6 col-sm-8">
+      <div class="card">
+        <div class="card-header" id="headingCore">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseCore">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Core Game</button>
+        </div>
+        <div class="card-body">
+          <div id="collapseCore" class="collapse in">
+            <table class="table stats modelstats">
+              <thead>
+                <tr>
+                  <th class="w50">Model</th>
+                  <th class="w30">Type</th>
+                  <th class="w20">Count</th>
+                </tr>
+              </thead>
+              <% @core.each do |model| %>
+              <tr>
+                <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
+                <td><%= model.role %></td>
+                <td><%= model.count %></td>
+              </tr>
+              <% end %>
+            </table>
+          </div>
+        </div>
       </div>
 
-      <div class="panel panel-model">
-        <div class="panel-heading">Baal Pteor Models</div>
-        <table class="table">
-          <% @baal.each do |model| %>
-          <tr>
-            <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
-          </tr>
-          <% end %>
-        </table>
+      <div class="card">
+        <div class="card-header" id="headingKing">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseKing">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;King Pledge</button>
+        </div>
+        <div class="card-body">
+          <div id="collapseKing" class="collapse in">
+            <table class="table stats modelstats">
+              <thead>
+                <tr>
+                  <th class="w50">Model</th>
+                  <th class="w30">Type</th>
+                  <th class="w20">Count</th>
+                </tr>
+              </thead>
+              <% @king.each do |model| %>
+              <tr>
+                <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
+                <td><%= model.role %></td>
+                <td><%= model.count %></td>
+              </tr>
+              <% end %>
+            </table>
+          </div>
+        </div>
       </div>
-      <div class="panel panel-model">
-        <div class="panel-heading">Black Dragons Models</div>
-        <table class="table">
-          <% @dragons.each do |model| %>
-          <tr>
-            <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
-          </tr>
-          <% end %>
-        </table>
+
+      <div class="card">
+        <div class="card-header" id="headingKhitai">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseKhitai">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Khitai</button>
+        </div>
+        <div class="card-body">
+          <div id="collapseKhitai" class="collapse in">
+            <table class="table stats modelstats">
+              <thead>
+                <tr>
+                  <th class="w50">Model</th>
+                  <th class="w30">Type</th>
+                  <th class="w20">Count</th>
+                </tr>
+              </thead>
+              <% @khitai.each do |model| %>
+              <tr>
+                <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
+                <td><%= model.role %></td>
+                <td><%= model.count %></td>
+              </tr>
+              <% end %>
+            </table>
+          </div>
+        </div>
       </div>
-      <div class="panel panel-model">
-        <div class="panel-heading">The Black Ones Models</div>
-        <table class="table">
-          <% @blackones.each do |model| %>
-          <tr>
-            <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
-          </tr>
-          <% end %>
-        </table>
+
+      <div class="card">
+        <div class="card-header" id="headingNordheim">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseNordheim">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Nordheim</button>
+        </div>
+        <div class="card-body">
+          <div id="collapseNordheim" class="collapse in">
+            <table class="table stats modelstats">
+              <thead>
+                <tr>
+                  <th class="w50">Model</th>
+                  <th class="w30">Type</th>
+                  <th class="w20">Count</th>
+                </tr>
+              </thead>
+              <% @nordheim.each do |model| %>
+              <tr>
+                <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
+                <td><%= model.role %></td>
+                <td><%= model.count %></td>
+              </tr>
+              <% end %>
+            </table>
+          </div>
+        </div>
       </div>
-      <div class="panel panel-model">
-        <div class="panel-heading">Crossbowmen Models</div>
-        <table class="table">
-          <% @crossbowmen.each do |model| %>
-          <tr>
-            <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
-          </tr>
-          <% end %>
-        </table>
+
+      <div class="card">
+        <div class="card-header" id="headingStygia">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseStygia">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Stygia</button>
+        </div>
+        <div class="card-body">
+          <div id="collapseStygia" class="collapse in">
+            <table class="table stats modelstats">
+              <thead>
+                <tr>
+                  <th class="w50">Model</th>
+                  <th class="w30">Type</th>
+                  <th class="w20">Count</th>
+                </tr>
+              </thead>
+              <% @stygia.each do |model| %>
+              <tr>
+                <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
+                <td><%= model.role %></td>
+                <td><%= model.count %></td>
+              </tr>
+              <% end %>
+            </table>
+          </div>
+        </div>
       </div>
-      <div class="panel panel-model">
-        <div class="panel-heading">Demon of the Earth Models</div>
-        <table class="table">
-          <% @demon.each do |model| %>
-          <tr>
-            <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
-          </tr>
-          <% end %>
-        </table>
+
+      <div class="card">
+        <div class="card-header" id="headingConqueror">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseConqueror">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Conan the Conqueror</button>
+        </div>
+        <div class="card-body">
+          <div id="collapseConqueror" class="collapse in">
+            <table class="table stats modelstats">
+              <thead>
+                <tr>
+                  <th class="w50">Model</th>
+                  <th class="w30">Type</th>
+                  <th class="w20">Count</th>
+                </tr>
+              </thead>
+              <% @conqueror.each do |model| %>
+              <tr>
+                <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
+                <td><%= model.role %></td>
+                <td><%= model.count %></td>
+              </tr>
+              <% end %>
+            </table>
+          </div>
+        </div>
       </div>
-      <div class="panel panel-model">
-        <div class="panel-heading">Dragon Models</div>
-        <table class="table">
-          <% @dragon.each do |model| %>
-          <tr>
-            <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
-          </tr>
-          <% end %>
-        </table>
+
+      <div class="card">
+        <div class="card-header" id="headingConquerorSG">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseConquerorSG">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Conan the Conqueror Stretch Goal</button>
+        </div>
+        <div class="card-body">
+          <div id="collapseConquerorSG" class="collapse in">
+            <table class="table stats modelstats">
+              <thead>
+                <tr>
+                  <th class="w50">Model</th>
+                  <th class="w30">Type</th>
+                  <th class="w20">Count</th>
+                </tr>
+              </thead>
+              <% @conquerorsg.each do |model| %>
+              <tr>
+                <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
+                <td><%= model.role %></td>
+                <td><%= model.count %></td>
+              </tr>
+              <% end %>
+            </table>
+          </div>
+        </div>
       </div>
-      <div class="panel panel-model">
-        <div class="panel-heading">Giant Wolves Models</div>
-        <table class="table">
-          <% @wolves.each do |model| %>
-          <tr>
-            <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
-          </tr>
-          <% end %>
-        </table>
+
+      <div class="card">
+        <div class="card-header" id="headingShadow">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseShadow">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;The Shadow Kingdom</button>
+        </div>
+        <div class="card-body">
+          <div id="collapseShadow" class="collapse in">
+            <table class="table stats modelstats">
+              <thead>
+                <tr>
+                  <th class="w50">Model</th>
+                  <th class="w30">Type</th>
+                  <th class="w20">Count</th>
+                </tr>
+              </thead>
+              <% @shadow.each do |model| %>
+              <tr>
+                <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
+                <td><%= model.role %></td>
+                <td><%= model.count %></td>
+              </tr>
+              <% end %>
+            </table>
+          </div>
+        </div>
       </div>
-      <div class="panel panel-model">
-        <div class="panel-heading">Sabertooth Tiger Models</div>
-        <table class="table">
-          <% @sabertooth.each do |model| %>
-          <tr>
-            <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
-          </tr>
-          <% end %>
-        </table>
-      </div>
+
     </div>
-    <div class="col-md-4 col-sm-6">
-      <div class="panel panel-model">
-        <div class="panel-heading">King Pledge Models</div>
-        <table class="table">
-          <% @king.sort_by {|model| model.name }.each do |model| %>
-          <tr>
-            <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
-          </tr>
-          <% end %>
-        </table>
+    <div class="col-md-6 col-sm-8">
+
+      <div class="card">
+        <div class="card-header" id="headingStretch">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseStretch">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Stretch Goal</button>
+        </div>
+        <div class="card-body">
+          <div id="collapseStretch" class="collapse in">
+            <table class="table stats modelstats">
+              <thead>
+                <tr>
+                  <th class="w50">Model</th>
+                  <th class="w30">Type</th>
+                  <th class="w20">Count</th>
+                </tr>
+              </thead>
+              <% @stretch.each do |model| %>
+              <tr>
+                <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
+                <td><%= model.role %></td>
+                <td><%= model.count %></td>
+              </tr>
+              <% end %>
+            </table>
+          </div>
+        </div>
       </div>
-      <div class="panel panel-model">
-        <div class="panel-heading">Nordheim Models</div>
-        <table class="table">
-          <% @nordheim.sort_by {|model| model.name }.each do |model| %>
-          <tr>
-            <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
-          </tr>
-          <% end %>
-        </table>
+
+      <div class="card">
+        <div class="card-header" id="headingBrom">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseBrom">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Brom Box</button>
+        </div>
+        <div class="card-body">
+          <div id="collapseBrom" class="collapse in">
+            <table class="table stats modelstats">
+              <thead>
+                <tr>
+                  <th class="w50">Model</th>
+                  <th class="w30">Type</th>
+                  <th class="w20">Count</th>
+                </tr>
+              </thead>
+              <% @brom.each do |model| %>
+              <tr>
+                <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
+                <td><%= model.role %></td>
+                <td><%= model.count %></td>
+              </tr>
+              <% end %>
+            </table>
+          </div>
+        </div>
       </div>
-      <div class="panel panel-model">
-        <div class="panel-heading">Khitai Models</div>
-        <table class="table">
-          <% @khitai.sort_by {|model| model.name }.each do |model| %>
-          <tr>
-            <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
-          </tr>
-          <% end %>
-       </table>
-     </div>
-     <div class="panel panel-model">
-       <div class="panel-heading">Stygia Models</div>
-       <table class="table">
-         <% @stygia.sort_by {|model| model.name }.each do |model| %>
-         <tr>
-           <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
-         </tr>
-         <% end %>
-       </table>
-     </div>
-     <div class="panel panel-model">
-       <div class="panel-heading">Kushite Witch Hunters Models</div>
-       <table class="table">
-         <% @witchhunters.sort_by {|model| model.name }.each do |model| %>
-         <tr>
-           <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
-         </tr>
-         <% end %>
-       </table>
-     </div>
-     <div class="panel panel-model">
-       <div class="panel-heading">Paolo Parente Box</div>
-       <table class="table">
-         <% @paolo.each do |model| %>
-         <tr>
-           <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
-         </tr>
-         <% end %>
-       </table>
-     </div>
-    </div>
-    <div class="col-md-4 col-sm-6">
-      <div class="panel panel-model">
-        <div class="panel-heading">Stretch Goal Models</div>
-        <table class="table">
-          <% @stretch.sort_by {|model| model.name }.each do |model| %>
-          <tr>
-            <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
-          </tr>
-          <% end %>
-      </table>
+
+      <div class="card">
+        <div class="card-header" id="headingPaolo">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapsePaolo">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Paolo Parente Box</button>
+        </div>
+        <div class="card-body">
+          <div id="collapsePaolo" class="collapse in">
+            <table class="table stats modelstats">
+              <thead>
+                <tr>
+                  <th class="w50">Model</th>
+                  <th class="w30">Type</th>
+                  <th class="w20">Count</th>
+                </tr>
+              </thead>
+              <% @paolo.each do |model| %>
+              <tr>
+                <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
+                <td><%= model.role %></td>
+                <td><%= model.count %></td>
+              </tr>
+              <% end %>
+            </table>
+          </div>
+        </div>
       </div>
-      <div class="panel panel-model">
-        <div class="panel-heading">Vanir Valkyrie Models</div>
-        <table class="table">
-          <% @valkyrie.each do |model| %>
-          <tr>
-            <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
-          </tr>
-          <% end %>
-        </table>
+
+      <div class="card">
+        <div class="card-header" id="headingXavier">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseXavier">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Xavier Collette Box</button>
+        </div>
+        <div class="card-body">
+          <div id="collapseXavier" class="collapse in">
+            <table class="table stats modelstats">
+              <thead>
+                <tr>
+                  <th class="w50">Model</th>
+                  <th class="w30">Type</th>
+                  <th class="w20">Count</th>
+                </tr>
+              </thead>
+              <% @xavier.each do |model| %>
+              <tr>
+                <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
+                <td><%= model.role %></td>
+                <td><%= model.count %></td>
+              </tr>
+              <% end %>
+            </table>
+          </div>
+        </div>
       </div>
+
+      <div class="card">
+        <div class="card-header" id="headingBaal">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseBaal">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Baal Pteor</button>
+        </div>
+        <div class="card-body">
+          <div id="collapseBaal" class="collapse in">
+            <table class="table stats modelstats">
+              <thead>
+                <tr>
+                  <th class="w50">Model</th>
+                  <th class="w30">Type</th>
+                  <th class="w20">Count</th>
+                </tr>
+              </thead>
+              <% @baal.each do |model| %>
+              <tr>
+                <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
+                <td><%= model.role %></td>
+                <td><%= model.count %></td>
+              </tr>
+              <% end %>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingDragons">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseDragons">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Black Dragons</button>
+        </div>
+        <div class="card-body">
+          <div id="collapseDragons" class="collapse in">
+            <table class="table stats modelstats">
+              <thead>
+                <tr>
+                  <th class="w50">Model</th>
+                  <th class="w30">Type</th>
+                  <th class="w20">Count</th>
+                </tr>
+              </thead>
+              <% @dragons.each do |model| %>
+              <tr>
+                <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
+                <td><%= model.role %></td>
+                <td><%= model.count %></td>
+              </tr>
+              <% end %>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingBlackOnes">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseBlackOnes">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;The Black Ones</button>
+        </div>
+        <div class="card-body">
+          <div id="collapseBlackOnes" class="collapse in">
+            <table class="table stats modelstats">
+              <thead>
+                <tr>
+                  <th class="w50">Model</th>
+                  <th class="w30">Type</th>
+                  <th class="w20">Count</th>
+                </tr>
+              </thead>
+              <% @blackones.each do |model| %>
+              <tr>
+                <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
+                <td><%= model.role %></td>
+                <td><%= model.count %></td>
+              </tr>
+              <% end %>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingCrossbowmen">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseCrossbowmen">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Crossbowmen</button>
+        </div>
+        <div class="card-body">
+          <div id="collapseCrossbowmen" class="collapse in">
+            <table class="table stats modelstats">
+              <thead>
+                <tr>
+                  <th class="w50">Model</th>
+                  <th class="w30">Type</th>
+                  <th class="w20">Count</th>
+                </tr>
+              </thead>
+              <% @crossbowmen.each do |model| %>
+              <tr>
+                <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
+                <td><%= model.role %></td>
+                <td><%= model.count %></td>
+              </tr>
+              <% end %>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingDemon">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseDemon">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Demon of the Earth</button>
+        </div>
+        <div class="card-body">
+          <div id="collapseDemon" class="collapse in">
+            <table class="table stats modelstats">
+              <thead>
+                <tr>
+                  <th class="w50">Model</th>
+                  <th class="w30">Type</th>
+                  <th class="w20">Count</th>
+                </tr>
+              </thead>
+              <% @demon.each do |model| %>
+              <tr>
+                <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
+                <td><%= model.role %></td>
+                <td><%= model.count %></td>
+              </tr>
+              <% end %>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingDragon">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseDragon">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Dragon</button>
+        </div>
+        <div class="card-body">
+          <div id="collapseDragon" class="collapse in">
+            <table class="table stats modelstats">
+              <thead>
+                <tr>
+                  <th class="w50">Model</th>
+                  <th class="w30">Type</th>
+                  <th class="w20">Count</th>
+                </tr>
+              </thead>
+              <% @dragon.each do |model| %>
+              <tr>
+                <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
+                <td><%= model.role %></td>
+                <td><%= model.count %></td>
+              </tr>
+              <% end %>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingWolves">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseWolves">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Giant Wolves</button>
+        </div>
+        <div class="card-body">
+          <div id="collapseWolves" class="collapse in">
+            <table class="table stats modelstats">
+              <thead>
+                <tr>
+                  <th class="w50">Model</th>
+                  <th class="w30">Type</th>
+                  <th class="w20">Count</th>
+                </tr>
+              </thead>
+              <% @wolves.each do |model| %>
+              <tr>
+                <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
+                <td><%= model.role %></td>
+                <td><%= model.count %></td>
+              </tr>
+              <% end %>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingSabertooth">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseSabertooth">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Sabertooth Tiger</button>
+        </div>
+        <div class="card-body">
+          <div id="collapseSabertooth" class="collapse in">
+            <table class="table stats modelstats">
+              <thead>
+                <tr>
+                  <th class="w50">Model</th>
+                  <th class="w30">Type</th>
+                  <th class="w20">Count</th>
+                </tr>
+              </thead>
+              <% @sabertooth.each do |model| %>
+              <tr>
+                <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
+                <td><%= model.role %></td>
+                <td><%= model.count %></td>
+              </tr>
+              <% end %>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingValkyrie">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseValkyrie">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Vanir Valkyrie</button>
+        </div>
+        <div class="card-body">
+          <div id="collapseValkyrie" class="collapse in">
+            <table class="table stats modelstats">
+              <thead>
+                <tr>
+                  <th class="w50">Model</th>
+                  <th class="w30">Type</th>
+                  <th class="w20">Count</th>
+                </tr>
+              </thead>
+              <% @valkyrie.each do |model| %>
+              <tr>
+                <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
+                <td><%= model.role %></td>
+                <td><%= model.count %></td>
+              </tr>
+              <% end %>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingYogah">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseYogah">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Yogah of Yag</button>
+        </div>
+        <div class="card-body">
+          <div id="collapseYogah" class="collapse in">
+            <table class="table stats modelstats">
+              <thead>
+                <tr>
+                  <th class="w50">Model</th>
+                  <th class="w30">Type</th>
+                  <th class="w20">Count</th>
+                </tr>
+              </thead>
+              <% @yogah.each do |model| %>
+              <tr>
+                <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
+                <td><%= model.role %></td>
+                <td><%= model.count %></td>
+              </tr>
+              <% end %>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingWitchHunters">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseWitchHunters">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Kushite Witch Hunters</button>
+        </div>
+        <div class="card-body">
+          <div id="collapseWitchHunters" class="collapse in">
+            <table class="table stats modelstats">
+              <thead>
+                <tr>
+                  <th class="w50">Model</th>
+                  <th class="w30">Type</th>
+                  <th class="w20">Count</th>
+                </tr>
+              </thead>
+              <% @witchhunters.each do |model| %>
+              <tr>
+                <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
+                <td><%= model.role %></td>
+                <td><%= model.count %></td>
+              </tr>
+              <% end %>
+            </table>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
 </div>
+
 
 <div id="by_type">
   <div class="row">
-    <div class="col-md-4 col-sm-6">
-      <div class="panel panel-model">
-        <div class="panel-heading">Hero Models</div>
-        <table class="table">
-          <% @heroes.sort_by {|model| model.name }.each do |model| %>
-          <tr>
-            <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
-          </tr>
-          <% end %>
-        </table>
+      <div class="col-md-6 col-sm-8">
+        <div class="card">
+          <div class="card-header" id="headingHero">
+            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseHero">
+            &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Hero</button>
+          </div>
+          <div class="card-body">
+            <div id="collapseHero" class="collapse in">
+              <table class="table stats modelstats">
+                <thead>
+                  <tr>
+                    <th class="w40">Model</th>
+                    <th class="w45">Origin</th>
+                    <th class="w15">Count</th>
+                  </tr>
+                </thead>
+                <% @heroes.each do |model| %>
+                <tr>
+                  <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
+                  <td><%= model.origin %></td>
+                  <td><%= model.count %></td>
+                </tr>
+                <% end %>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="headingLeader">
+            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseLeader">
+            &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Leader</button>
+          </div>
+          <div class="card-body">
+            <div id="collapseLeader" class="collapse in">
+              <table class="table stats modelstats">
+                <thead>
+                  <tr>
+                    <th class="w40">Model</th>
+                    <th class="w45">Origin</th>
+                    <th class="w15">Count</th>
+                  </tr>
+                </thead>
+                <% @leaders.each do |model| %>
+                <tr>
+                  <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
+                  <td><%= model.origin %></td>
+                  <td><%= model.count %></td>
+                </tr>
+                <% end %>
+              </table>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="panel panel-model">
-        <div class="panel-heading">Ally Models</div>
-        <table class="table">
-          <% @allies.sort_by {|model| model.name }.each do |model| %>
-          <tr>
-            <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
-          </tr>
-          <% end %>
-      </table>
-      </div>
-    </div>
-    <div class="col-md-4 col-sm-6">
-      <div class="panel panel-model">
-        <div class="panel-heading">Leader Models</div>
-        <table class="table">
-          <% @leaders.sort_by {|model| model.name }.each do |model| %>
-          <tr>
-            <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
-          </tr>
-          <% end %>
-        </table>
-      </div>
-      <div class="panel panel-model">
-        <div class="panel-heading">Monster Models</div>
-        <table class="table">
-          <% @monsters.sort_by {|model| model.name }.each do |model| %>
-          <tr>
-            <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
-          </tr>
-          <% end %>
-      </table>
-      </div>
-    </div>
-    <div class="col-md-4 col-sm-6">
-      <div class="panel panel-model">
-        <div class="panel-heading">Minion Models</div>
-        <table class="table">
-          <% @minions.sort_by {|model| model.name }.each do |model| %>
-          <tr>
-            <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
-          </tr>
-          <% end %>
-      </table>
+
+      <div class="col-md-6 col-sm-8">
+        <div class="card">
+          <div class="card-header" id="headingMinion">
+            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseMinion">
+            &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Minion</button>
+          </div>
+          <div class="card-body">
+            <div id="collapseMinion" class="collapse in">
+              <table class="table stats modelstats">
+                <thead>
+                  <tr>
+                    <th class="w40">Model</th>
+                    <th class="w45">Origin</th>
+                    <th class="w15">Count</th>
+                  </tr>
+                </thead>
+                <% @minions.each do |model| %>
+                <tr>
+                  <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
+                  <td><%= model.origin %></td>
+                  <td><%= model.count %></td>
+                </tr>
+                <% end %>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="headingMonster">
+            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseMonster">
+            &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Monster</button>
+          </div>
+          <div class="card-body">
+            <div id="collapseMonster" class="collapse in">
+              <table class="table stats modelstats">
+                <thead>
+                  <tr>
+                    <th class="w40">Model</th>
+                    <th class="w45">Origin</th>
+                    <th class="w15">Count</th>
+                  </tr>
+                </thead>
+                <% @monsters.each do |model| %>
+                <tr>
+                  <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
+                  <td><%= model.origin %></td>
+                  <td><%= model.count %></td>
+                </tr>
+                <% end %>
+              </table>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-</div>
+
 
 <div id="by_stat">
   <div class="row">
     <div class="col-md-1 col-sm-1"></div>
     <div class="col-md-10 col-sm-6">
       <div class="panel panel-model">
-        <div class="panel-heading">All Models / Stats</div>
+        <div class="panel-heading">Name / Stats</div>
           <table class="table stats modelstats">
             <thead>
               <tr>
