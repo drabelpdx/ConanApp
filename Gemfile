@@ -29,6 +29,7 @@ gem 'jbuilder', '2.9.1'
 gem 'sdoc', '1.0.0', group: :doc
 gem 'zeitwerk', '2.2.2'
 
+gem 'nokogiri', '1.13.6'
 gem 'psych', '3.3.3'
 
 group :development, :test do
