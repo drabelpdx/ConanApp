@@ -30,6 +30,7 @@ gem 'sdoc', '1.0.0', group: :doc
 gem 'zeitwerk', '2.2.2'
 
 gem 'ffi', '1.16.3'
+gem 'mini_portile2', '2.8.5'
 gem 'nokogiri', '1.13.6'
 gem 'psych', '3.3.3'
 
