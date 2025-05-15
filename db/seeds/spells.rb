@@ -369,4 +369,101 @@
       That character cannot defend against this attack, and suffers damage equal to the attack power.",
       image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/spells/YogsHunger.jpg', correction: '' },
 
+
+    # Red Nails
+    { name: "Eldritch Lance", cost: '2', limit: '4', area: 'No', instant: 'No', origin: "Red Nails", count: '1',
+      description: "Attack a unit in your line of sight; roll 1 Red, 1 Orange die and ignore 1 point of Armor value. 
+      If the attack power is greater than the defense power, the defender suffers damage equal to the difference.",
+      image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/spells/EldritchLance.jpg', correction: '' },
+
+    { name: "Enthrallment", cost: '1', limit: '1', area: 'No', instant: 'No', origin: "Red Nails", count: '1',
+      description: "You cannot be attacked by ememies in your area until the beginning of your next turn or activation.",
+      image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/spells/Enthrallment.jpg', correction: '' },
+
+    { name: "Protective Circle", cost: '4', limit: '4', area: 'No', instant: 'No', origin: "Red Nails", count: '1',
+      description: "Enemies cannot move into or perform a Melee Attack into your area until your next turn or activation.",
+      image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/spells/ProtectiveCircle.jpg', correction: '' },
+
+    { name: "Soul Leech", cost: '2', limit: '2', area: 'No', instant: 'No', origin: "Red Nails", count: '1',
+      description: "Target one Hero or Ally in  your area, they suffer 1 unavoidable damage. You gain 1 life point. 
+      Your life points can exceed their starting value.",
+      image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/spells/SoulLeech.jpg', correction: '' },
+   
+    { name: "Spectral Shroud", cost: '2', limit: '2', area: 'No', instant: 'No', origin: "Red Nails", count: '1',
+      description: "Place 3 tokens on this card (or refill it up to 3 tokens). Whenever you suffer 1 or more damage, 
+      remove 1 token for each damage to prevent it.",
+      image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/spells/SpectralShroud.jpg', correction: '' },
+
+
+    # Versus
+    { name: "Archer of Acheron (vs)", cost: '2', limit: '2', area: 'No', instant: 'No', origin: "Versus", count: '1',
+      description: "Target a unit in your line of sight. Choose and improve one of the target's Ranged Attach die until the 
+      end of your turn (yellow to orange, or orange to red). If the die could be rerolled, it still can be.",
+      image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/spells/ArcherofAcheronV.jpg', correction: '' }, 
+
+    { name: "Borne by the Wind (vs)", cost: '1', limit: '1', area: 'No', instant: 'No', origin: "Versus", count: '1',
+      description: "Target a unit in your line of sight, or yourself. The target gains the Flying skill until end of your turn.",
+      image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/spells/BornebytheWindV.jpg', correction: '' },
+
+    { name: "Changing Destiny (vs)", cost: '4', limit: '4', area: 'No', instant: 'No', origin: "Versus", count: '1',
+      description: "Choose a tile from you opponent's River. Your opponent cannot activate that tile until the beginning of your next turn.",
+      image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/spells/ChangingDestinyV.jpg', correction: '' },
+
+    { name: "Energy Drain (vs)", cost: '1', limit: '1', area: 'No', instant: 'No', origin: "Versus", count: '1',
+      description: "Target a unit in an area adjacent to you in your line of sight. The player controlling the target moves 
+      1 gem from their Reserve zone to their Fatigue zone, and you move 2 gems from your Fatigue zone to your Reserve zone.",
+      image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/spells/EnergyDrainV.jpg', correction: '' },
+
+    { name: "Escape Route (vs)", cost: '2', limit: '2', area: 'No', instant: 'No', origin: "Versus", count: '1',
+      description: "Target a unit in your line of sight. Improve the target's Armor value by 1 until the beginning of your next turn.",
+      image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/spells/EscapeRouteV.jpg', correction: '' },
+
+     { name: "Fleet Runner (vs)", cost: '3', limit: '3', area: 'No', instant: 'No', origin: "Versus", count: '1',
+      description: "Choose a tile from your River. The units controlled by that tile gain Evasive skill until the end of your turn.",
+      image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/spells/FleetRunnerV.jpg', correction: '' },
+
+    { name: "Gift of Life (vs)", cost: '2', limit: '2', area: 'No', instant: 'No', origin: "Versus", count: '1',
+      description: "Move 1 gem from your Fatigue zone to this card. The gems on this card are not moved to the Fatigue zone during the 
+      End phase but moved to the Reserve zone during the next Recovery phase.",
+      image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/spells/GiftofLifeV.jpg', correction: '' },
+
+    { name: "Gullah’s Strength (vs)", cost: '2', limit: '2', area: 'No', instant: 'No', origin: "Versus", count: '1',
+      description: "Target a unit in your line of sight. Choose and improve one of the target's Melee Attack die 
+      until the end of your turn (yellow to orange, or orange to red). If the die could be rerolled, it still can be.",
+      image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/spells/GullahsStrengthV.jpg', correction: '' },
+
+    { name: "Life Transfer (vs)", cost: '2', limit: '2', area: 'No', instant: 'No', origin: "Versus", count: '1',
+      description: "Target an area in your line of sight. You recover 1 life point for each friendly unit in that area, without 
+      exceeding your starting life point value. Then, all the friendly units in that area are killed.",
+      image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/spells/LifeTransferV.jpg', correction: '' },
+
+    { name: 'Magical Dizziness (vs)', cost: '2', limit: '2', area: 'No', instant: 'No', origin: "Versus", count: '1',
+      description: "Choose a tile from you opponent's River. Your opponent must pay 1 extra gem to activate that tile until 
+      the beginning of your next turn.",
+      image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/spells/MagicalDizzinessV.jpg', correction: '' },
+
+    { name: "Mitra’s Halo (vs)", cost: '3', limit: '3', area: 'No', instant: 'No', origin: "Versus", count: '1',
+      description: "Choose a tile from your River. During your opponent's turn, you may reroll 1 defense die for free for each unit of that tile. 
+      This spell ends at the beginning of your next turn.",
+      image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/spells/MitrasHaloV.jpg', correction: '' },
+
+    { name: "Mitra’s Healing (vs)", cost: '2', limit: '2', area: 'No', instant: 'No', origin: "Versus", count: '1',
+      description: "Recover 1 Orange die life points, without exceeding their starting value.",
+      image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/spells/MitrasHealingV.jpg', correction: '' },
+
+    { name: "Set’s Bite (vs)", cost: '2', limit: '2', area: 'No', instant: 'No', origin: "Versus", count: '1',
+      description: "Target a unit in your line of sight. The player controlling the target moves 1 gem from their 
+      Reserve zone to their Fatigue zone, and the target suffers 2 Orange dice unavoidable damage.",
+      image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/spells/SetsBiteV.jpg', correction: '' },
+
+    { name: "Set’s Halo (vs)", cost: '2', limit: '2', area: 'No', instant: 'No', origin: "Versus", count: '1',
+      description: "Choose a tile from your River. During your opponent's turn, you may reroll 1 defense die for free for each unit of that tile. 
+      This spell ends at the beginning of your next turn.",
+      image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/spells/SetsHaloV.jpg', correction: '' },      
+
+    { name: "Telekinesis (vs)", cost: '1', limit: '1', area: 'No', instant: 'No', origin: "Versus", count: '1',
+      description: "Target a unit in your line of sight. Move the target 1 area in your direction. This movement is not affected by hindering.",
+      image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/spells/TelekinesisV.jpg', correction: '' },
+
+
   ])

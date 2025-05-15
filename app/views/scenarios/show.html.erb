@@ -1,30 +1,49 @@
-<div class="scenario-well">
-  <div align="center" class="scenario">
+<% if @scenario.mode == "Adventure" %>
+  <div class="scenario-well">
+
     <div class="prevnext prevnext_scenario">
       <span class="prev"><%= link_to("<< " + @scenario.previous.name, @scenario.previous) if @scenario.previous %></span>
       <span class="center-span"><%= link_to "Back to scenarios", scenarios_path %></span>
       <span class="next"><%= link_to( @scenario.next.name + " >>", @scenario.next) if @scenario.next %></span>
     </div>
-  </div>
-  <div class="row">
-    <div class="col-md-12">
-      <div class="col-md-4">
-        <br />
-        <h4 align="center"><%= @scenario.player_count %>&nbsp;Players&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                           <% if @scenario.complexity != "-" && @scenario.complexity !="Campaign"%>
-                            <%= @scenario.complexity %>
-                            <%= pluralize_no_count(@scenario.complexity, 'Crow') %>
-                           <% end %></h4>
-        <p align="center">
-        </p>
-        <p><%= @scenario.description.html_safe %></p>
-        <br />
-      </div>
-      <div class="col-md-8 scenarios" align="center">
-        <h1 align="center"><%= @scenario.name %></h1>
-        <% if @scenario.origin === "Legend of the Devil in Iron" %>
-          <h4 align="center">Campaign: Legend of the Devil in Iron</h4>
+
+    <div class="col-md-12 name">
+      <h1 align="center"><%= @scenario.name %></h1> 
+    </div>
+
+    <div class="col-md-12 scenario_details">
+      <span class="prev">&nbsp;&nbsp;<%= @scenario.mode %></span>
+      <% if @scenario.pdf_link != '' %> 
+        <span class="center-span"><%= @scenario.pdf_link %></span>
+      <% end %>
+      <span class="next">
+        <%= @scenario.player_count %>&nbsp;Players&nbsp;&nbsp;&nbsp;&nbsp;
+          <% if @scenario.complexity != "-" && @scenario.complexity !="Campaign"%>
+              <%= @scenario.complexity %>
+              <%= pluralize_no_count(@scenario.complexity, 'Crow') %>
+          <% end %>
+      </span>
+    </div>
+
+    <div class="col-md-12 scenario_details_uses">
+      <span class="prev">&nbsp;&nbsp;Uses content from:
+        <% @scenario.product_ids.each do |id| %>
+          <% @product = Product.find_by_id [id] %>
+          <span class="map">
+            &nbsp;&nbsp;&nbsp;&nbsp;<%= link_to @product.name, product_path(@product) %>
+          </span>
         <% end %>
+      </span>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <div class="col-md-12 description">  
+          <%= @scenario.description.html_safe %>
+        </div>
+      </div>
+
+      <div class="col-md-12" align="center">
         <%= image_tag(@scenario.map_image) %>
         <% @scenario.map_ids.each do |id| %>
           <% @map = Map.find_by_id [id] %>
@@ -32,203 +51,775 @@
         <% end %>
       </div>
     </div>
-    <p>&nbsp;&nbsp;&nbsp;&nbsp;Uses content from:
-      <% @scenario.product_ids.each do |id| %>
-        <% @product = Product.find_by_id [id] %>
-        <span class="map">
-          &nbsp;&nbsp;&nbsp;&nbsp;<%= link_to @product.name, product_path(@product) %>
-        </span>
-    <% end %>
-  </div>
-  <div class="row scenario">
-    <h3 align="center" >Winning the Game</h3>
-  </div>
 
-  <div class="row">
-    <div class="col-md-6">
-      <h4>Heroes</h4>
-      <%= @scenario.hero_goal.html_safe %>
+    <div class="row scenario">
+      <h3 align="center" >Winning the Game</h3>
     </div>
-    <div class="col-md-6">
-      <h4>Overlord</h4>
-      <%= @scenario.overlord_goal.html_safe %>
-    </div>
-  </div>
 
-  <div class="row scenario">
-    <h3 align="center" >Setup</h3>
-  </div>
-  <div class="row">
-    <div class="col-md-6">
-      <% if @scenario.hero_setup != "" %>
+    <div class="row">
+      <div class="col-md-6">
         <h4>Heroes</h4>
-      <% end %>
-      <%= @scenario.hero_setup.html_safe %>
-    </div>
-    <div class="col-md-6">
-      <% if @scenario.overlord_setup != "" %>
-        <h4>Overlord</h4>
-      <% end %>
-      <%= @scenario.overlord_setup.html_safe %>
-    </div>
-  </div><br />
-
-  <% if @scenario.tile1 !=0 %>
-    <div class="row river-well">
-      <div class="col-md-2">
-          <h4>The River</h4>
+        <%= @scenario.hero_goal.html_safe %>
       </div>
-      <div class="col-md-10">
-        <table class="tiletable">
-          <tr class="sm_tiles">
-            <% if @scenario.tile1 !=0 %>
-              <% findTile = @scenario.tile1 %>
-              <% tile = Tile.find_by_id [findTile] %>
-              <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile), :title => "#{tile.name}" %></td>
-            <% end %>
-            <% if @scenario.tile2 !=0 %>
-              <% findTile = @scenario.tile2 %>
-              <% tile = Tile.find_by_id [findTile] %>
-              <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile), :title => "#{tile.name}" %></td>
-            <% end %>
-            <% if @scenario.tile3 !=0 %>
-              <% findTile = @scenario.tile3 %>
-              <% tile = Tile.find_by_id [findTile] %>
-              <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile), :title => "#{tile.name}" %></td>
-            <% end %>
-            <% if @scenario.tile4 !=0 %>
-              <% findTile = @scenario.tile4 %>
-              <% tile = Tile.find_by_id [findTile] %>
-              <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile), :title => "#{tile.name}" %></td>
-            <% end %>
-            <% if @scenario.tile5 !=0 %>
-              <% findTile = @scenario.tile5 %>
-              <% tile = Tile.find_by_id [findTile] %>
-              <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile), :title => "#{tile.name}" %></td>
-            <% end %>
-            <% if @scenario.tile6 !=0 %>
-              <% findTile = @scenario.tile6 %>
-              <% tile = Tile.find_by_id [findTile] %>
-              <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile), :title => "#{tile.name}" %></td>
-            <% end %>
-            <% if @scenario.tile7 !=0 %>
-              <% findTile = @scenario.tile7 %>
-              <% tile = Tile.find_by_id [findTile] %>
-              <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile), :title => "#{tile.name}" %></td>
-            <% end %>
-            <% if @scenario.tile8 !=0 %>
-              <% findTile = @scenario.tile8 %>
-              <% tile = Tile.find_by_id [findTile] %>
-              <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile), :title => "#{tile.name}" %></td>
-            <% end %>
-          </tr>
+      <div class="col-md-6">
+        <h4>Overlord</h4>
+        <%= @scenario.overlord_goal.html_safe %>
+      </div>
+    </div>
 
-          <tr class="sm_tokens" >
-            <td>
-              <% if @scenario.life1 !=0 %>
+    <div class="row scenario">
+      <h3 align="center" >Setup</h3>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <% if @scenario.hero_setup != "" %>
+          <h4>Heroes</h4>
+        <% end %>
+        <%= @scenario.hero_setup.html_safe %>
+      </div>
+      <div class="col-md-6">
+        <% if @scenario.overlord_setup != "" %>
+          <h4>Overlord</h4>
+        <% end %>
+        <%= @scenario.overlord_setup.html_safe %>
+      </div>
+    </div>
+    <br />
+
+    <% if @scenario.tile1 !=0 %>
+      <div class="row river-well">
+        <div class="col-md-12">
+          <table class="tiletable">
+            <tr class="sm_tiles">
+              <% if @scenario.tile1 ==999 %>
+                <td></td>
+              <% else %>
                 <% findTile = @scenario.tile1 %>
                 <% tile = Tile.find_by_id [findTile] %>
-                <%= image_tag(tile.token_image)%><br />
-                <%= @scenario.life1 %>
+                <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile), :title => "#{tile.name}" %></td>
               <% end %>
-            </td>
-            <td>
-              <% if @scenario.life2 !=0 %>
+              <% if @scenario.tile2 ==999 %>
+                <td></td>
+              <% else %>
                 <% findTile = @scenario.tile2 %>
                 <% tile = Tile.find_by_id [findTile] %>
-                <%= image_tag(tile.token_image)%><br />
-                <%= @scenario.life2 %>
+                <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile), :title => "#{tile.name}" %></td>
               <% end %>
-            </td>
-            <td>
-              <% if @scenario.life3 !=0 %>
+              <% if @scenario.tile3 ==999 %>
+                <td></td>
+              <% else %>
                 <% findTile = @scenario.tile3 %>
                 <% tile = Tile.find_by_id [findTile] %>
-                <%= image_tag(tile.token_image)%><br />
-                <%= @scenario.life3 %>
+                <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile), :title => "#{tile.name}" %></td>
               <% end %>
-            </td>
-            <td>
-              <% if @scenario.life4 !=0 %>
+              <% if @scenario.tile4 ==999 %>
+                <td></td>
+              <% else %>
                 <% findTile = @scenario.tile4 %>
                 <% tile = Tile.find_by_id [findTile] %>
-                <%= image_tag(tile.token_image)%><br />
-                <%= @scenario.life4 %>
+                <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile), :title => "#{tile.name}" %></td>
               <% end %>
-            </td>
-            <td>
-              <% if @scenario.life5 !=0 %>
+              <% if @scenario.tile5 ==999 %>
+                <td></td>
+              <% else %>
                 <% findTile = @scenario.tile5 %>
                 <% tile = Tile.find_by_id [findTile] %>
-                <%= image_tag(tile.token_image)%><br />
-                <%= @scenario.life5 %>
+                <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile), :title => "#{tile.name}" %></td>
               <% end %>
-            </td>
-            <td>
-              <% if @scenario.life6 !=0 %>
+              <% if @scenario.tile6 ==999 %>
+                <td></td>
+              <% else %>
                 <% findTile = @scenario.tile6 %>
                 <% tile = Tile.find_by_id [findTile] %>
-                <%= image_tag(tile.token_image)%><br />
-                <%= @scenario.life6 %>
+                <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile), :title => "#{tile.name}" %></td>
               <% end %>
-            </td>
-            <td>
-              <% if @scenario.life7 !=0 %>
+              <% if @scenario.tile7 ==999 %>
+                <td></td>
+              <% else %>
                 <% findTile = @scenario.tile7 %>
                 <% tile = Tile.find_by_id [findTile] %>
-                <%= image_tag(tile.token_image)%><br />
-                <%= @scenario.life7 %>
+                <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile), :title => "#{tile.name}" %></td>
               <% end %>
-            </td>
-            <td>
-              <% if @scenario.life8 !=0 %>
+              <% if @scenario.tile8 ==999 %>
+                <td></td>
+              <% else %>
                 <% findTile = @scenario.tile8 %>
                 <% tile = Tile.find_by_id [findTile] %>
-                <%= image_tag(tile.token_image)%><br />
-                <%= @scenario.life8 %>
+                <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile), :title => "#{tile.name}" %></td>
               <% end %>
-            </td>
+            </tr>
+
+            <tr class="sm_tokens" >
+              <td>
+                <% if @scenario.life1 !=0 %>
+                  <% findTile = @scenario.tile1 %>
+                  <% tile = Tile.find_by_id [findTile] %>
+                  <%= image_tag(tile.token_image)%><br />
+                  <%= @scenario.life1 %>
+                <% end %>
+              </td>
+              <td>
+                <% if @scenario.life2 !=0 %>
+                  <% findTile = @scenario.tile2 %>
+                  <% tile = Tile.find_by_id [findTile] %>
+                  <%= image_tag(tile.token_image)%><br />
+                  <%= @scenario.life2 %>
+                <% end %>
+              </td>
+              <td>
+                <% if @scenario.life3 !=0 %>
+                  <% findTile = @scenario.tile3 %>
+                  <% tile = Tile.find_by_id [findTile] %>
+                  <%= image_tag(tile.token_image)%><br />
+                  <%= @scenario.life3 %>
+                <% end %>
+              </td>
+              <td>
+                <% if @scenario.life4 !=0 %>
+                  <% findTile = @scenario.tile4 %>
+                  <% tile = Tile.find_by_id [findTile] %>
+                  <%= image_tag(tile.token_image)%><br />
+                  <%= @scenario.life4 %>
+                <% end %>
+              </td>
+              <td>
+                <% if @scenario.life5 !=0 %>
+                  <% findTile = @scenario.tile5 %>
+                  <% tile = Tile.find_by_id [findTile] %>
+                  <%= image_tag(tile.token_image)%><br />
+                  <%= @scenario.life5 %>
+                <% end %>
+              </td>
+              <td>
+                <% if @scenario.life6 !=0 %>
+                  <% findTile = @scenario.tile6 %>
+                  <% tile = Tile.find_by_id [findTile] %>
+                  <%= image_tag(tile.token_image)%><br />
+                  <%= @scenario.life6 %>
+                <% end %>
+              </td>
+              <td>
+                <% if @scenario.life7 !=0 %>
+                  <% findTile = @scenario.tile7 %>
+                  <% tile = Tile.find_by_id [findTile] %>
+                  <%= image_tag(tile.token_image)%><br />
+                  <%= @scenario.life7 %>
+                <% end %>
+              </td>
+              <td>
+                <% if @scenario.life8 !=0 %>
+                  <% findTile = @scenario.tile8 %>
+                  <% tile = Tile.find_by_id [findTile] %>
+                  <%= image_tag(tile.token_image)%><br />
+                  <%= @scenario.life8 %>
+                <% end %>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    <% end %>
+
+    <div class="row scenario">
+      <h3 align="center" >Special Rules</h3>
+    </div>
+    <div>
+      <p><%= @scenario.special_rules.html_safe %></p>
+    </div>
+
+    <% if @scenario.hero_victory != '' %>
+      <div class="row scenario">
+        <h3 align="center" >Campaign Results</h3>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <%= @scenario.hero_victory.html_safe %>
+        </div>
+        <div class="col-md-6">
+          <%= @scenario.overlord_victory.html_safe %>
+        </div>
+      </div>
+    <% end %>
+
+    <% if @scenario.correction != '' %>
+      <div class="row scenario">
+        <h3 align="center" >Corrections / Clarifications</h3>
+      </div>
+      <div class="">
+        <%= @scenario.correction.html_safe %>
+      </div>
+    <% end %>
+  </div>
+<% end %>
+
+
+<% if @scenario.mode == "Solo/Cooperative" %> 
+  <div class="scenario-well-solo">
+
+    <div class="prevnext prevnext_scenario">
+      <span class="prev"><%= link_to("<< " + @scenario.previous.name, @scenario.previous) if @scenario.previous %></span>
+      <span class="center-span"><%= link_to "Back to scenarios", scenarios_path %></span>
+      <span class="next"><%= link_to( @scenario.next.name + " >>", @scenario.next) if @scenario.next %></span>
+    </div>
+
+    <div class="col-md-12 solo-head">
+        <div class="col-md-1">
+          <p class="solo-number"><%= @scenario.event %></p>
+        </div>
+        <div class="col-md-10" align="center">
+          <% unless @scenario.hero_goal == '' %>
+            <p class="solo-sub"><%= @scenario.hero_goal.html_safe %></p>
+            <p class="solo-title"><%= @scenario.name %></p>
+          <% else %>
+            <p class="solo-solo-title"><%= @scenario.name %></p>
+          <% end %>
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+
+    <div class="col-md-12 scenario_details">
+      <span class="prev">&nbsp;&nbsp;<%= @scenario.mode %></span>
+      <% if @scenario.pdf_link != '' %> 
+        <span class="center-span"><%= @scenario.pdf_link %></span>
+      <% end %>
+      <span class="next"><%= @scenario.player_count %>&nbsp;Players</span>
+    </div>
+
+    <div class="col-md-12 scenario_details_uses">
+      <span class="prev">&nbsp;&nbsp;Uses content from:
+        <% @scenario.product_ids.each do |id| %>
+          <% @product = Product.find_by_id [id] %>
+          <span class="map">
+            &nbsp;&nbsp;&nbsp;&nbsp;<%= link_to @product.name, product_path(@product) %>
+          </span>
+        <% end %>
+      </span>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12 solo-victory">  
+        <%= @scenario.description.html_safe %>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">  
+        <%= @scenario.hero_setup.html_safe %>
+      </div>
+    </div>
+
+    <div class="center_map">
+        <%= image_tag(@scenario.map_image) %>
+        <% @scenario.map_ids.each do |id| %>
+          <% @map = Map.find_by_id [id] %>
+          <h4 class="map"><%= link_to @map.name, map_path(@map) %></h4>
+        <% end %>
+    </div>
+
+    <% if @scenario.tile1 !=0 %>
+      <div class="row river-well-solo">
+        <div class="col-md-12">
+          <div class="river_tokens"></div>
+            <table class="tiletable-solo">
+              <tr class="sm_tokens" >
+                <td>
+                  <% if @scenario.rtoken1 !='' %>
+                  <img src="/assets/tokens/<%= @scenario.rtoken1 %>.png" class="scen_token" />
+                  <% end %>
+                </td>
+                <td>
+                  <% if @scenario.rtoken2 !='' %>
+                  <img src="/assets/tokens/<%= @scenario.rtoken2 %>.png" class="scen_token" />
+                  <% end %>
+                </td>
+                <td>
+                  <% if @scenario.rtoken3 !='' %>
+                  <img src="/assets/tokens/<%= @scenario.rtoken3 %>.png" class="scen_token" />
+                  <% end %>
+                </td>
+                <td>
+                  <% if @scenario.rtoken4 !='' %>
+                  <img src="/assets/tokens/<%= @scenario.rtoken4 %>.png" class="scen_token" />
+                  <% end %>
+                </td>
+                <td>
+                  <% if @scenario.rtoken5 !='' %>
+                  <img src="/assets/tokens/<%= @scenario.rtoken5 %>.png" class="scen_token" />
+                  <% end %>
+                </td>
+                <td>
+                  <% if @scenario.rtoken6 !='' %>
+                  <img src="/assets/tokens/<%= @scenario.rtoken6 %>.png" class="scen_token" />
+                  <% end %>
+                </td>
+                <td>
+                  <% if @scenario.rtoken7 !='' %>
+                  <img src="/assets/tokens/<%= @scenario.rtoken7 %>.png" class="scen_token" />
+                  <% end %>
+                </td>
+                <td>
+                  <% if @scenario.rtoken8 !='' %>
+                  <img src="/assets/tokens/<%= @scenario.rtoken8 %>.png" class="scen_token" />
+                  <% end %>
+                </td>
+              </tr>
+      
+              <tr class="sm_tiles">
+                <% if @scenario.tile1 ==999 %>
+                  <td></td>
+                <% else %>
+                  <% findTile = @scenario.tile1 %>
+                  <% tile = Tile.find_by_id [findTile] %>
+                  <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile), :title => "#{tile.name}" %></td>
+                <% end %>
+                <% if @scenario.tile2 ==999 %>
+                  <td></td>
+                <% else %>
+                  <% findTile = @scenario.tile2 %>
+                  <% tile = Tile.find_by_id [findTile] %>
+                  <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile), :title => "#{tile.name}" %></td>
+                <% end %>
+                <% if @scenario.tile3 ==999 %>
+                  <td></td>
+                <% else %>
+                  <% findTile = @scenario.tile3 %>
+                  <% tile = Tile.find_by_id [findTile] %>
+                  <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile), :title => "#{tile.name}" %></td>
+                <% end %>
+                <% if @scenario.tile4 ==999 %>
+                  <td></td>
+                <% else %>
+                  <% findTile = @scenario.tile4 %>
+                  <% tile = Tile.find_by_id [findTile] %>
+                  <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile), :title => "#{tile.name}" %></td>
+                <% end %>
+                <% if @scenario.tile4 ==999 %>
+                  <td></td>
+                  <% else %>
+                  <% findTile = @scenario.tile5 %>
+                  <% tile = Tile.find_by_id [findTile] %>
+                  <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile), :title => "#{tile.name}" %></td>
+                <% end %>
+                <% if @scenario.tile6 ==999 %>
+                  <td></td>
+                <% else %>
+                  <% findTile = @scenario.tile6 %>
+                  <% tile = Tile.find_by_id [findTile] %>
+                  <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile), :title => "#{tile.name}" %></td>
+                <% end %>
+                <% if @scenario.tile7 ==999 %>
+                  <td></td>
+                <% else %>
+                  <% findTile = @scenario.tile7 %>
+                  <% tile = Tile.find_by_id [findTile] %>
+                  <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile), :title => "#{tile.name}" %></td>
+                <% end %>
+                <% if @scenario.tile8 ==999 %>
+                  <td></td>
+                <% else %>
+                  <% findTile = @scenario.tile8 %>
+                  <% tile = Tile.find_by_id [findTile] %>
+                  <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile), :title => "#{tile.name}" %></td>
+                <% end %>
+              </tr>
+
+              <tr class="sm_tokens" >
+                <td>
+                  <% if @scenario.life1 !=0 %>
+                    <% findTile = @scenario.tile1 %>
+                    <% tile = Tile.find_by_id [findTile] %>
+                    <%= @scenario.life1 %>&nbsp;&nbsp;
+                    <%= image_tag(tile.token_image)%>
+                  <% elsif @scenario.btoken1 !='' %>
+                    <%= @scenario.btoken1 %>
+                  <% end %>
+                </td>
+                <td>
+                  <% if @scenario.life2 !=0 %>
+                    <% findTile = @scenario.tile2 %>
+                    <% tile = Tile.find_by_id [findTile] %>
+                    <%= @scenario.life2 %>&nbsp;&nbsp;
+                    <%= image_tag(tile.token_image)%>
+                  <% elsif @scenario.btoken2 !='' %>
+                    <%= @scenario.btoken2 %>
+                  <% end %>
+                </td>
+                <td>
+                  <% if @scenario.life3 !=0 %>
+                    <% findTile = @scenario.tile3 %>
+                    <% tile = Tile.find_by_id [findTile] %>
+                    <%= @scenario.life3 %>&nbsp;&nbsp;
+                    <%= image_tag(tile.token_image)%>
+                  <% elsif @scenario.btoken3 !='' %>
+                    <%= @scenario.btoken3 %>
+                  <% end %>
+                </td>
+                <td>
+                  <% if @scenario.life4 !=0 %>
+                    <% findTile = @scenario.tile4 %>
+                    <% tile = Tile.find_by_id [findTile] %>
+                    <%= @scenario.life4 %>&nbsp;&nbsp;
+                    <%= image_tag(tile.token_image)%>                    
+                  <% elsif @scenario.btoken4 !='' %>
+                    <%= @scenario.btoken4 %>
+                  <% end %>
+                </td>
+                <td>
+                  <% if @scenario.life5 !=0 %>
+                    <% findTile = @scenario.tile5 %>
+                    <% tile = Tile.find_by_id [findTile] %>
+                    <%= @scenario.life5 %>&nbsp;&nbsp;
+                    <%= image_tag(tile.token_image)%>
+                  <% elsif @scenario.btoken5 !='' %>
+                    <%= @scenario.btoken5 %>
+                  <% end %>
+                </td>
+                <td>
+                  <% if @scenario.life6 !=0 %>
+                    <% findTile = @scenario.tile6 %>
+                    <% tile = Tile.find_by_id [findTile] %>
+                    <%= @scenario.life6 %>&nbsp;&nbsp;
+                    <%= image_tag(tile.token_image)%>
+                  <% elsif @scenario.btoken6 !='' %>
+                    <%= @scenario.btoken6 %>
+                  <% end %>
+                </td>
+                <td>
+                  <% if @scenario.life7 !=0 %>
+                    <% findTile = @scenario.tile7 %>
+                    <% tile = Tile.find_by_id [findTile] %>
+                    <%= @scenario.life7 %>&nbsp;&nbsp;
+                    <%= image_tag(tile.token_image)%>
+                  <% elsif @scenario.btoken7 !='' %>
+                    <%= @scenario.btoken7 %>
+                  <% end %>
+                </td>
+                <td>
+                  <% if @scenario.life8 !=0 %>
+                    <% findTile = @scenario.tile8 %>
+                    <% tile = Tile.find_by_id [findTile] %>
+                    <%= @scenario.life8 %>&nbsp;&nbsp;
+                    <%= image_tag(tile.token_image)%>
+                  <% elsif @scenario.btoken8 !='' %>
+                    <%= @scenario.btoken8 %>
+                  <% end %>
+                </td>
+              </tr>
+            </table>
+        </div>
+      </div>
+    <% end %>
+    <% if @scenario.hero_victory != '' %>
+      <div class="row">
+        <div class="col-md-12 solo-victory">  
+          <%= @scenario.hero_victory.html_safe %>
+        </div>
+      </div>
+    <% end %>
+
+    <% if @scenario.correction != '' %>
+      <div class="row scenario">
+        <h3 align="center" >Corrections / Clarifications</h3>
+      </div>
+      <div class="">  
+        <%= @scenario.correction.html_safe %>
+      </div>
+    <% end %>
+  </div>
+<% end %>
+
+
+
+<% if @scenario.mode == "Versus" %> 
+  <div class="scenario-well-versus">
+
+    <div class="prevnext prevnext_scenario">
+      <span class="prev"><%= link_to("<< " + @scenario.previous.name, @scenario.previous) if @scenario.previous %></span>
+      <span class="center-span"><%= link_to "Back to scenarios", scenarios_path %></span>
+      <span class="next"><%= link_to( @scenario.next.name + " >>", @scenario.next) if @scenario.next %></span>
+    </div>
+
+    <div class="col-md-12 versus_name">
+      <h1 align="center"><%= @scenario.name %></h1> 
+    </div>
+
+    <div class="col-md-12 scenario_details">
+      <span class="prev">&nbsp;&nbsp;<%= @scenario.mode %></span>
+      <span class="next">
+        <%= @scenario.player_count %>&nbsp;Players</span>
+    </div>
+
+    <div class="col-md-12 scenario_details_uses">
+      <span class="prev">&nbsp;&nbsp;Uses content from:
+        <% @scenario.product_ids.each do |id| %>
+          <% @product = Product.find_by_id [id] %>
+          <span class="map">
+            &nbsp;&nbsp;&nbsp;&nbsp;<%= link_to @product.name, product_path(@product) %>
+          </span>
+        <% end %>
+      </span>
+    </div>
+    
+    <div class="row">
+
+      <div class="col-md-12">
+        <div class="col-md-12 description">  
+          <%= @scenario.description.html_safe %>
+        </div>
+      </div>
+
+      <div class="col-md-12" align="center">
+        <%= image_tag(@scenario.map_image) %>
+        <% @scenario.map_ids.each do |id| %>
+          <% @map = Map.find_by_id [id] %>
+          <h4 class="map"><%= link_to @map.name, map_path(@map) %></h4>
+        <% end %>
+      </div>
+    </div>
+
+    <div class="col-md-12">
+      <div class="row river-versus">
+        <h3 align="center" >End-Game Conditions</h3>
+        <%= @scenario.hero_victory.html_safe %>
+      </div>
+    </div>
+
+    <div class="col-md-12">
+      <div class="row river-versus">
+        <h3>General<span>Victory Condition: <%= @scenario.hero_goal.html_safe %></span></h3>    
+        <div>
+          <table>
+            <tr class="versus_event" >
+              <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+              <td><%= @scenario.hero_setup.html_safe %></td>
+            </tr>
+          </table>       
+        </div>
+        <div class="row ">
+          <div class="col-md-12">
+            <div class="row river-well-versus">
+              <table>
+
+                <tr class="versus_tokens vl" >
+
+                  <% if @scenario.btoken1 !='' %>
+                    <td style="text-align: center;">
+                      <img src="/assets/tokens/BlueNum1.png" class="scen_token" />
+                      <p><%= @scenario.btoken1.html_safe %>
+                      <% if @scenario.tile1 !=0 %>
+                        <br /><%= @scenario.tile1 %>
+                      <% end %></p>
+                    </td>
+                  <% end %>
+
+                  <% if @scenario.btoken2 !='' %>
+                    <td style="text-align: center;">
+                      <img src="/assets/tokens/BlueNum2.png" class="scen_token" />
+                      <p><%= @scenario.btoken2.html_safe %>
+                      <% if @scenario.tile2 !=0 %>
+                        <br /><%= @scenario.tile2 %>
+                      <% end %></p>  
+                    </td>
+                  <% end %>
+
+                  <% if @scenario.btoken3 !='' %>
+                    <td style="text-align: center;">
+                      <img src="/assets/tokens/BlueNum3.png" class="scen_token" />
+                      <p><%= @scenario.btoken3.html_safe %>
+                      <% if @scenario.tile3 !=0 %>
+                        <br /><%= @scenario.tile3 %>
+                      <% end %></p>
+                    </td>
+                  <% end %>
+
+                  <% if @scenario.btoken4 !='' %>
+                    <td style="text-align: center;">
+                      <img src="/assets/tokens/BlueNum4.png" class="scen_token" />
+                      <p><%= @scenario.btoken4.html_safe %>
+                      <% if @scenario.tile4 !=0 %>
+                        <br /><%= @scenario.tile4 %>
+                      <% end %></p>  
+                    </td>
+                  <% end %>
+
+                  <% if @scenario.btoken5 !='' %>
+                    <td style="text-align: center;">
+                      <img src="/assets/tokens/BlueNum5.png" class="scen_token" />
+                      <p><%= @scenario.btoken5.html_safe %>
+                      <% if @scenario.tile5 !=0 %>
+                        <br /><%= @scenario.tile5 %>
+                      <% end %></p>  
+                    </td>
+                  <% end %>
+
+                  <% if @scenario.btoken6 !='' %>
+                    <td style="text-align: center;">
+                      <img src="/assets/tokens/BlueNum6.png" class="scen_token" />
+                      <p><%= @scenario.btoken6.html_safe %>
+                      <% if @scenario.tile6 !=0 %>
+                        <br /><%= @scenario.tile6 %>
+                      <% end %></p>  
+                    </td>
+                  <% end %>
+
+                  <% if @scenario.btoken7 !='' %>
+                    <td style="text-align: center;">
+                      <img src="/assets/tokens/BlueNum7.png" class="scen_token" />
+                      <p><%= @scenario.btoken7.html_safe %>
+                      <% if @scenario.tile7 !=0 %>
+                        <br /><%= @scenario.tile7 %>
+                      <% end %></p> 
+                    </td>
+                  <% end %>
+
+                  <% if @scenario.btoken8 !='' %>
+                    <td style="text-align: center;">
+                      <img src="/assets/tokens/BlueNum8.png" class="scen_token" />
+                      <p><%= @scenario.btoken8.html_safe %>
+                      <% if @scenario.tile8 !=0 %>
+                        <br /><%= @scenario.tile8 %>
+                      <% end %></p>  
+                    </td>
+                  <% end %>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-12">
+      <div class="row river-versus">
+        <h3>Warlord<span>Victory Condition: <%= @scenario.overlord_goal.html_safe %></span></h3>      
+        <div>
+          <table>
+            <tr class="versus_event" >
+              <td><img src="/assets/tokens/redGem.png" class="scen_token" /></td>
+              <td><%= @scenario.overlord_setup.html_safe %></td>
+            </tr>
+          </table>       
+        </div>
+          <div class="row">
+            <div class="col-md-12">      
+              <div class="row river-well-versus">
+                  <table>
+                    <tr class="versus_tokens vl" >
+
+                      <% if @scenario.rtoken1 !='' %>
+                        <td style="text-align: center;">
+                          <img src="/assets/tokens/RedNum1.png" class="scen_token" />
+                          <p><%= @scenario.rtoken1.html_safe %>
+                          <% if @scenario.life1 !=0 %>
+                            <br /><%= @scenario.life1 %>
+                          <% end %></p> 
+                        </td>
+                      <% end %>
+
+                      <% if @scenario.rtoken2 !='' %>
+                        <td style="text-align: center;">
+                          <img src="/assets/tokens/RedNum2.png" class="scen_token" />
+                          <p><%= @scenario.rtoken2.html_safe %>
+                          <% if @scenario.life2 !=0 %>
+                            <br /><%= @scenario.life2 %>
+                          <% end %></p> 
+                        </td>
+                      <% end %>
+
+                      <% if @scenario.rtoken3 !='' %>
+                        <td style="text-align: center;">
+                          <img src="/assets/tokens/RedNum3.png" class="scen_token" />
+                          <p><%= @scenario.rtoken3.html_safe %>
+                          <% if @scenario.life3 !=0 %>
+                            <br /><%= @scenario.life3 %>
+                          <% end %></p>  
+                        </td>
+                      <% end %>
+
+                      <% if @scenario.rtoken4 !='' %>
+                        <td style="text-align: center;">
+                          <img src="/assets/tokens/RedNum4.png" class="scen_token" />
+                          <p><%= @scenario.rtoken4.html_safe %>
+                          <% if @scenario.life4 !=0 %>
+                            <br /><%= @scenario.life4 %>
+                          <% end %></p>  
+                        </td>
+                      <% end %>
+
+                      <% if @scenario.rtoken5 !='' %>
+                        <td style="text-align: center;">
+                          <img src="/assets/tokens/RedNum5.png" class="scen_token" />
+                          <p><%= @scenario.rtoken5.html_safe %>
+                          <% if @scenario.life5 !=0 %>
+                            <br /><%= @scenario.life5 %>
+                          <% end %></p>
+                        </td>
+                      <% end %>
+
+                      <% if @scenario.rtoken6 !='' %>
+                        <td style="text-align: center;">
+                          <img src="/assets/tokens/RedNum6.png" class="scen_token" />
+                          <p><%= @scenario.rtoken6.html_safe %>
+                          <% if @scenario.life6 !=0 %>
+                            <br /><%= @scenario.life6 %>
+                          <% end %></p>
+                        </td>
+                      <% end %>
+
+                      <% if @scenario.rtoken7 !='' %>
+                        <td style="text-align: center;">
+                          <img src="/assets/tokens/RedNum7.png" class="scen_token" />
+                          <p><%= @scenario.rtoken7.html_safe %>
+                          <% if @scenario.life7 !=0 %>
+                            <br /><%= @scenario.life7 %>
+                          <% end %></p>
+                        </td>
+                      <% end %>
+
+                      <% if @scenario.rtoken8 !='' %>
+                        <td style="text-align: center;">
+                          <img src="/assets/tokens/RedNum8.png" class="scen_token" />
+                          <p><%= @scenario.rtoken8.html_safe %>
+                          <% if @scenario.life8 !=0 %>
+                            <br /><%= @scenario.life8 %>
+                          <% end %></p> 
+                        </td>
+                      <% end %>
+                    </tr>
+                  </table>
+                </div>
+             </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="row scenario">
+      <div class="col-md-12 event-versus">
+        <table class="tiletable-solo">
+          <tr class="vevent" >
+            <td><span><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" ></span></td>
+            <td><%= @scenario.event.html_safe %></td>
           </tr>
         </table>
       </div>
     </div>
-  <% end %>
 
-  <div class="row scenario">
-    <h3 align="center" >Special Rules</h3>
-  </div>
-  <div>
-    <p><%= @scenario.special_rules.html_safe %></p>
-  </div>
-
-  <% if @scenario.hero_victory != '' %>
-    <div class="row scenario">
-      <h3 align="center" >Campaign Results</h3>
+    <div class="row versus">
+      <h3 align="center" >Special Rules</h3>
     </div>
-    <div class="row">
-      <div class="col-md-6">
-        <%= @scenario.hero_victory.html_safe %>
+    <div class="special-versus">
+      <p><%= @scenario.special_rules.html_safe %></p>
+    </div>
+
+    <% if @scenario.correction != '' %>
+      <div class="row scenario">
+        <h3 align="center" >Corrections / Clarifications</h3>
       </div>
-      <div class="col-md-6">
-        <%= @scenario.overlord_victory.html_safe %>
+      <div class="">
+        <%= @scenario.correction.html_safe %>
       </div>
-    </div>
-  <% end %>
-
-  <% if @scenario.pdf_link != '' %>
-    <div class="row scenario">
-      <h3 align="center" >Corrections / Clarifications</h3>
-    </div>
-      <%= @scenario.pdf_link.html_safe %>
-    </div>
-  <% end %>
-
-</div>
-
-<% if logged_in? && current_user.admin? %>
-  <div class="row">
-    <br /><br />
-    <%= link_to 'Edit', edit_scenario_path(@scenario) %> |
-    <%= link_to 'Delete', scenario_path(@scenario), method: :delete, data: {confirm: "Are you sure?"} %>
+    <% end %>
   </div>
 <% end %>
+
+

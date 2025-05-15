@@ -1,18 +1,18 @@
 <h1>Character Tiles</h1>
-<% if logged_in? && current_user.admin? %>
-  <p><%= link_to "Add a Tile", new_tile_path %></p>
-<% end %>
 
 <p>Click on a tile to see its stats and any scenarios it appears in.</p>
   <p>Tiles can be sorted by:</p>
       <ul>
         <li>the box (<strong>origin</strong>) the tile came in</li>
         <li>the <strong>type</strong> of unit the tile represents</li>
+        <li>by unit type for <strong>Versus</strong> recruitment</li>
         <li>tile <strong>name</strong> listed with their stats</li>
       </ul>
 <div align="center">
   <a href="" id="show_byorigin" class="toggles"><button class="btn btn-tile active">By Origin</button></a>
   <a href="" id="show_bytype" class="toggles"><button class="btn btn-tile">By Type</button></a>
+  <a href="" id="show_forversus" class="toggles"><button class="btn btn-tile">Versus</button></a>
+
   <a href="" id="show_bystat" class="toggles"><button class="btn btn-tile">Name / Stats</button></a>
 </div>
 <hr>
@@ -47,6 +47,7 @@
           </div>
         </div>
       </div>
+
       <div class="card">
         <div class="card-header" id="headingKhitai">
           <button class="btn btn-link" data-toggle="collapse" data-target="#collapseKhitai">
@@ -75,6 +76,7 @@
           </div>
         </div>
       </div>
+
       <div class="card">
         <div class="card-header" id="headingNordheim">
           <button class="btn btn-link" data-toggle="collapse" data-target="#collapseNordheim">
@@ -103,6 +105,7 @@
           </div>
         </div>
       </div>
+
       <div class="card">
         <div class="card-header" id="headingStygia">
           <button class="btn btn-link" data-toggle="collapse" data-target="#collapseStygia">
@@ -131,6 +134,7 @@
           </div>
         </div>
       </div>
+
       <div class="card">
         <div class="card-header" id="headingConqueror">
           <button class="btn btn-link" data-toggle="collapse" data-target="#collapseConqueror">
@@ -159,8 +163,69 @@
           </div>
         </div>
       </div>
+
+      <div class="card">
+        <div class="card-header" id="headingRedNails">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseRedNails">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Red Nails</button>
+        </div>
+        <div class="card-body">
+          <div id="collapseRedNails" class="collapse in">
+            <table class="table stats tilestats">
+              <thead>
+                <tr>
+                  <th class="w40">Tile</th>
+                  <th class="w30">Type</th>
+                  <th class="w15">Count</th>
+                  <th class="w15">Scenarios</th>
+                </tr>
+              </thead>
+              <% @nails.each do |tile| %>
+              <tr>
+                <td class="tile" align="center"><%= link_to tile.name, tile_path(tile) %></td>
+                <td><%= tile.role %></td>
+                <td><%= tile.count %></td>
+                <td><%= tile.scenarios.count %></td>
+              </tr>
+              <% end %>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingWorms">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseWorms">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Worms of the Earth</button>
+        </div>
+        <div class="card-body">
+          <div id="collapseWorms" class="collapse in">
+            <table class="table stats tilestats">
+              <thead>
+                <tr>
+                  <th class="w40">Tile</th>
+                  <th class="w30">Type</th>
+                  <th class="w15">Count</th>
+                  <th class="w15">Scenarios</th>
+                </tr>
+              </thead>
+              <% @worms.each do |tile| %>
+              <tr>
+                <td class="tile" align="center"><%= link_to tile.name, tile_path(tile) %></td>
+                <td><%= tile.role %></td>
+                <td><%= tile.count %></td>
+                <td><%= tile.scenarios.count %></td>
+              </tr>
+              <% end %>
+            </table>
+          </div>
+        </div>
+      </div>
+
     </div>
+
     <div class="col-md-6 col-sm-6">
+
       <div class="card">
         <div class="card-header" id="headingKing">
           <button class="btn btn-link" data-toggle="collapse" data-target="#collapseKing">
@@ -189,6 +254,7 @@
           </div>
         </div>
       </div>
+
       <div class="card">
         <div class="card-header" id="headingStretch">
           <button class="btn btn-link" data-toggle="collapse" data-target="#collapseStretch">
@@ -217,6 +283,7 @@
           </div>
         </div>
       </div>
+
       <div class="card">
         <div class="card-header" id="headingBaal">
           <button class="btn btn-link" data-toggle="collapse" data-target="#collapseBaal">
@@ -245,6 +312,7 @@
           </div>
         </div>
       </div>
+
       <div class="card">
         <div class="card-header" id="headingDragons">
           <button class="btn btn-link" data-toggle="collapse" data-target="#collapseDragons">
@@ -273,6 +341,7 @@
           </div>
         </div>
       </div>
+
       <div class="card">
         <div class="card-header" id="headingOnes">
           <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOnes">
@@ -301,6 +370,7 @@
           </div>
         </div>
       </div>
+
       <div class="card">
         <div class="card-header" id="headingCrossbowmen">
           <button class="btn btn-link" data-toggle="collapse" data-target="#collapseCrossbowmen">
@@ -329,6 +399,7 @@
           </div>
         </div>
       </div>
+
       <div class="card">
         <div class="card-header" id="headingDemon">
           <button class="btn btn-link" data-toggle="collapse" data-target="#collapseDemon">
@@ -357,6 +428,7 @@
           </div>
         </div>
       </div>
+
       <div class="card">
         <div class="card-header" id="headingDragon">
           <button class="btn btn-link" data-toggle="collapse" data-target="#collapseDragon">
@@ -385,6 +457,7 @@
           </div>
         </div>
       </div>
+
       <div class="card">
         <div class="card-header" id="headingWolves">
           <button class="btn btn-link" data-toggle="collapse" data-target="#collapseWolves">
@@ -413,6 +486,7 @@
           </div>
         </div>
       </div>
+
       <div class="card">
         <div class="card-header" id="headingWitch">
           <button class="btn btn-link" data-toggle="collapse" data-target="#collapseWitch">
@@ -441,6 +515,7 @@
           </div>
         </div>
       </div>
+
       <div class="card">
         <div class="card-header" id="headingPaolo">
           <button class="btn btn-link" data-toggle="collapse" data-target="#collapsePaolo">
@@ -469,6 +544,7 @@
           </div>
         </div>
       </div>
+
       <div class="card">
         <div class="card-header" id="headingSabertooth">
           <button class="btn btn-link" data-toggle="collapse" data-target="#collapseSabertooth">
@@ -497,6 +573,7 @@
           </div>
         </div>
       </div>
+
       <div class="card">
         <div class="card-header" id="headingValkyrie">
           <button class="btn btn-link" data-toggle="collapse" data-target="#collapseValkyrie">
@@ -525,6 +602,65 @@
           </div>
         </div>
       </div>
+
+      <div class="card">
+        <div class="card-header" id="headingVersus">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseVersus">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Versus</button>
+        </div>
+        <div class="card-body">
+          <div id="collapseVersus" class="collapse in">
+            <table class="table stats tilestats">
+              <thead>
+                <tr>
+                  <th class="w40">Tile</th>
+                  <th class="w30">Type</th>
+                  <th class="w15">Count</th>
+                  <th class="w15">Scenarios</th>
+                </tr>
+              </thead>
+              <% @versus.each do |tile| %>
+              <tr>
+                <td class="tile" align="center"><%= link_to tile.name, tile_path(tile) %></td>
+                <td><%= tile.role %></td>
+                <td><%= tile.count %></td>
+                <td><%= tile.scenarios.count %></td>
+              </tr>
+              <% end %>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingFrazetta">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseFrazetta">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Frazetta Guest Box</button>
+        </div>
+        <div class="card-body">
+          <div id="collapseFrazetta" class="collapse in">
+            <table class="table stats tilestats">
+              <thead>
+                <tr>
+                  <th class="w40">Tile</th>
+                  <th class="w30">Type</th>
+                  <th class="w15">Count</th>
+                  <th class="w15">Scenarios</th>
+                </tr>
+              </thead>
+              <% @frazetta.each do |tile| %>
+              <tr>
+                <td class="tile" align="center"><%= link_to tile.name, tile_path(tile) %></td>
+                <td><%= tile.role %></td>
+                <td><%= tile.count %></td>
+                <td><%= tile.scenarios.count %></td>
+              </tr>
+              <% end %>
+            </table>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
 </div>
@@ -652,6 +788,143 @@
   </div>
 </div>
 
+
+
+
+<div id="for_versus">
+  <div class="row">
+    <div class="col-md-6 col-sm-8">
+
+      <div class="card">
+        <div class="card-header" id="headingLeader">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseLeader">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Leader</button>
+        </div>
+        <div class="card-body ">
+          <div id="collapseLeader" class="collapse in">
+            <table class="table stats tilestats">
+              <thead>
+                <tr>
+                  <th class="w40">Tile</th>
+                  <th class="w35">Origin</th>
+                  <th class="w15">Count</th>
+                </tr>
+              </thead>
+              <% @leaders.each do |tile| %>
+                <% if eval(tile.armor) < 5 %>
+                  <tr>
+                    <td class="tile" align="center"><%= link_to tile.name, tile_path(tile) %></td>
+                    <td><%= tile.origin %></td>
+                    <td><%= tile.count %></td>
+                  </tr>
+                <% end %>
+              <% end %>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingLeader">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseLeader">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Leader (Monster)</button>
+        </div>
+        <div class="card-body ">
+          <div id="collapseLeader" class="collapse in">
+            <table class="table stats tilestats">
+              <thead>
+                <tr>
+                  <th class="w40">Tile</th>
+                  <th class="w35">Origin</th>
+                  <th class="w15">Count</th>
+                </tr>
+              </thead>
+              <% @monsters.each do |tile| %>
+                <% if eval(tile.armor) < 5 %>
+                  <tr>
+                    <td class="tile" align="center"><%= link_to tile.name, tile_path(tile) %></td>
+                    <td><%= tile.origin %></td>
+                    <td><%= tile.count %></td>
+                  </tr>
+                <% end %>
+              <% end %>
+            </table>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+    <div class="col-md-6 col-sm-8">
+      <div class="card">
+        <div class="card-header" id="headingChampions">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseChampions">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Champions</button>
+        </div>
+        <div class="card-body ">
+          <div id="collapseChampions" class="collapse in">
+            <table class="table stats tilestats">
+              <thead>
+                <tr>
+                  <th class="w40">Tile</th>
+                  <th class="w35">Origin</th>
+                  <th class="w14">Cost</th>
+                  <th class="w15">Count</th>
+                </tr>
+              </thead>
+              <% @minions.each do |tile| %>
+                <% if ( (eval(tile.armor) < 5) && (tile.cost == '2') ) || ( (eval(tile.armor) < 5) && (tile.cost == '3') ) %>
+                  <tr>
+                    <td class="tile" align="center"><%= link_to tile.name, tile_path(tile) %></td>
+                    <td><%= tile.origin %></td>
+                    <td><%= tile.cost %></td>
+                    <td><%= tile.count %></td>
+                  </tr>
+                <% end %>
+              <% end %>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6 col-sm-8">
+      <div class="card">
+        <div class="card-header" id="headingMinions">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseMinions">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Minions</button>
+        </div>
+        <div class="card-body ">
+          <div id="collapseMinions" class="collapse in">
+            <table class="table stats tilestats">
+              <thead>
+                <tr>
+                  <th class="w40">Tile</th>
+                  <th class="w35">Origin</th>
+                  <th class="w14">Cost</th>
+                  <th class="w15">Count</th>
+                </tr>
+              </thead>
+              <% @minions.each do |tile| %>
+                <% if (eval(tile.armor) < 5) && (tile.cost == '1')%>
+                  <tr>
+                    <td class="tile" align="center"><%= link_to tile.name, tile_path(tile) %></td>
+                    <td><%= tile.origin %></td>
+                    <td><%= tile.cost %></td>
+                    <td><%= tile.count %></td>
+                  </tr>
+                <% end %>
+              <% end %>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
 <div id="by_stat">
   <div class="row">
       <div class="panel panel-danger">
@@ -707,6 +980,7 @@
        $('a.toggles').children().removeClass('active');
        $('a#show_byorigin').children().addClass('active');
        $('div#by_type').hide();
+       $('div#for_versus').hide();
        $('div#by_stat').hide();
        $('div#by_origin').show();
      });
@@ -716,8 +990,19 @@
        $('a.toggles').children().removeClass('active');
        $('a#show_bytype').children().addClass('active');
        $('div#by_origin').hide();
+       $('div#for_versus').hide();
        $('div#by_stat').hide();
        $('div#by_type').show();
+     });
+
+     $('a#show_forversus').click(function(event){
+       event.preventDefault();
+       $('a.toggles').children().removeClass('active');
+       $('a#show_forversus').children().addClass('active');
+       $('div#by_origin').hide();
+       $('div#by_type').hide();
+       $('div#by_stat').hide();
+       $('div#for_versus').show();
      });
 
      $('a#show_bystat').click(function(event){
@@ -726,8 +1011,10 @@
        $('a#show_bystat').children().addClass('active');
        $('div#by_origin').hide();
        $('div#by_type').hide();
+       $('div#for_versus').hide();       
        $('div#by_stat').show();
      });
+
    });
 
  </script>

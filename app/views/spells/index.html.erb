@@ -1,7 +1,4 @@
 <h1>Spell Cards</h1>
-<% if logged_in? && current_user.admin? %>
-  <p><%= link_to "Add a Spell", new_spell_path %></p>
-<% end %>
 
 <p>Click on a spell to see the card and any scenarios it appears in.</p>
 <p>Spells can be sorted by:</p>
@@ -17,16 +14,11 @@
   <a href="" id="show_bycost" class="toggles"><button class="btn btn-spell">By Cost</button></a>
   <a href="" id="show_bytype" class="toggles"><button class="btn btn-spell">Area/Instant</button></a>
   <a href="" id="show_bystat" class="toggles"><button class="btn btn-spell">Name / Stats</button></a>
-
 </div>
 <hr>
 
-
-
 <div id="by_origin">
   <div class="row">
-    <div class="col-md-6 col-sm-8">
-
       <div class="card">
         <div class="card-header" id="headingCore">
           <button class="btn btn-link" data-toggle="collapse" data-target="#collapseCore">
@@ -34,26 +26,53 @@
         </div>
         <div class="card-body">
           <div id="collapseCore" class="collapse in">
-            <table class="table stats spellstats">
-              <thead>
-                <tr>
-                  <th class="w50">Spell</th>
-                  <th class="w25">Cost</th>
-                  <th class="w25">Scenarios</th>
-                </tr>
-              </thead>
+            <table class="table">   
+              <% i = 0 %>
               <% @core.each do |spell| %>
-              <tr>
-                <td class="spell" align="center"><%= link_to spell.name, spell_path(spell) %></td>
-                <td><%= spell.cost %></td>
-                <td><%= spell.scenarios.count %></td>
-              </tr>
+                <% if i == 0 %>
+                  <tr>
+                    <td title="<%= spell.name %>" class="spellCards"><%= link_to image_tag(spell.image), spell_path(spell) %></td>
+                  <% i += 1 %>
+                <% elsif (i > 0) && (i < 5) %>
+                    <td title="<%= spell.name %>" class="spellCards"><%= link_to image_tag(spell.image), spell_path(spell) %></td>
+                  <% i += 1 %>
+                <% else %>
+                    <td title="<%= spell.name %>" class="spellCards"><%= link_to image_tag(spell.image), spell_path(spell) %></td>
+                  </tr>
+                  <% i = 0 %>
+                <% end %>             
               <% end %>
             </table>
           </div>
         </div>
       </div>
-
+      <div class="card">
+        <div class="card-header" id="headingStretch">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseStretch">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Stretch Goal</button>
+        </div>
+        <div class="card-body">
+          <div id="collapseStretch" class="collapse in">
+            <table class="table">   
+              <% i = 0 %>
+              <% @stretch.each do |spell| %>
+                <% if i == 0 %>
+                  <tr>
+                    <td title="<%= spell.name %>" class="spellCards"><%= link_to image_tag(spell.image), spell_path(spell) %></td>
+                  <% i += 1 %>
+                <% elsif (i > 0) && (i < 5) %>
+                    <td title="<%= spell.name %>" class="spellCards"><%= link_to image_tag(spell.image), spell_path(spell) %></td>
+                  <% i += 1 %>
+                <% else %>
+                    <td title="<%= spell.name %>" class="spellCards"><%= link_to image_tag(spell.image), spell_path(spell) %></td>
+                  </tr>
+                  <% i = 0 %>
+                <% end %>             
+              <% end %>
+            </table>
+          </div>
+        </div>
+      </div>
       <div class="card">
         <div class="card-header" id="headingKhitai">
           <button class="btn btn-link" data-toggle="collapse" data-target="#collapseKhitai">
@@ -61,20 +80,21 @@
         </div>
         <div class="card-body">
           <div id="collapseKhitai" class="collapse in">
-            <table class="table stats spellstats">
-              <thead>
-                <tr>
-                  <th class="w50">Spell</th>
-                  <th class="w25">Cost</th>
-                  <th class="w25">Scenarios</th>
-                </tr>
-              </thead>
+            <table class="table">   
+              <% i = 0 %>
               <% @khitai.each do |spell| %>
-              <tr>
-                <td class="spell" align="center"><%= link_to spell.name, spell_path(spell) %></td>
-                <td><%= spell.cost %></td>
-                <td><%= spell.scenarios.count %></td>
-              </tr>
+                <% if i == 0 %>
+                  <tr>
+                    <td title="<%= spell.name %>" class="spellCards"><%= link_to image_tag(spell.image), spell_path(spell) %></td>
+                  <% i += 1 %>
+                <% elsif (i > 0) && (i < 5) %>
+                    <td title="<%= spell.name %>" class="spellCards"><%= link_to image_tag(spell.image), spell_path(spell) %></td>
+                  <% i += 1 %>
+                <% else %>
+                    <td title="<%= spell.name %>" class="spellCards"><%= link_to image_tag(spell.image), spell_path(spell) %></td>
+                  </tr>
+                  <% i = 0 %>
+                <% end %>             
               <% end %>
             </table>
           </div>
@@ -88,20 +108,21 @@
         </div>
         <div class="card-body">
           <div id="collapseNordheim" class="collapse in">
-            <table class="table stats spellstats">
-              <thead>
-                <tr>
-                  <th class="w50">Spell</th>
-                  <th class="w25">Cost</th>
-                  <th class="w25">Scenarios</th>
-                </tr>
-              </thead>
+            <table class="table">   
+              <% i = 0 %>
               <% @nordheim.each do |spell| %>
-              <tr>
-                <td class="spell" align="center"><%= link_to spell.name, spell_path(spell) %></td>
-                <td><%= spell.cost %></td>
-                <td><%= spell.scenarios.count %></td>
-              </tr>
+                <% if i == 0 %>
+                  <tr>
+                    <td title="<%= spell.name %>" class="spellCards"><%= link_to image_tag(spell.image), spell_path(spell) %></td>
+                  <% i += 1 %>
+                <% elsif (i > 0) && (i < 5) %>
+                    <td title="<%= spell.name %>" class="spellCards"><%= link_to image_tag(spell.image), spell_path(spell) %></td>
+                  <% i += 1 %>
+                <% else %>
+                    <td title="<%= spell.name %>" class="spellCards"><%= link_to image_tag(spell.image), spell_path(spell) %></td>
+                  </tr>
+                  <% i = 0 %>
+                <% end %>             
               <% end %>
             </table>
           </div>
@@ -115,20 +136,21 @@
         </div>
         <div class="card-body">
           <div id="collapseStygia" class="collapse in">
-            <table class="table stats spellstats">
-              <thead>
-                <tr>
-                  <th class="w50">Spell</th>
-                  <th class="w25">Cost</th>
-                  <th class="w25">Scenarios</th>
-                </tr>
-              </thead>
+            <table class="table">   
+              <% i = 0 %>
               <% @stygia.each do |spell| %>
-              <tr>
-                <td class="spell" align="center"><%= link_to spell.name, spell_path(spell) %></td>
-                <td><%= spell.cost %></td>
-                <td><%= spell.scenarios.count %></td>
-              </tr>
+                <% if i == 0 %>
+                  <tr>
+                    <td title="<%= spell.name %>" class="spellCards"><%= link_to image_tag(spell.image), spell_path(spell) %></td>
+                  <% i += 1 %>
+                <% elsif (i > 0) && (i < 5) %>
+                    <td title="<%= spell.name %>" class="spellCards"><%= link_to image_tag(spell.image), spell_path(spell) %></td>
+                  <% i += 1 %>
+                <% else %>
+                    <td title="<%= spell.name %>" class="spellCards"><%= link_to image_tag(spell.image), spell_path(spell) %></td>
+                  </tr>
+                  <% i = 0 %>
+                <% end %>             
               <% end %>
             </table>
           </div>
@@ -142,20 +164,21 @@
         </div>
         <div class="card-body">
           <div id="collapseCampaign" class="collapse in">
-            <table class="table stats spellstats">
-              <thead>
-                <tr>
-                  <th class="w50">Spell</th>
-                  <th class="w25">Cost</th>
-                  <th class="w25">Scenarios</th>
-                </tr>
-              </thead>
+            <table class="table">   
+              <% i = 0 %>
               <% @campaign.each do |spell| %>
-              <tr>
-                <td class="spell" align="center"><%= link_to spell.name, spell_path(spell) %></td>
-                <td><%= spell.cost %></td>
-                <td><%= spell.scenarios.count %></td>
-              </tr>
+                <% if i == 0 %>
+                  <tr>
+                    <td class="spellCards"><%= link_to image_tag(spell.image), spell_path(spell) %></td>
+                  <% i += 1 %>
+                <% elsif (i > 0) && (i < 5) %>
+                    <td class="spellCards"><%= link_to image_tag(spell.image), spell_path(spell) %></td>
+                  <% i += 1 %>
+                <% else %>
+                    <td class="spellCards"><%= link_to image_tag(spell.image), spell_path(spell) %></td>
+                  </tr>
+                  <% i = 0 %>
+                <% end %>             
               <% end %>
             </table>
           </div>
@@ -169,62 +192,86 @@
         </div>
         <div class="card-body">
           <div id="collapseConqueror" class="collapse in">
-            <table class="table stats spellstats">
-              <thead>
-                <tr>
-                  <th class="w50">Spell</th>
-                  <th class="w25">Cost</th>
-                  <th class="w25">Scenarios</th>
-                </tr>
-              </thead>
+            <table class="table">   
+              <% i = 0 %>
               <% @conqueror.each do |spell| %>
-              <tr>
-                <td class="spell" align="center"><%= link_to spell.name, spell_path(spell) %></td>
-                <td><%= spell.cost %></td>
-                <td><%= spell.scenarios.count %></td>
-              </tr>
+                <% if i == 0 %>
+                  <tr>
+                    <td title="<%= spell.name %>" class="spellCards"><%= link_to image_tag(spell.image), spell_path(spell) %></td>
+                  <% i += 1 %>
+                <% elsif (i > 0) && (i < 5) %>
+                    <td title="<%= spell.name %>" class="spellCards"><%= link_to image_tag(spell.image), spell_path(spell) %></td>
+                  <% i += 1 %>
+                <% else %>
+                    <td title="<%= spell.name %>" class="spellCards"><%= link_to image_tag(spell.image), spell_path(spell) %></td>
+                  </tr>
+                  <% i = 0 %>
+                <% end %>             
               <% end %>
             </table>
           </div>
         </div>
       </div>
-    </div>
-
-    <div class="col-md-6 col-sm-8">
       <div class="card">
-        <div class="card-header" id="headingStretch">
-          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseStretch">
-          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Stretch Goal</button>
+        <div class="card-header" id="headingNails">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseNails">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Red Nail</button>
         </div>
         <div class="card-body">
-          <div id="collapseStretch" class="collapse in">
-            <table class="table stats spellstats">
-              <thead>
-                <tr>
-                  <th class="w50">Spell</th>
-                  <th class="w25">Cost</th>
-                  <th class="w25">Scenarios</th>
-                </tr>
-              </thead>
-              <% @stretch.each do |spell| %>
-              <tr>
-                <td class="spell" align="center"><%= link_to spell.name, spell_path(spell) %></td>
-                <td><%= spell.cost %></td>
-                <td><%= spell.scenarios.count %></td>
-              </tr>
+          <div id="collapseNails" class="collapse in">
+            <table class="table">   
+              <% i = 0 %>
+              <% @nails.each do |spell| %>
+                <% if i == 0 %>
+                  <tr>
+                    <td title="<%= spell.name %>" class="spellCards"><%= link_to image_tag(spell.image), spell_path(spell) %></td>
+                  <% i += 1 %>
+                <% elsif (i > 0) && (i < 5) %>
+                    <td title="<%= spell.name %>" class="spellCards"><%= link_to image_tag(spell.image), spell_path(spell) %></td>
+                  <% i += 1 %>
+                <% else %>
+                    <td title="<%= spell.name %>" class="spellCards"><%= link_to image_tag(spell.image), spell_path(spell) %></td>
+                  </tr>
+                  <% i = 0 %>
+                <% end %>             
               <% end %>
             </table>
           </div>
         </div>
       </div>
-    </div>
+      <div class="card">
+        <div class="card-header" id="headingVersus">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseVersus">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Versus</button>
+        </div>
+        <div class="card-body">
+          <div id="collapseVersus" class="collapse in">
+            <table class="table">   
+              <% i = 0 %>
+              <% @versus.each do |spell| %>
+                <% if i == 0 %>
+                  <tr>
+                    <td title="<%= spell.name %>" class="spellCards"><%= link_to image_tag(spell.image), spell_path(spell) %></td>
+                  <% i += 1 %>
+                <% elsif (i > 0) && (i < 5) %>
+                    <td title="<%= spell.name %>" class="spellCards"><%= link_to image_tag(spell.image), spell_path(spell) %></td>
+                  <% i += 1 %>
+                <% else %>
+                    <td title="<%= spell.name %>" class="spellCards"><%= link_to image_tag(spell.image), spell_path(spell) %></td>
+                  </tr>
+                  <% i = 0 %>
+                <% end %>             
+              <% end %>
+            </table>
+          </div>
+        </div>
+      </div>
   </div>
 </div>
 
 
 <div id="by_cost">
   <div class="row">
-    <div class="col-md-6 col-sm-8">
       <div class="card">
         <div class="card-header" id="heading1">
           <button class="btn btn-link" data-toggle="collapse" data-target="#collapse1">
@@ -232,26 +279,53 @@
         </div>
         <div class="card-body">
           <div id="collapse1" class="collapse in">
-            <table class="table stats spellstats">
-              <thead>
-                <tr>
-                  <th class="w40">Spell</th>
-                  <th class="w40">Origin</th>
-                  <th class="w20">Scenarios</th>
-                </tr>
-              </thead>
+            <table class="table">   
+              <% i = 0 %>
               <% @cost1.each do |spell| %>
-              <tr>
-                <td class="spell" align="center"><%= link_to spell.name, spell_path(spell) %></td>
-                <td><%= spell.origin %></td>
-                <td><%= spell.scenarios.count %></td>
-              </tr>
+                <% if i == 0 %>
+                  <tr>
+                    <td title="<%= spell.name %>" class="spellCards"><%= link_to image_tag(spell.image), spell_path(spell) %></td>
+                  <% i += 1 %>
+                <% elsif (i > 0) && (i < 5) %>
+                    <td title="<%= spell.name %>" class="spellCards"><%= link_to image_tag(spell.image), spell_path(spell) %></td>
+                  <% i += 1 %>
+                <% else %>
+                    <td title="<%= spell.name %>" class="spellCards"><%= link_to image_tag(spell.image), spell_path(spell) %></td>
+                  </tr>
+                  <% i = 0 %>
+                <% end %>             
               <% end %>
             </table>
           </div>
         </div>
       </div>
-
+      <div class="card">
+        <div class="card-header" id="heading2">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapse2">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;2</button>
+        </div>
+        <div class="card-body">
+          <div id="collapse2" class="collapse in">
+            <table class="table">   
+              <% i = 0 %>
+              <% @cost2.each do |spell| %>
+                <% if i == 0 %>
+                  <tr>
+                    <td title="<%= spell.name %>" class="spellCards"><%= link_to image_tag(spell.image), spell_path(spell) %></td>
+                  <% i += 1 %>
+                <% elsif (i > 0) && (i < 5) %>
+                    <td title="<%= spell.name %>" class="spellCards"><%= link_to image_tag(spell.image), spell_path(spell) %></td>
+                  <% i += 1 %>
+                <% else %>
+                    <td title="<%= spell.name %>" class="spellCards"><%= link_to image_tag(spell.image), spell_path(spell) %></td>
+                  </tr>
+                  <% i = 0 %>
+                <% end %>             
+              <% end %>
+            </table>
+          </div>
+        </div>
+      </div>
       <div class="card">
         <div class="card-header" id="heading3">
           <button class="btn btn-link" data-toggle="collapse" data-target="#collapse3">
@@ -259,20 +333,49 @@
         </div>
         <div class="card-body">
           <div id="collapse3" class="collapse in">
-            <table class="table stats spellstats">
-              <thead>
-                <tr>
-                  <th class="w40">Spell</th>
-                  <th class="w40">Origin</th>
-                  <th class="w20">Scenarios</th>
-                </tr>
-              </thead>
+            <table class="table">   
+              <% i = 0 %>
               <% @cost3.each do |spell| %>
-              <tr>
-                <td class="spell" align="center"><%= link_to spell.name, spell_path(spell) %></td>
-                <td><%= spell.origin %></td>
-                <td><%= spell.scenarios.count %></td>
-              </tr>
+                <% if i == 0 %>
+                  <tr>
+                    <td title="<%= spell.name %>" class="spellCards"><%= link_to image_tag(spell.image), spell_path(spell) %></td>
+                  <% i += 1 %>
+                <% elsif (i > 0) && (i < 5) %>
+                    <td title="<%= spell.name %>" class="spellCards"><%= link_to image_tag(spell.image), spell_path(spell) %></td>
+                  <% i += 1 %>
+                <% else %>
+                    <td title="<%= spell.name %>" class="spellCards"><%= link_to image_tag(spell.image), spell_path(spell) %></td>
+                  </tr>
+                  <% i = 0 %>
+                <% end %>             
+              <% end %>
+            </table>
+
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="heading4">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapse4">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;4</button>
+        </div>
+        <div class="card-body">
+          <div id="collapse4" class="collapse in">
+            <table class="table">   
+              <% i = 0 %>
+              <% @cost4.each do |spell| %>
+                <% if i == 0 %>
+                  <tr>
+                    <td title="<%= spell.name %>" class="spellCards"><%= link_to image_tag(spell.image), spell_path(spell) %></td>
+                  <% i += 1 %>
+                <% elsif (i > 0) && (i < 5) %>
+                    <td title="<%= spell.name %>" class="spellCards"><%= link_to image_tag(spell.image), spell_path(spell) %></td>
+                  <% i += 1 %>
+                <% else %>
+                    <td title="<%= spell.name %>" class="spellCards"><%= link_to image_tag(spell.image), spell_path(spell) %></td>
+                  </tr>
+                  <% i = 0 %>
+                <% end %>             
               <% end %>
             </table>
           </div>
@@ -286,89 +389,31 @@
         </div>
         <div class="card-body">
           <div id="collapseX" class="collapse in">
-            <table class="table stats spellstats">
-              <thead>
-                <tr>
-                  <th class="w40">Spell</th>
-                  <th class="w40">Origin</th>
-                  <th class="w20">Scenarios</th>
-                </tr>
-              </thead>
+            <table class="table">   
+              <% i = 0 %>
               <% @costx.each do |spell| %>
-              <tr>
-                <td class="spell" align="center"><%= link_to spell.name, spell_path(spell) %></td>
-                <td><%= spell.origin %></td>
-                <td><%= spell.scenarios.count %></td>
-              </tr>
+                <% if i == 0 %>
+                  <tr>
+                    <td title="<%= spell.name %>" class="spellCards"><%= link_to image_tag(spell.image), spell_path(spell) %></td>
+                  <% i += 1 %>
+                <% elsif (i > 0) && (i < 5) %>
+                    <td title="<%= spell.name %>" class="spellCards"><%= link_to image_tag(spell.image), spell_path(spell) %></td>
+                  <% i += 1 %>
+                <% else %>
+                    <td title="<%= spell.name %>" class="spellCards"><%= link_to image_tag(spell.image), spell_path(spell) %></td>
+                  </tr>
+                  <% i = 0 %>
+                <% end %>             
               <% end %>
             </table>
           </div>
         </div>
       </div>
-    </div>
-
-    <div class="col-md-6 col-sm-8">
-      <div class="card">
-        <div class="card-header" id="heading2">
-          <button class="btn btn-link" data-toggle="collapse" data-target="#collapse2">
-          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;2</button>
-        </div>
-        <div class="card-body">
-          <div id="collapse2" class="collapse in">
-            <table class="table stats spellstats">
-              <thead>
-                <tr>
-                  <th class="w40">Spell</th>
-                  <th class="w40">Origin</th>
-                  <th class="w20">Scenarios</th>
-                </tr>
-              </thead>
-              <% @cost2.each do |spell| %>
-              <tr>
-                <td class="spell" align="center"><%= link_to spell.name, spell_path(spell) %></td>
-                <td><%= spell.origin %></td>
-                <td><%= spell.scenarios.count %></td>
-              </tr>
-              <% end %>
-            </table>
-          </div>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="card-header" id="heading4">
-          <button class="btn btn-link" data-toggle="collapse" data-target="#collapse4">
-          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;4</button>
-        </div>
-        <div class="card-body">
-          <div id="collapse4" class="collapse in">
-            <table class="table stats spellstats">
-              <thead>
-                <tr>
-                  <th class="w40">Spell</th>
-                  <th class="w40">Origin</th>
-                  <th class="w20">Scenarios</th>
-                </tr>
-              </thead>
-              <% @cost4.each do |spell| %>
-              <tr>
-                <td class="spell" align="center"><%= link_to spell.name, spell_path(spell) %></td>
-                <td><%= spell.origin %></td>
-                <td><%= spell.scenarios.count %></td>
-              </tr>
-              <% end %>
-            </table>
-          </div>
-        </div>
-      </div>
-    </div>
   </div>
 </div>
 
-
 <div id="by_type">
   <div class="row">
-    <div class="col-md-6 col-sm-8">
       <div class="card">
         <div class="card-header" id="headingArea">
           <button class="btn btn-link" data-toggle="collapse" data-target="#collapseArea">
@@ -376,28 +421,28 @@
         </div>
         <div class="card-body">
           <div id="collapseArea" class="collapse in">
-            <table class="table stats spellstats">
-              <thead>
-                <tr>
-                  <th class="w40">Spell</th>
-                  <th class="w40">Origin</th>
-                  <th class="w20">Scenarios</th>
-                </tr>
-              </thead>
+
+            <table class="table">   
+              <% i = 0 %>
               <% @area.each do |spell| %>
-              <tr>
-                <td class="spell" align="center"><%= link_to spell.name, spell_path(spell) %></td>
-                <td><%= spell.origin %></td>
-                <td><%= spell.scenarios.count %></td>
-              </tr>
+                <% if i == 0 %>
+                  <tr>
+                    <td title="<%= spell.name %>" class="spellCards"><%= link_to image_tag(spell.image), spell_path(spell) %></td>
+                  <% i += 1 %>
+                <% elsif (i > 0) && (i < 5) %>
+                    <td title="<%= spell.name %>" class="spellCards"><%= link_to image_tag(spell.image), spell_path(spell) %></td>
+                  <% i += 1 %>
+                <% else %>
+                    <td title="<%= spell.name %>" class="spellCards"><%= link_to image_tag(spell.image), spell_path(spell) %></td>
+                  </tr>
+                  <% i = 0 %>
+                <% end %>             
               <% end %>
             </table>
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="col-md-6 col-sm-8">
       <div class="card">
         <div class="card-header" id="headingInstant">
           <button class="btn btn-link" data-toggle="collapse" data-target="#collapseInstant">
@@ -405,20 +450,21 @@
         </div>
         <div class="card-body">
           <div id="collapseInstant" class="collapse in">
-            <table class="table stats spellstats">
-              <thead>
-                <tr>
-                  <th class="w40">Spell</th>
-                  <th class="w40">Origin</th>
-                  <th class="w20">Scenarios</th>
-                </tr>
-              </thead>
+            <table class="table">   
+              <% i = 0 %>
               <% @instant.each do |spell| %>
-              <tr>
-                <td class="spell" align="center"><%= link_to spell.name, spell_path(spell) %></td>
-                <td><%= spell.origin %></td>
-                <td><%= spell.scenarios.count %></td>
-              </tr>
+                <% if i == 0 %>
+                  <tr>
+                    <td title="<%= spell.name %>" class="spellCards"><%= link_to image_tag(spell.image), spell_path(spell) %></td>
+                  <% i += 1 %>
+                <% elsif (i > 0) && (i < 5) %>
+                    <td title="<%= spell.name %>" class="spellCards"><%= link_to image_tag(spell.image), spell_path(spell) %></td>
+                  <% i += 1 %>
+                <% else %>
+                    <td title="<%= spell.name %>" class="spellCards"><%= link_to image_tag(spell.image), spell_path(spell) %></td>
+                  </tr>
+                  <% i = 0 %>
+                <% end %>             
               <% end %>
             </table>
           </div>
@@ -432,63 +478,66 @@
         </div>
         <div class="card-body">
           <div id="collapseBlank" class="collapse in">
-            <table class="table stats spellstats">
-              <thead>
-                <tr>
-                  <th class="w40">Spell</th>
-                  <th class="w40">Origin</th>
-                  <th class="w20">Scenarios</th>
-                </tr>
-              </thead>
+            <table class="table">   
+              <% i = 0 %>
               <% @blank.each do |spell| %>
-              <tr>
-                <td class="spell" align="center"><%= link_to spell.name, spell_path(spell) %></td>
-                <td><%= spell.origin %></td>
-                <td><%= spell.scenarios.count %></td>
-              </tr>
+                <% if i == 0 %>
+                  <tr>
+                    <td title="<%= spell.name %>" class="spellCards"><%= link_to image_tag(spell.image), spell_path(spell) %></td>
+                  <% i += 1 %>
+                <% elsif (i > 0) && (i < 5) %>
+                    <td title="<%= spell.name %>" class="spellCards"><%= link_to image_tag(spell.image), spell_path(spell) %></td>
+                  <% i += 1 %>
+                <% else %>
+                    <td title="<%= spell.name %>" class="spellCards"><%= link_to image_tag(spell.image), spell_path(spell) %></td>
+                  </tr>
+                  <% i = 0 %>
+                <% end %>             
               <% end %>
             </table>
           </div>
         </div>
       </div>
-    </div>
   </div>
 </div>
 
 <div id="by_stat">
   <div class="row">
-    <div class="col-md-2 col-sm-2"></div>
-    <div class="col-md-8 col-sm-6">
-      <div class="panel panel-spell">
-        <div class="panel-heading">Name / Stats</div>
-          <table class="table stats spellstats">
-            <thead>
-              <tr>
-                <th>Spell Name</th>
-                <th>Cost</th>
-                <th>Limit</th>
-                <th>Instant</th>
-                <th>Area</th>
-                <th>Blank</th>
-                <th>Origin</th>
-              </tr>
-            </thead>
-            <% @spells.sort_by {|spell| spell.name }.each do |spell| %>
-              <tr>
-                <td class="spell"><%= link_to spell.name, spell_path(spell) %></td>
-                <td><% if spell.cost != '' %> <%= spell.cost %><% else %> - <% end %> </td>
-                <td><% if spell.limit != '' %> <%= spell.limit %><% else %> - <% end %> </td>
-                <td><% if spell.instant == 'Yes' %> &#x2714; <% else %> - <% end %></td>
-                <td><% if spell.area == 'Yes' %> &#x2714; <% else %> - <% end %></td>
-                <td><% if spell.description == 'Blank Card' %> &#x2714; <% else %> - <% end %></td>
-                <td><%= spell.origin %></td>
-              </tr>
-          <% end %>
-        </table>
-      </div></div>
-      <div class="col-md-2 col-sm-2"></div>
-    </div>
+    <div class="col-md-1 col-sm-1"></div>
+      <div class="col-md-10 col-sm-6">
+        <div class="panel panel-spell">
+          <div class="panel-heading">Name / Stats</div>
+            <table class="table stats spellstats">
+              <thead>
+                <tr>
+                  <th>Spell Name</th>
+                  <th>Cost</th>
+                  <th>Limit</th>
+                  <th>Instant</th>
+                  <th>Area</th>
+                  <th>Blank</th>
+                  <th>Scenarios</th>
+                  <th>Origin</th>
+                </tr>
+              </thead>
+              <% @spells.sort_by {|spell| spell.name }.each do |spell| %>
+                <tr>
+                  <td class="spell"><%= link_to spell.name, spell_path(spell) %></td>
+                  <td><% if spell.cost != '' %> <%= spell.cost %><% else %> - <% end %> </td>
+                  <td><% if spell.limit != '' %> <%= spell.limit %><% else %> - <% end %> </td>
+                  <td><% if spell.instant == 'Yes' %> &#x2714; <% else %> - <% end %></td>
+                  <td><% if spell.area == 'Yes' %> &#x2714; <% else %> - <% end %></td>
+                  <td><% if spell.description == 'Blank Card' %> &#x2714; <% else %> - <% end %></td>
+                  <td><%= spell.scenarios.count %></td>
+                  <td><%= spell.origin %></td>
+                </tr>
+            <% end %>
+          </table>
+        </div>
+      </div>
+    <div class="col-md-1 col-sm-1"></div>
   </div>
+</div>
 
 <script>
   $(document).ready(function() {
@@ -499,6 +548,7 @@
       $('div#by_cost').hide();
       $('div#by_type').hide();
       $('div#by_stat').hide();
+      $('div#by_card').hide();
       $('div#by_origin').show();
     });
 
@@ -509,6 +559,7 @@
       $('div#by_origin').hide();
       $('div#by_type').hide();
       $('div#by_stat').hide();
+      $('div#by_card').hide();
       $('div#by_cost').show();
     });
 
@@ -519,6 +570,7 @@
       $('div#by_origin').hide();
       $('div#by_cost').hide();
       $('div#by_stat').hide();
+      $('div#by_card').hide();
       $('div#by_type').show();
     });
 
@@ -529,8 +581,22 @@
       $('div#by_origin').hide();
       $('div#by_cost').hide();
       $('div#by_type').hide();
+      $('div#by_card').hide();
       $('div#by_stat').show();
     });
+
+
+    $('a#show_bycard').click(function(event){
+      event.preventDefault();
+      $('a.toggles').children().removeClass('active');
+      $('a#show_bycard').children().addClass('active');
+      $('div#by_origin').hide();
+      $('div#by_cost').hide();
+      $('div#by_type').hide();
+      $('div#by_card').show();
+    });
+
+
 
   });
 </script>

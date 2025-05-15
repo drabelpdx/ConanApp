@@ -1,7 +1,4 @@
 <h1>Models</h1>
-<% if logged_in? && current_user.admin? %>
-  <p><%= link_to "Add a Model", new_model_path %></p>
-<% end %>
 
 <p>Click on a model to see any hero sheets or character tiles it represents in scenarios.</p>
   <p>Models can be sorted by:</p>
@@ -210,12 +207,12 @@
       </div>
 
       <div class="card">
-        <div class="card-header" id="headingShadow">
-          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseShadow">
-          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;The Shadow Kingdom</button>
+        <div class="card-header" id="headingNails">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseNails">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Red Nails</button>
         </div>
         <div class="card-body">
-          <div id="collapseShadow" class="collapse in">
+          <div id="collapseNails" class="collapse in">
             <table class="table stats modelstats">
               <thead>
                 <tr>
@@ -224,7 +221,34 @@
                   <th class="w20">Count</th>
                 </tr>
               </thead>
-              <% @shadow.each do |model| %>
+              <% @nails.each do |model| %>
+              <tr>
+                <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
+                <td><%= model.role %></td>
+                <td><%= model.count %></td>
+              </tr>
+              <% end %>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingVersus">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseVersus">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Versus</button>
+        </div>
+        <div class="card-body">
+          <div id="collapseVersus" class="collapse in">
+            <table class="table stats modelstats">
+              <thead>
+                <tr>
+                  <th class="w50">Model</th>
+                  <th class="w30">Type</th>
+                  <th class="w20">Count</th>
+                </tr>
+              </thead>
+              <% @versus.each do |model| %>
               <tr>
                 <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
                 <td><%= model.role %></td>
@@ -537,6 +561,33 @@
       </div>
 
       <div class="card">
+        <div class="card-header" id="headingWitchHunters">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseWitchHunters">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Kushite Witch Hunters</button>
+        </div>
+        <div class="card-body">
+          <div id="collapseWitchHunters" class="collapse in">
+            <table class="table stats modelstats">
+              <thead>
+                <tr>
+                  <th class="w50">Model</th>
+                  <th class="w30">Type</th>
+                  <th class="w20">Count</th>
+                </tr>
+              </thead>
+              <% @witchhunters.each do |model| %>
+              <tr>
+                <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
+                <td><%= model.role %></td>
+                <td><%= model.count %></td>
+              </tr>
+              <% end %>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
         <div class="card-header" id="headingSabertooth">
           <button class="btn btn-link" data-toggle="collapse" data-target="#collapseSabertooth">
           &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Sabertooth Tiger</button>
@@ -618,12 +669,12 @@
       </div>
 
       <div class="card">
-        <div class="card-header" id="headingWitchHunters">
-          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseWitchHunters">
-          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Kushite Witch Hunters</button>
+        <div class="card-header" id="headingShadow">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseShadow">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;The Shadow Kingdom</button>
         </div>
         <div class="card-body">
-          <div id="collapseWitchHunters" class="collapse in">
+          <div id="collapseShadow" class="collapse in">
             <table class="table stats modelstats">
               <thead>
                 <tr>
@@ -632,7 +683,7 @@
                   <th class="w20">Count</th>
                 </tr>
               </thead>
-              <% @witchhunters.each do |model| %>
+              <% @shadow.each do |model| %>
               <tr>
                 <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
                 <td><%= model.role %></td>
@@ -643,6 +694,64 @@
           </div>
         </div>
       </div>
+
+      <div class="card">
+        <div class="card-header" id="headingWorms">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseWorms">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Worms of the Earth</button>
+        </div>
+        <div class="card-body">
+          <div id="collapseWorms" class="collapse in">
+            <table class="table stats modelstats">
+              <thead>
+                <tr>
+                  <th class="w50">Model</th>
+                  <th class="w30">Type</th>
+                  <th class="w20">Count</th>
+                </tr>
+              </thead>
+              <% @worms.each do |model| %>
+              <tr>
+                <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
+                <td><%= model.role %></td>
+                <td><%= model.count %></td>
+              </tr>
+              <% end %>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingFrazetta">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseFrazetta">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Frazetta</button>
+        </div>
+        <div class="card-body">
+          <div id="collapseFrazetta" class="collapse in">
+            <table class="table stats modelstats">
+              <thead>
+                <tr>
+                  <th class="w50">Model</th>
+                  <th class="w30">Type</th>
+                  <th class="w20">Count</th>
+                </tr>
+              </thead>
+              <% @frazetta.each do |model| %>
+              <tr>
+                <td class="model" align="center"><%= link_to model.name, model_path(model) %></td>
+                <td><%= model.role %></td>
+                <td><%= model.count %></td>
+              </tr>
+              <% end %>
+            </table>
+          </div>
+        </div>
+      </div>
+
+
+
+
 
     </div>
   </div>

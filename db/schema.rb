@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2024_05_26_182130) do
+ActiveRecord::Schema.define(version: 2025_04_02_005221) do
 
   create_table "bone_tiles", force: :cascade do |t|
     t.integer "bone_id"
@@ -221,6 +221,26 @@ ActiveRecord::Schema.define(version: 2024_05_26_182130) do
     t.datetime "updated_at", null: false
     t.text "hero_victory"
     t.text "overlord_victory"
+    t.text "correction"
+    t.string "mode"
+    t.string "credit"
+    t.text "event"
+    t.string "rtoken1"
+    t.string "rtoken2"
+    t.string "rtoken3"
+    t.string "rtoken4"
+    t.string "rtoken5"
+    t.string "rtoken6"
+    t.string "rtoken7"
+    t.string "rtoken8"
+    t.string "btoken1"
+    t.string "btoken2"
+    t.string "btoken3"
+    t.string "btoken4"
+    t.string "btoken5"
+    t.string "btoken6"
+    t.string "btoken7"
+    t.string "btoken8"
   end
 
   create_table "skill_tiles", force: :cascade do |t|

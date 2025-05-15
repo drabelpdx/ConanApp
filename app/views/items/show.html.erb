@@ -45,10 +45,3 @@
   </div>
 </div>
 
-<% if logged_in? && current_user.admin? %>
- <div class="row">
-   <br /><br />
-   <%= link_to 'Edit', edit_item_path(@item) %> |
-   <%= link_to 'Delete', item_path(@item), method: :delete, data: {confirm: "Are you sure?"} %>
- </div>
-<% end %>

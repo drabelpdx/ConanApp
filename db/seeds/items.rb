@@ -11,7 +11,7 @@
     ## Core Game
     # Weapon
     { name: 'Battle Axe', encumbrance: '3', origin: 'Core Game', count: '1',
-      armor: '', melee: 'Red-Reroll', ranged: 'Red-Reroll Throw',
+      armor: '', melee: 'Red-Reroll', ranged: 'Red-Reroll',
       defense: '', manipulation: '', role: 'Weapon',
       dice: { melee: [2], ranged: [2, 7] }, description: '', correction: '',
       image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/BattleAxe.jpg' },
@@ -23,13 +23,13 @@
       image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/BossonianBow.jpg' },
 
     { name: 'Dagger', encumbrance: '1', origin: 'Core Game', count: '2',
-      armor: '', melee: 'Yellow', ranged: 'Yellow Throw',
+      armor: '', melee: 'Yellow', ranged: 'Yellow',
       defense: '', manipulation: '', role: 'Weapon',
       dice: { melee: [5], ranged: [5, 7] }, description: '', correction: '',
       image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/Dagger.jpg' },
 
     { name: 'Conan’s Sword', encumbrance: '2', origin: 'Core Game', count: '1',
-      armor: '', melee: 'Orange', ranged: 'Orange Throw',
+      armor: '', melee: 'Orange', ranged: 'Orange',
       defense: 'Orange', manipulation: '', role: 'Weapon',
       dice: { melee: [3], ranged: [3, 7], defense: [3] }, description: '', correction: '',
       image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/ConansSword.jpg' },
@@ -53,25 +53,25 @@
       image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/Halberd.jpg' },
 
     { name: 'Javelin', encumbrance: '1', origin: 'Core Game', count: '2',
-      armor: '', melee: '', ranged: 'Red Throw',
+      armor: '', melee: '', ranged: 'Red',
       defense: '', manipulation: '', role: 'Weapon',
       dice: { ranged: [1, 7] }, description: '', correction: '',
       image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/Javelin.jpg' },
 
     { name: 'Kris', encumbrance: '1', origin: 'Core Game', count: '1',
-      armor: '', melee: 'Yellow-Reroll', ranged: 'Yellow Throw',
+      armor: '', melee: 'Yellow-Reroll', ranged: 'Yellow',
       defense: '', manipulation: '', role: 'Weapon',
       dice: { melee: [6], ranged: [5, 7] }, description: '', correction: '',
       image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/Kris.jpg' },
 
     { name: 'Ornamental Spear', encumbrance: '2', origin: 'Core Game', count: '1',
-      armor: '', melee: 'Orange-Reroll', ranged: 'Orange-Reroll Throw',
+      armor: '', melee: 'Orange-Reroll', ranged: 'Orange-Reroll',
       defense: '', manipulation: '', role: 'Weapon',
       dice: { melee: [4], ranged: [4, 7] }, description: '', correction: '',
       image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/OrnamentalSpear.jpg' },
 
     { name: 'Parrying Dagger', encumbrance: '1', origin: 'Core Game', count: '1',
-      armor: '', melee: 'Yellow-Reroll', ranged: 'Yellow-Reroll Throw',
+      armor: '', melee: 'Yellow-Reroll', ranged: 'Yellow-Reroll',
       defense: 'Yellow-Reroll', manipulation: '', role: 'Weapon',
       dice: { melee: [6], ranged: [6, 7], defense: [6] }, description: '', correction: '',
       image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/ParryingDagger.jpg' },
@@ -89,13 +89,13 @@
       image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/ThrowingKnives.jpg' },
 
     { name: 'Tribal Mace', encumbrance: '2', origin: 'Core Game', count: '1',
-      armor: '', melee: 'Orange-Reroll', ranged: 'Orange Throw',
+      armor: '', melee: 'Orange-Reroll', ranged: 'Orange',
       defense: '', manipulation: '', role: 'Weapon',
       dice: { melee: [4], ranged: [3, 7] }, description: '', correction: '',
       image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/TribalMace.jpg' },
 
     { name: 'Yuetshi Knife', encumbrance: '2', origin: 'Core Game', count: '1',
-      armor: '', melee: 'Orange-Reroll', ranged: 'Orange Throw',
+      armor: '', melee: 'Orange-Reroll', ranged: 'Orange',
       defense: '', manipulation: '', role: 'Weapon',
       dice: { melee: [4], ranged: [3, 7] }, description: '', correction: '',
       image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/YuetshiKnife.jpg' },
@@ -204,7 +204,7 @@
     ## Stretch Goals
     #  Weapon
     { name: 'Axe', encumbrance: '2', origin: 'Stretch Goal', count: '1',
-      armor: '', melee: '2 Yellow', ranged: 'Orange Throw',
+      armor: '', melee: '2 Yellow', ranged: 'Orange',
       defense: '', manipulation: '', role: 'Weapon',
       dice: { melee: [5, 5], ranged: [3, 7] }, description: '', correction: '',
       image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/Axe.jpg' },
@@ -222,7 +222,7 @@
       image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/MitrasMace.jpg' },
 
     { name: 'Pirate Saber', encumbrance: '1', origin: 'Stretch Goal', count: '1',
-      armor: '', melee: 'Orange', ranged: 'Yellow Throw',
+      armor: '', melee: 'Orange', ranged: 'Yellow',
       defense: 'Yellow', manipulation: '', role: 'Weapon',
       dice: { melee: [3], ranged: [5, 7], defense: [5] }, description: '', correction: '',
       image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/PirateSaber.jpg' },
@@ -410,7 +410,7 @@
     ## Khitai
     # Weapon
     { name: 'Khitan Short Sword', encumbrance: '2', origin: 'Khitai', count: '1',
-      armor: '', melee: 'Yellow-Reroll', ranged: 'Yellow-Reroll Throw',
+      armor: '', melee: 'Yellow-Reroll', ranged: 'Yellow-Reroll',
       defense: 'Yellow-Reroll', manipulation: '', role: 'Weapon',
       dice: { melee: [6], ranged: [6, 7], defense: [6] }, description: '', correction: '',
       image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/KhitanShortSword.jpg' },
@@ -541,7 +541,7 @@
     ## Brom Guest Box
     # Weapon
     { name: 'Conan’s Sword', encumbrance: '2', origin: 'Brom Guest Box', count: '1',
-      armor: '', melee: 'Orange', ranged: 'Orange Throw',
+      armor: '', melee: 'Orange', ranged: 'Orange',
       defense: 'Orange', manipulation: '', role: 'Weapon',
       dice: { melee: [3], ranged: [3, 7], defense: [3] }, description: '', correction: '',
       image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/ConansSword.jpg' },
@@ -553,13 +553,13 @@
       image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/ShortSword.jpg' },
 
     { name: 'Parrying Dagger', encumbrance: '1', origin: 'Brom Guest Box', count: '1',
-      armor: '', melee: 'Yellow-Reroll', ranged: 'Yellow-Reroll Throw',
+      armor: '', melee: 'Yellow-Reroll', ranged: 'Yellow-Reroll',
       defense: 'Yellow-Reroll', manipulation: '', role: 'Weapon',
       dice: { melee: [6], ranged: [6, 7], defense: [6] }, description: '', correction: '',
       image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/ParryingDagger.jpg' },
 
     { name: 'Knife', encumbrance: '1', origin: 'Brom Guest Box', count: '1',
-      armor: '', melee: 'Yellow-Reroll', ranged: 'Yellow Throw',
+      armor: '', melee: 'Yellow-Reroll', ranged: 'Yellow',
       defense: '', manipulation: '', role: 'Weapon',
       dice: { melee: [6], ranged: [5, 7] }, description: '', correction: '',
       image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/Knife.jpg' },
@@ -586,7 +586,7 @@
       image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/Sword.jpg' },
 
     { name: 'Spear', encumbrance: '2', origin: 'Legend of the Devil in Iron',
-      count: '1', armor: '', melee: 'Orange', ranged: 'Orange Throw',
+      count: '1', armor: '', melee: 'Orange', ranged: 'Orange',
       defense: '', manipulation: '', role: 'Weapon',
       dice: { melee: [3], ranged: [3, 7] }, description: '', correction: '',
       image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/Spear.jpg' },
@@ -811,7 +811,7 @@
       image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/Anchor.jpg' },
 
     { name: 'Atlantean Axe', encumbrance: '3', origin: 'Conan the Conqueror',
-      count: '1', armor: '', melee: 'Red-Reroll', ranged: 'Red-Reroll Throw',
+      count: '1', armor: '', melee: 'Red-Reroll', ranged: 'Red-Reroll',
       defense: 'Yellow', manipulation: '', role: 'Weapon',
       dice: { melee: [2], ranged: [2, 7], defense: [5] }, description: '', correction: '',
       image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/AtlanteanAxe.jpg' },
@@ -835,7 +835,7 @@
       image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/KhitanStaff.jpg' },
 
     { name: 'Heavy Spear', encumbrance: '3', origin: 'Conan the Conqueror',
-      count: '1', armor: '', melee: 'Red', ranged: 'Red Throw',
+      count: '1', armor: '', melee: 'Red', ranged: 'Red',
       defense: '', manipulation: '', role: 'Weapon',
       dice: { melee: [1], ranged: [1, 7] }, description: '', correction: '',
       image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/HeavySpear.jpg' },
@@ -909,5 +909,221 @@
       defense: '', manipulation: '', role: 'Object',
       dice: '', description: 'Use as outlined in scenario.', correction: '',
       image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/Map.jpg' },
+
+
+    ## Core Game
+    # Weapon
+
+    { name: 'Akbitana’s Claymore', encumbrance: '3', origin: 'Red Nails',
+      count: '1', armor: '', melee: 'Red-Reroll', ranged: '',
+      defense: 'Orange', manipulation: '', role: 'Weapon',
+      dice: { melee: [2], defense: [3] }, description: 'Gains Counterattack skill.', correction: '',
+      image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/AkbitanasClaymore.jpg' },
+
+    { name: 'Bori’s Hammer', encumbrance: '3', origin: 'Red Nails',
+      count: '1', armor: '', melee: 'Red-Reroll', ranged: '',
+      defense: '', manipulation: '', role: 'Weapon',
+      dice: { melee: [2] }, description: 'Gains Wall Wrecker skill.', correction: '',
+      image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/BorisHammer.jpg' },
+
+    { name: 'Bow of Set', encumbrance: '2', origin: 'Red Nails', count: '1',
+      armor: '', melee: '', ranged: 'Orange',
+      defense: '', manipulation: '', role: 'Weapon',
+      dice: { ranged: [3] }, description: 'Gains Precision Shot skill.', correction: '',
+      image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/BowofSet.jpg' },
+
+    { name: 'Club', encumbrance: '4', origin: 'Red Nails', count: '1',
+      armor: '', melee: '2 Red-Reroll', ranged: '',
+      defense: '', manipulation: '', role: 'Weapon',
+      dice: { manipulation: [5], ranged: [6] }, description: '', correction: '',
+      image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/Club.jpg' },
+
+    { name: 'Crowbill', encumbrance: '1', origin: 'Red Nails', count: '1',
+      armor: '', melee: 'Red-Reroll', ranged: '',
+      defense: '', manipulation: '', role: 'Weapon',
+      dice: { melee: [2], ranged: [2, 7] }, description: '', correction: '',
+      image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/Crowbill.jpg' },
+
+    { name: 'Harpoon', encumbrance: '4', origin: 'Red Nails', count: '1',
+      armor: '', melee: '', ranged: '4 Red',
+      defense: '', manipulation: '', role: 'Weapon',
+      dice: { ranged: [1, 1, 1, 1, 7] }, description: '', correction: '',
+      image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/Harpoon.jpg' },
+
+    { name: 'Hurlbat', encumbrance: '2', origin: 'Red Nails', count: '1',
+      armor: '', melee: 'Orange-Reroll', ranged: 'Red-Reroll',
+      defense: '', manipulation: '', role: 'Weapon',
+      dice: { melee: [4], ranged: [2, 7] }, description: 'Gains Precision Strike skill.', correction: '',
+      image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/Hurlbat.jpg' },
+
+    { name: 'Lemurian Blade', encumbrance: '2', origin: 'Red Nails', count: '1',
+      armor: '', melee: 'Orange-Reroll', ranged: '',
+      defense: '', manipulation: '', role: 'Weapon',
+      dice: { melee: [4] }, description: 'Gains Counterattack skill.', correction: '',
+      image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/LemurianBlade.jpg' },
+
+    { name: 'Mace of Ibis', encumbrance: '3', origin: 'Red Nails', count: '1',
+      armor: '', melee: 'Orange-Reroll', ranged: '',
+      defense: '', manipulation: '', role: 'Weapon',
+      dice: { melee: [4] }, description: 'Gains Support skill.', correction: '',
+      image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/MaceofIbis.jpg' },
+
+    { name: 'Phoenix Sword', encumbrance: '2', origin: 'Red Nails',
+      count: '1', armor: '', melee: 'Orange-Reroll Yellow', ranged: '',
+      defense: 'Yellow-Reroll', manipulation: '', role: 'Weapon',
+      dice: { melee: [4, 5], defense: [6] }, description: '', correction: '',
+      image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/PhoenixSword.jpg' },
+
+    { name: 'Rapier', encumbrance: '1', origin: 'Red Nails', count: '1',
+      armor: '', melee: 'Yellow-Reroll', ranged: '',
+      defense: 'Orange-Reroll', manipulation: '', role: 'Weapon',
+      dice: { melee: [6], defense: [4] }, description: '', correction: '',
+      image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/Rapier.jpg' },
+
+    { name: 'Shemite Bow', encumbrance: '2', origin: 'Red Nails',
+      count: '1', armor: '', melee: '', ranged: 'Orange Yellow',
+      defense: '', manipulation: '', role: 'Weapon',
+      dice: { ranged: [3, 5] }, description: '', correction: '',
+      image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/ShemiteBow.jpg' },
+
+    { name: 'Shuko', encumbrance: '1', origin: 'Red Nails', count: '1',
+      armor: '', melee: 'Yellow-Reroll', ranged: '',
+      defense: 'Yellow', manipulation: '', role: 'Weapon',
+      dice: { melee: [6], defense: [5] }, description: 'Gains Climb skill.', correction: '',
+      image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/Shuko.jpg' },
+
+    { name: 'Shuriken', encumbrance: '0', origin: 'Red Nails', count: '1',
+      armor: '', melee: '', ranged: 'Orange',
+      defense: '', manipulation: '', role: 'Weapon',
+      dice: { ranged: [3] }, description: 'Can only be used against targets in your area or adjacent areas with line of sight.', 
+      correction: '', image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/Shuriken.jpg' },                  
+
+    { name: 'Sorcerer’s Staff', encumbrance: '2', origin: 'Red Nails', count: '1',
+      armor: '', melee: 'Yellow-Reroll', ranged: '',
+      defense: 'Orange', manipulation: '', role: 'Weapon',
+      dice: { melee: [6], defense: [3] }, description: '', correction: '',
+      image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/SorcerersStaff.jpg' },
+
+    { name: 'Spear', encumbrance: '2', origin: 'Red Nails',
+      count: '1', armor: '', melee: 'Orange', ranged: 'Orange',
+      defense: '', manipulation: '', role: 'Weapon',
+      dice: { melee: [3], ranged: [3, 7] }, description: '', correction: '',
+      image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/Spear.jpg' },
+
+    { name: 'Stiletto', encumbrance: '0', origin: 'Red Nails', count: '1',
+      armor: '', melee: 'Yellow-Reroll', ranged: '',
+      defense: '', manipulation: '', role: 'Weapon',
+      dice: { melee: [6] }, description: 'Gains Precision Strike skill.', correction: '',
+      image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/Stiletto.jpg' },
+
+    { name: 'Two-Handed Axe', encumbrance: '3', origin: 'Red Nails', count: '1',
+      armor: '', melee: 'Red-Reroll', ranged: '',
+      defense: '', manipulation: '', role: 'Weapon',
+      dice: { melee: [6] }, description: 'Gains Circular Strike skill', correction: '',
+      image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/TwoHandedAxe.jpg' },               
+
+    { name: 'Whip', encumbrance: '1', origin: 'Red Nails',
+      count: '1', armor: '', melee: 'Orange-Reroll', ranged: '', defense: '', manipulation: '',
+      role: 'Other', dice: { melee: [4] }, description: 'Discard this card to place a Rope token in your area.', 
+      correction: '', image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/Whip.jpg' }, 
+
+    # Armor
+    { name: 'Asshuri Cuirass', encumbrance: '4', origin: 'Red Nails',
+      count: '1', armor: 'Red', melee: '', ranged: '', defense: '', manipulation: '',
+      role: 'Armor', dice: { armor: [1] }, description: '', correction: '',
+      image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/AsshuriCuirass.jpg' },
+
+    { name: 'Heavy Armor', encumbrance: '4', origin: 'Red Nails', count: '1',
+      armor: 'Orange-Reroll', melee: '', ranged: '',
+      defense: '', manipulation: '', role: 'Armor',
+      dice: { armor: [4] }, description: 'Ignore the effects of Precision Strike and Precision Shot.', correction: '',
+      image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/HeavyArmor.jpg' },
+
+    { name: 'Hyrkanian Helmet', encumbrance: '1', origin: 'Red Nails', count: '1',
+      armor: 'Yellow', melee: '', ranged: '',
+      defense: '', manipulation: '', role: 'Armor',
+      dice: { armor: [5] }, description: 'Can be used in addition to another Assest card with an Armor bonus.', correction: '',
+      image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/HyrkanianHelmet.jpg' },
+
+    { name: 'Shadow Mantel', encumbrance: '0', origin: 'Red Nails', count: '1',
+      armor: '', melee: '', ranged: '',
+      defense: '', manipulation: '', role: 'Armor',
+      dice: { }, description: 'Gains Untouchable skill.', correction: '',
+      image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/ShadowMantel.jpg' },      
+
+
+    # Shield / Staff
+    { name: 'Nemedian Shield', encumbrance: '2', origin: 'Red Nails', count: '1',
+      armor: '', melee: '', ranged: '',
+      defense: 'Orange', manipulation: '', role: 'Shield / Staff',
+      dice: { defense: [3] }, description: 'Gain Bodyguard skill.', correction: '',
+      image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/NemedianShield.jpg' },
+      
+    { name: 'Shield of Mitra', encumbrance: '3', origin: 'Red Nails',
+      count: '1', armor: '', melee: '', ranged: '', defense: 'Red', manipulation: '',
+      role: 'Shield / Staff', dice: { defense: [1] }, description: '', correction: '',
+      image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/ShieldofMitra.jpg' },
+
+    { name: 'Stygian Shield', encumbrance: '2', origin: 'Red Nails',
+      count: '1', armor: '', melee: '', ranged: '', defense: 'Orange', manipulation: '',
+      role: 'Shield / Staff', dice: { defense: [3] }, description: 'Gains Untouchable skill.', correction: '',
+      image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/StygianShield.jpg' },
+
+
+    # Drink
+    { name: 'Minor Life Potion', encumbrance: '0', origin: 'Red Nails', count: '1',
+      armor: '', melee: '', ranged: '',
+      defense: '', manipulation: '', role: 'Drink',
+      dice: '', description: 'Move 1 gem from your Fatigue zone or Wound zone to your Reserve zone.',
+      correction: '', image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/MinorLifePotion.jpg' },
+
+    { name: 'Tankard', encumbrance: '0', origin: 'Red Nails', count: '1',
+      armor: '', melee: '', ranged: '',
+      defense: '', manipulation: '', role: 'Drink',
+      dice: '', description: 'Move 2 gem from your Spent zone to your Reserve zone.',
+      correction: '', image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/Tankard.jpg' },
+
+
+    # Object
+     { name: 'Armbands of Bel', encumbrance: '1', origin: 'Red Nails',
+      count: '1', armor: '', melee: '', ranged: '', defense: '', manipulation: '',
+      role: 'Other', dice: '', description: 'Adds 1 Orange-Reroll die to the manipulation skill.', 
+      correction: '', image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/ArmbandsofBel.jpg' },
+
+    { name: 'Kordava Boots', encumbrance: '0', origin: 'Red Nails',
+      count: '1', armor: '', melee: '', ranged: '', defense: '', manipulation: '',
+      role: 'Other', dice: '', description: 'Adds 1 to the base movement.', 
+      correction: '', image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/KordavaBoots.jpg' },
+
+    { name: 'Serpent Crown', encumbrance: '0', origin: 'Red Nails',
+      count: '1', armor: '', melee: '', ranged: '', defense: '', manipulation: '',
+      role: 'Other', dice: '', description: '', 
+      correction: '', image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/SerpentCrown.jpg' },
+
+    { name: 'Jade Wand', encumbrance: '1', origin: 'Red Nails',
+      count: '1', armor: '', melee: '', ranged: '', defense: '', manipulation: '',
+      role: 'Other', dice: '', description: '', 
+      correction: '', image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/JadeWand.jpg' },      
+
+    { name: 'Quiver', encumbrance: '0', origin: 'Red Nails',
+      count: '1', armor: '', melee: '', ranged: '', defense: '', manipulation: '',
+      role: 'Other', dice: '', description: 'Reduce the Encumbrance value of an equipped Bow or Crossbow by 1', 
+      correction: '', image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/Quiver.jpg' },   
+
+    { name: 'Black Stone', encumbrance: '2', origin: 'Red Nails',
+      count: '1', armor: '', melee: '', ranged: '', defense: '', manipulation: '',
+      role: 'Other', dice: '', description: '', 
+      correction: '', image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/BlackStone.jpg' }, 
+
+    { name: 'Pipes of Madness', encumbrance: '0', origin: 'Red Nails',
+      count: '1', armor: '', melee: '', ranged: '', defense: '', manipulation: '',
+      role: 'Other', dice: '', description: '', 
+      correction: '', image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/PipesofMadness.jpg' }, 
+
+    { name: 'Rope', encumbrance: '1', origin: 'Red Nails',
+      count: '1', armor: '', melee: '', ranged: '', defense: '', manipulation: '',
+      role: 'Other', dice: '', description: 'Discard this card to place a Rope token in your area.', 
+      correction: '', image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/Rope.jpg' }, 
+
 
   ])

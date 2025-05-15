@@ -109,6 +109,22 @@
       image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/products/TheHidenChambers.jpg' },
 
 
+    ### 3nd KS
+    ## Red Nails 2024
+    { name: 'Red Nails', description: '2024 Kickstarter expansion', origin: '2024Expansion',
+      image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/products/RedNails.jpg' },
+
+    { name: 'Versus', description: '2024 Kickstarter expansion', origin: '2024Expansion',
+      image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/products/Versus.jpg' },
+
+
+    ## Add-On Boxes 2024
+    { name: 'Worms of the Earth', description: '', origin: '2024AddOn',
+      image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/products/WormsEarth.jpg' },
+
+    { name: 'Frazetta Guest Box', description: '', origin: '2024AddOn',
+      image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/products/FrazettaBox.jpg' },
+
     ### Others
     ## Books
     ## Maps

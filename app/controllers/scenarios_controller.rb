@@ -79,12 +79,16 @@ class ScenariosController < ApplicationController
     def scenario_params
       params.require(:scenario).permit(:name, :description, :origin, :map_image,
                                        :pdf_link, :player_count, :complexity,
-                                       :hero_goal, :hero_setup,
+                                       :mode, :hero_goal, :hero_setup,
                                        :overlord_goal, :overlord_setup,
                                        :tile1, :tile2, :tile3, :tile4,
                                        :tile5, :tile6, :tile7, :tile8,
                                        :life1, :life2, :life3, :life4,
                                        :life5, :life6, :life7, :life8,
+                                       :btoken1, :btoken2, :btoken3, :btoken4, 
+                                       :btoken5, :btoken6, :btoken7, :btoken8, 
+                                       :rtoken1, :rtoken2, :rtoken3, :rtoken4, 
+                                       :rtoken5, :rtoken6, :rtoken7, :rtoken8, 
                                        :special_rules, map_ids: [],
                                         hero_ids: [], tile_ids: [],
                                         spell_ids: [], item_ids: [])
@@ -95,15 +99,21 @@ class ScenariosController < ApplicationController
       @king = Scenario.where(origin: 'King Pledge')
       @stretch = Scenario.where(origin: 'Stretch Goal')
       @nordheim = Scenario.where(origin: 'Nordheim')
-      @stygia = Scenario.where(origin: 'Stygia')
       @khitai = Scenario.where(origin: 'Khitai')
+      @stygia = Scenario.where(origin: 'Stygia')
       @set = Scenario.where(origin: 'Book of Set')
       @legend = Scenario.where(origin: 'Legend of the Devil in Iron')
       @skelos = Scenario.where(origin: 'Tome of Skelos')
-      @skelosCamp = Scenario.where(origin: 'Tome of Skelos: Campaign')
       @brotherhood = Scenario.where(origin: 'Tales of the Red Brotherhood')
       @shadow = Scenario.where(origin: 'The Shadow Kingdom')
-
+      @nails = Scenario.where(origin: 'Red Nails')
+      @nailssg = Scenario.where(origin: 'Red Nails Stretch Goal')
+      @worms = Scenario.where(origin: 'Worms of the Earth')
+      @versus = Scenario.where(origin: 'Versus')
+      @frazetta = Scenario.where(origin: 'Frazetta Guest Box')
+      @adventure = Scenario.where(mode: 'Adventure')
+      @solo = Scenario.where(mode: 'Solo/Cooperative')
+      @versus = Scenario.where(mode: 'Versus')
     end
 
     def set_tiles

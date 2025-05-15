@@ -70,6 +70,8 @@ class ProductsController < ApplicationController
       @expansions2020 = Product.where(origin: '2020Expansion')
       @addons2020 = Product.where(origin: '2020AddOn')
       @books2020 = Product.where(origin: '2020Book')
+      @expansions2024 = Product.where(origin: '2024Expansion')
+      @addons2024 = Product.where(origin: '2024AddOn')
     end
 
     def require_admin

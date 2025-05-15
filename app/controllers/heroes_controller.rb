@@ -80,6 +80,12 @@ class HeroesController < ApplicationController
       @khitai = Hero.where(origin: 'Khitai')
       @conqueror = Hero.where(origin: 'Conan the Conqueror')
       @shadow = Hero.where(origin: 'The Shadow Kingdom')
+
+      @nails = Hero.where(origin: 'Red Nails')
+      @versus = Hero.where(origin: 'Versus')
+      @worms = Hero.where(origin: 'Worms of the Earth')
+      @frazetta = Hero.where(origin: 'Frazetta Guest Box')
+
     end
 
     def require_admin

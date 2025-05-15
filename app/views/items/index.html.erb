@@ -1,7 +1,4 @@
 <h1>Item / Equipment Cards</h1>
-<% if logged_in? && current_user.admin? %>
-  <p><%= link_to "Add an Item", new_item_path %></p>
-<% end %>
 
 <p>Click on a item to see the card and any scenarios it appears in.</p>
   <p>Items can be sorted by:</p>
@@ -19,8 +16,6 @@
 
 <div id="by_origin">
   <div class="row">
-    <div class="col-md-6 col-sm-8">
-
       <div class="card">
         <div class="card-header" id="headingCore">
           <button class="btn btn-link" data-toggle="collapse" data-target="#collapseCore">
@@ -29,21 +24,49 @@
         <div class="card-body">
           <div id="collapseCore" class="collapse in">
             <table class="table stats itemstats">
-              <thead>
-                <tr>
-                  <th class="w40">Item</th>
-                  <th class="w35">Type</th>
-                  <th class="w15">Count</th>
-                  <th class="w10">Scenarios</th>
-                </tr>
-              </thead>
+            <table class="table">   
+              <% i = 0 %>
               <% @core.each do |item| %>
-              <tr>
-                <td class="item" align="center"><%= link_to item.name, item_path(item) %></td>
-                <td><%= item.role %></td>
-                <td><%= item.count %></td>
-                <td><%= item.scenarios.count %></td>
-              </tr>
+                <% if i == 0 %>
+                  <tr>
+                    <td title="<%= item.name %>" class="itemCards"><%= link_to image_tag(item.image), item_path(item) %></td>
+                  <% i += 1 %>
+                <% elsif (i > 0) && (i < 5) %>
+                    <td title="<%= item.name %>" class="itemCards"><%= link_to image_tag(item.image), item_path(item) %></td>
+                  <% i += 1 %>
+                <% else %>
+                    <td title="<%= item.name %>" class="itemCards"><%= link_to image_tag(item.image), item_path(item) %></td>
+                  </tr>
+                  <% i = 0 %>
+                <% end %>             
+              <% end %>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingStretch">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseStretch">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Stretch Goal</button>
+        </div>
+        <div class="card-body">
+          <div id="collapseStretch" class="collapse in">
+            <table class="table">   
+              <% i = 0 %>
+              <% @stretch.each do |item| %>
+                <% if i == 0 %>
+                  <tr>
+                    <td title="<%= item.name %>" class="itemCards"><%= link_to image_tag(item.image), item_path(item) %></td>
+                  <% i += 1 %>
+                <% elsif (i > 0) && (i < 5) %>
+                    <td title="<%= item.name %>" class="itemCards"><%= link_to image_tag(item.image), item_path(item) %></td>
+                  <% i += 1 %>
+                <% else %>
+                    <td title="<%= item.name %>" class="itemCards"><%= link_to image_tag(item.image), item_path(item) %></td>
+                  </tr>
+                  <% i = 0 %>
+                <% end %>             
               <% end %>
             </table>
           </div>
@@ -57,22 +80,21 @@
         </div>
         <div class="card-body">
           <div id="collapseKhitai" class="collapse in">
-            <table class="table stats itemstats">
-              <thead>
-                <tr>
-                  <th class="w40">Item</th>
-                  <th class="w35">Type</th>
-                  <th class="w15">Count</th>
-                  <th class="w10">Scenarios</th>
-                </tr>
-              </thead>
+            <table class="table">   
+              <% i = 0 %>
               <% @khitai.each do |item| %>
-              <tr>
-                <td class="item" align="center"><%= link_to item.name, item_path(item) %></td>
-                <td><%= item.role %></td>
-                <td><%= item.count %></td>
-                <td><%= item.scenarios.count %></td>
-              </tr>
+                <% if i == 0 %>
+                  <tr>
+                    <td title="<%= item.name %>" class="itemCards"><%= link_to image_tag(item.image), item_path(item) %></td>
+                  <% i += 1 %>
+                <% elsif (i > 0) && (i < 5) %>
+                    <td title="<%= item.name %>" class="itemCards"><%= link_to image_tag(item.image), item_path(item) %></td>
+                  <% i += 1 %>
+                <% else %>
+                    <td title="<%= item.name %>" class="itemCards"><%= link_to image_tag(item.image), item_path(item) %></td>
+                  </tr>
+                  <% i = 0 %>
+                <% end %>             
               <% end %>
             </table>
           </div>
@@ -86,22 +108,21 @@
         </div>
         <div class="card-body">
           <div id="collapseNordheim" class="collapse in">
-            <table class="table stats itemstats">
-              <thead>
-                <tr>
-                  <th class="w40">Item</th>
-                  <th class="w35">Type</th>
-                  <th class="w15">Count</th>
-                  <th class="w10">Scenarios</th>
-                </tr>
-              </thead>
+            <table class="table">   
+              <% i = 0 %>
               <% @nordheim.each do |item| %>
-              <tr>
-                <td class="item" align="center"><%= link_to item.name, item_path(item) %></td>
-                <td><%= item.role %></td>
-                <td><%= item.count %></td>
-                <td><%= item.scenarios.count %></td>
-              </tr>
+                <% if i == 0 %>
+                  <tr>
+                    <td title="<%= item.name %>" class="itemCards"><%= link_to image_tag(item.image), item_path(item) %></td>
+                  <% i += 1 %>
+                <% elsif (i > 0) && (i < 5) %>
+                    <td title="<%= item.name %>" class="itemCards"><%= link_to image_tag(item.image), item_path(item) %></td>
+                  <% i += 1 %>
+                <% else %>
+                    <td title="<%= item.name %>" class="itemCards"><%= link_to image_tag(item.image), item_path(item) %></td>
+                  </tr>
+                  <% i = 0 %>
+                <% end %>             
               <% end %>
             </table>
           </div>
@@ -115,82 +136,21 @@
         </div>
         <div class="card-body">
           <div id="collapseStygia" class="collapse in">
-            <table class="table stats itemstats">
-              <thead>
-                <tr>
-                  <th class="w40">Item</th>
-                  <th class="w35">Type</th>
-                  <th class="w15">Count</th>
-                  <th class="w10">Scenarios</th>
-                </tr>
-              </thead>
+            <table class="table">   
+              <% i = 0 %>
               <% @stygia.each do |item| %>
-              <tr>
-                <td class="item" align="center"><%= link_to item.name, item_path(item) %></td>
-                <td><%= item.role %></td>
-                <td><%= item.count %></td>
-                <td><%= item.scenarios.count %></td>
-              </tr>
-              <% end %>
-            </table>
-          </div>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="card-header" id="headingConqueror">
-          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseConqueror">
-          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Conan the Conqueror</button>
-        </div>
-        <div class="card-body">
-          <div id="collapseConqueror" class="collapse in">
-            <table class="table stats itemstats">
-              <thead>
-                <tr>
-                  <th class="w40">Item</th>
-                  <th class="w35">Type</th>
-                  <th class="w15">Count</th>
-                  <th class="w10">Scenarios</th>
-                </tr>
-              </thead>
-              <% @conqueror.each do |item| %>
-              <tr>
-                <td class="item" align="center"><%= link_to item.name, item_path(item) %></td>
-                <td><%= item.role %></td>
-                <td><%= item.count %></td>
-                <td><%= item.scenarios.count %></td>
-              </tr>
-              <% end %>
-            </table>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-6 col-sm-8">
-      <div class="card">
-        <div class="card-header" id="headingStretch">
-          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseStretch">
-          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Stretch Goal</button>
-        </div>
-        <div class="card-body">
-          <div id="collapseStretch" class="collapse in">
-            <table class="table stats itemstats">
-              <thead>
-                <tr>
-                  <th class="w40">Item</th>
-                  <th class="w35">Type</th>
-                  <th class="w15">Count</th>
-                  <th class="w10">Scenarios</th>
-                </tr>
-              </thead>
-              <% @stretch.each do |item| %>
-              <tr>
-                <td class="item" align="center"><%= link_to item.name, item_path(item) %></td>
-                <td><%= item.role %></td>
-                <td><%= item.count %></td>
-                <td><%= item.scenarios.count %></td>
-              </tr>
+                <% if i == 0 %>
+                  <tr>
+                    <td title="<%= item.name %>" class="itemCards"><%= link_to image_tag(item.image), item_path(item) %></td>
+                  <% i += 1 %>
+                <% elsif (i > 0) && (i < 5) %>
+                    <td title="<%= item.name %>" class="itemCards"><%= link_to image_tag(item.image), item_path(item) %></td>
+                  <% i += 1 %>
+                <% else %>
+                    <td title="<%= item.name %>" class="itemCards"><%= link_to image_tag(item.image), item_path(item) %></td>
+                  </tr>
+                  <% i = 0 %>
+                <% end %>             
               <% end %>
             </table>
           </div>
@@ -204,22 +164,21 @@
         </div>
         <div class="card-body">
           <div id="collapseBrom" class="collapse in">
-            <table class="table stats itemstats">
-              <thead>
-                <tr>
-                  <th class="w40">Item</th>
-                  <th class="w35">Type</th>
-                  <th class="w15">Count</th>
-                  <th class="w10">Scenarios</th>
-                </tr>
-              </thead>
+            <table class="table">   
+              <% i = 0 %>
               <% @brom.each do |item| %>
-              <tr>
-                <td class="item" align="center"><%= link_to item.name, item_path(item) %></td>
-                <td><%= item.role %></td>
-                <td><%= item.count %></td>
-                <td><%= item.scenarios.count %></td>
-              </tr>
+                <% if i == 0 %>
+                  <tr>
+                    <td title="<%= item.name %>" class="itemCards"><%= link_to image_tag(item.image), item_path(item) %></td>
+                  <% i += 1 %>
+                <% elsif (i > 0) && (i < 5) %>
+                    <td title="<%= item.name %>" class="itemCards"><%= link_to image_tag(item.image), item_path(item) %></td>
+                  <% i += 1 %>
+                <% else %>
+                    <td title="<%= item.name %>" class="itemCards"><%= link_to image_tag(item.image), item_path(item) %></td>
+                  </tr>
+                  <% i = 0 %>
+                <% end %>             
               <% end %>
             </table>
           </div>
@@ -233,36 +192,88 @@
         </div>
         <div class="card-body">
           <div id="collapseCampaign" class="collapse in">
-            <table class="table stats itemstats">
-              <thead>
-                <tr>
-                  <th class="w40">Item</th>
-                  <th class="w35">Type</th>
-                  <th class="w15">Count</th>
-                  <th class="w10">Scenarios</th>
-                </tr>
-              </thead>
+            <table class="table">   
+              <% i = 0 %>
               <% @campaign.each do |item| %>
-              <tr>
-                <td class="item" align="center"><%= link_to item.name, item_path(item) %></td>
-                <td><%= item.role %></td>
-                <td><%= item.count %></td>
-                <td><%= item.scenarios.count %></td>
-              </tr>
+                <% if i == 0 %>
+                  <tr>
+                    <td title="<%= item.name %>" class="campaignCards"><%= link_to image_tag(item.image), item_path(item) %></td>
+                  <% i += 1 %>
+                <% elsif (i > 0) && (i < 5) %>
+                    <td title="<%= item.name %>" class="campaignCards"><%= link_to image_tag(item.image), item_path(item) %></td>
+                  <% i += 1 %>
+                <% else %>
+                    <td title="<%= item.name %>" class="campaignCards"><%= link_to image_tag(item.image), item_path(item) %></td>
+                  </tr>
+                  <% i = 0 %>
+                <% end %>             
               <% end %>
             </table>
           </div>
         </div>
       </div>
-    </div>
+
+      <div class="card">
+        <div class="card-header" id="headingConqueror">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseConqueror">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Conan the Conqueror</button>
+        </div>
+        <div class="card-body">
+          <div id="collapseConqueror" class="collapse in">
+            <table class="table">   
+              <% i = 0 %>
+              <% @conqueror.each do |item| %>
+                <% if i == 0 %>
+                  <tr>
+                    <td title="<%= item.name %>" class="itemCards"><%= link_to image_tag(item.image), item_path(item) %></td>
+                  <% i += 1 %>
+                <% elsif (i > 0) && (i < 5) %>
+                    <td title="<%= item.name %>" class="itemCards"><%= link_to image_tag(item.image), item_path(item) %></td>
+                  <% i += 1 %>
+                <% else %>
+                    <td title="<%= item.name %>" class="itemCards"><%= link_to image_tag(item.image), item_path(item) %></td>
+                  </tr>
+                  <% i = 0 %>
+                <% end %>             
+              <% end %>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingNails">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseNails">
+          &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Red Nails</button>
+        </div>
+        <div class="card-body">
+          <div id="collapseNails" class="collapse in">
+            <table class="table">   
+              <% i = 0 %>
+              <% @nails.each do |item| %>
+                <% if i == 0 %>
+                  <tr>
+                    <td title="<%= item.name %>" class="itemCards"><%= link_to image_tag(item.image), item_path(item) %></td>
+                  <% i += 1 %>
+                <% elsif (i > 0) && (i < 5) %>
+                    <td title="<%= item.name %>" class="itemCards"><%= link_to image_tag(item.image), item_path(item) %></td>
+                  <% i += 1 %>
+                <% else %>
+                    <td title="<%= item.name %>" class="itemCards"><%= link_to image_tag(item.image), item_path(item) %></td>
+                  </tr>
+                  <% i = 0 %>
+                <% end %>             
+              <% end %>
+            </table>
+          </div>
+        </div>
+      </div>      
   </div>
 </div>
 
 
 <div id="by_type">
   <div class="row">
-    <div class="col-md-6 col-sm-8">
-
       <div class="card">
         <div class="card-header" id="headingWeapon">
           <button class="btn btn-link" data-toggle="collapse" data-target="#collapseWeapon">
@@ -270,22 +281,21 @@
         </div>
         <div class="card-body">
           <div id="collapseWeapon" class="collapse in">
-            <table class="table stats itemstats">
-              <thead>
-                <tr>
-                  <th class="w40">Item</th>
-                  <th class="w35">Origin</th>
-                  <th class="w15">Count</th>
-                  <th class="w10">Scenarios</th>
-                </tr>
-              </thead>
+            <table class="table">   
+              <% i = 0 %>
               <% @weapon.each do |item| %>
-              <tr>
-                <td class="item" align="center"><%= link_to item.name, item_path(item) %></td>
-                <td><%= item.origin %></td>
-                <td><%= item.count %></td>
-                <td><%= item.scenarios.count %></td>
-              </tr>
+                <% if i == 0 %>
+                  <tr>
+                    <td title="<%= item.name %>" class="itemCards"><%= link_to image_tag(item.image), item_path(item) %></td>
+                  <% i += 1 %>
+                <% elsif (i > 0) && (i < 5) %>
+                    <td title="<%= item.name %>" class="itemCards"><%= link_to image_tag(item.image), item_path(item) %></td>
+                  <% i += 1 %>
+                <% else %>
+                    <td title="<%= item.name %>" class="itemCards"><%= link_to image_tag(item.image), item_path(item) %></td>
+                  </tr>
+                  <% i = 0 %>
+                <% end %>             
               <% end %>
             </table>
           </div>
@@ -299,29 +309,27 @@
         </div>
         <div class="card-body">
           <div id="collapseArmor" class="collapse in">
-            <table class="table stats itemstats">
-              <thead>
-                <tr>
-                  <th class="w40">Item</th>
-                  <th class="w35">Origin</th>
-                  <th class="w15">Count</th>
-                  <th class="w10">Scenarios</th>
-                </tr>
-              </thead>
+            <table class="table">   
+              <% i = 0 %>
               <% @armor.each do |item| %>
-              <tr>
-                <td class="item" align="center"><%= link_to item.name, item_path(item) %></td>
-                <td><%= item.origin %></td>
-                <td><%= item.count %></td>
-                <td><%= item.scenarios.count %></td>
-              </tr>
+                <% if i == 0 %>
+                  <tr>
+                    <td title="<%= item.name %>" class="itemCards"><%= link_to image_tag(item.image), item_path(item) %></td>
+                  <% i += 1 %>
+                <% elsif (i > 0) && (i < 5) %>
+                    <td title="<%= item.name %>" class="itemCards"><%= link_to image_tag(item.image), item_path(item) %></td>
+                  <% i += 1 %>
+                <% else %>
+                    <td title="<%= item.name %>" class="itemCards"><%= link_to image_tag(item.image), item_path(item) %></td>
+                  </tr>
+                  <% i = 0 %>
+                <% end %>             
               <% end %>
             </table>
           </div>
         </div>
       </div>
-    </div>
-    <div class="col-md-6 col-sm-8">
+
       <div class="card">
         <div class="card-header" id="headingObject">
           <button class="btn btn-link" data-toggle="collapse" data-target="#collapseObject">
@@ -329,22 +337,21 @@
         </div>
         <div class="card-body">
           <div id="collapseObject" class="collapse in">
-            <table class="table stats itemstats">
-              <thead>
-                <tr>
-                  <th class="w40">Item</th>
-                  <th class="w35">Origin</th>
-                  <th class="w15">Count</th>
-                  <th class="w10">Scenarios</th>
-                </tr>
-              </thead>
+            <table class="table">   
+              <% i = 0 %>
               <% @object.each do |item| %>
-              <tr>
-                <td class="item" align="center"><%= link_to item.name, item_path(item) %></td>
-                <td><%= item.origin %></td>
-                <td><%= item.count %></td>
-                <td><%= item.scenarios.count %></td>
-              </tr>
+                <% if i == 0 %>
+                  <tr>
+                    <td title="<%= item.name %>" class="itemCards"><%= link_to image_tag(item.image), item_path(item) %></td>
+                  <% i += 1 %>
+                <% elsif (i > 0) && (i < 5) %>
+                    <td title="<%= item.name %>" class="itemCards"><%= link_to image_tag(item.image), item_path(item) %></td>
+                  <% i += 1 %>
+                <% else %>
+                    <td title="<%= item.name %>" class="itemCards"><%= link_to image_tag(item.image), item_path(item) %></td>
+                  </tr>
+                  <% i = 0 %>
+                <% end %>             
               <% end %>
             </table>
           </div>
@@ -358,22 +365,21 @@
         </div>
         <div class="card-body">
           <div id="collapseDrink" class="collapse in">
-            <table class="table stats itemstats">
-              <thead>
-                <tr>
-                  <th class="w40">Item</th>
-                  <th class="w35">Origin</th>
-                  <th class="w15">Count</th>
-                  <th class="w10">Scenarios</th>
-                </tr>
-              </thead>
+            <table class="table">   
+              <% i = 0 %>
               <% @drink.each do |item| %>
-              <tr>
-                <td class="item" align="center"><%= link_to item.name, item_path(item) %></td>
-                <td><%= item.origin %></td>
-                <td><%= item.count %></td>
-                <td><%= item.scenarios.count %></td>
-              </tr>
+                <% if i == 0 %>
+                  <tr>
+                    <td title="<%= item.name %>" class="itemCards"><%= link_to image_tag(item.image), item_path(item) %></td>
+                  <% i += 1 %>
+                <% elsif (i > 0) && (i < 5) %>
+                    <td title="<%= item.name %>" class="itemCards"><%= link_to image_tag(item.image), item_path(item) %></td>
+                  <% i += 1 %>
+                <% else %>
+                    <td title="<%= item.name %>" class="itemCards"><%= link_to image_tag(item.image), item_path(item) %></td>
+                  </tr>
+                  <% i = 0 %>
+                <% end %>             
               <% end %>
             </table>
           </div>
@@ -387,28 +393,26 @@
         </div>
         <div class="card-body">
           <div id="collapseSpecial" class="collapse in">
-            <table class="table stats itemstats">
-              <thead>
-                <tr>
-                  <th class="w40">Item</th>
-                  <th class="w35">Origin</th>
-                  <th class="w15">Count</th>
-                  <th class="w10">Scenarios</th>
-                </tr>
-              </thead>
+            <table class="table">   
+              <% i = 0 %>
               <% @special.each do |item| %>
-              <tr>
-                <td class="item" align="center"><%= link_to item.name, item_path(item) %></td>
-                <td><%= item.origin %></td>
-                <td><%= item.count %></td>
-                <td><%= item.scenarios.count %></td>
-              </tr>
+                <% if i == 0 %>
+                  <tr>
+                    <td title="<%= item.name %>" class="campaignCards"><%= link_to image_tag(item.image), item_path(item) %></td>
+                  <% i += 1 %>
+                <% elsif (i > 0) && (i < 5) %>
+                    <td title="<%= item.name %>" class="campaignCards"><%= link_to image_tag(item.image), item_path(item) %></td>
+                  <% i += 1 %>
+                <% else %>
+                    <td title="<%= item.name %>" class="campaignCards"><%= link_to image_tag(item.image), item_path(item) %></td>
+                  </tr>
+                  <% i = 0 %>
+                <% end %>             
               <% end %>
             </table>
           </div>
         </div>
       </div>
-    </div>
   </div>
 </div>
 
@@ -429,6 +433,7 @@
                 <th>Can be<br />Thrown</th>
                 <th>Defense<br />Dice</th>
                 <th>Damage<br />Dice</th>
+                <th>Scenarios<br />&nbsp;</th>
                 <th>Origin<br />&nbsp;</th>
               </tr>
             </thead>
@@ -438,7 +443,6 @@
                 <td><%= item.role %></td>
                 <td><%= item.count %></td>
                 <td><% if item.encumbrance != '' %><%= item.encumbrance %><% else %>-<% end %></td>
-
                 <td class="stats">
                   <% if item.armor != '' %>
                     <% myHash = eval(item.dice) %>
@@ -540,6 +544,7 @@
                   <% else %>--
                   <% end %>
                 </td>
+                <td><%= item.scenarios.count %></td>
                 <td><%= item.origin %></td>
               </tr>
           <% end %>

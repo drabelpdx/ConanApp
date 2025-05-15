@@ -46,19 +46,8 @@
             </tr>
           <% end %>
         </table>
-
-
       </div>
-
-
     </div>
   </div>
 </div>
 
-<% if logged_in? && current_user.admin? %>
-  <div class="row">
-    <br /><br />
-    <%= link_to 'Edit', edit_hero_path(@hero) %> |
-    <%= link_to 'Delete', hero_path(@hero), method: :delete, data: {confirm: "Are you sure?"} %>
-  </div>
-<% end %>

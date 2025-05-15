@@ -132,10 +132,3 @@
   </div>
 </div>
 
-<% if logged_in? && current_user.admin? %>
- <div class="row">
-   <br /><br />
-   <%= link_to 'Edit', edit_product_path(@product) %> |
-   <%= link_to 'Delete', product_path(@product), method: :delete, data: {confirm: "Are you sure?"} %>
- </div>
-<% end %>

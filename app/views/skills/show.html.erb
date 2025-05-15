@@ -12,12 +12,10 @@
   </div>
   <div class="col-md-8">
     <h2 class="skill"><%= @skill.name %></h2>
-    <p><%= @skill.description %></p><br />
-    <% if @skill.clarification != 'none' %>
-      <h4>Clarification: </h4>
-      <p><%= @skill.clarification %></p>
-    <% end %>
+    <p><%= @skill.description.html_safe %></p><br /><br />
     <br />
+
+    <hr /><br />
     <div class="col-md-5">
       <% if @skill_heroes.any? %>
         <div class="panel panel-success">
@@ -51,10 +49,3 @@
   </div>
 </div>
 
-<% if logged_in? && current_user.admin? %>
- <div class="row">
-   <br /><br />
-   <%= link_to 'Edit', edit_skill_path(@skill) %> |
-   <%= link_to 'Delete', skill_path(@skill), method: :delete, data: {confirm: "Are you sure?"} %>
- </div>
-<% end %>

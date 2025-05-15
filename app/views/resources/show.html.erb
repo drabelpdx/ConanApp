@@ -14,10 +14,3 @@
   </div>
 </div>
 
-<% if logged_in? && current_user.admin? %>
- <div class="row">
-   <br /><br />
-   <%= link_to 'Edit', edit_resource_path(@resource) %> |
-   <%= link_to 'Delete', resource_path(@resource), method: :delete, data: {confirm: "Are you sure?"} %>
- </div>
-<% end %>

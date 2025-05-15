@@ -11,6 +11,12 @@
     ## Core Game
     # In the Clutches of the Picts
     { name: "In the Clutches of the Picts",
+      mode: 'Adventure',
+      pdf_link:'',
+      credit: 'Frédéric Henry',
+      player_count: "4-5",
+      complexity: "1",
+
       description: "<p>With the echoing war drums of the Pict tribes settled
         beyond the Black River and the increased frequency of incursions up to
         the Thunder River, many settlers flee the Conajohara territory for the
@@ -26,9 +32,6 @@
         bring back the head of Zogar Sag.</p>",
 
       map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/In+the+Clutches+of+the+Picts.jpg',
-      pdf_link: '',
-      player_count: "4-5",
-      complexity: "1",
 
       hero_goal: "If one or more heroes have fled the village with Yselda and Zogar
         Sag’s head, Yselda is returned safely to her father; the heroes win the game.",
@@ -227,6 +230,7 @@
         1&nbsp;<a class="item" href="/items/19">Buckler</a>,
         1&nbsp;<a class="item" href="/items/2">Bossonian Bow</a>.</p>',
 
+      correction: '',
       hero_victory: '',
       overlord_victory: '',
 
@@ -241,6 +245,12 @@
 
     # Hunting the Tigress
     { name: "Hunting the Tigress",
+      mode: 'Adventure',
+      pdf_link:'',
+      credit: 'Adnane Badi',
+      player_count: "4-5",
+      complexity: "1",
+
       description: "<p>For months, the pirate ship Tigress has been scouring the
         waters off the coasts of Stygia and the Black Kingdoms and preying on
         the profitable trade of gold and ivory, much to the displeasure of King
@@ -257,9 +267,6 @@
         Shevatas, and a handful of remaining warriors can come to Bêlit’s aid.</p>",
 
       map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Hunting+the+Tigress.jpg',
-      pdf_link: '',
-      player_count: "4-5",
-      complexity: "1",
 
       hero_goal: "If Zaporavo and Skuthus are dead or at the end of round 8,
         Bêlit survives the attack; the heroes win the game.",
@@ -427,6 +434,7 @@
         1&nbsp;<a class="item" href="/items/6">Explosive Orb</a>,
         1&nbsp;<a class="item" href="/items/23">Empty chest</a>.</p>',
 
+      correction: '',
       hero_victory: '',
       overlord_victory: '',
 
@@ -441,6 +449,12 @@
 
     # In the Heart of Darkness
     { name: "In the Heart of Darkness",
+      mode: 'Adventure',
+      pdf_link:'',
+      credit: 'David Bertolo',
+      player_count: "4",
+      complexity: "2",
+
       description: "<p>The Tigress travels the dark waters of the Zarkheba river,
         whose mysterious shores are covered by gloomy jungle. The Queen of the
         Black Coast knows that, beyond the tangled wall of vegetation, an ancient
@@ -460,9 +474,6 @@
         Set with your blood!” Skuthus’ trap has been sprung.</p>",
 
       map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/In+the+Heart+of+Darkness.jpg',
-      pdf_link: '',
-      player_count: "4",
-      complexity: "2",
 
       hero_goal: "If Skuthus dies, the trap has failed, and the heroes escape the
         fortress with their treasures; the heroes win the game.",
@@ -570,18 +581,18 @@
           </tr>
         </table>',
 
-      tile1: 9,
-      tile2: 5,
-      tile3: 15,
-      tile4: 23,
-      tile5: 1,
-      tile6: 0,
-      tile7: 0,
-      tile8: 0,
+      tile1: 999,
+      tile2: 9,
+      tile3: 5,
+      tile4: 15,
+      tile5: 23,
+      tile6: 1,
+      tile7: 999,
+      tile8: 999,
 
-      life1: 6,
-      life2: 5,
-      life3: 0,
+      life1: 0,
+      life2: 6,
+      life3: 5,
       life4: 0,
       life5: 0,
       life6: 0,
@@ -621,6 +632,7 @@
         2&nbsp;<a class="item" href="/items/6">Explosive Orb</a>,
         1&nbsp;<a class="item" href="/items/8">Javelin</a>.</p>',
 
+      correction: '',
       hero_victory: '',
       overlord_victory: '',
 
@@ -635,6 +647,12 @@
 
     # The Final Ritual
     { name: "The Final Ritual",
+      mode: 'Adventure',
+      pdf_link:'',
+      credit: 'Nicolas Marfeuil',
+      player_count: "4",
+      complexity: "2",
+
       description: "<p>The province of Conajohara is being sacked. United clans
         of Picts have crossed the Black River in massive numbers, intent on
         slaughtering Aquilonian settlers and annihilating Fort Tuscelan. At the
@@ -650,9 +668,6 @@
         settlers the time they need to survive.</p>",
 
       map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Final+Ritual.jpg',
-      pdf_link: '',
-      player_count: "4",
-      complexity: "2",
 
       hero_goal: 'If the invocation marker <img src="/assets/tokens/invocationToken.png" class="scen_token" />
         reaches space 0 or at the end of turn 12, the ritual is complete; the heroes win the game.',
@@ -720,8 +735,7 @@
         <table class="scen_table">
           <tr>
             <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
-            <td>The game starts with the Overlord’s turn. The heroes start in the areas
-            indicated by the setup diagram.</td>
+            <td>The game starts with the Overlord’s turn.</td>
             <td></td>
           </tr>
         </table>
@@ -779,7 +793,7 @@
       tile5: 26,
       tile6: 28,
       tile7: 25,
-      tile8: 0,
+      tile8: 999,
 
       life1: 0,
       life2: 6,
@@ -820,6 +834,7 @@
         across boulders <img src="/assets/tokens/rocksToken.png" class="scen_token" />
         as though they were a border by spending 2 extra movement points.</p>',
 
+      correction: '',
       hero_victory: '',
       overlord_victory: '',
 
@@ -834,6 +849,12 @@
 
     # For All of Ophir’s Gold
     { name: "For All of Ophir’s Gold",
+      mode: 'Adventure',
+      pdf_link:'',      
+      credit: 'Frédéric Henry',
+      player_count: "4",
+      complexity: "2",
+
       description: "<p>While visiting the South of the kingdom, Princess Olivia,
         daughter of King Ophir, is set upon by Kothian soldiers. The detachment
         assigned to protect her is massacred. After reaping a bloody harvest,
@@ -851,10 +872,7 @@
         King Ophir’s message is clear: his daughter must not fall into Strabonus’
         hands alive.</p>",
 
-      map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/For+All+of+Ophirs+Gold.jpg',
-      pdf_link: '',
-      player_count: "4",
-      complexity: "2",
+      map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/For+All+of+Ophirs+Gold.jpg', 
 
       hero_goal: "If a hero has fled the fort with Olivia, she is free from Strabonus’ grasp; the heroes win the game.",
 
@@ -1019,6 +1037,7 @@
         1&nbsp;<a class="item" href="/items/16">Chain Mail</a>,
         1&nbsp;<a class="item" href="/items/5">Crossbow</a>.</p>',
 
+      correction: '',
       hero_victory: '',
       overlord_victory: '',
 
@@ -1033,6 +1052,12 @@
 
     # The Wrath of Anu
     { name: "The Wrath of Anu",
+      mode: 'Adventure',
+      pdf_link:'',  
+      credit: 'David Bertolo',
+      player_count: "2",
+      complexity: "3",
+
       description: "<p>Two audacious thieves, a deserter from Gunderland and a
         Cimmerian Barbarian, have forged a reputation among the city-states of
         Corinth by stealing riches and plundering caravans on the Road of Kings.</p>
@@ -1048,9 +1073,6 @@
         make a stop at an inn.</p>",
 
       map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Wrath+of+Anu.jpg',
-      pdf_link: '',
-      player_count: "2",
-      complexity: "3",
 
       hero_goal: "If Conan leaves the inn and the curse has been broken, he is
         free of the terrible hallucinations; the heroes win the game.",
@@ -1139,14 +1161,14 @@
           </tr>
         </table>',
 
-      tile1: 18,
-      tile2: 22,
-      tile3: 1,
-      tile4: 0,
-      tile5: 0,
-      tile6: 0,
-      tile7: 0,
-      tile8: 0,
+      tile1: 999,
+      tile2: 999,
+      tile3: 18,
+      tile4: 22,
+      tile5: 1,
+      tile6: 999,
+      tile7: 999,
+      tile8: 999,
 
       life1: 0,
       life2: 0,
@@ -1219,6 +1241,7 @@
         2&nbsp;<a class="item" href="/items/6">Explosive Orb</a>,
         1&nbsp;<a class="item" href="/items/23">Empty Chest</a>.</p>',
 
+      correction: '',
       hero_victory: '',
       overlord_victory: '',
 
@@ -1233,6 +1256,12 @@
 
     # Infernal Pursuit Part I
     { name: "Infernal Pursuit Part I",
+      mode: 'Adventure',
+      pdf_link:'',
+      credit: 'Philippe Villé',
+      player_count: "3",
+      complexity: "3",
+
       description: "<p>Smelling a trap during a meeting with pirates from the
         Baracha islands, Conan flees Tortage, joining Captain Zaporavo and the
         crew of The Vandal. Soon, his personality and sailing prowess make him
@@ -1249,9 +1278,6 @@
         strike The Vandal while it is weakened.</p>",
 
       map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Infernal+Pursuit+Part+I.jpg',
-      pdf_link: '',
-      player_count: "3",
-      complexity: "3",
 
       hero_goal: "If the turn marker reaches space 6, the heroes’ ship catches up
         with The Vandal; start Infernal Pursuit Part II.",
@@ -1340,21 +1366,21 @@
           </tr>
         </table>',
 
-      tile1: 32,
-      tile2: 31,
-      tile3: 1,
-      tile4: 15,
-      tile5: 3,
-      tile6: 0,
-      tile7: 0,
-      tile8: 0,
+      tile1: 999,
+      tile2: 32,
+      tile3: 31,
+      tile4: 1,
+      tile5: 15,
+      tile6: 3,
+      tile7: 999,
+      tile8: 999,
 
       life1: 0,
       life2: 0,
       life3: 0,
       life4: 0,
-      life5: 5,
-      life6: 0,
+      life5: 0,
+      life6: 5,
       life7: 0,
       life8: 0,
 
@@ -1386,6 +1412,7 @@
         1&nbsp;<a class="item" href="/items/6">Explosive Orb</a>,
         1&nbsp;<a class="item" href="/items/5">Crossbow</a></p>',
 
+      correction: '',
       hero_victory: '',
       overlord_victory: '',
 
@@ -1400,6 +1427,12 @@
 
     # Infernal Pursuit Part II
     { name: "Infernal Pursuit Part II",
+      mode: 'Adventure',
+      pdf_link:'',
+      credit: 'Philippe Villé',
+      player_count: "3",
+      complexity: "3",
+
       description: '<p><strong>This scenario can be played only after Infernal Pursuit I.</strong></p>
         <p>At the end of Infernal Pursuit I, the Overlord places the Zaporavo
         model (7 life points) and 2 Bossonian Archer models on the board as
@@ -1415,9 +1448,6 @@
         <p>Place the Bossonian Archers and Zaporavo tiles at the end of the River.</p>',
 
       map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Infernal+Pursuit+Part+II.jpg',
-      pdf_link: '',
-      player_count: "3",
-      complexity: "3",
 
       hero_goal: "If Zaporavo dies or the turn marker reaches space 8, The Vandal is overwhelmed; the heroes win the game",
       hero_setup: '',
@@ -1478,6 +1508,7 @@
         Move the turn marker 1 space toward space 8 for each symbol shown on the
         die, and no ally in the area can attack that turn.</p>',
 
+      correction: '', 
       hero_victory: '',
       overlord_victory: '',
 
@@ -1492,6 +1523,12 @@
 
     # Trapped like Rats
     { name: "Trapped like Rats",
+      mode: 'Adventure',
+      pdf_link:'',
+      credit: 'Philippe Villé',
+      player_count: "4",
+      complexity: "3",
+
       description: "<p>Laughs and shouts ring out as ale-filled mugs are banged
         together. Conan and his companions celebrate, spending the remainder of
         the pay from their time in the army of Ophir’s kingdom.</p>
@@ -1508,9 +1545,6 @@
         with a desire for vengeance.</p>",
 
       map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Trapped+Like+Rats.jpg',
-      pdf_link: '',
-      player_count: "4",
-      complexity: "3",
 
       hero_goal: "If all living heroes have escaped the inn, they are free;
         the heroes win the game.",
@@ -1621,20 +1655,20 @@
           </tr>
         </table>',
 
-      tile1: 18,
-      tile2: 22,
-      tile3: 15,
-      tile4: 3,
-      tile5: 1,
-      tile6: 0,
-      tile7: 0,
-      tile8: 0,
+      tile1: 999,
+      tile2: 18,
+      tile3: 22,
+      tile4: 15,
+      tile5: 3,
+      tile6: 1,
+      tile7: 999,
+      tile8: 999,
 
       life1: 0,
       life2: 0,
       life3: 0,
-      life4: 3,
-      life5: 0,
+      life4: 0,
+      life5: 3,
       life6: 0,
       life7: 0,
       life8: 0,
@@ -1726,6 +1760,7 @@
         2&nbsp;<a class="item" href="/items/22">Life Potion</a>,
         2&nbsp;<a class="item" href="/items/6">Explosive Orb</a>.</p>',
 
+      correction: '', 
       hero_victory: '',
       overlord_victory: '',
 
@@ -1741,6 +1776,12 @@
     ## King Pledge
     # Red Dawn
     { name: "Red Dawn",
+      mode: 'Adventure',
+      pdf_link:'',
+      credit: 'Laurent Pouchain',
+      player_count: "4",
+      complexity: "3",
+
       description: "<p>The situation is dire. The Aquilonian province of
         Conajohara is on the brink of collapse, drowned under the assault of
         the unified Pict tribes led by Zogar Sag. For days, Conan and his band
@@ -1761,9 +1802,6 @@
         manages to slip into the village.</p>",
 
       map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Red+Dawn.jpg',
-      pdf_link: '',
-      player_count: "4",
-      complexity: "3",
 
       hero_goal: "At the end of turn 8, if the heroes have more points than the
         Overlord or are tied for the most points and a hero has fled with the Idol
@@ -1886,21 +1924,21 @@
           </tr>
         </table>',
 
-      tile1: 26,
-      tile2: 27,
-      tile3: 23,
-      tile4: 29,
-      tile5: 8,
-      tile6: 1,
-      tile7: 0,
-      tile8: 0,
+      tile1: 999,
+      tile2: 26,
+      tile3: 27,
+      tile4: 23,
+      tile5: 29,
+      tile6: 8,
+      tile7: 1,
+      tile8: 999,
 
       life1: 0,
       life2: 0,
       life3: 0,
       life4: 0,
-      life5: 5,
-      life6: 0,
+      life5: 0,
+      life6: 5,
       life7: 0,
       life8: 0,
 
@@ -1996,6 +2034,7 @@
         to move 2 gems from their Fatigue zone to their Reserve zone but must
         also suffer 1 wound.</p>',
 
+      correction: '',
       hero_victory: '',
       overlord_victory: '',
 
@@ -2010,6 +2049,12 @@
 
     # The Key of Kuthchemes
     { name: "The Key of Kuthchemes",
+      mode: 'Adventure',
+      pdf_link:'',
+      credit: 'Adnane Badi',
+      player_count: "3",
+      complexity: "2",
+
       description: "<p>The rumor spreads quickly amongst the thieves of Asgalun:
         The Vandal has made port in Pelishtim and its captain, Zaporavo, has
         found a copy of the texts of Vathelos the Blind. Legends tell that the
@@ -2028,9 +2073,6 @@
         turns into a death trap.</p>",
 
       map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Key+of+Kuthchemes.jpg',
-      pdf_link: '',
-      player_count: "3",
-      complexity: "2",
 
       hero_goal: "If a hero is in a street area with either the Spellbook or the
         red chest, the heroes have all they need to access the promised treasure;
@@ -2182,6 +2224,7 @@
         1&nbsp;<a class="item" href="/items/17">Leather Armor</a>,
         1&nbsp;<a class="item" href="/items/23">Empty Chest</a>.</p>',
 
+      correction: '',
       hero_victory: '',
       overlord_victory: '',
 
@@ -2196,6 +2239,12 @@
 
     # In the Name of Ibis
     { name: "In the Name of Ibis",
+      mode: 'Adventure',
+      pdf_link:'',
+      credit: 'Frédéric Henry',
+      player_count: "4",
+      complexity: "2",
+
       description: "<p>The hunt nears its end; on the limits of the kingdom of
         Nemedia, Conan picks up the trail of Skuthus, the sorcerer he has
         pursued relentlessly since Numalia.</p>
@@ -2214,9 +2263,6 @@
         between him and Kalanthes.</p>",
 
       map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/In+the+Name+of+Ibis.jpg',
-      pdf_link: '',
-      player_count: "4",
-      complexity: "2",
 
       hero_goal: "When Skuthus dies, Kalanthes is safe; the heroes win the game.",
 
@@ -2384,6 +2430,7 @@
         1&nbsp;<a class="item" href="/items/19">Buckler</a>,
         1&nbsp;<a class="item" href="/items/12">Sword</a>.</p>',
 
+      correction: '',
       hero_victory: '',
       overlord_victory: '',
 
@@ -2398,6 +2445,12 @@
 
     # The Crawling Shadow
     { name: "The Crawling Shadow",
+      mode: 'Adventure',
+      pdf_link:'',
+      credit: 'Pascal Bernard',
+      player_count: "4",
+      complexity: "2",
+
       description: "<p>Relentlessly pursued and having finally reached the Black
         Kingdom of Kush, the survivors of the felon prince Almuric’s army are
         finally annihilated in the northern desert when the jaws of the Stygian
@@ -2416,9 +2469,6 @@
         to offer her as a sacrifice to Thog, the city’s god.</p>",
 
       map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Crawling+Shadow.jpg',
-      pdf_link: '',
-      player_count: "4",
-      complexity: "2",
 
       hero_goal: "If the energy marker is on a space numbered “14” or lower at
         the end of turn 9, or when Thog dies, the heroes manage to survive; the
@@ -2591,6 +2641,7 @@
         1&nbsp;<a class="item" href="/items/16">Chain Mail</a>,
         1&nbsp;<a class="item" href="/items/5">Crossbow</a>.</p>',
 
+      correction: '',
       hero_victory: '',
       overlord_victory: '',
 
@@ -2606,6 +2657,12 @@
     ## Stretch Goal
     # The Thing from the Swamp
     { name: "The Thing from the Swamp",
+      mode: 'Adventure',
+      pdf_link:'',
+      credit: 'David Bertolo',
+      player_count: "4",
+      complexity: "2",
+
       description: "<p>The horrific din rising above the village occupied by the
       fearsome Pict warriors leaves no room for doubt; Conan and his group of volunteers
       who came from Fort Tuscelan have failed to arrive before the sacrifice.</p>
@@ -2621,9 +2678,6 @@
       know that the most powerful of them can also call upon ancient, nightmarish creatures?</p>",
 
       map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Thing+from+the+Swamp.jpg",
-      pdf_link: '',
-      player_count: "4",
-      complexity: "2",
 
       hero_goal: "If the charm is broken and a hero has fled the village with
       Yselda, she is saved; the heroes win the game.",
@@ -2716,22 +2770,22 @@
           </tr>
         </table>',
 
-      tile1: 26,
-      tile2: 23,
-      tile3: 28,
-      tile4: 1,
-      tile5: 27,
-      tile6: 8,
-      tile7: 0,
-      tile8: 0,
+      tile1: 999,
+      tile2: 26,
+      tile3: 23,
+      tile4: 28,
+      tile5: 1,
+      tile6: 27,
+      tile7: 8,
+      tile8: 999,
 
       life1: 0,
       life2: 0,
       life3: 0,
       life4: 0,
       life5: 0,
-      life6: 5,
-      life7: 0,
+      life6: 0,
+      life7: 5,
       life8: 0,
 
       special_rules: '<p><span class="special_title">Magical Charm:</span>
@@ -2771,6 +2825,7 @@
         2&nbsp;<a class="item" href="/items/23">Empty Chest</a>, and
         1&nbsp;<a class="item" href="/items/8">Javelin</a>.</p>',
 
+      correction: '',
       hero_victory: '',
       overlord_victory: '',
 
@@ -2785,6 +2840,12 @@
 
       # Facing the Serpent-Specter
     { name: "Facing the Serpent-Specter",
+      mode: 'Adventure',
+      pdf_link:'',
+      credit: 'Jérémy Pinget',
+      player_count: "4",
+      complexity: "2",
+
       description: "<p>A relentless hail of arrows flies from the forest to crash
       upon the palisade of Fort Tuscelan. Hordes of naked silhouettes, covered in
       ritual paints, surround the fort. The Black River swarms with their canoes.</p>
@@ -2807,9 +2868,6 @@
       long ago: the terrifying Serpent-Specter.</p>",
 
       map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Facing+the+Serpent+Specter.jpg",
-      pdf_link: '',
-      player_count: "4",
-      complexity: "2",
 
       hero_goal: "If the total number of devoured villagers and villagers on the
       board is less than 5, most of the village’s inhabitants manage to escape to
@@ -2960,6 +3018,7 @@
         Areas marked with a red “X” in the setup diagram are not used in this
         scenario.</p>',
 
+      correction: '',
       hero_victory: '',
       overlord_victory: '',
 
@@ -2974,6 +3033,12 @@
 
       # The Serpent’s Awakening
     { name: "The Serpent’s Awakening",
+      mode: 'Adventure',
+      pdf_link:'',
+      credit: 'José Chaves, Jérôme Soffietti, Itai Perez & Julian Lemonnier',
+      player_count: "4",
+      complexity: "2",
+
       description: "<p>A hurricane of steel thunders in the pass of Shamla. The
         army of the kingdom of Khoraja, led by Conan the Cimmerian mercenary, is
         standing facing a glistening ocean of bronze and gold ready to crash down
@@ -2995,9 +3060,6 @@
         soul. But no cell can hold Conan for long.</p>",
 
       map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Serpents+Awakening.jpg",
-      pdf_link: '',
-      player_count: "4",
-      complexity: "2",
 
       hero_goal: "If a hero flees with Yasmela, they are safe from harm;
       the heroes win the game.",
@@ -3152,6 +3214,7 @@
         1&nbsp;<a class="item" href="/items/20">Shield</a>, and
         1&nbsp;<a class="item" href="/items/16">Chain Mail</a>.</p>',
 
+      correction: '',
       hero_victory: '',
       overlord_victory: '',
 
@@ -3166,6 +3229,12 @@
 
       # The Treasure of Tranicos
     { name: "The Treasure of Tranicos",
+      mode: 'Adventure',
+      pdf_link:'',
+      credit: 'José Chaves, Jérôme Soffietti, Itai Perez & Julian Lemonnier',
+      player_count: "4",
+      complexity: "3",
+
       description: "<p>Conan and his companions have been surviving for many months
       under difficult conditions in the head of the bay of Korvela, along the coast
       which borders the Pict territory, far in the north of the kingdom of Zingara.
@@ -3188,9 +3257,6 @@
       hyenas.</p>",
 
       map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Treasure+of+Tranicos.jpg",
-      pdf_link: '',
-      player_count: "4",
-      complexity: "3",
 
       hero_goal: "At the end of turn 8, the troops of the count arrive and Zaporavo’s
       plan fails; the heroes win the game.",
@@ -3350,6 +3416,7 @@
         1&nbsp;<a class="item" href="/items/32">Axe</a>, and
         1&nbsp;<a class="item" href="/items/7">Halberd</a>.</p>',
 
+      correction: '',
       hero_victory: '',
       overlord_victory: '',
 
@@ -3365,6 +3432,12 @@
       ## Nordheim
       # A Red Sun Rises
     { name: "A Red Sun Rises",
+      mode: 'Adventure',
+      pdf_link:'',
+      credit: 'Croc and Sippik',
+      player_count: "5",
+      complexity: "2",
+
       description: "<p>Across the red drifts and mail-clad forms, two figures glared
       at each other. In that utter desolation only they moved. The frosty sky was
       over them, the white illimitable plain around them, the dead men at their feet.
@@ -3384,9 +3457,6 @@
       Ymir against the Wolves of Bragi of Vanaheim.</p>",
 
       map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/A+Red+Sun+Rises.jpg",
-      pdf_link: '',
-      player_count: "5",
-      complexity: "2",
 
       hero_goal: "The heroes try to hold their ground until reinforcements of
       the Aesir army arrive. If at least one hero is alive at the end of turn 8
@@ -3504,7 +3574,7 @@
       tile5: 1,
       tile6: 115,
       tile7: 2,
-      tile8: 0,
+      tile8: 999,
 
       life1: 0,
       life2: 0,
@@ -3538,6 +3608,7 @@
         longer have a reason to fight and retreat homewards. All Warriors are immediately
         removed from the game.</p>',
 
+      correction: '',
       hero_victory: '',
       overlord_victory: '',
 
@@ -3552,6 +3623,12 @@
 
       # The Resurrected Horde
     { name: "The Resurrected Horde",
+      mode: 'Adventure',
+      pdf_link:'',
+      credit: 'Croc and Sippik',
+      player_count: "4",
+      complexity: "2",
+
       description: "<p>The clangor of the swords has died away, the shouting of
       the slaughter was hushed; silence lay on the red-stained snow. The bleak
       pale sun that glittered so blindingly from the ice-fields and the snow-covered
@@ -3572,9 +3649,6 @@
       of blood and ruin.</p>",
 
       map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Resurrected+Horde.jpg",
-      pdf_link: '',
-      player_count: "4",
-      complexity: "2",
 
       hero_goal: "If the Yazdigerd dies before the end of turn 8, the heroes win the game.",
 
@@ -3729,6 +3803,7 @@
         1&nbsp;<a class="item" href="/items/16">Chain Mail</a>,
         1&nbsp;<a class="item" href="/items/22">Life Potion</a></p>',
 
+      correction: '',
       hero_victory: '',
       overlord_victory: '',
 
@@ -3743,6 +3818,12 @@
 
       # The Hammer and the Anvil
     { name: "The Hammer and the Anvil",
+      mode: 'Adventure',
+      pdf_link:'',
+      credit: 'Croc and Sippik',
+      player_count: "3",
+      complexity: "2",
+
       description: "<p>The snow shone weirdly, now frosty blue, now icy crimson,
       now cold sliver. Through a shimmering icy realm of enchantment Conan plunged
       doggedly onward, in a crystalline maze where the only reality was the white
@@ -3766,9 +3847,6 @@
       set up by her brothers.</p>",
 
       map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Hammer+and+the+Anvil.jpg",
-      pdf_link: '',
-      player_count: "3",
-      complexity: "2",
 
       hero_goal: "If the 2 Giants die before the end of turn 8, the heroes win the game.",
 
@@ -3869,20 +3947,20 @@
           </tr>
         </table>',
 
-      tile1: 1,
-      tile2: 108,
-      tile3: 2,
-      tile4: 107,
-      tile5: 121,
-      tile6: 113,
-      tile7: 0,
-      tile8: 0,
+      tile1: 999,
+      tile2: 1,
+      tile3: 108,
+      tile4: 2,
+      tile5: 107,
+      tile6: 121,
+      tile7: 113,
+      tile8: 999,
 
       life1: 0,
-      life2: 12,
-      life3: 0,
-      life4: 12,
-      life5: 0,
+      life2: 0,
+      life3: 12,
+      life4: 0,
+      life5: 12,
       life6: 0,
       life7: 0,
       life8: 0,
@@ -3917,6 +3995,7 @@
         <img src="/assets/dice/Red.png" class="scen_sq_token" /> dice when
         performing Melee Attacks.</p>',
 
+      correction: '',
       hero_victory: '',
       overlord_victory: '',
 
@@ -3931,6 +4010,12 @@
 
       # Run Till You Drop
     { name: "Run Till You Drop",
+      mode: 'Adventure',
+      pdf_link:'',
+      credit: 'Croc and Sippik',
+      player_count: "2",
+      complexity: "2",
+
       description: "<p>Conan wheeled, to see the girl standing a short distance
       away, staring at him in wide-eyed horror, all the mockery gone from her face.
       He cried out fiercely and the blood-drops flew from his sword as his hand
@@ -3949,9 +4034,6 @@
       Ymir’s daughter. Who will prevail? The powerful Cimmerian or the blazing Atali</p>",
 
       map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Run+Till+You+Drop.jpg",
-      pdf_link: '',
-      player_count: "2",
-      complexity: "2",
 
       hero_goal: "If Atali dies before she can escape, the hero wins the game.",
 
@@ -4031,14 +4113,14 @@
           </tr>
         </table>',
 
-      tile1: 113,
-      tile2: 105,
-      tile3: 1,
-      tile4: 105,
-      tile5: 2,
-      tile6: 105,
-      tile7: 0,
-      tile8: 0,
+      tile1: 999,
+      tile2: 113,
+      tile3: 105,
+      tile4: 1,
+      tile5: 105,
+      tile6: 2,
+      tile7: 105,
+      tile8: 999,
 
       life1: 0,
       life2: 0,
@@ -4105,6 +4187,7 @@
         2&nbsp;<a class="item" href="/items/22">Life Potions</a> and
         1&nbsp;<a class="item" href="/items/13">Throwing Knives</a>.</p>',
 
+      correction: '',
       hero_victory: '',
       overlord_victory: '',
 
@@ -4120,6 +4203,12 @@
       ## Khitai
       # A Bloody Burglary
     { name: "A Bloody Burglary",
+      mode: 'Adventure',
+      pdf_link:'',
+      credit: 'Antoine Bauza and Ludovic Maublanc',
+      player_count: "4",
+      complexity: "2",
+
       description: "<p>Conan has reached the kingdom of Khitai and the city of
       Paikang, the town of purple towers whose sumptuous pagodas overlook the
       bamboo jungles adorned with lianas.</p>
@@ -4141,9 +4230,6 @@
       the small group gets closer to the tower </p>",
 
       map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/A+Bloody+Burglary.jpg",
-      pdf_link: '',
-      player_count: "4",
-      complexity: "2",
 
       hero_goal: "If Shuang Mian dies before the end of turn 8, the heroes win the game.",
 
@@ -4358,6 +4444,7 @@
           <li>If the heroes plant the false evidence.</li>
         </ul></p>',
 
+      correction: '', 
       hero_victory: '',
       overlord_victory: '',
 
@@ -4372,6 +4459,12 @@
 
       # Smoke Screen
     { name: "Smoke Screen",
+      mode: 'Adventure',
+      pdf_link:'',
+      credit: 'Antoine Bauza and Ludovic Maublanc',
+      player_count: "2",
+      complexity: "2",
+
       description: "<p>After executing their target and planting false evidence
       to distract any investigation, Conan and his companions are ready to leave
       the tower as discreetly as they got in.</p>
@@ -4395,9 +4488,6 @@
       in hand, determined to finish the contract.</p>",
 
       map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Smoke+Screen.jpg",
-      pdf_link: '',
-      player_count: "2",
-      complexity: "2",
 
       hero_goal: "If one hero flees the tower with the head of Shuang Mian before
       the end of turn 7, the contract is fulfilled and the heroes win the game.",
@@ -4475,7 +4565,7 @@
       tile5: 100,
       tile6: 96,
       tile7: 99,
-      tile8: 0,
+      tile8: 999,
 
       life1: 0,
       life2: 0,
@@ -4601,6 +4691,7 @@
         The side with the most Victory Points at the end of the two scenarios win
         the campaign.</p>',
 
+      correction: '',
       hero_victory: '',
       overlord_victory: '',
 
@@ -4615,6 +4706,12 @@
 
       # The Remedy
     { name: "The Remedy",
+      mode: 'Adventure',
+      pdf_link:'',
+      credit: 'Eric Gehres and Eric Bourlett',
+      player_count: "4",
+      complexity: "2",
+
       description: "<p>Zelata the Witch has ventured beyond the lost and haunted
       jungles of the kingdom of Khitai seeking new knowledge since sorcerers from
       the East are known to be more powerful than the ones from the West.</p>
@@ -4632,18 +4729,6 @@
       detachment of mercenaries who serve him as his personal guard.</p>",
 
       map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Remedy.jpg",
-      pdf_link: '
-        <p>The gray Khitan Guard on the lower right side of the board should be red.</p>
-        <p>The Evil Hound (not a Foo Dog) starts in the area with Shuang Mian.</p>
-        <p><strong>Item Cards:</strong> The item cards placed on the board are:
-        (top) <a class="item" href="/items/69">Ginger</a> and
-        <a class="item" href="/items/67">Black Lotus</a>,
-        (center) <a class="item" href="/items/73">Toxic Mushrooms</a> and
-        <a class="item" href="/items/71">Toad Mucus</a>,
-        and (lower right) <a class="item" href="/items/70">Saltpeter</a></p>',
-
-      player_count: "4",
-      complexity: "2",
 
       hero_goal: "If one or more heroes have fled the town with the 3 remedy
       ingredients before the end of turn 6, Zelata is saved and the heroes win the game.",
@@ -4751,7 +4836,7 @@
       tile5: 104,
       tile6: 1,
       tile7: 102,
-      tile8: 0,
+      tile8: 999,
 
       life1: 0,
       life2: 0,
@@ -4820,6 +4905,15 @@
          <a class="item" href="/items/17">Leather Armor</a> and
          <a class="item" href="/items/2">Bossonian Bow</a>.</p>',
 
+      correction: '
+        <p>The gray Khitan Guard on the lower right side of the board should be red.</p>
+        <p>The Evil Hound (not a Foo Dog) starts in the area with Shuang Mian.</p>
+        <p><strong>Item Cards:</strong> The item cards placed on the board are:
+        (top) <a class="item" href="/items/69">Ginger</a> and
+        <a class="item" href="/items/67">Black Lotus</a>,
+        (center) <a class="item" href="/items/73">Toxic Mushrooms</a> and
+        <a class="item" href="/items/71">Toad Mucus</a>,
+        and (lower right) <a class="item" href="/items/70">Saltpeter</a></p>',
       hero_victory: '',
       overlord_victory: '',
 
@@ -4834,6 +4928,12 @@
 
       # The Magnificent Three
     { name: "The Magnificent Three",
+      mode: 'Adventure',
+      pdf_link:'',
+      credit: 'Eric Gehres and Eric Bourlett',
+      player_count: "4",
+      complexity: "2",
+
       description: "<p>A deceptive calm covers the small town nestled in the meanders
       of the river as the peace will soon give way to the chaos of steel and battle
       cries.</p>
@@ -4856,9 +4956,6 @@
       without destroying the artifacts first.</p>",
 
       map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Magnificent+Three.jpg",
-      pdf_link: '',
-      player_count: "4",
-      complexity: "2",
 
       hero_goal: "If the Outer Demon or Shuang Mian dies before the end of turn 7,
       his troops flee the battlefield and the heroes win the game.",
@@ -4951,7 +5048,7 @@
       tile5: 104,
       tile6: 102,
       tile7: 98,
-      tile8: 0,
+      tile8: 999,
 
       life1: 12,
       life2: 0,
@@ -4997,6 +5094,7 @@
         <img src="/assets/skills/Leap.png" class="scen_sq_token" />. If a hero
         fails to leap, the character remains in its area.</p>',
 
+      correction: '',
       hero_victory: '',
       overlord_victory: '',
 
@@ -5012,6 +5110,12 @@
       ## Stygia
       # The Lost King
     { name: "The Lost King",
+      mode: 'Adventure',
+      pdf_link:'',
+      credit: 'Bruno Cathala',
+      player_count: "4-5",
+      complexity: "3",
+
       description: "<p>Overthrown by a conspiracy seeking to seat Valerius, the
       heir of the former king Numedides, on the throne of Aquilonia, Conan has
       disappeared.</p>
@@ -5036,9 +5140,6 @@
       in the dark depths of the underground tunnels in which the heroes just entered.</p>",
 
       map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Lost+King.jpg",
-      pdf_link: '',
-      player_count: "4-5",
-      complexity: "3",
 
       hero_goal: "If the Scorpion Broodmother dies before the end of turn 8, the
       heroes win the game.",
@@ -5158,7 +5259,7 @@
       tile5: 123,
       tile6: 1,
       tile7: 128,
-      tile8: 0,
+      tile8: 999,
 
       life1: 0,
       life2: 0,
@@ -5288,6 +5389,7 @@
         2&nbsp;<a class="item" href="/items/83">Torch</a> and
         3&nbsp;<a class="item" href="/items/82">Antidote</a>.</p>',
 
+      correction: '', 
       hero_victory: '',
       overlord_victory: '',
 
@@ -5302,6 +5404,12 @@
 
       # Defeat or Die
     { name: "Defeat or Die",
+      mode: 'Adventure',
+      pdf_link:'',
+      credit: 'Bruno Cathala',
+      player_count: "4-5",
+      complexity: "3",
+
       description: "<p>The abomination that was lurking beneath the Stygian
       temple has been slain, but Conan is nowhere to be found. As the adventures
       are about to continue their search, a crazy laugh echoes on the walls of
@@ -5321,10 +5429,6 @@
       or die.</p>",
 
       map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Defeat+or+Die.jpg",
-      pdf_link: '
-        <p>There should not be a second Red Assassins tile at the end of the River.</p>',
-      player_count: "4-5",
-      complexity: "3",
 
       hero_goal: "If one hero flees the Stygian temple with map to Conan’s
       location before the end of turn 8, the heroes win the game.",
@@ -5456,7 +5560,7 @@
       tile5: 128,
       tile6: 127,
       tile7: 1,
-      tile8: 0,
+      tile8: 999,
 
       life1: 0,
       life2: 0,
@@ -5568,6 +5672,8 @@
         2&nbsp;<a class="item" href="/items/83">Torch</a> and
         2&nbsp;<a class="item" href="/items/82">Antidote</a>.</p>',
 
+      correction: '
+        <p>There should not be a second Red Assassins tile at the end of the River.</p>',
       hero_victory: '',
       overlord_victory: '',
 
@@ -5582,6 +5688,12 @@
 
       # The Fifth Plague of Stygia
     { name: "The Fifth Plague of Stygia",
+      mode: 'Adventure',
+      pdf_link:'',
+      credit: 'Fred Henry',
+      player_count: "4",
+      complexity: "2",
+
       description: "<p>Peace has returned between the kingdoms of Argos and
       Stygia where a diplomatic meeting is about to take place in the port of
       Khemi. But Thot-Amon, the most influent Priest of Set, wants to become the
@@ -5593,9 +5705,6 @@
       prompt to punish disloyalty.</p>",
 
       map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Fifth+Plague+of+Stygia.jpg",
-      pdf_link: '',
-      player_count: "4",
-      complexity: "2",
 
       hero_goal: "If Thot-Amon dies, the heroes win the game.",
 
@@ -5704,7 +5813,7 @@
       tile5: 1,
       tile6: 10,
       tile7: 122,
-      tile8: 0,
+      tile8: 999,
 
       life1: 0,
       life2: 0,
@@ -5782,6 +5891,7 @@
         <a class="item" href="/items/5">Crossbow</a>,
         <a class="item" href="/items/16">Chain Mail</a>.</p>',
 
+      correction: '',
       hero_victory: '',
       overlord_victory: '',
 
@@ -5796,6 +5906,12 @@
 
       # The Curse of the Scorpion
     { name: "The Curse of the Scorpion",
+      mode: 'Adventure',
+      pdf_link:'',
+      credit: 'Fred Henry',
+      player_count: "4",
+      complexity: "2",
+
       description: "<p>In the Port of Luxur, three shadows sneak onto the docks
       alongside the Styx river. There are only a few hours left before the break
       of dawn, and the discreet marauders have yet to lay hands on the items they
@@ -5814,9 +5930,6 @@
       into the river.</p>",
 
       map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Curse+of+the+Scorpion.jpg",
-      pdf_link: '',
-      player_count: "4",
-      complexity: "2",
 
       hero_goal: "If the three artifacts have been submerged in the water before
       the end of turn 7, the curse on Ikhmet’s village is broken, and the heroes
@@ -5913,7 +6026,7 @@
       tile5: 128,
       tile6: 127,
       tile7: 123,
-      tile8: 0,
+      tile8: 999,
 
       life1: 0,
       life2: 0,
@@ -6009,6 +6122,7 @@
         <a class="item" href="/items/5">Crossbow</a>,
         <a class="item" href="/items/82">Antidote</a>.</p>',
 
+      correction: '',
       hero_victory: '',
       overlord_victory: '',
 
@@ -6024,6 +6138,12 @@
     ## Book of Set
     # Yara’s Trap
     { name: "Yara’s Trap",
+      mode: 'Adventure',
+      pdf_link:'',
+      credit: '',
+      player_count: "2",
+      complexity: "1",
+
       description: "<p>Yag-Kosha has escaped from centuries of captivity and
         torture in the hands of the mad sorcerer known as Yara, a devil in human
         form and the terror of the kingdom of Zamora. The peaceful alien is now
@@ -6041,9 +6161,6 @@
         not his own, and prevent Yara from getting what he wants, he must recover
         the Heart of the Elephant.</p>",
       map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Yaras+Trap.jpg',
-      pdf_link: '',
-      player_count: "2",
-      complexity: "1",
 
       hero_goal: "If Yogah of Yag has fled the village with the two Xuthal’s
         Crowns in his possession before the end of turn 10; the hero wins the game.",
@@ -6111,22 +6228,22 @@
           </tr>
         </table>',
 
-      tile1: 18,
-      tile2: 15,
-      tile3: 19,
-      tile4: 3,
-      tile5: 1,
-      tile6: 13,
-      tile7: 0,
-      tile8: 0,
+      tile1: 999,
+      tile2: 18,
+      tile3: 15,
+      tile4: 19,
+      tile5: 3,
+      tile6: 1,
+      tile7: 13,
+      tile8: 999,
 
       life1: 0,
       life2: 0,
       life3: 0,
-      life4: 4,
-      life5: 0,
-      life6: 6,
-      life7: 0,
+      life4: 0,
+      life5: 4,
+      life6: 0,
+      life7: 6,
       life8: 0,
 
       special_rules: '<p><span class="special_title">Xuthal’s Crowns:</span>
@@ -6166,6 +6283,7 @@
         2&nbsp;<a class="item" href="/items/22">Life Potions</a> and
         2&nbsp;<a class="item" href="/items/31">Xuthal Crowns</a>.</p>',
 
+      correction: '',
       hero_victory: '',
       overlord_victory: '',
 
@@ -6178,6 +6296,12 @@
 
       # The White Witch
     { name: "The White Witch",
+      mode: 'Adventure',
+      pdf_link:'',
+      credit: '',
+      player_count: "2",
+      complexity: "1",
+
       description: "<p>Far from the disturbing ancestral lands occupied by the
         Pict people, there is a cursed place that the fierce painted warriors
         avoid. The territory of a solitary witch living among wolves. An
@@ -6197,9 +6321,6 @@
         imprison it forever in the Chasm of Specters.</p>
       <p>Gathering her children around her, she decides to move into action.</p>",
       map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+White+Witch.jpg',
-      pdf_link: '',
-      player_count: "2",
-      complexity: "1",
 
       hero_goal: "If Zelata kills the Swamp Demon before the end of round 6, the hero wins the game.",
 
@@ -6277,7 +6398,7 @@
       tile5: 29,
       tile6: 81,
       tile7: 1,
-      tile8: 0,
+      tile8: 999,
 
       life1: 0,
       life2: 0,
@@ -6353,6 +6474,7 @@
         1&nbsp;<a class="item" href="/items/47">Censer</a>, and
         1&nbsp;<a class="item" href="/items/22">Life Potion</a>.</p>',
 
+      correction: '',
       hero_victory: '',
       overlord_victory: '',
 
@@ -6367,6 +6489,12 @@
 
     # Sedition
     { name: "Sedition",
+      mode: 'Adventure',
+      pdf_link:'',
+      credit: '',
+      player_count: "2",
+      complexity: "2",
+
       description: "<p>It is in the vast steppes that separate the sea of Vilay
       and the borders of the most oriental Hyborian kingdoms that the Kozaks arose
       in the course of the past half century. Groups of miscreants originally formed
@@ -6388,13 +6516,6 @@
       reinstate his ascendancy and, first and foremost, escape death.</p>",
 
       map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Sedition.jpg',
-      pdf_link: '
-      <p><strong>Item Cards:</strong> The item cards placed on the board (clockwise from upper right) are:
-      <a class="item" href="/items/46">Cape</a>
-      <a class="item" href="/items/16">Chain Mail</a>, and
-      <a class="item" href="/items/32">Axe</a></p>',
-      player_count: "2",
-      complexity: "2",
 
       hero_goal: "If Conan the Mercenary reduces the rebellion level to 0 before
         the end of turn 7; the hero wins the game.",
@@ -6466,7 +6587,7 @@
       tile5: 16,
       tile6: 55,
       tile7: 1,
-      tile8: 0,
+      tile8: 999,
 
       life1: 0,
       life2: 6,
@@ -6563,6 +6684,11 @@
         as indicated by the setup diagram. The asset deck contains:
         2&nbsp;<a class="item" href="/items/22">Life Potions</a>',
 
+      correction: '
+      <p><strong>Item Cards:</strong> The item cards placed on the board (clockwise from upper right) are:
+      <a class="item" href="/items/46">Cape</a>
+      <a class="item" href="/items/16">Chain Mail</a>, and
+      <a class="item" href="/items/32">Axe</a></p>',
       hero_victory: '',
       overlord_victory: '',
 
@@ -6577,6 +6703,12 @@
 
     # The Price of Success
     { name: "The Price of Success",
+      mode: 'Adventure',
+      pdf_link:'',
+      credit: '',
+      player_count: "2",
+      complexity: "2",
+
       description: "<p>Captain Zaporavo exults! He, the mercenary hired by the
         king of Zingara, succeeded in capturing a general of the Aquilonian
         army. Constantly fomenting upheavals in the province of Poitain, so as
@@ -6600,9 +6732,6 @@
         gather the Zingaran troops stationed not far from his lair.</p>",
 
       map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Price+of+Success.jpg",
-      pdf_link: '',
-      player_count: "2",
-      complexity: "2",
 
       hero_goal: "If Zaporavo sounds the alarm before the end of round 6 or
         prevents Conan from being freed before the end of turn 6; the hero wins
@@ -6690,7 +6819,7 @@
       tile5: 68,
       tile6: 71,
       tile7: 1,
-      tile8: 0,
+      tile8: 999,
 
       life1: 0,
       life2: 0,
@@ -6767,6 +6896,7 @@
         1&nbsp;<a class="item" href="/items/20">Shield</a>, and
         1&nbsp;<a class="item" href="/items/38">Turanian Sword</a>.</p>',
 
+      correction: '',
       hero_victory: '',
       overlord_victory: '',
 
@@ -6781,6 +6911,12 @@
 
     # The Cursed Mirrors
     { name: "The Cursed Mirrors",
+      mode: 'Adventure',
+      pdf_link:'',
+      credit: '',
+      player_count: "3",
+      complexity: "1",
+
       description: "<p>The Queen of the Black Coast is pleased. Accompanying
         this priest of Asura named Hadrathus has proved to be the right choice.
         Standing there, in front of the ruins of a forgotten thousand-year-old
@@ -6803,9 +6939,6 @@
         his life chasing and slaughtering all demon-summoning sorcerers, intends
         to destroy the sacrilegious relics and chastise the heretics.</p>",
       map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Cursed+Mirrors.jpg',
-      pdf_link: '',
-      player_count: "3",
-      complexity: "1",
 
       hero_goal: "The Heroes must protect the artifacts. If there is at least
         one artifact on the board at the end of turn 7; the heroes win the game.",
@@ -6890,20 +7023,20 @@
           </tr>
         </table>',
 
-      tile1: 141,
-      tile2: 142,
-      tile3: 143,
-      tile4: 144,
-      tile5: 1,
-      tile6: 0,
-      tile7: 0,
-      tile8: 0,
+      tile1: 999,
+      tile2: 141,
+      tile3: 142,
+      tile4: 143,
+      tile5: 144,
+      tile6: 1,
+      tile7: 999,
+      tile8: 999,
 
-      life1: 5,
+      life1: 0,
       life2: 5,
       life3: 5,
       life4: 5,
-      life5: 0,
+      life5: 5,
       life6: 0,
       life7: 0,
       life8: 0,
@@ -6953,6 +7086,7 @@
         adjacent area. The character must spend 2 extra movement points unless
         the character has <a class="skill" href="/skills/19">Climb</a>.</p>',
 
+      correction: '',
       hero_victory: '',
       overlord_victory: '',
 
@@ -6967,6 +7101,12 @@
 
     # Where the Thunder Rumbles
     { name: "Where the Thunder Rumbles",
+      mode: 'Adventure',
+      pdf_link:'',
+      credit: '',
+      player_count: "3",
+      complexity: "1",
+
       description: "<p>Conan and his men have journeyed for several hours from
         Velitrium, the raw, turbulent frontier town situated on the banks of
         Thunder River. There, on the western border of the kingdom of Aquilonia,
@@ -6990,9 +7130,6 @@
         nightmarish legend with its spectral-hued coat pads into the village. A
         creature almost as big as a bear and with demonic ferocity... a sabertooth tiger.</p>",
       map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Where+the+Thunder+Rumbles.jpg',
-      pdf_link: '',
-      player_count: "3",
-      complexity: "1",
 
       hero_goal: "If at least 1 Bossonian Guard is left on the board by the end
         of turn 7; the heroes win the game.",
@@ -7077,7 +7214,7 @@
       tile5: 29,
       tile6: 146,
       tile7: 2,
-      tile8: 0,
+      tile8: 999,
 
       life1: 0,
       life2: 0,
@@ -7116,6 +7253,7 @@
         1&nbsp;<a class="item" href="/items/6">Explosive Orb</a>, and
         1&nbsp;<a class="item" href="/items/22">Life Potion</a>.</p>',
 
+      correction: '',
       hero_victory: '',
       overlord_victory: '',
 
@@ -7130,6 +7268,12 @@
 
     # Damned Resurrection
     { name: "Damned Resurrection",
+      mode: 'Adventure',
+      pdf_link:'',
+      credit: '',
+      player_count: "3",
+      complexity: "2",
+
       description: "<p>In the heart of Stygia and guided by Conan the Cimmerian,
       the priest of Asura named Hadrathus follows on the heels of the sinister
       King-Priest who reigned over Kuthchemes three thousand years ago. The
@@ -7150,9 +7294,6 @@
       greatest surprise, the vile sorcerer already has enough power to raise the
       dead, even if to that end he must use magical artifacts.</p>",
       map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Damned+Resurrection.jpg',
-      pdf_link: '',
-      player_count: "3",
-      complexity: "2",
 
       hero_goal: "If the 3 altars are destroyed before the end of turn 6; the heroes win the game.",
 
@@ -7246,7 +7387,7 @@
       tile5: 91,
       tile6: 44,
       tile7: 2,
-      tile8: 0,
+      tile8: 999,
 
       life1: 0,
       life2: 0,
@@ -7298,6 +7439,7 @@
         2&nbsp;<a class="item" href="/items/22">Life Potions</a> and
         1&nbsp;<a class="item" href="/items/6">Explosive Orb</a>',
 
+      correction: '',
       hero_victory: '',
       overlord_victory: '',
 
@@ -7312,6 +7454,12 @@
 
     # The Terrible Lovers
     { name: "The Terrible Lovers",
+      mode: 'Adventure',
+      pdf_link:'',
+      credit: '',
+      player_count: "3",
+      complexity: "2",
+
       description: "<p>The pirate ship, The Tigress, is anchored in the harbor
         waters of the great Pelishtim city of Asgalun. After a fruitful campaign
         of bloody robbery and violent pillaging against the Stygian ships; Bêlit,
@@ -7332,9 +7480,6 @@
         block the harbor entrance with the second ship to prevent any attempt of
         pursuit. The Tigress is waiting for them close by and ready to sail.</p>",
       map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Terrible+Lovers.jpg',
-      pdf_link: '',
-      player_count: "3",
-      complexity: "2",
 
       hero_goal: "If the heroes flee with a ship and both amulets in their
         possession before the end of turn 7; the heroes win the game.",
@@ -7415,7 +7560,7 @@
       tile5: 32,
       tile6: 7,
       tile7: 2,
-      tile8: 0,
+      tile8: 999,
 
       life1: 0,
       life2: 0,
@@ -7495,6 +7640,7 @@
         complex manipulation with a difficulty of 3 to open a chest in a water
         area.</p>',
 
+      correction: '',
       hero_victory: '',
       overlord_victory: '',
 
@@ -7509,6 +7655,12 @@
 
     # A Lion Among Panthers
     { name: "A Lion Among Panthers",
+      mode: 'Adventure',
+      pdf_link:'',
+      credit: '',
+      player_count: "3",
+      complexity: "2",
+
       description: "<p>The man with the broad shoulders grimaces protruding his
         muscles so as to break the ties that hinder him. His clothes are of
         quality, but of simple craftsmanship and he does not wear rings, or
@@ -7531,9 +7683,6 @@
         Picts, reminding him tremendously of Balthus, who was his valiant
         brother-in-arms during the fighting on the Black River banks.</p>",
       map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/A+Lion+Among+Panthers.jpg",
-      pdf_link: '',
-      player_count: "3",
-      complexity: "2",
 
       hero_goal: "If at least one hero flees with three Sacred Treasures before
         the end of turn 7; the heroes win the game.",
@@ -7623,7 +7772,7 @@
       tile5: 8,
       tile6: 76,
       tile7: 1,
-      tile8: 0,
+      tile8: 999,
 
       life1: 0,
       life2: 0,
@@ -7714,6 +7863,7 @@
         A character with <a class="skill" href="/skills/11">Wall Wrecker</a>
         can use it to move across the wall of one of the wooden huts.</p>',
 
+      correction: '',
       hero_victory: '',
       overlord_victory: '',
 
@@ -7728,6 +7878,12 @@
 
     # The Last Ditch Invocation
     { name: "The Last Ditch Invocation",
+      mode: 'Adventure',
+      pdf_link:'',
+      credit: '',
+      player_count: "3",
+      complexity: "3",
+
       description: "<p>A satisfied smile appears on the emaciated face of Pelias
         the Sorcerer, a mighty mage of Koth’s court. Centenary codices, discovered
         in the pre-human ruins of the Dagoth hill, took him to Stygia on the trail
@@ -7748,9 +7904,6 @@
         riskier one, so that all have a chance to defend the ship, as well as their
         lives.</p>",
       map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Last+Ditch+Invocation.jpg',
-      pdf_link: '',
-      player_count: "3",
-      complexity: "3",
 
       hero_goal: "If at least one Sailor is alive at the end of turn 6; the heroes
         win the game.",
@@ -7841,7 +7994,7 @@
       tile5: 65,
       tile6: 56,
       tile7: 2,
-      tile8: 0,
+      tile8: 999,
 
       life1: 0,
       life2: 0,
@@ -7928,6 +8081,7 @@
           by the setup diagram. The asset deck contains:
           1&nbsp;<a class="item" href="/items/28">Spellbook</a>.</p>',
 
+      correction: '',
       hero_victory: '',
       overlord_victory: '',
 
@@ -7942,6 +8096,12 @@
 
     # For the Blood of a Barbarian
     { name: "For the Blood of a Barbarian",
+      mode: 'Adventure',
+      pdf_link:'',
+      credit: '',
+      player_count: "3",
+      complexity: "3",
+
       description: "<p> Akivasha has not forgotten the vigorous barbarian of the
         North of which she tried to feed herself in her lair, under the pyramid of
         Khemi. She who courted death to earn life, dead so as to be able to live
@@ -7962,9 +8122,6 @@
         the Land of Mists so that it materializes here on earth to defeat Conan
         and exterminate all the occupants of the tavern.</p>",
       map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/For+the+Blood+of+a+Barbarian.jpg',
-      pdf_link: '',
-      player_count: "3",
-      complexity: "3",
 
       hero_goal: "If the heroes prevent the invocation of the Swamp Demon, or if
         the Swamp Demon dies before the end of turn 8; the heroes win the game.",
@@ -8194,6 +8351,7 @@
           2&nbsp;<a class="item" href="/items/2">Bossonian Bow</a>, and
           1&nbsp;<a class="item" href="/items/6">Explosive Orb</a>.</p>',
 
+      correction: '',
       hero_victory: '',
       overlord_victory: '',
 
@@ -8208,6 +8366,12 @@
 
     # Death from the North
     { name: "Death from the North",
+      mode: 'Adventure',
+      pdf_link:'',
+      credit: '',
+      player_count: "4",
+      complexity: "3",
+
       description: "<p>The keen eye of the imposing figure scrutinizes every
         corner of the peaceful Brythunian village. Hidden at the edge of the
         forest by the dense foliage, the man formulates his plan of attack while
@@ -8229,16 +8393,6 @@
         Aquilonian army, has been sent on mission to Brythunia accompanied by a
         squadron of the Black Legion.</p>",
       map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Death+from+the+North.jpg',
-      pdf_link: '
-      <p><strong>Item Cards:</strong> The item cards placed on the board (clockwise from upper left) are:
-      <a class="item" href="/items/39">Two-Handed Sword</a>
-      <a class="item" href="/items/45">Pictish Drink</a>,
-      <a class="item" href="/items/12">Sword</a>,
-      <a class="item" href="/items/22">Life Potion</a>,
-      <a class="item" href="/items/38">Turanian Sword</a>, and
-      <a class="item" href="/items/45">Pictish Drink</a></p>',
-      player_count: "4",
-      complexity: "3",
 
       hero_goal: "If the heroes kill the Hyperborean Primitive or prevent the
         Overlord from killing all the pirates, Bossonian guards and archers before
@@ -8335,19 +8489,19 @@
           </tr>
         </table>',
 
-      tile1: 61,
-      tile2: 74,
-      tile3: 1,
-      tile4: 0,
-      tile5: 0,
-      tile6: 0,
-      tile7: 0,
-      tile8: 0,
+      tile1: 999,
+      tile2: 999,
+      tile3: 61,
+      tile4: 74,
+      tile5: 1,
+      tile6: 999,
+      tile7: 999,
+      tile8: 999,
 
-      life1: 6,
-      life2: 8,
-      life3: 0,
-      life4: 0,
+      life1: 0,
+      life2: 0,
+      life3: 6,
+      life4: 8,
       life5: 0,
       life6: 0,
       life7: 0,
@@ -8465,6 +8619,14 @@
         can move across a banister from a ground floor area to a stair area by
         spending 1 extra movement point.</p>',
 
+      correction: '
+      <p><strong>Item Cards:</strong> The item cards placed on the board (clockwise from upper left) are:
+      <a class="item" href="/items/39">Two-Handed Sword</a>
+      <a class="item" href="/items/45">Pictish Drink</a>,
+      <a class="item" href="/items/12">Sword</a>,
+      <a class="item" href="/items/22">Life Potion</a>,
+      <a class="item" href="/items/38">Turanian Sword</a>, and
+      <a class="item" href="/items/45">Pictish Drink</a></p>',
       hero_victory: '',
       overlord_victory: '',
 
@@ -8478,6 +8640,12 @@
 
     # Conspiracy in Khauran
     { name: "Conspiracy in Khauran",
+      mode: 'Adventure',
+      pdf_link:'',
+      credit: '',
+      player_count: "4",
+      complexity: "1",
+
       description: "<p>Khauran is a small country, wedged between the great
         Western states and the sultanates of the Far East. Its major city—also
         called Khauran—is an affluent trade center that controls many caravan
@@ -8500,12 +8668,6 @@
         conspirators are expected to meet, convinced that he will find evidence
         of their treachery.</p>",
       map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Conspiracy+in+Khauran.jpg',
-      pdf_link: '
-      <p><strong>Item Cards:</strong> The item cards placed on the board are:
-      <a class="item" href="/items/22">Life Potion</a>, and
-      <a class="item" href="/items/5">Crossbow</a></p>',
-      player_count: "4",
-      complexity: "1",
 
       hero_goal: "If a hero has fled the tavern with the spellbook; the heroes win the game.",
 
@@ -8605,7 +8767,7 @@
       tile5: 137,
       tile6: 135,
       tile7: 3,
-      tile8: 0,
+      tile8: 999,
 
       life1: 0,
       life2: 0,
@@ -8618,7 +8780,7 @@
 
       special_rules: '<p><span class="special_title">Chests:</span>
         During setup, the Overlord randomly places 2
-        <img src="/assets/tokens/chestToken.png" class="scen_token" /> tokens
+        <img src="/assets/tokens/treasureToken.png" class="scen_token" /> tokens
         numbered 1 and 2, with their chest side faceup, as indicated by the
         setup diagram.</p>
 
@@ -8670,6 +8832,10 @@
         can move across a banister from a ground floor area to a stair area by
         spending 1 extra movement point.</p>',
 
+      correction: '
+      <p><strong>Item Cards:</strong> The item cards placed on the board are:
+      <a class="item" href="/items/22">Life Potion</a>, and
+      <a class="item" href="/items/5">Crossbow</a></p>',
       hero_victory: '',
       overlord_victory: '',
 
@@ -8684,6 +8850,12 @@
 
     # Yogah’s Rebirth
     { name: "Yogah’s Rebirth",
+      mode: 'Adventure',
+      pdf_link:'',
+      credit: '',
+      player_count: "4",
+      complexity: "2",
+
       description: "<p>The steep walls of the ancient fortress obscure the
         bottom of the valley. There, in the confines of the world known to
         Hyborians, where the legends surrounding the Black Kingdoms are born, a
@@ -8704,9 +8876,6 @@
         their prey before slaying them without further ado, these witch hunters
         are determined to destroy the strange creature they believe to be a demon.</p>",
       map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Yogahs+Rebirth.jpg',
-      pdf_link: '',
-      player_count: "4",
-      complexity: "2",
 
       hero_goal: "If Shubba dies (the Orb is linked to Shubba. Yogah cannot use
         it while Shubba is still alive), and Yogah of Yag has fled the fort with
@@ -8808,22 +8977,22 @@
           </tr>
         </table>',
 
-      tile1: 141,
-      tile2: 142,
-      tile3: 23,
-      tile4: 1,
-      tile5: 143,
-      tile6: 144,
-      tile7: 0,
-      tile8: 0,
+      tile1: 999,
+      tile2: 141,
+      tile3: 142,
+      tile4: 23,
+      tile5: 1,
+      tile6: 143,
+      tile7: 144,
+      tile8: 999,
 
-      life1: 6,
-      life2: 4,
-      life3: 0,
+      life1: 0,
+      life2: 6,
+      life3: 4,
       life4: 0,
       life5: 4,
-      life6: 6,
-      life7: 0,
+      life6: 4,
+      life7: 6,
       life8: 0,
 
       special_rules: '<p><span class="special_title">Kushites:</span>
@@ -8881,6 +9050,7 @@
         1&nbsp;<a class="item" href="/items/2">Bossonian Bow</a>, and
         1&nbsp;<a class="item" href="/items/14">Tribal Mace</a>.</p>',
 
+      correction: '',
       hero_victory: '',
       overlord_victory: '',
 
@@ -8895,6 +9065,12 @@
 
     # A Dragon on the Marches
     { name: "A Dragon on the Marches",
+      mode: 'Adventure',
+      pdf_link:'',
+      credit: '',
+      player_count: "4",
+      complexity: "2",
+
       description: "<p>The rumor was true. The Pict warriors of the Eagle Clan
         have succeeded in capturing a dragon; one of the terrible primitive
         creatures that still haunt the immense and ancient forests that border
@@ -8917,9 +9093,6 @@
         of elite who are reckless enough to face the wild beast and the painted
         warriors on their own territory.</p>",
       map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/A Dragon+on+the+Marches.jpg',
-      pdf_link: '',
-      player_count: "4",
-      complexity: "2",
 
       hero_goal: "If the heroes kill the Dragon before the end of turn 7; the heroes win the game.",
 
@@ -9021,7 +9194,7 @@
       tile5: 29,
       tile6: 8,
       tile7: 1,
-      tile8: 0,
+      tile8: 999,
 
       life1: 0,
       life2: 0,
@@ -9105,6 +9278,7 @@
         1&nbsp;<a class="item" href="/items/25">Pictish Fetish</a>, and
         1&nbsp;<a class="item" href="/items/48">Elixir</a>.</p>',
 
+      correction: '',
       hero_victory: '',
       overlord_victory: '',
 
@@ -9119,6 +9293,12 @@
 
     # An Ape, Several Kegs and a Girl
     { name: "An Ape, Several Kegs and a Girl",
+      mode: 'Adventure',
+      pdf_link:'',
+      credit: '',
+      player_count: "5",
+      complexity: "2",
+
       description: "<p>In the Khorshemish region, a small group of individuals
       climb steep slopes flanking a decrepit fortress. Conan the Cimmerian leads
       the way. He came to help his friend Pelias, the powerful mage of the Court
@@ -9139,9 +9319,6 @@
       gray ape, obviously trained by Constantius, who uses its superhuman strength
       to throw kegs filled with pitch at them. </p>",
       map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/An+Ape+Several+Kegs+and+a+Girl.jpg',
-      pdf_link: '',
-      player_count: "5",
-      complexity: "2",
 
       hero_goal: "If Gitara flees the citadel before the end of turn 6; the heroes
         win the game.",
@@ -9240,7 +9417,7 @@
       tile5: 79,
       tile6: 58,
       tile7: 1,
-      tile8: 0,
+      tile8: 999,
 
       life1: 0,
       life2: 0,
@@ -9353,6 +9530,7 @@
           1&nbsp;<a class="item" href="/items/17">Leather Armor</a>, and
           1&nbsp;<a class="item" href="/items/34">Mitra’s Mace</a>.</p>',
 
+      correction: '',
       hero_victory: '',
       overlord_victory: '',
 
@@ -9367,6 +9545,12 @@
 
     # The Zamboula Strangler
     { name: "The Zamboula Strangler",
+      mode: 'Adventure',
+      pdf_link:'',
+      credit: '',
+      player_count: "5",
+      complexity: "2",
+
       description: "<p>In the past Zamboula was but a small trading-town, lying
         amidst a ring of oases. It was conquered by the Stygians and they built
         it into a city; the ceaseless caravans crossing the Kharamun desert
@@ -9392,9 +9576,6 @@
         citadel where he is being held by Totrasmek’s evil servant, the lethal and
         colossal strangler known as Baal-pteor.</p>",
       map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Zamboula+Strangler.jpg',
-      pdf_link: '',
-      player_count: "5",
-      complexity: "2",
 
       hero_goal: "If the heroes help the Captain flee the citadel before the end
         of turn 8; the heroes win the game.",
@@ -9493,7 +9674,7 @@
       tile5: 88,
       tile6: 130,
       tile7: 1,
-      tile8: 0,
+      tile8: 999,
 
       life1: 0,
       life2: 0,
@@ -9590,6 +9771,7 @@
         1&nbsp;<a class="item" href="/items/41">Zingaran Breastplate</a>, and
         1&nbsp;<a class="item" href="/items/22">Life Potion</a>.</p>',
 
+      correction: '',
       hero_victory: '',
       overlord_victory: '',
 
@@ -9604,6 +9786,12 @@
 
     # Sacrificial Heroes
     { name: "Sacrificial Heroes",
+      mode: 'Adventure',
+      pdf_link:'',
+      credit: '',
+      player_count: "5",
+      complexity: "3",
+
       description: "<p>Zingara is a proud and powerful country, bordering the
         great western sea. Yet for many years, even though the country is
         endowed with fertile land, the king and his ancestors before him have
@@ -9626,9 +9814,6 @@
         garrison occupying the citadel built nearby. A mission more than perilous,
         but one that will assure him fortune and glory.</p>",
       map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Sacrificial+Heroes.jpg',
-      pdf_link: '',
-      player_count: "5",
-      complexity: "3",
 
       hero_goal: "If the heroes destroy the outpost or sabotage the citadel
         before the end of turn 8; the heroes win the game.",
@@ -9737,7 +9922,7 @@
       tile5: 69,
       tile6: 71,
       tile7: 1,
-      tile8: 0,
+      tile8: 999,
 
       life1: 0,
       life2: 6,
@@ -9915,6 +10100,7 @@
         1&nbsp;<a class="item" href="/items/12">Sword</a>, and
         1&nbsp;<a class="item" href="/items/14">Tribal Mace</a>.</p>',
 
+      correction: '',
       hero_victory: '',
       overlord_victory: '',
 
@@ -9929,6 +10115,12 @@
 
     # The Curse of the Shape-Shifter
     { name: "The Curse of the Shape-Shifter",
+      mode: 'Adventure',
+      pdf_link:'',
+      credit: '',
+      player_count: "5",
+      complexity: "3",
+
       description: "<p>Bahram, the influential warlock in the service of the
         Sultan of Iranistan, has lost control of his powers. He has become a
         shape-shifter against his own will and no one knows whether this is a
@@ -9950,9 +10142,6 @@
         succeeds, at the very least, in preventing his ritual thus leaving him to
         end his days in the form of an animal.</p>",
       map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Curse+of+the+Shape-Shifter.jpg',
-      pdf_link: '',
-      player_count: "5",
-      complexity: "3",
 
       hero_goal: "If the heroes kill the Warlock, or prevent the Overlord from
         warding off the curse before the end of turn 7; the heroes win the game.",
@@ -10067,7 +10256,7 @@
       tile5: 83,
       tile6: 50,
       tile7: 1,
-      tile8: 0,
+      tile8: 999,
 
       life1: 6,
       life2: 0,
@@ -10198,6 +10387,7 @@
         1&nbsp;<a class="item" href="/items/14">Tribal Mace</a>, and
         1&nbsp;<a class="item" href="/items/40">Zingaran Bow</a>.</p>',
 
+      correction: '',
       hero_victory: '',
       overlord_victory: '',
 
@@ -10212,6 +10402,12 @@
 
     # The Iron Hand
     { name: "The Iron Hand",
+      mode: 'Adventure',
+      pdf_link:'',
+      credit: '',
+      player_count: "5",
+      complexity: "3",
+
       description: "<p>Under the low ceiling, blackened by the smoke of a sordid
       dive engulfed in the tortuous alleys of Peshkhauri, the atmosphere suddenly
       strains. The dark, inscrutable face of the Cimmerian colossus, with an air
@@ -10233,9 +10429,6 @@
       reputation as Iron Hand. Then the tavern soon resounds with the clatter
       of knocked-over benches, trampling, screams and curse words in a furious fray</p>",
       map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Iron+Hand.jpg',
-      pdf_link: '',
-      player_count: "5",
-      complexity: "3",
 
       hero_goal: "If the heroes flee with both Treasure Chests before the end of
         turn 7; the heroes win the game.",
@@ -10338,7 +10531,7 @@
       tile5: 30,
       tile6: 18,
       tile7: 63,
-      tile8: 0,
+      tile8: 999,
 
       life1: 0,
       life2: 0,
@@ -10461,6 +10654,7 @@
           as indicated by the setup diagram. The asset deck contains:
           3&nbsp;<a class="item" href="/items/6">Explosive Orbs</a>',
 
+      correction: '',
       hero_victory: '',
       overlord_victory: '',
 
@@ -10477,6 +10671,12 @@
     ## Devil in Iron
     # 1 Uproar in Messantia
     { name: "Uproar in Messantia",
+      mode: 'Adventure',
+      pdf_link:'Legend of the Devil in Iron',
+      credit: 'Monolith Team',
+      player_count: "5",
+      complexity: "Campaign",
+
       description: "<p>Night has fallen on Messantia when Conan sets foot in the
       streets overlooking the seafront of Argos’ opulent capital. This commercial
       and cosmopolitan maritime city will be a good starting point for gleaning
@@ -10496,9 +10696,6 @@
       in his hands, “This tavern is closed! Leave right now you scum, it is time
       for Publio to answer to his trafficking with the enemies of Argos.”</p>",
       map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Uproar+in+Messantia.jpg',
-      pdf_link: '',
-      player_count: "5",
-      complexity: "Campaign",
 
       hero_goal: "If the information is retrieved by freeing the informer before
       he is executed at the end of turn 6; the heroes win the game.",
@@ -10602,7 +10799,7 @@
       tile5: 18,
       tile6: 3,
       tile7: 1,
-      tile8: 0,
+      tile8: 999,
 
       life1: 0,
       life2: 0,
@@ -10650,6 +10847,8 @@
             <p>The next scenario to be played is scenario 3, <strong>“An Improbable
             Alliance”</strong>.</p>',
 
+      correction: '',
+
       origin: "Legend of the Devil in Iron",
       product_ids: [1, 2, 3, 21],
       map_ids: [2],
@@ -10660,6 +10859,12 @@
 
     # 2 The Unmasked Pirate
     { name: "The Unmasked Pirate",
+      mode: 'Adventure',
+      pdf_link:'Legend of the Devil in Iron',
+      credit: 'Monolith Team',
+      player_count: "5",
+      complexity: "Campaign",
+
       description: "<p>After a short sea voyage aboard a merchant ship, Conan and
       his companions finally land in Kordava, the capital of the kingdom of Zingara
       and listed among the most sumptuous ports of the western nations.</p>
@@ -10682,9 +10887,6 @@
       there is a hussy here who claims that you are indeed the Barachan pirate who
       has a price on his head.”</p>",
       map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Unmasked+Pirate.jpg',
-      pdf_link: '',
-      player_count: "5",
-      complexity: "Campaign",
 
       hero_goal: "If Gitara is killed and all the surviving heroes at this moment
       flee the citadel before the end of turn 7; the heroes win the game.",
@@ -10860,6 +11062,8 @@
                 <p>The next scenario to be played is scenario 6, <strong>“The Mad
                 Shaman”</strong>.</p>',
 
+      correction: '',
+
       origin: "Legend of the Devil in Iron",
       product_ids: [1, 2, 3, 21],
       map_ids: [5],
@@ -10870,6 +11074,12 @@
 
     # 3 An Improbable Alliance
     { name: "An Improbable Alliance",
+      mode: 'Adventure',
+      pdf_link:'Legend of the Devil in Iron',
+      credit: 'Monolith Team',
+      player_count: "5",
+      complexity: "Campaign",
+
       description: "<p>After reading the letter found in Publio’s belongings, Conan
         understands that Flavia’s abductor used the services of an accomplice who
         is not identified in the letter, but that the latter should go to the coastal
@@ -10889,9 +11099,6 @@
         <p>It is now necessary to enter the village in order to unmask the
         accomplice and interrogate him.</p>",
       map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/An+Improbable+Alliance.jpg',
-      pdf_link: '',
-      player_count: "5",
-      complexity: "Campaign",
 
       hero_goal: "If the hero with the information flees with the village before
       the end of turn 8; the heroes win the game.",
@@ -11085,6 +11292,8 @@
               <p>The next scenario to be played is scenario 6, <strong>“The Mad
               Shaman”</strong>.</p>',
 
+      correction: '',
+
       origin: "Legend of the Devil in Iron",
       product_ids: [1, 2, 3, 21],
       map_ids: [1],
@@ -11095,6 +11304,12 @@
 
     # 4 When the Dead Walk
     { name: "When the Dead Walk",
+      mode: 'Adventure',
+      pdf_link:'Legend of the Devil in Iron',
+      credit: 'Monolith Team',
+      player_count: "5",
+      complexity: "Campaign",
+
       description: "<p>Making the most of the advance paid by Count Alberico, Conan
         soon charters a ship and sets up a crew to rejoin Khemi, the largest port
         of Stygia, in order to find Noliades.</p>
@@ -11120,9 +11335,6 @@
         mausoleum. The soul of Skuthus is still linked to his tomb, ready to punish
         violators. A skeletal hand emerges from the ground to grab Conan’s ankle...</p>",
         map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/When+the+Dead+Walk.jpg',
-        pdf_link: '',
-        player_count: "5",
-        complexity: "Campaign",
 
       hero_goal: "If the heroes kill Skuthus before the end of turn 8, they stop
         the evil curse; the heroes win the game.",
@@ -11242,7 +11454,7 @@
       tile5: 46,
       tile6: 45,
       tile7: 2,
-      tile8: 0,
+      tile8: 999,
 
       life1: 0,
       life2: 0,
@@ -11318,6 +11530,8 @@
                   <p>The next scenario to be played is scenario 6, <strong>“The
                   Mad Shaman”</strong>.</p>',
 
+      correction: '',
+
         origin: "Legend of the Devil in Iron",
         product_ids: [1, 2, 3, 21],
         map_ids: [4],
@@ -11329,6 +11543,12 @@
 
     # 5 The Inn of All Dangers
     { name: "The Inn of All Dangers",
+      mode: 'Adventure',
+      pdf_link:'Legend of the Devil in Iron',
+      credit: 'Monolith Team',
+      player_count: "5",
+      complexity: "Campaign",
+
       description: "<p>Riding flat out on the Road of Kings, Conan asks questions
         about Constantius and his convoy to the men laboring in the fields, to talkative
         boozers in the inns and to the merchants he meets on the way.</p>
@@ -11347,9 +11567,6 @@
         to the slave market of Shadizar the Perverse, it is with steel in his hand
         that he leaves in search of an answer.</p>",
       map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Inn+of+all+Dangers.jpg',
-      pdf_link: '',
-      player_count: "5",
-      complexity: "Campaign",
 
       hero_goal: "If Constantius is killed, either by the Bone Golem or the heroes,
         before the end of turn 8; the heroes win the game.",
@@ -11460,7 +11677,7 @@
       tile5: 32,
       tile6: 58,
       tile7: 1,
-      tile8: 0,
+      tile8: 999,
 
       life1: 0,
       life2: 0,
@@ -11538,6 +11755,8 @@
             <p>The next scenario to be played is scenario 9, <strong>“The Woman
             Who Never Dies”</strong>.</p>',
 
+      correction: '',
+
       origin: "Legend of the Devil in Iron",
       product_ids: [1, 2, 3, 21],
       map_ids: [2],
@@ -11548,6 +11767,12 @@
 
     # 6 The Mad Shaman
     { name: "The Mad Shaman",
+      mode: 'Adventure',
+      pdf_link:'Legend of the Devil in Iron',
+      credit: 'Monolith Team',
+      player_count: "5",
+      complexity: "Campaign",
+
       description: "<p>Exhausted, the mercenaries have finished by shaking off their
         pursuers, but they have sunk deep into Pictish territory, into the wild
         virgin lands far removed from civilization.</p>
@@ -11566,9 +11791,6 @@
         <p>And the worst is to come, this shaman, living the life of a recluse, is
         completely mad and highly skilled in the darkest of magical arts.</p>",
       map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Mad+Shaman.jpg',
-      pdf_link: '',
-      player_count: "5",
-      complexity: "Campaign",
 
       hero_goal: "If before the end of turn 7, Zogar Sag has not succeeded in destroying
       the village, or he has been killed by the heroes; the heroes win the game.",
@@ -11678,7 +11900,7 @@
       tile5: 44,
       tile6: 8,
       tile7: 2,
-      tile8: 0,
+      tile8: 999,
 
       life1: 5,
       life2: 0,
@@ -11737,6 +11959,8 @@
           <p>The next scenario to be played is scenario 9, <strong>“The Woman Who
           Never Died”</strong>.</p>',
 
+      correction: '',
+
       origin: "Legend of the Devil in Iron",
       product_ids: [1, 2, 3, 21],
       map_ids: [6],
@@ -11747,6 +11971,12 @@
 
     # 7 The Crook’s Hideout
     { name: "The Crook’s Hideout",
+      mode: 'Adventure',
+      pdf_link:'Legend of the Devil in Iron',
+      credit: 'Monolith Team',
+      player_count: "5",
+      complexity: "Campaign",
+
       description: "<p>The perilous journey from Stygia to the Eastern Desert has
       put the nerves of Conan and his fellow soldiers to the test. By trying to
       elude the Zuagir plunderers who infest the region and the regular troops from
@@ -11766,9 +11996,6 @@
         causing building to collapse could offer the Cimmerian a possibility to approach
         the Falcon more easily in order to question him about Flavia.</p>",
       map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Crooks+Hideout.jpg',
-      pdf_link: '',
-      player_count: "5",
-      complexity: "Campaign",
 
       hero_goal: "If the self-destruction is activated before the end of turn 5,
       and the surviving heroes flee the citadel; the heroes win the game.",
@@ -11880,7 +12107,7 @@
       tile5: 18,
       tile6: 19,
       tile7: 1,
-      tile8: 0,
+      tile8: 999,
 
       life1: 0,
       life2: 0,
@@ -11968,6 +12195,8 @@
           <p>The next scenario to be played is scenario 9, <strong>“The Woman Who
           Never Died”</strong>.</p>',
 
+      correction: '',
+
       origin: "Legend of the Devil in Iron",
       product_ids: [1, 2, 3, 21],
       map_ids: [5],
@@ -11978,6 +12207,12 @@
 
     # 8 The Treasure Chest
     { name: "The Treasure Chest",
+      mode: 'Adventure',
+      pdf_link:'Legend of the Devil in Iron',
+      credit: 'Monolith Team',
+      player_count: "5",
+      complexity: "Campaign",
+
       description: "<p>Back in the wilderness occupied by the Picts, Conan and his
         group reach the coastal village mentioned by Constantius. They note, not
         without bitterness, that the Picts have moved on, presumably in a hurry
@@ -11999,9 +12234,6 @@
         late to think about why he might have left his distant snow-covered lands to
         meet the Picts, for it is necessary to seize the chest.</p>",
       map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Treasure+Chest.jpg',
-      pdf_link: '',
-      player_count: "5",
-      complexity: "Campaign",
 
       hero_goal: "If at least one hero flees the swamp with the sarcophagus before
       the end of turn 8; the heroes win the game.",
@@ -12114,7 +12346,7 @@
       tile5: 85,
       tile6: 61,
       tile7: 1,
-      tile8: 0,
+      tile8: 999,
 
       life1: 0,
       life2: 0,
@@ -12186,6 +12418,8 @@
           <p>The next scenario to be played is scenario 12, <strong>“The horror
           from the abyss”</strong>.</p>',
 
+      correction: '',
+
       origin: "Legend of the Devil in Iron",
       product_ids: [1, 2, 3, 21],
       map_ids: [6],
@@ -12196,6 +12430,12 @@
 
     # 9 The Woman Who Never Died
     { name: "The Woman Who Never Died",
+      mode: 'Adventure',
+      pdf_link:'Legend of the Devil in Iron',
+      credit: 'Monolith Team',
+      player_count: "5",
+      complexity: "Campaign",
+
       description: "<p>With his hand firmly gripping the hilt of his sword, Conan
         wanders through the long dark tunnel that twists before him. He does not know
         how he got here. He vaguely remembers that he and his men, completely exhausted,
@@ -12220,9 +12460,6 @@
         <p>It is time to fight to prevent this waking nightmare from becoming their
         tomb.</p>",
       map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Woman+Who+Never+Died.jpg',
-      pdf_link: '',
-      player_count: "5",
-      complexity: "Campaign",
 
       hero_goal: "If Akivasha is killed before the end of turn 7; the heroes win the game.",
 
@@ -12336,22 +12573,22 @@
           </tr>
         </table>',
 
-      tile1: 22,
-      tile2: 17,
-      tile3: 18,
-      tile4: 15,
-      tile5: 1,
-      tile6: 53,
-      tile7: 0,
-      tile8: 0,
+      tile1: 999,
+      tile2: 22,
+      tile3: 17,
+      tile4: 18,
+      tile5: 15,
+      tile6: 1,
+      tile7: 53,
+      tile8: 999,
 
       life1: 0,
       life2: 0,
       life3: 0,
       life4: 0,
       life5: 0,
-      life6: 5,
-      life7: 0,
+      life6: 0,
+      life7: 5,
       life8: 0,
 
       special_rules: '
@@ -12410,6 +12647,8 @@
           <p>The next scenario to be played is scenario 12, <strong>“The horror
           from the abyss”</strong>.</p>',
 
+      correction: '',
+
       origin: "Legend of the Devil in Iron",
       product_ids: [1, 2, 3, 21],
       map_ids: [4],
@@ -12420,6 +12659,12 @@
 
     # 10 An Explosive Enigma
     { name: "An Explosive Enigma",
+      mode: 'Adventure',
+      pdf_link:'Legend of the Devil in Iron',
+      credit: 'Monolith Team',
+      player_count: "5",
+      complexity: "Campaign",
+
       description: "<p>Few people can boast of having crossed the path of the fierce
       Pict warriors and of still being alive. However, the savage tribes along the
       coast are not averse to bartering with the representatives of civilized nations
@@ -12442,9 +12687,6 @@
         group, a life spent in one of the wildest territories of this world has sharpened
         the eyes and senses of these men covered with hideous paintings.</p>",
       map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/An+Explosive+Enigma.jpg',
-      pdf_link: '',
-      player_count: "5",
-      complexity: "Campaign",
 
       hero_goal: "If the heroes manage to place the colored orbs in the correct position
       on their receptacles before the end of turn 8 to prevent the destruction of the
@@ -12565,7 +12807,7 @@
       tile5: 61,
       tile6: 1,
       tile7: 79,
-      tile8: 0,
+      tile8: 999,
 
       life1: 0,
       life2: 0,
@@ -12634,6 +12876,8 @@
           <p>The next scenario to be played is scenario 12, <strong>“The horror
           from the abyss”</strong>.</p>',
 
+      correction: '',
+
       origin: "Legend of the Devil in Iron",
       product_ids: [1, 2, 3, 21],
       map_ids: [1],
@@ -12644,6 +12888,12 @@
 
     # 11 A Terrifying Incantation
     { name: "A Terrifying Incantation",
+      mode: 'Adventure',
+      pdf_link:'Legend of the Devil in Iron',
+      credit: 'Monolith Team',
+      player_count: "5",
+      complexity: "Campaign",
+
       description: "<p>After arriving in Kordava, the mercenaries embark once again
       to Stygia. Conan now knows where to look for the magic dagger because he knows
       the sea of Vilayet well from his years spent as a buccaneer. His idea is to
@@ -12666,9 +12916,6 @@
         magic. By getting rid of the sorcerer, he will surely put an end to the beast’s
         wrath.</p>",
       map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/A+Terrifying+Incantation.jpg',
-      pdf_link: '',
-      player_count: "5",
-      complexity: "Campaign",
 
       hero_goal: "If the heroes have killed Khemsa and loaded the 3 trunks of
       supplies onto their ship before the end of turn 7; the heroes win the game.",
@@ -12793,7 +13040,7 @@
       tile5: 12,
       tile6: 1,
       tile7: 63,
-      tile8: 0,
+      tile8: 999,
 
       life1: 0,
       life2: 0,
@@ -12875,6 +13122,8 @@
           <p>The next scenario to be played is scenario 14, <strong>“The Mystical
           Dagger”</strong>.</p>',
 
+      correction: '',
+
       origin: "Legend of the Devil in Iron",
       product_ids: [1, 2, 3, 21],
       map_ids: [3],
@@ -12885,6 +13134,12 @@
 
     # 12 Approached by the Vandal
     { name: "Approached by the Vandal",
+      mode: 'Adventure',
+      pdf_link:'Legend of the Devil in Iron',
+      credit: 'Monolith Team',
+      player_count: "5",
+      complexity: "Campaign",
+
       description: "<p>The mercenaries have no more time to lose. After arriving
       in Kordava they embark towards Stygia because Conan now knows where to look
       for the magic dagger. He wants to go up the River Styx, and then ride across
@@ -12904,9 +13159,6 @@
         is critical, but the barrels of pitch embarked before departure could make
         the difference.</p>",
       map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Approached+by+the+Vandal.jpg',
-      pdf_link: '',
-      player_count: "5",
-      complexity: "Campaign",
 
       hero_goal: "If the heroes kill Thaug before the end of turn 7; the heroes win the game.",
 
@@ -13018,7 +13270,7 @@
       tile5: 93,
       tile6: 63,
       tile7: 7,
-      tile8: 0,
+      tile8: 999,
 
       life1: 0,
       life2: 0,
@@ -13112,6 +13364,8 @@
           <p>The next scenario to be played is scenario 14, <strong>“The Mystical
           Dagger”</strong>.</p>',
 
+      correction: '',
+
       origin: "Legend of the Devil in Iron",
       product_ids: [1, 2, 3, 21],
       map_ids: [3],
@@ -13122,6 +13376,12 @@
 
     # 13 The Horror from the Abyss
     { name: "The Horror from the Abyss",
+      mode: 'Adventure',
+      pdf_link:'Legend of the Devil in Iron',
+      credit: 'Monolith Team',
+      player_count: "5",
+      complexity: "Campaign",
+
       description: "<p>The soldiers of fortune make the long journey to the Turanian
       City of Sultanapur, where Conan still has contacts among the buccaneers who
       plunder the inland sea of the Thurian continent.</p>
@@ -13143,9 +13403,6 @@
         “Contemplate the forces of the invisible kingdoms, for you will soon become
         one with the Abyss and you will grovel at the feet of the Master of Xapur.”</p>",
       map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Horror+from+the+Abyss.jpg',
-      pdf_link: '',
-      player_count: "5",
-      complexity: "Campaign",
 
       hero_goal: "If the heroes kill Thaug before the end of turn 7; the heroes win the game.",
 
@@ -13257,7 +13514,7 @@
       tile5: 93,
       tile6: 63,
       tile7: 2,
-      tile8: 0,
+      tile8: 999,
 
       life1: 0,
       life2: 0,
@@ -13336,6 +13593,8 @@
           <p>The next scenario to be played is scenario 14, <strong>“The Mystical
           Dagger”</strong>.</p>',
 
+      correction: '',
+
       origin: "Legend of the Devil in Iron",
       product_ids: [1, 2, 3, 21],
       map_ids: [3],
@@ -13346,6 +13605,12 @@
 
     # 14 The Mystical Dagger
     { name: "The Mystical Dagger",
+      mode: 'Adventure',
+      pdf_link:'Legend of the Devil in Iron',
+      credit: 'Monolith Team',
+      player_count: "5",
+      complexity: "Campaign",
+
       description: "<p>Conan and his companions finally arrive on the wild and
         inhospitable coast facing the island of Xapur. The surroundings are formed
         from a vast swamp covered with reeds and abandoned to ferocious beasts. Only
@@ -13368,9 +13633,6 @@
         sorcerer then takes advantage of the scuffle to throw the dagger into the
         swamp.</p>",
       map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Mystical+Dagger.jpg',
-      pdf_link: '',
-      player_count: "5",
-      complexity: "Campaign",
 
       hero_goal: "If a hero flees the swamp with the Yuetshi Knife before the
       end of turn 7; the heroes win the game.",
@@ -13576,6 +13838,8 @@
           the heroes’ side loses this scenario a second time, then the heroes’
           side loses the campaign.</strong></p>',
 
+      correction: '',
+
       origin: "Legend of the Devil in Iron",
       product_ids: [1, 2, 3, 21],
       map_ids: [6],
@@ -13586,6 +13850,12 @@
 
     # 15 Behind the Barricades
     { name: "Behind the Barricades",
+      mode: 'Adventure',
+      pdf_link:'Legend of the Devil in Iron',
+      credit: 'Monolith Team',
+      player_count: "5",
+      complexity: "Campaign",
+
       description: "<p>The confrontation to retrieve the dagger has been terrible
       and the Yuetshi recover painfully from the demonic trance that had taken
       possession of them. One of the fisherman offers to take Conan to his own
@@ -13605,9 +13875,6 @@
         as powerful. Then the mercenaries quickly erect some makeshift barricades
         using what they find in the nearest streets and huts.</p>",
       map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Behind+the+Barricades.jpg',
-      pdf_link: '',
-      player_count: "5",
-      complexity: "Campaign",
 
       hero_goal: "If the heroes manage to get the fisherman out of the village
       before the end of turn 7; the heroes win the game.",
@@ -13728,7 +13995,7 @@
       tile5: 1,
       tile6: 76,
       tile7: 8,
-      tile8: 0,
+      tile8: 999,
 
       life1: 0,
       life2: 0,
@@ -13792,6 +14059,8 @@
           a small fishing boat to join Xapur.</p>
           <p><strong>The Overlord’s side earns 2 victory points.</strong></p>',
 
+      correction: '',
+
       origin: "Legend of the Devil in Iron",
       product_ids: [1, 2, 3, 21],
       map_ids: [1],
@@ -13802,6 +14071,12 @@
 
     # 16 The Spellbook of the Gray Man-Ape
     { name: "The Spellbook of the Gray Man-Ape",
+      mode: 'Adventure',
+      pdf_link:'Legend of the Devil in Iron',
+      credit: 'Monolith Team',
+      player_count: "5",
+      complexity: "Campaign",
+
       description: "<p>Back in civilization, in the filthy lanes of the Khorusun
       slums, Conan thinks he can use his reputation in order to quickly find a ship
       and crew among the crooks who squander their booty in the sordid eating-houses
@@ -13817,9 +14092,6 @@
         also with a strange man ape is after the book for himself; convinced that
         its contents could enable him to take on a human form.</p>",
       map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Spellbook+of+the+Gray+Man+Ape.jpg',
-      pdf_link: '',
-      player_count: "5",
-      complexity: "Campaign",
 
       hero_goal: "If a hero flees the inn with the spellbook; the heroes win the game.",
 
@@ -13919,21 +14191,21 @@
           </tr>
         </table>',
 
-      tile1: 35,
-      tile2: 32,
-      tile3: 31,
-      tile4: 89,
-      tile5: 13,
-      tile6: 1,
-      tile7: 0,
-      tile8: 0,
+      tile1: 999,
+      tile2: 35,
+      tile3: 32,
+      tile4: 31,
+      tile5: 89,
+      tile6: 13,
+      tile7: 1,
+      tile8: 999,
 
       life1: 0,
       life2: 0,
       life3: 0,
       life4: 0,
-      life5: 10,
-      life6: 0,
+      life5: 0,
+      life6: 10,
       life7: 0,
       life8: 0,
 
@@ -14013,6 +14285,8 @@
           supply his ship, of his own will or by force.</p>
           <p><strong>The Overlord’s side wins 1 special gem.</strong></p>',
 
+      correction: '',
+
       origin: "Legend of the Devil in Iron",
       product_ids: [1, 2, 3, 21],
       map_ids: [2],
@@ -14023,6 +14297,12 @@
 
     # 17 The Cursed Treasures of Khawarizm
     { name: "The Cursed Treasures of Khawarizm",
+      mode: 'Adventure',
+      pdf_link:'Legend of the Devil in Iron',
+      credit: 'Monolith Team',
+      player_count: "5",
+      complexity: "Campaign",
+
       description: "<p>Back in civilization, in the colorful and fragrant streets
       of the Turanian city of Khawarizm, the mercenaries no longer have the means
       to charter a ship of find a crew. Time is short and faced with the lack of
@@ -14042,9 +14322,6 @@
           and his companions are also unaware that Jehungir’s artifacts are gorged
           with the darkest and most evil of witchcraft.</p>",
       map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Cursed+Treasures+of+Khawarizm.jpg',
-      pdf_link: '',
-      player_count: "5",
-      complexity: "Campaign",
 
       hero_goal: "If a hero flees the citadel with the 3 cursed artifacts before
       the end of turn 7; the heroes win the game.",
@@ -14163,7 +14440,7 @@
       tile5: 10,
       tile6: 1,
       tile7: 10,
-      tile8: 0,
+      tile8: 999,
 
       life1: 0,
       life2: 0,
@@ -14219,6 +14496,8 @@
           with the exception of the Yuetshi Knife. This equipment is definitively
           removed from the game.</strong></p>',
 
+      correction: '',
+
       origin: "Legend of the Devil in Iron",
       product_ids: [1, 2, 3, 21],
       map_ids: [5],
@@ -14229,6 +14508,12 @@
 
     # 18 The Fortress of Xapur
     { name: "The Fortress of Xapur",
+      mode: 'Adventure',
+      pdf_link:'Legend of the Devil in Iron',
+      credit: 'Monolith Team',
+      player_count: "5",
+      complexity: "Campaign",
+
       description: "<p>The muscles of the gnarled and tanned arms of the Cimmerian
       swell as he pulls on the oars to approach the small craft to the shore of
       the island of Xapur.</p>
@@ -14255,9 +14540,6 @@
         rage now burns in the blue eyes of the warrior who aspires only to release
         all his impetuous and vengeful fury.</p>",
       map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Fortress+of+Xapur.jpg',
-      pdf_link: '',
-      player_count: "5",
-      complexity: "Campaign",
 
       hero_goal: "If Khosatral Khel is killed before the end of turn 7; the
       heroes win the game.",
@@ -14357,7 +14639,7 @@
       tile5: 11,
       tile6: 1,
       tile7: 11,
-      tile8: 0,
+      tile8: 999,
 
       life1: 0,
       life2: 0,
@@ -14405,9 +14687,11 @@
           future empire.</p>
           <p><strong>The Overlord’s side wins the campaign.</strong></p>',
 
+      correction: '',
+
       origin: "Legend of the Devil in Iron",
       product_ids: [1, 2, 3, 21],
-      map_ids: [5],
+      map_ids: [4],
       hero_ids: [5, 6, 8, 20],
       tile_ids: [1, 11, 42, 44, 84, 129],
       spell_ids: [],
@@ -14415,6 +14699,12 @@
 
     # 19 The Last Dagonian
     { name: "The Last Dagonian",
+      mode: 'Adventure',
+      pdf_link:'Legend of the Devil in Iron',
+      credit: 'Monolith Team',
+      player_count: "5",
+      complexity: "Campaign",
+
       description: "<p>The muscles of the gnarled and tanned arms of the Cimmerian
       swell as he pulls on the oars to approach the small craft to the shore of
       the island of Xapur.</p>
@@ -14443,9 +14733,6 @@
         <p>At this moment, taken over by an uncontrollable fury, Conan releases all
         the ferocity of the barbarian that he never ceased to be.</p>",
       map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Last+Dagonian.jpg',
-      pdf_link: '',
-      player_count: "5",
-      complexity: "Campaign",
 
       hero_goal: "If Khosatral Khel is killed, or if a hero flees the fortress with
       the princess before the end of turn 7; the heroes win the game.",
@@ -14545,7 +14832,7 @@
       tile5: 1,
       tile6: 11,
       tile7: 37,
-      tile8: 0,
+      tile8: 999,
 
       life1: 0,
       life2: 0,
@@ -14633,6 +14920,8 @@
             the fortress of Xapur the capital of his future empire.</p>
             <p><strong>The Overlord’s side wins the campaign.</strong></p>',
 
+      correction: '',
+
       origin: "Legend of the Devil in Iron",
       product_ids: [1, 2, 3, 21],
       map_ids: [4],
@@ -14646,6 +14935,12 @@
       ## Conan the Conqueror
       # In The Halls Of The Dead
     { name: "In the Halls of the Dead",
+      mode: 'Adventure',
+      pdf_link: '',
+      credit: 'Dan Mauric, Ken Meyri, Kevin Deming, Matthew John',
+      player_count: "3",
+      complexity: "1",
+
       description: "<p>With Akivasha's cruel kiss drying on his neck, Conan the Cimmerian
       plunges deeper into the nighted halls of the dead. But what brings the King of Aquilonia
       to these labyrinthine depths beneath black-walled Khemi? After all, a man of the north has
@@ -14661,16 +14956,6 @@
       <p>But the incantation is never finished.</p>",
 
       map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/In+the+Halls+of+the+Dead.jpg",
-      pdf_link: '
-        <p><strong>Thotmekri:</strong> As long as Conan has not removed the jewel
-        from his body, Thothmekri cannot perform Move actions, but he can perform any other type of action
-        (such as Casting a spell).</p>
-          <p><strong>Item Cards:</strong> The item cards placed on the board (left to right) are:
-          <a class="item" href="/items/24">Key</a>, <a class="item" href="/items/22">Life Potion</a>,
-          and <a class="item" href="/items/8">Javelin</a></p>',
-
-      player_count: "3",
-      complexity: "1",
 
       hero_goal: 'The Heroes win the game if Conan and Thothmekri reach area
       <img src="/assets/tokens/flameToken.png" class="scen_token" /> before the end of turn 8.',
@@ -14765,21 +15050,21 @@
           </tr>
         </table>',
 
-      tile1: 174,
-      tile2: 171,
-      tile3: 1,
-      tile4: 176,
-      tile5: 10,
-      tile6: 0,
-      tile7: 0,
-      tile8: 0,
+      tile1: 999,
+      tile2: 174,
+      tile3: 171,
+      tile4: 1,
+      tile5: 176,
+      tile6: 10,
+      tile7: 999,
+      tile8: 999,
 
       life1: 0,
       life2: 0,
       life3: 0,
       life4: 0,
-      life5: 7,
-      life6: 0,
+      life5: 0,
+      life6: 7,
       life7: 0,
       life8: 0,
 
@@ -14800,6 +15085,13 @@
         destroyed after it receives 3 damage. Alternatively, Conan may use Wall-wrecker to pass
         through. Once he is on the other side, remove the palisade token.</p>',
 
+      correction: '
+        <p><strong>Thotmekri:</strong> As long as Conan has not removed the jewel
+        from his body, Thothmekri cannot perform Move actions, but he can perform any other type of action
+        (such as Casting a spell).</p>
+          <p><strong>Item Cards:</strong> The item cards placed on the board (left to right) are:
+          <a class="item" href="/items/24">Key</a>, <a class="item" href="/items/22">Life Potion</a>,
+          and <a class="item" href="/items/8">Javelin</a></p>',
       hero_victory: '',
       overlord_victory: '',
 
@@ -14814,6 +15106,12 @@
 
       # The Staggering Gods
     { name: "The Staggering Gods",
+      mode: 'Adventure',
+      pdf_link: '',
+      credit: 'Dan Mauric, Ken Meyri, Kevin Deming, Matthew John',
+      player_count: "4",
+      complexity: "2",
+
       description: "<p>The echo of an earth-shattering explosion fades as chunks of rubble
       smashed and ricocheted into the courtyard. Thick smoke billowed from the gaping hole
       that moments ago was a fortified iron gate. “Steal yourselves, men!” Conan called from
@@ -14835,25 +15133,6 @@
         won’t cut.”</p>",
 
       map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Staggering+Gods.jpg",
-      pdf_link: '
-        <p><strong>Divine Fury:</strong> When the Manifestation of Mitra uses Wall Wrecker with this special rule, it can push the
-        Manifestation of Yog to an adjacent area of its choice, even if it has to go through a stone wall (see
-        Staggering Gods special rule). This can on ly happen in this specific case.
-        Apart from that, normal Allies’ Activatio n rules apply (cost in gems) as well as normal Wall Wrecker rules (cost
-        in movement points), and the Manifestation of Mitra is affected by Hindering. Divine Fury occurs during the
-        movement of the Manifestation of Mitra, which can then perform a normal attack. Divine Fury only reduces
-        the Manifestation of Yog’s Armor value, it does not cause damage.</p>
-        <p><strong>Ethereal Attack:</strong> When the Manifestation of Yog uses Intangible with this special rule, this does not cost gems
-        (unless the Overlord spends gems for a Movement Benefit ). For example, if the Manifestation of Yog is in an
-        area adjacent to the Manifestation of Mitra, this will only cost 1 movement point.
-        See also Clarification o n Divine Fury, above.</p>
-        <p><strong>“There’s nothing in the Universe cold steel won’t cut”:</strong> Once reduced to 0, Armor remains at 2 for the rest of the game and cannot be reduced by
-        Divine Fury or E thereal Attack. But Divine Fury and Ethereal Attack can still be used to push a Manifestation.</p>
-        <p><strong>Yog’s Hunger:</strong> This special rule no longer applies after the Manifestation of Mitra’s Armor value is reduced to 0
-        and reset to 2. However, Yog’s Hunger can still be used normally on any enemy unit .</p>
-        <p><strong>Rockslide Areas:</strong> This special rule replaces the standard game board rule.</p>',
-      player_count: "4",
-      complexity: "2",
 
       hero_goal: "The Heroes win the game if they kill the Manifestation of Yog.",
 
@@ -14967,19 +15246,19 @@
           </tr>
         </table>',
 
-      tile1: 176,
-      tile2: 159,
-      tile3: 155,
-      tile4: 175,
-      tile5: 159,
-      tile6: 1,
-      tile7: 0,
-      tile8: 0,
+      tile1: 999,
+      tile2: 176,
+      tile3: 159,
+      tile4: 155,
+      tile5: 175,
+      tile6: 159,
+      tile7: 1,
+      tile8: 999,
 
       life1: 0,
-      life2: 13,
-      life3: 4,
-      life4: 0,
+      life2: 0,
+      life3: 13,
+      life4: 4,
       life5: 0,
       life6: 0,
       life7: 0,
@@ -15045,6 +15324,23 @@
         1&nbsp;<a class="item" href="/items/139">Spiked Mace</a>,
         1&nbsp;<a class="item" href="/items/135">Khitan Staff</a>.</p>',
 
+      correction: '
+        <p><strong>Divine Fury:</strong> When the Manifestation of Mitra uses Wall Wrecker with this special rule, it can push the
+        Manifestation of Yog to an adjacent area of its choice, even if it has to go through a stone wall (see
+        Staggering Gods special rule). This can on ly happen in this specific case.
+        Apart from that, normal Allies’ Activatio n rules apply (cost in gems) as well as normal Wall Wrecker rules (cost
+        in movement points), and the Manifestation of Mitra is affected by Hindering. Divine Fury occurs during the
+        movement of the Manifestation of Mitra, which can then perform a normal attack. Divine Fury only reduces
+        the Manifestation of Yog’s Armor value, it does not cause damage.</p>
+        <p><strong>Ethereal Attack:</strong> When the Manifestation of Yog uses Intangible with this special rule, this does not cost gems
+        (unless the Overlord spends gems for a Movement Benefit ). For example, if the Manifestation of Yog is in an
+        area adjacent to the Manifestation of Mitra, this will only cost 1 movement point.
+        See also Clarification o n Divine Fury, above.</p>
+        <p><strong>“There’s nothing in the Universe cold steel won’t cut”:</strong> Once reduced to 0, Armor remains at 2 for the rest of the game and cannot be reduced by
+        Divine Fury or E thereal Attack. But Divine Fury and Ethereal Attack can still be used to push a Manifestation.</p>
+        <p><strong>Yog’s Hunger:</strong> This special rule no longer applies after the Manifestation of Mitra’s Armor value is reduced to 0
+        and reset to 2. However, Yog’s Hunger can still be used normally on any enemy unit .</p>
+        <p><strong>Rockslide Areas:</strong> This special rule replaces the standard game board rule.</p>',
       hero_victory: '',
       overlord_victory: '',
 
@@ -15059,6 +15355,12 @@
 
       # The Devil Take That Woman
     { name: "The Devil Take that Woman",
+      mode: 'Adventure',
+      pdf_link: '',
+      credit: 'Dan Mauric, Ken Meyri, Kevin Deming, Matthew John',
+      player_count: "4",
+      complexity: "1",
+
       description: "<p>The doomed crew had made a bold stand. They lay, feathered thoroughly with
       pirate arrows. Heavily armed mercenaries and port thugs were boarding the sinking ship
       ready to claim their prize; a stowaway Vendhyan princess.</p>
@@ -15077,9 +15379,6 @@
       the rest!” </p>",
 
       map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Devil+Take+that+Woman.jpg",
-      pdf_link: '',
-      player_count: "4",
-      complexity: "1",
 
       hero_goal: "The Heroes win if the Princess is on the ship that the Heroes start the game on at
       the end of turn 6. <br /><br />
@@ -15186,20 +15485,20 @@
           </tr>
         </table>',
 
-      tile1: 30,
-      tile2: 170,
-      tile3: 177,
-      tile4: 5,
-      tile5: 1,
-      tile6: 0,
-      tile7: 0,
-      tile8: 0,
+      tile1: 999,
+      tile2: 30,
+      tile3: 170,
+      tile4: 177,
+      tile5: 5,
+      tile6: 1,
+      tile7: 999,
+      tile8: 999,
 
       life1: 0,
-      life2: 6,
-      life3: 0,
-      life4: 4,
-      life5: 0,
+      life2: 0,
+      life3: 6,
+      life4: 0,
+      life5: 4,
       life6: 0,
       life7: 0,
       life8: 0,
@@ -15251,6 +15550,7 @@
         The asset deck contains: <a class="item" href="/items/143">Spiked Shield</a>
         and 3&nbsp;<a class="item" href="/items/22">Life Potion</a>.</p>',
 
+      correction: '',
       hero_victory: '',
       overlord_victory: '',
 
@@ -15265,6 +15565,12 @@
 
       # The Riddle Of Diplomacy
     { name: "The Riddle of Diplomacy",
+      mode: 'Adventure',
+      pdf_link: '',
+      credit: 'Dan Mauric, Ken Meyri, Kevin Deming, Matthew John',
+      player_count: "5",
+      complexity: "2",
+
       description: "<p>“Before Arus, well-meaning servant of Mitra, came unto the Picts
       there existed no word for “subtlety” in the Pictish tongue.” - The Nemedian Chronicles</p>
       <br />
@@ -15286,9 +15592,6 @@
       to the dismay of Octavia among then, separated from her allies.</p>",
 
       map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Riddle+of+Diplomacy.jpg",
-      pdf_link: '',
-      player_count: "5",
-      complexity: "2",
 
       hero_goal: "The Heroes win if they exit the board with Conan the Pirate alive, at the end of turn 7.",
 
@@ -15452,6 +15755,7 @@
         1&nbsp;<a class="item" href="/items/13">Throwing Knives</a>,and
         1&nbsp;<a class="item" href="/items/20">Shield</a>.</p>',
 
+      correction: '',
       hero_victory: '',
       overlord_victory: '',
 
@@ -15466,6 +15770,12 @@
 
       # Corruption Of The Phoenix
     { name: "Corruption of the Phoenix",
+      mode: 'Adventure',
+      pdf_link: '',
+      credit: 'Dan Mauric, Ken Meyri, Kevin Deming, Matthew John',
+      player_count: "5",
+      complexity: "1",
+
       description: "<p>Vile sorcery has transformed the emblem of the immortal phoenix,
       which broods forever over the tomb of Epemitreus, into an encircling serpent,
       causing darkness to fall across the civilized kingdoms.</p>
@@ -15480,9 +15790,6 @@
       lunar eclipse renders the spell permanent.</p>",
 
       map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Corruption+of+the+Phoenix.jpg",
-      pdf_link: '',
-      player_count: "5",
-      complexity: "1",
 
       hero_goal: "The Heroes win the game if Xaltotun and the corrupted Manifestation of
       Mitra are killed by the end of turn 8.",
@@ -15601,22 +15908,22 @@
           </tr>
         </table>',
 
-      tile1: 171,
-      tile2: 155,
-      tile3: 168,
-      tile4: 175,
-      tile5: 1,
-      tile6: 158,
-      tile7: 0,
-      tile8: 0,
+      tile1: 999,
+      tile2: 171,
+      tile3: 155,
+      tile4: 168,
+      tile5: 175,
+      tile6: 1,
+      tile7: 158,
+      tile8: 999,
 
       life1: 0,
-      life2: 4,
-      life3: 0,
+      life2: 0,
+      life3: 4,
       life4: 0,
       life5: 0,
-      life6: 12,
-      life7: 0,
+      life6: 0,
+      life7: 12,
       life8: 0,
 
       special_rules: '<p><span class="special_title">Altars:</span> A Hero holding
@@ -15656,6 +15963,7 @@
         <a class="item" href="/items/5">Crossbow</a>,
         <a class="item" href="/items/22">Life Potion</a>.</p>',
 
+      correction: '',
       hero_victory: '',
       overlord_victory: '',
 
@@ -15670,6 +15978,12 @@
 
       # Shadow From Acheron
     { name: "Shadow from Acheron",
+      mode: 'Adventure',
+      pdf_link: '',
+      credit: 'Dan Mauric, Ken Meyri, Kevin Deming, Matthew John',
+      player_count: "5",
+      complexity: "2",
+
       description: "<p>N’Yaga, once a companion of Conan’s, has awakened an ancient
       evil by meddling with the Heart of Ahriman. Now, he is in the thrall of Xaltotun
       and must help the ancient Pythonian in his quest for vengeance. Accompanied by
@@ -15680,17 +15994,6 @@
       defenses while the high priestess and her faithful acolytes fend off the intruders.</p>",
 
       map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Shadow+from+Acheron.jpg",
-      pdf_link: '
-      <p><strong>Xaltotun [...] 2 Bossonian Guards (Blue), 2 Bossonian Guards (Red):</strong>
-      The Guards’ colour has no influence in this scenario; the standard Allies rules apply.</p>
-      <p><strong>Doors:</strong> An Overlord unit moved by a Hero via Mind Control spell cannot
-      open a door for 1 extra movement point as if it were controlled by the Overlord</p>
-      <p><strong>Khitan Acolytes / Attack from Beyond:</strong> A unit that uses the Attack from Beyond
-      skill can do so against any unit within Melee range, regardless of the cause of its death (it may
-      have been killed by an enemy miniature, by a fall, or any other cause). This applies to all scenarios,
-      unless otherwise specified</p>',
-      player_count: "5",
-      complexity: "2",
 
       hero_goal: "The Heroes win if Xaltotun enters the room containing Hadrathus while
       in possession of the Stygian Artifact (Heart of Ahriman) before the end of turn 7.",
@@ -15821,9 +16124,9 @@
       tile3: 176,
       tile4: 2,
       tile5: 6,
-      tile6: 181,
+      tile6: 999,
       tile7: 158,
-      tile8: 0,
+      tile8: 999,
 
       life1: 0,
       life2: 0,
@@ -15871,6 +16174,15 @@
         <a class="item" href="/items/23">Empty Chest</a>,
         <a class="item" href="/items/22">Life Potion</a>.</p>',
 
+      correction: '
+      <p><strong>Xaltotun [...] 2 Bossonian Guards (Blue), 2 Bossonian Guards (Red):</strong>
+      The Guards’ colour has no influence in this scenario; the standard Allies rules apply.</p>
+      <p><strong>Doors:</strong> An Overlord unit moved by a Hero via Mind Control spell cannot
+      open a door for 1 extra movement point as if it were controlled by the Overlord</p>
+      <p><strong>Khitan Acolytes / Attack from Beyond:</strong> A unit that uses the Attack from Beyond
+      skill can do so against any unit within Melee range, regardless of the cause of its death (it may
+      have been killed by an enemy miniature, by a fall, or any other cause). This applies to all scenarios,
+      unless otherwise specified</p>',
       hero_victory: '',
       overlord_victory: '',
 
@@ -15885,6 +16197,12 @@
 
       # Ambush In Akanu
     { name: "Ambush in Akanu",
+      mode: 'Adventure',
+      pdf_link: '',
+      credit: 'Dan Mauric, Ken Meyri, Kevin Deming, Matthew John',
+      player_count: "5-6",
+      complexity: "2",
+
       description: "<p>The wizard Xaltotun has captured Korum-ta, the son of Gorm, a
       powerful Pict chieftain, and is holding him hostage in exchange for the Panther
       clan joining Xaltotun’s growing army. Angered beyond rage, Gorm did something no
@@ -15903,13 +16221,6 @@
       be no escape this time!”</p>",
 
       map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Ambush+in+Akanu.jpg",
-      pdf_link: '
-      <p><strong>Game Board Rules:</strong> The Nameless Horror can stop on any area if it is alone on it. It can cross any un-occupied area
-      even if it is not alone on it (see Large Miniatures - Tome of Skelos p.3), and it has the Flying skill. It can stop
-      on an area with other miniatures , if the area is large enough to hold all of them ( see Occupied Areas –
-      Heroes’ Book p.22)</p>',
-      player_count: "5-6",
-      complexity: "2",
 
       hero_goal: "The Heroes win if one or more Heroes have fled the Abandoned Fort
       with Korum-ta before the end of turn 8.",
@@ -16040,18 +16351,18 @@
           </tr>
         </table>',
 
-      tile1: 171,
-      tile2: 155,
-      tile3: 175,
-      tile4: 167,
-      tile5: 1,
-      tile6: 0,
-      tile7: 0,
-      tile8: 0,
+      tile1: 999,
+      tile2: 171,
+      tile3: 155,
+      tile4: 175,
+      tile5: 167,
+      tile6: 1,
+      tile7: 999,
+      tile8: 999,
 
       life1: 0,
-      life2: 6,
-      life3: 0,
+      life2: 0,
+      life3: 6,
       life4: 0,
       life5: 0,
       life6: 0,
@@ -16114,6 +16425,11 @@
         1&nbsp;<a class="item" href="/items/135">Khitan Staff</a> and
         1&nbsp;<a class="item" href="/items/137">Nemedian Poniard</a>.</p>',
 
+      correction: '
+      <p><strong>Game Board Rules:</strong> The Nameless Horror can stop on any area if it is alone on it. It can cross any un-occupied area
+      even if it is not alone on it (see Large Miniatures - Tome of Skelos p.3), and it has the Flying skill. It can stop
+      on an area with other miniatures , if the area is large enough to hold all of them ( see Occupied Areas –
+      Heroes’ Book p.22)</p>',
       hero_victory: '',
       overlord_victory: '',
 
@@ -16132,6 +16448,12 @@
       #Hidden Chambers
       # Depths Of The Lost Citadel
     { name: "Depths of the Lost Citadel",
+      mode: 'Adventure',
+      pdf_link: '',
+      credit: 'Dan Mauric, Ken Meyri, Kevin Deming, Matthew John',
+      player_count: "4-5",
+      complexity: "3",
+
       description: "<p>The siren song of ancient treasure lured the crew of the Tigress
       onto a fog shrouded cove. The fabled Citadel of Dagon brooded above, built into
       the jagged cliffs. The ship suddenly struck a reef. Bêlit cursed. Obviously, a trap.
@@ -16154,9 +16476,6 @@
       gold to pay her crew...or replace them.</p>",
 
       map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Depths+of+the+Lost+Citadel.jpg",
-      pdf_link: '',
-      player_count: "4-5",
-      complexity: "3",
 
       hero_goal: "The Heroes win if they bring 9 points of treasure to their starting area OR
       Baal-pteor is killed. <br />
@@ -16291,26 +16610,26 @@
           </tr>
         </table>',
 
-      tile1: 168,
-      tile2: 169,
-      tile3: 148,
-      tile4: 1,
-      tile5: 0,
-      tile6: 0,
-      tile7: 0,
-      tile8: 0,
+      tile1: 999,
+      tile2: 999,
+      tile3: 168,
+      tile4: 169,
+      tile5: 148,
+      tile6: 1,
+      tile7: 999,
+      tile8: 999,
 
       life1: 0,
-      life2: 1,
-      life3: 4,
-      life4: 0,
-      life5: 0,
+      life2: 0,
+      life3: 0,
+      life4: 1,
+      life5: 4,
       life6: 0,
       life7: 0,
       life8: 0,
 
       special_rules: '<p><span class="special_title">Treasure:</span> During setup, the Overlord
-      shuffles together four Treasure tokens <img src="/assets/tokens/chestToken.png" class="scen_token" />
+      shuffles together four Treasure tokens <img src="/assets/tokens/treasureToken.png" class="scen_token" />
       with the number <img src="/assets/tokens/num1Token.png" class="scen_token" />
       and four Treasure tokens with the number <img src="/assets/tokens/num2Token.png" class="scen_token" />
       and randomly places the Treasure tokens as indicated on the setup diagram. A Hero must use a simple
@@ -16367,6 +16686,7 @@
         Constricted skill, do not count them toward the Overlord victory. <b>If the Winged One is killed,
         Baal-pteor may sacrifice Pirates with a Poison token outside of the altar room.</b></p>',
 
+      correction: '',
       hero_victory: '',
       overlord_victory: '',
 
@@ -16385,6 +16705,12 @@
       #Tales of the Red Brotherhood
       # The Mutiny
     { name: "The Mutiny",
+      mode: 'Adventure',
+      pdf_link: '',
+      credit: 'The Monolith Team',
+      player_count: "4",
+      complexity: "2",
+
       description: "<p>After opting not to attend a night-time rendezvous which he suspected
       of being an ambush, and fleeing the Baracha Island city of Tortage, Conan finds himself
       enlisted in the infamous Captain Zaporavo’s crew. Throughout several weeks aboard the Wastrel,
@@ -16399,9 +16725,6 @@
       <p></p>",
 
       map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Mutiny.jpg",
-      pdf_link: '',
-      player_count: "4",
-      complexity: "2",
 
       hero_goal: "If the ...",
 
@@ -16532,6 +16855,7 @@
         <a class="item" href="/items/131">Anchor</a>, and
         <a class="item" href="/items/30">Tools</a>.</p>',
 
+      correction: '',
       hero_victory: '',
       overlord_victory: '',
 
@@ -16546,6 +16870,12 @@
 
       # Theft on the High Seas
     { name: "Theft on the High Seas",
+      mode: 'Adventure',
+      pdf_link: '',
+      credit: 'The Monolith Team',
+      player_count: "4",
+      complexity: "2",
+
       description: "<p>The Tigress scours the seas and the coastal villages tremble.
       Preposterous legends tell of how the sea witch found a companion, a man of iron
       whose wrath rivals that of a wounded lion. When survivors of the plundered Stygian
@@ -16565,9 +16895,6 @@
       her terrible Cimmerian lover.</p>",
 
       map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Theft+on+the+High+Seas.jpg",
-      pdf_link: '',
-      player_count: "4",
-      complexity: "2",
 
       hero_goal: "The Heroes win IF they steal 5 Treasures and stow them in the two rowboats on
       the Main Deck before the end of turn 8.",
@@ -16674,7 +17001,7 @@
       life8: 0,
 
       special_rules: '<p><span class="special_title">Treasures:</span> Treasure tokens
-      <img src="/assets/tokens/chestToken.png" class="scen_token" /> represent riches being
+      <img src="/assets/tokens/treasureToken.png" class="scen_token" /> represent riches being
       transported on the vessel. Heroes add up the Treasure tokens they’ve acquired at the
       end of the game.</p>
 
@@ -16696,6 +17023,7 @@
         the hull has been damaged. If 5 hull sections have been damaged when the Overlord finishes a turn,
         the game ends at the end of turn 7.</p>',
 
+      correction: '',
       hero_victory: '',
       overlord_victory: '',
 
@@ -16710,6 +17038,12 @@
 
       # The Curse of the Deep (Part 1)
     { name: "The Curse of the Deep (Part 1)",
+      mode: 'Adventure',
+      pdf_link: '',
+      credit: 'The Monolith Team',
+      player_count: "4",
+      complexity: "2",
+
       description: "<p>Xaltotun has awakened. He who was the High Priest of the Set
       religion of Python in the ancient Kingdom of Acheron has come back to life.
       In the three thousand years since the fall of Acheron, his destiny has inexorably
@@ -16729,11 +17063,6 @@
       and intends to recover his precious artifact, no matter the cost.</p>",
 
       map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Curse+of+the+Deep+Part+1.jpg",
-      pdf_link: '
-        <p><strong>Chests:</strong> There are 3 chests on the setup diagram, but their contents are not indicated
-        in the scenario.</p>',
-      player_count: "4",
-      complexity: "2",
 
       hero_goal: "The Heroes win if the Overlord has dredged 4 or more unit tiles before
       the end of turn 8.",
@@ -16865,6 +17194,9 @@
       <a class="item" href="/items/12">Sword</a>, and
       <a class="item" href="/items/23">Empty Chest</a>.</p>',
 
+      correction: '
+        <p><strong>Chests:</strong> There are 3 chests on the setup diagram, but their contents are not indicated
+        in the scenario.</p>',
       hero_victory: '',
       overlord_victory: '',
 
@@ -16879,6 +17211,12 @@
 
       # The Curse of the Deep (Part 2)
     { name: "The Curse of the Deep (Part 2)",
+      mode: 'Adventure',
+      pdf_link: '',
+      credit: 'The Monolith Team',
+      player_count: "4",
+      complexity: "2",
+
       description: "<p>Xaltotun exults. He has located the Heart of Ahriman and the
       almighty power of its dark sorcery. Driven mad over nearly three thousand years
       during which his soul was held behind the gates of hell, he now has only one
@@ -16898,9 +17236,6 @@
       his ritual, his ship is boarded by vengeful pirates, out for blood.</p>",
 
       map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Curse+of+the+Deep+Part+2.jpg",
-      pdf_link: '',
-      player_count: "4",
-      complexity: "2",
 
       hero_goal: "The Heroes win IF Xaltotun is killed and the ritual is thwarted by
       acquiring at least 4 ritual tokens before the end of turn 8.",
@@ -17040,6 +17375,7 @@
       with a difficulty of 2. If successful, the token is removed from the board and placed next to
       the Hero’s sheet.</p>',
 
+      correction: '',
       hero_victory: '',
       overlord_victory: '',
 
@@ -17055,6 +17391,12 @@
       # The Shadow Kingdom
       # Shadows Linger
     { name: "Shadows Linger",
+      mode: 'Adventure',
+      pdf_link: '',
+      credit: 'The Monolith Team',
+      player_count: "3",
+      complexity: "2",
+
       description: "<p>Kull had hoped the threat was over. He tried to ignore the blank
       stares and slack jaws of his Red Slayers. He told himself the men were merely
       exhausted from their skirmish with the rebels. After all, on the journey home,
@@ -17070,9 +17412,6 @@
       <p></p>",
 
       map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Shadows+Linger.jpg",
-      pdf_link: '',
-      player_count: "3",
-      complexity: "2",
 
       hero_goal: "The Heroes win immediately once they’ve acquired the Serpent Armlet AND
       there are no Serpent-men on the board.",
@@ -17169,19 +17508,19 @@
           </tr>
         </table>',
 
-      tile1: 1,
-      tile2: 153,
-      tile3: 179,
-      tile4: 180,
-      tile5: 0,
-      tile6: 0,
-      tile7: 0,
-      tile8: 0,
+      tile1: 999,
+      tile2: 999,
+      tile3: 1,
+      tile4: 153,
+      tile5: 179,
+      tile6: 180,
+      tile7: 999,
+      tile8: 999,
 
       life1: 0,
-      life2: 3,
+      life2: 0,
       life3: 0,
-      life4: 0,
+      life4: 3,
       life5: 0,
       life6: 0,
       life7: 0,
@@ -17230,6 +17569,7 @@
         <a class="item" href="/items/13">Throwing Knives</a>, and
         <a class="item" href="/items/22">Life Potion</a>.</p>',
 
+      correction: '',
       hero_victory: '',
       overlord_victory: '',
 
@@ -17244,6 +17584,12 @@
 
       # The Serpent’s Coils
     { name: "The Serpent’s Coils",
+      mode: 'Adventure',
+      pdf_link: '',
+      credit: 'The Monolith Team',
+      player_count: "5",
+      complexity: "3",
+
       description: "<p>King Conan had suffered more threats than he had wounds to his flesh.
       Some arrived on the quivering lips of Nemedian heralds; others were carried by the
       beat of Pictish drums. After the Year of the Dragon had ended and Conan managed
@@ -17264,9 +17610,6 @@
       wine and drained it in a single gulp. “Find your tongues, then,” he said.</p>",
 
       map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Serpents+Coils.jpg",
-      pdf_link: '',
-      player_count: "5",
-      complexity: "3",
 
       hero_goal: "The Heroes win if they find the secret stairs, destroy the venom
       barrels and kill the imposter Conan and Zenobia before the end of turn 8.",
@@ -17411,7 +17754,7 @@
       tile5: 156,
       tile6: 179,
       tile7: 150,
-      tile8: 0,
+      tile8: 999,
 
       life1: 0,
       life2: 0,
@@ -17481,6 +17824,7 @@
         2&nbsp;<a class="item" href="/items/22">Life Potion</a>, and
         <a class="item" href="/items/133">Conan’s Great Sword</a>.</p>',
 
+      correction: '',
       hero_victory: '',
       overlord_victory: '',
 
@@ -17495,6 +17839,12 @@
 
       # Night of the Kings
     { name: "Night of the Kings",
+      mode: 'Adventure',
+      pdf_link: '',
+      credit: 'The Monolith Team',
+      player_count: "4",
+      complexity: "2",
+
       description: "<p>The two men from the mists--two warriors who claimed to hail
       from the days before the oceans drank Altantis--had proven themselves allies
       to the King. Conan only came to trust others after they’d proven themselves in
@@ -17511,14 +17861,6 @@
       and sharpen their wits as keenly as their blades.</p>",
 
       map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Night+of+the+Kings.jpg",
-      pdf_link: '
-      <p><strong>Plate Armor:</strong>
-      The scenario (as written) calls for Conan to wear Plate Armor. There is no Plate Armor in the game. I’ve chosen
-      to equip him with Scale Mail (Armor: <img src="/assets/dice/Red.png" class="scen_sq_token" />, Encumbrance: 5).
-      The <a class="item" href="/items/98">Asshuri Cuirass</a>
-      (Armor: <img src="/assets/dice/Red.png" class="scen_sq_token" />, Encumbrance: 4) may also be available to you.</p>',
-      player_count: "4",
-      complexity: "2",
 
       hero_goal: "The Heroes win, once Thulsa Doom’s skull has been burned.",
 
@@ -17632,7 +17974,7 @@
       tile5: 153,
       tile6: 161,
       tile7: 2,
-      tile8: 0,
+      tile8: 999,
 
       life1: 0,
       life2: 0,
@@ -17680,6 +18022,12 @@
         gems have been used to activate the tiles, you may want to use red gems for Conan’s
         Hero Sheet and blue gems for Kull’s.</p>',
 
+      correction: '
+      <p><strong>Plate Armor:</strong>
+      The scenario (as written) calls for Conan to wear Plate Armor. There is no Plate Armor in the game. I’ve chosen
+      to equip him with Scale Mail (Armor: <img src="/assets/dice/Red.png" class="scen_sq_token" />, Encumbrance: 5).
+      The <a class="item" href="/items/98">Asshuri Cuirass</a>
+      (Armor: <img src="/assets/dice/Red.png" class="scen_sq_token" />, Encumbrance: 4) may also be available to you.</p>',
       hero_victory: '',
       overlord_victory: '',
 
@@ -17690,6 +18038,7522 @@
       tile_ids: [1, 2, 15, 17, 153, 161, 171, 176, 179],
       spell_ids: [13, 66, 72],
       item_ids: [13, 16, 17, 77, 97, 18, 130, 132, 133] },
+
+
+
+
+
+
+
+  ### Solo/CoOp
+  # Tome of Skelos    
+
+  # Prelude
+  # Back In The Village
+    { name: "Back In The Village",
+      mode: 'Solo/Cooperative',
+      pdf_link:'Betrayal of the Infernal Shaman',
+      credit: 'Dan Mauric, Ken Meyri, Kevin Deming, Matthew John',
+      player_count: "3-4",
+      complexity: '',
+      
+
+      description: '
+      <div class="col-md-6">
+        <p>“What sinister events transpired in that damnable Pict village that caused our captain 
+        to descend into madness remain a mystery. No one save the captain returned from whatever profane rendezvous 
+        occurred. Rumors and conspiracy slither through the ranks of the crew like tentacles in the deep. Fear reigns. 
+        We dare not contemplate our fate, as our fate seems to ebb and flow with the captain’s fevered whims. 
+        Mostly we sit, eyeing each other suspiciously. Quiet. Uncertain. Afraid, drifting upon this Bay of Death.”</p>
+        <p>- Final entry recorded in the log of the Wastrel. Found washed ashore on a beach three hundred miles north of Kordava.</p>
+      </div>
+      <div class="col-md-6">
+        <p>Back in the village Zaporavo had intended to procure certain artifacts, weapons of power that would allow his 
+        employer to exert more influence over a squalid duchy just outside the reach of Zingaran politics. Betrayed, drugged or 
+        ensorcelled, Zaporavo lays in a Pictish hut, burning with fever. His loyal crew spring into action with a plan to regain 
+        their weapons, find an antidote and escape the village before the Pict shaman’s magic exacts its horrible toll.</p>
+      </div>',
+
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Back+in+the+Village.jpg",
+      
+      # scenario pre-title 
+      hero_goal: "Prelude",
+
+      # Setup
+      hero_setup: '
+      <div class="col-md-6">
+        <p><span class="setup_item">Objective</span></p>
+        The Heroes win if Zaporavo flees the board before the end of turn 5.
+
+        <p><span class="setup_item">Setup</span></p>
+        <p><strong>The game starts with the Heroes’ turn.</strong> The Heroes start in the area marked with
+        <span style="white-space: nowrap;"><img src="/assets/tokens/area1Token.png" class="scen_token" />.</span>   
+        Heroes have no starting equipment. The Sorcerer starts with the spell Bori’s Rage. For thematic reasons, 
+        choose Heroes that will not be used in the main campaign.</p>
+        
+        <p>Randomly place the Tribal Mace, Dagger, & Parrying Dagger face up in the huts marked with <img src="/assets/tokens/area2Token.png" class="scen_token" />.</p>
+        
+        <p>Place the spells Teleport and Set’s Possession on the table as a reference for Zogar Sag’s activation.</p>
+        
+        <table class="solo_left_table">
+          <tr>
+            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+            <td>After setup, each Hero moves 3 gems from their Reserve zone to their Fatigue zone.</td>
+          </tr>
+        </table>
+
+        <p><span class="setup_item">Asset Deck</span></p>
+        Perform a complex Manipulation with difficulty of 2 to open chests. The asset deck contains: Life Potion, Pictish Fetish, Empty Chest.
+   
+        <p><span class="setup_item">Event</span></p> 
+        <p><span class="special_solo_title">Alarm!</span>
+          <table class="solo_right_table">
+            <tr>
+              <td>Players choose 2 dead Pict models to return to an area with their color icon and a reinforcement token.</td>
+              <td><img src="/assets/stats/reinforcement.png" class="scen_token" /> </td>
+            </tr>
+          </table>
+        </p>
+  
+        <p><span class="setup_item">Special Rules</span></p>
+        <p><span class="special_solo_title">Map Notes:</span> Standard map rules apply. In addition, the wooden barricades may not be crossed by any model.</p>
+        <p><span class="special_solo_title">Target Hero:</span> After the Life Potion is found, the Hero that last held it is the Target Hero.</p>
+       </div>
+
+      <div class="col-md-6">
+        <p></p><p></p>
+        <p><span class="special_solo_title">Zaporavo:</span> Zaporavo may not be attacked for any reason. He is affected by Blocking and Hindering, however.</p>
+
+        <p><span class="special_solo_title">Dead Tiles:</span> If all models for a tile are killed, do not flip the tile. If a tile is activated 
+          and there are no models on the board, the activation is wasted.</p>
+
+        <p><span class="special_solo_title">Zogar Sag:</span> when activated do the following in this order: 
+          <ol>
+            <li>Cast Teleport to move through the hut wall to an outside area adjacent to the hut of the players choice.</li>
+            <li>Determine Target Hero, move and make an attack.</li>
+            <li>Cast Set’s Possession on the Strongest Hero (or the Hero with the Life Potion). If neither of those Targets are eligible, 
+            choose an Alternate Target. If a Hero is already affected by Set’s Possession, select the next Hero that is eligible.</li>
+            <li>Cast Teleport into a different hut area. Players choose the closest hut area.</li>
+          </ol></p>
+        <p><span class="special_solo_title">Pictish Fetish:</span> Zogar Sag may not cast Set’s Possession on a Hero that is carrying the 
+        Pictish Fetish.</p>
+        <p><span class="special_solo_title">Fleeing the Village:</span> A Hero may use a simple Manipulation to give the Life Potion to 
+        Zaporavo. Once Zaporavo has been given the Life Potion, any player may move him using his Movement Points once per turn for free. 
+        Heroes may not spend gems to increase Zaporavo’s movement. Zaporavo must spend Movement Points as though he were crossing a border 
+        to exit the game board.</p>
+        <p><span class="special_solo_title">Way of Escape:</span> A Hero may use Wall Wrecker on the Hut wall marked with the red X. If a Hero 
+        does not have Wall Wrecker, he must make a complex Manipulation with a difficulty of 3 to place a Wrecked Wall token. Heroes may 
+        add their Weapon dice to this roll. This creates an exit to the outside of the wooden barricade. This is the only place an exit 
+        can be created.</p>
+
+      <p><span class="setup_item">Options</span></p> 
+      <p><span class="special_title">Four Player Mode</span></p>
+      <p><ul>
+        <li>After setup, each Hero removes 5 gems from their Reserve zone to their Fatigue zone.</li>
+        <li>Replace the Empty Chest with the Ornamental Spear in the Asset Deck.</li>
+        <li>Zogar Sag casts Set’s Possession twice during his activation.</li>
+        <li>Reminder: The Overlord activates four times per turn.</li>
+      </ul></p>
+    </div>',
+
+      overlord_goal: '',
+
+      overlord_setup: '',
+
+      rtoken1: '',
+      rtoken2: 'num1Token',
+      rtoken3: 'num2Token',
+      rtoken4: 'num3Token',
+      rtoken5: 'num4Token',
+      rtoken6: 'num5Token',
+      rtoken7: '',
+      rtoken8: '',
+
+      tile1: 999,
+      tile2: 8,
+      tile3: 27,
+      tile4: 29,
+      tile5: 28,
+      tile6: 1,
+      tile7: 999,
+      tile8: 999,
+
+      life1: 0,
+      life2: 15,
+      life3: 0,
+      life4: 0,
+      life5: 0,
+      life6: 0,
+      life7: 0,
+      life8: 0,
+
+      special_rules: '',
+
+      # campaign number   
+      event: '',
+
+      # Result
+      hero_victory: '
+      <div class="col-md-6">
+        <p><span class="special_solo_under_title">Hero Victory:</span> 
+        Leaving his crew either at the mercy of the savage Picts or with the captain’s own knife in their gullet, 
+        Zaporavo hurriedly makes his way through the dense forest back to the bay where his ship is anchored. His lunatic paranoia 
+        would not allow witnesses to the sorcerous treachery that compromised his mind and mission.</p>
+        <p>He fumbles a cloth, wiping blood from his hands as he approaches the landing craft. Loyal they were, but the remaining crew must 
+        never know what had occurred back in the village.</p>
+      </div>
+      <div class="col-md-6">
+        <p><span class="special_solo_under_title">Hero Defeat:</span>
+        Feigning death, Zaporavo watches a Pictish maul brain his last loyal crewman. With a howl, the savages leap 
+        and wave their weapons victoriously. After an eternity, the celebration subsides and Zaporavo slips away undetected, scrambling 
+        back to the beach. Approaching the rowboat, he smooths his garments, wipes blood and sweat from his face, and orders the craft 
+        back to the ship.</p>
+        <p>“Sir...” an oarsman begins, cautiously.</p>
+        <p>The captain shoots a stare that would freeze Leviathan’s heart. No one else dares inquire about what had happened back in the 
+        village.</p>
+      </div>',
+
+      overlord_victory: '',
+      correction: '',
+
+      origin: "Tome of Skelos",
+      product_ids: [1, 25],
+      map_ids: [1],
+      hero_ids: [],
+      tile_ids: [1, 8, 27, 28, 29],
+      spell_ids: [1, 14, 16],
+      item_ids: [3, 10, 11, 14, 22, 23, 25] },
+
+
+
+
+  # Bay of Death Part 1
+  # A Captain’s Blood
+    { name: "A Captain’s Blood",
+      mode: 'Solo/Cooperative',
+      pdf_link:'Betrayal of the Infernal Shaman',
+      credit: 'Dan Mauric, Ken Meyri, Kevin Deming, Matthew John',
+      player_count: "3-4",
+      complexity: '',
+
+      description: '
+      <div class="col-md-6">
+        <p>You are anchored in an isolated bay, three hundred miles north of Kordava when your captain starts throwing men to the sharks. 
+        One buccaneer is accused of incit- ing a mutiny; another is forced overboard because the captain doesn’t like “the glint in his eye.” 
+        Ever since the crew dropped anchor to trade with the Eagle-Picts, your normally taciturn leader has made all manner of erratic decisions. 
+        Something foul occurred when he left for a tryst with the Pictish chief, and it’s clear to you he’s no longer the man he was. But despite 
+        his sudden change in temperament, the crew remain loyal, and there are no signs of mutiny.</p>
+        <p>“What madness is this?” you muse.</p>
+        <p>You had decided to weather the captain’s stormy mood, to shrink back into the masses, losing yourself among the toothless 
+        mouths and sun-leathered faces, </p>
+      </div>
+      <div class="col-md-6">
+        <p>but then he targets a close companion of yours, suggesting the man has used sorcery to doom the vessel. Sure, he has dabbled 
+        in black arts—the accusation is fair—but he’s not the summoner of demons the captain claims he is. Besides, your friend’s 
+        sorcery has saved your blasted hide more than once.</p>
+        <p>Honour-bound to your companion and seeing your leader has gone mad, you decide the time has come for the feast- ing of swords. You fill your hand with steel, 
+        choose one of the captain’s faithful followers, and cleave his skull to the teeth. As his body crumples to the deck, the crew erupt in howls, choosing sides and 
+        raising weapons. A quick glance from prow to stern paints a grim picture—you are grossly outnumbered. Your only hope is to hack through the wall of death and 
+        wash the deck in a captain’s blood.</p>
+      </div>',
+
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/A+Captains+Blood.jpg",
+      
+      # scenario pre-title 
+      hero_goal: "Bay of Death Part 1:",
+
+      # Setup
+      hero_setup: '
+      <div class="col-md-6">
+        <p><span class="setup_item">Objective</span></p>
+        <p>The Heroes win the scenario if they kill Zaporavo.</p>
+
+        <p><span class="setup_item">Setup</span></p> 
+        <p><strong>The game starts with the Heroes’ turn.</strong> Heroes set up in the areas marked 
+        <img src="/assets/tokens/area1Token.png" class="scen_token" /> = Rogue, 
+        <img src="/assets/tokens/area2Token.png" class="scen_token" /> = Warrior, and 
+        <img src="/assets/tokens/area3Token.png" class="scen_token" /> = Sorcerer.</p>
+        <p>The Sorcerer starts with Set’s Halo cast.</p>
+        <table class="solo_left_table">
+          <tr>
+            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+            <td>After setup, each Hero moves 4 gems from their Reserve zone to their Fatigue zone.</td>
+          </tr>
+        </table>
+
+        <p><span class="setup_item">Asset Deck</span></p> 
+        <p>Pay one gem for a simple Manipulation to open chests. The Asset Deck contains: Leather Armor, Cutlass, Buckler, Life Potion.</p>
+   
+        <p><span class="setup_item">Event</span></p> 
+        </p>Whenever the Event tile is activated, complete both steps in order:
+        <ol>
+          <li><span class="special_solo_title">Death From Below Deck:</span> Zaporavo calls for reinforcements. 
+          Roll <img src="/assets/dice/Red-Reroll.png" class="scen_sq_token" /> to determine how many pirate miniatures to add in 
+          the reinforcement zone. Only reroll the die if the result is blank. A maximum of 15 Pirates can be on the board at one time.</li>
+          <li><span class="special_solo_title">Protect the Captain!</span> Activate the Pirates tile (see below).</li>
+        </ol></p>
+
+        <p><span class="setup_item">Special Rules</span></p>
+        <p><span class="special_solo_title">Map Notes:</span> Heroes may not leave the ship to enter water zones. 
+        Only one half of the map is required for this scenario and the rest may be ignored.</p>
+      </div>
+
+      <div class="col-md-6">
+        <p></p><p></p>
+        <p><span class="special_solo_title">Red Bossonian Guards:</span> Target the strongest Hero.</p>
+
+        <p><span class="special_solo_title">Zaporavo:</span> For this scenario, Zaporavo has the Protected skill. Zaporavo does not have Jump or Support.</p>
+
+        <p><span class="special_solo_title">Pirates:</span> The pirates represent Zaporavo’s Guards. When the Pirates activate, 
+        if they do not share a zone with him, they always attempt to reach his zone so they may serve as guards via his Protected skill. 
+          (Protected still works as normal, so any Overlord units will offer this benefit.)</p>
+
+        <p>When activated, Pirates only attack if there is a Hero in Zaporavo’s zone, or if they have gotten as close to Zaporavo 
+        as possible and share a zone with a Hero. They still follow the usual rules for determining a Target Hero. In short, 
+        their priority is:
+          <ol>
+            <li>Move as close as possible to Zaporavo.</li>
+            <li>Once their movement is spent, whether they share a zone with Zaporavo or not, they will attack a Hero in their 
+            current zone using the default rules for Determining a Target Hero.</li>
+          </ol></p>
+
+      <p><span class="setup_item">Options</span> 
+      <p><span class="special_title">Four Player Mode</span> 
+      <ul>
+        <li>After setup, each Hero removes 5 gems from their Reserve zone to their Fatigue zone.</li>
+        <li>Zaporavo has 14 Life Points.</li>
+        <li>Pirates have the Untouchable skill.</li>
+        <li>For the “Death From Below Deck” Event, roll
+          <img src="/assets/dice/Red-Reroll.png" class="scen_sq_token" />  
+          <img src="/assets/dice/Orange-Reroll.png" class="scen_sq_token" /> 
+        </li>
+        <li>The Sellsword starts in area <img src="/assets/tokens/area1Token.png" class="scen_token" />.</li>
+        <li>Reminder: The Overlord activates four times per turn.</li>
+      </ul></p>
+
+      <p><span class="special_title">Substitutions</span> 
+      <a class="tile" href="/tiles/88"><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/PiratesAlt.jpg" class="scen_event float_tile"></a>
+      <p><span class="special_solo_title">Hard Mode:</span><br />
+      Replace the Pirates in the River with the Kickstarter stretch goal Pirates:</p>
+    </div>',
+
+      overlord_goal: '',
+
+      overlord_setup: '',
+
+      rtoken1: '',
+      rtoken2: 'num1Token',
+      rtoken3: 'num2Token',
+      rtoken4: 'num3Token',
+      rtoken5: 'num4Token',
+      rtoken6: 'num5Token',
+      rtoken7: '',
+      rtoken8: '',
+
+      tile1: 999,
+      tile2: 1,
+      tile3: 7,
+      tile4: 30,
+      tile5: 19,
+      tile6: 22,
+      tile7: 999,
+      tile8: 999,
+
+      life1: 0,
+      life2: 0,
+      life3: 12,
+      life4: 0,
+      life5: 0,
+      life6: 0,
+      life7: 0,
+      life8: 0,
+
+      special_rules: '',
+
+      # campaign number   
+      event: '1',
+
+      # Result
+      hero_victory: '
+      <div class="col-md-6">
+      <p><span class="special_solo_title">Hero Victory:</span> 
+      Heroes are rewarded one Victory point per surviving Hero and get all the items from the asset deck, 
+      whether they found them during the scenario or not.
+      </div>
+      <div class="col-md-6">
+      <p><span class="special_solo_title">Hero Defeat:</span>
+      Heroes receive no equipment from this scenario, and set their victory points to -1. Additionally, 
+      Zaporavo will be alive in the second scenario and the Heroes will begin play with one additional stamina gem placed 
+      in their fatigue.</div>',
+
+      overlord_victory: '',
+      correction: '',
+
+      origin: "Tome of Skelos",
+      product_ids: [1, 25],
+      map_ids: [3],
+      hero_ids: [],
+      tile_ids: [1, 7, 19, 22, 30, 88],
+      spell_ids: [],
+      item_ids: [17, 19, 22, 134] },
+
+
+
+  # Bay of Death Part 2
+  # Devils From Sky and Sea
+    { name: "Devils From Sky and Sea",
+      mode: 'Solo/Cooperative',
+      pdf_link:'Betrayal of the Infernal Shaman',
+      credit: 'Dan Mauric, Ken Meyri, Kevin Deming, Matthew John',   
+      player_count: "3-4",
+      complexity: '',
+
+      description: '
+      <div class="col-md-6">
+        <p>The deck under your feet has become a crimson slick. Your companions grin mirthlessly, chests heaving, their clothes red 
+        and gleaming like those of butchers. Over your own haggard breaths peal the cries of dying men who lie scattered at your feet. 
+        Your arms ache from a flurry of fierce strokes, but your nerveless hands yet grip steel. As you take in the grim scene, a fiery 
+        glow and whiff of burning wood reveal an awful truth: the ship is on fire.</p>
+        <p>Worse yet, a winged black form materializes in the hooded sky above. Bobbing in the air like a bat but man-like in proportions, 
+        the vile creature descends on the ship, eyes</p>
+      </div>
+      <div class="col-md-6">
+        <p>burning with eldritch light. Over the sides of the stern, painted faces peer at you. A Pictish swarm is scaling the ship, 
+        apparently unfazed by the demon. It seems the devils of the forest have allied themselves with a devil from the Outer Dark, 
+        and the deck of your once-glorious vessel has become a hellscape.</p>
+        <p>As you take position, steeling yourself for the coming attack, you are forced to stifle a maniacal laugh. Have you lost your mind, 
+        or are the once-dead pirates—men you hacked to ribbons only moments ago—rising from the deck?</p>
+      </div>',
+
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Devils+from+Sky+and+Sea.jpg",
+      
+      # scenario pre-title 
+      hero_goal: "Bay of Death Part 2:",
+
+      # Setup
+      hero_setup: '
+      <div class="col-md-6">
+        <p><span class="setup_item">Objective</span></p>
+        <p>The Heroes win if they drop 5 chests in the zone marked <img src="/assets/tokens/area2Token.png" class="scen_token" />  and 
+        there are no enemies present in that zone. </p>
+        <p>The Heroes don’t need to be present in <img src="/assets/tokens/area2Token.png" class="scen_token" /> to meet these victory 
+        conditions.</p>
+
+        <p><span class="setup_item">Setup</span></p>
+          <table class="solo_right_table">
+            <tr>
+              <td><strong>The game starts with the Heroes’ turn.</strong> The Heroes deploy in the reinforcement zone.</td>
+              <td><img src="/assets/stats/reinforcement.png" class="scen_token" /> </td>
+            </tr>
+          </table>
+
+        <p>Set the Fire tokens on the table for use in this scenario.</p>
+        <img src="/assets/tokens/flameToken.png" class="scen_token" />
+        <img src="/assets/tokens/flameToken.png" class="scen_token" />
+        <img src="/assets/tokens/flameToken.png" class="scen_token" />
+
+        <p>If the Heroes lost the previous scenario, Zaporavo will continue to pose a threat. Place him on the map as indicated, 
+        but do not assign his tile an Activation token.</p>
+        <table class="solo_left_table">
+          <tr>
+            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+            <td>After setup, each Hero moves 3 gems from their Reserve zone to their Fatigue zone. If they lost the previous scenario 
+        they must move 4 from Reserve to Fatigue.</td>
+          </tr>
+        </table>
+
+        <p><span class="setup_item">Asset Deck</span></p>
+        <p>Heroes do not have time to open chests during the scenario. After the scenario, they will have the option to acquire some 
+        or all of the following items and spells: Telekinesis, Akbitanan Sword, Explosive Orb, Parrying Dagger, and Bossonian Bow, Spiked Shield.</p>
+
+        <p><span class="setup_item">Event</span></p>
+        <p>There are two events in this scenario. Activate only the event with the corresponding number and complete all parts of the event in the order presented.</p>
+        <p><span class="special_solo_title">Event 1:</span></p>
+        <ol>
+          <li><span class="special_solo_title">The Dead Return:</span> The Dead Return: Up from the blood-soaked deck rise the fallen 
+          pirates, burning with unnatural life. Roll <img src="/assets/dice/Red-Reroll.png" class="scen_sq_token" /> to determine how 
+          many pirates arise. Reroll the die once if the first result is blank. Add the Pirates to area 
+          <img src="/assets/tokens/area1Token.png" class="scen_token" /> or <img src="/assets/tokens/area2Token.png" class="scen_token" />, 
+          whichever is closest to the Target Hero. If they would not be able to reach the 
+          Target the Hero from either zone, place them in the zone that would allow them to attack an. Alternate Target Hero. If neither 
+          is possible, players choose which of the two areas to place them in. If there is a Fire token in <img src="/assets/tokens/area1Token.png" class="scen_token" />, 
+          pirates will no longer spawn there and will spawn in <img src="/assets/tokens/area2Token.png" class="scen_token" />, where Fire tokens 
+          may not be placed. A maximum of 15 Pirates can be on the board at one time. Once the pirates are placed, activate them.</li>
+          <li><span class="special_solo_title">Zaporavo Yet Stands:</span> Activate Zaporavo after the pirates have activated. He no longer 
+          has the Protected skill, as the dead do not obey him. His tile functions as printed.</li>
+          <li><span class="special_solo_title">Fire Arrows:</span> Roll to see if a Fire token is added to the map (see Fire! under special rules).</li>
+        </ol>
+
+        <p><span class="special_solo_title">Event 2:</span></p>
+        <ol>
+          <li><span class="special_solo_title">Enter the Pictish Horde:</span> The sharks have mysteriously vanished and now the water is 
+          teeming with Picts, some of whom are already climbing the ship. Roll <img src="/assets/dice/Red-Reroll.png" class="scen_sq_token" /> to determine the number of Pict Hunters you will 
+          place in <img src="/assets/tokens/area2Token.png" class="scen_token" />. Reroll the die once if the first result is blank. A maximum of 15 Pict Hunters can be on the board at one time. 
+          Picts do not activate as part of this event.</li>
+          <li><span class="special_solo_title">Fire Arrows:</span> Roll to see if a Fire token is added to the map (see Fire! under special rules).</li>
+        </ol>
+      </div>
+
+      <div class="col-md-6">
+
+        <p><span class="setup_item">Special Rules</span></p>
+        <p><span class="special_solo_title">Fire!</span> The invading Picts started a fire on your ship. Roll <img src="/assets/dice/Red-Reroll.png" class="scen_sq_token" /> 
+        to determine the fire’s 
+        intensity (shown as a 1, 2, or 3 on the Fire token). Reroll the die once if the first result is blank. Unless the reroll 
+        is also blank, place the initial Fire token in any zone except <img src="/assets/tokens/area2Token.png" class="scen_token" /> 
+        or the stairwell (marked with a chest). Subsequent Fire tokens must be placed in a zone adjacent to an existing Fire token.</p>
+        <p>The number on the Fire token denotes how many unprevent- able wounds a miniature takes if they move into a Fire zone, 
+        as well as any round they start in a zone with a Fire token. Each unit already in a zone when a Fire token is placed in 
+        that zone immediately takes 1 unpreventable damage. Overlord miniatures will always avoid zones with a Fire token when moving. 
+        If there is no way to reach a Target Hero or Alternate Target Hero, they will remain in their current zone when they activate 
+        (even if they have Leap).</p>
+        <p><span class="special_solo_title">Leaping the Flames:</span> A Hero with Leap may leap over one zone containing a Fire token 
+        to an adjacent zone. Follow the rules for Leap by considering each zone with a Fire token to be a leap area. The number 
+        on the Fire token is the number they must match or beat by the red die roll. A Hero may never leap more than one zone as 
+        part of the same action.</p>
+        <p><span class="special_solo_title">Outer Dark Demon:</span> The Pictish sorcerer has summoned a vile demon from the Outer Dark. 
+        The Outer Dark Demon is unaffected by Fire tokens. The Outer Dark Demon will target the Strongest Hero.</p>
+        <p><span class="special_solo_title">Chests:</span> Place one chest in the stairwell zone of the ship to indicate where Heroes pick 
+        up chests. This chest does not affect how many miniatures you can place in the zone (3 normal-sized miniatures is the threshold). 
+        A Hero in this zone may spend one gem for a simple Manipulation to retrieve a chest. This chest counts as two encumbrance and may 
+        be dropped for free or picked up again as a simple Manipulation. A Hero may only hold one chest at a time and may not throw the chest.</p>
+        <p><span class="special_solo_title">The stairwell zone:</span> Only area <img src="/assets/tokens/area1Token.png" class="scen_token" /> 
+        and the adjacent mast zone have line of sight to units in the stairwell zone.</p>
+
+
+        <p><span class="setup_item">Options</span></p>
+        <p><span class="special_title">Non-Campaign Mode</span></p>
+        <p>Zaporavo is alive in this scenario and players move 4 gems to their Fatigue zone during setup.</p>
+        <p><span class="special_solo_title">Cache:</span> Buckler, Cutlass, Dagger, Leather Armor, Sword, Throwing Knives</p>
+        <p><span class="special_solo_title">Cache for 4 Heroes:</span> Add Tribal Mace and Shield</p>
+        <p><span class="special_solo_title">Spells:</span> Bori’s Rage, Set’s Halo</p>
+
+        <p><span class="special_title">Four Player Mode</span> 
+        <ul>
+          <li>After setup, Heroes move 4 gems from their Reserve to their Fatigue zone, 5 if they lost the previous scenario.</li>
+          <li>The Outer Dark Demon has 14 Life Points (Winged One has 8 - see substitutions below).</li>
+          <li>Heroes must place 6 chests in zone 2 rather than 5.</li>
+          <li>For the “Death From Below Deck” Event, roll  </li>
+          <li>Pirates have the Untouchable skill.</li>
+          <li>Reminder: The Overlord activates four times per turn.</li>
+        </ul></p>
+
+        <p><span class="special_title">Substitutions</span> 
+        <ul>
+          <li>The Winged One may substitute for the Outer Dark Demon with 6 Life Points instead of 10.</li>
+          <li><span class="special_solo_title">Hard Mode:</span> Replace the Pirates in the River with the Kickstarter stretch goal Pirates.</li>
+        </ul></p>
+    </div>',
+
+      overlord_goal: '',
+
+      overlord_setup: '',
+
+      rtoken1: 'num1Token',
+      rtoken2: 'num2Token',
+      rtoken3: 'num3Token',
+      rtoken4: 'num4Token',
+      rtoken5: 'num5Token',
+      rtoken6: '',
+      rtoken7: '',
+      rtoken8: '',
+
+      tile1: 1,
+      tile2: 2,
+      tile3: 30,
+      tile4: 24,
+      tile5: 12,
+      tile6: 999,
+      tile7: 7,
+      tile8: 999,
+
+      life1: 0,
+      life2: 0,
+      life3: 0,
+      life4: 0,
+      life5: 12,
+      life6: 0,
+      life7: 3,
+      life8: 0,
+
+      special_rules: '',
+
+      # campaign number   
+      event: '2',
+
+      # Result
+      hero_victory: '
+      <div class="col-md-6">
+        <p><span class="special_solo_title">Hero Victory:</span> Heroes are rewarded one Victory point per surviving Hero and may add 
+        the items in the Asset Deck to their Stash. Additionally, players may also add any items not obtained in the first scenario 
+        to their Stash.</p>   
+      </div>
+      <div class="col-md-6">
+        <p><span class="special_solo_title">Hero Defeat:</span> Each player can choose one piece of equipment from the Asset Deck to 
+      add to their Stash.</p></div>',
+
+      overlord_victory: '',
+      correction: '',
+
+      origin: "Tome of Skelos",
+      product_ids: [1, 25],
+      map_ids: [3],
+      hero_ids: [],
+      tile_ids: [1, 2, 7, 12, 24, 30],
+      spell_ids: [15],
+      item_ids: [2, 6, 11, 130, 143] },
+
+
+
+  # No Safe Place
+    { name: "No Safe Place",
+      mode: 'Solo/Cooperative',
+      pdf_link:'Betrayal of the Infernal Shaman',
+      credit: 'Dan Mauric, Ken Meyri, Kevin Deming, Matthew John',
+      player_count: "3-4",
+      complexity: '',
+
+      description: '
+      <div class="col-md-6">
+        <p>True to their nature, the mutinous pirates turn on you as soon as your feet hit the beach, demanding what meager 
+        supplies you managed to haul from the burning shipwreck. Zingaran scoundrels, Barachan sailors, Kushite mercenaries—
+        treacherous dogs to a man!</p>
+        <p>With a glint of steel, a thrown knife is planted in the gullet of the instigator, the tall, harsh Kushite first mate. 
+        His eyes bulge as he chokes and sputters on the blood bubbling from his mouth. The distraction is enough to allow you to 
+        make an escape. Threats and howls of rage ring out. Arrows zip by your heads as you dash headlong into the murky forest.
+        <p>Climbing a wooded bluff in the dark, you hope to find a safe place in a seemingly abandoned signal tower overlooking the bay. 
+        The entrance is blocked with rubble so you and your companions scurry to the top of the </p>
+      </div>
+      <div class="col-md-6">
+        <p>crumbling walls and fan out to explore the ancient structure. Faint moonlight reveals a time blasted compound composed of 
+        three standing signal towers and one collapsed. The inner courtyard is crisscrossed with thick, almost rope like webs.</p>
+        <p>You freeze as a dull chittering echoes around the stone walls. Moments pass. Silence. You begin to take a step and are greeted 
+        by the same sound and notice a slight vibration in the enormous tangle of webs. You stop. Silence again.</p>
+        <p>Suddenly you hear the clamor of the pirates ascending the bluff. You duck for cover as the first volley of arrows clatters 
+        around the ramparts. The thick webs shrouding the courtyard begin to vibrate erratically. The chittering grows louder and more 
+        incessant.</p>
+      <p>The realization creeps over you. This is no safe place.</p>
+      </div>',
+
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/No+Safe+Place.jpg",
+      
+      # scenario pre-title 
+      hero_goal: '',
+
+      # Setup
+      hero_setup: '
+      <div class="col-md-6">
+        <p><span class="setup_item">Objective</span></p>
+        <p>The Heroes win once all threats are eliminated.</p>
+
+        <p><span class="setup_item">Setup</span></p>
+        <p><strong>The game starts with the Overlord’s turn.</strong> The Heroes start in the areas marked 
+        <span style="white-space: nowrap;"><img src="/assets/tokens/area1Token.png" class="scen_token" />.</span></p>
+
+        <p>The Sorcerer starts with Set’s Halo cast.</p>
+       <table class="solo_left_table">
+          <tr>
+            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+            <td>After setup, each Hero moves no gems from their Reserve zone to their Fatigue zone.</td>
+          </tr>
+        </table>
+
+        <p><span class="setup_item">Asset Deck</span></p>
+        <p>Pick up a Treasure token with a simple Manipulation or the Telekinesis spell to draw from the Asset Deck, which contains 
+        a Bossonian Bow, Empty Chest, Heavy Spear, Sorcerer’s Scepter, and Spellbook (Pestilential Swarm, Yog’s Hunger).</p>
+        <p>If the Telekinesis spell was not obtained in the previous scenario, add it to the Spellbook in the Asset Deck.</p>
+        <p>One item, not obtained in a previous scenario may be added to the Asset Deck in place of the Empty Chest card.</p>
+
+        <table class="solo_left_card_table">
+          <tr>
+            <td><a class="tile" href="/items/27"><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/SorcerersScepter.jpg" class="scen_event"></a></td>
+            <td><span class="special_solo_title">Sorcerer’s Scepter</span><br />
+            Place 1 red gem <img src="/assets/tokens/redGem.png" class="scen_token" /> on the scepter. 
+            A Hero may use this gem to cast spells. During the Start Phase and End Phase of each 
+        Heroes’ Turn, move the <img src="/assets/tokens/redGem.png" class="scen_token" /> back to the card.</td>
+          </tr>
+        </table>
+
+        <p><span class="setup_item">Event</span></p>
+        <p><span class="special_solo_title">Tangled Webs:</span> The ancient structure is covered in spider webs. Players choose 1 Hero 
+        and 1 Overlord unit and attacks them each with a Web Projection. The Zamorian Spider may not be chosen as a target. 
+        An Overlord unit that has a Web token must use their next Activation to remove the Web token. Then activate the Zamorian Spider.</p>
+
+        <p><span class="setup_item">Special Rules</span></p>
+        <p><span class="special_solo_title">Map Notes:</span> Walls, Boulder tokens, and doors may not be crossed by any character 
+        except the Zamorian Spider.</p>
+
+        <p><span class="special_solo_title">Treasure Tokens:</span> The Treasure tokens in the courtyard may only be retrieved with the 
+        Telekinesis spell.</p>
+
+      </div>
+
+      <div class="col-md-6">
+      <p></p><p></p>
+
+        <p><span class="special_solo_title">Ranged Units:</span> Pirate Archers and the Elite Ballista do not move if they have Line of
+         Sight to a Target Hero or Alternate Target Hero.</p>
+
+        <p><span class="special_solo_title">Zamorian Spider:</span> When the Zamorian Spider is activated, it will perform these two 
+        steps in order:
+        <ul>
+          <li>Use the Web Projection skill. Target a Hero without a Web token if possible, but otherwise follow normal targeting rules.</li>
+          <li>Move and attack. Select the Target Hero from those that have a web token. If no Hero has a Web token, the Zamorian Spider 
+          follows normal rules for Targeting. (This is an exception to the normal rules for Web Projection.)</li>
+        </ul></p>
+
+        <p>The Zamorian Spider uses Climb to cross into any area.</p>
+        <p>The Zamorian Spider cannot be damaged. To kill it, all 3 Signal Lamps must be lit at the end of the Heroes’ turn 
+        (see Signal Lamps below).</p>
+
+        <p><span class="special_solo_title">Web Tokens:</span> Web tokens are not limited to those provided in the game. If more are needed 
+        substitute any other token. A character may have more than 1 Web token at a time.</p>
+
+        <p><span class="special_solo_title">Signal Lamps:</span> A Hero may use a simple Manipulation to flip a Flame token to 2 to light 
+        a signal lamp. A signal lamp may not be lit if the Zamorian Spider is in the area. When the Zamorian Spider enters an area 
+        with a lit Flame token, it extinguishes the light. Flip it back to side 1.</p>
+
+        <p><span class="special_solo_title">Elite Ballista:</span> will Target the Strongest Hero.</p>
+
+        <p><span class="special_solo_title">Sacrifice Skill:</span> Belit’s Guards will use their Sacrifice Skill only on behalf of the 
+        Captain. The Captain will never use his Sacrifice Skill.</p>
+
+
+        <p><span class="setup_item">Options</span></p>
+
+        <p><span class="special_title">Non-Campaign Mode</span></p>
+        <p><span class="special_solo_title">Cache:</span> Akbitanan Sword, Buckler, Cutlass, Dagger, Leather Armor, Shield, Spiked Shield, Sword, Throwing Knives, Tribal Mace.</p>
+        <p><span class="special_solo_title">Spells:</span> Bori’s Rage, Set’s Halo, Telekinesis, Ymir’s Retribution</p>
+
+        <p><span class="special_title">Four Player Mode</span> 
+        <ul>
+          <li>After setup, each Hero moves 3 gems from their Reserve to their Fatigue zone, 4 if they lost the previous scenario.</li>
+          <li>The Captain has 12 Life Points and the Elite Ballista has 8.</li>
+          <li>Reminder: The Overlord activates four times per turn.</li>
+        </ul></p>
+
+        <p><span class="special_title">Substitutions</span> 
+        <ul>
+          <li>Shafiah or Ghayoor may substitute for the Captain.</li>
+          <li><span class="special_solo_title">Hard Mode:</span> Add 2 Pirate Archers to area <img src="/assets/tokens/area2Token.png" class="scen_token" />.</li>
+        </ul></p>
+    </div>',
+
+      overlord_goal: '',
+
+      overlord_setup: '',
+
+      rtoken1: 'num1Token',
+      rtoken2: 'num2Token',
+      rtoken3: 'num3Token',
+      rtoken4: 'num4Token',
+      rtoken5: 'num5Token',
+      rtoken6: 'num6Token',
+      rtoken7: 'num7Token',
+      rtoken8: '',
+
+      tile1: 1,
+      tile2: 3,
+      tile3: 14,
+      tile4: 177,
+      tile5: 170,
+      tile6: 165,
+      tile7: 30,
+      tile8: 999,
+
+      life1: 0,
+      life2: 6,
+      life3: 0,
+      life4: 0,
+      life5: 4,
+      life6: 0,
+      life7: 0,
+      life8: 0,
+
+      special_rules: '',
+
+      # campaign number   
+      event: '3',
+
+      # Result
+      hero_victory: '
+      <div class="col-md-6">
+        <p><span class="special_solo_title">Hero Victory:</span> If the Heroes win, they are awarded 1 Victory Point per surviving Hero 
+        and get all the items from the asset deck, whether they found them or not.</p>   
+      </div>
+
+      <div class="col-md-6">
+        <p><span class="special_solo_title">Hero Defeat:</span> If this scenario results in a Defeat, lose one Victory Point. 
+        Lose any equipment that they have found.</p></div>',
+
+      overlord_victory: '',
+      correction: '',
+
+      origin: "Tome of Skelos",
+      product_ids: [1, 23, 25],
+      map_ids: [4],
+      hero_ids: [],
+      tile_ids: [1,3, 14, 30, 165, 170, 177],
+      spell_ids: [15],
+      item_ids: [] },
+
+
+
+  # Hidden Chambers
+  # On the Edge
+    { name: "On the Edge",
+      mode: 'Solo/Cooperative',
+      pdf_link:'Betrayal of the Infernal Shaman',
+      credit: 'Dan Mauric, Ken Meyri, Kevin Deming, Matthew John',
+      player_count: "3-4",
+      complexity: '',
+
+      description: '
+      <div class="col-md-6">
+        <p>Dawn sees distance between you and the spider haunted signal tower as you wind your way along the foggy coast. 
+        A steady incline draws you up and away from the bloody bay. Before long, the slope leading back toward the beach shears off 
+        into a steep, rocky cliff. The crashing surf below fades and the silence of the forest presses in on your ears. Too silent.</p>
+        <p>Ahead, you see a wisp of smoke and the outline of a crude wooden palisade. You approach cautiously and find yourselves 
+        in the midst of three ramshackle huts at the edge of the cliff. Broken crockery and fish bones lay scattered around a smoldering 
+        campfire.</p>
+        <p>The hair on your neck stands up as you realize someone...or some thing...is watching you from the tattered huts.</p>
+      </div>
+      <div class="col-md-6">
+        <p>Suddenly, an abomination bearing aspects of both fish and man trundles from the stone hut pointing accusingly and blaring 
+        a distorted shriek. You stare at its bulbous eyes, covered in grey-green scales, its webbed digits, and protruding fins. 
+        As it approaches, a fetid smell, of fish, death, and decay washes over you.</p>
+        <p>You quickly find yourselves surrounded. The degenerate creatures poke and prod you with crude fishing implements, herding you 
+        until your backs press up against a crumbling well. Suddenly, a rumble of primal curiosity... and hunger emits from the well...</p>
+      </div>',
+
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/On+the+Edge.jpg",
+      
+      # scenario pre-title 
+      hero_goal: "Hidden Chambers",
+
+      # Setup
+      hero_setup: '
+      <div class="col-md-6">
+        <p><span class="setup_item">Objective</span></p>
+        <p>The Heroes win the game once the Servant of Ahriman has been thrown over the edge.</p>
+
+        <p><span class="setup_item">Setup</span></p>
+        <p><strong>The game starts with the Overlord’s turn.</strong> The Heroes start in the area marked with the Well token. The Deep One Champion 
+        is placed in the area marked with the number <img src="/assets/tokens/area1Token.png" class="scen_token" />. Be sure to add the Hidden Chamber near the map.</p>
+
+       <table class="solo_left_table">
+          <tr>
+            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+            <td>After setup, each Hero moves 2 gems from their Reserve zone to their Fatigue zone.</td>
+          </tr>
+        </table>
+
+        <p><span class="setup_item">Asset Deck</span></p>
+        <p>There is no Asset Deck in this scenario. However, set the Zamorian Chain and Anchor equipment cards near the Player area, 
+        since they will be used in the scenario. Also, set aside Dagon’s Circlet as the reward for success.</p>
+
+        <p><span class="setup_item">Event</span></p>
+        </p>Complete both steps in order:
+        <ol>
+          <li><span class="special_solo_title">Break the Chains:</span> If the Servant of Ahriman is chained to the wall in the Hidden Chamber, it attempts to break free. 
+          Place a red gem on its base. Once there are 4 red gems on its base, the Servant of Ahriman breaks free. Move it to the Well 
+          token. Place the Zamorian Chain in the Hidden Chamber.</li>
+          <li><span class="special_solo_title">Surrounded!</span> 2 Reinforcement points.</li>
+        </ol></p>
+
+        <p><span class="setup_item">Special Rules</span></p>
+        <p><span class="special_solo_title">Map Notes:</span> Standard map rules apply. Only one half of the map is required for this 
+        scenario and the rest may be ignored. Units may not cross, or use Wall Wrecker on, a wooden barricade. The door on the center 
+        hut counts as a hut flap. There is Line of Sight from the Hidden Chamber to the area with the Well token.</p>
+
+        <p><span class="special_solo_title">Hidden Chamber:</span> It costs 1 extra Movement Point to move between the area with the Well 
+        token and the Hidden Chamber.</p>
+
+        <p><span class="special_solo_title">Reach Skill:</span> Deep Ones will always stop in an adjacent space to benefit from their Reach 
+        Skill if possible. The Reach skill may be used to attack into the Hidden Chamber from the area with the Well token.</p>
+
+        <p><span class="special_solo_title">On the Edge:</span> For all attacks in the area with the Well token, when a character’s attack 
+        power is determined, if any die shows 2 or more symbols, the defender is moved into the Hidden Chamber after the attack is 
+        completed.</p>
+
+        <p><span class="special_solo_title">Deep One Champion:</span> The Deep One Champion is considered a Deep One. It targets the 
+        Strongest Hero. When it is killed, place the Anchor equipment card in its area.</p>
+
+      </div>
+
+      <div class="col-md-6">
+        <p></p><p></p>
+
+        <p><span class="special_solo_title">Poison Skill:</span> The Deep One’s stench is over powering! Each time a Hero attempts to 
+        perform a Melee, Range, or Manipulation action, before completing the action add or remove Poison tokens 
+        <img src="/assets/tokens/poisonToken.png" class="scen_token" /> on their dashboard to match the number of Deep Ones 
+        (or their corpses) in their area. The Hero’s maximum Encumbrance Value and Encumbrance limits for each skill are immediately 
+        reduced by 1 for each Poison token <img src="/assets/tokens/poisonToken.png" class="scen_token" /> on their dashboard.</p>
+
+        <p><span class="special_solo_title">Lingering Stench:</span> If a Deep One is killed, place a red gem 
+        <img src="/assets/tokens/redGem.png" class="scen_token" /> in the area to represent its corpse. A Hero in an area adjacent 
+        to the cliff may perform a simple Manipulation (or use Telekinesis) to remove 1 <img src="/assets/tokens/redGem.png" class="scen_token" /> 
+        from the map.</p>
+
+        <p><span class="special_solo_title">Zamorian Chain:</span> A Hero with the Zamorian chain that starts his turn in the Hidden 
+        Chamber does not pay the extra movement point to exit the Hidden Chamber. The Hero with the Zamorian Chain is also immune 
+        to Blocking until he exits the 1 Hidden Chamber.</p>
+
+        <p><span class="special_solo_title">The Servant of Ahriman:</span> acts in the following order while chained:
+        <ul>
+          <li>Attempt to break free. Roll 1 <img src="/assets/dice/Red-Reroll.png" class="scen_sq_token" /> (no rerolls). 
+          If the result is 2 or more symbols place, a red gem on its base. (See Break the Chains Event.)</li>
+          <li>Attack Target Hero, if possible. While chained, the Servant of Ahriman does not move.</li>
+        </ul></p>
+
+        <p>Once freed, the Servant of Ahriman moves and targets normally. When the Servant of Ahriman reaches 5 Life points, reduce 
+        its attack dice by 1 <img src="/assets/dice/Red-Reroll.png" class="scen_sq_token" />. At 0 Life Points, reduce its attack dice 
+        by 1 additional <img src="/assets/dice/Red-Reroll.png" class="scen_sq_token" />. 
+        After that, the Servant of Ahriman cannot be wounded any more.</p>
+
+        <p><span class="special_solo_title">Killing the Beast:</span> The only way to kill the Servant of Ahriman is to knock it off the 
+        cliff. If the Servant of Ahriman is in an area adjacent to the cliff, the Heroes may attempt to knock it over the edge by 
+        constricting it with the Zamorian Chain and giving it at least 1 wound with the Anchor in the same turn. If successful, the 
+        Servant of Ahriman is dragged to a watery death. Discard the Anchor and Zamorian Chain, they are not carried over to the next 
+        scenario.</p>
+
+
+        <p><span class="setup_item">Options</span></p>
+
+        <p><span class="special_title">Non-Campaign Mode</span></p>
+        <p><span class="special_solo_title">Cache:</span> Akbitanan Sword, Bossonian Bow, Buckler, Cutlass, Dagger, Leather Armor, Shield, Spiked Shield, Sword, Throwing Knives, Tribal Mace.</p>
+        <p><span class="special_solo_title">Spells:</span> Bori’s Rage, Set’s Halo, Telekinesis, Ymir’s Retribution</p>
+
+        <p><span class="special_title">Four Player Mode</span> 
+        <ul>
+          <li>The Deep One Champion has 12 Life Points.</li>
+          <li>The <span class="special_solo_title">Surrounded!</span> Event has 4 Reinforcement points.</li>
+        </ul></p>
+
+        <p><span class="special_title">Substitutions</span> 
+        <ul>
+          <li>The Dragon may substitute for the Servant of Ahriman.</li>
+          <li>Hard Mode: Substitute Children of Gullah for Deep Ones and Haunter of the Pits for Deep One Champion. 
+          Consider them to have the Poison skill for this scenario.</li>
+        </ul></p>
+    </div>',
+
+      overlord_goal: '',
+
+      overlord_setup: '',
+
+      rtoken1: '',
+      rtoken2: '',
+      rtoken3: 'num1Token',
+      rtoken4: 'num2Token',
+      rtoken5: 'num3Token',
+      rtoken6: 'num4Token',
+      rtoken7: '',
+      rtoken8: '',
+
+      tile1: 999,
+      tile2: 999,
+      tile3: 169,
+      tile4: 168,
+      tile5: 162,
+      tile6: 1,
+      tile7: 999,
+      tile8: 999,
+
+      life1: 0,
+      life2: 0,
+      life3: 8,
+      life4: 0,
+      life5: 15,
+      life6: 0,
+      life7: 0,
+      life8: 0,
+
+      special_rules: '',
+
+      # campaign number   
+      event: '3.5',
+
+      # Result
+      hero_victory: '
+      <div class="col-md-6">
+        <p><span class="special_solo_title">Hero Victory:</span> If the Heroes win, they are awarded 1 Victory Point as a group. 
+        In addition, they find Dagon’s Circlet hidden in the Servant of Ahriman’s prison.</p>   
+      </div>
+
+      <div class="col-md-6">
+        <p><span class="special_solo_title">Hero Defeat:</span> If this scenario results in a Defeat, lose one Victory Point. 
+        Lose any equipment that they have found.</p></div>',
+
+      overlord_victory: '',
+      correction: '',
+
+      origin: "Tome of Skelos",
+      product_ids: [1, 23, 25],
+      map_ids: [1],
+      hero_ids: [],
+      tile_ids: [1, 162, 168, 169],
+      spell_ids: [15],
+      item_ids: [131, 140, 144] },
+
+
+
+  # Accursed Village Part 1
+  # An Unseen Evil
+    { name: "An Unseen Evil",
+      mode: 'Solo/Cooperative',
+      pdf_link:'Betrayal of the Infernal Shaman',
+      credit: 'Dan Mauric, Ken Meyri, Kevin Deming, Matthew John',
+      player_count: "3-4",
+      complexity: '',
+
+      description: '
+      <div class="col-md-6">
+        <p>Exhausted from the constant fighting, you trek deeper into the forest, searching for somewhere to rest. It’s not long before 
+        rustling leaves in the eerily silent woods alert you to a new danger: you are being hunted.</p>
+        <p>Quickening your step, you begin to see signs of what passes for civilization in these parts; rabbit snares and vegetable 
+          gardens. You recall the captain mentioning something about a village, and decide it is worth risking contact with the Pictish 
+          natives.</p>
+        <p>When you reach the village, you see damaged huts, hastily repaired as though a battle had been fought here recently. You hide 
+        behind a hut when you spot other crewmembers from the Wastrel milling about some of the huts on the outer edge of the village. It 
+        seems they’ve struck a bargain with the Eagle-Picts for overnight shelter.</p>
+      </div>
+      <div class="col-md-6">
+        <p>As a group, you decide to wait until nightfall and steal back the remaining treasure they stole from you. But as the moon slowly 
+        creeps from behind the clouds, you sense a strange tingle through your spine. Something unnatu- ral was transpiring in this village, 
+        an unseen evil rising from hell to gnaw on your nerves. Your mind flashes to the crown stored in one of those pirate crates, and you 
+        know it can aid you in the coming fight against evil. But time grows short.</p>
+        <p>Do you risk engaging the pirates in search of the crown, or rush through the village and smite the sorcerer before they can finish 
+        their wicked incantation?</p>
+      </div>',
+
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/An+Unseen+Evil.jpg",
+      
+      # scenario pre-title 
+      hero_goal: "Accursed Village Part 1:",
+
+      # Setup
+      hero_setup: '
+      <div class="col-md-6">
+        <p><span class="setup_item">Objective</span></p>
+        <p>The Heroes must kill Zogar Sag before he completes the ritual, or the Manifestation of Yog and all revealed enemies.</p>
+
+        <p><span class="setup_item">Setup</span></p>
+        <p><strong>The game starts with the Heroes’ turn.</strong> Place the Heroes on in the area with the Reinforcement token 
+        <img src="/assets/stats/reinforcement.png" class="scen_token" />. 
+        Randomly place the numbered activation tokens 1 through 5 face-down in the tents marked A. Randomly place activation 
+        tokens 6 through 8 in the tents marked B.</p>
+       <table class="solo_left_table">
+          <tr>
+            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+            <td>After setup, each Hero moves 4 gems from their Reserve zone to their Fatigue zone.</td>
+          </tr>
+        </table>
+
+        <p><span class="setup_item">Asset Deck</span></p>
+        <p>Pay one gem for a simple Manipulation to open chests. The Asset Deck contains: Spellbook (Mitra’s Healing, Born by the Wind), 
+        Atlantean Axe, Empty Chest, Tribal Shield, Explosive Orb, Xuthal’s Crown.</p>
+
+        <table class="solo_left_table">
+          <tr>
+            <td><a class="tile" href="/items/31"><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/XuthalsCrown.jpg" class="scen_event"></a></td>
+            <td><span class="special_solo_title">Xuthal’s Crown</span><br />
+            When a Hero wearing Xuthal’s Crown is affected by the Horror skill, their exertion limit is 3 instead of 2.</td>
+          </tr>
+        </table>
+
+
+        <p><span class="setup_item">Special Rules</span></p>
+
+        <p>This scenario works differently than most scenarios. Activation tokens are not used to activate units, but rather to 
+        randomly choose which units spawn in the huts. The number of activations does not depend on how many Heroes are on the board. 
+        The Overlord turn always goes as follows:</p>
+
+        <p><span class="special_solo_title">Overlord Turn Sequence</span></p>
+        <ol>
+          <li>Increase the time counter by 1.</li>
+          <li>Roll  <img src="/assets/dice/Red.png" class="scen_sq_token" /> 
+          <img src="/assets/dice/Red.png" class="scen_sq_token" />
+          <img src="/assets/dice/Red.png" class="scen_sq_token" />(no rerolls). If the result is less than the current round 
+          (as indicated by the Time token), activate Event B. Otherwise, nothing happens.</li>
+          <li>Activate all revealed Overlord units. Players choose the order of these attacks. Determine Target Hero or Alternate 
+          Hero for each activating unit as normal.</li>
+        </ol></p>
+
+        <p><span class="special_solo_title">Map Notes:</span> Standard map rules apply. Treat the Barricade tokens as outer walls that 
+        cannot be climbed over or wrecked using Wall Wrecker.</p>
+        <p><span class="special_solo_title">Huts:</span> The first time a hut is entered, flip the Activation token and read the 
+        corresponding entry in the enemy chart below. Place the enemies listed in the hunt. Then roll <img src="/assets/dice/Red.png" class="scen_sq_token" />  
+        (no rerolls). If the result is a 2 or more, those enemies will interrupt the Heroes’ turn and activate, attempting to attack the Hero who entered the hut. 
+        As soon as the revealed enemies have completed their activation, or if they did not get to activate, the Heroes will continue 
+        their turn. Wall Wrecker will also trigger this effect, just as if the Hero entered through a door (regardless of where they 
+        entered from). If Zogar Sag’s hut is chosen (Hut 1), activate Event A.</p>
+        <p><span class="special_solo_title">Zogar Sag:</span> For this scenario, Zogar Sag has the Protected skill.</p>
+        <p><span class="special_solo_title">Manifestation of Yog:</span> Horror extends to all adjacent areas with Line of Sight.</p>
+
+        <p><span class="setup_item">Event A</span></p>
+
+        <p><span class="special_solo_title">The Ritual is Ruined:</span> Zogar Sag’s ritual has been interrupted. The alarm sounds and 
+        the village awakes. Make the follow- ing changes to the board:</p>
+        <p>Complete all the following in the order presented:</p>
+        <ol>
+          <li>Flip each Activation token and spawn all enemies in each location as indicated in the Enemy Chart.</li>
+          <li>Move Activation tokens 1-6 to the Book of Skelos. These tiles will now activate following standard activation rules 
+          (draw 1 activation token per living Hero)</li>
+          <li>The Pirates, Elite Ballista, and Captain flee the village. Remove their miniatures from the board and remove 1 chest 
+          from each tent.</li>
+        </ol></p>
+
+
+        <p><span class="setup_item">Event B</span></p>
+
+        <p><span class="special_solo_title">The Ritual is Complete:</span> Zogar Sag has summoned a demon to cleanse his village. 
+        As the Manifestation of Yog takes phys- ical form through the body of Zogar Sag, the village awakes. Make the following 
+        changes to the board:</p>
+        <p>Complete all the following in the order presented:
+        <ol>
+          <li>Replace the Zogar Sag tile with the Manifestation of Yog tile (15 Life Points).</li>
+          <li>Flip each activation tile and spawn all enemies in each location as indicated in the Enemy Chart.</li>
+          <li>Move Activation tokens 1-6 to the Book of Skelos. These tiles will now activate following standard activation 
+          rules (draw 1 activation token per living Hero).</li>
+        </ol></p>
+
+      </div>
+
+      <div class="col-md-6">
+      <p></p><p></p>
+
+        <p>If the Heroes did not previously enter any tents marked B, the Pirates, Elite Ballista, and Captain will act as allies. 
+        They can be activated by any Hero with the Leadership skill.</p>
+        <p>If the Heroes previously entered any tents marked B, they will not aid in this fight and flee the village. Remove their 
+        miniatures from the board and remove 1 chest from each tent.</p>
+
+       <table class="solo_table_unseen">
+          <tr>
+            <td><img src="/assets/tokens/num1Token.png" class="scen_token" /></td>
+            <td>
+              <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/PictHunters.jpg" class="scen_event">
+              <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/PictWarriorsPurple.jpg" class="scen_event">
+              <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ZogarSag.jpg" class="scen_event">
+            </td>
+            <td>      
+              <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ZogarSagToken.png" class="scen_token">
+            </td>
+          </tr>
+       
+          <tr>
+            <td><img src="/assets/tokens/num2Token.png" class="scen_token" /></td>
+            <td>
+              <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/PictHunters.jpg" class="scen_event">
+              <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Hyenas.jpg" class="scen_event">
+              <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Gorm.jpg" class="scen_event">
+            </td>
+            <td>
+              <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/GormToken.png" class="scen_token">
+            </td>
+          </tr>
+
+          <tr>
+            <td><img src="/assets/tokens/num3Token.png" class="scen_token" /></td>
+            <td>
+              <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/GiantSnake.jpg" class="scen_event">
+            </td>
+            <td>
+              <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/GiantSnakeToken.png" class="scen_token">      
+            </td>
+          </tr>
+
+          <tr>
+            <td><img src="/assets/tokens/num4Token.png" class="scen_token" /></td>
+            <td>
+              <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/PictHunters.jpg" class="scen_event">
+              <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/PictWarriorsPurple.jpg" class="scen_event">
+            </td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td><img src="/assets/tokens/num5Token.png" class="scen_token" /></td>
+            <td>
+              <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/PictHunters.jpg" class="scen_event">
+              <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Hyenas.jpg" class="scen_event">
+              <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/PictWarriorsPurple.jpg" class="scen_event">
+            </td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td><img src="/assets/tokens/num6Token.png" class="scen_token" /></td>
+            <td>
+              <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Pirates.jpg" class="scen_event">
+              <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/PirateArchers.jpg" class="scen_event">
+              <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Captain.jpg" class="scen_event">
+            </td>
+            <td>
+              <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/CaptainToken.png" class="scen_token">
+            </td>
+          </tr>
+
+          <tr>
+            <td><img src="/assets/tokens/num7Token.png" class="scen_token" /></td>
+            <td>
+              <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Pirates.jpg" class="scen_event">
+              <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/PirateArchers.jpg" class="scen_event">
+            </td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td><img src="/assets/tokens/num8Token.png" class="scen_token" /></td>
+            <td>
+              <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Pirates.jpg" class="scen_event">
+              <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/PirateArchers.jpg" class="scen_event">
+              <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/EliteBallista.jpg" class="scen_event">
+            </td>
+            <td>
+              <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/EliteBallistaToken.png" class="scen_token">
+            </td>
+          </tr>
+        </table>
+
+
+        <p><span class="setup_item">Options</span></p>
+
+        <p><span class="special_title">Non-Campaign Mode</span></p>
+        <p><span class="special_solo_title">Cache:</span> Akbitanan Sword, Bossonian Bow, Buckler, Cutlass, Dagger, Heavy Spear, Leather Armor, Shield, Sorcerer’s Scepter (see page 22), Spiked Shield, Sword, Throwing Knives, Tribal Mace</p>
+        <p><span class="special_solo_title">Spells:</span> Bori’s Rage, Pestilential Swarm, Set’s Halo, Telekinesis, Ymir’s Retribution, Yog’s Hunger</p>
+
+        <p><span class="special_title">Four Player Mode</span> 
+        <ul>
+          <li>Gorm, Captain, and Elite Ballista have 10 Life Points.</li>
+          <li>When a Hero enters a hut, do not roll a die. The enemies automatically interrupt and attack.</li>
+         <li>Reminder: The Overlord activates four times per turn after the event..</li>
+        </ul></p>
+
+        <p><span class="special_title">Substitutions</span> 
+        <ul>
+          <li>Afari or Vanir Valkyrie may substitute for Gorm.</li>
+          <li>Forest Demon may substitute for the Giant Snake.</li>
+          <li><span class="special_solo_title">Hard Mode:</span> Pict Archers may substitute for the Hyenas.</li>
+          <li><span class="special_solo_title">Hard Mode:</span> Earth Demon may substitute for the Giant Snake.</li>
+        </ul></p>
+    </div>',
+
+      overlord_goal: '',
+
+      overlord_setup: '',
+
+      rtoken1: '',
+      rtoken2: 'num1Token',
+      rtoken3: 'num2Token',
+      rtoken4: 'num3Token',
+      rtoken5: 'num4Token',
+      rtoken6: 'num5Token',
+      rtoken7: 'num6Token',
+      rtoken8: '',
+
+      tile1: 999,
+      tile2: 159,
+      tile3: 24,
+      tile4: 23,
+      tile5: 29,
+      tile6: 151,
+      tile7: 10,
+      tile8: 999,
+
+      life1: 0,
+      life2: 15,
+      life3: 0,
+      life4: 0,
+      life5: 0,
+      life6: 6,
+      life7: 6,
+      life8: 0,
+
+      special_rules: '',
+
+      # campaign number   
+      event: '4',
+
+      # Result
+      hero_victory: '
+      <div class="col-md-6">
+        <p><span class="special_solo_title">Hero Victory:</span> If the Heroes win, they are awarded 1 Victory Point per surviving Hero 
+        and get all the items from the Asset Deck they found during the scenario. They may also draw cards from the Asset Deck equal 
+        to the number of chests remaining on the board.</p>   
+      </div>
+
+      <div class="col-md-6">
+        <p><span class="special_solo_title">Hero Defeat:</span> If this scenario results in a Defeat, lose one Victory Point. Lose any 
+        equipment that they have found.</p></div>',
+
+      overlord_victory: '',
+      correction: '',
+
+      origin: "Tome of Skelos",
+      product_ids: [1, 23, 25],
+      map_ids: [1],
+      hero_ids: [],
+      tile_ids: [1, 10, 23, 24, 29, 151, 159],
+      spell_ids: [2, 10],
+      item_ids: [6, 21, 23, 28, 31, 132] },
+
+
+
+  # Accursed Village Part 2
+  # Horror Above, Horror Below
+    { name: "Horror Above, Horror Below",
+      mode: 'Solo/Cooperative',
+      pdf_link:'Betrayal of the Infernal Shaman',
+      credit: 'Dan Mauric, Ken Meyri, Kevin Deming, Matthew John',
+      player_count: "3-4",
+      complexity: '',
+
+      description: '
+      <div class="col-md-6">
+        <p>The Pictish shaman, his life fading, makes arcane gestures and traces sigils of gramarye, his final breath coming amongst 
+        whispered words not meant for the human tongue. In the darkness of the bowels of the earth below the village, something stirs 
+        in response...</p>
+        <p>With the village secure, you turn your attention to the unknown threat that led you here. You recall overhearing a former 
+        shipmate lamenting the loss of a map of the coast. The captured priest carrying it was consumed by a monstrous serpent in the 
+        forest. You formulate a plan to lure the beast to the village to retrieve the map.</p>
+        <p>Taking stakes from the crude palisade, you impale bodies on them, hoping the sight and smell will entice the serpent to enter 
+        the village. Meanwhile, your sorcerous companion </p>
+      </div>
+      <div class="col-md-6">
+        <p>searches the shaman’s hut and discovers a scroll reveal- ing ancient lore about 
+        summoning the serpents of these primeval forests - it reinforces the idea of using the dead to lure the ophidian monstrosity.</p>
+        <p>As you wait for movement in the verdant foliage outside the village, you note with alarm faint sounds from below the ground, 
+        and increasing tremors beneath your feet.</p>
+        <p>Suddenly, howls and barking rend the air. From the gates pour a horde of beasts, intent on scavenging in a blood frenzy. 
+        The snake is not among them...</p>
+        <p>“Burn the bodies!” cries out the Sorceror, recalling more of the scroll. “The flames will dissuade the carrion-eaters and it 
+        is part of the summoning ritual!”</p>
+      </div>',
+
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Horror+Above+Horror+Below.jpg",
+      
+      # scenario pre-title 
+      hero_goal: "Accursed Village Part 2:",
+
+      # Setup
+      hero_setup: '
+      <div class="col-md-6">
+        <p><span class="setup_item">Objective</span></p>
+        <p>The Heroes must slay the Son of Set, recover the Map, and exit the board through the area marked 2 before the Horror 
+        Below burrows to the surface and collapses the village into the bowels of the earth.</p>
+
+        <p><span class="setup_item">Setup</span></p>
+        <p><strong>The game starts with the Heroes turn.</strong> The Heroes set up in the area marked 
+        <span style="white-space: nowrap;"><img src="/assets/tokens/area1Token.png" class="scen_token" />.</span>
+
+        Place 8 red gems <img src="/assets/tokens/redGem.png" class="scen_token" /> in the Recovery Value 
+        Tile space in the Book of Skelos; this will serve as the Ascension Pool. The Tools in the hut represent a fire brand. Shuffle 
+        the extra 1 and 2 activation tokens and place them face down on the table. They will be used to place the Son of Set.</p>
+       <table class="solo_left_table">
+          <tr>
+            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+            <td>After setup, each Hero moves 2 gems from their Reserve zone to their Fatigue zone.</td>
+          </tr>
+        </table>
+
+
+        <p><span class="setup_item">Asset Deck</span></p>
+        <p>Pay one gem for a simple Manipulation to open chests. The Asset Deck contains: Chain Mail, Life Potion, Life Potion.</p>
+        <p>Pay one gem to perform a simple Manipulation to cut open the Son of Set and remove the Spellbook (containing Mitra’s 
+        Halo and Map) after it is slain.</p>
+
+        <p><span class="setup_item">Event</span></p>
+
+        <p><span class="special_solo_title">Event 1: Horror Below</span><br />
+        The Horror Below strives upward with increased vigor; thus trembles the surface above.
+        <ul>
+          <li>Remove 1 <img src="/assets/tokens/redGem.png" class="scen_token" /> from the Ascension Pool.</li>
+          <li>Guard actions suffer -1 success for the rest of the turn</li>
+        </ul></p>
+
+        <p><span class="special_solo_title">Event 2: Collapsing Earth</span><br />
+        Each time Event 2 is activated, perform the first action listed below not already performed.
+        <ul>
+          <li>Add a <img src="/assets/tokens/rocksToken.png" class="scen_token" /> token to the area marked 
+          <img src="/assets/tokens/area2Token.png" class="scen_token" />.</li>
+          <li>Add a <img src="/assets/tokens/rocksToken.png" class="scen_token" /> token to the area marked 
+          <img src="/assets/tokens/area3Token.png" class="scen_token" />.</li>
+          <li>Add a <img src="/assets/tokens/rocksToken.png" class="scen_token" /> token to the area marked 
+          <img src="/assets/tokens/area4Token.png" class="scen_token" /> and then remove Event tile 2 from the river.</li>
+        </ul></p>
+
+        <p><span class="setup_item">Special Rules</span></p>
+        <p><span class="special_solo_title">Map Notes:</span> Normal map rules apply, but do not place any Boulder 
+          <img src="/assets/tokens/rocksToken.png" class="scen_token" /> tokens on the map at the start of the game.</p>
+
+        <p><span class="special_solo_title">Collapsed Earth:</span> If a Hero occupies an area when a 
+        <img src="/assets/tokens/rocksToken.png" class="scen_token" /> token is added, or enters an area with a 
+        <img src="/assets/tokens/rocksToken.png" class="scen_token" /> token, roll 
+        <img src="/assets/dice/Orange.png" class="scen_sq_token" /><img src="/assets/dice/Orange.png" class="scen_sq_token" /> 
+        for falling damage. If the Hero has Leap, roll <img src="/assets/dice/Orange.png" class="scen_sq_token" /> 
+          instead. Leaving an area with a <img src="/assets/tokens/rocksToken.png" class="scen_token" /> 
+          token requires 3 extra Movement Points, 2 for Heroes with Climb.</p>
+
+        <p>The Son of Set may enter the area as normal but must pay one extra movement point to exit the area.
+        <p>Ghouls and Hyenas must pay one extra movement point to enter and exit the area.</p>
+
+      </div>
+
+      <div class="col-md-6">
+      <p></p><p></p>
+
+        <p><span class="special_solo_title">Ascension of the Horror Below:</span> The entity awakened by the dying sorcery of the Pictish 
+        shaman strives to reach the surface. At the beginning of every Overlord turn, remove 1 <img src="/assets/tokens/redGem.png" class="scen_token" /> 
+        from the Ascension Pool. When the Ascension Pool contains only 1 gem left, the entire board is affected by Horror.</p>
+
+        <p>When the Ascension Pool contains zero gems, the Horror Below breaches the surface at the end of the Heroes’ turn and its 
+        gargantuan mass destroys the village. The Heroes have failed the scenario.</p>
+
+        <p><span class="special_solo_title">How Many Must I Slay?</span> At the beginning of each Overlord turn, place all slain Ghoul or 
+        Hyena models in the reinforcement area.</p>
+
+        <p><span class="special_solo_title">The Feast is Over:</span> A Hero may perform a simple Manipulation to take the fire brand 
+        (Tools card). A Hero with the Tools card may perform a simple Manipulation in an area with a Fire token 
+        <img src="/assets/tokens/flameToken.png" class="scen_token" /> to burn the corpses and flip the token to the 
+        <img src="/assets/tokens/flameToken.png" class="scen_token" /> side. 
+        A Hero may also throw the brand into the corpses to burn them using normal Throwing an Object rules.</p>
+
+        <p>When all four areas are aflame, the “How Many Must I Slay” rule no longer applies.</p>
+
+        <p><span class="special_solo_title">Son of Set:</span> Ignore any activations (replace token and redraw) of the Son of Set until 
+        the conditions of The Feast Is Over have been met. The first time the Son of Set activates, draw one of the extra activation 
+        tokens set aside during setup, place the Son of Set model in the corresponding area, and then acti- vate the Son of Set.</p>
+
+        <p><span class="special_solo_title">Awash in the Filth of Slaying:</span> If the Heroes acquire the map from the Son of Set, 
+        remove 1 <img src="/assets/tokens/redGem.png" class="scen_token" /> from the Ascension Pool - the ground is so saturated 
+        with blood, gore, and ichor that the Horror Below is lured upward to feast.</p>
+
+        <p><span class="special_solo_title">Blood, Fire, Stench:</span> A unit must spend 1 extra Movement point to leave an area 
+        with a <img src="/assets/tokens/flameToken.png" class="scen_token" />.</p>
+
+
+        <p><span class="setup_item">Options</span></p>
+        <p><span class="special_title">Non-Campaign Mode</span></p>
+        <p><span class="special_solo_title">Cache:</span> Akbitanan Sword, Atlantean Axe, Bossonian Bow, Buckler, Cutlass, Dagger, Heavy Spear, Leather Armor, Shield, Sorcerer’s Scepter (see page 22), Spiked Shield, Sword, Throwing Knives, Tribal Mace</p>
+        <p><span class="special_solo_title">Spells:</span> Bori’s Rage, Born by the Wind, Mitra’s Healing, Pestilential Swarm, Set’s Halo, Telekinesis, Ymir’s Retribution, Yog’s Hunger</p>
+
+        <p><span class="special_title">Four Player Mode</span> 
+        <ul>
+          <li>After setup, each Hero moves 3 gems from their Reserve zone to their Fatigue zone.</li>
+          <li>Son of Set has 12 Life Points instead of 8.</li>
+          <li>Reminder: The Overlord activates four times per turn after the event.</li>
+        </ul></p>
+
+        <p><span class="special_title">Substitutions</span> 
+        <ul>
+          <li>The Giant Snake may substitute for the Son of Set.</li>
+        </ul></p>
+    </div>',
+
+      overlord_goal: '',
+
+      overlord_setup: '',
+
+      rtoken1: '',
+      rtoken2: 'num1Token',
+      rtoken3: 'num2Token',
+      rtoken4: 'num3Token',
+      rtoken5: 'num4Token',
+      rtoken6: 'num5Token',
+      rtoken7: 'num6Token',
+      rtoken8: '',
+
+      tile1: 999,
+      tile2: 173,
+      tile3: 1,
+      tile4: 23,
+      tile5: 163,
+      tile6: 2,
+      tile7: 172,
+      tile8: 999,
+
+      life1: 0,
+      life2: 0,
+      life3: 0,
+      life4: 0,
+      life5: 8,
+      life6: 0,
+      life7: 0,
+      life8: 0,
+
+      special_rules: '',
+
+      # campaign number   
+      event: '5',
+
+      # Result
+      hero_victory: '
+      <div class="col-md-12">
+        <p>Discard the Tools equipment card. It does not carry over to the next scenario.</p> 
+      </div>
+
+      <div class="col-md-6">
+        <p><span class="special_solo_title">Hero Victory:</span> If the Heroes win, they are awarded 1 Victory Point per surviving 
+        Hero and get all the items from the asset deck they found during the scenario. Boon: In addition, each Hero is granted 
+        a permanent Boon. Choose one from the following list:.
+        <ul>
+          <li>Manipulation dice gain the re-roll symbol.</li>
+          <li>Total Stamina pool is increased by 1.</li>
+          <li>Free Movement value is increased by 1.</li>
+          <li>A Hero with the Spell Caster skill may, once per turn, cast a spell a second time, ignoring the spell’s threshold, so long as they have the Stamina gems to do so.</li>
+          <li>Melee attack threshold is increased by 1 (max 6).</li>
+          <li>Ranged attack threshold is increased by 1 (max 6).</li>
+        </ul></p>   
+      </div>
+
+      <div class="col-md-6">
+        <p><span class="special_solo_title">Hero Defeat:</span> If this scenario results in a Defeat, lose one Victory Point. Lose any 
+        equipment that they have found.</p></div>',
+
+      overlord_victory: '',
+      correction: 'The green-ringed Ghouls on the setup diagram should be the blue-ringed Ghouls.',
+
+      origin: "Tome of Skelos",
+      product_ids: [1, 23, 25],
+      map_ids: [1],
+      hero_ids: [],
+      tile_ids: [1, 2, 23, 163, 172, 173],
+      spell_ids: [],
+      item_ids: [] },
+
+
+
+  # Hidden Chamber
+  # Citadel of Horrors
+    { name: "Citadel of Horrors",
+      mode: 'Solo/Cooperative',
+      pdf_link:'Betrayal of the Infernal Shaman',
+      credit: 'Dan Mauric, Ken Meyri, Kevin Deming, Matthew John',
+      player_count: "3-4",
+      complexity: '',
+
+      description: '
+      <div class="col-md-6">
+        <p>As the earth heaves and the Pictish village crumbles into the sea, ancient stones poke through the dirt at the bottom of 
+        the newly formed crevasse. Tales spoke of an ancient city in these parts, long since buried by the same doom that sank Atlantis. 
+        What ancient treasures could be buried in this abandoned citadel, lost for millennia in the heart of the jungle?</p>
+        <p>Hideous shrieks and noises that freeze hot blood echo from the forest. No doubt the creatures of the wild, </p>
+      </div>
+      <div class="col-md-6">
+        <p>disturbed by the earthquake, coming to investigate this newest disturbance to their abode. Or perhaps those are the sounds 
+        of long buried demons, released once more to torment the earth?</p>
+        <p>Gathering your courage, you make the long climb down into the crevasse. It will take more than the echoes of a few 
+        frightened beasts to keep you from those ancient wonders. And if they are demons? There is nothing steel can’t slay.</p>
+      </div>',
+
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Citadel+of+Horrors.jpg",
+      
+      # scenario pre-title 
+      hero_goal: "Hidden Chamber",
+
+      # Setup
+      hero_setup: '
+      <div class="col-md-6">
+        <p><span class="setup_item">Objective</span></p>
+        <p>Recover the treasure and escape before the citadel is overrun at the end of turn 15. At least one Hero must leave the 
+        Citadel through the exit in the starting area in order to keep any loot recovered during the scenario.</p>
+
+        <p><span class="setup_item">Setup</span></p>
+
+        <p><strong>The game starts with the Heroes’ turn.</strong> The Heroes start in the area marked with the red X.</p>
+        <p>Shuffle these 5 Trap Door tokens face down and randomly place them on the map as indicated.</p>
+
+        <p>Shuffle 12 Treasure tokens face down and randomly place them on the map as indicated.</p>
+         <img src="/assets/tokens/treasureToken.png" class="scen_token" />  x12, 
+         <img src="/assets/tokens/num1Token.png" class="scen_token" />  x8, 
+         <img src="/assets/tokens/num2Token.png" class="scen_token" />  x4
+
+        <p>Shuffle the extra numbered tokens 1 through 4 and place them on the map as indicated.</p>
+          <img src="/assets/tokens/numBackToken.png" class="scen_token" />  x4,
+          <img src="/assets/tokens/num1Token.png" class="scen_token" />  ,
+          <img src="/assets/tokens/num2Token.png" class="scen_token" />  ,
+          <img src="/assets/tokens/num3Token.png" class="scen_token" />  ,
+          <img src="/assets/tokens/num4Token.png" class="scen_token" />  
+
+        <p>Shuffle 8 Fire Trap tokens and set them aside, the 1 side up.</p>
+          <img src="/assets/tokens/flameToken.png" class="scen_token" />  x8, 
+          <img src="/assets/tokens/flameToken.png" class="scen_token" />  x4, 
+          <img src="/assets/tokens/flameToken.png" class="scen_token" />  x4, 
+
+        <p>Set aside 3 Pit Trap tokens, 3 Water tokens, and the Key.</p>
+          <img src="/assets/tokens/waterToken.png" class="scen_token" />  x3,
+          <img src="/assets/tokens/waterToken.png" class="scen_token" />  x3,
+          <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/Key.jpg" class="scen_event">
+
+       <table class="solo_left_table">
+          <tr>
+            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+            <td>After setup, each Hero moves 4 gems from their Reserve zone to their Fatigue zone.</td>
+          </tr>
+        </table>
+
+        <p><span class="setup_item">Asset Deck</span></p>
+        <p>Chests require the Key and a simple Manipulation to open. The Asset Deck contains a Lockpick, Mantle of Gullah, and 
+        Spellbook (Summon Demon - Outer Dark Demon). Chests have a weight of 2 but cannot be carried out of the Citadel.</p>
+
+        <p><span class="setup_item">Special Rules</span></p>
+
+        <p>This scenario works differently than most scenarios. Activation tokens are not used to activate units, but rather to randomly choose which units spawn. The number of acti- vations does not depend on how many Heroes are on the board. The Overlord turn always goes as follows:
+        
+        <p><span class="special_solo_title">Overlord Turn Sequence</span></p>
+        <ol>
+          <li>Advance the Turn marker</li>
+          <li>Activate all revealed enemy units. Players choose the order in which to activate these units.</li>
+          <li>Spawn a monster in one of the areas with a reinforce- ment token. The location alternates each turn, so place the 
+          monster at location 1 at the ends of turn 1, 3, 5, etc. and at location 2 at the ends of turn 2, 4, 6, etc.</li>
+        </ol></p>
+
+        <p><span class="special_solo_title">Trap Door:</span> Heroes may spend one Movement Point to explore a Trap Door token and flip it. 
+        If the back of the token has an X, it is a dead end. If the Trap Door token has a number, place the Hero in the Hidden Chamber 
+        with the corresponding Trap Door number and spawn a random monster in the chamber. The monster will interrupt the Heroes’ turn 
+        and activate. Once the monster has finished with its activation, the Heroes will continue their turn. Units may spend 1 Movement 
+        Point to move between a room and its corresponding Hidden Chamber, but they do not have line of sight to each other.</p>
+
+        <p><span class="special_solo_title">Monster Spawns:</span> When you need to spawn a random monster, follow the rules for drawing 
+        an Activation token from the Book of Skelos, but instead of activating the corre- sponding unit, place its miniature in the 
+        intended location. If the monster is already on the board, draw another token. If all monsters are on the board, do not 
+          spawn another monster. Once all Activation tokens are in the Fatigue zone in the Book of Skelos, flip them face down, 
+          shuffle them, and place them back in the Reserve.</p>
+
+      </div>
+
+
+      <div class="col-md-6">
+        <p></p><p></p>
+
+        <p><span class="special_solo_title">Doors:</span> Doors require a Complex manipulation of 3 or Wall Wrecker to open.</p>
+
+        <p><span class="special_solo_title">Barricade:</span> The barricade acts as a wall that cannot be crossed or destroyed.</p>
+
+        <p><span class="special_solo_title">Traps:</span> The first time a Hero enters an area with a Treasure token, flip the token. 
+        If it’s a 1, discard the token and nothing happens. If it is a 2, the Hero has triggered a trap. Roll 1 
+        <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> (no rerolls allowed) to determine the type of trap. If the result 
+        is blank, place a Pit Trap (max 3) in the area. If it’s not blank, place a random Fire Trap in the area with the 1 side up. 
+        The Hero that triggered the trap immediately suffers the effect but does not lose any remaining free Movement Points.</p>
+
+        <p><span class="special_solo_title">Pit Trap:</span> When a unit enters an area with a Pit Trap, roll 1 
+        <img src="/assets/dice/Orange.png" class="scen_sq_token" />(no rerolls allowed) and suffer unblockable damage equal to the 
+        result. Leaving this area costs 1 additional movement point for Heroes without Climb. In addition, Heroes with Climb may 
+        choose to spend 1 extra movement point when entering the area to take no damage. Heroes with flying, and all Overlord units, 
+        are unaffected by Pit Traps.</p>
+
+        <p><span class="special_solo_title">Fire Trap:</span> Heroes take unblockable damage equal to the value on a Fire Trap token 
+        whenever they:
+        <ul>
+          <li>enter an area with a Fire Trap token, or</li>
+          <li>start their turn in an area with a Fire Trap token.</li>
+        </ul></p>
+
+        <p>Overlord units are unaffected by Fire Traps.</p>
+
+        <p><span class="special_solo_title">Wells:</span> Heroes may use a simple Manipulation to investigate a face down number token to 
+        search for a secret well. Flip the token. If it is a 1, place the Well token in the room. Spawn the Deep One Champion in the 
+        room and activate it.</p>
+
+        <p><span class="special_solo_title">Sunken Key:</span> A Hero in the same area as the Well may retrieve the Key by performing a 
+        complex Manipulation with a difficulty of 4.</p>
+
+        <p><span class="special_solo_title">Water Buckets:</span> A Hero in the same area as the Well may fill a water bucket by performing 
+        a complex Manipulation with a difficulty of 2. Use a Water token to represent the bucket with a weight of 2.</p>
+
+        <p><span class="special_solo_title">Dousing the Fire:</span> A Hero with a Water token may perform a simple Manipulation and 
+        discard the Water token to remove a Fire Trap token from their area, or an adjacent area if they have line of sight.</p>
+
+        <p><span class="special_solo_title">Nameless Horror:</span> At the end of the Overlord’s turn 10, spawn the Nameless Horror at 
+        spawn location 2 instead of a random spawn. In addition, flip all Fire Trap tokens on the board to the side with the higher 
+        number. From now on, whenever spawning a Fire Trap token, flip it to the side with the higher number after randomly drawing it.</p>
+
+
+        <p><span class="setup_item">Options</span></p>
+
+        <p><span class="special_title">Non-Campaign Mode</span></p>
+        <p>Heroes may choose one Boon from the options listed in the Hero Victory section on page 32.</p>
+        <p><span class="special_solo_title">Cache:</span> Akbitanan Sword, Atlantean Axe, Bossonian Bow, Buckler, Chain Mail, 
+        Cutlass, Dagger, Heavy Spear, Leather Armor, Parrying Dagger, Shield, Sorcerer’s Scepter (see page 22), Spiked Shield, 
+        Sword, Throwing Knives, Tribal Mace</p>
+        <p><span class="special_solo_title">Spells:</span> Bori’s Rage, Born by the Wind, Mitra’s Healing, Pestilential Swarm, Set’s Halo, 
+        Telekinesis, Ymir’s Retribution, Yog’s Hunger</p>
+
+        <p><span class="special_title">Four Player Mode</span> 
+        <ul>
+          <li>After setup, each Hero removes 5 gems from their Reserve zone to their Fatigue zone.</li>
+          <li>Increase the Life Points of each monster by 1.</li>
+        </ul></p>
+
+        <p><span class="special_title">Substitutions</span> 
+        <ul>
+          <li>Giant Snake may substitute for the Son of Set.</li>
+          <li>Giant Spider may substitute for the Zamorian Spider.</li>
+          <li>Demon of the Earth may substitute for Deep One Champion.</li>
+          <li>Manifestation of Yog may substitute for Nameless Horror.</li>
+          <li>Servant of Ahriman may substitute for Scourge of Set.</li>
+          <a class="tile" href="/tiles/173"><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/GhoulsRed.jpg" class="scen_event float_tile"></a>
+          <li>Hard Mode: When a door is opened, spawn 2 Ghouls in the room. The Ghouls will interrupt the Heroes’ turn 
+          and activate. Once the Ghouls have finished their activation, the Heroes will continue their turn.</li>
+        </ul></p>
+    </div>',
+
+      overlord_goal: '',
+
+      overlord_setup: '',
+
+      rtoken1: 'num1Token',
+      rtoken2: 'num2Token',
+      rtoken3: 'num3Token',
+      rtoken4: 'num4Token',
+      rtoken5: 'num5Token',
+      rtoken6: '',
+      rtoken7: '',
+      rtoken8: '',
+
+      tile1: 163,
+      tile2: 165,
+      tile3: 12,
+      tile4: 164,
+      tile5: 161,
+      tile6: 999,
+      tile7: 169,
+      tile8: 160,
+
+      life1: 3,
+      life2: 3,
+      life3: 2,
+      life4: 2,
+      life5: 2,
+      life6: 0,
+      life7: 4,
+      life8: 5,
+
+      special_rules: '',
+
+      # campaign number   
+      event: '5.5',
+
+      # Result
+      hero_victory: '
+      <div class="col-md-12">
+        <p>Discard the Key equipment card. It does not carry over to the next scenario.</p>  
+      </div>
+
+      <div class="col-md-6">
+        <p><span class="special_solo_title">Hero Victory:</span> If the Heroes win, they are awarded 1 Victory Point as a group and 
+        the items from the Asset Deck they recovered.</p>   
+      </div>
+
+      <div class="col-md-6">
+        <p><span class="special_solo_title">Hero Defeat:</span> If this scenario results in a Defeat, lose one Victory Point. Lose any 
+        equipment that they have found.</p></div>',
+
+      overlord_victory: '',
+      correction: '',
+
+      origin: "Tome of Skelos",
+      product_ids: [1, 23, 25],
+      map_ids: [15],
+      hero_ids: [],
+      tile_ids: [12, 160, 161, 164, 165, 169],
+      spell_ids: [],
+      item_ids: [] },
+
+
+
+
+  # Infernal Abode
+    { name: "Infernal Abode",
+      mode: 'Solo/Cooperative',
+      pdf_link:'Betrayal of the Infernal Shaman',
+      credit: 'Dan Mauric, Ken Meyri, Kevin Deming, Matthew John',
+      player_count: "3-4",
+      complexity: '',
+
+      description: '
+      <div class="col-md-6">
+        <p>Moonlight glitters upon the placid water of a small bay. Jagged cliffs encircle it, shaped like a horseshoe, offering 
+        protection from the turbulent sea beyond. Its mouth is sealed off with a thick length of chain, preventing passage in or out, 
+        but a look around the decaying village suggests none have visited this port for many years. Despite your scouting efforts, it 
+        remains unclear who the original denizens were. Fishermen? Was this a military fortification? A pirate refuge? In such 
+        disrepair are the structures that the port’s original purpose cannot be determined.</p>
+        <p>But that is of little concern. What matters is the ship still afloat on the sparkling water, its rigging and sails intact. 
+        If you can but loose that chain, you should be able to sail south </p>
+      </div>
+      <div class="col-md-6">
+        <p>along the Western shore and back to civilization without 
+        further aggression from the devils of the forest. The links of the chain are mighty, made to withstand any handheld weapons, 
+        but with the right tools, you should be able to release the lock and sail to freedom.</p>
+        <p>One of the decayed buildings catches your eye. The soft glow emanating from its shattered windows would be welcoming if the 
+        rest of the scene wasn’t so damned foreboding. If there’s any chance of finding the tools to drop that chain, you expect to 
+        find them there. Besides, the familiar howls from beyond the tree line—the awful peal of man-eating ghouls—makes the gloomy 
+        structure a bit more appealing.</p>
+      </div>',
+
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Infernal+Abode.jpg",
+      
+      # scenario pre-title 
+      hero_goal: '',
+
+      # Setup
+      hero_setup: '
+      <div class="col-md-6">
+        <p><span class="setup_item">Objective</span></p>
+        <p>The Heroes win the game once a Hero with the Tools equipment card moves into the zone marked 
+        <img src="/assets/tokens/flameToken.png" class="scen_token" />.</p>
+
+        <p><span class="setup_item">Setup</span></p>
+        <p><strong>The game starts with the Heroes’ turn.</strong> The Heroes deploy in the reinforcement zone <img src="/assets/stats/reinforcement.png" class="scen_token" />.</p>
+        <p>Place the Table, Chair, and Barrel tokens as indicated. In addition, place the Wall Wrecker tokens to act as Breach 
+        tokens (see Breach section in Special Rules).</p>
+       <table class="solo_left_table">
+          <tr>
+            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+            <td>After setup, each Hero moves 4 gems from their Reserve zone to their Fatigue zone.</td>
+          </tr>
+        </table>
+
+        <p><span class="setup_item">Asset Deck</span></p>
+        <p>There is no Asset Deck in this scenario. However, set the Yuetshi Knife, Spellbook (Whirlwind), Key, and Tools equipment 
+        cards near the Player area, since they will be used in the scenario. Also, set aside Scale Mail, Anchor, and Gift of Life as 
+        the rewards for success.</p>
+
+
+        <p><span class="setup_item">Special Rules</span></p>
+
+        <p>This scenario works differently than most scenarios. Activation tokens are not used to activate units, but rather to 
+        randomly choose which units spawn. The number of acti- vations does not depend on how many Heroes are on the board. 
+        The Overlord turn always goes as follows:</p>
+        <p>Overlord Turn Sequence</p>
+
+        <ol>
+          <li>Roll for Event effects and complete steps and associated activations (see below)</li>
+          <li>Activate all revealed enemy units. Players choose the order in which to activate these units.</li>
+          <li>Activate all revealed monsters (those that have been revealed behind doors; see Doors below), but not the Ghouls—they 
+          only attack during the Event. Players may choose the order of these attacks. Determine Target Hero or Alternate Hero for 
+          each activating monster as normal.</li>
+        </ol></p>
+
+      </div>
+
+      <div class="col-md-6">
+      <p></p><p></p>
+
+        <p><span class="special_solo_title">Map notes:</span> Areas with a Boulder token are inaccessible and can’t be entered by any means 
+        (including Intangible). Wall Wrecker cannot be used in this scenario.</p>
+
+        <p><span class="special_solo_title">Breach, Table, Chair, and Barrel Tokens:</span> The areas with Breach tokens serve as entry zones 
+        for Ghouls. Heroes carry- ing a Table, Chair, or Barrel token may perform a simple Manipulation to plug the breach by placing 
+          the token on top of a Breach token. Only one token may be on top of a Breach token at a time. When Breach tokens are covered 
+          in this way, Ghouls can no longer enter this area via the event.</p>
+        <p>Heroes may perform a simple Manipulation to pick up a Table, Chair, or Barrel token, each of which have an encumbrance of 2. 
+        They may be dropped any time for free. If you attack or are attacked while holding one of these tokens, you may add one to your 
+        Defense for the round, but must drop it in your area after the attack is resolved. You must also drop one of these tokens to make 
+        an attack.</p>
+        <p>When a Table, Chair, or Barrel token is removed from a Breach token, remove it from the game.</p>
+
+        <p><span class="special_solo_title">Doors and Monsters:</span> Doors require a simple Manipulation to open. Each time a door is opened, 
+        draw an Activation token and follow the instructions according to the corresponding number.</p>
+
+        <p><span class="special_solo_title">Ghouls:</span> Ghouls follow the standard activation rules but only activate as dictated by the 
+        Event. Their tile should not be placed in the River. Ghouls have one life point each.</p>
+
+        <p><span class="special_solo_title">Khosatral Khel:</span> Khosatral Khel does not activate until his door is opened. A Hero who 
+        possesses the Key can open this door by performing a simple Manipulation. When the door is opened, roll 
+        <img src="/assets/dice/Red.png" class="scen_sq_token" />. If the result is 2 or greater, activate Khosatral Khel and target 
+        the Hero who opened the door. Khosatral Khel is immune to damage caused by spells. A Hero who attacks Khosatral Khel with the 
+        Yuetshi Knife reduces his armor to 6 for that attack. When he’s killed, place the Tools Equipment card in his zone.</p>
+
+        <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/KhosatralKhel.jpg" class="scen_event">
+        <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/KhosatralKhelToken.png" class="scen_event">
+        <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/Key.jpg" class="scen_event">
+
+      </div>
+
+      <div class="col-md-12">
+
+        <table class="solo_table_abode">
+          <tr>
+            <td><img src="/assets/tokens/num1Token.png" class="scen_token" /></td>
+            <td><em>The door sticks as you try to open it, but with a bit of weight behind your push it swings wide and you stumble 
+              into the room. On the far wall, a great shattered window washes the chamber in eldritch moonlight. Curious gossamer wisps 
+              sway from the ceiling. Distracted, you do not initially spot the massive hairy monster clinging to the ceiling, watching 
+                you with eight hateful eyes.</em><br />
+              Place the Hero who opened the door inside the room, along with a chest, the Zamorian Spider, and a web token. Add the 
+              Zamorian Spider’s tile to the River and roll <img src="/assets/dice/Red.png" class="scen_sq_token" />. If the result is 
+              2 or greater, activate the Zamorian Spider and target the Hero in the room. Otherwise, the Hero may continue his activation.<br />
+              To leave an area with a Web token, any unit other than the Zamorian Spider must spend two extra movement points. The chest 
+              requires a complex manipulation of 3 to open. Inside the chest is the Yuetshi Knife.
+            </td>
+            <td>
+              <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/YuetshiKnife.jpg" class="scen_event">
+              <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ZamorianSpider.jpg" class="scen_event"><br />
+              <img src="/assets/tokens/treasureToken.png" class="scen_token" />        
+              <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ZamorianSpiderToken.png" class="scen_event"><br />
+              <img src="/assets/tokens/webToken.png" class="scen_token" />
+            </td>
+          </tr>
+        </table>
+
+        <table class="solo_table_abode">
+          <tr>
+            <td><img src="/assets/tokens/num2Token.png" class="scen_token" /></td>
+            <td><em>The roof groans as you open the door, and a great rumble shakes the building.</em><br />
+              All units in the area with the Hero who opened the door must successfully Defend against an attack of 3 hits. 
+              You may not use Parry to Defend, but you may use a Shield. If they succeed, place them in an adjacent area of their 
+              choice. If a unit sustained damage, they remain in their area.
+            </td>
+            <td></td>
+          </tr>
+        </table>
+
+        <table class="solo_abode2">
+          <tr>
+            <td>
+              <table class="solo_table_abode">
+                    <tr>
+                      <td><img src="/assets/tokens/num3Token.png" class="scen_token" /></td>
+                      <td><em>The door snaps backward and a massive sledge swings through the doorway into the hall.</em><br />
+                      Whichever Hero opened the door must take a Dodge action (no Parry) to Defend against an attack of 3 hits. Place a chest 
+                      in the room. The chest requires a complex manipulation of 3 to open. Inside the chest is the Whirlwind Spell.
+                      </td>
+                      <td>
+                        <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/spells/Whirlwind.jpg" class="scen_event"><br />
+                        <img src="/assets/tokens/treasureToken.png" class="scen_token" />        
+                      </td>
+                    </tr>
+              </table>
+            </td>
+            <td>
+              <table class="solo_table_abode">
+                <tr>
+                  <td><img src="/assets/tokens/num4Token.png" class="scen_token" /></td>
+                  <td><em>The door opens, but the Hero who opened it remains outside of the room.</em><br />
+                    Place the Deep One Champion in the room, place its Activation tile in the River, and roll 
+                    <img src="/assets/dice/Red.png" class="scen_sq_token" />. If the result is 2 or greater, activate The Deep One 
+                    Champion (normal activation rules apply). Otherwise the Hero may continue his activation. There is nothing else in 
+                    this room.
+                  </td>
+                  <td>
+                    <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/DeepOneChampion.jpg" class="scen_event"><br />
+                    <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/DeepOneChampionToken.png" class="scen_event">
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+
+        <table class="solo_table_abode">
+          <tr>
+            <td><img src="/assets/tokens/num5Token.png" class="scen_token" /></td>
+            <td><em>The door opens, shrieking on rusted hinges. Inside is...nothing. A breeze howls from unseen cracks, disturbing 
+              dust and debris.</em> There is nothing of significance in the room.
+            </td>
+            <td></td>
+          </tr>
+        </table>
+
+        <table class="solo_table_abode">
+          <tr>
+            <td><img src="/assets/tokens/num6Token.png" class="scen_token" /></td>
+            <td><em>The Hero who opens this room is seized by a steely grip and wrenched inside the room.</em><br />
+              Place the Haunter of the Pits, a chest, and the Hero who opened the door inside the room. Roll 
+              <img src="/assets/dice/Red.png" class="scen_sq_token" />. If the result is 2 or greater, activate the Haunter of the 
+              Pits and target the Hero it pulled into the room. Otherwise, the Hero can continue their activation. The chest 
+              requires a complex Manipulation with a difficulty of 3 to open. Inside the chest is the Key. This key is used to 
+              open the door of the room with Khosatral Khel.
+            </td>
+            <td>
+              <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/Key.jpg" class="scen_event">
+              <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/HaunterofthePits.jpg" class="scen_event"><br />
+              <img src="/assets/tokens/treasureToken.png" class="scen_token" />        
+              <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/HaunterofthePitsToken.png" class="scen_event">
+            </td>
+          </tr>
+        </table>
+
+      </div>
+
+      <div class="col-md-6">
+
+        <p><span class="setup_item">Event</span></p>
+
+        <p>The Event activates once at the beginning of every Overlord Turn. To determine what happens, roll <img src="/assets/dice/Red.png" class="scen_sq_token" />.</p>
+        <p><span class="special_solo_title">If the roll result is a blank,</span> remove a table, chair or barrel token from one Breach token in 
+        any zone (players’ choice). Next, activate all Ghouls.</p>
+        <p><span class="special_solo_title">If the roll result is one,</span> place 1 Ghoul in every zone that contains and uncovered Breach token. 
+        Only 8 Ghouls may be on the board at any one time. Next, activate all Ghouls.</p>
+        <p><span class="special_solo_title">If the roll result is a two,</span> place 2 Ghouls in all zones contain- ing uncovered Breach tokens. 
+        Distribute them evenly as possible. Players choose where to place any odd numbers.</p>
+        <p>Only 8 Ghouls may be on the board at any time. Do not activate the Ghouls this round.</p>
+
+        <a class="tile" href="/tiles/171"><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Ghouls.jpg" class="scen_event float_tile"></a>
+        <p><span class="special_solo_title">If the roll result is three,</span> remove all table, chair or barrel tokens covering Breach tokens. 
+        Next, place 2 Ghouls in each zone containing a Breach token. Distribute as evenly as possible. Players choose where to place any odd 
+        numbers. Only 8 Ghouls may be on the board at any time. Next, activate all Ghouls.</p>
+        <p>For this event, use the following Ghoul tile:</p>
+
+      </div>
+
+      <div class="col-md-6">
+
+        <p><span class="setup_item">Options</span></p>
+
+        <p><span class="special_title">Non-Campaign Mode</span></p>
+        <p>Heroes may choose one Boon from the options listed in the Hero Victory section on page 32.</p>
+        <p><span class="special_solo_title">Cache:</span> Akbitanan Sword, Atlantean Axe, Bossonian Bow, Buckler, Chain Mail, Cutlass, 
+        Dagger, Heavy Spear, Leather Armor, Parrying Dagger, Shield, Sorcerer’s Scepter (see page 22), Spiked Shield, Sword, 
+        Throwing Knives, Tribal Mace</p>
+        <p><span class="special_solo_title">Spells:</span> Bori’s Rage, Born by the Wind, Mitra’s Healing, Pestilential Swarm, Set’s Halo, 
+        Summon Demon (Outer Dark Demon), Telekinesis, Ymir’s Retribution, Yog’s Hunger</p>
+
+        <p><span class="special_title">Four Player Mode</span> 
+        <ul>
+          <li>After setup, each Hero removes 5 gems from their Reserve zone to their Fatigue zone.</li>
+          <li>All monsters revealed in rooms have 8 Life Points. There may be up to 10 Ghouls on the board at one time.</li>
+        </ul></p>
+
+        <p><span class="special_title">Substitutions</span> 
+        <a class="tile" href="/tiles/173"><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/GhoulsRed.jpg" class="scen_event float_tile"></a>
+        <ul>
+          <li><span class="special_solo_title">Hard Mode:</span> Replace the Ghouls from the Event with this Ghoul tile:</li>
+        </ul></p>
+      </div>',
+
+      overlord_goal: '',
+
+      overlord_setup: '',
+
+      rtoken1: '',
+      rtoken2: '',
+      rtoken3: '',
+      rtoken4: '',
+      rtoken5: '',
+      rtoken6: '',
+      rtoken7: '',
+      rtoken8: '',
+
+      tile1: 0,
+      tile2: 0,
+      tile3: 0,
+      tile4: 0,
+      tile5: 0,
+      tile6: 0,
+      tile7: 0,
+      tile8: 0,
+
+      life1: 0,
+      life2: 0,
+      life3: 0,
+      life4: 0,
+      life5: 0,
+      life6: 0,
+      life7: 0,
+      life8: 0,
+
+      special_rules: '',
+
+      # campaign number   
+      event: '6',
+
+      # Result
+      hero_victory: ' 
+      <div class="col-md-12">
+        <p>Discard the Tools equipment card. It does not carry over to the next scenario.</p>  
+      </div>
+
+      <div class="col-md-6">
+        <p><span class="special_solo_title">Hero Victory:</span> If the Heroes win, they are awarded 1 Victory Point per surviving Hero 
+        and they may add the Scale Mail, Anchor, and Gift of Life spell to their Cache.</p>   
+      </div>
+
+      <div class="col-md-6">
+        <p><span class="special_solo_title">Hero Defeat:</span> If this scenario results in a Defeat, lose one Victory Point. 
+        They may choose 1 of these items to add to their Cache.</p></div>',
+
+      overlord_victory: '',
+      correction: '',
+
+      origin: "Tome of Skelos",
+      product_ids: [1, 23, 25],
+      map_ids: [2],
+      hero_ids: [],
+      tile_ids: [],
+      spell_ids: [],
+      item_ids: [] },
+
+
+
+
+
+
+  # Shadow Kingdom
+  # Ophidian Menace
+    { name: "Ophidian Menace",
+      mode: 'Solo/Cooperative',
+      pdf_link:'Betrayal of the Infernal Shaman',
+      credit: 'Dan Mauric, Ken Meyri, Kevin Deming, Matthew John',
+      player_count: "3-4",
+      complexity: '',
+
+      description: '
+      <div class="col-md-6">
+        <p>As you sail onward, a sudden and mighty storm strikes, roiling the sea and carrying with it a thick and preternatural mist. 
+        Progress slows until the storm abates—to a degree at least. The mist, while lessened, still makes navi- gation nigh impossible.</p>
+        <p>Suddenly, the ship is rocked by a collision and you see an ancient, decrepit ship alongside yours. After recovering from the 
+        impact and surprise, you board it; what little can be made out through the swirling mist shows a ship fashioned in a style not 
+        seen for countless ages. Debris covers the deck, some of which appears to be skeletal remains.</p>
+        <p>While examining the ship, you lose sight of each other through the mist. You query one of your companions and are greeted with 
+        silence - which is then broken by a cry</p>
+      </div>
+      <div class="col-md-6">
+        <p>of alarm. The mist comes alive with a coruscant illumination of various hues, so you move toward the source. As the mist 
+        thins, you see a large ornate mirror at the stern of the ship. Bones from the deck begin to glow and rustle. Then, they 
+          swirl and form some sort of serpent men from legend!</p>
+        <p>Below the elevated deck whereon sits the mirror, a final swirling of bones resolves itself into a massive serpent, with eyes 
+        that burn with human sentience and unguessed malevolence. Behind this ophidian menace you see the mirror no longer emits the 
+        lights that drew you to it, but rather a fading scene wherein your companion is on a different ship, battling for his life - and 
+        you sense you must destroy the mirror before the scene is fully gone to return them to your side!</p>
+      </div>',
+
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Ophidian+Menace.jpg",
+      
+      # scenario pre-title 
+      hero_goal: "Shadow Kingdom",
+
+      # Setup
+      hero_setup: '
+      <div class="col-md-6">
+        <p><span class="setup_item">Objective</span></p>
+        <p>To win the game, the Heroes must destroy the Mirror Of Tuzun Thune by the end of turn 7, before the Rogue is trapped in 
+        the Thurian Age and Thulsa Doom is loosed upon the Hyborian Age.</p>
+
+        <p><span class="setup_item">Setup</span></p>
+        <p><strong>The game starts with the Heroes’ turn.</strong> Heroes set up in the zones marked 
+        <img src="/assets/tokens/area1Token.png" class="scen_token" />&nbsp;=&nbsp;Rogue, 
+        <img src="/assets/tokens/area2Token.png" class="scen_token" />&nbsp;=&nbsp;Warrior, and 
+        <img src="/assets/tokens/area3Token.png" class="scen_token" />&nbsp;=&nbsp;Sorcerer.</p>
+
+       <table class="solo_left_table">
+          <tr>
+            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+            <td>After setup, each Hero moves 2 gems from their Reserve zone to their Fatigue zone.</td>
+          </tr>
+        </table>
+
+
+        <p><span class="setup_item">Asset Deck</span></p>
+        <p>Chests require a complex Manipulation with difficulty of 1 to open. The asset deck contains a Life Potion, Life Potion, 
+        Map, Tools, Stygian Artifact.</p>
+
+
+        <p><span class="setup_item">Event</span></p>
+        <p>Reinforce one Serpent-man of each type (if available) and one Deep One in the area with the Reinforcement token on the ship 
+        in the <span class="special_title">Hyborian Age</span> and activate <span class="special_solo_title">newly placed units</span>.</p>
+        
+        <p>Then, reinforce one Serpent-man of each type (if available) and one Deep One in the area with the Reinforcement token on the 
+        ship in the <span class="special_title">Thurian Age</span>. Do NOT activate these units.</p>
+
+
+        <p><span class="setup_item">Special Rules</span></p>
+
+        <p><span class="special_solo_title">Map Notes:</span> Normal map rules apply, except the ships are in different ages and have no 
+        interaction during gameplay.
+
+        <p><span class="special_solo_title">Mirror of Tuzun Thune:</span> The mirror of Tuzun Thune is located on the ship in the 
+        Hyborian Age, but Thulsa Doom cast a spell of illusion masking its location. To reveal the mirror in the Hyborian Age, 
+        the Stygian Artifact must be destroyed in the Thurian Age.
+        
+        <p>Once revealed, the mirror <img src="/assets/tokens/energyToken.png" class="scen_token" /> has 12 Life Points, is immune to 
+        all spell effects, and has 3 Armor. Destroying the Mirror of Tuzun Thune within the allotted time returns all unit to their 
+        respective Ages.
+        
+        <p><span class="special_solo_title">Map:</span> When a Hero picks up the map, immediately roll 
+        <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> (no rerolls allowed). If the 
+        result is blank, place the <img src="/assets/tokens/energyToken.png" class="scen_token" /> token in the area marked 
+        <img src="/assets/tokens/area1Token.png" class="scen_token" /> A on the 
+        ship in the Thurian Age. If the result is not blank, place it in the area marked 
+        <img src="/assets/tokens/area1Token.png" class="scen_token" /> B on the ship in the Thurian Age. This 
+        represents the location where the Stygian Artifact must be destroyed.
+ 
+      </div>
+
+
+      <div class="col-md-6">
+      <p></p><p></p>
+
+        <p><span class="special_solo_title">Stygian Artifact:</span> A Hero carrying the Stygian Artifact may ignore Jinx. To destroy 
+        the Stygian Artifact, a Hero must place it in the area with the <img src="/assets/tokens/energyToken.png" class="scen_token" /> 
+        token. The Hero must have the Tools equipment card and perform a complex Manipulation with difficulty of 3. Once the Stygian 
+        Artifact is destroyed, move the <img src="/assets/tokens/energyToken.png" class="scen_token" /> token to the corresponding 
+        location on the ship in the Hyborian Age. The spell has been broken and the Mirror of Tuzun Thune is visible.
+
+        <p><span class="special_solo_title">Thulsa Doom:</span> When Thulsa Doom activates, he will act in the following order: 1. 
+        Cast Yog’s Hunger 2. Activate as normal
+
+        <p><span class="special_solo_title">Ballista:</span> The ballista on the Hyborian Age ship are in poor repair and most are unusable. 
+        The one marked <img src="/assets/tokens/flameToken.png" class="scen_token" /> may be used once by performing a complex 
+        Manipulation with a difficulty of 2. If successful, Heroes may turn and fire it for 
+        <img src="/assets/dice/Red.png" class="scen_sq_token" />&nbsp;<img src="/assets/dice/Red.png" class="scen_sq_token" />&nbsp;<img src="/assets/dice/Orange.png" class="scen_sq_token" />. The Mirror of Tuzun Thune may be targeted. 
+        If the Hero fails the complex Manipulation, the ballista breaks violently and does 
+        <img src="/assets/dice/Orange.png" class="scen_sq_token" /> (no rerolls) of unblockable damage to any Hero in its area.
+
+
+        <p><span class="setup_item">Options</span></p>
+
+        <p><span class="special_title">Non-Campaign Mode</span></p>
+        <p>Heroes may choose one Boon from the options listed in the Hero Victory section on page 32.</p>
+        <p><span class="special_solo_title">Cache:</span> Akbitanan Sword, Anchor, Atlantean Axe, Bossonian Bow, Buckler, Chain Mail, 
+        Crossbow, Cutlass, Dagon’s Circlet, Dagger, Heavy Spear, Leather Armor, Lockpick, Mantle of Gullah, Parrying Dagger, 
+        Scale Mail, Shield, Sorcerer’s Scepter (see page 22), Spiked Shield, Sword, Throwing Knives, Tribal Mace</p>
+        <p><span class="special_solo_title">Spells:</span> Born by the Wind, Gift of Life , Mitra’s Halo, Mitra’s Healing, Pestilential 
+        Swarm, Set’s Halo, Summon Demon (Outer Dark Demon), Telekinesis, Ymir’s Retribution, Yog’s Hunger</p>
+
+        <p><span class="special_title">Four Player Mode</span> 
+        <ul>
+          <li>After setup, each Hero moves 6 gems from their Reserve to their Fatigue zone.</li>
+          <li>Sellsword begins in the area marked <img src="/assets/tokens/area4Token.png" class="scen_token" />.</li>
+          <li>The Giant Snake and Son of Set have 15 Life Points.</li>
+          <li>Reminder: The Overlord activates four times per turn.</li>
+        </ul></p>
+
+        <p><span class="special_title">Substitutions</span> 
+        <p><span class="special_solo_title">Hard Mode:</span> Add a Deep One in the location with the red X and the Heroes must destroy 
+        the mirror by the end of turn 6.</p>
+    </div>',
+
+      overlord_goal: '',
+
+      overlord_setup: '',
+
+      rtoken1: 'num1Token',
+      rtoken2: 'num2Token',
+      rtoken3: 'num3Token',
+      rtoken4: 'num4Token',
+      rtoken5: 'num5Token',
+      rtoken6: 'num6Token',
+      rtoken7: 'num7Token',
+      rtoken8: '',
+
+      tile1: 179,
+      tile2: 1,
+      tile3: 180,
+      tile4: 10,
+      tile5: 168,
+      tile6: 153,
+      tile7: 163,
+      tile8: 999,
+
+      life1: 0,
+      life2: 0,
+      life3: 0,
+      life4: 10,
+      life5: 0,
+      life6: 4,
+      life7: 10,
+      life8: 0,
+
+      special_rules: '',
+
+      # campaign number   
+      event: '6.5',
+
+      # Result
+      hero_victory: '
+      <div class="col-md-6">
+        <p>Discard the Map, Stygian Artifact and Tools equipment cards. They do not carry over to the next scenario.</p> 
+        <p><span class="special_solo_title">Hero Victory:</span> If the Heroes win, they are awarded 1 Victory Point as a group. 
+        If Thulsa Doom is defeated in the Thurian Age, the Heroes are also awarded the Stygian Cloak.</p>   
+      </div>
+
+      <div class="col-md-6">
+        <p><span class="special_solo_title">Hero Defeat:</span> If this scenario results in a Defeat, Heroes lose one Victory Point. 
+        In addition, the Rogue is trapped in another Age. Recruit a new Hero to replace the Rogue.</p>
+      </div>',
+
+      overlord_victory: '',
+      correction: '',
+
+      origin: "Tome of Skelos",
+      product_ids: [1, 23, 25],
+      map_ids: [3],
+      hero_ids: [],
+      tile_ids: [1, 10, 153, 163, 168, 179, 180],
+      spell_ids: [],
+      item_ids: [] },
+
+
+
+
+
+  # The Curse of Zogar Sag
+    { name: "The Curse of Zogar Sag",
+      mode: 'Solo/Cooperative',
+      pdf_link:'Betrayal of the Infernal Shaman',
+      credit: 'Dan Mauric, Ken Meyri, Kevin Deming, Matthew John',
+      player_count: "3-4",
+      complexity: '',
+
+      description: '
+      <div class="col-md-6">
+        <p>Peering from the mast, you see the faint outline of towers in the distance. Civilization, at last! You breathe a sigh of 
+        relief before glaring down to your once-loyal companions on the deck below. You quell the rage simmering in your heart at 
+        the sight of them. Even though they don’t deserve to enjoy the comforts of civilization, you can’t man this ship alone. Holding 
+        your tongue, you climb down the rigging. Ignoring their suspicious glances, you make for land.</p>
+        <p>Upon reaching the docks, you soon realize Kordava is not how you recall. The guards and town folk glare at you, and even the 
+        women of the night, once so welcoming, sneer as if you reeked of fish guts and perfume.</p>
+        <p>The ungrateful companion whose hide you saved a lifetime ago turns to you. “Something is wrong, my friend. Though I am 
+        indebted to you many times over for my life, I find myself constantly fighting the urge to slip my blade into your heart.”</p>
+      </div>
+      <div class="col-md-6">
+        <p>Hearing these words, you reach for your weapon, but he stays your hand with a quick motion. “Nay, my friend. I am not your 
+        enemy. That Pictish shaman has cursed us, the same curse that afflicted our captain.”</p>
+        <p>You glare at him, but push down your suspicion. In your heart, you know he speaks the truth. “What must we do,” you reply 
+          through gritted teeth.</p>
+        <p>“I fear there is but one way to remove this curse. We must destroy the artifact holding the essence of Zogar Sag to destroy 
+        his spirit. The Temple of Mitra in the heart of the city is known to hold sacred treasures from the north.</p>
+        <p>“It sounds simple to me,” interrupts the rogue. “Let’s raid the temple. We can gather all the relics,” he continues, 
+        brandishing a metallic sphere you didn’t realize he had, “and send them to Mitra in pieces!”</p>
+      </div>',
+
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Curse+of+Zogar+Sag.jpg",
+      
+      # scenario pre-title 
+      hero_goal: '',
+
+      # Setup
+      hero_setup: '
+      <div class="col-md-6">
+        <p><span class="setup_item">Objective</span></p>
+        <p>The Heroes win the game once they destroy the Pictish Fetish, Shaman’s Staff, and Stygian Artifact by throwing them 
+        into the area with the red X and then throwing the Explosive Orb in after them.</p>
+
+        <p><span class="setup_item">Setup</span></p>
+        <p><strong>The game starts with the Heroes’ turn.</strong> The Heroes deploy in the area marked 
+        <span style="white-space: nowrap;"><img src="/assets/tokens/area1Token.png" class="scen_token" />.</span> 
+        Place 20 red gems in the Recovery Value Tile space in the Book of Skelos; this will serve as the Ascension Pool.</p>
+        <p>Assign each character an Overlord tile as follows to keep near their dashboard:</p>
+
+        <table class="curse_table">
+          <tr>
+            <td>Warrior</td>
+            <td>Rogue</td>
+            <td>Sorcerer</td>
+          </tr>
+          <tr>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ConanthePirate.jpg" class="scen_event"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Zenobia.jpg" class="scen_event"></td>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/NYaga.jpg" class="scen_event"></td>
+          </tr>
+          <tr>
+            <td><img src="/assets/tokens/num1Token.png" class="scen_token" /></td>
+            <td><img src="/assets/tokens/num2Token.png" class="scen_token" /></td>
+            <td><img src="/assets/tokens/num3Token.png" class="scen_token" /></td>
+          </tr>
+        </table>
+
+        <p>Set aside Activation tokens 1, 2, and 3 from the second set of Activation tokens provided in this expansion.</p>
+
+       <table class="solo_left_table">
+          <tr>
+            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+            <td>After setup, each Hero moves 4 gems from their Reserve zone to their Fatigue zone.</td>
+          </tr>
+        </table>
+
+
+        <p><span class="setup_item">Asset Deck</span></p>
+        <p>Chests require a complex Manipulation with difficulty of 2 to open. The Asset Deck contains an Explosive Orb, Pictish 
+        Fetish, Shaman’s Staff, and Stygian Artifact.</p>
+
+
+        <p><span class="setup_item">Special Rules</span></p>
+        <p><span class="special_solo_title">Map notes:</span> Standard map rules apply.
+        <p><span class="special_solo_title">Zogar Sag:</span> Zogar Sag is a spirit and cannot be attacked, damaged, or Hindered, but he is 
+        included when determining Protected status or Hindering. When Zogar Sag activates, perform these steps in order:
+        <ol>
+          <li>Cursed Possession: As long as there is more than 1 Hero alive, Zogar Sag takes control of a Hero. Shuffle the extra 
+          Activation tokens assigned during Setup and draw one to randomly determine which Hero is possessed.</li>
+          <li>Activate all revealed enemy units. Players choose the order in which to activate these units.</li>
+          <li>Activate the possessed Hero using the Overlord tile assigned to them during Setup. Treat the possessed Hero as an 
+          Overlord unit for the purposes of Targeting and Hindering during this activation. Once this activation ends, the Cursed 
+          Possession ends.</li>
+          <li>Activate Zogar Sag.</li>
+        </ol></p>
+
+
+        <p><span class="special_solo_title">Priest of Mitra:</span> When Xaltotun activates, perform these steps in order:
+        <ol>
+          <li>Pray to Mitra: Xaltotun prays for Mitra to protect him. Remove 5 gems from the Ascension Pool.</li>
+          <li>Activate all revealed enemy units. Players choose the order in which to activate these units.</li>
+          <li>Attack: if any Heroes are in Line of Sight, Xaltotun will attack them with his Ranged attack.</li>
+        </ol></p>
+
+        <p>Note: Xaltotun does not move from the altar.</p>
+
+      </div>
+
+
+      <div class="col-md-6">
+      <p></p><p></p>
+
+        <p><span class="special_solo_title">Blood Sacrifice:</span> Each time any unit dies, remove 1 gem from the Ascension Pool.
+        <p><span class="special_solo_title">Bossonian Guards:</span> Before activating the Bossonian Guards, add 1 guard to each 
+        area with a Reinforcement token. Then activate all Bossonian Guards. A maximum of 15 Bossonian Guards can be on the board at 
+        one time.
+
+        <p><span class="special_solo_title">Khitan Acolytes:</span> Before activating the Khitan Acolytes, add 1 acolyte to each area with a 
+        Reinforcement token. Then acti- vate all acolytes. A maximum of 10 Khitan Acolytes can be on the board at one time. Acolytes 
+        target the strongest Hero.
+        
+        <p><span class="special_solo_title">Manifestation of Mitra:</span> If at any time there are no gems in the Ascension Pool, the 
+        Manifestation of Mitra awakens and the priest escapes through a secret door. Replace the Xaltotun tile with the Manifestation 
+        of Mitra tile. In addi- tion, place a second Manifestation of Mitra tile at the end of the river. Place an Activation token for 
+        this tile face-up in the Fatigue zone of the Book of Skelos. The Manifestation of Mitra targets the strongest Hero and is 
+        considered an over- sized unit.
+
+        <p><span class="setup_item">Options</span></p>
+
+        <p><span class="special_title">Non-Campaign Mode</span></p>
+        <p>Heroes may choose one Boon from the options listed in the Hero Victory section on page 32.</p>
+        <p><span class="special_solo_title">Cache:</span> Akbitanan Sword, Anchor, Atlantean Axe, Bossonian Bow, Buckler, Chain Mail, 
+        Cutlass, Dagon’s Circlet, Dagger, Heavy Spear, Leather Armor, Lockpick, Mantle of Gullah, Parrying Dagger, Scale Mail Shield, 
+        Sorcerer’s Scepter (see page 22), Spiked Shield, Stygian Cloak, Sword, Throwing Knives, Tribal Macee</p>
+        <p><span class="special_solo_title">Spells:</span> Bori’s Rage, Born by the Wind, Mitra’s Halo, Mitra’s Healing, Pestilential Swarm, 
+        Set’s Halo, Summon Demon (Outer Dark Demon), Telekinesis, Ymir’s Retribution, Yog’s Hunger</p>
+
+        <p><span class="special_title">Four Player Mode</span> 
+
+          <table class="solo_right_table">
+            <tr>
+              <td>
+                <ul>
+                  <li>After setup, each Hero moves 6 gems from their Reserve to their Fatigue zone.</li>
+                  <li>Assign the Baal-pteor tile and Activation token to the Sellsword.</li>
+                  <li>Reminder: The Overlord activates four times per turn.</li>
+                </ul>
+              </td>
+              <td>
+              Sellsword
+              <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/BaalPteorConqueror.jpg" class="scen_event">
+              <img src="/assets/tokens/num4Token.png" class="scen_token" />
+              </td>
+            </tr>
+          </table>
+        </p>
+
+        <p><span class="special_title">Substitutions</span> 
+
+        <p><span class="special_solo_title">Temple of Set (easier):</span> Replace the Bossonian Guards with Skeletons, the Khitan 
+        Acolytes with Mummies, and the Manifestation of Mitra with the Manifestation of Yog.</p>
+        <p class="substitution_tiles">
+          <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Skeletons.jpg" class="scen_event">
+          <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Mummies.jpg" class="scen_event">
+          <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ManifestationofYog.jpg" class="scen_event">
+        </p>
+
+        <p><span class="special_solo_title">Temple of Gullah (harder):</span> Replace the Bossonian Guards with Pict Hunters, the 
+        Khitan Acolytes with Black Ones, and the Manifestation of Mitra with the Nameless Horror.</p>
+        <p class="substitution_tiles">
+          <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/PictHunters.jpg" class="scen_event">
+          <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/BlackOnes.jpg" class="scen_event">
+          <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/NamelessHorror.jpg" class="scen_event">
+        </p>
+
+    </div>',
+
+      overlord_goal: '',
+
+      overlord_setup: '',
+
+      rtoken1: 'num1Token',
+      rtoken2: 'num2Token',
+      rtoken3: 'num3Token',
+      rtoken4: 'num4Token',
+      rtoken5: 'num5Token',
+      rtoken6: '',
+      rtoken7: '',
+      rtoken8: '',
+
+      tile1: 8,
+      tile2: 8,
+      tile3: 17,
+      tile4: 176,
+      tile5: 155,
+      tile6: 999,
+      tile7: 158,
+      tile8: 158,
+
+      life1: 0,
+      life2: 0,
+      life3: 0,
+      life4: 0,
+      life5: 8,
+      life6: 0,
+      life7: 15,
+      life8: 0,
+
+      special_rules: '',
+
+      # campaign number   
+      event: '7',
+
+      # Result
+      hero_victory: '
+      <div class="col-md-6">
+        <p><span class="special_solo_title">Hero Victory:</span> If the Heroes win, they are awarded 1 Victory Point per surviving Hero. 
+        Consult the Victory Chart on page 13 to see how history will remember you.</p>   
+      </div>
+
+      <div class="col-md-6">
+        <p><span class="special_solo_title">Hero Defeat:</span> If this scenario results in a Defeat, lose one Victory Point. 
+        Consult the Victory Chart on page 13 to see how history will remember you.</p></div>',
+
+      overlord_victory: '',
+      correction: '',
+
+      origin: "Tome of Skelos",
+      product_ids: [1, 23, 25],
+      map_ids: [14],
+      hero_ids: [],
+      tile_ids: [8, 17, 155, 158, 176],
+      spell_ids: [],
+      item_ids: [] },
+
+
+
+
+
+
+
+  # Red Nails
+  # Solo Co-op
+
+  # City of the Howling Souls
+  # Escape from Xuchotl
+    { name: "Escape from Xuchotl",
+      mode: 'Solo/Cooperative',
+      pdf_link:'City of the Howling Souls',
+      credit: 'Monolith Team',
+      player_count: "3-4",
+      complexity: '',
+
+      description: '
+      <div class="col-md-6">
+        <p>Like the sun’s glowing rays, the green mist moved inexorably closer as they fled down the great hallway. That damn rogue 
+        had promised them an entire city full of treasure with no one to guard it but the bones of the dead. They lost half their crew, 
+        and most of their gear, when that mist appeared and seared the flesh from their bones.</p>
+      </div>
+      <div class="col-md-6">
+        <p>Suddenly, noises stopped them in their tracks. Up ahead, the warrior saw a horde of angry natives emerging from closed 
+        doors, armed and ready for battle. With an angry glare at the rogue, the warrior shouted, “No time to explain. Let’s loot 
+        any gear we find and escape quickly! And let that death-mist take the hindmost!”</p>
+      </div>',
+
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Escape+from+Xuchotl.jpg",
+      
+      # scenario pre-title 
+      hero_goal: '',
+
+      # Setup
+      hero_setup: '
+      <div class="col-md-6">
+        <p><span class="setup_item">Objective</span></p>
+        <p>If the Heroes open all 5 chests and at least one Hero reaches the Hidden Chamber before the end of turn 10, the Heroes win.</p>
+
+        <p><span class="setup_item">Setup</span></p>
+        <p><strong>The game starts with the Heroes’ turn.</strong></p>
+
+       <table class="solo_left_table">
+          <tr>
+            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+            <td>After setup, each Hero moves 4 gems from their Reserve zone to their Fatigue zone.</td>
+          </tr>
+        </table>
+
+
+        <p><span class="setup_item">Asset Deck</span></p>
+        <p>Chests require a simple Manipulation to open. The Asset deck contains: Leather Armor, Shuko, Sacrificial Dagger, 
+        Spellbook (Spectral Shroud), Zingaran Bow.</p>
+
+
+        <p><span class="setup_item">Special Rules</span></p>
+
+        <p><span class="special_solo_title">Game Board Rules:</span> Standard game board rules apply.</p>
+        
+        <p><span class="special_solo_title">Reanimation:</span> Whenever a human Overlord unit is killed, remove it from the board and place a Soulless in the
+        reinforcement area <img src="/assets/stats/reinforcement.png" class="scen_token" />.</p>
+
+        <p><span class="special_solo_title">The Soulless:</span> The Soulless cannot open doors.<br />
+        <span class="special_solo_title">Important:They activate at the END of every Overlord’s turn. This counts as one of the 
+        Overlord’s activations for the turn.</span></p>
+        
+        <p><span class="special_solo_title">Behind Closed Doors:</span> When the Tecuhltli Swordsmen tile is activated, only activate units 
+         whose door has been opened. If none of their doors have been opened, the activation is wasted.</p>
+       
+        <p><span class="special_solo_title">Hidden Chamber:</span> The Hidden Chamber’s opening connects to the stairs in the bottom 
+        right area of the Xuchotl board as though it were a border WITH line of sight.</p>
+
+      </div>
+
+
+      <div class="col-md-6">
+      <p></p><p></p>
+     
+        <p><span class="special_solo_title">Rope Placement:</span> A Hero in an area with a pillar may perform a simple Manipulation 
+        and discard the Rope card to place a Rope token <img src="/assets/stats/reinforcement.png" class="scen_token" /> on that pillar. 
+        A Hero in an area with a Rope token may perform a simple Manipulation to remove the token from the board to pick up the Rope 
+        card.</p>
+        
+        <p><span class="special_solo_title">Rope Use:</span> A unit (Hero or Overlord) in an area with a Rope token may descend to the 
+        floor below by performing a complex Manipulation with a difficulty of 2 (Hero) or for 2 movement points (Overlord). Reduce 
+        these values to 1 if the unit has Climb. In addition, a unit with Climb in an area with a Rope token may ascend to the floor 
+        above by spending 2 movement points. Ascending is affected by hindering.</p>
+        
+        <p><span class="special_solo_title">Doors:</span> The door with the red border requires a complex Manipulation with a difficulty 
+        of 2 or Wall Wrecker to open. All other doors require a simple Manipulation to open.</p>
+        
+        <p><span class="special_solo_title">Prisoner:</span> A Stygian Captain is being held prisoner in the Cell. If a Hero opens the 
+        cell door, he joins the Heroes for the rest of the campaign. Any Hero with the Leadership skill may activate him following 
+        standard Ally rules. At the start of each scenario, place him in the same area as the Heroes (even if he died in the 
+        previous scenario).</p>
+
+
+        <p><span class="setup_item">Options</span></p>
+
+        <p><span class="special_title">Non-Campaign Mode</span></p>
+        <p><span class="special_solo_title">Cache:</span> Conan’s Sword, Pirate Saber, Shuriken, Sorcerer’s Staff.</p>
+        <p><span class="special_solo_title">Spells:</span> Eldritch Lance.</p>
+
+
+        <p><span class="special_title">Four Player Mode</span> 
+        <ul>
+          <li>Outer Dark Demon has 6 life points.</li>
+          <li>At least one Hero must reach the Hidden Chamber by the end of turn 8 instead of turn 10.</li>
+          <li><span class="special_solo_title">Reminder:</span> The Overlord activates four times per turn.</li>
+        </ul></p>
+
+    </div>',
+
+      overlord_goal: '',
+
+      overlord_setup: '',
+
+      rtoken1: 'num1Token',
+      rtoken2: 'num2Token',
+      rtoken3: 'num3Token',
+      rtoken4: 'num4Token',
+      rtoken5: 'num5Token',
+      rtoken6: '',
+      rtoken7: '',
+      rtoken8: '',
+
+      tile1: 202,
+      tile2: 23,
+      tile3: 12,
+      tile4: 194,
+      tile5: 196,
+      tile6: 999,
+      tile7: 195,
+      tile8: 999,
+
+      life1: 0,
+      life2: 0,
+      life3: 4,
+      life4: 0,
+      life5: 0,
+      life6: 0,
+      life7: 16,
+      life8: 0,
+
+      special_rules: '',
+
+      # campaign number   
+      event: '1',
+
+      # Result
+      hero_victory: '
+      <div class="col-md-6">
+        <p><span class="special_solo_title">Hero Victory:</span> If the Heroes win, they are awarded 1 Victory Point for each Hero who 
+        reached the Hidden Chamber and all cards from the Asset deck.</p>   
+      </div>
+
+
+      <div class="col-md-6">
+        <p><span class="special_solo_title">Hero Defeat:</span> If this scenario results in a Defeat, lose one Victory Point. Players 
+        choose 3 cards from the Asset deck to add to the Cache and proceed to the next scenario.</p></div>',
+
+      overlord_victory: '',
+      correction: '',
+
+      origin: "Red Nails",
+      product_ids: [1, 29],
+      map_ids: [21],
+      hero_ids: [],
+      tile_ids: [12, 23, 194, 195, 196, 202],
+      spell_ids: [],
+      item_ids: [] },
+
+
+
+
+  # City of the Howling Souls
+  # Green Hell Part 1
+    { name: "Green Hell Part 1",
+      mode: 'Solo/Cooperative',
+      pdf_link:'City of the Howling Souls',
+      credit: 'Monolith Team',
+      player_count: "3-4",
+      complexity: '',
+
+      description: '
+      <div class="col-md-6">
+        <p>The warrior paused to catch his breath. The catacombs beneath Xuchotl had been more ominous than deadly, but they had 
+        awakened something on their journey. It would be best to avoid returning to those web-filled halls.
+        <p>Thirst drove them toward the sound of rushing water. Soon the sight of a shipwrecked vessel’s mast appeared through the trees. 
+        Fearful shouts and splashes echoed from the river.</p>
+      </div>
+      <div class="col-md-6">
+        <p>“Look!” The rogue pointed to a creature in the river. Its massive tentacles pulled pirates and natives into the depths, 
+        drowning them before stuffing them into its gap- ing maw. Sensing their presence, the creature turned the heroes. The natives, 
+        too, turned with a deranged look in their eyes. As one, they attacked with a frenzied fury. Only the pirates seemed unfazed, 
+        though that offered little consolation, since the object of their attention was the shipwrecked treasure.</p>
+      </div>',
+
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Green+Hell+Part+1.jpg",
+      
+      # scenario pre-title 
+      hero_goal: '',
+
+      # Setup
+      hero_setup: '
+      <div class="col-md-6">
+        <p><span class="setup_item">Objective</span></p>
+        <p>If the Heroes kill Thaug before the end of turn 10 without letting the Pirates escape with any chests, the Heroes win.</p>
+
+        <p><span class="setup_item">Setup</span></p>
+        <p><strong>The game starts with the Overlord’s turn.</strong> The Heroes start in the area marked 
+        <span style="white-space: nowrap;"><img src="/assets/tokens/area1Token.png" class="scen_token" />.</span> 
+        Shuffle the following Asset cards and randomly place them face-down as indicated: Explosive Orb, Key, Life Potion.</p>
+
+       <table class="solo_left_table">
+          <tr>
+            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+            <td>After setup, each Hero moves 0 gems from their Reserve zone to their Fatigue zone.</td>
+          </tr>
+        </table>
+
+
+        <p><span class="setup_item">Asset Deck</span></p>
+        <p>To open a chest, a Hero must have the Key and perform a simple Manipulation. The Asset deck contains: Battle Axe, 
+        Chain Mail, Harpoon, Shield, Spellbook (Archer of Acheron).</p>
+
+        <p><span class="setup_item">Special Rules</span></p>
+
+        <p><span class="special_solo_title">Game Board Rules:</span> Standard game board rules apply, except for the Deep Water rule 
+        modified as follows.</p>
+
+        <p><span class="special_solo_title">Deep Water:</span>  Heroes cannot make Ranged Attacks while in a Deep Water area, and their 
+        Melee Attack attribute level is reduced by one color (red to orange, orange to yellow).</p>
+        
+        <p><span class="special_solo_title">Dropped Loot:</span> A Hero in an area with a face-down Asset card may perform a simple 
+        Manipulation to search the area and take the card.</p>
+        
+        <p><span class="special_solo_title">Pirates:</span> The Pirates are trying to steal the chests. They spend ALL movement points 
+        trying to reach the closest area with a chest. When moving, Pirates will avoid hindering if possible. Pirates will only 
+        attack a Hero if they end their activation in the area with a Hero.</p>
+        
+        <p>Every time the Pirates tile is activated, first add a Pirate miniature to each reinforcement area 
+        <img src="/assets/stats/reinforcement.png" class="scen_token" />.</p>
+
+        <p>If a Pirate activates in an area with a chest that is not being carried, they pick it up and move towards the closest area
+        with a <img src="/assets/stats/reinforcement.png" class="scen_token" /> token.</p>
+        
+        <p>If a Pirate carrying a chest enters a reinforcement area <img src="/assets/stats/reinforcement.png" class="scen_token" />, 
+        the Heroes lose.</p>
+        
+      </div>
+
+
+      <div class="col-md-6">
+      <p></p><p></p>
+
+        <p><span class="special_solo_title">Chests:</span> Chests have an Encumbrance value of 5.</p>
+
+        <p><span class="special_solo_title">Tentacles:</span> Tentacles are attempting to pull Heroes into the River. Tentacles target 
+        the Strongest Hero in range who isn’t Constricted. If the only Heroes in range are already Constricted, they will attack 
+        the Strongest constricted Hero but will NOT constrict them again. When activating Tentacles, begin with those closest to 
+          their target.</p>
+        
+        <p>If a Tentacle activates while Constricting a Hero, instead of attacking it will move 1 area closer to a Deep Water area. 
+        If it is already in a Deep Water area, it drowns that Hero, regardless of whether or not the Hero has the Swimming skill.</p>
+        
+        <p><span class="special_solo_title">Flailing:</span> If a Hero is pulled from a land area into a Deep Water area by a Tentacle 
+        via Constriction, the Hero does not drown immediately until the Tentacle’s next activation. The Hero is not considered to 
+        be Swimming, but may only attack that Tentacle. If the Tentacle Constricting them is killed, the Hero returns to an adjacent 
+        land area of their choice.</p>
+        
+        <p><span class="special_solo_title">Thaug:</span> When Thaug activates, it performs the following actions in order:
+        <ol>
+          <li>If one or more Heroes are in Deep Water areas, Thaug moves to the area with the Strongest Hero and attacks that Hero.</li>
+          <li>Casts Dagon’s Attack to activate 3 Tentacles. When moving, Tentacles will stay as close as possible to a Deep Water 
+          area while still being able to reach their target.</li>
+        </ol></p>
+
+
+        <p><span class="setup_item">Events</span></p>
+        Perform the following actions in order:
+        <p><ol>
+          <li><span class="special_solo_title">Regenerate:</span> Add 1 Tentacle to Thaug’s area. If Thaug’s area is occupied, place them in an adjacent water area. </li>
+          <li><span class="special_solo_title">Onward!</span> Activate all Pirates.</li>
+        </ol></p>
+
+
+        <p><span class="setup_item">Options</span></p>
+        <p><span class="special_title">Non-Campaign Mode</span></p>
+        <p><span class="special_solo_title">Cache:</span> Conan’s Sword, Leather Armor, Pirate Saber, Sacrificial Dagger, Shuriken, 
+        Shuko, Sorcerer’s Staff, Zingaran Bow.</p>
+        <p><span class="special_solo_title">Spells:</span> Eldritch Lance, Spectral Shroud.</p>
+
+
+        <p><span class="special_title">Four Player Mode</span> 
+        <ul>
+          <li>Thaug has 6 life points. Dagon’s Attack activates 4 Tentacles instead of 3.</li>
+          <li>The Heroes must kill Thaug by the end of turn 9 instead of turn 10.</li>
+          <li><span class="special_solo_title">Reminder:</span> The Overlord activates four times per turn.</li>
+        </ul></p>
+
+    </div>',
+
+      overlord_goal: '',
+
+      overlord_setup: '',
+
+      rtoken1: '',
+      rtoken2: 'num1Token',
+      rtoken3: 'num2Token',
+      rtoken4: 'num3Token',
+      rtoken5: 'num4Token',
+      rtoken6: 'num5Token',
+      rtoken7: 'num6Token',
+      rtoken8: '',
+
+      tile1: 999,
+      tile2: 199,
+      tile3: 1,
+      tile4: 82,
+      tile5: 194,
+      tile6: 92,
+      tile7: 30,
+      tile8: 999,
+
+      life1: 0,
+      life2: 0,
+      life3: 0,
+      life4: 4,
+      life5: 0,
+      life6: 10,
+      life7: 15,
+      life8: 0,
+
+      special_rules: '',
+
+      # campaign number   
+      event: '2',
+
+      # Result
+      hero_victory: '
+      <div class="col-md-6">
+        <p><span class="special_solo_title">Hero Victory:</span> If the Heroes win, they are awarded 1 Victory Point for each Hero who 
+        survived and all cards from the Asset deck.</p>   
+      </div>
+
+
+      <div class="col-md-6">
+        <p><span class="special_solo_title">Hero Defeat:</span> If this scenario results in a Defeat, lose one Victory Point. Players 
+        choose 3 cards from the Asset deck to add to the Cache and proceed to the next scenario.</p></div>',
+
+      overlord_victory: '',
+      correction: '',
+
+      origin: "Red Nails",
+      product_ids: [1, 3, 29],
+      map_ids: [20],
+      hero_ids: [],
+      tile_ids: [1, 30, 82, 92, 194, 199],
+      spell_ids: [],
+      item_ids: [] },
+
+
+
+
+  # City of the Howling Souls
+  # Green Hell Part 2
+    { name: "Green Hell Part 2",
+      mode: 'Solo/Cooperative',
+      pdf_link:'City of the Howling Souls',
+      credit: 'Monolith Team',
+      player_count: "3-4",
+      complexity: '',
+
+      description: '
+      <div class="col-md-6">
+        <p>“By Crom! What just happened?” the warrior exclaimed as he surveyed the bloody carcasses scattered around them. “I don’t 
+        know,” the sorcerer replied, “but something unnatural possessed that creature. Did you see how it focused all of its
+        attention on us?”</p>
+      </div>
+      <div class="col-md-6">
+        <p>The rogue covered his nose with a cloth, adding, “Yes, something wicked is happening here. And this stench will attract 
+        predators for miles. I don’t want to be here when they arrive.”</p>
+        <p>“Too late,” the warrior shouted, pointing to the trees across the river. “Something’s coming. Something big!”</p>
+      </div>',
+
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Green+Hell+Part+2.jpg",
+      
+      # scenario pre-title 
+      hero_goal: '',
+
+      # Setup
+      hero_setup: '
+      <div class="col-md-6">
+        <p><span class="setup_item">Objective</span></p>
+        <p>If the Heroes kill the Dragon of Xuchotl before the end of turn 10, the Heroes win.</p>
+
+
+        <p><span class="setup_item">Setup</span></p>
+        <p><strong>The game starts with the Overlord’s turn.</strong> The Heroes start in the area marked 
+        <span style="white-space: nowrap;"><img src="/assets/tokens/area1Token.png" class="scen_token" />.</span> Place 
+        1 <img src="/assets/tokens/redGem.png" class="scen_token" /> on the board to represent an Apple of Derketo.</p>
+
+       <table class="solo_left_table">
+          <tr>
+            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+            <td>After setup, each Hero moves 0 gems from their Reserve zone to their Fatigue zone.</td>
+          </tr>
+        </table>
+
+
+        <p><span class="setup_item">Asset Deck</span></p>
+        <p>Chests require a complex Manipulation with a difficulty of 2 to open. The Asset deck contains: Empty Chest x2, Life 
+        Potion x2, Spellbook (Mitra’s Healing), Two-Handed Sword.</p>
+
+        <p><span class="setup_item">Special Rules</span></p>
+
+        <p><span class="special_solo_title">Game Board Rules:</span> Standard game board rules apply.</p>
+
+        <p><span class="special_solo_title">Dragon:</span> The Dragon of Xuchotl targets the Strongest Hero. Contrary to standard rules, 
+        its Reach ability allows it to attack units at a different elevation as long as it has line of sight. The Dragon does not 
+        lose life points except by poison (see Poisoning the Dragon). If the Dragon ever activates and cannot reach any target, move 
+        it to the nearest area adjacent to a Deep Water area and remove 1 <img src="/assets/tokens/redGem.png" class="scen_token" /> from 
+        its tile (if possible).</p>
+       
+        <p><span class="special_solo_title">Camel:</span> The Camel tries to exit the board from the area with the 
+        <img src="/assets/tokens/flameToken.png" class="scen_token" /> token. When moving, the Camel will avoid hindering if possible. 
+        Whenever a Camel is killed, lay the miniature down and add a chest to the area.</p>
+
+        <p><span class="special_solo_title">Crocodiles:</span> Whenever a Crocodile is killed, flip the miniature upside down.</p>
+
+        <p><span class="special_solo_title">Apples of Derketo:</span> The Apples of Derketo grow on the side of the cliff. A Hero in the 
+        area with the <img src="/assets/tokens/flameToken.png" class="scen_token" /> token may perform a simple Manipulation to move 1 
+        <img src="/assets/tokens/redGem.png" class="scen_token" /> from the board to their Hero sheet, or a complex Manipulation 
+        with a difficulty of 4 for a Hero in the area with the <img src="/assets/tokens/flameToken.png" class="scen_token" /> token. 
+        Apples cannot be traded, dropped, or thrown.</p>
+
+        <p><span class="special_solo_title">Poisoning the Dragon:</span> A Hero can apply poison to a melee or ranged weapon with a simple 
+        Manipulation by discarding 1 <img src="/assets/tokens/redGem.png" class="scen_token" />. Move the 
+        <img src="/assets/tokens/redGem.png" class="scen_token" /> to the Weapon card. Poison lasts for 1 attack. If that attack 
+        exceeds the Dragon of Xuchotl’s Armor, place the <img src="/assets/tokens/redGem.png" class="scen_token" /> on the Dragon’s 
+        tile. Otherwise, discard the <img src="/assets/tokens/redGem.png" class="scen_token" /> on the Weapon card. At the start of 
+        the Overlord’s turn, the Dragon suffers 1 unavoidable damage for each <img src="/assets/tokens/redGem.png" class="scen_token" /> 
+        on its tile.</p>
+
+      </div>
+
+
+      <div class="col-md-6">
+
+        <p><span class="setup_item">Events</span></p>
+
+        <p><strong>When an Event tile is activated, roll <img src="/assets/dice/Orange.png" class="scen_sq_token" /> and trigger the 
+        Event corresponding to the result:</strong>
+        <ul>
+          <li><span class="special_solo_title">Blank:</span> Activate the Crocodiles and the Camel. Then, reinforce all dead Crocodiles. 
+          If the Camel has died or exited the board, reinforce the Camel in its starting location</li>
+          <li><span class="special_solo_title">One:</span> Activate the Dragon of Xuchotl. If there is a laid down Crocodile or Camel in 
+          range, the Dragon moves to that area and eats one. Remove the laid down miniature and increase the Dragon’s life points by 2 
+          (15 max). Otherwise, the Dragon targets the Strongest Hero. Either way, add 1 
+          <img src="/assets/tokens/redGem.png" class="scen_token" /> to the Apple of Derketo starting area.</li>
+          <li><span class="special_solo_title">Two (Event Tile 1 - Stomp):</span> All Heroes in or adjacent to the Dragon of Xuchotl’s area 
+          moves 2 gems from their Reserve Zone to their Fatigue Zone (if possible).</li>
+          <li><span class="special_solo_title">Two (Event Tile 2 - Charge):</span> Activate the Dragon of Xuchotl with an additional 2 
+          movement points (for a total of 5). Target the furthest Hero it can reach and choose a route that passes through the most 
+          areas with Heroes/Allies (without backtracking). Perform a 
+          <img src="/assets/dice/Red.png" class="scen_sq_token" /><img src="/assets/dice/Red.png" class="scen_sq_token" /> Melee Attack 
+          against each Hero/Ally in every area the Dragon enters (including the destination area).</li>
+          <li><span class="special_solo_title">Two (Event 3 Tile - Swipe):</span> Activate the Dragon of Xuchotl. Apply the attack dice to 
+          all Heroes/Allies in the area with the Dragon’s target. Each Hero/Ally use their own Guard and Armor. Sacrifice, Bodyguard, 
+          and Protected have no effect for this attack.</li>
+        </ul></p>
+
+
+        <p><span class="setup_item">Options</span></p>
+
+        <p><span class="special_title">Non-Campaign Mode</span></p>
+        <p><span class="special_solo_title">Cache:</span> Battle Axe, Conan’s Sword, Chain Mail, Leather Armor, Pirate Saber, 
+        Sacrificial Dagger, Shield, Shuriken, Shuko, Sorcerer’s Staff, Zingaran Bow.</p>
+        <p><span class="special_solo_title">Spells:</span> Archer of Acheron, Eldritch Lance, Spectral Shroud.</p>
+
+        <p><span class="special_title">Four Player Mode</span> 
+        <ul>
+          <li>The Dragon of Xuchotl has 8 life points.</li>
+          <li><span class="special_solo_title">Reminder:</span> The Overlord activates four times per turn.</li>
+        </ul></p>
+
+    </div>',
+
+      overlord_goal: '',
+
+      overlord_setup: '',
+
+      rtoken1: '',
+      rtoken2: 'num1Token',
+      rtoken3: 'num2Token',
+      rtoken4: 'num3Token',
+      rtoken5: 'num4Token',
+      rtoken6: 'num5Token',
+      rtoken7: 'num6Token',
+      rtoken8: '',
+
+      tile1: 999,
+      tile2: 1,
+      tile3: 2,
+      tile4: 51,
+      tile5: 191,
+      tile6: 192,
+      tile7: 75,
+      tile8: 999,
+
+      life1: 0,
+      life2: 0,
+      life3: 0,
+      life4: 0,
+      life5: 6,
+      life6: 0,
+      life7: 0,
+      life8: 0,
+
+      special_rules: '',
+
+      # campaign number   
+      event: '3',
+
+      # Result
+      hero_victory: '
+      <div class="col-md-6">
+        <p><span class="special_solo_title">Hero Victory:</span> If the Heroes win, they are awarded 1 Victory Point for each Hero who 
+        survived and any cards they recovered from the chests. For each Camel that exited the board, remove one card from the 
+        remaining Asset deck. The Heroes receive all remaining cards.</p>   
+      </div>
+
+      <div class="col-md-6">
+        <p><span class="special_solo_title">Hero Defeat:</span> If this scenario results in a Defeat, lose one VictoryPoint.The Heroes 
+        may keep any cards they recovered from chests and proceed to the next scenario.</p></div>',
+
+      overlord_victory: '',
+      correction: '',
+
+      origin: "Red Nails",
+      product_ids: [1, 3, 29],
+      map_ids: [20],
+      hero_ids: [],
+      tile_ids: [1, 2, 51, 75, 191, 192],
+      spell_ids: [],
+      item_ids: [] },
+
+
+
+
+
+  # City of the Howling Souls
+  # Dredge the Waters
+    { name: "Dredge the Waters",
+      mode: 'Solo/Cooperative',
+      pdf_link:'City of the Howling Souls',
+      credit: 'Monolith Team',
+      player_count: "3-4",
+      complexity: '',
+
+      description: '
+      <div class="col-md-6">
+        <p>The warrior’s boots sank into the mud beneath the knee- high water as a water snake swam towards him. He cursed the foul 
+        magic that had turned the creatures in Darfar against them. “Tell me again about this black stone we’re searching for?”
+        <p>Trying, and failing, to keep his robes dry, the sorcerer responded, “According to the expedition journal from that 
+        shipwrecked vessel, Xuchotl is cursed, as are all who enter it. </p>
+      </div>
+      <div class="col-md-6">
+        <p>Nature is attempting to cleanse the world, as if we are some 
+        abomination. Dissenters from the city stole the stone almost a decade ago, and its power protects them from the curse.”
+        <p>With a swift motion, the warrior grabbed the approaching snake by the neck and severed its head. “Let’s hope this infernal 
+        orb can end this curse. And woe to anyone who tries to keep us from it!”</p>
+      </div>',
+
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Dredge+the+Waters.jpg",
+      
+      # scenario pre-title 
+      hero_goal: '',
+
+      # Setup
+      hero_setup: '
+      <div class="col-md-6">
+        <p><span class="setup_item">Objective</span></p>
+        <p>If the Heroes open all 5 chests and at least one Hero reaches the Hidden Chamber before the end of turn 10, the Heroes win.</p>
+
+
+        <p><span class="setup_item">Setup</span></p>
+        <p><strong>The game starts with the Heroes’ turn.</strong> The Heroes start in the areas marked 
+        <span style="white-space: nowrap;"><img src="/assets/tokens/area1Token.png" class="scen_token" />.</span> Randomly shuffle 
+        Numbered tokens 4-9 and place them face-down on as indicated on the setup diagram.</p>
+
+       <table class="solo_left_table">
+          <tr>
+            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+            <td>After setup, each Hero moves 4 gems from their Reserve zone to their Fatigue zone.</td>
+          </tr>
+        </table>
+
+
+        <p><span class="setup_item">Asset Deck</span></p>
+        <p>Chests require a simple Manipulation to open. The Asset deck contains: Leather Armor, Shuko, Sacrificial Dagger, 
+        Spellbook (Spectral Shroud), Zingaran Bow.</p>
+
+        <p><span class="setup_item">Special Rules</span></p>
+
+        <p>Some units in the River will not activate until their Activation tokens have been added to the Activation token pool 
+        (see <span class="special_solo_title">Searching for the Black Stone</span>).</p>
+
+        <p><span class="special_solo_title">Game Board Rules:</span> Standard game board rules apply except a unit with Climb must only 
+        spend 1 extra movement point to move from a water area to a wood/platform area and units with Swimming do not pay extra to 
+          move between water areas.</p>
+
+        <p><span class="special_solo_title">Encumbrance:</span> In water areas, the Encumbrance value of each Asset card is increased by 1. 
+        <strong>Note: Melee weapons must still have a printed Encumbrance value of 3 or higher to be considered 2-handed weapons.</strong></p>
+
+        <p><span class="special_solo_title">Whip:</span> A Rogue with the Whip does not pay extra to move from a water area to a 
+        wood/platform area, does not increase the Encumbrance value of their Asset cards in water areas, and may use a simple 
+        Manipulation to search for the Black Stone.</p>
+
+        <p><span class="special_solo_title">Outer Dark Demon:</span> Targets the Strongest Hero that flipped a Numbered token in the 
+        previous turn. If no Hero flipped a token last turn, the Outer Dark Demon targets the Strongest Hero. If the Outer Dark Demon 
+        is wounded, instead of taking damage, return it to its start area.</p>
+
+        <p><span class="special_solo_title">Unwanted Attention:</span> If an Activation token is drawn that cannot activate any units and 
+        would otherwise be wasted, activate the Outer Dark Demon instead.</p>
+
+        <p><span class="special_solo_title">Leap:</span> If a Hero fails to Leap, the Hero remains in their area. Overlord units do not use 
+          Leap.</p>
+
+      </div>
+
+
+
+      <div class="col-md-6">
+    <p></p><p></p>
+
+        <p><span class="special_solo_title">Searching for the Black Stone:</span> A Hero in an area with a Numbered token may perform a 
+        complex Manipulation with a difficulty of 1 to search the area and flip over a Numbered token. Apply the effects immediately.</p>
+  
+        <table class="solo_left_table">
+          <tr>
+            <td><img src="/assets/tokens/num4Token.png" class="scen_token" /></td>
+            <td>Add Activation token 4 to the Activation token pool. Place 5 Xotalanc Warriors, 1 per Reinforcement area. 
+            Xotalanc Warriors target the Strongest Hero.</td>
+          </tr>
+
+          <tr>
+            <td><img src="/assets/tokens/num5Token.png" class="scen_token" /></td>
+            <td>Add Activation token 5 to the Activation token pool. Place 3 Xotalanc Hunters, 1 per Reinforcement area.</td>
+          </tr>
+
+          <tr>
+            <td><img src="/assets/tokens/num6Token.png" class="scen_token" /></td>
+            <td>Add Activation token 6 to the Activation token pool. Place 3 Xotalanc Huntresses, 1 per Reinforcement area.</td>
+          </tr>
+
+          <tr>
+            <td><img src="/assets/tokens/num7Token.png" class="scen_token" />
+            <img src="/assets/tokens/num8Token.png" class="scen_token" /></td>
+            <td>Add the corresponding Activation token to the Activation token pool.</td>
+          </tr>
+
+          <tr>
+            <td><img src="/assets/tokens/num9Token.png" class="scen_token" /></td>
+            <td><span class="special_solo_title">Slippery -</span> Move each Hero in a wood/platform area into an 
+            adjacent water area. A Hero with Leap can use Leap with a difficulty of 2 to remain on the wood/platform area.</td>
+          </tr>
+        </table>
+
+        <p>Once the last Numbered token is flipped over and the effects applied, the Hero who performed the search takes the Black Stone 
+        card.</p>
+
+      <p><span class="setup_item">Events</span></p>
+
+      <p><span class="special_solo_title">Event 1:</span> Reinforce up to 2 Crocodiles and 2 Hyenas, 1 per Reinforcement area. Activate 
+      the Outer Dark Demon.
+      <p><span class="special_solo_title">Event 2:</span> Reinforce up to 2 Xotalanc Warriors, 2 Xotalanc Hunters and 2 Xotalanc 
+      Huntresses, 1 per Reinforcement area. Activate the Outer Dark Demon.
+
+
+      <p><span class="setup_item">Options</span></p>
+
+      <p><span class="special_title">Non-Campaign Mode</span></p>
+      <p><span class="special_solo_title">Cache:</span> Battle Axe, Conan’s Sword, Chain Mail, Leather Armor, Pirate Saber, Sacrificial 
+      Dagger, Shield, Shuriken, Shuko, Sorcerer’s Staff, Two-handed Sword, Zingaran Bow.</p>
+      <p><span class="special_solo_title">Spells:</span> Archer of Acheron, Eldritch Lance, Mitra’s Healing, Spectral Shroud.</p>
+
+
+      <p><span class="special_title">Four Player Mode</span> 
+        <ul>
+          <li>After setup, each Hero moves 5 gems from their Reserve zone to their Fatigue zone</li>
+          <li>Reminder: The Overlord activates four times per turn.</li>
+        </ul></p>
+
+    </div>',
+
+      overlord_goal: '',
+
+      overlord_setup: '',
+
+      rtoken1: 'num1Token',
+      rtoken2: 'num2Token',
+      rtoken3: 'num3Token',
+      rtoken4: 'num4Token',
+      rtoken5: 'num5Token',
+      rtoken6: 'num6Token',
+      rtoken7: 'num7Token',
+      rtoken8: 'num8Token',
+
+      tile1: 192,
+      tile2: 23,
+      tile3: 12,
+      tile4: 202,
+      tile5: 199,
+      tile6: 200,
+      tile7: 1,
+      tile8: 2,
+
+      life1: 0,
+      life2: 0,
+      life3: 1,
+      life4: 0,
+      life5: 3,
+      life6: 3,
+      life7: 0,
+      life8: 0,
+
+      special_rules: '',
+
+      # campaign number   
+      event: '4',
+
+      # Result
+      hero_victory: '
+      <div class="col-md-6">
+        <p><span class="special_solo_title">Hero Victory:</span> If the Heroes win, they are awarded 1 Victory Point for each Hero 
+        who survives.</p>   
+      </div>
+
+
+      <div class="col-md-6">
+        <p><span class="special_solo_title">Hero Defeat:</span> If this scenario results in a Defeat, lose one Victory Point and replay 
+        the scenario.</p>
+      </div>',
+
+      overlord_victory: '',
+      correction: '',
+
+      origin: "Red Nails",
+      product_ids: [1, 3, 29],
+      map_ids: [6],
+      hero_ids: [],
+      tile_ids: [1, 2, 12, 23, 192, 199, 200],
+      spell_ids: [],
+      item_ids: [] },
+
+
+
+
+  # City of the Howling Souls
+  # The Deep Unknown
+    { name: "The Deep Unknown",
+      mode: 'Solo/Cooperative',
+      pdf_link:'City of the Howling Souls',
+      credit: 'Monolith Team',
+      player_count: "3-4",
+      complexity: '',
+
+      description: '
+      <div class="col-md-6">
+        <p>They paused at the entrance to the catacombs. “I sense black magic and wizardry in these dark tunnels. I tell you, our 
+        previous journey through these catacombs woke some dark evil,” the warrior said.</p>
+        <p>“I agree,” the sorcerer whispered, eyeing the darkness. “But with great danger comes great power. I sense these decrepit 
+        tombs hold magic from an ancient kingdom, and even a small taste of these treasures could aid us in the next part of our quest.”</p>
+      </div>
+      <div class="col-md-6">
+        <p>The rogue’s eyes lit up at the word treasure, but quickly lost interest. “I vote we get in and out as quickly as possible. 
+        I’ve risked my life for treasure before, but I’ll pass on anything from these cursed tombs.”</p>
+      </div>',
+
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Deep+Unknown.jpg",
+      
+      # scenario pre-title 
+      hero_goal: '',
+
+      # Setup
+      hero_setup: '
+      <div class="col-md-6">
+        <p><span class="setup_item">Objective</span></p>
+        <p>The game ends once the last surviving Hero escapes. If all the Heroes are killed and none escaped, the scenario ends in defeat.</p>
+
+
+        <p><span class="setup_item">Setup</span></p>
+        <p>Form a Spell deck with the following Spell cards: Changing Destiny, Deceleration, Set’s Bite, Lightning Storm, Tears of 
+        Dagon, Withering.</p>
+        <p><strong>The game starts with the Overlord’s turn.</strong> The Heroes start in the areas marked 
+        <span style="white-space: nowrap;"><img src="/assets/tokens/area1Token.png" class="scen_token" />.</span></p>
+ 
+       <table class="solo_left_table">
+          <tr>
+            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+            <td>After setup, each Hero moves 2 gems from their Reserve zone to their Fatigue zone.</td>
+          </tr>
+        </table>
+
+        <p><span class="setup_item">Special Rules</span></p>
+
+        <p><span class="special_solo_title">Game Board Rules:</span> Standard game board rules apply. A Hero with Climb must spend 2 
+        extra movement points to cross a border with a Web <img src="/assets/tokens/webToken.png" class="scen_token" /> token. 
+        Overlord units may cross borders with a Web token for no extra cost. Web tokens on borders block line of sight. Borders with a 
+        Boulder <img src="/assets/tokens/rocksToken.png" class="scen_token" /> token cannot be crossed and block line of sight.</p>
+        
+        <p><span class="special_solo_title">Escape:</span> A Hero may exit the board from a reinforcement area 
+        <img src="/assets/stats/reinforcement.png" class="scen_token" /> by spending movement points as though crossing a border. 
+        A Hero that escapes the board is NOT considered to be killed; they are still counted for the number of Activation tokens 
+        to be drawn.</p>
+       
+        <p><span class="special_solo_title">Skulls of My Enemies:</span> When the Burning Skull is killed, lay the miniature down in 
+        the area instead of removing it from the board. The Burning Skull’s skills are still in effect. A Hero who is not under 
+        the effects of Fascination can perform a complex Manipulation with a difficulty of 2 to crush the skull and receive 
+        a <img src="/assets/tokens/treasureToken.png" class="scen_token" /> token. When the skull is crushed, return the Burning Skull 
+        to its starting area and stand it up.</p>
+       
+        <p><span class="special_solo_title">Burning Skull:</span> If the Burning Skull is laying down when activated, stand it back up 
+        and activate it as normal.</p>
+        
+        <p><span class="special_solo_title">Crawler:</span> Targets the Strongest Hero.</p>
+        
+        <p><span class="special_solo_title">Giant Spider:</span> Attacks the closest Hero with a 
+        Web <img src="/assets/tokens/webToken.png" class="scen_token" /> token. If no Hero has a Web token, the Giant Spider will 
+        use Web Projection on the closest Hero, if it isn’t hindered, instead of its attack. If it is hindered, the Giant Spider 
+        will attack a Hero in its area.</p>
+
+      </div>
+
+
+
+      <div class="col-md-6">
+
+        <p><span class="setup_item">Events</span></p>
+
+        <p><span class="special_title">Event 1</span><br />
+        <span class="special_solo_title">Pipes of Madness: </span> “A strange, alluring music echoes throughout the catacombs.” Move 
+        each Hero and Ally 1 area away from the Burning Skull’s area. Hindering does not apply. The Heroes and Ally are considered 
+        to be under the effects of the Burning Skull’s Fascination skill again.</p>
+        
+        <p><span class="special_title">Event 2</span><br />
+        <span class="special_solo_title">Black Magic and Wizardry:</span> The players choose a Hero or Ally. Draw a spell from the Spell 
+        deck and apply the effects to that Hero, Ally, or their area as if they were the target of the spell. When the last card is drawn 
+        from the Spell deck, reshuffle all the spells to form a new deck.</p>
+        
+        <p><span class="special_title">Event 3</span><br/>
+        <span class="special_solo_title">Invoked out of Darkness:</span> Do the following in order:
+        <ol>
+          <li>Reinforce 1 Flaming Skeleton in each reinforcement area.</li>
+          <li>Reinforce the Crawler and the Giant Spider to their starting areas.</li>
+          <li>Activate all units reinforced during this Event.</li>
+        </ol></p>
+
+
+        <p><span class="setup_item">Options</span></p>
+
+        <p><span class="special_title">Non-Campaign Mode</span></p>
+        <p><span class="special_solo_title">Cache:</span> Battle Axe, Conan’s Sword, Chain Mail, Leather Armor, Pirate Saber, 
+        Sacrificial Dagger, Shield, Shuriken, Shuko, Sorcerer’s Staff, Two-handed Sword, Whip, Zingaran Bow.</p>
+        <p><span class="special_solo_title">Spells:</span> Archer of Acheron, Eldritch Lance, Mitra’s Healing, Spectral Shroud.</p>
+
+
+        <p><span class="special_title">Four Player Mode</span> 
+        <ul>
+          <li>The Giant Spider and Crawler each have 4 life points.</li>
+          <li>After setup, each Hero moves 4 gems from their Reserve zone to their Fatigue zone.</li>
+          <li><span class="special_solo_title">Reminder:</span> The Overlord activates four times per turn.</li>
+        </ul></p>
+
+    </div>',
+
+      overlord_goal: '',
+
+      overlord_setup: '',
+
+      rtoken1: 'num1Token',
+      rtoken2: 'num2Token',
+      rtoken3: 'num3Token',
+      rtoken4: 'num4Token',
+      rtoken5: 'num5Token',
+      rtoken6: 'num6Token',
+      rtoken7: 'num7Token',
+      rtoken8: '',
+
+      tile1: 188,
+      tile2: 193,
+      tile3: 189,
+      tile4: 78,
+      tile5: 1,
+      tile6: 2,
+      tile7: 51,
+      tile8: 999,
+
+      life1: 1,
+      life2: 0,
+      life3: 3,
+      life4: 3,
+      life5: 0,
+      life6: 0,
+      life7: 0,
+      life8: 0,
+
+      special_rules: '',
+
+      # campaign number   
+      event: '4.5',
+
+      # Result
+      hero_victory: '
+      <div class="col-md-6">
+        <p><span class="special_solo_title">Hero Victory:</span> At the end of the game, the players are not awarded Victory Points but 
+        each surviving Hero with a Treasure token randomly draws one of the following:
+        <ul>
+          <li>Spellbook - Add the Stone Skin spell to the Cache.</li>
+          <li>Unguent - A pot filled with a vile venom. A Hero with the Zingaran Bow may dip their arrows into the liquid. Discard 
+          the Zingaran Bow and the Unguent to replace them with the Bow of Set.</li>
+          <li>Pipes of Madness - A Hero may discard the Pipes of Madness to gain the effects of the Mind Control spell (up to 3 
+          movement points) for 1 turn. This does not require any gems and the user does not need to have the Spell Caster skill 
+          to use.</li>
+        </ul></p>
+
+        <p>In Four Player Mode, add the following card:
+        <ul>
+          <li>Phial- A Hero may discard the Phial to gain the effects of the Bel’s Hand spell for 1 turn. This does not require 
+          any gems and the user does not need to have the Spell Caster skill to use.</li>
+        </ul></p>
+
+      </div>
+
+
+      <div class="col-md-6">
+        <p><span class="special_solo_title">Hero Defeat:</span> The Heroes do not lose Victory Points and proceed to the next scenario.</p></div>',
+
+      overlord_victory: '',
+      correction: '',
+
+      origin: "Red Nails",
+      product_ids: [1, 3, 29, 30],
+      map_ids: [23],
+      hero_ids: [],
+      tile_ids: [1, 2, 51, 78, 188, 189, 193],
+      spell_ids: [],
+      item_ids: [] },
+
+
+
+
+
+
+  # City of the Howling Souls
+  # Redemption of Souls
+    { name: "Redemption of Souls",
+      mode: 'Solo/Cooperative',
+      pdf_link:'City of the Howling Souls',
+      credit: 'Monolith Team',
+      player_count: "3-4",
+      complexity: '',
+
+      description: '
+      <div class="col-md-6">
+        <p>The black stone grew warm when they emerged from the catacombs. Its etching began swirling like lost souls trapped inside. 
+        Deep, rumbling quakes began soon after, shaking the very foundations of the city.</p>
+        <p>The inhabitants had returned, or else they had been im- mune to the green mist. When the inhabitants saw them, the warrior 
+        recognized the bloodlust in their eyes, but also something else. Fear. Were they afraid of the black stone?</p>
+      </div>
+      <div class="col-md-6">
+        <p>Or were they tied to the curse, as one with the stone? Suddenly he realized what they needed to do.</p>
+        <p>“We need to free their souls,” he shouted. “They aren’t hu- man, they are the curse!” Just then, the ground heaved and a 
+        piece of stone fell from the ceiling, clattering across the balcony. Soon the entire hall would be rubble, and its destruction 
+        would end their chance to remove the curse.</p>
+      </div>',
+
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Redemption+of+Souls.jpg",
+      
+      # scenario pre-title 
+      hero_goal: '',
+
+      # Setup
+      hero_setup: '
+      <div class="col-md-6">
+        <p><span class="setup_item">Objective</span></p>
+        <p>If the Heroes eliminate all enemies before 7   tokens are placed, the Heroes win.</p>
+
+
+        <p><span class="setup_item">Setup</span></p>
+        <p><strong>The game starts with the Heroes’ turn.</strong> The Heroes start in the areas marked 
+        <span style="white-space: nowrap;"><img src="/assets/tokens/area1Token.png" class="scen_token" />.</span></p>
+
+       <table class="solo_left_table">
+          <tr>
+            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+            <td>After setup, each Hero moves 0 gems from their Reserve zone to their Fatigue zone.</td>
+          </tr>
+        </table>
+       
+
+        <p><span class="setup_item">Asset Deck</span></p>
+        <p>Chests require a complex Manipulation with a difficulty of 2 to open. The asset deck contains: Spellbook 
+        (Lightning Storm), Life Potion x2, Rope. If the Heroes already have the Rope in their Cache, replace it with an 
+        Empty Chest.</p>
+
+
+        <p><span class="setup_item">Special Rules</span></p>
+
+        <p><span class="special_solo_title">Game Board Rules:</span> Standard game board rules apply.</p>
+
+        <p><span class="special_solo_title">Doors:</span> The balcony door requires a complex Manipulation with a difficulty of 3 or 
+        Wall Wrecker to open. The door with the red border requires a simple Manipulation by a Hero with the Key. Overlord units 
+        will not move if there is a door between them and their Target Hero, except for the Soulless, who will move to the door 
+        and wait for a Hero to open it.</p>
+
+        <p><span class="special_solo_title">Crumbled Pillars:</span> Any area adjacent to a pillar with 
+        a <img src="/assets/tokens/rocksToken.png" class="scen_token" /> token costs 2 extra movement points to enter. A Hero with 
+        Climb, the Whip, or the Rope spends only 1 extra movement point. Overlord units are not affected by the Crumbled Pillars.</p>
+
+        <p><span class="special_solo_title">The Soulless:</span> When a Xotalanc Hunter or Tecuhltli Swordsman is killed, remove their 
+        miniature from the board and place a Soulless miniature in the Hidden Chamber. The Soulless cannot open doors.</p>
+
+        <p><span class="special_solo_title">Caged Threat:</span> If the Heroes did not rescue the Stygian Captain in Scenario 1: Escape 
+        from Xuchotl, replace the Crawler with the Bone Golem. This unit (whether the Bone Golem or the Crawler) targets the Strongest 
+        Hero.</p>
+
+        <p><span class="special_solo_title">Khosatral Khel:</span> Khosatral Khel can only be wounded by the Jade Wand. He targets the Hero 
+        with the Jade Wand. If no Hero has the Jade Wand, he targets the Strongest Hero.</p>
+
+      </div>
+
+
+      <div class="col-md-6">
+      <p></p><p></p>
+
+        <p><span class="special_solo_title">Relentless:</span> If a tile is activated and the activation would be wasted, activate all 
+        the Soulless instead. If there are no Soulless to activate, place 1 Soulless in the Hidden Chamber.</p>
+
+        <p><span class="special_solo_title">Tolkemec:</span> Tolkemec cannot be wounded except by a Hero using the Black Stone on him 
+        while he is captured (see Grab Him! and F*ck Your Sorcery!). When Tolkemec is killed, place the Jade Wand in his area.</p>
+
+        <p><span class="special_solo_title">Grab Him!:</span> A Hero in the same area as Tolkemec with the Whip or Rope can perform a 
+        complex Manipulation with a difficulty of 1 to capture Tolkemec. He remains captured until the start of the next Overlord’s 
+        turn.</p>
+
+        <p><span class="special_solo_title">F*ck Your Sorcery!:</span> A Hero with the Black Stone in the same area as a captured 
+        Tolkemec can attack him using Manipulation instead of a Melee Attack. The Black Stone provides no additional dice.</p>
+
+        <p><span class="special_solo_title">Silence the Howling:</span> A Hero in the Hidden Chamber may remove the Black Stone from 
+        the game with a simple Manipulation. Once it is removed, Overlord units no longer reinforce and the Soulless are no longer 
+        added.</p>
+
+        <p><span class="special_solo_title">Hidden Chamber:</span> The Hidden Chamber’s opening connects to the stairs in the bottom 
+        right area of the Xuchotl game- board as though it were a border WITH line of sight.</p>
+
+
+        <p><span class="setup_item">Events</span></p>
+
+        <p>Do the following in this order:
+         <ol>
+          <li>Reinforce 1 Flaming Skeleton, 1 Xotalanc Hunter and 1 Tecuhltli Swordsman and the Crawler (or Bone Golem). 
+          1 unit per Reinforcement token.</li>
+          <li>Place a <img src="/assets/tokens/rocksToken.png" class="scen_token" /> token one of the pillars marked 
+          <span style="white-space: nowrap;"><img src="/assets/tokens/area2Token.png" class="scen_token" />.</span></li>
+          <li>Activate Tolkemec.</li>
+        </ol></p>
+
+
+        <p><span class="setup_item">Options</span></p>
+
+        <p><span class="special_title">Non-Campaign Mode</span></p>
+        <p><span class="special_solo_title">Cache:</span> Battle Axe, Black Stone, Conan’s Sword, Chain Mail, Leather Armor, 
+        Pirate Saber, Sacrificial Dagger, Shield, Shuriken, Shuko, Sorcerer’s Staff, Two-handed Sword, Whip, Zingaran Bow.</p>
+        <p><span class="special_solo_title">Spells:</span> Archer of Acheron, Eldritch Lance, Mitra’s Healing, Spectral Shroud.</p>
+
+        <p><span class="special_title">Four Player Mode</span> 
+        <ul>
+          <li>Tolkemec has 12 life points. Khosatral Khel has 8.</li>
+          <li><span class="special_solo_title">Reminder:</span> The Overlord activates four times per turn.</li>
+        </ul></p>
+
+    </div>',
+
+      overlord_goal: '',
+
+      overlord_setup: '',
+
+      rtoken1: 'num1Token',
+      rtoken2: 'num2Token',
+      rtoken3: 'num3Token',
+      rtoken4: 'num4Token',
+      rtoken5: 'num5Token',
+      rtoken6: 'num6Token',
+      rtoken7: 'num7Token',
+      rtoken8: 'num8Token',
+
+      tile1: 1,
+      tile2: 185,
+      tile3: 11,
+      tile4: 189,
+      tile5: 193,
+      tile6: 199,
+      tile7: 196,
+      tile8: 195,
+
+      life1: 0,
+      life2: 10,
+      life3: 6,
+      life4: 3,
+      life5: 0,
+      life6: 0,
+      life7: 0,
+      life8: 0,
+
+      special_rules: '',
+
+      # campaign number   
+      event: '5',
+
+      # Result
+      hero_victory: '
+      <div class="col-md-6">
+        <p><span class="special_solo_title">Hero Victory:</span> If the Heroes win, they are awarded 1 Victory Point for each Hero who 
+        survived. Consult the Victory Chart on page 15 to see how history will remember you.</p>   
+      </div>
+
+
+      <div class="col-md-6">
+        <p><span class="special_solo_title">Hero Defeat:</span> If this scenario results in a Defeat, lose one Victory Point. Consult 
+        the Victory Chart on page 15 to see how history will remember you.</p></div>',
+
+      overlord_victory: '',
+      correction: '',
+
+      origin: "Red Nails",
+      product_ids: [1, 29],
+      map_ids: [21],
+      hero_ids: [],
+      tile_ids: [1, 11, 185, 189, 193, 195, 196, 199],
+      spell_ids: [],
+      item_ids: [] },
+
+
+
+
+
+
+      ## Red Nails
+      ## Adventure Mode
+
+      # Taming The Dragon
+    { name: "Taming The Dragon",
+      mode: 'Adventure',
+      pdf_link:'',
+      credit: 'Manu Crochet',
+      player_count: "3",
+      complexity: "2",
+
+      description: "<p>Conan crept forward through the dark jungle in the depths of Darfar. Up ahead, he spied Valeria moving lithely 
+      through the tropical vegetation. Her head perked up and he froze, listening for the sound of whatever caught her attention. 
+      With a beastly howl, Pictish warriors emerged from the brush all around them.</p>
+      <p>Conan drew his sword and the Picts paused, as if sensing their prey would not be as easy as they initially thought. Their 
+      war cry changed pitch into a series of guttural roars, as if calling for help. Conan tensed, ready to spring at the lead warrior 
+    when the guttural roars echoed back from the forest, far louder than the Picts had chanted and accompanied a thunderous shaking. 
+      Suddenly, a dragon emerged from the forest. Shockingly, it ignored the Picts and almost seemed to obey them. How could this tribe 
+      have domesticated such a terrible creature? Determination gripped Conan. Not only would they need to defeat the Picts, but this 
+      monstrous beast as well.</p>",
+
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Taming+the+Dragon.jpg",
+
+      hero_goal: 'To win, the Heroes must slay the Dragon of Xuchotl to scare away the Picts.',
+
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the Heroes’ turn. The Heroes start in the areas indicated by the setup diagram.</td>
+          <td></td>
+        </tr>
+      </table>
+      <table class="scen_table">
+        <tr>
+          <td><h4>2</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ConanFreeToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/51">Conan Free Companion</a>
+            (<a class="item" href="/items/1">Battle Axe</a>,
+              <a class="item" href="/items/17">Leather Armor</a>,
+              <a class="item" href="/items/22">Life Potion</a>),
+               commands 2&nbsp;<a class="tile" href="/tiles/30">Pirates</a>
+          </td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Pirates.jpg" class="scen_event"></td>
+        </tr>
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ValeriaFreeToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/57">Valeria Free Companion</a>
+            (<a class="item" href="/items/12">Sword</a>, 
+             <a class="item" href="/items/3">Dagger</a>, 
+             <a class="item" href="/items/17">Leather Armor</a>, 
+             <a class="item" href="/items/13">Throwing Knives</a>, 
+             <a class="item" href="/items/22">Life Potion</a>) 
+          </td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each Hero moves 4 gems from their Reserve zone to their Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
+
+      overlord_goal: 'To win, the Overlord must kill both Heroes.',
+
+      overlord_setup: '
+        <table class="scen_table">
+          <tr>
+            <td><img src="/assets/tokens/redGem.png" class="scen_token" /></td>
+            <td>TThe Overlord starts with 8 gems in their Reserve zone and 4 in their Fatigue zone, and places the Recovery 
+            token showing a recovery value of 5 in the Book of Skelos.</td>
+            <td></td>
+          </tr>
+        </table>
+        <table class="scen_table">
+          <tr>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><p>When an event tile is activated the Overlord may chooses one Event:</p>
+              <p><span class="setup_suggestion">Reinforcements:</span> Gain 3 reinforcement points 
+              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
+              <p><span class="setup_suggestion">Attack:</span> Activate the Dragon of Xuchotl without moving its tile.</p>
+            </td>
+            <td></td>
+          </tr>
+        </table>',
+
+      tile1: 28,
+      tile2: 85,
+      tile3: 191,
+      tile4: 27,
+      tile5: 29,
+      tile6: 1,
+      tile7: 23,
+      tile8: 999,
+
+      life1: 0,
+      life2: 0,
+      life3: 8,
+      life4: 0,
+      life5: 0,
+      life6: 0,
+      life7: 0,
+      life8: 0,
+
+      special_rules: '<p>
+      <span class="special_title">Game Board Rules:</span> Standard game board rules apply.</p>
+
+      <span class="special_title">Setup:</span> During setup, the Overlord takes 4 Chest tokens <img src="/assets/tokens/treasureToken.png" class="scen_token" /> 
+      marked 1 (which represent Thick Branches) and 4 Chest tokens <img src="/assets/tokens/treasureToken.png" class="scen_token" /> marked 
+      2 (which represent poisonous Apples of Derketo) and places them as they wish face down in the indicated areas.</p>
+     
+      <span class="special_title">Thick Hide:</span> Heroes cannot damage the Dragon of Xuchotl until it has 2 Poison Spear tokens 
+      on its tile.</p>
+
+      <span class="special_title">Makeshift Supplies:</span> Heroes need to find supplies and build a weapon to weaken the Dragon of 
+      Xuchotl. A Hero can have a maximum of 2 Thick Branches and 2 Apples of Derketo at a time. A Hero in an area with 
+      a <img src="/assets/tokens/treasureToken.png" class="scen_token" /> token can search the area by performing a complex Manipulation 
+      with a difficulty of 1 to flip the token and take it if possible. Otherwise, leave it face up in the area. A Hero in an area 
+      with a face up <img src="/assets/tokens/treasureToken.png" class="scen_token" /> token can pick it up by performing a simple 
+      Manipulation. Thick Branches and Apples of Derketo have an Encumbrance value of 0.</p>
+
+      <span class="special_title">Make a Poison Spear:</span> A Hero with 2 Thick Branches tokens and 2 Apple of Derketo tokens may 
+      perform a complex Manipulation with a difficulty of 1 to make a Poison Spear. Discard all 
+      4 <img src="/assets/tokens/treasureToken.png" class="scen_token" /> tokens and take 1 <img src="/assets/stats/flameToken.png" class="scen_token" /> 
+      token (which represents a Poison Spear). This has an Encumbrance value of 0 and can only be used to poison the Dragon of Xuchotl. 
+      A Hero can have 2 Poison Spear tokens.</p>
+
+      <span class="special_title">Poison the Dragon:</span> A Hero with a Poison Spear may attempt to poison the Dragon of Xuchotl by 
+      rolling 2 successes with a Melee Attack. The attack does not need to exceed the Dragon’s Armor and the Overlord cannot Guard 
+      against this attack. However, this attack does not benefit from Weapon or Item cards Attack bonuses. If the attack succeeds, 
+      place the <img src="/assets/stats/flameToken.png" class="scen_token" /> token on the Dragon’s tile. Then the Overlord removes 1 
+      energy gem from the Book of Skelos (from the zone of the Overlord’s choice) and the Dragon loses 1 point of Armor. 
+      If the attack fails, the Hero keeps the <img src="/assets/stats/flameToken.png" class="scen_token" /> token.</p>
+
+      <span class="special_title">Enraged:</span> If the Dragon of Xuchotl has 2 <img src="/assets/stats/flameToken.png" class="scen_token" /> 
+      tokens when it activates, the Overlord must move the Dragon towards the closest Hero and attack them if possible. In the event 
+      of a tie, the Overlord chooses which Hero to attack.</p>',
+
+      correction: '',
+      hero_victory: '',
+      overlord_victory: '',
+
+      origin: "Red Nails",
+      product_ids: [1, 3, 29],
+      map_ids: [20],
+      hero_ids: [51, 57],
+      tile_ids: [1, 23, 27, 28, 29, 85, 191],
+      spell_ids: [],
+      item_ids: [] },
+
+
+
+      # The Door of the Eagle
+    { name: "The Door of the Eagle",
+      mode: 'Adventure',
+      pdf_link:'',
+      credit: 'Ken Meyri',
+      player_count: "4",
+      complexity: "3",
+
+      description: "<p>Valeria shivered in spite of herself. She feared no man. But the weird floor beneath her feet, the uncanny 
+      jewels over her head, dividing the lurking shadows among them, the stealth and terror of their guide, impressed her with a 
+      nameless apprehension, a sensation of lurking, inhuman peril.</p>
+      <p>Techotl smote on the bronze door with his clenched hand, and then turned sidewise, so that he could watch back along the hall. 
+      “Men have been smitten down before this door, when they thought they were safe,” he said. He lifted his voice and called: “Open 
+      the door, Xecelan! It is I, Techotl, with friends from the great world beyond the forest!—They will open,” he assured his allies. 
+      “They’d better do it in a hurry, then,” said Conan grimly. “I hear something crawling along the floor beyond the hall.”</p>
+      <p>Techotl went ashy again and attacked the door with his fists, screaming: “Open, you fools, open! The Crawler is at our heels!”</p>",
+
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Door+of+the+Eagle.jpg",
+
+      hero_goal: 'The Heroes must topple the Red Nails pillar before the end of turn 12 to win.',
+
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>TThe game starts with the Heroes’ turn. The Heroes start in the areas indicated by the setup diagram.</td>
+          <td></td>
+        </tr>
+      </table>
+      <table class="scen_table">
+        <tr>
+          <td><h4>3</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ConanToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/2">Conan</a>
+            (<a class="item" href="/items/38">Turanian Sword</a>, 
+             <a class="item" href="/items/41">Zingaran Breastplate</a>, 
+             <a class="item" href="/items/22">Life Potion</a>) 
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ValeriaToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/7">Valeria</a>
+            (<a class="item" href="/items/167">Whip</a>, 
+             <a class="item" href="/items/11">Parrying Dagger</a>, 
+             <a class="item" href="/items/13">Throwing Knives</a>, 
+             <a class="item" href="/items/17">Leather Armor</a>) 
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/TechotlToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/55">Techotl</a>
+            (<a class="item" href="/items/12">Sword</a>, 
+             <a class="item" href="/items/17">Leather Armor</a>, 
+             <a class="item" href="/items/9">Kris</a>, 
+             <a class="item" href="/items/22">Life Potion</a>) 
+          </td>
+          <td></td>
+        </tr>
+      </table>
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each hero moves 0 gems from their Reserve zone to their Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
+
+      overlord_goal: 'The Overlord must keep the Red Nails pillar from being toppled by the end of turn 12 to win.',
+
+      overlord_setup: '
+        <table class="scen_table">
+          <tr>
+            <td><img src="/assets/tokens/redGem.png" class="scen_token" /></td>
+            <td>The Overlord starts with 0 gems in their Reserve zone and 10 in their Fatigue zone, and places the 
+            Recovery token showing a recovery value of 3 in the Book of Skelos.</td>
+            <td></td>
+          </tr>
+        </table>
+        <table class="scen_table">
+          <tr>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><p>When an event tile is activated the Overlord resolves the following event:</p>
+              <p><span class="setup_suggestion">Reinforcements:</span> The Overlord gains 2 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
+            </td>
+            <td></td>
+          </tr>
+        </table>',
+
+      tile1: 999,
+      tile2: 999,
+      tile3: 999,
+      tile4: 202,
+      tile5: 1,
+      tile6: 999,
+      tile7: 999,
+      tile8: 999,
+
+      life1: 0,
+      life2: 0,
+      life3: 0,
+      life4: 0,
+      life5: 0,
+      life6: 0,
+      life7: 0,
+      life8: 0,
+
+      special_rules: '<p><span class="special_title">Game Board Rules:</span> Standard game board rules apply.</p>
+        <p><span class="special_title">Setup:</span> The Overlord shuffles 3 Stairs tokens (1 green, 2 red) and places 
+        them face-down as indicated on the setup diagram. Then the Overlord shuffles the Numbered tokens 1 through 12 (or the 
+        Scenario cards, see page 5) and randomly places six of them face-down in the rooms indicated. Remove the extra tokens/cards 
+        from the game without looking at them.</p>
+
+        <p><span class="special_title">Rope Placement:</span> A Hero in an area with a pillar may perform a simple 
+        Manipulation and discard the Whip card to place a Rope token on that pillar. A Hero in an area with a Rope token may perform 
+        a simple Manipulation to remove the token from the board to pick up the Whip card.</p>
+        
+        <p><span class="special_title">Rope Use:</span> A unit (Hero or Overlord) in an area with a Rope token may descend 
+        to the floor below by performing a complex Manipulation with a difficulty of 2 (Hero) or for 2 movement points (Overlord). 
+        Reduce these values to 1 if the unit has Climb. In addition, a unit with Climb in an area with a Rope token may ascend to the 
+        floor above by spending 2 movement points. Ascending is affected by hindering.</p>
+        
+        <p><span class="special_title">Doors:</span> The door with the red border can never be opened by the Heroes or 
+        removed from the board. Overlord units may move freely through this door as if it were a border. The door with a blue border 
+        can only be opened by a Hero with the Pipes of Madness performing a simple Manipulation. All other doors can be opened with a 
+        complex Manipulation with a difficulty of 2 or Wall Wrecker.</p>
+        
+        <p><span class="special_title">Room Events:</span> The Numbered tokens/Scenario cards represent Room Events. 
+        Whenever a door is opened, reveal the token or corresponding Scenario card and perform both actions on the Scenario card.</p>
+        
+        <p><span class="special_title">Stairs:</span> When a Hero enters an area with a Stairs token 
+        <img src="/assets/tokens/secretPassageToken.png" class="scen_token" />, flip the token. 
+        If there is a red X on the other side, remove the token. It is a dead end. If there is a green check on the other side 
+        <img src="/assets/tokens/secretPassageToken.png" class="scen_token" />, it represents a hidden stairway that connects to 
+        the Stairs token in the Hidden Chamber. The area with the green Stairs token 
+        now connects with the Hidden Chamber as though it were a border WITHOUT line of sight.</p>
+        
+        <p><span class="special_title">Hidden Chamber:</span> The Hidden Chamber’s opening connects to the stairs in the 
+        bottom right area of the Xuchotl board as though it were a border WITH line of sight.</p>
+        
+        <p><span class="special_title">Red Nails Pillar:</span> The pillar on the dais 
+        <img src="/assets/tokens/area1Token.png" class="scen_token" /> represents the cycle of violence that needs to end. A Hero in 
+        an area adjacent to the pillar may topple it by performing a complex Manipulation with a difficulty of 13. Reduce this 
+        difficulty by 2 for each Room Event revealed.</p>
+        
+        <p><span class="special_title">Chests:</span> Chests require a complex Manipulation with a difficulty of 1 to open. 
+        The Asset deck contains: Pipes of Madness, Chain Mail, Life Potion x2, Stygian Scepter, Halberd. The Pipes of Madness cannot be 
+        destroyed. If an effect would destroy them, choose another item instead.</p>',
+
+      correction: '',
+      hero_victory: '',
+      overlord_victory: '',
+
+      origin: "Red Nails",
+      product_ids: [1, 29],
+      map_ids: [21],
+      hero_ids: [2, 7, 55],
+      tile_ids: [1, 202],
+      spell_ids: [],
+      item_ids: [] },
+
+
+
+
+      # The Mad Tyrant
+    { name: "The Mad Tyrant",
+      mode: 'Adventure',
+      pdf_link:'',
+      credit: 'Ken Meyri',
+      player_count: "5",
+      complexity: "3",
+
+      description: "<p>Conan awoke gradually as the drums banging inside his skull subsided into dull thumps. As his eyes opened, 
+      Olmec’s hulking figure came into focus over him. With a start, Conan leapt up and slammed the king against the steel bars of 
+      their cage. “What treachery is this?” Conan shouted. Olmec held his hands up in a sign of appeasement. “It’s that madman 
+      Tolkemec. He’s imprisoned Valeria and Tascela in his chambers, and guards us with his warriors and pet dragon.” Footsteps 
+      alerted Conan to the arrival of two allies, whose faces dropped when they saw the locked gate. With a laugh, Conan said, 
+      “Let’s bust this door down and rescue the women!”</p>
+      <p>In the chambers near the throne room, the soldiers still loyal to Tascela knelt in obeisance, awaiting her command. “Well,” 
+      Valeria shouted through the hallway, “what are we waiting for? Let’s kill this tyrant and rescue the men!”</p>",
+
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Mad+Tyrant.jpg",
+
+      hero_goal: 'Conan & Valeria win if the Dragon of Xuchotl and Tolkemec are killed before the end of turn 10 and they are both 
+      still alive. Olmec and Tascela win if the Dragon and Tolkemec are killed before the end of turn 10 and they are both still alive.',
+
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the Heroes’ turn. The Heroes start in the areas indicated by the setup diagram.</td>
+          <td></td>
+        </tr>
+      </table>
+      <table class="scen_table">
+        <tr>
+          <td><h4>4</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ConanToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/2">Conan</a>
+            (<a class="item" href="/items/3">Dagger</a>),
+             commands&nbsp;<a class="tile" href="/tiles/187">Stygian Captain</a>
+          </td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/StygianCaptain.jpg" class="scen_event"></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ValeriaToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/7">Valeria</a>
+            (<a class="item" href="/items/35">Pirate Saber</a>, 
+             <a class="item" href="/items/17">Leather Armor</a>) 
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/OlmecToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/52">Olmec</a>
+            (<a class="item" href="/items/3">Dagger</a>),
+              commands&nbsp;<a class="tile" href="/tiles/186">Techotl</a>
+          </td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Techotl.jpg" class="scen_event"></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/TascelaToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/54">Tascela</a>
+            (<a class="item" href="/items/37">Stygian Scepter</a>, 
+             <a class="spell" href="/spells/74">Enthrallment</a>), 
+              commands 4&nbsp;<a class="tile" href="/tiles/196">Tecuhltli Swordsmen</a>
+          </td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/TecuhltliSwordsmen.jpg" class="scen_event"></td>
+          <td></td>
+        </tr>
+      </table>
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each Hero moves 4 gems from their Reserve zone to their Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
+
+      overlord_goal: 'The Overlord wins immediately if either Conan or Valeria AND either Olmec or Tascela are killed 
+      - or - if either the Dragon or Tolkemec are still alive at the end of turn 10.',
+
+      overlord_setup: '
+        <table class="scen_table">
+          <tr>
+            <td><img src="/assets/tokens/redGem.png" class="scen_token" /></td>
+            <td>The The Overlord starts with 6 gems in their Reserve zone and 6 in their Fatigue zone, and places the 
+            Recovery token showing a recovery value of 3 in the Book of Skelos.</td>
+            <td></td>
+          </tr>
+        </table>
+        <table class="scen_table">
+          <tr>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><p>When an event tile is activated the Overlord resolves the following event:</p>
+              <p><span class="setup_suggestion">Reinforcements:</span> The Overlord gains 4 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" /> . Only one unit can be reinforced in each 
+              reinforcement area   .</p>
+            </td>
+            <td></td>
+          </tr>
+        </table>
+        <table class="scen_table">
+          <tr>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/TolkemecToken.png" class="scen_setup"></td>
+            <td><a class="tile" href="/tiles/185">Tolkemec</a> has the <a class="item" href="/items/180">Jade Wand.</a></td>
+            <td></td>
+          </tr>
+        </table>',
+
+      tile1: 999,
+      tile2: 201,
+      tile3: 198,
+      tile4: 191,
+      tile5: 185,
+      tile6: 202,
+      tile7: 1,
+      tile8: 999,
+
+      life1: 0,
+      life2: 0,
+      life3: 0,
+      life4: 10,
+      life5: 4,
+      life6: 0,
+      life7: 0,
+      life8: 0,
+
+      special_rules: '<p><span class="special_title">Game Board Rules:</span> Standard game board rules apply.</p>
+
+      <p><span class="special_title">Hidden Chamber:</span> The Hidden Chamber’s opening connects to the stairs in the bottom right 
+      area of the Xuchotl board as though it were a border WITH line of sight.</p>
+
+      <p><span class="special_title">Setup:</span> During setup, the Overlord shuffles the 13 Treasure tokens 
+      <img src="/assets/tokens/treasureToken.png" class="scen_token" /> and places them facedown as indicated on the setup diagram.</p>
+
+      <p><span class="special_title">Doors:</span> The door with the red border can only be opened by a Hero using Wall Wrecker. The 
+      door with the blue border opens automatically when the Dragon of Xuchotl is killed or if the Energy Globe is shattered. All 
+      other doors can be opened with a simple Manipulation.</p>
+
+      <p><span class="special_title">Indestructible:</span> The Dragon of Xuchotl cannot be harmed except by melee weapons that have 
+      been dipped in poison. Tolkemec cannot be harmed until the Energy Globe is shattered.</p>
+
+      <p><span class="special_title">Energy Globe:</span> A Hero with the Tools card in the same area as the Energy Globe 
+      <img src="/assets/tokens/energyToken.png" class="scen_token" /> may shatter it with a simple Manipulation. Dragon: The Dragon 
+      of Xuchotl cannot climb stairs. Contrary to standard rules, its Reach ability allows the Dragon to attack units at a different 
+      elevation as long as it has line of sight.</p>
+
+      <p><span class="special_title">Makeshift Tools:</span> Treasure tokens represent various items throughout the area. A Hero in 
+      an area with a facedown Treasure token <img src="/assets/tokens/treasureToken.png" class="scen_token" /> may perform a simple 
+      Manipulation to search for components. Flip the token. If the number of the reverse side is 1, the item is trash: remove it 
+      from the game. If the number is 2, the item is usable: keep it. These tokens have an Encumbrance value of 0 and may be dropped, 
+      thrown, or traded like other items. As a free action, a Hero with four tokens may exchange them for the Tools card.</p>
+
+      <p><span class="special_title">Mixed Motivations:</span> If Conan or Valeria dies, remove them both from the board, since the 
+      survivor has lost the motivation to continue with the rescue. If Olmec or Tascela dies, remove them both from the board for the 
+      same reason. In either case, the remaining Heroes recover gems as though two Heroes had died.</p>
+
+      <p><span class="special_title">Mixing the Poison:</span> A Hero adjacent to the bath 
+      <img src="/assets/tokens/area1Token.png" class="scen_token" /> may discard the Phial to poison the water. Afterwards, any Hero 
+      adjacent to the bath may dip their weapon in the poison as a free action. The poison lasts for the remainder of the game.</p>
+
+      <p><span class="special_title">Chests:</span> Chests require a complex Manipulation with a difficulty of 1 to open. The Asset deck 
+      contains: Chain Mail, Halberd, Life Potion x2, Phial, Shield.</p>',
+
+      correction: '',
+      hero_victory: '',
+      overlord_victory: '',
+
+      origin: "Red Nails",
+      product_ids: [1, 29],
+      map_ids: [21],
+      hero_ids: [2, 7, 52, 54],
+      tile_ids: [1, 185, 191, 198, 201, 202],
+      spell_ids: [],
+      item_ids: [] },
+
+
+
+
+      # Dragons Fell Upon Them
+    { name: "Dragons Fell Upon Them",
+      mode: 'Adventure',
+      pdf_link:'',
+      credit: 'Dan Mauric',
+      player_count: "5",
+      complexity: "3",
+
+      description: "<p>“Aye. More than half a century ago a tribe of the Tlazitlans rebelled against the Stygian king, and, being 
+      defeated in battle, fled south- ward... a thousand fighting-men with their women and children.</p>
+      <p>It was in the forest that the dragons fell upon them, and tore many to pieces; so the people fled in a frenzy of fear 
+      before them, and at last came into the plain and saw the city of Xuchotl in the midst of it.</p>
+      <p>The people of the city shut their gates and shot arrows at our people from the walls.”</p>
+
+      <p>Olmec - Red Nails, R.E. Howard</p>",
+
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Dragons+Fell+Upon+Them.jpg",
+
+      hero_goal: 'The Heroes win if 5 Tlazitlans and both Sacred Treasures have exited the board.',
+
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td></td>
+          <td>The Heroes start in the areas indicated by the setup diagram.</td>
+          <td></td>
+        </tr>
+      </table>
+     <table class="scen_table">
+        <tr>
+          <td><h4>4</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/OlmecToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/52">Olmec</a>
+            (<a class="item" href="/items/38">Turanian Sword</a>),
+              commands 4&nbsp;<a class="tile" href="/tiles/197">Tlazitlans</a> with a purple base
+          </td>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Tlazitlans.jpg" class="scen_event"></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/TechotlToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/55">Techotl</a>
+            (<a class="item" href="/items/12">Sword</a>), 
+              commands 4&nbsp;<a class="tile" href="/tiles/197">Tlazitlans</a> with a red base
+          </td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/TascelaToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/54">Tascela</a>
+            (<a class="item" href="/items/43">Mitra’s Staff</a>,
+             <a class="item" href="/items/160">Shuko</a>,  
+             <a class="spell" href="/spells/75">Protective Circle</a>) 
+              commands 4&nbsp;<a class="tile" href="/tiles/197">Tlazitlans</a> with a blue base
+          </td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/TolkemecToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/56">Tolkemec</a>
+            (<a class="item" href="/items/162">Sorcerer’s Staff</a>,
+             <a class="item" href="/items/161">Shuriken</a>,
+             <a class="spell" href="/spells/8">Mind Control</a>,
+             <a class="spell" href="/spells/27">Drying Earth</a>)
+          </td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each hero moves 0 gems from their Reserve zone to their Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
+
+      overlord_goal: 'The Overlord wins if 7 Tlazitlans are killed or if the Heroes fail to get both Sacred Treasures off the board.',
+
+      overlord_setup: '
+        <table class="scen_table">
+          <tr>
+            <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+            <td>The game starts with the Overlord’s turn.</td>
+            <td></td>
+          </tr>
+        </table>
+        <table class="scen_table">
+          <tr>
+            <td><img src="/assets/tokens/redGem.png" class="scen_token" /></td>
+            <td>The Overlord starts with 1 gem in their Reserve zone and 3 in their Fatigue zone, and places the Recovery token 
+            showing a recovery value of 3 in the Book of Skelos.</td>
+            <td></td>
+          </tr>
+        </table>
+
+        <table class="scen_table">
+          <tr>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><p>When an event tile is activated the Overlord completes the following:</p>
+
+          <p><span class="setup_suggestion">Dragons Fell Upon Them:</span> Do the following in order:
+            <ol>
+              <li>Activate the Dragon token.</li>
+              <li>Choose 1 of the following:</li>
+              <ul>
+                <li>3 Reinforcement Points. Xuchotlian Archer reinforcements must be placed in a cliff area of the 
+                Overlord’s choosing and Crocodile reinforcements must be placed in a water area.</li>
+                <li>Activate the Crocodiles. Crocodiles in water areas are submerged and may not be attacked.</li>
+              </ul>
+            </ol></p>
+            </td>
+            <td></td>
+          </tr>
+        </table>',
+
+      tile1: 999,
+      tile2: 999,
+      tile3: 191,
+      tile4: 203,
+      tile5: 1,
+      tile6: 999,
+      tile7: 192,
+      tile8: 999,
+
+      life1: 0,
+      life2: 0,
+      life3: 0,
+      life4: 0,
+      life5: 0,
+      life6: 0,
+      life7: 0,
+      life8: 0,
+
+      special_rules: '<p><span class="special_title">Game Board Rules:</span> Standard game board rules apply.</p>
+
+        <p><span class="special_title">Setup:</span> Place the Dragon of Xucholt in the bottom right area of the board, as 
+        indicated in the setup diagram. Then, place the Dragon’s Life Point token 
+        <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/DragonXuchotlToken.png" class="scen_setup">
+        in the area with the <img src="/assets/tokens/area1Token.png" class="scen_token" />. This Dragon token 
+        represents a second Dragon that is identical to the Dragon of Xuchotl for all purposes and is activated by the Event tile. 
+        Place the Crocodiles tile near the Book of Skelos to be used as a reference, but do not place it in the River with the other 
+          tiles. Crocodiles can only be activated by the Event tile.</p>
+
+        <p><span class="special_title">Tlazitlans:</span> Regardless of their colored base, all Tlazitlans have the same characteristics.</p>
+
+        <p><span class="special_title">Battlefield Promotion: </span>If a Hero with Leadership is killed or flees the board, their 
+        Allies may be commanded by any other Hero with Leadership. When the last Hero is killed, the Tlazitlans still on the board 
+        are immediatly devoured by the Dragon. Shot Arrows from the Walls: The Xuchotlan Archers cannot leave the cliff top areas.</p>
+
+        <p><span class="special_title">Tore Many to Pieces:</span> Before a Tlazitlan can enter an area with a Skull Pile, the Hero 
+        that activated the unit must first make a complex Manipulation with a difficulty of 2. If the complex Manipulation fails, 
+        the Tlazitlan’s movement ends in its current area.</p>
+
+        <p><span class="special_title">Dragons Are Immortal:</span> The Dragon of Xuchotl and the Dragon token cannot be killed. When 
+        wounded, instead of taking damage the Overlord must move it into an adjacent area.</p>
+
+        <p><span class="special_title">Crashing through the Woods:</span> Place a <img src="/assets/tokens/brokenWallToken.png" class="scen_token" /> 
+        token in any area where the Dragon of Xuchotl or Dragon token end their activation 
+        (maximum 1 <img src="/assets/tokens/brokenWallToken.png" class="scen_token" /> per area).</p>
+
+        <p><span class="special_title">Unstable Areas:</span> Areas with <img src="/assets/tokens/brokenWallToken.png" class="scen_token" /> 
+        tokens are considered unstable. It costs 2 extra movements points to move out of an unstable area. The Dragon of Xuchotl and 
+        Dragon token are not affected by unstable areas.</p>
+
+        <p><span class="special_title">Fleeing the Board:</span> Any Hero or Ally can flee the board from a reinforcement area 
+        <img src="/assets/stats/reinforcement.png" class="scen_token" /> by spending movement points as if they were crossing a border. 
+        When the last Hero flees, the Tlazitlans still on the board are immediatly devoured by the Dragon.</p>',
+
+      correction: '',
+      hero_victory: '',
+      overlord_victory: '',
+
+      origin: "Red Nails",
+      product_ids: [1, 29],
+      map_ids: [20],
+      hero_ids: [52, 54, 55, 56],
+      tile_ids: [1, 191, 192, 203],
+      spell_ids: [],
+      item_ids: [] },
+
+
+
+
+
+  # Versus
+  # The Last Stand
+    { name: "The Last Stand",
+      mode: 'Versus',
+      pdf_link:'',
+      credit: 'Manu Crochet',
+      player_count: "2",
+      complexity: '',
+
+      description: '
+      <p>On the banks of the Black River at the edge of the Pictish wilderness, a moonless night shrouds Fort Tuscelan in darkness. 
+      This out- post represents the furthest reaches of civilization, a beacon protecting the civilized world from savage hordes. 
+      Controlling it ensures the stratigic advantage of exploiting the region’s abundant fur and mineral resources.
+      <p>The guards manning the walls understood this, and thus were not surprised when the cries and war drumming began echoing 
+      beyond the ramparts. All around the bastion, armed shadows emerged from the foliage while others crossed the river on makeshift 
+      boats. Gripping their weapons, the guards sounded the alarm and prepared for battle, determined to defend their lives and every 
+      inch of the fort and knowing the attackers would do everything in their power to seize it.</p>',
+
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Last+Stand.jpg",
+
+
+      # End-Game Conditions:
+      hero_victory: '<p>At the end of turn 8, a player controls more Strategic Zones than their opponent. In case of a tie, the players 
+      play an additional turn until one of the victory conditions is met.</p>',
+
+      
+      # General Victory Condition 
+      hero_goal: "The General controls more Strategic Zones than the Warlord.",
+
+
+      # General Setup
+      hero_setup: '<p>The General starts with <strong>9 gems</strong> in their Reserve zone and <strong>2 gems</strong> in their 
+      Fatigue zone, and places the Recovery token showing a <strong>recovery value of 5</strong> in their Book of Skelos.</p>
+      <p>The General may choose one spell: <strong>Deceleration, Bori’s Rage</strong>.</p>',
+
+
+      # Warlord Victory Condition 
+      overlord_goal: "The Warlord controls more Strategic Zones than the General.",
+
+
+      # Warlord Setup
+      overlord_setup: '<p><strong>Initiative:</strong> The Warlord has the initiative and starts the game.</p>
+      <p>The Warlord starts with <strong>11 gems</strong> in their Reserve zone and <strong>0 gems</strong> in their Fatigue zone, 
+      and places the Recovery token showing a <strong>recovery value of 5</strong> in their Book of Skelos.</p>
+      <p>The Warlord may choose one spell: <strong>Borne by the Wind (vs), Withering</strong>.</p>',
+
+      btoken1: 'Minion',
+      btoken2: 'Minion',
+      btoken3: 'Leader',
+      btoken4: 'Minion',
+      btoken5: 'Champion',
+      btoken6: '<img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" >',
+      btoken7: 'Minion',
+      btoken8: '',
+
+      rtoken1: 'Champion',
+      rtoken2: 'Minion',
+      rtoken3: 'Leader',
+      rtoken4: 'Minion',
+      rtoken5: 'Minion',
+      rtoken6: '<img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" >',
+      rtoken7: 'Minion',
+      rtoken8: '',
+
+      tile1: 4,
+      tile2: 5,
+      tile3: 1,
+      tile4: 4,
+      tile5: 4,
+      tile6: 0,
+      tile7: 4,
+      tile8: 0,
+
+      life1: 4,
+      life2: 4,
+      life3: 1,
+      life4: 5,
+      life5: 4,
+      life6: 0,
+      life7: 4,
+      life8: 0,
+
+
+      # Event:   
+      event: '<p>The player activates their Leader. Then, they may use the following Special Rule:</p>
+      <p><span class="special_title">Infiltration and repositioning:</span> The player may choose 2 of their units (other than the 
+      Leader) to perform a Move action up to 2 areas, ignoring hindering and the game board rule <b>“Ladders”</b>.</p>',
+
+
+      # Special Rules:  
+      special_rules: '
+        <p><span class="special_title">Game Board Rules:</span> Standard game board rules apply.</p>
+        <p><span class="special_title">Strategic Zones:</span> A Strategic Zone is indicated on the setup diagram 
+        by one or several areas in color. There are 5 of them. They represent strategic points to be protected or captured.</p>
+        <p><span class="special_title">Control a Strategic Zone:</span> A player controls a Strategic Zone if they 
+        have more units than their opponent in that Strategic Zone at the end of a game turn. In case of a tie, neither player 
+          controls the Strategic Zone.',
+      
+      overlord_victory: '',
+
+      correction: '',
+
+      origin: "Versus",
+      product_ids: [1, 30],
+      map_ids: [22],
+      hero_ids: [],
+      tile_ids: [],
+      spell_ids: [],
+      item_ids: [] },
+
+
+
+
+  # Versus
+  # Necrological Dig
+    { name: "Necrological Dig",
+      mode: 'Versus',
+      pdf_link:'',
+      credit: 'Manu Crochet',
+      player_count: "2",
+      complexity: '',
+
+      description: '
+      <p>About a hundred kilometers south of the Styx River lies Luxur, the royal capital of Stygia. This nerve center of silk trade 
+      attracts all sorts of individuals willing to do anything to seize the wealth that is exchanged there daily. The city is just as 
+        well known for its mar- kets overflowing with spices, jewels, and ivory as it is for its narrow streets housing numerous seedy 
+        taverns.</p>
+      <p>In one of these taverns, a wild-eyed drunkard is telling an insane story in exchange for drinks to anyone who will listen. 
+      He claims to have discovered a tomb filled with ancient treasures to the east, at the foot of the Mountains of Fire, and asserts 
+      that he alone survived from his expedition. His gaze freezes into emptiness as he tells of the unspeakable horror they had to 
+      face and the massacre of his companions.</p>
+      <p>Amidst the mockery and insults, groups of mercenaries listen to him attentively, each one imagining their share of the loot. 
+      Fueled by the thirst for the crazy riches described by the drunkard, two expeditions hastily form and head towards the tomb. Who 
+      knows what they will encounter in the maze of catacombs.</p>',
+
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Necrological+Dig.jpg",
+    
+
+      # End-Game Conditions:
+      hero_victory: '<p>At the end of turn 8, a player has more Treasures than their opponent. In case of a tie, the game ends if 
+      the Bone Golem has been killed. If the Bone Golem has not been killed, the players play an additional turn until the Bone Golem 
+      is killed.</p>',
+      
+
+      # General Victory Condition 
+      hero_goal: "The General has more Treasures than the Warlord (see Special Rule “Tiebreaker”).",
+
+
+      # General Setup
+      hero_setup: '<p><strong>Initiative:</strong> The General has the initiative and starts the game.</p>
+      <p>The General starts with <strong>11 gems</strong> in their Reserve zone and <strong>0 gems</strong> in their Fatigue zone, 
+      and places the Recovery token showing a <strong>recovery value of 5</strong> in their Book of Skelos.</p>
+      <p>The General may choose one spell: <strong>Set’s Possession, Borne by the Wind (vs)</strong>.</p>',
+
+
+      # Warlord Victory Condition 
+      overlord_goal: "The Warlord has more Treasures than the General (see Special Rule “Tiebreaker”).",
+
+
+      # Warlord Setup
+      overlord_setup: '<p>The Warlord starts with <strong>9 gems</strong> in their Reserve zone and <strong>2 gems</strong> in their 
+      Fatigue zone, and places the Recovery token showing a <strong>recovery value of 5</strong> in their Book of Skelos.</p>
+      <p>The Warlord may choose one spell: <strong>Deceleration, Mind Control</strong>.</p>',
+
+
+      btoken1: 'Minion',
+      btoken2: 'Leader',
+      btoken3: 'Champion',
+      btoken4: 'Minion',
+      btoken5: 'Champion',
+      btoken6: '<img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" >',
+      btoken7: 'Minion',
+      btoken8: '',
+
+      rtoken1: 'Minion',
+      rtoken2: 'Leader',
+      rtoken3: 'Champion',
+      rtoken4: 'Minion',
+      rtoken5: 'Champion',
+      rtoken6: '<img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" >',
+      rtoken7: 'Minion',
+      rtoken8: '',
+
+      tile1: 4,
+      tile2: 1,
+      tile3: 3,
+      tile4: 4,
+      tile5: 3,
+      tile6: 0,
+      tile7: 4,
+      tile8: 0,
+
+      life1: 4,
+      life2: 1,
+      life3: 3,
+      life4: 4,
+      life5: 3,
+      life6: 0,
+      life7: 4,
+      life8: 0,
+
+
+      # Event:   
+      event: '<p>The player activates their Leader. Then, they may use the following Special Rule.</p>
+      <p><span class="special_title">The Guardian of the Tomb:</span> The player performs an activation with the Bone Golem. Benefits cannot be used for this 
+      activation, as well as the Special Rule <b>“Collect a Treasure”</b>.</p>',
+
+
+      # Special Rules:   
+      special_rules: '<p><span class="special_title">Game Board Rules:</span> Standard game board rules apply.</p>
+      <p><span class="special_title">Setup:</span> Place 9 <img src="/assets/tokens/treasureToken.png" class="scen_token" /> tokens 
+      in the areas indicated by the setup diagram to represent Treasures.</p>
+      <p><span class="special_title">Collect a Treasure:</span> A unit in an area with a 
+      <img src="/assets/tokens/treasureToken.png" class="scen_token" /> token may replace their Attack to collect that Treasure. In this 
+      case, the player rolls <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> (no rerolls allowed). If the die shows 0 or 
+        1 success, the  <img src="/assets/tokens/treasureToken.png" class="scen_token" /> is placed under that unit’s miniature. If the die 
+        shows 2 successes, they trigger a trap and that roll is considered an attack. They can only use their Armor value to defend 
+        (skills and benefits cannot be used). Traps inflict a maximum of 1 damage. If the unit 
+        survives, the <img src="/assets/tokens/treasureToken.png" class="scen_token" /> is placed under that unit’s miniature. A unit can 
+        only have 1 at a time. If the unit is killed, the  <img src="/assets/tokens/treasureToken.png" class="scen_token" /> is 
+        dropped in their area and can be collected by another unit.</p>
+      <p><span class="special_title">Move a Treasure:</span> A unit with a <img src="/assets/tokens/treasureToken.png" class="scen_token" /> 
+      may move with it. The <img src="/assets/tokens/treasureToken.png" class="scen_token" /> may be dropped in an area during the unit’s 
+      movement, without interrupting it.</p>
+      <p><span class="special_title">Escape with a Treasure:</span> A unit with a <img src="/assets/tokens/treasureToken.png" class="scen_token" /> 
+      entering an area with a <img src="/assets/stats/reinforcement.png" class="scen_token" /> token is removed from the game. 
+      The player controlling that unit now has that Treasure.</p>
+
+      <a class="tile" href="/tiles/74"><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/BoneGolem.jpg" class="scen_event float_tile"></a>
+      <p><span class="special_title">The Bone Golem:</span> At the start of the game, the Bone Golem miniature is placed in the area 
+      marked on the setup diagram and its tile is placed between the players. The Bone Golem has 4 life Points. Benefits cannot be used.</p>
+      <p><span class="special_title">Tiebreaker:</span> In case of a tie, the player who killed the Bone Golem wins. If the Bone Golem 
+        is still alive, the mercenaries don’t have time to collect more treasures and have to defeat it. The player who kills the Bone 
+        Golem wins.</p>',
+
+      overlord_victory: '',
+
+      correction: '',
+
+      origin: "Versus",
+      product_ids: [1, 30],
+      map_ids: [23],
+      hero_ids: [],
+      tile_ids: [],
+      spell_ids: [],
+      item_ids: [] },
+
+
+
+
+  # Versus
+  # Hunting Trophies
+    { name: "Hunting Trophies",
+      mode: 'Versus',
+      pdf_link:'',
+      credit: 'Manu Crochet',
+      player_count: "2",
+      complexity: '',
+
+      description: '<p>In the region of the Darkwood Forests of Nemedia, ancient creatures that lived long before the Hyborian Age 
+      have awakened. No one is certain of what disturbed their sleep, but the increasingly intensive exploitation of the trees is 
+      clearly related. Since then, these monstrosities have spread terror and death among the local population, kidnapping anyone 
+      unfortunate enough to find themselves alone and devouring them in the ruined fortress where they hide.</p>
+      <p>Tired of seeing his workforce reduced, the local lord has decided to increase taxes in order to gather a substantial bounty. 
+      He hopes to convince local mercenaries to bring him the heads of these creatures as trophies.</p>
+      <p>A company of veterans from the Aquilonian wars decides to answer the call, not out of empathy, but to collect the 
+      considerable and, they think, easy-to-pocket reward. Upon arriving at the outskirts of the ruined fortress, they discover 
+      that another group is already there for the same reason.</p>
+      <p>The hunt is on and they will have to cut more heads than their opponents to collect the prize.</p>',
+
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Hunting+Trophies.jpg",
+    
+
+      # End-Game Conditions:
+      hero_victory: '<p>The game ends when a player scores 8 Victory Points or more.</p>',
+      
+
+      # General Victory Condition 
+      hero_goal: "The General has more Victory Points than the Warlord.",
+
+
+      # General Setup
+      hero_setup: '<p>The General starts with <strong>9 gems</strong> in their Reserve zone and <strong>2 gems</strong> in their 
+      Fatigue zone, and places the Recovery token showing a <strong>recovery value of 5</strong> in their Book of Skelos.</p>
+      <p>The General may choose one spell: <strong>Set’s Bite (vs), Withering</strong>.</p>',
+
+
+      # Warlord Victory Condition 
+      overlord_goal: "The Warlord has more Victory Points than the General.",
+
+
+      # Warlord Setup
+      overlord_setup: '<p><strong>Initiative:</strong> The Warlord has the initiative and starts the game.</p>
+      <p>The Warlord starts with <strong>11 gems</strong> in their Reserve zone and <strong>0 gems</strong> in their Fatigue zone, 
+      and places the Recovery token showing a <strong>recovery value of 5</strong> in their Book of Skelos.</p>
+      <p>The Warlord may choose one spell: <strong>Stone Skin, Bori’s Rage</strong>.</p>',
+
+
+      btoken1: 'Minion',
+      btoken2: 'Champion',
+      btoken3: '<img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" >',
+      btoken4: 'Minion',
+      btoken5: 'Champion',
+      btoken6: 'Leader',
+      btoken7: 'Minion',
+      btoken8: '',
+
+      rtoken1: 'Minion',
+      rtoken2: 'Champion',
+      rtoken3: 'Minion',
+      rtoken4: '<img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" >',
+      rtoken5: 'Minion',
+      rtoken6: 'Champion',
+      rtoken7: 'Leader',
+      rtoken8: '',
+
+      tile1: 4,
+      tile2: 4,
+      tile3: 0,
+      tile4: 4,
+      tile5: 4,
+      tile6: 1,
+      tile7: 4,
+      tile8: 0,
+
+      life1: 4,
+      life2: 4,
+      life3: 4,
+      life4: 0,
+      life5: 4,
+      life6: 4,
+      life7: 1,
+      life8: 0,
+
+
+      # Event:   
+      event: '<p>The player activates their Leader and gains 2 reinforcement points (the reinforcement areas are the same for both 
+      players). Then, they must use the following Special Rule.</p>
+      <p><span class="special_title">Creatures Attack:</span> The player may move each revealed Creature (see Special Rule 
+      <b>“Revealing a Creature”</b>) into an adjacent area, ignoring hindrance and the Special Rule “Rock Slide”. Then, they must 
+      perform a Melee Attack rolling <img src="/assets/dice/Orange.png" class="scen_sq_token" />
+      <img src="/assets/dice/Orange.png" class="scen_sq_token" /> (benefits cannot be used) for each revealed Creature. The player 
+      chooses the target of the attack. If the only available target is a unit controlled by the player, they must target their 
+      own unit and their opponent rolls for attack.</p>',
+
+      # Special Rules:   
+      special_rules: '<p><span class="special_title">Game Board Rules:</span> Standard game board rules apply, except a unit moving 
+      into a rock slide area from an adjacent area must spend 1 extra movement point unless the unit has Climb. Also, the wall with 
+      the <img src="/assets/tokens/brokenWallToken.png" class="scen_token" /> token is considered a border. This opening allows a unit 
+      to move between the tower and the courtyard.</p>
+
+      <p><span class="special_title">Setup:</span> Shuffle the Numbered <img src="/assets/tokens/numBackToken.png" class="scen_token" /> 
+      tokens 1-10 and place them face down as indicated on the setup diagram. These tokens represent Creatures to kill to gain Victory Points.</p>
+      <p><span class="special_title">Revealing a Creature:</span> A unit in the same area as a 
+      <img src="/assets/tokens/numBackToken.png" class="scen_token" /> token may spend their Attack action to flip the token face-up 
+      and reveal the presence of a Creature. The Creature is now considered revealed for the rest of the game. 
+      If the token is even, it is a Skinny Creature. If the token is odd, it is a Massive Creature. Once revealed, Skinny and Massive 
+      Creatures count towards determining if an area is occupied. Benefits and skills cannot be used to defend a Creature.</p>
+      <p><span class="special_title">Skinny Creature:</span> This Creature has an Armor value of 1 and 1 life point. If a player 
+      kills a Skinny Creature, they take that token and place it next to their Book of Skelos. That player immediately scores 1 
+      Victory Point.</p>
+      <p><span class="special_title">Massive Creature:</span> This Creature has an Armor value of 2 and 1 life point. If a player 
+      kills a Massive Creature, they take that token and place it next to their Book of Skelos. That player immediately scores 2 
+      Victory Points.</p>',
+
+      overlord_victory: '',
+
+      correction: '',
+
+      origin: "Versus",
+      product_ids: [1, 30],
+      map_ids: [4],
+      hero_ids: [],
+      tile_ids: [],
+      spell_ids: [],
+      item_ids: [] },
+
+
+
+
+  # Versus
+  # The Great Escape
+    { name: "The Great Escape",
+      mode: 'Versus',
+      pdf_link:'',
+      credit: 'Manu Crochet',
+      player_count: "2",
+      complexity: '',
+
+      description: '
+      <p>Count Trocero rules the territories of Poitain, located south of Aquilonia, with an iron fist. However, for several months 
+      now, groups of raiders have been crossing the borders with Argos and Zingara to attack the least protected villages. Knowing 
+      that he cannot rely on the leaders of these enemy countries to help him, he decides to launch a clandestine mission into their 
+      territories and succeeds in capturing the leaders of the two largest bands. The captured leaders are brought back and chained 
+      down under tight guard in the citadel of Culario, awaiting their public execution by hanging.</p>
+      <p>The raiders won’t stand for this. Although the two bands are rivals, they decide to ally to free their leaders and ransack 
+      the fortress. However, it is well-known that a pact between bandits can only be temporary...</p>',
+
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Great+Escape.jpg",
+    
+
+      # End-Game Conditions:
+      hero_victory: '<p>A Prisoner breaks out or a Prisoner is killed.</p>',
+      
+
+      # General Victory Condition 
+      hero_goal: "The General’s Prisoner breaks out or the Warlord’s Prisoner is killed.",
+
+
+      # General Setup
+      hero_setup: '<p><strong>Initiative:</strong> The General has the initiative and starts the game.</p>
+      <p>The General starts with <strong>11 gems</strong> in their Reserve zone and <strong>0 gems</strong> in their Fatigue zone, 
+      and places the Recovery token showing a <strong>recovery value of 5</strong> in their Book of Skelos.</p>
+      <p>The General may choose one spell: <strong>Set’s Bite (vs), Withering</strong>.</p>',
+
+
+      # Warlord Victory Condition 
+      overlord_goal: "The Warlord’s Prisoner breaks out or the General’s Prisoner is killed.",
+
+
+      # Warlord Setup
+      overlord_setup: '<p>The Warlord starts with <strong>9 gems</strong> in their Reserve zone and <strong>2 gems</strong> in their 
+      Fatigue zone, and places the Recovery token showing a <strong>recovery value of 5</strong> in their Book of Skelos.</p>
+      <p>The Warlord may choose one spell: <strong>Energy Drain (vs), Bori’s Rage</strong>.</p>',
+
+
+      btoken1: 'Minion',
+      btoken2: 'Champion',
+      btoken3: 'Leader',
+      btoken4: 'Minion',
+      btoken5: 'Champion',
+      btoken6: '<img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" >',
+      btoken7: 'Minion',
+      btoken8: '',
+
+      rtoken1: 'Minion',
+      rtoken2: 'Champion',
+      rtoken3: 'Leader',
+      rtoken4: 'Minion',
+      rtoken5: 'Champion',
+      rtoken6: '<img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" >',
+      rtoken7: 'Minion',
+      rtoken8: '',
+
+      tile1: 4,
+      tile2: 4,
+      tile3: 1,
+      tile4: 4,
+      tile5: 4,
+      tile6: 0,
+      tile7: 4,
+      tile8: 0,
+
+      life1: 4,
+      life2: 4,
+      life3: 1,
+      life4: 4,
+      life5: 4,
+      life6: 0,
+      life7: 4,
+      life8: 0,
+
+
+      # Event:   
+      event: '<p>The player activates one of the Leaders in their River and gains 3 reinforcement points (the reinforcement areas 
+      are the same for both players). Then, they must use the following Special Rule if there is at least one Bossonian Guard 
+      miniature in the reserve.</p>
+      <p><p><span class="special_title">Citadel Reinforcement:</span> The player takes 1 or 2 Citadel’s Army miniatures from the 
+      reserve and freely places them in the reinforcement areas of their choice.</p>',
+
+      # Special Rules:   
+      special_rules: '<p><span class="special_title">Game Board Rules:</span> Standard game board rules apply.</p>
+      <p><span class="special_title">Prisoner: </span> After the Army Recruitment, each player, starting with the Warlord, chooses 
+      another Leader among those still available. They place this Leader’s miniature in the cell as indicated on the setup diagram. 
+      The associated tile and Life point token are placed next to the player’s Book of Skelos. This leader is the Prisoner that the 
+      player is trying to break out, and they cannot be activated until they are freed from their cell.</p>
+      <p><span class="special_title">Free a Prisoner from their cell:</span> A unit in the area in front of their side’s Prisoner 
+      cell may replace their Attack action to free them from their cell. In this case, the 
+        <img src="/assets/tokens/redDoorToken.png" class="scen_token" /> token is discarded in the game box and 
+        the player places that Leader’s tile on the first position of their River, sliding the other tiles to the right. That Leader
+        has 4 Life Points and may now be activated.</p>
+      <p><span class="special_title">Break a Prisoner out:</span> A Prisoner in the Escape area indicated in a red color on the setup 
+      diagram may spend movement points as though moving across a border to leave the citadel and break out.</p>
+
+      <a class="tile" href="/tiles/17"><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/BossonianGuards.jpg" class="scen_event float_tile"></a>
+      <p><span class="special_title">Citadel’s Army:</span> During setup, Bossonian Guards’ miniatures are placed as indicated on the 
+      setup diagram and the corresponding tile is placed between the players. Bossonian Guards represent the Citadel’s Army. During 
+      each player’s turn, before their Activation phase, a player must perform an activation with 1 or 2 Citadel’s Army units if they 
+      are present on the board. Benefits cannot be used. Citadel’s Army count towards hindering and Occupied Areas for both players. 
+      When a unit from the Citadel’s Army is killed, their miniature is placed in the reserve, next to the board. The reserve is empty 
+      at the start of the game.</p>
+      <p><span class="special_title">Ransack Frenzy:</span> During setup, place 5 
+      <img src="/assets/tokens/flameToken.png" class="scen_token" /> tokens next to the board. They represent the 
+      Ransack Frenzy. A unit in the inner walls of the Citadel can forfeit their activation to ransack the place. In this case, the 
+        player controlling them takes a Ransack Frenzy token and places it on that unit’s tile. The units represented by that tile may 
+        now reroll a die for free when performing an Attack action. When all the units of that tile are killed or if the tile is 
+        demobilized, the Ransack Frenzy token is discarded in the game box. A tile can only have 1 Ransack Frenzy token at a time.</p>',
+
+      overlord_victory: '',
+
+      correction: '',
+
+      origin: "Versus",
+      product_ids: [1, 3, 30],
+      map_ids: [5],
+      hero_ids: [],
+      tile_ids: [],
+      spell_ids: [],
+      item_ids: [] },
+
+
+
+
+  # Versus
+  # The Yellow Lotus
+    { name: "The Yellow Lotus",
+      mode: 'Versus',
+      pdf_link:'',
+      credit: 'Manu Crochet',
+      player_count: "2",
+      complexity: '',
+
+      description: '<p>In Tarantia, crime is on the rise in the districts around the city’s port. Rumors speak of dazed men with 
+      glassy eyes wandering the back alleys and willing to do anything for a few coins, including murder. The Black Dragons discover 
+        that a new drug has emerged: the Yellow Lotus. This addictive powder induces a deep trance and hallucinations that blur the 
+        line between dream and reality. It is said to have arrived on one of the many ships that dock each day to trade with the 
+        capital of Aquilonia. The Black Dragons have tried to trace the source of this trafficking, but each of their interventions 
+        has failed.</p>
+      <p>Suspecting that some of the city officials are corrupt, King Thorvald decides to hire mercenaries to search the underworld 
+      and put an end to the rot that is eating away at his city. They discover the origin of the trafficking, an inn used as a storage 
+      place. The mercenaries know that only one group can claim the huge bounty promised by the king: the one that destroys the most 
+      Yellow Lotus.</p>',
+
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Yellow+Lotus.jpg",
+    
+
+      # End-Game Conditions:
+      hero_victory: '<p>A player destroys 4 Stocks of Yellow Lotus.</p>',
+      
+
+      # General Victory Condition 
+      hero_goal: "The General destroys 4 Stocks of Yellow Lotus.",
+
+
+      # General Setup
+      hero_setup: '<p>The General starts with <strong>9 gems</strong> in their Reserve zone and <strong>2 gems</strong> in their 
+      Fatigue zone, and places the Recovery token showing a <strong>recovery value of 5</strong> in their Book of Skelos.</p>
+      <p>The General may choose one spell: <strong>Energy Drain (vs), Bori’s Rage, Set’s Halo (vs)</strong>.</p>',
+
+
+      # Warlord Victory Condition 
+      overlord_goal: "The Warlord destroys 4 Stocks of Yellow Lotus.",
+
+
+      # Warlord Setup
+      overlord_setup: '<p><strong>Initiative:</strong> The Warlord has the initiative and starts the game.</p>
+      <p>The Warlord starts with <strong>11 gems</strong> in their Reserve zone and <strong>0 gems</strong> in their Fatigue zone, 
+      and places the Recovery token showing a <strong>recovery value of 5</strong> in their Book of Skelos.</p>
+      <p>The Warlord may choose one spell: <strong>Gift of Life (vs), Withering, Mitra’s Halo (vs)</strong>.</p>',
+
+
+      btoken1: 'Champion',
+      btoken2: 'Minion',
+      btoken3: 'Minion',
+      btoken4: 'Leader',
+      btoken5: 'Champion',
+      btoken6: '<img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" >',
+      btoken7: 'Minion',
+      btoken8: '',
+
+      rtoken1: 'Champion',
+      rtoken2: 'Minion',
+      rtoken3: 'Minion',
+      rtoken4: 'Leader',
+      rtoken5: 'Champion',
+      rtoken6: '<img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" >',
+      rtoken7: 'Minion',
+      rtoken8: '',
+
+      tile1: 4,
+      tile2: 4,
+      tile3: 4,
+      tile4: 1,
+      tile5: 4,
+      tile6: 0,
+      tile7: 4,
+      tile8: 0,
+
+      life1: 4,
+      life2: 4,
+      life3: 4,
+      life4: 1,
+      life5: 4,
+      life6: 0,
+      life7: 4,
+      life8: 0,
+
+
+      # Event:   
+      event: '<p>The player activates their Leader and gains 2 reinforcement points (the reinforcement areas are the same for both 
+      players). Then, they may use the following Special Rule.</p>
+      <p><span class="special_title">Cloud of Yellow Lotus:</span> The player places a Yellow Lotus 
+      <img src="/assets/tokens/rocksToken.png" class="scen_token" /> token on one of the tiles in their opponent’s River, except the 
+      Event tile. The activation cost of that tile is raised by 1 for the rest of the game. This rule can only be used a total of 4 
+      times during the game. A tile can have more than one Yellow Lotus token at a time.</p>',
+
+      # Special Rules:   
+      special_rules: '<p><span class="special_title">Game Board Rules:</span> Standard game board rules apply. The Bar areas rule is 
+      in effect.</p>
+      <p><span class="special_title">Inhale Yellow Lotus:</span> At the beginning of game turn 3, the drug fumes spread throughout 
+      the inn. Each player replaces their recovery token in their Book of Skelos with the one showing a recovery value of 3.</p>
+      <p><span class="special_title">Stock of Yellow Lotus:</span> During setup, the players place 7 
+      <img src="/assets/tokens/flameToken.png" class="scen_token" /> tokens representing the Stocks of Yellow Lotus as indicated on 
+      the setup diagram with the side showing the value 2 face up. Each Stock of Yellow Lotus rolls 
+      <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> for its Armor value and has 2 life points. The value shown on the 
+      token is used to track its life points.</p>
+      <p><span class="special_title">Destroy a Stock of Yellow Lotus:</span> A unit in an area with a Stock of Yellow Lotus may 
+      perform a Melee Attack to destroy it (Ranged Attacks cannot be used). Guard or Reroll benefits cannot be used to defend a 
+      Stock of Yellow Lotus. If the Stock of Yellow Lotus loses its first life point, its token is flipped on the side showing a 
+      value of 1. A player who reduces the life points of a Stock of Yellow Lotus to zero destroys it. They take that token and place 
+      it next to their Book of Skelos.</p>',
+
+      overlord_victory: '',
+
+      correction: '',
+
+      origin: "Versus",
+      product_ids: [1, 30],
+      map_ids: [2],
+      hero_ids: [],
+      tile_ids: [],
+      spell_ids: [],
+      item_ids: [] },
+
+
+
+  # Versus
+  # A Night from Nightmare
+    { name: "A Night from Nightmare",
+      mode: 'Versus',
+      pdf_link:'',
+      credit: 'Manu Crochet',
+      player_count: "2",
+      complexity: '',
+
+      description: '
+      <p>South of Khitai, lies a cursed swamp that is said to shelter the tomb of an ancient sorcerer from the Scarlet Circle. 
+      Many men have ventured into these hostile lands in search of his tomb and the jade scepter buried with him. None have ever 
+      returned. But that doesn’t stop new groups from trying their luck, blinded by the extraordinary power promised to whoever 
+      wields the magical scepter.</p>
+      <p>As one of these groups struggles through the stagnant waters and stifling atmosphere, a camp emerges from the fog like a 
+      supernatural apparition. Too exhausted from their journey and the many losses they have already suffered, the men decide to 
+      leave the quagmire to find some rest. Just as the faint light of the moon manages to pierce the surrounding mist, another group 
+      of adventurers approaches the camp, determined to claim it for themselves. The first blows are barely exchanged when inhuman 
+      groans are heard. Petrified, the men cease their fighting in the face of the nightmare scene unfolding all around them: 
+      putrefied corpses armed with swords corroded by rust emerge from the swamp to attack them. The two groups will have to put 
+      aside their differences until sunrise if they hope to survive this night from a nightmare.</p>',
+
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/A+Night+from+Nightmare.jpg",
+    
+
+      # End-Game Conditions:
+      hero_victory: '<p>The game ends at the end of turn 8.</p>',
+      
+
+      # General Victory Condition 
+      hero_goal: "The General has more units on the board than the Warlord. If tied, the player without initiative wins.",
+
+
+      # General Setup
+      hero_setup: '<p><strong>Initiative:</strong> See special rule.</p>
+      <p>The General may choose one spell: <strong>Borne by the Wind (vs), Drying Earth</strong>.</p>',
+
+
+      # Warlord Victory Condition 
+      overlord_goal: "The Warlord has more units on the board than the General. If tied, the player without initiative wins.",
+
+
+      # Warlord Setup
+      overlord_setup: '<p><strong>Initiative:</strong> See special rule.</p>
+      <p>IThe Warlord may choose one spell: <strong>Deceleration, Drying Earth</strong>.</p>',
+
+
+      btoken1: 'Minion',
+      btoken2: 'Leader',
+      btoken3: 'Minion',
+      btoken4: 'Champion',
+      btoken5: 'Minion',
+      btoken6: '<img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" >',
+      btoken7: 'Champion',
+      btoken8: '',
+
+      rtoken1: 'Minion',
+      rtoken2: 'Leader',
+      rtoken3: 'Minion',
+      rtoken4: 'Champion',
+      rtoken5: 'Minion',
+      rtoken6: '<img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" >',
+      rtoken7: 'Champion',
+      rtoken8: '',
+
+      tile1: 4,
+      tile2: 1,
+      tile3: 4,
+      tile4: 4,
+      tile5: 4,
+      tile6: 0,
+      tile7: 4,
+      tile8: 0,
+
+      life1: 4,
+      life2: 1,
+      life3: 4,
+      life4: 4,
+      life5: 4,
+      life6: 0,
+      life7: 4,
+      life8: 0,
+
+
+      # Event:   
+      event: '<p>The player activates their Leader. Then, they must use the following Special Rule.</p>
+      <p><span class="special_title">They are Legion:</span> The player takes 1 to 4 tokens of Bog Ghouls or Revenants from the reserve (see below) and places 
+      them in the reinforcement areas of their choice. If the reserve is empty, no Bog Ghouls or Revenants are added.</p>',
+
+      # Special Rules:   
+      special_rules: '<p><span class="special_title">Game Board Rules:</span> Standard game board rules apply. Water areas are 
+      considered unstable.</p>
+      <p><span class="special_title">Game Board Rules:</span> Determining Initiative: Players randomly determine initiative for 
+      this scenario.</p>
+      <p>The player who has the initiative starts with <b>10 gems</b> in their Reserve zone and <b>0 gems</b> in their Fatigue zone, and places 
+      the Recovery token showing a <b>recovery value of 5</b> in their Book of Skelos.</p>
+      <p>Their opponent starts with <b>8 gems</b> in their Reserve zone and <b>2 gems</b> in their Fatigue zone, and places the Recovery token 
+      showing a <b>recovery value of 5</b> in their Book of Skelos.</p>
+
+      <a class="tile" href="/tiles/217"><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/BogGhouls.jpg" class="scen_event float_tile"></a>
+      <p><span class="special_title">Bog Ghouls:</span> The <img src="/assets/tokens/numBackToken.png" class="scen_token" /> tokens 
+      represent Bog Ghouls. When a Bog Ghoul kills a unit, that unit becomes a Revenant (see below).</p>
+
+      <a class="tile" href="/tiles/228"><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Revenants.jpg" class="scen_event float_tile"></a>
+      <p><span class="special_title">Revenants:</span> The <img src="/assets/tokens/flameToken.png" class="scen_token" /> tokens 
+      represent Revenants. During setup, place 12 <img src="/assets/tokens/flameToken.png" class="scen_token" /> tokens near the 
+      board. They are not part of the reserve at the start of the game. When a unit is killed by a Bog Ghoul, they become a Revenant. 
+      Remove their miniature from the game and replace it with a <img src="/assets/tokens/flameToken.png" class="scen_token" /> token. 
+      If there is no <img src="/assets/tokens/flameToken.png" class="scen_token" /> token near the board, use a 
+      <img src="/assets/tokens/flameToken.png" class="scen_token" /> token from the reserve, if possible. If not, no Revenant is 
+      added to the board.</p>
+      <p><span class="special_title">Death is not the end:</span> When a Bog Ghoul or Revenant is killed, remove its token from the 
+      board and place it in the reserve. The reserve is empty at the start of the game. Bog Ghoul and Revenants in the reserve may 
+      return with the Special Rule “They are Legion”.</p>
+      <p><span class="special_title">Thriller Night:</span> At the beginning of each player’s turn, before their Activation phase, 
+      the player must perform an activation with 1 to 3 Bog Ghouls or Revenants. Benefits and skills cannot be used to defend Bog 
+      Ghouls and Revenants, and the Reroll benefit cannot be used for their attacks. Bog Ghoul and Revenants count towards hindering 
+      and Occupied Areas. They are not affected by the game board rule “Water areas.”</p>',
+
+      overlord_victory: '',
+
+      correction: '',
+
+      origin: "Versus",
+      product_ids: [1, 3, 30],
+      map_ids: [6],
+      hero_ids: [],
+      tile_ids: [],
+      spell_ids: [],
+      item_ids: [] },
+
+
+
+
+  # Versus
+  # The Challenge of the Red Brotherhood
+    { name: "The Challenge of the Red Brotherhood",
+      mode: 'Versus',
+      pdf_link:'',
+      credit: 'Manu Crochet',
+      player_count: "2",
+      complexity: '',
+
+      description: '
+      <p>Any respectable captain who has sailed off the coast of Zingara knows it is suicidal to approach the terrible Barachan Isles. 
+      Pirates, ruffians and cutthroats have always lived there when they are not at sea. They have even founded the Red Brotherhood 
+      to maintain a semblance of organization among them.</p>
+      <p>On Tortage, every year, the Challenge of the Red Brotherhood takes place, a competition that sees buccaneers from all over 
+      the archi- pelago compete against each other. Each band chooses its best fighters to confront each other in brutal brawls where 
+      many pirates lose their lives. The stakes are high and losses follow gains, but the band that wins the final bout can claim the 
+      title of Champions of Tortage. This rank not only grants the favors of the local lord for a whole year, but above all, it allows 
+      them to claim the largest share of the loot. Who will win the challenge this year? The dice are cast.</p>',
+
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Challenge+of+the+Red+Brotherhood.jpg",
+    
+
+      # End-Game Conditions:
+      hero_victory: '<p>A player accumulates at least 5 Glory Points.</p>',
+      
+
+      # General Victory Condition 
+      hero_goal: "The General has accumulated more Glory Points than the Warlord.",
+
+
+      # General Setup
+      hero_setup: '<p><strong>Initiative:</strong> The General has the initiative and starts the game.</p>
+      <p>The General starts with <strong>10 gems</strong> in their Reserve zone and <strong>0 gems</strong> in their Fatigue zone, 
+      and places the Recovery token showing a <strong>recovery value of 5</strong> in their Book of Skelos.</p>
+      <p>The General may choose one spell: <strong>Bori’s Rage, Mitra’s Halo (vs), Teleportation</strong>.</p>',
+
+
+      # Warlord Victory Condition 
+      overlord_goal: "The Warlord has accumulated more Glory Points than the General.",
+
+
+      # Warlord Setup
+      overlord_setup: '<p>The Warlord starts with <strong>8 gems</strong> in their Reserve zone and <strong>2 gems</strong> in their 
+      Fatigue zone, and places the Recovery token showing a <strong>recovery value of 5</strong> in their Book of Skelos.</p>
+      <p>The Warlord may choose one spell: <strong>Withering, Set’s Halo (vs), Teleportation</strong>.</p>',
+
+
+      btoken1: 'Champion',
+      btoken2: 'Minion',
+      btoken3: 'Leader',
+      btoken4: 'Minion',
+      btoken5: 'Champion',
+      btoken6: '<img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" >',
+      btoken7: 'Minion',
+      btoken8: '',
+
+      rtoken1: 'Minion',
+      rtoken2: 'Champion',
+      rtoken3: 'Leader',
+      rtoken4: 'Champion',
+      rtoken5: 'Minion',
+      rtoken6: '<img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" >',
+      rtoken7: 'Minion',
+      rtoken8: '',
+
+      tile1: 4,
+      tile2: 4,
+      tile3: 1,
+      tile4: 4,
+      tile5: 4,
+      tile6: 0,
+      tile7: 4,
+      tile8: 0,
+
+      life1: 4,
+      life2: 4,
+      life3: 1,
+      life4: 4,
+      life5: 4,
+      life6: 0,
+      life7: 4,
+      life8: 0,
+
+
+      # Event:   
+      event: '<p>The player activates their Leader. Then, they may use the following Special Rule. This Special Rule can only be 
+      used once by each player during the game.</p>
+      <p><span class="special_title">Change your bet:</span> The player switches 2 Glory Stacks on the tiles of their River.</p>',
+
+      # Special Rules:   
+      special_rules: '<p><span class="special_title">Game Board Rules:</span> Standard game board rules apply, except the Climbing rule.</p>
+      <p><span class="special_title">Glory Points:</span> After the Army Recruitment, each player takes 2 
+      <img src="/assets/tokens/flameToken.png" class="scen_token" /> tokens and 3 <img src="/assets/tokens/flameToken.png" class="scen_token" /> 
+      tokens. The number indicated on each token represents its value in Glory Points.</p>
+      <p><span class="special_title">Place your bets:</span> Before the start of the game, each player secretly chooses a Glory Points 
+      token and covers it with a <img src="/assets/tokens/numBackToken.png" class="scen_token" /> token to hide its value. These 2 
+      tokens represent a Glory Stack. Place all 5 Glory Stacks on separate tiles in the River (except the Event and Leader tiles). 
+      These fighters now have a bet in Glory Points placed on them. It is not possible to demobilize a tile with a Glory Stack.</p>
+      <p><span class="special_title">Accumulate Glory:</span> When a tile with a Glory Stack is dead, the value of the token is revealed 
+      and the opponent immediately gains that many Glory Points. This dead tile cannot be dredged from the River.</p>',
+
+      overlord_victory: '',
+
+      correction: '',
+
+      origin: "Versus",
+      product_ids: [1, 30],
+      map_ids: [1],
+      hero_ids: [],
+      tile_ids: [],
+      spell_ids: [],
+      item_ids: [] },
+
+
+
+  # Versus
+  # Pillage on High Seas
+    { name: "Pillage on High Seas",
+      mode: 'Versus',
+      pdf_link:'',
+      credit: 'Manu Crochet',
+      player_count: "2",
+      complexity: '',
+
+      description: '
+      <p>The dark waters of the Southern Sea stretch out as far as the eye can see, stirred by a gentle breeze. From out of the mist, 
+      the Pro- metheus and the Kerberos emerge, sailing swiftly towards each other. On board both ships, the crews gaze intently at 
+      their adversary, their hearts beating as one, ready for the boarding. They all know why they are here: to retrieve a legendary 
+      treasure from the depths.</p>
+      <p>It is said that somewhere off the coast of Yota-Pong, a galleon laden with gold, jewels, and other priceless riches sank 
+      years ago. The captains of both vessels have located the wreck and are determined to pillage its contents. Each knows that the 
+      only way to neutral- ize their rival once and for all in this race is to sabotage their navigation instruments.</p>
+      <p>The two ships draw closer, weapons unsheathed. Ropes and boarding planks are deployed. The sound of the waves is soon drowned 
+      out by the clash of weapons, as both crews engage in battle.</p>',
+
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Pillage+on+High+Seas.jpg",
+    
+
+      # End-Game Conditions:
+      hero_victory: '<p>The 3 Navigation Instruments on a ship are destroyed.</p>',
+      
+
+      # General Victory Condition 
+      hero_goal: "The 3 Navigation Instruments of the Kerberos are destroyed.",
+
+
+      # General Setup
+      hero_setup: '<p>The General starts with <strong>9 gems</strong> in their Reserve zone and <strong>2 gems</strong> in their 
+      Fatigue zone, and places the Recovery token showing a <strong>recovery value of 3</strong> in their Book of Skelos.</p>
+      <p>The General may choose 2 spells: <strong>Bori’s Rage, Gift of Life (vs), Mitra’s Halo (vs), Borne by the Wind (vs), Magical 
+      Dizziness (vs)</strong>.</p>',
+
+
+      # Warlord Victory Condition 
+      overlord_goal: "The 3 Navigation Instruments of the Prometheus are destroyed.",
+
+
+      # Warlord Setup
+      overlord_setup: '<p><strong>Initiative:</strong> The Warlord has the initiative and starts the game.</p>
+      <p>The Warlord starts with <strong>11 gems</strong> in their Reserve zone and <strong>0 gems</strong> in their Fatigue zone, 
+      and places the Recovery token showing a <strong>recovery value of 3</strong> in their Book of Skelos.</p>
+      <p>The Warlord may choose 2 spells: <strong>Withering, Energy Drain (vs), Set’s Halo (vs), Borne by the Wind (vs), Magical 
+      Dizziness (vs)</strong>.</p>',
+
+
+      btoken1: 'Minion',
+      btoken2: 'Champion',
+      btoken3: 'Leader',
+      btoken4: 'Minion',
+      btoken5: 'Champion',
+      btoken6: '<img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" >',
+      btoken7: 'Minion',
+      btoken8: '',
+
+      rtoken1: 'Minion',
+      rtoken2: 'Champion',
+      rtoken3: 'Leader',
+      rtoken4: 'Minion',
+      rtoken5: 'Champion',
+      rtoken6: '<img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" >',
+      rtoken7: 'Minion',
+      rtoken8: '',
+
+      tile1: 4,
+      tile2: 4,
+      tile3: 1,
+      tile4: 4,
+      tile5: 4,
+      tile6: 0,
+      tile7: 4,
+      tile8: 0,
+
+      life1: 4,
+      life2: 4,
+      life3: 1,
+      life4: 4,
+      life5: 4,
+      life6: 0,
+      life7: 4,
+      life8: 0,
+
+
+      # Event:   
+      event: '<p>The player activates their Leader and gains 3 reinforcement points (see Special Rule “Ships”). Then, they may use 
+      the following Special Rule.</p>
+      <p><span class="special_title">Push forward!</span> During their next turn, the player may activate up to 3 tiles, but each tile costs 1 additional gem 
+      to activate.</p>',
+
+      # Special Rules:   
+      special_rules: '
+      <p><span class="special_title">Game Board Rules:</span> Standard game board rules apply.</p>
+      <p><span class="special_title">Ships:</span> The Prometheus is the General’s ship and its 
+      <img src="/assets/stats/reinforcement.png" class="scen_token" /> token may only bring their units in play. The Kerkeros is the 
+      Warlord’s ship and its <img src="/assets/stats/reinforcement.png" class="scen_token" /> token may only bring their units in play.</p>
+      <p><span class="special_title">Navigation Instruments:</span> The General takes 12 
+      <img src="/assets/tokens/numBackToken.png" class="scen_token" /> tokens and the Warlord takes 12 
+      <img src="/assets/tokens/flameToken.png" class="scen_token" /> tokens . Each player creates 3 stacks of 4 tokens and places 
+      them as indicated on the setup diagram. Each stack represents a Navigation Instrument.</p>
+      <p><span class="special_title">Destroy a Navigation Instrument:</span> A unit in an area with a Navigation Instrument (or in an 
+      adjacent area if occupied) may perform a Melee Attack to destroy it. Ranged Attacks cannot be used. If they roll at least 3 
+      successes, one token is removed from that stack. When all 4 tokens of a stack are removed, the Navigation Instrument is destroyed.</p>
+      <p><span class="special_title">Boarding gangway:</span> The gangways are placed as indicated on the setup diagram. A gangway is 
+      considered as an area. It does not require any additional movement point to enter or exit.</p>
+      <p><span class="special_title">Board a ship:</span> A unit in an area adjacent to a Leap area may replace its activation to move 
+      to the opposing area on the other ship, even if they do not have the Leap skill. A unit with the Leap skill may also use this 
+        Special Rule or try to Leap.</p>
+      <p><span class="special_title">Leap:</span> If a unit fails to leap, they fall in the water and is eaten by sharks; the unit dies. 
+      The difficulty of each Leap is indicated on the setup diagram.</p>',
+
+      overlord_victory: '',
+
+      correction: '',
+
+      origin: "Versus",
+      product_ids: [1, 30],
+      map_ids: [3],
+      hero_ids: [],
+      tile_ids: [],
+      spell_ids: [],
+      item_ids: [] },
+
+
+
+  # Versus
+  # The Threat from the Depths
+    { name: "The Threat from the Depths",
+      mode: 'Versus',
+      pdf_link:'',
+      credit: 'Manu Crochet',
+      player_count: "2",
+      complexity: '',
+
+      description: '
+      <p>In the heart of unforgiving Stygia, in the province of Kheshatta, dark sorcerers are conducting experiments that challenge 
+      the very fabric of reality. In utmost secrecy, the terrifying Amenhotep has been crossbreeding all manner of monsters and demons 
+      for years, in the hopes of creating an abomination powerful enough to overthrow the pharaoh and claim the throne of Stygia for 
+        himself. After each manipulation, the sorcerer puts his new chimera to the test by pitting it against slaves, prisoners, or any 
+        other victims he has captured.</p>
+      <p>This time, the necromancer has lured two teams of mercenaries whom he has drugged and thrown into his catacombs, promising 
+      freedom to the group that manages to defeat his creation. But the sorcerer is playful; he has decided to deprive them of their 
+      weap- ons to make the task a little less easy.</p>
+      <p>The mercenaries barely have time to emerge from the drug-induced fog before the ground begins to shake and open up around 
+      them, revealing huge, twisted tentacles. They have little time to react. They will have to retrieve weapons from the corpses 
+      strewn about and be the first to destroy the creature.</p>',
+
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Threat+from+the+Depths.jpg",
+    
+
+      # End-Game Conditions:
+      hero_victory: '<p>A player has cut 5 Tentacles, or at the end of turn 7. If neither player manages to cut 5 Tentacles by the 
+    end of turn 7, the creature emerges from the depths and devours all those still alive in the catacombs.</p>',
+      
+
+      # General Victory Condition 
+      hero_goal: "The General has cut 5 Tentacles. If neither player manages to cut 5 Tentacles by the end of turn 7, 
+      both players lose the game.",
+
+
+      # General Setup
+      hero_setup: '<p><strong>Initiative:</strong> The General has the initiative and starts the game.</p>
+      <p>The General starts with <strong>11 gems</strong> in their Reserve zone and <strong>0 gems</strong> in their Fatigue zone, 
+      and places the Recovery token showing a <strong>recovery value of 5</strong> in their Book of Skelos.</p>
+      <p>The General may choose 2 spells: <strong>Bori’s Rage, Mitra’s Halo (vs), Energy Drain (vs), Fleet Runner (vs)</strong>.</p>',
+
+
+      # Warlord Victory Condition 
+      overlord_goal: " The Warlord has cut 5 Tentacles. If neither player manages to cut 5 Tentacles by the end of turn 7, 
+      both players lose the game.",
+
+
+      # Warlord Setup
+      overlord_setup: '<p>The Warlord starts with <strong>9 gems</strong> in their Reserve zone and <strong>2 gems</strong> in their 
+      Fatigue zone, and places the Recovery token showing a <strong>recovery value of 5</strong> in their Book of Skelos.</p>
+      <p>The Warlord may choose 2 spells: <strong>Withering, Set’s Bite (vs), Set’s Halo (vs), Fleet Runner (vs)</strong>.</p>',
+
+
+      btoken1: 'Champion',
+      btoken2: 'Minion',
+      btoken3: 'Leader',
+      btoken4: 'Minion',
+      btoken5: 'Champion',
+      btoken6: '<img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" >',
+      btoken7: 'Minion',
+      btoken8: '',
+
+      rtoken1: 'Champion',
+      rtoken2: 'Minion',
+      rtoken3: 'Leader',
+      rtoken4: 'Minion',
+      rtoken5: 'Champion',
+      rtoken6: '<img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" >',
+      rtoken7: 'Minion',
+      rtoken8: '',
+
+      tile1: 4,
+      tile2: 4,
+      tile3: 1,
+      tile4: 4,
+      tile5: 4,
+      tile6: 0,
+      tile7: 4,
+      tile8: 0,
+
+      life1: 4,
+      life2: 4,
+      life3: 1,
+      life4: 4,
+      life5: 4,
+      life6: 0,
+      life7: 4,
+      life8: 0,
+
+
+      # Event:   
+      event: '<p>The player activates their Leader. Then, they may use the following Special Rule.</p>
+      <p><span class="special_title">Slithering:</span> The player moves a Tentacle on the board to the area of their choice, or the player takes a Tentacle on the 
+      board and places it in the reserve.</p>',
+
+      # Special Rules:   
+      special_rules: '
+      <p><span class="special_title">Game Board Rules:</span> Standard game board rules apply.</p>
+      <p><span class="special_title">Captives:</span> All the units of the General and the Warlord are captives of Amenhotep and 
+      start the game without weapons. Until their tile is armed, the units can use their Attack value to perform Attack actions 
+      but must reduce the result by 2 successes.</p>
+      <p><span class="special_title">Weapons rack:</span> The 12 <img src="/assets/tokens/treasureToken.png" class="scen_token" /> tokens 
+      represent Weapons racks. A unit in an area with a Weapons rack may replace their Attack to retrieve weapons. The player 
+      controlling that unit then takes that token and places it on that unit’s tile. That tile is considered armed. From now on, 
+      the units of that tile may perform Attack actions without penalties. A tile may only have one Weapons rack token at a time.</p>
+      
+      <a class="tile" href="/tiles/92"><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Tentacles.jpg" class="scen_event float_tile"></a>
+      <p><span class="special_title">Tentacles: </span> During setup, players take 9 Tentacle miniatures. They represent the 
+      Tentacles of the creature from the depth. Each player, starting with the one with the initiative, places 1 in the area of 
+      their choice. The 7 remaining Tentacles are placed in the reserve, next to the board. Tentacles count towards Occupied areas. 
+      Place the Tentacles tile between the players.</p>
+      <p><span class="special_title">The creature emerges:</span> At the beginning of each player’s turn, before their Activation 
+      phase, a player must activate a Tentacle by moving to an adjacent area or by performing an Attack. A Tentacle cannot attack 
+      another Tentacle. Benefits cannot be used. Finally, at the end of their activation, the player takes a Tentacle miniature from 
+      the reserve, if available, and places it on the board in the area of their choice.</p>
+      <p><span class="special_title">Cut a Tentacle:</span> When a unit kills a Tentacle, it is considered cut. The player 
+      controlling that unit places the Tentacle next to their Book of Skelos. Benefits and skills cannot be used to defend 
+      the Tentacle.</p>',
+
+      overlord_victory: '',
+
+      correction: '',
+
+      origin: "Versus",
+      product_ids: [1, 30],
+      map_ids: [23],
+      hero_ids: [],
+      tile_ids: [],
+      spell_ids: [],
+      item_ids: [] },
+
+
+
+
+  # Versus
+  # The Rite of Passage
+    { name: "The Rite of Passage",
+      mode: 'Versus',
+      pdf_link:'',
+      credit: 'Manu Crochet',
+      player_count: "2",
+      complexity: '',
+
+      description: '
+      <p>Shadizar is known throughout Hyboria as the capital of the kingdom of Zamora, but also as a corrupted city, a den of 
+      thieves, and a place where all manner of debauchery is permitted. It is no wonder, then, that the House of Shadows, a powerful 
+      brotherhood of assassins, has chosen to use it as a base from which to launch its terror operations in the surrounding regions 
+      with impunity.</p>
+      <p>There is no shortage of candidates to swell the ranks of the brotherhood, and tradition dictates that new recruits prove 
+      their worth by undergoing a rite of passage during which their skills at theft and murder are put to the test. This time, their 
+      target will be a fortress of the neighboring Corinthia, at the foot of the Karpash Mountains. This stronghold houses compromising 
+      documents that their employer wishes to appropriate, likely for use in some political plot.</p>
+      <p>But that matters little to the assassins. They have a contract, an objective, and have already received their payment. They 
+      care for nothing else. As they advance towards the fortress, the defenders seem to be waiting for them, as if warned of their 
+      coming.</p>
+      <p>This does not diminish the determination of the recruits, quite the contrary. They hope that this mission will be remembered 
+      for generations.</p>',
+
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Rite+of+Passage.jpg",
+    
+
+      # End-Game Conditions:
+      hero_victory: '<p>A player has at least 12 Victory Points, or at the end of turn 12.</p>',
+      
+
+      # General Victory Condition 
+      hero_goal: " The General has 12 Victory Points. At the end of turn 12, the General wins if they have the most Victory Points. 
+      If tied, both players win.",
+
+
+      # General Setup
+      hero_setup: '<p><strong>Initiative:</strong> The General has the initiative and starts the game.</p>
+      <p>The General starts with <strong>11 gems</strong> in their Reserve zone and <strong>0 gems</strong> in their Fatigue zone, 
+      and places the Recovery token showing a <strong>recovery value of 5</strong> in their Book of Skelos.</p>
+      <p>The General may choose 2 spells: <strong>Bori’s Rage, Mitra’s Halo (vs), Borne by the Wind (vs), Magical Dizziness (vs)</strong>.</p>',
+
+
+      # Warlord Victory Condition 
+      overlord_goal: "The Warlord has 12 Victory Points. At the end of turn 12, the Warlord wins if they have the most Victory Points. 
+      If tied, both players win.",
+
+
+      # Warlord Setup
+      overlord_setup: '<p>The Warlord starts with <strong>9 gems</strong> in their Reserve zone and <strong>2 gems</strong> in their 
+      Fatigue zone, and places the Recovery token showing a <strong>recovery value of 5</strong> in their Book of Skelos.</p>
+      <p>The Warlord may choose 2 spells: <strong>Withering, Deceleration, Set’s Halo (vs), Magical Dizziness (vs)</strong>.</p>',
+
+
+      btoken1: 'Minion',
+      btoken2: 'Champion',
+      btoken3: 'Leader',
+      btoken4: 'Minion',
+      btoken5: '<img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" >',
+      btoken6: 'Champion',
+      btoken7: 'Minion',
+      btoken8: 'Minion',
+
+      rtoken1: 'Minion',
+      rtoken2: 'Champion',
+      rtoken3: 'Leader',
+      rtoken4: 'Minion',
+      rtoken5: '<img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" >',
+      rtoken6: 'Champion',
+      rtoken7: 'Minion',
+      rtoken8: 'Minion',
+
+      tile1: 3,
+      tile2: 3,
+      tile3: 1,
+      tile4: 3,
+      tile5: 0,
+      tile6: 3,
+      tile7: 3,
+      tile8: 3,
+
+      life1: 3,
+      life2: 3,
+      life3: 1,
+      life4: 3,
+      life5: 0,
+      life6: 3,
+      life7: 3,
+      life8: 3,
+
+
+      # Event:   
+      event: '<p>The player activates their Leader and gains 3 reinforcement points (See Special Rule “Reinforcements”). Then, 
+      the General may perform one of the following Special Rules. Finally, the Warlord may perform one of the following Special Rules.</p>
+
+      <div class="col-md-6">
+        <p><span class="special_title">General Special Rules:</p>
+        <p><span class="special_title">Stealth:</span> The General places a <img src="/assets/tokens/energyToken.png" class="scen_token" /> 
+        token on a tile in their River. Remove the token when the tile next activates. While the token is on the tile, units of that 
+        tile cannot be attacked. That token can only be placed on one tile at a time.</p>
+        <p><span class="special_title">Picking tools:</span> The General places a <img src="/assets/tokens/numBackToken.png" class="scen_token" /> 
+        token on a tile in their River. When activated, one unit of that tile in an area with a chest may spend its activation to open 
+        that chest. Remove the token from the game. This Special Rule can only be used once per game.</p>
+      </div>
+      <div class="col-md-6">
+        <p><span class="special_title">Warlord Special Rules:</p>
+        <p><span class="special_title">It’s a trap:</span> The Warlord places a Pit token 
+        <img src="/assets/tokens/redDoorToken.png" class="scen_token" /> in an area of their choice. The first General’s unit that 
+        enters that area immediately stops its movement and suffers <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> 
+        unavoidable damage (no rerolls allowed). Then remove the token from that area. There cannot be more than 3 Pit tokens on the 
+        board at a time.</p>
+        <p><span class="special_title">Spotted:</span> The Warlord removes the <img src="/assets/tokens/energyToken.png" class="scen_token" /> 
+        token from the General’s tile. This Special Rule can only be used once per game.</p>
+      </div>',
+
+      # Special Rules:   
+      special_rules: '<p><span class="special_title">Game Board Rules:</span> Standard game board rules apply.</p>
+      <p><span class="special_title">Reinforcements:</span> The General uses the 5 reinforcement areas 
+      <img src="/assets/stats/reinforcement.png" class="scen_token" /> outside the fort. 
+      The Warlord uses the reinforcement area <img src="/assets/stats/reinforcement.png" class="scen_token" /> inside the fort.</p>
+      <p><span class="special_title">Tracking Victory Points:</span> During setup, the General places the 
+      <img src="/assets/tokens/gongToken.png" class="scen_token" /> token on the 0 space of the Turn track. The Warlord does the same 
+      with the <img src="/assets/tokens/invocationToken.png" class="scen_token" /> token. Use these tokens to track Victory Points.</p>
+      <p><span class="special_title">Opening chests:</span> A unit controlled by the General in an area with a chest may spend 
+      its activation to try to open it. Roll <img src="/assets/dice/Orange.png" class="scen_sq_token" /> (rerolls allowed). If the 
+      result has 2 successes, remove the chest from the game and increase the General’s Victory Points by 3.</p>
+      <p><span class="special_title">Repel the threat:</span> When a tile in the General’s River is dead, the Warlord immediately 
+      gains 4 Victory Points. It is not possible to demobilize a tile for this scenario for both sides. It is still possible to 
+      dredge the River.</p>',
+
+      overlord_victory: '',
+
+      correction: '',
+
+      origin: "Versus",
+      product_ids: [1, 30],
+      map_ids: [22],
+      hero_ids: [],
+      tile_ids: [],
+      spell_ids: [],
+      item_ids: [] },
+
+
+
+
+
+
+
+
+    #  Red Nails Strech 
+
+      # Adventure
+      # Assault on the Fortress
+    { name: "Assault on the Fortress",
+      mode: 'Adventure',
+      pdf_link:'',
+      credit: 'Manu Crochet',
+      player_count: "3",
+      complexity: "2",
+
+      description: "<p>As part of its continuing expansionist campaign, the empire of Aquilonia is attempting to colonize Cimmeria. 
+      From their fortress in Venarium, the invaders are launching bloody-thirsty raids, terrorizing the surrounding villages, 
+      massacring any who dare resist, and seizing control of the land.</p>
+      <p>The fierce Cimmerians have responded by launching courageous assaults on the fortress, but time and time again their 
+      attempts have been thwarted by the Aquilonians’ impressive defensive arsenal. Unable to gain any further ground, they are now 
+      faced with a single solution: They must send their best fighters to infiltrate the stronghold, destroy the stockpiles of weapons, 
+      and give the Cimmerian warriors a chance to tear down this otherwise invincible outpost.</p>
+      <p>In the dead of night, Conan and Valeria slip through the fortress’s defenses to carry out their mission.</p>",
+
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Assault+on+the+Fortress.jpg",
+
+      hero_goal: 'To win, the Heroes must destroy all the weapons caches.',
+
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the Heroes’ turn. The Heroes start in areas <img src="/assets/tokens/areaPToken.png" class="scen_token" /> A 
+          and <img src="/assets/tokens/areaPToken.png" class="scen_token" /> B. There can be only one Hero in each area.</td>
+          <td></td>
+        </tr>
+      </table>
+      <table class="scen_table">
+        <tr>
+          <td><h4>2</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ConanFreeToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/51">Conan Free Companion</a>
+            (<a class="item" href="/items/148">Akbitana’s Claymore</a>,
+            <a class="item" href="/items/17">Leather Armor</a>,
+            <a class="item" href="/items/22">Life Potion</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ValeriaFreeToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/57">Valeria Free Companion</a>
+            (<a class="item" href="/items/155">Lemurian Blade</a>,
+            <a class="item" href="/items/11">Parrying Dagger</a>, 
+             <a class="item" href="/items/17">Leather Armor</a>,
+             <a class="item" href="/items/13">Throwing Knives</a>,
+             <a class="item" href="/items/22">Life Potion</a>) 
+          </td>
+          <td></td>
+        </tr>
+      </table>
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each Hero moves 3 gems from their Reserve zone to their Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
+
+      overlord_goal: 'To win, the Overlord must kill both Heroes.',
+
+      overlord_setup: '
+        <table class="scen_table">
+          <tr>
+            <td><img src="/assets/tokens/redGem.png" class="scen_token" /></td>
+            <td>The The Overlord starts with 9 gems in their Reserve zone and 3 in their Fatigue zone, and places the 
+            Recovery token showing a recovery value of 5 in the Book of Skelos.</td>
+            <td></td>
+          </tr>
+        </table>
+       <table class="scen_table">
+          <tr>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><p>When an event tile is activated the Overlord must perform both Events if possible, in this order:</p>
+              <p><span class="setup_suggestion">Secure the weapons caches:</span> Choose one of the following:
+              <ul>
+                <li>Place 2 Level 1 Security tokens in two different weapons cache areas. </li>
+                <li>Place 1 Level 2 Security token in a single weapons cache area.</li>
+              </ul></p>
+              <p><span class="setup_suggestion">Reinforcements:</span> The Overlord gains 3 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
+            </td>
+            <td></td>
+          </tr>
+        </table>',
+
+      tile1: 20,
+      tile2: 15,
+      tile3: 3,
+      tile4: 16,
+      tile5: 1,
+      tile6: 19,
+      tile7: 18,
+      tile8: 999,
+
+      life1: 0,
+      life2: 0,
+      life3: 3,
+      life4: 0,
+      life5: 0,
+      life6: 0,
+      life7: 0,
+      life8: 0,
+
+      special_rules: '<p><span class="special_title">Game Board Rules:</span> Standard game board rules apply.</p>
+
+      <span class="special_title">Game Board Rules:</span>Setup: The Overlord takes 4 Chest tokens 
+      <img src="/assets/tokens/treasureToken.png" class="scen_token" /> numbered “1”, and 2 Chest tokens 
+      <img src="/assets/tokens/treasureToken.png" class="scen_token" /> face up next to their Book of Skelos. They represent extra 
+      security added to a weapons cache, and their number indicates their level.</p>
+
+      <a class="tile" href="/tiles/7"><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Zaporavo.jpg" class="scen_event float_tile"></a>
+      <p>Then the Overlord takes Zaporavo’s tile and places it next to their Book of Skelos. His miniature is placed as indicated on 
+      the setup diagram.</p>
+      <p>Finally, the Overlord takes 4 generic tokens <img src="/assets/tokens/numBackToken.png" class="scen_token" /> numbered “3”, 
+      “4”, “5”, and “6”, and places them as they wish face down in the indicated areas. They represent the weapons caches the 
+      Heroes try to destroy.</p>
+
+      <span class="special_title">Zaporavo:</span> At the end of their activation, the Overlord may spend 1 
+      <img src="/assets/tokens/redGem.png" class="scen_token" /> to activate Zaporavo. Move his miniature up to 2 areas without 
+      hindering, and perform a Melee Attack if possible. Benefits can’t be used for Zaporavo.</p>
+      <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ZaporavoToken.png" class="scen_event float_tile">
+
+      <span class="special_title">Destroy a weapons cache:</span> A Hero in an area with a weapons cache token may flip it faceup. 
+      Its number indicates its structure points. To destroy a weapons cache, a Hero must perform a Melee Attack and roll at least as 
+      many successes as its structure points. If successful, the weapons cache is destroyed and the token is removed from the game.</p>     
+      <p>A Security token in an area with a weapons cache adds its value to the structure points of the weapons cache.</p>
+
+      <span class="special_title">The cover of night:</span> Until the end of round 3, Ranged Attacks can only target units in an 
+      adjacent area.</p>',
+
+      correction: '',
+      hero_victory: '',
+      overlord_victory: '',
+
+      origin: "Red Nails Stretch Goal",
+      product_ids: [1, 29, 30],
+      map_ids: [22],
+      hero_ids: [51, 57],
+      tile_ids: [1, 3, 7, 15, 16, 18, 19, 20],
+      spell_ids: [],
+      item_ids: [] },
+
+
+
+
+      # Adventure
+      # The Relic from the Depths
+    { name: "The Relic from the Depths",
+      mode: 'Adventure',
+      pdf_link:'',
+      credit: 'Manu Crochet',
+      player_count: "4",
+      complexity: "2",
+
+      description: "<p>Legend has it that in the ancient, cursed, abandoned city of Pteion, located in the eastern province of Stygia, 
+      there is a relic eons old that grants immortality to anyone who possesses it. Conan and his allies set off in search of this 
+      powerful artefact, which has the power to give them infinite wealth and glory. After they arrive, they discover the entrance to 
+      the catacombs hidden behind a mound of human bones. As they enter the stone labyrinth, the walls seem to come alive, closing 
+      behind them and transforming the layout of the maze. A supernatural scream suddenly echoes through the tunnels, as if a dark 
+      presence lurking in the shadows had been awakened by the moving walls. What sorcery fills these hateful halls? Regardless, the 
+      group certainly aren’t going back empty-handed! Whatever the threat lurking in these galleries, they must locate the relic and 
+      find a way to escape.</p>",
+
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Relic+from+the+Depths.jpg",
+
+      hero_goal: 'To win, the Heroes must retrieve the relic, kill the monster, and escape the catacombs.',
+
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the Heroes’ turn. he Heroes start in the areas indicated by the setup diagram.</td>
+          <td></td>
+        </tr>
+      </table>
+      <table class="scen_table">
+        <tr>
+          <td><h4>3</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ConanWandererToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/50">Conan the Rogue</a>
+            (<a class="item" href="/items/157">Phoenix Sword</a>,                         
+             <a class="item" href="/items/158">Rapier</a>,
+             <a class="item" href="/items/13">Throwing Knives</a>,
+             <a class="item" href="/items/17">Leather Armor</a>,
+             <a class="item" href="/items/22">Life Potion</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ValeriaFreeToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/57">Valeria Free Companion</a>
+            (<a class="item" href="/items/12">Sword</a>,
+            <a class="item" href="/items/11">Parrying Dagger</a>, 
+             <a class="item" href="/items/17">Leather Armor</a>,
+             <a class="item" href="/items/22">Life Potion</a>) 
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/4">Shevatas</a>
+            (<a class="item" href="/items/159">Shemite Bow</a>,
+            <a class="item" href="/items/164">Stiletto</a>, 
+             <a class="item" href="/items/17">Leather Armor</a>,
+             <a class="item" href="/items/22">Life Potion</a>) 
+          </td>
+          <td></td>
+        </tr>        
+      </table>
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each Hero moves 3 gems from their Reserve zone to their Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
+
+      overlord_goal: 'To win, the Overlord must kill all 3 Heroes.',
+
+      overlord_setup: '
+        <table class="scen_table">
+          <tr>
+            <td><img src="/assets/tokens/redGem.png" class="scen_token" /></td>
+            <td>The The Overlord starts with 9 gems in their Reserve zone and 3 in their Fatigue zone, and places the 
+            Recovery token showing a recovery value of 5 in the Book of Skelos.</td>
+            <td></td>
+          </tr>
+        </table>
+        <table class="scen_table">
+          <tr>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><p>When an event tile is activated the Overlord must perform both Events if possible, in this order:</p>
+              <p><span class="setup_suggestion">Snake bite:</span> The Overlord chooses a Hero who moves 1 energy gem from 
+              their Reserve zone to their Wound zone.</p>
+              <p><span class="setup_suggestion">Reinforcements:</span> The Overlord gains 4 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
+            </td>
+            <td></td>
+          </tr>
+        </table>',
+
+      tile1: 193,
+      tile2: 49,
+      tile3: 188,
+      tile4: 42,
+      tile5: 47,
+      tile6: 1,
+      tile7: 44,
+      tile8: 999,
+
+      life1: 0,
+      life2: 0,
+      life3: 4,
+      life4: 0,
+      life5: 0,
+      life6: 0,
+      life7: 0,
+      life8: 0,
+
+      special_rules: '<p><span class="special_title">Game Board Rules:</span> Standard game board rules apply.</p>
+
+      <span class="special_title">Setup:</span> The Overlord takes the Crawler tile and miniature and places them next to their Book 
+      of Skelos. They represent the Monster. Then, the Overlord places the Hidden Chamber tile with the Relic token next to area A, B 
+      or C. It connects to the area next to it as though it were a border WITH line of sight. Then, place the 4 Boulders tokens on the 
+      borders of the areas indicated by the setup diagram. They represent the moving wall of the catacombs. Finally, place the Rope
+      token   in the area indicated by the setup diagram.</p>
+
+      <span class="special_title">The Monster:</span> When a Hero retrieves the relic, the Overlord immediately places the Monster’s 
+      tile at the first position of their River (sliding the others to the right) and places its miniature in the indicated area by 
+      the setup diagram.</p>
+
+      <span class="special_title">The Relic:</span> It can be found in the Hidden chamber and has an encumbrance value of 3.</p>
+
+      <span class="special_title">Retrieve the relic:</span> A Hero in the area of the Relic may perform a complex Manipulation 
+      with a difficulty of 4 to retrieve it. The Lockpicking skill can be used. If successful, the Hero places the Relic token 
+      next to their Hero sheet.</p>
+
+      <span class="special_title">Spider webs:</span> A Hero entering or exiting an area with a Web token   must spend 1 extra 
+      movement point. The spider webs block line of sight. A Hero may destroy a spider web and remove its token from the board by 
+      rolling at least 2 successes with a Melee or Ranged Attack.</p>
+
+      <span class="special_title">Moving walls:</span> A Boulder token   blocks both movement and line of sight. A Hero with Climb 
+      may cross the Boulder with an additional 3 movement points. At the beginning of their turn, the Overlord must move one Boulder 
+      token to a different border, except for the entrance to the Hidden Chamber.</p>
+
+      <span class="special_title">Escaping the catacombs:</span> A Hero in the area with the Rope token   may spend movement points 
+      as if they were crossing a border to escape the catacombs. They are not considered dead and cannot return to the board.</p>',
+
+      correction: '',
+      hero_victory: '',
+      overlord_victory: '',
+
+      origin: "Red Nails Stretch Goal",
+      product_ids: [1, 2, 29, 30],
+      map_ids: [23],
+      hero_ids: [4, 50, 57],
+      tile_ids: [1, 42, 44, 47, 49, 188, 193],
+      spell_ids: [],
+      item_ids: [] },
+
+
+
+
+
+  # Solo / Co-Op
+  # Rescue the Princess
+    { name: "Rescue the Princess",
+      mode: 'Solo/Cooperative',
+      pdf_link:'',
+      credit: 'Manu Crochet',
+      player_count: "3-4",
+      complexity: '',
+
+      description: '
+      <div class="col-md-6">
+        <p>The daring Argosian merchants have been expanding their trade throughout the continent for several years. Naum, master of 
+        their powerful guild, decides to open an overland trade route to distant Vanaheim, via the shortest route through the wild 
+        lands of the Picts. To reassure his partners that the route is safe, he sends his own daughter, Ilona, to accompany the first 
+        convoy.</p>
+        <p>A week after her departure, one of the soldiers supposed to be protecting the merchants returns to Naum with terrible news. 
+        He is the survivor of an ambush led by a group of Picts. There was nothing they could do; everyone else was massacred.</p>
+        <p>Refusing to believe that his daughter is dead, Naum hires a troop of seasoned mercenaries to find her.</p>
+      </div>
+      <div class="col-md-6">
+        <p>These soldiers of fortune reach the ambush site after two days’ riding and surprise a group of Pict warriors searching the 
+        lifeless bodies of Naum’s men. The looters appear to be the ones responsible for the massacre, and have returned to collect 
+        whatever spoils were left to be taken.</p>
+        <p>The good news is that Ilona is not among the corpses. The bad news is that they’re going to have to track her down with 
+        their swords.</p>
+      </div>',
+
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Rescue+the+Princess.jpg",
+      
+      # scenario pre-title 
+      hero_goal: '',
+
+      # Setup
+      hero_setup: '
+      <div class="col-md-6">
+        <p><span class="setup_item">Objective</span></p>
+        <p>If the Heroes find at least 6 clues, question Zogar Sag and at least one of them escapes the jungle, the Heroes win.</p>
+
+        <p><span class="setup_item">Setup</span></p>
+        <p><strong>The game starts with the Heroes’ turn.</strong> The Heroes start in the area marked 
+        <span style="white-space: nowrap;"><img src="/assets/tokens/area1Token.png" class="scen_token" />.</span> 
+
+        <p><span class="special_solo_title">3 Players</span></p>
+        <ul>
+          <li>Warrior: Leather Armor, Conan’s Sword, Buckler</li>
+          <li>Rogue: Kris, Bossonian Bow</li>
+          <li>Sorcerer: Dagger, the Spells Set’s Halo and Bori’s Rage</li>
+        </ul>
+
+        <p><span class="special_solo_title">4 Players</span></p>
+        <ul>
+          <li>Sellsword: Sword, Parrying Dagger, Leather Armor.</li>
+        </ul>
+
+        <p>For this two-scenario campaign, the Heroes can add the equipment they find to their Cache</p>.
+        <p>Take 8 generic tokens <img src="/assets/tokens/numBackToken.png" class="scen_token" />, 4 with an odd number and 
+        4 with an even number, and place them randomly in the areas indicated by the setup diagram. They represent the clues 
+        the Heroes must find.</p>
+        <p></p>
+
+       <table class="solo_left_table">
+          <tr>
+            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+            <td>After setup, each Hero moves 4 gems from their Reserve zone to their Fatigue zone.</td>
+          </tr>
+        </table>
+
+
+        <p><span class="setup_item">Asset Deck</span></p>
+
+        <p>Chests require a complex Manipulation with a difficulty of 2 to open. The Lockpicking Skill can be used. The asset deck 
+        contains: Explosive orb, Life Potion, Chain Mail, Shield, Sorcerer’s Staff, Battle Axe, Yuetshi Knife, Spellbook (Mitra’s 
+        Healing).</p>
+
+      </div>
+
+
+
+      <div class="col-md-6">
+
+
+        <p><span class="setup_item">Special Rules</span></p>
+
+        <p><span class="special_solo_title">Game Board Rules:</span> Standard game board rules apply except the Rope Vine (Ascend) 
+        rule modified as follows: The Overlord units with Climb in a ground area with a Rope Vine may ascend to the Cliff Top by 
+        spending 1 movement point. This movement is affected by Hindering.</p>
+
+        <p><span class="special_solo_title">Find a clue:</span> A Hero in an area with a Clue token 
+        <img src="/assets/tokens/numBackToken.png" class="scen_token" />  may search their surroundings to find it. Flip the token. 
+        If it shows an even value, perform a complex Manipulation with a difficulty of 2 to find the clue. If the token shows an 
+        odd value, the difficulty is 3. The Lockpicking Skill can be used. If successful, the Hero places the token next to their 
+        Hero sheet. If unsuccessful, leave the token face up in its area.</p>
+
+        <p><span class="special_solo_title">Question Zogar Sag:</span> Zogar Sag cannot lose his last Life Point. When he has only 1 Life 
+        Point left, a Hero in his area may perform a complex Manipulation with a difficulty of 3 to question him. If successful, the 
+        Hero places the Zogar Sag miniature next to their Hero sheet, and his tile is removed from the River.</p>
+
+        <p><span class="special_solo_title">Escape the jungle:</span> A Hero in the area marked “Escape” may spend movement points as if 
+        they were crossing a border to escape the jungle. Once a Hero has escaped, they cannot return to the board and still count 
+        for the number of Activation tokens to be drawn.</p>
+
+
+        <p><span class="setup_item">Events</span></p>
+
+        <p>When the Event tile is activated, resolve each of the following events in order:
+          <ol>
+            <li><span class="special_solo_title">More are coming!</span>1. Reinforce:</li>
+              <ul>
+                <li>1 Xotalanc Hunter in Reinforcement area A ,</li>
+                <li>1 Pict Hunter in Reinforcement area B ,</li>
+                <li>1 Xotalanc Warrior in Reinforcement area C ,</li>
+                <li>1 Pict Warrior or 1 Crocodile in Reinforcement area D .</li>
+              </ul>
+            <li><span class="special_solo_title">Activate Zogar Sag.</span> He always targets an Alternate Target Hero
+          </li>
+          </ol></p>
+
+ 
+        <p><span class="setup_item">Options</span></p>
+
+        <p><span class="special_title">Four Player Mode</span> 
+          <ul>
+            <li>Zogar Sag has 6 life points.</li>
+            <li><span class="special_solo_title">Reminder:</span> The Overlord activates four times per turn.</li>
+          </ul></p>
+      </div>',
+
+      overlord_goal: '',
+
+      overlord_setup: '',
+
+      # Number Token Used
+      rtoken1: 'num1Token',
+      rtoken2: 'num2Token',
+      rtoken3: 'num3Token',
+      rtoken4: 'num4Token',
+      rtoken5: 'num5Token',
+      rtoken6: 'num6Token',
+      rtoken7: 'num7Token',
+      rtoken8: '',
+
+      # Text under tile
+      btoken1: '(4 Max)',
+      btoken2: '(4 Max)',
+      btoken3: '(4 Max)',
+      btoken4: '(4 Max)',
+      btoken5: '',
+      btoken6: '',
+      btoken7: '(4 Max)',
+      btoken8: '',
+
+      tile1: 24,
+      tile2: 192,
+      tile3: 199,
+      tile4: 29,
+      tile5: 1,
+      tile6: 8,
+      tile7: 202,
+      tile8: 999,
+
+      life1: 0,
+      life2: 0,
+      life3: 0,
+      life4: 0,
+      life5: 0,
+      life6: 4,
+      life7: 0,
+      life8: 0,
+
+      special_rules: '',
+
+      # campaign number   
+      event: '1/2',
+
+      # Result
+      hero_victory: '
+      <div class="col-md-6">
+        <p><span class="special_solo_title">Hero Victory:</span> The Picts were actually also mercenaries, in the pay of a shadowy patron. 
+        They don’t know their identity, but their leader, Zogar Sag, seems to be more up to speed. After a tough interrogation, he 
+        confesses that this is not the first time he has been paid to kidnap young women and drop them off on the edge of the nearby 
+        marshes. He admits that he has never dared venture there himself, as he is terrified by the stories of immortal creatures that 
+        have haunted the area for generations, long before he and his ancestors were born.</p> 
+        <p>The trail is now clear, and it leads straight into damp, dark depths of the wilderness.</p>   
+      </div>
+
+
+      <div class="col-md-6">
+        <p><span class="special_solo_title">Hero Defeat:</span> Fleeing is the only hope of survival. The mercenaries have no choice but 
+        to retreat and regroup. Who are these crazy-looking warriors adorned with strange ornaments who have come to help the Picts? 
+        The group’s sorcerer recalls tales of an ancient people from the dense southern jungles, wearing objects with decorative 
+        patterns similar to the ones they have just seen. According to the Stygian scrolls he has studied, these people were forced 
+        to flee their native city to escape endless war and famine. Their exodus took them northwards to the marshes in the wilderness, 
+        where they settled. So far, no one has ever been foolish enough to explore these lands and see if these tales were true.</p>
+        <p>Weakened and running out of alternatives, the mercenaries decide that this meagre lead is better than going back to 
+        Naum empty-handed.</p>
+      </div>',
+
+      overlord_victory: '',
+      correction: '',
+
+      origin: "Red Nails Stretch Goal",
+      product_ids: [1, 29],
+      map_ids: [20],
+      hero_ids: [],
+      tile_ids: [1, 8, 24, 29, 192, 199, 202],
+      spell_ids: [],
+      item_ids: [] },
+
+
+
+
+  # Solo / Co-Op
+  # The Village in the Mist
+    { name: "The Village in the Mist",
+      mode: 'Solo/Cooperative',
+      pdf_link:'',
+      credit: 'Manu Crochet',
+      player_count: "3-4",
+      complexity: '',
+
+      description: '
+      <div class="col-md-6">
+        <p>The sunlight fades as the mercenaries make their way deeper into the marshes, replaced by a gentle glow illuminating 
+        everything in a pale, ominous grey. They move cautiously forward, their footsteps muffled by the spongy mud as the thick 
+        mist rising from the stagnant water envelops them.</p>
+        <p>Suddenly, a macabre scene comes into view. Inert, decomposing bodies are hanging from poles right in front of them. Their 
+        skeletal faces, frozen in terror, seem to be screaming at the mercenaries to turn around and run.</p>
+        <p>Ignoring this warning, they continue on their way, guided by little more than the exceptional skills of their marauder, 
+        who has managed to pick up tracks leading through this murky, shifting environment.</p>
+        <p>After a long and arduous walk, a blurry shape emerges from the fog. It appears to </p>
+      </div>
+      <div class="col-md-6">
+        <p>be a wooden hut perched on stilts eaten away by damp and mold. Before long, other buildings appear and reveal an entire 
+        village filled with the crazy soldiers they fought earlier!</p>
+        <p>They seem to be in the right place, and the sight of Ilona, wrists bound as she is dragged roughly into one of the huts, 
+        dispels any lingering doubts. She is followed by a hauntingly beautiful but sinister- looking woman whose eyes glow with 
+        fascinating yet terrifying hypnotic intensity.</p>
+        <p>An occult ceremony is being prepared in the centre of the village. The mercenaries have seen enough in their countless 
+        adventures to know that it involves the sacrifice of a young woman.</p>
+        <p>There’s no time to lose!</p>
+      </div>',
+
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Village+in+the+Mist.jpg",
+      
+      # scenario pre-title 
+      hero_goal: '',
+
+      # Setup
+      hero_setup: '
+      <div class="col-md-6">
+        <p><span class="setup_item">Objective</span></p>
+        <p>If the Heroes free Ilona, achieve the additional objective and at least one of them escapes the swamps with 
+        Ilona, the Heroes win.</p>
+
+        <p><span class="setup_item">Setup</span></p>
+        <p><strong>If the Heroes won the previous scenario, the game starts with the Heroes’ turn. Otherwise, the game starts 
+        with the Overlord’s turn.</strong> The Heroes start in the area marked 
+        <span style="white-space: nowrap;"><img src="/assets/tokens/area1Token.png" class="scen_token" />.</span></p>
+        <p>Take 6 Flame tokens <img src="/assets/tokens/flameToken.png" class="scen_token" /> and place them next to the board.</p>
+        <p>Place the Rope token on Ilona’s miniature base, represented by the Princess miniature.</p>
+
+       <table class="solo_left_table">
+          <tr>
+            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+            <td>If the Heroes won the previous scenario, each Hero moves 3 gems from their Reserve zone to their Fatigue zone. 
+            Otherwise, each Hero moves 4 gems from their Reserve zone to their Fatigue zone.</td>
+          </tr>
+        </table>
+
+
+        <p><span class="setup_item">Asset Deck</span></p>
+
+        <p>Chests require a complex Manipulation with a difficulty of 2 to open. The Lockpicking Skill can be used. The asset 
+        deck contains: Explosive orb, Life Potion, Asshuri Cuirass, Tribal Shield, Shemite Bow, Rapier, Phoenix Sword, 
+        Spellbook (Mitra’s Halo).</p>
+
+
+        <p><span class="setup_item">Events</span></p>
+
+        <p>When the Event tile is activated, resolve each of the following events in order:
+          <ol>
+            <li>Reinforce 1 Xotalanc Spearman, 1 Xotalanc Assasin, 1 Xotalanc Warrior, 1 Crocodile, 1 Tecuhltli Swordsman. 
+            Heroes choose where the units are reinforced, but can not place more than 2 units in one reinforcement area./li>
+            <li>Activate Tascela.</li>
+            <li>If it is not already there, place the Rope token on the base of Ilona’s miniature.</li>
+          </ol></p>
+
+
+        <p><span class="setup_item">Special Rules</span></p>
+
+        <p><span class="special_solo_title">Game Board Rules:</span> Standard game board rules apply except the “Water areas” rule which 
+        doesn’t affect the Overlord units.</p>
+
+        <p><span class="special_solo_title">Ilona:</span> She cannot suffer damage and does not count towards hindering.</p>
+
+        <p><span class="special_solo_title">Free Ilona:</span> A Hero in Ilona’s area may perform a complex Manipulation with a difficulty 
+        of 4 to free her. The Lockpicking Skill can be used. If successful, remove the Rope token from the base of her miniature and 
+        place it next to the board.</p>
+
+      </div>
+
+
+
+      <div class="col-md-6">
+      <p></p><p></p>
+
+        <p><span class="special_solo_title">Escort Ilona:</span> A Hero in Ilona’s area without the Rope token may perform a simple 
+        Manipulation to move her miniature to an adjacent area ignoring hindering. If the Rope token is on her miniature’s base, 
+        the Manipulation is complex with a difficulty of 1. If successful, move her miniature to an adjacent area ignoring hindering, 
+        remove the Rope token from her base and place it next to the board.</p>
+        <p>Each Hero cannot escort Ilona more than once per Turn.</p>
+
+        <p><span class="special_solo_title">Escape with Ilona:</span> A Hero in the area marked 
+        <img src="/assets/tokens/area1Token.png" class="scen_token" /> with Ilona may spend movement points as if they were crossing 
+        a border to escape the swamp with her. Once a Hero has escaped, they cannot return to the board and still count for the 
+        number of Activation tokens to be drawn.</p>
+
+        <p><span class="special_solo_title">Additional Objective:</span> When Ilona is freed for the first time, she finds her courage and 
+        asks for your help before escaping this wretched place. Roll <img src="/assets/dice/Orange.png" class="scen_sq_token" />  (no 
+        rerolls). The number of successes indicates the additional objective to achieve.
+          <ul>
+            <li>0 success: Retrieve her father’s stolen goods. The Heroes must open all the chests.</li>
+            <li>1 success: Burn this cursed village. The Heroes must burn the village.</li>
+            <li>2 successes: Take revenge on Tascela. The Heroes must kill Tascela.</li>
+          </ul></p>
+
+
+        <p><span class="special_solo_title">Burn the village:</span> A Hero in a hut area may perform a complex Manipulation 
+        with a difficulty of 2 to set the hut on fire. If successful, place a Flame token in the hut area. There are 6 huts, and 
+        there can be only one Flame token per hut. When all 6 huts are set on fire, the village is burned.</p>
+
+        <p><span class="special_solo_title">Tascela:</span> She targets the Strongest Hero.
+          <ul>
+            <li><span class="special_solo_title">Fascination:</span> Each turn, the first Attack targeting her must reroll the 
+            die with the highest number of successes. This Special rule replaces the Fascination Skill.</li>
+            <li><span class="special_solo_title">Spellcaster:</span> Tascela has the Soul Leech spell. At the end of her 
+            activation, she casts it targeting the Strongest Hero.</li>
+          </ul></p>
+
+        <p><span class="special_solo_title">Xotalanc Spearmen:</span> The Xotalanc Spearmen only use their Ranged Attack.
+        <p><span class="special_solo_title">Xotalanc Assassins:</span> The Xotalanc Assassins only use their Melee Attack.
+
+ 
+        <p><span class="setup_item">Options</span></p>
+
+        <p><span class="special_title">Four Player Mode</span> 
+          <ul>
+            <li>Tascela has 7 Life Points</li>
+            <li><span class="special_solo_title">Reminder:</span> The Overlord activates four times per turn.</li>
+          </ul></p>
+      </div>',
+
+      overlord_goal: '',
+
+      overlord_setup: '',
+
+      # Number Token used
+      rtoken1: 'num1Token',
+      rtoken2: 'num2Token',
+      rtoken3: 'num3Token',
+      rtoken4: 'num4Token',
+      rtoken5: 'num5Token',
+      rtoken6: 'num6Token',
+      rtoken7: 'num7Token',
+      rtoken8: '',
+
+      # Text under tile
+      btoken1: '(4 Max)',
+      btoken2: '(3 Max)',
+      btoken3: '',
+      btoken4: '(4 Max)',
+      btoken5: '(4 Max)',
+      btoken6: '',
+      btoken7: '(4 Max)',
+      btoken8: '',
+
+      tile1: 201,
+      tile2: 196,
+      tile3: 184,
+      tile4: 198,
+      tile5: 202,
+      tile6: 1,
+      tile7: 192,
+      tile8: 999,
+
+      life1: 0,
+      life2: 0,
+      life3: 5,
+      life4: 0,
+      life5: 0,
+      life6: 0,
+      life7: 0,
+      life8: 0,
+
+      special_rules: '',
+
+      # campaign number   
+      event: '2/2',
+
+      # Result
+      hero_victory: '
+      <div class="col-md-6">
+        <p><span class="special_solo_title">Hero Victory:</span> Ilona is safe. The mercenaries escape from this swampy hell, spurred on 
+        by the cries of their enemies who stop chasing them as soon as they cross the border of the marshes.</p>
+        <p>On the way back to Argos, Ilona recounts what she learned from her captors. Tascela and her people come from a cursed city, 
+        far to the south in the Black Kingdoms, where they were banished more than two centuries ago for their unholy practice of dark 
+        magic. They have managed to prolong their existence thanks to the supernatural powers of the witch, who is capable of sucking 
+        the youth out of one body and passing it on to another. They have sacrificed tens of thousands of victims in their ceremonies - 
+        which explains the myths and legends that have surrounded these marshes for generations. Over time, the marshland where they 
+        found refuge has become a prison in which they are condemned to wander for all eternity.</p>
+        <p>Naum falls to his knees when he sees his daughter safe and sound, and the generous bounty he pays the mercenaries allows 
+        them to enjoy endless excess and luxury for many nights in the exotic taverns and inns of Argos. But all good things must come 
+        to an end, and after squandering their pay our mercenaries return to their adventures, penniless. That, however, is a story for 
+        another time...</p>
+      </div>
+
+
+      <div class="col-md-6">
+        <p><span class="special_solo_title">Hero Defeat:</span> The mercenaries were no match for these crazed warriors. As their lifeless 
+        bodies sink into the swampy waters, Ilona is caught, bound and taken captive again.</p>
+        <p>After several days without news, Naum accepts that the mission must have been a failure and recruits new troops, hoping 
+        that they will bring his daughter back to him.</p>
+      </div>',
+
+      overlord_victory: '',
+      correction: '',
+
+      origin: "Red Nails Stretch Goal",
+      product_ids: [1, 3, 29],
+      map_ids: [6],
+      hero_ids: [],
+      tile_ids: [1, ],
+      spell_ids: [],
+      item_ids: [] },
+
+
+
+  # Versus
+  # A Hide Worth Dying For
+    { name: "A Hide Worth Dying For",
+      mode: 'Versus',
+      pdf_link:'',
+      credit: 'Manu Crochet',
+      player_count: "2",
+      complexity: '',
+
+      description: '
+      <p>The craftsmen of Nemedia are famed for being master leatherworkers. Their armour is as strong as it is light, and sells 
+      for the highest prices around the world. These exceptional qualities are made possible by a rare and precious raw material: 
+        the skin of the renowned Red River crocodile.</p>
+      <p>In the creatures’ native region, tanners battle each other to lay their hands on the finest skins. Some have even hired 
+      mercenaries to crush their competitors and secure a monopoly on this lucrative yet perilous trade.</p>
+      <p>But in the jungle, the greatest threat is not always who you might think...</p>',
+
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/A+Hide+Worth+Dying+For.jpg",
+    
+
+      # End-Game Conditions:
+      hero_victory: '<p>When there are no Crocodiles left on the board, or there are no Hide tokens left next to the board.</p>',
+      
+
+      # General Victory Condition 
+      hero_goal: "The General has a higher value of tanned hides than the Warlord.",
+
+
+      # General Setup
+      hero_setup: '
+      <p>The General starts with <strong>9 gems</strong> in their Reserve zone and <strong>2 gems</strong> in their Fatigue zone, 
+      and places the Recovery token showing a <strong>recovery value of 5</<strong>strong> in their Book of Skelos.</p>
+      <p>The General may choose 2 spells: <strong>Bori’s Rage, Mitra’s Halo (vs)</strong>.</p>',
+
+
+      # Warlord Victory Condition 
+      overlord_goal: "The Warlord has a higher value of tanned hides than the General.",
+
+
+      # Warlord Setup
+      overlord_setup: '
+      <p><strong>Initiative:</strong> The Warlord has the initiative and starts the game.</p>
+
+      <p>The Warlord starts with <strong>11 gems</strong> in their Reserve zone and <strong>0 gems</strong> in their Fatigue zone, 
+      and places the Recovery token showing a <strong>recovery value of 5</strong> in their Book of Skelos.</p>
+      <p>The Warlord may choose 2 spells: <strong>Withering, Set’s Halo (vs)</strong>.</p>',
+
+      btoken1: 'Minion',
+      btoken2: 'Champion',
+      btoken3: 'Leader',
+      btoken4: 'Minion',
+      btoken5: 'Champion',
+      btoken6: '<img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" >',
+      btoken7: 'Minion',
+      btoken8: '',
+
+      rtoken1: 'Minion',
+      rtoken2: 'Champion',
+      rtoken3: 'Leader',
+      rtoken4: 'Minion',
+      rtoken5: 'Champion',
+      rtoken6: '<img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" >',
+      rtoken7: 'Minion',
+      rtoken8: '',
+
+      tile1: 4,
+      tile2: 3,
+      tile3: 1,
+      tile4: 4,
+      tile5: 3,
+      tile6: 0,
+      tile7: 4,
+      tile8: 0,
+
+      life1: 4,
+      life2: 3,
+      life3: 1,
+      life4: 4,
+      life5: 3,
+      life6: 0,
+      life7: 4,
+      life8: 0,
+
+
+      # Event:   
+      event: '<p>The player activates their Leader and gains 2 reinforcement points (the reinforcement areas are the same for 
+      both players). Then, they must use the following Special Rule.</p>
+      <p><span class="special_title">Hide and skin:</span> The player takes a Crocodile miniature from the Reserve and adds it 
+      to one of the Deep Water areas of the board.</p>',
+
+
+      # Special Rules:   
+      special_rules: '
+      <p><span class="special_title">Game Board Rules:</span> Standard game board rules apply.</p>
+      <p><span class="special_title">Setup:</span> Take 7 Chest tokens <img src="/assets/tokens/treasureToken.png" class="scen_token" /> 
+      numbered “1” and 4 Chest tokens <img src="/assets/tokens/treasureToken.png" class="scen_token" /> numbered “2” and place them next 
+      to the board. They represent the Crocodile skins.</p>
+      <p>Then, take 2 table tokens and place them as indicated by the setup diagram. They represent the tanning workshops. Finally, place the Crocodiles miniatures as indicated by the setup diagram and their tile between the two players.
+      
+      <a class="tile" href="/tiles/192"><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Crocodiles.jpg" class="scen_event float_tile"></a>
+      <p><span class="special_title">Crocodiles:</span> Before their Activation phase, a player must activate a Crocodile without 
+      spending any gem. They must perform a Move action towards the nearest unit (whatever their side) then perform a Melee Attack 
+      against that unit, if possible. Benefits cannot be used for the Crocodiles.</p>
+      <p><span class="special_title">Skin a Crocodile:</span> When a Crocodile is killed, its miniature is placed in the Reserve, 
+      next to their tile. Then the player who killed the Crocodile draws a Hide token from those available next to the board without 
+      looking at its value. If the Crocodile was killed with a Melee Attack, the token is placed on the base of the unit that killed 
+      it. If the Crocodile was killed with a Ranged Attack, the token is placed in the area where the Crocodile was.</p>
+      <p>When a unit with a Hide token on its base is killed, the token is dropped in their area.</p>
+      <p><span class="special_title">Pick up a hide:</span> A unit in the same area as a Hide token may pick it up by spending a 
+      movement point. The token is placed on the unit’s base without looking at its value. The Movement Benefit can be used.</p>
+      <p><span class="special_title">Tan a hide:</span> A unit with a Hide token on its base and in an area with a tanning workshop 
+      may replace their Attack to tan the hide.</p>
+      <p>The player controlling that unit flips the Hide token to reveal its value and places it next to their Book of Skelos. 
+      <p>Its value is added to the value of tanned hides the player has.</p>',
+
+      overlord_victory: '',
+
+      correction: '',
+
+      origin: "Red Nails Stretch Goal",
+      product_ids: [1, 23, 25],
+      map_ids: [20],
+      hero_ids: [],
+      tile_ids: [],
+      spell_ids: [],
+      item_ids: [] },
+
+
+
+
+  # Versus
+  # Bloody Mass
+    { name: "Bloody Mass",
+      mode: 'Versus',
+      pdf_link:'',
+      credit: 'Manu Crochet',
+      player_count: "2",
+      complexity: '',
+
+      description: '
+      <p>Since time immemorial, the religions of Mitra and Set have had a burning hatred for each other, which often degenerates 
+      into open warfare when tensions become too high.</p>
+      <p>In the past, the region of Tarantia, in Aquilonia, has been the setting for many of these armed showdowns, as it is home 
+      to a temple that each of the sects claims as its own. This ancient and long-abandoned site of power once again becomes a 
+      theatre of conflict when the worshippers of each group hear that the other faction is trying to seize control of the holy site.</p>
+      <p>The two sects rally their followers, hire mercenaries to bolster their ranks, and descend on Tarantia for what promises 
+      to be a bloody mass.</p>',
+
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Bloody+Mass.jpg",
+    
+
+      # End-Game Conditions:
+      hero_victory: '<p>The game ends at the end of turn 9. In case of a tie, the players play an additional turn until one of 
+      the victory conditions is met.</p>',
+      
+
+      # General Victory Condition 
+      hero_goal: "The General controls the temple.",
+
+
+      # General Setup
+      hero_setup: '
+      <p><strong>Initiative:</strong> The General has the initiative and starts the game.</p>
+      <p>The General starts with <strong>11 gems</strong> in their Reserve zone and <strong>0 gems</strong> in their Fatigue zone, 
+      and places the Recovery token showing a <strong>recovery value of 5</strong> in their Book of Skelos.</p>
+      <p>The General may choose 2 spells: <strong>Bori’s Rage, Mitra’s Halo (vs)</strong>.</p>',
+
+
+      # Warlord Victory Condition 
+      overlord_goal: "The Warlord controls the temple.",
+
+
+      # Warlord Setup
+      overlord_setup: '
+      <p>The Warlord starts with <strong>9 gems</strong> in their Reserve zone and <strong>2 gems</strong> in their Fatigue zone, 
+      and places the Recovery token showing a <strong>recovery value of 5</strong> in their Book of Skelos.</p>
+      <p>The Warlord may choose 2 spells: <strong>Withering, Set’s Halo (vs)</strong>.</p>',
+
+
+      btoken1: 'Minion',
+      btoken2: 'Leader',
+      btoken3: 'Champion',
+      btoken4: 'Minion',
+      btoken5: 'Champion',
+      btoken6: '<img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" >',
+      btoken7: 'Minion',
+      btoken8: '',
+
+      rtoken1: 'Minion',
+      rtoken2: 'Leader',
+      rtoken3: 'Champion',
+      rtoken4: 'Minion',
+      rtoken5: 'Champion',
+      rtoken6: '<img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" >',
+      rtoken7: 'Minion',
+      rtoken8: '',
+
+      tile1: 4,
+      tile2: 1,
+      tile3: 3,
+      tile4: 4,
+      tile5: 3,
+      tile6: 0,
+      tile7: 4,
+      tile8: 0,
+
+      life1: 4,
+      life2: 1,
+      life3: 3,
+      life4: 4,
+      life5: 3,
+      life6: 0,
+      life7: 4,
+      life8: 0,
+
+
+      # Event:   
+      event: '<p>The player activates their Leader and gains 2 reinforcement points (the reinforcement areas are the same for both 
+      players). Then, the player performs as many Special rules from the list below as consecrated places of worship they control.
+      A Special rule can only be performed once per Activation of the Event tile.</p>
+      <p><span class="special_title">Divine punishment:</span> The player chooses an opponent’s unit. They suffer 
+      <img src="/assets/dice/Orange.png" class="scen_sq_token" /> unavoidable damages (no Benefits allowed).</p>
+      <p><span class="special_title">Faith can move mountains:</span> The player chooses one of their units. They may move it to an 
+      adjacent area without hindering.</p>
+      <p><span class="special_title">Second wind:</span> The player moves 1 gem from their Fatigue zone to their Reserve zone.</p>
+      <p><span class="special_title">Resurrection:</span> The player reinforces 1 Champion Unit in the reinforcement area of their 
+      choice. Confounding argument: The player swaps the positions of 2 adjacent tiles in their opponent’s River.</p>',
+
+
+      # Special Rules:   
+      special_rules: '
+      <p><span class="special_title">Game Board Rules:</span> Standard game board rules apply with the following changes:</p>
+      <p>A unit with Climbing can move from a ground floor area to a balcony area by spending 1 extra movement point.</p>
+      <p>A unit can move across a railing from a balcony area to a ground floor area as though it were a border. The unit suffers 
+      <img src="/assets/dice/Orange.png" class="scen_sq_token" /> unavoidable damages. If the unit has Leap, the unit rolls 
+      <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> instead. </p>
+      <p><span class="special_title">Place of worship:</span> A place of worship is indicated on the setup diagram by an area in 
+      color. There are 7 of them. They represent strategic points to be controlled.</p>
+      
+      <p><span class="special_title">The faith:</span> The players take the 7 Flame tokens numbered 
+      <img src="/assets/tokens/flameToken.png" class="scen_token" /> on one face, and 
+      <img src="/assets/tokens/flameToken.png" class="scen_token" /> on the other. They represent the fervor for one of the faiths. 
+      The General is a Mitra follower and uses the tokens on their <img src="/assets/tokens/flameToken.png" class="scen_token" /> face. 
+      The Warlord is a Set follower and uses the tokens on their<img src="/assets/tokens/flameToken.png" class="scen_token" /> face.</p>
+      
+      <p><span class="special_title">Consecrate a place of worship:</span> A unit in place of worship area may replace their Attack 
+      to consecrate it to their faith. If there is no Faith token in that area, the player controlling that unit adds one Faith token 
+      with the face up showing their faith. If there is already a Faith token of their opponent in that area, flip it. There can be 
+      only one Faith token per place of worship.</p>
+      <p><span class="special_title">Control the temple:</span> The player with the most places of worship consecrated to their faith 
+      controls the temple.</p>',
+
+      overlord_victory: '',
+
+      correction: '',
+
+      origin: "Red Nails Stretch Goal",
+      product_ids: [1, 23, 25],
+      map_ids: [21],
+      hero_ids: [],
+      tile_ids: [],
+      spell_ids: [],
+      item_ids: [] },
+
+
+
+
+
+  ## Worms of the Earth
+
+  # Solo / Co-Op
+  # The Black Stone
+    { name: "The Black Stone",
+      mode: 'Solo/Cooperative',
+      pdf_link:'',
+      credit: 'Matt John',
+      player_count: "3-4",
+      complexity: '',
+
+      description: '
+      <div class="col-md-6">
+        <p>The King of the Heather had been warned: invoking the Worms of the Earth would bring only darkness and ruin. But to 
+        protect his people–to spit back in the eye of Rome–what else was Bran Mak Morn to do? Having lost his grip on the Black 
+          Stone, he no longer held dominion over the burrowing, subterranean fiends. Now a rumor suggests the Worms have a new 
+          master–a vile sorcerer</p>
+      </div>
+      <div class="col-md-6">
+        <p>who commands the dead as well as these horrors of a lost epoch. Bran knows he must again appeal to these creatures to 
+        keep Roman legions out of his lands, and to do so, requires the Black Stone. With the repulsive witch Atla at his side, 
+          as well as two trusted warriors, he must return to Dagon’s Mere, secure the stone, and send this necromancer screaming 
+          to the depths of Hell!</p>
+      </div>',
+
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Black+Stone.jpg",
+      
+      # scenario pre-title 
+      hero_goal: '',
+
+      # Setup
+      hero_setup: '
+      <div class="col-md-6">
+        <p><span class="setup_item">Objective</span></p>
+        <p>If a Hero with the Black Stone exits the board, the Heroes win. If all the Heroes are killed, the scenario ends in defeat.</p>
+
+        <p><span class="setup_item">Setup</span></p>
+        <p><strong>The game starts with the Heroes’ turn.</strong></span> 
+
+        <p><span class="special_solo_title">3 Players</span></p>
+        <ul>
+          <li>Atla (Dagger, spells: Telekinesis, Set’s Halo)</li>
+          <li>Othna (Kris, Throwing Knives)</li>
+          <li>Bran Mak Morn (Dagger, Pirate Saber, Leather Armor)</li>
+        </ul>
+
+        <p><span class="special_solo_title">4 Players</span></p>
+        <ul>
+          <li>Grom (Conan’s Sword)</li>
+        </ul>
+
+       <table class="solo_left_table">
+          <tr>
+            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+            <td>After setup, each Hero moves 4 gems from their Reserve zone to their Fatigue zone.</td>
+          </tr>
+        </table>
+
+
+        <p><span class="setup_item">Asset Deck</span></p>
+
+        <p>Chests require a complex Manipulation with a difficulty of 1 to open. The Asset deck contains: Leather Armor, 
+        Sword, Explosive Orb, Javelin.</p>
+
+      </div>
+
+
+
+      <div class="col-md-6">
+
+
+        <p><span class="setup_item">Special Rules</span></p>
+
+        <p><span class="special_solo_title">Game Board Rules:</span> Standard game board rules apply, except for the areas 
+        highlighted in red on the setup diagram. These areas are inaccessible but do not block line of sight. Units with the 
+        Flying skill may not pass over these areas.</p>
+
+        <p><span class="special_solo_title">Doors:</span> Doors require a complex Manipulation with a difficulty of 1 to open. 
+        Overlord units cannot pass through closed doors, and waste their activation if doors block all exits from their area.</p>
+
+        <p><span class="special_solo_title">Skuthus the Slippery:</span> When Skuthus activates, roll 
+        <img src="/assets/dice/Red.png" class="scen_sq_token" /> (no rerolls allowed). If the result is:</p>
+        <p>1 success - Place him in the area with the <img src="/assets/tokens/flameToken.png" class="scen_token" /> token.</p>
+        <p>2 successes - Place him in the area with the <img src="/assets/tokens/flameToken.png" class="scen_token" /> token.</p>
+        <p>3 successes - Place him in the area with the <img src="/assets/tokens/flameToken.png" class="scen_token" /> token.</p>
+        <p>Blank - He doesn’t move.</p>
+        <p>Then activate Skuthus. He casts Bori’s Rage rather than using his attack die.</p>
+
+        <p><span class="special_solo_title">The Black Stone:</span> When Skuthus is killed, place the Black Stone token 
+        <img src="/assets/stats/reinforcement.png" class="scen_token" /> in his area. A Hero may pick up the Black Stone with a 
+        simple Manipulation. It has an Encumbrance value of 0. Place the Outer Dark Demon in the reinforcement area 
+        <img src="/assets/stats/reinforcement.png" class="scen_token" />. A Hero with the Black Stone may exit the game board from 
+        the reinforcement area by <img src="/assets/stats/reinforcement.png" class="scen_token" /> spending movement points as 
+        though crossing a border.</p>
+
+        <p><span class="special_solo_title">Outer Dark Demon:</span> The Outer Dark Demon is not activated by Activation tokens, 
+        but rather by Events (described above).</p>
+
+
+        <p><span class="setup_item">Events</span></p>
+
+        <p><span class="special_title">Event 1</span></p>
+        <p>Perform the following actions in order:
+          <ol>
+            <li>Place up to 4 Skeletons in the area with the <img src="/assets/tokens/flameToken.png" class="scen_token" /> token.</li>
+            <li>If the Outer Dark Demon is on the board, activate it. The Outer Dark Demon will target the Hero carrying the 
+            Black Stone. If that Hero cannot be reached, or if no Hero is carrying the Black Stone, the Outer Dark Demon follows
+            standard activation rules.</li>
+          </ol></p>
+
+        <p><span class="special_title">Event 2</span></p>
+        <p>Perform the following actions in order:
+          <ol>
+            <li>Place up to 4 Worms of the Earth in the same area with the Hero who has the most gems in their Reserve zone. In 
+            case of a tie, players decide.</li>
+            <li>If the Outer Dark Demon is on the board, activate it (as described above in Event 1).</li>
+          </ol></p>
+
+ 
+        <p><span class="setup_item">Options</span></p>
+
+        <p><span class="special_title">Four Player Mode</span> 
+          <ul>
+            <li>After setup, each Hero moves 5 gems from their Reserve zone to their Fatigue zone.</li>
+            <li>The Outer Dark Demon has 12 life points.</li>
+            <li>Skuthus has 12 life points.</li>
+            <li>Grom starts the game in the same area as the other Heroes.</li>
+
+            <li><span class="special_solo_title">Reminder:</span> The Overlord activates four times per turn.</li>
+          </ul></p>
+
+
+        <p><span class="special_title">Four Player Mode</span> 
+          <ul>
+            <li>Doors require a complex Manipulation with a difficulty of 2 to open. </li>  
+            <li>Skuthus and the Outer Dark Demon have 12 life points for a three Hero game (15 for a four Hero game)</li>
+            <li>Activate the Skuthus the Slippery rules whenever Skuthus takes damage, as well as whenever he activates.</li>     
+          </ul></p>
+      </div>',
+
+      overlord_goal: '',
+
+      overlord_setup: '',
+
+      # Number Token Used
+      rtoken1: 'num1Token',
+      rtoken2: 'num2Token',
+      rtoken3: 'num3Token',
+      rtoken4: 'num4Token',
+      rtoken5: 'num5Token',
+      rtoken6: '',
+      rtoken7: '',
+      rtoken8: '',
+
+      # Text under tile
+      btoken1: '',
+      btoken2: '(8 Max)',
+      btoken3: '(10 Max)',
+      btoken4: '',
+      btoken5: '',
+      btoken6: '',
+      btoken7: '',
+      btoken8: '',
+
+      tile1: 5,
+      tile2: 237,
+      tile3: 90,
+      tile4: 1,
+      tile5: 2,
+      tile6: 999,
+      tile7: 12,
+      tile8: 999,
+
+      life1: 10,
+      life2: 0,
+      life3: 0,
+      life4: 0,
+      life5: 0,
+      life6: 0,
+      life7: 8,
+      life8: 0,
+
+      special_rules: '',
+
+      # campaign number   
+      event: '1',
+
+      # Result
+      hero_victory: '
+      <div class="col-md-6">
+        <p><span class="special_solo_title">Hero Victory:</span> If the Heroes win, they receive the Battle Axe and Zingaran 
+        Breastplate, the spells Bel’s Caress, Bori’s Rage, and Withering, as well as all Asset cards they picked up during 
+        the scenario.</p>   
+      </div>
+
+
+      <div class="col-md-6">
+        <p><span class="special_solo_title">Hero Defeat:</span> The Heroes do not keep any Asset cards they picked up and proceed 
+          to the next scenario.</p>
+      </div>',
+
+      overlord_victory: '',
+      correction: '',
+
+      origin: "Worms of the Earth",
+      product_ids: [1, 3, 31],
+      map_ids: [6],
+      hero_ids: [61, 62, 63, 64],
+      tile_ids: [1, 2, 5, 12, 90, 237],
+      spell_ids: [],
+      item_ids: [] },
+
+
+
+
+
+  # Solo / Co-Op
+  # The Grim Altar
+    { name: "The Grim Altar",
+      mode: 'Solo/Cooperative',
+      pdf_link:'',
+      credit: 'Matt John',
+      player_count: "3-4",
+      complexity: '',
+
+      description: '
+      <div class="col-md-6">
+        <p>Few are the men who have crossed swords with Bran Mak Morn and lived to tell of it. Fewer still are those who put fear in 
+        his heart. But Commander Drusus, with his unbreakable hide and uncanny talents, remains a unique foe–one Bran must best if he 
+        is to keep the dogs of war from his borders. </p>
+        <p>Old Gonar, Bran’s trusted seer, has divined the source of the commander’s sorcery. 
+        At first, he assumed it an enchantment of Drusus’ famed armor - a relic pilfered</p>
+      </div>
+      <div class="col-md-6">
+        <p>from the tome of a Spartan king. Now, with the moon at its zenith, the old sorcerer’s blood magic grows potent, revealing 
+        to him a much older source of power: the Grim Altar. Bound to this relic, Commander Drusus remains invincible. If Bran hopes 
+        to stop the encroaching Roman forces, he must smash the altar, rendering his foe vulnerable to sword strokes.</p>
+        <p>Fortunately, Bran has uncanny forces of his own: the dreaded Worms of the Earth.</p>
+      </div>',
+
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Grim+Altar.jpg",
+      
+      # scenario pre-title 
+      hero_goal: '',
+
+      # Setup
+      hero_setup: '
+      <div class="col-md-6">
+        <p><span class="setup_item">Objective</span></p>
+        <p>If the Heroes kill Drusus, the Heroes win. If all the Heroes are killed, the scenario ends in defeat.</p>
+
+        <p><span class="setup_item">Setup</span></p>
+        <p><strong>The game starts with the Heroes’ turn.</strong></span> 
+
+        <p>Shuffle the following Treasure tokens and place them face- down as indicated on the setup diagram.</p>
+
+       <table class="grim_alter_table">
+          <tr>
+            <td><img src="/assets/tokens/treasureToken.png" class="scen_token" /></td>
+            <td><img src="/assets/tokens/num1Token.png" class="scen_token" /></td>
+            <td>x2<br />Life Potion</td>
+
+            <td><img src="/assets/tokens/treasureToken.png" class="scen_token" /></td>
+            <td><img src="/assets/tokens/num2Token.png" class="scen_token" /></td>
+            <td>x1<br />Grim Altar</td>
+          </tr>
+        </table>
+
+
+       <table class="solo_left_table">
+          <tr>
+            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+            <td>After setup, each Hero moves 4 gems from their Reserve zone to their Fatigue zone.</td>
+          </tr>
+        </table>
+
+
+        <p><span class="setup_item">Asset Deck</span></p>
+
+        <p>Chests require a complex Manipulation with a difficulty of 1 to open. The Asset deck contains: Leather Armor, 
+        Sword, Explosive Orb, Javelin.</p>
+
+
+        <p><span class="setup_item">Events</span></p>
+
+        <p><span class="special_title">Event 1</span></p>
+        <p>Reinforce up to 2 Bossonian Guards (red) and up to 2 Bossonian Archers in the area with the 
+        <img src="/assets/tokens/flameToken.png" class="scen_token" /> token.</p>
+
+        <p><span class="special_title">Event 2</span></p>
+        <p>Reinforce up to 2 Bossonian Guards (colorless) and up to 2 Bossonian Archers in the area with the 
+        <img src="/assets/tokens/flameToken.png" class="scen_token" /> token.</p>
+
+
+      </div>
+
+
+
+      <div class="col-md-6">
+
+
+        <p><span class="setup_item">Special Rules</span></p>
+
+
+        <p><span class="special_solo_title">Game Board Rules:</span> Standard game board rules apply.</p>
+
+        <p><span class="special_solo_title">Doors:</span> Doors require a complex Manipulation with a difficulty of 1 to open.</p>
+
+        <p><span class="special_solo_title">Drusus:</span> Drusus targets the Strongest Hero. Drusus is invulnerable to all damage 
+        until the Grim Altar is destroyed.</p>
+
+        <p><span class="special_solo_title">Bossonian Guards:</span> Bossonian Guards in the same area as Drusus will use the 
+        Sacrifice skill when he is attacked.</p>
+
+        <p><span class="special_solo_title">The Grim Altar:</span> A Hero may perform a simple Manipulation in an area with a 
+        <img src="/assets/tokens/treasureToken.png" class="scen_token" /> token to flip it. If the token shows 
+        <img src="/assets/tokens/num1Token.png" class="scen_token" />, place a Life Potion in the area. If the token shows 
+        <img src="/assets/tokens/num2Token.png" class="scen_token" />, place a Skull Pile in the area to represent the Grim Altar. 
+        To destroy the Grim Altar, a Hero or Ally must attack and roll at least 3 successes in a single attack (the Grim Altar has 
+        an Armor value of 2 and 1 life point). If destroyed, remove it from the board. Drusus is now vulnerable to damage.
+
+        <p><span class="special_solo_title">Bran’s Servants:</span> During setup, place the Bran’s Servants tile next to Bran Mak 
+        Morn’s Hero sheet. Bran’s Servants are only targeted for attacks if no Hero can be reached. During the Heroes’ turn, Bran 
+        Mak Morn may move gems from his Reserve zone to the Bran’s Servants’ tile. For each gem spent, he may do the following:
+
+          <ul>
+            <li>Place a Boulder token in Bran’s area or any area adjacent to Bran (line of sight not required).</li>
+            <li>Place a Bran’s Servant in an area that contains a Boulder token. There may be up to 8 Bran’s Servants on the 
+            board at a time.</li>
+            <li>Activate one of Bran’s Servants (as you would an Ally) to move and/or attack..</li>
+            <li>If a Bran’s Servant is in an area with a <img src="/assets/tokens/treasureToken.png" class="scen_token" />, flip that 
+            token (as described in the Grim Altar Special Rule).</li>
+          </ul></p>
+
+ 
+        <p><span class="setup_item">Options</span></p>
+
+        <p><span class="special_title">Non-Campaign Mode</span> 
+        <p><span class="special_solo_title">Cache:</span> Dagger x2, Kris, Throwing Knives, Pirate Saber, Leather Armor, 
+        Zingaran Breastplate, Battle Axe.
+        <p><span class="special_solo_title">Spells:</span> Telekinesis, Set’s Halo, Bel’s Caress, Withering, Bori’s Rage.
+
+
+        <p><span class="special_title">Four Player Mode</span> 
+          <ul>
+            <li>After setup, each Hero moves 5 gems from their Reserve zone to their Fatigue zone.</li>
+            <li>Chest tokens that show a ‘1’ do not provide a Life Potion. </li>
+            <li>Grom starts the game in the same area as the rest of the Heroes. Add Conan’s Sword to the Cache.</li>
+            <li><span class="special_solo_title">Reminder:</span> The Overlord activates four times per turn.</li>
+          </ul></p>
+
+
+        <p><span class="special_title">Hard Mode</span>
+        <p>There may be up to 10 Bossonian Guards (colorless) on the board at a time. The Grim Altar has an Armor value of 4 and 1 
+        life point.</p>
+
+      </div>',
+
+      overlord_goal: '',
+
+      overlord_setup: '',
+
+      # Number Token Used
+      rtoken1: '',
+      rtoken2: 'num1Token',
+      rtoken3: 'num2Token',
+      rtoken4: 'num3Token',
+      rtoken5: 'num4Token',
+      rtoken6: 'num5Token',
+      rtoken7: 'num6Token',
+      rtoken8: '',
+
+      # Text under tile
+      btoken1: '',
+      btoken2: '',
+      btoken3: '',
+      btoken4: '(5 Max)',
+      btoken5: '(5 Max)',
+      btoken6: '',
+      btoken7: '',
+      btoken8: '',
+
+      tile1: 999,
+      tile2: 1,
+      tile3: 2,
+      tile4: 22,
+      tile5: 17,
+      tile6: 15,
+      tile7: 235,
+      tile8: 999,
+
+      life1: 0,
+      life2: 0,
+      life3: 0,
+      life4: 0,
+      life5: 0,
+      life6: 0,
+      life7: 15,
+      life8: 0,
+
+      special_rules: '',
+
+      # campaign number   
+      event: '2',
+
+      # Result
+      hero_victory: '
+      <div class="col-md-6">
+        <p><span class="special_solo_title">Hero Victory:</span> If the Heroes win, they receive the Chain Mail and Crossbow, the 
+        spells Mitra’s Halo, Gift of Life, Teleportation, and Lightning Storm, as well as all Asset cards they picked up during the 
+        scenario.</p>   
+      </div>
+
+
+      <div class="col-md-6">
+        <p><span class="special_solo_title">Hero Defeat:</span> The Heroes do not keep any Asset cards they picked up and proceed 
+          to the next scenario.</p>
+      </div>',
+
+      overlord_victory: '',
+      correction: '',
+
+      origin: "Worms of the Earth",
+      product_ids: [1, 3, 31],
+      map_ids: [5],
+      hero_ids: [61, 62, 63, 64],
+      tile_ids: [1, 2, 15, 17, 22, 235],
+      spell_ids: [],
+      item_ids: [] },
+
+
+
+
+  # Solo / Co-Op
+  # Back to the Earth
+    { name: "Back to the Earth",
+      mode: 'Solo/Cooperative',
+      pdf_link:'',
+      credit: 'Matt John',
+      player_count: "3-4",
+      complexity: '',
+
+      description: '
+      <div class="col-md-6">
+        <p>No man - not even Bran Mak Morn - can bridle the Worms of the Earth for long. Soon after a narrow victory, the pale 
+        creatures slipped back into their subterranean lair and no appeals nor offerings would draw them out. Bran’s Pictish 
+        brethren – having watched their leader command these fiends to terrible purpose – began doubting their leader’s mental 
+        faculties. Some of them even turned coat, becoming servants of Rome. But these fools could not know what other horrors 
+        lurked in the bowels of the earth.</p>
+      </div>
+      <div class="col-md-6">
+        <p>On the borders of Caledonia an ancient ruin looms. A small force of Roman soldiers seized the site as a base of operations 
+        from where they could plan attacks against Pictish villages. Unbeknownst to them, just below the soil, a sleeping god stirs. 
+        Perhaps it was the Worms of the Earth that roused the creature, or Roman sorcery run amok. In either case, Bran Mak Morn sees 
+          an opportunity to take vengeance on his traitorous brethren, strike a blow to Rome, and save his lands from a creature beyond 
+          the ken of human experience.</p>
+      </div>',
+
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Back+to+the+Earth.jpg",
+      
+      # scenario pre-title 
+      hero_goal: '',
+
+      # Setup
+      hero_setup: '
+      <div class="col-md-6">
+        <p><span class="setup_item">Objective</span></p>
+        <p>If the Heroes kill Thaug before the end of turn 10, the Heroes win. If the Heroes don’t kill Thaug before the end of 
+        turn 10, the scenario ends in defeat.</p>
+
+        <p><span class="setup_item">Setup</span></p>
+        <p><strong>The game starts with the Heroes’ turn.</strong></span> 
+
+       <table class="solo_left_table">
+          <tr>
+            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+            <td>After setup, each Hero moves 4 gems from their Reserve zone to their Fatigue zone.</td>
+          </tr>
+        </table>
+
+
+        <p><span class="setup_item">Asset Deck</span></p>
+
+        <p>Chests require a complex Manipulation with a difficulty of 1 to open. The Asset deck contains: Halberd, Stygian Scepter, 
+        Scale Mail, Pictish Fetish.</p>
+
+
+        <p><span class="setup_item">Events</span></p>
+
+        <p><span class="special_title">Event 1</span></p>
+        <p>Reinforce up to 3 Bossonian Guards and up to 3 Bossonian Archers in the reinforcement area 
+        <img src="/assets/stats/reinforcement.png" class="scen_token" />.</p>
+
+        <p><span class="special_title">Event 2</span></p>
+        <p>Move the Strongest Hero to the closest area with a Tentacle.</p>
+
+
+      </div>
+
+
+
+      <div class="col-md-6">
+
+
+        <p><span class="setup_item">Special Rules</span></p>
+
+        <p><span class="special_solo_title">Game Board Rules:</span>Game Board Rules: Standard game board rules apply, except Rock 
+        Slide areas are treated like regular areas; they do not cost extra movement points to enter. Overlord units will not leap 
+          from walls.</p>
+
+        <p><span class="special_solo_title">Game Board Rules:</span>Tentacles: In this scenario, the Tentacles effectively serve as 
+        tokens which denote areas from where Thaug can seize Heroes. They don’t have attributes and cannot be killed or removed from 
+        the board.</p>
+
+        <p><span class="special_solo_title">Game Board Rules:</span>Bran’s Servants: Though they still bear the name, these creatures 
+        no longer serve Bran Mak Morn. In fact, whenever they activate, they always attempt to target Bran. If they cannot reach him 
+        for an attack, follow the rules for determining an Alternate Target Hero.</p>
+
+        <p><span class="special_solo_title">Game Board Rules:</span>Heads for a Hungry God: Thaug is only vulnerable once its belly 
+        is full. Thus, the Heroes must feed it severed heads from the foes they kill. Whenever a Pict Hunter or a Bran’s Servant is 
+        killed, lay their miniature down in their area. A Hero in an area with a laid-down miniature may harvest their head by 
+        performing a complex Manipulation with a difficulty of 1. If successful, remove the laid-down miniature from the board and 
+        place a red gem next to the Hero’s sheet to denote they are now carrying a head. The head has an Encumbrance value of 1 and 
+        may be dropped, passed, or thrown like an object. To feed the head to Thaug, a Hero needs to throw or drop the head in Thaug’s 
+        area. A Hero may only carry one head at a time.</p>
+
+        <p><span class="special_solo_title">Game Board Rules:</span>Thaug: Whenever Thaug’s tile is activated, first move any Heroes 
+        currently in an area with a Tentacle to Thaug’s area. If a Hero is carrying a head at this time, that head is sacrificed to 
+        Thaug, contributing to the Heroes’ tally. Thaug then attacks, following standard rules for determining a Target Hero. Thaug 
+        is only vulnerable to damage after it has been fed 5 heads.</p>
+
+        <p><span class="special_solo_title">Game Board Rules:</span>Pictish Fetish: When a Hero carrying the Pictish Fetish attacks 
+        Thaug, Thaug’s Armor value is reduced to 4 and may not use its Horror skill against this attack.</p>
+
+ 
+        <p><span class="setup_item">Options</span></p>
+
+        <p><span class="special_title">Non-Campaign Mode</span> 
+        <p><span class="special_solo_title">Cache:</span> Dagger x2, Kris, Throwing Knives, Pirate Saber, Leather Armor, 
+        Zingaran Breastplate, Battle Axe, Chain Mail, Crossbow.
+        <p><span class="special_solo_title">Spells:</span> Telekinesis, Set’s Halo, Bel’s Caress, Withering, Bori’s Rage, 
+        Mitra’s Halo, Gift of Life, Teleportation, Lightning Storm.
+
+        <p><span class="special_title">Four Player Mode</span> 
+          <ul>
+            <li>After setup, each Hero moves 5 gems from their Reserve zone to their Fatigue zone.</li>
+            <li>Thaug has 15 life points.</li>
+            <li>Grom starts the game in the same area as the rest of the Heroes. Add Conan’s Sword to the Cache.</li>
+            <li><span class="special_solo_title">Reminder:</span> The Overlord activates four times per turn.</li>
+          </ul></p>
+
+        <p><span class="special_title">Hard Mode</span>
+        <p>The Heroes must kill Thaug before the end of turn 8.</p>
+
+      </div>',
+
+      overlord_goal: '',
+
+      overlord_setup: '',
+
+      # Number Token Used
+      rtoken1: 'num1Token',
+      rtoken2: 'num2Token',
+      rtoken3: 'num3Token',
+      rtoken4: 'num4Token',
+      rtoken5: 'num5Token',
+      rtoken6: 'num6Token',
+      rtoken7: 'num7Token',
+      rtoken8: '',
+
+      # Text under tile
+      btoken1: '',
+      btoken2: '',
+      btoken3: '',
+      btoken4: '(5 Max)',
+      btoken5: '',
+      btoken6: '',
+      btoken7: '',
+      btoken8: '',
+
+      tile1: 1,
+      tile2: 2,
+      tile3: 236,
+      tile4: 17,
+      tile5: 15,
+      tile6: 24,
+      tile7: 82,
+      tile8: 999,
+
+      life1: 0,
+      life2: 0,
+      life3: 0,
+      life4: 0,
+      life5: 0,
+      life6: 0,
+      life7: 10,
+      life8: 0,
+
+      special_rules: '',
+
+      # campaign number   
+      event: '3',
+
+      # Result
+      hero_victory: '
+      <div class="col-md-6">
+        <p><span class="special_solo_title">Hero Victory:</span> With a final shriek, the creature sinks back into the earth, leaving 
+        a putrid black pool of ichor in its wake. Off in the shadows, glowing eyes dim, then fade entirely. The Worms have returned to 
+        their subterranean lair and now Bran Mak Morn may again turn his efforts toward crushing the encroaching Roman forces. But will 
+        Bran’s people still accept his leadership? And will the King of the Heather ever truly shake the vile influence of these hellish 
+        fiends?</p>   
+      </div>
+
+
+      <div class="col-md-6">
+        <p><span class="special_solo_title">Hero Defeat:</span> Failing to send the colossal demon back to the earth, Bran and his 
+        companions flee to the endless fields of heather. Surely the beast now dines on heaps of dead Romans, but the notion affords 
+        Bran scant mirth. He knows the Worms will find him in the days to come. He also knows his allies are losing faith in his 
+        leadership. Only the gods know what comes next, but for the defeated king the bloated, granite clouds hanging above the western 
+        horizon spell doom.</p>
+      </div>',
+
+      overlord_victory: '',
+      correction: '',
+
+      origin: "Worms of the Earth",
+      product_ids: [1, 3, 31],
+      map_ids: [4],
+      hero_ids: [61, 62, 63, 64],
+      tile_ids: [1, 2, 15, 17, 24, 82, 236],
+      spell_ids: [],
+      item_ids: [] },
+
+
+
+
+
+
+      ## Frazetta Guest Box
+      # Adventure
+      # Chaos Among the Ranks
+    { name: "Chaos Among the Ranks",
+      mode: 'Adventure',
+      pdf_link:'',
+      credit: 'Oscar Bok',
+      player_count: "4",
+      complexity: "2",
+
+      description: "<p>The Bossonian conquests had ventured far to the south into Stygian lands. “An abandoned fort? Stygian silence 
+      is naught. By Crom, nothing but dread and destruction will follow in these cursed lands,” Conan replied sullenly, in stark 
+      contrast with the commanders who celebrated their conquest over laughter and spilled wine. Meanwhile, knights were marching south.</p>
+      <p>Conan’s warnings had gone unheeded, so he was not surprised when he received a letter weeks later to check upon the conquered 
+      fort. However, he did not appreciate the subtle provocation to act immediately, as it mentioned that Bêlit and Hadrathus had 
+      already been sent out to investigate. He had to ride fast. Mounting his trusted steed, Conan laid waste to the rustic fields of 
+      Aquilonia that he had to traverse to reach the fort embedded deep within the southern marshes.</p>
+      <p>Days of haste and adrenaline were replaced by the melancholic marshes, inviting Conan to slow his trot. Battling his feelings, 
+      he finally reached his destination. There it lay as the sun had set, its walls dark and brooding, slowly being overtaken by the 
+      night sky. The moon turned crimson-red and covered the bleak scenery with an unearthly, sinister mantle. He spotted his comrades 
+      pressed against the wall, signaling him to lay low. At that moment, a creature with leathery wings rose from the fort, blotting out 
+      the moonlight and accompanied by screams of madness and moral distress.</p>",
+
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Chaos+Among+the+Ranks.jpg",
+
+      hero_goal: 'To win, the Heroes must kill Skuthus or rescue 6 Bossonian Guards.',
+
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td></td>
+          <td>Heroes start in the areas indicated by the setup diagram.</td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><h4>3</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ConanBerzerkerToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/65">Conan the Berserker</a>
+            (<a class="item" href="/items/4">Conan’s Sword</a>), commands the Bossonian Guards
+          </td>
+          <td><a class="tile" href="/tiles/17"><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/BossonianGuards.jpg" class="scen_event float_tile"></a></td>
+        </tr>
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/BelitToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/1">Bêlit</a>
+            (<a class="item" href="/items/10">Ornamental Spear</a>,
+             <a class="item" href="/items/17">Leather Armor</a>,
+             <a class="item" href="/items/19">Buckler</a>), commands the Bossonian Guards
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/HadrathusToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/3">Hadrathus</a>
+            (Spells:
+              <a class="spell" href="/spells/9">Mitra’s Halo</a>,
+              <a class="spell" href="/spells/2">Borne by the Wind</a>,
+              <a class="spell" href="/spells/15">Telekinesis</a>,
+              <a class="spell" href="/spells/6">Lightning Storm</a>), commands the Bossonian Guards
+          </td>
+          <td></td>
+        </tr>        
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/substitution.png" class="scen_setup"></td>
+          <td><p><span class="setup_suggestion">Substitutions:</span> <br />
+          <a class="hero" href="/heroes/8">Zelata</a> can substitute for Hadrathus.<br />
+          <a class="hero" href="/heroes/16">Kerim Shah</a> can substitute for Bêlit.</p></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each hero moves 3 gems from their Reserve zone to their Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
+
+      overlord_goal: 'To win, the Overlord must kill 6 Bossonian Guards with Spectral Guards.',
+
+      overlord_setup: '
+        <table class="scen_table">
+          <tr>
+            <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+            <td>The game starts with the Overlord’s turn.</td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td><img src="/assets/tokens/redGem.png" class="scen_token" /></td>
+            <td>The Overlord starts with 0 gems in their Reserve zone and 8 in their Fatigue zone, and places the Recovery 
+            token showing a recovery value of 7 in the Book of Skelos.</td>
+            <td></td>
+          </tr>
+        </table>
+
+        <table class="scen_table">
+          <tr>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><p><span class="setup_suggestion">Reinforcements:</span> The Overlord gains 6 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" />. The Overlord cannot reinforce more than 2 units per 
+              reinforcement area, but must use all the points to reinforce Bossonian Archers or Bossonian Guards if their miniatures 
+              are available (even though Guards are allied to the Heroes).</p>
+            </td>
+            <td></td>
+          </tr>
+        </table>
+
+        <table class="scen_table">
+          <tr>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/substitution.png" class="scen_setup"></td>
+            <td><p><span class="setup_suggestion">Substitution:</span> <br />
+            The Overlord may substitute <a class="tile" href="/tiles/76">Forest Demon</a> for Giant Snake.</p></td>
+            <td></td>
+          </tr>
+        </table>',
+
+      tile1: 999,
+      tile2: 12,
+      tile3: 5,
+      tile4: 240,
+      tile5: 10,
+      tile6: 1,
+      tile7: 15,
+      tile8: 999,
+
+      life1: 0,
+      life2: 9,
+      life3: 8,
+      life4: 0,
+      life5: 10,
+      life6: 0,
+      life7: 0,
+      life8: 0,
+
+      special_rules: '<p><span class="special_title">Game Board Rules:</span> Standard game board rules apply.</p>
+
+      <span class="special_title">Spirit Possession:</span> During his activation, Skuthus can spend gems to activate up to 3 
+      Bossonian Guards using the Activating Allies rule. Other Bossonian Guards and Heroes hinder the possessed guard. If a possessed 
+      Bossonian Guard jumps from a parapet, he dies instantly and becomes a Spectral Guard if a green base is available. This is the 
+      only way to turn a Bossonian Guard into a Spectral Guard. When a Spectral Guard dies, remove the green base. There can be a 
+      maximum of 5 units (Skuthus included) with green bases in the game at a time.</p>
+
+      <span class="special_title">Spirit Evasion:</span> At any time during the Overlord’s turn, if there is at least 1 Spectral Guard 
+      on the board, the Overlord may attach (or remove) an available green base on Skuthus’s miniature. While Skuthus has a green base, 
+      he gains Spirit Evasion; he cannot suffer damage and does not count towards hindering. If at any point there are no Spectral Guards 
+      on the board, Skuthus immediately loses Spirit Evasion.</p>
+
+      <span class="special_title">Conan’s Mount:</span> If Conan the Berserker receives any damage from a Ranged Attack, the horse dies 
+      while Conan takes no damage. When this happens, replace Conan the Berserker’s miniature and Hero sheet with Conan the Destroyer’s. 
+        Move the gems to the same position of the Hero sheet.</p>
+
+      <span class="special_title">Allies in Conflict:</span> Bossonian Guards and Bossonian Archers cannot attack each other and do not 
+        hinder each other.</p>
+
+      <span class="special_title">Bossonian Guards:</span> All 3 Heroes can command the Bossonian Guards as if they had the Leadership 
+      skill except Heroes cannot assign gems to perform a Guard action with them. Each Bossonian Guard can be activated by the Heroes once 
+      per Action phase and once per Overlord’s Activation phase.</p>
+
+      <span class="special_title">Chaos Ensues:</span> During setup, place the <img src="/assets/tokens/energyToken.png" class="scen_token" />  
+      token and the <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/CaptainToken.png" class="scen_token"> token on 
+      space 0 of the Turn track. Every time a Spectral Guard kills a Bossonian Guard, increase the 
+      <img src="/assets/tokens/energyToken.png" class="scen_token" /> token by 1. Each time a Bossonian Guard reaches an area with a 
+      <img src="/assets/tokens/numBackToken.png" class="scen_token" />  token, remove their miniature from the board and increase 
+      the <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/CaptainToken.png" class="scen_token"> token by 1. These 
+      Guards are considered rescued.</p>
+
+      <span class="special_title">Webs:</span> A non-flying unit (Hero or Overlord) entering an area with a token 
+      <img src="/assets/tokens/webToken.png" class="scen_token" /> loses their remaining base movement points. Place the 
+      <img src="/assets/tokens/webToken.png" class="scen_token" /> token on the unit’s miniature. The unit cannot move until it 
+      spends 3 movement points in a single turn to remove the <img src="/assets/tokens/webToken.png" class="scen_token" /> token 
+      from the game.</p>',
+
+      correction: '',
+      hero_victory: '',
+      overlord_victory: '',
+
+      origin: "Frazetta Guest Box",
+      product_ids: [1, 3, 32],
+      map_ids: [4],
+      hero_ids: [1, 3, 8, 16, 65, 66],
+      tile_ids: [1, 17, 42, 44, 47, 49, 76, 188, 193],
+      spell_ids: [2, 6, 9, 15],
+      item_ids: [4, 10, 17, 19] },
+
+
+
+
 
 
 

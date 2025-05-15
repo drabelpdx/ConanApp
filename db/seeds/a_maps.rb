@@ -482,4 +482,116 @@
       </ol>'
     },
 
+
+
+
+    # Red Nails
+    { name: 'Jungle', description: 'Jungle', flip_side: 'Xuchotl',
+      origin: 'Red Nails',
+      image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/maps/Jungle.jpg',
+      los: 'https://the-overlord.com/index.php?/conan/lignes-de-vues/ligne-de-vue-chebek/',
+      special_rules: '
+      <ol class="map_rules">
+        <li><strong>Trees & Ruins:</strong> These trees and ruins block movement and line of sight, even from Cliff Tops.</li>
+
+        <li><strong>Deep Water:</strong> A unit adjacent to a water area may move into that area with no movement penalty. 
+        When a unit without <a class="skill" href="/skills/13">Swimming</a> moves into a Deep Water area, that unit dies immediately.</li>
+
+        <li><strong>Ford:</strong> Units with or without <a class="skill" href="/skills/13">Swimming</a> can move onto the rocks in this 
+        Deep Water area by spending 2 extra movement points. If they have <a class="skill" href="/skills/19">Climb</a>, this costs no 
+        extra movement points.</li>
+
+        <li><strong>Rope Vine (Ascend):</strong> A unit with <a class="skill" href="/skills/19">Climb</a> in a ground area with a 
+        Rope Vine may ascend to the Cliff Top by spending 2 movement points. This movement is affected by Hindering.</li>
+
+        <li><strong>Rope Vine (Descend):</strong> A unit in a Cliff Top area with a Rope Vine may descend to the ground below by 
+        performing a complex Manipulation with a difficulty of 2 (for Heroes) or for 2 movement points (Overlord tiles). Reduce 
+        these values to 1 if the unit has <a class="skill" href="/skills/19">Climb</a>.</li>
+
+        <li><strong>Ford:</strong> Heroes, Allies, and Overlord’s characters receive an Elevation
+        bonus of <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> for Ranged Attacks.
+        Heroes, Allies, and Overlord’s characters do not receive an Elevation bonus for Ranged Attacks,
+        IF their target is on the Forecastle or Poop deck.</li>
+
+        <li><strong>Cliff Top:</strong> These areas provide an elevation bonus of <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> .
+        A unit can move from a Cliff Top area to a adjacent ground area as though it were a border. The unit rolls 
+        <img src="/assets/dice/Red.png" class="scen_sq_token" /> 
+        <img src="/assets/dice/Red.png" class="scen_sq_token" /> 
+        <img src="/assets/dice/Red.png" class="scen_sq_token" /> for falling damage. If the unit has <a class="skill" href="/skills/16">Leap</a>, the unit rolls
+        <img src="/assets/dice/Red.png" class="scen_sq_token" /> 
+        <img src="/assets/dice/Red.png" class="scen_sq_token" /> instead.
+
+        <li>There is no line of sight between these areas and the ground.</li>
+      </ol>'
+    },
+
+    { name: 'Xuchotl', description: 'Xuchotl', flip_side: 'Jungle',
+      origin: 'Red Nails',
+      image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/maps/Xuchotl.jpg',
+      los: 'https://the-overlord.com/index.php?/conan/lignes-de-vues/ligne-de-vue-galere/',
+      special_rules: '
+      <ol class="map_rules">
+        <li><strong>Elevated Areas:</strong> A unit with or without Leap or Climb may move into the sacrifical alter, torture rack, 
+        or dais areas by spending 1 extra movement point (unless they use the stairs for the dais). A unit in these areas, with or without 
+        Reach, may attack a unit in an adjacent area with a Melee Attack. These areas provide an Elevation bonus of <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> 
+        for Melee and Ranged Attacks. These areas do not block line of sight. A unit may exit these areas with no movement penalty.</li>
+
+        <li><strong>Balconies:</strong> A unit can move across a railing from a balcony area to a ground floor area as though it were a border.
+        The unit rolls <img src="/assets/dice/Red.png" class="scen_sq_token" />  <img src="/assets/dice/Red.png" class="scen_sq_token" /> for falling damage. 
+        If the unit has Leap, the unit rolls <img src="/assets/dice/Red.png" class="scen_sq_token" /> instead. A unit cannot move from a ground area to a balcony area. 
+        Balcony areas provide an elevation bonus of <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> to ground floor areas.
+
+        <li><strong>Cell:</strong> There is no line of sight into or out of the cell. A unit may only enter or exit the cell through the door on the left.</li>
+
+        <li><strong>Walls:</strong> All walls are stone and cannot be wrecked using Wall Wrecker.</li>
+        
+        <li><strong>Apartments:</strong> These areas provide an elevation bonus of <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> to ground floor areas.</li>
+      </ol>'
+    },
+ 
+
+    # Versus
+    { name: 'Fort Tuscelan', description: 'Fort Tuscelan', flip_side: 'Catacombs',
+      origin: 'Versus',
+      image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/maps/FortTuscelan.jpg',
+      los: 'https://the-overlord.com/index.php?/conan/lignes-de-vues/ligne-de-vue-chebek/',
+      special_rules: '
+      <ol class="map_rules">
+        <li>The areas on both sides of the fort towers are separated by a border and are adjacent.</li>
+
+        <li><strong>Wall-Walks:</strong> A unit can jump from a wall-walk area to a ground floor area inside or outside the fort.
+        The unit rolls <img src="/assets/dice/Orange.png" class="scen_sq_token" />  <img src="/assets/dice/Orange.png" class="scen_sq_token" />  
+        <img src="/assets/dice/Orange.png" class="scen_sq_token" /> for falling damage. If the unit has <a class="skill" href="/skills/16">Leap</a>, 
+        the unit rolls <img src="/assets/dice/Orange.png" class="scen_sq_token" /> instead. The only way to climb back up the wall-walk is via a ladder.
+        Wall-walk areas provide an elevation bonus of <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> on the ground floor areas.
+
+        <li><strong>Ladders:</strong> Climbing up or down a ladder costs 1 extra movement point, except for units with the 
+        <a class="skill" href="/skills/19">Climb</a> skill.
+        Melee Attacks may be performed between the two areas separated by a ladder, with or without the  <a class="skill" href="/skills/1">Reach</a> skill.
+        In this case, the elevated area provides an elevation bonus of <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> for Melee Attacks 
+          targeting the lower area.</li>
+
+        <li><strong>Water areas:</strong> A unit must spend 1 extra movement point to move out of a water area.</li>
+
+        <li><strong>Rope Vine (Descend):</strong> A unit in a Cliff Top area with a Rope Vine may descend to the ground below by 
+        performing a complex Manipulation with a difficulty of 2 (for Heroes) or for 2 movement points (Overlord tiles). Reduce 
+        these values to 1 if the unit has <a class="skill" href="/skills/19">Climb</a>.</li>
+
+        <li><strong>Line of sight:</strong> The ramparts around the wall-walk (north, south, and west) do not block line of sight.
+          However, <strong><u>all other walls and ramparts</u></strong> block line of sight.</li>
+      </ol>'
+    },
+
+    { name: 'Catacombs', description: 'Catacombs', flip_side: 'Fort Tuscelan',
+      origin: 'Versus',
+      image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/maps/Catacombs.jpg',
+      los: 'https://the-overlord.com/index.php?/conan/lignes-de-vues/ligne-de-vue-galere/',
+      special_rules: '
+      <ol class="map_rules">
+        <li>It is not possible to climb the catacombs walls.</li>
+      </ol>'
+    },
+
+
+
   ])

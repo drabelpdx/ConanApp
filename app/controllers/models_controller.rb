@@ -72,7 +72,7 @@ class ModelsController < ApplicationController
       @paolo = Model.where(origin: 'Paolo Parente Guest Box')
       @xavier = Model.where(origin: 'Xavier Collette Guest Box')
 
-      @baal = Model.where(origin: 'Baal Pteor')
+      @baal = Model.where(origin: 'Baal-pteor')
       @dragons = Model.where(origin: 'Black Dragons')
       @blackones = Model.where(origin: 'Black Ones')
       @crossbowmen = Model.where(origin: 'Crossbowmen')
@@ -87,6 +87,11 @@ class ModelsController < ApplicationController
       @conqueror = Model.where(origin: 'Conan the Conqueror')
       @conquerorsg = Model.where(origin: 'Conan the Conqueror Stretch Goal')
       @shadow = Model.where(origin: 'The Shadow Kingdom')
+
+      @nails = Model.where(origin: 'Red Nails')
+      @versus = Model.where(origin: 'Versus')
+      @worms = Model.where(origin: 'Worms of the Earth')
+      @frazetta = Model.where(origin: 'Frazetta Guest Box')
     end
 
     def set_roles

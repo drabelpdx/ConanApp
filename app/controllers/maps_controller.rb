@@ -63,6 +63,8 @@ class MapsController < ApplicationController
       @conqueror = Map.where(origin: 'Conan the Conqueror')
       @brotherhood = Map.where(origin: 'Tales of the Red Brotherhood')
       @chambers = Map.where(origin: 'Hiden Chambers')
+      @nails = Map.where(origin: 'Red Nails')
+      @versus = Map.where(origin: 'Versus')
     end
 
     def require_admin

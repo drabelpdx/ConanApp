@@ -39,7 +39,7 @@ Model.create!([
   # Leader Models
   { name: 'Captain', description: '',
     role: 'Leader', origin: 'Core Game', count: '1',
-    hero_ids: [], tile_ids: [3],
+    hero_ids: [], tile_ids: [3, 187],
     figure_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/figures/Captain.jpg',
   },
 
@@ -102,19 +102,19 @@ Model.create!([
   # Minions
   { name: "Bêlit's Guards", description: '',
     role: 'Minions',  origin: 'Core Game', count: '5',
-    hero_ids: [], tile_ids: [14],
+    hero_ids: [], tile_ids: [14, 194],
     figure_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/figures/BelitsGuards.jpg',
   },
 
   { name: 'Bossonian Archers', description: '',
     role: 'Minion', origin: 'Core Game', count: '5',
-    hero_ids: [], tile_ids: [15, 16],
+    hero_ids: [], tile_ids: [15, 16, 203],
     figure_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/figures/BossonianArchers.jpg',
   },
 
   { name: 'Bossonian Guards', description: '',
     role: 'Minion', origin: 'Core Game', count: '15',
-    hero_ids: [], tile_ids: [17, 18, 19, 20, 21, 22],
+    hero_ids: [], tile_ids: [17, 18, 19, 20, 21, 22, 222, 232, 240],
     figure_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/figures/BossonianGuards.jpg',
   },
 
@@ -126,13 +126,13 @@ Model.create!([
 
   { name: 'Pict Hunters / Vanir Primitives', description: '',
     role: 'Minion', origin: 'Core Game', count: '15',
-    hero_ids: [], tile_ids: [24, 25, 26, 27, 28, 114, 115],
+    hero_ids: [63], tile_ids: [24, 25, 26, 27, 28, 114, 115, 226, 227],
     figure_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/figures/PictHunters.jpg',
   },
 
   { name: 'Pirates', description: '',
     role: 'Minion', origin: 'Core Game', count: '15',
-    hero_ids: [], tile_ids: [30, 31, 32, 33, 34, 35, 88, 89],
+    hero_ids: [], tile_ids: [30, 31, 32, 33, 34, 35, 88, 89, 214],
     figure_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/figures/Pirates.jpg',
   },
 
@@ -190,13 +190,13 @@ Model.create!([
   # Minions
   { name: 'Mummies', description: '',
     role: 'Minion', origin: 'King Pledge', count: '10',
-    hero_ids: [], tile_ids: [40, 41, 42, 43, 44, 83, 84],
+    hero_ids: [], tile_ids: [40, 41, 42, 43, 44, 83, 84, 195, 229],
     figure_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/figures/Mummies.jpg',
   },
 
   { name: 'Skeletons', description: '',
     role: 'Minion', origin: 'King Pledge', count: '15',
-    hero_ids: [], tile_ids: [45, 46, 47, 48, 49, 50, 90, 91],
+    hero_ids: [], tile_ids: [45, 46, 47, 48, 49, 50, 90, 91, 195, 230, 231],
     figure_image: 'https://drabelpdx.s3-us-west-2.amazonaws.com/Conan/figures/Skeletons.jpg',
   },
 
@@ -217,25 +217,25 @@ Model.create!([
 
   { name: 'Conan - General', description: '',
     role: 'Hero', origin: 'Stretch Goal', count: '1',
-    hero_ids: [11], tile_ids: [],
+    hero_ids: [11], tile_ids: [205],
     figure_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/figures/ConanGeneral.jpg',
   },
 
   { name: 'Conan - Mercenary', description: '',
     role: 'Hero', origin: 'Stretch Goal', count: '1',
-    hero_ids: [12], tile_ids: [],
+    hero_ids: [12], tile_ids: [206],
     figure_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/figures/ConanMercenary.jpg',
   },
 
   { name: 'Conan - Wanderer', description: '',
     role: 'Hero', origin: 'Stretch Goal', count: '1',
-    hero_ids: [13], tile_ids: [],
+    hero_ids: [13, 50], tile_ids: [208],
     figure_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/figures/ConanWanderer.jpg',
   },
 
   { name: 'Conan - Warlord', description: '',
     role: 'Hero', origin: 'Stretch Goal', count: '1',
-    hero_ids: [14], tile_ids: [],
+    hero_ids: [14], tile_ids: [207],
     figure_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/figures/ConanWarlord.jpg',
   },
 
@@ -265,13 +265,13 @@ Model.create!([
 
   { name: 'Pelias', description: '',
     role: 'Hero', origin: 'Stretch Goal', count: '1',
-    hero_ids: [19], tile_ids: [],
+    hero_ids: [19], tile_ids: [212],
     figure_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/figures/Pelias.jpg',
   },
 
   { name: 'Savage Bêlit', description: '',
     role: 'Hero', origin: 'Stretch Goal', count: '1',
-    hero_ids: [20], tile_ids: [],
+    hero_ids: [20], tile_ids: [213],
     figure_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/figures/SavageBelit.jpg',
   },
 
@@ -284,7 +284,7 @@ Model.create!([
   # Leaders
   { name: 'Ageera', description: '',
     role: 'Leader', origin: 'Stretch Goal', count: '1',
-    hero_ids: [], tile_ids: [52],
+    hero_ids: [49], tile_ids: [52],
     figure_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/figures/Ageera.jpg',
   },
 
@@ -351,7 +351,7 @@ Model.create!([
 
   { name: 'Giant Scorpion', description: '',
     role: 'Monster', origin: 'Stretch Goal', count: '1',
-    hero_ids: [], tile_ids: [77],
+    hero_ids: [], tile_ids: [77, 128, 221],
     figure_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/figures/GiantScorpion.jpg',
   },
 
@@ -388,25 +388,25 @@ Model.create!([
   # Minions
   { name: 'Bossonian Guards - Alt', description: '',
     role: 'Minion', origin: 'Stretch Goal', count: '5',
-    hero_ids: [], tile_ids: [17, 18, 19, 20, 21, 22],
+    hero_ids: [], tile_ids: [17, 18, 19, 20, 21, 22, 222, 232, 240],
     figure_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/figures/BossonianGuardsAlt.jpg',
   },
 
   { name: 'Mummies - Alt 1', description: '',
     role: 'Minion', origin: 'Stretch Goal', count: 5,
-    hero_ids: [], tile_ids: [40, 41, 42, 43, 44, 83, 84],
+    hero_ids: [], tile_ids: [40, 41, 42, 43, 44, 83, 84, 195, 229],
     figure_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/figures/MummiesAlt1.jpg',
   },
 
   { name: 'Mummies - Alt 2', description: '',
     role: 'Minion', origin: 'Stretch Goal', count: '5',
-    hero_ids: [], tile_ids: [40, 41, 42, 43, 44, 83, 84],
+    hero_ids: [], tile_ids: [40, 41, 42, 43, 44, 83, 84, 195, 229],
     figure_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/figures/MummiesAlt2.jpg',
   },
 
   { name: 'Pict Archers', description: '',
     role: 'Minion', origin: 'Stretch Goal', count: '5',
-    hero_ids: [], tile_ids: [85, 86],
+    hero_ids: [64], tile_ids: [85, 86],
     figure_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/figures/PictArchers.jpg',
   },
 
@@ -418,19 +418,19 @@ Model.create!([
 
   { name: 'Pirates - Alt', description: '',
     role: 'Minion', origin: 'Stretch Goal', count: '5',
-    hero_ids: [], tile_ids: [30, 31, 32, 33, 34, 35, 88, 89],
+    hero_ids: [], tile_ids: [30, 31, 32, 33, 34, 35, 88, 89, 214],
     figure_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/figures/PiratesAlt.jpg',
   },
 
   { name: 'Skeletons - Alt 1', description: '',
     role: 'Minion', origin: 'Stretch Goal', count: '5',
-    hero_ids: [], tile_ids: [45, 46, 47, 48, 49, 50, 90, 91],
+    hero_ids: [], tile_ids: [45, 46, 47, 48, 49, 50, 90, 91, 195, 230, 231],
     figure_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/figures/SkeletonsAlt1.jpg',
   },
 
   { name: 'Skeletons - Alt 2', description: '',
     role: 'Minion', origin: 'Stretch Goal', count: '5',
-    hero_ids: [], tile_ids: [45, 46, 47, 48, 49, 50, 90, 91],
+    hero_ids: [], tile_ids: [45, 46, 47, 48, 49, 50, 90, 91, 195, 230, 231],
     figure_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/figures/SkeletonsAlt2.jpg',
   },
 
@@ -519,7 +519,7 @@ Model.create!([
 
   { name: 'Crows', description: '',
     role: 'Minion', origin: 'Nordheim', count: '5',
-    hero_ids: [], tile_ids: [112, 113],
+    hero_ids: [], tile_ids: [112, 113, 220],
     figure_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/figures/Crows.jpg',
   },
 
@@ -562,7 +562,7 @@ Model.create!([
 
   { name: 'Giant Scorpions', description: '',
     role: 'Minion', origin: 'Stygia', count: '10',
-    hero_ids: [], tile_ids: [128],
+    hero_ids: [], tile_ids: [77, 128, 221],
     figure_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/figures/GiantScorpions.jpg',
   },
 
@@ -579,7 +579,7 @@ Model.create!([
   # Black Dragons
   { name: 'Black Dragons', description: '',
     role: 'Minions', origin: 'Black Dragons', count: '5',
-    hero_ids: [], tile_ids: [131],
+    hero_ids: [], tile_ids: [131, 216],
     figure_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/figures/BlackDragons.jpg',
   },
 
@@ -606,7 +606,7 @@ Model.create!([
   # Crossbowmen
   { name: 'Crossbowmen', description: '',
     role: 'Minion', origin: 'Crossbowmen', count: '10',
-    hero_ids: [], tile_ids: [135, 136, 137],
+    hero_ids: [], tile_ids: [135, 136, 137, 218, 219],
     figure_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/figures/Crossbowmen.jpg',
   },
 
@@ -848,7 +848,6 @@ Model.create!([
     figure_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/figures/Brule.jpg',
   },
 
-  # Leaders
   { name: "King Kull", description: '',
     role: 'Hero', origin: 'The Shadow Kingdom', count: '1',
     hero_ids: [48], tile_ids: [],
@@ -867,6 +866,184 @@ Model.create!([
     role: 'Minion', origin: 'The Shadow Kingdom', count: '10',
     hero_ids: [], tile_ids: [179, 180],
     figure_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/figures/SerpentMen.jpg',
+  },
+
+
+  ## Red Nails
+  # Heroes
+  { name: "Conan Free Companion", description: '',
+    role: 'Hero', origin: 'Red Nails', count: '1',
+    hero_ids: [51], tile_ids: [181],
+    figure_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/figures/ConanFComp.jpg',
+  },
+
+  { name: "Olmec", description: '',
+    role: 'Hero', origin: 'Red Nails', count: '1',
+    hero_ids: [52], tile_ids: [183],
+    figure_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/figures/Olmec.jpg',
+  },
+
+  { name: "Tascela", description: '',
+    role: 'Hero', origin: 'Red Nails', count: '1',
+    hero_ids: [54], tile_ids: [184],
+    figure_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/figures/Tascela.jpg',
+  },
+
+  { name: "Techotl", description: '',
+    role: 'Hero', origin: 'Red Nails', count: '1',
+    hero_ids: [55], tile_ids: [186],
+    figure_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/figures/Techotl.jpg',
+  },
+
+  { name: "Tolemec", description: '',
+    role: 'Hero', origin: 'Red Nails', count: '1',
+    hero_ids: [56], tile_ids: [185],
+    figure_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/figures/Tolemec.jpg',
+  },  
+
+  { name: "Valeria Free Companion", description: '',
+    role: 'Hero', origin: 'Red Nails', count: '1',
+    hero_ids: [57], tile_ids: [182],
+    figure_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/figures/ValeriaFComp.jpg',
+  },  
+
+
+  # Monster
+  { name: 'Crawler', description: '',
+    role: 'Monster', origin: 'Red Nails', count: '1',
+    hero_ids: [], tile_ids: [189],
+    figure_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/figures/Crawler.jpg',
+  },
+
+  { name: 'Dragon of Xuchotl', description: '',
+    role: 'Monster', origin: 'Red Nails', count: '1',
+    hero_ids: [], tile_ids: [191],
+    figure_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/figures/DragonXuchotl.jpg',
+  },
+
+  # Minion
+  { name: 'Crocodiles', description: '',
+    role: 'Minion', origin: 'Red Nails', count: '5',
+    hero_ids: [], tile_ids: [192],
+    figure_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/figures/Crocodiles.jpg',
+  },        
+
+  { name: 'Flaming Skeletons', description: '',
+    role: 'Minion', origin: 'Red Nails', count: '6',
+    hero_ids: [], tile_ids: [188, 193],
+    figure_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/figures/FlamingSkeletons.jpg',
+  },  
+
+  { name: 'Tecuhlti Swordmen', description: '',
+    role: 'Minion', origin: 'Red Nails', count: '5',
+    hero_ids: [], tile_ids: [196, 197],
+    figure_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/figures/TecuhltiSwordmen.jpg',
+  },
+
+  { name: 'Xotalanc Hunters', description: '',
+    role: 'Minion', origin: 'Red Nails', count: '5',
+    hero_ids: [], tile_ids: [197, 199],
+    figure_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/figures/XotalancHunters.jpg',
+  },
+
+  { name: 'Xotalanc Huntressses', description: '',
+    role: 'Minion', origin: 'Red Nails', count: '5',
+    hero_ids: [], tile_ids: [197, 200],
+    figure_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/figures/XotalancHuntressses.jpg',
+  },
+
+  { name: 'Xotalanc Warriors', description: '',
+    role: 'Minion', origin: 'Red Nails', count: '6',
+    hero_ids: [], tile_ids: [197, 202],
+    figure_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/figures/XotalancWarriors.jpg',
+  },
+
+  { name: 'Red Nails Pillar', description: '',
+    role: 'Other', origin: 'Red Nails', count: '1',
+    hero_ids: [], tile_ids: [],
+    figure_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/figures/RedNailsPillar.jpg',
+  },
+
+
+  ## Versus
+  # Minions
+  { name: 'Crossbowmen', description: '',
+    role: 'Minion', origin: 'Versus', count: '5',
+    hero_ids: [], tile_ids: [135, 136, 137, 218, 219],
+    figure_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/figures/Crossbowmen.jpg',
+  },       
+
+  { name: 'Black Dragons', description: '',
+    role: 'Minion', origin: 'Versus', count: '5',
+    hero_ids: [], tile_ids: [131, 216],
+    figure_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/figures/BlackDragons.jpg',
+  },   
+
+  { name: 'Gundermen Mercenaries', description: '',
+    role: 'Minion', origin: 'Versus', count: '4',
+    hero_ids: [60], tile_ids: [210, 223],
+    figure_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/figures/GundermenMercenaries.jpg',
+  },   
+
+  { name: 'Hyrkanian Mercenaries', description: '',
+    role: 'Minion', origin: 'Versus', count: '4',
+    hero_ids: [59], tile_ids: [209, 224],
+    figure_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/figures/HyrkanianMercenaries.jpg',
+  },   
+
+  { name: 'Kushite Mercenaries', description: '',
+    role: 'Minion', origin: 'Versus', count: '4',
+    hero_ids: [58], tile_ids: [204, 225],
+    figure_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/figures/KushiteMercenaries.jpg',
+  },     
+
+
+  ## Worms of the Earth
+  # Heroes
+  { name: "Bran Mak Morn", description: '',
+    role: 'Hero', origin: 'Worms of the Earth', count: '1',
+    hero_ids: [62], tile_ids: [234],
+    figure_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/figures/BranMakMorn.jpg',
+  },
+
+  { name: "Atla", description: '',
+    role: 'Hero', origin: 'Worms of the Earth', count: '1',
+    hero_ids: [61], tile_ids: [233],
+    figure_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/figures/Atla.jpg',
+  },
+
+  # Minions
+  { name: 'Worms of the Earth', description: '',
+    role: 'Minion', origin: 'Worms of the Earth', count: '8',
+    hero_ids: [], tile_ids: [236, 237],
+    figure_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/figures/WormsEarth.jpg',
+  },    
+
+
+  ## Frazetta Guest Box
+  # Heroes
+  { name: "Conan the Berserker", description: '',
+    role: 'Hero', origin: 'Frazetta Guest Box', count: '1',
+    hero_ids: [65], tile_ids: [238],
+    figure_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/figures/ConanBerserker.jpg',
+  },
+
+  { name: "Conan the Destroyer", description: '',
+    role: 'Hero', origin: 'Frazetta Guest Box', count: '1',
+    hero_ids: [66], tile_ids: [239],
+    figure_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/figures/ConanDestroyer.jpg',
+  },
+
+
+
+
+  ## Stretch Goal Model (Bonus model, tile added with Worms)
+  # Leader
+
+  { name: 'Othryades / Drusus', description: '',
+    role: 'Leader', origin: 'Stretch Goal', count: '1',
+    hero_ids: [], tile_ids: [211, 235],
+    figure_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/figures/Drusus.jpg',
   },
 
 

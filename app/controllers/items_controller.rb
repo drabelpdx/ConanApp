@@ -66,6 +66,7 @@ class ItemsController < ApplicationController
       @brom = Item.where(origin: 'Brom Guest Box')
       @campaign = Item.where(origin: 'Legend of the Devil in Iron')
       @conqueror = Item.where(origin: 'Conan the Conqueror')
+      @nails = Item.where(origin: 'Red Nails')
       @weapon = Item.where(role: 'Weapon')
       @armor = Item.where('role = ? or role = ? or role = ?',
         'Armor', 'Shield / Staff', 'Other')

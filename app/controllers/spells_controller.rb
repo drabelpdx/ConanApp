@@ -57,6 +57,8 @@ class SpellsController < ApplicationController
       @khitai = Spell.where(origin: 'Khitai')
       @campaign = Spell.where(origin: 'Legend of the Devil in Iron')
       @conqueror = Spell.where(origin: 'Conan the Conqueror')
+      @nails = Spell.where(origin: 'Red Nails')
+      @versus = Spell.where(origin: 'Versus')
       @area = Spell.where(area: 'Yes')
       @instant = Spell.where(instant: 'Yes')
       @blank = Spell.where(description: 'Blank Card')

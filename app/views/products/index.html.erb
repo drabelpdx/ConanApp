@@ -1,7 +1,4 @@
 <h1>Products</h1>
-<% if logged_in? && current_user.admin? %>
-  <p><%= link_to "Add a Product", new_product_path %></p>
-<% end %>
 
 <p>2015 / First Kickstarter</p>
 
@@ -101,6 +98,37 @@
       <div class="panel-heading">Add-ons</div>
       <table class="table">
         <% @addons2020.each do |product| %>
+        <tr>
+          <td class="product"><%= link_to product.name, product_path(product) %></td>
+        </tr>
+        <% end %>
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<hr>
+<p>2024 / Red Nails</p>
+
+<div class="row">
+  <div class="col-md-6 col-sm-6">
+    <div class="panel panel-primary">
+      <div class="panel-heading">Expansions</div>
+      <table class="table">
+        <% @expansions2024.each do |product| %>
+        <tr>
+          <td class="product"><%= link_to product.name, product_path(product) %></td>
+        </tr>
+        <% end %>
+      </table>
+    </div>
+  </div>
+  <div class="col-md-6 col-sm-6">
+    <div class="panel panel-primary">
+      <div class="panel-heading">Add-ons</div>
+      <table class="table">
+        <% @addons2024.each do |product| %>
         <tr>
           <td class="product"><%= link_to product.name, product_path(product) %></td>
         </tr>

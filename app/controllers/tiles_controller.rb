@@ -98,6 +98,12 @@ class TilesController < ApplicationController
       @yogah = Tile.where(origin: 'Yogah of Yag')
 
       @conqueror = Tile.where(origin: 'Conan the Conqueror')
+
+      @nails = Tile.where(origin: 'Red Nails')
+      @versus = Tile.where(origin: 'Versus')
+      @worms = Tile.where(origin: 'Worms of the Earth')
+      @frazetta = Tile.where(origin: 'Frazetta Guest Box')
+
     end
 
     def set_roles
