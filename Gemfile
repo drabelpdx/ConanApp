@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '5.2.8.1'
+gem 'rails', '6.1.7.10'
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '3.1.13'
 gem 'bootstrap-will_paginate', '1.0.0'
@@ -18,6 +18,8 @@ gem 'will_paginate', '3.2.1'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
+gem 'webrick', '~> 1.7'
+
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
@@ -27,7 +29,7 @@ gem 'turbolinks'
 gem 'jbuilder', '2.9.1'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '1.0.0', group: :doc
-gem 'zeitwerk', '2.2.2'
+gem 'zeitwerk', '2.3'
 
 gem 'ffi', '1.16.3'
 gem 'mini_portile2', '2.8.5'
@@ -55,4 +57,4 @@ group :production do
   gem 'sprockets', '3.7.2'
 end
 
-ruby "2.7.1"
+ruby "3.1.0"
