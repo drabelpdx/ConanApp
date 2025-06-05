@@ -1746,23 +1746,23 @@ Below is a list of Adventure Mode scenarios that shipped with Monolith products.
 </div>
 
 <div id="by_name">
-    <div class="card-header" id="headingName">
-      <button class="btn btn-link" data-toggle="collapse" data-target="#collapseName">
-      &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;By Name</button>
-    </div>
-    <div class="panel panel-info">
-      <div id="collapseName" class="collapse in">
-    <table class="table stats scenariostats">
-      <thead>
-        <tr>
-          <th class="w30">Scenario</th>
-          <th class="w10">Players</th>
-          <th class="w20">Map</th>
-          <th class="w15">Mode</th>
-          <th class="w20">Origin</th> 
-        </tr>
-      </thead>
-      <% @scenarios.sort_by {|scenario| scenario.name }.each do |scenario| %>
+  <div class="card-header" id="headingName">
+    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseName">
+    &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;By Name</button>
+  </div>
+  <div class="panel panel-info">
+    <div id="collapseName" class="collapse in">
+      <table class="table stats scenariostats">
+        <thead>
+          <tr>
+            <th class="w30">Scenario</th>
+            <th class="w10">Players</th>
+            <th class="w20">Map</th>
+            <th class="w15">Mode</th>
+            <th class="w20">Origin</th> 
+          </tr>
+        </thead>
+        <% @scenarios.sort_by {|scenario| scenario.name }.each do |scenario| %>
         <tr>
           <td class="scenario"><%= link_to scenario.name, scenario_path(scenario) %></td>
           <td><%= scenario.player_count  %></td>
@@ -1775,10 +1775,12 @@ Below is a list of Adventure Mode scenarios that shipped with Monolith products.
           <td><%= scenario.mode %></td>
           <td><%= scenario.origin %></td>
         </tr>
-      <% end %>
-    </table>
+        <% end %>
+      </table>
+    </div>
   </div>
 </div>
+
 
 <script>
   $(document).ready(function() {
