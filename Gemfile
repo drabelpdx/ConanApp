@@ -18,6 +18,7 @@ gem 'will_paginate', '3.2.1'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
+# runs local server
 gem 'webrick', '~> 1.7'
 
 # Use jquery as the JavaScript library
@@ -33,7 +34,7 @@ gem 'zeitwerk', '2.3'
 
 gem 'ffi', '1.16.3'
 gem 'mini_portile2', '2.8.5'
-gem 'nokogiri', '1.13.6'
+gem 'nokogiri', '1.18.4'
 gem 'psych', '3.3.3'
 
 group :development, :test do
