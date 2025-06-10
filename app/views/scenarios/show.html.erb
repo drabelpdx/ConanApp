@@ -11,7 +11,7 @@
       <h1 align="center"><%= @scenario.name %></h1> 
     </div>
 
-    <div class="col-md-12 scenario_details">
+    <div class="col-md-12 scenario_details_adv">
       <span class="prev">&nbsp;&nbsp;<%= @scenario.mode %></span>
       <% if @scenario.pdf_link != '' %> 
         <span class="center-span"><%= @scenario.pdf_link %></span>
@@ -37,8 +37,8 @@
     </div>
 
     <div class="row">
-      <div class="col-md-12">
-        <div class="col-md-12 description">  
+      <div class="col-md-12 description">  
+        <div class="col-md-12">
           <%= @scenario.description.html_safe %>
         </div>
       </div>
@@ -53,35 +53,40 @@
     </div>
 
     <div class="row scenario">
-      <h3 align="center" >Winning the Game</h3>
-    </div>
-
-    <div class="row">
-      <div class="col-md-6">
-        <h4>Heroes</h4>
-        <%= @scenario.hero_goal.html_safe %>
+      <div class="col-md-12">
+        <h3 align="center" >Winning the Game</h3>
       </div>
-      <div class="col-md-6">
-        <h4>Overlord</h4>
-        <%= @scenario.overlord_goal.html_safe %>
+
+      <div class="col-md-12">
+        <div class="col-md-6">
+          <h4>Heroes</h4>
+          <%= @scenario.hero_goal.html_safe %>
+        </div>
+        <div class="col-md-6">
+          <h4>Overlord</h4>
+          <%= @scenario.overlord_goal.html_safe %>
+        </div>
       </div>
     </div>
 
     <div class="row scenario">
-      <h3 align="center" >Setup</h3>
-    </div>
-    <div class="row">
-      <div class="col-md-6">
-        <% if @scenario.hero_setup != "" %>
-          <h4>Heroes</h4>
-        <% end %>
-        <%= @scenario.hero_setup.html_safe %>
+      <div class="col-md-12">
+        <h3 align="center" >Setup</h3>
       </div>
-      <div class="col-md-6">
-        <% if @scenario.overlord_setup != "" %>
-          <h4>Overlord</h4>
-        <% end %>
-        <%= @scenario.overlord_setup.html_safe %>
+
+      <div class="col-md-12">
+        <div class="col-md-6">
+          <% if @scenario.hero_setup != "" %>
+            <h4>Heroes</h4>
+          <% end %>
+          <%= @scenario.hero_setup.html_safe %>
+        </div>
+        <div class="col-md-6">
+          <% if @scenario.overlord_setup != "" %>
+            <h4>Overlord</h4>
+          <% end %>
+          <%= @scenario.overlord_setup.html_safe %>
+        </div>
       </div>
     </div>
     <br />
@@ -221,32 +226,46 @@
     <% end %>
 
     <div class="row scenario">
-      <h3 align="center" >Special Rules</h3>
+      <div class="col-md-12">
+        <h3 align="center" >Special Rules</h3>
+        <div class="scenario_special_rules">
+          <div class="col-md-12">
+            <p><%= @scenario.special_rules.html_safe %></p>
+          </div>
+        </div>
+      </div>
     </div>
-    <div>
-      <p><%= @scenario.special_rules.html_safe %></p>
-    </div>
+
 
     <% if @scenario.hero_victory != '' %>
       <div class="row scenario">
-        <h3 align="center" >Campaign Results</h3>
-      </div>
-      <div class="row">
-        <div class="col-md-6">
-          <%= @scenario.hero_victory.html_safe %>
+        <div class="col-md-12">
+          <h3 align="center" >Campaign Results</h3>
         </div>
-        <div class="col-md-6">
-          <%= @scenario.overlord_victory.html_safe %>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <div class="col-md-6">
+            <%= @scenario.hero_victory.html_safe %>
+          </div>
+          <div class="col-md-6">
+            <%= @scenario.overlord_victory.html_safe %>
+          </div>
         </div>
       </div>
     <% end %>
 
     <% if @scenario.correction != '' %>
       <div class="row scenario">
-        <h3 align="center" >Corrections / Clarifications</h3>
-      </div>
-      <div class="">
-        <%= @scenario.correction.html_safe %>
+        <div class="col-md-12">
+          <h3 align="center" >Corrections / Clarifications</h3>
+          <div>
+            <div class="col-md-12">
+              <%= @scenario.correction.html_safe %>
+            </div>
+          </div>
+        </div>
       </div>
     <% end %>
   </div>
@@ -277,7 +296,7 @@
         <div class="col-md-1"></div>
     </div>
 
-    <div class="col-md-12 scenario_details">
+    <div class="col-md-12 scenario_details_solo">
       <span class="prev">&nbsp;&nbsp;<%= @scenario.mode %></span>
       <% if @scenario.pdf_link != '' %> 
         <span class="center-span"><%= @scenario.pdf_link %></span>
@@ -297,8 +316,10 @@
     </div>
 
     <div class="row">
-      <div class="col-md-12 solo-victory">  
-        <%= @scenario.description.html_safe %>
+      <div class="col-md-12">
+        <div class="col-md-12 description">  
+          <%= @scenario.description.html_safe %>
+        </div>
       </div>
     </div>
 
@@ -509,6 +530,7 @@
         </div>
       </div>
     <% end %>
+
     <% if @scenario.hero_victory != '' %>
       <div class="row">
         <div class="col-md-12 solo-victory">  
@@ -518,13 +540,19 @@
     <% end %>
 
     <% if @scenario.correction != '' %>
-      <div class="row scenario">
-        <h3 align="center" >Corrections / Clarifications</h3>
-      </div>
-      <div class="">  
-        <%= @scenario.correction.html_safe %>
+      <div class="row solo-scenario">
+        <div class="col-md-12">
+          <h3 align="center" >Corrections / Clarifications</h3>
+          <div class="">
+            <div class="col-md-12">
+              <%= @scenario.correction.html_safe %>
+            </div>
+          </div>
+        </div>
       </div>
     <% end %>
+
+
   </div>
 <% end %>
 
@@ -543,7 +571,7 @@
       <h1 align="center"><%= @scenario.name %></h1> 
     </div>
 
-    <div class="col-md-12 scenario_details">
+    <div class="col-md-12 scenario_details_vers">
       <span class="prev">&nbsp;&nbsp;<%= @scenario.mode %></span>
       <span class="next">
         <%= @scenario.player_count %>&nbsp;Players</span>
@@ -561,9 +589,8 @@
     </div>
     
     <div class="row">
-
-      <div class="col-md-12">
-        <div class="col-md-12 description">  
+      <div class="col-md-12 description">
+        <div class="col-md-12 ">  
           <%= @scenario.description.html_safe %>
         </div>
       </div>
@@ -577,248 +604,248 @@
       </div>
     </div>
 
-    <div class="col-md-12">
-      <div class="row river-versus">
+    <div class="row versus">
+      <div class="col-md-12">
         <h3 align="center" >End-Game Conditions</h3>
-        <%= @scenario.hero_victory.html_safe %>
+        <div class="col-md-12 end-versus">
+          <%= @scenario.hero_victory.html_safe %>
+        </div>
       </div>
     </div>
 
-    <div class="col-md-12">
-      <div class="row river-versus">
+    <div class="row river-versus">
+      <div class="col-md-12">
         <h3>General<span>Victory Condition: <%= @scenario.hero_goal.html_safe %></span></h3>    
-        <div>
+        <div class="col-md-12 end-versus">
           <table>
             <tr class="versus_event" >
               <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
               <td><%= @scenario.hero_setup.html_safe %></td>
             </tr>
           </table>       
-        </div>
-        <div class="row ">
-          <div class="col-md-12">
-            <div class="row river-well-versus">
-              <table>
 
-                <tr class="versus_tokens vl" >
+          <table>
+            <tr class="versus_tokens vl" >
 
-                  <% if @scenario.btoken1 !='' %>
-                    <td style="text-align: center;">
-                      <img src="/assets/tokens/BlueNum1.png" class="scen_token" />
-                      <p><%= @scenario.btoken1.html_safe %>
-                      <% if @scenario.tile1 !=0 %>
-                        <br /><%= @scenario.tile1 %>
-                      <% end %></p>
-                    </td>
-                  <% end %>
+              <% if @scenario.btoken1 !='' %>
+                <td style="text-align: center;">
+                  <img src="/assets/tokens/BlueNum1.png" class="scen_token" />
+                  <p><%= @scenario.btoken1.html_safe %>
+                  <% if @scenario.tile1 !=0 %>
+                    <br /><%= @scenario.tile1 %>
+                  <% end %></p>
+                </td>
+              <% end %>
 
-                  <% if @scenario.btoken2 !='' %>
-                    <td style="text-align: center;">
-                      <img src="/assets/tokens/BlueNum2.png" class="scen_token" />
-                      <p><%= @scenario.btoken2.html_safe %>
-                      <% if @scenario.tile2 !=0 %>
-                        <br /><%= @scenario.tile2 %>
-                      <% end %></p>  
-                    </td>
-                  <% end %>
+              <% if @scenario.btoken2 !='' %>
+                <td style="text-align: center;">
+                  <img src="/assets/tokens/BlueNum2.png" class="scen_token" />
+                  <p><%= @scenario.btoken2.html_safe %>
+                  <% if @scenario.tile2 !=0 %>
+                    <br /><%= @scenario.tile2 %>
+                  <% end %></p>  
+                </td>
+              <% end %>
 
-                  <% if @scenario.btoken3 !='' %>
-                    <td style="text-align: center;">
-                      <img src="/assets/tokens/BlueNum3.png" class="scen_token" />
-                      <p><%= @scenario.btoken3.html_safe %>
-                      <% if @scenario.tile3 !=0 %>
-                        <br /><%= @scenario.tile3 %>
-                      <% end %></p>
-                    </td>
-                  <% end %>
+              <% if @scenario.btoken3 !='' %>
+                <td style="text-align: center;">
+                  <img src="/assets/tokens/BlueNum3.png" class="scen_token" />
+                  <p><%= @scenario.btoken3.html_safe %>
+                  <% if @scenario.tile3 !=0 %>
+                    <br /><%= @scenario.tile3 %>
+                  <% end %></p>
+                </td>
+              <% end %>
 
-                  <% if @scenario.btoken4 !='' %>
-                    <td style="text-align: center;">
-                      <img src="/assets/tokens/BlueNum4.png" class="scen_token" />
-                      <p><%= @scenario.btoken4.html_safe %>
-                      <% if @scenario.tile4 !=0 %>
-                        <br /><%= @scenario.tile4 %>
-                      <% end %></p>  
-                    </td>
-                  <% end %>
+              <% if @scenario.btoken4 !='' %>
+                <td style="text-align: center;">
+                  <img src="/assets/tokens/BlueNum4.png" class="scen_token" />
+                  <p><%= @scenario.btoken4.html_safe %>
+                  <% if @scenario.tile4 !=0 %>
+                    <br /><%= @scenario.tile4 %>
+                  <% end %></p>  
+                </td>
+              <% end %>
 
-                  <% if @scenario.btoken5 !='' %>
-                    <td style="text-align: center;">
-                      <img src="/assets/tokens/BlueNum5.png" class="scen_token" />
-                      <p><%= @scenario.btoken5.html_safe %>
-                      <% if @scenario.tile5 !=0 %>
-                        <br /><%= @scenario.tile5 %>
-                      <% end %></p>  
-                    </td>
-                  <% end %>
+              <% if @scenario.btoken5 !='' %>
+                <td style="text-align: center;">
+                  <img src="/assets/tokens/BlueNum5.png" class="scen_token" />
+                  <p><%= @scenario.btoken5.html_safe %>
+                  <% if @scenario.tile5 !=0 %>
+                    <br /><%= @scenario.tile5 %>
+                  <% end %></p>  
+                </td>
+              <% end %>
 
-                  <% if @scenario.btoken6 !='' %>
-                    <td style="text-align: center;">
-                      <img src="/assets/tokens/BlueNum6.png" class="scen_token" />
-                      <p><%= @scenario.btoken6.html_safe %>
-                      <% if @scenario.tile6 !=0 %>
-                        <br /><%= @scenario.tile6 %>
-                      <% end %></p>  
-                    </td>
-                  <% end %>
+              <% if @scenario.btoken6 !='' %>
+                <td style="text-align: center;">
+                  <img src="/assets/tokens/BlueNum6.png" class="scen_token" />
+                  <p><%= @scenario.btoken6.html_safe %>
+                  <% if @scenario.tile6 !=0 %>
+                    <br /><%= @scenario.tile6 %>
+                  <% end %></p>  
+                </td>
+              <% end %>
 
-                  <% if @scenario.btoken7 !='' %>
-                    <td style="text-align: center;">
-                      <img src="/assets/tokens/BlueNum7.png" class="scen_token" />
-                      <p><%= @scenario.btoken7.html_safe %>
-                      <% if @scenario.tile7 !=0 %>
-                        <br /><%= @scenario.tile7 %>
-                      <% end %></p> 
-                    </td>
-                  <% end %>
+              <% if @scenario.btoken7 !='' %>
+                <td style="text-align: center;">
+                  <img src="/assets/tokens/BlueNum7.png" class="scen_token" />
+                  <p><%= @scenario.btoken7.html_safe %>
+                  <% if @scenario.tile7 !=0 %>
+                    <br /><%= @scenario.tile7 %>
+                  <% end %></p> 
+                </td>
+              <% end %>
 
-                  <% if @scenario.btoken8 !='' %>
-                    <td style="text-align: center;">
-                      <img src="/assets/tokens/BlueNum8.png" class="scen_token" />
-                      <p><%= @scenario.btoken8.html_safe %>
-                      <% if @scenario.tile8 !=0 %>
-                        <br /><%= @scenario.tile8 %>
-                      <% end %></p>  
-                    </td>
-                  <% end %>
-                </tr>
-              </table>
-            </div>
-          </div>
+              <% if @scenario.btoken8 !='' %>
+                <td style="text-align: center;">
+                  <img src="/assets/tokens/BlueNum8.png" class="scen_token" />
+                  <p><%= @scenario.btoken8.html_safe %>
+                  <% if @scenario.tile8 !=0 %>
+                    <br /><%= @scenario.tile8 %>
+                  <% end %></p>  
+                </td>
+              <% end %>
+            </tr>
+          </table>
         </div>
       </div>
     </div>
 
-    <div class="col-md-12">
-      <div class="row river-versus">
+    <div class="row river-versus">
+      <div class="col-md-12">
         <h3>Warlord<span>Victory Condition: <%= @scenario.overlord_goal.html_safe %></span></h3>      
-        <div>
+        <div class="col-md-12 end-versus">
           <table>
             <tr class="versus_event" >
               <td><img src="/assets/tokens/redGem.png" class="scen_token" /></td>
               <td><%= @scenario.overlord_setup.html_safe %></td>
             </tr>
           </table>       
+   
+          <table>
+            <tr class="versus_tokens vl" >
+              <% if @scenario.rtoken1 !='' %>
+                <td style="text-align: center;">
+                  <img src="/assets/tokens/RedNum1.png" class="scen_token" />
+                  <p><%= @scenario.rtoken1.html_safe %>
+                  <% if @scenario.life1 !=0 %>
+                    <br /><%= @scenario.life1 %>
+                  <% end %></p> 
+                </td>
+              <% end %>
+
+              <% if @scenario.rtoken2 !='' %>
+                <td style="text-align: center;">
+                  <img src="/assets/tokens/RedNum2.png" class="scen_token" />
+                  <p><%= @scenario.rtoken2.html_safe %>
+                  <% if @scenario.life2 !=0 %>
+                    <br /><%= @scenario.life2 %>
+                  <% end %></p> 
+                </td>
+              <% end %>
+
+              <% if @scenario.rtoken3 !='' %>
+                <td style="text-align: center;">
+                  <img src="/assets/tokens/RedNum3.png" class="scen_token" />
+                  <p><%= @scenario.rtoken3.html_safe %>
+                  <% if @scenario.life3 !=0 %>
+                    <br /><%= @scenario.life3 %>
+                  <% end %></p>  
+                </td>
+              <% end %>
+
+              <% if @scenario.rtoken4 !='' %>
+                <td style="text-align: center;">
+                  <img src="/assets/tokens/RedNum4.png" class="scen_token" />
+                  <p><%= @scenario.rtoken4.html_safe %>
+                  <% if @scenario.life4 !=0 %>
+                    <br /><%= @scenario.life4 %>
+                  <% end %></p>  
+                </td>
+              <% end %>
+
+              <% if @scenario.rtoken5 !='' %>
+                <td style="text-align: center;">
+                  <img src="/assets/tokens/RedNum5.png" class="scen_token" />
+                  <p><%= @scenario.rtoken5.html_safe %>
+                  <% if @scenario.life5 !=0 %>
+                    <br /><%= @scenario.life5 %>
+                  <% end %></p>
+                </td>
+              <% end %>
+
+              <% if @scenario.rtoken6 !='' %>
+                <td style="text-align: center;">
+                  <img src="/assets/tokens/RedNum6.png" class="scen_token" />
+                  <p><%= @scenario.rtoken6.html_safe %>
+                  <% if @scenario.life6 !=0 %>
+                    <br /><%= @scenario.life6 %>
+                  <% end %></p>
+                </td>
+              <% end %>
+
+              <% if @scenario.rtoken7 !='' %>
+                <td style="text-align: center;">
+                  <img src="/assets/tokens/RedNum7.png" class="scen_token" />
+                  <p><%= @scenario.rtoken7.html_safe %>
+                  <% if @scenario.life7 !=0 %>
+                    <br /><%= @scenario.life7 %>
+                  <% end %></p>
+                </td>
+              <% end %>
+
+              <% if @scenario.rtoken8 !='' %>
+                <td style="text-align: center;">
+                  <img src="/assets/tokens/RedNum8.png" class="scen_token" />
+                  <p><%= @scenario.rtoken8.html_safe %>
+                  <% if @scenario.life8 !=0 %>
+                    <br /><%= @scenario.life8 %>
+                  <% end %></p> 
+                </td>
+              <% end %>
+            </tr>
+          </table>
         </div>
-          <div class="row">
-            <div class="col-md-12">      
-              <div class="row river-well-versus">
-                  <table>
-                    <tr class="versus_tokens vl" >
-
-                      <% if @scenario.rtoken1 !='' %>
-                        <td style="text-align: center;">
-                          <img src="/assets/tokens/RedNum1.png" class="scen_token" />
-                          <p><%= @scenario.rtoken1.html_safe %>
-                          <% if @scenario.life1 !=0 %>
-                            <br /><%= @scenario.life1 %>
-                          <% end %></p> 
-                        </td>
-                      <% end %>
-
-                      <% if @scenario.rtoken2 !='' %>
-                        <td style="text-align: center;">
-                          <img src="/assets/tokens/RedNum2.png" class="scen_token" />
-                          <p><%= @scenario.rtoken2.html_safe %>
-                          <% if @scenario.life2 !=0 %>
-                            <br /><%= @scenario.life2 %>
-                          <% end %></p> 
-                        </td>
-                      <% end %>
-
-                      <% if @scenario.rtoken3 !='' %>
-                        <td style="text-align: center;">
-                          <img src="/assets/tokens/RedNum3.png" class="scen_token" />
-                          <p><%= @scenario.rtoken3.html_safe %>
-                          <% if @scenario.life3 !=0 %>
-                            <br /><%= @scenario.life3 %>
-                          <% end %></p>  
-                        </td>
-                      <% end %>
-
-                      <% if @scenario.rtoken4 !='' %>
-                        <td style="text-align: center;">
-                          <img src="/assets/tokens/RedNum4.png" class="scen_token" />
-                          <p><%= @scenario.rtoken4.html_safe %>
-                          <% if @scenario.life4 !=0 %>
-                            <br /><%= @scenario.life4 %>
-                          <% end %></p>  
-                        </td>
-                      <% end %>
-
-                      <% if @scenario.rtoken5 !='' %>
-                        <td style="text-align: center;">
-                          <img src="/assets/tokens/RedNum5.png" class="scen_token" />
-                          <p><%= @scenario.rtoken5.html_safe %>
-                          <% if @scenario.life5 !=0 %>
-                            <br /><%= @scenario.life5 %>
-                          <% end %></p>
-                        </td>
-                      <% end %>
-
-                      <% if @scenario.rtoken6 !='' %>
-                        <td style="text-align: center;">
-                          <img src="/assets/tokens/RedNum6.png" class="scen_token" />
-                          <p><%= @scenario.rtoken6.html_safe %>
-                          <% if @scenario.life6 !=0 %>
-                            <br /><%= @scenario.life6 %>
-                          <% end %></p>
-                        </td>
-                      <% end %>
-
-                      <% if @scenario.rtoken7 !='' %>
-                        <td style="text-align: center;">
-                          <img src="/assets/tokens/RedNum7.png" class="scen_token" />
-                          <p><%= @scenario.rtoken7.html_safe %>
-                          <% if @scenario.life7 !=0 %>
-                            <br /><%= @scenario.life7 %>
-                          <% end %></p>
-                        </td>
-                      <% end %>
-
-                      <% if @scenario.rtoken8 !='' %>
-                        <td style="text-align: center;">
-                          <img src="/assets/tokens/RedNum8.png" class="scen_token" />
-                          <p><%= @scenario.rtoken8.html_safe %>
-                          <% if @scenario.life8 !=0 %>
-                            <br /><%= @scenario.life8 %>
-                          <% end %></p> 
-                        </td>
-                      <% end %>
-                    </tr>
-                  </table>
-                </div>
-             </div>
-          </div>
       </div>
     </div>
 
-    <div class="row scenario">
-      <div class="col-md-12 event-versus">
-        <table class="tiletable-solo">
-          <tr class="vevent" >
-            <td><span><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" ></span></td>
-            <td><%= @scenario.event.html_safe %></td>
-          </tr>
-        </table>
+    <div class="col-md-12">
+      <div class="row">
+          <div class="col-md-12 event-versus">
+            <table class="tiletable-solo">
+              <tr class="vevent" >
+                <td><span><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" ></span></td>
+                <td><%= @scenario.event.html_safe %></td>
+              </tr>
+            </table>
+        </div>
       </div>
     </div>
 
     <div class="row versus">
-      <h3 align="center" >Special Rules</h3>
+      <div class="col-md-12">
+        <h3 align="center" >Special Rules</h3>
+      </div>
+      <div class="special-versus">
+        <div class="col-md-12">
+          <p><%= @scenario.special_rules.html_safe %></p>
+        </div>
+      </div>
     </div>
-    <div class="special-versus">
-      <p><%= @scenario.special_rules.html_safe %></p>
-    </div>
+
 
     <% if @scenario.correction != '' %>
       <div class="row scenario">
-        <h3 align="center" >Corrections / Clarifications</h3>
-      </div>
-      <div class="">
-        <%= @scenario.correction.html_safe %>
+        <div class="col-md-12">
+          <h3 align="center" >Corrections / Clarifications</h3>
+        </div>
+        <div class="col-md-12">
+          <%= @scenario.correction.html_safe %>
+        </div>
       </div>
     <% end %>
+
   </div>
 <% end %>
 
