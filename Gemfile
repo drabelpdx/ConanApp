@@ -32,7 +32,7 @@ gem 'jbuilder', '2.9.1'
 gem 'sdoc', '1.0.0', group: :doc
 gem 'zeitwerk', '2.3'
 
-gem 'ffi', '1.16.3'
+gem 'ffi', '< 1.17.0'
 gem 'mini_portile2', '2.8.5'
 gem 'nokogiri', '1.18.4'
 gem 'psych', '3.3.3'
