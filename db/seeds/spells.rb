@@ -48,8 +48,8 @@
       description: "Assign a number of gems from your Reserve zone to this card and choose an enemy not in your line of sight.
       That enemy gains that many movement points, which you must spend to move that enemy in a way that would not cause it to suffer damage.",
       image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/spells/MindControl.jpg',
-      correction: '<span class="correction_text"><p>"...in your line of sight..." was a translation error. Line of sight does not affect
-      whom the caster can target with this spell.</p></span>' },
+      correction: '<span class="correction_text"><p>Target an enemy unit anywhere on the board. Move the target 1 area + 1 area per gem spent, 
+      following movement restrictions and causing no damage to the target doing so.</p></span>' },
 
     { name: "Mitra’s Halo", cost: '3', limit: '3', area: 'No', instant: 'Yes', origin: "Core Game", count: '1',
       description: "Your armor value is increased by 2. This effect ends when you change from cautious to aggressive or when your group is activated.",
@@ -58,12 +58,14 @@
     { name: "Mitra’s Healing", cost: '2', limit: '2', area: 'No', instant: 'No', origin: "Core Game", count: '1',
       description: "Choose a hero in your area and roll 1 Orange-Reroll die.
       That hero moves a number of gems from their Wound zone to their Reserve zone equal to the number of symbols shown on the die.",
-      image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/spells/MitrasHealing.jpg', correction: '' },
+      image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/spells/MitrasHealing.jpg', correction: '<span class="correction_text">You 
+      can cast this spell on yourself.</span>' },
 
     { name: "Pestilential Swarm", cost: '3', limit: '3', area: 'Yes', instant: 'Yes', origin: "Core Game", count: '1',
       description: "Attack your area, excluding yourself and undead characters; roll 3 Yellow dice.
       Characters cannot defend against this attack. Attacked characters suffer damage equal to the attack power.",
-      image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/spells/PestilentialSwarm.jpg', correction: '' },
+      image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/spells/PestilentialSwarm.jpg', correction: '<span class="correction_text">This 
+      spell has no effect on you or on undead units (Mummies, Skeletons, Zombies, etc.).</span>' },
 
     { name: "Set’s Bite", cost: '2', limit: '2', area: 'No', instant: 'No', origin: "Core Game", count: '1',
       description: "Attack a character in your line of sight; roll 2 Orange dice.
@@ -80,7 +82,8 @@
       description: "Choose a character up to 2 areas away from you. If the character does not have Blocking,
       the character cannot move during their next activation or during the Action phase in which the character is aggressive.
       Otherwise, the character loses Blocking during that turn.",
-      image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/spells/SetsPossession.jpg', correction: '' },
+      image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/spells/SetsPossession.jpg', correction: '<span class="correction_text">Target 
+      any unit on the board, up to 2 areas away from you, in your line of sight or not.</span>' },
 
     { name: "Telekinesis", cost: '1', limit: '1', area: 'No', instant: 'No', origin: "Core Game", count: '1',
       description: "Pick up an object un your line of sight with an encumbrance value of 3 or less.",
@@ -91,7 +94,9 @@
       For each gem assigned, move your model to an adjacent space.<br /><br />
       Clarification: A character who casts this spell is not affected by hindering
       or by <a class='skill' href='/skills/10'>Blocking</a> to move.",
-      image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/spells/Teleportation.jpg', correction: '' },
+      image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/spells/Teleportation.jpg', correction: '<span class="correction_text">When 
+      you cast this spell, your movement is not affected by obstacles (walls, doors, flaps...), hindering, the Blocking skill, or elevation 
+      levels.</span>' },
 
 
     ## Stretch Goals
@@ -151,7 +156,8 @@
 
     { name: "Eel Skin", cost: '2', limit: '2', area: 'No', instant: 'No', origin: "Stretch Goal", count: '1',
       description: 'Choose a character in your ling of sight. That character gains <a href="/skills/12">Evasive</a> until the end of your next turn.',
-      image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/spells/EelSkin.jpg', correction: '' },
+      image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/spells/EelSkin.jpg', correction: '<span class="correction_text">The target 
+      gains the Evasive skill until the end of your side’s turn.</span>' },
 
     { name: "Escape Route", cost: '2', limit: '2', area: 'No', instant: 'No', origin: "Stretch Goal", count: '1',
       description: "Choose a hero in your line of sight. Improve that hero’s Guard space until their next turn
@@ -216,7 +222,8 @@
     { name: "Return of the Brave", cost: 'X', limit: '5', area: 'No', instant: 'No', origin: "Stretch Goal", count: '1',
       description: "Choose a dead unit model whose tile is in the river; this spell’s cost is equal to that model’s reinforcement cost.
       Place that model on the board in the caster’s area as though it were reinforced.",
-      image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/spells/ReturnoftheBrave.jpg', correction: '' },
+      image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/spells/ReturnoftheBrave.jpg', correction: '<span class="correction_text">The 
+      reinforced unit’s tile must not have been removed from the game.</span>' },
 
     { name: "Set’s Illusion", cost: '4', limit: '4', area: 'No', instant: 'No', origin: "Stretch Goal", count: '1',
       description: 'Choose a character in your line of sight. That character gains <a href="/skills/25">Horror</a> until your next turn.',
@@ -251,7 +258,9 @@
     { name: "Yajur’s Awakening", cost: 'X', limit: '5', area: 'No', instant: 'No', origin: "Stretch Goal", count: '1',
       description: "Choose a dead undead unit model (Mummy or Skeleton) whose tile is in the river;
       this spell’s cost is equal to that model’s reinforcement cost. Place that model on the board in the caster’s area as though it were reinforced.",
-      image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/spells/YajursAwakening.jpg', correction: '' },
+      image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/spells/YajursAwakening.jpg', correction: '<span class="correction_text">The 
+      spell cost X is the reinforcement cost of a dead undead unit (Mummy, Skeleton, Zombie, etc.). The unit’s tile must not have been removed 
+      from the game.</span>' },
 
     { name: "Ymir’s Rage", cost: '3', limit: '3', area: 'No', instant: 'No', origin: "Stretch Goal", count: '1',
       description: "When you or a friendly character attack, the attacker rolls an extra Orange die for that attack.

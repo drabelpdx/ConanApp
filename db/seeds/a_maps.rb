@@ -28,7 +28,6 @@
           <li><strong>Climbing:</strong> A character with <a class="skill" href="/skills/19">Climb</a> can move
           across boulders <img src="/assets/tokens/rocksToken.png" class="scen_token" />
           as though they were a border by spending 2 extra movement points.</li>
-          <li><strong>Cliffs:</strong> This is not a game board area. Units cannot enter here.</li>
         </ol>',
      },
 
@@ -138,11 +137,12 @@
       <ol class="map_rules">
         <li><strong>Leaping From/Climbing a Balcony:</strong> A character can
         move across a railing from a balcony area to a ground floor area as
-        though it were a border. The character rolls (2 Yellow dice) for falling damage.
+        though it were a border. The character rolls <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> 
+        <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> for falling damage.
         If the character has <a class="skill" href="/skills/16">Leap</a>, the character rolls
-        (Yellow die) instead. A character with <a class="skill" href="/skills/19">Climb</a> can
-        move across a railing from a ground floor area to a balcony area by
-        spending 1 extra movement point.</li>
+        <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> instead. A character with 
+        <a class="skill" href="/skills/19">Climb</a> can move across a railing from a ground floor area 
+        to a balcony area by spending 1 extra movement point.</li>
         <li><strong>Pit:</strong> A character must spend 1 extra movement point
         to move out of the pit area.</li>
         <li><strong>Cellar windows:</strong> The cellar windows do not block
@@ -335,7 +335,8 @@
         character can move into the collapsed pillar area from an adjacent area. The character
         must spend 2 extra movement points unless they have <a class="skill" href="/skills/19">Climb</a>ing.
         The collapsed pillar does not provide an Elevation bonus.</li>
-        <li><strong>Nave:</strong> Moving from the Nave to the altar requires 2 additional movement
+        <li><strong>Nave:</strong> Moving from the Nave to the altar 
+        <img src="/assets/tokens/num1Token.png" class="small_token" /> requires 2 additional movement
         points unless the unit has <a class="skill" href="/skills/19">Climb</a>ing.</li>
         <li><strong>Pit:</strong> Units cannot enter the pit, although items can be thrown into the
         pit. Items thrown in the pit are lost.</li>
@@ -507,11 +508,6 @@
         <li><strong>Rope Vine (Descend):</strong> A unit in a Cliff Top area with a Rope Vine may descend to the ground below by 
         performing a complex Manipulation with a difficulty of 2 (for Heroes) or for 2 movement points (Overlord tiles). Reduce 
         these values to 1 if the unit has <a class="skill" href="/skills/19">Climb</a>.</li>
-
-        <li><strong>Ford:</strong> Heroes, Allies, and Overlord’s characters receive an Elevation
-        bonus of <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> for Ranged Attacks.
-        Heroes, Allies, and Overlord’s characters do not receive an Elevation bonus for Ranged Attacks,
-        IF their target is on the Forecastle or Poop deck.</li>
 
         <li><strong>Cliff Top:</strong> These areas provide an elevation bonus of <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> .
         A unit can move from a Cliff Top area to a adjacent ground area as though it were a border. The unit rolls 

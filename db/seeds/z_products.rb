@@ -126,6 +126,12 @@
       image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/products/FrazettaBox.jpg' },
 
     ### Others
+    { name: 'Red Nails Stretch Goal', description: '6 additional scenarios using Red Nails and Versus content', origin: '2024PDF',
+      image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/products/RedNailsSG.jpg' },
+
+    { name: 'King Pledge Solo/Coop', description: '16 scenarios converted for Solo/Coop mode', origin: '2024PDF',
+      image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/products/KingPledgeSolo.jpg' },
+
     ## Books
     ## Maps
 

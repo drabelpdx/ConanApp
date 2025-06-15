@@ -516,7 +516,7 @@
             <td>
               <a class="hero" href="/heroes/1">Bêlit</a>
               (<a class="item" href="/items/10">Ornamental Spear</a>,
-              <a class="item" href="/items/15">Yuetshi Knife</a>), and 2
+              <a class="item" href="/items/15">Yuetshi Knife</a>), commands 2
               <a class="tile" href="/tiles/14">Bêlit’s Guards</a>
             </td>
             <td>
@@ -5157,7 +5157,7 @@
         <tr>
           <td><img src="/assets/tokens/area1Token.png" class="scen_token" /></td>
           <td>The heroes start in the
-          <img src="/assets/tokens/area1Token.png" class="scen_token" /> area.</td>
+          <img src="/assets/tokens/area1Token.png" class="small_token" /> area.</td>
           <td></td>
         </tr>
       </table>
@@ -7788,14 +7788,14 @@
         the <a class="item" href="/items/25">Pictish Fetish</a>, and the
         <a class="item" href="/items/49">Heart of Ahriman</a> are considered Sacred Treasures.
         During setup, the Overlord places one Sacred Treasure card on the same
-        areas as the tokens <img src="/assets/tokens/area1Token.png" class="scen_token" />,
-        <img src="/assets/tokens/area2Token.png" class="scen_token" /> and
-        <img src="/assets/tokens/area3Token.png" class="scen_token" />  as well
+        areas as the tokens <img src="/assets/tokens/area1Token.png" class="small_token" />,
+        <img src="/assets/tokens/area2Token.png" class="small_token" /> and
+        <img src="/assets/tokens/area3Token.png" class="small_token" />  as well
         as the Pictish Fetish and the Heart of Ahriman next to the board.</p>
 
         <p><span class="special_title">Equipment:</span>
         During setup, the Overlord places the following cards on the area
-        <img src="/assets/tokens/area4Token.png" class="scen_token" />:
+        <img src="/assets/tokens/area4Token.png" class="small_token" />:
         1&nbsp;<a class="item" href="/items/32">Axe</a>,
         1&nbsp;<a class="item" href="/items/40">Zingaran Bow</a>, and
         1&nbsp;<a class="item" href="/items/22">Life Potion</a>.</p>
@@ -8683,7 +8683,7 @@
         <tr>
           <td><img src="/assets/tokens/area1Token.png" class="scen_token" /></td>
           <td>The heroes start in the
-            <img src="/assets/tokens/area1Token.png" class="scen_token" /> area.</td>
+            <img src="/assets/tokens/area1Token.png" class="small_token" /> area.</td>
           <td></td>
         </tr>
       </table>
@@ -9016,7 +9016,7 @@
 
         <p><span class="special_title">Fleeing the Fort:</span>
         A hero can flee the fort from one of the exit areas marked
-        <img src="/assets/tokens/area1Token.png" class="scen_token" /> by
+        <img src="/assets/tokens/area1Token.png" class="small_token" /> by
         spending movement points as though the hero were moving across a border
         and removing the hero’s model from the board. Once a hero has fled, the
         hero’s model cannot be returned to the board.</p>
@@ -10713,8 +10713,8 @@
         <tr>
           <td><img src="/assets/tokens/area1Token.png" class="scen_token" /></td>
           <td>The heroes may deploy as they choose  <br />in the areas marked
-          <img src="/assets/tokens/area1Token.png" class="scen_token" /> and
-          <img src="/assets/tokens/area2Token.png" class="scen_token" /></td>
+          <img src="/assets/tokens/area1Token.png" class="small_token" /> and
+          <img src="/assets/tokens/area2Token.png" class="small_token" /></td>
           <td></td>
         </tr>
       </table>
@@ -10904,7 +10904,7 @@
         <tr>
           <td><img src="/assets/tokens/area1Token.png" class="scen_token" /></td>
           <td>The heroes start in the area marked
-          <img src="/assets/tokens/area1Token.png" class="scen_token" /></td>
+          <img src="/assets/tokens/area1Token.png" class="small_token" /></td>
           <td></td>
         </tr>
       </table>
@@ -11116,7 +11116,7 @@
         <tr>
           <td><img src="/assets/tokens/area1Token.png" class="scen_token" /></td>
           <td>The heroes start in the area marked
-          <img src="/assets/tokens/area1Token.png" class="scen_token" /></td>
+          <img src="/assets/tokens/area1Token.png" class="small_token" /></td>
           <td></td>
         </tr>
       </table>
@@ -11352,7 +11352,7 @@
           <tr>
             <td><img src="/assets/tokens/area1Token.png" class="scen_token" /></td>
             <td>The heroes start in the area marked
-            <img src="/assets/tokens/area1Token.png" class="scen_token" /></td>
+            <img src="/assets/tokens/area1Token.png" class="small_token" /></td>
             <td></td>
           </tr>
         </table>
@@ -11488,7 +11488,7 @@
           Overlord replaces the Event tile furthest on the left in the river with
           the <a class="tile" href="/tiles/9">Dark Demon</a> tile. The Dark Demon’s
           model is placed in the area marked
-          <img src="/assets/tokens/area2Token.png" class="scen_token" /> and the
+          <img src="/assets/tokens/area2Token.png" class="small_token" /> and the
           Overlord places the Dark Demon’s Life Point marker
           <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/DarkDemonToken.png" class="scen_token">
           on the position “8” of the turn track.</p>
@@ -11584,7 +11584,7 @@
         <tr>
           <td><img src="/assets/tokens/area1Token.png" class="scen_token" /></td>
           <td>The heroes start in the area marked
-          <img src="/assets/tokens/area1Token.png" class="scen_token" />.</td>
+          <img src="/assets/tokens/area1Token.png" class="small_token" />.</td>
           <td></td>
         </tr>
       </table>
@@ -11808,7 +11808,7 @@
         <tr>
           <td><img src="/assets/tokens/area1Token.png" class="scen_token" /></td>
           <td>The heroes start in the area marked
-          <img src="/assets/tokens/area1Token.png" class="scen_token" />.</td>
+          <img src="/assets/tokens/area1Token.png" class="small_token" />.</td>
           <td></td>
         </tr>
       </table>
@@ -12013,7 +12013,7 @@
         <tr>
           <td><img src="/assets/tokens/area1Token.png" class="scen_token" /></td>
           <td>The heroes start in the area marked
-          <img src="/assets/tokens/area1Token.png" class="scen_token" />.</td>
+          <img src="/assets/tokens/area1Token.png" class="small_token" />.</td>
           <td></td>
         </tr>
       </table>
@@ -12145,7 +12145,7 @@
         <p><span class="special_title">Giant Scorpion:</span>
         <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/GiantScorpion.jpg" class="scen_event float_tile">
         The Giant Scorpion appears in the area marked
-        <img src="/assets/tokens/area2Token.png" class="scen_token" /> from the
+        <img src="/assets/tokens/area2Token.png" class="small_token" /> from the
         moment when the first lever is activated. The Giant Scorpion Unit tile takes
         the last position in the river. The Overlord places the Giant Scorpion’s
         Life Point marker
@@ -12164,7 +12164,7 @@
 
         <p><span class="special_title">Fleeing the citadel:</span>
         A hero can flee the citadel from the area marked
-        <img src="/assets/tokens/area1Token.png" class="scen_token" /> by spending
+        <img src="/assets/tokens/area1Token.png" class="small_token" /> by spending
         movement points as though the hero was moving across a border. The hero’s
         model is then removed from the board. Once a hero has fled, the hero’s
         model cannot be returned to the board.</p>
@@ -12251,7 +12251,7 @@
         <tr>
           <td><img src="/assets/tokens/area2Token.png" class="scen_token" /></td>
           <td>The heroes start in the area marked
-          <img src="/assets/tokens/area2Token.png" class="scen_token" />. The heroes
+          <img src="/assets/tokens/area2Token.png" class="small_token" />. The heroes
           start carrying the sarcophagus (see Special Rules “Carrying the sarcophagus”).</td>
           <td></td>
         </tr>
@@ -12360,7 +12360,7 @@
       special_rules: '
         <p><span class="special_title">Carrying the sarcophagus:</span>
         During setup, the Overlord places the sarcophagus miniature in the area
-        <img src="/assets/tokens/area2Token.png" class="scen_token" /> of the board
+        <img src="/assets/tokens/area2Token.png" class="small_token" /> of the board
         as indicated by the setup diagram. A hero in the sarcophagus’ area can carry
         it by performing a simple Manipulation. Several heroes can carry the
         sarcophagus simultaneously; in this case the encumbrance value is divided
@@ -12377,7 +12377,7 @@
 
         <p><span class="special_title">Fleeing the swamp:</span>
         A hero can flee the swamp from one of the two areas marked
-        <img src="/assets/tokens/area1Token.png" class="scen_token" /> by spending
+        <img src="/assets/tokens/area1Token.png" class="small_token" /> by spending
         movement points as though the hero was moving across a border. The hero’s
         model is then removed from the board. Once a hero has fled, the hero’s
         model cannot be returned to the board. For the models carrying the sarcophagus
@@ -12476,7 +12476,7 @@
         <tr>
           <td><img src="/assets/tokens/area3Token.png" class="scen_token" /></td>
           <td>The heroes deploy freely in the areas marked
-          <img src="/assets/tokens/area3Token.png" class="scen_token" /></td>
+          <img src="/assets/tokens/area3Token.png" class="small_token" /></td>
           <td></td>
         </tr>
       </table>
@@ -12705,7 +12705,7 @@
         <tr>
           <td><img src="/assets/tokens/area1Token.png" class="scen_token" /></td>
           <td>The heroes deploy freely in the areas marked
-          <img src="/assets/tokens/area1Token.png" class="scen_token" /></td>
+          <img src="/assets/tokens/area1Token.png" class="small_token" /></td>
           <td></td>
         </tr>
       </table>
@@ -12933,7 +12933,7 @@
         <tr>
           <td><img src="/assets/tokens/area1Token.png" class="scen_token" /></td>
           <td>The heroes deploy freely in the areas marked
-          <img src="/assets/tokens/area1Token.png" class="scen_token" /></td>
+          <img src="/assets/tokens/area1Token.png" class="small_token" /></td>
           <td></td>
         </tr>
       </table>
@@ -13167,7 +13167,7 @@
         <tr>
           <td><img src="/assets/tokens/area1Token.png" class="scen_token" /></td>
           <td>The heroes deploy freely in the areas marked
-          <img src="/assets/tokens/area1Token.png" class="scen_token" /></td>
+          <img src="/assets/tokens/area1Token.png" class="small_token" /></td>
           <td></td>
         </tr>
       </table>
@@ -13411,7 +13411,7 @@
         <tr>
           <td><img src="/assets/tokens/area1Token.png" class="scen_token" /></td>
           <td>The heroes deploy freely in the areas marked
-          <img src="/assets/tokens/area1Token.png" class="scen_token" /></td>
+          <img src="/assets/tokens/area1Token.png" class="small_token" /></td>
           <td></td>
         </tr>
       </table>
@@ -13650,7 +13650,7 @@
         <tr>
           <td><img src="/assets/tokens/area1Token.png" class="scen_token" /></td>
           <td>The heroes deploy freely in the areas marked
-          <img src="/assets/tokens/area1Token.png" class="scen_token" /></td>
+          <img src="/assets/tokens/area1Token.png" class="small_token" /></td>
           <td></td>
         </tr>
       </table>
@@ -13795,7 +13795,7 @@
 
         <p><span class="special_title">Fleeing the Swamp:</span>
         A hero can flee the swamp from one of the areas marked
-        <img src="/assets/tokens/area1Token.png" class="scen_token" />
+        <img src="/assets/tokens/area1Token.png" class="small_token" />
         by spending movement points as though the hero was moving across a border.
         The hero’s model is then removed from the board. Once a hero has fled,
         the hero’s model cannot be returned to the board.</p>
@@ -13884,7 +13884,7 @@
         <tr>
           <td><img src="/assets/tokens/area1Token.png" class="scen_token" /></td>
           <td>The heroes start in the area marked
-          <img src="/assets/tokens/area1Token.png" class="scen_token" /></td>
+          <img src="/assets/tokens/area1Token.png" class="small_token" /></td>
           <td></td>
         </tr>
       </table>
@@ -14108,7 +14108,7 @@
         <tr>
           <td><img src="/assets/tokens/area1Token.png" class="scen_token" /></td>
           <td>The heroes start in the area marked
-          <img src="/assets/tokens/area1Token.png" class="scen_token" /></td>
+          <img src="/assets/tokens/area1Token.png" class="small_token" /></td>
           <td></td>
         </tr>
       </table>
@@ -14339,7 +14339,7 @@
         <tr>
           <td><img src="/assets/tokens/area1Token.png" class="scen_token" /></td>
           <td>The heroes start in the area marked
-          <img src="/assets/tokens/area1Token.png" class="scen_token" /></td>
+          <img src="/assets/tokens/area1Token.png" class="small_token" /></td>
           <td></td>
         </tr>
       </table>
@@ -14557,7 +14557,7 @@
         <tr>
           <td><img src="/assets/tokens/area1Token.png" class="scen_token" /></td>
           <td>The heroes start in the area marked
-          <img src="/assets/tokens/area1Token.png" class="scen_token" /></td>
+          <img src="/assets/tokens/area1Token.png" class="small_token" /></td>
           <td></td>
         </tr>
       </table>
@@ -14750,7 +14750,7 @@
         <tr>
           <td><img src="/assets/tokens/area1Token.png" class="scen_token" /></td>
           <td>The heroes start in the area marked
-          <img src="/assets/tokens/area1Token.png" class="scen_token" /></td>
+          <img src="/assets/tokens/area1Token.png" class="small_token" /></td>
           <td></td>
         </tr>
       </table>
@@ -14975,12 +14975,12 @@
 
         <p><span class="setup_item">Setup</span></p>
         <p><strong>The game starts with the Heroes’ turn.</strong> The Heroes start in the area marked with
-        <span style="white-space: nowrap;"><img src="/assets/tokens/area1Token.png" class="scen_token" />.</span>   
+        <span style="white-space: nowrap;"><img src="/assets/tokens/area1Token.png" class="small_token" />.</span>   
         Heroes have no starting equipment. The Sorcerer starts with the spell Bori’s Rage.</p>
 
         <p>For thematic reasons, choose Heroes that will not be used in the main campaign.</p>
         
-        <p>Randomly place the Tribal Mace, Dagger, & Parrying Dagger face up in the huts marked with <img src="/assets/tokens/area2Token.png" class="scen_token" />.</p>
+        <p>Randomly place the Tribal Mace, Dagger, & Parrying Dagger face up in the huts marked with <img src="/assets/tokens/area2Token.png" class="small_token" />.</p>
         
         <p>Place the spells Teleport and Set’s Possession on the table as a reference for Zogar Sag’s activation.</p>
         
@@ -15077,6 +15077,26 @@
       life7: 0,
       life8: 0,
 
+      # Hard Mode text/arrow
+      hardtext1: '',
+      hardtext2: '',
+      hardtext3: '',
+      hardtext4: '',
+      hardtext5: '',
+      hardtext6: '',
+      hardtext7: '',
+      hardtext8: '',
+
+      # Hard Mode tile
+      hardtile1: 999,
+      hardtile2: 999,
+      hardtile3: 999,
+      hardtile4: 999,
+      hardtile5: 999,
+      hardtile6: 999,
+      hardtile7: 999,
+      hardtile8: 999,
+
       special_rules: '',
 
       # campaign number   
@@ -15158,9 +15178,9 @@
 
         <p><span class="setup_item">Setup</span></p> 
         <p><strong>The game starts with the Heroes’ turn.</strong> Heroes set up in the areas marked 
-        <img src="/assets/tokens/area1Token.png" class="scen_token" /> = Rogue, 
-        <img src="/assets/tokens/area2Token.png" class="scen_token" /> = Warrior, and 
-        <img src="/assets/tokens/area3Token.png" class="scen_token" /> = Sorcerer.</p>
+        <img src="/assets/tokens/area1Token.png" class="small_token" /> = Rogue, 
+        <img src="/assets/tokens/area2Token.png" class="small_token" /> = Warrior, and 
+        <img src="/assets/tokens/area3Token.png" class="small_token" /> = Sorcerer.</p>
         <p>The Sorcerer starts with Set’s Halo cast.</p>
         <table class="solo_left_table">
           <tr>
@@ -15215,7 +15235,7 @@
           <img src="/assets/dice/Red-Reroll.png" class="scen_sq_token" />  
           <img src="/assets/dice/Orange-Reroll.png" class="scen_sq_token" /> 
         </li>
-        <li>The Sellsword starts in area <img src="/assets/tokens/area1Token.png" class="scen_token" />.</li>
+        <li>The Sellsword starts in area <img src="/assets/tokens/area1Token.png" class="small_token" />.</li>
         <li>Reminder: The Overlord activates four times per turn.</li>
       </ul></p>
 
@@ -15255,6 +15275,26 @@
       life6: 0,
       life7: 0,
       life8: 0,
+
+      # Hard Mode text/arrow
+      hardtext1: '',
+      hardtext2: '',
+      hardtext3: '',
+      hardtext4: '',
+      hardtext5: '',
+      hardtext6: '',
+      hardtext7: '',
+      hardtext8: '',
+
+      # Hard Mode tile
+      hardtile1: 999,
+      hardtile2: 999,
+      hardtile3: 999,
+      hardtile4: 999,
+      hardtile5: 999,
+      hardtile6: 999,
+      hardtile7: 999,
+      hardtile8: 999,
 
       special_rules: '',
 
@@ -15321,9 +15361,9 @@
       hero_setup: '
       <div class="col-md-6">
         <p><span class="setup_item">Objective</span></p>
-        <p>The Heroes win if they drop 5 chests in the zone marked <img src="/assets/tokens/area2Token.png" class="scen_token" />  and 
+        <p>The Heroes win if they drop 5 chests in the zone marked <img src="/assets/tokens/area2Token.png" class="small_token" />  and 
         there are no enemies present in that zone. </p>
-        <p>The Heroes don’t need to be present in <img src="/assets/tokens/area2Token.png" class="scen_token" /> to meet these victory 
+        <p>The Heroes don’t need to be present in <img src="/assets/tokens/area2Token.png" class="small_token" /> to meet these victory 
         conditions.</p>
 
         <p><span class="setup_item">Setup</span></p>
@@ -15360,11 +15400,11 @@
           <li><span class="special_solo_title">The Dead Return:</span> The Dead Return: Up from the blood-soaked deck rise the fallen 
           pirates, burning with unnatural life. Roll <img src="/assets/dice/Red-Reroll.png" class="scen_sq_token" /> to determine how 
           many pirates arise. Reroll the die once if the first result is blank. Add the Pirates to area 
-          <img src="/assets/tokens/area1Token.png" class="scen_token" /> or <img src="/assets/tokens/area2Token.png" class="scen_token" />, 
+          <img src="/assets/tokens/area1Token.png" class="small_token" /> or <img src="/assets/tokens/area2Token.png" class="small_token" />, 
           whichever is closest to the Target Hero. If they would not be able to reach the 
           Target the Hero from either zone, place them in the zone that would allow them to attack an. Alternate Target Hero. If neither 
-          is possible, players choose which of the two areas to place them in. If there is a Fire token in <img src="/assets/tokens/area1Token.png" class="scen_token" />, 
-          pirates will no longer spawn there and will spawn in <img src="/assets/tokens/area2Token.png" class="scen_token" />, where Fire tokens 
+          is possible, players choose which of the two areas to place them in. If there is a Fire token in <img src="/assets/tokens/area1Token.png" class="small_token" />, 
+          pirates will no longer spawn there and will spawn in <img src="/assets/tokens/area2Token.png" class="small_token" />, where Fire tokens 
           may not be placed. A maximum of 15 Pirates can be on the board at one time. Once the pirates are placed, activate them.</li>
           <li><span class="special_solo_title">Zaporavo Yet Stands:</span> Activate Zaporavo after the pirates have activated. He no longer 
           has the Protected skill, as the dead do not obey him. His tile functions as printed.</li>
@@ -15374,10 +15414,12 @@
         <p><span class="special_solo_title">Event 2:</span></p>
         <ol>
           <li><span class="special_solo_title">Enter the Pictish Horde:</span> The sharks have mysteriously vanished and now the water is 
-          teeming with Picts, some of whom are already climbing the ship. Roll <img src="/assets/dice/Red-Reroll.png" class="scen_sq_token" /> to determine the number of Pict Hunters you will 
-          place in <img src="/assets/tokens/area2Token.png" class="scen_token" />. Reroll the die once if the first result is blank. A maximum of 15 Pict Hunters can be on the board at one time. 
-          Picts do not activate as part of this event.</li>
-          <li><span class="special_solo_title">Fire Arrows:</span> Roll to see if a Fire token is added to the map (see Fire! under special rules).</li>
+          teeming with Picts, some of whom are already climbing the ship. Roll <img src="/assets/dice/Red-Reroll.png" class="scen_sq_token" /> 
+          to determine the number of Pict Hunters you will place in <img src="/assets/tokens/area2Token.png" class="small_token" />. 
+          Reroll the die once if the first result is blank. A maximum of 15 Pict Hunters can be on the board at one time. Picts do not 
+            activate as part of this event.</li>
+          <li><span class="special_solo_title">Fire Arrows:</span> Roll to see if a Fire token is added to the map (see Fire! under 
+          special rules).</li>
         </ol>
       </div>
 
@@ -15387,7 +15429,7 @@
         <p><span class="special_solo_title">Fire!</span> The invading Picts started a fire on your ship. Roll <img src="/assets/dice/Red-Reroll.png" class="scen_sq_token" /> 
         to determine the fire’s 
         intensity (shown as a 1, 2, or 3 on the Fire token). Reroll the die once if the first result is blank. Unless the reroll 
-        is also blank, place the initial Fire token in any zone except <img src="/assets/tokens/area2Token.png" class="scen_token" /> 
+        is also blank, place the initial Fire token in any zone except <img src="/assets/tokens/area2Token.png" class="small_token" /> 
         or the stairwell (marked with a chest). Subsequent Fire tokens must be placed in a zone adjacent to an existing Fire token.</p>
         <p>The number on the Fire token denotes how many unprevent- able wounds a miniature takes if they move into a Fire zone, 
         as well as any round they start in a zone with a Fire token. Each unit already in a zone when a Fire token is placed in 
@@ -15404,7 +15446,7 @@
         up chests. This chest does not affect how many miniatures you can place in the zone (3 normal-sized miniatures is the threshold). 
         A Hero in this zone may spend one gem for a simple Manipulation to retrieve a chest. This chest counts as two encumbrance and may 
         be dropped for free or picked up again as a simple Manipulation. A Hero may only hold one chest at a time and may not throw the chest.</p>
-        <p><span class="special_solo_title">The stairwell zone:</span> Only area <img src="/assets/tokens/area1Token.png" class="scen_token" /> 
+        <p><span class="special_solo_title">The stairwell zone:</span> Only area <img src="/assets/tokens/area1Token.png" class="small_token" /> 
         and the adjacent mast zone have line of sight to units in the stairwell zone.</p>
 
 
@@ -15462,6 +15504,26 @@
       life6: 0,
       life7: 3,
       life8: 0,
+
+      # Hard Mode text/arrow
+      hardtext1: '',
+      hardtext2: '',
+      hardtext3: '',
+      hardtext4: '',
+      hardtext5: '',
+      hardtext6: '',
+      hardtext7: '',
+      hardtext8: '',
+
+      # Hard Mode tile
+      hardtile1: 999,
+      hardtile2: 999,
+      hardtile3: 999,
+      hardtile4: 999,
+      hardtile5: 999,
+      hardtile6: 999,
+      hardtile7: 999,
+      hardtile8: 999,
 
       special_rules: '',
 
@@ -15534,7 +15596,7 @@
 
         <p><span class="setup_item">Setup</span></p>
         <p><strong>The game starts with the Overlord’s turn.</strong> The Heroes start in the areas marked 
-        <span style="white-space: nowrap;"><img src="/assets/tokens/area1Token.png" class="scen_token" />.</span></p>
+        <span style="white-space: nowrap;"><img src="/assets/tokens/area1Token.png" class="small_token" />.</span></p>
 
         <p>The Sorcerer starts with Set’s Halo cast.</p>
        <table class="solo_left_table">
@@ -15621,7 +15683,7 @@
         <p><span class="special_title">Substitutions</span> 
         <ul>
           <li>Shafiah or Ghayoor may substitute for the Captain.</li>
-          <li><span class="special_solo_title">Hard Mode:</span> Add 2 Pirate Archers to area <img src="/assets/tokens/area2Token.png" class="scen_token" />.</li>
+          <li><span class="special_solo_title">Hard Mode:</span> Add 2 Pirate Archers to area <img src="/assets/tokens/area2Token.png" class="small_token" />.</li>
         </ul></p>
     </div>',
 
@@ -15655,6 +15717,26 @@
       life6: 0,
       life7: 0,
       life8: 0,
+
+      # Hard Mode text/arrow
+      hardtext1: '',
+      hardtext2: '',
+      hardtext3: '',
+      hardtext4: '',
+      hardtext5: '',
+      hardtext6: '',
+      hardtext7: '',
+      hardtext8: '',
+
+      # Hard Mode tile
+      hardtile1: 999,
+      hardtile2: 999,
+      hardtile3: 999,
+      hardtile4: 999,
+      hardtile5: 999,
+      hardtile6: 999,
+      hardtile7: 999,
+      hardtile8: 999,
 
       special_rules: '',
 
@@ -15724,7 +15806,7 @@
 
         <p><span class="setup_item">Setup</span></p>
         <p><strong>The game starts with the Overlord’s turn.</strong> The Heroes start in the area marked with the Well token. The Deep One Champion 
-        is placed in the area marked with the number <img src="/assets/tokens/area1Token.png" class="scen_token" />. Be sure to add the Hidden Chamber near the map.</p>
+        is placed in the area marked with the number <img src="/assets/tokens/area1Token.png" class="small_token" />. Be sure to add the Hidden Chamber near the map.</p>
 
        <table class="solo_left_table">
           <tr>
@@ -15853,6 +15935,26 @@
       life6: 0,
       life7: 0,
       life8: 0,
+
+      # Hard Mode text/arrow
+      hardtext1: '',
+      hardtext2: '',
+      hardtext3: '',
+      hardtext4: '',
+      hardtext5: '',
+      hardtext6: '',
+      hardtext7: '',
+      hardtext8: '',
+
+      # Hard Mode tile
+      hardtile1: 999,
+      hardtile2: 999,
+      hardtile3: 999,
+      hardtile4: 999,
+      hardtile5: 999,
+      hardtile6: 999,
+      hardtile7: 999,
+      hardtile8: 999,
 
       special_rules: '',
 
@@ -16154,6 +16256,26 @@
       life7: 6,
       life8: 0,
 
+      # Hard Mode text/arrow
+      hardtext1: '',
+      hardtext2: '',
+      hardtext3: '',
+      hardtext4: '',
+      hardtext5: '',
+      hardtext6: '',
+      hardtext7: '',
+      hardtext8: '',
+
+      # Hard Mode tile
+      hardtile1: 999,
+      hardtile2: 999,
+      hardtile3: 999,
+      hardtile4: 999,
+      hardtile5: 999,
+      hardtile6: 999,
+      hardtile7: 999,
+      hardtile8: 999,
+
       special_rules: '',
 
       # campaign number   
@@ -16228,7 +16350,7 @@
 
         <p><span class="setup_item">Setup</span></p>
         <p><strong>The game starts with the Heroes turn.</strong> The Heroes set up in the area marked 
-        <span style="white-space: nowrap;"><img src="/assets/tokens/area1Token.png" class="scen_token" />.</span>
+        <span style="white-space: nowrap;"><img src="/assets/tokens/area1Token.png" class="small_token" />.</span>
 
         Place 8 red gems <img src="/assets/tokens/redGem.png" class="scen_token" /> in the Recovery Value 
         Tile space in the Book of Skelos; this will serve as the Ascension Pool. The Tools in the hut represent a fire brand. Shuffle 
@@ -16258,11 +16380,11 @@
         Each time Event 2 is activated, perform the first action listed below not already performed.
         <ul>
           <li>Add a <img src="/assets/tokens/rocksToken.png" class="scen_token" /> token to the area marked 
-          <img src="/assets/tokens/area2Token.png" class="scen_token" />.</li>
+          <img src="/assets/tokens/area2Token.png" class="small_token" />.</li>
           <li>Add a <img src="/assets/tokens/rocksToken.png" class="scen_token" /> token to the area marked 
-          <img src="/assets/tokens/area3Token.png" class="scen_token" />.</li>
+          <img src="/assets/tokens/area3Token.png" class="small_token" />.</li>
           <li>Add a <img src="/assets/tokens/rocksToken.png" class="scen_token" /> token to the area marked 
-          <img src="/assets/tokens/area4Token.png" class="scen_token" /> and then remove Event tile 2 from the river.</li>
+          <img src="/assets/tokens/area4Token.png" class="small_token" /> and then remove Event tile 2 from the river.</li>
         </ul></p>
 
         <p><span class="setup_item">Special Rules</span></p>
@@ -16363,6 +16485,26 @@
       life6: 0,
       life7: 0,
       life8: 0,
+
+      # Hard Mode text/arrow
+      hardtext1: '',
+      hardtext2: '',
+      hardtext3: '',
+      hardtext4: '',
+      hardtext5: '',
+      hardtext6: '',
+      hardtext7: '',
+      hardtext8: '',
+
+      # Hard Mode tile
+      hardtile1: 999,
+      hardtile2: 999,
+      hardtile3: 999,
+      hardtile4: 999,
+      hardtile5: 999,
+      hardtile6: 999,
+      hardtile7: 999,
+      hardtile8: 999,
 
       special_rules: '',
 
@@ -16622,6 +16764,26 @@
       life6: 0,
       life7: 4,
       life8: 5,
+
+      # Hard Mode text/arrow
+      hardtext1: '',
+      hardtext2: '',
+      hardtext3: '',
+      hardtext4: '',
+      hardtext5: '',
+      hardtext6: '',
+      hardtext7: '',
+      hardtext8: '',
+
+      # Hard Mode tile
+      hardtile1: 999,
+      hardtile2: 999,
+      hardtile3: 999,
+      hardtile4: 999,
+      hardtile5: 999,
+      hardtile6: 999,
+      hardtile7: 999,
+      hardtile8: 999,
 
       special_rules: '',
 
@@ -16960,6 +17122,26 @@
       life7: 0,
       life8: 0,
 
+      # Hard Mode text/arrow
+      hardtext1: '',
+      hardtext2: '',
+      hardtext3: '',
+      hardtext4: '',
+      hardtext5: '',
+      hardtext6: '',
+      hardtext7: '',
+      hardtext8: '',
+
+      # Hard Mode tile
+      hardtile1: 999,
+      hardtile2: 999,
+      hardtile3: 999,
+      hardtile4: 999,
+      hardtile5: 999,
+      hardtile6: 999,
+      hardtile7: 999,
+      hardtile8: 999,
+
       special_rules: '',
 
       # campaign number   
@@ -17035,9 +17217,9 @@
 
         <p><span class="setup_item">Setup</span></p>
         <p><strong>The game starts with the Heroes’ turn.</strong> Heroes set up in the zones marked 
-        <img src="/assets/tokens/area1Token.png" class="scen_token" />&nbsp;=&nbsp;Rogue, 
-        <img src="/assets/tokens/area2Token.png" class="scen_token" />&nbsp;=&nbsp;Warrior, and 
-        <img src="/assets/tokens/area3Token.png" class="scen_token" />&nbsp;=&nbsp;Sorcerer.</p>
+        <img src="/assets/tokens/area1Token.png" class="small_token" />&nbsp;=&nbsp;Rogue, 
+        <img src="/assets/tokens/area2Token.png" class="small_token" />&nbsp;=&nbsp;Warrior, and 
+        <img src="/assets/tokens/area3Token.png" class="small_token" />&nbsp;=&nbsp;Sorcerer.</p>
 
        <table class="solo_left_table">
           <tr>
@@ -17076,9 +17258,9 @@
         <p><span class="special_solo_title">Map:</span> When a Hero picks up the map, immediately roll 
         <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> (no rerolls allowed). If the 
         result is blank, place the <img src="/assets/tokens/energyToken.png" class="scen_token" /> token in the area marked 
-        <img src="/assets/tokens/areaAToken.png" class="scen_token" /> A on the 
+        <img src="/assets/tokens/areaAToken.png" class="small_token" /> A on the 
         ship in the Thurian Age. If the result is not blank, place it in the area marked 
-        <img src="/assets/tokens/areaBToken.png" class="scen_token" /> B on the ship in the Thurian Age. This 
+        <img src="/assets/tokens/areaBToken.png" class="small_token" /> B on the ship in the Thurian Age. This 
         represents the location where the Stygian Artifact must be destroyed.
  
       </div>
@@ -17117,7 +17299,7 @@
         <p><span class="special_title">Four Player Mode</span> 
         <ul>
           <li>After setup, each Hero moves 6 gems from their Reserve to their Fatigue zone.</li>
-          <li>Sellsword begins in the area marked <img src="/assets/tokens/area4Token.png" class="scen_token" />.</li>
+          <li>Sellsword begins in the area marked <img src="/assets/tokens/area4Token.png" class="small_token" />.</li>
           <li>The Giant Snake and Son of Set have 15 Life Points.</li>
           <li>Reminder: The Overlord activates four times per turn.</li>
         </ul></p>
@@ -17157,6 +17339,26 @@
       life6: 4,
       life7: 10,
       life8: 0,
+
+      # Hard Mode text/arrow
+      hardtext1: '',
+      hardtext2: '',
+      hardtext3: '',
+      hardtext4: '',
+      hardtext5: '',
+      hardtext6: '',
+      hardtext7: '',
+      hardtext8: '',
+
+      # Hard Mode tile
+      hardtile1: 999,
+      hardtile2: 999,
+      hardtile3: 999,
+      hardtile4: 999,
+      hardtile5: 999,
+      hardtile6: 999,
+      hardtile7: 999,
+      hardtile8: 999,
 
       special_rules: '',
 
@@ -17232,7 +17434,7 @@
 
         <p><span class="setup_item">Setup</span></p>
         <p><strong>The game starts with the Heroes’ turn.</strong> The Heroes deploy in the area marked 
-        <span style="white-space: nowrap;"><img src="/assets/tokens/area1Token.png" class="scen_token" />.</span> 
+        <span style="white-space: nowrap;"><img src="/assets/tokens/area1Token.png" class="small_token" />.</span> 
         Place 20 red gems in the Recovery Value Tile space in the Book of Skelos; this will serve as the Ascension Pool.</p>
         <p>Assign each character an Overlord tile as follows to keep near their dashboard:</p>
 
@@ -17396,6 +17598,26 @@
       life6: 0,
       life7: 15,
       life8: 0,
+
+      # Hard Mode text/arrow
+      hardtext1: '',
+      hardtext2: '',
+      hardtext3: '',
+      hardtext4: '',
+      hardtext5: '',
+      hardtext6: '',
+      hardtext7: '',
+      hardtext8: '',
+
+      # Hard Mode tile
+      hardtile1: 999,
+      hardtile2: 999,
+      hardtile3: 999,
+      hardtile4: 999,
+      hardtile5: 999,
+      hardtile6: 999,
+      hardtile7: 999,
+      hardtile8: 999,
 
       special_rules: '',
 
@@ -17781,10 +18003,8 @@
         into an adjacent area of their choice, regardless of the damage.</p>
 
         <p><span class="special_title">Staggering Gods:</span>
-        When a Manifestation is forced into a parapet area marked
-        <img src="/assets/tokens/areaPToken.png" class="scen_token" />
-        by another Manifestation, place
-        a Boulder <img src="/assets/tokens/rocksToken.png" class="scen_token" /> token in the area.
+        When a Manifestation is forced into a parapet area marked <img src="/assets/tokens/areaPToken.png" class="small_token" />
+        by another Manifestation, place a Boulder <img src="/assets/tokens/rocksToken.png" class="scen_token" /> token in the area.
         It is now considered a Rockslide area. Only 1 <img src="/assets/tokens/rocksToken.png" class="scen_token" />
         can be placed in the area. Place a Wrecked Wall <img src="/assets/tokens/brokenWallToken.png" class="scen_token" />
         token on any courtyard wall, door, tower wall border that was crossed.</p>
@@ -19216,7 +19436,8 @@
 
       map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Mutiny.jpg",
 
-      hero_goal: "If the ...",
+      hero_goal: "The Heroes win <strong>IF</strong> they kill Zaporavo and free at least 4 slaves <strong>OR</strong> free 6 slaves 
+      before the end of turn 7.",
 
       hero_setup: '
       <table class="scen_table">
@@ -19273,7 +19494,8 @@
         </tr>
       </table>',
 
-      overlord_goal: "If the ...",
+      overlord_goal: "The Overlord wins the game <strong>IF</strong> Zaporavo has been killed and fewer than 4 slaves have been freed 
+      before the end of turn 7 <strong>OR</strong> if Zaporavo is alive and fewer than 6 slaves have been freed, before the end of turn 7.",
 
       overlord_setup: '
         <table class="scen_table">
@@ -19386,7 +19608,7 @@
 
       map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Theft+on+the+High+Seas.jpg",
 
-      hero_goal: "The Heroes win IF they steal 5 Treasures and stow them in the two rowboats on
+      hero_goal: "The Heroes win <strong>IF</strong> they steal 5 Treasures and stow them in the two rowboats on
       the Main Deck before the end of turn 8.",
 
       hero_setup: '
@@ -19444,8 +19666,8 @@
         </tr>
       </table>',
 
-      overlord_goal: "The Overlord wins IF the Heroes have stolen fewer than 5 Treasures
-      before the end of turn 8 OR the Overlord scuttles 5 hull sections (see special rules)
+      overlord_goal: "The Overlord wins <strong>IF</strong> the Heroes have stolen fewer than 5 Treasures
+      before the end of turn 8 <strong>OR</strong> the Overlord scuttles 5 hull sections (see special rules)
       before the end of turn 7.",
 
       overlord_setup: '
@@ -19612,7 +19834,7 @@
         </tr>
       </table>',
 
-      overlord_goal: "The Overlord wins IF fewer than 4 unit tiles have been dredged
+      overlord_goal: "The Overlord wins <strong>IF</strong> fewer than 4 unit tiles have been dredged
       before the end of turn 8.",
 
       overlord_setup: '
@@ -19727,7 +19949,7 @@
 
       map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Curse+of+the+Deep+Part+2.jpg",
 
-      hero_goal: "The Heroes win IF Xaltotun is killed and the ritual is thwarted by
+      hero_goal: "The Heroes win <strong>IF</strong> Xaltotun is killed and the ritual is thwarted by
       acquiring at least 4 ritual tokens before the end of turn 8.",
 
       hero_setup: '
@@ -19786,7 +20008,7 @@
         </tr>
       </table>',
 
-      overlord_goal: "The Overlord wins IF 3 or more ritual tokens remain on the game
+      overlord_goal: "The Overlord wins <strong>IF</strong> 3 or more ritual tokens remain on the game
       board at the end of turn 8. The ritual begins, nothing can stop it.",
 
       overlord_setup: '
@@ -20681,6 +20903,26 @@
       life7: 0,
       life8: 0,
 
+      # Hard Mode text/arrow
+      hardtext1: '',
+      hardtext2: '',
+      hardtext3: '',
+      hardtext4: '',
+      hardtext5: '',
+      hardtext6: '',
+      hardtext7: '',
+      hardtext8: '',
+
+      # Hard Mode tile
+      hardtile1: 999,
+      hardtile2: 999,
+      hardtile3: 999,
+      hardtile4: 999,
+      hardtile5: 999,
+      hardtile6: 999,
+      hardtile7: 999,
+      hardtile8: 999,
+
       special_rules: '',
 
       # campaign number   
@@ -20746,7 +20988,7 @@
 
         <p><span class="setup_item">Setup</span></p>
         <p><strong>The game starts with the Overlord’s turn.</strong> The Heroes start in the area marked 
-        <span style="white-space: nowrap;"><img src="/assets/tokens/area1Token.png" class="scen_token" />.</span> 
+        <span style="white-space: nowrap;"><img src="/assets/tokens/area1Token.png" class="small_token" />.</span> 
         Shuffle the following Asset cards and randomly place them face-down as indicated: Explosive Orb, Key, Life Potion.</p>
 
        <table class="solo_left_table">
@@ -20879,6 +21121,26 @@
       life7: 0,
       life8: 0,
 
+      # Hard Mode text/arrow
+      hardtext1: '',
+      hardtext2: '',
+      hardtext3: '',
+      hardtext4: '',
+      hardtext5: '',
+      hardtext6: '',
+      hardtext7: '',
+      hardtext8: '',
+
+      # Hard Mode tile
+      hardtile1: 999,
+      hardtile2: 999,
+      hardtile3: 999,
+      hardtile4: 999,
+      hardtile5: 999,
+      hardtile6: 999,
+      hardtile7: 999,
+      hardtile8: 999,
+
       special_rules: '',
 
       # campaign number   
@@ -20942,7 +21204,7 @@
 
         <p><span class="setup_item">Setup</span></p>
         <p><strong>The game starts with the Overlord’s turn.</strong> The Heroes start in the area marked 
-        <span style="white-space: nowrap;"><img src="/assets/tokens/area1Token.png" class="scen_token" />.</span> Place 
+        <span style="white-space: nowrap;"><img src="/assets/tokens/area1Token.png" class="small_token" />.</span> Place 
         1 <img src="/assets/tokens/redGem.png" class="scen_token" /> on the board to represent an Apple of Derketo.</p>
 
        <table class="solo_left_table">
@@ -21062,6 +21324,26 @@
       life7: 0,
       life8: 0,
 
+      # Hard Mode text/arrow
+      hardtext1: '',
+      hardtext2: '',
+      hardtext3: '',
+      hardtext4: '',
+      hardtext5: '',
+      hardtext6: '',
+      hardtext7: '',
+      hardtext8: '',
+
+      # Hard Mode tile
+      hardtile1: 999,
+      hardtile2: 999,
+      hardtile3: 999,
+      hardtile4: 999,
+      hardtile5: 999,
+      hardtile6: 999,
+      hardtile7: 999,
+      hardtile8: 999,
+
       special_rules: '',
 
       # campaign number   
@@ -21128,7 +21410,7 @@
 
         <p><span class="setup_item">Setup</span></p>
         <p><strong>The game starts with the Heroes’ turn.</strong> The Heroes start in the areas marked 
-        <span style="white-space: nowrap;"><img src="/assets/tokens/area1Token.png" class="scen_token" />.</span> Randomly shuffle 
+        <span style="white-space: nowrap;"><img src="/assets/tokens/area1Token.png" class="small_token" />.</span> Randomly shuffle 
         Numbered tokens 4-9 and place them face-down on as indicated on the setup diagram.</p>
 
        <table class="solo_left_table">
@@ -21271,6 +21553,26 @@
       life7: 0,
       life8: 0,
 
+      # Hard Mode text/arrow
+      hardtext1: '',
+      hardtext2: '',
+      hardtext3: '',
+      hardtext4: '',
+      hardtext5: '',
+      hardtext6: '',
+      hardtext7: '',
+      hardtext8: '',
+
+      # Hard Mode tile
+      hardtile1: 999,
+      hardtile2: 999,
+      hardtile3: 999,
+      hardtile4: 999,
+      hardtile5: 999,
+      hardtile6: 999,
+      hardtile7: 999,
+      hardtile8: 999,
+
       special_rules: '',
 
       # campaign number   
@@ -21338,7 +21640,7 @@
         <p>Form a Spell deck with the following Spell cards: Changing Destiny, Deceleration, Set’s Bite, Lightning Storm, Tears of 
         Dagon, Withering.</p>
         <p><strong>The game starts with the Overlord’s turn.</strong> The Heroes start in the areas marked 
-        <span style="white-space: nowrap;"><img src="/assets/tokens/area1Token.png" class="scen_token" />.</span></p>
+        <span style="white-space: nowrap;"><img src="/assets/tokens/area1Token.png" class="small_token" />.</span></p>
  
        <table class="solo_left_table">
           <tr>
@@ -21450,6 +21752,26 @@
       life7: 0,
       life8: 0,
 
+      # Hard Mode text/arrow
+      hardtext1: '',
+      hardtext2: '',
+      hardtext3: '',
+      hardtext4: '',
+      hardtext5: '',
+      hardtext6: '',
+      hardtext7: '',
+      hardtext8: '',
+
+      # Hard Mode tile
+      hardtile1: 999,
+      hardtile2: 999,
+      hardtile3: 999,
+      hardtile4: 999,
+      hardtile5: 999,
+      hardtile6: 999,
+      hardtile7: 999,
+      hardtile8: 999,
+
       special_rules: '',
 
       # campaign number   
@@ -21529,7 +21851,7 @@
 
         <p><span class="setup_item">Setup</span></p>
         <p><strong>The game starts with the Heroes’ turn.</strong> The Heroes start in the areas marked 
-        <span style="white-space: nowrap;"><img src="/assets/tokens/area1Token.png" class="scen_token" />.</span></p>
+        <span style="white-space: nowrap;"><img src="/assets/tokens/area1Token.png" class="small_token" />.</span></p>
 
        <table class="solo_left_table">
           <tr>
@@ -21611,7 +21933,7 @@
           <li>Reinforce 1 Flaming Skeleton, 1 Xotalanc Hunter and 1 Tecuhltli Swordsman and the Crawler (or Bone Golem). 
           1 unit per Reinforcement token.</li>
           <li>Place a <img src="/assets/tokens/rocksToken.png" class="scen_token" /> token one of the pillars marked 
-          <span style="white-space: nowrap;"><img src="/assets/tokens/area2Token.png" class="scen_token" />.</span></li>
+          <span style="white-space: nowrap;"><img src="/assets/tokens/area2Token.png" class="small_token" />.</span></li>
           <li>Activate Tolkemec.</li>
         </ol></p>
 
@@ -21671,6 +21993,26 @@
       life6: 0,
       life7: 0,
       life8: 0,
+
+      # Hard Mode text/arrow
+      hardtext1: '',
+      hardtext2: '',
+      hardtext3: '',
+      hardtext4: '',
+      hardtext5: '',
+      hardtext6: '',
+      hardtext7: '',
+      hardtext8: '',
+
+      # Hard Mode tile
+      hardtile1: 999,
+      hardtile2: 999,
+      hardtile3: 999,
+      hardtile4: 999,
+      hardtile5: 999,
+      hardtile6: 999,
+      hardtile7: 999,
+      hardtile8: 999,
 
       special_rules: '',
 
@@ -22012,7 +22354,7 @@
         bottom right area of the Xuchotl board as though it were a border WITH line of sight.</p>
         
         <p><span class="special_title">Red Nails Pillar:</span> The pillar on the dais 
-        <img src="/assets/tokens/area1Token.png" class="scen_token" /> represents the cycle of violence that needs to end. A Hero in 
+        <img src="/assets/tokens/area1Token.png" class="small_token" /> represents the cycle of violence that needs to end. A Hero in 
         an area adjacent to the pillar may topple it by performing a complex Manipulation with a difficulty of 13. Reduce this 
         difficulty by 2 for each Room Event revealed.</p>
         
@@ -22198,7 +22540,7 @@
       same reason. In either case, the remaining Heroes recover gems as though two Heroes had died.</p>
 
       <p><span class="special_title">Mixing the Poison:</span> A Hero adjacent to the bath 
-      <img src="/assets/tokens/area1Token.png" class="scen_token" /> may discard the Phial to poison the water. Afterwards, any Hero 
+      <img src="/assets/tokens/area1Token.png" class="small_token" /> may discard the Phial to poison the water. Afterwards, any Hero 
       adjacent to the bath may dip their weapon in the poison as a free action. The poison lasts for the remainder of the game.</p>
 
       <p><span class="special_title">Chests:</span> Chests require a complex Manipulation with a difficulty of 1 to open. The Asset deck 
@@ -22367,7 +22709,7 @@
         <p><span class="special_title">Setup:</span> Place the Dragon of Xucholt in the bottom right area of the board, as 
         indicated in the setup diagram. Then, place the Dragon’s Life Point token 
         <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/DragonXuchotlToken.png" class="scen_setup">
-        in the area with the <img src="/assets/tokens/area1Token.png" class="scen_token" />. This Dragon token 
+        in the area with the <img src="/assets/tokens/area1Token.png" class="small_token" />. This Dragon token 
         represents a second Dragon that is identical to the Dragon of Xuchotl for all purposes and is activated by the Event tile. 
         Place the Crocodiles tile near the Book of Skelos to be used as a reference, but do not place it in the River with the other 
           tiles. Crocodiles can only be activated by the Event tile.</p>
@@ -22441,7 +22783,8 @@
       # General Setup
       hero_setup: '<p>The General starts with <strong>9 gems</strong> in their Reserve zone and <strong>2 gems</strong> in their 
       Fatigue zone, and places the Recovery token showing a <strong>recovery value of 5</strong> in their Book of Skelos.</p>
-      <p>The General may choose one spell: <strong>Deceleration, Bori’s Rage</strong>.</p>',
+      <p>The General may choose one spell: <strong><a class="spell" href="/spells/25">Deceleration</a>, 
+      <a class="spell" href="/spells/1">Bori’s Rage</a></strong>.</p>',
 
       # Warlord Victory Condition 
       overlord_goal: "The Warlord controls more Strategic Zones than the General.",
@@ -22450,7 +22793,8 @@
       overlord_setup: '<p><strong>Initiative:</strong> The Warlord has the initiative and starts the game.</p>
       <p>The Warlord starts with <strong>11 gems</strong> in their Reserve zone and <strong>0 gems</strong> in their Fatigue zone, 
       and places the Recovery token showing a <strong>recovery value of 5</strong> in their Book of Skelos.</p>
-      <p>The Warlord may choose one spell: <strong>Borne by the Wind (vs), Withering</strong>.</p>',
+      <p>The Warlord may choose one spell: <strong><a class="spell" href="/spells/79">Borne by the Wind (vs)</a>, 
+      <a class="spell" href="/spells/49">Withering</a></strong>.</p>',
 
       btoken1: 'Minion',
       btoken2: 'Minion',
@@ -22511,7 +22855,7 @@
       map_ids: [22],
       hero_ids: [],
       tile_ids: [],
-      spell_ids: [],
+      spell_ids: [1, 25, 49, 79],
       item_ids: [] },
 
 
@@ -22551,7 +22895,8 @@
       hero_setup: '<p><strong>Initiative:</strong> The General has the initiative and starts the game.</p>
       <p>The General starts with <strong>11 gems</strong> in their Reserve zone and <strong>0 gems</strong> in their Fatigue zone, 
       and places the Recovery token showing a <strong>recovery value of 5</strong> in their Book of Skelos.</p>
-      <p>The General may choose one spell: <strong>Set’s Possession, Borne by the Wind (vs)</strong>.</p>',
+      <p>The General may choose one spell: <strong><a class="spell" href="/spells/14">Set’s Possession</a>, 
+      <a class="spell" href="/spells/79">Borne by the Wind (vs)</a></strong>.</p>',
 
       # Warlord Victory Condition 
       overlord_goal: "The Warlord has more Treasures than the General (see Special Rule “Tiebreaker”).",
@@ -22559,7 +22904,8 @@
       # Warlord Setup
       overlord_setup: '<p>The Warlord starts with <strong>9 gems</strong> in their Reserve zone and <strong>2 gems</strong> in their 
       Fatigue zone, and places the Recovery token showing a <strong>recovery value of 5</strong> in their Book of Skelos.</p>
-      <p>The Warlord may choose one spell: <strong>Deceleration, Mind Control</strong>.</p>',
+      <p>The Warlord may choose one spell: <strong><a class="spell" href="/spells/25">Deceleration</a>, 
+      <a class="spell" href="/spells/8">Mind Control</a></strong>.</p>',
 
       btoken1: 'Minion',
       btoken2: 'Leader',
@@ -22638,7 +22984,7 @@
       map_ids: [23],
       hero_ids: [],
       tile_ids: [],
-      spell_ids: [],
+      spell_ids: [8, 14, 25, 79],
       item_ids: [] },
 
 
@@ -22673,7 +23019,8 @@
       # General Setup
       hero_setup: '<p>The General starts with <strong>9 gems</strong> in their Reserve zone and <strong>2 gems</strong> in their 
       Fatigue zone, and places the Recovery token showing a <strong>recovery value of 5</strong> in their Book of Skelos.</p>
-      <p>The General may choose one spell: <strong>Set’s Bite (vs), Withering</strong>.</p>',
+      <p>The General may choose one spell: <strong><a class="spell" href="/spells/90">Set’s Bite (vs)</a>, 
+      <a class="spell" href="/spells/49">Withering</a></strong>.</p>',
 
       # Warlord Victory Condition 
       overlord_goal: "The Warlord has more Victory Points than the General.",
@@ -22682,7 +23029,8 @@
       overlord_setup: '<p><strong>Initiative:</strong> The Warlord has the initiative and starts the game.</p>
       <p>The Warlord starts with <strong>11 gems</strong> in their Reserve zone and <strong>0 gems</strong> in their Fatigue zone, 
       and places the Recovery token showing a <strong>recovery value of 5</strong> in their Book of Skelos.</p>
-      <p>The Warlord may choose one spell: <strong>Stone Skin, Bori’s Rage</strong>.</p>',
+      <p>The Warlord may choose one spell: <strong><a class="spell" href="/spells/46">Stone Skin</a>, 
+      <a class="spell" href="/spells/1">Bori’s Rage</a></strong>.</p>',
 
       btoken1: 'Minion',
       btoken2: 'Champion',
@@ -22759,7 +23107,7 @@
       map_ids: [4],
       hero_ids: [],
       tile_ids: [],
-      spell_ids: [],
+      spell_ids: [1, 46, 49, 90],
       item_ids: [] },
 
 
@@ -22793,7 +23141,8 @@
       hero_setup: '<p><strong>Initiative:</strong> The General has the initiative and starts the game.</p>
       <p>The General starts with <strong>11 gems</strong> in their Reserve zone and <strong>0 gems</strong> in their Fatigue zone, 
       and places the Recovery token showing a <strong>recovery value of 5</strong> in their Book of Skelos.</p>
-      <p>The General may choose one spell: <strong>Set’s Bite (vs), Withering</strong>.</p>',
+      <p>The General may choose one spell: <strong><a class="spell" href="/spells/90">Set’s Bite (vs)</a>, 
+      <a class="spell" href="/spells/49">Withering</a></strong>.</p>',
 
       # Warlord Victory Condition 
       overlord_goal: "The Warlord’s Prisoner breaks out or the General’s Prisoner is killed.",
@@ -22801,7 +23150,8 @@
       # Warlord Setup
       overlord_setup: '<p>The Warlord starts with <strong>9 gems</strong> in their Reserve zone and <strong>2 gems</strong> in their 
       Fatigue zone, and places the Recovery token showing a <strong>recovery value of 5</strong> in their Book of Skelos.</p>
-      <p>The Warlord may choose one spell: <strong>Energy Drain (vs), Bori’s Rage</strong>.</p>',
+      <p>The Warlord may choose one spell: <strong><a class="spell" href="/spells/81">Energy Drain (vs)</a>, 
+      <a class="spell" href="/spells/1">Bori’s Rage</a></strong>.</p>',
 
       btoken1: 'Minion',
       btoken2: 'Champion',
@@ -22883,7 +23233,7 @@
       map_ids: [5],
       hero_ids: [],
       tile_ids: [],
-      spell_ids: [],
+      spell_ids: [1, 49, 81, 90],
       item_ids: [] },
 
 
@@ -22918,7 +23268,8 @@
       # General Setup
       hero_setup: '<p>The General starts with <strong>9 gems</strong> in their Reserve zone and <strong>2 gems</strong> in their 
       Fatigue zone, and places the Recovery token showing a <strong>recovery value of 5</strong> in their Book of Skelos.</p>
-      <p>The General may choose one spell: <strong>Energy Drain (vs), Bori’s Rage, Set’s Halo (vs)</strong>.</p>',
+      <p>The General may choose one spell: <strong><a class="spell" href="/spells/81">Energy Drain (vs)</a>, 
+      <a class="spell" href="/spells/1">Bori’s Rage</a>, <a class="spell" href="/spells/91">Set’s Halo (vs)</a></strong>.</p>',
 
       # Warlord Victory Condition 
       overlord_goal: "The Warlord destroys 4 Stocks of Yellow Lotus.",
@@ -22927,7 +23278,8 @@
       overlord_setup: '<p><strong>Initiative:</strong> The Warlord has the initiative and starts the game.</p>
       <p>The Warlord starts with <strong>11 gems</strong> in their Reserve zone and <strong>0 gems</strong> in their Fatigue zone, 
       and places the Recovery token showing a <strong>recovery value of 5</strong> in their Book of Skelos.</p>
-      <p>The Warlord may choose one spell: <strong>Gift of Life (vs), Withering, Mitra’s Halo (vs)</strong>.</p>',
+      <p>The Warlord may choose one spell: <strong><a class="spell" href="/spells/84">Gift of Life (vs)</a>, 
+      <a class="spell" href="/spells/49">Withering</a>, <a class="spell" href="/spells/88">Mitra’s Halo (vs)</a</strong>.</p>',
 
       btoken1: 'Champion',
       btoken2: 'Minion',
@@ -22998,7 +23350,7 @@
       map_ids: [2],
       hero_ids: [],
       tile_ids: [],
-      spell_ids: [],
+      spell_ids: [1, 49, 81, 84, 88, 91],
       item_ids: [] },
 
 
@@ -23034,14 +23386,16 @@
 
       # General Setup
       hero_setup: '<p><strong>Initiative:</strong> See special rule.</p>
-      <p>The General may choose one spell: <strong>Borne by the Wind (vs), Drying Earth</strong>.</p>',
+      <p>The General may choose one spell: <strong><a class="spell" href="/spells/79">Borne by the Wind (vs)</a>, 
+      <u><a class="spell" href="/spells/27">Drying Earth</a></u></strong>.</p>',
 
       # Warlord Victory Condition 
       overlord_goal: "The Warlord has more units on the board than the General. If tied, the player without initiative wins.",
 
       # Warlord Setup
       overlord_setup: '<p><strong>Initiative:</strong> See special rule.</p>
-      <p>IThe Warlord may choose one spell: <strong>Deceleration, Drying Earth</strong>.</p>',
+      <p>IThe Warlord may choose one spell: <strong><a class="spell" href="/spells/25">Deceleration</a>, 
+      <u><a class="spell" href="/spells/27">Drying Earth</a></u></strong>.</p>',
 
       btoken1: 'Minion',
       btoken2: 'Leader',
@@ -23127,7 +23481,7 @@
       map_ids: [6],
       hero_ids: [],
       tile_ids: [],
-      spell_ids: [],
+      spell_ids: [25, 27, 79],
       item_ids: [] },
 
 
@@ -23162,7 +23516,8 @@
       hero_setup: '<p><strong>Initiative:</strong> The General has the initiative and starts the game.</p>
       <p>The General starts with <strong>10 gems</strong> in their Reserve zone and <strong>0 gems</strong> in their Fatigue zone, 
       and places the Recovery token showing a <strong>recovery value of 5</strong> in their Book of Skelos.</p>
-      <p>The General may choose one spell: <strong>Bori’s Rage, Mitra’s Halo (vs), Teleportation</strong>.</p>',
+      <p>The General may choose one spell: <strong><a class="spell" href="/spells/1">Bori’s Rage</a>, 
+      <a class="spell" href="/spells/88">Mitra’s Halo (vs)</a>, <u><a class="spell" href="/spells/16">Teleportation</a></u></strong>.</p>',
 
       # Warlord Victory Condition 
       overlord_goal: "The Warlord has accumulated more Glory Points than the General.",
@@ -23170,7 +23525,8 @@
       # Warlord Setup
       overlord_setup: '<p>The Warlord starts with <strong>8 gems</strong> in their Reserve zone and <strong>2 gems</strong> in their 
       Fatigue zone, and places the Recovery token showing a <strong>recovery value of 5</strong> in their Book of Skelos.</p>
-      <p>The Warlord may choose one spell: <strong>Withering, Set’s Halo (vs), Teleportation</strong>.</p>',
+      <p>The Warlord may choose one spell: <strong><a class="spell" href="/spells/49">Withering</a>,
+      <a class="spell" href="/spells/91">Set’s Halo (vs)</a>, <u><a class="spell" href="/spells/16">Teleportation</a></u></strong>.</p>',
 
       btoken1: 'Champion',
       btoken2: 'Minion',
@@ -23234,7 +23590,7 @@
       map_ids: [1],
       hero_ids: [],
       tile_ids: [],
-      spell_ids: [],
+      spell_ids: [1, 16, 49, 88, 91],
       item_ids: [] },
 
 
@@ -23269,8 +23625,10 @@
       # General Setup
       hero_setup: '<p>The General starts with <strong>9 gems</strong> in their Reserve zone and <strong>2 gems</strong> in their 
       Fatigue zone, and places the Recovery token showing a <strong>recovery value of 3</strong> in their Book of Skelos.</p>
-      <p>The General may choose 2 spells: <strong>Bori’s Rage, Gift of Life (vs), Mitra’s Halo (vs), Borne by the Wind (vs), Magical 
-      Dizziness (vs)</strong>.</p>',
+      <p>The General may choose 2 spells: <strong><a class="spell" href="/spells/1">Bori’s Rage</a>, 
+      <a class="spell" href="/spells/84">Gift of Life (vs)</a>, <a class="spell" href="/spells/88">Mitra’s Halo (vs)</a>, 
+      <u><a class="spell" href="/spells/79">Borne by the Wind (vs)</a></u>, 
+      <u><a class="spell" href="/spells/87">Magical Dizziness (vs)</a></u></strong>.</p>',
 
       # Warlord Victory Condition 
       overlord_goal: "The 3 Navigation Instruments of the Prometheus are destroyed.",
@@ -23279,8 +23637,10 @@
       overlord_setup: '<p><strong>Initiative:</strong> The Warlord has the initiative and starts the game.</p>
       <p>The Warlord starts with <strong>11 gems</strong> in their Reserve zone and <strong>0 gems</strong> in their Fatigue zone, 
       and places the Recovery token showing a <strong>recovery value of 3</strong> in their Book of Skelos.</p>
-      <p>The Warlord may choose 2 spells: <strong>Withering, Energy Drain (vs), Set’s Halo (vs), Borne by the Wind (vs), Magical 
-      Dizziness (vs)</strong>.</p>',
+      <p>The Warlord may choose 2 spells: <strong><a class="spell" href="/spells/49">Withering</a>, 
+      <a class="spell" href="/spells/81">Energy Drain (vs)</a>, <strong><a class="spell" href="/spells/91">Set’s Halo (vs)</a>, 
+      <u><a class="spell" href="/spells/79">Borne by the Wind (vs)</u></a>, 
+      <u><a class="spell" href="/spells/87">Magical Dizziness (vs)</a></u></strong>.</p>',
 
       btoken1: 'Minion',
       btoken2: 'Champion',
@@ -23354,7 +23714,7 @@
       map_ids: [3],
       hero_ids: [],
       tile_ids: [],
-      spell_ids: [],
+      spell_ids: [1, 49, 79, 81, 84, 87, 88, 91],
       item_ids: [] },
 
 
@@ -23394,7 +23754,9 @@
       hero_setup: '<p><strong>Initiative:</strong> The General has the initiative and starts the game.</p>
       <p>The General starts with <strong>11 gems</strong> in their Reserve zone and <strong>0 gems</strong> in their Fatigue zone, 
       and places the Recovery token showing a <strong>recovery value of 5</strong> in their Book of Skelos.</p>
-      <p>The General may choose 2 spells: <strong>Bori’s Rage, Mitra’s Halo (vs), Energy Drain (vs), Fleet Runner (vs)</strong>.</p>',
+      <p>The General may choose 2 spells: <strong><a class="spell" href="/spells/1">Bori’s Rage</a>, 
+      <a class="spell" href="/spells/88">Mitra’s Halo (vs)</a>, <a class="spell" href="/spells/81">Energy Drain (vs)</a>, 
+      <u><a class="spell" href="/spells/83">Fleet Runner (vs)</a></u></strong>.</p>',
 
       # Warlord Victory Condition 
       overlord_goal: " The Warlord has cut 5 Tentacles. If neither player manages to cut 5 Tentacles by the end of turn 7, 
@@ -23403,7 +23765,9 @@
       # Warlord Setup
       overlord_setup: '<p>The Warlord starts with <strong>9 gems</strong> in their Reserve zone and <strong>2 gems</strong> in their 
       Fatigue zone, and places the Recovery token showing a <strong>recovery value of 5</strong> in their Book of Skelos.</p>
-      <p>The Warlord may choose 2 spells: <strong>Withering, Set’s Bite (vs), Set’s Halo (vs), Fleet Runner (vs)</strong>.</p>',
+      <p>The Warlord may choose 2 spells: <strong><a class="spell" href="/spells/49">Withering</a>, 
+      <a class="spell" href="/spells/90">Set’s Bite (vs)</a>, <a class="spell" href="/spells/91">Set’s Halo (vs)</a>, 
+      <u><a class="spell" href="/spells/83">Fleet Runner (vs)</a></u></strong>.</p>',
 
       btoken1: 'Champion',
       btoken2: 'Minion',
@@ -23479,7 +23843,7 @@
       map_ids: [23],
       hero_ids: [],
       tile_ids: [],
-      spell_ids: [],
+      spell_ids: [1, 49, 81, 83, 88, 90, 91],
       item_ids: [] },
 
 
@@ -23520,7 +23884,9 @@
       hero_setup: '<p><strong>Initiative:</strong> The General has the initiative and starts the game.</p>
       <p>The General starts with <strong>11 gems</strong> in their Reserve zone and <strong>0 gems</strong> in their Fatigue zone, 
       and places the Recovery token showing a <strong>recovery value of 5</strong> in their Book of Skelos.</p>
-      <p>The General may choose 2 spells: <strong>Bori’s Rage, Mitra’s Halo (vs), Borne by the Wind (vs), Magical Dizziness (vs)</strong>.</p>',
+      <p>The General may choose 2 spells: <strong><a class="spell" href="/spells/1">Bori’s Rage</a>, 
+      <a class="spell" href="/spells/88">Mitra’s Halo (vs)</a>, <a class="spell" href="/spells/79">Borne by the Wind (vs)</a>, 
+      <u><a class="spell" href="/spells/87">Magical Dizziness (vs)</a></u></strong>.</p>',
 
       # Warlord Victory Condition 
       overlord_goal: "The Warlord has 12 Victory Points. At the end of turn 12, the Warlord wins if they have the most Victory Points. 
@@ -23529,7 +23895,9 @@
       # Warlord Setup
       overlord_setup: '<p>The Warlord starts with <strong>9 gems</strong> in their Reserve zone and <strong>2 gems</strong> in their 
       Fatigue zone, and places the Recovery token showing a <strong>recovery value of 5</strong> in their Book of Skelos.</p>
-      <p>The Warlord may choose 2 spells: <strong>Withering, Deceleration, Set’s Halo (vs), Magical Dizziness (vs)</strong>.</p>',
+      <p>The Warlord may choose 2 spells: <strong><a class="spell" href="/spells/49">Withering</a>, 
+      <a class="spell" href="/spells/25">Deceleration</a>, <a class="spell" href="/spells/91">Set’s Halo (vs)</a>, 
+      <u><a class="spell" href="/spells/87">Magical Dizziness (vs)</a></u></strong>.</p>',
 
       btoken1: 'Minion',
       btoken2: 'Champion',
@@ -23615,1027 +23983,9 @@
       map_ids: [22],
       hero_ids: [],
       tile_ids: [],
-      spell_ids: [],
+      spell_ids: [1, 25, 79, 87, 88, 91],
       item_ids: [] },
 
-
-
-    # Red Nails Strech 
-    # Adventure
-
-      # Assault on the Fortress
-    { name: "Assault on the Fortress",
-      mode: 'Adventure',
-      pdf_link:'',
-      credit: 'Manu Crochet',
-      player_count: "3",
-      complexity: "2",
-
-      description: "<p>As part of its continuing expansionist campaign, the empire of Aquilonia is attempting to colonize Cimmeria. 
-      From their fortress in Venarium, the invaders are launching bloody-thirsty raids, terrorizing the surrounding villages, 
-      massacring any who dare resist, and seizing control of the land.</p>
-      <p>The fierce Cimmerians have responded by launching courageous assaults on the fortress, but time and time again their 
-      attempts have been thwarted by the Aquilonians’ impressive defensive arsenal. Unable to gain any further ground, they are now 
-      faced with a single solution: They must send their best fighters to infiltrate the stronghold, destroy the stockpiles of weapons, 
-      and give the Cimmerian warriors a chance to tear down this otherwise invincible outpost.</p>
-      <p>In the dead of night, Conan and Valeria slip through the fortress’s defenses to carry out their mission.</p>",
-
-      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Assault+on+the+Fortress.jpg",
-
-      hero_goal: 'To win, the Heroes must destroy all the weapons caches.',
-
-      hero_setup: '
-      <table class="scen_table">
-        <tr>
-          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
-          <td>The game starts with the Heroes’ turn. The Heroes start in areas <img src="/assets/tokens/areaAToken.png" class="scen_token" /> A 
-          and <img src="/assets/tokens/areaBToken.png" class="scen_token" /> B. There can be only one Hero in each area.</td>
-          <td></td>
-        </tr>
-      </table>
-      <table class="scen_table">
-        <tr>
-          <td><h4>2</h4></td>
-          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ConanFreeToken.png" class="scen_setup"></td>
-          <td>
-            <a class="hero" href="/heroes/51">Conan Free Companion</a>
-            (<a class="item" href="/items/148">Akbitana’s Claymore</a>,
-            <a class="item" href="/items/17">Leather Armor</a>,
-            <a class="item" href="/items/22">Life Potion</a>)
-          </td>
-          <td></td>
-        </tr>
-        <tr>
-          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ValeriaFreeToken.png" class="scen_setup"></td>
-          <td>
-            <a class="hero" href="/heroes/57">Valeria Free Companion</a>
-            (<a class="item" href="/items/155">Lemurian Blade</a>,
-            <a class="item" href="/items/11">Parrying Dagger</a>, 
-             <a class="item" href="/items/17">Leather Armor</a>,
-             <a class="item" href="/items/13">Throwing Knives</a>,
-             <a class="item" href="/items/22">Life Potion</a>) 
-          </td>
-          <td></td>
-        </tr>
-      </table>
-      <table class="scen_table">
-        <tr>
-          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
-          <td>After setup, each Hero moves 3 gems from their Reserve zone to their Fatigue zone.</td>
-          <td></td>
-        </tr>
-      </table>',
-
-      overlord_goal: 'To win, the Overlord must kill both Heroes.',
-
-      overlord_setup: '
-        <table class="scen_table">
-          <tr>
-            <td><img src="/assets/tokens/redGem.png" class="scen_token" /></td>
-            <td>The The Overlord starts with 9 gems in their Reserve zone and 3 in their Fatigue zone, and places the 
-            Recovery token showing a recovery value of 5 in the Book of Skelos.</td>
-            <td></td>
-          </tr>
-        </table>
-       <table class="scen_table">
-          <tr>
-            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td><p>When an event tile is activated the Overlord must perform both Events if possible, in this order:</p>
-              <p><span class="setup_suggestion">Secure the weapons caches:</span> Choose one of the following:
-              <ul>
-                <li>Place 2 Level 1 Security tokens in two different weapons cache areas. </li>
-                <li>Place 1 Level 2 Security token in a single weapons cache area.</li>
-              </ul></p>
-              <p><span class="setup_suggestion">Reinforcements:</span> The Overlord gains 3 reinforcement points
-              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
-            </td>
-            <td></td>
-          </tr>
-        </table>',
-
-      tile1: 20,
-      tile2: 15,
-      tile3: 3,
-      tile4: 16,
-      tile5: 1,
-      tile6: 19,
-      tile7: 18,
-      tile8: 999,
-
-      life1: 0,
-      life2: 0,
-      life3: 3,
-      life4: 0,
-      life5: 0,
-      life6: 0,
-      life7: 0,
-      life8: 0,
-
-      special_rules: '<p><span class="special_title">Game Board Rules:</span> Standard game board rules apply.</p>
-
-      <span class="special_title">Setup:</span> The Overlord takes 4 Chest tokens 
-      <img src="/assets/tokens/treasureToken.png" class="scen_token" /> numbered “1”, and 2 Chest tokens 
-      <img src="/assets/tokens/treasureToken.png" class="scen_token" /> face up next to their Book of Skelos. They represent extra 
-      security added to a weapons cache, and their number indicates their level.</p>
-
-      <div class="row">
-        <div class="col-md-11">
-          <p>Then the Overlord takes Zaporavo’s tile and places it next to their Book of Skelos. His miniature is placed as indicated on 
-      the setup diagram.</p>
-          <p>Finally, the Overlord takes 4 generic tokens <img src="/assets/tokens/numBackToken.png" class="scen_token" /> numbered “3”, 
-      “4”, “5”, and “6”, and places them as they wish face down in the indicated areas. They represent the weapons caches the 
-      Heroes try to destroy.</p>
-
-        <p><span class="special_title">Zaporavo:</span> At the end of their activation, the Overlord may spend 1 
-        <img src="/assets/tokens/redGem.png" class="scen_token" /> to activate Zaporavo. Move his miniature up to 2 areas without 
-      hindering, and perform a Melee Attack if possible. Benefits can’t be used for Zaporavo.</p>
-        </div>
-
-        <div class="col-md-1">
-         <a class="tile" href="/tiles/7"><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Zaporavo.jpg" class="scen_event"></a><br />
-          7&nbsp;<img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ZaporavoToken.png" class="scen_token">
-        </div>
-      </div>
-
-      <p><span class="special_title">Destroy a weapons cache:</span> A Hero in an area with a weapons cache token may flip it faceup. 
-      Its number indicates its structure points. To destroy a weapons cache, a Hero must perform a Melee Attack and roll at least as 
-      many successes as its structure points. If successful, the weapons cache is destroyed and the token is removed from the game.</p>
-
-      <p>A Security token in an area with a weapons cache adds its value to the structure points of the weapons cache.</p>
-
-      <p><span class="special_title">The cover of night:</span> Until the end of round 3, Ranged Attacks can only target units in an 
-      adjacent area.</p>',
-
-      correction: '',
-      hero_victory: '',
-      overlord_victory: '',
-
-      origin: "Red Nails Stretch Goal",
-      product_ids: [1, 29, 30],
-      map_ids: [22],
-      hero_ids: [51, 57],
-      tile_ids: [1, 3, 7, 15, 16, 18, 19, 20],
-      spell_ids: [],
-      item_ids: [] },
-
-
-      # Adventure
-      # The Relic from the Depths
-    { name: "The Relic from the Depths",
-      mode: 'Adventure',
-      pdf_link:'',
-      credit: 'Manu Crochet',
-      player_count: "4",
-      complexity: "2",
-
-      description: "<p>Legend has it that in the ancient, cursed, abandoned city of Pteion, located in the eastern province of Stygia, 
-      there is a relic eons old that grants immortality to anyone who possesses it. Conan and his allies set off in search of this 
-      powerful artefact, which has the power to give them infinite wealth and glory. After they arrive, they discover the entrance to 
-      the catacombs hidden behind a mound of human bones. As they enter the stone labyrinth, the walls seem to come alive, closing 
-      behind them and transforming the layout of the maze. A supernatural scream suddenly echoes through the tunnels, as if a dark 
-      presence lurking in the shadows had been awakened by the moving walls. What sorcery fills these hateful halls? Regardless, the 
-      group certainly aren’t going back empty-handed! Whatever the threat lurking in these galleries, they must locate the relic and 
-      find a way to escape.</p>",
-
-      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Relic+from+the+Depths.jpg",
-
-      hero_goal: 'To win, the Heroes must retrieve the relic, kill the monster, and escape the catacombs.',
-
-      hero_setup: '
-      <table class="scen_table">
-        <tr>
-          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
-          <td>The game starts with the Heroes’ turn. he Heroes start in the areas indicated by the setup diagram.</td>
-          <td></td>
-        </tr>
-      </table>
-      <table class="scen_table">
-        <tr>
-          <td><h4>3</h4></td>
-          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ConanWandererToken.png" class="scen_setup"></td>
-          <td>
-            <a class="hero" href="/heroes/50">Conan the Rogue</a>
-            (<a class="item" href="/items/157">Phoenix Sword</a>,                         
-             <a class="item" href="/items/158">Rapier</a>,
-             <a class="item" href="/items/13">Throwing Knives</a>,
-             <a class="item" href="/items/17">Leather Armor</a>,
-             <a class="item" href="/items/22">Life Potion</a>)
-          </td>
-          <td></td>
-        </tr>
-        <tr>
-          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ValeriaFreeToken.png" class="scen_setup"></td>
-          <td>
-            <a class="hero" href="/heroes/57">Valeria Free Companion</a>
-            (<a class="item" href="/items/12">Sword</a>,
-            <a class="item" href="/items/11">Parrying Dagger</a>, 
-             <a class="item" href="/items/17">Leather Armor</a>,
-             <a class="item" href="/items/22">Life Potion</a>) 
-          </td>
-          <td></td>
-        </tr>
-        <tr>
-          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
-          <td>
-            <a class="hero" href="/heroes/4">Shevatas</a>
-            (<a class="item" href="/items/159">Shemite Bow</a>,
-            <a class="item" href="/items/164">Stiletto</a>, 
-             <a class="item" href="/items/17">Leather Armor</a>,
-             <a class="item" href="/items/22">Life Potion</a>) 
-          </td>
-          <td></td>
-        </tr>        
-      </table>
-      <table class="scen_table">
-        <tr>
-          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
-          <td>After setup, each Hero moves 3 gems from their Reserve zone to their Fatigue zone.</td>
-          <td></td>
-        </tr>
-      </table>',
-
-      overlord_goal: 'To win, the Overlord must kill all 3 Heroes.',
-
-      overlord_setup: '
-        <table class="scen_table">
-          <tr>
-            <td><img src="/assets/tokens/redGem.png" class="scen_token" /></td>
-            <td>The The Overlord starts with 9 gems in their Reserve zone and 3 in their Fatigue zone, and places the 
-            Recovery token showing a recovery value of 5 in the Book of Skelos.</td>
-            <td></td>
-          </tr>
-        </table>
-        <table class="scen_table">
-          <tr>
-            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
-            <td><p>When an event tile is activated the Overlord must perform both Events if possible, in this order:</p>
-              <p><span class="setup_suggestion">Snake bite:</span> The Overlord chooses a Hero who moves 1 energy gem from 
-              their Reserve zone to their Wound zone.</p>
-              <p><span class="setup_suggestion">Reinforcements:</span> The Overlord gains 4 reinforcement points
-              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
-            </td>
-            <td></td>
-          </tr>
-        </table>',
-
-      tile1: 193,
-      tile2: 49,
-      tile3: 188,
-      tile4: 42,
-      tile5: 47,
-      tile6: 1,
-      tile7: 44,
-      tile8: 999,
-
-      life1: 0,
-      life2: 0,
-      life3: 4,
-      life4: 0,
-      life5: 0,
-      life6: 0,
-      life7: 0,
-      life8: 0,
-
-      special_rules: '<p><span class="special_title">Game Board Rules:</span> Standard game board rules apply.</p>
-
-
-      <div class="row">
-        <div class="col-md-10">
-
-          <p><span class="special_title">Setup:</span> The Overlord takes the Crawler tile and miniature and places them next to their Book 
-          of Skelos. They represent the Monster. Then, the Overlord places the Hidden Chamber tile with the Relic token next to area 
-          <img src="/assets/tokens/areaAToken.png" class="scen_token" /> A, <img src="/assets/tokens/areaBToken.png" class="scen_token" /> B 
-          or <img src="/assets/tokens/areaCToken.png" class="scen_token" /> C. It connects to the area next to it as though it were a border 
-          WITH line of sight. Then, place the 4 Boulders tokens on the borders of the areas indicated by the setup diagram. They represent 
-          the moving wall of the catacombs. Finally, place the Rope token <img src="/assets/tokens/ropeToken.png" class="scen_token" /> in the 
-          area indicated by the setup diagram.</p>
-
-          <p><span class="special_title">The Monster:</span> When a Hero retrieves the relic, the Overlord immediately places the Monster’s 
-          tile at the first position of their River (sliding the others to the right) and places its miniature in the indicated area by 
-          the setup diagram.</p>
-      
-        </div>
-
-        <div class="col-md-1">
-          <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/RelicChamber.jpg" class="relic_chamber">
-        </div>
-
-        <div class="col-md-1">
-          <a class="tile" href="/tiles/189"><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Crawler.jpg" class="scen_event"></a>
-          <br />4&nbsp;<img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/CrawlerToken.png" class="scen_token">
-        </div>
-
-      </div>
-
-      <span class="special_title">The Relic:</span> It can be found in the Hidden chamber and has an encumbrance value of 3.</p>
-
-      <span class="special_title">Retrieve the relic:</span> A Hero in the area of the <img src="/assets/tokens/relicToken.png" class="scen_token" /> 
-      Relic may perform a complex Manipulation with a difficulty of 4 to retrieve it. The Lockpicking skill can be used. If successful, the Hero 
-      places the Relic token next to their Hero sheet.</p>
-
-      <span class="special_title">Spider webs:</span> A Hero entering or exiting an area with a Web token 
-      <img src="/assets/tokens/webToken.png" class="scen_token" /> must spend 1 extra movement point. The spider webs block line of sight. 
-      A Hero may destroy a spider web and remove its token from the board by rolling at least 2 successes with a Melee or Ranged Attack.</p>
-
-      <span class="special_title">Moving walls:</span> A Boulder token   blocks both movement and line of sight. A Hero with Climb 
-      may cross the Boulder with an additional 3 movement points. At the beginning of their turn, the Overlord must move one Boulder 
-      token to a different border, except for the entrance to the Hidden Chamber.</p>
-
-      <span class="special_title">Escaping the catacombs:</span> A Hero in the area with the Rope token 
-      <img src="/assets/tokens/ropeToken.png" class="scen_token" /> may spend movement points as if they were crossing a border to escape 
-      the catacombs. They are not considered dead and cannot return to the board.</p>',
-
-      correction: '',
-      hero_victory: '',
-      overlord_victory: '',
-
-      origin: "Red Nails Stretch Goal",
-      product_ids: [1, 2, 29, 30],
-      map_ids: [23],
-      hero_ids: [4, 50, 57],
-      tile_ids: [1, 42, 44, 47, 49, 188, 193],
-      spell_ids: [],
-      item_ids: [] },
-
-
-  # Solo / Co-Op
-  # Rescue the Princess
-    { name: "Rescue the Princess",
-      mode: 'Solo/Cooperative',
-      pdf_link:'',
-      credit: 'Manu Crochet',
-      player_count: "3-4",
-      complexity: '',
-
-      description: '
-      <div class="col-md-6">
-        <p>The daring Argosian merchants have been expanding their trade throughout the continent for several years. Naum, master of 
-        their powerful guild, decides to open an overland trade route to distant Vanaheim, via the shortest route through the wild 
-        lands of the Picts. To reassure his partners that the route is safe, he sends his own daughter, Ilona, to accompany the first 
-        convoy.</p>
-        <p>A week after her departure, one of the soldiers supposed to be protecting the merchants returns to Naum with terrible news. 
-        He is the survivor of an ambush led by a group of Picts. There was nothing they could do; everyone else was massacred.</p>
-        <p>Refusing to believe that his daughter is dead, Naum hires a troop of seasoned mercenaries to find her.</p>
-      </div>
-      <div class="col-md-6">
-        <p>These soldiers of fortune reach the ambush site after two days’ riding and surprise a group of Pict warriors searching the 
-        lifeless bodies of Naum’s men. The looters appear to be the ones responsible for the massacre, and have returned to collect 
-        whatever spoils were left to be taken.</p>
-        <p>The good news is that Ilona is not among the corpses. The bad news is that they’re going to have to track her down with 
-        their swords.</p>
-      </div>',
-
-      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Rescue+the+Princess.jpg",
-      
-      # scenario pre-title 
-      hero_goal: '',
-
-      # Setup
-      hero_setup: '
-      <div class="col-md-6">
-        <p><span class="setup_item">Objective</span></p>
-        <p>If the Heroes find at least 6 clues, question Zogar Sag and at least one of them escapes the jungle, the Heroes win.</p>
-
-        <p><span class="setup_item">Setup</span></p>
-        <p><strong>The game starts with the Heroes’ turn.</strong> The Heroes start in the area marked 
-        <span style="white-space: nowrap;"><img src="/assets/tokens/area1Token.png" class="scen_token" />.</span> 
-
-        <p><span class="special_solo_title">3 Players</span></p>
-        <ul>
-          <li>Warrior: Leather Armor, Conan’s Sword, Buckler</li>
-          <li>Rogue: Kris, Bossonian Bow</li>
-          <li>Sorcerer: Dagger, the Spells Set’s Halo and Bori’s Rage</li>
-        </ul>
-
-        <p><span class="special_solo_title">4 Players</span></p>
-        <ul>
-          <li>Sellsword: Sword, Parrying Dagger, Leather Armor.</li>
-        </ul>
-
-        <p>For this two-scenario campaign, the Heroes can add the equipment they find to their Cache</p>.
-        <p>Take 8 generic tokens <img src="/assets/tokens/numBackToken.png" class="scen_token" />, 4 with an odd number and 
-        4 with an even number, and place them randomly in the areas indicated by the setup diagram. They represent the clues 
-        the Heroes must find.</p>
-        <p></p>
-
-       <table class="solo_left_table">
-          <tr>
-            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
-            <td>After setup, each Hero moves 4 gems from their Reserve zone to their Fatigue zone.</td>
-          </tr>
-        </table>
-
-        <p><span class="setup_item">Asset Deck</span></p>
-
-        <p>Chests require a complex Manipulation with a difficulty of 2 to open. The Lockpicking Skill can be used. The asset deck 
-        contains: Explosive orb, Life Potion, Chain Mail, Shield, Sorcerer’s Staff, Battle Axe, Yuetshi Knife, Spellbook (Mitra’s 
-        Healing).</p>
-
-      </div>
-
-      <div class="col-md-6">
-
-        <p><span class="setup_item">Special Rules</span></p>
-
-        <p><span class="special_solo_title">Game Board Rules:</span> Standard game board rules apply except the Rope Vine (Ascend) 
-        rule modified as follows: The Overlord units with Climb in a ground area with a Rope Vine may ascend to the Cliff Top by 
-        spending 1 movement point. This movement is affected by Hindering.</p>
-
-        <p><span class="special_solo_title">Find a clue:</span> A Hero in an area with a Clue token 
-        <img src="/assets/tokens/numBackToken.png" class="scen_token" />  may search their surroundings to find it. Flip the token. 
-        If it shows an even value, perform a complex Manipulation with a difficulty of 2 to find the clue. If the token shows an 
-        odd value, the difficulty is 3. The Lockpicking Skill can be used. If successful, the Hero places the token next to their 
-        Hero sheet. If unsuccessful, leave the token face up in its area.</p>
-
-        <p><span class="special_solo_title">Question Zogar Sag:</span> Zogar Sag cannot lose his last Life Point. When he has only 1 Life 
-        Point left, a Hero in his area may perform a complex Manipulation with a difficulty of 3 to question him. If successful, the 
-        Hero places the Zogar Sag miniature next to their Hero sheet, and his tile is removed from the River.</p>
-
-        <p><span class="special_solo_title">Escape the jungle:</span> A Hero in the area marked “Escape” may spend movement points as if 
-        they were crossing a border to escape the jungle. Once a Hero has escaped, they cannot return to the board and still count 
-        for the number of Activation tokens to be drawn.</p>
-
-        <p><span class="setup_item">Events</span></p>
-
-        <p>When the Event tile is activated, resolve each of the following events in order:
-          <ol>
-            <li><span class="special_solo_title">More are coming!</span>1. Reinforce:</li>
-              <ul>
-                <li>1 Xotalanc Hunter in Reinforcement area <img src="/assets/tokens/areaAToken.png" class="scen_token" /> ,</li>
-                <li>1 Pict Hunter in Reinforcement area <img src="/assets/tokens/areaBToken.png" class="scen_token" /> ,</li>
-                <li>1 Xotalanc Warrior in Reinforcement area <img src="/assets/tokens/areaCToken.png" class="scen_token" /> ,</li>
-                <li>1 Pict Warrior or 1 Crocodile in Reinforcement area <img src="/assets/tokens/areaDToken.png" class="scen_token" /> .</li>
-              </ul>
-            <li><span class="special_solo_title">Activate Zogar Sag.</span> He always targets an Alternate Target Hero
-          </li>
-          </ol></p>
- 
-        <p><span class="setup_item">Options</span></p>
-
-        <p><span class="special_title">Four Player Mode</span> 
-          <ul>
-            <li>Zogar Sag has 6 life points.</li>
-            <li><span class="special_solo_title">Reminder:</span> The Overlord activates four times per turn.</li>
-          </ul></p>
-      </div>',
-
-      overlord_goal: '',
-
-      overlord_setup: '',
-
-      # Number Token Used
-      rtoken1: 'num1Token',
-      rtoken2: 'num2Token',
-      rtoken3: 'num3Token',
-      rtoken4: 'num4Token',
-      rtoken5: 'num5Token',
-      rtoken6: 'num6Token',
-      rtoken7: 'num7Token',
-      rtoken8: '',
-
-      # Text under tile
-      btoken1: '(4 Max)',
-      btoken2: '(4 Max)',
-      btoken3: '(4 Max)',
-      btoken4: '(4 Max)',
-      btoken5: '',
-      btoken6: '',
-      btoken7: '(4 Max)',
-      btoken8: '',
-
-      tile1: 24,
-      tile2: 192,
-      tile3: 199,
-      tile4: 29,
-      tile5: 1,
-      tile6: 8,
-      tile7: 202,
-      tile8: 999,
-
-      life1: 0,
-      life2: 0,
-      life3: 0,
-      life4: 0,
-      life5: 0,
-      life6: 4,
-      life7: 0,
-      life8: 0,
-
-      special_rules: '',
-
-      # campaign number   
-      event: '1/2',
-
-      # Result
-      hero_victory: '
-      <div class="col-md-6">
-        <p><span class="special_solo_title">Hero Victory:</span> The Picts were actually also mercenaries, in the pay of a shadowy patron. 
-        They don’t know their identity, but their leader, Zogar Sag, seems to be more up to speed. After a tough interrogation, he 
-        confesses that this is not the first time he has been paid to kidnap young women and drop them off on the edge of the nearby 
-        marshes. He admits that he has never dared venture there himself, as he is terrified by the stories of immortal creatures that 
-        have haunted the area for generations, long before he and his ancestors were born.</p> 
-        <p>The trail is now clear, and it leads straight into damp, dark depths of the wilderness.</p>   
-      </div>
-
-      <div class="col-md-6">
-        <p><span class="special_solo_title">Hero Defeat:</span> Fleeing is the only hope of survival. The mercenaries have no choice but 
-        to retreat and regroup. Who are these crazy-looking warriors adorned with strange ornaments who have come to help the Picts? 
-        The group’s sorcerer recalls tales of an ancient people from the dense southern jungles, wearing objects with decorative 
-        patterns similar to the ones they have just seen. According to the Stygian scrolls he has studied, these people were forced 
-        to flee their native city to escape endless war and famine. Their exodus took them northwards to the marshes in the wilderness, 
-        where they settled. So far, no one has ever been foolish enough to explore these lands and see if these tales were true.</p>
-        <p>Weakened and running out of alternatives, the mercenaries decide that this meagre lead is better than going back to 
-        Naum empty-handed.</p>
-      </div>',
-
-      overlord_victory: '',
-      correction: '',
-
-      origin: "Red Nails Stretch Goal",
-      product_ids: [1, 29],
-      map_ids: [20],
-      hero_ids: [],
-      tile_ids: [1, 8, 24, 29, 192, 199, 202],
-      spell_ids: [],
-      item_ids: [] },
-
-
-  # Solo / Co-Op
-  # The Village in the Mist
-    { name: "The Village in the Mist",
-      mode: 'Solo/Cooperative',
-      pdf_link:'',
-      credit: 'Manu Crochet',
-      player_count: "3-4",
-      complexity: '',
-
-      description: '
-      <div class="col-md-6">
-        <p>The sunlight fades as the mercenaries make their way deeper into the marshes, replaced by a gentle glow illuminating 
-        everything in a pale, ominous grey. They move cautiously forward, their footsteps muffled by the spongy mud as the thick 
-        mist rising from the stagnant water envelops them.</p>
-        <p>Suddenly, a macabre scene comes into view. Inert, decomposing bodies are hanging from poles right in front of them. Their 
-        skeletal faces, frozen in terror, seem to be screaming at the mercenaries to turn around and run.</p>
-        <p>Ignoring this warning, they continue on their way, guided by little more than the exceptional skills of their marauder, 
-        who has managed to pick up tracks leading through this murky, shifting environment.</p>
-        <p>After a long and arduous walk, a blurry shape emerges from the fog. It appears to </p>
-      </div>
-      <div class="col-md-6">
-        <p>be a wooden hut perched on stilts eaten away by damp and mold. Before long, other buildings appear and reveal an entire 
-        village filled with the crazy soldiers they fought earlier!</p>
-        <p>They seem to be in the right place, and the sight of Ilona, wrists bound as she is dragged roughly into one of the huts, 
-        dispels any lingering doubts. She is followed by a hauntingly beautiful but sinister- looking woman whose eyes glow with 
-        fascinating yet terrifying hypnotic intensity.</p>
-        <p>An occult ceremony is being prepared in the centre of the village. The mercenaries have seen enough in their countless 
-        adventures to know that it involves the sacrifice of a young woman.</p>
-        <p>There’s no time to lose!</p>
-      </div>',
-
-      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Village+in+the+Mist.jpg",
-      
-      # scenario pre-title 
-      hero_goal: '',
-
-      # Setup
-      hero_setup: '
-      <div class="col-md-6">
-        <p><span class="setup_item">Objective</span></p>
-        <p>If the Heroes free Ilona, achieve the additional objective and at least one of them escapes the swamps with 
-        Ilona, the Heroes win.</p>
-
-        <p><span class="setup_item">Setup</span></p>
-        <p><strong>If the Heroes won the previous scenario, the game starts with the Heroes’ turn. Otherwise, the game starts 
-        with the Overlord’s turn.</strong> The Heroes start in the area marked 
-        <span style="white-space: nowrap;"><img src="/assets/tokens/area1Token.png" class="scen_token" />.</span></p>
-        <p>Take 6 Flame tokens <img src="/assets/tokens/flameToken.png" class="scen_token" /> and place them next to the board.</p>
-        <p>Place the Rope token <img src="/assets/tokens/ropeToken.png" class="scen_token" /> on Ilona’s miniature base, represented by 
-        the Princess miniature.</p>
-
-       <table class="solo_left_table">
-          <tr>
-            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
-            <td>If the Heroes won the previous scenario, each Hero moves 3 gems from their Reserve zone to their Fatigue zone. 
-            Otherwise, each Hero moves 4 gems from their Reserve zone to their Fatigue zone.</td>
-          </tr>
-        </table>
-
-        <p><span class="setup_item">Asset Deck</span></p>
-
-        <p>Chests require a complex Manipulation with a difficulty of 2 to open. The Lockpicking Skill can be used. The asset 
-        deck contains: Explosive orb, Life Potion, Asshuri Cuirass, Tribal Shield, Shemite Bow, Rapier, Phoenix Sword, 
-        Spellbook (Mitra’s Halo).</p>
-
-        <p><span class="setup_item">Events</span></p>
-
-        <p>When the Event tile is activated, resolve each of the following events in order:
-          <ol>
-            <li>Reinforce 1 Xotalanc Spearman, 1 Xotalanc Assasin, 1 Xotalanc Warrior, 1 Crocodile, 1 Tecuhltli Swordsman. 
-            Heroes choose where the units are reinforced, but can not place more than 2 units in one reinforcement area./li>
-            <li>Activate Tascela.</li>
-            <li>If it is not already there, place the Rope token <img src="/assets/tokens/ropeToken.png" class="scen_token" /> on the 
-            base of Ilona’s miniature.</li>
-          </ol></p>
-
-        <p><span class="setup_item">Special Rules</span></p>
-
-        <p><span class="special_solo_title">Game Board Rules:</span> Standard game board rules apply except the “Water areas” rule which 
-        doesn’t affect the Overlord units.</p>
-
-        <p><span class="special_solo_title">Ilona:</span> She cannot suffer damage and does not count towards hindering.</p>
-
-        <p><span class="special_solo_title">Free Ilona:</span> A Hero in Ilona’s area may perform a complex Manipulation with a difficulty 
-        of 4 to free her. The Lockpicking Skill can be used. If successful, remove the Rope token from the base of her miniature and 
-        place it next to the board.</p>
-
-      </div>
-
-      <div class="col-md-6">
-      <p></p><p></p>
-
-        <p><span class="special_solo_title">Escort Ilona:</span> A Hero in Ilona’s area without the Rope token may perform a simple 
-        Manipulation to move her miniature to an adjacent area ignoring hindering. If the Rope token is on her miniature’s base, 
-        the Manipulation is complex with a difficulty of 1. If successful, move her miniature to an adjacent area ignoring hindering, 
-        remove the Rope token from her base and place it next to the board.</p>
-        <p>Each Hero cannot escort Ilona more than once per Turn.</p>
-
-        <p><span class="special_solo_title">Escape with Ilona:</span> A Hero in the area marked 
-        <img src="/assets/tokens/area1Token.png" class="scen_token" /> with Ilona may spend movement points as if they were crossing 
-        a border to escape the swamp with her. Once a Hero has escaped, they cannot return to the board and still count for the 
-        number of Activation tokens to be drawn.</p>
-
-        <p><span class="special_solo_title">Additional Objective:</span> When Ilona is freed for the first time, she finds her courage and 
-        asks for your help before escaping this wretched place. Roll <img src="/assets/dice/Orange.png" class="scen_sq_token" />  (no 
-        rerolls). The number of successes indicates the additional objective to achieve.
-          <ul>
-            <li>0 success: Retrieve her father’s stolen goods. The Heroes must open all the chests.</li>
-            <li>1 success: Burn this cursed village. The Heroes must burn the village.</li>
-            <li>2 successes: Take revenge on Tascela. The Heroes must kill Tascela.</li>
-          </ul></p>
-
-        <p><span class="special_solo_title">Burn the village:</span> A Hero in a hut area may perform a complex Manipulation 
-        with a difficulty of 2 to set the hut on fire. If successful, place a Flame token in the hut area. There are 6 huts, and 
-        there can be only one Flame token per hut. When all 6 huts are set on fire, the village is burned.</p>
-
-        <p><span class="special_solo_title">Tascela:</span> She targets the Strongest Hero.
-          <ul>
-            <li><span class="special_solo_title">Fascination:</span> Each turn, the first Attack targeting her must reroll the 
-            die with the highest number of successes. This Special rule replaces the Fascination Skill.</li>
-            <li><span class="special_solo_title">Spellcaster:</span> Tascela has the Soul Leech spell. At the end of her 
-            activation, she casts it targeting the Strongest Hero.</li>
-          </ul></p>
-
-        <p><span class="special_solo_title">Xotalanc Spearmen:</span> The Xotalanc Spearmen only use their Ranged Attack.
-        <p><span class="special_solo_title">Xotalanc Assassins:</span> The Xotalanc Assassins only use their Melee Attack.
- 
-        <p><span class="setup_item">Options</span></p>
-
-        <p><span class="special_title">Four Player Mode</span> 
-          <ul>
-            <li>Tascela has 7 Life Points</li>
-            <li><span class="special_solo_title">Reminder:</span> The Overlord activates four times per turn.</li>
-          </ul></p>
-      </div>',
-
-      overlord_goal: '',
-
-      overlord_setup: '',
-
-      # Number Token used
-      rtoken1: 'num1Token',
-      rtoken2: 'num2Token',
-      rtoken3: 'num3Token',
-      rtoken4: 'num4Token',
-      rtoken5: 'num5Token',
-      rtoken6: 'num6Token',
-      rtoken7: 'num7Token',
-      rtoken8: '',
-
-      # Text under tile
-      btoken1: '(4 Max)',
-      btoken2: '(3 Max)',
-      btoken3: '',
-      btoken4: '(4 Max)',
-      btoken5: '(4 Max)',
-      btoken6: '',
-      btoken7: '(4 Max)',
-      btoken8: '',
-
-      tile1: 201,
-      tile2: 196,
-      tile3: 184,
-      tile4: 198,
-      tile5: 202,
-      tile6: 1,
-      tile7: 192,
-      tile8: 999,
-
-      life1: 0,
-      life2: 0,
-      life3: 5,
-      life4: 0,
-      life5: 0,
-      life6: 0,
-      life7: 0,
-      life8: 0,
-
-      special_rules: '',
-
-      # campaign number   
-      event: '2/2',
-
-      # Result
-      hero_victory: '
-      <div class="col-md-6">
-        <p><span class="special_solo_title">Hero Victory:</span> Ilona is safe. The mercenaries escape from this swampy hell, spurred on 
-        by the cries of their enemies who stop chasing them as soon as they cross the border of the marshes.</p>
-        <p>On the way back to Argos, Ilona recounts what she learned from her captors. Tascela and her people come from a cursed city, 
-        far to the south in the Black Kingdoms, where they were banished more than two centuries ago for their unholy practice of dark 
-        magic. They have managed to prolong their existence thanks to the supernatural powers of the witch, who is capable of sucking 
-        the youth out of one body and passing it on to another. They have sacrificed tens of thousands of victims in their ceremonies - 
-        which explains the myths and legends that have surrounded these marshes for generations. Over time, the marshland where they 
-        found refuge has become a prison in which they are condemned to wander for all eternity.</p>
-        <p>Naum falls to his knees when he sees his daughter safe and sound, and the generous bounty he pays the mercenaries allows 
-        them to enjoy endless excess and luxury for many nights in the exotic taverns and inns of Argos. But all good things must come 
-        to an end, and after squandering their pay our mercenaries return to their adventures, penniless. That, however, is a story for 
-        another time...</p>
-      </div>
-
-      <div class="col-md-6">
-        <p><span class="special_solo_title">Hero Defeat:</span> The mercenaries were no match for these crazed warriors. As their lifeless 
-        bodies sink into the swampy waters, Ilona is caught, bound and taken captive again.</p>
-        <p>After several days without news, Naum accepts that the mission must have been a failure and recruits new troops, hoping 
-        that they will bring his daughter back to him.</p>
-      </div>',
-
-      overlord_victory: '',
-      correction: '',
-
-      origin: "Red Nails Stretch Goal",
-      product_ids: [1, 3, 29],
-      map_ids: [6],
-      hero_ids: [],
-      tile_ids: [1, ],
-      spell_ids: [],
-      item_ids: [] },
-
-
-  # Versus
-  # A Hide Worth Dying For
-    { name: "A Hide Worth Dying For",
-      mode: 'Versus',
-      pdf_link:'',
-      credit: 'Manu Crochet',
-      player_count: "2",
-      complexity: '',
-
-      description: '
-      <p>The craftsmen of Nemedia are famed for being master leatherworkers. Their armour is as strong as it is light, and sells 
-      for the highest prices around the world. These exceptional qualities are made possible by a rare and precious raw material: 
-        the skin of the renowned Red River crocodile.</p>
-      <p>In the creatures’ native region, tanners battle each other to lay their hands on the finest skins. Some have even hired 
-      mercenaries to crush their competitors and secure a monopoly on this lucrative yet perilous trade.</p>
-      <p>But in the jungle, the greatest threat is not always who you might think...</p>',
-
-      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/A+Hide+Worth+Dying+For.jpg",
-
-      # End-Game Conditions:
-      hero_victory: '<p>When there are no Crocodiles left on the board, or there are no Hide tokens left next to the board.</p>',
-      
-      # General Victory Condition 
-      hero_goal: "The General has a higher value of tanned hides than the Warlord.",
-
-      # General Setup
-      hero_setup: '
-      <p>The General starts with <strong>9 gems</strong> in their Reserve zone and <strong>2 gems</strong> in their Fatigue zone, 
-      and places the Recovery token showing a <strong>recovery value of 5</<strong>strong> in their Book of Skelos.</p>
-      <p>The General may choose 2 spells: <strong>Bori’s Rage, Mitra’s Halo (vs)</strong>.</p>',
-
-      # Warlord Victory Condition 
-      overlord_goal: "The Warlord has a higher value of tanned hides than the General.",
-
-      # Warlord Setup
-      overlord_setup: '
-      <p><strong>Initiative:</strong> The Warlord has the initiative and starts the game.</p>
-
-      <p>The Warlord starts with <strong>11 gems</strong> in their Reserve zone and <strong>0 gems</strong> in their Fatigue zone, 
-      and places the Recovery token showing a <strong>recovery value of 5</strong> in their Book of Skelos.</p>
-      <p>The Warlord may choose 2 spells: <strong>Withering, Set’s Halo (vs)</strong>.</p>',
-
-      btoken1: 'Minion',
-      btoken2: 'Champion',
-      btoken3: 'Leader',
-      btoken4: 'Minion',
-      btoken5: 'Champion',
-      btoken6: '<img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" >',
-      btoken7: 'Minion',
-      btoken8: '',
-
-      rtoken1: 'Minion',
-      rtoken2: 'Champion',
-      rtoken3: 'Leader',
-      rtoken4: 'Minion',
-      rtoken5: 'Champion',
-      rtoken6: '<img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" >',
-      rtoken7: 'Minion',
-      rtoken8: '',
-
-      tile1: 4,
-      tile2: 3,
-      tile3: 1,
-      tile4: 4,
-      tile5: 3,
-      tile6: 0,
-      tile7: 4,
-      tile8: 0,
-
-      life1: 4,
-      life2: 3,
-      life3: 1,
-      life4: 4,
-      life5: 3,
-      life6: 0,
-      life7: 4,
-      life8: 0,
-
-      # Event:   
-      event: '<p>The player activates their Leader and gains 2 reinforcement points (the reinforcement areas are the same for 
-      both players). Then, they must use the following Special Rule.</p>
-      <p><span class="special_title">Hide and skin:</span> The player takes a Crocodile miniature from the Reserve and adds it 
-      to one of the Deep Water areas of the board.</p>',
-
-      # Special Rules:   
-      special_rules: '
-      <p><span class="special_title">Game Board Rules:</span> Standard game board rules apply.</p>
-      <p><span class="special_title">Setup:</span> Take 7 Chest tokens <img src="/assets/tokens/treasureToken.png" class="scen_token" /> 
-      numbered “1” and 4 Chest tokens <img src="/assets/tokens/treasureToken.png" class="scen_token" /> numbered “2” and place them next 
-      to the board. They represent the Crocodile skins.</p>
-      <p>Then, take 2 table tokens and place them as indicated by the setup diagram. They represent the tanning workshops. Finally, place the 
-      Crocodiles miniatures as indicated by the setup diagram and their tile between the two players.</p>
-      
-      <a class="tile" href="/tiles/192"><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Crocodiles.jpg" class="scen_event float_tile"></a>
-      <p><span class="special_title">Crocodiles:</span> Before their Activation phase, a player must activate a Crocodile without 
-      spending any gem. They must perform a Move action towards the nearest unit (whatever their side) then perform a Melee Attack 
-      against that unit, if possible. Benefits cannot be used for the Crocodiles.</p>
-      <p><span class="special_title">Skin a Crocodile:</span> When a Crocodile is killed, its miniature is placed in the Reserve, 
-      next to their tile. Then the player who killed the Crocodile draws a Hide token from those available next to the board without 
-      looking at its value. If the Crocodile was killed with a Melee Attack, the token is placed on the base of the unit that killed 
-      it. If the Crocodile was killed with a Ranged Attack, the token is placed in the area where the Crocodile was.</p>
-      <p>When a unit with a Hide token on its base is killed, the token is dropped in their area.</p>
-      <p><span class="special_title">Pick up a hide:</span> A unit in the same area as a Hide token may pick it up by spending a 
-      movement point. The token is placed on the unit’s base without looking at its value. The Movement Benefit can be used.</p>
-      <p><span class="special_title">Tan a hide:</span> A unit with a Hide token on its base and in an area with a tanning workshop 
-      may replace their Attack to tan the hide.</p>
-      <p>The player controlling that unit flips the Hide token to reveal its value and places it next to their Book of Skelos. 
-      <p>Its value is added to the value of tanned hides the player has.</p>',
-
-      overlord_victory: '',
-
-      correction: '',
-
-      origin: "Red Nails Stretch Goal",
-      product_ids: [1, 23, 25],
-      map_ids: [20],
-      hero_ids: [],
-      tile_ids: [],
-      spell_ids: [],
-      item_ids: [] },
-
-
-  # Versus
-  # Bloody Mass
-    { name: "Bloody Mass",
-      mode: 'Versus',
-      pdf_link:'',
-      credit: 'Manu Crochet',
-      player_count: "2",
-      complexity: '',
-
-      description: '
-      <p>Since time immemorial, the religions of Mitra and Set have had a burning hatred for each other, which often degenerates 
-      into open warfare when tensions become too high.</p>
-      <p>In the past, the region of Tarantia, in Aquilonia, has been the setting for many of these armed showdowns, as it is home 
-      to a temple that each of the sects claims as its own. This ancient and long-abandoned site of power once again becomes a 
-      theatre of conflict when the worshippers of each group hear that the other faction is trying to seize control of the holy site.</p>
-      <p>The two sects rally their followers, hire mercenaries to bolster their ranks, and descend on Tarantia for what promises 
-      to be a bloody mass.</p>',
-
-      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Bloody+Mass.jpg",
-
-      # End-Game Conditions:
-      hero_victory: '<p>The game ends at the end of turn 9. In case of a tie, the players play an additional turn until one of 
-      the victory conditions is met.</p>',
-
-      # General Victory Condition 
-      hero_goal: "The General controls the temple.",
-
-      # General Setup
-      hero_setup: '
-      <p><strong>Initiative:</strong> The General has the initiative and starts the game.</p>
-      <p>The General starts with <strong>11 gems</strong> in their Reserve zone and <strong>0 gems</strong> in their Fatigue zone, 
-      and places the Recovery token showing a <strong>recovery value of 5</strong> in their Book of Skelos.</p>
-      <p>The General may choose 2 spells: <strong>Bori’s Rage, Mitra’s Halo (vs)</strong>.</p>',
-
-      # Warlord Victory Condition 
-      overlord_goal: "The Warlord controls the temple.",
-
-      # Warlord Setup
-      overlord_setup: '
-      <p>The Warlord starts with <strong>9 gems</strong> in their Reserve zone and <strong>2 gems</strong> in their Fatigue zone, 
-      and places the Recovery token showing a <strong>recovery value of 5</strong> in their Book of Skelos.</p>
-      <p>The Warlord may choose 2 spells: <strong>Withering, Set’s Halo (vs)</strong>.</p>',
-
-      btoken1: 'Minion',
-      btoken2: 'Leader',
-      btoken3: 'Champion',
-      btoken4: 'Minion',
-      btoken5: 'Champion',
-      btoken6: '<img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" >',
-      btoken7: 'Minion',
-      btoken8: '',
-
-      rtoken1: 'Minion',
-      rtoken2: 'Leader',
-      rtoken3: 'Champion',
-      rtoken4: 'Minion',
-      rtoken5: 'Champion',
-      rtoken6: '<img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" >',
-      rtoken7: 'Minion',
-      rtoken8: '',
-
-      tile1: 4,
-      tile2: 1,
-      tile3: 3,
-      tile4: 4,
-      tile5: 3,
-      tile6: 0,
-      tile7: 4,
-      tile8: 0,
-
-      life1: 4,
-      life2: 1,
-      life3: 3,
-      life4: 4,
-      life5: 3,
-      life6: 0,
-      life7: 4,
-      life8: 0,
-
-      # Event:   
-      event: '<p>The player activates their Leader and gains 2 reinforcement points (the reinforcement areas are the same for both 
-      players). Then, the player performs as many Special rules from the list below as consecrated places of worship they control.
-      A Special rule can only be performed once per Activation of the Event tile.</p>
-      <p><span class="special_title">Divine punishment:</span> The player chooses an opponent’s unit. They suffer 
-      <img src="/assets/dice/Orange.png" class="scen_sq_token" /> unavoidable damages (no Benefits allowed).</p>
-      <p><span class="special_title">Faith can move mountains:</span> The player chooses one of their units. They may move it to an 
-      adjacent area without hindering.</p>
-      <p><span class="special_title">Second wind:</span> The player moves 1 gem from their Fatigue zone to their Reserve zone.</p>
-      <p><span class="special_title">Resurrection:</span> The player reinforces 1 Champion Unit in the reinforcement area of their 
-      choice. Confounding argument: The player swaps the positions of 2 adjacent tiles in their opponent’s River.</p>
-      <p><span class="special_title">Confounding argument:</span> The player swaps the positions of 2 adjacent tiles in their 
-      opponent’s River.</p>',
-
-      # Special Rules:   
-      special_rules: '
-      <p><span class="special_title">Game Board Rules:</span> Standard game board rules apply with the following changes:</p>
-      <p>A unit with Climbing can move from a ground floor area to a balcony area by spending 1 extra movement point.</p>
-      <p>A unit can move across a railing from a balcony area to a ground floor area as though it were a border. The unit suffers 
-      <img src="/assets/dice/Orange.png" class="scen_sq_token" /> unavoidable damages. If the unit has Leap, the unit rolls 
-      <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> instead. </p>
-      <p><span class="special_title">Place of worship:</span> A place of worship is indicated on the setup diagram by an area in 
-      color. There are 7 of them. They represent strategic points to be controlled.</p>
-      
-      <p><span class="special_title">The faith:</span> The players take the 7 Flame tokens numbered 
-      <img src="/assets/tokens/flameToken.png" class="scen_token" /> on one face, and 
-      <img src="/assets/tokens/flame2Token.png" class="scen_token" /> on the other. They represent the fervor for one of the faiths. 
-      The General is a Mitra follower and uses the tokens on their <img src="/assets/tokens/flameToken.png" class="scen_token" /> face. 
-      The Warlord is a Set follower and uses the tokens on their<img src="/assets/tokens/flame2Token.png" class="scen_token" /> face.</p>
-      
-      <p><span class="special_title">Consecrate a place of worship:</span> A unit in place of worship area may replace their Attack 
-      to consecrate it to their faith. If there is no Faith token in that area, the player controlling that unit adds one Faith token 
-      with the face up showing their faith. If there is already a Faith token of their opponent in that area, flip it. There can be 
-      only one Faith token per place of worship.</p>
-      <p><span class="special_title">Control the temple:</span> The player with the most places of worship consecrated to their faith 
-      controls the temple.</p>',
-
-      overlord_victory: '',
-
-      correction: '',
-
-      origin: "Red Nails Stretch Goal",
-      product_ids: [1, 23, 25],
-      map_ids: [21],
-      hero_ids: [],
-      tile_ids: [],
-      spell_ids: [],
-      item_ids: [] },
 
 
   ## Worms of the Earth
@@ -24816,6 +24166,26 @@
       life6: 0,
       life7: 8,
       life8: 0,
+
+      # Hard Mode text/arrow
+      hardtext1: '',
+      hardtext2: '',
+      hardtext3: '',
+      hardtext4: '',
+      hardtext5: '',
+      hardtext6: '',
+      hardtext7: '',
+      hardtext8: '',
+
+      # Hard Mode tile
+      hardtile1: 999,
+      hardtile2: 999,
+      hardtile3: 999,
+      hardtile4: 999,
+      hardtile5: 999,
+      hardtile6: 999,
+      hardtile7: 999,
+      hardtile8: 999,
 
       special_rules: '',
 
@@ -25024,6 +24394,26 @@
       life7: 15,
       life8: 0,
 
+      # Hard Mode text/arrow
+      hardtext1: '',
+      hardtext2: '',
+      hardtext3: '',
+      hardtext4: '',
+      hardtext5: '',
+      hardtext6: '',
+      hardtext7: '',
+      hardtext8: '',
+
+      # Hard Mode tile
+      hardtile1: 999,
+      hardtile2: 999,
+      hardtile3: 999,
+      hardtile4: 999,
+      hardtile5: 999,
+      hardtile6: 999,
+      hardtile7: 999,
+      hardtile8: 999,
+
       special_rules: '',
 
       # campaign number   
@@ -25215,6 +24605,26 @@
       life6: 0,
       life7: 10,
       life8: 0,
+
+      # Hard Mode text/arrow
+      hardtext1: '',
+      hardtext2: '',
+      hardtext3: '',
+      hardtext4: '',
+      hardtext5: '',
+      hardtext6: '',
+      hardtext7: '',
+      hardtext8: '',
+
+      # Hard Mode tile
+      hardtile1: 999,
+      hardtile2: 999,
+      hardtile3: 999,
+      hardtile4: 999,
+      hardtile5: 999,
+      hardtile6: 999,
+      hardtile7: 999,
+      hardtile8: 999,
 
       special_rules: '',
 
@@ -25444,12 +24854,4514 @@
       overlord_victory: '',
 
       origin: "Frazetta Guest Box",
-      product_ids: [1, 3, 32],
+      product_ids: [1, 32],
       map_ids: [4],
       hero_ids: [1, 3, 8, 16, 65, 66],
       tile_ids: [1, 17, 42, 44, 47, 49, 76, 188, 193],
       spell_ids: [2, 6, 9, 15],
       item_ids: [4, 10, 17, 19] },
+
+
+
+
+    # Red Nails Strech 
+    # Adventure
+
+      # Assault on the Fortress
+    { name: "Assault on the Fortress",
+      mode: 'Adventure',
+      pdf_link:'',
+      credit: 'Manu Crochet',
+      player_count: "3",
+      complexity: "2",
+
+      description: "<p>As part of its continuing expansionist campaign, the empire of Aquilonia is attempting to colonize Cimmeria. 
+      From their fortress in Venarium, the invaders are launching bloody-thirsty raids, terrorizing the surrounding villages, 
+      massacring any who dare resist, and seizing control of the land.</p>
+      <p>The fierce Cimmerians have responded by launching courageous assaults on the fortress, but time and time again their 
+      attempts have been thwarted by the Aquilonians’ impressive defensive arsenal. Unable to gain any further ground, they are now 
+      faced with a single solution: They must send their best fighters to infiltrate the stronghold, destroy the stockpiles of weapons, 
+      and give the Cimmerian warriors a chance to tear down this otherwise invincible outpost.</p>
+      <p>In the dead of night, Conan and Valeria slip through the fortress’s defenses to carry out their mission.</p>",
+
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Assault+on+the+Fortress.jpg",
+
+      hero_goal: 'To win, the Heroes must destroy all the weapons caches.',
+
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the Heroes’ turn. The Heroes start in areas <img src="/assets/tokens/areaAToken.png" class="small_token" /> A 
+          and <img src="/assets/tokens/areaBToken.png" class="small_token" /> B. There can be only one Hero in each area.</td>
+          <td></td>
+        </tr>
+      </table>
+      <table class="scen_table">
+        <tr>
+          <td><h4>2</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ConanFreeToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/51">Conan Free Companion</a>
+            (<a class="item" href="/items/148">Akbitana’s Claymore</a>,
+            <a class="item" href="/items/17">Leather Armor</a>,
+            <a class="item" href="/items/22">Life Potion</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ValeriaFreeToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/57">Valeria Free Companion</a>
+            (<a class="item" href="/items/155">Lemurian Blade</a>,
+            <a class="item" href="/items/11">Parrying Dagger</a>, 
+             <a class="item" href="/items/17">Leather Armor</a>,
+             <a class="item" href="/items/13">Throwing Knives</a>,
+             <a class="item" href="/items/22">Life Potion</a>) 
+          </td>
+          <td></td>
+        </tr>
+      </table>
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each Hero moves 3 gems from their Reserve zone to their Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
+
+      overlord_goal: 'To win, the Overlord must kill both Heroes.',
+
+      overlord_setup: '
+        <table class="scen_table">
+          <tr>
+            <td><img src="/assets/tokens/redGem.png" class="scen_token" /></td>
+            <td>The The Overlord starts with 9 gems in their Reserve zone and 3 in their Fatigue zone, and places the 
+            Recovery token showing a recovery value of 5 in the Book of Skelos.</td>
+            <td></td>
+          </tr>
+        </table>
+       <table class="scen_table">
+          <tr>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><p>When an event tile is activated the Overlord must perform both Events if possible, in this order:</p>
+              <p><span class="setup_suggestion">Secure the weapons caches:</span> Choose one of the following:
+              <ul>
+                <li>Place 2 Level 1 Security tokens in two different weapons cache areas. </li>
+                <li>Place 1 Level 2 Security token in a single weapons cache area.</li>
+              </ul></p>
+              <p><span class="setup_suggestion">Reinforcements:</span> The Overlord gains 3 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
+            </td>
+            <td></td>
+          </tr>
+        </table>',
+
+      tile1: 20,
+      tile2: 15,
+      tile3: 3,
+      tile4: 16,
+      tile5: 1,
+      tile6: 19,
+      tile7: 18,
+      tile8: 999,
+
+      life1: 0,
+      life2: 0,
+      life3: 3,
+      life4: 0,
+      life5: 0,
+      life6: 0,
+      life7: 0,
+      life8: 0,
+
+      special_rules: '<p><span class="special_title">Game Board Rules:</span> Standard game board rules apply.</p>
+
+      <span class="special_title">Setup:</span> The Overlord takes 4 Chest tokens 
+      <img src="/assets/tokens/treasureToken.png" class="scen_token" /> numbered “1”, and 2 Chest tokens 
+      <img src="/assets/tokens/treasureToken.png" class="scen_token" /> face up next to their Book of Skelos. They represent extra 
+      security added to a weapons cache, and their number indicates their level.</p>
+
+      <div class="row">
+        <div class="col-md-11">
+          <p>Then the Overlord takes Zaporavo’s tile and places it next to their Book of Skelos. His miniature is placed as indicated on 
+      the setup diagram.</p>
+          <p>Finally, the Overlord takes 4 generic tokens <img src="/assets/tokens/numBackToken.png" class="scen_token" /> numbered “3”, 
+      “4”, “5”, and “6”, and places them as they wish face down in the indicated areas. They represent the weapons caches the 
+      Heroes try to destroy.</p>
+
+        <p><span class="special_title">Zaporavo:</span> At the end of their activation, the Overlord may spend 1 
+        <img src="/assets/tokens/redGem.png" class="scen_token" /> to activate Zaporavo. Move his miniature up to 2 areas without 
+      hindering, and perform a Melee Attack if possible. Benefits can’t be used for Zaporavo.</p>
+        </div>
+
+        <div class="col-md-1">
+         <a class="tile" href="/tiles/7"><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Zaporavo.jpg" class="scen_event"></a><br />
+          7&nbsp;<img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ZaporavoToken.png" class="scen_token">
+        </div>
+      </div>
+
+      <p><span class="special_title">Destroy a weapons cache:</span> A Hero in an area with a weapons cache token may flip it faceup. 
+      Its number indicates its structure points. To destroy a weapons cache, a Hero must perform a Melee Attack and roll at least as 
+      many successes as its structure points. If successful, the weapons cache is destroyed and the token is removed from the game.</p>
+
+      <p>A Security token in an area with a weapons cache adds its value to the structure points of the weapons cache.</p>
+
+      <p><span class="special_title">The cover of night:</span> Until the end of round 3, Ranged Attacks can only target units in an 
+      adjacent area.</p>',
+
+      correction: '',
+      hero_victory: '',
+      overlord_victory: '',
+
+      origin: "Red Nails Stretch Goal",
+      product_ids: [1, 29, 30],
+      map_ids: [22],
+      hero_ids: [51, 57],
+      tile_ids: [1, 3, 7, 15, 16, 18, 19, 20],
+      spell_ids: [],
+      item_ids: [11, 13, 17, 22, 148, 155]  },
+
+
+      # Adventure
+      # The Relic from the Depths
+    { name: "The Relic from the Depths",
+      mode: 'Adventure',
+      pdf_link:'',
+      credit: 'Manu Crochet',
+      player_count: "4",
+      complexity: "2",
+
+      description: "<p>Legend has it that in the ancient, cursed, abandoned city of Pteion, located in the eastern province of Stygia, 
+      there is a relic eons old that grants immortality to anyone who possesses it. Conan and his allies set off in search of this 
+      powerful artefact, which has the power to give them infinite wealth and glory. After they arrive, they discover the entrance to 
+      the catacombs hidden behind a mound of human bones. As they enter the stone labyrinth, the walls seem to come alive, closing 
+      behind them and transforming the layout of the maze. A supernatural scream suddenly echoes through the tunnels, as if a dark 
+      presence lurking in the shadows had been awakened by the moving walls. What sorcery fills these hateful halls? Regardless, the 
+      group certainly aren’t going back empty-handed! Whatever the threat lurking in these galleries, they must locate the relic and 
+      find a way to escape.</p>",
+
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Relic+from+the+Depths.jpg",
+
+      hero_goal: 'To win, the Heroes must retrieve the relic, kill the monster, and escape the catacombs.',
+
+      hero_setup: '
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/startToken.png" class="scen_setup" /></td>
+          <td>The game starts with the Heroes’ turn. he Heroes start in the areas indicated by the setup diagram.</td>
+          <td></td>
+        </tr>
+      </table>
+      <table class="scen_table">
+        <tr>
+          <td><h4>3</h4></td>
+          <td><span class="setup_suggestion">Suggested Heroes and Equipment:</span><br /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ConanWandererToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/50">Conan the Rogue</a>
+            (<a class="item" href="/items/157">Phoenix Sword</a>,                         
+             <a class="item" href="/items/158">Rapier</a>,
+             <a class="item" href="/items/13">Throwing Knives</a>,
+             <a class="item" href="/items/17">Leather Armor</a>,
+             <a class="item" href="/items/22">Life Potion</a>)
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ValeriaFreeToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/57">Valeria Free Companion</a>
+            (<a class="item" href="/items/12">Sword</a>,
+            <a class="item" href="/items/11">Parrying Dagger</a>, 
+             <a class="item" href="/items/17">Leather Armor</a>,
+             <a class="item" href="/items/22">Life Potion</a>) 
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ShevatasToken.png" class="scen_setup"></td>
+          <td>
+            <a class="hero" href="/heroes/4">Shevatas</a>
+            (<a class="item" href="/items/159">Shemite Bow</a>,
+            <a class="item" href="/items/164">Stiletto</a>, 
+             <a class="item" href="/items/17">Leather Armor</a>,
+             <a class="item" href="/items/22">Life Potion</a>) 
+          </td>
+          <td></td>
+        </tr>        
+      </table>
+      <table class="scen_table">
+        <tr>
+          <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+          <td>After setup, each Hero moves 3 gems from their Reserve zone to their Fatigue zone.</td>
+          <td></td>
+        </tr>
+      </table>',
+
+      overlord_goal: 'To win, the Overlord must kill all 3 Heroes.',
+
+      overlord_setup: '
+        <table class="scen_table">
+          <tr>
+            <td><img src="/assets/tokens/redGem.png" class="scen_token" /></td>
+            <td>The The Overlord starts with 9 gems in their Reserve zone and 3 in their Fatigue zone, and places the 
+            Recovery token showing a recovery value of 5 in the Book of Skelos.</td>
+            <td></td>
+          </tr>
+        </table>
+        <table class="scen_table">
+          <tr>
+            <td><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" class="scen_event"></td>
+            <td><p>When an event tile is activated the Overlord must perform both Events if possible, in this order:</p>
+              <p><span class="setup_suggestion">Snake bite:</span> The Overlord chooses a Hero who moves 1 energy gem from 
+              their Reserve zone to their Wound zone.</p>
+              <p><span class="setup_suggestion">Reinforcements:</span> The Overlord gains 4 reinforcement points
+              <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</p>
+            </td>
+            <td></td>
+          </tr>
+        </table>',
+
+      tile1: 193,
+      tile2: 49,
+      tile3: 188,
+      tile4: 42,
+      tile5: 47,
+      tile6: 1,
+      tile7: 44,
+      tile8: 999,
+
+      life1: 0,
+      life2: 0,
+      life3: 4,
+      life4: 0,
+      life5: 0,
+      life6: 0,
+      life7: 0,
+      life8: 0,
+
+      special_rules: '<p><span class="special_title">Game Board Rules:</span> Standard game board rules apply.</p>
+
+      <div class="row">
+        <div class="col-md-10">
+
+          <p><span class="special_title">Setup:</span> The Overlord takes the Crawler tile and miniature and places them next to their Book 
+          of Skelos. They represent the Monster. Then, the Overlord places the Hidden Chamber tile with the Relic token next to area 
+          <img src="/assets/tokens/areaAToken.png" class="small_token" /> A, <img src="/assets/tokens/areaBToken.png" class="small_token" /> B 
+          or <img src="/assets/tokens/areaCToken.png" class="small_token" /> C. It connects to the area next to it as though it were a border 
+          WITH line of sight. Then, place the 4 Boulders tokens on the borders of the areas indicated by the setup diagram. They represent 
+          the moving wall of the catacombs. Finally, place the Rope token <img src="/assets/tokens/ropeToken.png" class="scen_token" /> in the 
+          area indicated by the setup diagram.</p>
+
+          <p><span class="special_title">The Monster:</span> When a Hero retrieves the relic, the Overlord immediately places the Monster’s 
+          tile at the first position of their River (sliding the others to the right) and places its miniature in the indicated area by 
+          the setup diagram.</p>
+      
+        </div>
+
+        <div class="col-md-1">
+          <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/RelicChamber.jpg" class="relic_chamber">
+        </div>
+
+        <div class="col-md-1">
+          <a class="tile" href="/tiles/189"><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Crawler.jpg" class="scen_event"></a>
+          <br />4&nbsp;<img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/CrawlerToken.png" class="scen_token">
+        </div>
+
+      </div>
+
+      <span class="special_title">The Relic:</span> It can be found in the Hidden chamber and has an encumbrance value of 3.</p>
+
+      <span class="special_title">Retrieve the relic:</span> A Hero in the area of the <img src="/assets/tokens/relicToken.png" class="scen_token" /> 
+      Relic may perform a complex Manipulation with a difficulty of 4 to retrieve it. The Lockpicking skill can be used. If successful, the Hero 
+      places the Relic token next to their Hero sheet.</p>
+
+      <span class="special_title">Spider webs:</span> A Hero entering or exiting an area with a Web token 
+      <img src="/assets/tokens/webToken.png" class="scen_token" /> must spend 1 extra movement point. The spider webs block line of sight. 
+      A Hero may destroy a spider web and remove its token from the board by rolling at least 2 successes with a Melee or Ranged Attack.</p>
+
+      <span class="special_title">Moving walls:</span> A Boulder token   blocks both movement and line of sight. A Hero with Climb 
+      may cross the Boulder with an additional 3 movement points. At the beginning of their turn, the Overlord must move one Boulder 
+      token to a different border, except for the entrance to the Hidden Chamber.</p>
+
+      <span class="special_title">Escaping the catacombs:</span> A Hero in the area with the Rope token 
+      <img src="/assets/tokens/ropeToken.png" class="scen_token" /> may spend movement points as if they were crossing a border to escape 
+      the catacombs. They are not considered dead and cannot return to the board.</p>',
+
+      correction: '',
+      hero_victory: '',
+      overlord_victory: '',
+
+      origin: "Red Nails Stretch Goal",
+      product_ids: [1, 2, 29, 30],
+      map_ids: [23],
+      hero_ids: [4, 50, 57],
+      tile_ids: [1, 42, 44, 47, 49, 188, 193],
+      spell_ids: [],
+      item_ids: [11, 12, 13, 17, 22, 157, 158, 159, 164] },
+
+
+  # Solo / Co-Op
+  # Rescue the Princess
+    { name: "Rescue the Princess",
+      mode: 'Solo/Cooperative',
+      pdf_link:'',
+      credit: 'Manu Crochet',
+      player_count: "3-4",
+      complexity: '',
+
+      description: '
+      <div class="col-md-6">
+        <p>The daring Argosian merchants have been expanding their trade throughout the continent for several years. Naum, master of 
+        their powerful guild, decides to open an overland trade route to distant Vanaheim, via the shortest route through the wild 
+        lands of the Picts. To reassure his partners that the route is safe, he sends his own daughter, Ilona, to accompany the first 
+        convoy.</p>
+        <p>A week after her departure, one of the soldiers supposed to be protecting the merchants returns to Naum with terrible news. 
+        He is the survivor of an ambush led by a group of Picts. There was nothing they could do; everyone else was massacred.</p>
+        <p>Refusing to believe that his daughter is dead, Naum hires a troop of seasoned mercenaries to find her.</p>
+      </div>
+      <div class="col-md-6">
+        <p>These soldiers of fortune reach the ambush site after two days’ riding and surprise a group of Pict warriors searching the 
+        lifeless bodies of Naum’s men. The looters appear to be the ones responsible for the massacre, and have returned to collect 
+        whatever spoils were left to be taken.</p>
+        <p>The good news is that Ilona is not among the corpses. The bad news is that they’re going to have to track her down with 
+        their swords.</p>
+      </div>',
+
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Rescue+the+Princess.jpg",
+      
+      # scenario pre-title 
+      hero_goal: '',
+
+      # Setup
+      hero_setup: '
+      <div class="col-md-6">
+        <p><span class="setup_item">Objective</span></p>
+        <p>If the Heroes find at least 6 clues, question Zogar Sag and at least one of them escapes the jungle, the Heroes win.</p>
+
+        <p><span class="setup_item">Setup</span></p>
+        <p><strong>The game starts with the Heroes’ turn.</strong> The Heroes start in the area marked 
+        <span style="white-space: nowrap;"><img src="/assets/tokens/area1Token.png" class="small_token" />.</span> 
+
+        <p><span class="special_solo_title">3 Players</span></p>
+        <ul>
+          <li>Warrior: Leather Armor, Conan’s Sword, Buckler</li>
+          <li>Rogue: Kris, Bossonian Bow</li>
+          <li>Sorcerer: Dagger, the Spells Set’s Halo and Bori’s Rage</li>
+        </ul>
+
+        <p><span class="special_solo_title">4 Players</span></p>
+        <ul>
+          <li>Sellsword: Sword, Parrying Dagger, Leather Armor.</li>
+        </ul>
+
+        <p>For this two-scenario campaign, the Heroes can add the equipment they find to their Cache</p>.
+        <p>Take 8 generic tokens <img src="/assets/tokens/numBackToken.png" class="scen_token" />, 4 with an odd number and 
+        4 with an even number, and place them randomly in the areas indicated by the setup diagram. They represent the clues 
+        the Heroes must find.</p>
+        <p></p>
+
+       <table class="solo_left_table">
+          <tr>
+            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+            <td>After setup, each Hero moves 4 gems from their Reserve zone to their Fatigue zone.</td>
+          </tr>
+        </table>
+
+        <p><span class="setup_item">Asset Deck</span></p>
+
+        <p>Chests require a complex Manipulation with a difficulty of 2 to open. The Lockpicking Skill can be used. The asset deck 
+        contains: Explosive orb, Life Potion, Chain Mail, Shield, Sorcerer’s Staff, Battle Axe, Yuetshi Knife, Spellbook (Mitra’s 
+        Healing).</p>
+
+      </div>
+
+      <div class="col-md-6">
+
+        <p><span class="setup_item">Special Rules</span></p>
+
+        <p><span class="special_solo_title">Game Board Rules:</span> Standard game board rules apply except the Rope Vine (Ascend) 
+        rule modified as follows: The Overlord units with Climb in a ground area with a Rope Vine may ascend to the Cliff Top by 
+        spending 1 movement point. This movement is affected by Hindering.</p>
+
+        <p><span class="special_solo_title">Find a clue:</span> A Hero in an area with a Clue token 
+        <img src="/assets/tokens/numBackToken.png" class="scen_token" />  may search their surroundings to find it. Flip the token. 
+        If it shows an even value, perform a complex Manipulation with a difficulty of 2 to find the clue. If the token shows an 
+        odd value, the difficulty is 3. The Lockpicking Skill can be used. If successful, the Hero places the token next to their 
+        Hero sheet. If unsuccessful, leave the token face up in its area.</p>
+
+        <p><span class="special_solo_title">Question Zogar Sag:</span> Zogar Sag cannot lose his last Life Point. When he has only 1 Life 
+        Point left, a Hero in his area may perform a complex Manipulation with a difficulty of 3 to question him. If successful, the 
+        Hero places the Zogar Sag miniature next to their Hero sheet, and his tile is removed from the River.</p>
+
+        <p><span class="special_solo_title">Escape the jungle:</span> A Hero in the area marked “Escape” may spend movement points as if 
+        they were crossing a border to escape the jungle. Once a Hero has escaped, they cannot return to the board and still count 
+        for the number of Activation tokens to be drawn.</p>
+
+        <p><span class="setup_item">Events</span></p>
+
+        <p>When the Event tile is activated, resolve each of the following events in order:
+          <ol>
+            <li><span class="special_solo_title">More are coming!</span>1. Reinforce:</li>
+              <ul>
+                <li>1 Xotalanc Hunter in Reinforcement area <img src="/assets/tokens/areaAToken.png" class="small_token" /> ,</li>
+                <li>1 Pict Hunter in Reinforcement area <img src="/assets/tokens/areaBToken.png" class="small_token" /> ,</li>
+                <li>1 Xotalanc Warrior in Reinforcement area <img src="/assets/tokens/areaCToken.png" class="small_token" /> ,</li>
+                <li>1 Pict Warrior or 1 Crocodile in Reinforcement area <img src="/assets/tokens/areaDToken.png" class="small_token" /> .</li>
+              </ul>
+            <li><span class="special_solo_title">Activate Zogar Sag.</span> He always targets an Alternate Target Hero
+          </li>
+          </ol></p>
+ 
+        <p><span class="setup_item">Options</span></p>
+
+        <p><span class="special_title">Four Player Mode</span> 
+          <ul>
+            <li>Zogar Sag has 6 life points.</li>
+            <li><span class="special_solo_title">Reminder:</span> The Overlord activates four times per turn.</li>
+          </ul></p>
+      </div>',
+
+      overlord_goal: '',
+
+      overlord_setup: '',
+
+      # Number Token Used
+      rtoken1: 'num1Token',
+      rtoken2: 'num2Token',
+      rtoken3: 'num3Token',
+      rtoken4: 'num4Token',
+      rtoken5: 'num5Token',
+      rtoken6: 'num6Token',
+      rtoken7: 'num7Token',
+      rtoken8: '',
+
+      # Text under tile
+      btoken1: '(4 Max)',
+      btoken2: '(4 Max)',
+      btoken3: '(4 Max)',
+      btoken4: '(4 Max)',
+      btoken5: '',
+      btoken6: '',
+      btoken7: '(4 Max)',
+      btoken8: '',
+
+      tile1: 24,
+      tile2: 192,
+      tile3: 199,
+      tile4: 29,
+      tile5: 1,
+      tile6: 8,
+      tile7: 202,
+      tile8: 999,
+
+      life1: 0,
+      life2: 0,
+      life3: 0,
+      life4: 0,
+      life5: 0,
+      life6: 4,
+      life7: 0,
+      life8: 0,
+
+      # Hard Mode text/arrow
+      hardtext1: '',
+      hardtext2: '',
+      hardtext3: '',
+      hardtext4: '',
+      hardtext5: '',
+      hardtext6: '',
+      hardtext7: '',
+      hardtext8: '',
+
+      # Hard Mode tile
+      hardtile1: 999,
+      hardtile2: 999,
+      hardtile3: 999,
+      hardtile4: 999,
+      hardtile5: 999,
+      hardtile6: 999,
+      hardtile7: 999,
+      hardtile8: 999,
+
+      special_rules: '',
+
+      # campaign number   
+      event: '1/2',
+
+      # Result
+      hero_victory: '
+      <div class="col-md-6">
+        <p><span class="special_solo_title">Hero Victory:</span> The Picts were actually also mercenaries, in the pay of a shadowy patron. 
+        They don’t know their identity, but their leader, Zogar Sag, seems to be more up to speed. After a tough interrogation, he 
+        confesses that this is not the first time he has been paid to kidnap young women and drop them off on the edge of the nearby 
+        marshes. He admits that he has never dared venture there himself, as he is terrified by the stories of immortal creatures that 
+        have haunted the area for generations, long before he and his ancestors were born.</p> 
+        <p>The trail is now clear, and it leads straight into damp, dark depths of the wilderness.</p>   
+      </div>
+
+      <div class="col-md-6">
+        <p><span class="special_solo_title">Hero Defeat:</span> Fleeing is the only hope of survival. The mercenaries have no choice but 
+        to retreat and regroup. Who are these crazy-looking warriors adorned with strange ornaments who have come to help the Picts? 
+        The group’s sorcerer recalls tales of an ancient people from the dense southern jungles, wearing objects with decorative 
+        patterns similar to the ones they have just seen. According to the Stygian scrolls he has studied, these people were forced 
+        to flee their native city to escape endless war and famine. Their exodus took them northwards to the marshes in the wilderness, 
+        where they settled. So far, no one has ever been foolish enough to explore these lands and see if these tales were true.</p>
+        <p>Weakened and running out of alternatives, the mercenaries decide that this meagre lead is better than going back to 
+        Naum empty-handed.</p>
+      </div>',
+
+      overlord_victory: '',
+      correction: '',
+
+      origin: "Red Nails Stretch Goal",
+      product_ids: [1, 29],
+      map_ids: [20],
+      hero_ids: [],
+      tile_ids: [1, 8, 24, 29, 192, 199, 202],
+      spell_ids: [],
+      item_ids: [] },
+
+
+  # Solo / Co-Op
+  # The Village in the Mist
+    { name: "The Village in the Mist",
+      mode: 'Solo/Cooperative',
+      pdf_link:'',
+      credit: 'Manu Crochet',
+      player_count: "3-4",
+      complexity: '',
+
+      description: '
+      <div class="col-md-6">
+        <p>The sunlight fades as the mercenaries make their way deeper into the marshes, replaced by a gentle glow illuminating 
+        everything in a pale, ominous grey. They move cautiously forward, their footsteps muffled by the spongy mud as the thick 
+        mist rising from the stagnant water envelops them.</p>
+        <p>Suddenly, a macabre scene comes into view. Inert, decomposing bodies are hanging from poles right in front of them. Their 
+        skeletal faces, frozen in terror, seem to be screaming at the mercenaries to turn around and run.</p>
+        <p>Ignoring this warning, they continue on their way, guided by little more than the exceptional skills of their marauder, 
+        who has managed to pick up tracks leading through this murky, shifting environment.</p>
+        <p>After a long and arduous walk, a blurry shape emerges from the fog. It appears to </p>
+      </div>
+      <div class="col-md-6">
+        <p>be a wooden hut perched on stilts eaten away by damp and mold. Before long, other buildings appear and reveal an entire 
+        village filled with the crazy soldiers they fought earlier!</p>
+        <p>They seem to be in the right place, and the sight of Ilona, wrists bound as she is dragged roughly into one of the huts, 
+        dispels any lingering doubts. She is followed by a hauntingly beautiful but sinister- looking woman whose eyes glow with 
+        fascinating yet terrifying hypnotic intensity.</p>
+        <p>An occult ceremony is being prepared in the centre of the village. The mercenaries have seen enough in their countless 
+        adventures to know that it involves the sacrifice of a young woman.</p>
+        <p>There’s no time to lose!</p>
+      </div>',
+
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Village+in+the+Mist.jpg",
+      
+      # scenario pre-title 
+      hero_goal: '',
+
+      # Setup
+      hero_setup: '
+      <div class="col-md-6">
+        <p><span class="setup_item">Objective</span></p>
+        <p>If the Heroes free Ilona, achieve the additional objective and at least one of them escapes the swamps with 
+        Ilona, the Heroes win.</p>
+
+        <p><span class="setup_item">Setup</span></p>
+        <p><strong>If the Heroes won the previous scenario, the game starts with the Heroes’ turn. Otherwise, the game starts 
+        with the Overlord’s turn.</strong> The Heroes start in the area marked 
+        <span style="white-space: nowrap;"><img src="/assets/tokens/area1Token.png" class="small_token" />.</span></p>
+        <p>Take 6 Flame tokens <img src="/assets/tokens/flameToken.png" class="scen_token" /> and place them next to the board.</p>
+        <p>Place the Rope token <img src="/assets/tokens/ropeToken.png" class="scen_token" /> on Ilona’s miniature base, represented by 
+        the Princess miniature.</p>
+
+       <table class="solo_left_table">
+          <tr>
+            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+            <td>If the Heroes won the previous scenario, each Hero moves 3 gems from their Reserve zone to their Fatigue zone. 
+            Otherwise, each Hero moves 4 gems from their Reserve zone to their Fatigue zone.</td>
+          </tr>
+        </table>
+
+        <p><span class="setup_item">Asset Deck</span></p>
+
+        <p>Chests require a complex Manipulation with a difficulty of 2 to open. The Lockpicking Skill can be used. The asset 
+        deck contains: Explosive orb, Life Potion, Asshuri Cuirass, Tribal Shield, Shemite Bow, Rapier, Phoenix Sword, 
+        Spellbook (Mitra’s Halo).</p>
+
+        <p><span class="setup_item">Events</span></p>
+
+        <p>When the Event tile is activated, resolve each of the following events in order:
+          <ol>
+            <li>Reinforce 1 Xotalanc Spearman, 1 Xotalanc Assasin, 1 Xotalanc Warrior, 1 Crocodile, 1 Tecuhltli Swordsman. 
+            Heroes choose where the units are reinforced, but can not place more than 2 units in one reinforcement area./li>
+            <li>Activate Tascela.</li>
+            <li>If it is not already there, place the Rope token <img src="/assets/tokens/ropeToken.png" class="scen_token" /> on the 
+            base of Ilona’s miniature.</li>
+          </ol></p>
+
+        <p><span class="setup_item">Special Rules</span></p>
+
+        <p><span class="special_solo_title">Game Board Rules:</span> Standard game board rules apply except the “Water areas” rule which 
+        doesn’t affect the Overlord units.</p>
+
+        <p><span class="special_solo_title">Ilona:</span> She cannot suffer damage and does not count towards hindering.</p>
+
+        <p><span class="special_solo_title">Free Ilona:</span> A Hero in Ilona’s area may perform a complex Manipulation with a difficulty 
+        of 4 to free her. The Lockpicking Skill can be used. If successful, remove the Rope token from the base of her miniature and 
+        place it next to the board.</p>
+
+      </div>
+
+      <div class="col-md-6">
+      <p></p><p></p>
+
+        <p><span class="special_solo_title">Escort Ilona:</span> A Hero in Ilona’s area without the Rope token may perform a simple 
+        Manipulation to move her miniature to an adjacent area ignoring hindering. If the Rope token is on her miniature’s base, 
+        the Manipulation is complex with a difficulty of 1. If successful, move her miniature to an adjacent area ignoring hindering, 
+        remove the Rope token from her base and place it next to the board.</p>
+        <p>Each Hero cannot escort Ilona more than once per Turn.</p>
+
+        <p><span class="special_solo_title">Escape with Ilona:</span> A Hero in the area marked 
+        <img src="/assets/tokens/area1Token.png" class="small_token" /> with Ilona may spend movement points as if they were crossing 
+        a border to escape the swamp with her. Once a Hero has escaped, they cannot return to the board and still count for the 
+        number of Activation tokens to be drawn.</p>
+
+        <p><span class="special_solo_title">Additional Objective:</span> When Ilona is freed for the first time, she finds her courage and 
+        asks for your help before escaping this wretched place. Roll <img src="/assets/dice/Orange.png" class="scen_sq_token" />  (no 
+        rerolls). The number of successes indicates the additional objective to achieve.
+          <ul>
+            <li>0 success: Retrieve her father’s stolen goods. The Heroes must open all the chests.</li>
+            <li>1 success: Burn this cursed village. The Heroes must burn the village.</li>
+            <li>2 successes: Take revenge on Tascela. The Heroes must kill Tascela.</li>
+          </ul></p>
+
+        <p><span class="special_solo_title">Burn the village:</span> A Hero in a hut area may perform a complex Manipulation 
+        with a difficulty of 2 to set the hut on fire. If successful, place a Flame token in the hut area. There are 6 huts, and 
+        there can be only one Flame token per hut. When all 6 huts are set on fire, the village is burned.</p>
+
+        <p><span class="special_solo_title">Tascela:</span> She targets the Strongest Hero.
+          <ul>
+            <li><span class="special_solo_title">Fascination:</span> Each turn, the first Attack targeting her must reroll the 
+            die with the highest number of successes. This Special rule replaces the Fascination Skill.</li>
+            <li><span class="special_solo_title">Spellcaster:</span> Tascela has the Soul Leech spell. At the end of her 
+            activation, she casts it targeting the Strongest Hero.</li>
+          </ul></p>
+
+        <p><span class="special_solo_title">Xotalanc Spearmen:</span> The Xotalanc Spearmen only use their Ranged Attack.
+        <p><span class="special_solo_title">Xotalanc Assassins:</span> The Xotalanc Assassins only use their Melee Attack.
+ 
+        <p><span class="setup_item">Options</span></p>
+
+        <p><span class="special_title">Four Player Mode</span> 
+          <ul>
+            <li>Tascela has 7 Life Points</li>
+            <li><span class="special_solo_title">Reminder:</span> The Overlord activates four times per turn.</li>
+          </ul></p>
+      </div>',
+
+      overlord_goal: '',
+
+      overlord_setup: '',
+
+      # Number Token used
+      rtoken1: 'num1Token',
+      rtoken2: 'num2Token',
+      rtoken3: 'num3Token',
+      rtoken4: 'num4Token',
+      rtoken5: 'num5Token',
+      rtoken6: 'num6Token',
+      rtoken7: 'num7Token',
+      rtoken8: '',
+
+      # Text under tile
+      btoken1: '(4 Max)',
+      btoken2: '(3 Max)',
+      btoken3: '',
+      btoken4: '(4 Max)',
+      btoken5: '(4 Max)',
+      btoken6: '',
+      btoken7: '(4 Max)',
+      btoken8: '',
+
+      tile1: 201,
+      tile2: 196,
+      tile3: 184,
+      tile4: 198,
+      tile5: 202,
+      tile6: 1,
+      tile7: 192,
+      tile8: 999,
+
+      life1: 0,
+      life2: 0,
+      life3: 5,
+      life4: 0,
+      life5: 0,
+      life6: 0,
+      life7: 0,
+      life8: 0,
+
+      # Hard Mode text/arrow
+      hardtext1: '',
+      hardtext2: '',
+      hardtext3: '',
+      hardtext4: '',
+      hardtext5: '',
+      hardtext6: '',
+      hardtext7: '',
+      hardtext8: '',
+
+      # Hard Mode tile
+      hardtile1: 999,
+      hardtile2: 999,
+      hardtile3: 999,
+      hardtile4: 999,
+      hardtile5: 999,
+      hardtile6: 999,
+      hardtile7: 999,
+      hardtile8: 999,
+
+      special_rules: '',
+
+      # campaign number   
+      event: '2/2',
+
+      # Result
+      hero_victory: '
+      <div class="col-md-6">
+        <p><span class="special_solo_title">Hero Victory:</span> Ilona is safe. The mercenaries escape from this swampy hell, spurred on 
+        by the cries of their enemies who stop chasing them as soon as they cross the border of the marshes.</p>
+        <p>On the way back to Argos, Ilona recounts what she learned from her captors. Tascela and her people come from a cursed city, 
+        far to the south in the Black Kingdoms, where they were banished more than two centuries ago for their unholy practice of dark 
+        magic. They have managed to prolong their existence thanks to the supernatural powers of the witch, who is capable of sucking 
+        the youth out of one body and passing it on to another. They have sacrificed tens of thousands of victims in their ceremonies - 
+        which explains the myths and legends that have surrounded these marshes for generations. Over time, the marshland where they 
+        found refuge has become a prison in which they are condemned to wander for all eternity.</p>
+        <p>Naum falls to his knees when he sees his daughter safe and sound, and the generous bounty he pays the mercenaries allows 
+        them to enjoy endless excess and luxury for many nights in the exotic taverns and inns of Argos. But all good things must come 
+        to an end, and after squandering their pay our mercenaries return to their adventures, penniless. That, however, is a story for 
+        another time...</p>
+      </div>
+
+      <div class="col-md-6">
+        <p><span class="special_solo_title">Hero Defeat:</span> The mercenaries were no match for these crazed warriors. As their lifeless 
+        bodies sink into the swampy waters, Ilona is caught, bound and taken captive again.</p>
+        <p>After several days without news, Naum accepts that the mission must have been a failure and recruits new troops, hoping 
+        that they will bring his daughter back to him.</p>
+      </div>',
+
+      overlord_victory: '',
+      correction: '',
+
+      origin: "Red Nails Stretch Goal",
+      product_ids: [1, 3, 29],
+      map_ids: [6],
+      hero_ids: [],
+      tile_ids: [1, ],
+      spell_ids: [],
+      item_ids: [] },
+
+
+  # Versus
+  # A Hide Worth Dying For
+    { name: "A Hide Worth Dying For",
+      mode: 'Versus',
+      pdf_link:'',
+      credit: 'Manu Crochet',
+      player_count: "2",
+      complexity: '',
+
+      description: '
+      <p>The craftsmen of Nemedia are famed for being master leatherworkers. Their armour is as strong as it is light, and sells 
+      for the highest prices around the world. These exceptional qualities are made possible by a rare and precious raw material: 
+        the skin of the renowned Red River crocodile.</p>
+      <p>In the creatures’ native region, tanners battle each other to lay their hands on the finest skins. Some have even hired 
+      mercenaries to crush their competitors and secure a monopoly on this lucrative yet perilous trade.</p>
+      <p>But in the jungle, the greatest threat is not always who you might think...</p>',
+
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/A+Hide+Worth+Dying+For.jpg",
+
+      # End-Game Conditions:
+      hero_victory: '<p>When there are no Crocodiles left on the board, or there are no Hide tokens left next to the board.</p>',
+      
+      # General Victory Condition 
+      hero_goal: "The General has a higher value of tanned hides than the Warlord.",
+
+      # General Setup
+      hero_setup: '
+      <p>The General starts with <strong>9 gems</strong> in their Reserve zone and <strong>2 gems</strong> in their Fatigue zone, 
+      and places the Recovery token showing a <strong>recovery value of 5</strong> in their Book of Skelos.</p>
+      <p>The General may choose 2 spells: <strong><a class="spell" href="/spells/1">Bori’s Rage</a>, 
+      <a class="spell" href="/spells/88">Mitra’s Halo (vs)</a></strong>.</p>',
+
+      # Warlord Victory Condition 
+      overlord_goal: "The Warlord has a higher value of tanned hides than the General.",
+
+      # Warlord Setup
+      overlord_setup: '
+      <p><strong>Initiative:</strong> The Warlord has the initiative and starts the game.</p>
+
+      <p>The Warlord starts with <strong>11 gems</strong> in their Reserve zone and <strong>0 gems</strong> in their Fatigue zone, 
+      and places the Recovery token showing a <strong>recovery value of 5</strong> in their Book of Skelos.</p>
+      <p>The Warlord may choose 2 spells: <strong><a class="spell" href="/spells/49">Withering</a>, 
+      <a class="spell" href="/spells/91">Set’s Halo (vs)</a></strong>.</p>',
+
+      btoken1: 'Minion',
+      btoken2: 'Champion',
+      btoken3: 'Leader',
+      btoken4: 'Minion',
+      btoken5: 'Champion',
+      btoken6: '<img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" >',
+      btoken7: 'Minion',
+      btoken8: '',
+
+      rtoken1: 'Minion',
+      rtoken2: 'Champion',
+      rtoken3: 'Leader',
+      rtoken4: 'Minion',
+      rtoken5: 'Champion',
+      rtoken6: '<img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" >',
+      rtoken7: 'Minion',
+      rtoken8: '',
+
+      tile1: 4,
+      tile2: 3,
+      tile3: 1,
+      tile4: 4,
+      tile5: 3,
+      tile6: 0,
+      tile7: 4,
+      tile8: 0,
+
+      life1: 4,
+      life2: 3,
+      life3: 1,
+      life4: 4,
+      life5: 3,
+      life6: 0,
+      life7: 4,
+      life8: 0,
+
+      # Event:   
+      event: '<p>The player activates their Leader and gains 2 reinforcement points (the reinforcement areas are the same for 
+      both players). Then, they must use the following Special Rule.</p>
+      <p><span class="special_title">Hide and skin:</span> The player takes a Crocodile miniature from the Reserve and adds it 
+      to one of the Deep Water areas of the board.</p>',
+
+      # Special Rules:   
+      special_rules: '
+      <p><span class="special_title">Game Board Rules:</span> Standard game board rules apply.</p>
+      <p><span class="special_title">Setup:</span> Take 7 Chest tokens <img src="/assets/tokens/treasureToken.png" class="scen_token" /> 
+      numbered “1” and 4 Chest tokens <img src="/assets/tokens/treasureToken.png" class="scen_token" /> numbered “2” and place them next 
+      to the board. They represent the Crocodile skins.</p>
+      <p>Then, take 2 table tokens and place them as indicated by the setup diagram. They represent the tanning workshops. Finally, place the 
+      Crocodiles miniatures as indicated by the setup diagram and their tile between the two players.</p>
+      
+      <a class="tile" href="/tiles/192"><img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Crocodiles.jpg" class="scen_event float_tile"></a>
+      <p><span class="special_title">Crocodiles:</span> Before their Activation phase, a player must activate a Crocodile without 
+      spending any gem. They must perform a Move action towards the nearest unit (whatever their side) then perform a Melee Attack 
+      against that unit, if possible. Benefits cannot be used for the Crocodiles.</p>
+      <p><span class="special_title">Skin a Crocodile:</span> When a Crocodile is killed, its miniature is placed in the Reserve, 
+      next to their tile. Then the player who killed the Crocodile draws a Hide token from those available next to the board without 
+      looking at its value. If the Crocodile was killed with a Melee Attack, the token is placed on the base of the unit that killed 
+      it. If the Crocodile was killed with a Ranged Attack, the token is placed in the area where the Crocodile was.</p>
+      <p>When a unit with a Hide token on its base is killed, the token is dropped in their area.</p>
+      <p><span class="special_title">Pick up a hide:</span> A unit in the same area as a Hide token may pick it up by spending a 
+      movement point. The token is placed on the unit’s base without looking at its value. The Movement Benefit can be used.</p>
+      <p><span class="special_title">Tan a hide:</span> A unit with a Hide token on its base and in an area with a tanning workshop 
+      may replace their Attack to tan the hide.</p>
+      <p>The player controlling that unit flips the Hide token to reveal its value and places it next to their Book of Skelos. 
+      <p>Its value is added to the value of tanned hides the player has.</p>',
+
+      overlord_victory: '',
+
+      correction: '',
+
+      origin: "Red Nails Stretch Goal",
+      product_ids: [1, 3, 29, 30, 33],
+      map_ids: [20],
+      hero_ids: [],
+      tile_ids: [],
+      spell_ids: [1, 49, 88, 91],
+      item_ids: [] },
+
+
+  # Versus
+  # Bloody Mass
+    { name: "Bloody Mass",
+      mode: 'Versus',
+      pdf_link:'',
+      credit: 'Manu Crochet',
+      player_count: "2",
+      complexity: '',
+
+      description: '
+      <p>Since time immemorial, the religions of Mitra and Set have had a burning hatred for each other, which often degenerates 
+      into open warfare when tensions become too high.</p>
+      <p>In the past, the region of Tarantia, in Aquilonia, has been the setting for many of these armed showdowns, as it is home 
+      to a temple that each of the sects claims as its own. This ancient and long-abandoned site of power once again becomes a 
+      theatre of conflict when the worshippers of each group hear that the other faction is trying to seize control of the holy site.</p>
+      <p>The two sects rally their followers, hire mercenaries to bolster their ranks, and descend on Tarantia for what promises 
+      to be a bloody mass.</p>',
+
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Bloody+Mass.jpg",
+
+      # End-Game Conditions:
+      hero_victory: '<p>The game ends at the end of turn 9. In case of a tie, the players play an additional turn until one of 
+      the victory conditions is met.</p>',
+
+      # General Victory Condition 
+      hero_goal: "The General controls the temple.",
+
+      # General Setup
+      hero_setup: '
+      <p><strong>Initiative:</strong> The General has the initiative and starts the game.</p>
+      <p>The General starts with <strong>11 gems</strong> in their Reserve zone and <strong>0 gems</strong> in their Fatigue zone, 
+      and places the Recovery token showing a <strong>recovery value of 5</strong> in their Book of Skelos.</p>
+      <p>The General may choose 2 spells: <strong><a class="spell" href="/spells/1">Bori’s Rage</a>, 
+      <a class="spell" href="/spells/88">Mitra’s Halo (vs)</a></strong>.</p>',
+
+      # Warlord Victory Condition 
+      overlord_goal: "The Warlord controls the temple.",
+
+      # Warlord Setup
+      overlord_setup: '
+      <p>The Warlord starts with <strong>9 gems</strong> in their Reserve zone and <strong>2 gems</strong> in their Fatigue zone, 
+      and places the Recovery token showing a <strong>recovery value of 5</strong> in their Book of Skelos.</p>
+      <p>The Warlord may choose 2 spells: <strong><a class="spell" href="/spells/49">Withering</a>, 
+      <a class="spell" href="/spells/91">Set’s Halo (vs)</a></strong>.</p>',
+
+      btoken1: 'Minion',
+      btoken2: 'Leader',
+      btoken3: 'Champion',
+      btoken4: 'Minion',
+      btoken5: 'Champion',
+      btoken6: '<img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" >',
+      btoken7: 'Minion',
+      btoken8: '',
+
+      rtoken1: 'Minion',
+      rtoken2: 'Leader',
+      rtoken3: 'Champion',
+      rtoken4: 'Minion',
+      rtoken5: 'Champion',
+      rtoken6: '<img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/Event1.png" >',
+      rtoken7: 'Minion',
+      rtoken8: '',
+
+      tile1: 4,
+      tile2: 1,
+      tile3: 3,
+      tile4: 4,
+      tile5: 3,
+      tile6: 0,
+      tile7: 4,
+      tile8: 0,
+
+      life1: 4,
+      life2: 1,
+      life3: 3,
+      life4: 4,
+      life5: 3,
+      life6: 0,
+      life7: 4,
+      life8: 0,
+
+      # Event:   
+      event: '<p>The player activates their Leader and gains 2 reinforcement points (the reinforcement areas are the same for both 
+      players). Then, the player performs as many Special rules from the list below as consecrated places of worship they control.
+      A Special rule can only be performed once per Activation of the Event tile.</p>
+      <p><span class="special_title">Divine punishment:</span> The player chooses an opponent’s unit. They suffer 
+      <img src="/assets/dice/Orange.png" class="scen_sq_token" /> unavoidable damages (no Benefits allowed).</p>
+      <p><span class="special_title">Faith can move mountains:</span> The player chooses one of their units. They may move it to an 
+      adjacent area without hindering.</p>
+      <p><span class="special_title">Second wind:</span> The player moves 1 gem from their Fatigue zone to their Reserve zone.</p>
+      <p><span class="special_title">Resurrection:</span> The player reinforces 1 Champion Unit in the reinforcement area of their 
+      choice. Confounding argument: The player swaps the positions of 2 adjacent tiles in their opponent’s River.</p>
+      <p><span class="special_title">Confounding argument:</span> The player swaps the positions of 2 adjacent tiles in their 
+      opponent’s River.</p>',
+
+      # Special Rules:   
+      special_rules: '
+      <p><span class="special_title">Game Board Rules:</span> Standard game board rules apply with the following changes:</p>
+      <p>A unit with Climbing can move from a ground floor area to a balcony area by spending 1 extra movement point.</p>
+      <p>A unit can move across a railing from a balcony area to a ground floor area as though it were a border. The unit suffers 
+      <img src="/assets/dice/Orange.png" class="scen_sq_token" /> unavoidable damages. If the unit has Leap, the unit rolls 
+      <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> instead. </p>
+      <p><span class="special_title">Place of worship:</span> A place of worship is indicated on the setup diagram by an area in 
+      color. There are 7 of them. They represent strategic points to be controlled.</p>
+      
+      <p><span class="special_title">The faith:</span> The players take the 7 Flame tokens numbered 
+      <img src="/assets/tokens/flameToken.png" class="scen_token" /> on one face, and 
+      <img src="/assets/tokens/flame2Token.png" class="scen_token" /> on the other. They represent the fervor for one of the faiths. 
+      The General is a Mitra follower and uses the tokens on their <img src="/assets/tokens/flameToken.png" class="scen_token" /> face. 
+      The Warlord is a Set follower and uses the tokens on their<img src="/assets/tokens/flame2Token.png" class="scen_token" /> face.</p>
+      
+      <p><span class="special_title">Consecrate a place of worship:</span> A unit in place of worship area may replace their Attack 
+      to consecrate it to their faith. If there is no Faith token in that area, the player controlling that unit adds one Faith token 
+      with the face up showing their faith. If there is already a Faith token of their opponent in that area, flip it. There can be 
+      only one Faith token per place of worship.</p>
+      <p><span class="special_title">Control the temple:</span> The player with the most places of worship consecrated to their faith 
+      controls the temple.</p>',
+
+      overlord_victory: '',
+
+      correction: '',
+
+      origin: "Red Nails Stretch Goal",
+      product_ids: [1, 3, 29, 30, 33],
+      map_ids: [21],
+      hero_ids: [],
+      tile_ids: [],
+      spell_ids: [1, 49, 88, 91],
+      item_ids: [] },
+
+
+
+
+  ## King Pledge Solo / Co-Op Strech 
+
+    # Solo / Co-Op
+    # In the Clutches of the Picts
+    { name: "In the Clutches of the Picts",
+      mode: 'Solo/Cooperative',
+      pdf_link:'',
+      credit: '',
+      player_count: "3-4",
+      complexity: '',
+
+      description: '
+      <div class="col-md-6">
+        <p>With the echoing war drums of the Pict tribes settled
+        beyond the Black River and the increased frequency of incursions up to
+        the Thunder River, many settlers flee the Conajohara territory for the
+        safer lands of the Kingdom of Aquilonia.</p>
+        <p>While scouting along the border to aid Valannus, the Commander of Fort
+        Tuscelan, Conan bears witness to the massacre of a column of refugees from
+        Velitrium. The Picts withdraw victoriously with a female prisoner who</p>
+      </div>
+      <div class="col-md-6">
+        <p>Conan recognizes as Yselda, the daughter of the city’s governor. The Cimmerian
+        knows that Yselda’s life can now be measured in mere hours, as she will
+        shortly be sacrificed on the altar of Jhebbal Sag, the Lord of Beasts.
+        Back in Fort Tuscelan, Conan assembles a small group of experienced
+        warriors to rescue the governor’s daughter and, at Valannus’ request,
+        bring back the head of Zogar Sag.</p>
+      </div>',
+
+      map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/In+the+Clutches+of+the+Picts+Solo.jpg',
+
+      # scenario pre-title 
+      hero_goal: '',
+
+      # Setup
+      hero_setup: '
+      <div class="col-md-6">
+        <p><span class="setup_item">Objective</span></p>
+        <p>If one or more Heroes have fled the village with Yselda and Zogar Sag’s head, Yselda is returned safely to her father; the Heroes win the game.</p>
+
+        <p><span class="setup_item">Setup</span></p>
+        <p><strong>The game starts with the Heroes’ turn.</strong></p> 
+        <ul>
+          <li>Warrior: <a class="hero" href="/heroes/2">Conan</a> (<a class="item" href="/items/1">Battle Axe</a>, 
+          <a class="item" href="/items/19">Buckler</a>, <a class="item" href="/items/17">Leather Armor</a>)</li>
+          <li>Rogue: <a class="hero" href="/heroes/4">Shevatas</a> (<a class="item" href="/items/9">Kris</a>, 
+          <a class="item" href="/items/13">Throwing Knives</a>)</li>
+          <li>Sorcerer: <a class="hero" href="/heroes/3">Hadrathus</a> (<a class="item" href="/items/3">Dagger</a>, and 3 spells: 
+          <a class="spell" href="/spells/16">Teleportation</a>, <a class="spell" href="/spells/9">Mitra’s Halo</a>, 
+          <a class="spell" href="/spells/6">Lightning Storm</a>). He starts with Mitra’s Halo cast.</li>
+        </ul>
+
+        <p>Shuffle the “Yselda” Treasure token with two “Nothing” Treasure tokens and place them face-down in a stack beside the game 
+        board. Add the remaining “Nothing” Treasure tokens on top of this stack. This forms the Hut Search stack.</p>
+
+         <table class="solo_left_table">
+            <tr>
+              <td>
+                <img src="/assets/tokens/treasureToken.png" class="setup_token" /> 
+                <img src="/assets/tokens/num1Token.png" class="setup_token" /> 
+              </td>
+              <td>x7<br /> Nothing</td>
+              <td>
+                <img src="/assets/tokens/treasureToken.png" class="setup_token" /> 
+                <img src="/assets/tokens/num2Token.png" class="setup_token" /> 
+              </td>
+              <td>x1<br /> Yselda</td>
+            </tr>
+          </table>
+
+       <table class="solo_left_table">
+          <tr>
+            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+            <td>After setup, each Hero moves 4 gems from their Reserve zone to their Fatigue zone.</td>
+          </tr>
+        </table>
+
+
+        <p><span class="setup_item">Asset Deck</span></p>
+        <p>Chests require a complex Manipulation with a difficulty of 2 to open. The Asset deck contains: 
+        <a class="item" href="/items/6">Explosive Orb</a> x2, 
+        <a class="item" href="/items/22">Life Potion</a> x2, 
+        <a class="item" href="/items/16">Chainmail</a>, 
+        <a class="item" href="/items/5">Crossbow</a>, 
+        <a class="item" href="/items/20">Shield</a>, 
+        <a class="item" href="/items/2">Bossonian Bow</a>.</p>
+
+        <p><span class="setup_item">Events</span></p>
+        <p><span class="special_solo_title">Reinforcements:</span> Reinforce up to six <a class="tile" href="/tiles/24">Pict Hunters</a>. 
+        Place the first in the reinforcement area <img src="/assets/stats/reinforcement.png" class="scen_token" /> marked 1, the second 
+        in area 2, the third in area 3, the fourth back in area 1, the fifth in area 2, and the sixth in area 3.</p> 
+        <p>Then reinforce up to three <a class="tile" href="/tiles/29">Pict Warriors</a>. Place the first in reinforcement area 3, the 
+        second in area 2, and the third in area 1.</p>
+
+      </div>
+
+      <div class="col-md-6">
+
+        <p><span class="setup_item">Special Rules</span></p>
+
+        <p><span class="special_solo_title">Game Board Rules:</span> Standard game board rules apply except Overlord units do not spend 
+          1 extra movement point to move across a hut flap.</p>
+
+        <p><span class="special_solo_title">Searching the Huts:</span> When a Hero enters a hut for the first time, draw the top Treasure 
+        token from the Hut Search stack. and place it with the number side up in the hut. If the number is 1, the hut does not contain 
+        Yselda. If the number is 2, place the Princess miniature in the hut’s area.</p>
+
+        <p>Yselda is unconscious, counts as an object with an Encumbrance value of 6, and can be picked up by a Hero by performing a simple 
+        Manipulation. That Hero takes the Princess miniature and places it next to their Hero sheet. Yselda has one life point and no Armor. 
+        If she suffers any damage (such as an area attack), she dies and the Heroes immediately lose the game.</p>
+
+        <p><span class="special_solo_title">Let Sleeping Dogs Lie:</span> Overlord units in huts only move if they can reach a target or 
+        if there is a Treasure token in their hut indicating it has been searched. If units in an unsearched hut cannot reach a target, their 
+          activation is wasted.</p>
+
+        <p><span class="special_solo_title">Hyenas:</span> Every time this tile is activated and there aren’t five 
+        <a class="tile" href="/tiles/23">Hyenas</a> on the board, place additional Hyenas on the board to bring the total to five. 
+        The first Hyena should be placed in reinforcement area 1, the second in area 2, the third in area 3, the fourth in area 1, 
+        and the fifth in area 2.</p>
+
+        <p><span class="special_solo_title">Critical Hit:</span> If a Hyena rolls 2 successes during an attack, roll 1 
+        <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> and add the result to the attack roll.</p>
+
+        <p><span class="special_solo_title">Zogar Sag:</span> When <a class="tile" href="/tiles/8">Zogar Sag</a> dies, place his Life Point 
+        token <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ZogarSagToken.png" class="scen_token">in his area to 
+        represent his head. A Hero may pick the head up by performing a simple Manipulation. That Hero takes Zogar Sag’s Life Point token. 
+        The head has an Encumbrance value of 2.</p>
+
+        <p><span class="special_solo_title">Fleeing the Village:</span> A Hero can flee the village from an area at the edge of the board by spending movement points as though crossing a border. Once a Hero has fled, they cannot return to the board. A Hero that has fled is not considered to be killed; they are still counted for the number of Activation tokens to be drawn.</p>
+
+        <p><span class="setup_item">Options</span></p>
+
+        <p><span class="special_title">Four Player Mode</span> 
+          <ul>
+            <li>Sellsword: <a class="hero" href="/heroes/1">Bêlit</a> (<a class="item" href="/items/10">Ornamental Spear</a>), 
+            starts in the same area as any Hero.</li>
+            <li><span class="special_solo_title">Reminder:</span> The Overlord activates four times per turn.</li>
+          </ul></p>
+      </div>',
+
+      overlord_goal: '',
+
+      overlord_setup: '',
+
+      # Number Token used
+      rtoken1: '',
+      rtoken2: 'num1Token',
+      rtoken3: 'num2Token',
+      rtoken4: 'num3Token',
+      rtoken5: 'num4Token',
+      rtoken6: 'num5Token',
+      rtoken7: 'num6Token',
+      rtoken8: '',
+
+      # Text under tile
+      btoken1: '',
+      btoken2: '(12 Max)',
+      btoken3: '',
+      btoken4: '(3 Max)',
+      btoken5: '(5 Max)',
+      btoken6: '',
+      btoken7: '',
+      btoken8: '',
+
+      tile1: 999,
+      tile2: 24,
+      tile3: 8,
+      tile4: 29,
+      tile5: 23,
+      tile6: 10,
+      tile7: 1,
+      tile8: 999,
+
+      life1: 0,
+      life2: 0,
+      life3: 6,
+      life4: 0,
+      life5: 0,
+      life6: 8,
+      life7: 0,
+      life8: 0,
+
+      # Hard Mode text/arrow
+      hardtext1: '',
+      hardtext2: '',
+      hardtext3: '',
+      hardtext4: 'arrow',
+      hardtext5: 'arrow',
+      hardtext6: '',
+      hardtext7: '',
+      hardtext8: '',
+
+      # Hard Mode tile
+      hardtile1: 901,
+      hardtile2: 999,
+      hardtile3: 999,
+      hardtile4: 132,
+      hardtile5: 140,
+      hardtile6: 999,
+      hardtile7: 999,
+      hardtile8: 999,
+
+
+      special_rules: '',
+
+      correction: '',
+      hero_victory: '',
+      overlord_victory: '',
+
+      origin: "King Pledge Solo/Coop",
+      product_ids: [1, 34],
+      map_ids: [1],
+      hero_ids: [1, 2, 3, 4],
+      tile_ids: [1, 8, 10, 23, 24, 29, 132, 140],
+      spell_ids: [6, 9, 16],
+      item_ids: [1, 2, 3, 5, 6, 9, 13, 16, 17, 19, 20, 22] },
+
+
+    # Solo / Co-Op
+    # Hunting the Tigress
+    { name: "Hunting the Tigress",
+      mode: 'Solo/Cooperative',
+      pdf_link:'',
+      credit: '',
+      player_count: "3-4",
+      complexity: '',
+
+      description: '
+      <div class="col-md-6">
+        <p>For months, the pirate ship Tigress has been scouring the
+        waters off the coasts of Stygia and the Black Kingdoms and preying on
+        the profitable trade of gold and ivory, much to the displeasure of King
+        Ctesphon. As the Stygian fleet seems unable to put an end to the piracy,
+        the king has promised a colossal sum to whomever can bring back Bêlit’s
+        head.</p>
+        <p>With Bêlit’s vessel anchored to resupply and a large portion of the
+        crew on shore, Zaporavo, the Zingaran</p>
+      </div>
+      <div class="col-md-6">
+        <p>captain of The Vandal, takes the
+        opportunity to attack in hopes of claiming the enormous reward and the
+        glory that accompanies it.</p>
+        <p>Supported by a row of archers and the black magic of Skuthus, a
+        Stygian necromancer sent by Ctesphon, the Zingaran mercenary and his
+        troops quickly gain a foothold on the deck of the Tigress. Only Conan,
+        Shevatas, and a handful of remaining warriors can come to Bêlit’s aid.</p>
+      </div>',
+
+      map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Hunting+the+Tigress+Solo.jpg',
+
+      # scenario pre-title 
+      hero_goal: '',
+
+      # Setup
+      hero_setup: '
+      <div class="col-md-6">
+        <p><span class="setup_item">Objective</span></p>
+        <p>To win the game, the Heroes must kill Skuthus, Zaporavo, and the Outer Dark Demon before the end of turn 8 while keeping 
+        Bêlit alive. If Bêlit dies, the Heroes immediately lose the game.</p>
+
+        <p><span class="setup_item">Setup</span></p>
+        <p><strong>The game starts with the Heroes’ turn.</strong></p> 
+        <ul>
+          <li>Sellsword: <a class="hero" href="/heroes/1">Bêlit</a> (<a class="item" href="/items/10">Ornamental Spear</a>, 
+          <a class="item" href="/items/21">Tribal Shield</a>), commands 5 <a class="tile" href="/tiles/14">Belit’s Guards</a>.</li>
+          <li>Warrior: <a class="hero" href="/heroes/2">Conan</a> (<a class="item" href="/items/1">Battle Axe</a>, 
+          <a class="item" href="/items/17">Leather Armor</a>)</li>
+          <li>Rogue: <a class="hero" href="/heroes/4">Shevatas</a> (<a class="item" href="/items/12">Sword</a>, 
+          <a class="item" href="/items/17">Leather Armor</a>, <a class="item" href="/items/13">Throwing Knives</a>)</li>
+        </ul>
+
+        <p>Set the <a class="tile" href="/tiles/12">Outer Dark Demon</a> tile and miniature to the side. This will be added during the course of the scenario.</p>
+
+       <table class="solo_left_table">
+          <tr>
+            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+            <td>After setup, each Hero moves 4 gems from their Reserve zone to their Fatigue zone.</td>
+          </tr>
+        </table>
+
+
+        <p><span class="setup_item">Asset Deck</span></p>
+        <p>Chests require a complex Manipulation with a difficulty of 2 to open. The Asset deck contains: 
+        <a class="item" href="/items/22">Life Potion</a> x2, <a class="item" href="/items/6">Explosive Orb</a>, 
+        <a class="item" href="/items/20">Shield</a>.</p>
+
+
+        <p><span class="setup_item">Event</span></p>
+        <p>When the Event tile is activated, resolve each of the following events in order:
+        <ol>
+          <li><span class="special_solo_title">Reinforcements:</span>  Roll <img src="/assets/dice/Red.png" class="scen_sq_token" /> 
+          (no rerolls allowed) to determine how many colorless Pirates are reinforced in the reinforcement area 
+          <img src="/assets/stats/reinforcement.png" class="scen_token" /> . Repeat this process for the green 
+          <a class="tile" href="/tiles/32">Pirates</a>, and then for the <a class="tile" href="/tiles/15">Bossonian Archers</a>. 
+          If this area is occupied, place the reinforcements in the adjacent area closest to the other ship.</li>
+          <li><span class="special_solo_title">Fire at will:</span> Each Bossonian Archer performs a Ranged Attack targeting the 
+          Strongest Hero.</li>
+        </ol>        
+
+      </div>
+
+      <div class="col-md-6">
+
+        <p><span class="setup_item">Special Rules</span></p>
+        <p><span class="special_solo_title">Game Board Rules:</span> Standard game board rules apply.</p>
+
+        <p><span class="special_solo_title">Supreme Leader:</span> When using the Leadership skill, Bêlit may spend 1 gem to activate 
+        all Bêlit’s Guard units on the game board following the Cunning Attackers rule (see page 7) rather than 1 gem per unit.</p>
+
+        <p><span class="special_solo_title">Leap:</span> If a unit (Hero or Overlord) fails to leap, they remain in their area. 
+        Overlord units prioritize leaping over an area with the lowest leap difficulty unless leaping over a higher leap difficulty 
+        area is the only way to reach their Target Hero or Alternate Target Hero.</p>
+
+        <p><span class="special_solo_title">Duelists:</span> <a class="tile" href="/tiles/7">Zaporavo</a> targets the Strongest Hero.</p>
+
+        <p><span class="special_solo_title">Skuthus:</span> Has the spells <a class="spell" href="/spells/9">Mitra’s Halo</a> and 
+        <a class="spell" href="/spells/12">Set’s Bite</a>. When <a class="tile" href="/tiles/5">Skuthus</a> activates, he casts Set’s 
+        Bite at his chosen target (see <strong>Stay on Target</strong> rule). Mitra’s Halo is always active.</p>
+
+        <p><span class="special_solo_title">Stay on Target:</span> Skuthus, the Outer Dark Demon, and the green Pirates target Bêlit. 
+        They will only attack a different Hero if they end their movement in an area with that Hero and Bêlit is not in that area.</p>
+
+        <p><span class="special_solo_title">Glory to Set:</span> When Skuthus dies, place the Outer Dark Demon miniature in his area and 
+        replace his tile with the Outer Dark Demon tile.</p>
+
+
+        <p><span class="setup_item">Options</span></p>
+
+        <p><span class="special_title">Four Player Mode</span> 
+          <ul>
+            <li>Sorcerer: <a class="hero" href="/heroes/3">Hadrathus</a> (<a class="item" href="/items/11">Parrying Dagger</a>, 
+            and 3 spells: <a class="spell" href="/spells/4">Gift of Life</a>, <a class="spell" href="/spells/8">Mind Control</a>, 
+            <a class="spell" href="/spells/13">Set’s Halo</a>) starts in the same area as Conan and Shevatas. He starts with Set’s Halo cast.</li>
+            <li><span class="special_solo_title">Reminder:</span> The Overlord activates four times per turn.</li>
+          </ul></p>
+      </div>',
+
+      overlord_goal: '',
+
+      overlord_setup: '',
+
+      # Number Token used
+      rtoken1: 'num1Token',
+      rtoken2: 'num2Token',
+      rtoken3: 'num3Token',
+      rtoken4: 'num4Token',
+      rtoken5: 'num5Token',
+      rtoken6: 'num6Token',
+      rtoken7: '',
+      rtoken8: '',
+
+      # Text under tile
+      btoken1: '(10 Max))',
+      btoken2: '(5 Max)',
+      btoken3: '',
+      btoken4: '(5 Max)',
+      btoken5: '',
+      btoken6: '',
+      btoken7: '',
+      btoken8: '',
+
+      tile1: 30,
+      tile2: 32,
+      tile3: 1,
+      tile4: 15,
+      tile5: 5,
+      tile6: 7,
+      tile7: 999,
+      tile8: 12,
+
+      life1: 0,
+      life2: 0,
+      life3: 0,
+      life4: 0,
+      life5: 5,
+      life6: 10,
+      life7: 0,
+      life8: 6,
+
+      # Hard Mode text/arrow
+      hardtext1: '',
+      hardtext2: '',
+      hardtext3: 'Use either',
+      hardtext4: 'arrow',
+      hardtext5: 'arrow',
+      hardtext6: '',
+      hardtext7: '',
+      hardtext8: '',
+
+      # Hard Mode tile
+      hardtile1: 901,
+      hardtile2: 999,
+      hardtile3: 219,
+      hardtile4: 136,
+      hardtile5: 155,
+      hardtile6: 999,
+      hardtile7: 999,
+      hardtile8: 999,
+
+      special_rules: '',
+
+      correction: '',
+      hero_victory: '',
+      overlord_victory: '',
+
+      origin: "King Pledge Solo/Coop",
+      product_ids: [1, 34],
+      map_ids: [3],
+      hero_ids: [1, 2, 3, 4],
+      tile_ids: [1, 5, 7, 12, 14, 15, 30, 32, 136, 155, 219],
+      spell_ids: [4, 8, 9, 12, 13],
+      item_ids: [1, 6, 10, 11, 12, 13, 17, 20, 21, 22] },
+
+
+    # Solo / Co-Op
+    # In the Heart of Darkness
+    { name: "In the Heart of Darkness",
+      mode: 'Solo/Cooperative',
+      pdf_link:'',
+      credit: '',
+      player_count: "3-4",
+      complexity: '',
+
+
+      description: '
+      <div class="col-md-6">
+        <p>The Tigress travels the dark waters of the Zarkheba river,
+        whose mysterious shores are covered by gloomy jungle. The Queen of the
+        Black Coast knows that, beyond the tangled wall of vegetation, an ancient
+        city may yet hide fabulous treasures. But legends speak of hauntings,
+        and the local tribes carefully avoid the area.</p>
+        <p>After many hours spent sailing in a supernatural silence, Conan spots
+        the black fangs of towers stretching above the trees. Choked by overgrowth,
+        the ruins exude decadence and desolation.</p>
+      </div>
+      <div class="col-md-6">
+        <p>Not heeding the superstitious warnings of her men, Bêlit disembarks with
+        her Cimmerian lover, Shevatas, and a few reluctant crewmen. In an abandoned
+        crypt, they discover a handful of colorful gems and a strange curved knife,
+        spurring them to press deeper into the ruins.</p>
+        <p>In the center of the city they come upon a small fortress, its broken-down
+        towers and crumbled walls held together by thick vegetation. Only then do
+        they hear the echoes of a voice from beyond the grave:
+        “Return my belongings, heathen profaners, or I shall drench the altar of
+        Set with your blood!” Skuthus’ trap has been sprung.</p>
+      </div>',
+
+      map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/In+the+Heart+of+Darkness+Solo.jpg',
+
+      # scenario pre-title 
+      hero_goal: '',
+
+      # Setup
+      hero_setup: '
+      <div class="col-md-6">
+        <p><span class="setup_item">Objective</span></p>
+        <p>To win the game, the Heroes must kill Skuthus before the end of turn 8.</p>
+
+        <p><span class="setup_item">Setup</span></p>
+        <p><strong>The game starts with the Heroes’ turn.</strong></p> 
+        <ul>
+          <li>Warrior: <a class="hero" href="/heroes/2">Conan</a> (<a class="item" href="/items/1">Battle Axe</a>, 
+          <a class="item" href="/items/20">Shield</a>, <a class="item" href="/items/17">Leather Armor</a>)</li>         
+          <li>Rogue: <a class="hero" href="/heroes/4">Shevatas</a> (<a class="item" href="/items/12">Sword</a>, 
+          <a class="item" href="/items/13">Throwing Knives</a>)</li>
+          <li>Sellsword: <a class="hero" href="/heroes/1">Bêlit</a> (<a class="item" href="/items/10">Ornamental Spear</a>, 
+          <a class="item" href="/items/19">Buckler</a>, <a class="item" href="/items/17">Leather Armor</a>), commands 3 
+          <a class="tile" href="/tiles/14">Belit’s Guards</a>.</li>
+        </ul>
+
+        <p>Shuffle Activation tokens <img src="/assets/tokens/num6Token.png" class="scen_token" /> , 
+        <img src="/assets/tokens/num7Token.png" class="scen_token" /> , and <img src="/assets/tokens/num8Token.png" class="scen_token" /> 
+        and keep them facedown near the Book of Skelos. These tokens will be added to the Book of Skelos over the course of the scenario.</p>
+
+       <table class="solo_left_table">
+          <tr>
+            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+            <td>After setup, each Hero moves 4 gems from their Reserve zone to their Fatigue zone.</td>
+          </tr>
+        </table>
+
+
+        <p><span class="setup_item">Asset Deck</span></p>
+        <p>Chests require a complex Manipulation with a difficulty of 2 to open. The Asset deck contains: 
+        <a class="item" href="/items/22">Life Potion</a> x2, <a class="item" href="/items/6">Explosive Orb</a> x2, 
+        <a class="item" href="/items/15">Yuetshi Knife</a>.</p>
+
+
+        <p><span class="setup_item">Event</span></p>
+        <p><span class="special_solo_title">Wicked Incantation:</span> Perform the following actions in order:
+        <ol>
+          <li>Add 1 <a class="tile" href="/tiles/23">Hyena</a> and 1 <a class="tile" href="/tiles/15">Bossonian Archer</a> to each 
+          reinforcement area <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</li>
+          <li>Randomly draw one of the facedown Activation tokens placed near the Book of Skelos during setup. The corresponding monster 
+          (see Petrified Monsters) is freed and can now activate and be attacked. Activate this monster and add its Activation token to 
+          the Fatigue zone in the Book of Skelos. Once all three monsters are freed, ignore this step and instead activate Skuthus.</li>
+        </ol></p>        
+
+      </div>
+
+      <div class="col-md-6">
+
+        <p><span class="setup_item">Special Rules</span></p>
+        <p><span class="special_solo_title">Game Board Rules:</span> Standard game board rules apply.</p>
+
+        <p><span class="special_solo_title">Yuetshi Knife:</span> When a Hero attacks <a class="tile" href="/tiles/11">Khosatral Khel</a> 
+        with the <a class="item" href="/items/15">Yuetshi Knife</a>, Khosatral Khel’s Armor value becomes 3 for that attack.</p>
+
+        <p><span class="special_solo_title">Skuthus:</span> Has the spell Set’s Bite. When <a class="tile" href="/tiles/5">Skuthus</a> activates, either by the Event or 
+        his standard activation, he performs the following actions in order:
+        <ol>
+          <li>Move towards the Target Hero.</li>
+          <li>Attack Target Hero (if possible).</li>
+          <li>Cast Set’s Bite on Target Hero (if possible).</li>
+        </ol> </p> 
+
+        <p><span class="special_solo_title">Mystical Protection:</span> Skuthus cannot be wounded until the 
+        <a class="tile" href="/tiles/9">Dark Demon</a>, <a class="tile" href="/tiles/12">Outer Dark Demon</a>, 
+        Khosatral Khel, and the <a class="tile" href="/tiles/10">Giant Snake</a> have been killed.</p>
+
+        <p><span class="special_solo_title">Might Seeks Might:</span> The Dark Demon, Giant Snake, Outer Dark Demon, and Khosatral Khel 
+        target the Strongest Hero.</p>
+
+        <p><span class="special_solo_title">Petrified Monsters:</span> The Outer Dark Demon, Giant Snake, and Khosatral Khel are 
+        petrified and cannot activate or be attacked until they are freed via the Event tile.</p>
+
+
+        <p><span class="setup_item">Options</span></p>
+
+        <p><span class="special_title">Four Player Mode</span> 
+          <ul>
+            <li>Sorcerer: <a class="hero" href="/heroes/3">Hadrathus</a> (<a class="item" href="/items/11">Parrying Dagger</a>, 
+            and 3 spells: 
+            <a class="spell" href="/spells/10">Mitra’s Healing</a>, 
+            <a class="spell" href="/spells/13">Set’s Halo</a>, 
+            <a class="spell" href="/spells/16">Teleportation</a>) starts in the same area as Conan and Shevatas. He does not start with Set’s Halo cast.</li>
+            <li><span class="special_solo_title">Reminder:</span> The Overlord activates four times per turn.</li>
+          </ul></p>
+      </div>',
+
+      overlord_goal: '',
+
+      overlord_setup: '',
+
+      # Number Token used
+      rtoken1: 'num1Token',
+      rtoken2: 'num2Token',
+      rtoken3: 'num3Token',
+      rtoken4: 'num4Token',
+      rtoken5: 'num5Token',
+      rtoken6: 'num6Token',
+      rtoken7: 'num7Token',
+      rtoken8: 'num8Token',
+
+      # Text under tile
+      btoken1: '',
+      btoken2: '',
+      btoken3: '(5 Max)',
+      btoken4: '(5 Max)',
+      btoken5: '',
+      btoken6: '',
+      btoken7: '',
+      btoken8: '',
+
+      tile1: 9,
+      tile2: 5,
+      tile3: 15,
+      tile4: 23,
+      tile5: 1,
+      tile6: 11,
+      tile7: 10,
+      tile8: 12,
+
+      life1: 6,
+      life2: 5,
+      life3: 0,
+      life4: 0,
+      life5: 0,
+      life6: 9,
+      life7: 7,
+      life8: 7,
+
+      # Hard Mode text/arrow
+      hardtext1: '',
+      hardtext2: 'arrow',
+      hardtext3: 'arrow',
+      hardtext4: 'arrow',
+      hardtext5: '',
+      hardtext6: '',
+      hardtext7: '',
+      hardtext8: '',
+
+      # Hard Mode tile
+      hardtile1: 901,
+      hardtile2: 72,
+      hardtile3: 136,
+      hardtile4: 98,
+      hardtile5: 999,
+      hardtile6: 999,
+      hardtile7: 999,
+      hardtile8: 999,
+
+      special_rules: '',
+
+      correction: '',
+      hero_victory: '',
+      overlord_victory: '',
+
+      origin: "King Pledge Solo/Coop",
+      product_ids: [1, 34],
+      map_ids: [4],
+      hero_ids: [1, 2, 3, 4],
+      tile_ids: [1, 5, 9, 10, 11, 12, 14, 15, 23, 72, 98, 136],
+      spell_ids: [10, 13, 16],
+      item_ids: [1, 6, 10, 11, 12, 13, 15, 17, 19, 20, 22] },
+
+
+    # Solo / Co-Op
+    # The Final Ritual
+    { name: "The Final Ritual",
+      mode: 'Solo/Cooperative',
+      pdf_link:'',
+      credit: '',
+      player_count: "3-4",
+      complexity: '',
+
+      description: '
+      <div class="col-md-6">
+        <p>The province of Conajohara is being sacked. United clans
+        of Picts have crossed the Black River in massive numbers, intent on
+        slaughtering Aquilonian settlers and annihilating Fort Tuscelan. At the
+        head of the invading forces is the shaman Zogar Sag.</p>
+        <p>Conan and his band of scouts travel the border ceaselessly, saving all
+        who can still be saved. In the vast swamps at the southern edge of the
+        province, they arrive at a village </p>
+      </div>
+      <div class="col-md-6">
+        <p>as panicked settlers flee before the Pict advance. Only a courageous priestess of 
+        Mitra has remained to slow the savage warriors and prevent the coming massacre.</p>
+        <p>Conan and his allies set to building barricades and the priestess begins
+        a magical ritual using the six relics of her village. If she can complete
+        the invocation, it should slow Zogar Sag’s troops and buy the fleeing
+        settlers the time they need to survive.</p>
+      </div>',
+
+      map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Final+Ritual+Solo.jpg',
+
+      # scenario pre-title 
+      hero_goal: '',
+
+      # Setup
+      hero_setup: '
+      <div class="col-md-6">
+        <p><span class="setup_item">Objective</span></p>
+        <p>If the Invocation token <img src="/assets/tokens/invocationToken.png" class="scen_token" /> reaches space 0 or 
+        if the Priestess of Mitra survives until the end of turn 12, the ritual is complete; the Heroes win the game.</p>
+
+        <p><span class="setup_item">Setup</span></p>
+        <p><strong>The game starts with the Overlord’s turn.</strong></p> 
+        <ul>
+          <li>Warrior: <a class="hero" href="/heroes/2">Conan</a> (<a class="item" href="/items/1">Battle Axe</a>, 
+          <a class="item" href="/items/20">Shield</a>, <a class="item" href="/items/17">Leather Armor</a>)</li> 
+          <li>Rogue: <a class="hero" href="/heroes/4">Shevatas</a> (<a class="item" href="/items/2">Bossonian Bow</a>, 
+          <a class="item" href="/items/12">Sword</a>)</li>
+          <li>Sorcerer: <a class="hero" href="/heroes/3">Hadrathus</a> (<a class="item" href="/items/3">Dagger</a>, 
+            and 3 spells: 
+            <a class="spell" href="/spells/16">Teleportation</a>, <a class="spell" href="/spells/13">Mitra’s Halo</a>,
+            <a class="spell" href="/spells/6">Lightning Storm</a>). He does not start with Mitra’s Halo cast.</li>
+        </ul>
+
+        <p>During setup, place the Invocation token <img src="/assets/tokens/invocationToken.png" class="scen_token" />  on space 10 
+        of the Turn track.</p>
+        
+        <p>Place Activation token <img src="/assets/tokens/num6Token.png" class="scen_token" /> face up in the Fatigue zone of the 
+        Book of Skelos. This will be refreshed with the other Activation tokens after Activation tokens 1 through 5 have activated.</p>
+
+       <table class="solo_left_table">
+          <tr>
+            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+            <td>After setup, each Hero moves 4 gems from their Reserve zone to their Fatigue zone.</td>
+          </tr>
+        </table>
+
+
+        <p><span class="setup_item">Event</span></p>
+        <p>When the Event tile is activated, resolve each of the following events in order:
+        <ol>
+          <li><span class="special_solo_title">Pict Hordes:</span> Reinforce all dead <a class="tile" href="/tiles/29">Pict Warriors</a> 
+          to the board in reinforcement areas <img src="/assets/stats/reinforcement.png" class="scen_token" /> as evenly as possible. 
+          Then do the same with all red <a class="tile" href="/tiles/28">Pict Hunters</a>, followed by all colorless 
+            <a class="tile" href="/tiles/24">Pict Hunters</a>. Players may choose in which reinforcement area to place any 
+            remainder miniatures.</li>
+          <li><span class="special_solo_title">Bestial Haste:</span> Pict Warriors and red Pict Hunters that were returned to the 
+          board by the previous Pict Hordes event gain 2 movement points they must immediately spend.</li>
+          <li><span class="special_solo_title">Incantation:</span> Roll <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> 
+          (no rerolls allowed) for each Relic on the board. For each success shown on a die, move the Invocation token 
+          <img src="/assets/tokens/invocationToken.png" class="scen_token" /> 1 space toward space 0 on the Turn track.</li>
+        </ol></p>    
+
+      </div>
+
+      <div class="col-md-6">
+
+        <p><span class="setup_item">Special Rules</span></p>
+
+        <p><span class="special_solo_title">Game Board Rules:</span> Standard game board rules apply except Overlord units do not spend 
+          1 extra movement point to move across a hut flap.</p>
+
+        <p><span class="special_solo_title">Relic:</span> If an Overlord unit enters an area with a Relic, represented by the 
+        <img src="/assets/tokens/treasureToken.png" class="scen_token" /> token, remove the Relic from the board.</p>
+
+        <p><span class="special_solo_title">Barricades:</span> Barricades block line of sight. A unit cannot move across a Barricade, 
+        but can attack a it as though it were an enemy unit. Each Barricade starts with 12 life points. Use the respective 
+        <img src="/assets/tokens/barricadeLifeToken.png" class="scen_token" /> tokens to track their life points. When a Barricade has 0 life points, 
+        remove it from the board.</p>
+
+        <p><span class="special_solo_title">Priestess of Mitra:</span> She is represented by the Princess miniature. The Priestess cannot move, 
+        be carried, or be attacked. At the beginning of the Overlord’s turn, if any Overlord unit is in an area with the Priestess, she is killed.</p>
+
+        <p><span class="special_solo_title">Picts:</span> Overlord units attack the closest Barricade. When the closest Barricade is 
+        removed, they will then attempt to reach their objectives described below.</p>
+
+        <p><span class="special_solo_title">Pict Warriors:</span> Pict Warriors target the Strongest Hero.</p>
+
+        <p><span class="special_solo_title">Zogar Sag & red Pict Hunters:</span> <a class="tile" href="/tiles/8">Zogar Sag</a> and the 
+        red Pict Hunters are trying to destroy the Relics. They spend ALL movement points trying to reach the closest area with a Relic. 
+        When moving, they will avoid hindering if possible while still following the shortest path. They will only attack a Hero if 
+        they end their movement in the area with a Hero.</p>
+        
+        <p>When no Relics remain, Zogar Sag targets the Strongest Hero and the red Pict Hunters follow standard targeting rules.</p>
+
+        <p><span class="special_solo_title">Colorless Pict Hunters:</span> The colorless Pict Hunters target the Priestess of Mitra. 
+        They spend ALL movement points trying to reach her. When moving, they will avoid hindering if possible while still following 
+        the shortest path. They will only attack a Hero if they end their movement in the area with a Hero.</p>
+
+        <p><span class="setup_item">Options</span></p>
+
+        <p><span class="special_title">Four Player Mode</span> 
+          <ul>
+            <li>Sellsword: <a class="hero" href="/heroes/1">Bêlit</a> (<a class="item" href="/items/16">Chain Mail</a>, 
+            <a class="item" href="/items/10">Ornamental Spear</a>), commands 5 <a class="tile" href="/tiles/14">Belit’s Guards</a>. 
+            She starts in the same area as the other Heroes.</li>
+
+            <li><span class="special_solo_title">Supreme Leader:</span> When using the Leadership skill, Bêlit may spend 1 gem to activate 
+            all Bêlit’s Guard units on the game board following the Cunning Attackers rule (see page 7) rather than 1 gem per unit.</li>
+
+            <li><span class="special_solo_title">Reminder:</span> The Overlord activates four times per turn.</li>
+          </ul></p>
+      </div>',
+
+
+      overlord_goal: '',
+
+      overlord_setup: '',
+
+      # Number Token used
+      rtoken1: '',
+      rtoken2: 'num1Token',
+      rtoken3: 'num2Token',
+      rtoken4: 'num3Token',
+      rtoken5: 'num4Token',
+      rtoken6: 'num5Token',
+      rtoken7: 'num6Token',
+      rtoken8: '',
+
+      # Text under tile
+      btoken1: '',
+      btoken2: '(5 Max)',
+      btoken3: '',
+      btoken4: '',
+      btoken5: '(3 Max)',
+      btoken6: '(12 Max)',
+      btoken7: '',
+      btoken8: '',
+
+      tile1: 999,
+      tile2: 29,
+      tile3: 8,
+      tile4: 8,
+      tile5: 28,
+      tile6: 24,
+      tile7: 1,
+      tile8: 999,
+
+      life1: 0,
+      life2: 0,
+      life3: 10,
+      life4: 0,
+      life5: 0,
+      life6: 0,
+      life7: 0,
+      life8: 0,
+
+      # Hard Mode text/arrow
+      hardtext1: '',
+      hardtext2: '',
+      hardtext3: 'arrow',
+      hardtext4: 'arrow',
+      hardtext5: 'arrow',
+      hardtext6: '',
+      hardtext7: '',
+      hardtext8: '',
+
+      # Hard Mode tile
+      hardtile1: 901,
+      hardtile2: 999,
+      hardtile3: 58,
+      hardtile4: 58,
+      hardtile5: 179,
+      hardtile6: 999,
+      hardtile7: 999,
+      hardtile8: 999,
+
+      special_rules: '',
+
+      correction: '',
+      hero_victory: '',
+      overlord_victory: '',
+
+      origin: "King Pledge Solo/Coop",
+      product_ids: [1, 34],
+      map_ids: [1],
+      hero_ids: [1, 2, 3, 4],
+      tile_ids: [1, 8, 14, 24, 28, 29, 58, 179],
+      spell_ids: [6, 13, 16],
+      item_ids: [1, 2, 3, 10, 12, 16, 17, 20] },
+
+
+    # Solo / Co-Op
+    # For All of Ophir’s Gold
+    { name: "For All of Ophir’s Gold",
+      mode: 'Solo/Cooperative',
+      pdf_link:'',
+      credit: '',
+      player_count: "3-4",
+      complexity: '',
+
+
+      description: '
+      <div class="col-md-6">
+        <p>While visiting the South of the kingdom, Princess Olivia,
+        daughter of King Ophir, is set upon by Kothian soldiers. The detachment
+        assigned to protect her is massacred. After reaping a bloody harvest,
+        even Conan succumbs to the overwhelming numbers and the fury of a
+        strange man-ape.</p>
+        <p>Now Conan and Olivia are prisoners of Captain Arbanus, right hand of
+        King Strabonus of Koth. In his quest to control the gold mines which
+        feed King Ophir’s wealth, Strabonus has turned to kidnapping and
+        extortion over</p>
+      </div>
+      <div class="col-md-6">
+        <p>costly military action. Conan paces in his cell like a
+        caged lion. His incandescent blue eyes search for any means of escape,
+        and he rages at his failure to protect the princess.</p>
+        <p>The Kothians have fallen back to an old fortification on the border
+        of the two kingdoms. As they take defensive positions and install deadly
+        machines of war, the Cimmerian’s brothers-in-arms mount a rescue mission.
+        King Ophir’s message is clear: his daughter must not fall into Strabonus’
+        hands alive.</p>
+      </div>',
+
+      map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/For+All+of+Ophirs+Gold+Solo.jpg', 
+
+      # scenario pre-title 
+      hero_goal: '',
+
+      # Setup
+      hero_setup: '
+      <div class="col-md-6">
+        <p><span class="setup_item">Objective</span></p>
+        <p>If a Hero has fled the fort with Olivia before the end of turn 8, the Heroes win the game. 
+        If Olivia dies, the Heroes immediately lose the game.</p>
+
+        <p><span class="setup_item">Setup</span></p>
+        <p><strong>The game starts with the Heroes’ turn.</strong></p> 
+        <ul>
+          <li>Warrior: <a class="hero" href="/heroes/2">Conan</a> (<a class="item" href="/items/1">Battle Axe</a>, 
+          <a class="item" href="/items/20">Shield</a>, <a class="item" href="/items/17">Leather Armor</a>)</li> 
+          <li>Rogue: <a class="hero" href="/heroes/4">Shevatas</a> (<a class="item" href="/items/12">Sword</a>,
+          <a class="item" href="/items/13">Throwing Knives</a>, )</li>
+          <li>Sorcerer: <a class="hero" href="/heroes/3">Hadrathus</a> (<a class="item" href="/items/3">Dagger</a>, 
+            and 3 spells: 
+            <a class="spell" href="/spells/16">Teleportation</a>, <a class="spell" href="/spells/13">Mitra’s Halo</a>,
+            <a class="spell" href="/spells/6">Lightning Storm</a>). He does not start with Mitra’s Halo cast.</li>
+        </ul>
+
+       <table class="solo_left_table">
+          <tr>
+            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+            <td>After setup, each Hero moves 4 gems from their Reserve zone to their Fatigue zone.</td>
+          </tr>
+        </table>
+
+
+        <p><span class="setup_item">Asset Deck</span></p>
+        <p>Chests require a simple Manipulation to open. The Asset deck contains: 
+        <a class="item" href="/items/22">Life Potion</a> x2, <a class="item" href="/items/6">Explosive Orb</a> x2, 
+        <a class="item" href="/items/16">Chainmail</a>, <a class="item" href="/items/5">Crossbow</a>.</p>
+
+
+        <p><span class="setup_item">Event</span></p>
+        <p>When the Event tile is activated, resolve each of the following events in order:
+        <ol>
+          <li><span class="special_solo_title">Garrison:</span> Add 1 <a class="tile" href="/tiles/23">Hyena</a> and 1 
+          <a class="tile" href="/tiles/17">Bossonian Guard</a> to each reinforcement area 
+          <img src="/assets/stats/reinforcement.png" class="scen_token" /> . If there aren’t enough for each area, players choose. 
+          Then add 1 <a class="tile" href="/tiles/15">Bossonian Archer</a> to the area with the Stairs token 
+          <img src="/assets/tokens/secretPassageToken.png" class="scen_token" /> .
+          <li><span class="special_solo_title">Bestial Haste:</span> Rocks Fall: Select the area with the Strongest Hero and roll 
+          <img src="/assets/dice/Red.png" class="scen_sq_token" /> (rerolls allowed). Each Hero (including Olivia) in that area 
+          suffers unavoidable damage equal to the number of successes rolled. Overlord units do not take damage.</li>
+        </ol></p> 
+
+      </div>
+
+      <div class="col-md-6">
+
+        <p><span class="setup_item">Special Rules</span></p>
+        
+        <p><span class="special_solo_title">Game Board Rules:</span> Standard game board rules apply.</p>
+
+        <p><span class="special_solo_title">Olivia:</span> She is represented by the Princess miniature. Olivia is unconscious, 
+        counts as an object with an Encumbrance value of 6, and can be picked up by a Hero by performing a simple Manipulation. 
+        That Hero takes the <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/ThalisToken.png" class="scen_token"> 
+        token and places it next to their Hero sheet. Olivia has 1 life point and no Armor. She dies if she suffers any damage. </p>
+
+
+        <p><span class="special_solo_title">Jailor:</span> The <a class="tile" href="/tiles/3">Captain</a> is Arbanus of Koth. 
+        When Arbanus dies, place the <a class="item" href="/items/24">Key</a> card in the area in which he died.</p>
+
+       <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/Key.jpg" class="scen_event float_tile">
+        <p><span class="special_solo_title">Olivia’s Cell:</span> The only way to open Olivia’s cell door is for a Hero with the Key 
+        to perform a simple Manipulation.</p>
+
+        <p><span class="special_solo_title">Conan’s Cell:</span> The only way to open Conan’s cell door is for a Hero to perform a 
+        complex Manipulation with a difficulty of 2, or to use the Wall Wrecker skill.</p>
+
+        <p><span class="special_solo_title">Doors:</span> A unit (Hero or Overlord) other than a Hyena can move across a door 
+        (except Olivia’s or Conan’s cell doors) as though it were a border by spending 1 additional movement point. If they do, 
+          remove that door from the board. When determining a path to the Target Hero, Hyenas do not consider paths that pass 
+            through closed doors.</p>
+
+        <p><span class="special_solo_title">Critical Hit:</span> If a Hyena rolls 2 successes during an attack, roll 1 
+        <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> and add the result to the attack power.</p>
+
+        <p><span class="special_solo_title">Thak:</span> Thak targets the Strongest Hero.</p>
+
+        <p><span class="special_solo_title">Fleeing the Fort:</span> A Hero can flee the fort from a reinforcement area by spending 
+        movement points as though crossing a border. Once a Hero has fled, they cannot return to the board. A Hero that has fled is 
+        not considered to be killed; they are still counted for the number of Activation tokens to be drawn.</p>
+
+
+        <p><span class="setup_item">Options</span></p>
+
+        <p><span class="special_title">Four Player Mode</span> 
+          <ul>
+            <li>Sellsword: <a class="hero" href="/heroes/1">Bêlit</a> (<a class="item" href="/items/10">Ornamental Spear</a>,
+            <a class="item" href="/items/21">Tribal Shield</a>). She starts in the same area as Hadrathus.</li>
+            <li>After setup, each Hero moves 5 gems from their Reserve zone to their Fatigue zone.</li>
+            <li><span class="special_solo_title">Reminder:</span> The Overlord activates four times per turn.</li>
+          </ul></p>
+
+      </div>',
+
+      overlord_goal: '',
+
+      overlord_setup: '',
+
+      # Number Token used
+      rtoken1: 'num1Token',
+      rtoken2: 'num2Token',
+      rtoken3: 'num3Token',
+      rtoken4: 'num4Token',
+      rtoken5: 'num5Token',
+      rtoken6: 'num6Token',
+      rtoken7: 'num7Token',
+      rtoken8: '',
+
+      # Text under tile
+      btoken1: '',
+      btoken2: '(10 Max)',
+      btoken3: '(5 Max)',
+      btoken4: '(5 Max)',
+      btoken5: '',
+      btoken6: '',
+      btoken7: '',
+      btoken8: '',
+
+      tile1: 3,
+      tile2: 17,
+      tile3: 23,
+      tile4: 15,
+      tile5: 3,
+      tile6: 13,
+      tile7: 1,
+      tile8: 999,
+
+      life1: 6,
+      life2: 0,
+      life3: 0,
+      life4: 0,
+      life5: 0,
+      life6: 8,
+      life7: 0,
+      life8: 0,
+
+      # Hard Mode text/arrow
+      hardtext1: '',
+      hardtext2: 'arrow',
+      hardtext3: 'arrow',
+      hardtext4: '',
+      hardtext5: '',
+      hardtext6: 'arrow',
+      hardtext7: '',
+      hardtext8: '',
+
+      # Hard Mode tile
+      hardtile1: 901,
+      hardtile2: 83,
+      hardtile3: 140,
+      hardtile4: 999,
+      hardtile5: 999,
+      hardtile6: 157,
+      hardtile7: 999,
+      hardtile8: 999,
+
+      special_rules: '',
+
+      correction: '',
+      hero_victory: '',
+      overlord_victory: '',
+
+      origin: "King Pledge Solo/Coop",
+      product_ids: [1, 34],
+      map_ids: [4],
+      hero_ids: [1, 2, 3, 4],
+      tile_ids: [1, 3, 13, 15, 17, 23, 83, 140, 157],
+      spell_ids: [6, 13, 16],
+      item_ids: [1, 3, 5, 6, 10, 12, 13, 16, 17, 20, 21, 22] },
+
+
+    # Solo / Co-Op
+    # The Wrath of Anu
+    { name: "The Wrath of Anu",
+      mode: 'Solo/Cooperative',
+      pdf_link:'',
+      credit: '',
+      player_count: "1",
+      complexity: '',
+
+
+      description: '
+      <div class="col-md-6">
+        <p>Two audacious thieves, a deserter from Gunderland and a
+        Cimmerian Barbarian, have forged a reputation among the city-states of
+        Corinth by stealing riches and plundering caravans on the Road of Kings.</p>
+        <p>A corrupted priest of Anu, playing both fence and police spy, has ratted
+        out the pair of thieves. The Gunderman is quickly captured and hanged.
+        Conan, in his youthful impetuousness, avenges his associate’s death by
+        looting the temple of Anu and eviscerating the priest responsible.</p>
+      </div>
+      <div class="col-md-6">
+        <p>During his escape, Conan falls victim to “Anu’s Wrath,” a powerful spell
+        that torments the Cimmerian with terrible hallucinations. He has only a
+        short time to find the priest responsible and break the curse.</p>
+        <p>During a religious procession, Conan gets his chance: the priests of Anu,
+        their escort of soldiers, and the strange man-ape they parade along the way
+        make a stop at an inn.</p>
+      </div>',
+
+      map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Wrath+of+Anu+Solo.jpg',
+
+      # scenario pre-title 
+      hero_goal: '',
+
+      # Setup
+      hero_setup: '
+      <div class="col-md-6">
+        <p><span class="setup_item">Objective</span></p>
+        <p>To win the game, Conan must exit the Inn by reaching a street area with the curse broken before the end of turn 12. 
+        If Conan dies or exits the Inn without the curse being broken, the player loses.</p>
+
+        <p><span class="setup_item">Setup</span></p>
+        <p><strong>The game starts with the Hero’s turn.</strong></p> 
+        <ul>
+          <li>Warrior: <a class="hero" href="/heroes/2">Conan</a> (<a class="item" href="/items/12">Sword</a>, 
+          <a class="item" href="/items/17">Leather Armor</a>)</li> 
+        </ul>
+
+        <p>Set the Thak miniature and Activation token <img src="/assets/tokens/num5Token.png" class="scen_token" /> to the side. 
+        They will be added during the course of the scenario.</p>
+
+        <p>Randomly place the 5 Treasure tokens below facedown on the game board to represent the priests and the high priest.</p>
+
+         <table class="solo_left_table">
+            <tr>
+              <td>
+                <img src="/assets/tokens/treasureToken.png" class="setup_token" /> 
+                <img src="/assets/tokens/num2Token.png" class="setup_token" /> 
+              </td>
+              <td>x4<br /> Priests</td>
+              <td>
+                <img src="/assets/tokens/treasureToken.png" class="setup_token" /> 
+                <img src="/assets/tokens/num1Token.png" class="setup_token" /> 
+              </td>
+              <td>x1<br /> High Priest</td>
+            </tr>
+          </table>
+
+
+       <table class="solo_left_table">
+          <tr>
+            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+            <td>After setup, Conan moves 0 gems from his Reserve zone to his Fatigue zone.</td>
+          </tr>
+        </table>
+
+
+        <p><span class="setup_item">Asset Deck</span></p>
+        <p>Chests require a simple Manipulation to open. The Asset deck contains: 
+        <a class="item" href="/items/22">Life Potion</a> x3, <a class="item" href="/items/6">Explosive Orb</a> x2, 
+        <a class="item" href="/items/23">Empty Chest</a>.</p>
+
+
+        <p><span class="setup_item">Event</span></p>
+        <p>When the Event tile is activated, resolve one of these events based on the number of priests that have been 
+        removed from the board:
+        <ul>
+          <li><span class="special_solo_title">0-1 Priests:</span> Add 1 colorless <a class="tile" href="/tiles/17">Bossonian Guard</a> 
+          to each reinforcement area <img src="/assets/stats/reinforcement.png" class="scen_token" />.</li>
+        </ul></p> 
+
+      </div>
+
+      <div class="col-md-6">
+        <p></p><p></p>
+
+        <p><ul>
+          <li><span class="special_solo_title">2 Priests:</span> Add 1 colorless Bossonian Guard to the reinforcement area 
+          <img src="/assets/stats/reinforcement.png" class="scen_token" /> outside the inn. All colorless Bossonian Guards gain 
+          2 movement points they must immediately spend.</li>
+          <li><span class="special_solo_title">3 Priests: “Unleashed”</span> Add Activation token 5 to the Reserve zone of the 
+          Book of Skelos and place <a class="tile" href="/tiles/13">Thak</a> in the area indicated by the setup diagram. If the “Unleashed“ event has already occurred, 
+          this activation is wasted.</li>
+          <li><span class="special_solo_title">4+ Priests:</span> Add 1 colorless Bossonian Guard to the reinforcement area 
+          <img src="/assets/stats/reinforcement.png" class="scen_token" /> outside the inn. All colorless Bossonian Guards gain 
+          2 movement points they must immediately spend.</li>
+        </ul></p> 
+
+        <p><span class="setup_item">Special Rules</span></p>
+        
+        <p><span class="special_solo_title">Game Board Rules:</span> Standard game board rules apply, including the Bar areas rule.</p>
+
+        <p><span class="special_solo_title">Angry Overlord:</span> The Overlord activates twice every turn.</p>
+
+        <p><span class="special_solo_title">Interrogation:</span> If Conan is in an area with a priest, he can move 1 gem from his 
+        Reserve zone to his Melee Attack space to roll <img src="/assets/dice/Red.png" class="scen_sq_token" /> (no rerolls allowed). 
+        This roll is not affected by hindering. Resolve one of the following effects based on the number of successes shown on the die:
+       <ul>
+          <li>0: The priest resists interrogation; no effect.</li>
+          <li>1-2: The priest talks; flip the token. If it is the high priest, the curse is broken. Remove the priest’s token from the board.</li>
+          <li>3: The priest dies before talking; do not flip the token. Set it aside and only flip it over when Conan leaves the Inn.</li>
+        </ul></p> 
+
+        <p><span class="special_solo_title">Furious Overlord:</span> If the first or second interrogated priest is revealed to be 
+        the high priest, immediately resolve the “Unleashed” event. From now on, the Overlord activates three times every turn.</p>
+
+        <p><span class="special_solo_title">Thak’s Fury:</span> At the start of turn 8, resolve the “Unleashed” event. If Conan enters 
+        Thak’s area before the “Unleashed” event has been resolved, immediately resolve it when Conan enters the area.</p>
+
+      </div>',
+
+      overlord_goal: '',
+
+      overlord_setup: '',
+
+      # Number Token used
+      rtoken1: '',
+      rtoken2: 'num1Token',
+      rtoken3: 'num2Token',
+      rtoken4: 'num3Token',
+      rtoken5: 'num4Token',
+      rtoken6: 'num5Token',
+      rtoken7: '',
+      rtoken8: '',
+
+      # Text under tile
+      btoken1: '',
+      btoken2: '(2 Max)',
+      btoken3: '(2 Max)',
+      btoken4: '',
+      btoken5: '(10 Max)',
+      btoken6: '',
+      btoken7: '',
+      btoken8: '',
+
+      tile1: 999,
+      tile2: 18,
+      tile3: 22,
+      tile4: 1,
+      tile5: 17,
+      tile6: 13,
+      tile7: 999,
+      tile8: 999,
+
+      life1: 0,
+      life2: 0,
+      life3: 0,
+      life4: 0,
+      life5: 0,
+      life6: 10,
+      life7: 0,
+      life8: 0,
+
+      # Hard Mode text/arrow
+      hardtext1: '',
+      hardtext2: 'arrow',
+      hardtext3: '',
+      hardtext4: '',
+      hardtext5: '',
+      hardtext6: 'arrow',
+      hardtext7: '',
+      hardtext8: '',
+
+      # Hard Mode tile
+      hardtile1: 901,
+      hardtile2: 131,
+      hardtile3: 999,
+      hardtile4: 999,
+      hardtile5: 999,
+      hardtile6: 157,
+      hardtile7: 999,
+      hardtile8: 999,
+
+      special_rules: '',
+
+      correction: '',
+      hero_victory: '',
+      overlord_victory: '',
+
+      origin: "King Pledge Solo/Coop",
+      product_ids: [1, 34],
+      map_ids: [2],
+      hero_ids: [2],
+      tile_ids: [1, 13, 17, 18, 22, 131, 157],
+      spell_ids: [],
+      item_ids: [6, 12, 17, 22, 23] },
+
+
+    # Solo / Co-Op
+    # Infernal Pursuit
+    { name: "Infernal Pursuit",
+      mode: 'Solo/Cooperative',
+      pdf_link:'',
+      credit: '',
+      player_count: "2",
+      complexity: '',
+
+      description: '
+      <div class="col-md-6">
+        <p>Smelling a trap during a meeting with pirates from the
+        Baracha islands, Conan flees Tortage, joining Captain Zaporavo and the
+        crew of The Vandal. Soon, his personality and sailing prowess make him
+        popular with the crew, and his leadership gains him the attention of
+        Sancha, the Zingaran mercenary’s favorite.</p>
+        <p>Zaporavo remains wary of the Cimmerian, who he now sees as a rival.
+        But the time is not right to settle scores as the sails of an Argosian
+        merchant vessel appear on the horizon. </p>
+      </div>
+      <div class="col-md-6">
+        <p>The Vandal’s crew sets upon its
+        prey, and the merchant ship offers little resistance. With the captured
+        vessel intact, Zaporavo sets sail to the nearest Zingaran port, hoping to
+        profit as much from the ship itself as from its cargo.</p>
+        <p>Aboard the Argosian ship and flanked by crew members loyal to him, Conan
+        seizes the opportunity and incites a mutiny, hoping to take the ship and
+        strike The Vandal while it is weakened.</p>
+      </div>',
+
+      map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Infernal+Pursuit+Solo.jpg',
+
+      # scenario pre-title 
+      hero_goal: '',
+
+      # Setup
+      hero_setup: '
+      <div class="col-md-6">
+        <p><span class="setup_item">Objective</span></p>
+        <p>To win the game, the Heroes must accomplish these objectives in order:
+         <ol>
+            <li>Their ship must catch up with the Vandal as indicated by the Invocation token 
+            <img src="/assets/tokens/invocationToken.png" class="scen_token" /> reaching 6.</li>
+            <li>Kill Zaparavo.</li>
+            <li>Sink the Vandal, as indicated by the Alarm token <img src="/assets/tokens/gongToken.png" class="scen_token" /> reaching 8.</li>
+          </ol></p> 
+
+
+        <p><span class="setup_item">Setup</span></p>
+        <p>This scenario starts on the ship marked <img src="/assets/tokens/area1Token.png" class="small_token" /> . 
+        No unit can leave this ship until it catches the Vandal, at which point the entire game board is available. 
+        <strong>The game starts with the Heroes’ turn.</strong>
+        <ul>
+          <li>Warrior: <a class="hero" href="/heroes/2">Conan</a> (<a class="item" href="/items/1">Battle Axe</a>, 
+          <a class="item" href="/items/17">Leather Armor</a>)</li> 
+          <li>Rogue: <a class="hero" href="/heroes/4">Shevatas</a> (<a class="item" href="/items/11">Parrying Dagger</a>,
+          <a class="item" href="/items/13">Throwing Knives</a>, <a class="item" href="/items/17">Leather Armor</a>)</li>
+        </ul></p> 
+
+        <p>Place the Invocation token <img src="/assets/tokens/invocationToken.png" class="scen_token" /> and the Alarm token 
+        <img src="/assets/tokens/gongToken.png" class="scen_token" /> on space 0 of the Turn track.</p>
+
+        <p><span class="special_solo_title">Do not place any units on the Vandal during the initial setup.</span> 
+
+        <p>Set Activation token <img src="/assets/tokens/num6Token.png" class="scen_token" /> to the side. This will be added during 
+        the course of the scenario.</p>
+
+       <table class="solo_left_table">
+          <tr>
+            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+            <td>After setup, each Hero moves 4 gems from their Reserve zone to their Fatigue zone.</td>
+          </tr>
+        </table>
+
+
+        <p><span class="setup_item">Asset Deck</span></p>
+        <p>Chests require a complex Manipulation with a difficulty of 2 to open. The Asset deck contains: 
+        <a class="item" href="/items/22">Life Potion</a> x2, <a class="item" href="/items/6">Explosive Orb</a>, 
+        <a class="item" href="/items/5">Crossbow</a>.</p>
+
+
+        <p><span class="setup_item">Event</span></p>
+        <p>When the Event tile is activated, resolve each of the following events in order:
+         <ol>
+            <li><span class="special_solo_title">Reinforcements:</span> 1 <a class="tile" href="/tiles/32">green Pirate</a>, 
+            1 <a class="tile" href="/tiles/31">blue Pirate</a>, and 1 <a class="tile" href="/tiles/15">Bossonian Archer</a> to the 
+            reinforcement area <img src="/assets/stats/reinforcement.png" class="scen_token" /> on ship 
+            <img src="/assets/tokens/area1Token.png" class="small_token" /> . Repeat this for the Vandal if the Heroes’ ship has 
+            caught the Vandal.</li>
+            <li><span class="special_solo_title">Turncoats:</span> Roll <img src="/assets/dice/Red.png" class="scen_sq_token" /> 
+            (no rerolls allowed). For each success shown on the die, remove a red mutineering Pirate from the board. Replace it with 
+            a green or blue Pirate from off the board (if possible).</li>
+            <li><span class="special_solo_title">Sailing:</span> Reduce the <img src="/assets/tokens/invocationToken.png" class="scen_token" /> 
+            or <img src="/assets/tokens/gongToken.png" class="scen_token" /> token (whichever is in play) by 1, if possible.</li>
+          </ol></p> 
+
+      </div>
+
+      <div class="col-md-6">
+
+        <p><span class="setup_item">Special Rules</span></p>
+        
+        <p><span class="special_solo_title">Game Board Rules:</span> Standard game board rules apply. Anyone entering the water 
+        is eaten by sharks and dies.</p>
+
+        <p><span class="special_solo_title">Leap:</span> If a unit (Hero or Overlord) fails to leap, they remain in their area. 
+        Overlord units prioritize leaping over an area with the lowest leap difficulty unless leaping over a higher leap difficulty 
+        area is the only way to reach their Target Hero or Alternate Target Hero.</p>
+
+        <p><span class="special_solo_title">Duelists:</span> <a class="tile" href="/tiles/3">Captain</a> and 
+        <a class="tile" href="/tiles/7">Zaporavo</a> target the Strongest Hero.</p>
+
+        <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/tiles/PiratesRed.jpg" class="scen_event float_tile">
+        <p><span class="special_solo_title">Mutineering Pirates:</span> <a class="tile" href="/tiles/35">Red Pirates</a> are 
+        mutineering Pirates, Heroes’ Allies. They cannot be activated using Leadership. Once per Heroes’ turn, the Heroes can 
+        activate all the Pirates of the red Pirates tile, for free. They are activated in the same way as Overlord units 
+        (Movement & Attack), except that Heroes cannot use benefits.</p>
+
+        <p class="alnright">(5 Max)&nbsp;&nbsp; </p>
+        <p><span class="special_solo_title">With me!:</span>  At the start of the Heroes’ turn, roll <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> 
+        (no rerolls allowed). For each success shown on the die, add 1 red mutineering Pirate to Conan’s area. If the result is blank, 
+        reduce the <img src="/assets/tokens/invocationToken.png" class="scen_token" /> token by 1 (if possible). 
+        <span class="special_solo_title">Note:</span> Once the Heroes catch the Vandal (see special rule <span class="special_solo_title">Catch the Vandal</span>), 
+        this special rule no longer applies.</p>
+
+        <p><span class="special_solo_title">Endless Pirates:</span> When a Pirate Activation token is drawn, reinforce 1 Pirate of that 
+        color before activating the tile. <span class="special_solo_title">Note:</span> Once the Heroes catch the Vandal 
+        (see special rule <span class="special_solo_title">Catch the Vandal</span>), this special rule no longer applies.</p>
+
+        <p><span class="special_solo_title">Catch the Vandal:</span> A Hero in an area marked 
+        <img src="/assets/tokens/area2Token.png" class="small_token" /> can perform a simple Manipulation to increase the 
+        <img src="/assets/tokens/invocationToken.png" class="scen_token" /> token by 1 if there are more Heroes and Allies than 
+        enemies in that area. Each Hero can only do this once per turn, and not in the same area. Once the Turn marker reaches 6, 
+        remove the <img src="/assets/tokens/invocationToken.png" class="scen_token" /> token and perform the following actions in order:
+        <ol>
+          <li>Add Activation token <img src="/assets/tokens/num6Token.png" class="scen_token" /> to the Reserve zone of the Book of 
+          Skelos and place Zaporavo as indicated on the setup diagram.</li>
+          <li>Place two Bossonian Archers on the Vandal as indicated on the setup diagram (if possible).</li>
+          <li>Evenly distribute all green Pirates and all blue Pirates that are not currently on the game board in the areas marked 
+          <img src="/assets/tokens/area4Token.png" class="small_token" /> .</li>
+        </ol>
+
+        <p><span class="special_solo_title">Ballista Fire:</span> A Hero in an area marked <img src="/assets/tokens/area3Token.png" class="small_token" /> 
+        can perform a simple Manipulation to fire a ballista if there are more Heroes and Allies than enemies in that area. Roll 
+        <img src="/assets/dice/Red.png" class="scen_sq_token" /> (no rerolls allowed). Increase the Alarm token 
+        <img src="/assets/tokens/gongToken.png" class="scen_token" /> by 1 for each success shown on the die. Each ballista can only 
+        be fired once per Heroes’ turn. If Zaporavo is on the Vandal when it sinks, he is eaten by sharks and dies.</p>
+
+      </div>',
+
+      overlord_goal: '',
+
+      overlord_setup: '',
+
+      # Number Token used
+      rtoken1: '',
+      rtoken2: 'num1Token',
+      rtoken3: 'num2Token',
+      rtoken4: 'num3Token',
+      rtoken5: 'num4Token',
+      rtoken6: 'num5Token',
+      rtoken7: 'num6Token',
+      rtoken8: '',
+
+      # Text under tile
+      btoken1: '',
+      btoken2: '(5 Max)',
+      btoken3: '(5 Max)',
+      btoken4: '',
+      btoken5: '(5 Max)',
+      btoken6: '',
+      btoken7: '',
+      btoken8: '',
+
+      tile1: 999,
+      tile2: 32,
+      tile3: 31,
+      tile4: 1,
+      tile5: 15,
+      tile6: 3,
+      tile7: 7,
+      tile8: 999,
+
+      life1: 0,
+      life2: 0,
+      life3: 0,
+      life4: 0,
+      life5: 0,
+      life6: 8,
+      life7: 10,
+      life8: 0,
+
+      # Hard Mode text/arrow
+      hardtext1: '',
+      hardtext2: '',
+      hardtext3: '',
+      hardtext4: '',
+      hardtext5: '',
+      hardtext6: '',
+      hardtext7: '',
+      hardtext8: '',
+
+      # Hard Mode tile
+      hardtile1: 999,
+      hardtile2: 999,
+      hardtile3: 999,
+      hardtile4: 999,
+      hardtile5: 999,
+      hardtile6: 999,
+      hardtile7: 999,
+      hardtile8: 999,
+
+      special_rules: '',
+
+      correction: '',
+      hero_victory: '',
+      overlord_victory: '',
+
+      origin: "King Pledge Solo/Coop",
+      product_ids: [1, 34],
+      map_ids: [3],
+      hero_ids: [2, 4],
+      tile_ids: [1, 3, 7, 15, 31, 32],
+      spell_ids: [],
+      item_ids: [1, 5, 6, 11, 13, 17, 22] },
+
+
+    # Solo / Co-Op
+    # Trapped like Rats
+    { name: "Trapped like Rats",
+      mode: 'Solo/Cooperative',
+      pdf_link:'',
+      credit: '',
+      player_count: "3-4",
+      complexity: '',
+
+     description: '
+      <div class="col-md-6">
+        <p>Laughs and shouts ring out as ale-filled mugs are banged
+        together. Conan and his companions celebrate, spending the remainder of
+        the pay from their time in the army of Ophir’s kingdom.</p>
+        <p>They sit in the Rat’s Inn in Corinth. The city-state is ruled by
+        Prince Murilo, whom Conan has helped in the past by eliminating a powerful
+        rival, the red priest Nabonidus. In response to a message from the prince,
+        Conan has arranged</p>
+      </div>
+      <div class="col-md-6">
+        <p>an unofficial meeting with Murilo at the inn.
+        Unbeknownst to Conan and the others, the meeting is a trap. Powerful nobles,
+        intent on overthrowing Murilo, drug the drinks and imprison the Cimmerian
+        and his companions in lower rooms of the inn.</p>
+        <P>The conspirators are aided by Jenna, a harlot close to Nabonidus who was
+        humiliated by Conan. She goes to free the red priest’s creature, Thak, who
+        has been held captive since his previous confrontation with Conan and burns
+        with a desire for vengeance.</p>
+      </div>',
+
+      map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Trapped+like+Rats+Solo.jpg',
+
+      # scenario pre-title 
+      hero_goal: '',
+
+      # Setup
+      hero_setup: '
+      <div class="col-md-6">
+        <p><span class="setup_item">Objective</span></p>
+        <p>To win the game, all three Heroes must be alive and escape the Inn before the end of turn 8.</p> 
+
+
+        <p><span class="setup_item">Setup</span></p>
+        <p><strong>The game starts with the Heroes’ turn.</strong>
+        <ul>
+          <li>Warrior: <a class="hero" href="/heroes/2">Conan</a></li> 
+          <li>Rogue: <a class="hero" href="/heroes/4">Shevatas</a></li>
+          <li>Sorcerer: <a class="hero" href="/heroes/3">Hadrathus</a> (3 spells: 
+            <a class="spell" href="/spells/10">Mitra’s Healing</a>, <a class="spell" href="/spells/14">Set’s Possession</a>,
+            <a class="spell" href="/spells/8">Mind Control</a>).</li>
+        </ul></p> 
+
+        <p>Shuffle the following cards to make a Search Deck: 
+          <a class="item" href="/items/19">Buckler</a>,
+          <a class="item" href="/items/9">Kris</a>,
+          <a class="item" href="/items/10">Ornamental Spear</a>,
+          <a class="item" href="/items/11">Parrying Dagger</a>,
+          <a class="item" href="/items/25">Pictish Fetish</a>,
+          <a class="item" href="/items/20">Shield</a>,
+          <a class="item" href="/items/29">Stygian Artifact</a>,
+          <a class="item" href="/items/12">Sword</a>,
+          <a class="item" href="/items/31">Xuthal’s Crown</a> x2,</p>
+
+        <p>Set the Thak miniature and Activation token <img src="/assets/tokens/num6Token.png" class="scen_token" /> 
+        to the side. They will be added during the course of the scenario.</p>
+
+       <table class="solo_left_table">
+          <tr>
+            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+            <td>After setup, each Hero moves 4 gems from their Reserve zone to their Fatigue zone.</td>
+          </tr>
+        </table>
+
+
+        <p><span class="setup_item">Asset Deck</span></p>
+        <p>Chests require a complex Manipulation with a difficulty of 2 to open. The Asset deck contains: 
+        <a class="item" href="/items/22">Life Potion</a> x2, <a class="item" href="/items/6">Explosive Orb</a> x2.</p>
+
+
+        <p><span class="setup_item">Event</span></p>
+        <p><span class="special_solo_title">Reinforcements:</span> Reinforce 1 <a class="tile" href="/tiles/22">red Bossonian Guard</a>, 
+        1 <a class="tile" href="/tiles/18">blue Bossonian Guard</a>, and 1 <a class="tile" href="/tiles/15">Bossonian Archer</a> in the 
+        reinforcement area <img src="/assets/stats/reinforcement.png" class="scen_token" /> . Then activate all newly placed units.</p> 
+        <p>Then roll 1 <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> (no rerolls allowed) for each laid down miniature. 
+        If the combined result is 2 or more, the alarm is raised (see the <span class="special_solo_title">Alarm!</span> special rule).</p>
+
+
+        <p><span class="setup_item">Special Rules</span></p>
+        
+        <p><span class="special_solo_title">Game Board Rules:</span> Standard game board rules apply, including the Bar areas rule.</p>
+
+        <p><span class="special_solo_title">Doors:</span> Heroes may never move through a door with a red border, but Overlord units 
+        can pass through them without removing them. The other door requires a complex Manipulation with a difficulty of 5 to open.</p>
+
+      </div>
+
+      <div class="col-md-6">
+        <p></p><p></p>
+
+        <p><span class="special_solo_title">Recovering Equipment:</span> A Hero can search a room with a 
+        <img src="/assets/tokens/treasureToken.png" class="scen_token" />  token by performing a simple Manipulation.</p>
+        <p>Draw a card from the Search Deck and remove the token from the board. Many of these items are useless, but some 
+        contain usable weapons.</p>
+        
+        <p><span class="special_solo_title">Hidden in the shadows:</span> The Overlord activates 1 fewer tile than normal during its 
+        turn until the alarm is raised. When a minion (Bossonian Guard or Archer) dies, lay their miniature down in its area instead 
+        of removing it from the board. A Hero in the area can perform a simple Manipulation to remove it from the board if there are 
+        no living enemy units in the area.</p>
+
+        <p><span class="special_solo_title">Alarm!:</span> The alarm is raised if any of the following occurs:
+        <ul>
+          <li>A unit uses Wall Wrecker or an Explosive Orb.</li>
+          <li>During the Event, a combined result of 2 is rolled.</li>
+          <li>At the end of turn 4.</li>
+        </ul></p>
+
+        <p>When the alarm is raised, remove all dead minion miniatures from the board, reinforce all dead units, add 
+        <a class="tile" href="/tiles/13">Thak</a> to the reinforcement area  <img src="/assets/stats/reinforcement.png" class="scen_token" /> , 
+        add Activation token <img src="/assets/tokens/num6Token.png" class="scen_token" /> to the Reserve zone on the Book of Skelos, 
+        and activate all newly placed units. The <span class="special_solo_title">Hidden in the Shadows</span> special rule no longer applies.</p>
+
+        <p><span class="special_solo_title">Bossonian Archers:</span> Target the Strongest Hero.</p>
+
+        <p><span class="special_solo_title">Thak:</span> Targets the Strongest Hero. He cannot be affected by the Mind Control spell.</p>
+
+       <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/Tools.jpg" class="scen_event float_tile">
+        <p><span class="special_solo_title">Breakout:</span> When a Hero opens the last chest, they also take the 
+        <a class="item" href="/items/30">Tools</a> card. A Hero with Tools in an area with a window can perform a complex Manipulation 
+        with a difficulty of 3. If the Hero succeeds, that area becomes an exit. Discard the Tools card. A Hero in an exit area can 
+        escape by spending movement points as though crossing a border. Once a Hero has fled, they cannot return to the board.</p>
+
+        <p>A Hero that has fled is not considered to be killed; they are still counted for the number of Activation tokens to be drawn.</p>
+
+        <p><span class="setup_item">Options</span></p>
+
+        <p><span class="special_title">Four Player Mode</span> 
+          <ul>
+            <li>Sellsword: <a class="hero" href="/heroes/1">Bêlit</a> starts in the same area as the Heroes.</li>
+            <li>After setup, each Hero moves 6 gems from their Reserve zone to their Fatigue zone.</li>
+            <li><span class="special_solo_title">Reminder:</span> The Overlord activates four times per turn.</li>
+          </ul></p>
+
+      </div>',
+
+      overlord_goal: '',
+
+      overlord_setup: '',
+
+      # Number Token used
+      rtoken1: '',
+      rtoken2: 'num1Token',
+      rtoken3: 'num2Token',
+      rtoken4: 'num3Token',
+      rtoken5: 'num4Token',
+      rtoken6: 'num5Token',
+      rtoken7: 'num6Token',
+      rtoken8: '',
+
+      # Text under tile
+      btoken1: '',
+      btoken2: '(5 Max)',
+      btoken3: '(5 Max)',
+      btoken4: '(3 Max)',
+      btoken5: '',
+      btoken6: '',
+      btoken7: '',
+      btoken8: '',
+
+      tile1: 999,
+      tile2: 18,
+      tile3: 22,
+      tile4: 15,
+      tile5: 3,
+      tile6: 1,
+      tile7: 13,
+      tile8: 999,
+
+      life1: 0,
+      life2: 0,
+      life3: 0,
+      life4: 0,
+      life5: 3,
+      life6: 0,
+      life7: 6,
+      life8: 0,
+
+      # Hard Mode text/arrow
+      hardtext1: '',
+      hardtext2: '',
+      hardtext3: 'arrow',
+      hardtext4: '',
+      hardtext5: 'arrow',
+      hardtext6: '',
+      hardtext7: 'arrow',
+      hardtext8: '',
+
+      # Hard Mode tile
+      hardtile1: 901,
+      hardtile2: 999,
+      hardtile3: 131,
+      hardtile4: 999,
+      hardtile5: 183,
+      hardtile6: 999,
+      hardtile7: 157,
+      hardtile8: 999,
+
+      special_rules: '',
+
+      correction: '', 
+      hero_victory: '',
+      overlord_victory: '',
+
+      origin: "King Pledge Solo/Coop",
+      product_ids: [1, 34],
+      map_ids: [2],
+      hero_ids: [1, 2, 3, 4],
+      tile_ids: [1, 3, 13, 15, 18, 22, 131, 157, 183],
+      spell_ids: [8, 10, 14],
+      item_ids: [9, 10, 11, 12, 19, 20, 25, 29, 31] },
+
+
+    ## King Pledge
+    # Solo / Co-Op
+    # Red Dawn
+    { name: "Red Dawn",
+      mode: 'Solo/Cooperative',
+      pdf_link:'',
+      credit: '',
+      player_count: "3",
+      complexity: '',
+
+     description: '
+      <div class="col-md-6">
+        <p>The situation is dire. The Aquilonian province of
+        Conajohara is on the brink of collapse, drowned under the assault of
+        the unified Pict tribes led by Zogar Sag. For days, Conan and his band
+        of scouts have prowled the Black River, fighting fiercely to protect the
+        settlers fleeing the destruction.</p>
+        <p>Reaching a small village, the scouts find the population slaughtered.
+        On some corpses, the skin is shriveled and blackened, while other bodies
+        have been mutilated by some terrible beast. “This is the work of Zogar Sag,”
+        Conan grunts. “He commands wild beasts, and I have seen others fall victim
+        to the black death of the swamps before.” They head back toward the river.</p>
+      </div>
+      <div class="col-md-6">
+        <p>At dusk, they come upon another village. It remains intact, though
+        deserted. Exhausted, the scouts turn in for the night, though Conan issues
+        a warning: “Rest assured that the Picts will soon arrive to wipe this
+        place from the map. Rest while you can, for tomorrow we make them pay for
+        their crimes!”</p>
+        <p>When the red dawn rises, even Conan has slipped into slumber. Civilization
+        has not dulled his instinct, however, and he is awake before the first Pict
+        manages to slip into the village.</p>
+      </div>',
+
+      map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Red+Dawn+Solo.jpg',
+
+      # scenario pre-title 
+      hero_goal: '',
+
+      # Setup
+      hero_setup: '
+      <div class="col-md-6">
+        <p><span class="setup_item">Objective</span></p>
+        <p>To win the game, the Heroes must have more points than the Overlord when the game ends at the end of turn 8.</p> 
+
+
+        <p><span class="setup_item">Setup</span></p>
+        <p><strong>The game starts with the Overlord’s turn.</strong>
+        <ul>
+          <li>Warrior: <a class="hero" href="/heroes/2">Conan</a> (<a class="item" href="/items/16">Chain Mail</a>)</li> 
+          <li>Rogue: <a class="hero" href="/heroes/4">Shevatas</a> (<a class="item" href="/items/17">Leather Armor</a>)</li>
+          <li>Sellsword: <a class="hero" href="/heroes/7">Valeria</a> (<a class="item" href="/items/17">Leather Armor</a>)</li>
+        </ul></p> 
+
+        <p>Shuffle Objective cards <a class="item" href="/items/59">A</a>, <a class="item" href="/items/60">B</a>, 
+        <a class="item" href="/items/61">C</a>, <a class="item" href="/items/62">D</a>, <a class="item" href="/items/63">E</a>, 
+        <a class="item" href="/items/56">Sacred Treasures</a>, <a class="item" href="/items/51">Idol of Yag-Kosha</a>. 
+        Randomly place 1 card facedown in each hut area.</p>
+
+        <p>Then shuffle 1 <a class="item" href="/items/4">Conan’s Sword</a>, 2 <a class="item" href="/items/22">Life Potions</a>, 
+        1 <a class="item" href="/items/11">Parrying Dagger</a>, 1 <a class="item" href="/items/35">Pirate Saber</a>, 
+        1 <a class="item" href="/items/12">Sword</a>, 1 <a class="item" href="/items/38">Turanian Sword</a>, 
+        and 1 <a class="item" href="/items/39">Two-Handed Sword</a>, and randomly place 1 card facedown in each hut area (2 cards 
+        total in each hut area).</p>
+
+        <p>Place the Alarm token <img src="/assets/tokens/gongToken.png" class="scen_token" /> on 0 of the Turn track if a Hero draws 
+        Objective E. Move this up by 1 each time that Hero defeats an enemy after drawning Objective E.
+
+       <table class="solo_left_table">
+          <tr>
+            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+            <td>After setup, each Hero moves 3 gems from their Reserve zone to their Fatigue zone.</td>
+          </tr>
+        </table>
+
+
+        <p><span class="setup_item">Event</span></p>
+
+        <p><span class="special_solo_title">Pict Hordes:</span> Reinforce 1 <a class="tile" href="/tiles/29">Pict Warrior</a> in each 
+        reinforcement area <img src="/assets/stats/reinforcement.png" class="scen_token" /> . If there are not enough Pict Warriors, 
+        players may choose. Then do the same with <a class="tile" href="/tiles/24">Pict Hunters</a>. Then do the same with 
+          <a class="tile" href="/tiles/23">Hyenas</a>.</p>
+
+
+        <p><span class="setup_item">Special Rules</span></p>
+        
+        <p><span class="special_solo_title">Game Board Rules:</span> Standard game board rules apply except Heroes and Overlord 
+        units do not spend 1 extra movement point to move across a hut flap.</p>
+
+        <p><span class="special_solo_title">Alarm!:</span>Zogar Sag: <a class="tile" href="/tiles/8">Zogar Sag</a> targets the 
+        Strongest Hero.</p>
+
+        <p><span class="special_solo_title">Search:</span> A Hero in a hut can perform a complex Manipulation with a difficulty 
+        of 1 to search the hut and flip both facedown cards in the area. The Hero may pick up Asset cards for free. If one of the 
+        cards is an Objective card, it becomes that Hero’s objective. That Hero must be the one to complete the objective to earn 
+        the points for that objective.</p>
+
+        <p>Each Hero can only have one objective. If a Hero flips a second Objective card, it is removed from the game.</p>
+
+      </div>
+
+      <div class="col-md-6">
+        <p></p><p></p>
+
+        <p><span class="special_solo_title">Burn Everything:</span> At the start of their activation, if Zogar Sag or Pict Warrior 
+        units have no Heroes in their area, they will attempt to light adjacent hut areas on fire before performing their activation.</p>
+
+        <p>For each adjacent hut area, roll 1 <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> (no rerolls allowed) and add a 
+        Flame token <img src="/assets/tokens/flameToken.png" class="scen_token" /> showing a value equal to the result. An area cannot 
+        have more than 3 Flames. When a third Flame is added to a hut area, discard all facedown cards in that area without revealing them. 
+        Units cannot enter an area with 3 Flames in it.</p>
+
+        <p>At the beginning of the Heroes’ turn, all Heroes in a burning hut area suffer <img src="/assets/dice/Yellow.png" class="scen_sq_token" /> 
+        (no rerolls allowed) unavoidable damage for each Flame in that area (i.e. 1, 2 or 3 dice).</p>
+
+        <p><span class="special_solo_title">Fleeing the Village:</span> A Hero can flee the village from an area at the edge of the board 
+        by spending movement points as though crossing a border. Once a Hero has fled, they cannot return to the board. A Hero that has 
+        fled is not considered to be killed; they are still counted for the number of Activation tokens to be drawn.
+
+        <p><span class="special_solo_title">Rampaging Horde:</span> If Pict Warriors and/or Zogar Sag activate and there are no living 
+        Heroes on the game board, they will move to an area where they are adjacent to the most hut areas that do not have 3 Flames on them.</p>
+
+
+        <p><span class="special_solo_title">Scoring</span>
+
+        <p><span class="special_solo_title">Overlord Scoring:</span> The Overlord scores 1 point for each Flame on the board.</p>
+
+        <p><span class="special_solo_title">Hero Scoring:</span> Heroes score according to the below Objectives: 
+        <table class="cardTable">
+          <tr>
+            <td>       
+              <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/LetterA.jpg">
+            </td>
+            <td>The Heroes score 5 points if this Hero lands the killing blow on Zogar Sag after drawing this Objective.</td>
+          </tr>
+          <tr>
+            <td>       
+              <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/LetterB.jpg">
+            </td>
+            <td>The Heroes score 5 points if this Hero fled from the upper-leftmost road area with the Idol of Yag-Kosha.</td>
+          </tr>
+          <tr>
+            <td>       
+              <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/LetterC.jpg">
+            </td>
+            <td>The Heroes score 5 points if this Hero suffers no flame damage after drawing this Objective and is alive on the game board at the end of the game.</td>
+          </tr>
+          <tr>
+            <td>       
+              <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/LetterD.jpg">
+            </td>
+            <td>The Heroes score 5 points if this Hero fled with both Sacred Treasures.</td>
+          </tr>
+          <tr>
+            <td>       
+              <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/LetterE.jpg">
+            </td>
+            <td>The Heroes score 5 points if this Hero defeats at least 10 enemies after drawing this Objective.</td>
+          </tr>
+        </table>
+
+      </div>',
+
+      overlord_goal: '',
+
+      overlord_setup: '',
+
+      # Number Token used
+      rtoken1: '',
+      rtoken2: 'num1Token',
+      rtoken3: 'num2Token',
+      rtoken4: 'num3Token',
+      rtoken5: 'num4Token',
+      rtoken6: 'num5Token',
+      rtoken7: 'num6Token',
+      rtoken8: '',
+
+      # Text under tile
+      btoken1: '',
+      btoken2: '(8 Max)',
+      btoken3: '(5 Max)',
+      btoken4: '(5 Max)',
+      btoken5: '',
+      btoken6: '',
+      btoken7: '',
+      btoken8: '',
+
+      tile1: 999,
+      tile2: 24,
+      tile3: 29,
+      tile4: 23,
+      tile5: 8,
+      tile6: 8,
+      tile7: 1,
+      tile8: 999,
+
+      life1: 0,
+      life2: 0,
+      life3: 0,
+      life4: 0,
+      life5: 8,
+      life6: 0,
+      life7: 0,
+      life8: 0,
+
+      # Hard Mode text/arrow
+      hardtext1: '',
+      hardtext2: '',
+      hardtext3: 'arrow',
+      hardtext4: 'arrow',
+      hardtext5: 'arrow',
+      hardtext6: 'arrow',
+      hardtext7: '',
+      hardtext8: '',
+
+      # Hard Mode tile
+      hardtile1: 901,
+      hardtile2: 999,
+      hardtile3: 132,
+      hardtile4: 140,
+      hardtile5: 151,
+      hardtile6: 151,
+      hardtile7: 999,
+      hardtile8: 999,
+
+      special_rules: '',
+
+      correction: '',
+      hero_victory: '',
+      overlord_victory: '',
+
+      origin: "King Pledge Solo/Coop",
+      product_ids: [1, 2, 3, 34],
+      map_ids: [1],
+      hero_ids: [2, 4, 7],
+      tile_ids: [1, 8, 23, 24, 29, 132, 140, 151],
+      spell_ids: [],
+      item_ids: [4, 11, 12, 16, 17, 22, 35, 38, 39, 51, 56, 59, 60, 61, 62, 63] },
+
+
+    # Solo / Co-Op
+    # The Key of Kuthchemes
+    { name: "The Key of Kuthchemes",
+      mode: 'Solo/Cooperative',
+      pdf_link:'',
+      credit: '',
+      player_count: "2",
+      complexity: '',
+
+     description: '
+      <div class="col-md-6">
+        <p>The rumor spreads quickly amongst the thieves of Asgalun:
+        The Vandal has made port in Pelishtim and its captain, Zaporavo, has
+        found a copy of the texts of Vathelos the Blind. Legends tell that the
+        texts contain secrets to opening the doors to the shimmering dome that
+        looms above the ancient ruins of Kuthchemes in the vast deserts of
+        south-western Shem.</p>
+        <p>“The promise of fabulous treasure for whomever has the courage to claim
+        the text,” recites Shevatas, king of the thieves of Zamora. The words echo
+        in Conan’s ears </p>
+      </div>
+      <div class="col-md-6">
+        <p>as the two men meet at the inn where Zaporavo is staying.
+        Their plan is simple: wait until nightfall, find where the texts are hidden,
+        and claim the texts and the treasure for themselves.</p>
+        <p>Celebration fills the air as the crew of The Vandal crowds the inn,
+        spending loot on alcohol and women. But the crewmen are soon joined by
+        Shemite soldiers, whom Zaporavo has paid off to watch his back.</p>
+        <p>When Zaporavo realizes the identity of the pair of newcomers, the inn
+        turns into a death trap.</p>
+      </div>',
+
+      map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Key+of+Kuthchemes+Solo.jpg',
+
+      # scenario pre-title 
+      hero_goal: '',
+
+      # Setup
+      hero_setup: '
+      <div class="col-md-6">
+        <p><span class="setup_item">Objective</span></p>
+        <p>To win the game, Conan must flee the Inn with the Spellbook before the end of turn 8.</p> 
+
+
+        <p><span class="setup_item">Setup</span></p>
+        <p><strong>The game starts with the Heroes’ turn.</strong>
+        <ul>
+          <li>Warrior: <a class="hero" href="/heroes/2">Conan</a> (<a class="item" href="/items/4">Conan‘s Sword</a>, 
+          <a class="item" href="/items/17">Leather Armor</a>)</li> 
+          <li>Rogue: <a class="hero" href="/heroes/4">Shevatas</a> (<a class="item" href="/items/9">Kris</a>, 
+          <a class="item" href="/items/17">Leather Armor</a>, <a class="item" href="/items/13">Throwing Knives</a>)</li>
+        </ul></p> 
+
+       <table class="solo_left_table">
+          <tr>
+            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+            <td>After setup, each Hero moves 4 gems from their Reserve zone to their Fatigue zone.</td>
+          </tr>
+        </table>
+
+
+        <p><span class="setup_item">Asset Deck</span></p>
+        <p>Chests require a complex Manipulation with a difficulty of 2 to open. The Asset deck contains: 
+        <a class="item" href="/items/24">Key</a>, <a class="item" href="/items/22">Life Potion</a> x2, 
+        <a class="item" href="/items/29">Stygian Artifact</a>, <a class="item" href="/items/30">Tools</a>.</p>
+  
+
+        <p><span class="setup_item">Event</span></p>
+
+        <p><span class="special_solo_title">Reinforcements:</span> Reinforce 1 <a class="tile" href="/tiles/17">Bossonian Guard</a>, 
+        1 <a class="tile" href="/tiles/30">Pirate</a>, and 1 <a class="tile" href="/tiles/15">Bossonian Archer</a> in the reinforcement 
+        area <img src="/assets/stats/reinforcement.png" class="scen_token" /> .
+
+      </div>
+
+      <div class="col-md-6">
+
+        <p><span class="setup_item">Special Rules</span></p>
+        
+        <p>This scenario works differently than most Solo/coop scenarios. Activation tokens are not used to activate units. 
+        The number of activations does not depend on how many Heroes are on the board. The Overlord turn always goes as follows:</p>
+        <p><span class="special_solo_title">Overlord Turn Sequence</span></p>
+        <ol>
+          <li>Advance the Turn marker.</li>
+          <li>Activate all tiles in the order in which they are listed in the River from left to right.</li>
+        </ol>
+
+        <p><span class="special_solo_title">Game Board Rules:</span> Standard game board rules apply, including the Bar and Tables rule, 
+        as well as the Bar Stools rule. Overlord units will always use the Bar Stools rule, if possible.</p>
+
+        <p><span class="special_solo_title">Red Chest:</span> This chest is mystically sealed. A Hero with the 
+        <a class="item" href="/items/24">Key</a>, <a class="item" href="/items/30">Tools</a>, and 
+        <a class="item" href="/items/29">Stygian Artifact</a> in the area with the red chest can perform a simple Manipulation to open 
+        the chest. The chest cannot otherwise be opened or moved. When a Hero opens the chest, the Hero takes the 
+        <a class="item" href="/items/28">Spellbook</a> instead of a card from the Asset deck.</p>
+
+        <p><span class="special_solo_title">Dread Pirates:</span> If Pirates cannot reach any Hero to attack, they will instead move 
+        towards the closest Hero.</p>
+
+        <p><span class="special_solo_title">Stationary Guards:</span> The Bossonian Guards and the 
+        <a class="tile" href="/tiles/3">Captain</a> target the closest Hero on the ground floor. If no Hero is on the ground floor, 
+        they do not activate.</p>
+
+        <p><span class="special_solo_title">Mano a Mano:</span> <a class="tile" href="/tiles/7">Zaporavo</a> targets the Strongest Hero. 
+        If he cannot reach any Hero, he will instead move towards the closest Hero.</p>
+
+        <p><span class="special_solo_title">Fleeing the Inn:</span> Conan can flee the Inn from one of the two street areas by 
+        spending movement points as though crossing a border. Once he has fled, he cannot return to the board.</p>
+
+      </div>',
+
+      overlord_goal: '',
+
+      overlord_setup: '',
+
+      # Number Token used
+      rtoken1: '',
+      rtoken2: 'num1Token',
+      rtoken3: 'num2Token',
+      rtoken4: 'num3Token',
+      rtoken5: 'num4Token',
+      rtoken6: 'num5Token',
+      rtoken7: 'num6Token',
+      rtoken8: '',
+
+      # Text under tile
+      btoken1: '',
+      btoken2: '(4 Max)',
+      btoken3: '(4 Max)',
+      btoken4: '(4 Max)',
+      btoken5: '',
+      btoken6: '',
+      btoken7: '',
+      btoken8: '',
+
+      tile1: 999,
+      tile2: 30,
+      tile3: 17,
+      tile4: 15,
+      tile5: 3,
+      tile6: 1,
+      tile7: 7,
+      tile8: 999,
+
+      life1: 0,
+      life2: 0,
+      life3: 0,
+      life4: 0,
+      life5: 3,
+      life6: 0,
+      life7: 5,
+      life8: 0,
+
+      # Hard Mode text/arrow
+      hardtext1: '',
+      hardtext2: '',
+      hardtext3: 'arrow',
+      hardtext4: '',
+      hardtext5: 'arrow',
+      hardtext6: '',
+      hardtext7: '',
+      hardtext8: '',
+
+      # Hard Mode tile
+      hardtile1: 901,
+      hardtile2: 999,
+      hardtile3: 131,
+      hardtile4: 999,
+      hardtile5: 183,
+      hardtile6: 999,
+      hardtile7: 999,
+      hardtile8: 999,
+
+      special_rules: '',
+
+      correction: '',
+      hero_victory: '',
+      overlord_victory: '',
+
+      origin: "King Pledge Solo/Coop",
+      product_ids: [1, 34],
+      map_ids: [2],
+      hero_ids: [2, 4],
+      tile_ids: [1, 3, 7, 15, 17, 30, 131, 183],
+      spell_ids: [],
+      item_ids: [4, 9, 13, 17, 22, 24, 28, 29, 30]  },
+
+
+    # Solo / Co-Op
+    # In the Name of Ibis
+    { name: "In the Name of Ibis",
+      mode: 'Solo/Cooperative',
+      pdf_link:'',
+      credit: '',
+      player_count: "3-4",
+      complexity: '',
+
+     description: '
+      <div class="col-md-6">
+        <p>The hunt nears its end; on the limits of the kingdom of
+        Nemedia, Conan picks up the trail of Skuthus, the sorcerer he has
+        pursued relentlessly since Numalia.</p>
+        <p>Hailing from Stygia, the fearsome necromancer has failed in his attempt
+        to eliminate Kalanthes, a priest of Ibis devoted to fighting the cult of
+        the archdemon Set. Skuthus underestimated the tenacity of the mercenaries
+        tasked with protecting the priest. Kalanthes, wounded but alive, remains
+        in Numalia.</p>
+      </div>
+      <div class="col-md-6">
+        <p>Taking refuge in the remains of a village he has eradicated using black
+        magic, Skuthus focuses on rebuilding his forces to face his pursuers. He
+        cannot disappoint his mentor a second time, as Thoth-Amon, High Priest of
+        Set, is counting on him to terminate Kalanthes, his mortal enemy.</p>
+        <p>As the door bursts off its hinges under the weight of the Cimmerian’s
+        blow, the sorcerer begins a strange, guttural chant. As the air begins to
+        buzz around him, he laughs cruelly, confident that soon nothing will stand
+        between him and Kalanthes.</p>
+      </div>',
+
+      map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/In+the+Name+of+Ibis+Solo.jpg',
+
+      # scenario pre-title 
+      hero_goal: '',
+
+      # Setup
+      hero_setup: '
+      <div class="col-md-6">
+        <p><span class="setup_item">Objective</span></p>
+        <p>To win the game, the Heroes must kill Skuthus before the end of turn 8.</p> 
+
+
+        <p><span class="setup_item">Setup</span></p>
+        <p><strong>The game starts with the Heroes’ turn.</strong>
+        <ul>
+          <li>Warrior: <a class="hero" href="/heroes/2">Conan</a> (<a class="item" href="/items/1">Battle Axe</a>, 
+          <a class="item" href="/items/19">Buckler</a>, <a class="item" href="/items/17">Leather Armor</a>)</li> 
+          <li>Rogue: <a class="hero" href="/heroes/4">Shevatas</a> (<a class="item" href="/items/9">Kris</a>, 
+          <a class="item" href="/items/13">Throwing Knives</a>)</li>
+          <li>Sorcerer: <a class="hero" href="/heroes/3">Hadrathus</a> (<a class="item" href="/items/3">Dagger</a> and 3 spells: 
+            <a class="spell" href="/spells/6">Lightning Storm</a>, <a class="spell" href="/spells/9">Mitra’s Halo</a>,
+            <a class="spell" href="/spells/16">Teleportation</a>). He does not start with Mitra’s Halo cast.</li>
+        </ul></p> 
+
+       <table class="solo_left_table">
+          <tr>
+            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+            <td>After setup, each Hero moves 4 gems from their Reserve zone to their Fatigue zone.</td>
+          </tr>
+        </table>
+
+
+        <p><span class="setup_item">Asset Deck</span></p>
+        <p>Chests require a simple Manipulation to open. The Asset deck contains: 
+        <a class="item" href="/items/22">Life Potion</a> x2, <a class="item" href="/items/8">Javelin</a> x 2,
+        <a class="item" href="/items/16">Chain Mail</a>, <a class="item" href="/items/5">Crossbow</a>,
+        <a class="item" href="/items/20">Shield</a>, <a class="item" href="/items/12">Sword</a></p>
+
+  
+        <p><span class="setup_item">Event</span></p>
+
+        <p><span class="special_solo_title">Reinforcements:</span> Reinforce 1 colorless <a class="tile" href="/tiles/40">Mummy</a> in 
+        each reinforcement area <img src="/assets/stats/reinforcement.png" class="scen_token" /> . If there are not enough available 
+        for all 3 locations, the players may distribute them as evenly as possible in the reinforcement areas that benefit them the most. 
+        Then do the same for the <a class="tile" href="/tiles/45">Skeletons</a>. Finally, reinforce 1 
+          <a class="tile" href="/tiles/84">blue Mummy</a> in the area with Skuthus.
+
+
+        <p><span class="setup_item">Special Rules</span></p>
+        
+        <p><span class="special_solo_title">Game Board Rules:</span> Standard game board rules apply, including the Bar area rule.</p>
+
+        <p><span class="special_solo_title">Slippery Sorcerer:</span> <a class="tile" href="/tiles/5">Skuthus</a> does not activate. 
+        He has the spells <a class="spell" href="/spells/13">Set’s Halo</a> and <a class="spell" href="/spells/11">Pestilential Swarm</a>. 
+        Skuthus casts Pestilential Swarm every time a Hero enters his area.</p>
+
+      </div>
+
+      <div class="col-md-6">
+        <p></p><p></p>
+
+        <p>Set’s Halo is always active. In addition to its normal effect, Set’s Halo gives Skuthus a protective shield that prevents 
+        him from taking more than 2 damage from any attack.</p>
+
+        <p>Whenever Skuthus suffers damage, he teleports to another room. Determine which room by performing the following steps:
+
+        <ol>
+        <li><span class="special_solo_title">Determine the floor where Skuthus will teleport.</span><br />
+        Skuthus will teleport to the floor with the fewest number of Heroes. If it’s a tie, he teleports to the floor he is not currently 
+        on. Consider stair areas as upstairs for this determination.</li>
+
+        <li><span class="special_solo_title">Determine the room where Skuthus will teleport.</span><br />
+        Roll <img src="/assets/dice/Orange.png" class="scen_sq_token" /> (no rerolls allowed). Skuthus teleports to the room number 
+        that matches the result. Skuthus cannot remain in the same room, repeat step 2 if this would occur.</li>
+
+        <li><span class="special_solo_title">Summon a protector.</span><br />
+        Teleport the blue Mummy closest to Skuthus into the room with him. Ignore obstacles and elevation levels when determing the 
+        closest Mummy. If there are none on the game board, reinforce one in the reinforcement area closest to Skuthus and then move it 
+        to the room with Skuthus.</li>
+        </ol>
+
+        <p><span class="special_solo_title">The Shambling Dead:</span> Unless their Target Hero is on the bar, Mummies and Skeletons will 
+        not move up onto the bar. They will walk around.
+
+        <p><span class="special_solo_title">Dark Demon:</span> The <a class="tile" href="/tiles/9">Dark Demon</a> targets the Strongest Hero.
+
+        <p><span class="special_solo_title">Doors:</span> The door with the red border requires a complex Manipulation with a difficulty 
+        of 5 to open. The other doors require a complex Manipulation with a difficulty of 2 or Wall Wrecker to open. Overlord units can 
+        move through the other doors as if they were a border. If they do, remove the door from the game board.
+
+
+       <p><span class="setup_item">Options</span></p>
+
+        <p><span class="special_title">Four Player Mode</span> 
+          <ul>
+            <li>Sellsword: <a class="hero" href="/heroes/1">Bêlit</a> (<a class="item" href="/items/10">Ornamental Spear</a>, 
+            <a class="item" href="/items/21">Tribal Shield</a>), starts in the same area as the Heroes.</li>
+            <li>After setup, each Hero moves 5 gems from their Reserve zone to their Fatigue zone.</li>
+            <li><span class="special_solo_title">Reminder:</span> The Overlord activates four times per turn.</li>
+          </ul></p>
+
+      </div>',
+
+      overlord_goal: '',
+
+      overlord_setup: '',
+
+      # Number Token used
+      rtoken1: 'num1Token',
+      rtoken2: 'num2Token',
+      rtoken3: 'num3Token',
+      rtoken4: 'num4Token',
+      rtoken5: 'num5Token',
+      rtoken6: '',
+      rtoken7: '',
+      rtoken8: '',
+
+      # Text under tile
+      btoken1: '',
+      btoken2: '(5 Max)',
+      btoken3: '(10 Max)',
+      btoken4: '',
+      btoken5: '(5 Max)',
+      btoken6: '',
+      btoken7: '',
+      btoken8: '',
+
+      tile1: 9,
+      tile2: 84,
+      tile3: 45,
+      tile4: 1,
+      tile5: 40,
+      tile6: 999,
+      tile7: 5,
+      tile8: 999,
+
+      life1: 8,
+      life2: 0,
+      life3: 0,
+      life4: 0,
+      life5: 0,
+      life6: 0,
+      life7: 6,
+      life8: 0,
+
+      # Hard Mode text/arrow
+      hardtext1: '',
+      hardtext2: '',
+      hardtext3: '',
+      hardtext4: '',
+      hardtext5: 'arrow',
+      hardtext6: '',
+      hardtext7: '',
+      hardtext8: '',
+
+      # Hard Mode tile
+      hardtile1: 902,
+      hardtile2: 999,
+      hardtile3: 999,
+      hardtile4: 999,
+      hardtile5: 176,
+      hardtile6: 999,
+      hardtile7: 999,
+      hardtile8: 999,
+
+      special_rules: '',
+
+      correction: '',
+      hero_victory: '',
+      overlord_victory: '',
+
+      origin: "King Pledge Solo/Coop",
+      product_ids: [1, 2, 3, 34],
+      map_ids: [2],
+      hero_ids: [1, 2, 3, 4],
+      tile_ids: [1, 5, 9, 40, 45, 84, 176],
+      spell_ids: [6, 9, 16],
+      item_ids: [1, 3, 5, 8, 9, 10, 12, 21, 13, 16, 17, 19, 20, 22] },
+
+
+    # Solo / Co-Op
+    # The Crawling Shadow
+    { name: "The Crawling Shadow",
+      mode: 'Solo/Cooperative',
+      pdf_link:'',
+      credit: '',
+      player_count: "3",
+      complexity: '',
+
+     description: '
+      <div class="col-md-6">
+        <p>Relentlessly pursued and having finally reached the Black
+        Kingdom of Kush, the survivors of the felon prince Almuric’s army are
+        finally annihilated in the northern desert when the jaws of the Stygian
+        and Kushite warriors close on them.</p>
+        <p>Conan the Cimmerian, the master thief Shevatas, and the fearsome warrior
+        Valeria are the only survivors of the massacre. They are forced to flee
+        through the hostile stretches of the southern end of the desert. Harried by
+        hunger, thirst, and the cruel heat of the sun, they discover amidst the
+        burning sands a fortification forgotten by time.</p>
+      </div>
+      <div class="col-md-6">
+        <p>Standing with the members of the garrison seemingly lifeless at her
+        feet, a beautiful but enigmatic young woman greets the weary travelers,
+        introducing herself as Thalis. This fort, she explains, is an outpost of
+        the vast city of Xuthal.</p>
+        <p>Thalis lavishes attention upon Conan, who obstinately refuses her
+        advances. Seeing a rival in Valeria, she captures the warrior, planning
+        to offer her as a sacrifice to Thog, the city’s god.</p>
+      </div>',
+
+      map_image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Crawling+Shadow+Solo.jpg',
+
+      # scenario pre-title 
+      hero_goal: '',
+
+      # Setup
+      hero_setup: '
+      <div class="col-md-6">
+        <p><span class="setup_item">Objective</span></p>
+        <p>To win the game, Valeria must be alive and the Energy token must be on 10 or lower on the Turn track at the end of turn 8. 
+        If Valeria dies, or the Energy token ever reaches 15, the Heroes immediately lose.</p> 
+
+
+        <p><span class="setup_item">Setup</span></p>
+        <p><strong>The game starts with the Heroes’ turn.</strong>
+        <ul>
+          <li>Warrior: <a class="hero" href="/heroes/2">Conan</a> (<a class="item" href="/items/1">Battle Axe</a>, 
+          <a class="item" href="/items/16">Chainmail</a>)</li> 
+          <li>Rogue: <a class="hero" href="/heroes/4">Shevatas</a> (<a class="item" href="/items/17">Leather Armor</a>, 
+          <a class="item" href="/items/35">Pirate Saber</a>, <a class="item" href="/items/13">Throwing Knives</a>)</li>
+          <li>Sellsword: <a class="hero" href="/heroes/7">Valeria</a> (<a class="item" href="/items/17">Leather Armor</a>, 
+          <a class="item" href="/items/11">Parrying Dagger</a>).</li>
+        </ul></p> 
+
+       <table class="solo_left_table">
+          <tr>
+            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+            <td>After setup, Valeria moves 4 gems from her Reserve zone to her Fatigue zone. 
+            Conan and Shevatas do not move any gems.</td>
+          </tr>
+        </table>
+
+        <p>Place the Energy token <img src="/assets/tokens/energyToken.png" class="scen_token" /> on 0 on the Turn track.</p>
+
+
+        <p><span class="setup_item">Asset Deck</span></p>
+        <p>Chests require a complex Manipulation with a difficulty of 2 to open. The Asset deck contains: 
+        <a class="item" href="/items/31">Xuthal’s Crown</a> x2, <a class="item" href="/items/22">Life Potion</a> x2, 
+        <a class="item" href="/items/6">Explosive Orb</a> x2, <a class="item" href="/items/5">Crossbow</a> x2</p>
+
+  
+        <p><span class="setup_item">Event</span></p>
+
+
+        <p>When the Event tile is activated, resolve each of the following events in order:
+        <ol>
+          <li>Reinforce 1 <a class="tile" href="/tiles/22">red</a>, 1 <a class="tile" href="/tiles/21">purple</a>, and 1 
+          <a class="tile" href="/tiles/19">green Bossonian Guard</a> to the reinforcement area <img src="/assets/stats/reinforcement.png" class="scen_token" />  
+          as well as 1 <a class="tile" href="/tiles/15">Bossonian Archer</a>.</li>
+          <li>Then activate <a class="tile" href="/tiles/37">Thog</a>.</li>
+        </ol>
+
+
+        <p><span class="setup_item">Special Rules</span></p>
+        
+        <p><span class="special_solo_title">Game Board Rules:</span> Standard game board rules apply.</p>
+
+        <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/StygianScepter.jpg" class="scen_event float_tile">
+        <p><span class="special_solo_title">Thalis:</span> When <a class="tile" href="/tiles/6">Thalis</a> performs a Melee Attack, 
+        she attacks with her <a class="item" href="/items/37">Stygian Scepter</a>, rolling the extra die indicated on the Stygian Scepter’s 
+        Melee Attack bonus. If Thalis dies, she drops the Stygian Scepter in her area.</p>
+
+      </div>
+
+      <div class="col-md-6">
+        <p></p><p></p>
+
+        <p><span class="special_solo_title">Escape impossible:</span> Heroes cannot escape before the end of turn 9. Thog tries to 
+        absorb enough energy to leave the city and wreak havoc. If he fails to do so on this very night, he will stay trapped for 
+          many years.</p>
+
+        <p><span class="special_solo_title">Black Lotus:</span> After setup, lay each Bossonian Guard, Archer, and the Captain 
+        miniature down in their area. Heroes cannot perform Melee or Ranged attacks on these units and these units do not count 
+          for hindering. When the Overlord activates a tile, all units from that tile stand up. At the end of the Heroes’ turn, 
+            lay down all Bossonian Guards, Archers, and the Captain.</p>
+
+        <p><span class="special_solo_title">Call of the Void:</span> If Bossonian Guards or Bossonian Archers cannot attack a Hero 
+        during their activation, they will instead move towards Thog.</p>
+
+        <p><span class="special_solo_title">Captain:</span> The <a class="tile" href="/tiles/3">Captain</a> targets the Strongest Hero.</p>
+
+        <p><span class="special_solo_title">Xuthal’s Crown:</span> When a Hero opens a chest and finds a 
+        <a class="item" href="/items/31">Xuthal’s Crown</a>, increase the <img src="/assets/tokens/energyToken.png" class="scen_token" /> 
+        by 1 on the Turn track. A Hero carrying a Xuthal’s Crown is immune to the effects of Horror.</p>
+
+        <p><span class="special_solo_title">Doors:</span> Doors require a complex Manipulation with a difficulty of 2 to pick the lock 
+        or an attack with 5 or more damage to destroy. If opened or destroyed, remove the door from the board. Thalis, Bossonian Guards, 
+        and the Captain can move through a door as if it were a border without removing it.</p>
+
+        <p><span class="special_solo_title">Thog:</span> Thog activates every turn at the begining of the Overlord’s turn. This does 
+        not count towards the number of Overlord activations.</p>
+
+        Once per activation, if at any point during its activation Thog is in the same area as one or more Bossonian Guards or Archers, 
+        Thog will devour one; remove that unit’s miniature from the board and increase the 
+        <img src="/assets/tokens/energyToken.png" class="scen_token" /> by 1 on the Turn track. If there are multiple units in the area 
+        to choose from, select the one with the lowest Activation token number.</p>
+        
+        Thog targets the closest Hero. If there is a tie, follow standard targeting priorities. When moving, Thog will prioritize a 
+        path passing through an area with a Bossonian Guard or Archer.</p>
+        
+        When Thog attacks a Hero, instead of inflicting damage to the Hero, increase the 
+        <img src="/assets/tokens/energyToken.png" class="scen_token" /> on the Turn track a number of spaces equal to the damage the 
+        Hero would have suffered.</p>
+        
+        Thog is immortal and cannot be killed. If a Hero attacks him and would inflict 2 or more damage with a single attack, decrease 
+        the <img src="/assets/tokens/energyToken.png" class="scen_token" /> by 1.</p>
+
+      </div>',
+
+      overlord_goal: '',
+
+      overlord_setup: '',
+
+      # Number Token used
+      rtoken1: '',
+      rtoken2: 'num1Token',
+      rtoken3: 'num2Token',
+      rtoken4: 'num3Token',
+      rtoken5: 'num4Token',
+      rtoken6: 'num5Token',
+      rtoken7: 'num6Token',
+      rtoken8: 'num7Token',
+
+      # Text under tile
+      btoken1: '',
+      btoken2: '(5 Max)',
+      btoken3: '(5 Max)',
+      btoken4: '(5 Max)',
+      btoken5: '(5 Max)',
+      btoken6: '',
+      btoken7: '',
+      btoken8: '',
+
+      tile1: 37,
+      tile2: 22,
+      tile3: 21,
+      tile4: 19,
+      tile5: 15,
+      tile6: 3,
+      tile7: 6,
+      tile8: 1,
+
+      life1: 0,
+      life2: 0,
+      life3: 0,
+      life4: 0,
+      life5: 0,
+      life6: 10,
+      life7: 5,
+      life8: 0,
+
+      # Hard Mode text/arrow
+      hardtext1: '',
+      hardtext2: '',
+      hardtext3: '',
+      hardtext4: 'arrow',
+      hardtext5: 'arrow',
+      hardtext6: 'arrow',
+      hardtext7: '',
+      hardtext8: '',
+
+      # Hard Mode tile
+      hardtile1: 901,
+      hardtile2: 999,
+      hardtile3: 999,
+      hardtile4: 131,
+      hardtile5: 136,
+      hardtile6: 148,
+      hardtile7: 999,
+      hardtile8: 999,
+
+      special_rules: '',
+
+      correction: '<p><strong>Note:</strong> This scenario uses the Thog tile with the <strong>Intangible</strong> skill, it allows 
+      Thog to move through any obstacle (wall, door, etc.) by spending movement points as though crossing a border, regardless of 
+      hindering, the Blocking skill, or elevation levels.</p>',
+      hero_victory: '',
+      overlord_victory: '',
+
+      origin: "King Pledge Solo/Coop",
+      product_ids: [1, 2, 3, 34],
+      map_ids: [4],
+      hero_ids: [2, 4, 7],
+      tile_ids: [1, 3, 6, 15, 19, 21, 22, 37, 131, 136, 148],
+      spell_ids: [],
+      item_ids: [1, 5, 6, 11, 13, 16, 17, 22, 31, 35] },
+
+
+    # Stretch Goal
+    # Solo / Co-Op
+    # The Thing from the Swamp
+    { name: "The Thing from the Swamp",
+      mode: 'Solo/Cooperative',
+      pdf_link:'',
+      credit: '',
+      player_count: "3-4",
+      complexity: '',
+
+     description: '
+      <div class="col-md-6">
+        <p>The horrific din rising above the village occupied by the
+      fearsome Pict warriors leaves no room for doubt; Conan and his group of volunteers
+      who came from Fort Tuscelan have failed to arrive before the sacrifice.</p>
+      <p>Yselda, daughter of the governor of Velitrium, howls in terror. The prisoner,
+      tied to a black pole, is surrounded by a mass of terrifying and gibbering
+      silhouettes; before her, Zogar Sag is determined to demonstrate his power.</p>
+      </div>
+      <div class="col-md-6">
+        <p>The sinister shaman trembles while chanting guttural incantations to the
+      rhythms of the warriors’ ceaseless shouts. Strange bubbling starts on the
+      surface of the swamp at the very moment Yselda falls unconscious, victim of
+      a charm cast by Zogar Sag.</p>
+      <p>There is no time to plan, as Conan knows the powers of the priests of
+      Jhebbal Sag and their ability to control all manner of beasts. But does he
+      know that the most powerful of them can also call upon ancient, nightmarish creatures?</p>
+      </div>',
+
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Thing+from+the+Swamp+Solo.jpg",
+
+      # scenario pre-title 
+      hero_goal: '',
+
+      # Setup
+      hero_setup: '
+      <div class="col-md-6">
+        <p><span class="setup_item">Objective</span></p>
+        <p>To win the game, a Hero has to flee the village with Yselda after the charm is broken before the end of turn 12.</p> 
+
+
+        <p><span class="setup_item">Setup</span></p>
+        <p><strong>The game starts with the Heroes’ turn.</strong>
+        <ul>
+          <li>Warrior: <a class="hero" href="/heroes/2">Conan</a> (<a class="item" href="/items/1">Battle Axe</a>, 
+          <a class="item" href="/items/16">Chainmail</a>, <a class="item" href="/items/20">Shield</a>)</li> 
+          <li>Rogue: <a class="hero" href="/heroes/4">Shevatas</a> (<a class="item" href="/items/11">Parrying Dagger</a>, 
+          <a class="item" href="/items/13">Throwing Knives</a>, <a class="item" href="/items/17">Leather Armor</a>)</li>
+          <li>Sorcerer: <a class="hero" href="/heroes/3">Hadrathus</a> (<a class="item" href="/items/9">Kris</a> and 4 spells: 
+            <a class="spell" href="/spells/20">Bel’s Caress</a>, <a class="spell" href="/spells/9">Mitra’s Halo</a>,
+            <a class="spell" href="/spells/6">Lightning Storm</a>, <a class="spell" href="/spells/16">Teleportation</a>). 
+            He starts with Mitra’s Halo cast.</li>
+        </ul></p> 
+
+       <table class="solo_left_table">
+          <tr>
+            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+            <td>After setup, each Hero moves 5 gems from their Reserve zone to their Fatigue zone.</td>
+          </tr>
+        </table>
+
+
+        <p><span class="setup_item">Asset Deck</span></p>
+        <p>Chests require a complex Manipulation with a difficulty of 2 to open. The Asset deck contains: 
+        <a class="item" href="/items/5">Crossbow</a>, <a class="item" href="/items/6">Explosive Orb</a>, 
+        <a class="item" href="/items/22">Life Potion</a> x4, <a class="item" href="/items/28">Spellbook</a>, 
+        <a class="item" href="/items/39">Two-Handed Sword</a>.</p>
+
+  
+        <p><span class="setup_item">Event</span></p>
+
+        <p><span class="special_solo_title">Event Tile 1</span></p>
+
+        <p><span class="special_solo_title">Reinforcements:</span> Reinforce all dead <a class="tile" href="/tiles/24">Pict Hunters</a> 
+        in reinforcement areas <img src="/assets/stats/reinforcement.png" class="scen_token" /> as evenly as possible. Then do the same 
+          with all <a class="tile" href="/tiles/23">Hyenas</a>. Players may choose in which reinforcement area to place any remainder 
+          miniatures.</p>
+
+        <p>Then shuffle all Activation tokens except this one and place them back in the Reserve.</p>
+
+        <p><span class="special_solo_title">Event Tile 2</span></p>
+        
+        <p>Perform the following actions in order:
+        <ol>
+          <li><span class="special_solo_title">Impending Awakening:</span> Increase the Turn track by 1.</li>
+          <li><span class="special_solo_title">Destruction:</span> Place a Water token <img src="/assets/tokens/waterToken.png" class="scen_token" /> 
+          in the area woth the Strongest Hero. That area becomes a water area where all corresponding rules apply. Add a Tentacle miniature to this 
+          area, which immediately attacks that Hero.</li>
+        </ol></p>
+
+      </div>
+
+      <div class="col-md-6">
+
+        <p><span class="setup_item">Special Rules</span></p>
+        
+        <p><span class="special_solo_title">Game Board Rules:</span> Standard game board rules apply except Overlord units ignore 
+        the Water areas rule.</p>
+
+        <p><span class="special_solo_title">Spellbook:</span> While carrying the Spellbook, Hadrathus gains the spell Mitra’s Healing.</p>
+
+        <p><span class="special_solo_title">Animal Senses:</span> Hyenas will not target a Hero with a Halo spell active.</p>
+
+        <p><span class="special_solo_title">Magical Charm:</span> Yselda is represented by the Princess miniature. If a Hero takes the 
+        Pictish Fetish and Zogar Sag dies, the charm is broken. Yselda now counts as an object with an Encumbrance value of 6, and can 
+        be picked up by a Hero by performing a simple Manipulation. She cannot be attacked.</p>
+
+        <p><span class="special_solo_title">Zogar Sag:</span> Targets the Strongest Hero. <a class="tile" href="/tiles/8">Zogar Sag</a> 
+        cannot be wounded except by a Hero carrying the Pictish Fetish.</p>
+
+        <p><span class="special_solo_title">Tentacle:</span> When the Tentacles Activation token is drawn, 
+        <a class="tile" href="/tiles/92">Tentacles</a> that can reach a Hero activate before Tentacles that cannot reach a Hero. If a 
+        Tentacle cannot attack a Hero because a wall is an obstacle, destroy the wall instead of attacking. Place a Wall Wrecker 
+        <img src="/assets/tokens/brokenWallToken.png" class="scen_token" /> token to indicate this wall has been destroyed. Tentacles 
+        will not destroy walls unless this condition is met.</p>
+
+        <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/PictishFetish.jpg" class="scen_event float_tile">
+        <p><span class="special_solo_title">Pictish Fetish:</span> When a Hero opens the last chest on the board, that Hero also takes 
+        the <a class="item" href="/items/25">Pictish Fetish</a> card.</p>
+
+        <p><span class="special_solo_title">Fleeing the Village:</span> A Hero can flee the village from an area at the edge of the 
+        board by spending movement points as though crossing a border. Once a Hero has fled, they cannot return to the board. A Hero 
+        that has fled is not considered to be killed; they are still counted for the number of Activation tokens to be drawn.</p>
+
+
+       <p><span class="setup_item">Options</span></p>
+
+        <p><span class="special_title">Four Player Mode</span> 
+          <ul>
+            <li>Sellsword: <a class="hero" href="/heroes/9">Amboola</a> (<a class="item" href="/items/12">Sword</a>, 
+            <a class="item" href="/items/17">Leather Armor</a>), starts in the same area as the Heroes.</li>
+            <li><span class="special_solo_title">Reminder:</span> The Overlord activates four times per turn.</li>
+          </ul></p>
+
+      </div>',
+
+      overlord_goal: '',
+
+      overlord_setup: '',
+
+      # Number Token used
+      rtoken1: '',
+      rtoken2: 'num1Token',
+      rtoken3: 'num2Token',
+      rtoken4: 'num3Token',
+      rtoken5: 'num4Token',
+      rtoken6: 'num5Token',
+      rtoken7: 'num6Token',
+      rtoken8: '',
+
+      # Text under tile
+      btoken1: '',
+      btoken2: '(9 Max)',
+      btoken3: '',
+      btoken4: '(5 Max)',
+      btoken5: '',
+      btoken6: '(10 Max)',
+      btoken7: '',
+      btoken8: '',
+
+      tile1: 999,
+      tile2: 24,
+      tile3: 1,
+      tile4: 23,
+      tile5: 8,
+      tile6: 92,
+      tile7: 2,
+      tile8: 999,
+
+      life1: 0,
+      life2: 0,
+      life3: 0,
+      life4: 0,
+      life5: 8,
+      life6: 0,
+      life7: 0,
+      life8: 0,
+
+      # Hard Mode text/arrow
+      hardtext1: '',
+      hardtext2: '',
+      hardtext3: '',
+      hardtext4: 'arrow',
+      hardtext5: 'arrow',
+      hardtext6: '',
+      hardtext7: '',
+      hardtext8: '',
+
+      # Hard Mode tile
+      hardtile1: 901,
+      hardtile2: 999,
+      hardtile3: 999,
+      hardtile4: 140,
+      hardtile5: 151,
+      hardtile6: 999,
+      hardtile7: 999,
+      hardtile8: 999,
+
+      special_rules: '',
+
+      correction: '',
+      hero_victory: '',
+      overlord_victory: '',
+
+      origin: "King Pledge Solo/Coop",
+      product_ids: [1, 3, 34],
+      map_ids: [6],
+      hero_ids: [2, 3, 4, 9],
+      tile_ids: [1, 2, 8, 23, 24, 92, 140, 151],
+      spell_ids: [6, 9, 16],
+      item_ids: [1, 5, 6, 9, 11, 12, 13, 16, 17, 20, 22, 28, 39] },
+
+
+    # Solo / Co-Op
+    # Facing the Serpent-Specter
+    { name: "Facing the Serpent-Specter",
+      mode: 'Solo/Cooperative',
+      pdf_link:'',
+      credit: '',
+      player_count: "3-4",
+      complexity: '',
+
+     description: '
+      <div class="col-md-6">
+        <p>A relentless hail of arrows flies from the forest to crash
+      upon the palisade of Fort Tuscelan. Hordes of naked silhouettes, covered in
+      ritual paints, surround the fort. The Black River swarms with their canoes.</p>
+      <p>Howling like wolves, hundreds of ferocious Picts surge from the edge of
+      the wood and begin an assault on the gates and the ramparts, defended under
+      torchlight by Aquilonian soldiers.</p>
+      <p>A group of warriors observes the scene from a distance. “Are we going to
+      cut our way into the fort?” asks one of Conan’s companions. The Cimmerian
+      shakes his head and announces, with a serious tone: “The fort is done for,
+      but we can still warn and save the settlers located between the fort and the
+      Thunder River. The Picts, drunk with blood, will swarm Eastward.”</p>
+      </div>
+      <div class="col-md-6">
+        <p>As the warriors run along the road leading to Velitrium, they reach the
+      Scalp, a small river beyond which the first settlements can be found. But
+      to their great surprise, the Picts have outpaced them, probably a small
+      detachment unwilling to wait until the fort is taken and wanting to surprise
+      the settlers in their beds to more easily massacre them.</p>
+      <p>Conan and his companions at arms rush to save the villagers at the same
+      moment Zogar Sag, leading the warriors, let out a hideous cry. A few moments
+      later, a legendary monster appears – a creature known to have disappeared
+      long ago: the terrifying Serpent-Specter.</p>
+      </div>',
+
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/Facing+the+Serpent+Specter+Solo.jpg",
+
+      # scenario pre-title 
+      hero_goal: '',
+
+      # Setup
+      hero_setup: '
+      <div class="col-md-6">
+        <p><span class="setup_item">Objective</span></p>
+        <p>To win the game, the Heroes must kill the Serpent-Specter and rescue 8 Villagers.</p> 
+
+
+        <p><span class="setup_item">Setup</span></p>
+        <p><strong>The game starts with the Overlord’s turn.</strong>
+        <ul>
+          <li>Warrior: <a class="hero" href="/heroes/2">Conan</a> (<a class="item" href="/items/1">Battle Axe</a>, 
+          <a class="item" href="/items/20">Shield</a>, <a class="item" href="/items/17">Leather Armor</a>)</li> 
+          <li>Rogue: <a class="hero" href="/heroes/4">Shevatas</a> (<a class="item" href="/items/12">Sword</a>, 
+          <a class="item" href="/items/17">Leather Armor</a>, <a class="item" href="/items/13">Throwing Knives</a>)</li>
+          <li>Sorcerer: <a class="hero" href="/heroes/3">Hadrathus</a> (<a class="item" href="/items/11">Parrying Dagger</a> and 3 spells: 
+            <a class="spell" href="/spells/16">Teleportation</a>, <a class="spell" href="/spells/9">Mitra’s Halo</a>,
+            <a class="spell" href="/spells/6">Lightning Storm</a>). He does not start with Mitra’s Halo cast.</li>
+        </ul></p> 
+
+       <table class="solo_left_table">
+          <tr>
+            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+            <td>After setup, each Hero moves 5 gems from their Reserve zone to their Fatigue zone.</td>
+          </tr>
+        </table>
+
+        <p>Place 13 tokens <img src="/assets/tokens/treasureToken.png" class="scen_token" /> on the board to represent Villagers.</p>
+
+
+        <p><span class="setup_item">Event</span></p>
+
+        <p><span class="special_solo_title">Reinforcements:</span> Reinforce 1 <a class="tile" href="/tiles/24">Pict Hunter</a> in each 
+        reinforcement area <img src="/assets/stats/reinforcement.png" class="scen_token" /> . If there are not enough available for all 
+        3 locations, players may distribute them as evenly as possible in the reinforcement areas that benefit them the most. Then do the 
+          same for the <a class="tile" href="/tiles/86">Pict Archers</a>.</p>
+
+
+        <p><span class="setup_item">Special Rules</span></p>
+        
+        <p><span class="special_solo_title">Game Board Rules:</span> Standard game board rules apply, except Overlord units ignore the 
+        Water areas rule. Note: the central water area is not considered adjacent to the boardwalk areas behind the stone outcrops.</p>
+
+        <p><span class="special_solo_title">Deep Water:</span> Areas shaded in black in the setup diagram are considered deep water. 
+        Units (Heroes and Overlord) cannot enter a Deep Water area, but it does not block line of sight.</p>
+
+      </div>
+
+      <div class="col-md-6">
+        <p></p><p></p>
+
+        <p><span class="special_solo_title">Villagers:</span> A Villager cannot move, counts as an object with an Encumbrance value of 4, 
+        and can be picked up by a Hero by performing a simple Manipulation. Villagers have 1 life point and no Armor. They are ignored by 
+        all Overlord units except for the <a class="tile" href="/tiles/10">Giant Snake</a>, and do not count towards hindering. If a Villager is in a reinforcement area 
+          <img src="/assets/stats/reinforcement.png" class="scen_token" /> with a Hero, remove the token from the board.</p>
+
+        <p><span class="special_solo_title">The Serpent-Specter:</span> The Serpent can attack and be attacked with a Melee Attack 
+        to/from an adjacent area in his line of sight.</p>
+
+        <p>When the Serpent-Specter activates, proceed as follows:</p>
+
+        <p>Place the Serpent-Specter (do not use movement points) in a water area without Heroes, that meets these criteria: is adjacent 
+        to an area with a Villager (#A) and no Heroes (#B), and in his line of sight (#C). Then attack the Villager.
+
+        <ul class="noBullet">
+        <li>- If #C cannot be met because a wall is blocking line of sight, destroy the wall instead of attacking the Villager.
+        Place a Wall Wrecker token <img src="/assets/tokens/brokenWallToken.png" class="scen_token" /> to indicate this wall has been 
+        destroyed.</li><br />
+        <li>- If #B cannot be met because all remaining Villagers are in the same area as a Hero, place the Serpent in a water area 
+        without Heroes that is adjacent to an area with a Villager and the Strongest Hero instead. Then attack that Hero.</li><br />
+        <li>- If #A cannot be met because no Villagers remain on the board, place the Serpent in a water area without Heroes that is 
+        adjacent to an area with the Strongest Hero instead. Then attack that Hero.</li><br />
+        <li>- If any of these criteria are tied, the players may choose.</li>
+        </ul></p>
+
+        <p>At the start of the next Overlord’s turn, remove the Serpent-Specter from the board.</p>
+
+
+       <p><span class="setup_item">Options</span></p>
+
+        <p><span class="special_title">Four Player Mode</span> 
+          <ul>
+            <li>Sellsword: <a class="hero" href="/heroes/15">Constantius</a> (<a class="item" href="/items/38">Turanian Sword</a>, 
+            <a class="item" href="/items/41">Zingaran Breastplate</a>), starts in the same area as Hadrathus.</li>
+            <li>The Giant Snake starts with 12 life points.</li>
+            <li><span class="special_solo_title">Reminder:</span> The Overlord activates four times per turn.</li>
+          </ul></p>
+
+      </div>',
+
+      overlord_goal: '',
+
+      overlord_setup: '',
+
+      # Number Token used
+      rtoken1: '',
+      rtoken2: 'num1Token',
+      rtoken3: 'num2Token',
+      rtoken4: 'num3Token',
+      rtoken5: 'num4Token',
+      rtoken6: 'num5Token',
+      rtoken7: 'num6Token',
+      rtoken8: '',
+
+      # Text under tile
+      btoken1: '',
+      btoken2: '(12 Max)',
+      btoken3: '',
+      btoken4: '',
+      btoken5: '',
+      btoken6: '(5 Max)',
+      btoken7: '',
+      btoken8: '',
+
+      tile1: 999,
+      tile2: 24,
+      tile3: 8,
+      tile4: 10,
+      tile5: 10,
+      tile6: 86,
+      tile7: 1,
+      tile8: 999,
+
+      life1: 0,
+      life2: 0,
+      life3: 8,
+      life4: 10,
+      life5: 0,
+      life6: 0,
+      life7: 0,
+      life8: 0,
+
+      # Hard Mode text/arrow
+      hardtext1: '',
+      hardtext2: '',
+      hardtext3: 'arrow',
+      hardtext4: '',
+      hardtext5: '',
+      hardtext6: '',
+      hardtext7: '',
+      hardtext8: '',
+
+      # Hard Mode tile
+      hardtile1: 902,
+      hardtile2: 999,
+      hardtile3: 151,
+      hardtile4: 999,
+      hardtile5: 999,
+      hardtile6: 999,
+      hardtile7: 999,
+      hardtile8: 999,
+
+      special_rules: '',
+
+      correction: '',
+      hero_victory: '',
+      overlord_victory: '',
+
+      origin: "King Pledge Solo/Coop",
+      product_ids: [1, 3, 34],
+      map_ids: [6],
+      hero_ids: [2, 3, 4, 15],
+      tile_ids: [1, 8, 10, 24, 86, 151],
+      spell_ids: [6, 9, 16],
+      item_ids: [1, 11, 12, 13, 17, 20, 38, 41] },
+
+    # Solo / Co-Op
+    # The Serpent’s Awakening
+    { name: "The Serpent’s Awakening",
+      mode: 'Solo/Cooperative',
+      pdf_link:'',
+      credit: '',
+      player_count: "3-4",
+      complexity: '',
+
+     description: '
+      <div class="col-md-6">
+        <p>A hurricane of steel thunders in the pass of Shamla. The
+        army of the kingdom of Khoraja, led by Conan the Cimmerian mercenary, is
+        standing facing a glistening ocean of bronze and gold ready to crash down
+        into the Hyborian states.</p>
+        <p>Natohk, the powerful and mysterious sorcerer of the desert, whose face
+        is always veiled, has gathered thirty nomad tribes and fifteen cities around
+        him. A fearsome leader, he has led his murderous horde to victory from the
+        wastes of the Shemite regions.</p>
+        <p>The battles have been raging since dawn. Wave after wave of enemy troops
+        crashes on the narrow opening of the pass, and the Khorajis counter-attack
+        impetuously, galvanized by Conan’s tactics and his fearsome personality.</p>
+      </div>
+      <div class="col-md-6">
+        <p>The Veiled One, seeing his dreams of bring down the Western kingdoms
+        fly out of his grasp, decides to use his sinister and powerful magic. He
+        rushes into battle on his chariot, and manages to capture Conan as well
+        as Princess Yasmela, regent of the kingdom of Khoraja.</p>
+        <p>Natohk flees to an ancient citadel in which he’s established his
+        headquarters. He has the firm intention of beheading the Cimmerian in
+        honor of Set, the serpent-god of Stygia, and feasting on the princess’
+        soul. But no cell can hold Conan for long.</p>
+      </div>',
+
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Serpents+Awakening+Solo.jpg",
+
+      # scenario pre-title 
+      hero_goal: '',
+
+      # Setup
+      hero_setup: '
+      <div class="col-md-6">
+        <p><span class="setup_item">Objective</span></p>
+        <p>To win the game, the Heroes must kill Olgerd Vladislav, and a Hero must flee the citadel with Yasmela 
+        through a real secret passage before the end of turn 12.</p> 
+
+
+        <p><span class="setup_item">Setup</span></p>
+        <p><strong>The game starts with the Heroes’ turn.</strong>
+        <ul>
+          <li>Warrior: <a class="hero" href="/heroes/14">Conan Warlord</a></li> 
+          <li>Warrior: <a class="hero" href="/heroes/7">Valeria</a> (<a class="item" href="/items/35">Pirate Saber</a>, 
+          <a class="item" href="/items/12">Sword</a>, <a class="item" href="/items/17">Leather Armor</a>)</li> 
+          <li>Rogue: <a class="hero" href="/heroes/4">Shevatas</a> (<a class="item" href="/items/11">Parrying Dagger</a>, 
+          <a class="item" href="/items/40">Zingaran Bow</a>, <a class="item" href="/items/17">Leather Armor</a>)</li>
+        </ul></p> 
+
+
+        <p>Randomly place 4 Stairs tokens facedown as indicated by the setup diagram to indicate secret passages.
+         <table class="solo_left_table">
+            <tr>
+              <td>
+                <img src="/assets/tokens/secretPassageToken.png" class="setup_token" /> 
+                <img src="/assets/tokens/secretPassageFalseToken.png" class="setup_token" /> 
+              </td>
+              <td>x2<br /> Fake</td>
+              <td>
+                <img src="/assets/tokens/secretPassageToken.png" class="setup_token" /> 
+                <img src="/assets/tokens/secretPassageGreenToken.png" class="setup_token" /> 
+              </td>
+              <td>x2<br /> Real</td>
+            </tr>
+          </table></p>
+
+
+       <table class="solo_left_table">
+          <tr>
+            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+            <td>After setup, Conan Warlord moves 5 gems from his Reserve to his Fatigue zone. Valeria and Shevatas move 3 gems 
+            from their Reserve to their Fatigue zone.</td>
+          </tr>
+        </table>
+
+
+        <p><span class="setup_item">Asset Deck</span></p>
+        <p>Chests require a complex Manipulation with a difficulty of 1 to open. The Asset deck contains: 
+        <a class="item" href="/items/22">Life Potion</a> x3, <a class="item" href="/items/45">Pictish Drink</a> x2, 
+        <a class="item" href="/items/20">Shield</a>, <a class="item" href="/items/16">Chain Mail</a>.</p>
+
+
+        <p><span class="setup_item">Event</span></p>
+
+        <p>Perform both of these actions in order:
+
+        <ol>
+          <li><span class="special_solo_title">Reinforcements:</span> Roll <img src="/assets/dice/Red.png" class="scen_sq_token" /> (no 
+          rerolls allowed) to determine how many <a class="tile" href="/tiles/23">Hyenas</a> are reinforced. Place them as evenly as 
+          possible in the reinforcement areas <img src="/assets/stats/reinforcement.png" class="scen_token" /> . Repeat this process for 
+          the <a class="tile" href="/tiles/17">Bossonian Guards</a>, and then for the <a class="tile" href="/tiles/15">Bossonian Archers</a>.</li>
+          <li><span class="special_solo_title">Curse of Set:</span> If a Hero is carrying Yasmela, she attacks that Hero with 
+          <img src="/assets/dice/Red.png" class="scen_sq_token" /> <img src="/assets/dice/Red.png" class="scen_sq_token" /> (no rerolls 
+          allowed). The Hero can only dodge the attack. If the attack power is greater than the defense power, the Hero suffers damage 
+          equal to the difference.</li>
+        </ol></p>
+
+      </div>
+
+      <div class="col-md-6">
+
+        <p><span class="setup_item">Special Rules</span></p>
+        
+        <p><span class="special_solo_title">Game Board Rules:</span> Standard game board rules apply.</p>
+
+
+        <p><span class="special_solo_title">Infiltration:</span> At the start of the first turn, place 
+        <a class="hero" href="/heroes/7">Valeria</a> and <a class="hero" href="/heroes/4">Shevatas</a> in any area of the player’s 
+        choice except the cells with Conan and Yasmela.</p>
+
+        <p><span class="special_solo_title">Olgerd Vladislav:</span> <a class="tile" href="/tiles/67">Olgerd Vladislav</a> targets the 
+        closest Hero. If tied, he targets the Hero with the most gems in their Fatigue zone.</p>
+
+        <p><span class="special_solo_title">Drunkard Captain:</span> A Hero in an area with the <a class="tile" href="/tiles/3">Captain</a> 
+        can perform a simple Manipulation and discard a <a class="item" href="/items/45">Pictish Drink</a> to convince him into revealing 
+        information about the citadel. The first time a Hero does this, choose and flip a Stairs token to reveal if it is a real secret 
+        passage <img src="/assets/tokens/secretPassageGreenToken.png" class="scen_token" /> . The second time a Hero does this, 
+        flip two Stairs tokens. This is the only way to flip these tokens.</p>
+
+        <p>If the Drunkard Captain dies before revealing a <img src="/assets/tokens/secretPassageGreenToken.png" class="scen_token" /> , 
+        the Heroes immediately lose the game.</p>
+
+        <p><span class="special_solo_title">Secret Passages:</span> A Hero in an area with a 
+        <img src="/assets/tokens/secretPassageGreenToken.png" class="scen_token" /> can flee with Yasmela by spending movement points as 
+        though the Hero were crossing a border.</p>
+
+        <p><span class="special_solo_title">Cursed Princess:</span> Yasmela is unconscious, counts as an object with an Encumbrance value 
+        of 6, and can be picked up by a Hero by performing a simple Manipulation. When a Hero picks Yasmela up, perform the “Curse of Set” 
+        event action. Yasmela cannot be attacked.</p>
+
+        <img src="https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/Key.jpg" class="scen_event float_tile">
+        <p><span class="special_solo_title">Doors:</span> The only way to open the door with the red border is for a Hero with the 
+        <a class="item" href="/items/24">Key</a> to perform a simple Manipulation. The other doors require a complex Manipulation with 
+        a difficulty of 2 or Wall Wrecker to open. Overlord units can move through the other doors as if they were a border without 
+        removing them.</p>
+
+        <p><span class="special_solo_title">Jailbreak:</span> When a Hero opens the last chest on the board, that Hero also takes the 
+        Key card.</p>
+
+
+        <p><span class="setup_item">Options</span></p>
+
+        <p><span class="special_title">Four Player Mode</span> 
+          <ul>
+            <li>Sellsword: <a class="hero" href="/heroes/16">Kerim Shah</a> (<a class="item" href="/items/38">Turanian Sword</a>, 
+            <a class="item" href="/items/13">Throwing Knives</a>), starts in any area of the player’s choice except the cells with Conan and Yasmela.</li>
+            <li>After setup, all Heroes move 5 gems from their Reserve zone to their Fatigue zone.</li>
+            <li><span class="special_solo_title">Reminder:</span> The Overlord activates four times per turn.</li>
+          </ul></p>
+
+      </div>',
+
+      overlord_goal: '',
+
+      overlord_setup: '',
+
+      # Number Token used
+      rtoken1: '',
+      rtoken2: 'num1Token',
+      rtoken3: 'num2Token',
+      rtoken4: 'num3Token',
+      rtoken5: 'num4Token',
+      rtoken6: 'num5Token',
+      rtoken7: 'num6Token',
+      rtoken8: '',
+
+      # Text under tile
+      btoken1: '',
+      btoken2: '(8 Max)',
+      btoken3: '',
+      btoken4: '',
+      btoken5: '(5 Max)',
+      btoken6: '(4 Max)',
+      btoken7: '',
+      btoken8: '',
+
+      tile1: 999,
+      tile2: 17,
+      tile3: 3,
+      tile4: 67,
+      tile5: 15,
+      tile6: 23,
+      tile7: 1,
+      tile8: 999,
+
+      life1: 0,
+      life2: 0,
+      life3: 4,
+      life4: 10,
+      life5: 0,
+      life6: 0,
+      life7: 0,
+      life8: 0,
+
+      # Hard Mode text/arrow
+      hardtext1: '',
+      hardtext2: '',
+      hardtext3: '',
+      hardtext4: 'Use either',
+      hardtext5: 'arrow',
+      hardtext6: 'arrow',
+      hardtext7: '',
+      hardtext8: '',
+
+      # Hard Mode tile
+      hardtile1: 901,
+      hardtile2: 999,
+      hardtile3: 999,
+      hardtile4: 219,
+      hardtile5: 136,
+      hardtile6: 140,
+      hardtile7: 999,
+      hardtile8: 999,
+
+      special_rules: '',
+
+      correction: '',
+      hero_victory: '',
+      overlord_victory: '',
+
+      origin: "King Pledge Solo/Coop",
+      product_ids: [1, 2, 3, 34],
+      map_ids: [5],
+      hero_ids: [4, 7, 14, 16],
+      tile_ids: [1, 3, 15, 17, 23, 67, 136, 140, 219],
+      spell_ids: [],
+      item_ids: [11, 12, 13, 16, 17, 20, 22, 35, 38, 40, 45] },
+
+    # Solo / Co-Op
+    # The Treasure of Tranicos
+    { name: "The Treasure of Tranicos",
+      mode: 'Solo/Cooperative',
+      pdf_link:'',
+      credit: '',
+      player_count: "3",
+      complexity: '',
+
+     description: '
+      <div class="col-md-6">
+        <p>Conan and his companions have been surviving for many months
+      under difficult conditions in the head of the bay of Korvela, along the coast
+      which borders the Pict territory, far in the north of the kingdom of Zingara.
+      They have followed their employer, Count Valenso Korzetta, who has exiled
+      himself far from civilization for reasons known only to himself.</p>
+      <p>They are soon joined by the mercenary captain Zaporavo, an acquaintance
+      of count Korzetta, who has come with his crew to lend a hand in exchange for
+      glittering gold.</p>
+      <p>As everyone is working to improve the defenses of the colony against the
+      Pict threat, they discover an ancient citadel which holds the mythic treasure
+      of Tranicos the Bloodthirsty, the most famous pirate the Baracha Isles have
+      ever known.</p>
+      </div>
+      <div class="col-md-6">
+         <p>Zaporavo, little disposed to share the loot, attempts to claim it and
+      takes advantage of the absence of the bulk of the troops to get rid of the
+      few guards left posted on location. Only Conan, the warrior Valeria, and
+      Taurus can interpose themselves, but they are quickly overwhelmed by Zaporavo’s
+      forces.</p>
+      <p>After sounding the alarm horn, Valeria and Taurus barely had enough time
+      to hide themselves, but Conan is captured and tossed in a pit filled with
+      hyenas.</p>
+      </div>',
+
+      map_image: "https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/scenarios/The+Treasure+of+Tranicos+Solo.jpg",
+
+      # scenario pre-title 
+      hero_goal: '',
+
+      # Setup
+      hero_setup: '
+      <div class="col-md-6">
+        <p><span class="setup_item">Objective</span></p>
+        <p>To win the game, the Heroes must prevent the Overlord from setting aside Gold bags with a value of 9 or more when the 
+        game ends at the end of the Overlord’s turn in turn 9. If all Heroes are defeated, the Heroes immediately lose.</p> 
+
+
+        <p><span class="setup_item">Setup</span></p>
+        <p><strong>The game starts with the Heroes’ turn.</strong>
+        <ul>
+          <li>Warrior: <a class="hero" href="/heroes/14">Conan Warlord</a>  (<a class="item" href="/items/4">Conan’s Sword</a>, 
+          <a class="item" href="/items/16">Chain Mail</a>)</li> 
+          <li>Warrior: <a class="hero" href="/heroes/7">Valeria</a> (<a class="item" href="/items/35">Pirate Saber</a>, 
+          <a class="item" href="/items/36">Sacrificial Dagger</a>, <a class="item" href="/items/17">Leather Armor</a>)</li> 
+          <li>Rogue: <a class="hero" href="/heroes/21">Taurus</a> (<a class="item" href="/items/38">Turanian Sword</a>, 
+          <a class="item" href="/items/13">Throwing Knives</a>, <a class="item" href="/items/17">Leather Armor</a>)</li>
+        </ul></p> 
+
+
+        <p>Randomly place 13 Treasure tokens facedown as indicated by the setup diagram.
+         <table class="solo_left_table">
+            <tr>
+              <td>
+                <img src="/assets/tokens/treasureToken.png" class="setup_token" /> 
+                <img src="/assets/tokens/num1Token.png" class="setup_token" /> 
+              </td>
+              <td>x9</td>
+              <td>
+                <img src="/assets/tokens/treasureToken.png" class="setup_token" /> 
+                <img src="/assets/tokens/num2Token.png" class="setup_token" /> 
+              </td>
+              <td>x4</td>
+            </tr>
+          </table></p>
+
+
+       <table class="solo_left_table">
+          <tr>
+            <td><img src="/assets/tokens/blueGem.png" class="scen_token" /></td>
+            <td>After setup, Conan Warlord moves 5 gems from his Reserve zone to his Fatigue zone. Valeria and Taurus move 3 gems 
+            from their Reserve zone to their Fatigue zone.</td>
+          </tr>
+        </table>
+
+
+        <p><span class="setup_item">Asset Deck</span></p>
+        <p>Chests require a complex Manipulation with a difficulty of 1 to open. The Asset deck contains: 
+        <a class="item" href="/items/5">Crossbow</a>, <a class="item" href="/items/6">Explosive Orb</a>, 
+        <a class="item" href="/items/7">Halberd</a>, <a class="item" href="/items/22">Life Potion</a> x3, 
+        <a class="item" href="/items/37">Stygian Scepter</a>, <a class="item" href="/items/39">Two-Handed Sword</a>.</p>
+
+
+        <p><span class="setup_item">Event</span></p>
+
+        <p>Perform both of these actions in order:
+        <ul class="noBullet">
+          <li><span class="special_solo_title">1. Reinforcements:</span> Reinforce 1 <a class="tile" href="/tiles/23">Hyena</a> in each 
+          reinforcement area <img src="/assets/stats/reinforcement.png" class="scen_token" /> . If there are not enough available for 
+          all 3 locations, players may distribute them as evenly as possible in the reinforcement areas that benefit them the most. 
+          Then do the same for the <a class="tile" href="/tiles/30">Pirates</a>, <a class="tile" href="/tiles/17">Bossonian Guards</a>, 
+            and <a class="tile" href="/tiles/14">Bêlits’ Guards</a>.</li>
+        </ul></p>
+
+      </div>
+
+      <div class="col-md-6">
+
+        <p><ul class="noBullet">
+          <li><span class="special_solo_title">2. Human Chain:</span> Choose a Gold bag in an area with the longest Human Chain and move it 
+          to the end of the chain. A Human Chain is when two or more adjacent areas contain an Overlord unit (human or non-human). Only 
+          count areas that would move the Gold bag closer to the nearest reinforcement area 
+          <img src="/assets/stats/reinforcement.png" class="scen_token" /> . Move up to 2 Gold bags in this manner, if possible. If the 
+          Gold bag reaches a reinforcement area <img src="/assets/stats/reinforcement.png" class="scen_token" /> , set it aside face-up.</li>
+        </ul></p>
+
+
+        <p><span class="setup_item">Special Rules</span></p>
+        
+        <p><span class="special_solo_title">Game Board Rules:</span> Standard game board rules apply.</p>
+
+        <p><span class="special_solo_title">Gold Bags:</span> The <img src="/assets/tokens/treasureToken.png" class="scen_token" /> tokens 
+        represent Gold bags and count as objects with an Encumbrance value of 2. A Hero can pick up a Gold bag with a simple Manipulation.</p>
+
+        <p><span class="special_solo_title">“Grap the loot!”:</span> When the Pirates activate, perform the following steps in order:
+        <ol>
+          <li>Add 1 Pirate to each reinforcement area <img src="/assets/stats/reinforcement.png" class="scen_token" /> .</li>
+
+          <li>Activate Pirates in areas with Gold bags first, starting with the Pirate furthest from a reinforcement area 
+          <img src="/assets/stats/reinforcement.png" class="scen_token" />  . Players choose in case of a tie. This Pirate will pick up a 
+            Gold bag, move 1 area towards the closest reinforcement area <img src="/assets/stats/reinforcement.png" class="scen_token" />  , 
+            and then drop the Gold bag. If the Pirate reaches a reinforcement area <img src="/assets/stats/reinforcement.png" class="scen_token" /> , 
+            set its Gold bag aside face-up. These Pirates do not leave the game board. Pirates that carry a Gold bag during their activation 
+              will not attack that turn. Repeat this for each Pirate in an area with a Gold bag, even if it was previously dropped into their area by another Pirate.</li>
+        
+          <li>Once all Pirates in areas with a Gold bag have activated, the remaining Pirates will activate one at a time using their 
+          movement points to move towards the closest area that contains more Gold bags than Pirate miniatures. They will only attack a 
+          Hero if they end their movement in the area with a Hero.</li>
+        </ol></p>
+
+        <p><span class="special_solo_title">Zaporavo:</span> <a class="tile" href="/tiles/7">Zaporavo</a> targets the Strongest Hero.</p>
+
+        <p><span class="special_solo_title">Bossonian Guards:</span> Will use Sacrifice if a Pirate in their area is attacked.</p>
+
+        <p><span class="special_solo_title">Inner Demon:</span> When Zaporavo dies, place the Dark Demon miniature in his area and replace 
+        his tile with the <a class="tile" href="/tiles/9">Dark Demon</a> tile. The players may remove any 2 
+        <img src="/assets/tokens/treasureToken.png" class="scen_token" /> tokens on the game board from the game.</p>
+
+      </div>',
+
+      overlord_goal: '',
+
+      overlord_setup: '',
+
+      # Number Token used
+      rtoken1: 'num1Token',
+      rtoken2: 'num2Token',
+      rtoken3: 'num3Token',
+      rtoken4: 'num4Token',
+      rtoken5: 'num5Token',
+      rtoken6: 'num6Token',
+      rtoken7: '',
+      rtoken8: '',
+
+      # Text under tile
+      btoken1: '(15 Max)',
+      btoken2: '(5 Max)',
+      btoken3: '',
+      btoken4: '',
+      btoken5: '(5 Max)',
+      btoken6: '(5 Max)',
+      btoken7: '',
+      btoken8: '',
+
+      tile1: 30,
+      tile2: 14,
+      tile3: 7,
+      tile4: 1,
+      tile5: 17,
+      tile6: 23,
+      tile7: 999,
+      tile8: 9,
+
+      life1: 0,
+      life2: 0,
+      life3: 3,
+      life4: 0,
+      life5: 0,
+      life6: 0,
+      life7: 0,
+      life8: 10,
+
+      # Hard Mode text/arrow
+      hardtext1: '',
+      hardtext2: 'arrow',
+      hardtext3: '',
+      hardtext4: '',
+      hardtext5: 'arrow',
+      hardtext6: 'arrow',
+      hardtext7: '',
+      hardtext8: '',
+
+      # Hard Mode tile
+      hardtile1: 901,
+      hardtile2: 176,
+      hardtile3: 999,
+      hardtile4: 999,
+      hardtile5: 131,
+      hardtile6: 140,
+      hardtile7: 999,
+      hardtile8: 999,
+
+      special_rules: '',
+
+      correction: '',
+      hero_victory: '',
+      overlord_victory: '',
+
+      origin: "King Pledge Solo/Coop",
+      product_ids: [1, 2, 3, 34],
+      map_ids: [5],
+      hero_ids: [7, 14, 21],
+      tile_ids: [1, 7, 9, 14, 17, 23, 30, 131, 140, 176],
+      spell_ids: [],
+      item_ids: [4, 5, 6, 7, 13, 16, 17, 22, 35, 36, 37, 38, 39] },
 
 
 

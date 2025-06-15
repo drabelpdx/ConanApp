@@ -2,15 +2,15 @@
 # of editing this file, please use the migrations feature of Active Record to
 # incrementally modify your database, and then regenerate this schema definition.
 #
-# Note that this schema.rb definition is the authoritative source for your
-# database schema. If you need to create the application database on another
-# system, you should be using db:schema:load, not running all the migrations
-# from scratch. The latter is a flawed and unsustainable approach (the more migrations
-# you'll amass, the slower it'll run and the greater likelihood for issues).
+# This file is the source Rails uses to define your schema when running `bin/rails
+# db:schema:load`. When creating a new database, `bin/rails db:schema:load` tends to
+# be faster and is potentially less error prone than running all of your
+# migrations from scratch. Old migrations may fail to apply correctly if those
+# migrations use external dependencies or application code.
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2025_04_02_005221) do
+ActiveRecord::Schema.define(version: 2025_06_11_211445) do
 
   create_table "bone_tiles", force: :cascade do |t|
     t.integer "bone_id"
@@ -241,6 +241,22 @@ ActiveRecord::Schema.define(version: 2025_04_02_005221) do
     t.string "btoken6"
     t.string "btoken7"
     t.string "btoken8"
+    t.integer "hardtile1"
+    t.integer "hardtile2"
+    t.integer "hardtile3"
+    t.integer "hardtile4"
+    t.integer "hardtile5"
+    t.integer "hardtile6"
+    t.integer "hardtile7"
+    t.integer "hardtile8"
+    t.string "hardtext1"
+    t.string "hardtext2"
+    t.string "hardtext3"
+    t.string "hardtext4"
+    t.string "hardtext5"
+    t.string "hardtext6"
+    t.string "hardtext7"
+    t.string "hardtext8"
   end
 
   create_table "skill_tiles", force: :cascade do |t|

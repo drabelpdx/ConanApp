@@ -1125,5 +1125,66 @@
       role: 'Other', dice: '', description: 'Discard this card to place a Rope token in your area.', 
       correction: '', image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/Rope.jpg' }, 
 
+    { name: 'Scenario 1', encumbrance: '1', origin: 'Red Nails',
+      count: '1', armor: '', melee: '', ranged: '', defense: '', manipulation: '',
+      role: 'Special', dice: '', description: 'Use card as outlined by scenario.', 
+      correction: '', image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/Scenario1.jpg' }, 
+
+    { name: 'Scenario 2', encumbrance: '1', origin: 'Red Nails',
+      count: '1', armor: '', melee: '', ranged: '', defense: '', manipulation: '',
+      role: 'Special', dice: '', description: 'Use card as outlined by scenario.', 
+      correction: '', image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/Scenario2.jpg' }, 
+
+    { name: 'Scenario 3', encumbrance: '1', origin: 'Red Nails',
+      count: '1', armor: '', melee: '', ranged: '', defense: '', manipulation: '',
+      role: 'Special', dice: '', description: 'Use card as outlined by scenario.', 
+      correction: '', image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/Scenario3.jpg' }, 
+
+    { name: 'Scenario 4', encumbrance: '1', origin: 'Red Nails',
+      count: '1', armor: '', melee: '', ranged: '', defense: '', manipulation: '',
+      role: 'Special', dice: '', description: 'Use card as outlined by scenario.', 
+      correction: '', image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/Scenario4.jpg' }, 
+
+    { name: 'Scenario 5', encumbrance: '1', origin: 'Red Nails',
+      count: '1', armor: '', melee: '', ranged: '', defense: '', manipulation: '',
+      role: 'Special', dice: '', description: 'Use card as outlined by scenario.', 
+      correction: '', image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/Scenario5.jpg' }, 
+
+    { name: 'Scenario 6', encumbrance: '1', origin: 'Red Nails',
+      count: '1', armor: '', melee: '', ranged: '', defense: '', manipulation: '',
+      role: 'Special', dice: '', description: 'Use card as outlined by scenario.', 
+      correction: '', image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/Scenario6.jpg' }, 
+
+    { name: 'Scenario 7', encumbrance: '1', origin: 'Red Nails',
+      count: '1', armor: '', melee: '', ranged: '', defense: '', manipulation: '',
+      role: 'Special', dice: '', description: 'Use card as outlined by scenario.', 
+      correction: '', image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/Scenario7.jpg' }, 
+
+    { name: 'Scenario 8', encumbrance: '1', origin: 'Red Nails',
+      count: '1', armor: '', melee: '', ranged: '', defense: '', manipulation: '',
+      role: 'Special', dice: '', description: 'Use card as outlined by scenario.', 
+      correction: '', image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/Scenario8.jpg' }, 
+
+    { name: 'Scenario 9', encumbrance: '1', origin: 'Red Nails',
+      count: '1', armor: '', melee: '', ranged: '', defense: '', manipulation: '',
+      role: 'Special', dice: '', description: 'Use card as outlined by scenario.', 
+      correction: '', image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/Scenario9.jpg' }, 
+
+    { name: 'Scenario 10', encumbrance: '1', origin: 'Red Nails',
+      count: '1', armor: '', melee: '', ranged: '', defense: '', manipulation: '',
+      role: 'Special', dice: '', description: 'Use card as outlined by scenario.', 
+      correction: '', image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/Scenario10.jpg' }, 
+
+    { name: 'Scenario 11', encumbrance: '1', origin: 'Red Nails',
+      count: '1', armor: '', melee: '', ranged: '', defense: '', manipulation: '',
+      role: 'Special', dice: '', description: 'Use card as outlined by scenario.', 
+      correction: '', image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/Scenario11.jpg' }, 
+
+    { name: 'Scenario 12', encumbrance: '1', origin: 'Red Nails',
+      count: '1', armor: '', melee: '', ranged: '', defense: '', manipulation: '',
+      role: 'Special', dice: '', description: 'Use card as outlined by scenario.', 
+      correction: '', image: 'https://drabelpdx.s3.us-west-2.amazonaws.com/Conan/items/Scenario12.jpg' }, 
+
+
 
   ])

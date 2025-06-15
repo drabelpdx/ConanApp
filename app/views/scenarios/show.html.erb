@@ -236,7 +236,6 @@
       </div>
     </div>
 
-
     <% if @scenario.hero_victory != '' %>
       <div class="row scenario">
         <div class="col-md-12">
@@ -531,6 +530,138 @@
       </div>
     <% end %>
 
+
+    <% if @scenario.hardtile1 !=999 %>
+      <div class="row">
+        <div class="col-md-12">
+            <table class="tiletable-solo">
+              <tr class="sm_tokens" >
+                <td class="scen_arrow">
+                  <% if @scenario.hardtext1 =='arrow' %>
+                    <img src="/assets/misc/ArrowUp.png" />
+                  <% else %>
+                    <%= @scenario.hardtext1 %>
+                  <% end %>
+                </td>
+                <td class="scen_arrow">
+                  <% if @scenario.hardtext2 =='arrow' %>
+                    <img src="/assets/misc/ArrowUp.png" />
+                  <% else %>
+                    <%= @scenario.hardtext2 %>                    
+                  <% end %>
+                </td>
+                <td class="scen_arrow">
+                  <% if @scenario.hardtext3 =='arrow' %>
+                    <img src="/assets/misc/ArrowUp.png" />
+                  <% else %>
+                    <%= @scenario.hardtext3 %>
+                  <% end %>
+                </td>
+                <td class="scen_arrow">
+                  <% if @scenario.hardtext4 =='arrow' %>
+                    <img src="/assets/misc/ArrowUp.png" />
+                  <% else %>
+                    <%= @scenario.hardtext4 %>
+                  <% end %>
+                </td>
+                <td class="scen_arrow">
+                  <% if @scenario.hardtext5 =='arrow' %>
+                    <img src="/assets/misc/ArrowUp.png" />
+                  <% else %>
+                    <%= @scenario.hardtext5 %>
+                  <% end %>
+                </td>
+                <td class="scen_arrow">
+                  <% if @scenario.hardtext6 =='arrow' %>
+                    <img src="/assets/misc/ArrowUp.png" />
+                  <% else %>
+                    <%= @scenario.hardtext6 %>
+                  <% end %>
+                </td>
+                <td class="scen_arrow">
+                  <% if @scenario.hardtext7 =='arrow' %>
+                    <img src="/assets/misc/ArrowUp.png" />
+                  <% else %>
+                    <%= @scenario.hardtext7 %>
+                  <% end %>
+                </td>
+                <td class="scen_arrow">
+                  <% if @scenario.hardtext8 =='arrow' %>
+                    <img src="/assets/misc/ArrowUp.png" />
+                  <% else %>
+                    <%= @scenario.hardtext8 %>
+                  <% end %>
+                </td>
+              </tr>
+              <tr class="sm_tiles">
+                <% if @scenario.hardtile1 ==901 %>
+                  <td class='alnright'><strong>Hard Mode:</strong> Choose one of these tiles to substitute.</td>
+                <% elsif @scenario.hardtile1 ==902 %>
+                  <td class='alnright'><strong>Hard Mode:</strong> Choose this tile to substitute.</td>
+                <% else %>
+                  <td></td>
+                <% end %>
+
+                <% if @scenario.hardtile2 ==999 %>
+                  <td></td>
+                <% else %>
+                  <% findTile = @scenario.hardtile2 %>
+                  <% tile = Tile.find_by_id [findTile] %>
+                  <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile), :title => "#{tile.name}" %></td>
+                <% end %>
+                <% if @scenario.hardtile3 ==999 %>
+                  <td></td>
+                <% else %>
+                  <% findTile = @scenario.hardtile3 %>
+                  <% tile = Tile.find_by_id [findTile] %>
+                  <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile), :title => "#{tile.name}" %></td>
+                <% end %>
+                <% if @scenario.hardtile4 ==999 %>
+                  <td></td>
+                <% else %>
+                  <% findTile = @scenario.hardtile4 %>
+                  <% tile = Tile.find_by_id [findTile] %>
+                  <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile), :title => "#{tile.name}" %></td>
+                <% end %>
+                <% if @scenario.hardtile5 ==999 %>
+                  <td></td>
+                  <% else %>
+                  <% findTile = @scenario.hardtile5 %>
+                  <% tile = Tile.find_by_id [findTile] %>
+                  <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile), :title => "#{tile.name}" %></td>
+                <% end %>
+                <% if @scenario.hardtile6 ==999 %>
+                  <td></td>
+                <% else %>
+                  <% findTile = @scenario.hardtile6 %>
+                  <% tile = Tile.find_by_id [findTile] %>
+                  <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile), :title => "#{tile.name}" %></td>
+                <% end %>
+                <% if @scenario.hardtile7 ==999 %>
+                  <td></td>
+                <% else %>
+                  <% findTile = @scenario.hardtile7 %>
+                  <% tile = Tile.find_by_id [findTile] %>
+                  <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile), :title => "#{tile.name}" %></td>
+                <% end %>
+                <% if @scenario.hardtile8 ==999 %>
+                  <td></td>
+                <% else %>
+                  <% findTile = @scenario.hardtile8 %>
+                  <% tile = Tile.find_by_id [findTile] %>
+                  <td><%= link_to image_tag("#{tile.tile_image}"), tile_path(tile), :title => "#{tile.name}" %></td>
+                <% end %>
+              </tr>
+            </table>
+        </div>
+      </div>
+    <% else %>
+      <div class="row">
+        <div class="col-md-12">
+        </div>
+      </div>
+    <% end %>
+
     <% if @scenario.hero_victory != '' %>
       <div class="row">
         <div class="col-md-12 solo-victory">  
@@ -552,10 +683,8 @@
       </div>
     <% end %>
 
-
   </div>
 <% end %>
-
 
 
 <% if @scenario.mode == "Versus" %> 
@@ -833,7 +962,6 @@
         </div>
       </div>
     </div>
-
 
     <% if @scenario.correction != '' %>
       <div class="row scenario">

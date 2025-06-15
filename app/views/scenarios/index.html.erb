@@ -496,42 +496,6 @@ Below is a list of Adventure Mode scenarios that shipped with Monolith products.
 
 
   <div class="card">
-    <div class="card-header" id="headingNailsSG">
-      <button class="btn btn-link" data-toggle="collapse" data-target="#collapseNailsSG">
-      &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Red Nails Stretch Goal</button>
-    </div>
-    <div class="panel panel-info">
-      <div id="collapseNailsSG" class="collapse in">
-        <table class="table stats scenariostats">
-          <thead>
-            <tr>
-              <th class="w30">Scenario</th>
-              <th class="w10">Players</th>
-              <th class="w20">Map</th>
-              <th class="w15">Mode</th>
-              <th class="w20">Origin</th>
-            </tr>
-          </thead>
-          <% @nailssg.each do |scenario| %>
-          <tr>
-            <td class="scenario"><%= link_to scenario.name, scenario_path(scenario) %></td>
-            <td><%= scenario.player_count  %></td>
-            <td>
-              <% scenario.maps.each do |map| %>
-              <%= map.name %>
-              <br />
-              <% end %>
-            </td>
-            <td><%= scenario.mode %></td>
-            <td>Red Nails Stretch Goal</td>
-          </tr>
-          <% end %>
-        </table>
-      </div>
-    </div>
-  </div>
-
-  <div class="card">
     <div class="card-header" id="headingWorms">
       <button class="btn btn-link" data-toggle="collapse" data-target="#collapseWorms">
       &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Worms of the Earth</button>
@@ -603,6 +567,79 @@ Below is a list of Adventure Mode scenarios that shipped with Monolith products.
       </div>
     </div>
   </div>
+
+  <div class="card">
+    <div class="card-header" id="headingNailsSG">
+      <button class="btn btn-link" data-toggle="collapse" data-target="#collapseNailsSG">
+      &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Red Nails Stretch Goal</button>
+    </div>
+    <div class="panel panel-info">
+      <div id="collapseNailsSG" class="collapse in">
+        <table class="table stats scenariostats">
+          <thead>
+            <tr>
+              <th class="w30">Scenario</th>
+              <th class="w10">Players</th>
+              <th class="w20">Map</th>
+              <th class="w15">Mode</th>
+              <th class="w20">Origin</th>
+            </tr>
+          </thead>
+          <% @nailssg.each do |scenario| %>
+          <tr>
+            <td class="scenario"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td><%= scenario.player_count  %></td>
+            <td>
+              <% scenario.maps.each do |map| %>
+              <%= map.name %>
+              <br />
+              <% end %>
+            </td>
+            <td><%= scenario.mode %></td>
+            <td>Red Nails Stretch Goal</td>
+          </tr>
+          <% end %>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header" id="headingKPSolo">
+      <button class="btn btn-link" data-toggle="collapse" data-target="#collapseKPSolo">
+      &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;King Pledge Solo/Coop</button>
+    </div>
+    <div class="panel panel-info">
+      <div id="collapseKPSolo" class="collapse in">
+        <table class="table stats scenariostats">
+          <thead>
+            <tr>
+              <th class="w30">Scenario</th>
+              <th class="w10">Players</th>
+              <th class="w20">Map</th>
+              <th class="w15">Mode</th>
+              <th class="w20">Origin</th>
+            </tr>
+          </thead>
+          <% @kpsolo.each do |scenario| %>
+          <tr>
+            <td class="scenario"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td><%= scenario.player_count  %></td>
+            <td>
+              <% scenario.maps.each do |map| %>
+              <%= map.name %>
+              <br />
+              <% end %>
+            </td>
+            <td><%= scenario.mode %></td>
+            <td>King Pledge Solo/Coop</td>
+          </tr>
+          <% end %>
+        </table>
+      </div>
+    </div>
+  </div>
+
 </div>
 
 <div id="by_map">
@@ -1370,6 +1407,44 @@ Below is a list of Adventure Mode scenarios that shipped with Monolith products.
   <div class="card">
     <div class="card-header" id="heading2p">
       <button class="btn btn-link" data-toggle="collapse" data-target="#collapse2p">
+      &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;1 Player</button>
+    </div>
+    <div class="panel panel-info">
+      <div id="collapse2p" class="collapse in">
+        <table class="table stats scenariostats">
+          <thead>
+            <tr>
+              <th class="w30">Scenario</th>
+              <th class="w20">Map</th>
+              <th class="w15">Mode</th>
+              <th class="w20">Origin</th>
+              <th class="w10">Players</th>
+            </tr>
+          </thead>
+          <% @scenarios.each do |scenario| %>
+          <% if scenario.player_count === "1"%>
+          <tr>
+            <td class="scenario"><%= link_to scenario.name, scenario_path(scenario) %></td>
+            <td>
+              <% scenario.maps.each do |map| %>
+              <%= map.name %>
+              <br />
+              <% end %>
+            </td>
+            <td><%= scenario.mode %></td>
+            <td><%= scenario.origin %></td>
+            <td><%= scenario.player_count %></td>
+          </tr>
+          <% end %>
+          <% end %>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header" id="heading2p">
+      <button class="btn btn-link" data-toggle="collapse" data-target="#collapse2p">
       &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;2 Players</button>
     </div>
     <div class="panel panel-info">
@@ -1649,8 +1724,7 @@ Below is a list of Adventure Mode scenarios that shipped with Monolith products.
               <th class="w15">Mode</th>
             </tr>
           </thead>
-          <% @scenarios.each do |scenario| %>
-          <% if scenario.mode === "Adventure" %>
+          <% @adventure.each do |scenario| %>
           <tr>
             <td class="scenario"><%= link_to scenario.name, scenario_path(scenario) %></td>
             <td><%= scenario.player_count %></td>
@@ -1661,9 +1735,8 @@ Below is a list of Adventure Mode scenarios that shipped with Monolith products.
               <% end %>
             </td>
             <td><%= scenario.origin %></td>
-            <td><%= scenario.mode %></td>            
+            <td>Adventure</td>            
           </tr>
-          <% end %>
           <% end %>
         </table>
       </div>
@@ -1686,8 +1759,7 @@ Below is a list of Adventure Mode scenarios that shipped with Monolith products.
               <th class="w15">Mode</th>
             </tr>
           </thead>
-          <% @scenarios.each do |scenario| %>
-          <% if scenario.mode === "Solo/Cooperative" %>
+          <% @solo.each do |scenario| %>
           <tr>
             <td class="scenario"><%= link_to scenario.name, scenario_path(scenario) %></td>
             <td><%= scenario.player_count %></td>
@@ -1698,21 +1770,20 @@ Below is a list of Adventure Mode scenarios that shipped with Monolith products.
               <% end %>
             </td>
             <td><%= scenario.origin %></td>
-            <td><%= scenario.mode %></td>  
+            <td>Solo/Cooperative</td>  
           </tr>
-          <% end %>
           <% end %>
         </table>
       </div>
     </div>
   </div>
   <div class="card">
-    <div class="card-header" id="headingVersus">
-      <button class="btn btn-link" data-toggle="collapse" data-target="#collapseVersus">
+    <div class="card-header" id="headingVersusM">
+      <button class="btn btn-link" data-toggle="collapse" data-target="#collapseVersusM">
       &#x25BC;&nbsp;&#x25B2;&nbsp;&nbsp;Versus</button>
     </div>
     <div class="panel panel-info">
-      <div id="collapseVersus" class="collapse in">
+      <div id="collapseVersusM" class="collapse in">
         <table class="table stats scenariostats">
           <thead>
             <tr>
@@ -1723,8 +1794,7 @@ Below is a list of Adventure Mode scenarios that shipped with Monolith products.
               <th class="w15">Mode</th>
             </tr>
           </thead>
-          <% @scenarios.each do |scenario| %>
-          <% if scenario.mode === "Versus" %>
+          <% @versusM.each do |scenario| %>
           <tr>
             <td class="scenario"><%= link_to scenario.name, scenario_path(scenario) %></td>
             <td><%= scenario.player_count %></td>
@@ -1735,9 +1805,8 @@ Below is a list of Adventure Mode scenarios that shipped with Monolith products.
               <% end %>
             </td>
             <td><%= scenario.origin %></td>
-            <td><%= scenario.mode %></td>  
+            <td>Versus</td>  
           </tr>
-          <% end %>
           <% end %>
         </table>
       </div>

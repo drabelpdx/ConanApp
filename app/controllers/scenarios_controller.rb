@@ -107,13 +107,14 @@ class ScenariosController < ApplicationController
       @brotherhood = Scenario.where(origin: 'Tales of the Red Brotherhood')
       @shadow = Scenario.where(origin: 'The Shadow Kingdom')
       @nails = Scenario.where(origin: 'Red Nails')
-      @nailssg = Scenario.where(origin: 'Red Nails Stretch Goal')
       @worms = Scenario.where(origin: 'Worms of the Earth')
       @versus = Scenario.where(origin: 'Versus')
       @frazetta = Scenario.where(origin: 'Frazetta Guest Box')
+      @nailssg = Scenario.where(origin: 'Red Nails Stretch Goal')
+      @kpsolo = Scenario.where(origin: 'King Pledge Solo/Coop')
       @adventure = Scenario.where(mode: 'Adventure')
       @solo = Scenario.where(mode: 'Solo/Cooperative')
-      @versus = Scenario.where(mode: 'Versus')
+      @versusM = Scenario.where(mode: 'Versus')
     end
 
     def set_tiles

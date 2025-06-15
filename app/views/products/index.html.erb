@@ -135,5 +135,17 @@
         <% end %>
       </table>
     </div>
+    
+    <div class="panel panel-primary">
+      <div class="panel-heading">Stretch Goal PDFs</div>
+      <table class="table">
+        <% @pdfs2024.each do |product| %>
+        <tr>
+          <td class="product"><%= link_to product.name, product_path(product) %></td>
+        </tr>
+        <% end %>
+      </table>
+    </div>
+
   </div>
 </div>

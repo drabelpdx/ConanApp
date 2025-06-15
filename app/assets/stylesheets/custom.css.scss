@@ -822,8 +822,20 @@ h2.product {
   border-radius: 50%;
 }
 
+.setup_token {
+  width: 45px;
+  height: auto;
+  border-radius: 50%;
+}
+
 .scen_token {
   width: 30px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.small_token {
+  width: 25px;
   height: auto;
   border-radius: 50%;
 }
@@ -852,6 +864,29 @@ h2.product {
   height: auto;
   border-radius: 5px;
 }
+
+.cardTable td {
+  border: none;
+  text-align: left;
+}
+
+.cardTable tr td img {
+  width: 40px;
+  height: auto;
+  border-radius: 5px;
+}
+
+td.scen_arrow img {
+  height: 40px;
+  width: auto;
+  margin-top: -20px;
+  margin-bottom: -15px;
+}
+
+.alnright { text-align: right; }
+
+.alnleft { text-align: left; }
+
 
 .setup_event {
   width: 30px;
@@ -907,7 +942,11 @@ h2.product {
 }
 
 
-
+ul.noBullet
+{
+  list-style-type: none;
+  margin-left: -5px;
+}
 
 .solo_table_unseen tr {
   background-color: #e6e6e6;
@@ -1313,19 +1352,11 @@ footer ul li {
   transform: translate(-50%, 0);
 }
 
-
-
-
-
-
-
 .scenario-well-solo {
-  background: #f2e6d9;
+  background: #f8f2ec;
   border: solid gray 1px;
   border-radius: 5px;
 }
-
-
 
 .river-well-solo {
   padding-top: 10px;
@@ -1334,10 +1365,9 @@ footer ul li {
   margin-bottom: -20px;
 }
 
-
 .center-map-solo {
   padding-left: 10%;
-  background-color: fff2cc;
+  background-color: #fff2cc;
 }
 
 .center-map-solo img {
@@ -1605,12 +1635,6 @@ td.lifePoint {
 }
 
 
-
-
-
-
-
-
 .setup_item {
   width: 100%;
   background-color: #4d2600;
@@ -1624,8 +1648,6 @@ td.lifePoint {
   margin-bottom: 10px;
   border-radius: 5px;
 }
-
-
 
 .solo-description {
   background: rgba(255, 242, 204, 0.75);
@@ -1642,7 +1664,6 @@ td.lifePoint {
   padding-top: 10px;
 }
 
-
 .description {
   background: rgba(255, 242, 204, 0.75);
   border-radius: 5px;
@@ -1651,8 +1672,6 @@ td.lifePoint {
   margin-bottom: 20px;
   padding: 15px;
 }
-
-
 
 .curse_table {
   text-align: left;
@@ -1673,5 +1692,11 @@ td.lifePoint {
   padding-right: 5px;
 }
 
+
+.hardtiles {
+  background: green;
+  padding: 0;
+
+}
 
 
