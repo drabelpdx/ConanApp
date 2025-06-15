@@ -228,7 +228,7 @@ DEPENDENCIES
   bootstrap-will_paginate (= 1.0.0)
   byebug
   coffee-rails (= 4.2.2)
-  ffi (< 1.17.0)
+  ffi (= 1.16.3)
   jbuilder (= 2.9.1)
   jquery-rails
   listen
