@@ -233,7 +233,7 @@ DEPENDENCIES
   jquery-rails
   listen
   mini_portile2 (= 2.8.5)
-  nokogiri (= 1.18.4)
+  nokogiri (~> 1.18.0)
   pg (= 1.1.4)
   psych (= 3.3.3)
   rails (= 6.1.7.10)
