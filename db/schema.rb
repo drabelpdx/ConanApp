@@ -284,6 +284,8 @@ ActiveRecord::Schema.define(version: 2025_06_11_211445) do
     t.string "count"
     t.string "image"
     t.string "correction"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "stories", force: :cascade do |t|
