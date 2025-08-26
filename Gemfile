@@ -34,7 +34,7 @@ gem 'zeitwerk', '2.3'
 
 gem 'ffi', '1.16.3'
 gem 'mini_portile2', '2.8.5'
-gem 'nokogiri', '1.18.4'
+gem 'nokogiri', '1.18.8'
 gem 'psych', '3.3.3'
 
 group :development, :test do
